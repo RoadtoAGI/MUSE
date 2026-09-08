@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-592f119a1ed2421b8a15a5b7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L468
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 夜幕中如同一座高耸的黑山
+sensory_mapping: 视觉；尺度；明暗
+context_fact: 汪淼穿过巨摆接近宫殿。
+image_mechanism: 人工建筑的边线在夜色中被抹去，只剩一整块上升黑影；金字塔由此退回地貌尺度。
+property_alignment: 巨大三角轮廓对应山峰；无照明整体黑暗对应夜中山体；建筑压迫尺度对应山体占据视野
+context_alignment: 远景确只能见轮廓和体量，山是恰当参照。
+narrative_function: 建立王权建筑压迫感。
+transfer_rule: 夜景尺度比较应利用光线实际保留下来的轮廓和占屏比例，不依赖白昼细节。
+failure_boundary: 建筑被灯光切分、体量小或轮廓低平时，黑山会虚增整体性和高度。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 黑夜中的纣王金字塔宫殿
+vehicle: 只剩高耸剪影的黑色山体
+ground: 巨大三角轮廓对应山峰；无照明整体黑暗对应夜中山体；建筑压迫尺度对应山体占据视野

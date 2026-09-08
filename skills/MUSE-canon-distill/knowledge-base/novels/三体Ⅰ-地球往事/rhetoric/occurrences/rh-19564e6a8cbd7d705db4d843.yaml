@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-19564e6a8cbd7d705db4d843
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1223
+chapter: 第15章 红岸之四
+figure_type: analogy
+quote: 这种接触对人类文化产生的效应不是融合而是割裂，对人类不同文明间的冲突不是消解而是加剧
+sensory_mapping: 材料状态；熔合；裂缝；张力
+context_fact: 研究认为接触内容和方式并不重要，人类内部心理文化结构会放大分歧并加剧冲突。
+image_mechanism: 多种文化被放进同一材料试验，本期待加热后熔成整体，接触却成为楔力沿既有薄弱处劈开；社会后果可沿裂纹继续传播。
+property_alignment: 文化趋同对应材料融合；群体分化对应材料割裂；既有冲突对应潜在裂纹；外星接触放大差异对应外力使裂缝扩展
+context_alignment: 同段随后提出开关和透镜机制，材料裂合先给出宏观结果，光学放大再解释裂缝为何扩大。
+narrative_function: 以相反物态清楚翻转外星接触促团结的常识预期。
+transfer_rule: 用融合/割裂写群体关系时，应明确原有接缝、施加的外力、裂纹扩展方向和整体功能损失。
+failure_boundary: 文化差异只是并存而未断绝互动，或接触同时产生跨群体合作时，单一割裂材料会抹去双向效应。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 外星接触使人类文化与文明集团之间差异扩大、关系断开
+vehicle: 材料本可熔合成整体，却在外力下开裂分割并使裂口继续扩展
+ground: 文化原有接触可趋同对应材料融合；不同群体因解释差异分开对应整体沿裂缝断裂

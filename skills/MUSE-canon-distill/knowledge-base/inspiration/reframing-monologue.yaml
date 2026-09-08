@@ -1,0 +1,19 @@
+card_id: reframing-monologue
+pattern_name: 反场景独白
+dramatic_function: 用一段无行动独白重写读者对全书暴力和人物的解释框架。
+applicability: 适合主题重量已累积时使用；若前文没有具体暴力经验会显说教（单书孤证，验证面窄）
+reuse_candidates:
+- 逃兵身份
+- 修士职业
+- 三河流域战争
+tags:
+- 主题独白
+- 战争反思
+- 反场景
+source_scenes:
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S06
+  note: 梅里巴德用匿名复数到自白的结构重释战争后果。
+phase_affinity:
+- 3
+- 5

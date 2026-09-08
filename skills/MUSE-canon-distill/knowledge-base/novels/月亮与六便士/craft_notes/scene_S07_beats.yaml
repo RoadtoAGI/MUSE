@@ -1,0 +1,28 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 身体反应序列
+  dimension: verb
+  original_move: 用不自主动词串成心理递进
+  ai_default_failure: 会写脑海中浮现创伤
+  transfer_rule: 写恐惧时让身体替心理说话
+  quote: 她忽然全身颤抖起来
+- pattern_id: S07-p2
+  beat: 善意外衣
+  dimension: omission
+  original_move: 省略过去，只留胁迫性暗示
+  ai_default_failure: 会立刻揭露完整创伤背景
+  transfer_rule: 用旧事暗示制造道德压力
+  quote: 有人伸出援手拉了你一把
+- pattern_id: S07-p3
+  beat: 屈服
+  dimension: camera
+  original_move: 用躲开丈夫说明同意是投降
+  ai_default_failure: 会补足内心挣扎过程
+  transfer_rule: 让微小肢体动作承担关系转折
+  quote: 但是她躲开了
+overall_traits:
+- 身体替代心理独白
+- 善意也能成为暴力
+- 沉默标记结构转折

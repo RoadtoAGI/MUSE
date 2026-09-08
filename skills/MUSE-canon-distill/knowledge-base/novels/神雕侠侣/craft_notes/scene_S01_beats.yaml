@@ -1,0 +1,28 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 采莲词与血手掌的对位
+  dimension: omission
+  original_move: 听词人手上有血，血源与仇恨全不解释，反差自成悬念
+  ai_default_failure: 补一段回忆杀或内心独白解释仇恨来源
+  transfer_rule: 反差本身已构成悬念引擎时，砍掉一切来历解释
+  quote: 提起左手，瞧着染满了鲜血的手掌
+- pattern_id: S01-p2
+  beat: 九个血手印的独白推理
+  dimension: camera
+  original_move: 锁普通人视点对墙上掌印计数，七人九印制造认知失调
+  ai_default_failure: 直写李莫愁潜入印掌的动作段落
+  transfer_rule: 写入侵恐惧时，用受害者的困惑替代全知过程
+  quote: 我家总共也不过七人，怎地印上了九个手印
+- pattern_id: S01-p3
+  beat: 李莫愁出场灭门三拍
+  dimension: verb
+  original_move: 杀人动词用「扫」如扫地，「笑问」紧接「扫死」造硬度差
+  ai_default_failure: 为每个死者写反应镜头与痛苦细节
+  transfer_rule: 写高位压制的屠戮时，镜头跟杀者不跟死者
+  quote: 挥拂尘将两名婢女同时扫死
+overall_traits:
+- 反差引擎：美残持续对位，两极并置不合一
+- 视点经济：普通人作信息中转站共享无力感
+- 杀戮去重量化：叙述之轻模拟人命之轻

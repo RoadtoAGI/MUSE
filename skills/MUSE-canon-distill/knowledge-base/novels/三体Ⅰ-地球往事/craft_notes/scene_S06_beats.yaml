@@ -1,0 +1,49 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 宇宙橄榄球与烧死他
+  dimension: omission
+  original_move: 核心设定揭示后无人惊叹，干笑与死刑令直接接上，零缓冲镜头
+  ai_default_failure: 写听众震撼、由疑转信的渐变弧
+  transfer_rule: 写真理对抗旧范式时，让回应是嘲笑与处决而非折服
+  quote: 「烧死他。」教皇无表情地说
+- pattern_id: S06-p2
+  beat: 宇宙橄榄球与烧死他
+  dimension: info_density
+  original_move: 一段口语加一个橄榄球比喻收束前四章全部反常现象
+  ai_default_failure: 用公式图示与铺垫论证交付硬核设定
+  transfer_rule: 硬核原理的最后一公里交付用单一日常图像压缩
+  quote: 「我们的世界就是球！」
+- pattern_id: S06-p3
+  beat: 答辩即闯关
+  dimension: info_density
+  original_move: 设定拆成攻防回合，每轮敌意反驳被补上即净增一条物理设定
+  ai_default_failure: 让主角做不被打断的设定演讲，众人渐渐点头
+  transfer_rule: 大块设定揭示改写成有性命利害的对抗答辩
+  quote: 「你缺乏起码的科学训练。」
+- pattern_id: S06-p4
+  beat: 燃烧的骑士
+  dimension: omission
+  original_move: 省略一切话语平反，无人喊主角正确，众人逃命即认错
+  ai_default_failure: 安排角色回头说出主角的正确性
+  transfer_rule: 理论验证交给世界按预言发生的事件，删口头平反台词
+  quote: 「世界刚刚毁灭！！世界刚刚毁灭！！」
+- pattern_id: S06-p5
+  beat: 三日凌空——倒置的揭示顺序
+  dimension: camera
+  original_move: 先拍烧红大地与火柱等后果，最后才抬头拍三日本体
+  ai_default_failure: 先拍奇观全景再补拍灾难后果
+  transfer_rule: 大奇观揭示先让读者在后果里走完，抬头一眼背负全部重量
+  quote: 「像一轮巨大的风扇将死亡之风吹向大地」
+- pattern_id: S06-p6
+  beat: 三日凌空——倒置的揭示顺序
+  dimension: omission
+  original_move: 省略惨叫，燃烧的学者以歌唱合诵殉道，恐怖推到审美强度
+  ai_default_failure: 写群体死亡必写痛苦与惨叫
+  transfer_rule: 写大毁灭以天体力学式冷静与审美替代痛苦渲染
+  quote: 「令人疯狂的地狱之美」
+overall_traits:
+- 设定揭示组织成有性命利害的对抗性答辩
+- 验证权交给世界：按预言毁灭即判决书，无人平反
+- 暴力与美感同框不和解，拒绝廉价痛苦渲染

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e077fcea8a10c066e0916b03
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L881
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 他自己仿佛变成了一个单纯的计时器，一口不知道为谁而鸣的丧钟
+sensory_mapping: 视觉数字；听觉钟鸣；节奏；机械；死亡仪式
+context_fact: 他漫无目的行动，意识空白，只看见暗红背景上的倒计时。
+image_mechanism: 人物复杂意识先被拆除，只留下显示数字的机芯；计时器随即获得巨大钟体，每次数字递减都变成一声丧鸣，而死亡对象仍藏在声波之外。
+property_alignment: 意识只剩数字跳动对应计时器功能单一；时间持续减少对应机械逐刻运行；每个时间单位带来死亡预感对应丧钟逐声鸣响；不知道灾难对象对应钟声不知为谁送葬
+context_alignment: 倒计时既有明确数字又指向未知终点，计时器负责认知窄化，丧钟负责终点的死亡含义，两层连续升级。
+narrative_function: 把汪淼的主体性压缩到倒计时工具，并把个人危机扩成不明对象的葬礼预告。
+transfer_rule: 延展计时意象时，可先确定机械记录功能，再让声音或仪式赋予时间方向和终点意义；两层应共享同一节拍。
+failure_boundary: 人物仍能多线思考、时间走向开放或钟声对应明确庆典时，单纯计时器与丧钟会误写认知和终局。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼的自我意识被倒计时完全占据，只能被动记录通向未知灾难的时间
+vehicle: 只执行计时功能、又以每次鸣响宣告死亡临近的丧钟
+ground: 意识只剩数字跳动对应计时器功能单一；时间持续减少对应机械逐刻运行；每个时间单位带来死亡预感对应丧钟逐声鸣响；不知道灾难对象对应钟声不知为谁送葬

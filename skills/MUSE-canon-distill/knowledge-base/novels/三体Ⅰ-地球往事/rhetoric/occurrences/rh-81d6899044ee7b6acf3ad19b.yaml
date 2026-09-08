@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-81d6899044ee7b6acf3ad19b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L348
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 主任像不认识似的看着汪淼
+sensory_mapping: 视觉；表情；时间
+context_fact: 汪淼此前多次因停机建议发怒，这次却要求立即停机。
+image_mechanism: 一句反常命令把熟悉上司从主任的认知模板里抽走，目光于是执行一次重新辨认；惊愕被写成身份识别失败。
+property_alignment: 惯常决策突然反转对应熟人像变成陌生人；停顿凝视对应认人时迟疑确认
+context_alignment: 人物前史提供明确基线，使“认不出”是行为差异而非泛化瞪视。
+narrative_function: 用旁观者反应标出决定的异常幅度。
+transfer_rule: 写突变时，可借熟人辨认失败衡量偏离基线的程度，但必须先让读者知道此人以往稳定做法。
+failure_boundary: 两人本就陌生、外貌真的变化，或命令并不反常时，这句话是字面识别或夸张，不再揭示行为转折。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 主任面对汪淼突然同意停机时的惊愕注视
+vehicle: 熟人行为完全变样后像面对陌生人般重新打量
+ground: 惯常决策突然反转对应熟人像变成陌生人；停顿凝视对应认人时迟疑确认

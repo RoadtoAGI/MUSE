@@ -1,0 +1,262 @@
+# Phase 5: 关键场景 —— 《挪威的森林》逆向分析
+# 只提取结构转折点、高潮、关键建置场景。每个场景有明确的价值转变。
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 波音 747 客机 / 汉堡机场
+        time: 1987 年 11 月（叙事框架）
+        participants: [渡边]
+        pov: 渡边（37 岁）
+        conflict: 记忆 vs 遗忘——《挪威的森林》旋律唤醒 18 年前的记忆
+        value_start: 日常的麻木
+        value_end: 被记忆击中，决定书写
+        must_include: >
+          飞机上听到《挪威的森林》→ 弯腰捂脸 → 空姐关心 →
+          "只是有点伤感" → 草地风景浮现 → "直子连爱都没爱过我"
+        handoff: 回忆开始，时间跳回 1968 年
+        beat_direction: "由感官碎片→情感决堤→叙事动机确立"
+        source_chapter: 第 1 章
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 神户 / 桌球室 / 木月家车库
+        time: 高二五月
+        participants: [渡边, 木月]
+        pov: 渡边
+        conflict: 日常的安全感 vs 毫无征兆的死亡突袭
+        value_start: 正常的友谊（打桌球、开玩笑）
+        value_end: 死亡闯入——"死并非生的对立面"
+        must_include: >
+          打桌球四局 → 木月异常认真（"今天我可是不想输"）→
+          当晚自杀 → 无遗书无动机 → 渡边被警察询问
+        handoff: 渡边决定来东京开始新生活
+        source_chapter: 第 2 章
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 直子的公寓（国分寺）
+        time: 1969 年 4 月中旬（直子 20 岁生日）
+        participants: [渡边, 直子]
+        pov: 渡边
+        conflict: 直子的情感决堤 vs 渡边的无力承接
+        value_start: 温馨的生日庆祝（蛋糕、葡萄酒、音乐）
+        value_end: 崩溃——性关系发生，次日直子消失
+        must_include: >
+          蛋糕崩塌但仍然点蜡烛 → 直子滔滔不绝四小时 →
+          渡边打断后直子崩溃大哭 → 性关系（直子是处女）→
+          次日直子无言 → 渡边离开 → 一周后直子搬走消失
+        handoff: 渡边陷入空洞，等待直子的消息
+        beat_direction: "从温暖的建置到不可挽回的决堤——整章的情感弧度如自由落体"
+        source_chapter: 第 3 章
+
+      - scene_id: S04
+        arc_id: ARC-1
+        location: 宿舍楼顶天台 / 供水塔
+        time: 1969 年夏末
+        participants: [渡边, 萤火虫]
+        pov: 渡边
+        conflict: 生命的微光 vs 包围一切的黑暗
+        value_start: 孤独、空洞
+        value_end: 微弱的希望——萤火虫飞走，但光的轨迹留下
+        must_include: >
+          敢死队送的萤火虫 → 渡边在供水塔上等待天黑 →
+          萤火虫微弱发光 → 放飞 → 光在黑暗中消失 →
+          "那微弱浅淡的光点，仿佛迷失方向的魂灵"
+        handoff: 直子来信（第四章），新阶段开始
+        beat_direction: "全书最具象征性的独白场景——萤火虫=直子=渡边自己=生命本身"
+        source_chapter: 第 3 章末
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 大学附近小餐馆
+        time: 1969 年 9 月
+        participants: [渡边, 绿子]
+        pov: 渡边
+        conflict: 渡边的封闭 vs 绿子不可遏制的活力
+        value_start: 孤独的午餐
+        value_end: 一个全新的人闯入——"全身迸发出无限活力和蓬勃生机"
+        must_include: >
+          绿子戴太阳镜走来 → 短发的冲击 →
+          "哪里会有人喜欢孤独，不过是不喜欢失望" →
+          借笔记本 → 约定再见
+        handoff: 渡边的世界开始有了除直子之外的引力
+        source_chapter: 第 4 章
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 绿子家晾衣台
+        time: 1969 年 10 月（周日下午）
+        participants: [渡边, 绿子]
+        pov: 渡边
+        conflict: 对绿子的好感 vs 对直子的牵挂
+        value_start: 轻松的午后（做饭、聊天、看远处火灾）
+        value_end: 接吻——暧昧确立，但双方都有牵挂
+        must_include: >
+          绿子做天妇罗 → 远处着火 → 晾衣台上喝啤酒看火灾 →
+          自然地接吻 → 绿子说"我有交往的人"→ 渡边承认"有可心的女孩"
+        handoff: 收到直子来信，渡边即将前往阿美寮
+        source_chapter: 第 4 章
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: 阿美寮（直子与玲子的房间 / 草地 / 松林）
+        time: 1969 年秋
+        participants: [渡边, 直子, 玲子]
+        pov: 渡边
+        conflict: 渡边的"正常"世界观 vs 直子/玲子/阿美寮的"承认不正常"
+        value_start: 好奇与紧张——第一次进入这个封闭世界
+        value_end: 深度理解——直子的困境、家族的命运、玲子的悲剧
+        must_include: >
+          阿美寮的环境描写 → 玲子的幽默和温暖 →
+          直子深夜裸体展示（渡边第一次/唯一一次看到直子完整的身体）→
+          直子坦白：姐姐 17 岁自杀 + 与木月的性障碍 →
+          直子请求"等我" → 玲子讲述 13 岁女学生的故事 →
+          告别时三人弹吉他唱歌
+        handoff: 渡边回到东京，两个世界的撕裂正式开始
+        beat_direction: "全书信息密度最高的场景群——三天两夜的密集交谈改变了一切"
+        source_chapter: 第 5-6 章
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 医院病房
+        time: 1969 年冬～1970 年初
+        participants: [渡边, 绿子父亲]
+        pov: 渡边
+        conflict: 渡边作为外人照顾绿子父亲 vs 死亡的日常化
+        value_start: 尴尬的探望
+        value_end: 真切的联结——喂黄瓜的"咔嚓"声成为渡边与死亡最亲密的接触
+        must_include: >
+          渡边独自留下照看 → 喂父亲吃黄瓜（"咔嚓、咔嚓"）→
+          为他接尿 → 父亲断续的话"票""绿子""拜托了" →
+          父亲去世后绿子说"葬礼你别来"
+        handoff: 渡边在绿子的世界中不再是旁观者
+        source_chapter: 第 7 章
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-3
+        location: 东京高级法餐厅 / 桌球室
+        time: 1970 年 1 月左右
+        participants: [渡边, 永泽, 初美]
+        pov: 渡边
+        conflict: 永泽的冷酷 vs 初美的爱——等待者的命运
+        value_start: 庆祝的愉快氛围
+        value_end: 初美愤怒离席 + 叙事者闪前揭示初美自杀
+        must_include: >
+          永泽故意提及猎艳 → 初美发火"管什么人生观不人生观" →
+          渡边送初美回家打桌球 → 想起木月死前也是打桌球 →
+          新墨西哥夕阳中的顿悟（闪前：初美已死）
+        handoff: 另一种等待的结局被预示——直子的命运将如何？
+        beat_direction: "现在时与未来时的并置——当下的愤怒与多年后的追悔叠加为双重冲击"
+        source_chapter: 第 8 章
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-3
+        location: 商店天台（雨中）
+        time: 1970 年 6 月
+        participants: [渡边, 绿子]
+        pov: 渡边
+        conflict: 绿子的表白 vs 渡边无法全心回应
+        value_start: 两个月冷战后的重逢——紧张、小心翼翼
+        value_end: 绿子直接表白 + 渡边意识到自己的心
+        must_include: >
+          绿子打破两个月沉默 → 雨中对话 →
+          "我喜欢你超过喜欢他" → 绿子已与男友分手 →
+          渡边在电车上意识到"我确实爱绿子" →
+          但直子此时已转入专科医院
+        handoff: 渡边写信给玲子坦白一切，进入最终的等待
+        beat_direction: "认知与处境的反讽——终于知道自己的心，却无法行动"
+        source_chapter: 第 10 章
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 阿美寮 → 森林
+        time: 1970 年 8 月 25 日前后
+        participants: [直子, 玲子]
+        pov: 渡边（通过玲子的转述）
+        conflict: 直子表面的平静 vs 内心已做出不可逆的决定
+        value_start: 直子返回阿美寮整理遗物，表现得异常开朗
+        value_end: 凌晨走入森林自缢——死亡完成
+        must_include: >
+          直子烧毁日记和渡边的信 → 与玲子最后一夜长谈 →
+          说出"那东西不期而来，倏忽而去，一去不复返" →
+          衣服留给玲子 → 凌晨消失 → 在森林中自缢
+        handoff: 渡边崩溃
+        beat_direction: "通过玲子的事后叙述呈现——冷静的回溯比即时描写更加残酷"
+        source_chapter: 第 11 章
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-4
+        location: 渡边的公寓
+        time: 1970 年 10 月底
+        participants: [渡边, 玲子]
+        pov: 渡边
+        conflict: 如何告别死者 vs 如何面对活人
+        value_start: 悲痛尚未平复
+        value_end: 仪式性的告别完成——51 首曲子、性关系、玲子离去
+        must_include: >
+          玲子弹 51 首吉他曲（从甲壳虫到巴赫）→
+          "这是不凄凉的葬礼" → 仪式性的性关系 →
+          玲子说"祝你幸福地活下去，把我这份和直子那份都补偿回来"
+        handoff: 渡边拨通绿子的电话——最终场景
+        source_chapter: 第 11 章
+
+      - scene_id: S13
+        arc_id: ARC-4
+        location: 电话亭（不知何处）
+        time: 1970 年 10 月/11 月
+        participants: [渡边, 绿子（电话中）]
+        pov: 渡边
+        conflict: 选择生 vs 仍然迷失
+        value_start: 带着创痛，准备重新面对世界
+        value_end: "你现在哪里？"——不知身在何处
+        must_include: >
+          渡边拨通绿子电话 →
+          "整个世界上除了她别无他求" →
+          绿子长久沉默 → "你现在哪里？" →
+          渡边茫然四顾，不知自己在哪里
+        handoff: 无——小说结束
+        beat_direction: "全书最后的反讽——选择了生，但不知身在何处。这就是'活着'的真实面貌"
+        source_chapter: 第 11 章末
+
+tension_curve:
+  description: >
+    全书张力曲线呈双峰结构：
+    第一峰在 ARC-2 的阿美寮场景群（S07，信息密度最高），
+    第二峰（最高峰）在 ARC-4 的直子之死至最终电话（S11-S13）。
+    两峰之间是 ARC-3 的缓慢攀升和持续拉锯。
+    开头（S01）和萤火虫（S04）是抒情性的低谷，
+    提供情感呼吸空间。
+  peaks: [S03, S07, S09, S11, S13]
+  valleys: [S01, S04, S05]
+
+causal_chain: >
+  S02（木月自杀）→ S03（直子生日夜崩溃→消失）→
+  S04（渡边的空洞期）→ S05（绿子闯入）→
+  S06（火灾之吻→直子来信）→ S07（阿美寮探访→理解直子）→
+  S08（照顾绿子父亲→纽带加深）→ S09（初美事件→等待的代价）→
+  S10（绿子表白→渡边觉醒但无法行动）→
+  S11（直子自缢→不可逆）→ S12（葬礼与告别）→
+  S13（电话→选择生，但迷失）

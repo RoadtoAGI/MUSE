@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0a735ee806632825e32f0ce8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2010
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 外面的严寒已开始用屋里温暖的湿汽在窗户上雕出美丽的冰纹了
+sensory_mapping: 窗面冰花；刻刀纹路；寒冷触感；湿暖水汽；晶体细节
+context_fact: 屋内有油灯和炭火的温暖，屋外是大兴安岭严寒，两种温度在窗上相遇。
+image_mechanism: 严寒从室外伸出看不见的刻刀，屋内湿汽则成为它取用的透明材料；冷热边界不只结霜，而共同完成一幅冰雕。
+property_alignment: 严寒作用对应雕刻者；温暖湿汽对应原料；玻璃对应工作面；结晶分枝对应刻纹；冰花美丽对应艺术成品；内外温差对应施工作用条件
+context_alignment: 油灯在室内作画，严寒在窗上雕刻，两位无形艺术家共同把贫寒夜晚转成古典艺术空间。
+narrative_function: 把冷热冲突转成合作创作，增强齐家屯生活的温暖、丰厚和可珍藏感。
+transfer_rule: 用雕刻写结晶时，应明确施力条件、材料来源、承载表面、纹理生成和成品形态。
+failure_boundary: 窗面只是均匀结雾、没有清晰冰纹，或室内外无温差和水汽时，雕刻过程缺物理支点。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 室外低温使室内水汽在玻璃上凝华冻结，逐渐生成精细分枝冰花
+vehicle: 雕刻者借柔软材料和刻刀在平面上逐线刻出复杂美丽纹样
+ground: 低温驱动结晶对应雕刻者施力；湿汽提供冰晶对应雕刻材料；冰纹逐渐成形对应刻线出现；窗玻璃对应雕刻平面

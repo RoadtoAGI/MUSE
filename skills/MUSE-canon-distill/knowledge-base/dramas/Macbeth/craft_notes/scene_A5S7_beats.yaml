@@ -1,0 +1,56 @@
+scene_id: A5S7
+source_notes: scene_A5S7_beats.md
+patterns:
+- pattern_id: A5S7-p1
+  beat: 缚熊自况立规则
+  dimension: monologue
+  original_move: 终局开场以缚柱斗熊自况：被困、凶悍、必死
+  ai_default_failure: 写他试图突围或求生盘算
+  transfer_rule: 决战开场给主角一个自我定义的意象框住全局
+  quote: bear-like I must fight
+- pattern_id: A5S7-p2
+  beat: 无名少年祭旗
+  dimension: blocking
+  original_move: 先杀无名少年当众验证咒符一次，为真对手抬价
+  ai_default_failure: 拉长决斗或直接进终战
+  transfer_rule: 终极对决前安排低价验证，规则立住反转才响
+  quote: Thou wast born of woman
+- pattern_id: A5S7-p3
+  beat: 复仇者错身追猎
+  dimension: blocking
+  original_move: 麦克德夫循声寻敌台上反复错过，脚步声先于决斗
+  ai_default_failure: 直接安排两人相遇
+  transfer_rule: 必然相遇前插一拍错过，期待被物理化
+  quote: That way the noise is
+- pattern_id: A5S7-p4
+  beat: 恶人先认罪避战
+  dimension: exchange
+  original_move: 终遇时反派拒战自陈血债已重，残余人性抬升决斗重量
+  ai_default_failure: 两人见面即互相叫阵
+  transfer_rule: 反派最后一丝不忍放在刀剑之前，不放在死后
+  quote: my soul is too much charged
+- pattern_id: A5S7-p5
+  beat: 一行台词拆咒
+  dimension: exchange
+  original_move: 剖腹而生一行短句打穿全部护身咒，不给解释篇幅
+  ai_default_failure: 安排冗长的解释与震惊描写
+  transfer_rule: 埋雷越久引线越短，反转句必须一行打穿
+  quote: untimely ripped
+- pattern_id: A5S7-p6
+  beat: 知必死仍拒降
+  dimension: exchange
+  original_move: 拒绝投降示众，清醒地选择战死，掷盾决死
+  ai_default_failure: 写忏悔、求饶或临终顿悟
+  transfer_rule: 反派终点写选择而非报应，自由意志保到最后
+  quote: Lay on, Macduff
+- pattern_id: A5S7-p7
+  beat: 首级上场新朝仪式
+  dimension: transition
+  original_move: 尸身场外头颅上场，封爵召还流亡，秩序回环呼应开场
+  ai_default_failure: 决斗结束即落幕
+  transfer_rule: 悲剧死亡后必须有秩序重启拍，否则只是结束
+  quote: th'usurper's cursed head
+overall_traits:
+- 终幕以号角与上下场快切组装，节奏在调度
+- 三条谕示在本场逐一按字面清算，结构闭环
+- 暴君之死分配为他人之手场外之刀台上之头

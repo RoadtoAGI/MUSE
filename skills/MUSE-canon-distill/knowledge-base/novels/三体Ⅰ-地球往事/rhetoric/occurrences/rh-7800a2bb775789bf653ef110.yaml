@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7800a2bb775789bf653ef110
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1343
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 佛祖保佑我主脱离苦海
+sensory_mapping: 水触觉；溺水；空间无边；救援动作
+context_fact: 申玉菲向佛祖祈求拯救另一位真实存在的主，后来可知其指三体文明及其生存危机。
+image_mechanism: 无法说明的文明级苦难被汇成一片海，主从高位神祇反转为水中受困者；向另一宗教求助便成为跨岸投出的救生请求。
+property_alignment: 三体长期灾难对应苦海无边；文明反复毁灭对应在海中持续沉浮；自身难保对应无法游上岸；祈求佛祖对应请求外力救援
+context_alignment: 佛教惯用苦海在此被故意套到异教“主”身上，熟语因等级倒置重新变得怪异而具悬念。
+narrative_function: 以宗教悖论暗示主并非全能神，而是需要拯救的真实文明。
+transfer_rule: 用苦海写困境时，应落实包围范围、持续沉浮、自救失败和岸/救援者的位置。
+failure_boundary: 困难局部短暂、主体仍掌握明确出口或“主”按教义绝对全能时，苦海会与权力结构冲突；此处冲突正是谜面。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 申玉菲所信奉的“主”陷于巨大、长期且难自救的灾难处境
+vehicle: 在无边苦涩海水中沉浮、需要外力救上岸的受难者
+ground: 苦难包围主体且持续对应海水四面围困；主体无法自行脱困对应落海者需救援到岸

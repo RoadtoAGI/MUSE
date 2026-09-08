@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-07160d19bc700014e84281c3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1055
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 一团团雪白的水蒸汽成蘑菇云状高高升起
+sensory_mapping: 视觉；垂直运动；轮廓；尺度
+context_fact: 巨日高温使多个湖泊同时沸腾蒸发，水汽升高后扩散并遮住人类骨灰。
+image_mechanism: 无定形蒸汽被分成可辨的茎与冠：下部快速上冲，上部横向膨开，湖泊受热的速度因而呈现为近似爆炸的云体生长。
+property_alignment: 水汽高高上升对应爆云柱体；到高处弥散对应蘑菇冠横展；多团同时出现对应多处爆炸式热源
+context_alignment: 湖泊并未真正核爆，但巨日造成的瞬时热输入足以产生灾难性上升云，形状比拟保留了物理可见部分。
+narrative_function: 用爆炸云形表现蒸发之剧烈，并以白云遮骨灰收束生命毁灭。
+transfer_rule: 使用蘑菇云形象时，要落实柱状上升、顶部膨大和快速热对流三项，不把它仅当灾难标签。
+failure_boundary: 薄雾贴地、均匀蒸发或没有上冲后横展的云团不具蘑菇轮廓；此喻也不能证明发生核爆。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 湖泊急剧蒸发后成团上升并向顶部扩散的白色水汽
+vehicle: 爆炸后形成柱茎与膨大云冠的蘑菇云
+ground: 水汽先集中上冲再在高处弥散对应蘑菇云柱上升、顶部扩张；成团白云的轮廓对应蘑菇状云冠

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b67b28a27e67057ac5df4e66
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L944
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 所有这一切，都有且只有一个后台
+sensory_mapping: 剧场空间；前后遮蔽；调度动作；视觉；组织结构
+context_fact: 他把犯罪、学者自杀、环保运动、文化投资和邪教视为一套反科学计划。
+image_mechanism: 社会表面被搭成并列舞台，每类事件穿着不同戏服出现；大史把视线绕到幕布后，将共同资金、方向和时机集中到一个控制区。
+property_alignment: 公众所见事件对应前台不同节目；幕后组织不可见对应后台被幕布遮挡；资源与时机相似对应后台统一供给调度；多种表象服务一项目标对应不同场次服从同一演出
+context_alignment: 此前“串联”只建立关系，后台进一步提出共同施动者；大史以侦查口吻把抽象阴谋落成可搜查位置。
+narrative_function: 提出本阶段核心敌人假说，把零散异常收束为有组织战争。
+transfer_rule: 用后台写隐藏协调者时，应分别对应可见表演、遮蔽边界、资源调度和共同目标，并把“唯一”保留为待验证假说。
+failure_boundary: 事件可能来自模仿、共同环境或多个组织；没有资金、指令或时序证据时，单一后台会把相关性过度统一。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 大史推断多类表面独立事件由同一个隐藏组织协调
+vehicle: 剧场舞台后方不可见却统一调度演员、道具和场次的后台
+ground: 公众所见事件对应前台不同节目；幕后组织不可见对应后台被幕布遮挡；资源与时机相似对应后台统一供给调度；多种表象服务一项目标对应不同场次服从同一演出

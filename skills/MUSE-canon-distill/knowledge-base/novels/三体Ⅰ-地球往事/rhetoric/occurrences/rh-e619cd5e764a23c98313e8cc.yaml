@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e619cd5e764a23c98313e8cc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L875
+chapter: 第10章 宇宙闪烁之二
+figure_type: analogy
+quote: 旁边几幅彩旗正在风中飘出的皱褶、路旁一洼积水表面的涟漪，都向他传递着莫尔斯电码
+sensory_mapping: 视觉；节奏；长短模式；通信；水面与布面运动
+context_fact: 他刚从宇宙背景曲线中解出倒计时，于是捕捉城市中所有不规则闪烁。
+image_mechanism: 风和水造成的连续形变被切成离散长短单元，城市表面像遍布发报键；人物把每一道褶皱和涟漪都接入同一通信频道。
+property_alignment: 皱褶涟漪的长短间隔对应电码长短信号；随时间连续变化对应发报序列；汪淼逐项破译对应接收者查码；随机现象被感为指向他对应通信有发送意图与对象
+context_alignment: 真实曲线刚证明莫尔斯倒计时，模式识别从有依据数据溢出到随机景物，准确表现恐惧后的认知泛化。
+narrative_function: 把倒计时从眼镜画面扩散到整个城市，呈现汪淼无法停止解码。
+transfer_rule: 写模式识别失控时，应先建立一个真实编码范例，再让相似但随机的节奏逐步被并入同一译码框架。
+failure_boundary: 旗褶和涟漪没有稳定发送者与编码规则，不能当作真实通信证据；若模式可重复验证，则不应只解释为心理泛化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼在恐惧中过度解读旗褶与水纹的随机短长变化
+vehicle: 发报者有意把信息编码成莫尔斯长短信号并通过载波发送给接收者
+ground: 皱褶涟漪的长短间隔对应电码长短信号；随时间连续变化对应发报序列；汪淼逐项破译对应接收者查码；随机现象被感为指向他对应通信有发送意图与对象

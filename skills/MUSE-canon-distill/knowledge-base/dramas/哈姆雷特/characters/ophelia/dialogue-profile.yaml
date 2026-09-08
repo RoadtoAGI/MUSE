@@ -1,0 +1,20 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:ophelia
+work_id: drama:哈姆雷特
+display_name: 欧菲莉亚
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "欧菲莉亚前期声音短促、顺从、以问句和“我不知道应如何想”呈现不确定；她很少正面抗辩，只偶尔以温和反问提醒雷尔提不要双重标准。后期疯癫声音改用民谣、碎片故事、花语和宗教祝愿，把无法在宫廷里直说的父死、失贞恐惧、被抛弃和腐败暗示拆散发出。潜台词模式从“听命但困惑”转成“失序中泄露真相”。\
+    \  \n\n来源：phase2_character.yaml → supporting_cast.欧菲莉亚.voice_traits  \n佐证：scenes/scene_A1S3.md:L5-L11；scenes/scene_A3S1.md:L17-L23；scenes/scene_A4S5.md:L9-L17"
+  evidence_locators:
+  - scenes/scene_A1S3.md:L5-L11
+  - scenes/scene_A3S1.md:L17-L23
+  - scenes/scene_A4S5.md:L9-L17
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,53 @@
+scene_id: A1S5
+source_notes: scene_A1S5_beats.md
+patterns:
+- pattern_id: A1S5-p1
+  beat: 延宕入题
+  dimension: transition
+  original_move: 承接上场追随动作直接开场，跨场零缓冲
+  ai_default_failure: 跨场补写赶路与气氛铺垫，悬念被泄掉
+  transfer_rule: 高张力跨场可从上一场的动词中间切入
+  quote: 你要带我去何处?
+- pattern_id: A1S5-p2
+  beat: 不可尽言的框
+  dimension: monologue
+  original_move: 揭秘前先立禁区，恐怖靠列举听者生理反应
+  ai_default_failure: 直接铺陈地狱景象，超自然角色全知全说
+  transfer_rule: 让超自然角色保留禁区，比说尽更可信
+  quote: 勿可泄露於血肉之耳
+- pattern_id: A1S5-p3
+  beat: 谋杀揭示的递进
+  dimension: exchange
+  original_move: 真相分隐喻、点名、细节三层剥，每层等反应一拍
+  ai_default_failure: 一口气倒完真相，不给听者反应拍
+  transfer_rule: 重大揭示按隐喻到点名到细节分层放出
+  quote: 咬死汝父的毒蛇, 此刻正戴著他的皇冠
+- pattern_id: A1S5-p4
+  beat: 复仇的边界条款
+  dimension: exchange
+  original_move: 委托复仇同步立禁令，为后场克制预埋契约
+  ai_default_failure: 复仇委托写成无条件授权，后场张力无源
+  transfer_rule: 给复仇者一条不可越的线，逼近即生张力
+  quote: 把她留给天堂裁判
+- pattern_id: A1S5-p5
+  beat: 记忆清盘独白
+  dimension: monologue
+  original_move: 内心誓言外化为掏笔记本书写的可演动作
+  ai_default_failure: 决心只在内心宣示，无实物落点不可上演
+  transfer_rule: 独白高潮处给角色一个手头动作
+  quote: 有人能笑呀笑的, 但仍然是个恶棍
+- pattern_id: A1S5-p6
+  beat: 疯话闪避
+  dimension: exchange
+  original_move: 用废话防御挡住密友，只换保密承诺不换内容
+  ai_default_failure: 让主角向密友和盘托出以推进剧情
+  transfer_rule: 秘密持有者可用空话交换承诺
+  quote: 没有一个不是纯粹歹徒的恶棍
+- pattern_id: A1S5-p7
+  beat: 三移其地的宣誓
+  dimension: blocking
+  original_move: 鬼魂地下喊誓、三次移位按剑，恐怖与谐谑同拍
+  ai_default_failure: 宣誓写成一次性肃穆仪式，调度静止
+  transfer_rule: 仪式重复加移位，把抽象誓言变可数事件
+  quote: 老鼹鼠, 你打洞打得这么快?
+overall_traits: []

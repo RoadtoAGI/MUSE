@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e4f70381b10aa4a5d0a76a29
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1854
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 与那些力量相比，热核炸弹不过是一根温柔的蜡烛
+sensory_mapping: 微弱火光；温和热度；小尺度；黑暗对比；易熄灭
+context_fact: 叶文洁知道核武已能多次毁灭地球，又意识到宇宙还有黑洞和反物质等更可怕力量。
+image_mechanism: 蘑菇云和恒星火球被骤然缩到指间烛芯，爆炸白光变成柔光；参照系一换，人类已恐怖的武器只剩宇宙能量谱上的微小火苗。
+property_alignment: 热核炸弹对应蜡烛；核聚变火球对应烛焰；相对能量有限对应火光微弱；影响局部对应照明半径小；黑洞反物质对应远超烛火的巨大能量
+context_alignment: “温柔”与核弹常识强烈冲突，只有在宇宙尺度比较下成立，准确展示科技升级会怎样放大疯狂后果。
+narrative_function: 重新校准毁灭尺度，说明人类若获得更高能技术可能瞬间汽化世界。
+transfer_rule: 用蜡烛缩小强大事物时，应给出更大参照、能量或范围数量级差，并说明何种属性因此显得温和。
+failure_boundary: 没有明确更强参照、比较只靠修辞，或核弹对当前对象仍是最大威胁时，温柔蜡烛会淡化真实灾害。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类最强热核武器相对黑洞、反物质等宇宙能量仍极其微弱、局部且可控
+vehicle: 一根小蜡烛发出柔和有限的火光，与巨大毁灭性火源相比近乎无害
+ground: 核弹能量远小于宇宙极端力量对应烛火热量有限；破坏范围相对局部对应烛光只照亮近处

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-17157e3b610d32fae670d2ed
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1574
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 隐藏在简洁表象下海量的信息和精确的细节
+sensory_mapping: 表面与深层；视觉遮蔽；海水体量；下潜；密集纹理
+context_fact: 老哲学家解释游戏吸引力，认为其世界设定简洁却逻辑严密，每轮文明都暗含大量知识。
+image_mechanism: 简洁界面被压成一层薄膜，膜下不是空白而是辽阔信息海；玩家每多玩一轮就像下潜一层，看见此前被水面遮住的精密结构。
+property_alignment: 简洁呈现对应平整表面；未明说设定对应表层下隐藏物；信息数量巨大对应海水体量；探索游戏对应下潜；精确细节对应深处密集结构
+context_alignment: 三体游戏以熟悉人类历史遮盖真实外星结构，表层—深层框架也准确预告潘寒随后揭露游戏背后的现实。
+narrative_function: 说明简洁风格如何容纳复杂世界，并为“游戏不只是游戏”的揭幕蓄势。
+transfer_rule: 用表层下的信息海写作品密度时，应给出简洁外观、可被逐步发现的隐含内容和足以支撑海量的具体细节。
+failure_boundary: 所谓深层只靠读者过度阐释、作品没有稳定细节支撑，或信息已全部直白展示时，该图像会制造虚假深度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 《三体》看似简洁的画面和规则背后包含极多未明说的信息与精密设定
+vehicle: 平整表面覆盖着一片体量如海的深层内容，必须穿透或下潜才能发现
+ground: 外观简洁对应平静薄表面；隐含信息极多对应表面下存在广阔深水；细节需探索对应潜入后逐处发现

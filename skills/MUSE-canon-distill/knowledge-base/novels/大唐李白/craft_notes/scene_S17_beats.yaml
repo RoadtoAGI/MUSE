@@ -1,0 +1,14 @@
+scene_id: S17
+source_notes: scene_S17_beats.md
+patterns:
+- pattern_id: S17-p1
+  beat: 补题
+  dimension: omission
+  original_move: 用补题小动作完成不赴长安转向
+  ai_default_failure: 让主角发表人生选择宣言
+  transfer_rule: 重大转向可落在最小行为上
+  quote: 便题作寄弄月溪吴山人
+overall_traits:
+- 方向外化内在选择
+- 最小行为承载最大转折
+- 水意象贯穿三重功能

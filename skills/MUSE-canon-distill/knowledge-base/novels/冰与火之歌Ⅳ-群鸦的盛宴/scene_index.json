@@ -1,0 +1,548 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "渗透",
+      "身份替换",
+      "学城",
+      "无面者",
+      "谋杀"
+    ],
+    "characters": [
+      "佩特",
+      "炼金术士/贾昆",
+      "萝希"
+    ],
+    "conflict_type": "external",
+    "pov": "佩特",
+    "word_count": 3061,
+    "source_chapter": "第231章 序幕",
+    "file": "scenes/scene_S01.md",
+    "description": "无面者贾昆通过黑铁换黄金的交易收买佩特，完成学城钥匙的窃取后将佩特毒杀并取代其身份",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，随欲望疑问滑入内心",
+      "diction": "译腔白话夹中世纪器物名",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低密对白，交易句短促克制",
+      "pacing": "晨景铺陈后骤然收束死亡"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "家族分裂",
+      "权力争夺",
+      "葬礼",
+      "兰尼斯特",
+      "拒绝"
+    ],
+    "characters": [
+      "瑟曦",
+      "凯冯",
+      "詹姆"
+    ],
+    "conflict_type": "personal",
+    "pov": "瑟曦/詹姆",
+    "word_count": 4562,
+    "source_chapter": "第238-239章 瑟曦/詹姆",
+    "file": "scenes/scene_S02.md",
+    "description": "泰温葬礼期间凯冯暗示知晓乱伦秘密并拒绝首相，詹姆拒绝瑟曦的权力邀请，兰尼斯特家族在权力核心彻底分裂",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "双限知贴身，判断暴露偏执裂缝",
+      "diction": "宫廷礼语混粗鄙心理词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对峙对白推进，反击逐层升级",
+      "pacing": "长谈压迫接静夜内省转场"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "选王会",
+      "政治演说",
+      "龙之号角",
+      "铁群岛",
+      "权力更迭"
+    ],
+    "characters": [
+      "攸伦",
+      "维克塔利昂",
+      "阿莎",
+      "湿发伊伦"
+    ],
+    "conflict_type": "external",
+    "pov": "湿发伊伦",
+    "word_count": 5047,
+    "source_chapter": "第250章 淹人",
+    "file": "scenes/scene_S03.md",
+    "description": "铁群岛选王会上三方角力，攸伦以龙之号角和三条龙的秘密为筹码赢得浮木王冠",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知宗教视角，裁判口吻冷硬",
+      "diction": "海盗粗语与神谕腔并置",
+      "rhetoric_density": "high",
+      "dialogue_mode": "演说型对白，群众反应托举",
+      "pacing": "候选轮番登场后号角爆破"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "身份伪装",
+      "谎言",
+      "谷地",
+      "小指头",
+      "成长"
+    ],
+    "characters": [
+      "珊莎/阿莲",
+      "培提尔/小指头",
+      "奈斯特·罗伊斯"
+    ],
+    "conflict_type": "internal",
+    "pov": "珊莎",
+    "word_count": 5043,
+    "source_chapter": "第241章 珊莎",
+    "file": "scenes/scene_S04.md",
+    "description": "珊莎以阿莲身份配合小指头向奈斯特撒谎，用月门堡封邑收买其忠诚后主动认同新身份",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，少女自训压住恐惧",
+      "diction": "礼貌宫廷语掺谎言细节",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答密集，称谓维持伪装",
+      "pacing": "细节控场，谎言成功后放缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "多恩",
+      "阴谋失败",
+      "加冕",
+      "骑士之死",
+      "拦截"
+    ],
+    "characters": [
+      "亚莲恩",
+      "弥赛菈",
+      "阿利欧·何塔",
+      "亚历斯·奥克赫特"
+    ],
+    "conflict_type": "external",
+    "pov": "亚莲恩(回溯)",
+    "word_count": 3945,
+    "source_chapter": "第252章 拥女王者",
+    "file": "scenes/scene_S05.md",
+    "description": "亚莲恩秘密加冕弥赛菈的计划在绿血河边被何塔拦截，御林铁卫奥克赫特战死，冲动反叛被老一代战略耐心碾碎",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "回溯限知，浪漫计划被现实打断",
+      "diction": "多恩艳色词汇转入军法冷语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "密谋低语转为命令和惊呼",
+      "pacing": "旅途拖慢，伏兵瞬间切断"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "战争反思",
+      "逃兵演说",
+      "人性",
+      "修士",
+      "主题核心"
+    ],
+    "characters": [
+      "布蕾妮",
+      "梅里巴德修士",
+      "波德瑞克"
+    ],
+    "conflict_type": "internal",
+    "pov": "布蕾妮",
+    "word_count": 2020,
+    "source_chapter": "第256章 布蕾妮",
+    "file": "scenes/scene_S06.md",
+    "description": "梅里巴德修士讲述逃兵的故事——全书战争主题的哲学核心：战争把好人变成怪物",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "旁听限知，让修士长述接管叙事",
+      "diction": "朴素口语承载战争残酷名词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "独白为主，提问只作引线",
+      "pacing": "行路缓拍中嵌入长段回忆"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "身份丧失",
+      "无面者",
+      "杀人",
+      "失明",
+      "代价"
+    ],
+    "characters": [
+      "艾莉亚/猫儿",
+      "慈祥的人",
+      "戴利恩"
+    ],
+    "conflict_type": "internal",
+    "pov": "艾莉亚",
+    "word_count": 3566,
+    "source_chapter": "第265章 运河边的猫儿",
+    "file": "scenes/scene_S07.md",
+    "description": "艾莉亚以个人意志杀死逃兵戴利恩后向慈祥的人汇报，被夺去视力作为训练的代价",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，身份训练压低情绪",
+      "diction": "市井动作词混仪式冷语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "汇报式对白，审问句短而硬",
+      "pacing": "日常细节蓄势，惩罚突然落下"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "政治谈判",
+      "教会武装",
+      "无归点",
+      "戏剧反讽",
+      "自毁"
+    ],
+    "characters": [
+      "瑟曦",
+      "大麻雀"
+    ],
+    "conflict_type": "external",
+    "pov": "瑟曦",
+    "word_count": 6149,
+    "source_chapter": "第259章 瑟曦",
+    "file": "scenes/scene_S08.md",
+    "description": "瑟曦拜访大圣堂与大麻雀谈判，以免债换祝福并同意重建教会武装——全书的无归点，她亲手创造了将自己吞噬的力量",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "瑟曦限知，傲慢误读持续外露",
+      "diction": "王权套语对撞贫民宗教词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "谈判对白推进，礼貌藏勒索",
+      "pacing": "条款逐项放出，反讽缓慢成形"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "铁群岛",
+      "东征",
+      "叛心",
+      "龙女",
+      "帝国野心"
+    ],
+    "characters": [
+      "维克塔利昂",
+      "攸伦"
+    ],
+    "conflict_type": "personal",
+    "pov": "维克塔利昂",
+    "word_count": 2894,
+    "source_chapter": "第260章 掠夺者",
+    "file": "scenes/scene_S09.md",
+    "description": "攸伦攻陷盾牌列岛后命维克塔利昂率铁舰队东赴奴隶湾迎娶龙女，维克塔利昂表面服从内心暗决将龙女据为己有",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "维克塔利昂限知，迟钝欲望裸露",
+      "diction": "铁民粗砺语夹远航奇观词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "兄弟对话表面服从暗藏叛意",
+      "pacing": "战后分封铺陈转向远征钩子"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "寂静岛",
+      "猎狗之死",
+      "真相",
+      "誓言坚守",
+      "和平"
+    ],
+    "characters": [
+      "布蕾妮",
+      "长老",
+      "梅里巴德修士"
+    ],
+    "conflict_type": "internal",
+    "pov": "布蕾妮",
+    "word_count": 2884,
+    "source_chapter": "第262章 布蕾妮",
+    "file": "scenes/scene_S10.md",
+    "description": "寂静岛长老告知猎狗已死并揭示布蕾妮追踪目标一直搞错，布蕾妮在信息崩塌后仍坚守誓言拒绝放弃",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "布蕾妮限知，疑问被长者缓释",
+      "diction": "修院静语冲淡骑士传说词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长者告知型对白，答非所问留白",
+      "pacing": "静态参观中层层揭开误认"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "围城",
+      "心理战",
+      "投石机威胁",
+      "卡斯特梅",
+      "泰温之影"
+    ],
+    "characters": [
+      "詹姆",
+      "艾德慕",
+      "黑鱼"
+    ],
+    "conflict_type": "personal",
+    "pov": "詹姆",
+    "word_count": 4437,
+    "source_chapter": "第269章 詹姆",
+    "file": "scenes/scene_S11.md",
+    "description": "詹姆与黑鱼谈判破裂后用投石机威胁逼艾德慕献城，以《卡斯特梅的雨季》完成心理攻势",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "詹姆限知，策略判断伴自我厌恶",
+      "diction": "军政术语混兰尼斯特威胁语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "谈判对白主导，威胁逐句加码",
+      "pacing": "谈判拉锯后用歌名冷收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "客栈血战",
+      "骑士精神",
+      "暴力",
+      "詹德利",
+      "重伤"
+    ],
+    "characters": [
+      "布蕾妮",
+      "波德瑞克",
+      "詹德利",
+      "尖牙"
+    ],
+    "conflict_type": "external",
+    "pov": "布蕾妮",
+    "word_count": 2959,
+    "source_chapter": "第268章 布蕾妮",
+    "file": "scenes/scene_S12.md",
+    "description": "布蕾妮在十字路口客栈独战七名歹徒保护孤儿，杀死戴猎狗头盔的罗尔杰后被尖牙咬去半边脸",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "布蕾妮限知，疼痛与誓言同步贴身",
+      "diction": "粗暴口语撞上骑士誓言词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "挑衅短句与战斗动作交替",
+      "pacing": "近身搏斗快切，重伤处拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "多恩",
+      "复仇",
+      "血与火",
+      "父女对质",
+      "棋局"
+    ],
+    "characters": [
+      "道朗",
+      "亚莲恩"
+    ],
+    "conflict_type": "personal",
+    "pov": "亚莲恩",
+    "word_count": 5601,
+    "source_chapter": "第271章 高塔上的公主",
+    "file": "scenes/scene_S13.md",
+    "description": "道朗亲王在书房与亚莲恩对质，揭示延续十年的复仇棋局——龙棋子和\"血与火\"低语重构全部认知",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "亚莲恩限知，怨怼被真相重写",
+      "diction": "亲族私语转入王朝谋略词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "父女对质，揭谜对白递进",
+      "pacing": "误会层层拆除，尾声压低声量"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "石心夫人",
+      "复活",
+      "终极两难",
+      "绞刑",
+      "誓言考验"
+    ],
+    "characters": [
+      "布蕾妮",
+      "石心夫人/凯特琳",
+      "索罗斯",
+      "波德瑞克"
+    ],
+    "conflict_type": "personal",
+    "pov": "布蕾妮",
+    "word_count": 3407,
+    "source_chapter": "第273章 布蕾妮",
+    "file": "scenes/scene_S14.md",
+    "description": "复活的凯特琳以石心夫人身份逼布蕾妮在杀詹姆和被绞死之间选择，绞绳收紧时布蕾妮喊出一个被截断的词",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "布蕾妮限知，恐惧集中到绞索触感",
+      "diction": "刑场粗语混誓言伦理词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "审判式对白，沉默制造逼迫",
+      "pacing": "选择拖长，绞刑动作骤然收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "阴谋反噬",
+      "被捕",
+      "戏剧反讽",
+      "教会审判",
+      "权力崩塌"
+    ],
+    "characters": [
+      "瑟曦",
+      "大麻雀",
+      "奥斯尼·凯特布莱克",
+      "玛格丽"
+    ],
+    "conflict_type": "external",
+    "pov": "瑟曦",
+    "word_count": 4937,
+    "source_chapter": "第274章 瑟曦",
+    "file": "scenes/scene_S15.md",
+    "description": "瑟曦操纵拘押玛格丽后拜访大圣堂，奥斯尼在酷刑下翻供指控瑟曦谋杀和通奸，太后被当场逮捕入狱",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "瑟曦限知，胜利想象反转成惊惧",
+      "diction": "审判宗教语压碎王室傲慢语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "探监谈判转审讯，句句反噬",
+      "pacing": "谋局慢推，发现翻供后急坠"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "烧信",
+      "决裂",
+      "雪",
+      "梦境",
+      "沉默的高潮"
+    ],
+    "characters": [
+      "詹姆",
+      "小派",
+      "韦曼学士"
+    ],
+    "conflict_type": "internal",
+    "pov": "詹姆",
+    "word_count": 1530,
+    "source_chapter": "第275章 詹姆",
+    "file": "scenes/scene_S16.md",
+    "description": "詹姆在初雪之晨收到瑟曦三声\"我爱你\"的求救信，沉默后命人烧掉——全书最安静最震撼的五个字",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "詹姆限知，梦境象征接清晨冷静",
+      "diction": "梦幻亲族词转为寒冷白描",
+      "rhetoric_density": "high",
+      "dialogue_mode": "梦中问答短促，现实几乎沉默",
+      "pacing": "梦境回声后以烧信极简收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

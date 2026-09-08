@@ -1,0 +1,14 @@
+scene_id: '15'
+source_notes: scene_15_beats.md
+patterns:
+- pattern_id: 15-p1
+  beat: 机场告别
+  dimension: omission
+  original_move: 最深情句子只给内心不出口
+  ai_default_failure: 会让告别时说出动人台词
+  transfer_rule: 写成熟告别时保留未说出口的话
+  quote: 她没有说出口
+overall_traits:
+- 释怀不靠顿悟靠身体
+- 导师的沉默胜过万语
+- 未说出口的话留给读者

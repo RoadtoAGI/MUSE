@@ -1,0 +1,13 @@
+schema_version: dialogue-coverage/v1
+work_id: novel:红与黑
+status: unresolved
+counts:
+  scene_files: 0
+  indexed_scenes: 0
+  dialogue_events: 0
+  dialogue_profiles: 0
+  annotated: 0
+  no_dialogue: 0
+  excluded: 0
+  unresolved: 0
+scenes: []

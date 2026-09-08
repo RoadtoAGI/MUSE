@@ -1,0 +1,36 @@
+schema_version: dialogue-character/v1
+character_id: drama:Macbeth:malcolm
+work_id: drama:Macbeth
+display_name: 玛尔康
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: 'A1-A2 的声音很少——他主要在 aside 中说话（A2S3 与 Donalbain 的交换），用最经济的句子分析处境（"daggers in men''s smiles"）。A4S3 中段他在英国宫廷里掌握了一种新的声音调式：长段的、控制极强的自我描述（自我诋毁测试），他能流畅地说出自己最严重的假想罪行（voluptuousness
+    / stanchless avarice / no king-becoming graces），这是一种刻意为之的政治演练——他在用自己的语言对 Macduff 做一次实地的"是否会被劝离"测试。A4S3 后段他能精确地撤销刚才说过的所有自污（"unspeak
+    mine own detraction"）——这种"说出 - 测试 - 撤销"的能力是他的政治声音的核心。A5 后段他转入军事 / 行政指令调式——简短、协调、分配性（"Let every soldier hew him down a
+    bough"；"henceforth be earls"）。
+
+
+    来源：phase2_roles.yaml → roles.malcolm.voice_function
+
+    佐证：
+
+    - scenes/scene_A2S3.md:L307-L313 + L361-L378（aside 经济句）
+
+    - scenes/scene_A4S3.md:L117-L228（长段刻意自污）
+
+    - scenes/scene_A4S3.md:L269-L297（撤销自污："unspeak mine own detraction"）
+
+    - scenes/scene_A5S4.md:L18-L33（军事指令调式："let every soldier hew him down a bough"）'
+  evidence_locators:
+  - scenes/scene_A2S3.md:L307-L313
+  - scenes/scene_A4S3.md:L117-L228
+  - scenes/scene_A4S3.md:L269-L297
+  - scenes/scene_A5S4.md:L18-L33
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

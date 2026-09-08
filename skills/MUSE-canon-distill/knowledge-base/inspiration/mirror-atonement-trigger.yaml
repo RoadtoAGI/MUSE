@@ -1,0 +1,24 @@
+card_id: mirror-atonement-trigger
+pattern_name: 镜像赔罪
+dramatic_function: 让主角遭遇与自身身份相反的镜像事件，从受害者位置反照责任。
+applicability: 适合罪责、继承伤害题材；镜像若只巧合相似而不改行动会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 抢包犯父母
+- 高级水果
+- 女儿额头伤疤
+tags:
+- 镜像事件
+- 道德转折
+- 罪责传递
+- 行动触发
+source_scenes:
+- novel: 信（东野圭吾）
+  scene_id: S19
+  note: 女儿受伤把理论压力变成家庭现实。
+- novel: 信（东野圭吾）
+  scene_id: S20
+  note: 加害者父母登门谢罪，反照直贵从未做到。
+phase_affinity:
+- 3
+- 4
+- 5

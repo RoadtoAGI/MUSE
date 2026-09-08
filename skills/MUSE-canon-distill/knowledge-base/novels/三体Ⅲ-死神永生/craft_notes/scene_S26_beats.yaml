@@ -1,0 +1,42 @@
+scene_id: S26
+source_notes: scene_S26_beats.md
+patterns:
+- pattern_id: S26-p1
+  beat: 谦辞四连重复
+  dimension: info_density
+  original_move: 杀人预告由谦卑敬语四连重复承载，平行段落即计数器
+  ai_default_failure: AI 写伪装杀手必给阴冷眼神心理独白或环境预警
+  transfer_rule: 双层文本表层须独立闭合，底层靠重复频率而非提示词暴露
+  quote: 我会画到画里的
+- pattern_id: S26-p2
+  beat: 国王消失
+  dimension: omission
+  original_move: 无暴力动词写死亡只拍空床，唯一反应镜头给一只狼犬
+  ai_default_failure: AI 写魔法杀人必给受害者反应镜头
+  transfer_rule: 重复同款句式建立规则感，为批量死亡做节拍模板
+  quote: 他的躯体消失得无影无踪
+- pattern_id: S26-p3
+  beat: 黑伞规则交付
+  dimension: info_density
+  original_move: 设定说明书嵌进赴死告别，规则操作情感三层同载互为掩护
+  ai_default_failure: AI 默认连原理一起解释，编码物解释到机制即自曝
+  transfer_rule: 只给现象规则不给机制；信息倾倒由剧情压力正当化
+  quote: 转得慢了，它会发出像鸟叫的声音
+- pattern_id: S26-p4
+  beat: 宽姨收拾行李
+  dimension: omission
+  original_move: 核心情报物混在生活杂物清单末位，重要性由溺爱逻辑伪装
+  ai_default_failure: AI 植入关键道具默认给特写或让角色郑重交代
+  transfer_rule: 让道具沿人物性格惯性自然入画，作者之手藏进人物之手
+  quote: 至少要带上那块赫尔辛根默斯肯出产的好香皂
+- pattern_id: S26-p5
+  beat: 结尾跳切
+  dimension: camera
+  original_move: 逃脱的松弛镜头零过渡硬切地堡，章节停在最大悬念点
+  ai_default_failure: AI 默认补足过渡并交代生死，钩子失去悬置力
+  transfer_rule: 章末钩子可同时是情报结构的一部分，赞美句式承载判决
+  quote: 这是他画过的最美的一幅画
+overall_traits:
+- 编码安全来自故事自身成立，不是谜语藏得深
+- 怪地名高频挂靠万物之源，重复频率即钥匙标记
+- 死亡温度控制：恐怖来自礼貌与暴行的温差

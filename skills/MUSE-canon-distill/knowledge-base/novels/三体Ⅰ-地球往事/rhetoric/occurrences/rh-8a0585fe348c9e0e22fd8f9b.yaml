@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8a0585fe348c9e0e22fd8f9b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L583
+chapter: 第6章 宇宙闪烁之一
+figure_type: metaphor
+quote: 她那历经风霜的前半生
+sensory_mapping: 触觉；温度；天气；时间；表面痕迹
+context_fact: 沙瑞山开始向汪淼讲述叶文洁经历文革和红岸基地的往事。
+image_mechanism: 离散苦难被合成多年恶劣天气，人物生命成为长期暴露其间的身体；风与霜分别提供持续冲击和寒冷凝结。
+property_alignment: 多年逆境对应反复风吹霜打；人格留下影响对应表面受侵蚀留痕；经历横跨时间对应长途暴露于季节变化
+context_alignment: 下一章从政治暴力进入大兴安岭严寒，惯用语同时预告真实风霜环境。
+narrative_function: 以概括性过渡开启叶文洁的长段回溯。
+transfer_rule: 使用天气熟语概括人生时，应让后文至少一种具体环境或痕迹重新激活其风、冷、侵蚀维度。
+failure_boundary: 单次挫折、短暂不便或没有长期累积痕迹的经历不足以构成风霜暴露。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 叶文洁前半生长期承受的政治迫害、丧亲和艰难环境
+vehicle: 物体或旅人长期暴露在风吹霜冻中而受侵蚀
+ground: 多年逆境对应反复风吹霜打；人格留下影响对应表面受侵蚀留痕；经历横跨时间对应长途暴露于季节变化

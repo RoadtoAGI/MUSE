@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1607c5375031ef3e02a8214e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1671
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 进化又开始了蹒跚的脚步
+sensory_mapping: 身体摇晃；小步前移；失衡风险；幼小尺度；时间缓慢
+context_fact: 生命种子萌发后，要经过九千万年才重新出现文明，母星大陆海洋仍面目全非。
+image_mechanism: 无主体的进化获得一双初学行走的腿，每次物种变化是一小步，环境灾变像随时可能让它跌倒；漫长恢复因此有了脆弱运动感。
+property_alignment: 原始生命对应幼儿；演化初期对应刚学走路；变化缓慢对应小步前进；环境不稳对应容易跌倒；最终文明出现对应逐渐学会稳定行走
+context_alignment: 它紧接种子发芽，把植物生长框架转为幼儿成长框架，共同表现生命从微小起点重新获得复杂性。
+narrative_function: 赋予九千万年进化以可感节奏，突出复苏艰难而顽强。
+transfer_rule: 用蹒跚脚步写过程初期时，应有明确方向、低速度、不稳定性和逐步获得能力的可能。
+failure_boundary: 过程高速跃迁、方向反复无积累或已经成熟稳定时，学步意象会错报阶段。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 灾后生命从极低复杂度重新开始缓慢、脆弱而不稳定的演化过程
+vehicle: 幼儿刚学走路，脚步迟缓摇晃，却开始向前移动
+ground: 早期进化速度慢且易中断对应幼儿步伐迟缓不稳；演化方向逐步展开对应学步者一步步前行

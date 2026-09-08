@@ -1,0 +1,893 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "序幕",
+      "异鬼",
+      "兵变",
+      "先民拳峰",
+      "生存恐惧"
+    ],
+    "characters": [
+      "齐特",
+      "小保罗",
+      "拉克",
+      "山姆威尔"
+    ],
+    "conflict_type": "external",
+    "pov": "齐特",
+    "word_count": 11254,
+    "source_chapter": "第148章 序幕",
+    "file": "scenes/scene_S01.md",
+    "description": "守夜人齐特密谋兵变，但三声号角响起——异鬼来袭，人类的阴谋在超自然威胁面前化为虚无",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，紧贴齐特怨毒内心",
+      "diction": "粗口口语夹守夜人黑话",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白短促粗粝，暴露密谋关系",
+      "pacing": "抱怨铺陈后由号角骤停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "父子对抗",
+      "权力",
+      "蔑视",
+      "继承权",
+      "兰尼斯特"
+    ],
+    "characters": [
+      "提利昂",
+      "泰温"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 3831,
+    "source_chapter": "第152章 提利昂",
+    "file": "scenes/scene_S02.md",
+    "description": "提利昂向泰温索要凯岩城继承权被断然拒绝——'决不'一词定调全书父子冲突",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，借提利昂刺语观父权",
+      "diction": "宫廷冷语混讥诮口吻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白主导，泰温少词压场",
+      "pacing": "寒暄递进到判词式停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "卧底",
+      "身份伪装",
+      "野人",
+      "自由",
+      "红斗篷"
+    ],
+    "characters": [
+      "琼恩",
+      "曼斯·雷德",
+      "托蒙德",
+      "叮当衫"
+    ],
+    "conflict_type": "personal",
+    "pov": "琼恩",
+    "word_count": 6239,
+    "source_chapter": "第155章 琼恩",
+    "file": "scenes/scene_S03.md",
+    "description": "琼恩以'私生子被排斥'为由取信于曼斯·雷德，打入野人内部",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，琼恩在谎言中自辩",
+      "diction": "边境粗语夹身份伤口",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "盘问式对白，真假层层互套",
+      "pacing": "试探缓慢，危险由沉默加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "毁约",
+      "政治灾难",
+      "战略错误",
+      "北方战争",
+      "婚约"
+    ],
+    "characters": [
+      "凯特琳",
+      "罗柏",
+      "艾德慕",
+      "黑鱼",
+      "卡史塔克"
+    ],
+    "conflict_type": "personal",
+    "pov": "凯特琳",
+    "word_count": 8174,
+    "source_chapter": "第162章 凯特琳",
+    "file": "scenes/scene_S04.md",
+    "description": "罗柏违反佛雷婚约的真相揭露，艾德慕的胜利被揭示为战略灾难——红色婚礼的导火索",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，凯特琳以母亲读军政",
+      "diction": "封建政治词汇压入口语争执",
+      "rhetoric_density": "low",
+      "dialogue_mode": "会议对白承载战略误判",
+      "pacing": "说明夹责问，信息逐步翻面"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "断手",
+      "身份毁灭",
+      "决斗",
+      "暴力",
+      "转折"
+    ],
+    "characters": [
+      "詹姆",
+      "布蕾妮",
+      "瓦格·赫特"
+    ],
+    "conflict_type": "external",
+    "pov": "詹姆",
+    "word_count": 7940,
+    "source_chapter": "第169章 詹姆",
+    "file": "scenes/scene_S05.md",
+    "description": "詹姆被山羊砍断右手——剑士身份的物理性毁灭，全书第一个重大暴力转折",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，詹姆用嘲讽抵抗失控",
+      "diction": "贵族讥刺混战场脏污词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "挑衅与谈判交替推进",
+      "pacing": "游谈转决斗，暴力突然截断"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "龙火",
+      "解放",
+      "征服",
+      "无垢者",
+      "Dracarys",
+      "逆转"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "弥桑黛",
+      "克拉兹尼",
+      "卓耿"
+    ],
+    "conflict_type": "external",
+    "pov": "丹妮莉丝",
+    "word_count": 9867,
+    "source_chapter": "第175章 丹妮莉丝",
+    "file": "scenes/scene_S06.md",
+    "description": "丹妮用龙火屠灭奴隶商人，以'假交易'获全部无垢者并解放奴隶——从流亡者到征服者的决定性时刻",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，丹妮克制后突然翻盘",
+      "diction": "交易清单与瓦雷利亚命令并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "仪式对白蓄势，单词引爆",
+      "pacing": "缓慢交易后火焰急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "叛乱",
+      "莫尔蒙之死",
+      "守夜人崩溃",
+      "逃亡"
+    ],
+    "characters": [
+      "山姆威尔",
+      "莫尔蒙",
+      "畸足卡尔",
+      "吉莉"
+    ],
+    "conflict_type": "external",
+    "pov": "山姆威尔",
+    "word_count": 3223,
+    "source_chapter": "第181章 山姆威尔",
+    "file": "scenes/scene_S07.md",
+    "description": "卡斯特堡垒叛乱，莫尔蒙总司令被杀——守夜人军团分崩离析",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，崩溃现场只抓局部",
+      "diction": "粗粝逃亡语汇混饥寒细节",
+      "rhetoric_density": "low",
+      "dialogue_mode": "混乱喊叫多于完整论辩",
+      "pacing": "秩序快速碎裂，动作连撞"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "弑君真相",
+      "赤裸",
+      "信任",
+      "身份重塑",
+      "野火"
+    ],
+    "characters": [
+      "詹姆",
+      "布蕾妮"
+    ],
+    "conflict_type": "internal",
+    "pov": "詹姆",
+    "word_count": 4612,
+    "source_chapter": "第185章 詹姆",
+    "file": "scenes/scene_S08.md",
+    "description": "詹姆在澡堂向布蕾妮揭示弑君全部真相——伊里斯要用野火焚城，他为救五十万人而弑君",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，高烧松开詹姆面具",
+      "diction": "裸身日常词承载王权秘史",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "告白断续喷涌，布蕾妮少插话",
+      "pacing": "沐浴静场逐步滑入谵妄"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "易形术",
+      "超自然",
+      "觉醒",
+      "控制人类",
+      "暴风雨"
+    ],
+    "characters": [
+      "布兰",
+      "阿多",
+      "梅拉",
+      "玖健"
+    ],
+    "conflict_type": "internal",
+    "pov": "布兰",
+    "word_count": 3195,
+    "source_chapter": "第188章 布兰",
+    "file": "scenes/scene_S09.md",
+    "description": "布兰在暴风雨中无意识进入阿多意识——首次对人类使用易形能力的重大突破",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，布兰在恐惧中感知异能",
+      "diction": "孩童感官词与神秘词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少，感官与呼唤推进",
+      "pacing": "风暴压迫，意识切换突然"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "叛离",
+      "忠诚抉择",
+      "拒绝杀人",
+      "冰原狼",
+      "逃亡"
+    ],
+    "characters": [
+      "琼恩",
+      "耶哥蕊特",
+      "马格拿"
+    ],
+    "conflict_type": "internal",
+    "pov": "琼恩",
+    "word_count": 4378,
+    "source_chapter": "第189章 琼恩",
+    "file": "scenes/scene_S10.md",
+    "description": "琼恩拒绝杀死无辜老人暴露身份，趁冰原狼出现之乱叛离野人，带伤逃向黑城堡",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，琼恩在职责处暴露真心",
+      "diction": "野人粗语对照守夜誓言",
+      "rhetoric_density": "low",
+      "dialogue_mode": "命令式对白逼出选择",
+      "pacing": "盘问收紧后逃亡爆发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "斗熊坑",
+      "道德转变",
+      "荣誉",
+      "救援",
+      "梦境"
+    ],
+    "characters": [
+      "詹姆",
+      "布蕾妮",
+      "瓦格·赫特"
+    ],
+    "conflict_type": "personal",
+    "pov": "詹姆",
+    "word_count": 4526,
+    "source_chapter": "第192章 詹姆",
+    "file": "scenes/scene_S11.md",
+    "description": "詹姆折返赫伦堡跳入斗熊坑救布蕾妮——以行动宣告从弑君者到守誓者的转变",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，詹姆用行动重写自我",
+      "diction": "梦境寒意接斗坑粗砺",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白短促，行动承担转变",
+      "pacing": "梦后折返，救援节拍紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "不祥预兆",
+      "灰风",
+      "孪河城",
+      "铺垫",
+      "宾客权"
+    ],
+    "characters": [
+      "凯特琳",
+      "罗柏",
+      "灰风",
+      "瓦德·佛雷"
+    ],
+    "conflict_type": "personal",
+    "pov": "凯特琳",
+    "word_count": 6136,
+    "source_chapter": "第197章 凯特琳",
+    "file": "scenes/scene_S12.md",
+    "description": "罗柏军抵达孪河城，灰风拒绝进城——最后的警告被忽视",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，凯特琳读不祥而无力",
+      "diction": "礼俗词汇包裹阴冷预兆",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "寒暄礼仪下暗藏威胁",
+      "pacing": "入城礼节缓慢积累不安"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "红色婚礼",
+      "屠杀",
+      "背叛",
+      "宾客权践踏",
+      "全书核心"
+    ],
+    "characters": [
+      "凯特琳",
+      "罗柏",
+      "瓦德·佛雷",
+      "卢斯·波顿"
+    ],
+    "conflict_type": "external",
+    "pov": "凯特琳",
+    "word_count": 8366,
+    "source_chapter": "第199章 凯特琳",
+    "file": "scenes/scene_S13.md",
+    "description": "红色婚礼——佛雷/波顿联手在婚宴中屠杀北方军，罗柏和凯特琳被杀",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，凯特琳被困局部感官",
+      "diction": "宴饮礼俗突变为身体血腥词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "乐声与破碎台词交错推进",
+      "pacing": "鼓点加速，动作降级至尖叫"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "红色婚礼外围",
+      "目击",
+      "保护性暴力",
+      "失去"
+    ],
+    "characters": [
+      "艾莉亚",
+      "桑铎·克里冈"
+    ],
+    "conflict_type": "external",
+    "pov": "艾莉亚",
+    "word_count": 2856,
+    "source_chapter": "第200章 艾莉亚",
+    "file": "scenes/scene_S14.md",
+    "description": "艾莉亚从城外目睹红色婚礼屠杀，试图冲入被猎狗用斧背击昏救走",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，艾莉亚在外围误读灾难",
+      "diction": "奔跑动作词混歌声残片",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀薄，喊叫与歌词压场",
+      "pacing": "希望急坠，短句推着逃亡"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "耶哥蕊特之死",
+      "爱与职责",
+      "遗言",
+      "战斗余波"
+    ],
+    "characters": [
+      "琼恩",
+      "耶哥蕊特"
+    ],
+    "conflict_type": "internal",
+    "pov": "琼恩",
+    "word_count": 3962,
+    "source_chapter": "第203章 琼恩",
+    "file": "scenes/scene_S15.md",
+    "description": "耶哥蕊特死在琼恩怀中——'你什么都不懂，琼恩·雪诺'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，琼恩在战后抱住私人痛",
+      "diction": "战场硬词突然转柔软遗言",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "临终对白极短，重复旧句",
+      "pacing": "战斗余波放慢到死亡停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "紫色婚礼",
+      "毒杀",
+      "乔佛里之死",
+      "权力崩塌"
+    ],
+    "characters": [
+      "提利昂",
+      "乔佛里",
+      "珊莎",
+      "瑟曦",
+      "玛格丽"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 8515,
+    "source_chapter": "第208章 提利昂",
+    "file": "scenes/scene_S16.md",
+    "description": "紫色婚礼——乔佛里在婚宴上被毒死，提利昂被指控为凶手",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，提利昂在羞辱中观察权力",
+      "diction": "宴会华丽词转窒息身体词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "羞辱对白堆叠后被指控截断",
+      "pacing": "热闹累积，毒发骤然塌陷"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "比武审判",
+      "复仇",
+      "奥柏伦vs魔山",
+      "反转"
+    ],
+    "characters": [
+      "提利昂",
+      "奥柏伦",
+      "格雷果·克里冈",
+      "雪伊"
+    ],
+    "conflict_type": "external",
+    "pov": "提利昂",
+    "word_count": 6460,
+    "source_chapter": "第218章 提利昂",
+    "file": "scenes/scene_S17.md",
+    "description": "雪伊伪证→提利昂爆发要求比武审判→奥柏伦胜势下被魔山反杀",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，提利昂借旁观等命运",
+      "diction": "法庭术语混复仇宣言",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "审判对白转决斗喊话",
+      "pacing": "胜势拉长，反杀瞬间粉碎"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "长城大战",
+      "巨人",
+      "牺牲",
+      "领袖诞生"
+    ],
+    "characters": [
+      "琼恩",
+      "唐纳·诺伊",
+      "巨人之王玛格"
+    ],
+    "conflict_type": "external",
+    "pov": "琼恩",
+    "word_count": 6212,
+    "source_chapter": "第212章 琼恩",
+    "file": "scenes/scene_S18.md",
+    "description": "曼斯大军攻长城，诺伊率四人在隧道中与巨人同归于尽——琼恩被授予指挥权",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，琼恩以疲病身体统战",
+      "diction": "战争粗砺词紧贴病痛感官",
+      "rhetoric_density": "low",
+      "dialogue_mode": "命令短句维系残存秩序",
+      "pacing": "消耗战慢压，壮烈处多省略"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "赠剑",
+      "守誓",
+      "道德转变",
+      "詹姆与瑟曦决裂"
+    ],
+    "characters": [
+      "詹姆",
+      "布蕾妮",
+      "瑟曦"
+    ],
+    "conflict_type": "internal",
+    "pov": "詹姆",
+    "word_count": 4884,
+    "source_chapter": "第220章 詹姆",
+    "file": "scenes/scene_S19.md",
+    "description": "詹姆与瑟曦决裂后将守誓剑赠予布蕾妮——弑君者完成向守誓者的转变",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，詹姆用礼物替代誓言",
+      "diction": "骑士礼仪词混亲密决裂词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "克制对白，物件完成转折",
+      "pacing": "争执后静置在赠剑动作"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "弑父",
+      "雪伊之死",
+      "泰温之死",
+      "逃亡",
+      "全书高潮"
+    ],
+    "characters": [
+      "提利昂",
+      "詹姆",
+      "雪伊",
+      "泰温",
+      "瓦里斯"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 7439,
+    "source_chapter": "第225章 提利昂",
+    "file": "scenes/scene_S20.md",
+    "description": "弑父之夜——提利昂勒死雪伊、射杀泰温，兰尼斯特帝国从内部瓦解",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，提利昂以身体穿过背叛",
+      "diction": "密道物件词压住情绪词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问短答触发不可逆暴力",
+      "pacing": "发现连锁，攀爬使杀意机械化"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "当选总司令",
+      "白灵",
+      "职责vs欲望",
+      "选举"
+    ],
+    "characters": [
+      "琼恩",
+      "山姆",
+      "白灵",
+      "莫尔蒙的乌鸦"
+    ],
+    "conflict_type": "internal",
+    "pov": "琼恩",
+    "word_count": 6921,
+    "source_chapter": "第227章 琼恩",
+    "file": "scenes/scene_S21.md",
+    "description": "白灵回归帮琼恩做出选择——拒绝临冬城，当选第998任守夜人总司令",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，琼恩在诱惑前选择职责",
+      "diction": "誓言词汇与北境家族词冲突",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "政治劝说被选举话语翻转",
+      "pacing": "内心拉扯后由白灵定锚"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "月门",
+      "小指头",
+      "莱莎之死",
+      "阴谋揭露",
+      "琼恩·艾林之死"
+    ],
+    "characters": [
+      "珊莎",
+      "小指头",
+      "莱莎·艾林"
+    ],
+    "conflict_type": "personal",
+    "pov": "珊莎",
+    "word_count": 6044,
+    "source_chapter": "第228章 珊莎",
+    "file": "scenes/scene_S22.md",
+    "description": "莱莎揭露毒杀琼恩·艾林真相后被小指头推出月门——全系列阴谋源头曝光",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，珊莎在恐惧中旁观操控",
+      "diction": "谷地礼俗词下藏病态情欲",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "真相独白转温柔谋杀句",
+      "pacing": "告白失控，月门动作极快"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "石心夫人",
+      "复活",
+      "复仇",
+      "终章",
+      "佛雷审判"
+    ],
+    "characters": [
+      "梅里·佛雷",
+      "石心夫人",
+      "七弦汤姆",
+      "柠檬"
+    ],
+    "conflict_type": "external",
+    "pov": "梅里·佛雷",
+    "word_count": 8062,
+    "source_chapter": "第229章 终章",
+    "file": "scenes/scene_S23.md",
+    "description": "石心夫人——死而复生的凯特琳审判并绞死佛雷家人，全书终极震撼",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，陌生视角逼近复仇神话",
+      "diction": "审判黑话混尸体恐怖词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "审问式对白，沉默比话重",
+      "pacing": "悬念缓揭，身份揭示压在末端"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "战略会议",
+      "继承权",
+      "军事部署",
+      "古王坟墓",
+      "伏笔"
+    ],
+    "characters": [
+      "凯特琳",
+      "罗柏",
+      "灰风"
+    ],
+    "conflict_type": "personal",
+    "pov": "凯特琳",
+    "word_count": 2740,
+    "source_chapter": "第193章 凯特琳",
+    "file": "scenes/scene_S24.md",
+    "description": "罗柏在古王坟前讨论北征战略和继承人问题——战略留白与继承权之争",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，凯特琳以历史读儿子命运",
+      "diction": "军事继承术语嵌入母子旧痛",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "母子争辩承载战略信息",
+      "pacing": "墓前慢铺，继承争执逐步升温"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "夜袭部署",
+      "佣兵叛变",
+      "战术欺骗",
+      "多兵种协同",
+      "达里奥"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "乔拉",
+      "达里奥·纳哈里斯",
+      "灰虫子"
+    ],
+    "conflict_type": "external",
+    "pov": "丹妮莉丝",
+    "word_count": 2873,
+    "source_chapter": "第190章 丹妮莉丝",
+    "file": "scenes/scene_S25.md",
+    "description": "渊凯之战前夜——丹妮部署三路夜袭，达里奥带两颗人头投靠",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，丹妮冷静调度战争与欲望",
+      "diction": "战术短语撞上佣兵夸饰语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令极短，达里奥独白华丽",
+      "pacing": "部署压低声量，人头投名骤亮"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S26",
+    "novel": "冰与火之歌Ⅲ·冰雨的风暴",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "大规模野战",
+      "骑兵冲锋",
+      "三路合围",
+      "野人崩溃",
+      "史坦尼斯"
+    ],
+    "characters": [
+      "琼恩",
+      "曼斯·雷德",
+      "托蒙德",
+      "瓦拉米尔"
+    ],
+    "conflict_type": "external",
+    "pov": "琼恩",
+    "word_count": 3641,
+    "source_chapter": "第221章 琼恩",
+    "file": "scenes/scene_S26.md",
+    "description": "史坦尼斯大军三路合围击溃野人营地——琼恩作为被困旁观者目睹全局崩溃",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "琼恩限知贴身，临阵判断与背叛疑惧并行",
+      "diction": "守夜人军语夹野人部族称谓与冰雪意象",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问短答推动战场误判，命令声压过解释",
+      "pacing": "号角预警骤起，骚动扩散后骑兵冲锋快速改写局面"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

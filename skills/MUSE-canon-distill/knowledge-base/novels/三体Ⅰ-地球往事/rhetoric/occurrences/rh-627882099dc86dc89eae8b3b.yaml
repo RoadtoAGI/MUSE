@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-627882099dc86dc89eae8b3b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L194
+chapter: 第2章 台球
+figure_type: simile
+quote: 两眼直勾勾地看着台球桌，仿佛那是个魔鬼
+sensory_mapping: 视觉；威胁；心理
+context_fact: 丁仪确认高能实验确实出现无规律结果。
+image_mechanism: 已经熟悉的家具因所代表的实验结果而被重新面孔化：它看似普通，却像魔鬼一样藏着摧毁信仰的诱惑和灾祸。
+property_alignment: 普通物件因含义改变变得可怕对应魔鬼以表象诱惑并带来灾祸；台球桌指向物理学崩塌对应魔鬼摧毁既有信念
+context_alignment: 台球桌已被建立为加速器模型，恐惧从模型反射回物件。
+narrative_function: 显示理论灾难对物理学家的精神威胁。
+transfer_rule: 让物件承载恐惧时，应先在前文建立它与灾难机制的稳定代换，再把角色对机制的畏惧反射回物件。
+failure_boundary: 若台球桌尚未被用作加速器模型，魔鬼只有情绪强度没有具体危害对应；普通害怕物件也不足成立。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 丁仪眼中的台球桌及其代表的失序实验
+vehicle: 带来恐惧、诱使人窥见禁忌的魔鬼
+ground: 普通物件因含义改变变得可怕对应魔鬼以表象诱惑并带来灾祸；台球桌指向物理学崩塌对应魔鬼摧毁既有信念

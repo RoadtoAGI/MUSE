@@ -1,0 +1,14 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 幸福击溃
+  dimension: omission
+  original_move: 不铺垫哭因，只给阳光和八字判断
+  ai_default_failure: 会回顾苦尽甘来的心路
+  transfer_rule: 写幸福过载时省略解释直接落泪
+  quote: 受宠若惊，承受不起
+overall_traits:
+- 物件替代情感
+- 关键对话下一拍反转
+- 聆听者沉默更有力

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-83173aa7811e4724aae8b47f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2547
+chapter: 第34章 智子
+figure_type: simile
+quote: 那些像山脉一样的物质几乎没有质量，仿佛是巨大的银色幻影，一个婴儿就能轻松地拖动它们
+sensory_mapping: 山脉轮廓；银色透明感；无重量；婴儿拉动；巨细反差
+context_fact: 失败展开的三维质子碎块在同步轨道漂浮，小型飞船即可把它们拖离。
+image_mechanism: 视觉体量膨胀到山脉，触觉重量却坍缩为幽灵；婴儿这一最低力量标尺插入后，眼睛看到的巨大和手感中的虚无被强行并置。
+property_alignment: 展开体积对应山脉巨大；银色表面对应幻影冷光；一个质子质量对应无实体感；小飞船牵引对应幻影可穿移；婴儿能拖对应力量需求极低；同步轨道漂浮对应幽影悬空
+context_alignment: 高维展开不断打破宏观尺度直觉，此句以质量与体积最强反差说明清理反而容易。
+narrative_function: 直观解释宏大质子物质为何易处理，并延续微观质量与天体尺度并存的奇观。
+transfer_rule: 用幻影写超轻巨物时，应同时提供可见巨大轮廓、极低惯性或重量、轻微外力可移动和非实体色泽。
+failure_boundary: 物体虽轻却有显著惯性、会撞毁设施，或仅因远距离视觉模糊像幻影时，婴儿拖山的力学反差会失真。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 质子三维展开后体积达到山脉尺度、银亮可见却总质量仍仅为一个质子的物质团
+vehicle: 占据巨大空间、呈银色山形但没有实体重量的幻影，可被最弱小的婴儿牵走
+ground: 外形尺度对应山脉；质量近零对应幻影无实体；轻易拖动对应影像不抗力；银色反光强化非实感

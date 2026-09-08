@@ -1,0 +1,76 @@
+role_slug: zhou-botong
+claims:
+  - id: C001
+    text: "周伯通是全真教创始人王重阳的师弟"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/周伯通
+        quote: "周伯通被設定為王重陽…的師弟"
+      - url: https://baike.baidu.com/item/周伯通
+        quote: "是'中神通'王重阳的师弟，全真七子的师叔"
+    resolution_note: null
+
+  - id: C002
+    text: "周伯通绰号'老顽童'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/周伯通
+        quote: "故有「老頑童」之稱"
+      - url: https://baike.baidu.com/item/周伯通
+        quote: "外号'老顽童'"
+    resolution_note: null
+
+  - id: C003
+    text: "周伯通被黄药师困于桃花岛十五年"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/周伯通
+        quote: "遭黃藥師的「彈指神通」射傷雙腳，從此被困於島上15年"
+      - url: https://baike.baidu.com/item/周伯通
+        quote: "因武功不敌黄药师，从此被困于岛上十五年"
+    resolution_note: null
+
+  - id: C004
+    text: "周伯通自创空明拳与左右互搏（双手互搏）术"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/周伯通
+        quote: "自創絕學「空明拳」、「雙手互搏」"
+      - url: https://baike.baidu.com/item/周伯通
+        quote: "自创七十二路'空明拳'和左右互搏的奇技"
+    resolution_note: null
+
+  - id: C005
+    text: "周伯通在桃花岛与郭靖结拜为兄弟"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/周伯通
+        quote: "天真爛漫的周伯通與郭靖成為結拜兄弟"
+      - url: https://baike.baidu.com/item/周伯通
+        quote: "天真烂漫的周伯通与郭靖成为结拜兄弟"
+    resolution_note: null

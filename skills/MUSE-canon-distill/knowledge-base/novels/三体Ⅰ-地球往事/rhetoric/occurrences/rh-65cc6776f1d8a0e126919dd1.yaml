@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-65cc6776f1d8a0e126919dd1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L503
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 雪片大而厚重，像是凝结的黑暗
+sensory_mapping: 视觉；重量；温度
+context_fact: 长夜持续，二氧化碳已凝华成雪。
+image_mechanism: 夜色不再只是背景，而被冷却、结块、赋重并从天空降落；抽象缺光按物质相变变成可触雪片。
+property_alignment: 雪片暗且遮光对应黑暗视觉属性；雪片厚重坠落对应黑暗获得质量；漫天落下对应夜色物质化覆盖
+context_alignment: 光线消失与大气冻结同步，凝结机制把两灾变压成一幅图。
+narrative_function: 把温度继续下降写成末世物态。
+transfer_rule: 把抽象环境物质化时，应给它明确相变、重量和运动，使修辞遵循现场物理趋势。
+failure_boundary: 明亮轻盈的普通雪、只因夜里看不清而显黑时，不足称黑暗凝结；否则会虚构厚重材质。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 绝低温下大而暗的二氧化碳雪片
+vehicle: 无形黑暗凝成有重量的固体碎片
+ground: 雪片暗且遮光对应黑暗视觉属性；雪片厚重坠落对应黑暗获得质量；漫天落下对应夜色物质化覆盖

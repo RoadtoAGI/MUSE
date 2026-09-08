@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2db7f27608972f3c78006ced
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L578
+chapter: 第6章 宇宙闪烁之一
+figure_type: metaphor
+quote: 壮观吧？可惜都是聋子的耳朵
+sensory_mapping: 听觉；器官；功能；视觉反差
+context_fact: 移动通信干扰使多项米波观测无法开展。
+image_mechanism: 抛物面天线先缩成一只只朝天的耳廓，宇宙电波变成声音；“聋”切断接收功能，让壮观外表与无用听觉正面冲突。
+property_alignment: 天线接收电波对应耳朵接收声音；通信干扰使信号不可辨对应耳聋听不见；装置外形完整对应耳廓存在但功能失效
+context_alignment: 射电天线与耳朵共享接收而非发射功能，且刚才的钢铁植物轮廓可自然转为器官阵列。
+narrative_function: 用一句口语揭示科研设施的功能性悲剧。
+transfer_rule: 以感官器官写接收设备时，应匹配信号入口、辨识功能与具体失效原因，并保留外观完好和功能丧失的落差。
+failure_boundary: 天线仍能接收但分辨率较低、只是暂时停机或主要用于发射时，“聋耳”会把性能问题误写成完全失能。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 外形壮观却因无线电干扰而无法正常接收宇宙信号的天线阵列
+vehicle: 结构完好却听不见声音的聋人耳朵
+ground: 天线接收电波对应耳朵接收声音；通信干扰使信号不可辨对应耳聋听不见；装置外形完整对应耳廓存在但功能失效

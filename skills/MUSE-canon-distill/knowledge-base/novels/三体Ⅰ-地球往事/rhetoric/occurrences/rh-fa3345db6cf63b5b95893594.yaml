@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fa3345db6cf63b5b95893594
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L657
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 那人壮得像这棵刚被他伐倒的落叶松
+sensory_mapping: 视觉；体量；硬度；力量
+context_fact: 马钢以不到十分钟伐倒三百多年老松并为速度自豪。
+image_mechanism: 人物身体沿身旁树干的长轴被放大，肌肉和骨架获得木质粗硬；伐倒者与倒木短暂呈现同样的壮硕轮廓。
+property_alignment: 人体高大对应树干长；肩背粗壮对应树身粗；力量感对应古树坚实；人与倒木并置提供即时尺度参照
+context_alignment: 喻体就在现场且由他亲手伐倒，外形贴合之外还形成力量与寿命的反讽对照。
+narrative_function: 快速勾勒油锯手体格，并衬出人力对古树的粗暴优势。
+transfer_rule: 现场取喻人物体格时，应利用同框对象的轴线、体量和材质感，并让人物与对象的关系增加含义。
+failure_boundary: 人物灵活纤细或树木弯瘦时，落叶松会错写身体；体格相似也不能推出人物具有树的寿命或沉静。
+quality_assessment: functional
+confidence: 0.97
+review_status: reviewed
+tenor: 油锯手马钢高大粗壮的身体
+vehicle: 一棵刚被伐倒、主干粗大结实的落叶松
+ground: 人体高大对应树干长；肩背粗壮对应树身粗；力量感对应古树坚实；人与倒木并置提供即时尺度参照

@@ -1,0 +1,35 @@
+mode: reference
+display_name: 郭靖
+role_slug: guo-jing
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_03.md
+  - scenes/scene_11.md
+  - scenes/scene_13.md
+  - scenes/scene_15.md
+  - scenes/scene_22.md
+  - scenes/scene_30.md
+built_at: 2026-04-14T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 16
+coverage_note: |
+  郭靖全书共出场 24 个场景（见 scene_index.json 筛选 characters 含"郭靖"）。本次蒸馏的 SKILL.md 选取 6 个代表性场景作为原文佐证：
+  - scene_03（张家口遇黄蓉）—— 身份/声音的初次定型：大漠人初入中原、对弱者不经计算的慷慨
+  - scene_11（五怪惨死）—— 边界的极端检验："我不杀蓉儿"（哪怕证据链指向爱人）
+  - scene_13（李萍自刎+锦囊密令）—— 弧光关键转折 + 边界宣告"我是大宋臣民"+"虽受千刀万箭，亦不能奉命"
+  - scene_15（英雄论）—— 不自觉欲望的最终显影 + 核心缺陷的反面（直言不讳，不因对方可怜而停止说真话）
+  - scene_22（为黄蓉辩护）—— 声音框架的"词穷即声音"范例："很好很好"
+  - scene_30（北极星位打黄药师）—— 身体反应外化情绪的范例（牙齿咬紧、右手发抖、眼眶泛红）
+
+  未纳入 SKILL.md 佐证但与角色画像相关的其他场景（可供下游续写追溯）：
+  - scene_02（黑风双煞）—— 10 岁首次生死危机，张阿生殉难、无意中杀陈玄风
+  - scene_05（洪七公传降龙十八掌）—— 武功跃升节点
+  - scene_06（周伯通教双手互搏）—— 武学升维
+  - scene_07（三道试题）—— 双手互搏首次实战+不知情中背出九阴真经
+  - scene_18（海上对决围观）—— 武功身姿观察者视角
+  - scene_19（密室疗伤+目睹大战）—— 被困观众席的焦灼
+  - scene_29（洪七公vs欧阳锋海上）—— 为救师父不顾自身的蛮劲
+
+  本次未覆盖的侧面：童年成长段（第3-5回蒙古大漠学武与马钰暗授内功）未作独立佐证——这些信息包含在"身份与处境"的整体描述中，未附具体定位。如下游续写需要"少年郭靖"维度的佐证，建议补充读取第3-5回原文。

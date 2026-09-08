@@ -1,0 +1,28 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 白鸦
+  dimension: info_density
+  original_move: 让季节宣告同时成为政治终局
+  ai_default_failure: 提前写凯冯隐约感到不安
+  transfer_rule: 写主题句时让物理现象代替阐释
+  quote: 冬天到了
+- pattern_id: S20-p2
+  beat: 阴谋告白
+  dimension: info_density
+  original_move: 让垂死与礼貌治国演讲同处一室
+  ai_default_failure: 把死亡细节都写成庄严或恐怖
+  transfer_rule: 写冷静谋杀时用行政礼貌语气
+  quote: 请您千万原谅
+- pattern_id: S20-p3
+  beat: 儿童刺客
+  dimension: omission
+  original_move: 只写孩子、白脸、黑眼和匕首，省掉刺杀
+  ai_default_failure: 强调儿童刺客的残酷或可怜
+  transfer_rule: 写终章暴力时把最后动作交给空白
+  quote: 匕首，在他们手中
+overall_traits:
+- 重要死亡用安静反高潮处理
+- 越接近死亡节奏越慢
+- 主题真相只说给无力传递者

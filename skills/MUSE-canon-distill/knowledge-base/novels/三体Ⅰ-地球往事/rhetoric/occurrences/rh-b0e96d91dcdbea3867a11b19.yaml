@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b0e96d91dcdbea3867a11b19
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L653
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 一棵如巴特农神庙的巨柱般高大的落叶松轰然倒下
+sensory_mapping: 视觉；听觉；尺度；重量；建筑形态
+context_fact: 叶文洁在大兴安岭参加兵团大规模伐木。
+image_mechanism: 树冠和枝叶被暂时略去，视线只保留笔直主干，把森林生命抬升为古典神庙的承重构件；“轰然倒下”随即让毁坏具有拆毁文明遗迹的重量。
+property_alignment: 树干笔直粗壮对应神庙巨柱；高度和体量带来仰视对应纪念建筑尺度；倒地震动对应巨型构件倾覆的重量
+context_alignment: 三百年级落叶松的尺度和庄严感需要具体建筑原型，巴特农又把砍伐从生产动作提升为毁坏古老遗产。
+narrative_function: 为森林破坏建立庄严尺度，并开启后续巨人遗体意象。
+transfer_rule: 以建筑构件写古树时，应对应主干几何、承重感、观看尺度和文化寿命，使建筑原型参与价值判断。
+failure_boundary: 弯曲矮树、灌木或主要以枝叶轻盈取胜的树木不具备巨柱形态；普通电线杆也承载不了神庙的历史庄严。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 高大、笔直并在砍伐中轰然倒下的古老落叶松
+vehicle: 支撑巴特农神庙的高耸巨大石柱
+ground: 树干笔直粗壮对应神庙巨柱；高度和体量带来仰视对应纪念建筑尺度；倒地震动对应巨型构件倾覆的重量

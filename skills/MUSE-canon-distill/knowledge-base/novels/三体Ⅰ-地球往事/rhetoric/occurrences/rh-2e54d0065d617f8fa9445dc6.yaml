@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2e54d0065d617f8fa9445dc6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L192
+chapter: 第2章 台球
+figure_type: simile
+quote: 黑球像一只受惊的麻雀在房间里乱飞
+sensory_mapping: 视觉；运动；节奏
+context_fact: 丁仪虚构相同碰撞条件产生荒诞不同结果。
+image_mechanism: 台球从桌面二维轨迹突然获得鸟的三维飞行、急转和钻入狭处，规则失效由一连串可追踪的失控动作显形。
+property_alignment: 轨迹频繁不可预测地改变对应受惊鸟乱飞；球脱离桌面进入房间对应鸟在三维空间穿梭
+context_alignment: 麻雀快速折返让抽象随机结果成为可追踪动作。
+narrative_function: 把规律崩塌写成荒诞但清楚的实验画面。
+transfer_rule: 解释“无规律”时，不要只说混乱；选择轨迹天然多次突变的活物，并让它突破本体原有运动平面。
+failure_boundary: 持续直飞、平滑弧线或仍贴桌滚动的球不符合受惊麻雀的急转和三维逃窜。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 假想中违反规律、在室内无规则飞行的台球
+vehicle: 受惊后突然变向、四处乱窜的麻雀
+ground: 轨迹频繁不可预测地改变对应受惊鸟乱飞；球脱离桌面进入房间对应鸟在三维空间穿梭

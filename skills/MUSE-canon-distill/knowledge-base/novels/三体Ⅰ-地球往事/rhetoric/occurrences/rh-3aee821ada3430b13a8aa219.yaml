@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3aee821ada3430b13a8aa219
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1168
+chapter: 第14章 红岸之三
+figure_type: analogy
+quote: 人家已经向地球外面喊话了，外星社会只听到一个声音是危险的，我们也应该发出自己的声音
+sensory_mapping: 听觉；发声；方向；多声部
+context_fact: 美国已规划携带地球信息的探测器并开展SETI，中国决策者担心外星文明只接触一个超级大国叙述。
+image_mechanism: 国家与文明尺度的电磁广播缩成一群人隔空说话，频率和功率退到背景，谁开口、谁被听见成为直观政治问题。
+property_alignment: 国家发射信号对应个人发声；信息内容对应话语；外星接收者对应远方听众；多国各发信息对应听见多种声音后比较
+context_alignment: 批示引用“偏听则暗、兼听则明”，听觉框架与传统政治判断连成一体，使星际通信被当作国际舆论发言。
+narrative_function: 揭示红岸诞生的冷战政治逻辑，并把通信工程目标讲成争夺宇宙话语权。
+transfer_rule: 把通信系统写成声音时，应稳定对应发信者、内容、传播方向和接收者，并说明多声或单声如何改变判断。
+failure_boundary: 外星接收者无法解码、各国信息并非代表完整社会或信号永不到达时，听见声音只说明政治意图，不能证明交流成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 不同国家分别向可能的外星文明发送代表各自政治立场的无线电信息
+vehicle: 多人面对远方听众喊话，各自声音共同构成一场发言
+ground: 无线电向外传播信息对应人向远处喊声；只有美国信号抵达对应听众只听见一名发言者

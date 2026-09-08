@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b6d3030c2a83a7ad4eb559c0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1298
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 地面上流淌着一条条明亮的岩浆小溪，织成一张伸向天边的亮丽的火网
+sensory_mapping: 视觉；线条；编织；平面延展；高温
+context_fact: 三日把地表烧红并熔化岩石，汪淼从金字塔外看见岩浆线路延伸至地平线。
+image_mechanism: 每条液态火流被抽成一根亮丝，地表坡向使丝线相交、分叉，最终把整个世界编入一张没有出口的灼热网面。
+property_alignment: 岩浆小溪对应网线；分流交汇对应经纬交织；延伸到天边对应巨网覆盖全地；亮红流体对应发光火线
+context_alignment: 俯视远景只能辨认线网而非流体细节，网又隐含世界被灾难捕获，无处逃脱。
+narrative_function: 组织大范围熔岩细节，展示三日灾难的覆盖尺度和封锁感。
+transfer_rule: 将地表流路写成网时，应对齐线状单元、交叉节点、覆盖边界和被网围住的空间后果。
+failure_boundary: 岩浆只有一条主流、互不交叉或局限近景时，火网会虚构密度与覆盖。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 多股发亮岩浆在红炽地表分岔交汇并延伸到远方
+vehicle: 由明亮丝线交叉编织、铺满平面的巨大火网
+ground: 岩浆溪流细长对应发光网线；多条流路分叉交会对应线条编成网眼

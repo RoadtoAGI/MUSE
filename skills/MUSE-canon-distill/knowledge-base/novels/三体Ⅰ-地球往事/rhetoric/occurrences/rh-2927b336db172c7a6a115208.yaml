@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2927b336db172c7a6a115208
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1320
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 任何数字组合对于我都是一种立体形体
+sensory_mapping: 视觉；空间；形状；数学直觉
+context_fact: 魏成能跳过显性推导直接得出数列和公式，却很难说明自己的推理过程。
+image_mechanism: 线性排列的符号脱离纸面，在意识中折叠、连接成有体积的对象；他不是逐项计算，而像一眼认出整体轮廓。
+property_alignment: 数字间关系对应形体部件连接；组合差异对应外形差异；直觉判断对应整体辨形而非逐段测量
+context_alignment: 魏成正在解释不可言说的数学天分，跨感官空间形体能说明为何答案先于推导出现。
+narrative_function: 具象化其异常数学直觉，为他研究三体运动的图形—数字互译能力奠基。
+transfer_rule: 用形体写抽象关系时，应说明元素如何组成局部、整体如何被辨认，以及这种空间化怎样改变认知速度。
+failure_boundary: 人物仍需逐步运算、不同数字组合没有稳定结构感时，立体形体会伪造联觉能力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 魏成对数字组合形成的直接、整体数学直觉
+vehicle: 能在脑内旋转、占据空间并从整体辨认的三维形体
+ground: 数字关系被同时把握对应立体各部分共存于一个整体；不同组合呈现不同结构对应不同物体具有可辨形状

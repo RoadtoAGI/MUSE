@@ -1,0 +1,19 @@
+card_id: madness-from-recycled-lines
+pattern_name: 疯狂·旧词拼贴
+dramatic_function: 崩溃场不发明新内容，把既往场景台词碎片乱序重播，观众自行拼回时间线，疯狂句句可溯源
+applicability: 适用于长线叙事后段的崩溃或忏悔场，前文须埋足可回收的台词锚点；短篇或前文无锚则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 梦游持烛与搓手洗血的具体形式
+- 医生侍女旁观框架的原样配置
+tags:
+- 疯狂书写
+- 台词回收
+- 崩溃场
+- 闪回
+source_scenes:
+- novel: Macbeth
+  scene_id: A5S1
+  note: 梦呓全部由弑君夜宴会夜灭门讯的旧台词碎片重组
+phase_affinity:
+- 2
+- 5

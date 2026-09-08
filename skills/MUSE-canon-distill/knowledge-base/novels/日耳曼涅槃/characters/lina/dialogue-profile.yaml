@@ -1,0 +1,28 @@
+schema_version: dialogue-character/v1
+character_id: novel:日耳曼涅槃:lina
+work_id: novel:日耳曼涅槃
+display_name: 琳娜
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '对方彦有三个音区：**慵懒诱惑腔**（"小约纳斯。你现在已经是海军中校啦。你可真是了不起"——把年龄差和宠溺揉进尾音）；**酸妒攻击腔**（醋意直白到锋利："这一个月里，你对你的那个清纯娇丽的小妻子播了一百几十次种？"）；**深情自白腔**——用意象系统说话：花园、金菊、蜜蜂彩蝶、黑白光影，把二十年的情史讲成一座植物园的编年史，收束在几乎耳语的"我爱你唷，约纳斯"。
+
+
+    在密谋组织场合切**统领分析腔**：冷数据、利益链、反问句连击——"根本原因是，这些将军们在希特勒的战争计划中，得到了实实在在的利益"，从800万陆军的蛋糕算到海军的造舰经费，逻辑锋利不带情绪。两套声音共享同一特征：都不绕弯子。
+
+
+    佐证：scenes/scene_07.md:L28-L28 （慵懒诱惑腔）；scenes/scene_27.md:L10-L10 （酸妒攻击腔）；scenes/scene_27.md:L22-L24 （金菊/蜜蜂的意象自白）；scenes/scene_27.md:L32-L32
+    （"我爱你唷"的耳语收束）；scenes/scene_28.md:L76-L82 （统领分析腔：利益绑定论）'
+  evidence_locators:
+  - scenes/scene_07.md:L28-L28
+  - scenes/scene_27.md:L10-L10
+  - scenes/scene_27.md:L22-L24
+  - scenes/scene_27.md:L32-L32
+  - scenes/scene_28.md:L76-L82
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

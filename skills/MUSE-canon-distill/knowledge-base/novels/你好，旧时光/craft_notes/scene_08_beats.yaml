@@ -1,0 +1,14 @@
+scene_id: 08
+source_notes: scene_08_beats.md
+patterns:
+- pattern_id: 08-p1
+  beat: 一声嗯
+  dimension: omission
+  original_move: 清空当事人内心只留旁观屏息
+  ai_default_failure: 会给双方各写大段心理活动
+  transfer_rule: 写低龄告白时用短音节和环境静止
+  quote: ……嗯。
+overall_traits:
+- 第三人视角承载高潮
+- 单音节对白压住重量
+- 物理打断替代情感处理

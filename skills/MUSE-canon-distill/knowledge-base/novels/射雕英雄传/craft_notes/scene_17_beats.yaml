@@ -1,0 +1,27 @@
+scene_id: '17'
+source_notes: scene_17_beats.md
+patterns:
+- pattern_id: 17-p1
+  beat: 吃相替代味觉
+  dimension: verb
+  original_move: 不写味道，用夺与风卷残云的吃速写好吃程度
+  ai_default_failure: 铺陈鲜美多汁入口即化的味觉层次
+  transfer_rule: 写美食重在吃者行为失态，省略感官形容
+  quote: 夹手夺过，风卷残云的吃得干干净净
+- pattern_id: 17-p2
+  beat: 断指的来历
+  dimension: omission
+  original_move: 断指故事压缩两句，「砍了/砍不了」完成弧光
+  ai_default_failure: 展开完整回忆写大事经过与断指痛苦
+  transfer_rule: 角色前史给两句话级压缩，留钩子不展开
+  quote: 指头是砍了，馋嘴的性儿却砍不了
+- pattern_id: 17-p3
+  beat: 四大碗对比
+  dimension: info_density
+  original_move: 一句牛嚼牡丹借吃相对比定位三人关系
+  ai_default_failure: 安排摸头白眼等调和尴尬的小动作
+  transfer_rule: 用同一行为的不同做法横向对比立多人性格
+  quote: 牛嚼牡丹，可惜，可惜
+overall_traits:
+- 食物是货币不是装饰，每道菜都是谈判筹码
+- 写美食不写味道，用行为替代感官铺陈

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bfbd3dec95671032ebe6f593
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1120
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 透过眼泪，屏幕上的代码变成了一团团跳动的火焰
+sensory_mapping: 视觉；光晕；动态；泪膜折射
+context_fact: 雷政委给出信任承诺后，叶文洁自父亲死后第一次流泪，面前是一排绿光显示屏。
+image_mechanism: 眼泪变成一层活动光学介质，把规则排列的硬字符熔散成软光团；眨眼和泪流再推动光团跳跃，理性代码转成情绪火焰。
+property_alignment: 字符经泪水模糊成团对应火焰轮廓散乱；绿光闪动对应火苗跳跃；规则代码失去可读性对应理性信息被情绪淹没
+context_alignment: 监听机房的冷技术画面在她罕见落泪时改变形态，火焰既来自真实光学现象，也隐约承接她父亲之死和未来灾变。
+narrative_function: 以视觉变形显示情感突破理性防线，并为信任骗局留下灼热余味。
+transfer_rule: 将泪中景物变形为意象时，应从具体光源、轮廓散射和眼部运动推导形状，再让情绪意义附着其上。
+failure_boundary: 环境无点状光源、人物眼睛清晰干燥或景物不会因折射抖动时，跳动火焰缺少物理图像支撑。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 泪水折射下模糊、抖动并泛出绿光的屏幕代码
+vehicle: 边界不定、成团闪动的火焰
+ground: 泪膜使字符轮廓散开对应火焰无固定边缘；屏幕光随泪水与眨眼跳动对应火苗跃动

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-92ea7238c7914541faa5c349
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L841
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 汪淼迫不及待地抓过激光打印机吐出的第一张纸
+sensory_mapping: 视觉；口腔；推出动作；机械声音；速度
+context_fact: 宇宙波动刚出现，汪淼急于取得打印曲线破解莫尔斯码。
+image_mechanism: 打印机外壳获得一张窄嘴，内部滚轮动作被压缩成一次吐送；第一张证据像机器来不及消化便交出的实体。
+property_alignment: 出纸口对应嘴部开口；纸张从机器内部向外移动对应口中物被吐出；机器主动送纸对应生物肌肉推出；汪淼立即抓取对应接住刚离口之物
+context_alignment: “迫不及待地抓过”需要纸张具有主动出来的速度，吐出比静态打印完成更贴动作节拍。
+narrative_function: 给解码动作加速，让数字证据迅速从屏幕变成可操作纸面。
+transfer_rule: 把机器输出写成口腔动作时，应匹配开口形态、内部推出机制、输出速度和接收者动作。
+failure_boundary: 纸张缓慢停在托盘、需要手动抽出或设备从开放平台显示结果时，“吐”会夸大主动与速度。
+quality_assessment: functional
+confidence: 0.97
+review_status: reviewed
+tenor: 激光打印机从狭窄出纸口迅速送出印有曲线的纸张
+vehicle: 有嘴的生物把口中物体向外吐出
+ground: 出纸口对应嘴部开口；纸张从机器内部向外移动对应口中物被吐出；机器主动送纸对应生物肌肉推出；汪淼立即抓取对应接住刚离口之物

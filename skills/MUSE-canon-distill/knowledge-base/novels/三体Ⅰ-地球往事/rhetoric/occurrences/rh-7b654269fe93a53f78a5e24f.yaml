@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7b654269fe93a53f78a5e24f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L782
+chapter: 第9章 红岸之一
+figure_type: metaphor
+quote: 她认识这风，这风也认识她，这是大兴安岭的风
+sensory_mapping: 嗅觉；触觉；风声；人际识别；记忆
+context_fact: 她从飞机走下，强风与森林气息使她确认自己仍在大兴安岭。
+image_mechanism: 空气不再只是流过身体的介质，而是带着旧日气味迎面来认人；单向感知被翻成双向目光，荒野获得熟人身份。
+property_alignment: 她辨认森林气息对应认出熟人特征；风吹过她身体对应熟人主动接触；重返旧地对应久别重逢；环境曾塑造她对应对方也“记得”她
+context_alignment: 她刚从封闭监室和昏迷中醒来，熟悉风是首个确认地点与生命连续性的感官信号。
+narrative_function: 以双向相认完成地理回归，并把大兴安岭写成比人更稳定的旧识。
+transfer_rule: 让环境“认识”人物时，应先给人物可辨认的气味、触感或声音，再用长期互相塑造支撑双向关系。
+failure_boundary: 首次到访、感官线索无法辨认或环境与人物没有共同历史时，双向相识会变成空泛拟人。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁从气味和触感立即认出大兴安岭强风，并感到自己回到熟悉环境
+vehicle: 两个久别的人凭彼此特征相认，关系具有双向记忆
+ground: 她辨认森林气息对应认出熟人特征；风吹过她身体对应熟人主动接触；重返旧地对应久别重逢；环境曾塑造她对应对方也“记得”她

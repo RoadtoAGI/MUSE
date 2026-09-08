@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--zhang-tong
+work_id: novel:狂病-莫千回
+display_name: 张彤
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '张彤的声音是个怯生生、爱担心、总在求确认的少年腔。他说话小心翼翼，开口多是顾虑和不安——"别警察追查过来""有人报警，要不咱们先撤吧"。被冤枉时他会委屈地辩解、急着自证清白（指着张潇潇喊自己是去追偷手机的人、搬出蔡警官作证）。他几乎不主导话题，多是被动回应廖振宇的质问、努力回想细节。被麻醉绑住、嘴被堵上后，他的声音只剩下含混的呜咽——那是他最想喊出口的警告，却永远发不出来。
+
+
+    佐证：scenes/scene_EE-S02.md:L3-L3 / scenes/scene_EE-S04.md:L5-L5 / scenes/scene_EE-S08.md:L29-L29'
+  evidence_locators:
+  - scenes/scene_EE-S02.md:L3-L3
+  - scenes/scene_EE-S04.md:L5-L5
+  - scenes/scene_EE-S08.md:L29-L29
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

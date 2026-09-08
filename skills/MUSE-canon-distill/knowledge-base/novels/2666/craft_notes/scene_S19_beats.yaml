@@ -1,0 +1,28 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 诺贝尔消息的传播
+  dimension: camera
+  original_move: 把消息写成走廊里的爆炸
+  ai_default_failure: 从提名程序和机构解释写起
+  transfer_rule: 写奖项政治时先写权力效应
+  quote: 像颗原子弹爆炸
+- pattern_id: S19-p2
+  beat: 学派和解的实质
+  dimension: verb
+  original_move: 外交辞令切到枪毙封杀
+  ai_default_failure: 展开握手演讲等仪式
+  transfer_rule: 写虚伪和解时同句暴露利益机制
+  quote: 枪毙施瓦茨的文章
+- pattern_id: S19-p3
+  beat: 排行榜数据的讽刺
+  dimension: info_density
+  original_move: 用排名数字冷却文学狂欢
+  ai_default_failure: 用失望等情绪词概括落差
+  transfer_rule: 写荣誉与市场落差时用报表语气
+  quote: 位列第九
+overall_traits:
+- 外交辞令切赤裸权力
+- 数字承担讽刺力
+- 提名狂欢落空高密压缩

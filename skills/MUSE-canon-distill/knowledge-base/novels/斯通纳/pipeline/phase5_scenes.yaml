@@ -1,0 +1,268 @@
+# Phase 5: 关键场景 —— 《斯通纳》逆向分析
+# 只提取结构转折点、高潮和关键建置场景
+
+sequence_expansions:
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 密苏里大学教室
+        time: 1912年秋，大学二年级
+        participants: [斯通纳, 斯隆, 同学们]
+        pov: 斯通纳
+        conflict: 斯隆朗读十四行诗并追问"你听到了吗"——斯通纳内心的麻木与被召唤之间的搏斗
+        value_start: 麻木/困惑——像做功课一样对待文学
+        value_end: 觉醒/震撼——"他把目光从斯隆身上移开，打量着教室……阳光从窗户里斜照进来"
+        must_include: 十四行诗的完整朗读、斯通纳手指松开的身体细节、斯隆的追问
+        handoff: 斯通纳放弃农学转修文学
+        beat_direction: "从外部（斯隆的声音）到内部（斯通纳的身体感知）：诗歌→手指→血液→世界重新显形。这是一个纯粹由感知而非思考驱动的觉醒。"
+        source_chapter: 1
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 斯隆的办公室
+        time: 1913年冬
+        participants: [斯通纳, 斯隆]
+        pov: 斯通纳
+        conflict: 斯通纳不知道自己是谁——斯隆替他命名
+        value_start: 不确定/迷茫——"我不知道自己究竟要干什么"
+        value_end: 身份确认——"你想当老师……因为爱，你置身于爱中"
+        must_include: 斯隆的干巴声音突然变得"温柔和放开"、"办公室的墙消失了"的感觉
+        handoff: 斯通纳决定留校，必须告诉父母
+        source_chapter: 1
+
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 弗特家的走廊
+        time: 1914年毕业后晚上
+        participants: [斯通纳, 父亲, 母亲]
+        pov: 斯通纳
+        conflict: 斯通纳必须告诉父母不回农场——打破他们的期望
+        value_start: 隐瞒/负疚——"他差点想说出来"
+        value_end: 断裂/悲伤——母亲默默哭泣，斯通纳上阁楼"睁大眼睛望着头顶的黑暗"
+        must_include: 父亲的沉默接受、母亲罕见的哭泣、斯通纳在黑暗中的独处
+        handoff: 进入ARC-2，斯通纳开始在大学中独立生活
+        beat_direction: "沉默→试探→坦白→父亲的平静→母亲的哭泣→黑暗。全场景几乎无对白修辞，情感全靠身体动作承载。"
+        source_chapter: 1
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-2
+        location: 达利太太的客厅
+        time: 约1918年12月
+        participants: [斯通纳, 伊迪丝]
+        pov: 斯通纳
+        conflict: 斯通纳笨拙地试图接近伊迪丝，伊迪丝在恐惧与渴望之间挣扎
+        value_start: 陌生/尴尬——"她几乎是恐惧地看着斯通纳"
+        value_end: 微弱的联结——伊迪丝突然不停地讲述自己的童年，"好像以前从来没说过话"
+        must_include: 伊迪丝临走时的突然倒流式倾诉、斯通纳的静默聆听
+        handoff: 斯通纳爱上伊迪丝，开始频繁拜访
+        source_chapter: 3
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 斯通纳家
+        time: 约1920年代中期
+        participants: [斯通纳, 伊迪丝, 格蕾斯(婴儿)]
+        pov: 斯通纳
+        conflict: 伊迪丝突然要孩子后又完全退出母亲角色——斯通纳被迫成为"母亲"
+        value_start: 希望——伊迪丝"要孩子"的决定似乎是婚姻转机
+        value_end: 困境——斯通纳承担全部育儿，与女儿建立了伊迪丝无法给予的亲密纽带
+        must_include: 伊迪丝生育前后的巨大反差、斯通纳独自带孩子的细节
+        handoff: 伊迪丝将以格蕾斯为武器发动"战争"
+        source_chapter: 5
+
+  - seq_id: ARC2-SEQ2b
+    scenes:
+      - scene_id: S17
+        arc_id: ARC-2
+        location: 斯通纳家一楼书房
+        time: 约1925年
+        participants: [斯通纳]
+        pov: 斯通纳
+        conflict: 在经济压力和婚姻冷淡中，通过物理性的手工劳动（打磨木板、打造书架）完成自我定义
+        value_start: 分散/不确定——"不知道他有过一份憧憬"
+        value_end: 自我确认——"他逐渐打造成形的是他自己"
+        must_include: 打磨旧木板露出花纹和质地、书架环绕、格蕾斯在地板上玩耍
+        handoff: 建立了"书房=自我"的等式，为S06伊迪丝侵占书房蓄力
+        source_chapter: 6
+
+      - scene_id: S16
+        arc_id: ARC-2
+        location: 斯通纳家（暖房聚会后深夜）
+        time: 约1925年秋
+        participants: [斯通纳, 劳曼克思]
+        pov: 斯通纳
+        conflict: 劳曼克思在酒精松弛下暴露脆弱（残疾童年、通过阅读获得自由），斯通纳感到"不曾想到的亲近感"——但这份亲近本身将成为后来决裂的伏笔
+        value_start: 陌生/距离——劳曼克思"讽刺性的棱角"
+        value_end: 精神交融——"两人在聚会留下的垃圾中挨得很近地坐着，像坐在一个孤岛上"
+        must_include: 劳曼克思声音"失去了讽刺性的棱角"、两人通过不同路径达到同一觉醒、第二天劳曼克思恢复冷嘲"只字不提"
+        handoff: 劳曼克思与斯通纳的关系在暴露后反转——暴露本身成为必须防御的东西
+        source_chapter: 6
+
+      - scene_id: S15
+        arc_id: ARC-2
+        location: 布恩维尔农场 → 墓地
+        time: 1927-1929年
+        participants: [斯通纳, 母亲, (父亲遗体)]
+        pov: 斯通纳
+        conflict: 旧世界（土地/传统/父母）的不可逆终结——斯通纳与出身的最后物理联系被切断
+        value_start: 震惊——"他看到的好像是个陌生人的尸体"
+        value_end: 接受——"他们将变成执拗的土地毫无意义的组成部分"
+        must_include: 电话中陌生人传达死讯、棺材前陌生化的身体（"某种动物干枯的爪子"）、田地里跪下抓土块、母亲拒绝离开农场
+        handoff: 旧世界消亡后，斯通纳只剩大学和家庭——为伊迪丝的"战争"提供了密闭空间
+        beat_direction: "死亡由陌生人的细细声音传达→棺材前尸体的物质性特写→田地里摸土的无声仪式→墓地的土地冥想。全场景零抒情，悲痛完全编码在物件和身体动作中。"
+        source_chapter: 7
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 斯通纳的书房
+        time: 约1930年代初
+        participants: [斯通纳, 伊迪丝]
+        pov: 斯通纳
+        conflict: 伊迪丝系统性夺走格蕾斯、侵占书房——斯通纳的最后领地被攻陷
+        value_start: 抵抗——斯通纳试图保住书房和与女儿的关系
+        value_end: 投降——"你能做的无非是离开我，而你永远不会这样做"
+        must_include: 伊迪丝的宣战、书稿被破坏、斯通纳被迫搬到大学办公室
+        handoff: 进入ARC-3，斯通纳的整个私人生活已被压缩到大学
+        beat_direction: "伊迪丝的攻势是逐步升级的：先夺孩子→再占空间→最后说出真相。她的那句话是全Arc的关键节拍——它不是威胁而是诊断。"
+        source_chapter: 8
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-3
+        location: 大学会议室（预答辩）
+        time: 约1930年代中期
+        participants: [斯通纳, 沃尔克, 劳曼克思, 霍兰, 卢瑟福]
+        pov: 斯通纳
+        conflict: 斯通纳坚持学术标准 vs. 劳曼克思保护门生
+        value_start: 希望——沃尔克也许没有那么差？
+        value_end: 决裂——斯通纳投不通过票，劳曼克思震怒
+        must_include: 沃尔克在劳曼克思提问时的出色表现与在基础问题前的崩塌对比
+        handoff: 劳曼克思发起报复
+        source_chapter: 10
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 劳曼克思的办公室 → 斯通纳的办公室
+        time: 约1930年代中后期
+        participants: [斯通纳, 劳曼克思]
+        pov: 斯通纳
+        conflict: 劳曼克思宣告决裂——"我们从来就不是朋友"
+        value_start: 斯通纳试图和解
+        value_end: 二十年决裂封印
+        must_include: 劳曼克思的冰冷宣告、斯通纳在冬夜办公室独坐的存在性虚无
+        handoff: 进入ARC-4——斯通纳在最低谷遇到凯瑟琳
+        beat_direction: "决裂宣告是短暂的——真正的高潮是之后斯通纳独坐的漫长沉默。叙事在此放慢到近乎静止，让虚无感弥漫。"
+        source_chapter: 11
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-4
+        location: 凯瑟琳的地下室公寓
+        time: 约1934年
+        participants: [斯通纳, 凯瑟琳]
+        pov: 斯通纳
+        conflict: 斯通纳害怕自己的感情暴露而刻意疏远 vs. 凯瑟琳因此病倒——压抑的爱无法继续压抑
+        value_start: 疏离/恐惧——斯通纳刻意保持距离
+        value_end: 坦白/联结——"我是极度、极度不开心"，两人拥抱
+        must_include: 凯瑟琳病倒的身体状况、坦白的直接性、拥抱而非对白的情感表达
+        handoff: 恋情开始
+        source_chapter: 12
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-4
+        location: 斯通纳的办公室/公寓
+        time: 约1935年
+        participants: [斯通纳, 凯瑟琳]
+        pov: 斯通纳
+        conflict: 真爱 vs. 世界不允许——劳曼克思以开除凯瑟琳为要挟
+        value_start: 爱/完整——恋情中的斯通纳重新获得了生命力
+        value_end: 失去/空——"害怕我们自我的毁灭"
+        must_include: 斯通纳说出真正的放弃原因、凯瑟琳连夜离开、两人此生再未相见
+        handoff: 进入ARC-5——斯通纳在失去一切后继续存在
+        beat_direction: "斯通纳的选择不是软弱——是他把对凯瑟琳的爱看得太绝对，以至于不敢让它在现实的妥协中被玷污。这是他唯一一次主动选择'失去'。"
+        source_chapter: 13
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 杰西楼教室 → 恩哈特办公室 → 斯通纳办公室
+        time: 1937年秋
+        participants: [斯通纳, 学生们, 恩哈特, 劳曼克思(幕后)]
+        pov: 斯通纳
+        conflict: 多年被压制在大一课后，斯通纳用手艺本身（中世纪英语教材替换大一大纲）进行反击，逼迫劳曼克思恢复高级课程
+        value_start: 被压制——"连刚刚进来的助教接受起来都会很勉强"的课表
+        value_end: 胜利——"课程安排有变化"的通知，重获高级课
+        must_include: "一股莫名的暗火从心里升起"后扔掉大纲、教室里用中世纪英语教大一生、与恩哈特的政治对弈、劳曼克思"以瘸子能够带动自己的最快的速度"从办公室前走过
+        handoff: 斯通纳进入教学黄金期
+        beat_direction: "反击=做事。全场景零攻击性言论，武器是教材和课堂。核心结构：暗火点燃→用手艺替换规则→以静等动→听到劳曼克思的脚步声。胜利不是被宣告的，是被听到的。"
+        source_chapter: 14
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-5
+        location: 斯通纳家厨房
+        time: 约1945年夏
+        participants: [斯通纳, 格蕾斯]
+        pov: 斯通纳
+        conflict: 父亲对女儿的爱 vs. 无法拯救她的现实
+        value_start: 担忧——格蕾斯显然在酗酒
+        value_end: 接受——"他很欣慰，女儿还能喝酒"
+        must_include: 格蕾斯坦白怀孕动机、深夜的坦诚对谈、斯通纳苦涩的理解
+        handoff: 斯通纳进入教学黄金期
+        source_chapter: 16
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-5
+        location: 费奇办公室 → 学生会招待室
+        time: 1956年春
+        participants: [斯通纳, 费奇, 劳曼克思, 同事们]
+        pov: 斯通纳
+        conflict: 劳曼克思逼迫退休 vs. 斯通纳的坚持 → 因癌症主动退休
+        value_start: 抵抗——"我不想退休"
+        value_end: 平静的接受——"我已经在这个大学教了将近四十年书"
+        must_include: 斯通纳对劳曼克思说"你是个好人……但你是个无知的杂种"、退休晚宴上劳曼克思致辞、斯通纳经过劳曼克思时后者不转身——无言的和解
+        handoff: 斯通纳住院手术
+        beat_direction: "退休博弈→确诊癌症→主动退休→晚宴——这是四步式的递进放手。晚宴上斯通纳的感言只有两句话，是全书最极简的对白时刻。"
+        source_chapter: 16
+
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 斯通纳家小后屋
+        time: 1956年初夏
+        participants: [斯通纳, (伊迪丝), (格蕾斯)]
+        pov: 斯通纳
+        conflict: 面对死亡，回答"你还期望什么呢？"
+        value_start: 失败的回顾——"他冷酷无情地看着自己这辈子看上去似乎难以回避的失败来"
+        value_end: 超越——"一种他自己的身份感忽然猛然袭来……他就是自己，他知道自己曾经是什么样的人"
+        must_include: 三次"你还期望什么呢"的追问、学生们穿过草坪的笑声、手握著作感觉刺痛、书从手中滑落
+        handoff: 终
+        beat_direction: "这是全书的终极场景。结构：失败清单→'太不重要了'的超越→窗外学生的生命力→拿起书→刺痛→书滑落。最后一个动作是被动的（手指松软、书'滑动'），与第一章课堂上手指'松开'形成完美首尾呼应。"
+        source_chapter: 17
+
+tension_curve:
+  description: "全书张力呈波浪形上升：ARC-1相对平缓（觉醒），ARC-2逐步压迫（婚姻），ARC-3急剧下沉（存在危机），ARC-4达到情感顶点（爱与失去），ARC-5缓慢回落至平静（死亡中的超越）。整体形状像一条先上升后下沉再上升的曲线，最终在最平静的时刻达到最深的情感冲击。"
+  peaks: [S06, S08, S10, S13]  # 伊迪丝宣战、存在危机、失去凯瑟琳、临终
+  valleys: [S04, S11]  # 初遇伊迪丝的温柔假象、父女深夜对谈的苦涩平静
+  turning_points: [S15, S16, S14]  # 旧世界终结、精神交融→决裂伏笔、手艺反击
+
+causal_chain: "S01（觉醒）→ S02（身份命名）→ S03（与旧世界断裂）→ S04（因渴望联结而选择伊迪丝）→ S05（婚姻中被困）→ S17（打造书房=打造自我）→ S16（暖房深夜精神交融——决裂的伏笔）→ S15（父母去世/农场消亡——旧世界终结）→ S06（被彻底剥夺）→ S07（坚持学术底线）→ S08（被职场报复+存在危机）→ S09（在虚无中被凯瑟琳拯救）→ S10（为保护爱而放弃爱）→ S14（通过手艺本身反击——重获高级课）→ S11（接受女儿的命运）→ S12（主动退休+无言和解）→ S13（在死亡中超越失败，确认自我）"

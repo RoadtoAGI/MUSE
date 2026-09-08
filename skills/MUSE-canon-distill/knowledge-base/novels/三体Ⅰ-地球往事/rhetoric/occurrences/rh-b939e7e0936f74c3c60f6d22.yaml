@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b939e7e0936f74c3c60f6d22
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1130
+chapter: 第13章 红岸之二
+figure_type: simile
+quote: 与以前叶文洁眼中的他相比仿佛换了一个人
+sensory_mapping: 视觉身份；声音语气；人物替换动作
+context_fact: 雷政委此前以温暖鼓励争取叶文洁入核心岗位，此刻却在领导面前严厉宣布惩罚要求。
+image_mechanism: 同一张脸和身体被保留，熟悉的语气、目光与关系却像整套卸下并换装；外表连续与人格断裂形成瞬间错认。
+property_alignment: 和蔼变厉声对应人物性格更换；传递温暖变成威胁惩罚对应立场更换；叶文洁无法把两种表现连在一起对应认人却不识人的错位
+context_alignment: 转变发生在一次精心安排的政治表演中，读者随后得知此前亲近含有欺骗，换人感准确承载叶文洁的认知断裂。
+narrative_function: 让背叛以人格突变被身体感知，摧毁叶文洁刚建立的信任。
+transfer_rule: 写熟人态度骤变时，应让语气、关系承诺和行动后果同步翻转，使“换人”来自多项连续证据。
+failure_boundary: 只是一时发脾气、语气略变或人物外貌真的被替换时，该喻体分别会夸大心理断裂或失去修辞性。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 雷志成从私下温和信任骤然转为公开冷酷训斥的态度变化
+vehicle: 原来的人离场，由性格和立场全异的另一个人替换
+ground: 语气由和蔼变厉声对应说话者人格更换；个人信任转为政治威胁对应关系立场整体改换

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1b09e47f9f5918352470b354
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L755
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 旗帜在不间断地被挥舞着，像一只永恒的钟摆，倒数着她那所剩无几的生命
+sensory_mapping: 视觉；周期运动；节奏；时间；机械
+context_fact: 叶文洁在失温幻觉中看见妹妹、白沐霖、程代表、母亲和父亲先后成为旗手。
+image_mechanism: 人物面孔不断替换，旗帜却保留相同摆幅，成为穿过多段创伤的唯一机械部件；每次来回既计一拍，也从生命余额中减去一格。
+property_alignment: 旗面左右挥动对应钟摆往复；旗手更换而运动持续对应机械周期不因人停；每次摆动逼近死亡对应计时器逐拍倒数；政治运动反复吞噬亲友对应摆锤循环回返
+context_alignment: 旗帜真实挥动轨迹与钟摆相似，而“永恒”对应政治暴力在不同人物间重复，超出单纯外形。
+narrative_function: 把个人背叛史压缩成死亡倒计时，并预响汪淼后来的幽灵倒计时。
+transfer_rule: 用摆动写倒计时时，应让物体轨迹、周期单位、递减对象和跨周期不变项全部对应。
+failure_boundary: 摆动杂乱无周期、时间正在增加或旗手更换使运动中断时，钟摆的机械计时结构会失真。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 濒死幻觉中由不同亲友轮流挥动、持续摆动的政治旗帜
+vehicle: 在固定轴上永不停歇往复、把剩余时间逐拍扣除的钟摆
+ground: 旗面左右挥动对应钟摆往复；旗手更换而运动持续对应机械周期不因人停；每次摆动逼近死亡对应计时器逐拍倒数；政治运动反复吞噬亲友对应摆锤循环回返

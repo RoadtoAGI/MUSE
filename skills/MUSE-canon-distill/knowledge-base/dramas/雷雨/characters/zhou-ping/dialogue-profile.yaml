@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:zhou-ping
+work_id: drama:雷雨
+display_name: 周萍
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '周萍的台词大量是"半完成"句——"是，爸爸""我对不起你""我厌恶"——他几乎不在一句话里说完一个想法。他用"是""嗯""哦"做过渡词，频率比朴园还高。当被逼到极点他会爆发，但爆发短暂——A4 对蘩漪："我要你死！再见吧！"是他全剧最斩钉截铁的一句，紧接着的是仓促"急走下"。他对女性的台词常常用第二人称询问（"你怎么这样？""你为什么害怕不敢见我？""你饶恕我么？"），把对方变成审判者——这是他借"恳求被原谅"逃避自己责任的语法。**他的最深声音特征：他唯一一次把潜台词说出口是
+    A4 终场前的"爸，您不该生我"**——五个字、一句话、一个人物的全部内核。
+
+
+    佐证：scenes/scene_A1.md:L399（被父亲喝令跪下时只说"哦，爸爸！"——半句也说不完整）；scenes/scene_A4.md:L165-L169（"我要你死！再见吧！"——全剧最直接的一句）；scenes/scene_A4.md:L475（自杀前的"爸，您不该生我"）'
+  evidence_locators:
+  - scenes/scene_A1.md:L399
+  - scenes/scene_A4.md:L165-L169
+  - scenes/scene_A4.md:L475
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

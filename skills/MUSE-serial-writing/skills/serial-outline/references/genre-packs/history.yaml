@@ -1,0 +1,24 @@
+# genre-pack: history —— 写实/历史底座（机器契约层）
+# 审阅 checklist / brainstorm 选项池 / 台账权重判据住类型 reference（技能侧），本文件只承载 schema 契约
+schema_version: 1
+substrate: history
+display_name: 写实/历史底座
+substrate_config_keys:
+  history_coupling: [正史贴线, 分岔架空, 架空借壳]   # 第三档为调研扩展归纳（证据身份见 knowledge 证据档）
+enum_extensions:
+  world_facts_kind: []
+  milestone_kind: [衔职变动, 声望事件]
+  thread_kind: []
+  hook_type: []
+worldbook_sections:
+  - {section_id: timeline, template: generic/timeline.md, mutability: append}
+  - {section_id: factions, template: generic/factions.md, mutability: append}
+  - {section_id: offices-ranks, template: history/offices-ranks.md, mutability: axiom}
+  - {section_id: era-texture, template: history/era-texture.md, mutability: append}
+  - {section_id: military-life, template: history/military-life.md, mutability: append}
+  - {section_id: equipment, template: history/equipment.md, mutability: append}
+  - {section_id: divergence-registry, template: history/divergence-registry.md, mutability: append, condition: "history_coupling: 分岔架空"}
+character_extensions:
+  status_ladder: rank / position / assignment 三分列（"明升暗降"可表达）
+  promotion_history: 晋升履历，每条带章锚
+  political_capital: 语义槽（水位 / 最近动用 / 对手方预期），不做伪精确数值

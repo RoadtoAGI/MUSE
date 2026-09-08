@@ -1,0 +1,42 @@
+scene_id: S27
+source_notes: scene_S27_beats.md
+patterns:
+- pattern_id: S27-p1
+  beat: 画的生死双价
+  dimension: info_density
+  original_move: 同一意象反转价值：针眼的画是死，世界之画是生
+  ai_default_failure: AI 默认为新张力添新设定，不会复用旧意象的反价
+  transfer_rule: 隐喻系统建立后复用同一意象的相反价值，零新设定成本
+  quote: 在这幅画里你活着，在那幅画中你就死了
+- pattern_id: S27-p2
+  beat: 饕餮鱼三段展示
+  dimension: omission
+  original_move: 听觉到废墟到演示三步全是间接证据，正面凶相永远缺席
+  ai_default_failure: AI 写怪物必给外观特写
+  transfer_rule: 威胁的体积由展示其作用结果撑起，而非展示其本体
+  quote: 把一艘大船咬成碎片
+- pattern_id: S27-p3
+  beat: 香皂性质清单
+  dimension: info_density
+  original_move: 解决方案零件提前两万字挂在生活逻辑上展示，零叙事信号
+  ai_default_failure: AI 默认在需要时才让道具亮相，导致机械降神感
+  transfer_rule: 解决方案可信度等于零件在不相干场合出现过的次数
+  quote: 盆面立刻堆满了雪白的泡沫
+- pattern_id: S27-p4
+  beat: 饕餮海起源史
+  dimension: info_density
+  original_move: 叙事下沉一层讲前史，预埋多条可解读路径且不点破寓意
+  ai_default_failure: AI 会点破寓意并锁死单一解读路径
+  transfer_rule: 隐喻物预埋多条讲得通的路径，是对抗第三方破译的冗余
+  quote: 昨天像今天，今天像明天
+- pattern_id: S27-p5
+  beat: 露珠名字兑现
+  dimension: info_density
+  original_move: 名字在第二篇末尾才启用为意象，兑现时机刻意延迟
+  ai_default_failure: AI 默认命名当场点破寓意，丢掉回溯快感
+  transfer_rule: 命名即伏笔，延迟兑现给读者名字早在那里的回溯快感
+  quote: 我就是阳光下的露珠
+overall_traits:
+- 中段装配学：事件密度换成装配密度
+- 命名功能主义：文体惯例成为隐写术掩体
+- 环境拟声宿命化：台词交给环境复读

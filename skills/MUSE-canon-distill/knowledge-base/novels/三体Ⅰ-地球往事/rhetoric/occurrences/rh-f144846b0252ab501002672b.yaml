@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f144846b0252ab501002672b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1671
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 一条横穿太空的岩浆的河流
+sensory_mapping: 视觉长带；流动；红热亮度；横向贯穿；液体体量
+context_fact: 行星两半藕断丝连，核心物质被拉到两者之间，后在太空冷却形成行星环。
+image_mechanism: 没有地面的真空被铺成河床，红亮岩浆从一个世界流向另一个世界；河流随后冻结碎裂，转化为环和陨石雨。
+property_alignment: 岩浆液态对应河水；两半行星对应两岸或源汇；横穿太空对应长河贯穿区域；物质持续输送对应水流；冷却成环对应河流凝固改道
+context_alignment: 上一句藕丝给出细连接，这里镜头拉近后显示细丝其实是天体尺度的河，连续完成尺度揭示。
+narrative_function: 赋予跨太空物质转移可见流向，并连接撕裂与行星环形成。
+transfer_rule: 把熔融物带写成河时，应有连续液态介质、明确两端、长向流动和后续沉积或凝固去向。
+failure_boundary: 物质只是零散喷溅、没有连续通道或运动方向混乱时，河流会虚构稳定流态。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 连接行星两半、在真空中持续流动并延伸极远的熔融岩浆带
+vehicle: 有源头、流向和狭长河道，横贯大地的巨大河流
+ground: 岩浆连续流动对应河水奔流；狭长带状结构跨越两端对应河道贯穿空间

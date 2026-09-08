@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a4e161cd8ffb7d031eb27d12
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1036
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 渐渐变成一个个晶莹闪亮的镜面，仿佛大地睁开了无数只眼睛
+sensory_mapping: 视觉；光泽；开合动作；群体空间
+context_fact: 恒纪元日出后，落满沙尘而与地面同色的冻湖逐一融化并露出亮面。
+image_mechanism: 解冻先擦去湖面的尘暗，使一块块镜面从地表显出；数量众多的亮面随时间依次出现，于是静态反光被组织成整片大地苏醒的眨眼动作。
+property_alignment: 湖面晶亮反光对应眼球湿润高光；封冻蒙尘到解冻显亮对应闭眼到睁眼；湖泊散布各处对应大地长出无数视觉器官
+context_alignment: 紧接冬眠式脱水后的恒纪元复苏，睁眼把物理解冻和世界醒来连成同一时刻。
+narrative_function: 让宏观地貌获得苏醒动作，快速宣布恒纪元带来的生命回归。
+transfer_rule: 写景观复苏时，可寻找由暗转亮、由遮蔽到显露的成组表面，把状态变化对应为器官开启，而非只借外形相似。
+failure_boundary: 湖面始终明亮、数量稀少或变化与苏醒无关时，睁眼动作缺少开合过程，会只剩装饰性拟人。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 荒原上成片解冻、重新反光的湖泊
+vehicle: 沉睡的大地同时睁开的无数明亮眼睛
+ground: 圆片状闪亮湖面对应湿润有光的眼睛；湖泊从蒙尘冰面转为反光对应眼睑由闭合到睁开

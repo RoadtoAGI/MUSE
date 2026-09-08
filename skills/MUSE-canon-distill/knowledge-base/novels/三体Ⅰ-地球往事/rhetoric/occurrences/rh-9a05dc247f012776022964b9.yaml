@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9a05dc247f012776022964b9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2018
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 科学和技术一时成了打开未来之门的唯一钥匙
+sensory_mapping: 门扉封闭；钥匙插锁；转动开门；门后光亮；单一路径
+context_fact: 高考、科研和技术革新恢复，社会在反理性浩劫后将科学置于神圣中心。
+image_mechanism: 未来从时间变成门后的房间，国家与个人都停在门外；科学被铸成唯一能咬合锁芯的工具，全部希望集中到一次开锁动作。
+property_alignment: 尚未实现的新生活对应门后空间；历史阻隔对应上锁；科学知识对应钥匙齿；技术应用对应转动锁芯；社会奋斗对应推门进入；唯一化期待对应没有备用钥匙
+context_alignment: 后文智子将锁死科学，这里先建立钥匙—门框架；当钥匙被封，人类通向未来的门也随之关闭。
+narrative_function: 概括科学热的工具性信仰，并预埋智子封锁为何引发彻底绝望。
+transfer_rule: 用钥匙开未来写发展时，应确定门后目标、现实锁障、科学如何咬合障碍及是否真无替代路径。
+failure_boundary: 未来取决于政治、伦理、制度等多条独立路径，或科学本身制造新风险时，唯一钥匙属于时代信念而非客观全称。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 社会把科学技术视为通向现代化、新生活和国家发展的唯一有效手段
+vehicle: 一扇关闭着未来空间的门，只有一把匹配锁芯的钥匙能将它开启
+ground: 未来尚不可进入对应门关闭；科学技术提供必要方法对应钥匙；唯一崇拜对应只有一把可用钥匙；发展成功对应开门进入

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c5762626672068efb0ea1096
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2526
+chapter: 第34章 智子
+figure_type: simile
+quote: 它并不是平面，而是一个抛物面，像从一个巨球上切下的一部分
+sensory_mapping: 巨圆轮廓；弧面曲率；球壳切片；缓慢转动；空间深度
+context_fact: 眼状投影失去智能细节并变成反射镜，随后聚焦太阳光灼烧三体城市。
+image_mechanism: 正视时像平面的巨圆随着转动显露弧腹，观察者遂补出一个并不存在的完整巨球，再把眼前结构理解为从球壳裁下的镜片。
+property_alignment: 圆形投影对应球面截片边缘；抛物曲率对应巨球弧度近似；转动显深度对应球壳非平面；巨大面积对应巨球尺度；完整光滑面对应一次切下的壳片
+context_alignment: 该几何参照承担空间说明，读者据此理解它能成为聚光反射镜，随后死亡光锥的机制获得前置形状依据。
+narrative_function: 把难以从正面判断的抛物面曲率转成可视球壳，并为聚光攻击作力学铺垫。
+transfer_rule: 用球面切片解释弧面时，应匹配边界形状、曲率、转动视差和后续光学功能，并将其作为形状模型而非材质隐喻。
+failure_boundary: 结构为真正平面、曲率不连续或边界非圆且无法对应球壳时，巨球切片会误导几何。
+quality_assessment: functional
+confidence: 0.99
+review_status: reviewed
+tenor: 巨眼退去细节后形成、缓慢转动才显出曲率的巨大圆形抛物反射面
+vehicle: 从半径极大的球体表壳切割下来的一块圆形弧面
+ground: 圆形边界对应球面切片；整体弯曲对应球壳曲率；转动揭示非平面厚度关系

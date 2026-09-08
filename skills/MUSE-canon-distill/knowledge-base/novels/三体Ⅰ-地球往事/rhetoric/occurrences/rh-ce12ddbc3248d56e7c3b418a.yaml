@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ce12ddbc3248d56e7c3b418a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2711
+chapter: 第36章 尾声·遗址
+figure_type: simile
+quote: 叶文洁的心脏艰难地跳动着，像一根即将断裂的琴弦
+sensory_mapping: 绷紧弦线；微弱颤音；断裂前高张力；心搏节律；骤然静音
+context_fact: 叶文洁生命将尽，黑雾进入视野，她用最后能量等待再看一次红岸日落。
+image_mechanism: 心脏被拉细成一根承担全部生命张力的弦，每次搏动都是最后几次颤音；一旦纤维断开，身体和她引发的漫长历史将同时进入静默。
+property_alignment: 心肌搏动对应琴弦颤动；节律艰难对应颤音失稳；生命负荷对应弦上张力；濒死对应即将断裂；断后心停对应弦断无声；古筝行动回声对应琴弦母题
+context_alignment: 本卷古筝以琴弦切开巨轮，结尾琴弦缩回一颗衰竭心脏，使宏大暴力意象转成人的最后脆弱。
+narrative_function: 用声音将死亡倒计时具体化，并为最后日落留出一线即断的时间。
+transfer_rule: 用琴弦写心脏濒停时，应匹配周期振动、张力极限、音色衰弱、断裂瞬间和断后静默。
+failure_boundary: 心跳平稳有力、病因只是低温或短暂惊吓且能迅速恢复时，即将断弦会过度预告死亡。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 濒死叶文洁的心脏在生命耗尽时勉强、紧绷而不稳定地维持最后跳动
+vehicle: 被拉到极限的琴弦仍在颤振发声，纤维已承受不住张力并随时会崩断
+ground: 心跳振动对应琴弦振动；生命压力到极限对应弦张力过大；心脏将停对应琴弦将断；每次跳动艰难对应颤音不稳

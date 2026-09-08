@@ -1,0 +1,28 @@
+scene_id: 08
+source_notes: scene_08_beats.md
+patterns:
+- pattern_id: 08-p1
+  beat: 宣战广播个体忧郁
+  dimension: omission
+  original_move: 不切德军平行线，威胁场外积累，镜头锁底层军官静态视听
+  ai_default_failure: 双线交切「与此同时德军机群正逼近」制造悬念
+  transfer_rule: 写突袭前夜让袭击在读者的等待疲劳中降临
+  quote: 战争竟然就又降临到了不列颠的上空
+- pattern_id: 08-p2
+  beat: 舰队巡礼作挽歌
+  dimension: info_density
+  original_move: 借角色安心目光逐舰盘点，参数兼作待宰名单与帝国挽歌
+  ai_default_failure: 必写「格林隐隐感到不安」的预感提示，反讽做不满
+  transfer_rule: 大难前用角色的安心盘点垫高崩塌，让数据承担情感
+  quote: 帝国日薄西山的最后一抹还算明亮的余晖
+- pattern_id: 08-p3
+  beat: 口语骤断挽歌
+  dimension: verb
+  original_move: 软动词千字蓄势后硬动词断崖爆发，恐惧只写身体失控
+  ai_default_failure: 用心理词直陈恐惧，补内心独白稀释动作定格
+  transfer_rule: 建置与爆发用动词硬度分档，转折口语独立成段作剪刀
+  quote: 望远镜啪地摔在了甲板上面
+overall_traits:
+- 38行铺垫对4行爆发，冲击力来自铺垫长度
+- 参数流叙事化，数据兼任待宰名单与挽歌
+- 败者视角开高潮，暴力感与文明崩塌同时成立

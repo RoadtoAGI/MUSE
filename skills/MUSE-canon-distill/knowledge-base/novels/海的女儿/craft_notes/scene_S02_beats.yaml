@@ -1,0 +1,48 @@
+scene_id: S02
+source_notes: scene_S02_beats.md
+patterns:
+- pattern_id: S02-p1
+  beat: 装饰预演代价
+  dimension: omission
+  original_move: 以尾上牡蛎的日常疼痛预演变成人的剧痛
+  ai_default_failure: 把装扮写成纯奇观，后文牺牲缺少早期回声
+  transfer_rule: 重大代价出现前，先用同质小代价建立身体记忆
+  quote: 为了漂亮，一个人是应该吃点苦头的
+- pattern_id: S02-p2
+  beat: 海中语汇看焰火
+  dimension: camera
+  original_move: 用星星、太阳和大鱼呈现小人鱼眼中的焰火
+  ai_default_failure: 按客观术语描写烟火，异质观察者失去辨识度
+  transfer_rule: 奇观经过视角角色的经验词库再落到页面
+  quote: 光耀夺目的大鱼在向蓝色的空中飞跃
+- pattern_id: S02-p3
+  beat: 低频声先转调
+  dimension: verb
+  original_move: 让灯火熄灭、炮声停止后由深海轰鸣接管
+  ai_default_failure: 加一句风暴忽然来临，庆典到灾难转折生硬
+  transfer_rule: 场景转调时先替换主导感官，再展开事件后果
+  quote: 海的深处起了一种嗡嗡和隆隆的声音
+- pattern_id: S02-p4
+  beat: 规则触发救援
+  dimension: info_density
+  original_move: 先保留占有喜悦，再以人类会溺死完成认知急转
+  ai_default_failure: 直接把人物写成无私救人，选择缺少内部转折
+  transfer_rule: 行动转向可由角色突然重估一条既知规则触发
+  quote: 她又记起人类是不能生活在水里的
+- pattern_id: S02-p5
+  beat: 泡沫遮住真相
+  dimension: omission
+  original_move: 让救命者主动藏身，使苏醒微笑落到另一女子
+  ai_default_failure: 靠后来强行失忆制造误会，因果难以验证
+  transfer_rule: 长期误认宜由当场视线遮挡与信息分配生成
+  quote: 他一点也不知道救他的人就是她
+overall_traits:
+- 同组光声海浪完成庆典到灾难转调
+- 规则触发行动，空间遮挡生成误认
+narrative_organization:
+  presentation: 叙述贴近小人鱼感官，她始终从船外观察人类内部活动
+  transition_anchor: 炮声停止与深海轰鸣切入风暴，天明切入岸边误认
+  knowledge_change: 她从把沉海视为王子来到自己的世界，转为理解那意味着死亡
+  cross_thread_effect: 救援保住王子，藏身却把救命者身份让给岸上女子
+  effect: 爱情成立与悲剧机关启动在同一行动中完成
+  source_anchor: scene_S02.md:L9-L19；他一点也不知道救他的人就是她

@@ -1,0 +1,19 @@
+# chapters/V0N/C00NN/chapter_card.yaml —— 章卡（物化时由卷纲条目展开生成）
+# 只承载章级新字段；章内场景编排真值住同目录 pipeline/phase5_scenes.yaml
+schema_version: 1
+chapter_id: C0012
+prev_chapter: C0011              # 显式链（裸章号）；顺序由链不由编号算术
+next_chapter: null               # 尚未物化下一章时为 null，物化时回填
+hook:                             # 章末钩子具体设计（校对锚点）
+  type: 反转
+  design: 章末揭示寿宴刺客是主角昔日师兄，使眼前冲突转入师门旧事
+  strength: 强                    # 强 | 中 | 弱；启发式标注（同型连击/强弱交替 review 信号），可省略
+pov: fangyan                      # 本章主要视角；人物知识由逐角色 role_view 按场景时点派生
+recap_inputs:                     # 编排前选材范围；serial_context 以此装配作者侧材料
+  characters: [fangyan, linna]
+  locations: [黑石城]
+  items: [青锋剑]
+  threads: [T-017, T-009]
+  worldbook_sections: [power-system, factions]   # 本章触及的设定集分册；按上下文协议装配与派生
+scene_plan:                       # 章内编排完成后回填；修订时与当前 phase5_scenes.yaml 保持一致
+  scenes: [S01, S02, S03]

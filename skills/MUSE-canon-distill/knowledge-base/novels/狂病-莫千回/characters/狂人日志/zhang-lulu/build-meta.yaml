@@ -1,0 +1,27 @@
+mode: reference
+display_name: 张露露
+role_slug: zhang-lulu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/狂人日志/phase3_spine.yaml  # 结构化依据：antagonistic_forces.interpersonal layer_2_fake_trust + arc_framework arc_4 反讽装置
+  - pipeline/phase0_conception.yaml      # human_antagonist_typology / controlling_idea（受害者侧 + 识破者功能）
+  - scenes/scene_KR-S04.md
+  - scenes/scene_KR-S06.md
+  - scenes/scene_KR-S08.md
+  - scenes/scene_KR-S09.md
+built_at: 2026-05-29T17:35:35+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  本系列单篇人物，phase2_character.yaml 仅登记跨篇人物，未登记张露露的系统级条目；
+  结构化字段依据 pipeline/狂人日志/phase3_spine.yaml 的 antagonistic_forces.layer_2_fake_trust +
+  arc_framework arc_4 反讽装置 + phase0_conception.yaml 受害者侧推导，所有断言均有篇内 scene locator 佐证。
+  张露露是"识破者"功能角色，刻画密度中等：核心戏份（识破/预警/被劝服/被注视发毛）高度集中于 S06，
+  声音框架与边界 4 条多以 S06 内不同行为段落佐证，跨场景仅延伸到 S08:L5（放下成见的弧光终点）。
+  coverage 软建议：声音框架与多数边界依赖 S06 单一场景的多段落，弧光终点单点延伸到 S08——
+  属"识破者"集中登场角色的固有特征，可接受但跨场景稳定性弱于赵维胜/李伟。
+  弧光起点（S06 识破预警）+ 转折（S06 被劝服/被注视）+ 终点（S08 放下成见）三段齐全。
+  死法（被感染的赵小军咬死的完成态：脖插水果刀+眼眶塞蜡烛）及死后被开膛缝入赵小军的"升华"意象，
+  属物理/不可逆终局，按约定拆入 references/canon-ending.md，不写进弧光本体。

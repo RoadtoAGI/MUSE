@@ -1,0 +1,27 @@
+card_id: foreknowledge-through-bureaucracy
+pattern_name: 先知入体制
+dramatic_function: 让超前知识只能经体制程序转译兑现，金手指变成逐关表演，宠信与反噬同源累积
+applicability: 适用主角持信息差进入强科层世界的故事；世界无程序权威或主角可自立门户则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 穿越魂穿设定
+- 二战德国军备细节
+- 希特勒等真实历史人物
+tags:
+- 金手指
+- 体制内爬升
+- 信息差
+- 表演性张力
+source_scenes:
+- novel: 日耳曼涅槃
+  scene_id: scene_01
+  note: 拒绝躺平把穿越意外转成自觉使命，接受年龄时间锁
+- novel: 日耳曼涅槃
+  scene_id: scene_03
+  note: 先知包装成理论共鸣，狱中买入政治期权
+- novel: 日耳曼涅槃
+  scene_id: scene_04
+  note: 论文让中将折节下问，知识经程序换军权通道
+phase_affinity:
+- 1
+- 2
+- 3

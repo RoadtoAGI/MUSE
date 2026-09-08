@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a8200055905adee7227deefc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2682
+chapter: 第35章 虫子
+figure_type: simile
+quote: 地面上，更多的蝗虫在蠕动着，看去像是一种黏稠的液体
+sensory_mapping: 黏稠表面；波状蠕动；厚层覆盖；个体边界消失；潮湿厌恶感
+context_fact: 大史带汪淼和丁仪到遭蝗灾的麦田，准备以虫子从未被消灭反驳他们的失败主义。
+image_mechanism: 无数硬壳小身体在密度中失去个体轮廓，腿翅相互传递运动，地面像被一层活液覆盖；生命数量转化为流体物性。
+property_alignment: 蝗虫数量巨大对应液体连续体；个体紧挨对应分子密集；群体慢动对应高黏流动；覆盖厚实对应液层；表面起伏对应流体波纹；难清除对应液体渗满空间
+context_alignment: 三体人称人类为虫子，此处虫群先以不可分割的活流体出现，视觉上建立低等生命的数量力量。
+narrative_function: 把蝗灾规模压到读者身体感受，为大史的生存韧性论证提供现场证据。
+transfer_rule: 把群体生物写成液体时，应有足够密度使个体边界消失，并匹配整体流向、速度、黏度和覆盖方式。
+failure_boundary: 虫群稀疏跳跃、个体清晰分散或快速飞行而非贴地蠕动时，黏稠液体会误写运动。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 数量密到看不见地面、个体彼此挤压并整体缓慢蠕动的蝗虫群
+vehicle: 高黏度液体铺成厚层，表面缓慢起伏流动且各部分难以分开辨认
+ground: 个体密集融合对应液体连续面；群体蠕动对应黏液缓流；覆盖地面对应液层铺展

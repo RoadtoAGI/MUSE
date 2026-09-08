@@ -1,0 +1,829 @@
+[
+  {
+    "scene_id": "S01",
+    "name": "公理播种",
+    "file": "scenes/scene_S01.md",
+    "lines": "3-57",
+    "arc": 1,
+    "type": "establishing",
+    "tension": 3,
+    "participants": [
+      "叶文洁",
+      "罗辑",
+      "褐蚁"
+    ],
+    "value_change": "无知的安宁 → 种子已种下",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "公理播种——无知的安宁 → 种子已种下",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知降维至蚂蚁微观视角，人类对话退作背景声",
+      "diction": "白话沉静，碑文以几何沟槽描述，格言句点睛",
+      "rhetoric_density": "high",
+      "dialogue_mode": "纯引语连排省归属，蚁行段全无对白",
+      "pacing": "蚁行慢爬铺满全场，人类对话快进，宏句收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S02",
+    "name": "「想」和「说」",
+    "file": "scenes/scene_S02.md",
+    "lines": "58-121",
+    "arc": 1,
+    "type": "establishing",
+    "tension": 6,
+    "participants": [
+      "伊文斯",
+      "三体智子"
+    ],
+    "value_change": "三体人自信理解人类 → '我害怕你们'",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "「想」和「说」",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "近伊文斯限知，字幕体对话承载哲思",
+      "diction": "译文式平直问答，概念词反复咀嚼",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "字幕对人声剧本式标注，一问一答推演概念",
+      "pacing": "概念逐层剥笋，两次长停顿留白，五字末句定音"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S03",
+    "name": "面壁者",
+    "file": "scenes/scene_S03.md",
+    "lines": "793-965",
+    "arc": 1,
+    "type": "turning",
+    "tension": 8,
+    "participants": [
+      "罗辑",
+      "萨伊",
+      "泰勒",
+      "雷迪亚兹",
+      "希恩斯"
+    ],
+    "value_change": "普通公民 → 不可撤销的面壁者",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "面壁者——普通公民 → 不可撤销的面壁者",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，建筑意象先行直评人类处境",
+      "diction": "国际政治公文腔与个人怨语并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "演讲长段独白主导，点名一句成爆点",
+      "pacing": "仪式铺陈缓慢蓄压，指向罗辑骤停，问答短收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S04",
+    "name": "破壁计划",
+    "file": "scenes/scene_S04.md",
+    "lines": "1022-1050",
+    "arc": 2,
+    "type": "turning",
+    "tension": 7,
+    "participants": [
+      "秦始皇",
+      "冯·诺伊曼",
+      "墨子",
+      "亚里士多德"
+    ],
+    "value_change": "面壁计划看似可控 → 最大悬念确立",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "破壁计划——面壁计划看似可控 → 最大悬念确立",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知场记式白描虚拟集会，不入任何内心",
+      "diction": "游戏管理术语混历史人物称谓，庄谐并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "秦始皇主持式宣令，册封动作配短答",
+      "pacing": "开场调度利落，逐个册封成节拍，无余墨"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S05",
+    "name": "壁炉与卢浮宫",
+    "file": "scenes/scene_S05.md",
+    "lines": "1424-1517, 1632-1704",
+    "arc": 2,
+    "type": "deepening",
+    "tension": 4,
+    "participants": [
+      "罗辑",
+      "庄颜"
+    ],
+    "value_change": "孤独的逍遥 → 爱情确立",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "壁炉与卢浮宫",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知深贴罗辑，情感直抒，幻境段意识流涌",
+      "diction": "抒情书面语，光影意象繁复，少口语",
+      "rhetoric_density": "high",
+      "dialogue_mode": "轻声短对白点染，叙述包裹对白",
+      "pacing": "炉火慢写如显影铺展，幻境长段奔涌不歇"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S06",
+    "name": "泰勒之死",
+    "file": "scenes/scene_S06.md",
+    "lines": "1795-1874",
+    "arc": 3,
+    "type": "turning",
+    "tension": 7,
+    "participants": [
+      "泰勒",
+      "罗辑"
+    ],
+    "value_change": "面壁者的困境 → 面壁者的代价是死亡",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "泰勒之死——面壁者的困境 → 面壁者的代价是死亡",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知在泰勒罗辑间转切，宣判段贴泰勒",
+      "diction": "田园抒情对军事术语，耳语段措辞阴冷",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "破壁人单方长篇宣判，泰勒以沉默应答",
+      "pacing": "伊甸园慢景开场，宣判层层逼近，枪响一声收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S06b",
+    "name": "庄颜被带走",
+    "file": "scenes/scene_S06b.md",
+    "lines": "1875-1980",
+    "arc": 3,
+    "type": "turning",
+    "tension": 8,
+    "participants": [
+      "罗辑",
+      "萨伊",
+      "庄颜"
+    ],
+    "value_change": "逃避中的幸福 → 被迫面对使命",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "庄颜被带走——逃避中的幸福 → 被迫面对使命",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，梦境与现实互渗，直写失语",
+      "diction": "家常对话素净，画中题字文白点睛",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "夫妻问答藏锋，萨伊对答公事冷静",
+      "pacing": "温情段舒缓，发现留画骤紧，解释问答快进"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S07",
+    "name": "冰湖顿悟",
+    "file": "scenes/scene_S07.md",
+    "lines": "2039-2074",
+    "arc": 3,
+    "type": "turning",
+    "tension": 9,
+    "participants": [
+      "罗辑"
+    ],
+    "value_change": "两条公理悬而未解 → 黑暗森林法则顿悟",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "冰湖顿悟——两条公理悬而未解 → 黑暗森林法则顿悟",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，思维过程外化为念珠等具象",
+      "diction": "书面冥思语，雪湖白描清冷",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，全段内省叙述，末句自白点题",
+      "pacing": "长段反刍盘旋，坠湖瞬间骤快，爬冰细写后定格"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S08b",
+    "name": "章北海探父",
+    "file": "scenes/scene_S08b.md",
+    "lines": "458-479",
+    "arc": 2,
+    "type": "establishing",
+    "tension": 5,
+    "participants": [
+      "章北海",
+      "章北海父亲"
+    ],
+    "value_change": "迷茫的军人 → '要多想'——一生决定的起点",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "章北海探父——迷茫的军人 → '要多想'——一生决定的起点",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴章北海，未出口的话以内心独白直呈",
+      "diction": "军人家常话极简，内心独白绵长恳切",
+      "rhetoric_density": "low",
+      "dialogue_mode": "三字短答对万字心声，沉默承载信息",
+      "pacing": "对白极简慢落，内白长段填隙，张弛交替"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S08",
+    "name": "太空暗杀",
+    "file": "scenes/scene_S08.md",
+    "lines": "2321-2408",
+    "arc": 4,
+    "type": "turning",
+    "tension": 8,
+    "participants": [
+      "章北海"
+    ],
+    "value_change": "技术路线争议 → 辐射驱动路线胜出（以三命为代价）",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "太空暗杀——技术路线争议 → 辐射驱动路线胜出（以三命为代价）",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴章北海，行动冷静记录，动机内白插入",
+      "diction": "弹道参数与航天名物精确，措辞利落",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎无对白，叙述独行推进刺杀流程",
+      "pacing": "准备段步骤分节，击发段连贯快写，心境一句收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S09",
+    "name": "劫持「自然选择」号",
+    "file": "scenes/scene_S09.md",
+    "lines": "3491-3560",
+    "arc": 5,
+    "type": "climactic",
+    "tension": 9,
+    "participants": [
+      "章北海",
+      "东方延绪"
+    ],
+    "value_change": "表面的纪律与服从 → 两百年骗局揭晓",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "劫持「自然选择」号",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴多人轮转，重场面以通话记录呈现",
+      "diction": "舰队术语与口令机锋，对白简练",
+      "rhetoric_density": "low",
+      "dialogue_mode": "口令交接斗智短对白，叛逃问答如笔录",
+      "pacing": "交接段静水蓄势，前进四一令爆发，问答冷收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S09b",
+    "name": "雷迪亚兹被破壁",
+    "file": "scenes/scene_S09b.md",
+    "lines": "2626-2715",
+    "arc": 4,
+    "type": "climactic",
+    "tension": 8,
+    "participants": [
+      "雷迪亚兹",
+      "破壁人"
+    ],
+    "value_change": "面壁者的权力 → 权力被反噬",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "雷迪亚兹被破壁",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知纪要腔转贴雷迪亚兹，核爆段全景慢摇",
+      "diction": "工程参数密布，外交辞令交锋",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "听证会多方质询，破壁人登门长篇推演",
+      "pacing": "议程铺陈后奇观慢摇，破壁段步步收紧"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S09c",
+    "name": "山杉惠子破壁希恩斯",
+    "file": "scenes/scene_S09c.md",
+    "lines": "3005-3049",
+    "arc": 5,
+    "type": "turning",
+    "tension": 8,
+    "participants": [
+      "山杉惠子",
+      "希恩斯"
+    ],
+    "value_change": "夫妻信任 → 数十年凝视的背叛",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "山杉惠子破壁希恩斯",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知会议视角，贴希恩斯崩溃反应",
+      "diction": "法理论辩语与妻子深情控诉并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "宣告一句震场，长篇独白拆解动机",
+      "pacing": "散会被一句拽回，独白绵长，悬念冷收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S09d",
+    "name": "木星军港——章北海登「自然选择」号",
+    "file": "scenes/scene_S09d.md",
+    "lines": "3261-3324",
+    "arc": 5,
+    "type": "establishing",
+    "tension": 4,
+    "participants": [
+      "章北海",
+      "亚洲舰队司令官",
+      "东方延绪"
+    ],
+    "value_change": "两百年前的旧军人 → 被托付舰队最强战舰的「前辈」",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "章北海赴木星基地报到并登舰：木星氢氦海洋的聚变燃料基地、「自然选择」号舰容参数、两千官兵悬浮方阵、东方延绪赠枪——舰队之「扬」的近景",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知第三人称贴章北海视点，叙述者随时插入设定与历史补叙",
+      "diction": "现代书面语混军事航天术语，庄重少口语，术语不加注直接用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长段问答推进设定披露，归属多省略或单用「说」，称谓带军衔",
+      "pacing": "对话密集处快，遇景观即长段铺陈放慢，心理点到即止不展开"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S10b",
+    "name": "罗辑初见地下北京",
+    "file": "scenes/scene_S10b.md",
+    "lines": "2896-2940",
+    "arc": 5,
+    "type": "establishing",
+    "tension": 3,
+    "participants": [
+      "罗辑",
+      "护士"
+    ],
+    "value_change": "冬眠的茫然 → 新世界的震撼",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "罗辑初见地下北京",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，苏醒者陌生眼光逐物打量",
+      "diction": "日常对话轻快，新事物借旧词错认",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "护士问答释新世界，错认制造轻喜剧",
+      "pacing": "逐物发现节奏轻快，飞伞揭晓定格，泪眼收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S10c",
+    "name": "两千个太阳——联合舰队起航",
+    "file": "scenes/scene_S10c.md",
+    "lines": "3603-3631",
+    "arc": 5,
+    "type": "deepening",
+    "tension": 7,
+    "participants": [
+      "罗辑",
+      "史强",
+      "希恩斯"
+    ],
+    "value_change": "狂欢顶点「大写的人与上帝合为一体」 → 三个冷静者的暗影",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "联合舰队 2015 艘恒星级战舰从木星基地起航——「太空中出现两千个太阳」的人类力量顶点，狂欢人群与罗辑/史强/希恩斯三个冷静者并置——水滴团灭（S10）前欲抑先扬之「扬」的顶点",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知俯瞰群像再聚焦个体，叙述者直评人物冷热",
+      "diction": "叙述段史诗腔书面语，群声对白极口语，两者硬切不过渡",
+      "rhetoric_density": "high",
+      "dialogue_mode": "先无归属群声七嘴八舌，后双人口语对谈，归属用「某某说」",
+      "pacing": "长句排比推至高潮即急收，省略号跳过过渡，梦与醒一笔带过"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S10",
+    "name": "水滴攻击",
+    "file": "scenes/scene_S10.md",
+    "lines": "3752-3914",
+    "arc": 5,
+    "type": "climactic",
+    "tension": 10,
+    "participants": [
+      "丁仪",
+      "西子",
+      "联合舰队"
+    ],
+    "value_change": "全人类的自信 → 太空力量全军覆没",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "水滴攻击——全人类的自信 → 太空力量全军覆没",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知多点切换，灾难以转播与通话碎片呈现",
+      "diction": "物理术语精确，典故入注脚，警句冷冽",
+      "rhetoric_density": "high",
+      "dialogue_mode": "考察队问答铺垫，毁灭段转通话记录体",
+      "pacing": "审美铺陈麻痹读者，快跑一喊骤转，屠戮慢摇"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S11b",
+    "name": "章北海与东方延绪隔舱对话",
+    "file": "scenes/scene_S11b.md",
+    "lines": "3728-3755",
+    "arc": 5,
+    "type": "deepening",
+    "tension": 6,
+    "participants": [
+      "章北海",
+      "东方延绪"
+    ],
+    "value_change": "对立 → 超越立场的信任",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "章北海与东方延绪隔舱对话",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴东方延绪，隔舱观察章北海",
+      "diction": "军人格言式对答，太空静景书面语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "隔舱问答，一句格言一次交锋",
+      "pacing": "静止太空慢景开场，对答从容，悬而不决收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S11",
+    "name": "黑暗战役",
+    "file": "scenes/scene_S11.md",
+    "lines": "4002-4191",
+    "arc": 5,
+    "type": "climactic",
+    "tension": 10,
+    "participants": [
+      "章北海",
+      "东方延绪",
+      "星舰地球"
+    ],
+    "value_change": "逃亡的最后希望 → 猜疑链验证，章北海之死",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "黑暗战役——逃亡的最后希望 → 猜疑链验证，章北海之死",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知史述，心理军官视角插叙，直评群体心理",
+      "diction": "心理学军事术语，挽歌段庄重书面语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "危机段对白急促，章北海遗言式短句",
+      "pacing": "思乡病铺陈缓进，锁定目标骤紧，挽歌收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S12",
+    "name": "黑暗森林阐述",
+    "file": "scenes/scene_S12.md",
+    "lines": "4380-4435",
+    "arc": 6,
+    "type": "advancing",
+    "tension": 7,
+    "participants": [
+      "罗辑",
+      "史强"
+    ],
+    "value_change": "知道真相但无力行动 → 理论体系完成",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "黑暗森林阐述",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "叙述退场，黑暗中两点烟火承载纯对话推演",
+      "diction": "公理推导口语化，比喻通俗精准",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "苏格拉底式问答，大史代读者递问",
+      "pacing": "逐层推理步步紧逼，一字粗口爆点，独白收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S13",
+    "name": "墓地对峙",
+    "file": "scenes/scene_S13.md",
+    "lines": "4558-4627",
+    "arc": 6,
+    "type": "climactic",
+    "tension": 10,
+    "participants": [
+      "罗辑",
+      "智子"
+    ],
+    "value_change": "近乎灭绝 → 威慑和平建立",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": true,
+    "description": "墓地对峙——近乎灭绝 → 威慑和平建立",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，生死对决以平静语速叙述",
+      "diction": "技术部署陈述精确，谈判语简洁如条款",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "人与球体字幕谈判，一问一答如对弈",
+      "pacing": "宣言长段铺牌，等待数秒拉长，条件逐条快收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S14",
+    "name": "引力波天线下的重聚",
+    "file": "scenes/scene_S14.md",
+    "lines": "4629-4657",
+    "arc": 6,
+    "type": "establishing",
+    "tension": 2,
+    "participants": [
+      "罗辑",
+      "庄颜",
+      "三体监听员"
+    ],
+    "value_change": "威慑和平 → '明天太阳还会升起来的'",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "has_craft_notes": false,
+    "description": "引力波天线下的重聚",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知收束式温暖语调，贴一家三口",
+      "diction": "抒情白话，科技造物诗意化描摹",
+      "rhetoric_density": "high",
+      "dialogue_mode": "家常对白与监听员字幕对谈交替",
+      "pacing": "田园慢景，哲思对谈舒缓，童真末句点题收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S15",
+    "name": "破壁人二号与三体通话",
+    "file": "scenes/scene_S15.md",
+    "lines": "200-256",
+    "arc": 1,
+    "type": "establishing",
+    "tension": 6,
+    "participants": [
+      "破壁人二号",
+      "三体智子"
+    ],
+    "value_change": "ETO被抛弃 → 三体恢复联系但明言'消灭人类后再消灭你们'",
+    "has_craft_notes": false,
+    "description": "破壁人二号与三体通话",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴破壁人二号，剧本式字幕对白体",
+      "diction": "称主宗教语汇，金鱼家常细节反衬",
+      "rhetoric_density": "low",
+      "dialogue_mode": "字幕与人声剧本体，两步验证推进信任",
+      "pacing": "自杀边缘开场，验证逐层翻转，领命收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S16",
+    "name": "章北海唯一举手",
+    "file": "scenes/scene_S16.md",
+    "lines": "1051-1087",
+    "arc": 2,
+    "type": "establishing",
+    "tension": 5,
+    "participants": [
+      "章北海",
+      "常伟思",
+      "吴岳",
+      "太空军政治部"
+    ],
+    "value_change": "集体沉默 → 唯一的胜利主义者站起",
+    "has_craft_notes": false,
+    "description": "章北海唯一举手",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知会议实录，插常伟思内心评断",
+      "diction": "军队政工语汇浓重，技术分层参数精确",
+      "rhetoric_density": "low",
+      "dialogue_mode": "首长提问举手应答，长段发言承载立场",
+      "pacing": "谈心段沉默留白，参数段密集铺陈，独坐收尾"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S17",
+    "name": "咒语发射",
+    "file": "scenes/scene_S17.md",
+    "lines": "2075-2164",
+    "arc": 3,
+    "type": "turning",
+    "tension": 8,
+    "participants": [
+      "罗辑",
+      "坎特",
+      "ETO"
+    ],
+    "value_change": "顿悟后的理论 → 向宇宙发出第一击",
+    "has_craft_notes": false,
+    "description": "咒语发射——顿悟后的理论 → 向宇宙发出第一击",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴罗辑，对话推进咒语技术铺垫",
+      "diction": "天文术语与星表编号精确，问答简明",
+      "rhetoric_density": "low",
+      "dialogue_mode": "罗辑与专家问答密集，ETO会议插段议论",
+      "pacing": "问答连发推进设定，无赘景，会议段冷收"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S18",
+    "name": "平民谈太空葬",
+    "file": "scenes/scene_S18.md",
+    "lines": "2265-2299",
+    "arc": 4,
+    "type": "deepening",
+    "tension": 3,
+    "participants": [
+      "张援朝",
+      "杨晋文",
+      "苗福全"
+    ],
+    "value_change": "日常闲聊 → '那时已经��有人了'",
+    "has_craft_notes": true,
+    "description": "平民谈太空葬",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知市井白描，借普通人视角看大时代",
+      "diction": "京味老人口语，票证年代名物罗列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "闲聊对白主导，玩笑里藏末日苍凉",
+      "pacing": "家长里短慢节奏，墓碑一问骤冷，长叹收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S19",
+    "name": "丁仪的不安预感",
+    "file": "scenes/scene_S19.md",
+    "lines": "3632-3704",
+    "arc": 5,
+    "type": "establishing",
+    "tension": 6,
+    "participants": [
+      "丁仪",
+      "西子",
+      "量子号军官"
+    ],
+    "value_change": "乐观的准备 → '感觉不好'",
+    "has_craft_notes": true,
+    "description": "丁仪的不安预感",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知在章北海丁仪两线转切，静景庄重",
+      "diction": "军人格言对答，物理学家絮叨口语成对照",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "隔舱问答交锋，会议讨论铺不祥预感",
+      "pacing": "静止太空慢景，对答从容，欲言又止留悬"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S20",
+    "name": "罗辑被驱逐独行",
+    "file": "scenes/scene_S20.md",
+    "lines": "4529-4557",
+    "arc": 6,
+    "type": "deepening",
+    "tension": 7,
+    "participants": [
+      "罗辑"
+    ],
+    "value_change": "被社会遗弃 → 在墓旁为自己挖穴",
+    "has_craft_notes": true,
+    "description": "罗辑被驱逐独行",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知借旁观者冷眼写罗辑坠落，后段入其梦境",
+      "diction": "新时代名物白描，市井称谓，词色阴郁",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少而冷，驱逐令一句一顿，自嘲语点题",
+      "pacing": "堕落细节铺陈缓慢，逐程被逐成节拍，梦境绵延"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S21",
+    "name": "罗辑回忆虚构爱人",
+    "file": "scenes/scene_S21.md",
+    "lines": "596-733",
+    "arc": 2,
+    "type": "establishing",
+    "tension": 3,
+    "participants": [
+      "罗辑",
+      "白蓉",
+      "心理医生"
+    ],
+    "value_change": "普通的感情生活 → 心灵深处永久属于一个幻影",
+    "has_craft_notes": false,
+    "description": "罗辑回忆虚构爱人",
+    "novel": "三体Ⅱ-黑暗森林",
+    "genre": "科幻",
+    "author": "刘慈欣",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知深贴罗辑，自我鄙视以第二人称自审",
+      "diction": "文艺评论腔与恋爱口语轻盈交替",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "情侣斗嘴式短对白，虚构人物对话嵌套其中",
+      "pacing": "回忆套回忆缓进，创作幻象渐夺主导，郊游慢写"
+    },
+    "style_profile_by": "claude-fable-5"
+  }
+]

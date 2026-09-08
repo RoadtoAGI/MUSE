@@ -1,0 +1,29 @@
+schema_version: dialogue-character/v1
+character_id: novel:日耳曼涅槃:raeder
+work_id: novel:日耳曼涅槃
+display_name: 雷德尔
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '正式场合是**考问腔与檄文腔**：对后辈用郑重的提问引导（"我很期待你的这些论点都是因何而来"），授衔时"像朗读檄文似的滔滔列举功绩"。对权力上位者切**兜售腔**——把海军诉求包装进国家安全叙事，一句一个"为了德意志的国家安全和海洋权利"。
+
+
+    处置人事时用**铺垫-摊牌的层层官腔**：先扬后抑（"你在这次行动总体表现得不错……然而"），把"功与过从来都是两回事"这类原则性格言垫在刀前，再经过"悉心的铺垫"说出真实打算；说服的收束永远落在制度与荣誉的高地上。私人语气极少外露——他的情绪只在动作里：眉头微蹙、暗自叹气、面部肌肉微不可察地抽动。
+
+
+    佐证：scenes/scene_04.md:L22-L22 （考问腔）；scenes/scene_29.md:L50-L50 （檄文式表彰）；scenes/scene_05.md:L16-L18 （对希特勒的兜售腔）；scenes/scene_29.md:L12-L12
+    （先扬后抑）；scenes/scene_29.md:L22-L22 （"功与过从来都是两回事"的摊牌）；scenes/scene_29.md:L30-L38 （三段式说服的完整样本）'
+  evidence_locators:
+  - scenes/scene_04.md:L22-L22
+  - scenes/scene_29.md:L50-L50
+  - scenes/scene_05.md:L16-L18
+  - scenes/scene_29.md:L12-L12
+  - scenes/scene_29.md:L22-L22
+  - scenes/scene_29.md:L30-L38
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

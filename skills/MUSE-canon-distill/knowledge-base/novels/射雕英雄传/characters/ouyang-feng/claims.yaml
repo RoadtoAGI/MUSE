@@ -1,0 +1,76 @@
+role_slug: ouyang-feng
+claims:
+  - id: C001
+    text: "欧阳锋是西域白驼山主"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/欧阳锋
+        quote: "歐陽鋒是西域白駝山莊主人"
+      - url: https://baike.baidu.com/item/欧阳锋
+        quote: "西域白驼山庄庄主"
+    resolution_note: null
+
+  - id: C002
+    text: "欧阳锋为天下五绝之一'西毒'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/欧阳锋
+        quote: "為「天下五絕」的「西毒」"
+      - url: https://baike.baidu.com/item/欧阳锋
+        quote: "'天下五绝'之'西毒'"
+    resolution_note: null
+
+  - id: C003
+    text: "欧阳克是欧阳锋的私生子（对外称侄儿）"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/欧阳锋
+        quote: "歐陽克之生父（佯稱叔父）"
+      - url: https://baike.baidu.com/item/欧阳锋
+        quote: "欧阳锋年轻时与嫂子私通，生下欧阳克，但却只让其叫他叔叔"
+    resolution_note: null
+
+  - id: C004
+    text: "欧阳锋逼郭靖默写《九阴真经》"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/欧阳锋
+        quote: "後脅迫郭靖默寫《九陰真經》"
+      - url: https://baike.baidu.com/item/欧阳锋
+        quote: "欧阳锋不肯死心，在船上要郭靖默写《九阴真经》"
+    resolution_note: null
+
+  - id: C005
+    text: "欧阳锋因（被黄蓉骗）逆练《九阴真经》而走火入魔、神智疯癫"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/欧阳锋
+        quote: "黃蓉乾脆使詐，騙得他說《九陰真經》需要逆練，歐陽鋒果真逆行所有經脈…走火入魔，疯疯癫癫、神智錯亂"
+      - url: https://baike.baidu.com/item/欧阳锋
+        quote: "欧阳锋被黄蓉使诈骗得他练了九阴假经走火入魔，疯疯癫癫"
+    resolution_note: null

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6ad588d9a282040983a1672c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L631
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 在这噩梦般的时刻，叶哲泰已倾向于相信它不存在了
+sensory_mapping: 心理；失真视觉；压迫；时间；清醒状态
+context_fact: 叶哲泰因承认不知道上帝是否存在而遭全场口号围攻。
+image_mechanism: 真实会场被罩上一层梦境失真：熟悉的学生和妻子保留面孔，却按荒谬逻辑施暴；人物清醒承受，醒来的出口则被取消。
+property_alignment: 现实事件荒诞失序对应梦境逻辑扭曲；人物受困无力对应梦中无法脱身；恐惧持续逼近对应噩梦压迫感
+context_alignment: 科学问答被立即改造成宗教罪证，因果倒置与暴力升级符合噩梦式失序。
+narrative_function: 从叶哲泰内在感受标记现场已越过理性边界。
+transfer_rule: 用噩梦写现实场景时，应指出熟悉元素如何失序、人物为何不能退出、以及何种恐惧反复逼近。
+failure_boundary: 单纯不愉快、可随时离开或逻辑清楚的冲突不具梦魇的失序与被困机制。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 叶哲泰在荒诞批斗与暴力威胁中的现实处境
+vehicle: 逻辑扭曲、恐怖压迫且人无法凭意志醒来的噩梦
+ground: 现实事件荒诞失序对应梦境逻辑扭曲；人物受困无力对应梦中无法脱身；恐惧持续逼近对应噩梦压迫感

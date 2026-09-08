@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9cfcacab750dbfdbcc2fe7d5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L164
+chapter: 第2章 台球
+figure_type: simile
+quote: 她像一颗星星，总是那么遥远，照到我身上的光也总是冷的
+sensory_mapping: 视觉；温度；距离
+context_fact: 丁仪醉后谈起死去的杨冬，随后走到窗前望夜空。
+image_mechanism: 先用天文距离写不可接近，再让光跨过距离触身，最后用冷感限定影响的情感温度；窗前寻找已逝星辰又把死亡叠进迟到的光。
+property_alignment: 星体可见不可抵达对应杨冬吸引丁仪却情感疏远；星光抵达观察者对应她确实影响丁仪；冷光缺少温度对应关系缺乏亲密回馈
+context_alignment: 天文意象来自物理学家知识，现场寻找星辰动作继续展开映射。
+narrative_function: 一句交代关系距离、影响与哀痛。
+transfer_rule: 写关系距离时，让喻体分别回答能否接近、影响如何抵达、抵达后是什么温度，并优先取自视角人物的知识世界。
+failure_boundary: 只写美丽或明亮会落入泛化赞美；没有遥远、冷光和死亡语境时，星星不足以刻画这段具体关系。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 丁仪所感受到的杨冬及两人无法真正接近的关系
+vehicle: 遥远、发出冷光并可能已逝的星星
+ground: 星体可见不可抵达对应杨冬吸引丁仪却情感疏远；星光抵达观察者对应她确实影响丁仪；冷光缺少温度对应关系缺乏亲密回馈

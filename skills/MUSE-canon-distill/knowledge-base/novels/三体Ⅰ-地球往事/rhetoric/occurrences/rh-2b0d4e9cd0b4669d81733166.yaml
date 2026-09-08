@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2b0d4e9cd0b4669d81733166
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1516
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: analogy
+quote: 这些普通卑贱的人都是一个个零，只有在最前面加上您这样一个一，他们的整体才有意义
+sensory_mapping: 数字排列；前后位置；位值递增；书写线性
+context_fact: 秦始皇刚把人列计算机的复杂行为称为群体智慧，牛顿借十进制位值制把成果归功于皇帝。
+image_mechanism: 三千万活人被压扁成纸面圆圈，皇帝化为最左端一笔竖线；只需改变排列首位，群体价值便像整数位数一样暴涨，奉承的冷酷也随量化显形。
+property_alignment: 普通士兵对应零；个体被否定价值对应零值；皇帝对应首位一；统领关系对应数字前后排列；帝国规模对应一后零越多数值越大
+context_alignment: 人列计算机本就在用0和1，牛顿把技术编码偷换为等级政治，既机巧又暴露其谄媚和去人化。
+narrative_function: 用位值制完成讽刺性奉承，延续技术奇观中的权力批判。
+transfer_rule: 借零与首位一写等级关系时，应让前置者确实组织后续单元，并保留“零被抹除内在价值”的意识形态含义。
+failure_boundary: 群体脱离领袖仍能自组织，领袖并未决定其价值，或读者把数学位值当事实证明时，该类比会掩盖成员贡献。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 牛顿奉承秦始皇，声称普通臣民只有由皇帝统领才具有社会价值
+vehicle: 一串零本身数值为零，前面添一个非零首位后才成为巨大整数
+ground: 普通人单独被贬为无价值对应单个零数值为零；皇帝居首统领对应数字一放在最高位并赋予后续零位值

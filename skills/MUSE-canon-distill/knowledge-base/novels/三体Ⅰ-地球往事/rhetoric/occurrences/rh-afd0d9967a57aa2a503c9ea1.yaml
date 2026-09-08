@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-afd0d9967a57aa2a503c9ea1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L741
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 还会有无数人的命运要因这份材料坠入悲惨的深渊
+sensory_mapping: 视觉；下坠；深度；黑暗；失重；时间
+context_fact: 签名会成为附加证词，材料可能打击两弹工程相关的许多人。
+image_mechanism: 一张平放纸页在受害者脚下突然打开竖直深度，签名成为使地面塌陷的触发点；未来由可行走平面变成不断下落的黑暗空间。
+property_alignment: 命运突然恶化对应身体失足下坠；后果程度严重对应深度巨大；未来失去方向对应深处黑暗；制度惩罚难逃对应陡壁无法攀回；牵连多人对应多人一同落下
+context_alignment: 叶文洁自己刚从政治陷阱底部走来，深渊把她熟知的不可逆处境投射到潜在受害者。
+narrative_function: 把拒签从个人自保提升为阻止群体灾难的道德选择。
+transfer_rule: 用深渊写命运逆转时，应给出触发边缘、下坠速度、深度所代表的后果和难以返回的结构。
+failure_boundary: 短期挫折、有可靠救济或后果可逐步修复时，深渊会过早宣告永久毁灭。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 被材料牵连者将失去原有生活并进入长期、严重且难逆转的灾难
+vehicle: 人从正常地面坠落到黑暗、深远且难以攀出的深渊底部
+ground: 命运突然恶化对应身体失足下坠；后果程度严重对应深度巨大；未来失去方向对应深处黑暗；制度惩罚难逃对应陡壁无法攀回；牵连多人对应多人一同落下

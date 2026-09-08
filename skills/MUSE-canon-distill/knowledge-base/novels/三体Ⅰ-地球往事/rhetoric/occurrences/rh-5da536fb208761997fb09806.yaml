@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5da536fb208761997fb09806
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2384
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 他的思绪在地球那永不封冻的蓝色海洋和翠绿的森林田野间飞翔
+sensory_mapping: 凌空飞翔；蓝海绿林；阳光；微风抚摸；空间自由
+context_fact: 他重新阅读地球信息，把恒纪元世界视为两百轮文明幻想中的天堂。
+image_mechanism: 卑微身体仍困在小窗后，思绪却长出翅膀，越过黑暗太空直接进入地球颜色；想象中的阳光和风甚至获得触觉。
+property_alignment: 监听室束缚对应地面起点；思绪自由对应翅膀；四光年对应飞行距离；多个地球景观对应航路；反复阅读对应盘旋；精神慰藉对应飞行解放
+context_alignment: 三体人可开关睡眠却难获得想要的梦，清醒想象反而是他唯一抵达天堂的飞行方式。
+narrative_function: 让抽象向往成为一次感官旅行，建立他宁愿背叛本文明也要保护地球的爱恋。
+transfer_rule: 用思绪飞翔写想象时，应有现实囚困、明确远方场景、跨越路径、视点移动和感官抵达。
+failure_boundary: 人物只作冷静数据分析、没有空间转换和感官投入时，飞翔会美化理性推演。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 监听员凭收到的文字信息自由想象地球海洋、森林和田野，精神暂时离开监听室
+vehicle: 有翅膀的身体越过空间，在广阔景观间轻盈飞行并亲身感受风光
+ground: 想象跨四光年对应飞越距离；注意在多处景观游移对应飞行穿梭；精神摆脱小室对应身体升空

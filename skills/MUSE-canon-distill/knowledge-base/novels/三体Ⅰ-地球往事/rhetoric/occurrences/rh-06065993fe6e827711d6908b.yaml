@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-06065993fe6e827711d6908b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L852
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 但沙瑞山立刻抽走了他怀中这唯一的一根救命稻草
+sensory_mapping: 触觉；水中失重；抓握；抽离动作；窒息感
+context_fact: 汪淼宁愿相信四套设备同时遭破坏，沙瑞山立即说明这同样超自然。
+image_mechanism: 抽象解释变成抱在胸前的细秆，恐惧则把人物置入水中；假说尚未真正承重，沙瑞山一句话已从手臂间抽掉它，身体重新无物可抓。
+property_alignment: 人物濒临心理崩溃对应溺水窒息；解释虽微弱仍被依赖对应细稻草承重不足却被抓住；只剩一个假设对应唯一漂浮物；反驳假设对应救命物被抽走
+context_alignment: “宁愿接受”说明汪淼不真信假设，只把它当最后心理支点；“立刻抽走”又与沙瑞山紧接的反驳时序一致。
+narrative_function: 封闭常规解释退路，迫使汪淼亲眼验证宇宙闪烁。
+transfer_rule: 使用救命稻草时，应明确人物所处的下沉危机、希望本身为何纤弱、抓握动作以及谁用何证据抽走。
+failure_boundary: 假设有强证据、能真实解决问题或仍有多条替代解释时，唯一细稻草会低估其支撑力或夸大绝境。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼把人为破坏当作逃避宇宙异常的最后希望，却被沙瑞山的论证否定
+vehicle: 溺水者紧抱唯一能浮起的稻草，旁人又把它从怀中抽走
+ground: 人物濒临心理崩溃对应溺水窒息；解释虽微弱仍被依赖对应细稻草承重不足却被抓住；只剩一个假设对应唯一漂浮物；反驳假设对应救命物被抽走

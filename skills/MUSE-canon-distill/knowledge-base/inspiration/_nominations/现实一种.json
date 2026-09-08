@@ -1,0 +1,141 @@
+{
+  "novel": "现实一种",
+  "nominations": [
+    {
+      "pattern_name": "无知视角暴力",
+      "dramatic_function": "用认知不足者承载灾难，让恐怖来自不理解而非反应强度",
+      "applicability": "适合写意外、童年、失忆或异类视角；若旁白解释道德即失效",
+      "reuse_candidates": [
+        "四岁孩子",
+        "摔死堂弟",
+        "蚂蚁爬进伤口"
+      ],
+      "tags": [
+        "儿童视角",
+        "零度叙事",
+        "死亡延迟"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "皮皮把死亡当作物理事件和日常间隔处理"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "补偿失败转刑罚",
+      "dramatic_function": "让理性补偿失效，迫使人物滑向以身偿债的暴力逻辑",
+      "applicability": "适合复仇、家庭债务、荣誉冲突；若赔偿可被接受则不成立",
+      "reuse_candidates": [
+        "五千元存折",
+        "舔血仪式",
+        "兄弟同院"
+      ],
+      "tags": [
+        "交换逻辑",
+        "复仇升级",
+        "家庭审判"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "金钱赎罪被拒后，孩子被当作债务标的交出"
+        },
+        {
+          "scene_id": "S07",
+          "note": "象征性惩罚未能闭合冲突，反而引发新死亡"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "温柔酷刑",
+      "dramatic_function": "用照料语气推进伤害，使恐怖来自语调与事实的反向张力",
+      "applicability": "适合熟人互害、心理操控、伪护理场景；若施害者直接咆哮则削弱",
+      "reuse_candidates": [
+        "肉骨头",
+        "狗舔脚底",
+        "树下捆绑"
+      ],
+      "tags": [
+        "语调反转",
+        "熟人暴力",
+        "酷刑设计"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S09",
+          "note": "山岗用按摩、清凉油、休息等照料话术完成杀弟"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "私刑到制度",
+      "dramatic_function": "把个人复仇外延到司法和职业系统，扩大主题尺度",
+      "applicability": "适合展示暴力合法化；若制度只是背景板而无行动则失效",
+      "reuse_candidates": [
+        "公开枪决",
+        "遗体捐献",
+        "医生瓜分器官"
+      ],
+      "tags": [
+        "制度暴力",
+        "尺度升级",
+        "合法化"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S11",
+          "note": "国家刑罚接管家庭复仇后的处置"
+        },
+        {
+          "scene_id": "S13",
+          "note": "医学职业流程继续拆解人的主体性"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "身体碎片追踪",
+      "dramatic_function": "让人物死后以器官去向继续产生荒诞后果",
+      "applicability": "适合写物化、遗产、诅咒或社会链条；若只停在死亡现场则不足",
+      "reuse_candidates": [
+        "皮肤移植",
+        "睾丸生子",
+        "人体展览"
+      ],
+      "tags": [
+        "物化",
+        "时间跳跃",
+        "后果追踪"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S13",
+          "note": "解剖场景追踪皮肤、器官、骨骼的后续用途"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    }
+  ]
+}

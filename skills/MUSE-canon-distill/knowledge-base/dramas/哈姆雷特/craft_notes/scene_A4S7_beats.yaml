@@ -1,0 +1,53 @@
+scene_id: A4S7
+source_notes: scene_A4S7_beats.md
+patterns:
+- pattern_id: A4S7-p1
+  beat: 自辩与盟约
+  dimension: exchange
+  original_move: 坦白处理私心，半真话建立可信度
+  ai_default_failure: 反派全程撒谎，可信度无从建立
+  transfer_rule: 操纵者先交一部分真心
+  quote: 无她, 我勿能行走
+- pattern_id: A4S7-p2
+  beat: 信至转向
+  dimension: transition
+  original_move: 一封信中途改题，乙计划当场拼装
+  ai_default_failure: 计划早已备好，丢失即兴拼装的张力
+  transfer_rule: 让甲计划当场作废，演拼装过程
+  quote: 我已赤身的返回陛下国境
+- pattern_id: A4S7-p3
+  beat: 夸剑术迂回
+  dimension: exchange
+  original_move: 三层迂回喂虚荣，让对方自己走向比剑
+  ai_default_failure: 直接下达比剑指令，操纵感全无
+  transfer_rule: 操纵戏让被操纵者自以为方案出自己手
+  quote: 他对你的剑术, 更是赞不绝口
+- pattern_id: A4S7-p4
+  beat: 忠孝试探
+  dimension: exchange
+  original_move: 只问不答，最狠的话由复仇者自己说出
+  ai_default_failure: 国王亲口提议教堂杀人，罪责留己
+  transfer_rule: 让对方说出越界方案完成责任转移
+  quote: 在教堂里割他的喉咙!
+- pattern_id: A4S7-p5
+  beat: 三重保险
+  dimension: overall
+  original_move: 杀人方案层层冗余，为终局全部上膛
+  ai_default_failure: 单一手段干净利落，终局无连环可引
+  transfer_rule: 终局必然性由本场的过度设计保证
+  quote: 我将准备一盅鸩酒与他
+- pattern_id: A4S7-p6
+  beat: 杨柳报丧
+  dimension: monologue
+  original_move: 台外死亡由最抒情笔墨转述成挽歌
+  ai_default_failure: 切到溺水现场直拍惨状
+  transfer_rule: 台外死亡的转述者与文体是独立设计
+  quote: 有株倾斜的杨柳树
+- pattern_id: A4S7-p7
+  beat: 泪与火退场
+  dimension: exchange
+  original_move: 退场台词自我矛盾，密谋场以失控收尾
+  ai_default_failure: 雷尔提冷静退场，双重燃料失效
+  transfer_rule: 密谋后让情绪破防一次再收场
+  quote: 我不许我流泪
+overall_traits: []

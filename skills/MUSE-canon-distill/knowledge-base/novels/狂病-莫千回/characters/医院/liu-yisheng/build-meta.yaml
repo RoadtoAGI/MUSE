@@ -1,0 +1,27 @@
+mode: reference
+display_name: 刘医生
+role_slug: liu-yisheng
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces + arc_framework
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_b（道德/理性者下场更坏）
+  - scenes/scene_YY-S01.md
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S05.md
+  - scenes/scene_YY-S06.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S08.md
+  - scenes/scene_YY-S09.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T18:25:00+08:00
+skill_version: 1
+locator_count: 18
+has_canon_ending: true
+coverage_note: |
+  本篇第一人称 POV，全篇内心独白 + 三层口述转述者，信息密度极高。
+  声音框架跨 4 个场景（S08 对外安抚 / S03 事后预叙口吻 / S07 平静下黑判断 / S10 终局冷冽反击），稳定性充分。
+  边界 5 条各带 locator（隐瞒原罪 S03 / 不为希望冒险 S09 / 不让自己人受虐 S10 / 不向施虐者乞活 S10 / 始终留底牌 S08）。
+  弧光起点（S05 等死真相）+ 短暂逼出责任感（S05 罗允）+ 底线兑现（S10 吗啡）+ 终点（S10 自感染）齐全。
+  核心原罪「我懂病毒」的谎依赖 S03:L35 与 S06:L79 两处自漏，皆为内心回望而非对众坦白，符合不可靠叙述者设定。
+  刘医生为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段（欲望/真相/弧光）依据 pipeline/医院/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

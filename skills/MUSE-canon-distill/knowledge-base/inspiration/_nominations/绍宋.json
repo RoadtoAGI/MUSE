@@ -1,0 +1,154 @@
+{
+  "novel": "绍宋",
+  "nominations": [
+    {
+      "pattern_name": "身份借壳承担",
+      "dramatic_function": "把主角的身份合法性问题转化为一次次公开承担责任的行动证明。",
+      "applicability": "适合继承、穿越、冒名等身份不稳故事；若主角天然被信服则失效。",
+      "reuse_candidates": [
+        "赵构身体",
+        "靖康南宋",
+        "明道宫坠井"
+      ],
+      "tags": [
+        "身份困境",
+        "责任承担",
+        "合法性",
+        "成长弧"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_01",
+          "note": "穿越初醒后从逃避转向抗金决心。"
+        },
+        {
+          "scene_id": "scene_16",
+          "note": "回到起点完成与新身份的和解。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "制度显情绪",
+      "dramatic_function": "用一套生存或分配机制让读者自行推导恐惧、绝望与压迫。",
+      "applicability": "适合战争、灾荒、职场、监狱等系统压迫场景；纯私人情感戏不宜硬套。",
+      "reuse_candidates": [
+        "一棍汉",
+        "金军民夫",
+        "攻城填沟"
+      ],
+      "tags": [
+        "系统压迫",
+        "信息密度",
+        "底层视角",
+        "战争机制"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_17",
+          "note": "一根木棍换饭写透强征民夫心理。"
+        },
+        {
+          "scene_id": "scene_04",
+          "note": "逐个问乱兵诉求，把军心写成具体利益。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        5
+      ]
+    },
+    {
+      "pattern_name": "小眼睛大战场",
+      "dramatic_function": "用可移动的小人物视角替代上帝俯瞰，串联复杂战场全貌。",
+      "applicability": "适合多线战斗、灾难、暴乱等大场面；小人物必须有穿行理由。",
+      "reuse_candidates": [
+        "洪涯降人身份",
+        "宋金双语求活",
+        "龙纛确认任务"
+      ],
+      "tags": [
+        "摄像机角色",
+        "大会战",
+        "小人物",
+        "视角调度"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_18",
+          "note": "洪涯被迫穿越战场，读者随他看清全局。"
+        }
+      ],
+      "phase_affinity": [
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "符号即命令",
+      "dramatic_function": "让可见符号的物理移动替代复杂命令链，统一群体行动。",
+      "applicability": "适合混战、群众运动、仪式政治；符号需先被角色共同理解。",
+      "reuse_candidates": [
+        "金吾纛旓",
+        "韩岳并旗",
+        "宋军龙纛"
+      ],
+      "tags": [
+        "符号行动",
+        "群体调度",
+        "军事指挥",
+        "政治权威"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_18",
+          "note": "三面旗帜移动直接触发总攻。"
+        },
+        {
+          "scene_id": "scene_06",
+          "note": "蓝旗黄旗分节承接伏击节奏。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "等待压过战斗",
+      "dramatic_function": "把决战前的等待写成心理、后勤、远景赌注同时升压的场景。",
+      "applicability": "适合大战、审判、发布会、手术等不可逆事件前；若无真实代价则空转。",
+      "reuse_candidates": [
+        "获鹿春雨",
+        "迁都燕京",
+        "十五万宋军"
+      ],
+      "tags": [
+        "战前准备",
+        "慢节奏",
+        "赌注升级",
+        "将帅默契"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_19",
+          "note": "三日春雨中完成主帅心理、方略和远景加压。"
+        },
+        {
+          "scene_id": "scene_05",
+          "note": "雪夜渡河前用劝阻和沉默积蓄风险。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8a42076d5b4c118ab843059c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1521
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 请让您的王国从脱水中复活吧
+sensory_mapping: 干燥纤维；水分回流；身体舒展；生命苏醒
+context_fact: 牛顿预测长恒纪元将开始，劝秦始皇结束全国为计算机供给的非常状态；秦始皇随即反驳国家从未脱水。
+image_mechanism: 王国的道路、仓储和百姓被收拢成一具干瘪身体，恒纪元的阳光像浸泡池让它重新吸水伸展；游戏生理规则被移植到政治经济。
+property_alignment: 全国储备耗尽对应身体失水；正常社会停滞对应脱水休眠；恒纪元到来对应可浸泡环境；恢复生产对应生命复苏
+context_alignment: “脱水”在三体世界通常是真实生理行为，挪给从未停止运转的秦国形成奉承性误判，秦始皇的顶撞当场揭穿。
+narrative_function: 把文明恢复与三体生存机制扣合，同时引出计算所耗国力和死亡代价。
+transfer_rule: 用脱水—复活写国家周期时，应对应资源枯竭、活动休止、外部条件转好和功能恢复，并允许语境检验是否真的休眠。
+failure_boundary: 国家一直高强度运行、损耗来自过度活动而非休止时，脱水会错认状态；此处反驳正利用这一失配。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 让长期维持人列计算、未恢复正常生产生活的秦国重新进入繁荣活动
+vehicle: 三体人在恶劣纪元排出水分沉睡，恒纪元到来后浸水苏醒复活
+ground: 国家资源和社会活动枯竭对应个体脱水干缩；气候转好后恢复生产对应三体人补水醒来

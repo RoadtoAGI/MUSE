@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-76f996bf3cba6be8ddf35c76
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2152
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 政府的保守和贫乏的想象力
+sensory_mapping: 空瘪储藏；资源短缺；认知视野；保护盲区
+context_fact: 安全机构把ETO当普通胡言乱语激进组织，直到其武装化才开始有效打击。
+image_mechanism: 政府并非没有情报，而是认知仓库里缺少能拼出外星叛军的材料；想象的贫困制造盲区，反成ETO天然掩体。
+property_alignment: 想象方案对应资源；保守认知对应储量少；陌生事实对应超出库存需求；无法相信对应支付不起认知成本；行动迟缓对应资源短缺后果；ETO受益对应盲区遮蔽
+context_alignment: 所谓天然保护不是山林或法律，而是对手心智缺口；贫乏把认知弱点写成可被利用的防御资源。
+narrative_function: 解释组织为何能半公开发展，并将政府失误定位为想象边界。
+transfer_rule: 用贫乏写认知能力时，应指出缺少何种假设资源、信息为何超出库存及其具体决策后果。
+failure_boundary: 政府已准确判断却因政治利益不行动，或证据本身不足而非想象受限时，贫乏会错判原因。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 各国政府因无法想象外星叛军真实存在而低估ETO，使其半公开扩张免受及时打击
+vehicle: 想象力作为可拥有的资源储量，政府存量贫乏，认知工具不足以覆盖陌生威胁
+ground: 无法构想非常事件对应资源不足；判断范围狭窄对应储量贫乏；缺少认知材料导致行动无力

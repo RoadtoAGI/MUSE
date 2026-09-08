@@ -1,0 +1,28 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 幻肢痛
+  dimension: camera
+  original_move: 用不存在的手指锚定紧张
+  ai_default_failure: 会直写心跳和发抖
+  transfer_rule: 战前恐惧可寄存在身体道具
+  quote: 消失的指尖一阵麻痒
+- pattern_id: S19-p2
+  beat: 火船灾难
+  dimension: info_density
+  original_move: 让专业视角先读出陷阱
+  ai_default_failure: 会解释船长为何失误
+  transfer_rule: 大灾难用专家判断放大恐惧
+  quote: 吃水很低
+- pattern_id: S19-p3
+  beat: 绿火恶魔
+  dimension: verb
+  original_move: 暴力动词过渡到优雅起舞
+  ai_default_failure: 会展开溺水心理活动
+  transfer_rule: 灾难美学可用动词反差
+  quote: 翩翩起舞
+overall_traits:
+- 专业视角替代全知叙事
+- 直接情绪描写极端节制
+- 水果隐喻跨POV回响

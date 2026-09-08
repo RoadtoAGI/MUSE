@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--liu-jian-bang
+work_id: novel:狂病-莫千回
+display_name: 刘建邦
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '刘建邦的声音是个爱搭话、好奇心过剩、还有点没眼色的帮凶腔。他动手时爱"分享发现"，把虐杀当成一桩有趣的观察（"原来人的胳膊断了手指还能动呀，以前死得太快，这样他都没发现"）。日常里他一根筋地直来直去、爱出主意又想得简单（建议"回头把那些感染者灭了呗，反正蔡宇有枪")，常被廖振宇嫌话多、被骂闭嘴。他偶尔会冒出一句不合时宜却异常精准的话——望着窗外说"太阳好像掉下来了"，是全篇唯一触及病原的暗示，由他这个最迟钝的人说出。情绪上他比廖振宇松弛得多，灾难当前还能笑着说"挺爽的"。
+
+
+    佐证：scenes/scene_EE-S01.md:L23-L23 / scenes/scene_EE-S03.md:L23-L23 / scenes/scene_EE-S05.md:L21-L21'
+  evidence_locators:
+  - scenes/scene_EE-S01.md:L23-L23
+  - scenes/scene_EE-S03.md:L23-L23
+  - scenes/scene_EE-S05.md:L21-L21
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,119 @@
+# Phase 2: Character System — I Am Legend (Richard Matheson, 1954)
+#
+# System-level design only. Individual voice, dialogue, and arcs
+# live in characters/*.md files.
+
+cast_overview:
+  protagonist: Robert Neville
+  antagonist: >
+    No single antagonist — the opposing force shifts across arcs:
+    the vampires (ARC-1), ignorance (ARC-2), Ruth/the new society
+    (ARC-3–4). The deepest antagonist is Neville's own inability
+    to see himself as others see him.
+  supporting_cast:
+    - name: Ben Cortman
+      function: >
+        Mirror / recurring marker. Former neighbor and friend,
+        now vampire. His nightly call ("Come out, Neville!") is
+        the novel's rhythmic heartbeat. His death in Chapter 20
+        reveals Neville's true allegiance — he mourns the vampire,
+        not the human executioners.
+    - name: Ruth
+      function: >
+        Catalyst / moral mirror. The only character who forces
+        Neville to confront what he has become. She occupies the
+        role of both love interest and betrayer, false companion
+        and genuine savior (she tries to warn him). Her letter
+        reframes the entire novel.
+    - name: Virginia Neville
+      function: >
+        Emotional engine / wound. Present only in flashback and
+        as a returned vampire, Virginia is the reason Neville
+        cannot move on and the reason he cannot open himself to
+        Ruth. Her return (Chapter 9) is the novel's emotional
+        core — the scene that makes everything else bearable
+        by comparison.
+    - name: Kathy Neville
+      function: >
+        Absence as presence. Neville's daughter, dead before the
+        narrative begins. She appears only in memory and in the
+        detail that her room became the food larder. Her name is
+        a wound Neville corrects himself for speaking.
+
+contrast_axes:
+  - axis: "Humanity vs. Monstrosity"
+    characters: [Robert Neville, the vampires, the new society]
+    description: >
+      The novel's central axis. Neville believes he is human and
+      they are monsters. The new society believes they are the new
+      humanity and he is the monster. The axis rotates 180 degrees
+      in the final chapter. Who is the monster is determined by
+      who holds the majority.
+
+  - axis: "Knowledge vs. Connection"
+    characters: [Robert Neville, Ruth]
+    description: >
+      Neville accumulates scientific knowledge obsessively but
+      cannot connect with another human being. Ruth, who knows
+      far less about the bacillus, belongs to a functioning
+      community. Knowledge without community is sterile; community
+      without knowledge is fragile. Neither alone suffices.
+
+  - axis: "Stasis vs. Adaptation"
+    characters: [Robert Neville, Ben Cortman, Ruth's new society]
+    description: >
+      Neville and Cortman are both frozen — Neville in his
+      survival routine, Cortman in his nightly siege. Neither
+      changes. The new society adapts (the pill, the organization,
+      the ability to walk in daylight). Adaptation wins. The
+      inability to adapt is what makes Neville a relic.
+
+  - axis: "Past vs. Future"
+    characters: [Robert Neville, Virginia (past), Ruth (future)]
+    description: >
+      Virginia represents the irrecoverable past that Neville
+      cannot release. Ruth represents a possible future he cannot
+      trust. Neville is trapped between them — haunted by the
+      first, unable to embrace the second. His final word before
+      losing consciousness is "Virge."
+
+relationships:
+  power_dynamics: >
+    For most of the novel, Neville holds absolute power: he is
+    the daytime predator, they are the helpless sleepers. This
+    power dynamic inverts completely in Part IV when the new
+    society arrives with organized force. The novel's irony
+    depends on this inversion — the hunter becomes the hunted,
+    the exterminator becomes the executed.
+
+  key_tensions:
+    - >
+      Neville ↔ Cortman: Former friends separated by the plague.
+      Cortman is Neville's dark double — both are trapped in
+      compulsive repetition. Neville makes stakes; Cortman calls
+      "Come out, Neville!" Neither can stop.
+    - >
+      Neville ↔ Ruth: Mutual attraction contaminated by mutual
+      deception. She lies about her identity; he lies about his
+      willingness to trust. Their one night of genuine connection
+      is framed by espionage and ends with a mallet blow.
+    - >
+      Neville ↔ Virginia: The love that death cannot end and
+      survival cannot heal. Virginia alive was his anchor;
+      Virginia dead is his chain; Virginia returned is his
+      deepest trauma.
+    - >
+      Neville ↔ the new society: They fear him as he feared the
+      vampires — as an incomprehensible predator. The symmetry
+      is exact, and neither side can see it until too late.
+
+  potential_shifts:
+    - >
+      If Neville had trusted Ruth, he might have joined or at
+      least negotiated with the new society. His inability to
+      trust — forged by years of isolation — seals his fate.
+    - >
+      If Neville had fled after Ruth's letter (as she begged),
+      he could have survived in the mountains. His attachment to
+      the house — "just like the habit of living" — keeps him
+      there to die.

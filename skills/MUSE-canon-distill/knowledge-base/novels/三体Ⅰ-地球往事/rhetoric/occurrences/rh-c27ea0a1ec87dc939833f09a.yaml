@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c27ea0a1ec87dc939833f09a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2060
+chapter: 第28章 伊文斯
+figure_type: simile
+quote: 水土流失产生的裂谷使山地远远看去像老人布满皱纹的面孔
+sensory_mapping: 远景轮廓；黄褐色；纵横裂纹；干燥皮肤；衰老感
+context_fact: 课题组为射电基地选址进入偏僻山区，首先看见几乎没有植被且严重水土流失的黄土山。
+image_mechanism: 远望把连绵山体收拢成一张巨脸，裂谷不再只是地貌线条，而成为岁月刻进黄土皮肤的皱纹，使生态耗损显出可辨认的老态。
+property_alignment: 裂谷密集对应皱纹纵横；裸山表面对应裸露皮肤；黄土干燥对应老人皮肤失水；水土长期流失对应衰老积累；远观整体起伏对应面部轮廓
+context_alignment: 这片贫瘠山地随后将与伊文斯种出的绿林相对照，衰老面孔先建立环境受损的底色。
+narrative_function: 用人体老化直观交代地貌与生态状态，并为绿色树林的突然出现蓄势。
+transfer_rule: 把地貌写成人脸时，应让沟壑密度、表面质地、整体轮廓和长期侵蚀共同对应具体年龄特征。
+failure_boundary: 山体覆满植被、裂谷稀疏锐利如新断口，或叙事强调蓬勃新生时，老人皱脸的衰老质感会错位。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 植被稀少、被水土流失切出密集裂谷的西北黄土山地
+vehicle: 皮肤干枯松弛、横竖布满深皱纹的老人面孔
+ground: 山体密集沟壑对应面部皱纹；裸露黄土的干枯衰败感对应老人皮肤

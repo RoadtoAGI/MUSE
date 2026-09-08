@@ -1,0 +1,35 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 旗手少女之死
+  dimension: camera
+  original_move: 镜头锁定弹道物理与坠落速度差，死亡美学化为飞鸟意象
+  ai_default_failure: 写鲜血喷涌人群惊叫，用感官冲击堆砌暴力
+  transfer_rule: 写暴力死亡可改写物理过程，让美感与死亡并存致不安
+  quote: 她那轻盈的身体落得甚至比旗帜还慢
+- pattern_id: S03-p2
+  beat: 铁高帽和铁牌子
+  dimension: omission
+  original_move: 只给竹对钢筋、木板对铁门的材质规格，不写痛感屈辱
+  ai_default_failure: 直写钢筋压弯身体、铁牌如墓碑，替读者完成感受
+  transfer_rule: 迫害与重负可只列物性参数，让读者自行换算痛苦
+  quote: 用一指粗的钢筋焊成的
+- pattern_id: S03-p3
+  beat: 血迹和空寂
+  dimension: camera
+  original_move: 殴打压缩成一句，镜头冻结于血迹慢爬与滴落的哒哒声
+  ai_default_failure: 逐拳逐脚展开殴打过程，渲染死亡瞬间冲击
+  transfer_rule: 暴力本身压缩跳过，暴力后的寂静膨胀细写
+  quote: 像渐行渐远的脚步
+- pattern_id: S03-p4
+  beat: 叶文洁的石化
+  dimension: omission
+  original_move: 零内心独白，只写保持被抓姿态的身体事实如石化
+  ai_default_failure: 插入世界崩塌、仇恨种子等创伤内心独白
+  transfer_rule: 至痛时刻关闭内心通道，用身体静态造型外化悲恸
+  quote: 像石化了一般
+overall_traits:
+- 弹道材料流体力学写死亡，物理参数替情感修辞
+- 暴力压缩成一句，寂静膨胀成完整感官段
+- 主角全程零内心独白，只见身体不见心

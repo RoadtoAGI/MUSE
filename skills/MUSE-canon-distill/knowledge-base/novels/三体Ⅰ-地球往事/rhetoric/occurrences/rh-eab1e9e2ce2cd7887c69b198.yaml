@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eab1e9e2ce2cd7887c69b198
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1773
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 沉默降临了会场，像一个很重的巨物使汪淼头皮发紧
+sensory_mapping: 听觉骤停；垂直坠落；重量；头皮触压；空间覆盖
+context_fact: 拉菲尔揭露降临派真正目标是借三体文明毁灭全人类，现场成员此前只知道派系冲突。
+image_mechanism: 无声先被实体化，再从屋顶般落下占满会场；无人说话的空气因此不再空，而成了压在头顶、让皮肤收紧的重块。
+property_alignment: 突发沉默对应巨物骤降；沉默覆盖全场对应物体占满上方空间；秘密分量重大对应实体重量；汪淼头皮紧张对应受压身体反应
+context_alignment: “降临”既写沉默落下，也暗合降临派名称和外星主的到来，词义叠合让揭密后的寂静更具威胁。
+narrative_function: 让政治真相的心理重量落实到身体，冻结会场并拉长潘寒回应前的悬念。
+transfer_rule: 把沉默写成重物时，应有声音的集体骤停、信息负荷、空间笼罩和人物可感的身体压迫。
+failure_boundary: 沉默轻松友善、只是一人暂时停顿或没有任何紧张事件时，沉重巨物会错误制造压迫。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 降临派毁灭全人类的秘密纲领公开后，会场突然沉默并给汪淼造成强烈压迫
+vehicle: 巨大沉重实体从上方落下，覆盖空间并以重量压紧人的身体
+ground: 所有声音骤停并笼罩众人对应巨物落下覆盖会场；汪淼身体紧张对应重量施压肌肤和神经

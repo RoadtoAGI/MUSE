@@ -1,0 +1,17 @@
+mode: reference
+display_name: 雷德尔
+role_slug: raeder
+source_novel: 日耳曼涅槃
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_04.md
+  - scenes/scene_05.md
+  - scenes/scene_09.md
+  - scenes/scene_29.md
+built_at: 2026-07-06T04:45:27+08:00
+skill_version: 1
+locator_count: 20
+has_canon_ending: false
+coverage_note: |
+  覆盖 scene_04/05/09/29 四场（1925 识才 / 1933 猜忌落种 / 1940 军中威望旁证 / 1940 明升暗降全场）。弧光三点（伯乐-防备-锁才）均有场景锚定；本作演绎形象接近史实框架但关系线为虚构。破例补切第368-369章为 scene_29（B3 路径），未读全文其余章节。角色存活，无 canon-ending。

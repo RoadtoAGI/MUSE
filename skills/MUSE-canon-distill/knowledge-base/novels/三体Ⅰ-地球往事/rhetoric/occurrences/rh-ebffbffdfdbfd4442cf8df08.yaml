@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ebffbffdfdbfd4442cf8df08
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1515
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: analogy
+quote: 大量的人，合为一个整体后也能产生伟大的智慧
+sensory_mapping: 身体边界；局部器官；群体聚合；整体行动
+context_fact: 人列计算机已稳定运行，秦始皇从每个士兵的简单举旗推论纪律化群体能够产生智慧。
+image_mechanism: 散布大地的三千万人被一条共同皮肤包起，个人动作缩成细胞脉冲，全阵列仿佛获得一颗远超个体的头脑。
+property_alignment: 士兵个体对应细胞或器官；旗语连接对应神经联系；全阵列对应完整身体；复杂运算对应整体智慧涌现
+context_alignment: 画面确实展示了简单局部产生复杂全局，却由冯·诺伊曼立即纠正为机械运行，类比既有解释力也暴露秦始皇偷换“智慧”。
+narrative_function: 把涌现现象转成政治寓言，同时引出机器计算是否等于智慧的争辩。
+transfer_rule: 用有机整体解释群体涌现时，应交代局部职责、连接规则、全局能力和个体不具备该能力的差异。
+failure_boundary: 成员没有稳定连接、行为互相抵消，或所谓整体能力只是领袖个人命令时，群体并未形成有机智慧。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 无数只执行简单命令的人列计算单元通过严格连接完成复杂运算
+vehicle: 许多局部组成一个具有统一感知和高级认知的完整生命体
+ground: 单个人只承担局部动作对应器官或细胞功能有限；连接后的全系统完成复杂任务对应整体生命表现高阶智能

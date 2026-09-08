@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2a9507ec1277d68e6c4f4624
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1107
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 虽然叶文洁理解他，但与他本来就很远的距离更拉远了
+sensory_mapping: 空间距离；拉伸动作；关系冷度
+context_fact: 杨卫宁把叶文洁带入基地却始终不信任她，刚才又严厉制止雷政委透露信息。
+image_mechanism: 不可见隔阂被画成两点之间的线段，不信任像拉力作用在线段两端；理解没有缩短距离，反而使她更清楚地退远。
+property_alignment: 原本疏离对应起始距离很远；杨卫宁持续戒备对应拉力向外；关系更难亲近对应线段增长
+context_alignment: 两人同处封闭基地却情感越来越远，物理近距离与心理远距的反差增强孤独。
+narrative_function: 将她对杨卫宁的失望落成关系位置，为后来平淡婚姻预埋底色。
+transfer_rule: 用距离写关系变化时，应给出起始远近、造成位移的具体事件和接近可能如何改变。
+failure_boundary: 双方只是观点分歧却仍亲密，或空间远隔反而情感增进时，拉远会混淆地理与关系。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 叶文洁与杨卫宁之间原有的情感隔阂因其不信任进一步加深
+vehicle: 两个人在空间中被继续向相反方向拉开
+ground: 缺乏亲密和互信对应身体相距遥远；新行为减少关系接近可能对应外力继续增大间隔

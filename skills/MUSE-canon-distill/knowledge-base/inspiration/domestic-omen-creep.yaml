@@ -1,0 +1,24 @@
+card_id: domestic-omen-creep
+pattern_name: 日常病兆
+dramatic_function: 让灾变先以早餐、睡眠、灰尘等小异常侵入亲密生活。
+applicability: 适合慢性灾难或家庭恐怖；若直接宣告设定会削弱迟滞恐惧（单书孤证，验证面窄）
+reuse_candidates:
+- 沙尘暴传播
+- 蚊虫入果汁
+- 妻子变吸血鬼
+tags:
+- 日常恐怖
+- 病兆
+- 家庭
+- 迟滞揭示
+source_scenes:
+- novel: I Am Legend
+  scene_id: S03
+  note: 病弱、灰尘和学校琐事并置，最后以熟人问候刺破正常。
+- novel: I Am Legend
+  scene_id: S05
+  note: 死亡处理从家中静止延伸到违法埋葬和回返敲门。
+phase_affinity:
+- 1
+- 4
+- 5

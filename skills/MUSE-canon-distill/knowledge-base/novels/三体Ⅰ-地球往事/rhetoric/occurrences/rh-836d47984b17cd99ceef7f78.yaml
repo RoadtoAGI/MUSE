@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-836d47984b17cd99ceef7f78
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1802
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 一层层悬浮在太阳电浆海洋中的飘忽不定的薄膜
+sensory_mapping: 高热流体；半透明薄膜；分层；漂浮；海洋广度
+context_fact: 模型显示太阳辐射频率不是连续渐变，而是在多层界面处阶跃下降，界面还能反射低频辐射。
+image_mechanism: 不可见的恒星内部被切开展示：炽热电浆铺成海，频率边界则像一张张透明水膜悬在不同深度；抽象跃迁获得层次和材质。
+property_alignment: 太阳电浆对应高能海水；辐射界面对应薄膜；多个频率等级对应层层悬浮；界面位置变化对应膜飘忽；反射作用对应膜面回弹波动
+context_alignment: 后续命名“能量镜面”并发现增益反射，薄膜和海洋先为镜面所在介质建立可想象空间。
+narrative_function: 让恒星内部频率界面可视化，支撑随后太阳放大器的科学奇想。
+transfer_rule: 用海中薄膜解释分层界面时，应匹配介质连续性、界面薄度、多层位置和随流体变化的不稳定性。
+failure_boundary: 界面厚重固定、介质并非流体或频率连续无阶跃时，漂浮薄膜会误写模型结构。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 太阳辐射区内多个频率跃迁界面悬在高能等离子体中并随状态变化
+vehicle: 多层轻薄膜片漂浮在深广、翻动不定的海水中
+ground: 辐射界面薄而分层对应多张薄膜；太阳电浆连续巨大且流动对应海洋；界面位置不稳对应膜随水漂移

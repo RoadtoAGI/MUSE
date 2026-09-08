@@ -1,0 +1,14 @@
+scene_id: '18'
+source_notes: scene_18_beats.md
+patterns:
+- pattern_id: 18-p1
+  beat: 墓前最后句
+  dimension: overall
+  original_move: 用微小加码完成生命肯定
+  ai_default_failure: 会总结成长并感恩过往
+  transfer_rule: 写终章最后句要能独立钉住全书
+  quote: 因为生命过分美丽
+overall_traits:
+- 时间跳跃制造纵深
+- 循环结构呼应开篇
+- 最后一句独立成立

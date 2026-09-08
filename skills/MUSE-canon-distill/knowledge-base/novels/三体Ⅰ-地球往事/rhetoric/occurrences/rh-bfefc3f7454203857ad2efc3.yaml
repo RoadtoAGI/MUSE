@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bfefc3f7454203857ad2efc3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L121
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 我们真的是如履薄冰
+sensory_mapping: 触觉；平衡；危险
+context_fact: 常伟思劝汪淼协助调查，强调案件复杂敏感。
+image_mechanism: 把敏感调查压成脚掌一次次试探承重面的动作：每步都可前进，也每步都可能让脚下整体破裂。
+property_alignment: 任何冒进都可能造成严重后果对应薄冰受力即裂；行动空间狭窄且需持续试探对应行走者小心落脚
+context_alignment: 熟语能在正式劝说中快速表达风险而不泄露机密。
+narrative_function: 解释军方谨慎并降低请求的强迫感。
+transfer_rule: 写高风险推进时，要让喻体同时具备必须前行、信息不足和单次失误造成坠落三项机制。
+failure_boundary: 风险可量化、道路坚固或可以停在原地的任务不具备薄冰的不确定承重；泛用于普通谨慎会磨平危机等级。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 调查国际顶尖学者组织时必须保持的谨慎状态
+vehicle: 人在薄冰上行走、每步都可能破裂坠水
+ground: 任何冒进都可能造成严重后果对应薄冰受力即裂；行动空间狭窄且需持续试探对应行走者小心落脚

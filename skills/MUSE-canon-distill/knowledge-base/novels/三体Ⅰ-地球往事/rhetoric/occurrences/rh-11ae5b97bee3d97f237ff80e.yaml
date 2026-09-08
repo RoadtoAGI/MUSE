@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-11ae5b97bee3d97f237ff80e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1567
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 己对其参与者产生了很深的心理影响
+sensory_mapping: 空间深度；向内穿透；表层与内层；残留痕迹
+context_fact: 七名玩家提前到场却没有热烈讨论，人人沉默等待，显然游戏体验已超出普通娱乐。
+image_mechanism: 心理被赋予层层向内的结构，游戏没有停在可闲聊的表皮，而像探针沉到内部，使言语要从深处上浮才说得出口。
+property_alignment: 普通游戏印象对应浅表触碰；价值观震动对应深入内层；难以谈起对应深处内容不易取出；影响持久对应深层痕迹不易磨灭
+context_alignment: 咖啡厅表面安静与每人内部震动形成深浅反差，解释这场精英聚会为何反常地沉默。
+narrative_function: 把群体沉默解释为游戏的深层筛选效果，为组织招募气氛定调。
+transfer_rule: 用深度写心理影响时，应呈现它触及的内在层面、表面可见反应和难以迅速恢复或言说的结果。
+failure_boundary: 体验只造成短暂兴奋、玩家能轻松闲聊且价值判断未变时，“很深”会成为无证据的强度词。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 《三体》带给玩家持久、触及核心观念且难以轻易说出的心理改变
+vehicle: 力量从表面向物体内部穿透，抵达距离外壳很远的深层
+ground: 影响触及隐秘价值判断对应作用深入内部；影响不易消退对应深处痕迹难从表面抹去

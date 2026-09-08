@@ -1,0 +1,27 @@
+card_id: craft-as-dramatic-action
+pattern_name: 诗即行动
+dramatic_function: 让诗、改字、续词成为关系转折和命运判断，而非装饰性文本。
+applicability: 适合以手艺或专业表达联结人物的故事；空洞引用会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 李白原诗
+- 孟浩然典故
+- 具体唐诗术语
+tags:
+- 创作行动
+- 专业亲密
+- 诗学论辩
+- 关系转折
+source_scenes:
+- novel: 大唐李白
+  scene_id: S01
+  note: 品评缺席之诗释放身份、地点和性格信息。
+- novel: 大唐李白
+  scene_id: S23
+  note: 一字之改被扩展成精神辨认仪式。
+- novel: 大唐李白
+  scene_id: S25
+  note: 共同修诗替代知己告白，完成赠别。
+phase_affinity:
+- 2
+- 4
+- 5

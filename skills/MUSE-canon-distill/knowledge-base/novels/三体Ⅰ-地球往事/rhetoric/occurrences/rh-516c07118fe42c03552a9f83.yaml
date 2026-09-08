@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-516c07118fe42c03552a9f83
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L597
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 刚才已有些乏力的口号声又像新一轮海潮般重新高昂起来，淹没了一切
+sensory_mapping: 听觉；视觉；水势；高度；空间
+context_fact: 人群原已疲倦，最后一个顽固批判对象出场使其再度兴奋。
+image_mechanism: 音量获得海面高度，先退弱再整面抬升；“淹没”让声浪越过人物和场地，把听觉优势变成占满空间的水体。
+property_alignment: 声音由弱转强对应潮水重新上涨；群呼成片推进对应海潮整面涌来；其他声音消失对应岸面被水淹没
+context_alignment: “新一轮”保留前一轮已退的周期结构，贴合口号因新刺激复起。
+narrative_function: 放大群体声压并把叶哲泰置于无可回应的环境中。
+transfer_rule: 用潮水写声音时，应对应前后轮次、音量升降、传播面和对其他声音的覆盖结果。
+failure_boundary: 孤立喊声、持续恒定噪声或断续无共同节奏的声音不具备潮汐轮次和整面推进。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 因叶哲泰出场而再次高涨并盖过全场的口号声
+vehicle: 退落后重新抬高、席卷并淹没岸面的新一轮海潮
+ground: 声音由弱转强对应潮水重新上涨；群呼成片推进对应海潮整面涌来；其他声音消失对应岸面被水淹没

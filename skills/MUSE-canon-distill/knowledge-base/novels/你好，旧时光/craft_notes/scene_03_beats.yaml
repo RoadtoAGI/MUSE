@@ -1,0 +1,14 @@
+scene_id: '03'
+source_notes: scene_03_beats.md
+patterns:
+- pattern_id: 03-p1
+  beat: 亲脸逃跑
+  dimension: verb
+  original_move: 用突发动作和逃跑替代告白
+  ai_default_failure: 会补被亲者脸红内心戏
+  transfer_rule: 写童年心动时让身体先于语言
+  quote: 落荒而逃
+overall_traits:
+- 事件累积法写压迫
+- 讽刺旁白做呼吸口
+- 省略被安慰者反应

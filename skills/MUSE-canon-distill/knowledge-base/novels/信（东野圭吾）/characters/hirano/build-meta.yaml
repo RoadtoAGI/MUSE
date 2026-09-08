@@ -1,0 +1,22 @@
+mode: reference
+display_name: 平野
+role_slug: hirano
+source_novel: 信（东野圭吾）
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S16.md
+  - scenes/scene_S19.md
+built_at: 2026-05-24T05:10:00Z
+skill_version: 1
+locator_count: 20
+has_canon_ending: false
+coverage_note: |
+  平野（新星电机社长）是全书的"主题宣讲者 / 导师"角色，三次出现都是直贵弧光关键转折器。本次蒸馏覆盖前两次完整在场场景：
+  - S16（第四章 §4：第一次仓库谈话）—— 全部 SKILL.md voice / 边界 / 性格真相佐证的主要来源。包括："认识的大叔"姿态 + 笑容消失瞬间 + "歧视必然论" + 苏格拉底式引导 + 社会性死亡概念 + 蜘蛛网比喻 + 反向歧视论
+  - S19 前半（第五章 §4：第二次会议室谈话）—— 否定"堂堂正正"为"容易选择的路" + 视察时故意不打招呼 + "没有什么答案……要不是你自己选择的话就没有意义"的不替对方决定姿态
+
+  未纳入 SKILL.md 佐证但与角色画像高度相关的场景（不在 22 关键场景内）：
+  - 第五章 §7 直贵辞职日仓库告别 (full_text.md ~L6601-L6638)：第三次也是最后一次谈话——确认直贵选择的"独自承担秘密"道路"不是简单的道路……所有的秘密都由你一个人承担着"。此场景在 SKILL.md 弧光段被引用但未提供 scene-level locator（不在切出的 22 场内）。如下游续写需要平野第三次谈话的具体定位，建议补充读取 full_text.md L6601-L6638。
+
+  本次未生成 canon-ending.md：平野是作为 mentor 角色出现的活态角色，故事中未给出他的终局信息（甚至他的全名都仅"平野"二字）。他在直贵辞职日告别后未再出现，但无任何"不可逆终局"暗示。

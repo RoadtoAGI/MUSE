@@ -1,0 +1,26 @@
+mode: reference
+display_name: 张华
+role_slug: zhang-hua
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces.interpersonal.layer_3_internal_decay（张华作为内讧挑拨者）
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_a（人类内部互害的兽性）
+  - scenes/scene_YY-S02.md
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S06.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T20:15:00+08:00
+skill_version: 1
+locator_count: 11
+has_canon_ending: true
+coverage_note: |
+  信息密度中等，且分布均匀——杠精人格贯穿全篇（S02 质疑新人 / S03 侮辱大头兵 / S06 抬杠正史防疫 / S07 指责罗允+带头骂搅屎棍 / S10 抢枪打空）。
+  声音框架跨 3 个场景（S06 伪权威抬杠腔 / S03 阴阳怪气侮辱 / S02 色厉内荏遇硬即怂），稳定且样本充足。
+  边界 4 条各带 locator（绝不认错 S06 / 绝不放过激化矛盾的机会 S03 / 绝不硬刚敢动手的人 S02 / 危急时只逞能不自救 S07）。
+  弧光为功能性挑拨者的"反智催化剂被自身逞能与无知反噬至死"曲线，非性格成长；起点（被全员厌烦的杠精）+ 转折（带头定性罗允搅屎棍）齐全。
+  has_canon_ending: true —— 张华在 S10 抢枪打空仅剩三发子弹后被孙队长扯下下巴、咬舌惨死（S10:L21-L23），
+    属不可逆物理死亡，已回 scene 原文核对；其内在弧光在 S10 抢枪逞能已收束，死亡为黑色幽默式的剧情终局，
+    隔离到 references/canon-ending.md，不进人格本体。
+  张华为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

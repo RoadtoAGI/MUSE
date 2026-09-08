@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-90d8245d2de5e20343326e1b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L590
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 她那轻盈的身体落得甚至比旗帜还慢，仿佛小鸟眷恋着天空
+sensory_mapping: 视觉；下落运动；轻重；情感
+context_fact: 十五岁红卫兵刚在理想激情中被子弹穿胸。
+image_mechanism: 重力坠落被短暂改写成有意志的留恋：轻小身体获得鸟的翼感，下降速度在观看者感受中被拉慢，死亡因此像一次不情愿的告别。
+property_alignment: 少女轻盈对应小鸟体态轻；坠落显得缓慢对应鸟在空中盘桓；青春骤死的不舍对应鸟眷恋天空
+context_alignment: 她与大旗同时下落造成可见速度对照，小鸟意象保留少女年龄与身体的轻。
+narrative_function: 把暴烈死亡冻结成哀悼性慢镜头，反衬此前激情的虚妄。
+transfer_rule: 写坠落的哀伤时，可利用真实的轻重或速度参照，再赋予喻体一个与人物未竟生命相合的滞留动作。
+failure_boundary: 高速重坠、主动跳落或成年人物的沉重形象缺少轻缓与依恋，使用小鸟会甜化暴力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 中弹少女与旗帜一同从楼顶缓慢坠落的视觉瞬间
+vehicle: 将离天空却依依盘桓、不愿落地的小鸟
+ground: 少女轻盈对应小鸟体态轻；坠落显得缓慢对应鸟在空中盘桓；青春骤死的不舍对应鸟眷恋天空

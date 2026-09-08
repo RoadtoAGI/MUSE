@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:狂人日志--zhao-weisheng
+work_id: novel:狂病-莫千回
+display_name: 赵维胜
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '赵维胜说话带着一股自我打气式的、近乎讨好的诚恳。顺境时他爱拍自己的脸、给自己鼓劲——"为了儿子、为了大家以后能安全的生活，这一次拼了"，把求生说成对集体负责的承诺；被救后一句接一句地道谢，急于用感激修补人际、换取信任。他主动掏心窝讲身世，逻辑是"互相知道得越多，越能互相信任"——把坦诚当成换取归属的货币。但这副温和的嗓子有一个临界点：触到孩子，语气会瞬间从恳切翻成失控的咆哮与最恶毒的诅咒——丧子后他对李伟脱口而出"克死父母、又出来克死别人"，被揭穿真相后冲吴先生吼出"恶人自有天收、不得好死"。平时越是低声下气，崩溃时越是声嘶力竭，这一高一低之间就是他全部的人。
+
+
+    佐证：scenes/scene_KR-S05.md:L11-L11 / scenes/scene_KR-S08.md:L17-L17 / scenes/scene_KR-S10.md:L5-L5'
+  evidence_locators:
+  - scenes/scene_KR-S05.md:L11-L11
+  - scenes/scene_KR-S08.md:L17-L17
+  - scenes/scene_KR-S10.md:L5-L5
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bcb3960fbc4d604594dc573e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L678
+chapter: 第8章 寂静的春天
+figure_type: analogy
+quote: 也许，人类和邪恶的关系，就是大洋与漂浮于其上的冰山的关系
+sensory_mapping: 视觉；尺度；物态；空间；概念结构
+context_fact: 《寂静的春天》使她把日常杀虫与文革暴力放进同一人类伤害谱系。
+image_mechanism: 抽象道德关系被制成一幅剖面图：巨大海洋代表常态人类，露头冰山代表被单独认出的恶；水与冰的相变消除本质边界，只保留形态和可见度差异。
+property_alignment: 人类整体对应巨大海洋；醒目恶行对应露出水面的冰山；二者同源对应海水冰体同为水；恶行只占可见小部对应冰山相对大洋极小；形态差异使恶被命名对应冻结形态使冰山显眼
+context_alignment: 她刚发现正常、正义行为也会伤害自然，冰山模型正用于取消“少数坏人与正常多数”的清楚边界。
+narrative_function: 凝结叶文洁对人类的根本判断，为其寻求外部力量奠基。
+transfer_rule: 构造整体—显例关系的机制类比时，应逐项对应共同材质、尺度比例、显现条件和分类边界，并说明它属于人物推论。
+failure_boundary: 冰与水同质不等于所有人道德同质；当恶行来自具体制度、选择和责任差异时，该模型会把可改变机制写成不可变本性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁推想的人类整体本性与可辨认恶行之间的关系
+vehicle: 同一水体中，大洋主体托举由相同水组成、仅因形态而显眼的冰山
+ground: 人类整体对应巨大海洋；醒目恶行对应露出水面的冰山；二者同源对应海水冰体同为水；恶行只占可见小部对应冰山相对大洋极小；形态差异使恶被命名对应冻结形态使冰山显眼

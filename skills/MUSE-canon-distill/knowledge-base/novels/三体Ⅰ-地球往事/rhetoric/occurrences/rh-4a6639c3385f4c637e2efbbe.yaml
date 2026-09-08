@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4a6639c3385f4c637e2efbbe
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L752
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 冰冷的空气仿佛凝固了一般
+sensory_mapping: 温度；触觉；流动停止；硬度；空间
+context_fact: 程丽华盯着拒绝作伪证的叶文洁，长时间沉默。
+image_mechanism: 无形气氛借真实严寒取得相变条件，空气由可呼吸流体变成填满监室的固块；两人之间的余地因此同时在时间和空间上冻结。
+property_alignment: 对话突然停止对应流体停止流动；空气寒冷对应达到冻结条件；人物僵持不动对应固体形态固定；压迫变得可触对应气体获得硬度
+context_alignment: 监室炉火已灭，物理低温与人际变脸同步，使常见“凝固”获得真实寒冷支撑。
+narrative_function: 悬停慈爱假面的破裂时刻，并蓄积随后泼水的暴力。
+transfer_rule: 用凝固写气氛时，应让真实温度、动作停顿和交流中断共同提供相变条件，说明什么流动被冻住。
+failure_boundary: 空间温暖、人物仍快速交锋或气氛只是尴尬松散时，冻结会过度写死节奏。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 叶文洁拒签后监室中骤然静止、紧绷且寒冷的气氛
+vehicle: 低温液体冻结成不再流动的固体
+ground: 对话突然停止对应流体停止流动；空气寒冷对应达到冻结条件；人物僵持不动对应固体形态固定；压迫变得可触对应气体获得硬度

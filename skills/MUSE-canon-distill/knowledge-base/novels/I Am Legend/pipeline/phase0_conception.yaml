@@ -1,0 +1,72 @@
+# Phase 0: Conception — I Am Legend (Richard Matheson, 1954)
+
+premise: >
+  What if a global plague turned all of humanity into vampires, leaving
+  one ordinary man as the sole survivor—and what if his fight to stay alive
+  made him the very monster the new world fears?
+
+core_value:
+  positive: Normalcy / Belonging
+  negative: Monstrosity / Alienation
+  spectrum:
+    contradictory: Abnormality — being different from the prevailing norm
+    contrary: Isolation — being apart without active threat
+    negation_of_negation: >
+      Becoming the legendary monster in the name of survival —
+      destroying "monsters" while becoming one yourself, unaware
+      that the definition of monster has shifted beneath your feet
+
+controlling_idea:
+  value: >
+    Monstrosity is relative; normalcy is a majority concept,
+    the standard of many and not the standard of just one man.
+  cause: >
+    Because one man's rational survival campaign — staking the sleeping,
+    burning the dead — transforms him into the new civilization's
+    boogeyman, an invisible specter who leaves bloodless bodies
+    as evidence of his existence.
+  full_statement: >
+    Normalcy is destroyed when the last survivor's righteous campaign
+    of extermination makes him the new world's legendary monster,
+    because monstrosity is defined by the majority, not by the individual.
+  type: ironic
+
+genre:
+  primary: Horror / Science Fiction
+  secondary: Survival, Existential Drama
+  conventions:
+    - setting: >
+        Post-apocalyptic suburban landscape; a single fortified house
+        as the last outpost of the old world
+    - characters: >
+        The lone survivor, the siege antagonists, the ambiguous ally/spy,
+        the returning dead spouse
+    - events: >
+        Nightly sieges, daytime hunts, scientific investigation of the
+        supernatural, a false-companion betrayal, capture and execution
+    - values: >
+        Survival vs. belonging; reason vs. superstition; humanity vs. monstrosity
+
+originality_statement:
+  unique_angle: >
+    The vampire narrative is inverted: the human is the horror. Matheson
+    strips vampirism of its Gothic romanticism, grounds it in bacteriology,
+    then uses this scientific framework to deliver a philosophical sucker
+    punch — the "rational" man who understands the plague better than
+    anyone is the one who fails to see that he has become the plague.
+    The title itself is the controlling idea.
+  cliches_to_avoid:
+    - The lone hero triumphs through superior knowledge
+    - Science conquers superstition and saves the day
+    - The last man finds a companion and rebuilds civilization
+    - The monsters are simply evil and deserve destruction
+
+style_directives:
+  - Tight third-person limited POV, never leaving Neville's consciousness
+  - Pulp-era directness — short declarative sentences, visceral physical detail
+  - Internal monologue rendered as fragmented self-argument ("Shut up / Oh shut up")
+  - Time handled through abrupt jumps and embedded flashbacks (Virginia's death)
+  - Alcohol and music as recurring markers of psychological state
+  - Deliberate withholding of the thematic reversal until the final page
+
+word_count: ~50000

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9bc6e439907fedfe7c121daa
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2558
+chapter: 第34章 智子
+figure_type: simile
+quote: 星空分成了两部分，这两部分中星群的图案是对不上的，仿佛两张星空图片叠在一起，小的那张放在大的上面，银河在两者的边界处被截断
+sensory_mapping: 平面图层；星点错位；圆形裁边；银河断裂；图片叠印
+context_fact: 第三次展开成功形成二维质子，三体人先从夜空异常逐步认出平面正在扩大。
+image_mechanism: 三维天幕被降格为可编辑图层，正常星空作为底图，行星背面的星图像第二张照片铺上来；无法衔接的银河断口暴露了覆盖层边缘。
+property_alignment: 正常星空对应底图；异域星空对应上层小图；星群对不上对应图像未配准；圆形扩张对应图片面积放大；银河截断对应裁剪边缘；二维质子对应平面载图
+context_alignment: 现象本质正是二维平面映射天空，照片叠层既贴合视觉，也提前让二维概念进入读者直觉。
+narrative_function: 用熟悉图像编辑模型解释不可能的星空重叠，并给展开边界清晰定位。
+transfer_rule: 用图片叠层写视野异常时，应有两套可辨图案、对位失败、覆盖顺序、清晰边界和随时间变化的图层面积。
+failure_boundary: 星空只是云遮或折射渐变、没有第二套完整图案与硬边界时，照片叠印模型会过度平面化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 质子二维平面展开初期把行星另一侧的星空映到正常夜空上，形成边缘清晰且星图错位的圆形区域
+vehicle: 一张较小星空照片覆盖在大幅星空照片上，两幅图没有配准，边缘将银河图案硬切断
+ground: 两套星群图案错位对应照片未配准；圆形小区域覆盖背景对应小图压大图；边界截断银河对应照片裁切边

@@ -1,0 +1,28 @@
+scene_id: '20'
+source_notes: scene_20_beats.md
+patterns:
+- pattern_id: 20-p1
+  beat: 雷达报数电文体
+  dimension: omission
+  original_move: 威胁全由格式化报数自带，不写众人变色的反应
+  ai_default_failure: 报数后补一句气氛骤然紧张式的心理渲染
+  transfer_rule: 写军情传递时让规格化数字直接承载压迫感与倒计时
+  quote: 预计将于28分钟后抵达本舰上空
+- pattern_id: 20-p2
+  beat: 主炮齐射爆点
+  dimension: verb
+  original_move: 拟声词开段接硬动词密集轰炸，解说与爆点严格分段
+  ai_default_failure: 边写爆炸边插原理说明，稀释爆点冲击
+  transfer_rule: 爆发段之前置完战术解说，爆点段只留纯感官
+  quote: 炮口红霞冲舞，炽烈炎浪席卷滔天
+- pattern_id: 20-p3
+  beat: 炮手消耗账本
+  dimension: info_density
+  original_move: 用1500发换1机的弹药账写防空作战真实效率
+  ai_default_failure: 让具名炮手首发命中一击建功
+  transfer_rule: 写底层战位用消耗与战果比替代个人神勇
+  quote: 自己这个炮组的战果仍旧是0
+overall_traits:
+- 战役拆成四层海拔视角，每层只见本层信息
+- 数字为骨夸饰为点，爆点后即回流程写实
+- 拟声开段是提速信号，解说长段作缓冲

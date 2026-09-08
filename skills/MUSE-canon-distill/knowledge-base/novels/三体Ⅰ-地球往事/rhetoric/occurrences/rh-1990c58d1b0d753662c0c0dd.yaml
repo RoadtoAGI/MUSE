@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1990c58d1b0d753662c0c0dd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1998
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 孤寂像一只巨掌压着叶文洁，她觉得自己被越压越小，最后缩到这个世界看不到的一个小角落去了
+sensory_mapping: 重量；垂直挤压；身体缩小；空间角落；寒冷寂静
+context_fact: 除夕夜基地多数人下山，房间曾是她与丈夫的家，现在只有腹中孩子和远处鞭炮声。
+image_mechanism: 空房间上方生出无形巨掌，掌面随寂静缓慢下降，先压住胸口，再把她的身体和社会坐标一同缩小，直至被挤出世界视线。
+property_alignment: 空荡基地对应巨掌覆盖空间；孤独压力对应掌面重量；失去丈夫与同伴对应身体缩小；远处节庆与己无关对应被挤到角落；无人看见对应角落脱离世界视野
+context_alignment: 几行前红岸天线巨掌向宇宙张开，此处孤寂巨掌反向压下，一张手召唤外界，一张手抹除自身，形成情绪回声。
+narrative_function: 将节日孤独变成动态压迫，并为孩子们带热饺子的敲门制造释放反差。
+transfer_rule: 用巨掌写孤独时，应呈现覆盖范围、持续压力、自我尺度缩减和被推离共同世界的具体结果。
+failure_boundary: 人物主动享受独处、仍与群体稳定连接，或孤独只是一瞬轻微失落时，巨掌压缩会夸大体验。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 除夕独处、丈夫已死且基地空荡时，叶文洁感到自身存在被极度孤立和压缩
+vehicle: 巨大手掌从上方持续施压，把身体压小并挤入无人看见的角落
+ground: 孤独造成沉重身体压力对应巨掌下压；社会联系减少、自我价值缩小对应身体越压越小

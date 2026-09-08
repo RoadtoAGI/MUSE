@@ -1,0 +1,17 @@
+# API key 等敏感配置
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# 本地工作产物（标注中转 / embedding 备份 / 评测输出），不随包分发
+tmp/
+knowledge-base/tmp/

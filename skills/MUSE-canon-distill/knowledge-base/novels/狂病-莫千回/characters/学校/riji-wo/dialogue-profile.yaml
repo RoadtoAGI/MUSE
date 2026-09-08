@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:学校--riji-wo
+work_id: novel:狂病-莫千回
+display_name: 「我」
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '「我」的叙述是一种"事后回看的日记腔"：带日期、带"现在想一下，如果那个时候不懒就好了"这种悔之晚矣的回溯标记，把灾难写成已经发生、无法挽回的旧账。情绪上他偏内向、自责、爱反问自己（"多么可笑，我都想抽自己"），很少喊口号、很少抒情壮语；真正的崩溃他用克制的短句和省略号兜住，把最痛的部分留白（"但我现在……我现在，还是下不定决心")。临到结尾，他用近乎平静甚至自嘲的轻声给自己最惨烈的决定收尾——"毕竟我真的很怕疼呀"——把最反人性的动作说得像一句撒娇的解释。
+
+
+    佐证：scenes/scene_XX-S01.md:L15-L15 / scenes/scene_XX-S03.md:L19-L19 / scenes/scene_XX-S10.md:L7-L7 / scenes/scene_XX-S10.md:L29-L29'
+  evidence_locators:
+  - scenes/scene_XX-S01.md:L15-L15
+  - scenes/scene_XX-S03.md:L19-L19
+  - scenes/scene_XX-S10.md:L7-L7
+  - scenes/scene_XX-S10.md:L29-L29
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

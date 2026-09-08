@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-84e664bfe83b4737e4db740f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1653
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: analogy
+quote: 人们就像等待最后审判日那样等着结果
+sensory_mapping: 时间悬置；法庭判决；末日威胁；群体心理
+context_fact: 几十种模型均完成计算，文明把预测太阳作为世界中心活动，却不断因结果错误而毁灭。
+image_mechanism: 计算结果从一组数字升格为高处即将宣读的判词，整个文明站在下方等待；模型真假和文明生死被压进同一个不可逆宣判时刻。
+property_alignment: 模型验证结果对应审判判词；文明全体受影响对应全人类受审；预测正确可生存对应获救；错误导致毁灭对应末日惩罚；无法催促结果对应等待审判
+context_alignment: 说话者是失意爱因斯坦，科学验证被宗教末日化，准确表现三体科学承受的生存压力。
+narrative_function: 校准三体人等待计算的心理强度，并解释模型失败为何摧毁科学信念。
+transfer_rule: 用终极审判写等待时，应让结果具有全体性、不可逆性、外部宣判和生死两极后果。
+failure_boundary: 结果可反复试错、影响局部或参与者能随时改判时，末日审判会夸大一次计算的终局性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明在投入两个世纪巨量计算后等待太阳模型最终验证结果
+vehicle: 全人类等待决定永恒得救或毁灭、不可申诉的末日审判
+ground: 结果将决定文明生存方案对应审判决定最终命运；等待时间漫长且无法控制对应受审者只能等判词

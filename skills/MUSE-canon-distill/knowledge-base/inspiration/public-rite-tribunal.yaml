@@ -1,0 +1,23 @@
+card_id: public-rite-tribunal
+pattern_name: 公开仪式审判
+dramatic_function: 把私人冲突推入公共场域，让权力、羞辱和道德位置同时重排。
+applicability: 适合宗族、组织、校园、职场等有共同见证人的群体故事（单书孤证，验证面窄）
+reuse_candidates:
+- 祠堂刺刷
+- 清党耍猴
+- 处决大会
+tags:
+- 公开场面
+- 羞辱
+- 权力反转
+- 群体见证
+source_scenes:
+- novel: 白鹿原
+  scene_id: S05
+  note: 戏楼暴力与族长跪保共同改写村社秩序。
+- novel: 白鹿原
+  scene_id: S06
+  note: 祠堂惩罚把父子丑事转成公共家法。
+- novel: 白鹿原
+  scene_id: S15
+  note: 处决大会让冤杀成为全书终极见证场。

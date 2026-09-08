@@ -1,0 +1,23 @@
+mode: reference
+display_name: 张彤
+role_slug: zhang-tong
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # antagonistic_forces.interpersonal.layer_1（三人组内部）+ arc_4（张彤被清除）
+  - pipeline/phase0_conception.yaml  # recorder_fake_luoyun_line（工具童诱杀线）
+  - scenes/scene_EE-S01.md
+  - scenes/scene_EE-S02.md
+  - scenes/scene_EE-S04.md
+  - scenes/scene_EE-S08.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S02 担心被查 / S04 被冤枉急辩 / S08 被堵嘴只剩呜咽），稳定性充分。
+  弧光起点（S01 为认可压着生理厌恶打杂）+ 转折（S08 接近真相却被清除）两段齐全。
+  性格真相有压力情境直接佐证（S01 拍录像干呕 + S08 清醒后第一念头是警告廖振宇）。
+  核心欲望跨 S01（生理排斥暴力）+ S08（求认可什么都肯做）两场。
+  "贪财怕血但为认可几乎什么都肯做"的定性原文出处在 S08:L23（廖振宇视角对张彤的盖棺定论），已作 locator。

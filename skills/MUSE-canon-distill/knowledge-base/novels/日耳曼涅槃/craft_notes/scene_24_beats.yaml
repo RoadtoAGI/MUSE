@@ -1,0 +1,28 @@
+scene_id: '24'
+source_notes: scene_24_beats.md
+patterns:
+- pattern_id: 24-p1
+  beat: 伏击选位决断链
+  dimension: verb
+  original_move: 扫望到下令一句不停，心理只留岗位牢骚
+  ai_default_failure: 初战写手心出汗与生死独白拖慢节奏
+  transfer_rule: 写老兵素质用动词链密度替代心理陈述
+  quote: 解读出局面之后，鲍尔特毫不迟疑
+- pattern_id: 24-p2
+  beat: 首发未毁反转
+  dimension: camera
+  original_move: 镜头锁定无浓烟这一否定细节，该炸的没炸
+  ai_default_failure: 未击穿当句就插装甲原理解说
+  transfer_rule: 写预期落空先给否定性画面，解释后置
+  quote: 被击中后没有任何浓烟冒出
+- pattern_id: 24-p3
+  beat: 踹背传令与算式
+  dimension: omission
+  original_move: 噪音下踹背传令，测距算式原样入文不转译
+  ai_default_failure: 写车长冷静下令成员默契执行的顺畅想象
+  transfer_rule: 狭窄战位用物理限制生成通讯与动作细节
+  quote: 1.95÷2÷2×1000＝487.5米
+overall_traits:
+- 每节拍先立预期再折断，胜负感保持悬置
+- 身体语言承担车内通讯，噪音即叙事资源
+- 战斗段数据即动作，装备史科普整章抽离

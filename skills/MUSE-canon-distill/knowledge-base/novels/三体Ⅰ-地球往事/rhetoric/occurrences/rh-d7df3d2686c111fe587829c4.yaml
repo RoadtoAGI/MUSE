@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d7df3d2686c111fe587829c4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2210-L2212
+chapter: 第31章 两个质子
+figure_type: metaphor
+quote: 它是一把锁。
+sensory_mapping: 金属锁；锁舌扣合；门后空间；无钥匙；长期囚禁
+context_fact: 审问者认为两个质子等于什么都没送，叶文洁首次给出它们的战略功能。
+image_mechanism: 微小质子不靠能量摧毁宏观物体，而化成锁具卡在知识之门；体积几乎为零，却控制文明能否继续向深层物质世界前进。
+property_alignment: 质子对应锁体；加速器实验对应锁孔入口；错误结果对应锁舌闭合；科学突破对应开门；三体高维知识对应钥匙控制；舰队抵达前停滞对应长期上锁
+context_alignment: 这是全书科学锁死框架首次明示，L2622对牢固锁具的解释属于后续机制展开。
+narrative_function: 以极小物件反转两个质子微不足道的直觉，并抛出核心悬念。
+transfer_rule: 用锁写知识封堵时，应明确被锁通道、施锁者、锁闭机制、钥匙归属和无法绕行的时间后果。
+failure_boundary: 若替代研究路径能绕开加速器、错误可被识别过滤或人类获得解锁知识，锁死应改写为暂时阻碍。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 两个三体质子将阻断人类基础物理取得重大进展，使科学在舰队到达前停滞
+vehicle: 一把锁扣住通往深处的门或行动者，使其无法开启、前进和挣脱
+ground: 物理研究通道对应被锁入口；质子干扰对应锁具；科学停滞对应无法开门；四百五十年对应长期锁闭

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2161744dd6149a0416bd23c5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L873
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 宇宙是一个狭小的心脏或子宫，这弥漫的红光是充满于其中的半透明的血液，他悬浮于血液中，红光的闪烁周期是不规则的，像是这心脏或子宫不规则地脉动
+sensory_mapping: 视觉红色；流体；触觉包围；脉搏节奏；身体内部；尺度
+context_fact: 他戴3K眼镜，看不见星体，只见暗红背景整体不规则闪烁。
+image_mechanism: 星空边界向内收缩成器官壁，红光液化为可浸没身体的血；每次宇宙明暗不再是远景变化，而是贴着全身传来的搏动。心脏给出生命威压，子宫又加入囚禁与孕育的歧义。
+property_alignment: 宇宙封闭变小对应体内狭小腔室；背景红光充满空间对应血液灌满腔体；汪淼失去落点对应生命悬浮液中；全局闪烁对应器官脉动；未知力量包围他对应巨大生物体支配内部微物
+context_alignment: 红色、全空间填充、同步周期和人物孤立四项直接来自视觉，双喻体共享腔体与脉动，又分别加强恐惧和无助。
+narrative_function: 把宇宙异常转为身体内部体验，首次让幕后存在具有巨大生命感。
+transfer_rule: 并置两个喻体时，应先建立共享的物理骨架，再让各自独有联想分担不同情绪；此处共享腔体、液体和脉动，分化为威压与囚育。
+failure_boundary: 心脏和子宫的生理功能并不相同，不能据此推断宇宙在孕育或循环生命；若画面无红光、悬浮或全局脉动，器官化会失去感官支点。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼置身同步红光闪烁的宇宙时感到被封闭、悬浮并受巨大未知生命支配
+vehicle: 充满半透明血液、以不规则节律搏动的狭小心腔或子宫，微小生命悬浮其中
+ground: 宇宙封闭变小对应体内狭小腔室；背景红光充满空间对应血液灌满腔体；汪淼失去落点对应生命悬浮液中；全局闪烁对应器官脉动；未知力量包围他对应巨大生物体支配内部微物

@@ -1,0 +1,28 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 打狗棒法口述比武
+  dimension: omission
+  original_move: 招式原理全略，以思考时长与一夜白头作难度标尺
+  ai_default_failure: 详写招式原理与破解逻辑
+  transfer_rule: 顶级对决可改换载体，技术细节换成代价标尺
+  quote: 两人如此大费唇舌的比武
+- pattern_id: S06-p2
+  beat: 相抱大笑
+  dimension: verb
+  original_move: 以笑与抱等高能动词写死，生命在最高音骤停
+  ai_default_failure: 补写终于理解对方放下仇恨的心理归因
+  transfer_rule: 死亡可处理为声音事件，留白笑的含义
+  quote: 笑声顿歇，两人一动也不动了
+- pattern_id: S06-p3
+  beat: 杨过的七日守尸
+  dimension: camera
+  original_move: 死亡一秒完成，接受死亡用七天慢镜头丈量
+  ai_default_failure: 让旁观者分别回忆交往做情感总结
+  transfer_rule: 哀悼戏用非语言动作代替致辞
+  quote: 直守了七日七夜，每过一日，指望便少了一分
+overall_traits:
+- 笑作死亡美学：同时表达释放和解与尊严
+- 沉默旁观者承载见证与继承双重功能
+- 足印意象：活人站进死者痕迹即继承

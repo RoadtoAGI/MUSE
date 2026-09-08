@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f1f13597ad11e8852b382b66
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2014
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 这个玩具盒般的宇宙令她感到分外舒适
+sensory_mapping: 手掌尺度；盒壁；微缩景物；排列；安全包裹
+context_fact: 她想象黑色球面正好扣住有边平面，星星不比小镜子大，世界布满熟悉山村。
+image_mechanism: 无限宇宙被折叠进一个可合盖的盒子，恒星缩成亮片，山脉村落缩成模型；边界把黑暗和危险关在盒外。
+property_alignment: 有限天穹对应盒盖；平面世界有边对应盒底边框；小星星对应玩具亮片；山村山脉对应微缩模型；可理解可控制对应儿童盒中秩序；舒适对应被盒壁保护
+context_alignment: 叶文洁熟知真实三体宇宙的无限冷酷，玩具盒的错误却提供久违安全，贴切写出知识负担与朴素幸福的反差。
+narrative_function: 把大凤宇宙的认知局限转成情感庇护，并引导叶文洁入睡。
+transfer_rule: 把世界写成玩具盒时，应对齐有限边界、尺度缩小、物件秩序和由可控性产生的安全。
+failure_boundary: 世界仍无边、对象巨大危险且无法被框定时，玩具盒只会天真化而不能解释舒适。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 大凤心中尺度有限、边界清楚、星星小而安全的朴素宇宙模型
+vehicle: 尺寸可握、四壁封闭、物件整齐摆放且不会脱离控制的儿童玩具盒
+ground: 宇宙有明确球面和平面边界对应盒壁封闭；星星山村都缩小对应玩具物件微型化

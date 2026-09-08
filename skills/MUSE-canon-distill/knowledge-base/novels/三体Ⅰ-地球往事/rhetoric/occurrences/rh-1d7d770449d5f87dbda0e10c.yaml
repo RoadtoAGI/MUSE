@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1d7d770449d5f87dbda0e10c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1296
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 从盔甲中流出的人油燃烧着在地上扩散开来，仿佛盔甲长出了一对火的翅膀
+sensory_mapping: 视觉；左右对称；生长动作；火光
+context_fact: 燃烧坐骑摔倒，红炽骑士被甩到火刑架下不动，体内油脂从盔甲中流出并着火。
+image_mechanism: 横向扩散的两股火流被从地面抬到身体结构上，死亡盔甲像在瞬间生长；翅膀原指升腾，此处却由尸油贴地铺开，形成惨烈反转。
+property_alignment: 盔甲居中对应躯干；两侧火流对应成对翅膀；火焰分叉跳动对应羽片；油流继续扩散对应翅翼长大
+context_alignment: 中世纪骑士与宗教大殿容易唤起天使翼形，火翼却来自人油，把神圣升腾扭成肉身焚毁。
+narrative_function: 用壮丽轮廓凝固极残酷细节，并预告大殿外整片火世界。
+transfer_rule: 把对称扩散物写成翅膀时，应落实中央躯体、左右成对、边缘纹理和展开过程，并利用场景文化意义控制反差。
+failure_boundary: 火流只在一侧、没有中心身体或呈圆形积聚时，双翼几何不会成立；若场景追求救赎，尸油来源也会破坏语义。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 骑士盔甲两侧向外流淌并燃烧的人油火带
+vehicle: 从盔甲躯干两侧对称生出、铺展发亮的一对火翼
+ground: 两侧火流向外展开对应双翼由身体两边伸展；跳动火焰形成羽状边缘对应燃烧翅羽

@@ -1,0 +1,33 @@
+mode: reference
+display_name: 婉清
+role_slug: wan-qing
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/套中人/phase3_spine.yaml
+  - pipeline/套中人/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TZ-S01.md
+  - scenes/scene_TZ-S03.md
+built_at: "2026-05-29T20:30:00+08:00"
+skill_version: 1
+locator_count: 6
+has_canon_ending: true
+coverage_note: |
+  婉清 = "善意者祭品"功能性角色 —— 二创原型价值在于"用轻盈意象（木偶/花朵）写最残忍的死"的样本，
+  以及"第一个对主角释放善意的人被最先毁灭"的激励事件物象核心（断手飘到面前）。
+
+  深度梯度说明（按 reference 模式"纯背景/功能性角色视情况裁剪"）：
+  - 婉清是低-中信息密度的幼童功能角色，无独立主体性弧光；性格真相段的"压力下反应"
+    即是她的死亡瞬间，无法另寻"非死亡的压力场"，这是角色性质决定的，非取证不足。
+  - 核心转变一项标注为"功能性角色，无主体性内在转变"，诚实反映其作为象征载体而非弧光主体的定位。
+  - 声音框架以幼童天真口吻 + 不设防的好奇为主，跨 S01 内两处不同情境（应答奶奶 / 张望怪人）取证。
+  - 边界 2 条均带 locator（不歧视洪扬 / 紧跟奶奶不乱跑），是幼童角色合理的否定空间。
+
+  单点支撑说明：
+  - "几个月前送洪扬一朵蓝花"=她善意身份的关键事实，原文出处在 source line 67（属洪扬内焦点段），
+    本篇 scene 切片中由 TZ-S03.md:L17"那只曾经送给洪扬花朵的小手"回指确认，未跨场拼因果。
+
+  has_canon_ending: true —— 已回 scene 原文核对（scene_TZ-S03.md:L15-L17）：
+  婉清被疯子当破旧木偶握在手里甩动砸人，随后被洒水车碾碎"如同狂风中的花朵一般四分五裂高高飞起"，
+  那只送过花的小手飘到洪扬面前 = 不可逆物理死亡，物理终局已隔离到 references/canon-ending.md。

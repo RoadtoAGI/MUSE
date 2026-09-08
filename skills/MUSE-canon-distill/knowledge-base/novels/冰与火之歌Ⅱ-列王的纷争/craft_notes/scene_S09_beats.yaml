@@ -1,0 +1,28 @@
+scene_id: S09
+source_notes: scene_S09_beats.md
+patterns:
+- pattern_id: S09-p1
+  beat: 动物自喻
+  dimension: overall
+  original_move: 用动物身份替代恐惧命名
+  ai_default_failure: 会直写她充满恐惧
+  transfer_rule: 儿童受压时用自我物种化
+  quote: 她变成了老鼠
+- pattern_id: S09-p2
+  beat: 耳语杀人
+  dimension: omission
+  original_move: 杀戮发生场外只传来结果
+  ai_default_failure: 会描写杀手执行过程
+  transfer_rule: 权力升级可只写命令和回声
+  quote: 轻声说
+- pattern_id: S09-p3
+  beat: 身份蜕变
+  dimension: verb
+  original_move: 首次让她认领杀死动词
+  ai_default_failure: 会补道德反思来平衡
+  transfer_rule: 黑化转折可省略反思
+  quote: 那是我杀死的
+overall_traits:
+- 暴力在场外完成
+- 动物隐喻构成结构骨架
+- 省略道德挣扎塑造弧光

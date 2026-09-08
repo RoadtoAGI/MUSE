@@ -1,0 +1,142 @@
+# Phase 4: 结构（序列展开） —— 《斯通纳》逆向分析
+
+arc_expansions:
+
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "农场与出发"
+        core_conflict: "贫瘠的农场生活 vs. 父亲对'更好出路'的隐约期望"
+        escalation_direction: "从沉默的劳作到打破沉默的对话——父亲罕见地长篇讲话，推动斯通纳离开"
+        sequence_climax: "父亲说出平生最长的一次话：'秋天了你就去上大学吧'（第1章）"
+        closed: "斯通纳离开农场的决定"
+        opened: "他将成为什么样的人？"
+
+      - seq_id: ARC1-SEQ2
+        name: "文学的觉醒"
+        core_conflict: "麻木的功课式学习 vs. 文学对灵魂的召唤"
+        escalation_direction: "从'像干农活一样做功课'到'意识到自己在使劲屏住呼吸'——一个人的精神苏醒"
+        sequence_climax: "斯隆课堂上朗读莎士比亚十四行诗，斯通纳被唤醒（第1章）——全书激励事件"
+        closed: "斯通纳的人生方向——他是一个属于文学的人"
+        opened: "这种觉醒将带他走向何处？"
+
+      - seq_id: ARC1-SEQ3
+        name: "身份确认与断裂"
+        core_conflict: "新身份（学者）vs. 旧纽带（农场家庭）"
+        escalation_direction: "从斯隆说'你想当老师——因为爱'到斯通纳告诉父母不回农场——自我认知的确立伴随着痛苦的断裂"
+        sequence_climax: "毕业后告诉父母不回农场（第1章末），母亲默默流泪"
+        closed: "斯通纳与农场世界的永久分离"
+        opened: "他将如何在新世界中建立自己的生活？"
+    arc_progression_note: "三个序列构成一个完整的'出生'叙事：物理出发→精神觉醒→身份确立。每个序列的情感冲击递增。"
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "求爱与婚姻"
+        core_conflict: "斯通纳对爱情的渴望 vs. 伊迪丝的恐惧和不可接近"
+        escalation_direction: "从'她几乎是恐惧地看着斯通纳'到'我会努力做个好妻子'——一个注定失败的承诺"
+        sequence_climax: "伊迪丝两次说'我会尽力'（对斯通纳父亲和对斯通纳），婚礼举行（第3-4章）"
+        closed: "婚姻缔结"
+        opened: "这桩婚姻将走向何处？——答案在伊迪丝的'尽力'中已埋下不祥"
+
+      - seq_id: ARC2-SEQ2
+        name: "婚姻的溃败"
+        core_conflict: "斯通纳对亲密的渴望 vs. 伊迪丝的系统性疏离"
+        escalation_direction: "从蜜月的笨拙到性生活的终结，从伊迪丝突然要孩子到格蕾斯出生后伊迪丝再次退缩"
+        sequence_climax: "格蕾斯出生后，斯通纳承担几乎全部育儿——伊迪丝已彻底从妻子和母亲的角色中撤退（第5章）"
+        closed: "婚姻的情感层面已死"
+        opened: "伊迪丝还会对斯通纳做什么？"
+
+      - seq_id: ARC2-SEQ3
+        name: "伊迪丝的'战争'"
+        core_conflict: "伊迪丝对控制权的争夺 vs. 斯通纳对私人空间的守护"
+        escalation_direction: "从岳父自杀后伊迪丝的'全新形象'，到夺走格蕾斯、侵占书房、破坏书稿——系统性地剥夺斯通纳的一切归属"
+        sequence_climax: "伊迪丝说：'你能做的无非是离开我，而你永远不会这样做'（第8章）——她赢了，因为她完全看穿了他"
+        closed: "斯通纳在家庭中的全部领地丧失"
+        opened: "他将如何在只剩大学的世界中生存？"
+    arc_progression_note: "从浪漫期待到全面围困。伊迪丝不是恶人——她是被自己的创伤（压抑的成长、父亲自杀）驱动的人，但她的'战争'客观上摧毁了斯通纳的家庭生活。"
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "沃尔克事件"
+        core_conflict: "学术诚信（斯通纳的底线）vs. 师生保护（劳曼克思的忠诚）"
+        escalation_direction: "从沃尔克在研讨班上搅局，到预答辩中斯通纳的致命追问，到劳曼克思的威胁——一场从课堂延烧到系级政治的冲突"
+        sequence_climax: "斯通纳在预答辩中坚持投不通过票，费奇以反威胁化解劳曼克思的正式指控（第10章）"
+        closed: "沃尔克事件的直接后果——斯通纳'赢'了学术争论"
+        opened: "劳曼克思将如何报复？"
+
+      - seq_id: ARC3-SEQ2
+        name: "系统性报复与存在危机"
+        core_conflict: "劳曼克思的权力 vs. 斯通纳的职业尊严"
+        escalation_direction: "从劳曼克思就任系主任到取消斯通纳的所有高级课程，再到'我们从来就不是朋友'的决裂宣告——逐步绞杀"
+        sequence_climax: "斯通纳在冬夜的办公室独坐，陷入存在性虚无——'自己的生活是否值得过下去'（第11章）——人生最低谷"
+        closed: "斯通纳在家庭和职业两个层面都被剥夺到极致"
+        opened: "他还能活下去吗？什么东西能救他？"
+    arc_progression_note: "从具体的学术争论到抽象的存在危机。沃尔克事件本身并不重大，但它触发了劳曼克思的二十年报复，后者才是真正的摧毁性力量。"
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "重新点燃"
+        core_conflict: "存在性麻木 vs. 与凯瑟琳之间萌发的情感联结"
+        escalation_direction: "从论文指导中的纯学术接触，到斯通纳被她的手稿震撼，到他刻意疏远她，到她病倒后的探望——压抑的感情不断积累"
+        sequence_climax: "凯瑟琳说'我是极度、极度不开心'，两人拥抱，关系从师生转为恋人（第12章）"
+        closed: "斯通纳从虚无中复活——他再次能够爱"
+        opened: "这段关系能持续吗？"
+
+      - seq_id: ARC4-SEQ2
+        name: "爱情与毁灭"
+        core_conflict: "真爱 vs. 世界的不允许（劳曼克思的权力+社会道德规范）"
+        escalation_direction: "从热烈的秘密恋情、奥扎克湖的十天独处，到恋情曝光、劳曼克思以开除凯瑟琳为要挟——从天堂直坠地狱"
+        sequence_climax: "斯通纳说放弃的原因是'害怕我们自我的毁灭'。凯瑟琳连夜离开，两人此生再未相见（第13章）"
+        closed: "斯通纳一生中唯一的真爱——永久失去"
+        opened: "失去爱之后，他还剩什么？"
+    arc_progression_note: "全书情感最强烈的Arc。两个序列形成'复活→再死'的弧线。ARC-4的高潮（放弃凯瑟琳）是全书最重要的主动选择——它揭示了斯通纳的核心真相。"
+
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "晚年的小胜利"
+        core_conflict: "劳曼克思的权威 vs. 斯通纳沉默的抵抗"
+        escalation_direction: "从大病后擅自替换教材，到费奇默许，到劳曼克思被迫让步恢复高级课程——多年来第一次'胜利'"
+        sequence_climax: "斯通纳赢回高级课程（第14章）——但这只是一个小胜利，因为他已经不在乎了"
+        closed: "职业层面的部分恢复"
+        opened: "格蕾斯的命运如何？"
+
+      - seq_id: ARC5-SEQ2
+        name: "格蕾斯的陨落与教学的黄金期"
+        core_conflict: "斯通纳对女儿的爱 vs. 格蕾斯已无法被拯救的现实"
+        escalation_direction: "从格蕾斯怀孕出嫁、弗莱战死，到她开始酗酒、承认自己'故意怀孕是为了逃离'——一个被家庭毁坏的人生"
+        sequence_climax: "格蕾斯和斯通纳深夜对谈（第16章），她坦白一切——这是他们最真实的交流"
+        closed: "斯通纳接受了女儿的命运——他无法拯救她"
+        opened: "战后的教学黄金期能持续多久？"
+
+      - seq_id: ARC5-SEQ3
+        name: "退休与死亡"
+        core_conflict: "斯通纳想继续教书 vs. 劳曼克思逼迫退休 + 身体的衰竭"
+        escalation_direction: "从劳曼克思的退休施压，到斯通纳的抵抗，到确诊癌症后主动退休——不是投降，而是接受"
+        sequence_climax: "斯通纳在初夏午后手握著作离世（第17章）——书从手中滑落，'跌进房间的寂静中'"
+        closed: "一个生命结束"
+        opened: "但戏剧问题已被回答：这一生值得"
+    arc_progression_note: "收束Arc。三个序列从'小胜利'到'大失去'到'终极平静'。退休晚宴上劳曼克思致辞、斯通纳经过时劳曼克思不转身——二十年的宿怨以无言和解，是全书最克制的情感时刻之一。"
+
+causal_chain: "ARC1觉醒→（因为选择了文学/教学人生）→ARC2婚姻围困→（因为被困在无爱的婚姻和失去家庭空间）→ARC3学术之战→（因为坚持学术标准而得罪劳曼克思，同时家庭事业双重被剥夺）→ARC4爱与失去→（因为在虚无中遇到凯瑟琳，又因世界不允许而失去她）→ARC5晚年尊严→（因为失去一切后只剩教学，在死亡面前超越了'失败'的框架）"
+
+arc_progression:
+  impact_escalation: "ARC1高潮（离开家庭的痛苦）< ARC2高潮（被妻子看穿的羞辱）< ARC3高潮（存在性虚无）< ARC4高潮（失去唯一真爱）< ARC5高潮（死亡中的自我确认）——冲击力递增，但方向从外部冲突逐渐转向内心"
+  causal_chain: "ARC1的觉醒 → 使他进入大学世界 → ARC2-3中这个世界的两大力量（婚姻/权力）系统性地剥夺他 → ARC4在废墟中开出一朵花又被摧毁 → ARC5在一无所有中发现一切都在"
+
+narrative_threads:
+  - name: "教学线"
+    description: "斯通纳从笨拙的新教师到发现教学激情到晚年的教学黄金期——这是他人生中唯一持续获得的东西"
+    primary_arcs: [ARC-1, ARC-3, ARC-5]
+  - name: "婚姻线"
+    description: "与伊迪丝从求爱到围困到最终在死亡面前和解"
+    primary_arcs: [ARC-2, ARC-5]
+  - name: "爱情暗线"
+    description: "凯瑟琳虽只出现在ARC-4，但她的影响贯穿后半部——著作献辞、斯通纳临终的呼唤"
+    presence: "ARC-4集中呈现，ARC-5间歇浮现（收到著作时的震撼、临终喊出'凯瑟琳'）"
+  - name: "友谊线"
+    description: "马斯特思（早期精神伙伴，战死）→ 费奇（终身朋友，但从未真正亲密）→ 劳曼克思（曾经的知己，变成宿敌）"
+    primary_arcs: [ARC-1, ARC-3, ARC-5]

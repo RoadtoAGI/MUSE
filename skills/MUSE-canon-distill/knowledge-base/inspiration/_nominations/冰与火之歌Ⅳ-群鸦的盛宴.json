@@ -1,0 +1,146 @@
+{
+  "novel": "冰与火之歌Ⅳ-群鸦的盛宴",
+  "nominations": [
+    {
+      "pattern_name": "胜利即陷阱",
+      "dramatic_function": "让角色每次自认得胜都实际交出更大控制权，持续制造反讽张力。",
+      "applicability": "适合权谋线和不可靠POV；若读者也不知道危险，反讽会失效。",
+      "reuse_candidates": [
+        "七神教会",
+        "君临摄政权",
+        "大麻雀称谓"
+      ],
+      "tags": [
+        "戏剧反讽",
+        "权力反噬",
+        "不可靠视角"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S08",
+          "note": "瑟曦以为免债换祝福，实际重建了会吞噬她的武装。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "瑟曦以为收割玛格丽案，结果证人翻供反咬自己。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "反场景独白",
+      "dramatic_function": "用一段无行动独白重写读者对全书暴力和人物的解释框架。",
+      "applicability": "适合主题重量已累积时使用；若前文没有具体暴力经验会显说教。",
+      "reuse_candidates": [
+        "逃兵身份",
+        "修士职业",
+        "三河流域战争"
+      ],
+      "tags": [
+        "主题独白",
+        "战争反思",
+        "反场景"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "梅里巴德用匿名复数到自白的结构重释战争后果。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "身份伪装成真",
+      "dramatic_function": "让保护性假身份从外部要求变成角色主动使用的生存工具。",
+      "applicability": "适合身份危机弧线；若伪装没有收益和代价，只会像换名。",
+      "reuse_candidates": [
+        "阿莲姓名",
+        "谷地贵族",
+        "月门堡封邑"
+      ],
+      "tags": [
+        "身份弧光",
+        "伪装",
+        "成长"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S04",
+          "note": "珊莎配合谎言后主动以阿莲自称，伪装开始内化。"
+        },
+        {
+          "scene_id": "S07",
+          "note": "艾莉亚在成为无人训练中因保留自我而付出失明代价。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "物证倒置",
+      "dramatic_function": "把曾经象征承诺的物件重新命名为罪证，逼角色面对价值两难。",
+      "applicability": "适合誓言、信物、继承物核心线；若物件前史不足，倒置无力。",
+      "reuse_candidates": [
+        "守誓剑",
+        "兰尼斯特狮子",
+        "石心夫人"
+      ],
+      "tags": [
+        "物件反转",
+        "誓言考验",
+        "两难"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S14",
+          "note": "守誓剑因狮子柄被改读为背叛证据，迫使布蕾妮选择。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "沉默决裂",
+      "dramatic_function": "用极少动作替代解释，让关系断裂在读者等待内心独白时完成。",
+      "applicability": "适合长期关系弧线终点；若前文未累积矛盾，沉默会显空。",
+      "reuse_candidates": [
+        "瑟曦求救信",
+        "奔流城初雪",
+        "詹姆断手"
+      ],
+      "tags": [
+        "省略",
+        "关系断裂",
+        "动作收束"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S02",
+          "note": "詹姆与瑟曦在葬礼夜的裂痕先被正面展示。"
+        },
+        {
+          "scene_id": "S16",
+          "note": "詹姆不解释、不回复，只命人烧掉求救信。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-76f96b62be8995028ffe5d59
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L337
+chapter: 第3章 射手和农场主
+figure_type: analogy
+quote: 用分子探针将材料分子像砌砖那样一个个垒砌起来
+sensory_mapping: 动作；空间；尺度
+context_fact: 叙述说明飞刃可制造但无法量产。
+image_mechanism: 把不可见分子放大成砖，把探针操作放大成手工砌筑；“一个个”保留串行节奏，读者由此直接看见成本为何随数量增长。
+property_alignment: 分子对应砖块；探针定位对应手工放砖；材料结构累积完成对应建筑逐层成形
+context_alignment: “分子建筑术”本含施工概念，宏观手工过程能解释微观定位和低效率。
+narrative_function: 说明工艺机制和量产瓶颈。
+transfer_rule: 解释微观组装时，应为单元、操作者、定位动作和成品结构建立稳定对应，并保留并行或串行的时间特征。
+failure_boundary: 自组装、批量沉积或催化反应同时生成大量结构时，不是逐砖砌筑，类比会误写效率机制。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 分子建筑术逐个定位并组装材料分子
+vehicle: 工人逐块把砖垒成建筑
+ground: 分子对应砖块；探针定位对应手工放砖；材料结构累积完成对应建筑逐层成形

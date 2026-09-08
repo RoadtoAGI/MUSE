@@ -1,0 +1,23 @@
+mode: reference
+display_name: 蔡大妈
+role_slug: cai-dama
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces.interpersonal
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_b + candidate_c 子主题（拙劣善意比恶意更危险）
+  - scenes/scene_YY-S05.md
+  - scenes/scene_YY-S06.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S10.md                    # canon-ending 取证（被林东青灭口）
+built_at: 2026-05-29T18:35:00+08:00
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  信息密度中等，集中在 S05-S07（偷听→自作聪明打探→泄密→迷信归罪）。
+  声音框架跨 2 个场景（S06 居委会式絮叨炫耀 + 赌咒讨好 / S07 迷信话术），核心声音稳定但跨场景略少。
+  边界 4 条各带 locator（守不住机密 S06 / 不认错 S06 / 用善意开脱 S06 / 迷信对未知 S07）。
+  弧光为功能性角色的"善意被反噬"兑现曲线，非性格成长；起点（多嘴热心）+ 转折（打探+泄密）齐全。
+  has_canon_ending: true —— 蔡大妈被林东青（小林）刀杀灭口（灭口本体 S10:L65"顺手干掉了那个老婆子"；S10:L55 为"蔡大妈抱着小林"旁证，均经石浩洋复盘揭示），不可逆物理死亡，不进弧光本体。已补 references/canon-ending.md。
+  蔡大妈为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

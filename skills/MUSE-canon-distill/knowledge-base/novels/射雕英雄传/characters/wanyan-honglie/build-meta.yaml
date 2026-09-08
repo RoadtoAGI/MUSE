@@ -1,0 +1,22 @@
+mode: reference
+display_name: 完颜洪烈
+role_slug: wanyan-honglie
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_01.md
+  - scenes/scene_04.md
+  - scenes/scene_08.md
+built_at: 2026-04-14T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 6
+coverage_note: |
+  完颜洪烈全书共出场 3 个场景（S01 柴房定情、S04 赵王府殉情、S08 临安大闹禁宫）。本次蒸馏三场景全部覆盖：
+  - S01 提供他一切谋划的起点（被包惜弱救+柴房凝望）
+  - S04 提供他对包惜弱真情的唯一显影（"伤痛欲绝，掉头而去"）+核心秘密被段天德当众揭露
+  - S08 提供他作为金国侵宋主谋的"真身"（与欧阳锋密谋）
+
+  coverage_note 要点：完颜洪烈的核心特质——"真情 + 灭门"的不可兼容性——完全由 S04 L33 一句"眼见她虽死，脸上兀自有心满意足、喜不自胜之情……不禁心中伤痛欲绝，掉头而去"承载。这是全书唯一一处他显真情的时刻，信号极关键。
+
+  未破例读 full_text.md。S01 的柴房定情段是整段情节中他几乎不说话的部分——他的声音特征更多由下属转述的他的命令体现，而非他本人对白。这在"声音框架"段落中已标注。

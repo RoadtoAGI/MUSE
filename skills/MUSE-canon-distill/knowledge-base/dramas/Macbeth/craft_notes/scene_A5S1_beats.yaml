@@ -1,0 +1,49 @@
+scene_id: A5S1
+source_notes: scene_A5S1_beats.md
+patterns:
+- pattern_id: A5S1-p1
+  beat: 医证问答开场
+  dimension: exchange
+  original_move: 两名旁观者以病历口吻核对症状，可信度与悬念同建
+  ai_default_failure: 直接展示梦游奇观
+  transfer_rule: 超常景象先让普通人作证，框架先于奇观
+  quote: A great perturbation in nature
+- pattern_id: A5S1-p2
+  beat: 拒说预告不可说
+  dimension: exchange
+  original_move: 侍女拒绝转述梦话，未说出的内容先于人物上场
+  ai_default_failure: 让侍女转述关键词剧透
+  transfer_rule: 让知情者拒绝转述，观众的耳朵先被吊起
+  quote: Neither to you nor anyone
+- pattern_id: A5S1-p3
+  beat: 持烛上场
+  dimension: blocking
+  original_move: 曾召唤浓夜的人如今命烛火常燃，道具完成弧光反写
+  ai_default_failure: 忽略道具直接写梦呓
+  transfer_rule: 心理崩溃配一件可见的强迫行为物，状态即装置
+  quote: light by her continually
+- pattern_id: A5S1-p4
+  beat: 梦呓乱序重播
+  dimension: monologue
+  original_move: 梦呓全是既往场景台词碎片，乱序但可溯源
+  ai_default_failure: 写成有逻辑的忏悔自白
+  transfer_rule: 疯语不发明新内容，旧台词打碎重放即是疯狂
+  quote: Out, damned spot
+- pattern_id: A5S1-p5
+  beat: 嗅觉意象一声叹息
+  dimension: monologue
+  original_move: 从视觉洗不净转嗅觉熏不甜，叹息一声胜过嚎哭
+  ai_default_failure: 堆叠视觉血污描写
+  transfer_rule: 换一个感官通道写罪，错位比直写更深
+  quote: All the perfumes of Arabia
+- pattern_id: A5S1-p6
+  beat: 医学宣布撤退
+  dimension: transition
+  original_move: 医生承认非药石可医，诊断词把罪从病理转向灵魂
+  ai_default_failure: 给出治疗方案或道德训诫
+  transfer_rule: 用专业框架的失效标记事件超出人间秩序
+  quote: More needs she the divine
+overall_traits:
+- 夫人不与任何人对话，她在台上但不在场
+- 散文短句是崩溃的文体标记，与素体诗对照
+- 旁观者的恐惧代替主角的痛苦成为表演主体

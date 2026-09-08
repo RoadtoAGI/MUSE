@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cfec35b85fbde01d6075532f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2156
+chapter: 第30章 地球三体运动
+figure_type: analogy
+quote: 人类文明一直是一个孤独行走于宇宙荒漠中的不谙世事的少年，现在她(他)知道了另一个异性的存在，虽然看不到他(她)的面容和身影，但知道他(她)就在远方
+sensory_mapping: 荒漠空旷；独自行走；远方人影缺席；青春欲望；想象投射
+context_fact: 高级知识阶层得知三体文明后，部分人对其产生宗教化美好想象，形成拯救派。
+image_mechanism: 宇宙被抽空为荒漠，人类文明获得青春期身体和情欲；因看不见对方，认知空白反成投射幕布，文明间信息不对称被体验成少年对陌生异性的迷恋。
+property_alignment: 宇宙寂静对应荒漠无人；人类文明年轻对应少年涉世未深；长期无外星接触对应独行；三体遥远对应异性在远方；缺少真实信息对应看不见面容；高级文明吸引对应青春期异性吸引
+context_alignment: 作者自称比喻不太恰当，恰好暴露拯救派把政治和生存风险浪漫化的心理偏差，幼稚性属于被分析对象。
+narrative_function: 以可理解的人际投射模型解释精英为何把未知外星文明美化并进一步宗教化。
+transfer_rule: 用未谋面的情感关系解释群体崇拜时，应匹配长期孤独、信息缺失、发展阶段不成熟、对象遥远和理想化投射五项心理机制。
+failure_boundary: 双方已有充分往来、权力与风险被准确认识，或吸引源于可验证利益而非想象填空时，少年迷恋模型会遮蔽理性动机。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 长期自认宇宙唯一智慧者的人类文明，在首次确认遥远而更高级的三体文明后产生的陌生吸引与理想化想象
+vehicle: 孤独而涉世未深的少年在荒漠独行，第一次知道远方存在一位尚未谋面的异性
+ground: 文明长期无同类接触对应少年孤独独行；技术和认识幼稚对应少年不谙世事；无法看见外星社会对应未见异性面容；遥知存在激发幻想对应远距离初恋想象

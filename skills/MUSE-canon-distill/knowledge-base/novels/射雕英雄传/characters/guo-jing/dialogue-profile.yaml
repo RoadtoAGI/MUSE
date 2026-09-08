@@ -1,0 +1,33 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:guo-jing
+work_id: novel:射雕英雄传
+display_name: 郭靖
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的语言朴直、少机锋、少反话、少修辞。不使用反讽与双关——听到嘲讽常从字面回应，问他反话他会老实答。称呼系统极少变化："大师父"永远是"大师父"，"蓉儿"永远是"蓉儿"，"大汗"永远是"大汗"——不因情境调整敬称。
+
+
+    日常他话少，"通常总是给别人问到，才不得不答上几句"（朱聪评）。但一旦谈到自己熟悉的事（蒙古大漠、射雕、师父教武），会罕见地滔滔不绝。
+
+
+    情绪表达几乎不靠形容词，靠**身体反应**外化——牙齿咬紧、右手发抖、眼眶泛红、双膝跪倒、额头磕响——叙述者描写他的情绪时镜头总是锁在身体部位上，不锁在心理活动上。
+
+
+    极端场合下语调会不自觉上升一档，切入半文言的宣告式——"岂能听你号令，攻打自己邦国"、"虽受千刀万箭，亦不能奉命"——不是他平常会用的词汇，是被逼到价值观底线时才浮出来的语言层。
+
+
+    佐证：scenes/scene_22.md:L9-L9 （"蓉儿……蓉儿可不是小妖女，她是很好很好的姑娘……很好很好的"——词穷即声音）；scenes/scene_13.md:L5-L5,L7 （"我是大宋臣民"、"虽受千刀万箭，亦不能奉命"——半文言宣告）；scenes/scene_30.md:L8-L8
+    （"郭靖牙齿咬得更紧，持剑的右手微微发抖"——身体替语言）；scenes/scene_03.md:L4-L4 （初见黄蓉时罕见的健谈——"此时和这少年边吃边谈，不知如何，竟是感到了生平未有之喜"）'
+  evidence_locators:
+  - scenes/scene_22.md:L9-L9
+  - scenes/scene_13.md:L5-L5
+  - scenes/scene_30.md:L8-L8
+  - scenes/scene_03.md:L4-L4
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

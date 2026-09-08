@@ -1,0 +1,36 @@
+scene_id: '02'
+source_notes: scene_02_beats.md
+patterns:
+- pattern_id: 02-p1
+  beat: 骷髅物证
+  dimension: omission
+  original_move: 触觉验证物证（手指试插窟窿），知情者精确预言代替解释
+  ai_default_failure: 堆情绪形容词渲染阴森，并让角色直接点破凶手
+  transfer_rule: 恐怖先给可验证物证让读者自行推理，禁用情绪形容词
+  quote: 五只手指刚好插入五个窟窿
+- pattern_id: 02-p2
+  beat: 活靶练功观摩
+  dimension: camera
+  original_move: 旁观者视点写施加于物的效果链与程序性检视，原理一字不提
+  ai_default_failure: 解释邪功原理设定或堆砌狰狞表情
+  transfer_rule: 邪功只写效果链+施术者工匠式冷静，越冷静越胆寒
+  quote: 看一件，掷一件
+- pattern_id: 02-p3
+  beat: 群战伤情记账
+  dimension: info_density
+  original_move: 每次受创具体到部位与组织层级且不可逆，账本递进计量战局
+  ai_default_failure: 回合制轮流出招，受伤模糊无后果，靠叙述者宣布形势
+  transfer_rule: 群战以不可逆的具体伤情递进计量强弱，死亡笔墨按账本分配
+  quote: 连衣带肉，竟被她血淋淋的抓了一块下来
+- pattern_id: 02-p4
+  beat: 黑暗听觉战
+  dimension: camera
+  original_move: 灭月后感官频道整体切换听觉，黑暗重排强弱（盲者占优）
+  ai_default_failure: 黑暗只当氛围词，照样写视觉化招式与身位
+  transfer_rule: 黑暗必须改写战斗规则——视觉文本置换为听觉触觉+强弱重排
+  quote: 白日黑夜，于他全无分别
+overall_traits:
+- 恐怖=物证+程序感：指孔验骨、内脏质检，写效果不写原理
+- 群战伤情记账不可逆递进，账本终点才配完整临终戏
+- 天象与战局同步升级，黑暗是规则改写器而非氛围词
+- 最强者死于最弱者（善泳溺水），每个条件提前埋设

@@ -1,0 +1,23 @@
+card_id: artifact-lineage-relay
+pattern_name: 器物传承
+dramatic_function: 让文化器物的状态变化承担师承、制度落地和精神转折。
+applicability: 适合技艺、家学、行业传承故事；若器物只作装饰则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 乡约碑
+- 学为好人
+- 冰水镇手
+tags:
+- 传承
+- 器物
+- 书写
+- 制度化
+source_scenes:
+- novel: 白鹿原
+  scene_id: S21
+  note: 干涸笔头泡开，建立黑娃与朱先生的师承。
+- novel: 白鹿原
+  scene_id: S22
+  note: 手书乡约经刻碑变成公共制度。
+- novel: 白鹿原
+  scene_id: S23
+  note: 书写仪式与毁弃文房构成同一人物弧光。

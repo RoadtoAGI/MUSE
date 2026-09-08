@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f1be09503acb2cf76783bfc1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2269
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 他们是出邪招的大师
+sensory_mapping: 技艺展示；大师授课；作品完成；学徒观察；反向课堂
+context_fact: 军方常规武器都无法兼顾杀人和保全数据，大史以偷走行驶列车车厢的案件说明邪招价值。
+image_mechanism: 犯罪从违法行为被临时重构成一门技艺，奇案是大师作品，重案刑警则在追捕中被迫当学生；评价体系被反转以挑战军方傲慢。
+property_alignment: 罪犯对应大师；邪招对应专门技艺；列车盗窃对应代表作；基层办案对应观摩课程；大史经验对应受教育成果；提出古筝方案对应学生学成应用
+context_alignment: 大史不是赞美犯罪伦理，而借反向师承说明警察拥有军人缺少的非常规问题框架，符合争论目的。
+narrative_function: 建立大史提出奇招的知识来源，并用幽默颠倒专家等级。
+transfer_rule: 把对手写成大师时，应指出其可验证高难技艺、代表作、观察者实际学到的原则和转用场景。
+failure_boundary: 罪犯手段粗糙偶然成功、警察没有从中形成能力，或语境会美化严重伤害时，大师称呼会失去反讽边界。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 惯于以非常规方法突破防护、完整盗取目标的高水平罪犯
+vehicle: 在某一艺术或技艺领域训练深厚、创造力强并足以教授他人的大师
+ground: 罪犯精通非常规手段对应大师技艺；复杂盗窃方案对应创作杰作；警察从案件学习对应大师教育后辈

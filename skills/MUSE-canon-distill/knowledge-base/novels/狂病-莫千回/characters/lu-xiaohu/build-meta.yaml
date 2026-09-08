@@ -1,0 +1,32 @@
+mode: reference
+display_name: 陆小虎
+role_slug: lu-xiaohu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_DT-S08.md
+  - scenes/scene_DT-S11.md
+  - scenes/scene_YY-S05.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S09.md
+built_at: "2026-05-29T16:40:00+08:00"
+skill_version: 1
+locator_count: 6
+has_canon_ending: true
+coverage_note: |
+  陆小虎是跨《地铁》《医院》两篇的配角，戏份相对少：在《地铁》里几乎不在场（仅 DT-S08
+  被哥哥陆霞克口头惦念一句 + DT-S11 末段 POV 接管），实际在场戏集中在《医院》末段（YY-S05
+  身份介绍、YY-S07 随群指认吴志强、YY-S09 后厨撞见陈雨琪被虐杀并扑上侯楚霖致死）。locator 跨
+  5 个场景文件、覆盖《地铁》+《医院》两篇，非单篇取证。
+  单点支撑维度说明（戏份少所致）：
+  - 核心欲望 / 弧光的"被在乎"主线主要靠 DT-S11:L45-L47 的末段内心独白单点承载（该独白是
+    全篇唯一一处直陈其内在渴望的文本），辅以 YY-S09:L15-L19 的行动印证；
+  - 声音框架以 DT-S11:L45-L47（内心独白困惑直陈）+ YY-S09:L3-L11（干呕/大骂/疯了一般跑动）
+    两场取证，避免单点外推，但其"声音"多为内心独白与动作外化，直接台词极少（仅一声"雨琪"）。
+  has_canon_ending=true：据《医院》原文行 531-537（scenes/scene_YY-S09.md:L21-L27）判定——陆小虎
+  被完全感染的侯楚霖咬伤后中招、被肠子缠颈，刘医生当场判定"已被咬、救不回来"，随后"脸色逐渐变青、
+  倒在地上"身亡。这是不可逆物理死亡终局（"宁可漏不可错"），故拆出 references/canon-ending.md，
+  弧光本体仅描内在转变、不含此物理死亡。
+  角色区分：陆小虎 ≠ 其双胞胎哥哥陆霞克（lu-xiake，单篇人物，本次不蒸馏）。DT-S08:L11-L13 /
+  DT-S11:L45-L47 中陆霞克的言行仅用于定位陆小虎的"被惦念者/POV 承接者"处境，未用于刻画陆小虎人格。

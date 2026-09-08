@@ -1,0 +1,28 @@
+scene_id: DT-S08
+source_notes: scene_DT-S08_beats.md
+patterns:
+  - pattern_id: DT-S08-p1
+    beat: 水瓶先落地
+    dimension: omission
+    original_move: 先给闷响与水瓶失手，追问后再交付电话原因
+    ai_default_failure: 直接说明人物因父亲遇险而情绪崩溃
+    transfer_rule: 先让物件暴露人物裂隙，再延迟交付原因
+    quote: 刚才拿的那瓶水此时掉在地上
+  - pattern_id: DT-S08-p2
+    beat: 通信风险扩散
+    dimension: info_density
+    original_move: 一声挂断经人物推断变成全队通信禁令
+    ai_default_failure: 把电话只写成亲情担忧，不改变后续选择
+    transfer_rule: 新信息应改变资源用途和群体行为
+    quote: 甚至连短信也不敢发
+overall_traits:
+  - 物件失手先于原因揭示人物裂隙
+  - 场外威胁通过通信判断进入安全空间
+  - 个体推断改变全队行为和信息来源
+narrative_organization:
+  presentation: 先并列四人联系亲人的结果，再以水瓶坠地暴露杨和修失态，延迟到追问后交付一声挂断及其推论，最后写全队停止电话和短信
+  transition_anchor: 站台闷响、水瓶落地、“只响了一声”和所有人低头看手机
+  knowledge_change: 无人接听只代表情况未知；主动挂断使人物推断亲人正在躲藏，手机由求援资源变成位置暴露风险
+  cross_thread_effect: 父亲暗线增加杨和修后续试验的动机，陆小虎在亲人失联段首次进入故事，全队转向不可靠的新闻求证
+  effect: 感染者没有进入画面，通信选择仍被压缩；最小异常信号使安全站台产生场外威胁
+  source_anchor: 地铁.md:203-227

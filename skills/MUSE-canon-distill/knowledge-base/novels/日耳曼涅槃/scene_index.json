@@ -1,0 +1,992 @@
+[
+  {
+    "scene_id": "scene_01",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "穿越",
+      "建置",
+      "内心独白",
+      "身份认同",
+      "决断"
+    ],
+    "characters": [
+      "方彦/约纳斯",
+      "鲁道夫"
+    ],
+    "conflict_type": "internal",
+    "pov": "方彦",
+    "word_count": 6399,
+    "source_chapter": "序章+第1章",
+    "file": "scenes/scene_01.md",
+    "description": "穿越与决心：方彦魂穿到1918年德国，融入新身份，拒绝安逸享乐，决心改变历史",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知铺陈，直评主角理想",
+      "diction": "文白混合，军史词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低密自语，叙述主导推进",
+      "pacing": "长段背景后接短句转场"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_02",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "偶遇",
+      "策略",
+      "意大利线",
+      "咖啡馆",
+      "通货膨胀"
+    ],
+    "characters": [
+      "方彦",
+      "老齐亚诺",
+      "西尔维娅"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3136,
+    "source_chapter": "第13章",
+    "file": "scenes/scene_02.md",
+    "description": "初遇齐亚诺：方彦在通胀下的柏林咖啡馆识别意大利海军副部长，开启三条战略线索",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴身，随方彦推断",
+      "diction": "雅化口语夹政治术语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "寒暄转政论，互探身份",
+      "pacing": "闲笔蓄势后进入长对白"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_03",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "政治投资",
+      "监狱会面",
+      "对白交锋",
+      "种族主义",
+      "希特勒"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒",
+      "赫斯"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3101,
+    "source_chapter": "第33章",
+    "file": "scenes/scene_03.md",
+    "description": "监狱初见希特勒：方彦在兰德斯堡监狱用精心准备的种族理论赢得希特勒共鸣，开启政治投资",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知仰视，强烈英雄化",
+      "diction": "演说体，宏大抽象词多",
+      "rhetoric_density": "high",
+      "dialogue_mode": "长篇宣言式对白推进",
+      "pacing": "入场缓慢，演说层层升压"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_04",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "战略对话",
+      "海军",
+      "伯乐",
+      "决战型破交",
+      "军校生"
+    ],
+    "characters": [
+      "方彦",
+      "雷德尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3152,
+    "source_chapter": "第45章",
+    "file": "scenes/scene_04.md",
+    "description": "谒见雷德尔：军校生方彦的论文震动海军中将，提出'决战型破交'战略获认可",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知评议，聚焦专业震撼",
+      "diction": "海军术语与政论并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论证型对白，结论先行",
+      "pacing": "阅读反应铺垫，观点爆发"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_05",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "政治张力",
+      "三方碰撞",
+      "军港检阅",
+      "希特勒",
+      "雷德尔"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒",
+      "雷德尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3096,
+    "source_chapter": "第109章",
+    "file": "scenes/scene_05.md",
+    "description": "三方碰撞：希特勒视察基尔军港，与方彦亲密重逢，雷德尔目睹后眉头紧锁",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知宏观，直写制度转向",
+      "diction": "军政词汇配典礼描写",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "领袖寒暄夹政治承诺",
+      "pacing": "检阅流程串联多次升格"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_06",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "普通人视角",
+      "社会观察",
+      "日常生活",
+      "纳粹治下",
+      "工人"
+    ],
+    "characters": [
+      "沃克",
+      "维拉"
+    ],
+    "conflict_type": "external",
+    "pov": "沃克",
+    "word_count": 6259,
+    "source_chapter": "第140-141章",
+    "file": "scenes/scene_06.md",
+    "description": "普通人的德国：船厂工人沃克一家视角展现希特勒治下的生活改善与民众崇拜",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知民生，带意识形态评注",
+      "diction": "生活细节混经济术语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "家常短句服务制度认同",
+      "pacing": "工资细账后转家庭温情"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_07",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "密谋",
+      "重逢",
+      "情感",
+      "道德转折",
+      "琳娜"
+    ],
+    "characters": [
+      "方彦",
+      "琳娜"
+    ],
+    "conflict_type": "internal",
+    "pov": "方彦",
+    "word_count": 3134,
+    "source_chapter": "第153章",
+    "file": "scenes/scene_07.md",
+    "description": "琳娜重逢：五年后琳娜以密谋组织成员身份重现，揭露纳粹暴行，推动方彦道德觉醒",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴身，放大情欲震荡",
+      "diction": "绮丽艳词与心理词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "亲密对白少，情绪独白多",
+      "pacing": "相见急促，回忆慢幅铺展"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_08",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "海战",
+      "空袭",
+      "斯卡帕湾",
+      "多视角",
+      "舰载机",
+      "高潮"
+    ],
+    "characters": [
+      "方彦",
+      "伯梅",
+      "英国守军"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 3253,
+    "source_chapter": "第169章",
+    "file": "scenes/scene_08.md",
+    "description": "天谴降临：德军舰载机突袭斯卡帕湾，英国毫无防备，反击号被炸沉——全书第一个战役高潮",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "敌方限知，夹战略旁白",
+      "diction": "舰名数据与忧郁口语并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对谈引出舰队盘点",
+      "pacing": "情绪开场，清单式扩容"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "scene_09",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "战略分析",
+      "会议",
+      "卑尔根判断",
+      "统帅才能",
+      "海战前奏"
+    ],
+    "characters": [
+      "方彦",
+      "卡尔斯",
+      "吕特晏斯"
+    ],
+    "conflict_type": "external",
+    "pov": "方彦",
+    "word_count": 4375,
+    "source_chapter": "第322-323章",
+    "file": "scenes/scene_09.md",
+    "description": "方彦的卑尔根判断：从战略高度分析英军必攻卑尔根，说服舰队司令率队南下——展现统帅级眼光",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "会议全知，聚焦战术推演",
+      "diction": "地名航程数据高密排列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "参谋问答式递进分析",
+      "pacing": "地图推理逐项排除"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_10",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "海战",
+      "鱼雷攻击",
+      "战列舰沉没",
+      "罗德尼号",
+      "氧气鱼雷",
+      "高潮"
+    ],
+    "characters": [
+      "福布斯",
+      "奥克斯",
+      "卡尔斯",
+      "林德曼"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 3070,
+    "source_chapter": "第340章",
+    "file": "scenes/scene_10.md",
+    "description": "罗德尼号沉没：氧气鱼雷击沉英国主力舰，勇士号重创——卑尔根海战的关键转折点",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "战场全知，贴近损管恐惧",
+      "diction": "技术词与灾难动词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "命令旗语点缀，叙述主导",
+      "pacing": "爆炸连发，损害报告减速"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_11",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "战斗",
+      "个人危机",
+      "英机撞击",
+      "重伤",
+      "航母"
+    ],
+    "characters": [
+      "方彦",
+      "克拉克"
+    ],
+    "conflict_type": "external",
+    "pov": "方彦",
+    "word_count": 2218,
+    "source_chapter": "第352章",
+    "file": "scenes/scene_11.md",
+    "description": "英机撞击：英军轰炸机撞向希佩尔号舰桥，方彦失去意识——军事胜利的个人代价",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知战场，随方彦失控",
+      "diction": "海空术语夹肉身痛感",
+      "rhetoric_density": "high",
+      "dialogue_mode": "少量惊呼，动作连续推进",
+      "pacing": "空袭波次递进至断片"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_12",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "政治博弈",
+      "道德抉择",
+      "拒绝",
+      "希特勒",
+      "操守"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒"
+    ],
+    "conflict_type": "internal",
+    "pov": "方彦",
+    "word_count": 3114,
+    "source_chapter": "第375章",
+    "file": "scenes/scene_12.md",
+    "description": "信念：方彦深夜面见希特勒，拒绝配合搞掉雷德尔——在权力与操守之间选择操守",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知内省，私密转战略",
+      "diction": "旖旎词转政治军语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "夫妻对白触发局势推演",
+      "pacing": "温存舒缓，思辨段落拉长"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "scene_13",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "历史分歧",
+      "敦刻尔克",
+      "战略说服",
+      "停止令",
+      "数据论证"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒",
+      "龙德施泰特"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 6240,
+    "source_chapter": "第424-425章",
+    "file": "scenes/scene_13.md",
+    "description": "敦刻尔克决策：方彦用航拍数据和'大国和平两种论'说服希特勒取消停止令——全书最关键的历史分歧",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知谋略，穿插历史类比",
+      "diction": "战略术语与嘲讽口语并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "数据论证压服上级",
+      "pacing": "证据铺排后静默定局"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "scene_14",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "历史仪式",
+      "法国投降",
+      "贡比涅",
+      "复仇",
+      "停战"
+    ],
+    "characters": [
+      "希特勒",
+      "亨茨格"
+    ],
+    "conflict_type": "external",
+    "pov": "希特勒",
+    "word_count": 3213,
+    "source_chapter": "第442章",
+    "file": "scenes/scene_14.md",
+    "description": "贡比涅阳光：德法在福煦车厢签署停战协定，希特勒在当年受辱之地完成复仇仪式",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知史诗化，进入幻觉回忆",
+      "diction": "典礼词与战壕血腥词交替",
+      "rhetoric_density": "high",
+      "dialogue_mode": "幻听对白承载加冕感",
+      "pacing": "仪式慢行，回忆蒙太奇加速"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_15",
+    "novel": "日耳曼涅槃",
+    "genre": "架空历史",
+    "tags": [
+      "出征",
+      "联合舰队",
+      "意大利",
+      "权谋",
+      "收束"
+    ],
+    "characters": [
+      "方彦/约纳斯",
+      "亚基诺",
+      "坎皮奥尼"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3120,
+    "source_chapter": "第538章",
+    "file": "scenes/scene_15.md",
+    "description": "出征：方彦操纵意大利海军交出指挥权，德意联合舰队从塔兰托出征——全书最后一个场景",
+    "author": "幽冷秋月",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知政军，带讥讽评述",
+      "diction": "舰队数据夹网络化贬语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "挑衅回击带幕后说明",
+      "pacing": "舰队展示转政治追因"
+    },
+    "style_profile_by": "Codex (executor)",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "scene_16",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "武器登场",
+      "坦克",
+      "军事技术",
+      "建置"
+    ],
+    "characters": [
+      "方彦",
+      "波尔舍",
+      "古德里安"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3057,
+    "source_chapter": "第127章",
+    "file": "scenes/scene_16.md",
+    "description": "山猫坦克初登场：12吨样车测试技惊四座，50毫米L40炮+大倾角装甲+40km/h，古德里安愿以其取代3/4号坦克计划",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知自由出入双方心理，叙述直评人物处境得失",
+      "diction": "文白混合带四字雅词，坦克参数与型号密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "长段敬语演说体对白，技术数据借人物之口报出",
+      "pacing": "长段铺陈少留白，以「几天之后」式时间语硬切转场"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_17",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "武器登场",
+      "航母",
+      "下水典礼",
+      "军事技术"
+    ],
+    "characters": [
+      "方彦"
+    ],
+    "conflict_type": "external",
+    "pov": "方彦",
+    "word_count": 3064,
+    "source_chapter": "第142章",
+    "file": "scenes/scene_17.md",
+    "description": "齐柏林级装甲航母下水：270米飞行甲板、100毫米装甲飞行甲板、载机130余架——方彦航空制胜理念的钢铁兑现",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知说明体贴主角评利弊，频插历史位面对照",
+      "diction": "舰船工程术语与参数连排，书面语近科普文",
+      "rhetoric_density": "low",
+      "dialogue_mode": "全场无对白，论证式叙述独力推进",
+      "pacing": "仪式短起后论证长段连绵，末以待办清单收束"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_18",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "武器登场",
+      "战列舰",
+      "下水典礼",
+      "参数揭晓"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒",
+      "马沙尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3726,
+    "source_chapter": "第145-146章",
+    "file": "scenes/scene_18.md",
+    "description": "俾斯麦级下水与梦幻参数揭晓：45600吨、3座三联装450毫米L45巨炮；方彦对海军挪用其设计精髓造出巨兽又惊又恼",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知纵览评史论政，穿越者口吻褒贬直白",
+      "diction": "军工参数与史论词混排，间杂戏谑俗语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀短仅质询应答，叙述评论主导",
+      "pacing": "参数长段连绵，章末跳出剧情作时局综述缓收"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_19",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "武器登场",
+      "坦克",
+      "阅兵",
+      "政治表演"
+    ],
+    "characters": [
+      "方彦",
+      "希特勒",
+      "古德里安"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3102,
+    "source_chapter": "第160章",
+    "file": "scenes/scene_19.md",
+    "description": "雪狼坦克登场：希特勒50岁生日阅兵，方彦以20吨级75毫米炮雪狼坦克模型为贺礼——武器即政治献礼",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴主角心理，兼入希特勒内心作对照",
+      "diction": "敬语颂词与坦克参数术语同场混用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "汇报式长对白报参数，敬语开场一来一往",
+      "pacing": "先人事盘点铺垫，中段对白密集，尾段心理收束"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_20",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "海战",
+      "防空战",
+      "武器实战",
+      "战列舰"
+    ],
+    "characters": [
+      "方彦",
+      "林德曼"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 9398,
+    "source_chapter": "第175-177章",
+    "file": "scenes/scene_20.md",
+    "description": "俾斯麦号首战：单舰诱敌迎击英岸基机群，450毫米榴霰弹+装甲飞行甲板扛住全部轰炸——'坚盾'成色实战验证",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知在军官与底层炮手间切层，战况叙述总控",
+      "diction": "雷达报数电文格式与四字夸饰对举，参数满密",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白承担战术解说，雷达报数如电文插入",
+      "pacing": "解说长段与拟声爆点交替，「轰隆」开段提速"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_21",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "海战",
+      "潜艇",
+      "狼群战术",
+      "夜战"
+    ],
+    "characters": [
+      "邓尼茨",
+      "克雷齐默尔"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 6123,
+    "source_chapter": "第198-199章",
+    "file": "scenes/scene_21.md",
+    "description": "狼群夜袭：德国潜艇群夜间水面协同攻击英护航船队，鱼雷齐射大开杀戒——狼群战术首次完整展示",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知敌我双线轮切，受害方视角蓄悬念",
+      "diction": "鱼雷科普术语插叙事，爆炸段堆四字夸饰",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白短促功能性，报告与决断，叙述主导",
+      "pacing": "双线交替蓄势，科普插段缓冲，拟声起段引爆"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_22",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "海战",
+      "破交",
+      "雷达夜战",
+      "袖珍战巡"
+    ],
+    "characters": [
+      "奥托",
+      "克兰克",
+      "杰克"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 9476,
+    "source_chapter": "第201-203章",
+    "file": "scenes/scene_22.md",
+    "description": "舍尔号夜猎：袖珍战巡20分钟击沉霍金斯号，雷达+探照灯黑夜逐杀商船，英水手杰克幸存获救——猎杀与人性并置",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知随炮位与敌舰轮转，胜负由叙述判定",
+      "diction": "炮术流程术语连排，双四字对句开段成定式",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白极稀多为命令与戏谑自语，叙述推进",
+      "pacing": "四字对句起段，流程细写拖长，战果数字速收"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_23",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "陆战",
+      "空降",
+      "要塞奇袭"
+    ],
+    "characters": [
+      "科赫",
+      "齐德兰特"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 6220,
+    "source_chapter": "第403-404章",
+    "file": "scenes/scene_23.md",
+    "description": "埃本-埃迈尔奇袭：90名滑翔机突击队员10分钟瘫痪要塞火力，1100守军投降德军仅亡6人——西线战役的手术刀开局",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "战史全知复盘无固定主角，守方军官短暂聚焦",
+      "diction": "战史术语混网络戏谑俗喻，时刻数字精确",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，绝望独白一两句点睛",
+      "pacing": "按时刻表推进多线战场，事件密集少停顿"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_24",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "陆战",
+      "坦克战",
+      "武器实战"
+    ],
+    "characters": [
+      "鲍尔特"
+    ],
+    "conflict_type": "external",
+    "pov": "鲍尔特",
+    "word_count": 9906,
+    "source_chapter": "第408-410章",
+    "file": "scenes/scene_24.md",
+    "description": "装甲碰撞：山猫坦克实战首秀伏击法军H-35，钨芯穿甲弹对决单人炮塔——基层坦克手视角的德法装甲代差解剖",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴基层车长视角开战，叙述随时跳出科普评史",
+      "diction": "装备弹药术语满密，测距算式直接入文",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "车内短令喊话为主，术语入令无闲谈",
+      "pacing": "瞄准开火短句提速，科普插段整章放缓"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_25",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "陆战",
+      "空袭",
+      "要塞攻坚"
+    ],
+    "characters": [
+      "赛普",
+      "詹姆斯"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 3241,
+    "source_chapter": "第533章",
+    "file": "scenes/scene_25.md",
+    "description": "直布罗陀天火：1300架次超密集轰炸开路，斯图卡精确点名英军炮台——全书第三高潮战役的爆发时刻",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知逐层下沉，攻防双方与后方反应链轮写",
+      "diction": "轰炸四字夸饰与弹药参数并置，战报数字感",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白为指令电文与咒骂，短促带情绪",
+      "pacing": "空袭按波次分段推进，反方视角段作缓冲"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_26",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "tags": [
+      "陆战",
+      "要塞攻坚",
+      "士气崩溃",
+      "宣传"
+    ],
+    "characters": [
+      "屈布勒",
+      "迪特尔",
+      "詹姆斯",
+      "希特勒",
+      "戈培尔"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 3063,
+    "source_chapter": "第537章",
+    "file": "scenes/scene_26.md",
+    "description": "直布罗陀陷落：孤山缺陷+士兵哗变，两百年殖民要塞易手；戈培尔广播与鹰巢对谈收束——军事胜利接入宣传机器",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知战况速写后让位广播稿，宣传文体代叙事",
+      "diction": "战报数字与政宣套语并置，士兵粗口破正体",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "广播独白整段嵌入，末以高层对谈定调",
+      "pacing": "战斗两日速进，广播长引缓收，对谈收尾"
+    },
+    "style_profile_by": "Claude Fable 5"
+  },
+  {
+    "scene_id": "scene_27",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "has_craft_notes": false,
+    "tags": [
+      "情感",
+      "暗线",
+      "倾诉",
+      "关系转折"
+    ],
+    "characters": [
+      "方彦",
+      "琳娜"
+    ],
+    "conflict_type": "personal",
+    "pov": "方彦",
+    "word_count": 3032,
+    "source_chapter": "第92章",
+    "file": "scenes/scene_27.md",
+    "description": "倾诉：琳娜自白从亡夫替身到真爱的转向，方彦的理性首次败给感性——暗线情感的奠基场",
+    "style_profile": {
+      "narration_voice": "全知贴方彦内心，心理直陈兼评人物身世",
+      "diction": "四字格连缀，玉靥星眸类藻饰写女子容态",
+      "rhetoric_density": "high",
+      "dialogue_mode": "大段自陈式对白推进，归属缀神态如「冷声开口道」",
+      "pacing": "长段少留白，对白前后必附心理注解，尾抛新钩"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "scene_28",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "has_craft_notes": false,
+    "tags": [
+      "暗线",
+      "密谋",
+      "政治分析",
+      "双线"
+    ],
+    "characters": [
+      "方彦",
+      "西尔维娅",
+      "琳娜",
+      "沙赫特"
+    ],
+    "conflict_type": "internal",
+    "pov": "多视角",
+    "word_count": 6218,
+    "source_chapter": "第301-302章",
+    "file": "scenes/scene_28.md",
+    "description": "平安夜双线：西尔维娅的成全告白与琳娜-沙赫特密谈——密谋组织实力清点+军队利益绑定希特勒的犀利剖析",
+    "style_profile": {
+      "narration_voice": "全知双线切换，政局借对谈铺陈，夹叙述者谑评",
+      "diction": "军政术语密布，网络谑语与言情藻饰并存",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "演说式长对白轮流析局势，问答接力推进",
+      "pacing": "温情段短收，密谋段大块对白连排，信息饱和少留白"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "scene_29",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "has_craft_notes": false,
+    "tags": [
+      "权力博弈",
+      "明升暗降",
+      "授衔",
+      "夫妻"
+    ],
+    "characters": [
+      "方彦",
+      "雷德尔",
+      "西尔维娅"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角",
+    "word_count": 6313,
+    "source_chapter": "第368-369章",
+    "file": "scenes/scene_29.md",
+    "description": "明升暗降：雷德尔以少将军衔与授勋仪式把方彦合规锁进造修局；西尔维娅深夜拆解权力困局——ARC5 序列高潮",
+    "style_profile": {
+      "narration_voice": "全知双向透视，对话表层与两心盘算逐段对照",
+      "diction": "官场权谋语汇加军衔职名，情事用巫山类婉语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "说服式长对白，每段话后缀心理揭底翻转",
+      "pacing": "对白与心理注解交替，授衔场面浓写，跨日快切"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "scene_30",
+    "novel": "日耳曼涅槃",
+    "author": "幽冷秋月",
+    "genre": "架空历史",
+    "lang": "zh",
+    "has_craft_notes": false,
+    "tags": [
+      "情感",
+      "诀别",
+      "战争前夜"
+    ],
+    "characters": [
+      "方彦",
+      "西尔维娅"
+    ],
+    "conflict_type": "internal",
+    "pov": "方彦",
+    "word_count": 3091,
+    "source_chapter": "第162章",
+    "file": "scenes/scene_30.md",
+    "description": "临战别离：西尔维娅识破善意谎言索要真话，方彦顿悟战争之恶却开弓无回——二十年布局者的唯一反战瞬间",
+    "style_profile": {
+      "narration_voice": "全知贴穿越者，先知视角直评各方成败",
+      "diction": "前半军史数据术语连排，后半转言情藻饰",
+      "rhetoric_density": "low",
+      "dialogue_mode": "前半纯叙述无对白，后半夫妻直抒胸臆承情感",
+      "pacing": "军力数字成排铺陈，骤转柔情，内心悔悟长段收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  }
+]

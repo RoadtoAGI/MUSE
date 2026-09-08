@@ -1,0 +1,32 @@
+mode: reference
+display_name: 石浩洋
+role_slug: shi-haoyang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces
+  - pipeline/phase0_conception.yaml          # human_antagonist_typology.wu_xiansheng_type + controlling_idea candidate_a
+  - scenes/scene_YY-S02.md
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S05.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T18:30:00+08:00
+skill_version: 1
+locator_count: 16
+has_canon_ending: false
+identity_link: wu-xiansheng        # 同一虚构人物：石浩洋＝吴先生＝伪装"罗允"者（跨篇 reconciliation）。
+reconciliation_note: |
+  跨篇 reconciliation 判定 石浩洋＝吴先生 为同一反社会连环猎手（录音机诱杀型），根级
+  characters/character_map.json 已登记 石浩洋→wu-xiansheng。本包（医院/shi-haoyang）按用户决定
+  作为【医院篇特化原型】保留，供二创单独取用医院"诈死导演"facet，与跨篇主包 wu-xiansheng 构成
+  two-package + identity_link 关系（同 李鸾/陶亦仁 模式）。下游取跨篇全人格用 wu-xiansheng；
+  只要医院篇"游戏导演型·诈死布局"切面原型用本包。两包描述的是同一人，不得在同一作品里当两个角色并存。
+coverage_note: |
+  反派真身在 Arc 6（S10）集中揭示，前期（S02/S03/S07）以配角面具铺伏笔，信息密度中-高。
+  声音框架跨 3 个场景翻面（S03 愣头青粗口 / S10 游戏导演元叙事腔 / S10 下流羞辱威胁），稳定且有揭晓后的明显切换。
+  边界 5 条各带 locator（诈死代理 S10 / 拒绝被感染 S05 / 剧本被破即掀桌 S10 / 拒绝愧疚 S10 / 揭晓必炫耀 S10）。
+  弧光段按反社会人格静止型处理：记录"面具→真身"的外部认知翻转曲线，非内在成长。
+  S05:L7 为罗允对录音机杀手的转述（尚未点名石浩洋），用作"拒绝被感染/保留人类神志"特征源，与 S10 真身揭晓闭合。
+  has_canon_ending: false —— 石浩洋本篇未死，结局放弃医院、转去追杀知道他一切的罗允（S10:L59），活到篇末且人格完整，跨篇可能性高（《恶》/《狂人日志》反派对位待交叉仲裁）。
+  石浩洋为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml + phase0 反派谱系推导，所有断言均有篇内 scene locator 佐证。

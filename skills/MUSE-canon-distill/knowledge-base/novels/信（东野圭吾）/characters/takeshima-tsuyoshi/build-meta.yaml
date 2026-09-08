@@ -1,0 +1,35 @@
+mode: reference
+display_name: 武岛刚志
+role_slug: takeshima-tsuyoshi
+source_novel: 信（东野圭吾）
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S01.md
+  - scenes/scene_S04.md
+  - scenes/scene_S06.md
+  - scenes/scene_S21.md
+  - scenes/scene_S22.md
+built_at: 2026-05-24T04:50:00Z
+skill_version: 1
+locator_count: 20
+has_canon_ending: false
+coverage_note: |
+  武岛刚志是全书 deuteragonist，几乎全程不在场——仅 5 个场景实体出现，但通过狱中信件持续在场。本次蒸馏覆盖所有 5 个实体场景：
+  - S01（序：行窃 + 杀人 POV）—— 全书唯一以刚志为 POV 的场景，覆盖身份起点 / 核心欲望 / 道德底线被突破 / 边界破溃的全过程
+  - S04（首次拘留所面会）—— 兄弟首次以新身份相对，刚志少有的爆发式口头对白"我干了什么！"
+  - S06（拘留所探视 / 栗子对话）—— 核心缺陷的范例：错位记忆的揭示
+  - S21（绪方家：隐藏第三线揭示）—— 由绪方先生展示刚志多年赔罪信束 + 第一封赔罪信全文
+  - S22（尾声：最后一封信 + 合掌颤抖）—— 弧光关键转折"被这么多年来，因为我的存在让他们一直在受苦受难的事实所震撼" + 声音的终极归零（合掌）
+
+  未直接纳入 SKILL.md 佐证但与角色画像高度相关的"狱中信件"：
+  本作刚志的最重要 voice 载体是每章插入的狱中信件（共 ~10 封，第一章至第五章每月一封），但这些信件不在切出的 22 个关键场景文件内。它们的内容已被吸纳进"声音框架"段的散文描述，但**未提供 scene-level locator**。如下游续写需要刚志信件 voice 的逐封定位，建议补充读取 full_text.md 中以下章节：
+  - 第一章 §1 (full_text.md ~L284-L307)：第一封信"我是个傻瓜，活着还不如死了的傻瓜"
+  - 第二章 §1 (full_text.md ~L1155-L1173)：金属雕刻 + 第一次提及女性话题
+  - 第三章 §1 (full_text.md ~L2593-L2613)：监狱内时间感
+  - 第三章 §6 (full_text.md ~L3219-L3241)：赏花 + 炸藕片 + 小猫的错位记忆
+  - 第四章 §1 (full_text.md ~L4595-L4611)：通过梅村老师追到弟弟新住址
+  - 第五章 §1 (full_text.md ~L5693-L5707)：以"伯父"身份关心实纪
+  - 第五章 §3 (full_text.md ~L6113-L6127)：花粉症 + 由实子代笔身份未识破
+
+  本次未生成 canon-ending.md：刚志在故事结束时仍活态服刑（约 7-8 年仍未刑满），未进入物理死亡 / 不可逆疯癫 / 退出江湖等终局状态。其内在弧光在"最后一封信 + 监狱合掌"已完成，但角色本身保持活态——符合 "活到故事末且人格完整" 的不生成判定。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-530269d3cc75368aae8a2cb2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1757
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 一个字一个字地说，像怕她教育的孩子听不懂似的
+sensory_mapping: 听觉节拍；逐字停顿；教学场景；耐心压力
+context_fact: 潘寒不接受处分并反过来要求统帅选择派系，叶文洁重申该要求无权由他提出。
+image_mechanism: 完整判决被拆成一颗颗落下的字，每个停顿都像教师确认学生跟上；慢速表面耐心，实际封死装糊涂和讨价还价的缝隙。
+property_alignment: 纪律条款对应教学内容；潘寒拒绝服从对应孩子未理解；逐字慢说对应教师分解难点；明确申诉与责任对应检查理解边界
+context_alignment: 它延展前面的犯错孩子框架，却新增逐字教学动作，把温柔权威推进为最终程序告知而非单纯复称。
+narrative_function: 延缓处决前节奏，让处分程序显得清楚、从容且不可逆。
+transfer_rule: 以教孩子听懂写慢语时，应让信息可拆分、对方确有拒绝或误解表现，并让停顿承担确认而非迟疑。
+failure_boundary: 说话慢源自恐惧、语言障碍或现场噪声，或对方其实理解充分并善意协商时，儿童教育框架会误判原因。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 叶文洁把潘寒的违规性质、申诉机会和承担责任逐字缓慢讲清
+vehicle: 教育者担心理解力不足的孩子漏掉意思，放慢速度把话逐字拆开
+ground: 叶文洁刻意减慢语速对应教师拆分信息；不给潘寒误解余地对应反复确保孩子听懂规则

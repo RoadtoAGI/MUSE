@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c47b8255394ab835cf30122b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2689
+chapter: 第35章 虫子
+figure_type: metaphor
+quote: 三个人沐浴在生命的暴雨之中
+sensory_mapping: 黑云遮日；虫点倾落；密集雨幕；全身包围；大地湿润般的生命覆盖
+context_fact: 大史用蝗虫未被人类战胜的事实启发两位科学家，随后新到虫群遮住太阳并降落田野。
+image_mechanism: 远处蝗群先聚成遮日黑云，靠近后拆成无数带翅‘雨滴’泻向麦田；三人站在虫幕中，先前抽象的生命韧性以触身暴雨把他们浇醒。
+property_alignment: 蝗群对应乌云；飞行个体对应雨滴；降落对应降雨；数量和速度对应暴雨强度；三人被虫包围对应沐浴；生命韧性对应持续水循环；恢复尊严对应洗涤
+context_alignment: 前句刚以漫长灭虫史论证韧性，现场新虫群恰从天而降，天气链条让论证获得即时感官证据。
+narrative_function: 把思想反转升为视觉高潮，让‘虫子’意象以生命尊严而非卑微收束。
+transfer_rule: 用暴雨写群体生命降临时，应具备云状聚集、粒子般个体、向下运动、密度包围和人物被冲洗式改变。
+failure_boundary: 群体稀疏静止、只在地面爬行，或人物与之隔绝未受感官冲击时，暴雨和沐浴会夸大运动与覆盖。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 密集蝗群从空中降落并包围三人，使他们切身感受数量庞大、反复涌现的地球生命力
+vehicle: 黑云压来后暴雨倾泻，密集水滴从四面落下，人在雨幕中被完全浸没和洗涤
+ground: 空中蝗群对应黑云；下落个体对应雨滴；数量密集对应暴雨；三人被包围对应沐浴；信心恢复对应雨水洗去醉意绝望

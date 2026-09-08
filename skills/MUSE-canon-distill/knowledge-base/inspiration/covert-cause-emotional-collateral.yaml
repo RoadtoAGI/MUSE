@@ -1,0 +1,26 @@
+card_id: covert-cause-emotional-collateral
+pattern_name: 暗线情感抵押
+dramatic_function: 给秘密事业装人格担保——不可公开的立场存进不可公开的关系，情感与阴谋互为人质
+applicability: 适用双面人生型主角；关系可公开化或无把柄互握则抵押感与宿命感俱失（单书孤证，验证面窄）
+reuse_candidates:
+- 寡妇替身恋前史
+- 反纳粹密谋组织背景
+- 私生子设定
+tags:
+- 暗线
+- 情感抵押
+- 双面人生
+- 秘密同盟
+source_scenes:
+- novel: 日耳曼涅槃
+  scene_id: scene_27
+  note: 真相换驻留承诺，理性首败埋下定时炸弹
+- novel: 日耳曼涅槃
+  scene_id: scene_07
+  note: 旧情升维为政治暗线枢纽，逼主角良知选边
+- novel: 日耳曼涅槃
+  scene_id: scene_28
+  note: 明妻成全与暗线密谈同夜并置，双线互为镜像
+phase_affinity:
+- 2
+- 3

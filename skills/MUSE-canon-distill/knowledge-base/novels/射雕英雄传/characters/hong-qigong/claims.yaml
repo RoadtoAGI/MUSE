@@ -1,0 +1,76 @@
+role_slug: hong-qigong
+claims:
+  - id: C001
+    text: "洪七公是丐帮帮主"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/洪七公
+        quote: "亦是天下第一大幫—丐幫幫主"
+      - url: https://baike.baidu.com/item/洪七公
+        quote: "江湖第一大帮会丐帮的第十八代帮主"
+    resolution_note: null
+
+  - id: C002
+    text: "洪七公为天下五绝之一'北丐'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/洪七公
+        quote: "乃「天下五絕」之一的「北丐」"
+      - url: https://baike.baidu.com/item/洪七公
+        quote: "绰号'北丐'…乃'天下五绝'之一"
+    resolution_note: null
+
+  - id: C003
+    text: "洪七公传授郭靖降龙十八掌"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/洪七公
+        quote: "分別傳了郭靖「降龍十八掌」"
+      - url: https://baike.baidu.com/item/洪七公
+        quote: "在陆家庄见郭靖被欧阳克用灵蛇拳打败…将郭靖的降龙十八掌补齐"
+    resolution_note: null
+
+  - id: C004
+    text: "洪七公传授黄蓉打狗棒法"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/洪七公
+        quote: "在危急之下，洪七公因而把幫主之位連同「打狗棒法」傳給黃蓉"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "黄蓉学会打狗棒法（明霞岛期间，由洪七公传授）"
+    resolution_note: null
+
+  - id: C005
+    text: "洪七公将丐帮帮主之位传予黄蓉"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/洪七公
+        quote: "把幫主之位連同「打狗棒法」傳給黃蓉"
+      - url: https://baike.baidu.com/item/洪七公
+        quote: "因而把帮主之位传给了黄蓉"
+    resolution_note: null

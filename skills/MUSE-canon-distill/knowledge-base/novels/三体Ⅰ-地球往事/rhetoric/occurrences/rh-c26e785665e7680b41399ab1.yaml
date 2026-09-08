@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c26e785665e7680b41399ab1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2373
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 他们的生命也就在这小小的空间中流逝
+sensory_mapping: 缓慢流水；狭小通道；水量减少；单向远去；寂静
+context_fact: 技术进步后每站只留一人值守，监听员虽免于乱纪元脱水，却失去大多数恒纪元快乐。
+image_mechanism: 生命被装成有限水量，监听室像细管持续把它放走；安全供给没有阻止流失，只让全部水在同一狭窄截面中经过。
+property_alignment: 寿命对应水量；日复一日值守对应持续流动；监听室对应狭窄河槽；时间不可逆对应水不回头；快乐稀少对应河岸单调；老去对应水量将尽
+context_alignment: 下文波形线也是无限时间通道，个人有限生命在小室流逝与宇宙无限线形成尺度反差。
+narrative_function: 用流体时间概括职业代价，建立监听员为何渴望让生命燃烧一次。
+transfer_rule: 用流逝写人生时，应具体化有限存量、单向过程、承载空间和不可回收的损失。
+failure_boundary: 叙事强调循环复返、岁月充满多样主动选择，或空间不断改变时，小通道流水会抹平经验。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 监听员一生的大部分时间在狭窄监听室中单调度过，岁月不可返回地减少
+vehicle: 水流穿过小容器后持续远去，无法停住或逆流取回
+ground: 时间持续过去对应水流；生命有限对应容器水量；岁月不返对应水流离开；小室限制对应狭窄河道

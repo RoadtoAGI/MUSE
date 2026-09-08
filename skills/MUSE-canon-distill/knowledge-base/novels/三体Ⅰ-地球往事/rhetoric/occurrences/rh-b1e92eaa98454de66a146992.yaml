@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b1e92eaa98454de66a146992
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L58
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 把过往的汽车像切奶酪那样切成两半
+sensory_mapping: 动作；触觉；视觉
+context_fact: 汪淼向史强解释飞刃材料远超普通刀具的切割力。
+image_mechanism: 把纳米丝无法凭肉眼理解的强度换成手持刀具切软食的阻力经验；汽车从重硬物瞬间降格为奶酪，切面和动作同时出现。
+property_alignment: 细线与车体接触形成整齐切面对应刀锋切奶酪；汽车材料在纳米丝前阻力极小对应奶酪几乎不抵抗刀刃
+context_alignment: 日常食物的软弱触感把难想象的材料强度转换为手部经验。
+narrative_function: 校准纳米材料力量等级并预埋后文切船方案。
+transfer_rule: 解释力量悬殊时，选一个能复现同一接触动作和破坏结果、又能让受力对象显得极软的日常操作。
+failure_boundary: 若作用方式是撞碎、烧蚀或撕裂，或切口并不平整，“切奶酪”会把破坏机制和材料阻力写错。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 极细纳米丝割开高速驶过的汽车
+vehicle: 利刃平滑切开柔软奶酪
+ground: 细线与车体接触形成整齐切面对应刀锋切奶酪；汽车材料在纳米丝前阻力极小对应奶酪几乎不抵抗刀刃

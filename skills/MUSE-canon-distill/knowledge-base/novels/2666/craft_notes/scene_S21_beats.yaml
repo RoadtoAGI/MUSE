@@ -1,0 +1,28 @@
+scene_id: S21
+source_notes: scene_S21_beats.md
+patterns:
+- pattern_id: S21-p1
+  beat: 递减的数字
+  dimension: info_density
+  original_move: 用销量下降曲线写文学失败
+  ai_default_failure: 用形容词概括惨淡
+  transfer_rule: 写失败时先给精确数字序列
+  quote: 三百五十册
+- pattern_id: S21-p2
+  beat: 读书会的惨淡
+  dimension: info_density
+  original_move: 人数递减映射空间收缩
+  ai_default_failure: 展开朗读内容和听众反应
+  transfer_rule: 写活动失败时用人数和离场计数
+  quote: 只剩下了三人
+- pattern_id: S21-p3
+  beat: Olivetti打字机
+  dimension: camera
+  original_move: 用具体礼物逆转失败曲线
+  ai_default_failure: 让出版商用对话表达支持
+  transfer_rule: 写信任时给物件、品牌和签收流程
+  quote: 崭新的打字机
+overall_traits:
+- 精确数字胜过形容词
+- 物质礼物作为情感转折
+- 括号旁白揭穿面子工程

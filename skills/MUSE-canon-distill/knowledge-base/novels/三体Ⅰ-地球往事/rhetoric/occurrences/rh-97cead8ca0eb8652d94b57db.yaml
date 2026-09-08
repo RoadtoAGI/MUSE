@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-97cead8ca0eb8652d94b57db
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1431
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 早上起来从这里看到日出时，总觉得是日落
+sensory_mapping: 视觉；光线方向；时间反转；情绪
+context_fact: 他整夜失眠，相信世界将突变且任何救援无效，窗外晨光又让汪淼想起《三体》的诡异黎明。
+image_mechanism: 相同低角度光线被悲观意识反转时间箭头：本应增加的亮度被读成正在消逝，城市早晨像一天和文明的末端。
+property_alignment: 日出低角度红光对应日落相似色形；新日无希望对应旧日结束；世界危机逼近对应日落后黑暗来临
+context_alignment: 《三体》每次黎明都可能通向严寒或烈焰，现实晨光被游戏经验污染，日出不再自动等于新生。
+narrative_function: 以时间方向倒置收束章节，把个人失眠、游戏灾变和现实末日感叠合。
+transfer_rule: 反转日出/日落象征时，应利用两者共享的低角度光景，并由人物对未来的具体判断决定时间箭头。
+failure_boundary: 人物情绪乐观、环境明确复苏或光线正快速增强且无危机联想时，把日出写成日落会显得强作悲凉。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 魏成面对现实清晨时感到世界正在衰败结束而非开始
+vehicle: 一天光明退去、即将进入黑夜的日落
+ground: 客观新一天开始却被感为终结对应日出被认成日落；晨光未带来希望对应夕光预示黑夜逼近

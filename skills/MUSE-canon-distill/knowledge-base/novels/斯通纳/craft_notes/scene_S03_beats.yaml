@@ -1,0 +1,21 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 沉默的等待
+  dimension: camera
+  original_move: 用暗影和不对视写家庭疏离
+  ai_default_failure: 铺设酸楚内心独白
+  transfer_rule: 写亲人疏离时先摆空间关系
+  quote: 不时向旁边瞥一眼儿子
+- pattern_id: S03-p2
+  beat: 告白
+  dimension: omission
+  original_move: 省去解释内容，只写话落在脸上
+  ai_default_failure: 写出继续读文学的完整申辩
+  transfer_rule: 写无法沟通时删掉说明性台词
+  quote: 语词落下来
+overall_traits:
+- 亲情断裂靠沉默承载
+- 父母被写成客人
+- 解释内容被整体省略

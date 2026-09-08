@@ -1,0 +1,25 @@
+card_id: trauma-chain-betrayer
+pattern_name: 受害者转背叛者
+dramatic_function: 为「不可饶恕的巨恶」提供完整因果：制度性伤害逐层累积，让背叛文明的选择获得悲剧重量而非脸谱化恶意
+applicability: 适用于需要可信反派动机的史诗/悲剧；伤害链需多层递进且每层坐实，若只有单次轻伤则沦为借口（单书孤证，验证面窄）
+reuse_candidates:
+- 文革批斗的具体史实场景
+- 红岸基地与外星回信机制
+- 天体物理学家职业设定
+tags:
+- 反派动机
+- 创伤因果
+- 悲剧弧光
+source_scenes:
+- novel: 三体Ⅰ-地球往事
+  scene_id: S03
+  note: 父亲被批斗打死，信任基座崩塌为链条第一环
+- novel: 三体Ⅰ-地球往事
+  scene_id: S18
+  note: 白沐霖出卖将残存信任二次摧毁
+- novel: 三体Ⅰ-地球往事
+  scene_id: S10
+  note: 「毫不犹豫」按键证明伤害链已完成闭合
+phase_affinity:
+- 2
+- 3

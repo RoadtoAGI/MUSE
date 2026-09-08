@@ -1,0 +1,42 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 翘曲点的断面
+  dimension: camera
+  original_move: 四维第一镜只给三维侧可见的断面，进入体感四字打发
+  ai_default_failure: AI 爱写眩晕拉伸光隧道的过渡和仪式感传送门
+  transfer_rule: 异维入口用日常身体动词试探，几何规则先于奇观交付
+  quote: 看到了手臂光洁的断面
+- pattern_id: S20-p2
+  beat: 不可描述宣言
+  dimension: info_density
+  original_move: 先声明语言绝对不够用，再给二维画类比作读者推理工具
+  ai_default_failure: AI 直接堆砌璀璨难以置信等形容词，假装语言够用
+  transfer_rule: 主动声明不可描述可换取信任授权，读者自动脑补更甚
+  quote: 绝对不可能用语言描述的事物
+- pattern_id: S20-p3
+  beat: 无限细节
+  dimension: info_density
+  original_move: 概念一段一个逐级推论，奇观附带信息超载的认知代价
+  ai_default_failure: AI 必写天哪这不可能的惊叹对白和情绪类比堆叠
+  transfer_rule: 反常识奇观按几何推论分段交付，段落边界即认知台阶
+  quote: 方寸之间，深不见底啊
+- pattern_id: S20-p4
+  beat: 与魔戒的对话
+  dimension: omission
+  original_move: 不拟人不答关键问题，「（没有回答。）」排进对话节奏
+  ai_default_failure: AI 必加古老而疲惫的语调等拟人修饰并翻译隐喻
+  transfer_rule: 句长差呈现文明位差，沉默与版式都是信息的一部分
+  quote: 是水洼，海干了
+- pattern_id: S20-p5
+  beat: 魔戒之死
+  dimension: omission
+  original_move: 省略挽歌议论，悼念全部落在送出的生态球一个物件上
+  ai_default_failure: AI 写文明遗迹毁灭必给一段挽歌式议论
+  transfer_rule: 巨大哀悼收束到一个具体小物，色彩序列承担情绪过渡
+  quote: 拍下的照片在太空中渐渐显影
+overall_traits:
+- 维度跃迁是读者工程，发放工具链让读者亲手推导
+- 两段式披露后半段：同一设定卖两次
+- 语言贫乏处即信息峰值，翻译损耗做成风格

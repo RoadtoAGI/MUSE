@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--wang-xingzi
+work_id: novel:狂病-莫千回
+display_name: 王幸子
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '王幸子的声音是医生式的直率与克制——传话报情况干脆利落（"没吓到吧""那个青年带来一个不太好的消息"），替人出头时一句话顶到位（信息早知道一天都是珍贵的）。谈到生死她不煽情、不安慰，用诊断的口吻把残酷的真相平静说出（"精神状态非常糟糕""生命可能快要走到尽头了""也许盲女想要的就是死亡"）。涉及自己时则更轻、更淡，用"无所谓了""累了"这种放下式的短语收住，是一个把专业的清醒和个人的疲惫都压得很低的声音。
+
+
+    佐证：scenes/scene_YY-S04.md:L7-L7 / scenes/scene_YY-S08.md:L23-L23 / scenes/scene_YY-S08.md:L53-L53'
+  evidence_locators:
+  - scenes/scene_YY-S04.md:L7-L7
+  - scenes/scene_YY-S08.md:L23-L23
+  - scenes/scene_YY-S08.md:L53-L53
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

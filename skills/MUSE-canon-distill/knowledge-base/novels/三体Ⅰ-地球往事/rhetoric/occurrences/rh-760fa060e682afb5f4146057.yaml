@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-760fa060e682afb5f4146057
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2626
+chapter: 第34章 智子
+figure_type: simile
+quote: 它们来回穿过，就可以将这些点连成一排字母或数字，甚至图形，像绣花一样
+sensory_mapping: 针尖穿刺；点状针脚；平面花纹；往复运动；图案渐成
+context_fact: 科学执政官说明智子可直接在人类胶片和视网膜上显示倒计时等神迹。
+image_mechanism: 近光速粒子缩成一根不可见绣针，把胶片或视网膜当布；每次穿越烫下一个发光针脚，密集往返后，信息像花纹从感光面浮现。
+property_alignment: 智子微小对应绣针尖；穿过载体对应针穿布；感光点对应针脚；按序连接对应沿图样行针；字母图形对应绣成花纹；高速重复对应快速密绣
+context_alignment: 汪淼看到的倒计时此前像超自然幻觉，绣花类比将其还原为微观逐点写入的可理解机制。
+narrative_function: 解释智子视觉神迹的成像过程，并把粒子运动与图形输出连接起来。
+transfer_rule: 用绣花解释点阵成像时，应对应穿透工具、承载平面、离散点迹、受控路径和点累积成图。
+failure_boundary: 图像通过整面投影、化学扩散或无线神经刺激产生，没有逐点穿透轨迹时，绣针机制会误导。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 高能智子反复穿透胶片或视网膜，以连续感光点逐笔形成文字和图形
+vehicle: 绣针在布面反复穿入穿出，用密集针脚沿轮廓连成花纹
+ground: 智子往返穿透对应针反复穿布；单个感光点对应针脚；点列成图对应针迹组成绣样；载体平面对应布面

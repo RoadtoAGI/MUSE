@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7448d4bff14e1c34bb5d31fd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1429
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 现在全人类已经到了‘叫天天不答，叫地地不应’的地步了
+sensory_mapping: 听觉呼喊；上下空间；回声缺失；孤立
+context_fact: 魏成贬低警方作用，随后称上帝或申玉菲的主也自身难保，认为全人类即将遭遇巨变。
+image_mechanism: 所有救援层级被压成头顶的天与脚下的地，人类站在中间把声音分别投向两端；没有回声的空场把无援状态包围起来。
+property_alignment: 求助最高神力对应向天喊；求助现实基础力量对应向地喊；两者无能对应天地沉默；全人类孤立对应喊声没有任何接收者
+context_alignment: 刚发生枪杀而警方赶到太迟，宗教中的主又需被拯救，传统呼天抢地熟语在双重失效中获得具体依据。
+narrative_function: 用宇宙性沉默表达末日无援感，并引出诡异黎明。
+transfer_rule: 用天地不应写绝境时，应分别对应最高救援与现实支撑，并展示两条求助路径都已失效。
+failure_boundary: 仍有明确制度、盟友或技术能够响应时，天地皆默会把局部无助夸成绝对无援。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 魏成认为人类面临的危机已没有任何更高或更基础力量能够回应援救
+vehicle: 受困者同时向天空和大地呼救，两方都沉默无答
+ground: 人类向所有可能权威求助对应对天地两端呼喊；没有力量能解决对应上下两方都不回应

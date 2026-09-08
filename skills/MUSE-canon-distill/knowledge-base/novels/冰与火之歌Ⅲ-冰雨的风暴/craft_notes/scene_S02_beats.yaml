@@ -1,0 +1,28 @@
+scene_id: S02
+source_notes: scene_S02_beats.md
+patterns:
+- pattern_id: S02-p1
+  beat: 功劳试探
+  dimension: info_density
+  original_move: 提利昂用功绩清单争取继承权。
+  ai_default_failure: 会先写胆怯和铺垫。
+  transfer_rule: 诉求可先包装成事实结算。
+  quote: 我要凯岩城
+- pattern_id: S02-p2
+  beat: 决不
+  dimension: verb
+  original_move: 泰温用一个判词终结谈判。
+  ai_default_failure: 会让权力者长篇解释。
+  transfer_rule: 绝对权力用极少词压场。
+  quote: 决不
+- pattern_id: S02-p3
+  beat: 事实包残忍
+  dimension: overall
+  original_move: 冷静判定提利昂的存在为污点。
+  ai_default_failure: 会用咆哮制造伤害。
+  transfer_rule: 羞辱越平板越有压迫感。
+  quote: 我无法证明
+overall_traits:
+- 极简语言最大杀伤
+- 声音质地即权力关系
+- 闲话中暗埋弑父导火索

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b2045457554779b317c0fe8d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2622
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 永远无法窥见物质深处的秘密
+sensory_mapping: 幽深内层；狭窄窥孔；遮蔽视线；隐秘物件；看不清的黑处
+context_fact: 少量近光速智子即可覆盖地球全部高能加速器，让正确撞击结果淹没在错误结果中。
+image_mechanism: 看不见的微观尺度被凿成层层向内的密室，实验本应是一道窥孔；智子不断往孔前塞入假影，使研究者虽俯身凝视也只能看到伪装。
+property_alignment: 宏观可知层对应外表面；微观结构对应深处房间；物理规律对应秘密；加速器对应窥孔；实验数据对应入眼景象；智子假结果对应遮眼假影
+context_alignment: 同句随后用锁写研究通道被封，本短语先从研究者感知端呈现‘为什么门后永远不可见’，两图互补。
+narrative_function: 把抽象认识极限转成视线受阻，强化人类面对物质内部却无权观看的挫败。
+transfer_rule: 用窥见深处写知识探索时，应匹配对象的层级嵌套、观察入口、被隐藏内容和阻断视线的具体机制。
+failure_boundary: 研究对象并无内外层级、结论来自纯演绎而非观测，或数据虽复杂却完全公开可辨时，深处秘密会虚构遮藏关系。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 物理学家因智子污染实验而无法认识物质更低尺度的结构和规律
+vehicle: 观察者站在表层之外，试图向幽深隐蔽处偷看被遮藏的秘密，却始终看不清内部
+ground: 微观层级对应空间深处；实验观测对应窥视；未知规律对应被藏秘密；智子干扰对应遮挡视线

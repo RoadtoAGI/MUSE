@@ -1,0 +1,32 @@
+card_id: trusted-symbol-hijack
+pattern_name: 可信符号·恶意冒名
+dramatic_function: 让反派穿戴已建立的信任符号，将既有善意转化为诱捕资产。
+applicability: 适合声誉能跨群体传播的共享世界；角色与读者均不认识该符号时反讽不成立。（单书孤证，验证面窄）
+reuse_candidates:
+- 被盗用的救人者姓名
+- 带孩子的可靠成年人外观
+- 避难所引路人身份
+- 被害者二手转述
+- 重复返场的冒名组合
+tags:
+- 信任盗用
+- 冒名诱捕
+- 符号反转
+- 跨篇反讽
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: KR-S11
+  note: 吴先生以「我可以是任何人」的录音宣告确立伪装机制，并将恐惧传给罗允。
+- novel: 狂病-莫千回
+  scene_id: EE-S05
+  note: 自称罗允的带子男人以警告前路与指向避难所获得临时队伍的信任。
+- novel: 狂病-莫千回
+  scene_id: EE-S10
+  note: 假罗允持丢失的摄影机现身，揭明引路、附和与庆祝均属系统性诱杀的组成部分。
+- novel: 狂病-莫千回
+  scene_id: BX-S08
+  note: 王晨轩从受害端转述「罗允与小林」借仗义和家庭投射建立信任后发动虐杀。
+phase_affinity:
+- 2
+- 3
+- 4

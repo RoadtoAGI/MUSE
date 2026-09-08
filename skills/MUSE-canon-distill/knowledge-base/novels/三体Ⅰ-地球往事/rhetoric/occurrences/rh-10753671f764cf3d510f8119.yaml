@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-10753671f764cf3d510f8119
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1240
+chapter: 第15章 红岸之四
+figure_type: simile
+quote: 那声音像大兴安岭的冬天里没完没了的寒风，让我感到很冷啊
+sensory_mapping: 听觉；触觉温度；持续时间；地域记忆
+context_fact: 叶文洁曾在大兴安岭和红岸基地生活，多年深夜监听只收到宇宙噪声。
+image_mechanism: 耳机里的沙沙声沿听觉形态变成窗外风声，再越过感官边界把皮肤和内心一同降温；宇宙空寂由她亲历的地方冬季落地。
+property_alignment: 噪声连续沙响对应寒风长鸣；长期没有智慧信号对应冬季景观缺少生命回应；心理孤独对应寒风造成身体冷感；大兴安岭记忆对应红岸所在地
+context_alignment: 喻体来自人物数十年生活现场，声音、寒冷和孤独三层相连，比泛称宇宙冰冷更具个人历史。
+narrative_function: 把SETI的抽象沉默转成带地域温度的身体记忆，显出事业对一生的侵蚀。
+transfer_rule: 做听觉通感时，先匹配声音纹理和持续节奏，再让场景温度承担情绪，并优先取自人物真实经历。
+failure_boundary: 噪声短促清脆、人物没有寒地经验或情绪是兴奋温暖时，冬日长风会错配声纹和心理温度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 耳机中持续、无生命内容的宇宙噪声及其带给叶文洁的孤独
+vehicle: 大兴安岭冬季长久刮过、没有尽头的寒风
+ground: 噪声持续不止对应冬风没完没了；无生命声音造成心理寒冷对应寒风直接夺走体温

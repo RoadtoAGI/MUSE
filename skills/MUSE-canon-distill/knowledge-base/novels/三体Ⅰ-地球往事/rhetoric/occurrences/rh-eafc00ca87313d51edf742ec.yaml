@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eafc00ca87313d51edf742ec
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1779
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 那少女闪电般冲过来
+sensory_mapping: 视觉闪现；高速位移；瞬时亮度；突然性
+context_fact: 潘寒脸色骤变并把手伸进怀里，少女必须在他拔枪前跨过距离制服他。
+image_mechanism: 她从静止人群中骤然变成一道短促轨迹，起点与终点几乎同时出现；旁观者丢失中间动作，如同只看见电光亮起和击中。
+property_alignment: 突然启动对应闪电骤生；冲刺速度对应电光疾行；旁人来不及理解对应视觉只留闪迹；瞬间到达潘寒身边对应闪电击中目标
+context_alignment: 掏枪动作制造严格时间窗口，闪电速度不是泛赞身手，而是解释她为何能先于枪械完成控制。
+narrative_function: 加速处决节拍，突出少女训练有素和现场力量的压倒性。
+transfer_rule: 以闪电写冲刺时，应同时具备突然启动、极短完成时间、可辨方向和目标命中。
+failure_boundary: 动作有长距离助跑、过程被逐步看清或速度普通时，闪电会成为无依据的动作套语。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 少女在潘寒伸手掏枪的瞬间以极高速度冲到他身边
+vehicle: 闪电突然出现、以肉眼难追的速度划过空间并命中目标
+ground: 少女动作几乎无预兆对应闪电骤发；旁人尚未反应她已到位对应电光传播快到难以追视

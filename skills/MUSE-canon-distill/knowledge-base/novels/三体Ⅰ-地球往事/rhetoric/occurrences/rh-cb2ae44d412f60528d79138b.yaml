@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cb2ae44d412f60528d79138b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L389
+chapter: 第4章 三体、周文王、长夜
+figure_type: metaphor
+quote: “C:>”提示符后面其实是一个无底深渊
+sensory_mapping: 视觉；深度；危险
+context_fact: 她掌握倒计时和宇宙闪烁信息却几乎不解释。
+image_mechanism: 上一句的平面提示符突然获得纵深，光标后不是程序列表而是向下坠落的空洞；简洁界面由可控工具翻成危险入口。
+property_alignment: 可见信息少而未知巨大对应小口下深不可测；继续追问会陷入危险对应靠近深渊会坠落
+context_alignment: 提示符本是进入系统的门槛，纵深反转自然。
+narrative_function: 把冷简从风格转成威胁结构。
+transfer_rule: 延展界面意象时，可改变空间维度来揭示表象后的信息量和风险，但要保留同一个入口。
+failure_boundary: 秘密有限、可安全查询或提示符只是装饰时，无底深渊会虚构无限性和吞噬风险。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 申玉菲极简表面后隐藏的组织秘密和危险
+vehicle: 小入口下方无限深、会吞没探索者的深渊
+ground: 可见信息少而未知巨大对应小口下深不可测；继续追问会陷入危险对应靠近深渊会坠落

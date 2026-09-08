@@ -1,0 +1,14 @@
+scene_id: S02
+source_notes: scene_S02_beats.md
+patterns:
+- pattern_id: S02-p1
+  beat: 机锋对答
+  dimension: omission
+  original_move: 长段诘问后只用两字翻转认知
+  ai_default_failure: 让少年解释大段人生宣言
+  transfer_rule: 强信念人物可用短答压过长辩
+  quote: 忽然答道：亦佳
+overall_traits:
+- 以听觉建场
+- 外在动作替代心理描写
+- 两字回答制造最大翻转

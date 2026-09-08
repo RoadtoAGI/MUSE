@@ -1,0 +1,28 @@
+scene_id: '30'
+source_notes: scene_30_beats.md
+patterns:
+- pattern_id: 30-p1
+  beat: 不动即态度
+  dimension: verb
+  original_move: 以铁钉钉住的不动同时完成武术与道德选择
+  ai_default_failure: 安排独白解释我必须守住这个位置
+  transfer_rule: 情感冲突嵌进攻守选择本身，不另开心理戏
+  quote: 双足犹似用铁钉在地下牢牢钉住
+- pattern_id: 30-p2
+  beat: 收掌即柔情
+  dimension: omission
+  original_move: 收掌的物理过程不写，只写收回的情感原因
+  ai_default_failure: 强调运功收力的武术技巧细节
+  transfer_rule: 高手手下留情时写为何收，不写怎么收
+  quote: 蓉儿这一生可永远不会快活的了
+- pattern_id: 30-p3
+  beat: 颤抖出卖内心
+  dimension: info_density
+  original_move: 同组身体信号被双方相反解读，误读升级冲突
+  ai_default_failure: 让角色喊出「你杀了我师父」点明仇恨
+  transfer_rule: 对峙双方各持错误前提互读身体语言
+  quote: 你的手干么发抖？
+overall_traits:
+- 武术动作即情感表达，攻守停皆是心曲
+- 误读驱动冲突升级，比仇人眼红深刻
+- 沉默的不确定性比确定杀意更可怖

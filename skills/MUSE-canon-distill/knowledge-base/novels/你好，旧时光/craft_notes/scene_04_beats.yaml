@@ -1,0 +1,14 @@
+scene_id: '04'
+source_notes: scene_04_beats.md
+patterns:
+- pattern_id: 04-p1
+  beat: 小老鼠奔奔
+  dimension: info_density
+  original_move: 用故事套故事映射真实离别
+  ai_default_failure: 会明说她想起真实奔奔
+  transfer_rule: 写儿童创作时让内层故事泄露真相
+  quote: 从前有一只叫作……奔奔的
+overall_traits:
+- 无关铺垫制造情感落差
+- 故事套故事形成双层信息
+- 儿童语言承载复杂情感

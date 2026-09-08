@@ -1,0 +1,42 @@
+scene_id: S37
+source_notes: scene_S37_beats.md
+patterns:
+- pattern_id: S37-p1
+  beat: 悲痛写成音色改变
+  dimension: omission
+  original_move: 不闪回兄妹情，冲击只给一个明喻与全军不再歌唱
+  ai_default_failure: 插入兄妹回忆闪回与悲痛独白
+  transfer_rule: 至亲之丧砍掉回忆，篇幅给后果与群体音色
+  quote: 但洛希尔人不再歌唱
+- pattern_id: S37-p2
+  beat: 中盘滑坡走航拍
+  dimension: camera
+  original_move: 恶化整段保持参谋部海拔，数量感靠比率与流体比喻
+  ai_default_failure: 挑一个士兵给生死特写，潮水停下来数浪花
+  transfer_rule: 写战局崩坏用态势动词与名词密度，不下贴地厮杀
+  quote: 如流水般从欧斯吉利亚斯源源不断地涌入
+- pattern_id: S37-p3
+  beat: 误读不设保险丝
+  dimension: omission
+  original_move: 绝望完整落地，叙述者不提示看错，反转力量存进误读深度
+  ai_default_failure: 向读者眨眼，用他们尚不知道式旁白提前递安慰
+  transfer_rule: 大反转前押上叙述者的沉默，允许绝望彻底见底
+  quote: 这是厄运的最后一击！
+- pattern_id: S37-p4
+  beat: 反转留在岸上视点
+  dimension: camera
+  original_move: 不切船上视角，船帆风皆未变，变的只是一面旗的新信息
+  ai_default_failure: 切到来援者视角，写他望见战场的心潮
+  transfer_rule: 反转的爽感属于视点人物，让看错的人亲眼看见看错
+  quote: 赫然亮出一面大旗
+- pattern_id: S37-p5
+  beat: 收束靠文体换挡
+  dimension: overall
+  original_move: 不写庆功，散文名录排比「没回到」，挽歌诗接管收尾
+  ai_default_failure: 写欢呼重逢的泪与胜利演说，用总结段收尾
+  transfer_rule: 史诗战役收束让散文让位给诗，事件当场封存成传说
+  quote: 没有一则故事说尽它的全貌
+overall_traits:
+- 潮汐由信息驱动，三次翻面都是认出而非兵力变化
+- 全景与贴地交替供血，海拔切换是战役的呼吸
+- 收束是文体事件，散文让位给诗把战斗推远成历史

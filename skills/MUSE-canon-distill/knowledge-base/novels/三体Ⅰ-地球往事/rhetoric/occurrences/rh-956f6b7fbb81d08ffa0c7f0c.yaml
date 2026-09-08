@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-956f6b7fbb81d08ffa0c7f0c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L739
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 外行人看去像一本平淡的流水账，但其中暗藏的杀机
+sensory_mapping: 视觉；文本布局；时间序列；表层与隐藏空间
+context_fact: 材料内容精确到谁在何时何地见谁说什么，并会牵连两弹工程相关人员。
+image_mechanism: 政治材料先换上账本的整齐表格和无色语调，杀伤意图则被压到纸页之下；读者必须穿过平淡外层才能看见刀口。
+property_alignment: 按年月人物逐条记录对应账目依时间列项；语气冷静精确对应会计文本去情绪；外表日常对应账本看似无害；信息组合致命对应平静表层下另有用途
+context_alignment: 它与文雪鞭炮式文风形成同段对照，真正危险来自材料的专业、平静和可核查外观。
+narrative_function: 表现成熟政治迫害比公开叫嚣更隐蔽致命。
+transfer_rule: 写冷静文本的危险时，可让其表面格式对应一种日常记录体，再用具体后果揭示平静与杀伤的错位。
+failure_boundary: 材料本身情绪激烈、条目无时间秩序或后果并不隐藏时，流水账外壳和暗杀机的反差不成立。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 以日期、人物和谈话细节冷静罗列，却会置多人于死地的检举材料
+vehicle: 只按时间登记收支事项、表面平淡无情绪的流水账
+ground: 按年月人物逐条记录对应账目依时间列项；语气冷静精确对应会计文本去情绪；外表日常对应账本看似无害；信息组合致命对应平静表层下另有用途

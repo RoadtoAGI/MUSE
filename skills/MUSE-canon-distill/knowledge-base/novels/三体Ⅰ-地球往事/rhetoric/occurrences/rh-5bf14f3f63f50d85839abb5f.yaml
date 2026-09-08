@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5bf14f3f63f50d85839abb5f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L125
+chapter: 第1章 科学边界
+figure_type: analogy
+quote: 已经有这么多书呆子寻了短见，让他去不是‘肉包子打狗’吗？
+sensory_mapping: 动作；味觉；结果
+context_fact: 史强反对让汪淼加入科学边界调查。
+image_mechanism: 任务被改写成把可被目标吞掉的食物投向狗：派出、接触、被吸收和有去无回形成完整动作链，人的风险被粗暴地物化。
+property_alignment: 派出的人有被目标吸收或毁掉风险对应肉包子被狗吞食；行动可能有去无回对应包子打狗无法取回
+context_alignment: 粗俗俗语符合史强口吻并准确传达不可逆人员损失。
+narrative_function: 以冒犯性类比激怒汪淼并推动他改变主意。
+transfer_rule: 用俗语做风险类比时，应核对行动方向、接触后的不可逆结果和说话者的身份语气，并保留其中的价值冒犯。
+failure_boundary: 人可自主退出而目标没有吸收/伤害能力时，有去无回机制不成立；也不能由此把学者真的视作无判断力的食物。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 让汪淼加入与多名学者自杀相关的科学边界
+vehicle: 拿肉包子去打狗，包子被吃掉且无法收回
+ground: 派出的人有被目标吸收或毁掉风险对应肉包子被狗吞食；行动可能有去无回对应包子打狗无法取回

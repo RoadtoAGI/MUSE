@@ -1,0 +1,35 @@
+card_id: ritual-sanctity-weaponized
+pattern_name: 礼仪先立后破
+dramatic_function: 先足额建立公共礼仪的保护性与秩序基线，再当众反用或践踏；崩坏可被精确度量，背叛感与秩序塌陷同拍完成
+applicability: 适用于有宴席、婚礼、迎驾等强礼俗的世界；礼俗须先被充分建立；无公共仪式的私密剧失效
+reuse_candidates:
+- 宴会鬼魂占座的具体设计
+- 苏格兰宫廷礼节细节
+- 佛雷家族
+- 卡斯特梅的雨季
+- 维斯特洛宾客权
+tags:
+- 仪式
+- 对称结构
+- 秩序崩塌
+- 群戏
+- 仪式反转
+- 背叛
+- 礼俗破坏
+source_scenes:
+- novel: Macbeth
+  scene_id: A3S4
+  note: 按位入座开席对乱序速退散席，一场内正反两用
+- novel: Macbeth
+  scene_id: A1S6
+  note: 迎驾客套与观众已知杀机同台对冲
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S13
+  note: 婚宴乐声和宾客权被转成屠杀机制。
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S16
+  note: 王室婚宴在公开羞辱后变成毒杀现场。
+phase_affinity:
+- 1
+- 4
+- 5

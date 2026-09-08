@@ -1,0 +1,46 @@
+scene_id: A3S1
+source_notes: scene_A3S1_beats.md
+patterns:
+- pattern_id: A3S1-p1
+  beat: 布饵与藏匿
+  dimension: blocking
+  original_move: 藏匿靠在场宣告完成，不演物理躲藏
+  ai_default_failure: 细写蹑足藏到帷幕后的动作与心理
+  transfer_rule: 监视场可靠「约定」完成藏匿，省舞台动作
+  quote: 我们可藏於此处
+- pattern_id: A3S1-p2
+  beat: 国王旁白漏罪
+  dimension: monologue
+  original_move: 罪行以旁白首供给观众，先于一切剧情证实
+  ai_default_failure: 反派内心一直藏到被揭发才露
+  transfer_rule: 旁白可用作只对观众的供词，改写信息差
+  quote: 此话真狠狠的鞭鞑了我的良心
+- pattern_id: A3S1-p3
+  beat: 独白窗口
+  dimension: monologue
+  original_move: 独白与前场情绪反向，全程不提私仇与复仇
+  ai_default_failure: 独白紧扣复仇计划，变成剧情复述
+  transfer_rule: 独白可作独立思考层切入，不必情绪连续
+  quote: 生存或毁灭, 这是个必答之问题
+- pattern_id: A3S1-p4
+  beat: 还礼与冷暴力
+  dimension: exchange
+  original_move: 决裂保持意图模糊，知否被监视全剧不答
+  ai_default_failure: 写明主角察觉监视并标注表演动机
+  transfer_rule: 文本留意图模糊度给上演者
+  quote: 你父亲呢?
+- pattern_id: A3S1-p5
+  beat: 欧菲利亚哀歌
+  dimension: monologue
+  original_move: 被伤害者获一段小独白，以她的视角清点损失
+  ai_default_failure: 受害者沉默退场，内心全靠他人转述
+  transfer_rule: 冲突后给受害方一段独白结算
+  quote: 这位高贵的灵魂已全失去理智!
+- pattern_id: A3S1-p6
+  beat: 监视复盘
+  dimension: exchange
+  original_move: 两监视者得出相反结论，侦查产出分歧而非真相
+  ai_default_failure: 监听后双方迅速达成一致推进剧情
+  transfer_rule: 侦查戏可用结论分裂制造下一步动作
+  quote: 也不见得表示他是个疯子
+overall_traits: []

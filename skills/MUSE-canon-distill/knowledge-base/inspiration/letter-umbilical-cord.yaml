@@ -1,0 +1,27 @@
+card_id: letter-umbilical-cord
+pattern_name: 通信脐带
+dramatic_function: 把一段关系压缩到单一通信物中，让维系、误解和断绝都可视化。
+applicability: 适合分离亲情或长期负债关系；若双方可随时见面则张力下降（单书孤证，验证面窄）
+reuse_candidates:
+- 监狱来信
+- 樱花印章
+- 约翰列侬歌曲
+tags:
+- 书信结构
+- 关系载体
+- 断绝仪式
+- 隐藏线索
+source_scenes:
+- novel: 信（东野圭吾）
+  scene_id: S06
+  note: 探视中糖炒栗子的误记暴露兄弟认知裂缝。
+- novel: 信（东野圭吾）
+  scene_id: S17
+  note: 由实子代笔揭示通信维系早已变形。
+- novel: 信（东野圭吾）
+  scene_id: S21
+  note: 多年赔罪信束翻开隐藏的第三条关系线。
+phase_affinity:
+- 2
+- 3
+- 5

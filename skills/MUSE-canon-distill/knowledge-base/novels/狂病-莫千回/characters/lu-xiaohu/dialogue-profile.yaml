@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:lu-xiaohu
+work_id: novel:狂病-莫千回
+display_name: 陆小虎
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的声音多半不是台词，而是处境本身——在《地铁》里以一段困惑的内心独白收束全篇：他反复"不明白"陈雨琪为何相遇时落泪、为何对自己格外关心、为何回避表白，一连串不解里只攥住一个朴素的判断——这世上这么关心过他的，除了长得和他一模一样的双胞胎哥哥，就只剩陈雨琪了。情绪上来时他不绕弯子：发现饭菜里掺着手指眼球会当场干呕、骂出声、像疯了一样冲出去；撞见惨状时一声带哭腔的"雨琪"就是全部。倾向直给而非铺陈，话短、急、糙，情绪几乎都外化进动作与脏话里。
+
+
+    来源：phase2_character.yaml → supporting_cast（陆小虎）.characterization
+
+    佐证：scenes/scene_DT-S11.md:L45-L47 / scenes/scene_YY-S09.md:L3-L11'
+  evidence_locators:
+  - scenes/scene_DT-S11.md:L45-L47
+  - scenes/scene_YY-S09.md:L3-L11
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

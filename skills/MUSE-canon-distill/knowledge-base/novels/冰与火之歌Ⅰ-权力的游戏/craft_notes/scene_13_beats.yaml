@@ -1,0 +1,28 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 垂死的语流
+  dimension: verb
+  original_move: 垂死者动词逐级衰减，语句被省略号切碎，句长即生命体征
+  ai_default_failure: 让垂死者发表一段语法完整的告别演说
+  transfer_rule: 临终戏让生理切碎语法，信息以碎片浮出靠读者拼合
+  quote: 「错了，我做错了，我……她只是个女孩……」
+- pattern_id: 13-p2
+  beat: 一笔之改
+  dimension: omission
+  original_move: 改五个字的动作用最低调句式带过，省略全部权衡过程
+  ai_default_failure: 写一整段天人交战的挣扎独白
+  transfer_rule: 正直者的欺瞒要快得近乎本能，动作越小道德重量越大
+  quote: 「只将『吾儿乔佛里』改为『吾之合法继承人』」
+- pattern_id: 13-p3
+  beat: 葬礼的主菜
+  dimension: info_density
+  original_move: 厨房硬动词的黑色玩笑闯入临终嘱托，悲喜同一口气说出
+  ai_default_failure: 补一句解释玩笑悲在哪里，把潜文本拉到台面
+  transfer_rule: 死亡场景用人物声纹里的玩笑对冲悲情，注释只给三个字
+  quote: 「奈德没笑」
+overall_traits:
+- 微动作承载宏观转折：战争引信藏在笔尖而非战场
+- 临终反煽情配方：破碎语法＋粗口玩笑＋生理细节
+- 「答应我」三度回环，私人誓言焊上政治灾难

@@ -1,0 +1,28 @@
+scene_id: '15'
+source_notes: scene_15_beats.md
+patterns:
+- pattern_id: 15-p1
+  beat: 口令节奏
+  dimension: camera
+  original_move: 镜头只录方位口令与「咔」声，文字排列密度即出招速度
+  ai_default_failure: 写「剑光如匹练」式招式渲染与剑术术语
+  transfer_rule: 外行POV的打斗只给其能理解的信号，听觉先于视觉
+  quote: 「左，左，上，左，右，左，下，左！」
+- pattern_id: 15-p2
+  beat: 木剑对钢甲五连战
+  dimension: verb
+  original_move: 先交代甲胄缺口，每击一个硬动词一个不可逆部位伤害
+  ai_default_failure: 泼洒刀光剑影式氛围词写群战
+  transfer_rule: 动作戏写成部位与结果的清单，伤害清单即战斗过程
+  quote: 「本来是左眼的地方，只剩血淋淋的窟窿」
+- pattern_id: 15-p3
+  beat: 不写的死亡
+  dimension: omission
+  original_move: 木棍断裂即随逃亡者离场，导师生死永久留在画框外
+  ai_default_failure: 给导师完整殉道镜头，含遗言与慢镜
+  transfer_rule: 实力充分证明后让导师消失于画框外，留白胜过殉道特写
+  quote: 「布拉佛斯的首席剑士从不临阵脱逃」
+overall_traits:
+- 导师退场不给尸体，生死留白持久折磨读者
+- 口诀复沓作恐惧的节拍器，重复即成长曲线
+- 危急时技能坍缩到最早的肌肉记忆，标定角色刻度

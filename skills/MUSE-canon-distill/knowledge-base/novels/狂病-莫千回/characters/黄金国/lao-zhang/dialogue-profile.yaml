@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:黄金国--lao-zhang
+work_id: novel:狂病-莫千回
+display_name: 老张
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '老张的话分两副腔调。对罗凯伯，他压低声音、谄媚周到，专挑主人爱听的说——"碎嘴的丫头已经被安排去搜索物资了""一切尽在掌握中，罗先生放心吧"，报告永远是报喜、揽功、表忠心。对底层和外人，他端着二把手的架子，话里带着居高临下的无奈和敷衍——"哪能呀""你们可否……"，遇到棘手事爱用"有些人就是懒，不听""这玩意儿管不过来的"这类把责任甩给别人的说辞。一旦惹了主人发怒，那点从容立刻碎掉，变成结结巴巴、带颤音的解释和推诿。他几乎从不正面承担，话术的核心永远是"不怪我"。
+
+
+    佐证：scenes/scene_HJ-S07.md:L37-L43 / scenes/scene_HJ-S10.md:L95-L95 / scenes/scene_HJ-S13.md:L75-L75'
+  evidence_locators:
+  - scenes/scene_HJ-S07.md:L37-L43
+  - scenes/scene_HJ-S10.md:L95-L95
+  - scenes/scene_HJ-S13.md:L75-L75
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

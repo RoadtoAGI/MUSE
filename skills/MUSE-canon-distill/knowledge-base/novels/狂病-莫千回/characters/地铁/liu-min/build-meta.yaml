@@ -1,0 +1,21 @@
+mode: reference
+display_name: 刘敏
+role_slug: liu-min
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/地铁/phase3_spine.yaml  # 单篇人物未登记 phase2_character.yaml；结构化依据取 antagonistic_forces.interpersonal + arc_framework.arc_5 关键死亡设计（"省略 + 完成态"承担）
+  - scenes/scene_DT-S01.md
+  - scenes/scene_DT-S03.md
+  - scenes/scene_DT-S08.md
+  - scenes/scene_DT-S10.md
+built_at: 2026-05-29T17:21:48+08:00
+skill_version: 1
+locator_count: 8
+has_canon_ending: true
+coverage_note: |
+  刘敏为纯功能性角色（候选清单建议"可做但非必需"），信息密度低-中；本包按"普通受害者 + 关键死亡用省略承担"原型蒸馏，深度有限但每段均有 locator。
+  声音框架跨 3 个场景（S01 抱怨/好奇 / S03 恐惧哭问 / S10 沉默后主动开口），稳定性可接受。
+  边界 3 条，跨 S03/S10 两场景，每条带 locator；其中"绝不眼睁睁看同伴送死""绝不放弃好好道别"皆有 S10 极端场景直接佐证。
+  弧光起点（S01）+ 转折（S03/S08/S10）+ 终点（S10）三段齐全，但终点偏行为侧写而非深层内在转变（受角色功能性限制）。
+  刘敏为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/地铁/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

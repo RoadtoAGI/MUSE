@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2ea43a842e6ad99d4c59569e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L589
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 新生的造反派们像火炭上的狼群，除了疯狂还是疯狂
+sensory_mapping: 温度；痛觉；运动；群体声音
+context_fact: 指挥官判断这些年轻守军可能真会引爆炸药同归于尽。
+image_mechanism: 造反派先兽化为有群体攻击性的狼，脚下再铺上火炭；攻击冲动与受灼后的乱窜叠加，把“疯狂”拆成凶性和失控两股动力。
+property_alignment: 群体攻击性对应狼群凶猛；处境灼痛对应脚下火炭；无法停驻对应受烫乱窜；集体亢奋对应群狼相互激发
+context_alignment: 年轻守军既凶狠又不计后果，复合喻体同时解释攻击性和难以预测。
+narrative_function: 刻画武斗双方对失控升级的共同恐惧。
+transfer_rule: 写群体失控时，可把群体固有倾向与外部刺激拆成两层喻体：一种动物给出行动本能，一种地面条件迫使其加速。
+failure_boundary: 有纪律的协同行动、单纯恐慌逃散或冷静策划都缺少狼性与灼迫的双重机制。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 缺乏经验、处于高度亢奋的新生造反派群体
+vehicle: 脚踩灼热火炭、成群躁动失控的狼
+ground: 群体攻击性对应狼群凶猛；处境灼痛对应脚下火炭；无法停驻对应受烫乱窜；集体亢奋对应群狼相互激发

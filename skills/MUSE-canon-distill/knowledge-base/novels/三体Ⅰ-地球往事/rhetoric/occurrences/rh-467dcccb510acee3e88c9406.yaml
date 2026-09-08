@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-467dcccb510acee3e88c9406
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1242
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 叶文洁最后一席话使他陷入了同样悲凉的心境
+sensory_mapping: 空间深度；坠入；包围；行动阻力
+context_fact: 叶文洁以寒风、沙漠、空宫和蚂蚁讲述宇宙孤独，汪淼听后无法组织安慰。
+image_mechanism: 她的悲凉从私人感受扩展成一处低洼空间，话语像地面突然下陷，听者落到同一深处；沉默表现他暂时找不到出口。
+property_alignment: 悲凉感染对应两人落入同一区域；情绪占据意识对应四周包围；无法说话对应陷入后动作受限
+context_alignment: 前文连续景观意象已构成沙漠和宫殿空间，“陷入”让汪淼真正进入她描述的心理地形。
+narrative_function: 把独白的感染力落实到听者反应，并以沉默结束红岸讲述。
+transfer_rule: 用陷入写情绪感染时，应展示进入触发、包围程度和对语言或行动的实际限制。
+failure_boundary: 情绪只是短暂共情、人物仍能冷静组织行动或主动选择沉浸时，“陷入”会夸大被动和深度。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 汪淼受到叶文洁独白感染，难以从悲凉情绪中抽离
+vehicle: 身体落入有边界、有深度且难以自行爬出的空间
+ground: 情绪迅速包围意识对应身体被环境围住；他想安慰却说不出话对应陷落后行动受限

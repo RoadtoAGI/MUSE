@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b4bc55105b46816d0249cce7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L594
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 旷日持久的批判将鲜明的政治图像如水银般注入了他们的意识
+sensory_mapping: 触觉；流动；重量；毒性；心理
+context_fact: 受害者在长期打击后开始真心相信自己有罪。
+image_mechanism: 政治图像由符号变成银亮而沉重的毒液，批判则成为穿透心理边界的注射动作；液体进入后沿意识内部铺开，难以自行排出。
+property_alignment: 外力灌输对应注射强行进入；观念沿意识扩散对应液态水银流动渗布；精神中毒对应水银毒性累积
+context_alignment: 结果是观念内化而非表面服从，注入动作准确表现外力进入并留存。
+narrative_function: 把洗脑过程写成身体侵入与中毒，显出其暴力。
+transfer_rule: 写观念灌输时，可选兼具进入路径、内部扩散和后续毒性的物质，使过程与后果连成一条因果链。
+failure_boundary: 自愿学习、公开辩论或只在口头假意认罪时，没有穿透边界和内部中毒，水银注射会取消主体判断。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 长期批判把政治观念强行灌进受害者意识
+vehicle: 针具把沉重、流动且有毒的水银注入人体
+ground: 外力灌输对应注射强行进入；观念沿意识扩散对应液态水银流动渗布；精神中毒对应水银毒性累积

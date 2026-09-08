@@ -1,0 +1,31 @@
+card_id: plebeian-banter-abyss
+pattern_name: 底层闲谈承重锤
+dramatic_function: 大悲或末日主线中插入底层闲谈：俗语歪理先把死亡主题说粗，拌嘴间突然坍缩出深渊句；减压与重锤一体，留白由读者承重
+applicability: 适用于悲剧与大变局的节奏调控；闲谈须自洽有趣并与主线人物形成语域反差，深渊句须由人物口吻自然带出；说教或闹剧过度即拆台
+reuse_candidates:
+- 粮票与配给制细节
+- 宇宙葬与山西矿井方案
+- 老北京邻里称谓
+- 骷髅与约利克的具体道具记忆
+- 掘坟歌谣与圣葬法理抬杠
+tags:
+- 平民视角
+- 黑色幽默
+- 留白
+- 丑角
+- 节奏缓冲
+- 死亡主题
+- 阶级反差
+source_scenes:
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S18
+  note: 「墓碑是给人看的，那时已经没有人了」七字坍缩
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S10b
+  note: 苏醒者错认新世界：日常错位承载时代落差
+- novel: 哈姆雷特
+  scene_id: A5S1
+  note: 掘坟工歪理与骷髅阶梯垫起葬礼爆发
+phase_affinity:
+- 4
+- 5

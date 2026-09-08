@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a8ad7a266788958261fc8ba2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2320
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 行动的代号是“古筝”，这是很自然的联想，而纳米丝构成的切割网则被称为“琴”
+sensory_mapping: 平行琴弦；木架跨度；绷紧；无形琴面；死亡演奏
+context_fact: 飞刃细到肉眼不可见，审判日号通过时将被五十道弦切成水平薄片。
+image_mechanism: 运河变成琴腹，两岸钢柱竖起琴架，透明飞刃绷成弦；巨轮不是听众而是拨动整张琴的巨大手指，演奏结果则是自身解体。
+property_alignment: 钢柱对应琴架；纳米丝对应琴弦；均匀间距对应弦列；运河跨度对应琴面；船体穿弦对应拨奏；切割声与摩擦尖鸣对应死亡琴音
+context_alignment: 后文反复称死亡之琴和目标距琴，此处首次建立完整器物映射，后续均属复指。
+narrative_function: 给不可见装置提供整体形状和行动代号，并以艺术器物反衬屠杀冷酷。
+transfer_rule: 用弦乐器写平行切割网时，应匹配两端支撑、弦列张力、外物拨动、声响或振动及整体跨度。
+failure_boundary: 切割线杂乱交叉、松弛无张力、由主动电机移动而非目标穿过时，古筝的结构和演奏机制不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 两根竖立钢柱间平行张紧五十根飞刃丝形成的隐形切割装置及整场伏击行动
+vehicle: 古筝由两端支撑和多根平行琴弦构成，演奏时琴弦被拨动并发出声音
+ground: 两钢柱对应琴架两端；平行纳米丝对应琴弦；船穿过使丝受力对应拨弦；整套装置横跨水道对应巨型古筝

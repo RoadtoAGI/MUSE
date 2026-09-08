@@ -1,0 +1,28 @@
+mode: reference
+display_name: 沈曾祺
+role_slug: shen-zengqi
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/不详/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces.interpersonal（理性 + 自保压倒人情）+ arc_2_shen_team（最适合当领袖的人才）
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_b（理性 / 道德 / 常态反成生存负累，理性者下场最坏）
+  - scenes/scene_BX-S04.md
+  - scenes/scene_BX-S05.md
+  - scenes/scene_BX-S08.md                   # 终局（被假罗允挑脚筋砸双手致死）转述，仅 canon-ending 取证
+built_at: 2026-05-29T20:00:00+08:00
+skill_version: 1
+locator_count: 11
+has_canon_ending: true
+coverage_note: |
+  信息密度高，但分布集中在 S04（小队生活 / 生存体系教学）与 S05（暴露 + 抛弃）两场，外加 S04 内嵌"我"对沈曾祺过去的口述
+  （消防员 / 舍弃佩文哥哥战友 / 谨慎无比的成因）。
+  声音框架跨 S04 多处取证（处置式生存陈述 + 抗生素"有了总比没有好"的务实语调 + 偶尔不咸不淡的玩笑），稳定单一形态。
+  核心欲望 / 性格真相均有 ≥2 场或同场多处佐证：自觉欲望（缺一不可生存哲学 S04:L41）+ 不自觉欲望（不再送走同伴 S04:L75）
+  + 核心缺陷（理性切除"我" S05:L15）。
+  边界 4 条各带 locator（不为物资冒险 S04:L75 / 危险时不图快 S04:L33 / 不许害人独活 S04:L41 / 不瞒报危及全员的真相 S05:L15），
+  均取自小队实际部署 / 抛弃决策的"极端检验场景"。
+  弧光起点 + 转折齐全（救人者 → 理性取舍者，转折点 = 舍弃佩文哥哥 S04:L75）；终点内在转变在篇内已收束。
+  has_canon_ending: true —— 沈曾祺抛弃"我"后，被冒名"罗允"的反派挑断双脚脚筋、砸烂双手丢在废墟等感染者玩弄致死（S08:L25），
+    经王晨轩转述，属不可逆物理终局，已回 scene 原文核对；其内在弧光在 S04 已完成（理性取舍者定型），
+    物理终局隔离到 references/canon-ending.md，不进人格本体。
+  沈曾祺为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/不详/phase3_spine.yaml 推导。

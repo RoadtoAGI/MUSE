@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-de59afb34f824d208edd5564
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1669
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: “飞星不动”成了多个三体文明中的一句最不吉利的咒语
+sensory_mapping: 听觉短句；低声禁忌；寒冷战栗；灾祸召唤
+context_fact: 飞星静止意味着太阳可能与行星共线冲来，即使历史上尚未发生，三体人也长期高度警戒。
+image_mechanism: 天文学术语从观测报告变成带魔力的四字声音，听见它便像灾难已被唤到头顶；理性预警与原始忌讳在同一句中重合。
+property_alignment: 观测短语对应咒文；太阳冲来对应被召灾祸；听者不寒而栗对应畏惧咒语；多轮文明沿用对应咒文代际传承
+context_alignment: 三体文明科学高度发展，却面对不可控天象保留咒语式恐惧，显示知识不能消除生存创伤。
+narrative_function: 在解释物理构型前先注入文化恐怖，让三颗飞星静止具有历史回声。
+transfer_rule: 把术语写成咒语时，应有固定短句、代际禁忌、与灾祸的强关联和听者的即时身体反应。
+failure_boundary: 术语只供中性分类、听者没有恐惧传统，或说出本身被误解为真的能致灾时，咒语会歪曲理性含义。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: “飞星不动”这一观测术语因预示太阳直冲行星而成为能立即唤起集体恐惧的禁忌话语
+vehicle: 一旦说出便召来灾祸、令听者畏惧的邪恶咒语
+ground: 短语与毁灭征兆固定绑定对应咒语触发灾祸；跨文明传承恐惧对应咒文被代代保存

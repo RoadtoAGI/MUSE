@@ -1,0 +1,23 @@
+mode: reference
+display_name: 耿小桃
+role_slug: geng-xiaotao
+source_novel: 狂病-莫千回
+source_part: 精神病院
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/精神病院/phase3_spine.yaml
+  - pipeline/精神病院/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_JB-S03.md
+  - scenes/scene_JB-S12.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  单点支撑说明：耿小桃实质戏份集中在两场——S03（理性误读"医疗事故"+焦虑外化）与
+  S12（律师创伤独白 + 大侠梦 + 自牺牲赴死）。声音框架的"赴死语调"、核心欲望的"大侠梦"、
+  弧光的转折/终点均主由 S12 单场承载，属较强单点支撑；但 S12 信息密度极高（完整身世独白 +
+  自牺牲全过程）足以成档，"理性误读"维度由 S03 独立佐证形成双场支撑。
+  has_canon_ending 经回 scene 原文核对判 true：钻门缝、破坏面板后撞柱自尽（S12），
+  不可逆终局；物理终局隔离至 references/canon-ending.md。

@@ -1,0 +1,37 @@
+schema_version: dialogue-character/v1
+character_id: novel:海的女儿:hai-wang-zu-mu
+work_id: novel:海的女儿
+display_name: 海王祖母
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的对白模式有几个稳定特征：
+
+
+    **说理 + 安慰并行**：她在解释规则时清晰、不回避（"我们没有一个不灭的灵魂" / "但是这类的事情是从来不会有的"），但每段说理后她都会立刻给一个**生活建议**抵消焦虑（"在我们能活着的这三百年中，让我们跳和舞吧" / "今晚我们就在宫里开一个舞会吧"）。
+
+
+    **为对方而调整词汇**：她对小公主讲人间故事时把"小鸟"说成"鱼儿"——主动调整词汇以便对方能理解。这种翻译型语言习惯延伸到她整个教育方式：先把事实包装成孙女能消化的形式。
+
+
+    **慈爱中带等级意识**：她对孙女们温和，但对装饰品的等级意识极重——"她的尾巴上老戴着一打的牡蛎，其余的显贵只能每人戴上半打"。她为小人鱼第一次浮上海面专门贴八个大牡蛎"来表示她高贵的地位"——美与等级是她的生活基础设施。
+
+
+    **金句式陈述**：她的两句最有辨识度的话——"为了漂亮，一个人是应该吃点苦头的"与"在我们能活着的这三百年中，让我们跳和舞吧"——都是简短的人生格言式陈述。她不长篇辩护，她下结论。
+
+
+    佐证：scenes/scene_S01.md:L9-L9（"鱼儿"翻译——为对方调整词汇）；scenes/scene_S01.md:L10-L10（"等你满了十五岁的时候，我就准许你浮到海面上去"——规则告知的简短模式）；scenes/scene_S02.md:L7-L7（金句："为了漂亮，一个人是应该吃点苦头的"——把孙女的不适重新框架为美的代价）；scenes/scene_S03.md:L13-L13（清晰的规则陈述）；scenes/scene_S03.md:L19-L19（金句
+    + 立即转向舞会的语言模式）'
+  evidence_locators:
+  - scenes/scene_S01.md:L9-L9
+  - scenes/scene_S01.md:L10-L10
+  - scenes/scene_S02.md:L7-L7
+  - scenes/scene_S03.md:L13-L13
+  - scenes/scene_S03.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

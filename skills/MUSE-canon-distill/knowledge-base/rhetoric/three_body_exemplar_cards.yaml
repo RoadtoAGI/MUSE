@@ -1,0 +1,367 @@
+schema_version: rhetoric-gold-exemplars/v1
+selection_scope:
+  corpus: 刘慈欣《三体》三部曲当前知识库正文版本
+  included: 正文章节中的明喻、延展暗喻与解释性类比
+  excluded: 序、跋、目录及只有装饰作用而缺少属性对应的像字句
+  evidence_policy: 每条使用当前 full_text.md 的短引与单行 locator；分析至少列出两个可核对的对应关系
+counts:
+  works: 3
+  exemplars: 12
+  per_work: 4
+
+works:
+  - work_id: three-body-1
+    title: 三体Ⅰ-地球往事
+    source_file: MUSE-canon-distill/knowledge-base/novels/三体Ⅰ-地球往事/full_text.md
+    source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+    exemplars:
+      - card_id: tb1-rhetoric-001
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅰ-地球往事/full_text.md:L164
+        quote: 她像一颗星星，总是那么遥远，照到我身上的光也总是冷的。
+        figure_type: simile
+        tenor: 丁仪所感受到的杨冬，以及两人始终无法真正接近的关系
+        vehicle: 遥远、发出冷光并最终成为“已逝”之物的星星
+        ground:
+          - 可见、能施加影响，却无法抵达和触碰
+          - 光抵达观察者，光源本身仍保持遥远与寒冷
+          - 星体的逝去与杨冬的死亡形成后续叠合
+        sensory_mapping: [visual, temperature, distance]
+        context_fact: 丁仪醉后谈起杨冬，承认她曾照亮自己，却从未进入他设想的共同生活。
+        image_mechanism: 把抽象的情感隔膜变成可见的天文距离，再以“冷光触身”同时写出吸引和缺乏回应；丁仪随后望向夜空，使喻体进入现场动作。
+        property_alignment:
+          - “星星遥远”对应杨冬在情感上始终不可接近。
+          - “光照到身上”对应她确实影响、吸引了丁仪。
+          - “光总是冷的”对应这种影响缺少亲密关系所需的温度与回馈。
+        context_alignment:
+          - 星体意象来自物理学家的认知词库，符合丁仪的角色声音。
+          - 窗前夜空和杨冬已死的事实让“星星”同时承担空间距离与死亡余光。
+        narrative_function: 在一句话中交代人物关系、丁仪的哀痛和杨冬的疏离气质，并为接下来的沉默提供情绪支点。
+        transfer_rule: 描写关系距离时，让喻体同时匹配“能否接近”“影响如何抵达”“情感温度”三个维度，并优先从视角人物熟悉的世界取材。
+        failure_boundary: 只写“她像星星一样美或明亮”会落入泛化赞美；缺少遥远、冷光和死亡语境时，这个喻体不足以刻画具体关系。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 常见的星星喻体被距离、冷光和“已逝星辰”的动作连续具体化，至少三条关系同时成立。
+
+      - card_id: tb1-rhetoric-002
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅰ-地球往事/full_text.md:L569
+        quote: 整个宇宙像一个坏了的日光灯管那样闪烁！
+        figure_type: explanatory_analogy
+        tenor: 宇宙微波背景辐射若在一夜间出现百分之五整体波动的反常状态
+        vehicle: 镇流器失灵、忽明忽暗的日光灯管
+        ground:
+          - 原本应均匀稳定的背景光发生整体明暗波动
+          - 闪烁意味着系统的基础工作状态出了故障
+          - 熟悉的室内光源故障可被肉眼立刻感知
+        sensory_mapping: [visual, rhythm, scale]
+        context_fact: 沙瑞山说明宇宙背景辐射整体变化极慢，以当时仪器精度，一百万年都未必测得出变化；汪淼却要求观察一夜间的巨大波动。
+        image_mechanism: 把不可直接观看、横跨宇宙和百万年尺度的辐射异常，缩放成人人见过的顶灯故障；“整个宇宙”与“日光灯管”的尺度落差进一步制造惊骇。
+        property_alignment:
+          - 微波背景的全域均匀性对应日光灯管提供的连续背景照明。
+          - 百分之五的整体波动对应坏灯管显著而反复的亮灭。
+          - 基础辐射失常对应基础照明设备故障，都提示承载环境本身出了问题。
+        context_alignment:
+          - 说话者正在给非本专业的汪淼解释数量级，生活物件比术语更快建立直觉。
+          - 口语化、带惊叹号的喻体符合沙瑞山的难以置信，而非抒情性旁逸。
+        narrative_function: 翻译科学数量级，同时把“宇宙为你闪烁”的超自然压迫感提前变成可见画面。
+        transfer_rule: 解释抽象异常时，选择与本体具有相同“正常基线”和“故障模式”的日常系统；尺度落差可增强震撼，但共同机制必须先成立。
+        failure_boundary: 只能借用灯管的均匀照明与故障闪烁，不能由此推导宇宙真的存在电路、开关或周期性镇流机制。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: “稳定背景变成整体闪烁”在两端一一对应，日常故障经验把不可感的宇宙异常变成瞬间可见的场景。
+
+      - card_id: tb1-rhetoric-003
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅰ-地球往事/full_text.md:L1228
+        quote: 这一声呼唤，就像万里长空中的一只蚊子在嗡嗡叫
+        figure_type: explanatory_analogy
+        tenor: 红岸以有限功率向星际空间发出的地球文明呼叫
+        vehicle: 一只蚊子在万里长空中发出的微弱嗡鸣
+        ground:
+          - 信号源相对于传播空间极其微小
+          - 能量随传播迅速稀释并被环境干扰淹没
+          - 发声者确实在呼叫，但远方几乎没有听见的可能
+        sensory_mapping: [auditory, scale, distance]
+        context_fact: 叶文洁以文明分级所需的恒星级通讯功率作参照，说明红岸功率甚至只是地球可调集输出的千万分之一。
+        image_mechanism: 将十的巨大幂次和星际衰减换成听觉经验：先看见无边天空，再听见近乎不存在的蚊鸣，功率与尺度的悬殊因此同时成立。
+        property_alignment:
+          - 蚊鸣的声功率相对长空微不足道，对应红岸功率相对星际通讯需求极低。
+          - 声音在开放空间消散，对应电波随距离衰减并遭受太空干扰。
+          - 无明确近旁听者的嗡鸣对应向未知方位、未知文明进行盲目广播。
+        context_alignment:
+          - “一声呼唤”先把电磁通讯转写成听觉行为，“蚊子嗡鸣”顺着同一感官通道完成缩放。
+          - 叶文洁在解释工程失败，朴素喻体承担结论，不抢夺技术数据的可信度。
+        narrative_function: 校准读者对星际尺度和红岸能力的直觉，并强化人类第一次呼叫的孤单与徒劳感。
+        transfer_rule: 表现悬殊尺度时，应同时比较源强、传播介质和接收条件；让抽象信号在喻体中保持同一种“发出—传播—被听见”的因果链。
+        failure_boundary: 该类比只说明相对功率和可探测性，不提供精确的衰减定律；若接收方灵敏度或距离条件不同，不能把“无人听见”当成严格结论。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 微小声源、巨大介质和接收失败三项共同对应，使十次幂差距获得明确的听觉与空间尺度。
+
+      - card_id: tb1-rhetoric-004
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅰ-地球往事/full_text.md:L1857
+        quote: 整条曲线就像是所有沙粒排成行形成的一堆沙漠
+        figure_type: extended_metaphor
+        tenor: 监听屏幕上无限延伸、随机起伏的宇宙噪声波形
+        vehicle: 大小不等的沙粒排成的一维沙漠
+        ground:
+          - 离散而高低不齐的波峰对应大小不一的沙粒
+          - 无限延伸的时间曲线对应望不到边的荒漠
+          - 随机、无意义的起伏对应没有道路和地标的沙地
+        sensory_mapping: [visual, spatial, texture]
+        context_fact: 叶文洁在最孤寂的夜班凝视无生命的随机噪声；这条曲线一端连向过去，另一端连向未来，随后才出现被智能调制的异常。
+        image_mechanism: 先把每个波峰变成可触摸的沙粒，再把整条时间序列扩展成只能沿单一方向行走的荒漠，数据结构和人物孤独感使用同一幅图像。
+        property_alignment:
+          - 波峰高度的无规律差异对应沙粒大小和起伏的无规则差异。
+          - 横轴无尽延伸对应沙漠没有可见边界。
+          - 波形缺少可识别信息对应荒漠缺少方向标志与归宿。
+        context_alignment:
+          - 监听员长时间沿屏幕读取曲线，天然对应旅人沿沙漠向前行走。
+          - 叶文洁“精神无家可归”的前文，使“找不到归宿”既描述信号也描述人物。
+        narrative_function: 将统计噪声的形态与叶文洁的精神荒凉叠合，并反衬下一行“曲线有了灵魂”的突变。
+        transfer_rule: 用景观比拟数据时，至少对应数据的局部单元、整体拓扑和观察者的读取方式，让情绪从结构中生长出来。
+        failure_boundary: 仅因对象“很大”就套用沙漠会变成空泛壮阔；缺少沙粒与波峰、行走与时间轴的对应时，不具备此例的精确性。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 局部颗粒、整体延展和人物处境三层同构，使科学图像与心理气候互相加强。
+
+  - work_id: three-body-2
+    title: 三体Ⅱ-黑暗森林
+    source_file: MUSE-canon-distill/knowledge-base/novels/三体Ⅱ-黑暗森林/full_text.md
+    source_sha256: 25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a
+    exemplars:
+      - card_id: tb2-rhetoric-001
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅱ-黑暗森林/full_text.md:L2682
+        quote: 像是一盘以恒星为中心的正在松开的发条
+        figure_type: explanatory_analogy
+        tenor: 行星撞击恒星后，由恒星自转带动并向外扩展的螺旋物质流
+        vehicle: 以轴心为中心逐圈松开的盘状发条
+        ground:
+          - 两者都有围绕固定中心的螺旋几何形态
+          - 两者的外缘都随过程持续向外扩张
+          - 旋转与径向展开同时发生
+        sensory_mapping: [visual, motion, geometry]
+        context_fact: 科兹莫团队观测到行星坠入275E1后，恒星内部物质从撞击点喷出，并因恒星自转形成扩大的螺旋流。
+        image_mechanism: 把跨越天文单位的高温物质运动压缩成桌面机械件的展开动作；读者不仅看见螺旋，还能预演它下一刻会继续松开。
+        property_alignment:
+          - 发条盘绕的曲线对应恒星喷流的螺旋形状。
+          - 发条松开时半径增大，对应物质流持续向外扩展。
+          - 发条围绕轴心展开，对应喷流以恒星为中心并受自转塑形。
+        context_alignment:
+          - 破壁人正在解释雷迪亚兹计划的连锁物理过程，动态机械类比比静态形状更适合推演后果。
+          - 发条的可预测展开为下一步“扫过行星轨道”的战略揭示积蓄视觉因果。
+        narrative_function: 解释恒星喷流的几何与运动，并让读者提前直觉到扩张物会逐层侵入行星轨道。
+        transfer_rule: 描写动态科学过程时，喻体应同时匹配形状、运动方向和中心约束；优先选择能显示“下一步会怎样”的动态物件。
+        failure_boundary: 发条靠弹性势能松开，恒星喷流靠撞击、喷发和自转形成；该类比只承载几何与运动，不能偷换能量来源。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 螺旋、中心和径向扩张三项完全对齐，且图像直接服务后续物理推演。
+
+      - card_id: tb2-rhetoric-002
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅱ-黑暗森林/full_text.md:L3660
+        quote: 丁仪看到它时，产生了与其他人一样的印象：一滴水银。探测器呈完美的水滴形状，头部浑圆，尾部很尖，表面是极其光滑的全反射镜面，银河系在它的表面映成一片流畅的光纹
+        figure_type: metaphor
+        tenor: 三体探测器呈现出的外形、表面质感和视觉动势
+        vehicle: 一滴水银
+        ground:
+          - 浑圆头部、尖细尾部与液滴轮廓一致
+          - 全反射镜面与水银的金属光泽一致
+          - 表面流动的星光让固体看起来像正在变形的液体
+        sensory_mapping: [visual, material, motion]
+        context_fact: 丁仪第一次看到长三点五米的探测器影像；它没有可见机械结构，外形纯净唯美，后来被人类命名为“水滴”。
+        image_mechanism: “水银”同时携带液体形态和金属镜面两种性质，恰好把探测器“像液体却显然是器物”的悖论压进一个熟悉物质。
+        property_alignment:
+          - 水银滴的头圆尾尖对应探测器的完美水滴曲线。
+          - 水银的高反射金属表面对应探测器的全反射镜面。
+          - 液滴表面高光随视角滑动，对应银河映成的流畅光纹和潜在动感。
+        context_alignment:
+          - 人类正以“艺术品、和平礼物”的概念误读武器，柔软液滴的视觉经验加强了这种危险误判。
+          - 与普通水滴相比，水银兼具金属感，保留了星际探测器属于人工造物的冷硬底色。
+        narrative_function: 完成对象命名、建立唯美表象，并以“液态错觉”反衬其后来展现的绝对刚性和杀伤力。
+        transfer_rule: 面对兼具两种看似矛盾属性的对象，选择本身就能同时容纳这两种属性的喻体；材质比单纯形状更能承担伏笔。
+        failure_boundary: 若只称“水滴”而忽略水银的镜面和金属属性，就会削弱材质贴合；该喻体也不能说明探测器真实材料处于液态。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 轮廓、反射和视觉流动三项共同命中，“水银”还准确承载了液态外观与金属实质的矛盾。
+
+      - card_id: tb2-rhetoric-003
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅱ-黑暗森林/full_text.md:L3851
+        quote: 水滴就像一枚死神的绣花针，灵巧地上下翻飞
+        figure_type: simile
+        tenor: 水滴以尖锐折线高速转向并连续贯穿第三队列战舰的运动
+        vehicle: 被“死神”操纵、在织物上快速穿刺的绣花针
+        ground:
+          - 极小的尖锐物连续穿过远大于自身的目标
+          - 运动轨迹快速折返，形成有节奏的穿刺线
+          - 每次“落针”都留下不可逆的破坏
+        sensory_mapping: [motion, visual, scale, touch]
+        context_fact: 三点五米长的水滴以约每秒三十公里飞行，每秒急转两到三次，将大致成列的一百艘恒星级战舰逐一击穿。
+        image_mechanism: 把超出人类动力学理解的锐角机动换成手指可想象的针法；庞大舰队被隐含为一层薄布，力量等级差随之显现。
+        property_alignment:
+          - 绣花针相对织物细小却能轻易穿透，对应水滴相对巨舰微小却能贯穿舰体。
+          - 针尖上下翻飞并频繁换向，对应水滴每秒多次折线转向且不减速。
+          - 针脚连成线，对应水滴用连续穿透绘出“毁灭的折线”。
+        context_alignment:
+          - “绣花”的轻巧与舰队毁灭的惨烈形成冷酷反差，准确表现攻击者毫不费力。
+          - “死神”限定操针者和结果，避免“绣花针”的家常感冲淡死亡现场。
+        narrative_function: 让读者看清水滴的轨迹、相对尺度和压倒性技术差，同时完成从唯美艺术品到精密杀戮工具的意象翻转。
+        transfer_rule: 动作比喻应匹配轨迹、相对尺寸和接触后果；当轻巧动作造成巨大伤害时，反差可以承担力量差的说明。
+        failure_boundary: 对面状轰炸、迟钝冲撞或平滑转弯的攻击不宜使用“绣花针”；缺少连续穿刺和折线轨迹时会只剩猎奇。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 针、布、针脚分别对应水滴、舰队和折线路径，三层关系同时成立且推动意象反转。
+
+      - card_id: tb2-rhetoric-004
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅱ-黑暗森林/full_text.md:L4435
+        quote: 宇宙就是一座黑暗森林，每个文明都是带枪的猎人
+        figure_type: extended_metaphor
+        tenor: 信息不完备、技术跃迁不可预测条件下的宇宙文明关系
+        vehicle: 黑暗森林中彼此看不清、持枪潜行的猎人群体
+        ground:
+          - 宇宙信息稀薄对应森林黑暗、视野受限
+          - 文明隐藏自身坐标对应猎人压低声音并遮蔽踪迹
+          - 坐标暴露引来先发打击对应猎物现身后遭到射杀
+          - 无法快速辨明对方意图对应猎人不能确认暗处身影是否会先开枪
+        sensory_mapping: [visual, auditory, spatial, threat]
+        context_fact: 罗辑把生存需要、文明增长和猜疑链外推到亿万文明，用这一图景解释费米悖论及恒星坐标广播后的毁灭。
+        image_mechanism: 将不可见的文明博弈分配给森林中的可行动角色：隐藏、侦听、暴露、瞄准和开枪都有具体位置与先后顺序，理论因此成为可演算场景。
+        property_alignment:
+          - 星际距离造成的通信迟滞和信息缺失对应黑暗造成的视认困难。
+          - 文明压低电磁暴露对应猎人屏息、轻步潜行。
+          - 低成本远程打击对应猎人从隐蔽处先开枪，比走近核实更安全。
+          - 暴露恒星坐标对应在树皮上标出猎物位置或点火高喊。
+        context_alignment:
+          - 场景本身处于无风、无光的夜色，史强点烟取光，物理环境为理论喻体提供即时感官底座。
+          - 史强的非学院视角需要一幅可以凭生存常识理解的图景，森林狩猎承担了理论翻译。
+        narrative_function: 统摄宇宙社会学公理、解释费米悖论，并成为后续威慑、广播和打击情节的可预测模型。
+        transfer_rule: 延展类比必须为关键实体、信息条件、行为选择和后果建立稳定映射，并能从这些映射推出后续情境。
+        failure_boundary: 森林图景不能代替生存公理、技术爆炸和猜疑链的论证；离开这些前提单独使用，会把可能的博弈模型误写成已经证实的宇宙事实。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 环境、角色、信息、动作和后果形成完整映射链，喻体还能持续生成情节预测，属于结构性修辞。
+
+  - work_id: three-body-3
+    title: 三体Ⅲ-死神永生
+    source_file: MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/full_text.md
+    source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+    exemplars:
+      - card_id: tb3-rhetoric-001
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/full_text.md:L1639
+        quote: 像一个无限嵌套的俄罗斯套娃
+        figure_type: explanatory_analogy
+        tenor: 从四维观察三维物体时，各层内部同时暴露而产生的“无限细节”与纵深感
+        vehicle: 打开一层仍有一层、似乎没有终点的俄罗斯套娃
+        ground:
+          - 每一层内部还包含可继续展开的内部
+          - 观察不会在表面终止，而是不断进入更深层级
+          - 重复结构带来超出一次观看能力的信息量
+        sensory_mapping: [visual, depth, scale]
+        context_fact: 在四维视野中，容器内部、内部物体的内部乃至更细层次全都并列可见，一只水杯或一支笔也无法穷尽其细节。
+        image_mechanism: 用儿童即可操作的递归物件承接不可直观的高维视觉；“打开后仍需再打开”的经验，把抽象的层级无穷变成手部动作和纵深预期。
+        property_alignment:
+          - 套娃每层内部显出下一层，对应物体内部仍有内部结构可见。
+          - 套娃递归重复的形态对应各尺度细节不断出现。
+          - 无法到达最后一层的设想对应目击者穷尽一生也看不全信息。
+        context_alignment:
+          - 叙述先给出容器、物体和内部结构，再用套娃收束，喻体负责总结已建立的空间关系。
+          - 熟悉物件降低高维概念门槛，又保留“方寸之间深不见底”的眩晕感。
+        narrative_function: 为高维“无限细节”提供最低认知台阶，使后续看见内脏、设备内部和从四维攻击水滴变得可理解。
+        transfer_rule: 解释递归或层级无穷时，选择内部结构能够重复出现的物件，并让每次展开动作对应概念中的一次层级深入。
+        failure_boundary: 套娃是依次打开、尺寸递减的实体，四维视野则让各层同时并列可见；不能把喻体的顺序性和独立外壳误当成高维物理事实。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: “层内有层”和“看不完”两项核心难点被一个可操作物件同时解释，且明确保留了同时可见这一差异。
+
+      - card_id: tb3-rhetoric-002
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/full_text.md:L3621
+        quote: 太空艇仿佛是放在滚烫的玻璃上的一块冰激凌
+        figure_type: simile
+        tenor: 三维太空艇接触二维平面后，从底部开始失去厚度并向平面铺展的过程
+        vehicle: 冰激凌接触滚烫玻璃后，底部熔化并摊成薄层
+        ground:
+          - 转变从接触面和物体底部开始
+          - 有体积的物体变成向四周扩散的薄层
+          - 透明承载面本身难见，只能由摊开的物质勾勒出来
+          - 转变快速、不可逆，并伴随质地和颜色变化
+        sensory_mapping: [visual, temperature, material, motion]
+        context_fact: 二向箔形成的二维平面不可见；监视员只能从太空艇底部发光、摊开并变成极薄彩色层的现象判断平面存在。
+        image_mechanism: 以“熔化”替代无法经验的降维，让读者沿底部接触、软化、摊开三步观看体积消失；透明玻璃又解释了为什么平面只能借受害物显形。
+        property_alignment:
+          - 冰激凌先在热玻璃接触处融化，对应太空艇从接触二维面的底部开始变化。
+          - 熔化物由立体块向四周摊薄，对应三维结构向只有面积的二维体铺展。
+          - 透明玻璃靠其上的液体显出边界，对应无形二维平面靠太空艇的展开部分被看见。
+          - 彩色融液的流动外观对应二维熔化物发出的妖艳彩光和径向扩散。
+        context_alignment:
+          - 这是人类首次目击宏观降维，喻体选取人人有直接经验的相变过程，瞬间建立观察顺序。
+          - 冰激凌的日常、柔软和甜美与人体及飞船被毁的惨叫并置，增强宇宙灾难的冷酷感。
+        narrative_function: 让不可见的二维边界和不可经验的降维过程同时可视化，并在解释物理现象的同时制造身体恐怖。
+        transfer_rule: 表现不可见机制时，可选择“结果会勾勒承载面”的日常过程；有效的相变喻体需匹配起点、变化方向、最终形态和可见痕迹。
+        failure_boundary: 实际过程是维度投射而非受热融化；不能由“滚烫”推断温度、流体动力或随机混合，也不能用该喻体解释二维结构的精确几何映射。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 接触位置、体积消失、径向铺展和无形平面显影至少四项对应，图像强烈且承担解释任务。
+
+      - card_id: tb3-rhetoric-003
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/full_text.md:L3881
+        quote: 太阳系的三维空间像一张大地毯
+        figure_type: extended_metaphor
+        tenor: 太阳系所在三维空间整体跌向二维，以及飞船试图在其中逃逸的无效运动
+        vehicle: 被一只无形之手拖向深渊的地毯，以及地毯上缓慢爬行的小虫
+        ground:
+          - 运动的是承载对象的空间本身，而不只是其中的物体
+          - 物体能相对承载面移动，却远慢于承载面整体被拖走的速度
+          - 依附于同一承载面的个体共享整体坠落结局
+        sensory_mapping: [visual, motion, scale, kinesthetic]
+        context_fact: 逃亡飞船全功率飞向太阳系外，但三维参照系本身正转化并跌入二维，飞船速度不足以达到跌落区逃逸速度。
+        image_mechanism: 用会移动的“地面”纠正“飞船只要飞得更快就能逃”的直觉；虫子自以为前进，地毯却把虫和路一起拖走，速度层级因此一眼可见。
+        property_alignment:
+          - 地毯对应三维空间这一承载所有飞船和天体的共同基底。
+          - 无形之手拖地毯对应二维化前沿牵引整个三维参照系。
+          - 小虫在毯面缓爬对应飞船虽高速航行，相对空间整体跌落仍近乎静止。
+          - 地毯落入深渊时虫子无处借力脱离，对应局部推进无法脱离维度跌落区。
+        context_alignment:
+          - 前一行A.I.用“参照系分裂、参照系运动”描述现象，地毯类比随即把技术表述翻译成常识画面。
+          - “大地毯”与“小虫子”的尺度差准确降低人类飞船在宇宙过程中的能动性。
+        narrative_function: 解释空间整体运动和逃逸失败，消除最后的技术侥幸，并把太阳系毁灭写成不可抗拒的基底坍塌。
+        transfer_rule: 当环境本身参与运动时，类比中必须设置“移动的承载面”和“其上的行动者”，同时比较两种速度，避免只比对象外形。
+        failure_boundary: 若行动者能够离开承载面、转入独立介质，地毯类比会夸大必然性；此例成立依赖文本已给出的逃逸速度不足。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 空间、跌落机制、飞船和速度比都有明确对应，尤其准确解释了“路本身也在坠落”这一反直觉事实。
+
+      - card_id: tb3-rhetoric-004
+        source_locator: MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/full_text.md:L4048
+        quote: 就像你在地面上做一个倒立，就认为自己举起了地球一样
+        figure_type: explanatory_analogy
+        tenor: 程心把太阳系毁灭主要归因于自己当年制止维德的决定
+        vehicle: 一个人倒立后，误以为由自己的双手托举了整个地球
+        ground:
+          - 观察者的局部姿态变化制造了整体因自己而动的主观错觉
+          - 个体力量与被归因对象的尺度极不相称
+          - 视角中心被误当成因果中心
+        sensory_mapping: [kinesthetic, scale, balance]
+        context_fact: AA列举星环城未必能独立、曲率研究未必成功、人类未必选择黑域等反事实分支，劝程心停止把复杂历史压缩成个人一念。
+        image_mechanism: 倒立者确实感觉双手在下、地球在上，但读者知道支撑关系没有改变；这个身体错觉把“真实参与过”与“独力造成一切”迅速区分开。
+        property_alignment:
+          - 倒立只改变个人相对地面的姿态，对应程心的决定只改变庞大历史因果网中的一个局部条件。
+          - 双臂力量不足以托举地球，对应单个人的权限不足以控制技术、战争、政治和文明选择的全部后果。
+          - 倒立视角让地球看似位于手上，对应幸存者中心视角把时间先后误认成充分因果。
+        context_alignment:
+          - AA以直白、带刺的朋友口吻安慰程心，滑稽的身体动作比抽象的因果哲学更符合她的说话方式。
+          - 类比后紧接多个未定反事实，使喻体有论证支撑，而非一句廉价宽慰。
+        narrative_function: 缩小程心的全能式罪责感，揭示个人伦理选择与文明级结果之间的因果尺度，并维持AA务实的角色声音。
+        transfer_rule: 纠正过度责任归因时，选择“局部动作造成整体错觉”的身体经验，同时给出真实因果链中的其他变量，避免只靠比喻免除责任。
+        failure_boundary: 该类比不能证明当事人毫无责任；若缺少反事实和多因证据，用它回应真实伤害会变成轻率开脱或压制悔恨。
+        quality_assessment:
+          vividness: high
+          aptness: high
+          rationale: 姿态错觉、力量悬殊和视角误判三项对应具体；语境中的反事实清单又约束了比喻的伦理边界。

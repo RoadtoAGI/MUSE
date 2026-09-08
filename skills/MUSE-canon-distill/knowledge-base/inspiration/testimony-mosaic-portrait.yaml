@@ -1,0 +1,36 @@
+card_id: testimony-mosaic-portrait
+pattern_name: 他者之眼·证词拼图
+dramatic_function: 让核心人物保持缺席或不可知，由多名独立见证者的转述拼出其形象与影响力；读者重新仰望，免于叙述者自夸
+applicability: 适用于神秘强人物或大时间跳跃后的再登场；需多个独立信源互证；主角中途现身自我解释即破功
+reuse_candidates:
+- 毛姆式作家叙述者
+- 巴黎与塔希提行踪
+- 画家传记体外壳
+- 风陵渡客栈夜话的具体场合
+- 神雕与独臂的标志物
+- 郭襄式少女发问者
+tags:
+- 旁观视角
+- 认知空白
+- 多声部转述
+- 他者之眼
+- 传说叙事
+- 时间跳跃
+- 侧面塑造
+source_scenes:
+- novel: 月亮与六便士
+  scene_id: S11
+  note: 叙述者看画后只能用朝圣者比喻接近理解。
+- novel: 月亮与六便士
+  scene_id: S15
+  note: 终极杰作由不懂画的医生反应间接证明。
+- novel: 神雕侠侣
+  scene_id: S22
+  note: 一场围炉夜话覆盖十六年三地，众口接力堆出神雕侠
+- novel: 神雕侠侣
+  scene_id: S24
+  note: 三件大礼全由代理人呈送，主角缺席而威望登顶
+phase_affinity:
+- 2
+- 4
+- 5

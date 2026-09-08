@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-72fe9b5d867de0add8081090
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L989
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 最短的一次只走完了石器时代的一半，但139 号文明创造了纪录，居然走到了蒸汽时代
+sensory_mapping: 空间路径；步行距离；时间顺序
+context_fact: 文明各轮持续时间不一，有的未完成石器时代，有的罕见发展到蒸汽时代。
+image_mechanism: 纵向历史被平放成可步行路线，时代名称成为路标；每轮文明的寿命则由它在灾变前走出的距离直接显形。
+property_alignment: 石器到蒸汽的时间先后对应道路前后；完成某时代对应走完一段路；中途毁灭对应旅人在特定里程停止
+context_alignment: 墨子正在用几次文明纪录做快速历史汇报，里程把不可比的漫长年代压成一眼可比的远近。
+narrative_function: 直观比较多轮文明寿命，并突出蒸汽时代纪录的罕见。
+transfer_rule: 把发展史写成道路时，应设置明确的先后路标、可比较里程和中止原因，让“走到哪”对应可核对阶段。
+failure_boundary: 阶段并行、路径会分叉或价值方向不等于前进时，单一道路会抹掉多种发展可能。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 不同轮三体文明抵达的历史发展阶段
+vehicle: 沿一条分段道路行进并在途中某处止步的旅程
+ground: 历史阶段先后排列对应道路里程依次展开；文明毁灭时所处阶段对应旅人停在沿途节点

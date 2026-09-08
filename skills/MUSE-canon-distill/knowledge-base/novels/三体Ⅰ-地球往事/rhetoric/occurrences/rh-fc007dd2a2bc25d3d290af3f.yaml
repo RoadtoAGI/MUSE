@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fc007dd2a2bc25d3d290af3f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1819
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 你脑子里缺的就是这根弦啊
+sensory_mapping: 琴弦；拨动发声；缺音；脑内装置；紧绷
+context_fact: 杨卫宁只考虑向太阳发射电波的技术可行性，雷志成却指出“向红太阳发射”可被作反革命图解。
+image_mechanism: 人的思维被改造成多弦乐器，技术弦齐全，政治弦却空着；雷志成能拨出那个时代要求的危险音，杨卫宁的脑中则完全不响。
+property_alignment: 多维判断能力对应多根琴弦；政治警觉对应特定一弦；没想到政治含义对应缺弦无声；雷志成提醒对应指出应补部件；时代要求对应必须演奏的曲目
+context_alignment: 政治图解荒唐却具有现实杀伤，缺弦说法既表现政委自负，也说明技术人员在该语境中确实少一道求生警报。
+narrative_function: 用口语物件瞬间呈现技术理性与政治敏感的认知差异。
+transfer_rule: 用脑中缺弦写能力盲点时，应明确缺的是哪种感知、何时应被拨响及不响造成的具体后果。
+failure_boundary: 人物已理解该维度却价值上拒绝迎合，或所谓能力本就不应存在时，缺弦会把立场差异误写成缺陷。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 雷志成认为杨卫宁缺乏把技术行为自动解释为政治象征的警觉
+vehicle: 乐器少了一根必要琴弦，因而无法发出某个音或完成整套和声
+ground: 缺少特定政治敏感性对应乐器少一根功能部件；无法想到反面解释对应缺音导致演奏不完整

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b02e14df7a79b7634618e269
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L467
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 像大地上竖立着一座座走动的钟表，又像从天而降的许多巨大、抽象的符号
+sensory_mapping: 视觉；节奏；尺度；符号
+context_fact: 士兵持续拉动几十米高巨摆，所有摆动同步。
+image_mechanism: 第一重把往复动作读成钟表走时，第二重再抽掉机械功能，只留重复轮廓成为符号；景物由可识别器械滑向不可解宇宙书写。
+property_alignment: 摆锤往复对应摆钟计时；多座同步对应一排钟同刻运行；简明重复轮廓对应抽象符号；用途难解对应符号等待释读
+context_alignment: 朝歌同时痴迷计时与宇宙密码，两个喻体分别扣住动作和意义。
+narrative_function: 把巨摆变成文明预测执念的城市标志。
+transfer_rule: 双喻体可按认知层级推进：先解释看见的运动结构，再处理仍无法解释的意义余量。
+failure_boundary: 巨摆不同步、没有周期运动时钟表不成立；用途一目了然且轮廓不重复时抽象符号也失效。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 成排同步摆动且意义难解的高大巨摆
+vehicle: 竖立走时的钟表与落到地面的抽象符号
+ground: 摆锤往复对应摆钟计时；多座同步对应一排钟同刻运行；简明重复轮廓对应抽象符号；用途难解对应符号等待释读

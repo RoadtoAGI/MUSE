@@ -1,0 +1,547 @@
+[
+  {
+    "scene_id": "A1S1",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "幽灵",
+      "守夜",
+      "国家凶兆",
+      "开端"
+    ],
+    "characters": [
+      "柏纳多",
+      "佛郎西斯哥",
+      "马赛洛",
+      "赫瑞修",
+      "鬼魂"
+    ],
+    "conflict_type": "external",
+    "pov": "赫瑞修",
+    "word_count": 2323,
+    "source_chapter": "第一幕第一景：城墙上",
+    "file": "scenes/scene_A1S1.md",
+    "description": "守卫和赫瑞修在城墙上见到酷似先王的披甲鬼魂。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A1S2",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "朝会",
+      "丧婚并置",
+      "母子冲突",
+      "幽灵消息"
+    ],
+    "characters": [
+      "克劳地",
+      "葛簇特",
+      "哈姆雷特",
+      "波隆尼尔",
+      "雷尔提",
+      "赫瑞修",
+      "马赛洛",
+      "柏纳多",
+      "傅特曼",
+      "孔里尼",
+      "朝臣"
+    ],
+    "conflict_type": "personal",
+    "pov": "哈姆雷特",
+    "word_count": 3696,
+    "source_chapter": "第一幕第二景：城堡中一厅",
+    "file": "scenes/scene_A1S2.md",
+    "description": "克劳地公开整合新秩序，哈姆雷特独白暴露父丧与母嫁创伤，并得知鬼魂消息。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A1S3",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "父权管制",
+      "贞节",
+      "爱情线"
+    ],
+    "characters": [
+      "雷尔提",
+      "欧菲莉亚",
+      "波隆尼尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "欧菲莉亚",
+    "word_count": 1681,
+    "source_chapter": "第一幕第三景：波隆尼尔屋内",
+    "file": "scenes/scene_A1S3.md",
+    "description": "雷尔提和波隆尼尔先后告诫欧菲莉亚疏远哈姆雷特。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A1S4",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "鬼魂召唤",
+      "风险选择",
+      "装疯前夜"
+    ],
+    "characters": [
+      "哈姆雷特",
+      "赫瑞修",
+      "马赛洛",
+      "鬼魂"
+    ],
+    "conflict_type": "external",
+    "pov": "哈姆雷特",
+    "word_count": 1269,
+    "source_chapter": "第一幕第四景：城墙一平台上",
+    "file": "scenes/scene_A1S4.md",
+    "description": "鬼魂在城墙上召唤哈姆雷特，哈姆雷特不顾友人阻拦跟随。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A1S5",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "复仇誓约",
+      "弑兄真相",
+      "装疯策略"
+    ],
+    "characters": [
+      "哈姆雷特",
+      "鬼魂",
+      "赫瑞修",
+      "马赛洛"
+    ],
+    "conflict_type": "internal",
+    "pov": "哈姆雷特",
+    "word_count": 2847,
+    "source_chapter": "第一幕第五景：城墙上",
+    "file": "scenes/scene_A1S5.md",
+    "description": "鬼魂揭露克劳地弑兄篡位，哈姆雷特立誓复仇并要求友人守密。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A2S1",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "窥探",
+      "误判",
+      "疯癫报告"
+    ],
+    "characters": [
+      "波隆尼尔",
+      "瑞挪都",
+      "欧菲莉亚"
+    ],
+    "conflict_type": "personal",
+    "pov": "波隆尼尔",
+    "word_count": 1691,
+    "source_chapter": "第二幕第一景：波隆尼尔家中",
+    "file": "scenes/scene_A2S1.md",
+    "description": "波隆尼尔教瑞挪都刺探雷尔提，又从欧菲莉亚口中误判哈姆雷特因爱发疯。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A2S2",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "旧友刺探",
+      "戏班",
+      "捕鼠器计划",
+      "丹麦牢狱"
+    ],
+    "characters": [
+      "克劳地",
+      "葛簇特",
+      "罗生克兰",
+      "盖登思邓",
+      "波隆尼尔",
+      "傅特曼",
+      "孔里尼",
+      "哈姆雷特",
+      "戏班演员"
+    ],
+    "conflict_type": "personal",
+    "pov": "哈姆雷特",
+    "word_count": 9469,
+    "source_chapter": "第二幕第二景：宫中",
+    "file": "scenes/scene_A2S2.md",
+    "description": "克劳地召旧友刺探哈姆雷特，戏班到来使哈姆雷特设计戏中戏验证罪行。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A3S1",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "生死独白",
+      "尼姑庵",
+      "旁听",
+      "爱情试探"
+    ],
+    "characters": [
+      "克劳地",
+      "葛簇特",
+      "波隆尼尔",
+      "欧菲莉亚",
+      "罗生克兰",
+      "盖登思邓",
+      "哈姆雷特"
+    ],
+    "conflict_type": "internal",
+    "pov": "哈姆雷特",
+    "word_count": 2785,
+    "source_chapter": "第三幕第一景：宫庭内一室",
+    "file": "scenes/scene_A3S1.md",
+    "description": "克劳地和波隆尼尔安排欧菲莉亚试探，哈姆雷特在生死独白后攻击欧菲莉亚。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A3S2",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "戏中戏",
+      "捕鼠器",
+      "罪感暴露",
+      "木箫"
+    ],
+    "characters": [
+      "哈姆雷特",
+      "赫瑞修",
+      "克劳地",
+      "葛簇特",
+      "欧菲莉亚",
+      "波隆尼尔",
+      "罗生克兰",
+      "盖登思邓",
+      "戏班演员"
+    ],
+    "conflict_type": "external",
+    "pov": "哈姆雷特",
+    "word_count": 5974,
+    "source_chapter": "第三幕第二景：城堡中一室",
+    "file": "scenes/scene_A3S2.md",
+    "description": "御前戏剧重演毒杀情节，克劳地离席，哈姆雷特确认幽灵证言。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A3S3",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "祈祷",
+      "错失杀机",
+      "英格兰流放"
+    ],
+    "characters": [
+      "克劳地",
+      "罗生克兰",
+      "盖登思邓",
+      "波隆尼尔",
+      "哈姆雷特"
+    ],
+    "conflict_type": "internal",
+    "pov": "克劳地",
+    "word_count": 1824,
+    "source_chapter": "第三幕第三景：宫中",
+    "file": "scenes/scene_A3S3.md",
+    "description": "克劳地下令送哈姆雷特赴英后独自祈祷，哈姆雷特因担心其得救而放弃杀机。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A3S4",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "寝室对质",
+      "误杀",
+      "母子冲突",
+      "鬼魂再现"
+    ],
+    "characters": [
+      "葛簇特",
+      "波隆尼尔",
+      "哈姆雷特",
+      "鬼魂"
+    ],
+    "conflict_type": "personal",
+    "pov": "哈姆雷特",
+    "word_count": 3609,
+    "source_chapter": "第三幕第四景：皇后寝室",
+    "file": "scenes/scene_A3S4.md",
+    "description": "哈姆雷特在皇后寝室误杀帐幕后波隆尼尔，并迫使葛簇特直面良心。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S1",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "误杀后果",
+      "危机管控"
+    ],
+    "characters": [
+      "葛簇特",
+      "克劳地",
+      "罗生克兰",
+      "盖登思邓"
+    ],
+    "conflict_type": "external",
+    "pov": "克劳地",
+    "word_count": 722,
+    "source_chapter": "第四幕第一景：皇后寝室",
+    "file": "scenes/scene_A4S1.md",
+    "description": "葛簇特向克劳地报告波隆尼尔被杀，克劳地决定迅速送走哈姆雷特。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S2",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "藏尸",
+      "海绵讽刺",
+      "旧友背叛"
+    ],
+    "characters": [
+      "哈姆雷特",
+      "罗生克兰",
+      "盖登思邓"
+    ],
+    "conflict_type": "personal",
+    "pov": "哈姆雷特",
+    "word_count": 504,
+    "source_chapter": "第四幕第二景",
+    "file": "scenes/scene_A4S2.md",
+    "description": "罗生克兰与盖登思邓追问尸体位置，哈姆雷特以海绵讽刺他们依附国王。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S3",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "流放",
+      "死亡密令",
+      "食物腐败意象"
+    ],
+    "characters": [
+      "克劳地",
+      "哈姆雷特",
+      "罗生克兰",
+      "盖登思邓",
+      "侍从"
+    ],
+    "conflict_type": "external",
+    "pov": "克劳地",
+    "word_count": 1190,
+    "source_chapter": "第四幕第三景：宫中",
+    "file": "scenes/scene_A4S3.md",
+    "description": "克劳地审问尸体位置并送哈姆雷特赴英，独白中下令英王处死哈姆雷特。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S4",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "军事镜像",
+      "行动羞耻",
+      "浴血决心"
+    ],
+    "characters": [
+      "福丁布拉",
+      "尉官",
+      "哈姆雷特",
+      "罗生克兰",
+      "盖登思邓",
+      "挪威军队"
+    ],
+    "conflict_type": "internal",
+    "pov": "哈姆雷特",
+    "word_count": 999,
+    "source_chapter": "第四幕第四景：丹麦原野",
+    "file": "scenes/scene_A4S4.md",
+    "description": "哈姆雷特遇见福丁布拉军队，为他们为小地出兵而反照自身迟疑。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S5",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "欧菲莉亚疯歌",
+      "雷尔提暴动",
+      "复仇镜像"
+    ],
+    "characters": [
+      "葛簇特",
+      "赫瑞修",
+      "绅士",
+      "欧菲莉亚",
+      "克劳地",
+      "雷尔提",
+      "侍从",
+      "民众"
+    ],
+    "conflict_type": "external",
+    "pov": "克劳地",
+    "word_count": 3170,
+    "source_chapter": "第四幕第五景：艾辛诺尔堡中一室",
+    "file": "scenes/scene_A4S5.md",
+    "description": "欧菲莉亚疯歌泄露创伤，雷尔提率众闯宫为父复仇。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S6",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "海盗",
+      "来信",
+      "返国"
+    ],
+    "characters": [
+      "赫瑞修",
+      "侍从",
+      "海员"
+    ],
+    "conflict_type": "external",
+    "pov": "赫瑞修",
+    "word_count": 760,
+    "source_chapter": "第四幕第六景：城堡中之另一室",
+    "file": "scenes/scene_A4S6.md",
+    "description": "海员交给赫瑞修哈姆雷特来信，说明海战后哈姆雷特已返回。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A4S7",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "毒剑",
+      "毒酒",
+      "欧菲莉亚溺死",
+      "杀局成形"
+    ],
+    "characters": [
+      "克劳地",
+      "雷尔提",
+      "传信人",
+      "葛簇特"
+    ],
+    "conflict_type": "external",
+    "pov": "克劳地",
+    "word_count": 3165,
+    "source_chapter": "第四幕第七景：宫中",
+    "file": "scenes/scene_A4S7.md",
+    "description": "克劳地诱导雷尔提设计毒剑毒酒杀局，葛簇特报告欧菲莉亚溺死。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A5S1",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "墓园",
+      "约利克头骨",
+      "欧菲莉亚葬礼",
+      "坟前冲突"
+    ],
+    "characters": [
+      "掘坟工人",
+      "哈姆雷特",
+      "赫瑞修",
+      "祭司",
+      "克劳地",
+      "葛簇特",
+      "雷尔提",
+      "欧菲莉亚的棺木",
+      "朝臣"
+    ],
+    "conflict_type": "internal",
+    "pov": "哈姆雷特",
+    "word_count": 4873,
+    "source_chapter": "第五幕第一景：墓园里",
+    "file": "scenes/scene_A5S1.md",
+    "description": "哈姆雷特在墓园思辨死亡，发现欧菲莉亚葬礼后与雷尔提爆发冲突。",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "A5S2",
+    "novel": "哈姆雷特",
+    "author": "威廉·莎士比亚",
+    "genre": "复仇悲剧/宫廷政治悲剧/舞台剧",
+    "lang": "zh",
+    "tags": [
+      "决斗",
+      "毒剑毒酒",
+      "公开清算",
+      "政权交接"
+    ],
+    "characters": [
+      "哈姆雷特",
+      "赫瑞修",
+      "奥斯力克",
+      "贵族",
+      "雷尔提",
+      "克劳地",
+      "葛簇特",
+      "福丁布拉",
+      "英国使者",
+      "朝臣",
+      "军士"
+    ],
+    "conflict_type": "external",
+    "pov": "赫瑞修",
+    "word_count": 7016,
+    "source_chapter": "第五幕第二景：城堡中一厅",
+    "file": "scenes/scene_A5S2.md",
+    "description": "哈姆雷特讲述英格兰掉包国书后接受决斗，毒剑毒酒反噬并公开克劳地罪行。",
+    "has_craft_notes": false
+  }
+]

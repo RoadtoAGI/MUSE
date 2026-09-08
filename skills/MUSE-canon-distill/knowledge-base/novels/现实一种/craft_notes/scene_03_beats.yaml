@@ -1,0 +1,28 @@
+scene_id: '03'
+source_notes: scene_03_beats.md
+patterns:
+- pattern_id: 03-p1
+  beat: 松手
+  dimension: omission
+  original_move: 用两种声音替代摔落视觉
+  ai_default_failure: 会补写翻滚和头撞水泥
+  transfer_rule: 写死亡瞬间时可只给感官结果
+  quote: 一种沉闷一种清脆
+- pattern_id: 03-p2
+  beat: 找水
+  dimension: omission
+  original_move: 用找水日常推迟死亡确认
+  ai_default_failure: 会写隐约不安或恐惧
+  transfer_rule: 信息不对称时用日常动作蓄压
+  quote: 他觉得奇怪，但他没往下细想
+- pattern_id: 03-p3
+  beat: 发现血
+  dimension: camera
+  original_move: 微距跟随血与蚂蚁进入伤口
+  ai_default_failure: 会写害怕恶心等情绪
+  transfer_rule: 写恐怖时用微观事实替代评语
+  quote: 从那往外流血的地方爬了进去
+overall_traits:
+- 认知不足视角制造零度叙事
+- 死亡确认被日常动作延迟
+- 用声音和微距替代正面血腥

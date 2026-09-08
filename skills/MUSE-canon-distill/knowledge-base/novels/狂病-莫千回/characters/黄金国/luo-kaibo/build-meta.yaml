@@ -1,0 +1,26 @@
+mode: reference
+display_name: 罗凯伯
+role_slug: luo-kaibo
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml  # 仅登记跨篇人物，单篇人物 罗凯伯 取结构化依据于下列篇内 spine + phase0
+  - pipeline/黄金国/phase3_spine.yaml  # antagonistic_forces.interpersonal + arc_framework
+  - pipeline/phase0_conception.yaml  # human_antagonist_typology.luo_kaibo_type + controlling_idea candidate_a
+  - scenes/scene_HJ-S05.md
+  - scenes/scene_HJ-S06.md
+  - scenes/scene_HJ-S11.md
+  - scenes/scene_HJ-S12.md
+  - scenes/scene_HJ-S13.md
+built_at: 2026-05-29T18:38:00+08:00
+skill_version: 1
+locator_count: 14
+has_canon_ending: false
+coverage_note: |
+  双主角之一 + 反派 POV 穿插，证据密度极高。
+  locator_count=14（按 build/verify 脚本去重口径——S06:L25-L27 / S06:L47-L49 / S13:L15-L15 各被身份/弧光/边界等段复用，去重后 14 个唯一切片）。
+  声音框架跨 3 个场景（S06 失眠夜说教 / S11 替惨死开脱 / S13 妥协独白），稳定性充分。
+  边界 5 条分布在 S06/S11/S12/S13，跨 4 场景，反派本质（迷恋濒死怕真死 / 只信机器 / 手套替罪靶 / 不为死者担责 / 绝不冒险救人）均有篇内 scene locator 直接佐证。
+  弧光起点（S06 自我窒息）+ 高潮转折（S12 被逼推门承认爽）+ 终点（S13 看懂罗允 + 开始记笔记）三段齐全。
+  has_canon_ending: false —— 罗凯伯活到篇末且人格完整（留守黄金大厦、与罗允达成妥协协议、派陆思静当卫星电话联络员），无死亡 / 不可逆终局，按"宁可漏不可错"不产 canon-ending.md。
+  罗凯伯为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；archetype（富豪嗜死窥视型反派）取自 phase0 human_antagonist_typology.luo_kaibo_type，结构化字段（欲望/真相/弧光）依据 phase3_spine.yaml antagonistic_forces + arc_framework 推导，所有断言均有篇内 scene locator 佐证。

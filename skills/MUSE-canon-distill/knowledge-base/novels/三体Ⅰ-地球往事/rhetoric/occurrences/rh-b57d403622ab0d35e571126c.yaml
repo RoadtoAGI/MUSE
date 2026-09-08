@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b57d403622ab0d35e571126c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2499
+chapter: 第34章 智子
+figure_type: simile
+quote: 它们那形状像长翅的散热片渐渐发出暗红色的光
+sensory_mapping: 暗红热光；宽薄翼面；太空悬浮；对称伸展；散热
+context_fact: 质子二维展开启动，三座聚变站正向巨型加速器提供能量。
+image_mechanism: 立方发电站长出暗红色翼面，静止设备获得即将起飞般的轮廓；所谓翅膀承担的不是飞行而是把展开工程的废热扇入太空。
+property_alignment: 外伸散热板对应翅膀；薄阔形态对应散热片；三座站围绕加速器对应飞体编队；暗红发光对应高温；能量启动对应翅面逐渐亮起
+context_alignment: 质子即将从微观飞展成宏观结构，发电站先显出长翅轮廓，视觉上预演维度展开。
+narrative_function: 给远距离能源设施提供可辨轮廓，并以红热变化显示启动进程。
+transfer_rule: 以翅形写设备散热结构时，应匹配主体两侧展开、薄面比例、热交换功能和启动后的光热变化。
+failure_boundary: 散热器为内部管道、外形厚重无翼面或设备没有显著排热时，长翅形象只剩拟物装饰。
+quality_assessment: functional
+confidence: 0.97
+review_status: reviewed
+tenor: 围绕太空加速器、外伸散热结构并因高功率运行而红热的三座聚变发电站
+vehicle: 主体两侧伸出宽薄翼片的散热器，翼面升温后发出暗红光
+ground: 发电站外伸薄面对应翅形散热片；热量排放对应散热器；红光对应高温金属

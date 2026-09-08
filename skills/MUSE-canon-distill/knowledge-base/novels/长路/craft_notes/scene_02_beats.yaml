@@ -1,0 +1,35 @@
+scene_id: '02'
+source_notes: scene_02_beats.md
+patterns:
+- pattern_id: 02-p1
+  beat: 入口对白
+  dimension: omission
+  original_move: 纯对白建立记忆与恐惧拉锯
+  ai_default_failure: 先写怀旧情绪和屋外氛围
+  transfer_rule: 空间冲突可先用声音开场
+  quote: 我怕
+- pattern_id: 02-p2
+  beat: 触摸
+  dimension: camera
+  original_move: 拇指触裂孔，时间直接折叠
+  ai_default_failure: 写他想起过去的过渡句
+  transfer_rule: 回忆用身体触旧物触发
+  quote: 拇指拂过壁炉台
+- pattern_id: 02-p3
+  beat: 被攫住的人
+  dimension: camera
+  original_move: 改由孩子看父亲被幻影攫住
+  ai_default_failure: 展开父亲童年闪回画面
+  transfer_rule: 角色盲区交给旁观者看见
+  quote: 看幻影攫住他
+- pattern_id: 02-p4
+  beat: 重复三声
+  dimension: verb
+  original_move: 怕字重复并加真的递增
+  ai_default_failure: 用哭喊动作放大恐惧
+  transfer_rule: 儿童恐惧可用微小加词递增
+  quote: 我真的很怕
+overall_traits:
+- 触摸旧物代替闪回
+- 孩子视角揭示父亲盲区
+- 重复一词完成情绪递增

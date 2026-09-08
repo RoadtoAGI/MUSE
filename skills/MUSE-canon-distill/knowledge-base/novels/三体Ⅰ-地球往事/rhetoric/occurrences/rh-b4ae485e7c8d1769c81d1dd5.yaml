@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b4ae485e7c8d1769c81d1dd5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1112
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 可以说，是红岸的眼睛
+sensory_mapping: 视觉器官；远距探测；空间定位；系统分工
+context_fact: 监听部监视敌方太空通讯，与测控部门配合锁定轨道，发射部据此实施打击。
+image_mechanism: 庞大红岸系统被组装成一具行动身体，监听部先睁眼发现并定位目标，攻击部分随后按视觉信息出手。
+property_alignment: 接收无线信号对应视网膜收光；识别通讯内容对应视觉辨物；计算轨道位置对应目光定位；为攻击提供依据对应眼睛引导肢体动作
+context_alignment: 发射部已被称为攻击主体，眼睛补齐系统的感知—行动链，也便于非专业人员理解部门关系。
+narrative_function: 一句话概括监听部核心作用，并提示叶文洁进入更关键的信息位置。
+transfer_rule: 以器官比拟系统模块时，应匹配输入类型、信息处理、向其他模块提供的结果和整体行动闭环。
+failure_boundary: 模块只被动存档、不能识别定位或信息不参与后续行动时，眼睛会夸大感知与导航功能。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 探测、监听并定位敌方航天器的红岸监听部
+vehicle: 为身体接收远处光线、识别目标并提供方位的眼睛
+ground: 监听系统接收外部信号对应眼睛接收光；锁定航天器位置为攻击提供依据对应视觉为身体行动导航

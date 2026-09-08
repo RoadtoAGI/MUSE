@@ -1,0 +1,24 @@
+mode: reference
+display_name: 李荣
+role_slug: li-rong
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/死亡奔赴/phase3_spine.yaml  # 结构化依据（antagonistic_forces.interpersonal / theme_hooks 双线共题 / arc_framework）
+  - pipeline/phase0_conception.yaml      # human_antagonist_typology 语境 / controlling_idea（灰色男主谱系定位）
+  - scenes/scene_SB-S06.md
+  - scenes/scene_SB-S07.md
+  - scenes/scene_SB-S08.md
+  - scenes/scene_SB-S09.md
+note: "本系列单篇人物未登记于 phase2_character.yaml（仅登跨篇）；结构化字段取自篇内 phase3_spine.yaml + phase0。"
+built_at: 2026-05-29T17:50:45+08:00
+skill_version: 1
+locator_count: 10
+has_canon_ending: false
+coverage_note: |
+  声音框架跨 3 个场景（S09 撞死路人后的生存算法陈述 / S09 驾校自白 / S06 试飞员台词命令），稳定性充分。
+  弧光起点（S07 算法求生）+ 转折（S08 失神 / S09 自白）+ 终点（S09 留枪）三段齐全，仅描内在转变。
+  性格真相有压力情境直接佐证（S08 熟人 vs 陌生人死亡落差 / S09 留枪 / S07 减压闷杀决断）。
+  边界 4 条均为极端检验场景（黄志祥被抓不能进 / 撞死路人 / 一击毙命战术 / 家人第一序位），无纯日常单点外推。
+  has_canon_ending=false：李荣在 SB-S09 驾校与岳子安分别时人格完整、活着上路（line 411 线断），原文未明示其生死，依"宁可漏不可错"不产 canon-ending；其跨篇可能性（前试飞员机长身份独特）待其他篇章证据。
+  李荣为本篇高密度配角（Arc 2-4 引路人），所有断言均有篇内 SB-S* scene locator 佐证。

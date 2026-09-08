@@ -1,0 +1,14 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 紫绮裘揭示
+  dimension: info_density
+  original_move: 用物件流转画出人物关系网
+  ai_default_failure: 把紫袍只写成贵重赠物
+  transfer_rule: 物件可承载多方关系认证
+  quote: 即是李郎所持赠物
+overall_traits:
+- 物件是关系拓扑节点
+- 认证逐层叠加
+- 重要揭示反应被压缩

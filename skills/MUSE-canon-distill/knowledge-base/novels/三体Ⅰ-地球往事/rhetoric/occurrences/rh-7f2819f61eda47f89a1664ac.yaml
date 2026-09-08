@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7f2819f61eda47f89a1664ac
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1607
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 病入膏肓的人类文明
+sensory_mapping: 病体；内部病灶；疼痛衰弱；医疗不可达
+context_fact: 聚会者先列举人类丑恶和阿兹特克暴力，哲学家以此论证任何外星介入都会有益。
+image_mechanism: 整个人类文明被收进一具衰败身体，罪恶从表面创伤钻入脏腑深处；改革药物被挡在外面，只剩外部力量进行激烈处置。
+property_alignment: 文明体系对应人体；长期制度缺陷对应慢性疾病；问题深入结构对应病入膏肓；自我改革失败对应药力不达；危机恶化对应病体走向死亡
+context_alignment: 女作家刚以文学解剖刀揭露丑恶，诊断顺势升级为绝症，为欢迎三体“治疗”建立貌似完整的医疗逻辑。
+narrative_function: 把对人类的失望绝对化为绝症判断，为外星介入提供道德正当性。
+transfer_rule: 用绝症写文明危机时，应说明病灶所在、既有治疗为何失效和恶化证据，同时保留诊断者可能误判。
+failure_boundary: 社会仍有有效改革、问题只属局部，或诊断者只列负面个案时，病入膏肓会把悲观立场伪装成医学确定性。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 老哲学家认为人类文明的道德和制度缺陷已深入核心，无法靠内部改革挽救
+vehicle: 疾病侵入古人所称药力难达的膏肓部位，病人进入无可救药的晚期
+ground: 文明缺陷覆盖深层结构对应疾病侵入身体深处；自我完善无力对应常规治疗已无法触及病灶

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-788c523ed6bcf675e6bdf9ec
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L433
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 整个躯体如一根熔化的蜡烛在变软变薄
+sensory_mapping: 视觉；触觉；形变
+context_fact: 汪淼首次近看三体人主动脱水。
+image_mechanism: 人体轮廓保持可认，同时支撑、厚度和内部液体依次流失，像蜡烛从立柱缓慢坍成薄层。
+property_alignment: 身体软化塌陷对应蜡体融化失形；液体流出对应熔蜡外流；立体变薄对应蜡烛体积缩减
+context_alignment: 连续变化而非结果相似，帮助读者预演陌生生理过程。
+narrative_function: 为脱水规则提供清晰视觉机制。
+transfer_rule: 描写不可能的形变时，找一个读者熟悉且具有相同连续阶段的材料过程，并保持变化顺序。
+failure_boundary: 瞬间折叠、破裂或仅失重不流失液体的身体不符合熔蜡的渐软和外流。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 追随者排水后逐渐塌软变薄的身体
+vehicle: 受热熔化、失去支撑的蜡烛
+ground: 身体软化塌陷对应蜡体融化失形；液体流出对应熔蜡外流；立体变薄对应蜡烛体积缩减

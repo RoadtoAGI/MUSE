@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4a43b21ce3956d454c88318b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1606
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 你这是颠倒黑白
+sensory_mapping: 黑白视觉；翻转动作；强烈对比；方向倒置
+context_fact: 哲学家强调西班牙入侵阻止阿兹特克扩张，副总裁则坚持入侵者本是强盗和凶手。
+image_mechanism: 复杂历史评价被压成一块黑白分界板，哲学家的论证像把板子翻面，让原本标恶的一侧突然标善；指责因此获得绝对、醒目的视觉冲突。
+property_alignment: 善恶两极对应白黑两色；侵略暴行对应黑色；称其促进文明对应把黑翻白；判断反向对应颜色位置颠倒
+context_alignment: 聚会正在进行价值筛选，黑白二分符合激烈立场对撞，也暴露双方都在压缩殖民史复杂性。
+narrative_function: 用一句熟语把分歧升级为道德底线冲突，并触发对异议者的淘汰。
+transfer_rule: 用颠倒黑白指控论证时，应存在相对清晰的价值两极，并指出对方具体把哪一行为从哪极移到哪极。
+failure_boundary: 事实与价值高度混合、双方只是权衡不同后果时，黑白颠倒会把复杂争论强制二元化。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: IT副总裁指责哲学家把西班牙侵略者美化为文明促进者，倒置善恶判断
+vehicle: 将视觉上泾渭分明的黑色与白色互换名称或位置
+ground: 把恶行说成善果对应把黑称白；价值判断方向完全相反对应两种对立颜色位置倒换

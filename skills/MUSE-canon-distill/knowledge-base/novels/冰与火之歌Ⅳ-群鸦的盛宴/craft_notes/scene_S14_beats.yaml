@@ -1,0 +1,35 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 守誓剑被指控
+  dimension: camera
+  original_move: 锁定剑柄物证，反转守誓含义
+  ai_default_failure: 让辩护完整展开再被驳回
+  transfer_rule: 关系反转时先重命名关键物件
+  quote: 一只黄金狮子头
+- pattern_id: S14-p2
+  beat: 石心夫人露面
+  dimension: camera
+  original_move: 逐步揭脸，把恐怖转成悲伤
+  ai_default_failure: 只强调复活者恐怖和尖叫反应
+  transfer_rule: 怪物揭露可用旧日美好加深悲剧
+  quote: 她的脸曾经如此健康美丽
+- pattern_id: S14-p3
+  beat: 剑还是绳子
+  dimension: omission
+  original_move: 省略内心挣扎，只留拒绝选择
+  ai_default_failure: 展开想到誓言和詹姆的长段内心
+  transfer_rule: 两难极纯时压缩解释保留硬度
+  quote: 我不会作这样的选择
+- pattern_id: S14-p4
+  beat: 被截断的词
+  dimension: omission
+  original_move: 在最高张力处不写出那个词
+  ai_default_failure: 直接写明选择并消解悬念
+  transfer_rule: 开放结尾可停在动作已不可逆处
+  quote: 她嘶喊出一个词
+overall_traits:
+- 信息释放逐节拍加码不回退
+- 间接转述让命令像审判
+- POV把恐怖转为悲伤

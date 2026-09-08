@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3b46255eb89e424fdd4a9bcb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2110
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 停下来我会崩溃的
+sensory_mapping: 支架松脱；结构倒塌；碎块散落；失去承重；突然失稳
+context_fact: 树林正被砍光，他有财力制止却认定文明整体无可挽救，只能继续修剪无意义的树枝。
+image_mechanism: 他的精神像靠最后一根动作梁撑住的建筑，修枝节奏持续传递承重；斧头一停，关于使命和生活的全部结构便会同时塌下。
+property_alignment: 修枝动作对应支柱；生活使命对应建筑框架；文明绝望对应基础开裂；停手对应撤撑；精神失控对应坍塌；继续无意义劳动对应临时加固
+context_alignment: 外部树林正在被逐棵放倒，内部精神也面临倒塌，崩溃词把生态毁坏映入人物身体。
+narrative_function: 解释他为何坚持无效劳动，并把理想破产转成即时心理危险。
+transfer_rule: 用崩溃写心理状态时，应明确承重支点、既有裂损、撤撑触发和失稳后的行动能力丧失。
+failure_boundary: 人物只是短暂难过仍能停止休息、或行动本身加重病情时，结构坍塌会夸大依赖程度。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 伊文斯若停止机械修枝，就会失去维持心理稳定的行动支点而精神瓦解
+vehicle: 承重结构失去支撑后突然坍塌，各部分散落并无法维持原形
+ground: 持续劳动对应结构支撑；停止动作对应撤去支柱；心理失控对应整体坍塌；信念破灭使内在失去连接

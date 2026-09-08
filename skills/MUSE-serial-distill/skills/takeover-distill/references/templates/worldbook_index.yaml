@@ -1,0 +1,8 @@
+# 接管世界册索引：按原文与所需类型选择分册，不预填题材事实。
+schema_version: 1
+sections: []
+#   - section_id: factions
+#     file: factions.md
+#     title: 势力与关系
+#     mutability: append         # axiom | append；沿本次确认的规则归属
+#     summary_line: 该册原文支持的内容摘要

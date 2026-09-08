@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a245a98fe1ba6dff24717a28
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1368
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 进展可以说是突破性的
+sensory_mapping: 撞击；屏障破裂；空间前进
+context_fact: 世界其他研究团队只找到三四种稳定轨迹，魏成已找到一百多种并追求全状态预测。
+image_mechanism: 领域既有能力被竖成一道墙，少数特解停在墙前；进化算法集中计算力量穿开缺口，后面显出大量此前不可达的轨迹。
+property_alignment: 研究瓶颈对应坚固屏障；新算法对应破壁工具；结果数量跃升对应进入墙后新空间；领域边界改变对应缺口不可忽略
+context_alignment: 紧邻明确国际对比数据，突破并非空泛褒奖，有三四种对一百多种的尺度支撑。
+narrative_function: 校准魏成成果价值，也说明申玉菲为何不惜威胁其生命。
+transfer_rule: 用突破评价成果时，应指出原屏障、具体破壁方法和进入新空间后的可量化差异。
+failure_boundary: 成果只在原路线增量改进、没有改变可达范围或对比基线不明时，“突破”会退化成宣传词。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 魏成用进化算法找到百余种三体稳定状态，相对领域现状的跨级成果
+vehicle: 冲破阻挡前进的坚固壁垒并进入新空间
+ground: 长期只能获得少数特解对应研究被障碍限制；成果数量和方法改变上限对应穿破障碍进入更广区域

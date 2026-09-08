@@ -1,0 +1,152 @@
+{
+  "novel": "月亮与六便士",
+  "nominations": [
+    {
+      "pattern_name": "召唤吞噬生活",
+      "dramatic_function": "把人生转折写成不可抗驱力，而非理性选择或励志觉醒。",
+      "applicability": "适合艺术、信仰、使命型主角；若主角仍频繁权衡利弊会失效。",
+      "reuse_candidates": [
+        "伦敦证券经纪人出走",
+        "南太平洋画家原型",
+        "具体绘画职业"
+      ],
+      "tags": [
+        "使命召唤",
+        "创作驱力",
+        "反浪漫化"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "一句「我要画画」瓦解全部道德追问。"
+        },
+        {
+          "scene_id": "S03b",
+          "note": "癌细胞、杜鹃、涂油摔跤手构成不可抗驱力系统。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3
+      ]
+    },
+    {
+      "pattern_name": "旁观拼图天才",
+      "dramatic_function": "让核心人物保持不可知，通过多名见证者拼出其影响力。",
+      "applicability": "适合神秘型强人物；若故事必须贴身展示内心会失效。",
+      "reuse_candidates": [
+        "毛姆式作家叙述者",
+        "巴黎与塔希提行踪",
+        "画家传记体外壳"
+      ],
+      "tags": [
+        "旁观视角",
+        "认知空白",
+        "多声部转述"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S11",
+          "note": "叙述者看画后只能用朝圣者比喻接近理解。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "终极杰作由不懂画的医生反应间接证明。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "善意压垮边界",
+      "dramatic_function": "把善良写成无意识的压力源，制造非恶人造成的悲剧。",
+      "applicability": "适合关系伦理戏；若施压者明显恶意会失去复杂性。",
+      "reuse_candidates": [
+        "收留病中画家",
+        "具体夫妻三角关系",
+        "勃朗什身世"
+      ],
+      "tags": [
+        "善意暴力",
+        "道德绑架",
+        "关系悲剧"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S07",
+          "note": "施特洛夫用救助逻辑迫使妻子越过恐惧边界。"
+        },
+        {
+          "scene_id": "S08",
+          "note": "边界被突破后，关系灾难迅速爆发。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "看不懂但被击中",
+      "dramatic_function": "表现作品力量时不解释意义，让理性困惑与身体震动并存。",
+      "applicability": "适合艺术、宗教、文本启发场景；若需要教学说明会失效。",
+      "reuse_candidates": [
+        "三十幅阁楼油画",
+        "水果静物画色彩细节",
+        "西斯廷教堂比较"
+      ],
+      "tags": [
+        "审美震动",
+        "观看反应",
+        "不可言说"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S11",
+          "note": "技法笨拙与不可名状力量并存。"
+        },
+        {
+          "scene_id": "S16a",
+          "note": "色彩描写转化为心理和文明联想。"
+        }
+      ],
+      "phase_affinity": [
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "杰作空白镜像",
+      "dramatic_function": "越重要的作品越少正面描写，通过见证者反应放大想象。",
+      "applicability": "适合终极作品或神秘真相；若读者必须获得准确信息会失效。",
+      "reuse_candidates": [
+        "麻风病房壁画",
+        "死后焚毁遗作",
+        "失明画家结局"
+      ],
+      "tags": [
+        "有意空白",
+        "镜子技法",
+        "高潮揭示"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S15",
+          "note": "壁画几乎不正面描写，只写医生被击垮。"
+        },
+        {
+          "scene_id": "S16a",
+          "note": "焚毁过程平淡处理，保留不可描述的空白。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

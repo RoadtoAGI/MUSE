@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5bde41dc04994280a7fc9a22
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1069
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 眼前这位历经沧桑变得平静淡泊的老人，和那位无知而无畏大史，成了他摇摇欲坠的精神世界的两根支柱
+sensory_mapping: 建筑结构；重量；平衡；垂直支撑
+context_fact: 倒计时和宇宙威胁使汪淼恐惧，大史用行动逻辑鼓励他，叶文洁则以平静和长者经验安慰他。
+image_mechanism: 抽象心理被建成一座失去稳定的房屋，恐惧转为向下和侧向的坍塌力；两个性格相反的人各站一处承重，使结构暂时保持。
+property_alignment: 精神濒临崩溃对应建筑摇摇欲坠；大史与叶文洁的帮助对应两根独立承重柱；二人作用互补对应两点支撑提高稳定性；暂时安定对应结构尚未倒下
+context_alignment: 二人一个无畏、一个淡泊，差异使“两根”具有真实分工；汪淼刚从外部威胁中逃到叶家，支撑也是眼下可感的安全。
+narrative_function: 归纳汪淼此刻的依赖关系，并为叶文洁长篇讲述赋予救援意味。
+transfer_rule: 用支柱写人物支持时，应说明被支撑结构的失稳方式、每个支持者承担的不同力量，以及少一根会造成何种倾斜。
+failure_boundary: 人物只是提供短暂陪伴、彼此作用重复或主体精神并未失稳时，两根承重柱会夸大依赖和结构必要性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁和大史分别给予汪淼的安定、解释与行动支持
+vehicle: 从两处承重、阻止一座晃动建筑坍塌的两根支柱
+ground: 汪淼精神濒临崩溃对应建筑摇晃将倒；两个人提供不同支撑对应两根柱子共同分担重量

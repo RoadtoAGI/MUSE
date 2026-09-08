@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ffa850808587fa4e75d469f2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2106
+chapter: 第28章 伊文斯
+figure_type: analogy
+quote: 本来村里是想过几年再收林子的，猪养肥了再杀嘛
+sensory_mapping: 幼猪增重；等待成熟；屠刀落下；肉材收获；算计时机
+context_fact: 南圪村提前来砍树，原村庄为避免失去份额也加入，法律和干部共同参与掠夺。
+image_mechanism: 活树林被改写成圈中牲畜，树木每长一圈年轮都像猪增一层肉；所谓保护期只是等待更值钱的宰杀时刻。
+property_alignment: 树苗对应幼猪；生长增材对应育肥增肉；村里等待对应饲养周期；成熟砍伐对应屠宰；木材利益对应肉食收益；外村抢砍对应提前夺食
+context_alignment: 伊文斯把树林当燕子伊甸园，村民把同一生命空间当待宰牲畜，两套价值观直接冲突。
+narrative_function: 揭示造林被默许的真实动机，并使砍伐的预谋性比贫困借口更清楚。
+transfer_rule: 用养肥再杀类比资源利用时，应有生长期、收益随时间增加、产权预期和计划中的毁灭性收割。
+failure_boundary: 经营目标是可持续采收、砍伐后补种，或村民此前并无占有计划时，屠宰模型会过度断言恶意。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 村里从一开始就把伊文斯免费种植的树林视为待成熟后统一砍伐获利的资源
+vehicle: 先喂养幼猪使其长大增重，再选择最有收益的时点宰杀取肉
+ground: 幼树成长对应猪养肥；等待几年对应育肥期；砍树获材对应屠宰取肉；不投入却占有成果对应饲养者收益预期

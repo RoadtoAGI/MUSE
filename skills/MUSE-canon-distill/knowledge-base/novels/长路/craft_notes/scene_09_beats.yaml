@@ -1,0 +1,35 @@
+scene_id: 09
+source_notes: scene_09_beats.md
+patterns:
+- pattern_id: 09-p1
+  beat: 孩子的沉默胜利
+  dimension: omission
+  original_move: 孩子只陈述事实，等父亲投降
+  ai_default_failure: 写父子反复恳求争吵
+  transfer_rule: 道德压力可由等待完成
+  quote: 好吧，他说
+- pattern_id: 09-p2
+  beat: 喂食
+  dimension: camera
+  original_move: 锁定递罐动作，只用一次兀鹰比喻
+  ai_default_failure: 堆老人颤抖落泪细节
+  transfer_rule: 照料场景用动作和一处比喻
+  quote: 来，他轻声说
+- pattern_id: 09-p3
+  beat: 哲学对话
+  dimension: omission
+  original_move: 艾利只给结论，不给论证链
+  ai_default_failure: 写成前提推理结论演讲
+  transfer_rule: 哲学入戏要让角色先闪躲
+  quote: 没有上帝
+- pattern_id: 09-p4
+  beat: 离别
+  dimension: camera
+  original_move: 父亲回头，孩子始终不回头
+  ai_default_failure: 解释孩子为何不回头
+  transfer_rule: 分离可用视线方向对位
+  quote: 孩子始终没有回头
+overall_traits:
+- 三声部对话策略分明
+- 善良先行动而不辩论
+- 哲学观点包在自保中

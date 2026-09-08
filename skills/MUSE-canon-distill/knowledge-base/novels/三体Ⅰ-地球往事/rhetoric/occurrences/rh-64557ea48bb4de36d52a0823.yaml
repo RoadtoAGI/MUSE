@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-64557ea48bb4de36d52a0823
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1765
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 我们的家园仍在冤冤相报的泥潭中越陷越深
+sensory_mapping: 黏稠触觉；身体下陷；污泥；阻力；呼吸高度降低
+context_fact: 拉菲尔捐出亡子肾脏帮助巴勒斯坦女孩，许多人也真诚促和，但民族冲突仍延续。
+image_mechanism: 家园的土地液化成黏泥，每次复仇都像慌乱蹬腿，把双方拖得更低；个体善举是短暂伸出的手，却够不到稳固岸边。
+property_alignment: 长期民族冲突对应泥潭；双方互相报复对应挣扎扰泥；冲突升级对应越陷越深；个人和平努力对应试图抓取支点；绝望对应看不到岸
+context_alignment: 拉菲尔提供具体牺牲仍无效的证据，泥潭因此不是空泛悲观，而是善意难以突破结构循环的体验。
+narrative_function: 解释和平主义者如何被反复失败拖入极端主义，并支撑其揭露降临派。
+transfer_rule: 用泥潭写冲突循环时，应说明自我强化动作、下沉指标、外部支点缺失和退出为何困难。
+failure_boundary: 冲突正稳定缓和、和平机制已能阻断报复链，或困难主要来自单次外袭时，越陷越深会忽略变化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 以色列人与巴勒斯坦人的长期报复循环持续加剧，个人和平努力难以改变冲突
+vehicle: 人陷入黏稠深泥，越挣扎越向下沉，逐渐失去自救能力
+ground: 报复引发新报复对应挣扎搅动泥浆使身体下沉；和平行动无法脱困对应陷入者找不到坚实支点

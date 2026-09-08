@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e646652e1145ca602541c739
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L940
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 是表现被科技强奸之前的美好生活
+sensory_mapping: 身体；暴力；痛觉想象；侵入；道德厌恶；时间前后
+context_fact: 大史转述近期电影以青山绿水、男耕女织美化前技术生活的导演说法。
+image_mechanism: 历史变化被压成一场有施害者和受害身体的单次侵入，“之前”在时间线上划出纯洁与受辱的断面；科技由复杂制度工具被人格化成暴徒。
+property_alignment: 科技被设为强势施害者对应强暴者；传统生活被设为纯洁受害者对应遭侵害身体；现代化改变生活对应暴力侵入；对过去的怀旧对应追忆受害前状态；变化被判不可逆有害对应创伤难复原
+context_alignment: 措辞属于片中导演的极端反科技宣传，强烈道德定性正是大史所识别的异常舆论信号。
+narrative_function: 暴露反科技叙事如何以身体暴力抢先封死复杂评价，并为幕后组织假说提供证据。
+transfer_rule: 分析暴力隐喻时，应标明施害者、受害者、侵入动作、不可逆后果和说话立场，检视它怎样重排道德判断。
+failure_boundary: 科技影响包含选择、收益、抵抗和差异，性暴力框架会抹平复杂因果，也可能借真实创伤制造廉价冲击，不宜作为中性解释。
+quality_assessment: strained
+confidence: 0.99
+review_status: reviewed
+tenor: 影片导演把科技进入传统生活描绘成对原初美好状态的强制破坏
+vehicle: 强者以性暴力侵犯无辜者身体并造成不可逆创伤
+ground: 科技被设为强势施害者对应强暴者；传统生活被设为纯洁受害者对应遭侵害身体；现代化改变生活对应暴力侵入；对过去的怀旧对应追忆受害前状态；变化被判不可逆有害对应创伤难复原

@@ -1,0 +1,28 @@
+scene_id: S21
+source_notes: scene_S21_beats.md
+patterns:
+- pattern_id: S21-p1
+  beat: 幻视
+  dimension: omission
+  original_move: 不给幻象画面不给闪回，一生压进六字呼告
+  ai_default_failure: 让临死反派觉悟原来恨皆因爱
+  transfer_rule: 反派临终不给认知升级，执念到底更悲
+  quote: 展元，你好狠心
+- pattern_id: S21-p2
+  beat: 歌声替代惨叫
+  dimension: verb
+  original_move: 「站直」把焚烧从痛苦改写为仪式，以歌代叫
+  ai_default_failure: 描写火焰灼肤的剧痛与挣扎
+  transfer_rule: 死亡可写成声音渐弱，唱的还是借来的词
+  quote: 声若游丝，悄然而绝
+- pattern_id: S21-p3
+  beat: 黄蓉抱郭襄拜火
+  dimension: verb
+  original_move: 让婴儿的手行拜礼，致谢不含道德判断
+  ai_default_failure: 写黄蓉感慨万千的内心铺垫
+  transfer_rule: 盖棺定论交给一个具体动作而非总结
+  quote: 拿着郭襄的两只小手，向火焰中拜了几拜
+overall_traits:
+- 一生反复唱的歌在死亡处闭环且未唱完
+- 旁观者身体反应替代形容词
+- 评议只借「误于情障」定性不做因果分析

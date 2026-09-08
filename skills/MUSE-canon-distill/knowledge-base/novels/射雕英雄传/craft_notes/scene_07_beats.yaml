@@ -1,0 +1,42 @@
+scene_id: '07'
+source_notes: scene_07_beats.md
+patterns:
+- pattern_id: 07-p1
+  beat: 封闭燃船环境出招
+  dimension: camera
+  original_move: 环境事件以武招语法按拍插入交手序列，不分敌我，亲手制造偷袭窗口
+  ai_default_failure: 开场渲染一次火势后环境退成背景布，不再参与战局
+  transfer_rule: 封闭空间每隔数拍让环境主动出招且每招改写战局
+  quote: 带动一根粗大的铁链从空中横飞过来
+- pattern_id: 07-p2
+  beat: 偷袭瞬间
+  dimension: omission
+  original_move: 背信一击零镜头，只写受袭者体感与滞后视线，事后用凶器物证补认
+  ai_default_failure: 切施袭者视角给慢镜头，写狞笑武器特写与受袭者惨呼
+  transfer_rule: 偷袭从受袭者体感快写，攻击动作省略，物证事后补认
+  quote: 突然间后颈微微一麻
+- pattern_id: 07-p3
+  beat: 偷袭瞬间
+  dimension: verb
+  original_move: 最致命一击用最软动词，与救人代价的硬感官刻意倒挂
+  ai_default_failure: 给致命一击堆硬动词与痛感渲染，轻重失衡
+  transfer_rule: 背叛落点写轻，善意代价写重，轻重倒挂出冲击力
+  quote: 只烫得只手嗤嗤声响，肉爲之焦
+- pattern_id: 07-p4
+  beat: 施袭者心理后置
+  dimension: camera
+  original_move: 偷袭前施袭者内心全黑箱，得手后才开闸且喜惧并置，补刀用谚语收口
+  ai_default_failure: 动手前铺心理挣扎自我说服或狠话预告，泄掉突袭性
+  transfer_rule: 背信者心理事后开闸，恶人只算利害账不忏悔
+  quote: 欧阳锋偷袭得手，心下喜不自胜
+- pattern_id: 07-p5
+  beat: 战力跌落台阶
+  dimension: info_density
+  original_move: 余威震断副桅到迷糊未运功再到喷血跌倒，分级因果链加叙述者补毒液账
+  ai_default_failure: 一击秒杀宗师或含糊写身受重伤，无台阶无定价
+  transfer_rule: 宗师重创分台阶写，每级有因果并补为何不死的账
+  quote: 受到欧阳锋掌击时竟未运功抵御
+overall_traits:
+- 背信一击给受袭者：体感先行、物证补认、施袭心理后置
+- 战力跌落分级有因果，补账使重创可信并定价后文
+- 封闭空间是第三名战斗者，偷袭窗口由环境与善意共同制造

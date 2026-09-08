@@ -1,0 +1,297 @@
+schema_version: rhetoric-learning-exemplars/v1
+status: source_checked
+scope_policy: representative_learning_set
+scope_manifest: corpus_scope.yaml
+scope_manifest_sha256: 967f11660f288b9ffa3b0255e84fd6c20acffcaddba0a1bef66cf0e0e7dc3bf2
+scope_note: >-
+  本文件从六部本地名著版本中提取可迁移修辞卡；所列卡片均已回看原文。
+  六部作品的穷尽扫描状态为 open。行号与版本哈希见 rhetoric/corpus_scope.yaml。
+card_count: 12
+
+cards:
+  - card_id: aq-001-wolf-gaze
+    work: 阿Q正传
+    author: 鲁迅
+    source_locator: full_text.md:L620-L622
+    chapter: 第九章 大团圆
+    figure_type: extended_metaphor
+    quote: 这些眼睛们似乎连成一气，已经在那里咬他的灵魂。
+    tenor: 看客围绕死囚的集体凝视及其对阿Q的精神侵入
+    vehicle: 跟踪猎物、以鬼火般眼睛锁定并撕咬猎物的狼群
+    vividness:
+      sensory_channels: [视觉, 触觉, 动作]
+      mechanism: 目光先变成狼眼的冷光，再获得牙齿与咀嚼动作，抽象的围观压力因此成为逼近身体的捕食过程。
+    aptness:
+      mappings:
+        - 看客一路跟车对应饿狼不远不近地跟定猎物。
+        - 看客等待行刑快感对应狼对血肉的欲望。
+        - 目光咀嚼阿Q的话并继续咬灵魂，对应群体先消费表演、再吞噬人格。
+      context_fit: 前文回忆真实饿狼，现实目光沿同一恐惧路径进入阿Q意识，符合临刑者的限知感受。
+      failure_boundary: 该框架表达围观者的消费性和持续跟随；普通的注视缺少捕食意图时，狼群喻体会夸大关系。
+    narrative_function: 把分散的群众合成一个捕食主体，并让阿Q的精神胜利法在死亡前第一次失效。
+    transfer_rule: 群体压力可通过“锁定—跟随—接触后果”的动作链具象化；各动作都要对应现场行为。
+    quality_assessment: exemplary
+
+  - card_id: aq-002-dust-disintegration
+    work: 阿Q正传
+    author: 鲁迅
+    source_locator: full_text.md:L624
+    chapter: 第九章 大团圆
+    figure_type: simile
+    quote: 觉得全身彷佛微尘似的迸散了。
+    tenor: 阿Q在临刑恐惧中的身体感和主体崩解
+    vehicle: 受冲击后向四方迸散的微尘
+    vividness:
+      sensory_channels: [视觉, 动觉, 尺度]
+      mechanism: 完整身体骤然缩成无数不可收拢的颗粒，一个“迸”字把静态尘埃变成爆散动作。
+    aptness:
+      mappings:
+        - 身体失去整体感对应尘粒彼此分离。
+        - 生命即将中断对应微尘无法重新聚合。
+        - 个体在看客和国家机器前的微小对应尘粒尺度。
+      context_fit: 句子停在主观感受，随后叙述立即转向围观舆论，主体从文本中消失与“迸散”相接。
+      failure_boundary: 这个喻体适合骤然、彻底的瓦解；缓慢疲惫或普通悲伤缺少爆散动力。
+    narrative_function: 用一个瞬时图像终止主人公意识，并完成从“人”到被舆论抹除之物的价值坠落。
+    transfer_rule: 写主体崩解时，让物质状态、运动方向和后续叙事消失保持一致。
+    quality_assessment: exemplary
+
+  - card_id: reality-001-blood-jam
+    work: 现实一种
+    author: 余华
+    source_locator: 现实一种.txt:L103
+    chapter: 第99-110行
+    figure_type: focalized_simile
+    quote: 望着这摊在阳光下亮晶晶的血，使他想起某一种鲜艳的果浆。
+    tenor: 孩子皮皮眼中的一摊血
+    vehicle: 颜色鲜艳、表面发亮的果浆
+    vividness:
+      sensory_channels: [视觉, 味觉, 触觉]
+      mechanism: 亮度和颜色先触发食物联想，随后舔舐动作把视觉误认推进到舌头的粗糙、麻木与出血。
+    aptness:
+      mappings:
+        - 血在阳光下的光泽对应果浆的湿亮表面。
+        - 鲜红颜色对应儿童熟悉的甜味食物颜色。
+        - 皮皮不理解复仇仪式，对应把危险材料归入可食用经验。
+      context_fit: 喻体严格属于儿童感知，成人读者同时知道对象是血，认知差制造持续的恐怖反差。
+      failure_boundary: 该句记录误认，不赞美血的味道；脱离儿童限知视角使用“果浆”会把暴力写成猎奇装饰。
+    narrative_function: 让读者同时经历诱人的表面和真实伤害，并把成人复仇的残酷压到儿童感官上。
+    transfer_rule: 限知误认要选角色经验中最可能的相邻类别，并让后续动作检验这个误认的代价。
+    quality_assessment: exemplary
+
+  - card_id: reality-002-body-explosion-chain
+    work: 现实一种
+    author: 余华
+    source_locator: 现实一种.txt:L104
+    chapter: 第99-110行
+    figure_type: extended_simile
+    quote: 她的皮肉被炸到墙壁上以后就像标语一样贴在上面，而她的已经断得差不多了的骨头则像一堆乱柴堆在地上。
+    tenor: 老太太想象中被腐烂物填满并爆裂的身体
+    vehicle: 爆炸物及爆炸后散布在房间里的标语、乱柴和皮球
+    vividness:
+      sensory_channels: [内脏触觉, 视觉, 空间运动]
+      mechanism: 想象从腹腔膨胀启动，连续推演爆裂、飞散、贴墙、落地和滚动，使妄想获得完整物理过程。
+    aptness:
+      mappings:
+        - 腹内压力上升对应炸弹蓄积爆炸压力。
+        - 皮肉薄片贴墙对应标语平展附着。
+        - 断骨散落对应乱柴失序堆积。
+        - 头颅圆形滚动对应皮球的形状和惯性。
+      context_fit: 老太太正在把饥饿和肠鸣解释成腐烂，逐件物化身体符合她病态而具体的自我监测。
+      failure_boundary: 多喻体链必须共享同一次爆炸的空间结果；只堆稀奇物件会切断因果并稀释恐怖。
+    narrative_function: 以冷静物理推演呈现精神失常，并把家庭暴力外部现场与老人内部腐败并置。
+    transfer_rule: 延展怪诞比喻应沿同一因果链逐步换算物体，保持空间位置和运动连续。
+    quality_assessment: exemplary
+
+  - card_id: mermaid-001-fish-birds
+    work: 海的女儿
+    author: 汉斯·克里斯蒂安·安徒生
+    translator: unknown
+    source_locator: full_text.md:L2
+    chapter: 开篇海底世界
+    figure_type: explanatory_analogy
+    quote: 所有的大小鱼儿在这些枝子中间游来游去，像是天空中的飞鸟。
+    tenor: 鱼在海底植物枝叶之间的三维游动
+    vehicle: 鸟在天空与树枝之间的飞行
+    vividness:
+      sensory_channels: [视觉, 空间, 运动]
+      mechanism: 读者先调用熟悉的鸟群轨迹，再把空气替换成海水，海底空间随即获得高度、纵深和自由移动感。
+    aptness:
+      mappings:
+        - 水体承托鱼的三维运动对应空气承托鸟的飞行。
+        - 海草枝叶对应陆地树枝，提供穿行参照物。
+        - 鱼鳍摆动对应翅膀扇动，保持连续推进。
+      context_fit: 开篇承担世界说明，生活类比让陌生海底立即可想象，并为后文祖母把小鸟称作“鱼儿”建立双向翻译。
+      failure_boundary: 类比只转移空间运动；鱼与鸟的呼吸方式、速度和生态关系仍各自独立。
+    narrative_function: 在一句中完成异世界空间建模，并建立海底与人间互为镜像的童话认知方式。
+    transfer_rule: 世界观类比优先匹配介质、运动自由度和参照物，让陌生规则借熟悉动作进入读者直觉。
+    quality_assessment: exemplary
+
+  - card_id: mermaid-002-purple-flower-sun
+    work: 海的女儿
+    author: 汉斯·克里斯蒂安·安徒生
+    translator: unknown
+    source_locator: full_text.md:L5
+    chapter: 开篇海底世界
+    figure_type: simile
+    quote: 它像一朵紫色的花，从它的花萼里射出各种色彩的光。
+    tenor: 从沉静海面以下看到的太阳及其折射光
+    vehicle: 一朵紫色、花萼向外展开的花
+    vividness:
+      sensory_channels: [颜色, 形状, 光线]
+      mechanism: 圆形日轮变成花冠，放射光束变成从花萼展开的花瓣或色彩，水下偏色则落在紫色上。
+    aptness:
+      mappings:
+        - 圆盘轮廓对应花冠。
+        - 向外放射的光对应花瓣从花萼展开。
+        - 水层改变光色对应紫花的冷色调。
+      context_fit: 海底花园已经铺满会摇动、发光的植物，太阳进入同一意象系统，远处天体成为花园的一部分。
+      failure_boundary: 紫色依赖水下视点和童话色谱；地面正午太阳缺少该语境时会显得任意。
+    narrative_function: 统一海底花园与头顶天空的色彩系统，增强世界的完整感。
+    transfer_rule: 景物比喻可从现场已经建立的意象场取材，使新对象继承同一色谱和空间逻辑。
+    quality_assessment: effective
+
+  - card_id: moon-001-creative-invasion
+    work: 月亮与六便士
+    author: 威廉·萨默赛特·毛姆
+    translator: unknown
+    source_locator: 月亮与六便士.md:L965
+    chapter: 第十四章
+    figure_type: extended_analogy
+    quote: 这个欲望虽然被他的生活环境所抑制，却一直在顽强地成长，就像癌细胞在人体组织中不断长大一样，直到最后完全控制住他
+    tenor: 史特利克兰体内不断增长并最终支配行动的创作欲望
+    vehicle: 扩张的癌细胞，以及孵化后排挤原有雏鸟并毁坏寄主巢穴的杜鹃
+    vividness:
+      sensory_channels: [身体内部, 生长, 动作]
+      mechanism: 第一喻体写“在体内长大并夺权”，第二喻体写“排挤旧生活并毁巢”，内在驱力因此获得时间过程和外部后果。
+    aptness:
+      mappings:
+        - 潜伏的欲望对应早期难察觉的病变或寄生蛋。
+        - 欲望持续增强对应癌细胞增殖和雏鸟成长。
+        - 创作排除家庭与职业对应杜鹃挤走原有雏鸟。
+        - 家庭被毁对应寄主鸟窝最终遭破坏。
+      context_fit: 叙述者承认解释带有想象性，侵入性喻体准确表达他既着迷又警惕的道德位置。
+      failure_boundary: 癌与杜鹃表达支配和破坏，不证明艺术冲动具有医学病因，也不自动判定一切创作为恶。
+    narrative_function: 把难以言说的天赋冲动拆成“生成—夺权—毁坏旧秩序”的因果模型。
+    transfer_rule: 解释长期驱力时，可连续选取一个内部生长模型和一个外部后果模型，两者必须承接同一时间链。
+    quality_assessment: exemplary
+
+  - card_id: moon-002-oiled-wrestler
+    work: 月亮与六便士
+    author: 威廉·萨默赛特·毛姆
+    translator: unknown
+    source_locator: 月亮与六便士.md:L981
+    chapter: 第十四章
+    figure_type: simile
+    quote: 他就像一个身上涂满了油的摔跤手，你根本抓不住他。
+    tenor: 世俗礼规和他人评价无法约束史特利克兰
+    vehicle: 身体涂油、使对手无法抓牢的摔跤手
+    vividness:
+      sensory_channels: [触觉, 动作, 对抗]
+      mechanism: “舆论约束”变成双方近身角力；抓取动作每次滑脱，抽象的无可奈何获得可触摸阻力。
+    aptness:
+      mappings:
+        - 社会试图施加规范对应对手伸手抓抱。
+        - 史特利克兰不求认同对应身体没有可抓的摩擦面。
+        - 规训屡次失败对应手掌从油面滑脱。
+      context_fit: 叙述者的愤怒来自无法用良知和羞耻制伏对方，竞技对抗准确保留双方力量关系。
+      failure_boundary: 喻体说明难以控制，不赋予史特利克兰竞技荣誉或道德胜利。
+    narrative_function: 用一个动作解释人物为何令社会和叙述者失去惯常抓手。
+    transfer_rule: 写“难以约束”时，应给约束者安排具体动作，再选择能让该动作失败的物理性质。
+    quality_assessment: exemplary
+
+  - card_id: thunderstorm-001-hostile-weather
+    work: 雷雨
+    author: 曹禺
+    source_locator: full_text.md:L1083-L1085
+    chapter: 第三幕
+    figure_type: personification
+    quote: 天空黑漆漆地布满了恶相的黑云
+    device_elements:
+      subject: 黑云、闪电与雷声
+      humanized_properties: 恶相、凶恶、威吓与逼近
+    vividness:
+      sensory_channels: [视觉, 听觉, 节奏]
+      mechanism: 云获得面相，雷获得脾性；闪光、滚声和停顿让天气像一个逐步逼近舞台的敌对角色。
+    aptness:
+      mappings:
+        - 黑云遮蔽天空对应人物秘密压住家庭空间。
+        - 雷声由远及近对应冲突从潜伏转为公开。
+        - 暴雨持续到闭幕对应灾难一旦启动便贯穿整幕。
+      context_fit: 舞台依靠灯光和声音呈现天气，拟人化属性可由真实演出节奏兑现，并与屋内烦恶情绪同频。
+      failure_boundary: 云和雷承担压迫节奏；它们不替人物作伦理选择，也不构成超自然施罚者的事实证明。
+    narrative_function: 把环境建成持续施压的舞台角色，为人物每次升级提供可听见的节拍。
+    transfer_rule: 戏剧中的环境拟人要能转译成灯光、声响或调度变化，让修辞真正占据舞台时间。
+    quality_assessment: exemplary
+
+  - card_id: thunderstorm-002-thunder-oath
+    work: 雷雨
+    author: 曹禺
+    source_locator: full_text.md:L1353-L1361
+    chapter: 第三幕
+    figure_type: symbol
+    quote: 那——那天上的雷劈了我。
+    device_elements:
+      symbol: 雷声
+      linked_action: 四凤以雷劈为违誓后果
+      recurrence: 起誓前后雷声即时回应，并与后续灾难形成物质回声
+    vividness:
+      sensory_channels: [听觉, 停顿, 舞台动作]
+      mechanism: 条件诅咒刚说出口，真实雷声立刻穿过舞台；语言中的“雷”与观众耳中的雷在同一秒重叠。
+    aptness:
+      mappings:
+        - 誓言需要见证对应雷声像公开盖印。
+        - 角色畏惧违誓后果对应雷声的震慑。
+        - 自然电力与后续死亡方式进入同一物质系统。
+      context_fit: 雷雨已经是全剧持续环境，象征从既有声场生长，无需额外解释或道具。
+      failure_boundary: 声音承担命运预示和结构回声；它不消除人物行为、阶级关系和家庭秘密造成的现实因果。
+    narrative_function: 将一句仓促誓言绑定到全剧结局，使环境声获得记忆和追索能力。
+    transfer_rule: 象征性伏笔最好使用现场已存在的物质，让台词、感官事件和后续结果共享同一媒介。
+    quality_assessment: exemplary
+
+  - card_id: hamlet-001-crowned-serpent
+    work: 哈姆雷特
+    author: 威廉·莎士比亚
+    translator: unknown
+    source_locator: full_text.md:L125
+    chapter: 第一幕第五景
+    figure_type: extended_metaphor
+    quote: 咬死汝父的毒蛇, 此刻正戴著他的皇冠!
+    tenor: 克劳地秘密弑兄并夺取王位
+    vehicle: 潜伏咬死国王、随后戴上死者皇冠的毒蛇
+    vividness:
+      sensory_channels: [视觉, 触觉, 动作]
+      mechanism: 官方“毒蛇咬死国王”的故事被保留并翻转，蛇从字面凶手变成人形凶手，皇冠让隐蔽毒害与公开权力在一幅图像中相撞。
+    aptness:
+      mappings:
+        - 暗中投毒对应蛇在不备时注入毒液。
+        - 亲属伪装对应毒蛇潜伏和欺骗。
+        - 篡位对应毒蛇戴上受害者皇冠。
+      context_fit: 鬼魂刚提到全国都相信蛇咬传闻，暗喻直接劫持这套假说，揭露一句即可完成。
+      failure_boundary: “蛇”承载隐蔽、毒害和背叛；它不能替代克劳地具体的政治动机与人类责任。
+    narrative_function: 用最短图像揭开谋杀与篡位两层真相，并把复仇目标锁定到王座上的叔父。
+    transfer_rule: 揭密型暗喻可借用现场已经流通的错误说法，保留其表面名词并重新指定真实所指。
+    quality_assessment: exemplary
+
+  - card_id: hamlet-002-worm-banquet
+    work: 哈姆雷特
+    author: 威廉·莎士比亚
+    translator: unknown
+    source_locator: full_text.md:L637
+    chapter: 第四幕第三景
+    figure_type: extended_metaphor
+    quote: 一个胖国王与一个瘦乞丐, 到头来, 只不过是同桌上的两道菜而已。
+    tenor: 死亡和腐败消解国王与乞丐的等级差别
+    vehicle: 蛆虫宴席上没有尊卑差别的两道菜
+    vividness:
+      sensory_channels: [味觉, 视觉, 身体循环]
+      mechanism: 人从进食者翻转为食物，国王和乞丐的身体被摆到同一餐桌；后续鱼饵与吞食又把物质送回人体。
+    aptness:
+      mappings:
+        - 生前养肥动物供人吃对应死后养肥身体供蛆吃。
+        - 社会等级差对应餐桌上菜品并列后失效。
+        - 国王穿过乞丐肠子对应腐败物进入食物链并循环。
+      context_fit: 哈姆雷特正用波隆尼尔尸体的位置戏弄国王，食物链既回答“在哪里”，也攻击王权的尊严。
+      failure_boundary: 类比说明肉身归宿的平等；它不证明生前政治权力和贫困造成的现实差异已经消失。
+    narrative_function: 把死亡哲学压进黑色笑话，在审问现场夺回话语主动权。
+    transfer_rule: 哲理修辞可通过角色当下必须回答的实物问题展开，让抽象结论同时成为攻防动作。
+    quality_assessment: exemplary

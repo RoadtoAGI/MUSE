@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:狂人日志--zhang-lulu
+work_id: novel:狂病-莫千回
+display_name: 张露露
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '张露露的话总是低声的、试探性的、留着退路的。她不会断言"他是坏人"，只会说"实在不行离开这里吧""我一直觉得那个吴先生怪怪的，特别是他的眼神，感觉和死人一样，没有任何的感情"——把最尖锐的直觉包在"觉得、怪怪的"这种不确定的措辞里，所以特别容易被一句反驳劝平。被劝服后她不争辩，只是"默默地低下了头""不知该如何是好"，把不安咽回去。她真正的情绪不在断言里，而在被吴先生盯着时那句"顿感心里发毛"的生理反应里，以及对李伟那句近乎赌咒的叮嘱里——"如果你没有活着回来，自己是不会在这个世界上苟活的"。越是说不出口的恐惧，她越是把全部分量压在对爱人的叮嘱上。
+
+
+    佐证：scenes/scene_KR-S06.md:L7-L7 / scenes/scene_KR-S06.md:L11-L11 / scenes/scene_KR-S06.md:L13-L13'
+  evidence_locators:
+  - scenes/scene_KR-S06.md:L7-L7
+  - scenes/scene_KR-S06.md:L11-L11
+  - scenes/scene_KR-S06.md:L13-L13
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

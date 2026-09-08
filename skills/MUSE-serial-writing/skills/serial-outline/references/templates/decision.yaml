@@ -1,0 +1,15 @@
+# series/decisions/D-<seq>.yaml —— 已确认或获委托自决的决定
+schema_version: 1
+decision_id: null              # 与文件名一致，如 D-0007
+kind: null                     # volume_direction | beat_choice | thrust | veto | frozen_amendment
+content: null                  # 采用的决定、依据与影响；冻结修订记录本次批准及具体改法
+scope:
+  level: volume                # volume | unit | chapter
+  volume_id: null
+  unit_id: null                # unit 层必填；chapter 层按实际归属填写
+  chapter_id: null             # chapter 层必填，裸章号
+  applies_until: null          # 缺省 = volume_id 所指卷 closed 即过期
+consumed_by: []                # volume:V## | unit:V##-U## | chapter:C####
+# 冻结修改的目标还包括 bible:frozen | profile:genre | worldbook:<section_id>；
+# closed 卷使用 volume:V##。冻结目标须本次 frozen_amendment 已获批准，登记先于修改。
+# 普通决定在对应产物落盘后登记消费方。

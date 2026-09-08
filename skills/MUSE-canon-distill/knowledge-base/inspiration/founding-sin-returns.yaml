@@ -1,0 +1,20 @@
+card_id: founding-sin-returns
+pattern_name: 原罪回返
+dramatic_function: 用开端的隐秘夺取制造终局忏悔，使家族史获得闭环压力。
+applicability: 适合家族、乡土、权力继承叙事；若开端罪行无长期收益则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 白鹿风水地
+- 白鹿原地名
+- 白嘉轩鹿子霖姓名
+tags:
+- 原罪
+- 忏悔
+- 家族史
+- 终局闭环
+source_scenes:
+- novel: 白鹿原
+  scene_id: S01
+  note: 换地谋划把族长权威建立在隐秘亏欠上。
+- novel: 白鹿原
+  scene_id: S16
+  note: 终局坦白让一生秩序回到开端债务。

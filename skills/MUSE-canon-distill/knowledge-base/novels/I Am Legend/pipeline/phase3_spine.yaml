@@ -1,0 +1,192 @@
+# Phase 3: Spine — I Am Legend (Richard Matheson, 1954)
+
+inciting_incident:
+  description: >
+    The plague kills Virginia and Kathy, leaving Robert Neville as the
+    sole uninfected human in a world of vampires. This occurs before the
+    narrative begins (shown in flashback, Chapters 6/9) but drives the
+    entire story. The narrative-present inciting incident is Neville's
+    decision to investigate the plague scientifically (Chapter 6–7),
+    which shifts him from passive survival to active quest.
+  type: accident
+  timing: >
+    Pre-narrative (the plague). Within the text, the scientific
+    investigation begins in Chapter 6 (Part II), roughly 15% into
+    the novel.
+  balance_before: >
+    Neville had a family, a job, a neighbor (Ben Cortman) who drove
+    him to work, a functioning society. Even during the plague's early
+    stages, there was still a semblance of normal life.
+  balance_after: >
+    Total isolation. Neville is trapped in a cycle of survival:
+    fortify the house, make stakes, kill vampires by day, endure
+    their siege by night, drink to oblivion. No purpose beyond
+    not dying.
+  impact_on_protagonist: >
+    Grief, alcoholism, sexual frustration, suicidal ideation. His
+    identity as husband/father/worker is annihilated. He exists in
+    a void between living and giving up.
+
+desire_object:
+  conscious: >
+    Understand the plague scientifically and survive. Later: find a
+    companion, cure the infected, not be alone.
+  unconscious: >
+    Belong. Be recognized as human. Have his existence validated by
+    others. He craves connection so deeply that he's terrified of it.
+  tension: >
+    His survival methodology (staking the sleeping infected by day)
+    is precisely what makes belonging impossible. Every vampire he
+    kills may be someone's loved one in the emerging new society.
+    His science gives him understanding but not acceptance. His quest
+    for knowledge isolates him further because knowledge without
+    community is meaningless.
+
+spine_statement: >
+  Robert Neville fights to survive and understand a world that has
+  left him behind, but his very survival campaign transforms him
+  into the new civilization's most feared legend.
+
+spine_type: unconscious
+
+dramatic_question:
+  question: >
+    Can the last human survive — and if he does, what does his
+    survival mean in a world where humanity has been redefined?
+  obligatory_scene: >
+    Neville must confront the new society and discover what he
+    has become to them. He must see himself through their eyes.
+
+opposing_forces:
+  internal:
+    - Alcoholism and despair that sap his will to continue
+    - Grief over Virginia that pulls him toward death
+    - Sexual frustration that nearly drives him out of the house
+    - Inability to trust (destroys his chance with Ruth)
+    - Nostalgia — "thinking of the past was what drove him to the bottle"
+  personal:
+    - >
+      Ben Cortman — former friend, now nightly tormentor. His calls
+      ("Come out, Neville!") are the voice of the old world demanding
+      surrender. Neville feels more kinship with Cortman than with
+      his executioners.
+    - >
+      Ruth — the only human contact in years, but she's a spy for
+      the new society. She genuinely loves him but cannot save him.
+      Her letter is both warning and death sentence.
+    - >
+      Virginia — returns as a vampire after burial. Neville must
+      stake his own wife. This is the wound that never heals.
+  external:
+    - Nightly vampire sieges that destroy property and sanity
+    - The vampiris bacillus itself — an enemy he can study but not defeat
+    - The organized new society with cars, spotlights, guns, and pikes
+    - Infrastructure collapse (no electricity, fuel scarcity, food limits)
+
+# ── Arc Framework ──
+
+arcs:
+  - arc_id: ARC-1
+    name: "Routinized Despair"
+    value_at_start: "Survival (barely) — numb endurance"
+    value_at_end: "Near-death — survival nearly fails"
+    climax_event: >
+      Neville's watch stops. He races home to find vampires already
+      surrounding his house. He crashes through them with the car,
+      fights his way inside, but they destroy his station wagon and
+      knock out his generator. He empties two pistols into them in
+      a berserk rage, then collapses weeping, calling for Virginia.
+      (Chapter 5)
+    function_note: >
+      Establishes the cost of survival and the fragility of Neville's
+      routines. Shows that mere endurance is not sustainable.
+
+  - arc_id: ARC-2
+    name: "The Scientific Quest"
+    value_at_start: "Ignorance — routine killing without understanding"
+    value_at_end: "Knowledge — full understanding of the vampiris bacillus"
+    climax_event: >
+      Neville discovers the bacillus under the microscope and names
+      it vampiris. He systematically explains every vampire trait
+      through bacteriology. But the knowledge brings despair: "To have
+      the answer now when it was too late was a crushing blow."
+      (Chapters 10–14)
+    function_note: >
+      Neville's scientific investigation gives him purpose and sobriety
+      but ultimately proves impotent — understanding the plague cannot
+      undo it or save anyone.
+
+  - arc_id: ARC-3
+    name: "The False Companion"
+    value_at_start: "Hope — a living woman appears in daylight"
+    value_at_end: "Betrayal / Revelation — Ruth is a spy; there is a new society"
+    climax_event: >
+      Neville sees the bacillus in Ruth's blood. She strikes him with
+      a mallet. He wakes to find her letter revealing she's infected,
+      part of a new society, and his executioners are coming. The
+      phrase "bacteria can mutate" reshapes his entire worldview.
+      (Chapters 15–19)
+    function_note: >
+      The only human relationship in the novel. Ruth forces Neville
+      to confront his own brutality ("Did you ever see your face
+      when you killed?") and introduces the new society that will
+      judge him.
+
+  - arc_id: ARC-4
+    name: "Legend"
+    value_at_start: "Resigned waiting — Neville decides not to fight"
+    value_at_end: "Ironic transcendence — 'I am legend'"
+    climax_event: >
+      Captured and dying, Neville looks out over the crowd. He sees
+      awe, fear, shrinking horror on their faces and realizes: "I'm
+      the abnormal one now. Normalcy was a majority concept." He takes
+      Ruth's pills and accepts death with the final thought: "I am
+      legend." (Chapter 21)
+    function_note: >
+      The philosophical payload of the entire novel. Neville's death
+      is the birth of a myth. The title, withheld until the last
+      two words, is the controlling idea made flesh.
+
+story_climax_design:
+  crisis:
+    dilemma: >
+      Fight the new society (and die violently, confirming their image
+      of him as a monster) or surrender (and be executed, but perhaps
+      with dignity).
+    option_a: >
+      Fight — use his arsenal to take as many of them with him as
+      possible (the path of the monster they believe him to be)
+    option_b: >
+      Surrender — trust their justice, hope for a trial or exile
+      (the path of the human he believes himself to be)
+    character_revelation: >
+      Neville initially chooses Option B (decides not to fight), but
+      when they smash in his door without calling for surrender, he
+      grabs a gun in self-defense. This reveals his core: he is
+      neither the righteous survivor nor the willing martyr, but a
+      frightened man who wanted to live and be recognized as human.
+  climax:
+    action: >
+      Mortally wounded, Neville stands at the barred window and looks
+      out over the crowd. He sees their terror and understands: he is
+      their vampire, their legend. He swallows the pills Ruth gave him.
+    value_change:
+      from: "I am the last normal human fighting monsters"
+      to: "I am the monster — I am legend"
+    controlling_idea_expression: >
+      The inversion is total. The word "legend" — which the reader
+      has associated with vampire mythology throughout — now attaches
+      to Neville. The new society will tell stories about the terrible
+      creature who stalked their sleeping people and left bloodless
+      bodies. He is Dracula to their Van Helsing.
+  resolution:
+    new_balance: >
+      Neville dies. The new society of infected humans inherits the
+      earth. His story will persist as legend — the terrifying last
+      human who haunted their world.
+    lingering_feeling: >
+      Ironic melancholy. The reader understands that Neville was not
+      wrong to survive, but that survival without the capacity to
+      see the other side's humanity is its own kind of death. The
+      "full circle" — vampire legend to human legend — suggests that
+      every society needs its monsters.

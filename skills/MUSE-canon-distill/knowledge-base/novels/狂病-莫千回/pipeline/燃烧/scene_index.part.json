@@ -1,0 +1,213 @@
+[
+  {
+    "scene_id": "RS-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'（盲女）",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太"
+    ],
+    "conflict_type": "internal + external（记忆）",
+    "pov": "'你' 第二人称",
+    "word_count": 588,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S01.md",
+    "description": "盲女'你' POV 建立 → 五人小队介绍 → 公路爆发时的听觉记忆 → 周全描述邻居被孩子碾碎的画面",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太"
+    ],
+    "conflict_type": "external",
+    "pov": "'你'",
+    "word_count": 432,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S02.md",
+    "description": "山间小路腐烂血腥味 → '你' 警告 → 人肉树林（树上像腊肉挂的尸体） → 脚底粘稠滑腻 → 否认告诉自己只是泥土",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太",
+      "树上感染者"
+    ],
+    "conflict_type": "external",
+    "pov": "'你'",
+    "word_count": 978,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S03.md",
+    "description": "'你' 闻到煮熟糖浆 + 咸味 → 警告队伍 → 李太太不信 → 天降感染者头朝下扑 → 砸死李先生 → 李太太崩溃哭嚎 → 老刘催促继续走",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李太太",
+      "草丛中两个感染者"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "'你'",
+    "word_count": 2262,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S04.md",
+    "description": "李太太打'你' 骂扫把星 → 周全威胁 → 改走村庄旁山路 → 老刘 + 周全杀两个嘴塞石头 / 撕舌头的感染者 → 推论：感染者主动改造自己隐藏狂笑",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李太太",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "'你'",
+    "word_count": 1432,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S05.md",
+    "description": "灌木丛屏息穿越 → 李太太抱怨暴露位置 → 慌不择路冲进村子 → 周全踹民居门 → 关门 → 老刘没进来 → 李太太揭发'老刘摔倒来不及'",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "'你'",
+    "word_count": 1286,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S06.md",
+    "description": "屋外狂笑砸门 → 周全抽刀提议杀全员 + 自杀 → 烤乳猪传说 → 李太太提'被感染加入' → '你' 说'杀了我吧' → 远方爆炸引走感染者 → 周全拥抱 → 第一次感谢老天活着",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "'你'",
+    "word_count": 942,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S07.md",
+    "description": "翻越腐烂祭坛山头 → 全员呕吐 → 周全告诉'你' 山头举行过感染者仪式 → 下山到公路 → 手机指南针仍可用 → 体力透支休息 → 周全预告'后悔没拼命走'",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太",
+      "踢人头感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "'你'",
+    "word_count": 1426,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S08.md",
+    "description": "踢人头感染者追击 → 李太太拽'你' 背包 → 周全踹倒 → 李太太被撕裂 → 周全自白'我不算好人 / 李太太是我踹的 / 在村子里就识破她拽老刘 + 想让她死' → '但绝对不会伤害你'",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全（离开）"
+    ],
+    "conflict_type": "internal",
+    "pov": "'你'",
+    "word_count": 592,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S09.md",
+    "description": "周全离开向加油站方向 → '你' 独自呼吸困难 → 整个世界安静极了 → 接受死亡反而呼吸平稳 → 感染者味道 + 烧焦味道靠近 → 以为周全失败 + 感染者追来 → '无所谓了'",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "RS-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "感染后周全",
+      "罗允"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "'你'",
+    "word_count": 1132,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S10.md",
+    "description": "感染后周全狂奔 + 大喊'你' 名字 + 描述要把心脏缝在胸口 → 戛然而止 → 摸到周全焦尸 + 双手向前伸 + 背包绑在手上 → '你' 拒绝用药 → 摩托车声 + 罗允出现强行喂药 + 转达周全自燃细节 + '你也应该好好地活下去啊'",
+    "has_craft_notes": false
+  }
+]

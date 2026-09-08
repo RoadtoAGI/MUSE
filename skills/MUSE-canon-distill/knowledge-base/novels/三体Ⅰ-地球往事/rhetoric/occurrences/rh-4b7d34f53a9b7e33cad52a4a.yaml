@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4b7d34f53a9b7e33cad52a4a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2347
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 将土坡像水那样冲开，激起汹涌的土浪
+sensory_mapping: 船首楔入；棕黄浪头；土体翻涌；巨大惯性；岸坡破开
+context_fact: 发动机被切坏后，审判日号偏航撞上左岸，六万吨船体仍保持强大前冲惯性。
+image_mechanism: 巨轮把自己的航行介质从河水直接延长到陆地，船首压力让坚实土坡暂时液化，棕色土块沿船侧起浪；上岸不再是停止，而是继续航行。
+property_alignment: 楔形船首对应破水船头；松散土体对应可流动水体；两侧土壤翻起对应船首浪；巨大速度质量对应造浪动力；土坡开裂后退对应水面被分开
+context_alignment: 上一句把巨轮写成陆地移动的大山，此处反让陆地变水，固定与流动尺度同时倒转，突出撞击力量。
+narrative_function: 将上岸碰撞写成连续流体运动，使巨轮解体前仍保持可怕动能。
+transfer_rule: 把固体写成水时，应有足够外力使其出现分流、翻卷、波峰和连续位移，而非只说柔软。
+failure_boundary: 坚硬岩壁只发生脆裂、船速低而陷停，或土体仅扬尘不成连续翻涌时，水浪机制不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨大船首冲上岸坡时以质量和惯性推开土体，使土壤翻卷飞涌
+vehicle: 船首破开水面，流体向两侧翻起并形成汹涌浪排
+ground: 土在巨力下失去固态阻力对应水被船首分开；翻卷土体对应浪花；船首运动机制在水土两种介质中延续

@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:他的故事--wang-huayi
+work_id: novel:狂病-莫千回
+display_name: 汪华依
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她说话像随时在引用游戏——把现实事件翻译成《刺客信条》《寂静岭》《最后生还者》《暗黑破坏神》的台词和设定来理解和安慰人（"死血亦是牲畜""大无证明咱们还在表世界"），语气常带刻意拉长的电影主角腔。兴奋时句子密、信息量大、绘声绘色地铺陈她的推断；安慰别人时不直接讲道理，而是套一个游戏术语让你自己会意。她对老张稳定地用"老张""兄弟"称呼。真正崩溃时反而失去这套语言——只剩一边笑一边哭、反复说"对不起"，或喃喃重复一个词（"死了……死了……"）。
+
+
+    来源：phase3_spine.yaml → theme_hooks（游戏即人生）+ mckee 欲望驱动声音
+
+    佐证：scenes/scene_TG-S04.md:L11-L11（拉长声调一字一句"别担心，''死血亦是牲畜''"）；scenes/scene_TG-S05.md:L23-L27（绘声绘色铺陈"游戏即人生"信念）；scenes/scene_TG-S08.md:L29-L31（用《寂静岭》"大无证明咱们还在表世界"安慰老张）'
+  evidence_locators:
+  - scenes/scene_TG-S04.md:L11-L11
+  - scenes/scene_TG-S05.md:L23-L27
+  - scenes/scene_TG-S08.md:L29-L31
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

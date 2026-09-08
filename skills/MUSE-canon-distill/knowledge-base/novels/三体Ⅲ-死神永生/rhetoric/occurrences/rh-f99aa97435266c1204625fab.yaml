@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f99aa97435266c1204625fab
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L2435
+chapter: 【广播纪元7年，云天明的童话】
+figure_type: simile
+quote: 后面拖曳了一条长长的泡沫尾迹，像一道落在海上的白云带。无数的饕餮鱼从两侧游过来进入泡沫中，像在进行一场云河中的朝圣
+sensory_mapping: 海上白云带；绵长云河；黑色朝圣队列；两侧汇聚；天堂般光亮
+context_fact: 香皂随船溶解生成大量泡沫，鱼群主动离开船底进入尾迹，公主由此想到牧师讲的天堂。
+image_mechanism: 船尾的白沫不再是杂乱水迹，而升格为铺在海上的云河；黑鱼从危险围攻者变成循光而来的朝圣队伍，死亡航道遂显出通往天堂的仪式秩序。
+property_alignment: 泡沫尾迹对应白云河；泡泡轻白对应云朵；船行轨迹对应河道延伸；饕餮鱼对应朝圣者；两侧游入对应汇聚朝拜；陶醉漂浮对应宗教慰藉；公主的天堂联想对应圣境
+context_alignment: 童话内部已有天堂概念，泡沫的无重量和白光又提供真实云感，宗教图景从外观自然长出。
+narrative_function: 把一次危险渡海写成奇迹般的白色 procession，并预埋童话对光速、曲率航迹等信息的编码。
+transfer_rule: 用云河朝圣写群体汇入轨迹时，应有连续亮带、共同流向、主体主动靠近、进入后的状态改变和仪式目的感。
+failure_boundary: 轨迹短促暗浊、鱼群被强迫卷入或进入后仍攻击挣扎时，朝圣与天堂会美化冲突。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 小船航行留下长而雪白的泡沫航迹，周围黑鱼不断从两侧汇入并在其中安静漂浮
+vehicle: 一条白云组成的天河落到海面，众多朝圣者从各处聚来进入圣河，沿其接受安抚
+ground: 白色长迹对应云带河道；泡沫漂浮对应云层；鱼群汇入对应朝圣者聚集；进入后陶醉对应获得宗教慰藉；船前行对应云河延伸

@@ -1,0 +1,26 @@
+mode: reference
+display_name: 李伟
+role_slug: li-wei
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/狂人日志/phase3_spine.yaml  # 结构化依据：pov_structure(L2 李伟限知) + antagonistic_forces.interpersonal + arc_framework arc_4/arc_5
+  - pipeline/phase0_conception.yaml      # human_antagonist_typology / controlling_idea（受害者侧）
+  - scenes/scene_KR-S04.md
+  - scenes/scene_KR-S06.md
+  - scenes/scene_KR-S07.md
+  - scenes/scene_KR-S08.md
+  - scenes/scene_KR-S09.md
+built_at: 2026-05-29T17:35:35+08:00
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  本系列单篇人物，phase2_character.yaml 仅登记跨篇人物，未登记李伟的系统级条目；
+  李伟是 L2 录音内重演的限知 POV 承载者，结构化字段依据 pipeline/狂人日志/phase3_spine.yaml 的
+  pov_structure + antagonistic_forces + arc_framework arc_4/arc_5 推导，所有断言均有篇内 scene locator 佐证。
+  声音框架跨 3 个场景（S06 家庭憧憬 / S08 丧偶辱骂 / S09 疯语哭笑），覆盖憧憬→暴怒→失语三态。
+  弧光起点（S06 自我说服留下）+ 转折（S08 撞门砍人互殴）+ 终点（S09 断裂疯掉）三段齐全。
+  性格真相有压力情境直接佐证（S08 撞门砍赵小军 / S09 崩溃质问）。
+  边界 S08:L13-L17 与 S08:L15-L17 为两个相邻但不同的区间（前者含撞门见惨状，后者起于砍人后互殴），均独立佐证不同边界条目。
+  S07（服务区天神下凡）作为信任顶点的过程证据纳入 built_from，但 SKILL 正文对其引用经 S08:L5 信任顶点段落概括，未单列 locator。

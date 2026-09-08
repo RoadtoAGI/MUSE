@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8add91755d3d350795046c6a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2498
+chapter: 第34章 智子
+figure_type: simile
+quote: 摆锤如一块稳定的磐石凝固在高大的支架间
+sensory_mapping: 巨石重量；绝对静止；冷硬表面；支架夹持；时间凝固
+context_fact: 元首八万三体时前关闭了象征催眠上帝的巨摆，如今全体执政官再次来到这里观看质子展开。
+image_mechanism: 曾贯穿天地行走的摆影失去时间节律，金属摆锤沉淀为岩石；运动装置像经历地质年代般冻结，标记旧时代已经终止。
+property_alignment: 摆锤巨大对应磐石体量；完全静止对应岩石稳定；长期停摆对应地质恒久；金属冷硬对应石质；悬架固定对应岩块嵌住；难信曾运动对应石头无动态记忆
+context_alignment: 前次巨摆影如行走巨人，此次变成磐石，动态喻体到静态喻体准确记录三体命运阶段变化。
+narrative_function: 以场景物象标注时间跨度和历史转折，为新技术展示营造肃静背景。
+transfer_rule: 把机械装置写成磐石时，应让重量、停驻时长、无微动、嵌固感及曾经运动的反差共同成立。
+failure_boundary: 摆锤仍轻微摆动、材质轻薄或随时可由人手推动时，磐石的稳定重量会失真。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 断电后完全停止、悬在巨摆支架中且仿佛从未运动过的巨大金属摆锤
+vehicle: 沉重、稳定、长久不动并与地基融为一体的巨大岩石
+ground: 摆锤静止对应磐石不动；金属巨重对应岩石质量；固定在支架间对应凝固嵌入地貌

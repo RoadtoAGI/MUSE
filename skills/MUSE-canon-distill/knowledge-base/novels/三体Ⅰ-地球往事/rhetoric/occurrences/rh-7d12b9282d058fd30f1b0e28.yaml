@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7d12b9282d058fd30f1b0e28
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L598
+chapter: 第7章 疯狂年代
+figure_type: analogy
+quote: 你精通各种力学，应该看到自己正在抗拒的这股伟大的合力是多么强大
+sensory_mapping: 力觉；方向；矢量合成；压迫；概念结构
+context_fact: 说话者是叶哲泰教过的理论物理学生，借力学术语逼他认罪。
+image_mechanism: 政治联盟被画成一组箭头，叶哲泰的反抗成为反向小矢量；箭头相加后留下压向他的单一巨大方向，学术语言本身被改造成审讯工具。
+property_alignment: 不同派别的压力对应多个分力；各派共同批斗对应分力同向叠加；个人反抗对应反向阻力；力量悬殊导致死亡对应合力超过承受限度
+context_alignment: 学生对力学教授说“合力”，术语既贴身份又构成背叛，且现场确有多派共同围攻。
+narrative_function: 显示科学概念如何被政治话语劫持，并量化个体所受压倒性压力。
+transfer_rule: 借专业机制类比权力关系时，应让说话者身份、参与分力、方向关系和合成结果全部可核对。
+failure_boundary: 派别目标互相抵消、行动不同步或个人可借其中矛盾周旋时，单一合力会抹平真实方向差。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 多个政治派别共同施加于叶哲泰的迫害压力
+vehicle: 多个方向的力矢量合成为一个足以压倒阻力的合力
+ground: 不同派别的压力对应多个分力；各派共同批斗对应分力同向叠加；个人反抗对应反向阻力；力量悬殊导致死亡对应合力超过承受限度

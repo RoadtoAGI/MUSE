@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-804a2d59af6cd47797a3b7ee
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2612
+chapter: 第34章 智子
+figure_type: analogy
+quote: 如果一个原子有一座剧院那么大，原子核则只是悬浮在剧院中的一个核桃
+sensory_mapping: 巨大室内；中央核桃；空旷距离；尺度缩放；悬浮
+context_fact: 科学执政官解释加速粒子为何极少真正撞中靶原子核，以及智子如何趁机制造假结果。
+image_mechanism: 看不见的原子同比放大成可进入建筑，原子核随比例只成一枚核桃；人站在剧院里看到的主要是空座间和空气，命中核心自然极难。
+property_alignment: 原子外缘对应剧院边界；原子核对应核桃；尺度比对应建筑与果实；原子内部空旷对应空大厅；核心位置对应核桃悬浮中央；粒子难命中对应从外射入难击小目标
+context_alignment: 下一比喻要说明从大量碰撞中筛出一次有效事件，剧院核桃先建立目标为何稀少的空间原因。
+narrative_function: 将原子尺度比和空旷性直观化，为加速器统计难题提供几何基础。
+transfer_rule: 用建筑和小物缩放微观结构时，应保持同一比例、中心位置、空体积和随后动作的命中概率。
+failure_boundary: 只能借此理解尺度，不能推断原子内部真是经典空房或核桃静止悬浮；量子分布问题超出该模型。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 原子总体尺度与内部原子核尺度之间极端悬殊、绝大部分体积为空的结构
+vehicle: 一座空旷剧院中央悬浮一枚核桃，建筑体积巨大而实物核心极小
+ground: 剧院对应原子边界；核桃对应原子核；二者体积比表现内部空旷；核桃悬浮表现核心居中不接触外壳

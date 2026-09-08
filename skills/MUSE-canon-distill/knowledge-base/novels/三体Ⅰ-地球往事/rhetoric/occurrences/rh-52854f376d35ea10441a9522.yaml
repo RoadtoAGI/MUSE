@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-52854f376d35ea10441a9522
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1223
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 但这项研究急剧升温，得出的结论令人震惊
+sensory_mapping: 触觉温度；变化速率；能量
+context_fact: 该课题此前少有人系统研究，近两年却快速发展并得出灾难性结论。
+image_mechanism: 看不见的学术活跃度被换算成可触温度，论文、人员和关注如热量连续注入，使原本冷门领域迅速发烫。
+property_alignment: 研究关注增加对应温度上升；资源与讨论涌入对应热量输入；短期剧变对应急剧加热
+context_alignment: 段落需要在一句内从长期忽视转入当下高度关注，温度跃升提供直接速度感。
+narrative_function: 压缩交代研究态势变化，为随后反直觉结论增加紧迫性。
+transfer_rule: 用升温写关注增长时，应给出原先冷度、热量来源和变化速度，让温度对应可观察活动指标。
+failure_boundary: 领域只偶发热门讨论、资源与成果没有同步增加时，急剧升温会把短期舆论当成研究发展。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 近两年关于外星接触社会效应的研究迅速变得活跃并受到重视
+vehicle: 物体被快速加热、温度急剧上升
+ground: 参与和关注强度增加对应温度升高；变化速度很快对应热量短时大量输入

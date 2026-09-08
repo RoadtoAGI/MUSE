@@ -1,0 +1,22 @@
+mode: reference
+display_name: 班柯
+role_slug: banquo
+source_novel: 麦克白
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S2.md
+  - scenes/scene_A1S3.md
+  - scenes/scene_A2S1.md
+  - scenes/scene_A3S1.md
+  - scenes/scene_A3S3.md
+  - scenes/scene_A3S4.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 13
+has_canon_ending: true
+coverage_note: |
+  覆盖 banquo 在场的全部场景：A1S2 / A1S3 / A1S4 (并列受礼，未单引) / A1S6 (短台词不单引) /
+  A2S1 / A2S3 (集体场未单引) / A3S1 / A3S3 / A3S4 (鬼魂沉默). A4S1 八王列队末班柯鬼魂
+  仅 visual presence，落入 canon-ending。班柯的"沉默 = 致命"特征对续写中
+  "知情而不行动的旁证型配角"是高价值参考。

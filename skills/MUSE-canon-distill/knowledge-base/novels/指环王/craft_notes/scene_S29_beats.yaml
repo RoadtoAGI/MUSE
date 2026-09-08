@@ -1,0 +1,42 @@
+scene_id: S29
+source_notes: scene_S29_beats.md
+patterns:
+- pattern_id: S29-p1
+  beat: 感官剥夺写大军
+  dimension: camera
+  original_move: 大军只以马味蹄声到场，无火无光无数字，视觉归零
+  ai_default_failure: 给航拍全景：营火连绵旌旗如林，几千骑士枕戈待旦
+  transfer_rule: 潜行处境让读者与人物共享感官剥夺，紧张不用宣布
+  quote: 在黑暗中他能闻到马的味道
+- pattern_id: S29-p2
+  beat: 兵力经野人算术折射
+  dimension: omission
+  original_move: 敌我比写成二十个二十的十倍加五倍，算术留给读者做
+  ai_default_failure: 用斥候口吻报精确军情，精确给人掌控感
+  transfer_rule: 想维持失控感时，军情经原始信源折射不给精确数字
+  quote: 你们有二十个二十的十倍加五倍
+- pattern_id: S29-p3
+  beat: 动摇只给外部证据
+  dimension: omission
+  original_move: 视点锁死梅里，国王的动摇只有身形「缩小了」一个视错觉
+  ai_default_failure: 切进国王视角写天人交战的内心独白
+  transfer_rule: 关键人物临界抉择保持外部观测，用轮廓测量士气
+  quote: 他似乎被暮年高龄压垮，缩小了
+- pattern_id: S29-p4
+  beat: 信号不说破的反讽
+  dimension: info_density
+  original_move: 城破的光与雷在本章只是一道光一声雷，叙述者不说破
+  ai_default_failure: 当场注解那是城门陷落的巨响，抹平信息差
+  transfer_rule: 跨线信号保持视点内无知，反讽留给知情的读者
+  quote: 一道光芒乍现，如同闪电从石城脚下的大地腾空而起
+- pattern_id: S29-p5
+  beat: 冲锋不写击打
+  dimension: omission
+  original_move: 整段冲锋无一次兵器接触，镜头吊在动量上一段到底
+  ai_default_failure: 写第一排撞击的慢镜头特写，冲锋停下来变成武戏
+  transfer_rule: 写冲锋写势能不写击打，用不换段长段承载一口气
+  quote: 由于力道过大，号角竟然爆裂
+overall_traits:
+- 充能结构：长压抑短点火，泄洪一段到底
+- 士气全部物化为身形号角与歌声，不作陈述
+- 升格有阶梯有保险，神话高度先垫凡人解释

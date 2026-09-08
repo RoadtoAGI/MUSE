@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-14d99a08a0623c084a2ce744
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1241
+chapter: 第15章 红岸之四
+figure_type: simile
+quote: 群星就像发光的沙漠，我自己就是一个被丢弃在沙漠上的可怜孩子
+sensory_mapping: 视觉；空间广度；颗粒；干旱触感；孤独
+context_fact: 叶文洁多年监听未获外星文明回应，夜班后独自面对星空，逐渐相信地球可能是唯一智慧生命。
+image_mechanism: 星点先从遥远天体降成遍地发光砂砾，天空随之翻成可行走却没有方向的荒地；成年人叶文洁再缩回无人照看的孩子，宇宙尺度直接变成人的无援。
+property_alignment: 密布星点对应沙粒颗粒；黑空广大对应沙漠无边；无智慧回应对应荒漠无人烟；叶文洁独自监听对应被遗弃孩子；人相对宇宙微小对应孩子相对荒野弱小
+context_alignment: 上一句寒风已把宇宙带回大兴安岭，沙漠继续以极端自然环境写无生命世界，并把她政治创伤中的遗弃感带入星空。
+narrative_function: 将宇宙沉默与人物终身创伤叠合，形成本段最具情感重量的孤独图景。
+transfer_rule: 写广阔中的孤独时，应让背景纹理、空间无边、生命缺席与人物在其中的年龄/能力位置逐层对应。
+failure_boundary: 星空被感为航向、群体归宿或充满明确回应时，发光沙漠和弃儿会错误取消方向与联系。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁仰望群星时感到置身无生命回应的宇宙并被独自遗留
+vehicle: 无边、颗粒闪光却无人烟的沙漠中一个遭遗弃的孩子
+ground: 无数星点散布黑空对应沙粒铺满荒漠并反光；宇宙辽阔无回应对应沙漠空旷无人；个体弱小无援对应弃儿无法自救

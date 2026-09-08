@@ -1,0 +1,54 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+
+world_type: court-tragedy             # 11 世纪苏格兰王廷 + 超自然介入的混合场域
+
+primary_space:                        # 主场空间——剧场可实演的物理位置
+  - heath                             # 荒原（A1S1, A1S3, A3S5）女巫场
+  - battlefield_camp                  # 战地营地（A1S2）
+  - forres_palace                     # 福累斯宫廷（A1S4, A3S1, A3S2, A3S6）
+  - inverness_castle                  # 殷佛纳斯麦克白城堡（A1S5-S7, A2 全幕）
+  - castle_courtyard                  # 城堡庭院（A2S1）
+  - castle_porter_gate                # 城堡门房（A2S3）地狱门隐喻入口
+  - banquet_hall                      # 宴会大厅（A3S4）
+  - witches_cavern                    # 山洞沸釜（A4S1）
+  - fife_castle                       # 费辅麦克德夫城堡（A4S2）
+  - england_palace                    # 英格兰王宫前（A4S3）
+  - dunsinane_castle                  # 邓西嫩城堡（A5S1, S3, S5）
+  - dunsinane_country                 # 邓西嫩乡野（A5S2）
+  - birnam_wood                       # 勃南森林（A5S4）
+  - dunsinane_plain                   # 城堡前平原（A5S6, S7）
+
+power_structure:                      # 戏剧化权力结构
+  - sacred_kingship                   # 王权神授——邓肯是"圣明的君主"，弑君是亵神
+  - feudal_thanedom                   # 封建爵士制——葛莱密斯 / 考特 / 苏格兰诸郡
+  - succession_by_designation         # 邓肯指定马尔康为肯勃兰亲王 = 麦克白前路阶石
+  - paranoid_court                    # 麦克白朝廷化为监视 / 收买仆人 / 暗杀网络
+  - exiled_legitimacy                 # 马尔康、麦克德夫流亡英格兰积蓄合法性
+  - sacred_english_court              # 爱德华王以"瘰疬触愈"显神性，作为麦克白的反极
+
+rules:                                # 世界规则（戏剧层）
+  - kingship is sacramental; regicide is cosmological rupture     # 弑君引天象异变（A2S4）
+  - prophecies are literal but trapped in equivocation            # 预言字面成真但实为陷阱
+  - blood demands more blood                                       # "流血必引流血"（A3S4）
+  - supernatural agents speak partial truths to lure mortals       # 女巫"模棱两可"诱人深渊
+  - guilt manifests as insomnia / hallucination / sleepwalking     # 罪疚以可见症状外化
+  - public ceremony is the testing ground of usurped power         # 宴会场鬼魂揭发是核心机制
+  - nature mirrors moral order                                     # 自然反常（马食马 / 鸱鸮啄鹰 / 白昼黑暗）
+
+stagecraft_constraints:               # 舞台约束（伊丽莎白时代公共剧场）
+  - daytime outdoor performance; "night" carried by dialogue + torches rather than lighting
+  - thunder and music cues mark witches' entries (A1S1, A1S3, A3S5, A4S1)
+  - apparitions rise via trapdoor (A4S1 三幽灵 + 八王列队 + 镜)
+  - banquet ghost (A3S4) appears and vanishes only to Macbeth — staging assumes onstage convention,
+    not invisible-to-others lighting trick
+  - off-stage murders (Duncan A2S2, Lady Macduff family A4S2, Macbeth's death A5S7) keep
+    bloodiest action concealed, leaving onstage room for the psychological aftershock
+  - "moving forest" (A5S4-S6) achieved by soldiers carrying boughs — visible mechanism is the point
+
+# 戏曲专属字段不适用（西方 stage_play）
+xiqu_program: null

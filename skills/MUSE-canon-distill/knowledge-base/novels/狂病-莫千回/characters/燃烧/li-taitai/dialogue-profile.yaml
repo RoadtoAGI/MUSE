@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:燃烧--li-taitai
+work_id: novel:狂病-莫千回
+display_name: 李太太
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '李太太的声音是被情绪牵着走的——高频、外放、控制不住。怕的时候是崩溃的哭诉，怨的时候是尖利的指责和咒骂（"狗鼻子也没这么灵吧""扫把星""有心机的婊子"），求命的时候又立刻翻成哀求"回去救我一下"。她说话总在替自己找一个受害者位置：把别人的过错放大、把自己的算计藏进"不应该这样走""谁都自私"的抱怨里。情绪和立场转得极快——前一刻还在恶毒诅咒，下一秒被感染者扑上就只剩哀嚎。她几乎不为别人着想地说一句话，每一句都朝着"我"打转。
+
+
+    佐证：scenes/scene_RS-S03.md:L7-L7 / scenes/scene_RS-S04.md:L7-L7 / scenes/scene_RS-S08.md:L9-L9'
+  evidence_locators:
+  - scenes/scene_RS-S03.md:L7-L7
+  - scenes/scene_RS-S04.md:L7-L7
+  - scenes/scene_RS-S08.md:L9-L9
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

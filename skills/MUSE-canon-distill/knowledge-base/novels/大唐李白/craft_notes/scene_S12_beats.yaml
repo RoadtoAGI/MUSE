@@ -1,0 +1,14 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 双和歌唱
+  dimension: overall
+  original_move: 让声音事件连续改写空间关系
+  ai_default_failure: 只写歌声动听或人物沉醉
+  transfer_rule: 歌唱场景应推动关系与场面转向
+  quote: 闲春昼懒忘梳妆
+overall_traits:
+- 声音驱动场景转折
+- 技术质疑也是亲密
+- 欢愉末尾被反讽翻转

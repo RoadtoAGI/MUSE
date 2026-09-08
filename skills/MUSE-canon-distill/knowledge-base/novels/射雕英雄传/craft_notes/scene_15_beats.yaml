@@ -1,0 +1,27 @@
+scene_id: '15'
+source_notes: scene_15_beats.md
+patterns:
+- pattern_id: 15-p1
+  beat: 马鞭划圈
+  dimension: info_density
+  original_move: 让帝王用马鞭划一人形圈回答终极追问
+  ai_default_failure: 让帝王发表宏大人生感慨或沉默后宣言
+  transfer_rule: 主题命题让道具动作说出，禁止角色点破
+  quote: 马鞭打个圈儿…那也不过这般大小
+- pattern_id: 15-p2
+  beat: 吐血替代反驳
+  dimension: omission
+  original_move: 回首前尘内容全留白，只给一口喷血作回应
+  ai_default_failure: 插一段蒙太奇回忆罗列征战与故人
+  transfer_rule: 价值观被击中时用生理反应代替认错台词
+  quote: 哇的一声，一大口鲜血喷在地下
+- pattern_id: 15-p3
+  beat: 喃喃英雄收束
+  dimension: omission
+  original_move: 帝王之死只留两字喃喃，含义开放不判定
+  ai_default_failure: 给确定答案：临终悔悟或至死不渝
+  transfer_rule: 终极问题以无答案的弱声收束，追问权还读者
+  quote: 口里喃喃念着：「英雄，英雄……」
+overall_traits:
+- 朴素问题比雄辩有力，最浅的问触最深的命题
+- 拒绝反派被感化的廉价满足，不提供答案

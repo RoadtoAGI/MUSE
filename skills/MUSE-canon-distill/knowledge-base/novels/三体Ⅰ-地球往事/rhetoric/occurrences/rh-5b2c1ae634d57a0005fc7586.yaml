@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5b2c1ae634d57a0005fc7586
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2398
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 三体文明的命运，就系于这纤细的两指之上
+sensory_mapping: 两指悬停；细线系物；巨大重量；按钮距离；一触坠落
+context_fact: 红色发射按钮就在指下，他的警告可能使地球不回信、三体失去唯一宜居目标。
+image_mechanism: 行星、舰队和两百轮历史的重量全部收束到指尖细线，宏观文明不再由元首控制，而悬在一个底层个体的微小肌肉动作上。
+property_alignment: 三体文明对应悬物；未来生存对应系绳；两指对应承重点；按键对应松绳动作；手指纤细对应个体卑微；后果不可逆对应坠落难挽回
+context_alignment: 三体社会轻视个人，此刻最卑微者两指承载全文明，尺度反差构成政治反讽。
+narrative_function: 将按键前一瞬拉长，突出个体选择与文明命运的悬殊比例。
+transfer_rule: 用命运系于指上写决策时，应有单一操作点、巨大后果、临界悬停和动作不可逆。
+failure_boundary: 决定需多人审批、存在多重备份路径或单次按键可轻易撤回时，命运集中会夸大个人控制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 监听员是否用两根手指按下发射键，将决定三体能否定位地球并影响整个文明生存机会
+vehicle: 巨大重物或生命被一根细绳悬系在两指之间，手指微动即可维持或令其坠落
+ground: 文明后果巨大对应悬挂重物；决定动作极小对应纤细两指；按与不按对应系住或放落；命运集中于单点

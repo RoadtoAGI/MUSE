@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e5cc8239cede27a1a7248584
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1916
+chapter: 第25章 叛乱
+figure_type: simile
+quote: 仿佛是在舞台聚光灯下迎接着掌声和赞美
+sensory_mapping: 强光聚焦；舞台中心；观众视线；掌声听觉；笑容
+context_fact: 士兵把枪上电筒全部照向她，她正用核弹威胁大厅，却表现得像完成精彩演出。
+image_mechanism: 包围现场被改造成剧场，枪灯变聚光灯，恐惧的沉默被她主观替换成掌声；核勒索于是成为供其展示魅力的表演。
+property_alignment: 电筒光柱对应聚光灯；核弹少女对应舞台演员；武装人群注视对应观众席；灿烂笑容对应谢幕表情；危机控制感对应获得赞美的满足
+context_alignment: 她以艺术体操般姿态托球、娇嗔谈判，舞台类比连续揭示其把真实死亡当戏剧化自我实现。
+narrative_function: 暴露少女的表演欲与狂热，使警方和她对同一场面的理解产生冷峻反差。
+transfer_rule: 把危机中心写成舞台演员时，应有定向照明、围观结构、表演姿态和人物把恐惧误读为赞美的心理。
+failure_boundary: 人物明显畏缩、灯光分散或无人注目时，迎接掌声会违背可见姿态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 核弹少女在所有枪灯照射和众人注视下灿烂微笑、享受成为中心的姿态
+vehicle: 演员站在舞台聚光灯中心，以笑容接受观众喝彩和赞美
+ground: 多束电筒集中照身对应舞台聚光灯聚焦；众人紧盯她对应观众注目；她灿烂笑对应演员谢幕享受掌声

@@ -1,0 +1,116 @@
+version: 1
+status: frozen
+corpus:
+  - container: "novels"
+    work: "三体Ⅰ-地球往事"
+    title: "三体Ⅰ：地球往事"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394"
+    start_line: 22
+    end_line: 2714
+    scope_note: "纳入第1章起至正文收束；排除第22行前的前置材料及第2714行后的后置材料。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "三体Ⅱ-黑暗森林"
+    title: "三体Ⅱ：黑暗森林"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a"
+    start_line: 3
+    end_line: 4657
+    scope_note: "纳入序章至文件末行；排除第3行前的题名等前置材料。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "三体Ⅲ-死神永生"
+    title: "三体Ⅲ：死神永生"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709"
+    start_line: 41
+    end_line: 4666
+    scope_note: "纳入第一部起至文件末行；排除第41行前的前置材料。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "阿Q正传"
+    title: "阿Q正传"
+    author: "鲁迅"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "dbad246001ebdcdcd330457925e3bddb4775d22c1f2e3dd01975e4f34db38290"
+    start_line: 33
+    end_line: 630
+    scope_note: "纳入第一章「序」至创作日期；第一章「序」属于小说正文，排除前置篇目表及第636行起的注释。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "现实一种"
+    title: "现实一种"
+    author: "余华"
+    translator: null
+    source_file: "现实一种.txt"
+    source_sha256: "89bf5b224fab85f075f7c934b8a5a9b4f55a10c089ea23ff982d1d50b34fee8b"
+    start_line: 4
+    end_line: 270
+    scope_note: "纳入首段至末段；排除题名行及末尾空白行。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "海的女儿"
+    title: "海的女儿"
+    author: "汉斯·克里斯蒂安·安徒生"
+    translator: "unknown"
+    source_file: "full_text.md"
+    source_sha256: "47338142e15ba96d34d57aad5a164972ac1f4764dc97398d89a747852572ea76"
+    start_line: 1
+    end_line: 110
+    source_note: "local formatted derivative, translator unknown"
+    scope_note: "纳入本地分段格式化衍生文本全文；该文件用于稳定行级定位。"
+    exclude_notes:
+      - "排除第56行以①开头的编者或译者说明。"
+
+  - container: "novels"
+    work: "月亮与六便士"
+    title: "月亮与六便士"
+    author: "威廉·萨默赛特·毛姆"
+    translator: "unknown"
+    source_file: "月亮与六便士.md"
+    source_sha256: "b7b7f7c9096da7bf1fbfb12d84aa1ef277410515dcc7ca9630d3b84677095d02"
+    start_line: 100
+    end_line: 3801
+    scope_note: "纳入第一章至第五十八章叙事末行；排除目录、高更图文前置材料、章末脚注、作品年表、画传及营销页。"
+    exclude_notes:
+      - "排除正文区间内以[数字]开头的逐章脚注行：118、120、122、124、126、128、130、158、215、217、1146、1217、1219、1698、2292、2676、2678、2940、3031、3033、3178、3283、3285、3354、3734、3736。"
+
+  - container: "dramas"
+    work: "雷雨"
+    title: "雷雨"
+    author: "曹禺"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "95deaec20d6ed7aa0e0ac68661316e8f035be24f7ceef0d4f2d7f81bc108388f"
+    start_line: 81
+    end_line: 2097
+    scope_note: "纳入序幕、第一至第四幕及尾声；序幕和尾声属于戏剧本体，排除作者序、人物表及景表。"
+    exclude_notes:
+      - "排除第2013行的曲目脚注。"
+
+  - container: "dramas"
+    work: "哈姆雷特"
+    title: "哈姆雷特"
+    author: "威廉·莎士比亚"
+    translator: "unknown"
+    source_file: "full_text.md"
+    source_sha256: "41e1ad867784eb784c76b0473442113dec263ece07551e3c578ac4dc9b8a7c2a"
+    start_line: 7
+    end_line: 787
+    scope_note: "纳入第一幕至第五幕正文；源文件内题名为《王子复仇记》，排除封面占位、人物表及末尾译者注。"
+    exclude_notes:
+      - "排除正文区间内所有由下划线分隔并标记「译者注」的注释片段。"
+      - "译者注与正文同处一行时，仅剔除分隔线或「译者注」起的后缀，保留其前正文。"

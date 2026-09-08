@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8d97999c36d5c005960bca63
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L3480-L3481
+chapter: 【掩体纪元67年，银河系猎户旋臂】
+figure_type: simile
+quote: '我们眼中的星星像幽灵
+
+  星星眼中的我们也像幽灵'
+sensory_mapping: 星光鬼影；彼此透明；旧貌远来；时差隔世；幽灵互望
+context_fact: 歌者文明以远距观测和信息膜识别其他低熵世界，古歌谣又在灵态飞行中描写观察者与星星互相观看。
+image_mechanism: 光速延迟被转成生死时差：眼前星光是天体过去留下的影像，远星此刻收到的“我们”也同样属于过去；第二句反转视角，封闭单向凝视。
+property_alignment: 旧星光对应幽灵显形；天体真实现状对应不可见本体；传播延迟对应阴阳隔界；观察者过去影像对应对方所见幽灵；双向观测对应互相显灵；可能毁灭对应死者残像；不可触及对应幽灵无实体
+context_alignment: 歌者刚发现一颗星已被清理但白尘才抵达视线，互为幽灵的歌句以抒情形式概括宇宙信息永远滞后的生存现实。
+narrative_function: 用镜像双句把天文时差写成孤独的相互误认，并在掷出二向箔前制造轻柔而致命的反讽。
+transfer_rule: 用幽灵写远距观测时，应有明显传播延迟、看到的是过去状态、当前本体可能已改变，并最好呈现观察关系的双向错时。
+failure_boundary: 双方可实时通信、观测几乎无延迟，或影像准确同步本体时，幽灵的时间脱节不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 相隔巨大时空距离的观察者与恒星文明只能看见对方久远发出的光和信息，彼此所见都不是对方此刻状态
+vehicle: 幽灵以逝去者的残影出现在生者眼前，形象可见却与当前实体分离，双方无法即时接触
+ground: 延迟星光对应亡者残影；远方文明对应不可触幽灵；所见过去对应死者旧貌；彼此互看对应互为幽灵；传播时差对应生死隔膜；星体可能已灭对应幽灵来源死亡

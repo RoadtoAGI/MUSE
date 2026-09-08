@@ -1,0 +1,781 @@
+[
+  {
+    "scene_id": "scene_01",
+    "file": "scenes/scene_01.md",
+    "title": "地球发动机与\"死亡\"谜语",
+    "act": 1,
+    "source_lines": "17-26",
+    "source_section": "上篇 刹车时代",
+    "scene_type": "establishing",
+    "tension_level": 3,
+    "participants": [
+      "叙述者",
+      "小星老师",
+      "同学们"
+    ],
+    "value_change": "懵懂 → 觉醒（存在恐惧萌芽）",
+    "key_elements": [
+      "死亡谜语",
+      "上帝的喷灯",
+      "等离子体巨墙"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "死亡谜语",
+      "上帝的喷灯",
+      "等离子体巨墙"
+    ],
+    "characters": [
+      "叙述者",
+      "小星老师",
+      "同学们"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "上篇 刹车时代",
+    "description": "地球发动机与\"死亡\"谜语",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称回忆，儿童感知贴近宏观工程",
+      "diction": "科技术语混合童年口语，量级词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量师生问答嵌入说明，叙述推进为主",
+      "pacing": "景观层层放大，末尾用短句落到死亡"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_02",
+    "file": "scenes/scene_02.md",
+    "title": "第一次日出",
+    "act": 1,
+    "source_lines": "27-42",
+    "source_section": "上篇 刹车时代",
+    "scene_type": "establishing",
+    "tension_level": 5,
+    "participants": [
+      "叙述者",
+      "灵儿",
+      "小星老师",
+      "同学们"
+    ],
+    "value_change": "恐惧 → 接受（但恐惧内化为世界观）",
+    "key_elements": [
+      "太阳=死亡",
+      "灵儿的湿手",
+      "死亡之墙是雪亮的"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "太阳=死亡",
+      "灵儿的湿手",
+      "死亡之墙是雪亮的"
+    ],
+    "characters": [
+      "叙述者",
+      "灵儿",
+      "小星老师",
+      "同学们"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "上篇 刹车时代",
+    "description": "第一次日出——恐惧 → 接受（但恐惧内化为世界观）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称群体童年恐惧，夹带时代解释",
+      "diction": "灾变词汇与课堂口语并置，色光词突出",
+      "rhetoric_density": "high",
+      "dialogue_mode": "师生对白制造迟疑，儿童短句显惊惧",
+      "pacing": "长段铺环境，恐惧段用坠落感加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_03",
+    "file": "scenes/scene_03.md",
+    "title": "飞船派vs地球派/生态球论证",
+    "act": 1,
+    "source_lines": "43-67",
+    "source_section": "上篇 刹车时代",
+    "scene_type": "establishing",
+    "tension_level": 4,
+    "participants": [
+      "小星老师",
+      "阿东",
+      "叙述者",
+      "同学们"
+    ],
+    "value_change": "分裂 → 暂时统一",
+    "key_elements": [
+      "生态球死亡",
+      "婴儿与母亲比喻",
+      "五步逃亡计划"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "生态球死亡",
+      "婴儿与母亲比喻",
+      "五步逃亡计划"
+    ],
+    "characters": [
+      "小星老师",
+      "阿东",
+      "叙述者",
+      "同学们"
+    ],
+    "conflict_type": "external",
+    "pov": "小星老师",
+    "word_count": 0,
+    "source_chapter": "上篇 刹车时代",
+    "description": "飞船派vs地球派/生态球论证",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称旁观争论，让教师承担论证",
+      "diction": "政治口号、科普说明、校园冲突混用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "辩论式对白推进，教师长句压住群体喊叫",
+      "pacing": "冲突先爆开，再以实验说明放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_04",
+    "file": "scenes/scene_04.md",
+    "title": "星空下的比邻星 + 启航 + 爷爷去世",
+    "act": 1,
+    "source_lines": "68-73",
+    "source_section": "上篇 刹车时代",
+    "scene_type": "turning",
+    "tension_level": 6,
+    "participants": [
+      "叙述者",
+      "小星老师",
+      "同学们",
+      "水手船长",
+      "爷爷"
+    ],
+    "value_change": "美丽与感伤 → 希望确立 + 第一次丧失",
+    "key_elements": [
+      "比邻星=心中的太阳",
+      "月球离去",
+      "地球启航",
+      "爷爷遗言回响句"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "比邻星=心中的太阳",
+      "月球离去",
+      "地球启航",
+      "爷爷遗言回响句"
+    ],
+    "characters": [
+      "叙述者",
+      "小星老师",
+      "同学们",
+      "水手船长",
+      "爷爷"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "上篇 刹车时代",
+    "description": "星空下的比邻星 + 启航 + 爷爷去世",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称集体见证，情绪直接抬高",
+      "diction": "抒情词和天文工程词交替出现",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，用集体泪水代替交谈",
+      "pacing": "短场景连续跳切，启航句独立成段"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_05",
+    "file": "scenes/scene_05.md",
+    "title": "父亲出轨与\"希望\"独白",
+    "act": 2,
+    "source_lines": "88-110",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "deepening",
+    "tension_level": 3,
+    "participants": [
+      "叙述者",
+      "父亲",
+      "母亲"
+    ],
+    "value_change": "家庭表面完整 → 关系空洞化",
+    "key_elements": [
+      "远日点狂欢",
+      "出轨被平静接受",
+      "妈妈忘记情人名字",
+      "希望是黄金和宝石"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "远日点狂欢",
+      "出轨被平静接受",
+      "妈妈忘记情人名字",
+      "希望是黄金和宝石"
+    ],
+    "characters": [
+      "叙述者",
+      "父亲",
+      "母亲"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "父亲出轨与\"希望\"独白",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称冷静回忆家庭裂缝与时代心理",
+      "diction": "日常家庭语混入社会学式概括",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "家庭对白平淡克制，情绪被宏观生存吞没",
+      "pacing": "家事轻描淡写，末尾希望独白收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_06",
+    "file": "scenes/scene_06.md",
+    "title": "灵儿的肥皂泡",
+    "act": 2,
+    "source_lines": "111-126",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "deepening",
+    "tension_level": 5,
+    "participants": [
+      "叙述者",
+      "灵儿"
+    ],
+    "value_change": "恐惧 → 灵儿选择虚无并消失",
+    "key_elements": [
+      "肥皂泡意象",
+      "啪一下什么都没了",
+      "灵儿与阿东消失"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "肥皂泡意象",
+      "啪一下什么都没了",
+      "灵儿与阿东消失"
+    ],
+    "characters": [
+      "叙述者",
+      "灵儿"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "灵儿的肥皂泡",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称贴身观察，把青春冲动转成末日寓言",
+      "diction": "校园口语接泡沫意象，死亡词突然刺入",
+      "rhetoric_density": "high",
+      "dialogue_mode": "两人短对白推进，灵儿用比喻夺取话语",
+      "pacing": "柔慢观看泡泡，随后用消失急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_07",
+    "file": "scenes/scene_07.md",
+    "title": "岩浆灾难/母亲遇难",
+    "act": 2,
+    "source_lines": "129-138",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "turning",
+    "tension_level": 8,
+    "participants": [
+      "叙述者",
+      "母亲",
+      "市民",
+      "士兵"
+    ],
+    "value_change": "家庭尚在 → 母亲遇难",
+    "key_elements": [
+      "按年龄排队撤离",
+      "危急法",
+      "硫磺味",
+      "一万八千人遇难"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "按年龄排队撤离",
+      "危急法",
+      "硫磺味",
+      "一万八千人遇难"
+    ],
+    "characters": [
+      "叙述者",
+      "母亲",
+      "市民",
+      "士兵"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "岩浆灾难/母亲遇难",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称灾难见证，伦理判断压进叙述",
+      "diction": "灾害术语、法规词、亲情词硬性并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "广播命令式对白，人物交流被制度替代",
+      "pacing": "先说明机制，再按撤离时间递进窒息"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_08",
+    "file": "scenes/scene_08.md",
+    "title": "冰面奥运/遇见加代子/结婚",
+    "act": 2,
+    "source_lines": "139-154",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "advancing",
+    "tension_level": 4,
+    "participants": [
+      "叙述者",
+      "加代子",
+      "民政官员"
+    ],
+    "value_change": "极端孤独 → 爱情/延续确认",
+    "key_elements": [
+      "冰原孤独感",
+      "像看到太阳升起",
+      "抽签生育权",
+      "自由女神像金辉"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "冰原孤独感",
+      "像看到太阳升起",
+      "抽签生育权",
+      "自由女神像金辉"
+    ],
+    "characters": [
+      "叙述者",
+      "加代子",
+      "民政官员"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "冰面奥运/遇见加代子/结婚",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称孤独旅行，爱情被文明续存框住",
+      "diction": "运动叙述、冰原景观、婚育制度词混合",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "相遇对白温暖直接，制度宣告转回冷峻",
+      "pacing": "孤独长铺垫，遇见后节奏轻快再沉下"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_09",
+    "file": "scenes/scene_09.md",
+    "title": "穿越小行星带/父亲牺牲",
+    "act": 2,
+    "source_lines": "157-199",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "turning",
+    "tension_level": 9,
+    "participants": [
+      "叙述者",
+      "加代子",
+      "官员",
+      "将军"
+    ],
+    "value_change": "紧张但有信心 → 父亲牺牲",
+    "key_elements": [
+      "反物质炸弹闪光",
+      "火流星",
+      "浪（一字回答）",
+      "父亲的勋章"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "反物质炸弹闪光",
+      "火流星",
+      "浪（一字回答）",
+      "父亲的勋章"
+    ],
+    "characters": [
+      "叙述者",
+      "加代子",
+      "官员",
+      "将军"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "穿越小行星带/父亲牺牲",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称危机目击，私人丧父嵌入行星轰炸",
+      "diction": "军事科技词、灾害视觉词、保证句并列",
+      "rhetoric_density": "high",
+      "dialogue_mode": "解释性对白分散在灾难推进中",
+      "pacing": "爆炸景观连发，末尾用勋章骤然静止"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_10",
+    "file": "scenes/scene_10.md",
+    "title": "飞机上的绝望与蓝光",
+    "act": 2,
+    "source_lines": "187-197",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "turning",
+    "tension_level": 7,
+    "participants": [
+      "叙述者",
+      "加代子",
+      "自杀未遂男人",
+      "他的妻子"
+    ],
+    "value_change": "绝望到窒息 → 蓝光带来希望",
+    "key_elements": [
+      "最黑的黑夜",
+      "自杀未遂",
+      "地球发动机蓝光",
+      "父亲的话回响"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "最黑的黑夜",
+      "自杀未遂",
+      "地球发动机蓝光",
+      "父亲的话回响"
+    ],
+    "characters": [
+      "叙述者",
+      "加代子",
+      "自杀未遂男人",
+      "他的妻子"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "飞机上的绝望与蓝光",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称绝望内省，借旁人动作折返希望",
+      "diction": "黑暗感官词密集，后段转向希望隐喻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量低声对白，旁人对白完成价值转折",
+      "pacing": "黑暗中停滞拉长，蓝光出现后呼吸恢复"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_11",
+    "file": "scenes/scene_11.md",
+    "title": "木星交会",
+    "act": 2,
+    "source_lines": "206-211",
+    "source_section": "中篇 逃逸时代",
+    "scene_type": "climactic",
+    "tension_level": 9,
+    "participants": [
+      "叙述者",
+      "全人类"
+    ],
+    "value_change": "恐惧（木星巨眼） → 达到逃逸速度",
+    "key_elements": [
+      "木星占满天空",
+      "大红斑如巨眼",
+      "地球=木星云海上的气球",
+      "儿子出生"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "木星占满天空",
+      "大红斑如巨眼",
+      "地球=木星云海上的气球",
+      "儿子出生"
+    ],
+    "characters": [
+      "叙述者",
+      "全人类"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "中篇 逃逸时代",
+    "description": "木星交会——恐惧（木星巨眼） → 达到逃逸速度",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称仰视宇宙尺度，理性说明伴随恐惧",
+      "diction": "轨道术语与怪物化意象交替",
+      "rhetoric_density": "high",
+      "dialogue_mode": "基本无对白，引用记者句制造外部见证",
+      "pacing": "天体升起极慢推进，警报后迅速切生存"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_12",
+    "file": "scenes/scene_12.md",
+    "title": "观测太阳/质疑蔓延",
+    "act": 3,
+    "source_lines": "217-226",
+    "source_section": "下篇 叛乱",
+    "scene_type": "turning",
+    "tension_level": 7,
+    "participants": [
+      "叙述者",
+      "加代子"
+    ],
+    "value_change": "焦虑但信任 → 信念崩溃",
+    "key_elements": [
+      "望远镜观测太阳",
+      "参数完全一样",
+      "你是个白痴",
+      "太阳没有任何变化"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "望远镜观测太阳",
+      "参数完全一样",
+      "你是个白痴",
+      "太阳没有任何变化"
+    ],
+    "characters": [
+      "叙述者",
+      "加代子"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "下篇 叛乱",
+    "description": "观测太阳/质疑蔓延",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称疑惧旁观，让证据逐步压过否认",
+      "diction": "家常争执接观测参数，冷光词贯穿",
+      "rhetoric_density": "low",
+      "dialogue_mode": "夫妻短对白冲突，结论由叙述扩散",
+      "pacing": "私密观测起步，几个月概括扩大恐慌"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_13",
+    "file": "scenes/scene_13.md",
+    "title": "叛乱爆发/加代子加入叛军",
+    "act": 3,
+    "source_lines": "227-232",
+    "source_section": "下篇 叛乱",
+    "scene_type": "turning",
+    "tension_level": 8,
+    "participants": [
+      "叙述者",
+      "加代子",
+      "演讲者",
+      "市民"
+    ],
+    "value_change": "夫妻同在 → 永久分裂",
+    "key_elements": [
+      "叛军演说",
+      "加代子沉默接枪",
+      "没有回头",
+      "勋章扎出血"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "叛军演说",
+      "加代子沉默接枪",
+      "没有回头",
+      "勋章扎出血"
+    ],
+    "characters": [
+      "叙述者",
+      "加代子",
+      "演讲者",
+      "市民"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 0,
+    "source_chapter": "下篇 叛乱",
+    "description": "叛乱爆发/加代子加入叛军",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称被动见证政治爆燃和亲密断裂",
+      "diction": "革命演说高亢，叙述者语言冷硬克制",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "公众演说主导，私人关系几乎无对白",
+      "pacing": "群众场面迅速升温，加入军队句冷收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_14",
+    "file": "scenes/scene_14.md",
+    "title": "投降演说/冻刑/太阳氦闪",
+    "act": 3,
+    "source_lines": "238-260",
+    "source_section": "下篇 叛乱",
+    "scene_type": "climactic",
+    "tension_level": 10,
+    "participants": [
+      "最高执政官",
+      "5000名地球派",
+      "叛军",
+      "叙述者"
+    ],
+    "value_change": "绝望（信念被扼杀） → 真理降临（太阳氦闪）",
+    "key_elements": [
+      "地球驾驶室全息图",
+      "最高执政官演说",
+      "冻刑",
+      "《我的太阳》合唱",
+      "叙述者的快感",
+      "太阳氦闪爆发",
+      "五千尊雕像",
+      "太阳死了"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "地球驾驶室全息图",
+      "最高执政官演说",
+      "冻刑",
+      "《我的太阳》合唱",
+      "叙述者的快感",
+      "太阳氦闪爆发",
+      "五千尊雕像",
+      "太阳死了"
+    ],
+    "characters": [
+      "最高执政官",
+      "5000名地球派",
+      "叛军",
+      "叙述者"
+    ],
+    "conflict_type": "external",
+    "pov": "最高执政官",
+    "word_count": 0,
+    "source_chapter": "下篇 叛乱",
+    "description": "投降演说/冻刑/太阳氦闪",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称狂热参与，末尾被事实反转",
+      "diction": "宗教赞词、政治审判词、寒冷感官词交织",
+      "rhetoric_density": "high",
+      "dialogue_mode": "执政官演说与群众合唱对峙",
+      "pacing": "刑场长时间压迫，氦闪用短句断裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_15",
+    "file": "scenes/scene_15.md",
+    "title": "尾声/流浪之歌",
+    "act": 3,
+    "source_lines": "261-281",
+    "source_section": "流浪时代",
+    "scene_type": "establishing",
+    "tension_level": 3,
+    "participants": [
+      "叙述者（老年）",
+      "儿子",
+      "儿媳"
+    ],
+    "value_change": "苍老孤独 → 苦涩的希望",
+    "key_elements": [
+      "固态氧氮景观",
+      "流浪之歌歌词",
+      "想象中的绿色草原",
+      "加代子如天使",
+      "回响句"
+    ],
+    "novel": "流浪地球",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "固态氧氮景观",
+      "流浪之歌歌词",
+      "想象中的绿色草原",
+      "加代子如天使",
+      "回响句"
+    ],
+    "characters": [
+      "叙述者（老年）",
+      "儿子",
+      "儿媳"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者（老年）",
+    "word_count": 0,
+    "source_chapter": "流浪时代",
+    "description": "尾声/流浪之歌",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "老年第一人称回望，个人愿望融入后代未来",
+      "diction": "科学航程说明接民歌式复沓抒情",
+      "rhetoric_density": "high",
+      "dialogue_mode": "无对白，以歌词承担集体声音",
+      "pacing": "先冷静概述航程，再用歌段循环升温"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

@@ -1,0 +1,27 @@
+card_id: forged-evidence-rift
+pattern_name: 栽赃误会·决裂复合
+dramatic_function: 反派伪造物证嫁祸至亲，把爱情线与复仇线锁死在同一误会上，主角的内心撕裂有外部铁证支撑，撑起多回合分合。
+applicability: 适用于中段需要恋人或盟友决裂再复合的低谷；读者先知真相过久或翻案过快都会泄压（单书孤证，验证面窄）
+reuse_candidates:
+- 翡翠小鞋与断秤等具体物证
+- 铁枪庙群鸦夜审的舞台
+- 桃花岛家族地理设定
+tags:
+- 误会
+- 栽赃
+- 决裂复合
+- 翻案
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S11
+  note: 物证链指向爱人之父，决裂以茫然而非争吵完成
+- novel: 射雕英雄传
+  scene_id: S12
+  note: 受害者引导反派自曝，翻案靠激将不靠侦探解说
+- novel: 射雕英雄传
+  scene_id: S20
+  note: 烟雨楼误会大战，错位仇恨升级到不可收拾
+phase_affinity:
+- 3
+- 4
+- 5

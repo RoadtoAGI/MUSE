@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5a3ab764c4676d952f0e714d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1658
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 自己所有的科学知识和思想体系在一瞬间模糊不清了
+sensory_mapping: 视觉失焦；雾化；轮廓消散；瞬时明暗变化
+context_fact: 科学顾问确认微小扰动会被无限放大，连三体这样构成简单的系统都无法长期预测。
+image_mechanism: 知识从抽象命题排列成一幅清晰地图，混沌结论像雾瞬间涌入，坐标、边界和道路一同失焦；迷茫因此成为看不清下一步。
+property_alignment: 科学知识对应可见图景；思想体系对应有边界地图；新结论冲击对应雾骤起；信心动摇对应轮廓模糊；无法继续推断对应看不清道路
+context_alignment: 汪淼一直依靠规律可知性行动，三体无解直接破坏这一认知视觉，模糊比简单“震惊”更准确。
+narrative_function: 把混沌理论的哲学冲击落实为瞬时感知失焦，并引出他对探索宇宙的怀疑。
+transfer_rule: 用模糊写认知危机时，应说明原先清楚的结构、造成失焦的新证据和人物因此无法辨认的判断。
+failure_boundary: 人物只是缺一项知识、整体体系仍稳定，或新事实很快被旧理论吸收时，全面模糊会夸大动摇。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼得知简单三体系统本质不可预测后，对既有科学世界观失去清晰把握和信心
+vehicle: 原本清楚的景物突然失焦或被雾遮住，轮廓和边界无法辨认
+ground: 理论关系不再确定对应视觉轮廓失焦；思想体系难以区分真伪边界对应景物边缘融入雾中

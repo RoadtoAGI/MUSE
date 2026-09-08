@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d62e908c57410a804fe12716
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2074
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 我还要种更多的树，扩大这个伊甸园的面积
+sensory_mapping: 葱绿园林；鸟鸣；安全边界；荒地对照；生命丰饶
+context_fact: 褐燕因固定迁徙路线只能到此，原有植被消失，伊文斯靠个人造林让种群回升。
+image_mechanism: 普通速生林被划出神圣边界，园内每棵树都替无家物种恢复一小块创世秩序；园外黄土则显成被逐离乐园后的荒芜。
+property_alignment: 绿林对应伊甸园植物；褐燕栖息对应园中生命；物种平等对应创世共同体；黄土荒山对应园外荒原；造更多树对应扩大园界；种群回升对应乐园滋养
+context_alignment: 伊文斯以救世主自居，宗教性伊甸园与其使命语言一致，也预示后来把三体事业宗教化。
+narrative_function: 把小树林提升为物种伦理实践场，并凸显其在荒山中的珍贵与脆弱。
+transfer_rule: 用伊甸园写生态庇护地时，应具备生命多样性、安全边界、外界威胁、恢复秩序和守护者的价值信念。
+failure_boundary: 林地是经济人工林、排斥大多数物种或持续受捕猎污染时，伊甸园会粉饰真实生态功能。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 伊文斯在荒山上为濒危西北褐燕营造并计划扩大的安全树林栖息地
+vehicle: 《圣经》中生命和谐共存、免受伤害且丰饶安宁的伊甸园
+ground: 树林庇护燕子对应乐园保护生命；荒山中的绿色孤岛对应失落世界中的园地；扩大造林对应扩张乐园边界

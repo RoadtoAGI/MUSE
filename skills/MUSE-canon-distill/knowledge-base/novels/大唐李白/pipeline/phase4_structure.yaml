@@ -1,0 +1,246 @@
+# Phase 4: 结构（序列展开）— 《大唐李白》（张大春）
+# 逆向分析：逐 Arc 展开为序列
+
+arc_expansions:
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "师缘前奏"
+        core_conflict: "赵蕤是否愿意收一个杀过人的商人之子为徒"
+        escalation_direction: "从远观（石上诗）→ 品评（赵蕤与月娘）→ 拒绝（李客求师）→ 犹豫"
+        sequence_climax: "赵蕤与月娘品评石上诗，识为'故人之子'（卷一第三章）"
+        closed: "赵蕤对李白产生兴趣"
+        opened: "但仍未答应收徒——'某自道术不精，岂敢误人？'"
+
+      - seq_id: ARC1-SEQ2
+        name: "师徒确立"
+        core_conflict: "李白能否折服赵蕤，赵蕤是否改变初衷"
+        escalation_direction: "从李白深夜闯山 → 机锋对答 → 赵蕤内心转变 → 决意收徒"
+        sequence_climax: "李白以'大道如青天，我独不得出'表明心志，赵蕤应允（卷一第八-九章）"
+        closed: "师徒关系确立"
+        opened: "赵蕤要把李白教成什么样的人？他的教育路线是什么？"
+
+      - seq_id: ARC1-SEQ3
+        name: "山中受教"
+        core_conflict: "赵蕤的纵横术/隐士谋略 vs 李白的诗性天分"
+        escalation_direction: "辨药 → 论诗（指正'回头'之病）→ 论士（颜斶的傲骨与身段）→ 教算策 → 背《兔园册子》"
+        sequence_climax: "月娘教李白《是非》篇，点明'出仕之志'——赵蕤的真实目的浮出水面（卷一第二四章）"
+        closed: "赵蕤的教育方向被揭示：不是培养隐士，而是培养'以不应为应'的仕途候选人"
+        opened: "李客的身世揭秘（第十九章）——李白家族的秘密成为新的暗流"
+
+      - seq_id: ARC1-SEQ4
+        name: "举而不应"
+        core_conflict: "赵蕤如何为李白打造超越科举的声望"
+        escalation_direction: "赵蕤施朝阳诀召鸟 → 刺史入山 → 设帐拜见 → 赵蕤拒绝举荐"
+        sequence_climax: "赵蕤'举而不应'，以'非常道'谋千里之名（卷一第三二章）"
+        closed: "赵蕤为李白设计的声望策略完成——不以应试而以不应立名"
+        opened: "策略虽妙，但李白仍是'白身'——名声能否真正转化为位置？"
+    arc_progression_note: >
+      ARC-1 内四个序列呈现递进的"揭示"逻辑：
+      师缘初建 → 师徒方法论确立 → 教育路线揭示 → 策略极致展开。
+      每个序列不是冲突递增，而是"真相"递增——
+      读者逐步理解赵蕤并非超脱之人，他的隐士形象本身就是策略。
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "携师命出游"
+        core_conflict: "李白以什么身份行走天下"
+        escalation_direction: "慈元揭露行程底蕴（处置寺院债务）→ 路遇薛稷鬼魂 → 驿卒侯矩讲天下事"
+        sequence_climax: "李白在露寒驿遇薛稷鬼魂与狂客——第一次从'活人'之外获得对帝国政治的认知（卷一第四二章）"
+        closed: "李白对帝国历史的理解从书本扩展到鬼魂的亲历证词"
+        opened: "他即将面对成都——一个需要以真实身份应对的城市"
+
+      - seq_id: ARC2-SEQ2
+        name: "成都历练"
+        core_conflict: "诗才 vs 白身——才华能否突破身份壁垒"
+        escalation_direction: "入成都抬举债务 → 即席赋散花楼诗 → 卢焕点破白身困境 → 夜闻骑羊者"
+        sequence_climax: "卢焕追问李白心仪何人后点破'白身'困境（卷一第五一-五二章）"
+        closed: "身份壁垒被第一次明确言说——商人之子不能科举"
+        opened: "李白怎么办？他夜闻骑羊者歌声，暗示另一条道路（仙道/诗道）"
+
+      - seq_id: ARC2-SEQ3
+        name: "峨眉悟道与归山"
+        core_conflict: "如何在困境中找到方向"
+        escalation_direction: "道海赠绿绮琴 → 峨眉清凉寺听松悟道 → 濬和尚点化 → 干谒苏颋"
+        sequence_climax: "干谒苏颋获'可与相如比肩'之评（卷一第五七章）"
+        closed: "诗名初立——蜀中最高长官认可李白的才华"
+        opened: "但'相如'本身也是蜀地的'客'——诗名能解决身份问题吗？"
+    arc_progression_note: >
+      ARC-2 呈现"才华验证"与"困境验证"的双线递进：
+      每一次才华得到认可（赋诗、苏颋评价），
+      困境也同步加深（白身点破、身份无解）。
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "出蜀与月娘暗线"
+        core_conflict: "出蜀意味着暴露——离开蜀地的庇护进入更广阔也更危险的世界"
+        escalation_direction: "赵蕤勉出蜀 → 月娘杀仇（添子洞）→ 李白出蜀闻废后事作诗"
+        sequence_climax: "月娘在添子洞杀毛韬（卷二第五章）——月娘线与李白线分道"
+        closed: "李白正式离开蜀中"
+        opened: "月娘独自踏上另一条路，两条命运从此分岔"
+
+      - seq_id: ARC3-SEQ2
+        name: "江陵会道"
+        core_conflict: "李白能否获得道教体系的接纳"
+        escalation_direction: "遇瞽画师厉以常 → 封禅泰山（宫廷背景）→ 江陵会司马承祯"
+        sequence_climax: "李白被司马承祯赞为'仙风道骨'（卷二第十二章）"
+        closed: "获得道教最高权威的认可——在科举之外找到了另一个身份合法性来源"
+        opened: "但道教认可不等于政治认可——离'兼济天下'还有多远？"
+
+      - seq_id: ARC3-SEQ3
+        name: "洞庭丧友"
+        core_conflict: "同行者的消逝与独行的开始"
+        escalation_direction: "吴指南遇张夜叉预知己死 → 追问李白私吞资财 → 与虎对峙"
+        sequence_climax: "吴指南临终吼啸驱虎（卷二第二二章）"
+        closed: "李白失去从少年时代起唯一的同行者"
+        opened: "独行的李白将如何面对金陵的新世界？"
+    arc_progression_note: >
+      ARC-3 的核心是"得"与"失"的交替：
+      得道教认可 → 失同行者，得新世界 → 失旧自我。
+      月娘线的分离进一步强化了"各自命运"的主题。
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "金陵遇段七娘"
+        core_conflict: "情感的可能与不可能"
+        escalation_direction: "孙楚楼初遇 → 改编诗入乐 → 芳乐苑夜游"
+        sequence_climax: "李白在孙楚楼初遇段七娘（卷二第二三章）——'好因缘恰是恶因缘'"
+        closed: "情感线开启"
+        opened: "段七娘是自由的化身——她的存在映照出李白对自由的渴望和不可得"
+
+      - seq_id: ARC4-SEQ2
+        name: "士族交游与身份表演"
+        core_conflict: "李白如何在士族子弟中确立自己的位置"
+        escalation_direction: "崔宗之入金陵 → 孙楚楼行酒令赋诗 → 李白以张良自况"
+        sequence_climax: "孙楚楼行酒令，三人赋诗明志（卷二第二七章）"
+        closed: "李白以才华折服崔宗之、范十三"
+        opened: "但崔宗之邀其赴嵩阳（接近权力中心），李白婉拒"
+
+      - seq_id: ARC4-SEQ3
+        name: "孟浩然与身份宣言"
+        core_conflict: "面对'为何不赴科举'的直接追问，李白如何回应"
+        escalation_direction: "偶遇孟浩然 → 论诗改字(S23) → 龚霸赠紫绮裘 → 追问科举(S14) → 梦中得句助成(S25)"
+        key_scenes: [S23, S14, S25]
+        sequence_climax: "李白以'神仙自处'回应为何不赴科举（卷二第三二章）"
+        closed: "李白将'不得出'转化为'不为'的主动姿态"
+        opened: "这个姿态能否持久？它是真实的超脱还是无奈的伪装？"
+        supplementary_note: >
+          S23（改字论诗）→ S14（神仙自处）→ S25（梦句助成）构成完整的
+          「相识→交锋→共鸣」友谊三拍。S23 以技术批评建立对等关系，
+          S14 在追问中暴露身份裂痕，S25 以共同创作收束——
+          孟浩然是全书中唯一与李白形成对等精神交流的文人。
+    arc_progression_note: >
+      ARC-4 是"身份表演"的高峰——李白在金陵的每一次交际
+      都是一场关于"我是谁"的即兴演出。
+      段七娘/崔宗之/孟浩然分别触发情感/社会/精神三个层面的身份追问。
+
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "广陵散财"
+        core_conflict: "以财换名——最极端的身份建构策略"
+        escalation_direction: "遭群丐纠缠 → 龙君助力 → 广陵瘟疫太白药救民 → 琼花楼自号五蠹人"
+        sequence_climax: "琼花楼之会——李白散财三十万，以季札论折服高适（卷三第九-十一章）"
+        closed: "散财之名遍传扬州——许自正从薛商处听闻'五蠹人'"
+        opened: "三十万散尽之后呢？名声如何转化为位置？"
+
+      - seq_id: ARC5-SEQ2
+        name: "弃长安之志"
+        core_conflict: "意识层面的desire（入仕）vs 本能的need（自由）正面碰撞"
+        escalation_direction: "段七娘化名制衣娘子重现 → 高适季札论别(S24) → 李白宣布不赴长安(S17)"
+        key_scenes: [S24, S17]
+        sequence_climax: "李白决意不赴长安，以歌曲浪迹为志（卷三第十三章）"
+        closed: "conscious desire 被暂时放弃"
+        opened: "不赴长安之后，李白将去向何方？"
+        supplementary_note: >
+          S24（高适论别）是 S17（弃长安）的直接前因——
+          高适以「某之先人仕宦失官」点破经济现实，
+          李白以「某之处境容得某如此任性」自剖特权，
+          友谊在路径分歧处裂开但不破裂。
+          高适北行赴长安、李白留广陵弃长安——同一刻的两个方向。
+
+      - seq_id: ARC5-SEQ3
+        name: "月娘复仇与沦落"
+        core_conflict: "月娘的正义追求与命运的不可控"
+        escalation_direction: "月娘追仇毛韬 → 仪光禅师以马喻阻杀 → 三刀不忍 → 毛韬惊死"
+        sequence_climax: "毛韬惊吓而死——月娘未能亲手完成复仇（卷三第十五-十六章）"
+        closed: "月娘的复仇以不完整的方式结束"
+        opened: "月娘独身流亡——命运将把她推向何处？"
+    arc_progression_note: >
+      ARC-5 是三卷中冲击力最大的Arc——
+      散财/弃长安/月娘复仇三条线并行，
+      李白线的"主动放弃"与月娘线的"被动沦落"形成尖锐对比。
+
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: "安州重逢"
+        core_conflict: "漫游者如何被'安顿'"
+        escalation_direction: "旗亭偶遇叔父李衍 → 桃李园春宴 → 紫绮裘揭示司马承祯的暗中安排"
+        sequence_climax: "许自正通过紫绮裘认出李白——婚事从暗转明（卷三第二一章）"
+        closed: "李白的身份被许家'认领'"
+        opened: "许宛对李白的情感如何发展？"
+
+      - seq_id: ARC6-SEQ2
+        name: "月娘沦落与安禄山前史"
+        core_conflict: "自由者的对照命运——月娘被侵占 vs 安禄山崛起"
+        escalation_direction: "月娘遇康老胡 → 被迷香控制 → 轧牢山出走突厥 → 月娘被轧牢山侵占"
+        sequence_climax: "月娘被轧牢山侵占，梦中忆李白诗句（卷三第二九章）"
+        closed: "月娘的自由之身彻底丧失——与李白的命运形成最残酷的对照"
+        opened: "安禄山的少年前史铺设了安史之乱的远因"
+
+      - seq_id: ARC6-SEQ3
+        name: "婚礼与酒壶"
+        core_conflict: "安顿 vs 自由的最终较量"
+        escalation_direction: "李白折服许自正 → 段七娘最后一面 → 繁缛婚仪 → 亲迎"
+        sequence_climax: "亲迎许宛——酒壶从天而降（卷三第三三章）"
+        closed: "李白入赘许家，漫游生涯终结"
+        opened: "酒壶是吴指南的遗物——过去未曾真正过去，故事远未结束"
+    arc_progression_note: >
+      ARC-6 以"收束"为表、"开启"为里——
+      婚礼看似终点，但月娘线的悲剧、
+      安禄山线的伏笔、酒壶的超自然回声，
+      都暗示第四卷的更大动荡。
+
+causal_chain: >
+  ARC-1（赵蕤以"举而不应"策略训练李白）→
+  ARC-2（诗名初立但白身困境被点破）→
+  ARC-3（出蜀获道教认可但失去同行者）→
+  ARC-4（以"神仙自处"回避身份问题）→
+  ARC-5（散财弃长安，将回避推向极端）→
+  ARC-6（以婚姻"安顿"，但酒壶暗示一切远未结束）
+
+arc_progression:
+  impact_escalation: >
+    ARC-1/2 的冲击力较小（认知层面的揭示），
+    ARC-3 通过吴指南之死实现第一次情感冲击，
+    ARC-4 的冲击在于身份表演的精彩与脆弱，
+    ARC-5 达到全书最大冲击力（散财/弃志/月娘沦落三线并发），
+    ARC-6 以看似平静的婚礼收尾，但酒壶坠落制造了最后的震颤。
+  causal_chain: >
+    赵蕤的教育 → 诗名初立 + 困境确认 → 出蜀寻找替代路径 →
+    道教认可 + 丧友 → 金陵身份表演 → 极端策略（散财）→
+    策略失效 → 被婚姻收编
+
+narrative_threads:
+  - name: "李白主线"
+    description: "从大匡山求学到安州入赘的成长与困境"
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-4, ARC-5, ARC-6]
+
+  - name: "月娘线"
+    description: "赵蕤道侣→杀仇→流亡→被侵占——自由女性的毁灭"
+    presence: "卷一间歇出现，卷二第五章独立，卷三后半密集展开"
+    primary_arcs: [ARC-5, ARC-6]
+
+  - name: "宫廷政治暗线"
+    description: "太平公主之变→废后→武惠妃弄权→杨玉奴——帝国的暗流"
+    presence: "贯穿全书，始终以插叙/转述呈现，从不独立成场景"
+    primary_arcs: []  # 无独立Arc，作为背景穿插
+
+  - name: "安禄山前史线"
+    description: "少年轧牢山的突厥出走——安史之乱的远因"
+    presence: "仅卷三第二六-二九章集中出现"
+    primary_arcs: [ARC-6]

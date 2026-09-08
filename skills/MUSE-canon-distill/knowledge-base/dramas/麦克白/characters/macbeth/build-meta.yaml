@@ -1,0 +1,32 @@
+mode: reference
+display_name: 麦克白
+role_slug: macbeth
+source_novel: 麦克白
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S2.md
+  - scenes/scene_A1S3.md
+  - scenes/scene_A1S4.md
+  - scenes/scene_A1S7.md
+  - scenes/scene_A2S1.md
+  - scenes/scene_A2S2.md
+  - scenes/scene_A3S1.md
+  - scenes/scene_A3S2.md
+  - scenes/scene_A3S4.md
+  - scenes/scene_A4S1.md
+  - scenes/scene_A5S3.md
+  - scenes/scene_A5S5.md
+  - scenes/scene_A5S7.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 20
+has_canon_ending: true
+coverage_note: |
+  覆盖 macbeth 在 phase3 spine 全部 10 个节点：disturbance(A1S3) / charge(A1S7) /
+  transgression(A2S1-A2S2) / consolidation(A2S3-A2S4) /
+  paranoid_expansion(A3S1-A3S2) / rupture(A3S4) / false_security(A4S1) /
+  moral_collapse(A4S2-A4S3) / recognition(A5S5) / terminal(A5S7)。
+  跳过：A2S3 门房戏（不涉及 macbeth 核心 voice）、A2S4 / A3S6 间接报道场。
+  本作为戏剧媒介产物——voice 维度的"独白密度"是 medium_grammar 特征，
+  跨媒介使用时需要 transform（见 work-meta.yaml.default_consumption）。

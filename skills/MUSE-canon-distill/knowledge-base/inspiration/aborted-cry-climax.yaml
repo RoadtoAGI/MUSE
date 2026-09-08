@@ -1,0 +1,37 @@
+card_id: aborted-cry-climax
+pattern_name: 失语高潮
+dramatic_function: 高潮处让角色终于触到真实需求，表达却停在出口前：以不能完成的动作代替宣言，关系与主题悬置在不可解决处
+applicability: 适用于讽刺型或残缺救赎结局；前文须累积足够的动作期待；需要英雄式宣言的类型不适用
+reuse_candidates:
+- 监狱慰问演出
+- 《想象》
+- 兄弟观众席相见
+- 游街示众
+- 狼眼回忆
+- 微尘迸散
+tags:
+- 非动作高潮
+- 残缺救赎
+- 悬置结局
+- 身体反应
+- 反高潮
+- 未完成动作
+- 觉醒失败
+- 死亡场景
+source_scenes:
+- novel: 信（东野圭吾）
+  scene_id: S10
+  note: 音乐梦被切断，建立最后演唱的情感债。
+- novel: 信（东野圭吾）
+  scene_id: S22
+  note: 直贵认出哥哥后张口却发不出声音。
+- novel: 阿Q正传
+  scene_id: S12
+  note: 救命出现但没有说出口，觉醒与失败同时发生
+- novel: 阿Q正传
+  scene_id: S13
+  note: 死亡没有产生意义，社会只按看客逻辑收尾
+phase_affinity:
+- 3
+- 4
+- 5

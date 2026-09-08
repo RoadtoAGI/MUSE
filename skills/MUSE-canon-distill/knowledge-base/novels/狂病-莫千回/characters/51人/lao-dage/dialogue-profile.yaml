@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:51人--lao-dage
+work_id: novel:狂病-莫千回
+display_name: 老大哥
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '老大哥说话沉缓、爱用最日常的比喻承载沉重命题——点一支烟、像叹气一样呼出烟雾，说出"如果活着的目标就是活着，就和结婚的目的只是单纯为了结婚一样"这类把存在主义命题拉到生活地面的话。他不下武断结论，遇到分歧惯于反问众人（"大家现在的目标是啥"），把判断留给对方；谈到自己的局限时坦然苦笑，不掩饰也不辩护（"慈不掌兵"）。
+
+
+    佐证：scenes/scene_51-S03.md:L21-L21
+
+    佐证：scenes/scene_51-S03.md:L17-L17'
+  evidence_locators:
+  - scenes/scene_51-S03.md:L21-L21
+  - scenes/scene_51-S03.md:L17-L17
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

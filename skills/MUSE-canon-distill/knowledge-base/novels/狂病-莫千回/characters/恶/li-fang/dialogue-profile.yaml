@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--li-fang
+work_id: novel:狂病-莫千回
+display_name: 李芳
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '李芳的声音温和、直接、带着过来人的体贴与一点点叹息。替人打抱不平时她不绕弯子，话说得明白又不刻薄（点张潇潇"次次转移都是蔡宇他们殿后，也没见你什么时候殿后过"）。评价蔡宇时她的语气里有真心的肯定，也有一声轻叹里的清醒——"蔡宇是个很好的人……哎，只是他想拯救每一个人"，那句"哎"里藏着她对好人在末日里下场的预感。安慰人时她的话简短、落地，不讲空道理（"不要难过，其实这个结果是所有人的选择"）。她不高声、不争辩到底，但该说的话不憋着。
+
+
+    佐证：scenes/scene_EE-S05.md:L9-L9 / scenes/scene_EE-S05.md:L33-L33 / scenes/scene_EE-S07.md:L23-L23'
+  evidence_locators:
+  - scenes/scene_EE-S05.md:L9-L9
+  - scenes/scene_EE-S05.md:L33-L33
+  - scenes/scene_EE-S07.md:L23-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-570ed6c7742877de4599547e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1327
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 前面的无球、一球和二球宇宙表现为一条或寥寥几条描述它的方程，像几片晚秋的落叶
+sensory_mapping: 视觉；数量密度；季节；飘落
+context_fact: 无球、一球和二球系统分别空无、静止或固定周期，魏成觉得它们都是死亡的符号。
+image_mechanism: 抽象公式被写到空旷意识天空中，稀少符号从完整知识树上飘成枯叶；数量贫乏和系统死亡由同一秋景合并。
+property_alignment: 方程寥寥对应叶片稀少；简单关系对应叶面单薄；系统无生命变化对应晚秋枯败；空背景对应落叶周围的萧疏空间
+context_alignment: 下一句方程将如暴雨涌现，晚秋落叶先建立稀薄、干静基线，便于数量和生命状态同时翻转。
+narrative_function: 把简单方程的贫乏写成季节性死亡，反衬三体复杂性突然繁生。
+transfer_rule: 将少量抽象元素比作落叶时，应同时利用数量稀疏、材质枯薄和季节终结，并设置后文密度对照。
+failure_boundary: 少数方程高度丰饶、动态强烈或语境强调精炼之美时，晚秋落叶会错误赋予衰败感。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 描述零、一、二球宇宙的寥寥几条简单方程
+vehicle: 深秋枝头落尽后残留、稀疏飘落的几片枯叶
+ground: 方程数量少而分散对应落叶寥落；模型缺乏变化和生命感对应晚秋叶片枯萎将尽

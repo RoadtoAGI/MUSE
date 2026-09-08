@@ -1,0 +1,35 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 废墟歌声
+  dimension: verb
+  original_move: 尸骸旁唱歌遮蔽恐惧。
+  ai_default_failure: 会直写恶心和恐惧。
+  transfer_rule: 让反常动作替代心理说明。
+  quote: 便唱起歌来
+- pattern_id: S05-p2
+  beat: 镣铐决斗
+  dimension: camera
+  original_move: 用身体限制写最后剑术辉煌。
+  ai_default_failure: 会写招式名和胜负爽感。
+  transfer_rule: 战斗场面先写限制条件。
+  quote: 戴着镣铐
+- pattern_id: S05-p3
+  beat: 蓝宝石谎言
+  dimension: info_density
+  original_move: 即兴谎言在后续反复生效。
+  ai_default_failure: 会让计谋当场成功。
+  transfer_rule: 小细节可跨场景复利。
+  quote: 蓝宝石之岛
+- pattern_id: S05-p4
+  beat: 砍手
+  dimension: omission
+  original_move: 暴力突然发生，不给心理慢镜。
+  ai_default_failure: 会放慢时间描写痛苦。
+  transfer_rule: 身份毁灭可用一击完成。
+  quote: 你就祈祷
+overall_traits:
+- 战斗暴露心理
+- 突然性制造真实暴力
+- 细节跨场景产生复利

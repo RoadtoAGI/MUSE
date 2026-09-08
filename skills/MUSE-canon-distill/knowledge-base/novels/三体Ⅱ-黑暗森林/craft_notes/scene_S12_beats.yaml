@@ -1,0 +1,28 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 「没有了」公理开场
+  dimension: omission
+  original_move: 结论全藏不预告，悬念契约由史强质疑代签
+  ai_default_failure: 开场先写他深吸一口气，知道此话将颠覆一切
+  transfer_rule: 理论开场不铺垫重要性，用听者质疑激将读者
+  quote: 就这么点儿东西能推导出什么来？
+- pattern_id: S12-p2
+  beat: 两颗烟头宇宙模型
+  dimension: camera
+  original_move: 黑暗中只剩两个光点，烟头兼任舞台灯与模型
+  ai_default_failure: 召唤白板星图全息投影等可视化设备
+  transfer_rule: 理论场景道具越少越好，留下的必须被用满
+  quote: 两颗小火星遥遥相对
+- pattern_id: S12-p3
+  beat: 堵死所有出口
+  dimension: omission
+  original_move: 消灭二字从未说出，沉默熄火后由史强脏字收束
+  ai_default_failure: 让讲者庄重宣告结论，再补一段听者震惊
+  transfer_rule: 堵死其他出口，让结论在读者脑内自行炸开
+  quote: 你也只剩一个选择了
+overall_traits:
+- 理论戏剧化靠反驳-封堵攻防，听者进攻讲者防守
+- 结论留白：先让读者懂，再给读者诗
+- 道具极简：两根烟头兼灯光模型节奏标点

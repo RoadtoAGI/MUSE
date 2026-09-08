@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8648746bf45b018ee59bc06b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1234
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 红岸是逐渐衰落的
+sensory_mapping: 生命力；亮度；时间衰减
+context_fact: 八十年代后上级失去兴趣，基地警卫从一个连减至五人，科研转民，最终因经费不足撤销。
+image_mechanism: 制度性缩编被连续化为一条生命曲线，密级、兵力、任务和经费像体能与光亮一项项下降，直至系统停止。
+property_alignment: 关注减少对应活力下降；人员资源缩减对应身体消瘦；功能转移对应器官逐渐停用；最终撤销对应生命终止
+context_alignment: 叶文洁用回望一生的平缓语气讲述，不是突然关闭而是多年失血，“逐渐”使衰落成为可感时间过程。
+narrative_function: 概括工程退出历史中心的全过程，并为叶文洁人生晚景提供平行节奏。
+transfer_rule: 写组织衰落时，应列出随时间同步下降的资源、功能和关注指标，并交代终止节点。
+failure_boundary: 机构主动转型后能力增强、突然行政关闭或只是短期预算降低时，生命衰落会误判方向和速度。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 红岸工程从受重视、兵力充足逐步走向降密、缩编和撤销
+vehicle: 生命体或天体由旺盛高位缓慢失去能量并走向消亡
+ground: 资源、人员和政治关注减少对应生命活力衰退；最终基地结束对应衰老过程走向死亡

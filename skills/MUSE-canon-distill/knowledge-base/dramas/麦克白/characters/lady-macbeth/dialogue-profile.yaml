@@ -1,0 +1,40 @@
+schema_version: dialogue-character/v1
+character_id: drama:麦克白:lady-macbeth
+work_id: drama:麦克白
+display_name: 麦克白夫人
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '麦克白夫人的声音有两个完全不同的阶段：A1-A3 几乎全用韵文 + 命令式 + 强意象（"乳水当胆汁" / "毒蛇潜伏" / "我曾经哺乳过婴孩"），是莎翁笔下命令密度最高的女性声音之一——她对丈夫的话几乎都是祈使句。A5S1
+    整场转为散文 + 断句 + 碎片化重复（"一点、两点" / "睡去，睡去，睡去"）—— 这种语法切换本身是莎翁让"心智破碎"通过句法外化的核心机制。在公开场合她极擅于用礼仪用语（A1S6 / A3S4）覆盖暴行——这是"外表/内核分裂"被实体化为可听见的声音差异，对续写其他"心智裂痕"型角色有直接参考价值。
+
+
+    来源：phase2_roles.yaml → lady_macbeth.voice_function + voice_markers
+
+    佐证：
+
+    - scenes/scene_A1S5.md:L19-L19 （命令式 + 强意象密集"解除...凝结...不要让怜悯...来"）
+
+    - scenes/scene_A1S7.md:L25-L25 （激将段意象"我曾经哺乳过婴孩"）
+
+    - scenes/scene_A1S6.md:L13-L13 （礼仪用语"我们的犬马微劳"）
+
+    - scenes/scene_A3S4.md:L63-L63 （宴会场"你是一个男子吗？"——把同样的"manhood"质问重用一次）
+
+    - scenes/scene_A5S1.md:L39-L39 （散文 + 断句"去，该死的血迹！"）
+
+    - scenes/scene_A5S1.md:L65-L65 （重复式"睡去，睡去，睡去"）'
+  evidence_locators:
+  - scenes/scene_A1S5.md:L19-L19
+  - scenes/scene_A1S7.md:L25-L25
+  - scenes/scene_A1S6.md:L13-L13
+  - scenes/scene_A3S4.md:L63-L63
+  - scenes/scene_A5S1.md:L39-L39
+  - scenes/scene_A5S1.md:L65-L65
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,25 @@
+mode: reference
+display_name: 郑云凡
+role_slug: zheng-yunfan
+source_novel: 狂病-莫千回
+source_part: 精神病院
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/精神病院/phase3_spine.yaml
+  - pipeline/精神病院/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_JB-S02.md
+  - scenes/scene_JB-S10.md
+  - scenes/scene_JB-S11.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 8
+has_canon_ending: false
+coverage_note: |
+  单点支撑说明：郑云凡的实质戏份高度集中在 S10（司法病区救场 + 自我隔离 + 弑父往事/PTSD 内聚焦），
+  S02 为远景登场（束缚衣推入 + 李亚伟转述弑父往事），S11 为收尾微节拍（缩回病房放弃自杀）。
+  故声音框架、核心欲望、性格真相的压力情境多由 S10 单场承载，弧光转折点亦集中于 S10 ——
+  属强单点支撑，但 S10 信息密度极高（救场战斗 + 主动赴死决断 + 完整身世独白）足以成档。
+  has_canon_ending 经回 scene 原文核对判 false：本篇结尾未确认其死亡，phase3 跨篇钩
+  "医院楼顶矫健身影"(line 323) + open_question 暗示其可能未死、爬上楼顶存活，是潜在跨篇人物，
+  故不生成 canon-ending.md，终局待其他篇章证据确认。

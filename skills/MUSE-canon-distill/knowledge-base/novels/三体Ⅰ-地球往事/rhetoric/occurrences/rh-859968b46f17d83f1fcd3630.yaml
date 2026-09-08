@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-859968b46f17d83f1fcd3630
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2026
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 像不耐烦地扯下一副面具
+sensory_mapping: 手部撕扯；面部遮罩；前后两张脸；突然暴露；表演终止
+context_fact: 绍琳离开后，副部长才单独传达不许追究历史旧账的警告。
+image_mechanism: 饭桌礼貌凝成可佩戴脸壳，妻子一走，他便嫌麻烦般将其扯下；冷脸不是新产生，而是一直藏在面具后。
+property_alignment: 得体款待对应社交面具；真实冷酷对应面具下真脸；绍琳离开对应表演观众减少；瞬间变脸对应扯下面具；不耐烦语气对应粗暴摘除
+context_alignment: 政治环境中人人熟练维护合宜形象，面具准确揭示家庭礼貌也受权力算计支配。
+narrative_function: 拆穿会面温情，强化叶文洁与母亲家庭之间无法弥合的隔阂。
+transfer_rule: 用摘面具写变脸时，应先建立持续伪装，再给出撤去伪装的触发和面具下稳定真实态度。
+failure_boundary: 态度改变源自新信息而非伪装终止，或先前热情同样真诚时，面具会过度道德化复杂反应。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 绍琳丈夫突然停止此前精心维持的热情形象，露出真实的冷淡和控制意图
+vehicle: 表演者厌烦伪装，粗暴扯掉覆盖脸部的假面，显出底下真容
+ground: 先前微笑是刻意社交表演对应佩戴面具；态度瞬变且不再掩饰对应伸手扯下面具

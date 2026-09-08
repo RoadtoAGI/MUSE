@@ -1,0 +1,19 @@
+# F1.E semantic_function_migration 词表 SSOT
+# post_revision_gate.py 通过 yaml.safe_load 加载；ai-cliche-patterns.md 软指针引用本文件
+# 本文件修改后同步 grep 检查必须通过
+
+contrastive_explanation:
+  actually_assertion: "其实[^，。]{1,15}"
+  true_actual_template: "真正(的|支撑)?[^，。]{1,15}(是|的就是)"
+  surface_actual_contrast: "表面[^，。]{1,15}实际[^，。]{1,15}"
+  bottom_line_explanation: "(归根到底|说到底)[^，。]{1,15}(是|的就是)"
+  abstract_summary_label: "实际上[^，。]{1,15}(就是|是)"
+
+ordinal_significance:
+  demonstrative_now: "(此刻|这一回|那一次|眼下|到了某个节点)"
+
+state_label_assessment:
+  abstract_state_label: "(阵线稳定|队列整齐|秩序未失|部署完整|形势胶着)"
+
+numeric_authority:
+  totalizer_quantifier: "(全员|整队|全场|通体|满营|整列)"

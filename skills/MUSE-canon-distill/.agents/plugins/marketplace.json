@@ -1,0 +1,20 @@
+{
+  "name": "muse-canon-distill",
+  "interface": {
+    "displayName": "MUSE Canon Distill"
+  },
+  "plugins": [
+    {
+      "name": "muse-canon-distill",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Lifestyle"
+    }
+  ]
+}

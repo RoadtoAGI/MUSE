@@ -1,0 +1,23 @@
+card_id: trauma-seepage-reveal
+pattern_name: 延迟真相渗出
+dramatic_function: 重大创伤不正面公布，让日常碎片迫使读者自行拼出因果。
+applicability: 适合角色处在麻木期；若前文缺少碎片锚点会变成故弄玄虚（单书孤证，验证面窄）
+reuse_candidates:
+- 旅行团日期
+- 烧纸流程
+- 公交车抱猴记忆
+tags:
+- 延迟揭示
+- 创伤叙事
+- 因果留白
+source_scenes:
+- novel: 你好，旧时光
+  scene_id: scene_14
+  note: 母亲去世由公交、烧纸、月光碎片逐步显形。
+- novel: 你好，旧时光
+  scene_id: scene_13
+  note: 幸福过载先埋下后来崩塌的情感伏笔。
+phase_affinity:
+- 3
+- 4
+- 5

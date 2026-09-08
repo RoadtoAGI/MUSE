@@ -1,0 +1,27 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 温柔与暴力同句
+  dimension: verb
+  original_move: 凝目温柔后四个硬动词连发，割绳自刎一句完成
+  ai_default_failure: 安排催泪遗言与犹豫过程渲染悲壮
+  transfer_rule: 写已决之死用动词连发不留停顿，速度即决心
+  quote: 随即转过剑尖，刺入自己胸膛
+- pattern_id: 13-p2
+  beat: 探鼻息收束
+  dimension: omission
+  original_move: 用医学动作九字冷陈述收束母子诀别
+  ai_default_failure: 在哭喊后加大段嚎啕颤抖与童年闪回
+  transfer_rule: 至痛处用程序性动作降温，省略悲痛铺陈
+  quote: 探她鼻息，早已断气
+- pattern_id: 13-p3
+  beat: 旁观者望背影
+  dimension: camera
+  original_move: 结尾切到拖雷远望黑点消失，拉远收束蒙古线
+  ai_default_failure: 跟主角视角继续写南行悲伤旅程
+  transfer_rule: 大悲后切旁观者远镜头，余韵长于沉浸
+  quote: 在大漠中缩成一个黑点，终于消失
+overall_traits:
+- 速度即态度：不停顿封死「她可以不死」的暗示
+- 旁观者收束控制距离，远望余韵长过沉浸

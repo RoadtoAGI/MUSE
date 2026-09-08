@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8696d30a64e6dbd9cbafd2fa
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L468
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 门旁几名守卫的士兵在黑暗中如幽灵般无声地徘徊
+sensory_mapping: 视觉；听觉；运动
+context_fact: 金字塔入口火光稀少。
+image_mechanism: 黑衣与夜色先擦掉身体边界，静音再擦掉重量和脚步，只剩模糊位移在洞口来回。
+property_alignment: 沉默移动对应幽灵无声漂移；黑暗使身体模糊对应幽灵缺实体；徘徊路径重复对应亡灵游荡
+context_alignment: 现场光线和声音共同造成非实体错觉。
+narrative_function: 加深宫殿阴森与非现实感。
+transfer_rule: 幽灵喻体须由轮廓消失、重量/声音缺席和异常移动至少两项共同生成。
+failure_boundary: 盔甲反光、脚步沉重或守卫固定站立时，幽灵的无实体漂移不成立。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 暗处静默巡逻的守卫
+vehicle: 无脚步声、轮廓模糊的幽灵
+ground: 沉默移动对应幽灵无声漂移；黑暗使身体模糊对应幽灵缺实体；徘徊路径重复对应亡灵游荡

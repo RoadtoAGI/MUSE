@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-55b8da5490c9d7c37c5696cd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L935
+chapter: 第11章 大史
+figure_type: simile
+quote: 有时真像在做噩梦
+sensory_mapping: 心理；失真；压迫；清醒边界；时间
+context_fact: 大史说自己级别低，虽参与作战中心却同样不知道幕后真相。
+image_mechanism: 调查现实被罩上不透明梦层，案件线索仍可触摸，因果却不断变形；大史不能以醒来退出，只能在失序环境中继续办案。
+property_alignment: 事件反常难解对应梦境逻辑失序；信息被遮蔽对应梦中无法看清原因；仍必须执行任务对应人在梦魇中被迫行动；不安持续对应无法醒来结束
+context_alignment: 噩梦由大史口中说出，罕见承认他也受困，短句符合其不展开恐惧的说话方式。
+narrative_function: 缩小大史与汪淼的信息差，建立两人共同面对未知的联盟。
+transfer_rule: 让强硬人物使用常见梦喻时，应由其具体信息缺口和持续任务压力激活失序、被困两项，而非泛称事情糟糕。
+failure_boundary: 普通繁忙、线索清楚或人物能随时退出的案件没有梦魇失序与不可醒机制。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 大史身处科学界异常事件却得不到上级真相的工作体验
+vehicle: 人在逻辑怪异、危险逼近又无法彻底醒来的噩梦中行动
+ground: 事件反常难解对应梦境逻辑失序；信息被遮蔽对应梦中无法看清原因；仍必须执行任务对应人在梦魇中被迫行动；不安持续对应无法醒来结束

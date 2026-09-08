@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dfd51bcf6d6b94e9cc77ea2c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L717
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 这是一部反动的大毒草
+sensory_mapping: 植物；毒性；生长；田地空间；价值判断
+context_fact: 政治部把该书列为内参批判材料，并以此指控叶文洁。
+image_mechanism: 书本失去纸页形态，成为意识形态田地里一株带毒异草；阅读由理解文本改成接触毒汁，查禁则像连根铲除。
+property_alignment: 书中思想可传播对应草籽扩散生长；被指会毒害读者对应植物含毒；不符合主流意识形态对应杂草扰乱作物；批判查禁对应拔除毒草
+context_alignment: 这是时代政治套语，恰与书所保护的自然、植物主题构成讽刺反转。
+narrative_function: 呈现政治话语如何先物化再消灭异见，并加重叶文洁罪名。
+transfer_rule: 记录污名化植物隐喻时，应分清传播、生长、毒性和铲除各自对应，并标注其属于谁的评价语言。
+failure_boundary: 书的观点是否有害不能由毒草意象证明；把机构标签当叙述事实会复制其去人化判断。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 政治机构定性为有害、必须批判的《寂静的春天》
+vehicle: 在田地里生长蔓延、带毒并需铲除的大型杂草
+ground: 书中思想可传播对应草籽扩散生长；被指会毒害读者对应植物含毒；不符合主流意识形态对应杂草扰乱作物；批判查禁对应拔除毒草

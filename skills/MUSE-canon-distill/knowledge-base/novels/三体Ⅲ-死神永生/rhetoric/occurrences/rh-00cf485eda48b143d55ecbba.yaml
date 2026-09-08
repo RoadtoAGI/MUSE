@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-00cf485eda48b143d55ecbba
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L2633-L2634
+chapter: 《时间之外的往事》(节选)
+figure_type: metaphor
+quote: '后两个字她用眼睛说出：驱动？
+
+  AA轻轻点头。她的目光说：是的，曲率驱动'
+sensory_mapping: 眼睛发问；目光答话；无声词语；一点头闭合；秘密对视
+context_fact: 二人怀疑智子仍在监视，故用闲聊掩饰兴奋，程心只说出“曲率”二字。
+image_mechanism: 语言被拆成声带与视线两条通道，公开一半由嘴说，危险一半由眼睛补足；AA的目光再完成肯定回答，秘密句法完整闭合。
+property_alignment: 眼神对应语音；停顿对应词语缺口；询问神态对应问号；点头对应肯定；共同知识对应语义解码；智子监听对应禁声环境；对视对应双向频道
+context_alignment: 前文眼睛如镜像、后文多次继续“眼睛说话”，首个完整无声问答最能代表二人因共同发现形成的秘密协作。
+narrative_function: 在监视压力下传递关键信息，同时把两人的默契写成可读语言。
+transfer_rule: 用眼睛说话时，应有双方共享语境、明确可还原的信息内容、可辨问答动作和不能公开出声的动机。
+failure_boundary: 双方并无共同线索、目光含义多义，或可以自由说话且内容复杂到无法靠神态编码时，眼语会显得全知。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 担心智子监听的程心和AA以停顿、眼神与点头完成“曲率驱动”这一敏感结论的问答
+vehicle: 眼睛代替嘴发出有词义、有疑问语气且能被对方准确回答的无声语言
+ground: 目光对应话语；眼神询问对应疑问句；点头和目光回应对应肯定句；共同顿悟对应共享词典；禁忌信息对应无声交流；视线相接对应通信通道

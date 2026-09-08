@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f9a8fa61d51e125886cfc9f1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1002
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 出现了一颗飞星，像是太阳死后的灵魂
+sensory_mapping: 视觉；亮度；生死时序
+context_fact: 墨子描述太阳先变暗缩小、突然熄灭，原处随即出现一颗飞星。
+image_mechanism: 庞大日轮先被当作有生命的身体熄灭，随后一点残光从原处浮出，视觉上的缩小与时间上的继起共同完成灵魂离体。
+property_alignment: 太阳先消失、飞星后出现对应肉身死亡、灵魂继存；耀眼日轮与微小星点的强弱差对应实体生命与幽微余魂；原位置不变对应灵魂仍与逝者相连
+context_alignment: 观察者尚不知三颗太阳的真相，死亡框架把一次无法解释的天象突变转成墨子能说出的直觉。
+narrative_function: 给飞星附上诡异因果感，并为汪淼推翻原有理论制造关键谜面。
+transfer_rule: 写主体消失后出现的微弱残迹时，可让喻体严格匹配先后、位置继承和能量衰减，使“余留”看起来从主体中脱离。
+failure_boundary: 若飞星早已与太阳并存、位置无关或亮度不弱，灵魂离体所需的继起和残余关系都不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 太阳熄灭后在原位置出现的微小飞星
+vehicle: 躯体死亡后仍离体存在的灵魂
+ground: 飞星在太阳消失后出现对应灵魂在肉身死亡后遗留；微弱星光占据太阳原位对应逝者留下的非物质痕迹

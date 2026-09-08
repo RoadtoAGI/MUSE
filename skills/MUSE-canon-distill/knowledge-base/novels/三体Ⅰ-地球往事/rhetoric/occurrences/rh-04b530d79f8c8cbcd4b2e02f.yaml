@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-04b530d79f8c8cbcd4b2e02f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1119
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 她感到了这只有力的手传递的温暖和力量
+sensory_mapping: 触觉；温度；压力；情感
+context_fact: 雷政委声称个人信任叶文洁，希望她最终被称为同志，并以手按住她肩膀。
+image_mechanism: 抽象信任顺着真实接触点进入身体：掌温被延长为情感暖意，按压的肌力被延长为面对制度阻力的支持力。
+property_alignment: 手掌体温对应人际温暖；手部压力对应支持力量；从手到肩的接触路径对应信任从雷政委传给叶文洁
+context_alignment: 叶文洁长期缺乏身体和情感安全，这个具体触点使一句政治承诺显得可信，也令随后欺骗更尖锐。
+narrative_function: 把信任从语言变成身体证据，促成叶文洁首次落泪。
+transfer_rule: 写触碰传递情感时，应以真实温度、压力和接触路径为底，再让情绪功能沿同一路径延伸。
+failure_boundary: 触碰冰冷、带威胁或未经允许引发不适时，不能自动从掌温推断关怀与支持。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 雷政委把手放在肩上所表达的个人信任、鼓励和政治庇护感
+vehicle: 可沿身体接触传导的热量与物理力量
+ground: 手掌体温沿接触传到肩部对应关怀通过触碰抵达；按肩的稳定压力对应鼓励为她提供支撑

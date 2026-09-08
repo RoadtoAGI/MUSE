@@ -1,0 +1,36 @@
+# chapters/V##/C####/recap.yaml —— 当前定稿摘要与候选；发布事务预检后转正
+schema_version: 1
+chapter_id: null
+summary: null                  # 本章实际结果、必要人物状态与未决问题
+deltas:
+  causal_edges: []              # {cause: C####, note: 本章结果所依赖的前章事实}
+  character_deltas: []          # {char_id, at, kind, before, after, evidence}
+  fact_deltas: []               # 字段同 world_facts 条目，不填机器分配的 fact_id
+  thread_events: []
+# 非空条目形状（按实际来源填写，删除不适用字段）：
+# character_deltas:
+#   - char_id: character-id
+#     at: C0001S01
+#     kind: 关系变化
+#     before: 变化前有来源的关系状态
+#     after: 本场事实支持的变化后状态
+#     evidence: 能说明该变化的正文原句
+# fact_deltas:
+#   - entity: character-id
+#     kind: state
+#     attribute: 属性名
+#     value: 本场确立的属性值
+#     established_at: C0001S01
+#     limitation: null          # ability/rule 时填实际适用限制
+#     supersedes: null          # 被替代的既有 fact_id；不能虚构候选 ID
+#     note: null                # 依赖前章未转正事实时记前章号、事实及替代关系，发布前补真实 ID
+#     known_by: [{char_id: character-id, learned_at: C0001S01}]  # secret 时按实际获知记录
+#     source_reveal_id: null    # 本章确实兑现的 reveal_id
+# thread_events:
+#   - kind: open
+#     thread_id: T-0001         # 在台账及有效候选中唯一
+#     thread_kind: 悬线
+#     statement: 本章实际开启的未决问题
+#     intended_payoff: {horizon: V01, note: 当前获准的回收方向}
+#   - {kind: advance, thread_id: T-0001, note: 本章新增的有据进展}
+#   - {kind: payoff, thread_id: T-0001, note: 本章实际给出的回答}

@@ -1,0 +1,56 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 龙出现
+  dimension: camera
+  original_move: 从阴影到沉寂再到心跳，靠感官叠加登场
+  ai_default_failure: 写血脉呼唤式的情绪反应
+  transfer_rule: 写庞然力量登场时让环境先停住
+  quote: 一万个声音归于沉寂
+- pattern_id: S12-p2
+  beat: 龙吃人
+  dimension: omission
+  original_move: 把英雄动机列成多种可能，不予确认
+  ai_default_failure: 赋予矛兵崇高动机并放大勇敢
+  transfer_rule: 解构英雄时让动机保持随机并列
+  quote: 再或者，他只想名留千古
+- pattern_id: S12-p3
+  beat: 丹妮跨栏
+  dimension: verb
+  original_move: 跳过决策，用掉鞋和沙子触感替代内心戏
+  ai_default_failure: 让角色先解释为何必须行动
+  transfer_rule: 写冒险进入时用小物件标记不可逆
+  quote: 掉了一只凉鞋
+- pattern_id: S12-p4
+  beat: 龙牙合拢
+  dimension: camera
+  original_move: 把危机收窄到龙牙与脸的几寸距离
+  ai_default_failure: 把危机写成使命顿悟
+  transfer_rule: 写最高危机时缩短空间单位
+  quote: 离她脸庞只几寸
+- pattern_id: S12-p5
+  beat: 抓到鞭子
+  dimension: verb
+  original_move: 勇气来自皮革握感，驯服靠反复抽打
+  ai_default_failure: 把驯服写成血统魔法和神圣启示
+  transfer_rule: 写觉醒时用可握物件落地
+  quote: 皮革温暖鲜活的触感
+- pattern_id: S12-p6
+  beat: 意识闪现
+  dimension: omission
+  original_move: 全场只给一句身份宣言，随即接拔矛动作
+  ai_default_failure: 在驯龙前中后反复插入壮语
+  transfer_rule: 升华句只用一次并立刻落回动作
+  quote: 我也一样
+- pattern_id: S12-p7
+  beat: 起飞
+  dimension: camera
+  original_move: 用无法观察、无法呼吸、闭眼写高潮失控
+  ai_default_failure: 给全景俯视和自由感升华
+  transfer_rule: 写高潮时保留身体失控感
+  quote: 无法观察，无法呼吸
+overall_traits:
+- 用物件触觉替代身份宣言
+- 行动在前，意义在后
+- 失控状态作为高潮状态

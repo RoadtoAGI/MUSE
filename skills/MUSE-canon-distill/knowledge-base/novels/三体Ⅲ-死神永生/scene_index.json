@@ -1,0 +1,945 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "阶梯",
+      "激励事件——开启全书因果链",
+      "推荐与接受"
+    ],
+    "characters": [
+      "程心",
+      "云天明",
+      "于维民"
+    ],
+    "conflict_type": "external",
+    "pov": "云天明",
+    "word_count": 1944,
+    "source_chapter": "危机纪元4年",
+    "file": "scenes/scene_01.md",
+    "description": "推荐与接受：日常平衡 → 命运纠缠开启",
+    "style_profile": {
+      "narration_voice": "限知在程心云天明间切换，内心狂想直泻",
+      "diction": "公文使命语对内心毒辣自嘲，反差刺骨",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答恳谈推进，关键应答一句冷收",
+      "pacing": "事务铺陈快进，酷刑想象绵延，接受一句收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "阶梯",
+      "Arc 1 高潮——双重打击（真相+失踪）",
+      "真相与失踪"
+    ],
+    "characters": [
+      "程心",
+      "维德",
+      "云天明"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 4355,
+    "source_chapter": "危机纪元5-7年",
+    "file": "scenes/scene_02.md",
+    "description": "真相与失踪：希望 → 愧疚债确立",
+    "style_profile": {
+      "narration_voice": "限知贴程心，悲恸段意象铺张直抒",
+      "diction": "仪式公文语与抒情书面语两极并置",
+      "rhetoric_density": "high",
+      "dialogue_mode": "宣誓答问庄重，拒誓宣言一段定调",
+      "pacing": "仪式逐人推进蓄势，拒誓骤停，追赶段急促奔涌"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "威慑",
+      "维德的暴力反而推动程心当选",
+      "枪击与执剑人"
+    ],
+    "characters": [
+      "程心",
+      "维德",
+      "AA"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 3089,
+    "source_chapter": "威慑纪元61年",
+    "file": "scenes/scene_03.md",
+    "description": "枪击与执剑人：陌生的新世界 → 被推上执剑人之路",
+    "style_profile": {
+      "narration_voice": "限知贴程心，枪击过程冷静白描，插史料段",
+      "diction": "旧时代器物精确，维德语录冷硬如冰",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "枪口下问答简短，格言式自白点人",
+      "pacing": "重逢即枪响不铺垫，受击分秒细写，史料缓冲"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "威慑",
+      "第一次致命选择——全书第一核心高潮",
+      "威慑最后十分钟"
+    ],
+    "characters": [
+      "程心",
+      "罗辑"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 6801,
+    "source_chapter": "威慑纪元62年11月28日16:17-16:27",
+    "file": "scenes/scene_04.md",
+    "description": "威慑最后十分钟：脆弱的安全 → 威慑崩溃",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴程心，史评直插，幻象段意识奔流",
+      "diction": "威慑系统参数精确，亿年史诗意象宏阔",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白极少，警报文本以原文块呈现",
+      "pacing": "交接铺陈缓慢，警报骤红，倒计时分段挤压"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "deepening",
+      "威慑",
+      "第一次选择的后果 + 他人的拯救",
+      "澳大利亚与广播"
+    ],
+    "characters": [
+      "程心",
+      "AA",
+      "智子",
+      "42亿人类"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 4762,
+    "source_chapter": "威慑后第一年",
+    "file": "scenes/scene_05.md",
+    "description": "澳大利亚与广播：灭绝计划 → 引力波广播启动 → 获救",
+    "style_profile": {
+      "narration_voice": "限知贴程心，失明后转纯听觉感知叙述",
+      "diction": "宣告演讲语冷酷，感官描写浓烈",
+      "rhetoric_density": "high",
+      "dialogue_mode": "智子宣告独白主导，问答短促释信息",
+      "pacing": "宣告层层加码，尖叫一声死寂，反转段快进"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "童话",
+      "云天明以童话突破监控——全书最独特的叙事段落",
+      "童话传情"
+    ],
+    "characters": [
+      "程心",
+      "云天明",
+      "智子"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 4902,
+    "source_chapter": "广播纪元7年",
+    "file": "scenes/scene_06.md",
+    "description": "童话传情：跨纪元重逢 → 情报成功传递",
+    "style_profile": {
+      "narration_voice": "限知贴程心，逐句解码对方话中密语",
+      "diction": "家常农事话作皮，设定密语为芯，插注释说明",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "监听灯下双层对白，含糊问答互递情报",
+      "pacing": "试探一来一回慢张力，转入讲故事绵长舒缓"
+    },
+    "style_profile_by": "claude-fable-5",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "S07",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "童话",
+      "情报解码——揭示人类唯一真正的活路",
+      "肥皂船与黑域",
+      "双层隐喻",
+      "含义坐标"
+    ],
+    "characters": [
+      "程心",
+      "AA",
+      "曹彬",
+      "毕云峰",
+      "巴勒莫",
+      "杰森"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 11498,
+    "source_chapter": "广播纪元7年",
+    "file": "scenes/scene_07.md",
+    "description": "肥皂船与黑域：童话解码——曲率驱动破译、双层隐喻+含义坐标模式揭示、黑域=安全声明，针眼画师之画成永恒谜面",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身程心，频繁插档案体全知节选，直解科学原理",
+      "diction": "现代白话夹科技术语，说明文质地，词义求精确不求雅",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白承载推理，会议连排无归属引语，明语目光双轨并行",
+      "pacing": "长段推理接短句顿悟，情感一笔带过，省略号跳接时空"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "投降",
+      "第二次致命选择——全书第二核心高潮",
+      "星环城对峙"
+    ],
+    "characters": [
+      "程心",
+      "维德",
+      "毕云峰",
+      "布莱尔"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 7367,
+    "source_chapter": "掩体纪元11年",
+    "file": "scenes/scene_08.md",
+    "description": "星环城对峙：技术突破 → 活路被封死",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴程心，武器展示纪实笔触",
+      "diction": "反物质工程参数精确，维德台词短硬",
+      "rhetoric_density": "low",
+      "dialogue_mode": "维德主讲式展示，问答点缀立场",
+      "pacing": "参观逐件推进，子弹一节骤冷，审判段提速收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "降维",
+      "视角颠覆——灭世如同丢垃圾",
+      "歌者的投掷"
+    ],
+    "characters": [
+      "歌者",
+      "长老"
+    ],
+    "conflict_type": "external",
+    "pov": "歌者",
+    "word_count": 4647,
+    "source_chapter": "掩体纪元67年",
+    "file": "scenes/scene_09.md",
+    "description": "歌者的投掷：例行清理 → 二向箔投向太阳系",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "异文明内视角，自成体系术语写日常心流",
+      "diction": "自造词汇成体系，歌谣嵌入，散文诗质地",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，思想体翻找交流代替言语",
+      "pacing": "慢吟漫想铺陈，掷出二向箔漫不经心收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "降维",
+      "全书最壮观的毁灭场景",
+      "二维化"
+    ],
+    "characters": [
+      "白Ice",
+      "瓦西里",
+      "程心",
+      "AA"
+    ],
+    "conflict_type": "external",
+    "pov": "白Ice / 程心",
+    "word_count": 4967,
+    "source_chapter": "掩体纪元66-67年",
+    "file": "scenes/scene_10.md",
+    "description": "二维化：虚假安全 → 太阳系二维化",
+    "style_profile": {
+      "narration_voice": "全知多点，灾难以观测与问答呈现",
+      "diction": "维度物理术语精确，画卷意象贯穿",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "危机问答步步逼近判决，末日告别简短",
+      "pacing": "判决三问三答收紧，二维化奇观慢摇，淡然收尾"
+    },
+    "style_profile_by": "claude-fable-5",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "S11",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "降维",
+      "罗辑揭示光速飞船=黑域——第二次选择的后果完整兑现",
+      "冥王星与光速"
+    ],
+    "characters": [
+      "程心",
+      "AA",
+      "罗辑"
+    ],
+    "conflict_type": "internal",
+    "pov": "程心",
+    "word_count": 7667,
+    "source_chapter": "掩体纪元67年",
+    "file": "scenes/scene_11.md",
+    "description": "冥王星与光速：绝望 → 真相+悔恨+最后逃离",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴程心AA，罗辑遗言式独白插入",
+      "diction": "艺术典故对宇宙奇观，技术参数点缀",
+      "rhetoric_density": "high",
+      "dialogue_mode": "罗辑舒缓独白主导，通话疯狂声浪插入",
+      "pacing": "星空联想慢写，曲率启动以静音反差，远行收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "归还",
+      "全书最深的失去——跨纪元的爱终未相聚",
+      "错过与石刻"
+    ],
+    "characters": [
+      "程心",
+      "关一帆",
+      "AA(通信)",
+      "云天明(石刻)"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 6853,
+    "source_chapter": "银河纪元409年 → +1890万年",
+    "file": "scenes/scene_12.md",
+    "description": "错过与石刻：即将重逢 → 永远错过",
+    "style_profile": {
+      "narration_voice": "限知贴程心，惊喜与崩塌两段反转",
+      "diction": "通讯口语急促，石刻铭文段苍茫书面语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "通话呼叫推进，对视沉默承重",
+      "pacing": "喜讯急促跳动，事故一瞬定格，石刻段缓释悲悯"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "归还",
+      "全书终极高潮——责任阶梯登顶，人性与正确合一",
+      "归还"
+    ],
+    "characters": [
+      "程心",
+      "关一帆",
+      "智子"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 6107,
+    "source_chapter": "时间之外",
+    "file": "scenes/scene_13.md",
+    "description": "归还：失去一切 → 获得意义",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知收束语态，程心回望一生自述嵌入",
+      "diction": "宇宙广播设定语精确，告别语素净庄重",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "三人商议平静短对白，广播文本块嵌入",
+      "pacing": "生死簿滚动悬念，决定从容，生态球一握收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "序幕",
+      "高维碎块历史先例"
+    ],
+    "characters": [
+      "狄奥伦娜",
+      "康斯坦丁十一世"
+    ],
+    "conflict_type": "external",
+    "pov": "狄奥伦娜",
+    "word_count": 9078,
+    "source_chapter": "公元1453年5月",
+    "file": "scenes/scene_S14.md",
+    "description": "魔法师之死：君士坦丁堡围城中的高维碎块——物理规律可被操控的伏笔",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知历史小说腔，贴君士坦丁帝王视角",
+      "diction": "拜占庭名物考据密布，文白庄重",
+      "rhetoric_density": "high",
+      "dialogue_mode": "君臣对答简短，神迹展示以动作说话",
+      "pacing": "巨炮震动定节拍，魔法演示慢写，悬念层层后延"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "哲学种子",
+      "宇宙被生命改变"
+    ],
+    "characters": [
+      "杨冬",
+      "丁仪"
+    ],
+    "conflict_type": "internal",
+    "pov": "杨冬",
+    "word_count": 3168,
+    "source_chapter": "危机纪元元年",
+    "file": "scenes/scene_S15.md",
+    "description": "生命选项：'大自然真是自然的吗？'——宇宙观崩塌导致自杀",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知深贴杨冬，绝望以半条命自喻",
+      "diction": "物理学者措辞清冷，模拟演示口语轻快",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "与绿眼镜问答推演，终极一问压轴",
+      "pacing": "心事铺陈缓慢，模拟演示快进，末问骤停留白"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "阶梯",
+      "买星",
+      "安乐死"
+    ],
+    "characters": [
+      "云天明",
+      "程心",
+      "胡文"
+    ],
+    "conflict_type": "internal",
+    "pov": "云天明",
+    "word_count": 28574,
+    "source_chapter": "危机纪元4年",
+    "file": "scenes/scene_S16.md",
+    "description": "云天明买星与安乐死：从赴死的绝望到被程心阻止——爱与绝望并置",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知深贴云天明，自嘲冷眼看世态",
+      "diction": "病房市井语贴地，卡夫卡典故插入",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "病友低语家常，关键决定以内心独白完成",
+      "pacing": "病中日常缓慢，安乐死段冷静，购星一念收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "阶梯",
+      "只送大脑",
+      "伦理深渊"
+    ],
+    "characters": [
+      "维德",
+      "程心",
+      "云天明"
+    ],
+    "conflict_type": "personal",
+    "pov": "程心",
+    "word_count": 4478,
+    "source_chapter": "只送大脑提案",
+    "file": "scenes/scene_S17.md",
+    "description": "'只送大脑'——维德的冷酷提案将阶梯计划推入伦理深渊",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "史料解说体与场景叙事交替，编年括注",
+      "diction": "航天工程参数密集，史评格言化",
+      "rhetoric_density": "low",
+      "dialogue_mode": "解说段无对白，场景段问答简短",
+      "pacing": "技术说明绵密，场景插段松弛，提案三字爆点"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "威慑",
+      "智子现身",
+      "威慑度揭晓"
+    ],
+    "characters": [
+      "程心",
+      "智子",
+      "弗雷斯"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 7370,
+    "source_chapter": "威慑后一小时",
+    "file": "scenes/scene_S18.md",
+    "description": "智子现身：'威慑度约百分之十'——第一次选择的后果开始显现",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴程心，史料节选插入对照",
+      "diction": "戈壁景物白描，智子台词冷艳带杀气",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "智子宣判式短句，程心喃喃自问",
+      "pacing": "空旷慢景蓄哀，岩浆诱惑凝滞，刀光一闪骤紧"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "deepening",
+      "威慑",
+      "大迁徙",
+      "种族灭绝"
+    ],
+    "characters": [
+      "程心",
+      "AA",
+      "弗雷斯",
+      "智子",
+      "42亿人类"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 17115,
+    "source_chapter": "威慑后第一年，澳大利亚",
+    "file": "scenes/scene_S19.md",
+    "description": "澳大利亚大迁徙：42亿人被驱入保留地——有计划的种族灭绝",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知史述贴程心，群体灾难全景扫描",
+      "diction": "移民生活名物具体，史诗化比喻点睛",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少，维德密语短句压场",
+      "pacing": "苦难日常铺陈，砍杀段疾速血腥，蚁窝视角收冷"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "威慑",
+      "四维空间",
+      "宇宙秘密"
+    ],
+    "characters": [
+      "关一帆",
+      "莫沃维奇",
+      "魔戒"
+    ],
+    "conflict_type": "external",
+    "pov": "关一帆",
+    "word_count": 13881,
+    "source_chapter": "奥尔特星云外",
+    "file": "scenes/scene_S20.md",
+    "description": "四维碎块与魔戒：进入四维空间——'海干了'——宇宙高维被人为降维",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知科普腔与亲历视角互补，引经典语录",
+      "diction": "维度类比层层搭建，自造语如高维空间感",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "探索问答引导读者，名句一语定格",
+      "pacing": "探秘逐步深入，魔戒发现骤张，观测段冷静绵密"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "童话",
+      "假警报",
+      "道德困境"
+    ],
+    "characters": [
+      "程心",
+      "AA",
+      "平民"
+    ],
+    "conflict_type": "personal",
+    "pov": "程心",
+    "word_count": 9704,
+    "source_chapter": "广播纪元8年",
+    "file": "scenes/scene_S21.md",
+    "description": "假警报：三条生路被逐一限制——AA射穿穿梭机——'碎片论'道德拷问",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "史料三案并列开篇，转限知贴程心AA",
+      "diction": "计划论证文书语，逃难场景口语急促",
+      "rhetoric_density": "low",
+      "dialogue_mode": "警报问答连发，出题三连筛选冷峻",
+      "pacing": "文书段从容，警报后节奏骤碎，出题一问一答"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "童话",
+      "交权",
+      "定时炸弹"
+    ],
+    "characters": [
+      "程心",
+      "维德"
+    ],
+    "conflict_type": "personal",
+    "pov": "程心",
+    "word_count": 5436,
+    "source_chapter": "广播纪元8年",
+    "file": "scenes/scene_S22.md",
+    "description": "维德接管星环：程心交出控制权并保留'最终决定权'——埋下Arc 4核心冲突",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴程心，试验解说与对峙交替",
+      "diction": "试验参数铺陈，维德语短刀利",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "维德切入式短对白逼问，承诺庄重成约",
+      "pacing": "解说缓铺，对峙句句紧逼，氢弹引爆奇观插断"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "投降",
+      "掩体世界",
+      "虚假安全"
+    ],
+    "characters": [
+      "程心",
+      "曹彬",
+      "高Way"
+    ],
+    "conflict_type": "external",
+    "pov": "程心",
+    "word_count": 17882,
+    "source_chapter": "掩体纪元11年",
+    "file": "scenes/scene_S23.md",
+    "description": "掩体世界：64座太空城的繁荣假象——光速二号的疯狂与失败",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴程心，苏醒者目光逐物对比新旧",
+      "diction": "日常名物怀旧白描，金属世界质感词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "向导问答释世界，对白服务观察",
+      "pacing": "逐物发现缓慢温和，圆筒揭晓一震，游览绵延"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "降维",
+      "二向箔",
+      "不可逃脱"
+    ],
+    "characters": [
+      "白Ice",
+      "瓦西里",
+      "程心"
+    ],
+    "conflict_type": "external",
+    "pov": "白Ice",
+    "word_count": 13060,
+    "source_chapter": "掩体纪元66年",
+    "file": "scenes/scene_S24.md",
+    "description": "白Ice揭示二向箔：逃逸速度为光速——'弱小和无知不是生存的障碍，傲慢才是'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知探测纪实腔，恐惧以群像反应呈现",
+      "diction": "观测数据精确，比喻冷峭如水底之鱼",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "二人探讨式问答，引经据典缓冲未知",
+      "pacing": "预警铺陈悬念绵长，接近段步步收紧，纸条悬停"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "归还",
+      "宇宙真相",
+      "田园时代"
+    ],
+    "characters": [
+      "程心",
+      "关一帆"
+    ],
+    "conflict_type": "internal",
+    "pov": "程心",
+    "word_count": 8889,
+    "source_chapter": "银河纪元409年",
+    "file": "scenes/scene_S25.md",
+    "description": "宇宙真相：十维田园时代被战争拍扁——'你太善良了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴三人，宇宙观以对话揭示",
+      "diction": "星际生存黑话轻松，终极设定语苍茫",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答连珠释新世界，警句压底",
+      "pacing": "重逢问答轻快，星夜慢景，真相段层层下探"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S26",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "童话",
+      "嵌套童话",
+      "云天明三童话之一",
+      "王国的新画师",
+      "隐喻：画入画=二维打击",
+      "隐喻：旋转黑伞=离心调速器",
+      "隐喻：雪浪纸=空间曲率"
+    ],
+    "characters": [
+      "露珠公主",
+      "针眼画师",
+      "空灵画师",
+      "冰沙王子",
+      "国王",
+      "宽姨",
+      "卫队长"
+    ],
+    "conflict_type": "external",
+    "pov": "全知（童话叙述体）",
+    "word_count": 7959,
+    "source_chapter": "广播纪元7年，云天明的童话",
+    "file": "scenes/scene_S26.md",
+    "description": "童话一《王国的新画师》：冰沙以针眼画师为武器弑父篡位——'画到画里'的死亡设定、黑伞守护规则、公主深夜出逃",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书童话腔，直评善恶，插话预告「原因后面再讲」",
+      "diction": "童话程式语汇白话铺陈，敬语称谓仪式化重复",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白推进情节，「说」字简洁归属，台词程式句反复回环",
+      "pacing": "三段式重复推进，画与消失平行剪辑，同句式微变复沓"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S27",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "童话",
+      "嵌套童话",
+      "云天明三童话之一",
+      "饕餮海",
+      "隐喻：饕餮鱼封锁=文明隔绝",
+      "隐喻：香皂=曲率驱动燃料",
+      "故事中的故事"
+    ],
+    "characters": [
+      "露珠公主",
+      "长帆",
+      "宽姨"
+    ],
+    "conflict_type": "external",
+    "pov": "全知（童话叙述体）",
+    "word_count": 5541,
+    "source_chapter": "广播纪元7年，云天明的童话",
+    "file": "scenes/scene_S27.md",
+    "description": "童话二《饕餮海》：逃亡路上的海边夜谈——饕餮鱼封锁起源史、赫尔辛根默斯肯香皂性质铺垫、露珠命名兑现为死亡预言",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知童话腔，聚焦公主初见，海与帆皆陌生化重述",
+      "diction": "白话童话语汇，自然意象抒情，插叙转说书口吻",
+      "rhetoric_density": "high",
+      "dialogue_mode": "天真问答推进世界观，嵌大段口述史，归属只用说问",
+      "pacing": "行旅按晨午夜推进，抒情驻笔与问答交替，复沓句收尾"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S28",
+    "novel": "三体Ⅲ·死神永生",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "童话",
+      "嵌套童话",
+      "云天明三童话之一",
+      "深水王子",
+      "隐喻：不符合透视原理=恒定物理量",
+      "隐喻：肥皂帆船=曲率驱动",
+      "泡沫航道"
+    ],
+    "characters": [
+      "深水王子",
+      "露珠公主",
+      "长帆",
+      "宽姨",
+      "冰沙王子",
+      "针眼画师",
+      "监护官暗林",
+      "广田老师"
+    ],
+    "conflict_type": "external",
+    "pov": "全知（童话叙述体）",
+    "word_count": 8739,
+    "source_chapter": "广播纪元7年，云天明的童话",
+    "file": "scenes/scene_S28.md",
+    "description": "童话三《深水王子》：肥皂船渡饕餮海、反透视王子复位决斗、针眼自画像终局、黑伞仪式性卸除与白帆远航收束",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知童话腔，奇迹只记不解，谜底交人物对话点破",
+      "diction": "童话语汇平实动词，色彩意象浓重，宫廷称谓礼式",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白演绎仪式与解谜，嵌工艺长独白，归属用「说」短标",
+      "pacing": "渡海动作与解说独白交替，王子变矮三次递进观察"
+    },
+    "style_profile_by": "claude-fable-5"
+  }
+]

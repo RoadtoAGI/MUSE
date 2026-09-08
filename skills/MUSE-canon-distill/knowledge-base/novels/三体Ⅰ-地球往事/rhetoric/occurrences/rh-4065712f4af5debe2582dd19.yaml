@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4065712f4af5debe2582dd19
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1250
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 当登录界面出现时，汪淼像换了一个人似的，心中立刻充满了莫名的兴奋
+sensory_mapping: 人物身份；情绪色调；瞬时切换
+context_fact: 他离开叶家时仍被红岸故事和现实危机纠缠，登录游戏后立即采用哥白尼身份并准备揭示秘密。
+image_mechanism: 登录界面像一道换装门槛，现实中的焦虑者在门外停下，带名字和使命的探索者在门内接管同一身体。
+property_alignment: 低落转兴奋对应人物气质更换；无所适从转为明确使命对应身份目标更换；变化紧随登录出现对应替换瞬间完成
+context_alignment: 虚拟游戏允许更换ID和历史角色，心理换人和数字身份换装在同一动作中重合。
+narrative_function: 快速恢复汪淼的主动性，并标明第三次登录从体验转向验证理论。
+transfer_rule: 写情绪突变如换人时，应设置清晰触发门槛，并让情绪、目标和行为方式至少同步改变。
+failure_boundary: 变化缓慢、只有短暂兴奋或角色目标不变时，整个人被替换会夸大状态差异。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 汪淼从现实中的心绪难平骤然转为进入游戏后的兴奋和使命感
+vehicle: 原有人格被另一位情绪、目标全异的人替换
+ground: 情绪由沉重变兴奋对应两个人具有相反气质；被动困扰转为主动揭谜对应行为目的随身份一起改变

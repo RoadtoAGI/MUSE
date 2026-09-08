@@ -1,0 +1,76 @@
+role_slug: huang-rong
+claims:
+  - id: C001
+    text: "黄蓉是桃花岛主黄药师之女"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄蓉
+        quote: "黃蓉為桃花島島主——「東邪」黃藥師與馮氏的獨生女"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "桃花岛主'东邪'黄药师与冯衡的独生女"
+    resolution_note: null
+
+  - id: C002
+    text: "黄蓉的母亲是冯衡（冯氏）"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄蓉
+        quote: "黃藥師與馮氏的獨生女（馮氏即馮衡）"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "黄药师与冯衡的独生女"
+    resolution_note: null
+
+  - id: C003
+    text: "黄蓉与郭靖结为夫妇"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄蓉
+        quote: "在《射雕英雄傳》的結尾，郭靖離開蒙古回中原後與黃蓉成親"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "靖、蓉回归桃花岛隐居成婚"
+    resolution_note: null
+
+  - id: C004
+    text: "黄蓉接任丐帮帮主"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄蓉
+        quote: "臨危受命，獲其傳授丐幫的鎮幫絕技--「打狗棒法」，並成為丐幫第十九任幫主"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "黄蓉临危受命接替了洪七公的丐帮帮主之位"
+    resolution_note: null
+
+  - id: C005
+    text: "黄蓉从洪七公学得打狗棒法"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄蓉
+        quote: "獲其（洪七公）傳授丐幫的鎮幫絕技--「打狗棒法」"
+      - url: https://baike.baidu.com/item/黄蓉
+        quote: "黄蓉学会打狗棒法（明霞岛期间）"
+    resolution_note: null

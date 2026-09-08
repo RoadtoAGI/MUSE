@@ -1,0 +1,453 @@
+# Phase 5: 关键场景 — 《冰与火之歌Ⅲ·冰雨的风暴》
+
+# 注：75 万字长篇，按密度 ~4 万字/场景提取约 20 个关键场景节点。
+# 只提取结构转折点、高潮和关键建置场景，不逐章列举。
+
+sequence_expansions:
+
+  # ── ARC-1: 棋局初设 ──
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 先民拳峰
+        time: 深夜
+        participants: [齐特, 小保罗, 拉克, 守夜人残余]
+        pov: 齐特
+        conflict: 齐特的兵变计划 vs 异鬼的突然袭击
+        value_start: 不稳定的秩序（守夜人扎营但人心涣散）
+        value_end: 全面崩溃（异鬼来袭，三声号角）
+        must_include: 建立全书基调——在人类的阴谋之上，存在更大的超自然威胁
+        handoff: 守夜人溃败，山姆/琼恩线由此展开
+        source_chapter: 148
+
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 泰温的书房，君临红堡
+        time: 白天
+        participants: [提利昂, 泰温]
+        pov: 提利昂
+        conflict: 提利昂索要凯岩城继承权 vs 泰温的蔑视与拒绝
+        value_start: 提利昂以为自己的战功值得认可
+        value_end: 被彻底否定——"你不配继承凯岩城"
+        must_include: 父子关系的核心张力确立；泰温警告"不准再碰妓女"为终局埋线
+        handoff: 提利昂转向密道寻找雪伊的慰藉
+        beat_direction: 提利昂的渴望→泰温的碾压→提利昂的退缩但暗藏怒火
+        source_chapter: 152
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 曼斯·雷德的大帐
+        time: 白天
+        participants: [琼恩, 曼斯·雷德, 托蒙德, 叮当衫]
+        pov: 琼恩
+        conflict: 琼恩的卧底身份 vs 曼斯的审视
+        value_start: 琼恩作为俘虏/变节者身份不明
+        value_end: 以"私生子被排斥"的理由被曼斯接纳
+        must_include: 曼斯讲述离开守夜人的原因（红丝绸斗篷→自由选择），为琼恩的身份危机建立对照
+        handoff: 琼恩进入野人内部，双重间谍生涯开始
+        source_chapter: 155
+
+      - scene_id: S04
+        arc_id: ARC-1
+        location: 奔流城
+        time: 白天
+        participants: [凯特琳, 罗柏, 艾德慕, 黑鱼, 卡史塔克, 维斯特林家族]
+        pov: 凯特琳
+        conflict: 罗柏的军事胜利 vs 政治灾难（已婚的事实）
+        value_start: 凯特琳期待罗柏的凯旋能带来转机
+        value_end: 发现罗柏已违反佛雷婚约——灾难的导火索点燃
+        must_include: 黑鱼揭露艾德慕的胜利实际上是战略灾难（石磨坊之役放走泰温）
+        handoff: 必须修复佛雷关系→红色婚礼的因果链启动
+        beat_direction: 凯旋的喜悦→维斯特林家的出现→凯特琳的认知崩塌
+        source_chapter: 162
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-1
+        location: 山林间的道路
+        time: 黄昏
+        participants: [詹姆, 布蕾妮, 瓦格·赫特（山羊）及其手下]
+        pov: 詹姆
+        conflict: 詹姆的身份/骄傲 vs 暴力的现实
+        value_start: 詹姆虽是囚徒但仍有弑君者的威名和剑手的身体
+        value_end: 右手被砍——剑士身份被物理性摧毁
+        must_include: 砍手前詹姆与布蕾妮的决斗展现他最后的剑术辉煌
+        handoff: 詹姆的身份危机全面展开
+        beat_direction: 决斗的英姿→被俘→亚拉克弯刀→震惊与空白
+        source_chapter: 169
+
+  # ── ARC-2: 征服与觉醒 ──
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 阿斯塔波，骄傲广场
+        time: 清晨
+        participants: [丹妮, 弥桑黛, 克拉兹尼, 无垢者, 卓耿]
+        pov: 丹妮莉丝
+        conflict: 丹妮以一条龙换全部无垢者——但这是精心设计的陷阱
+        value_start: 丹妮表面屈辱地交出龙，被奴隶商人视为天真的女孩
+        value_end: 以瓦雷利亚语下令屠杀奴隶商人，展现女王之威
+        must_include: 丹妮一直听懂瓦雷利亚语的揭示、"Dracarys"命令、无垢者转向
+        handoff: 丹妮从流亡者变为征服者，率军向渊凯进发
+        beat_direction: 假装交易→"龙不是奴隶"→龙火→屠灭→解放
+        source_chapter: 175
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: 卡斯特堡垒
+        time: 夜晚
+        participants: [山姆, 吉莉, 莫尔蒙, 畸足卡尔]
+        pov: 山姆威尔
+        conflict: 饥饿和绝望引发叛乱 vs 莫尔蒙的权威
+        value_start: 守夜人残余虽困顿但仍有组织
+        value_end: 莫尔蒙被杀，军团彻底分裂
+        must_include: 序幕中齐特的兵变计划在此实现（但由不同人执行），山姆带吉莉出逃
+        handoff: 守夜人军团失去领袖→总司令选举线启动
+        source_chapter: 181
+
+      - scene_id: S08
+        arc_id: ARC-2
+        location: 赫伦堡浴室
+        time: 夜晚
+        participants: [詹姆, 布蕾妮]
+        pov: 詹姆
+        conflict: 被遮蔽的真相 vs 世人的偏见
+        value_start: 詹姆是"弑君者"——全世界最无荣誉的骑士
+        value_end: 揭示他杀伊里斯是为了阻止野火焚城——他是救世者
+        must_include: 高烧半昏迷状态下的独白式揭示；布蕾妮的见证
+        handoff: 詹姆开始重建荣誉的可能性；波顿决定释放詹姆但扣留布蕾妮
+        beat_direction: 赤裸的身体→赤裸的真相→昏厥→布蕾妮的接住
+        source_chapter: 185
+
+      - scene_id: S09
+        arc_id: ARC-2
+        location: 湖中塔楼
+        time: 暴风雨之夜
+        participants: [布兰, 梅拉, 玖健, 阿多]
+        pov: 布兰
+        conflict: 阿多的恐惧尖叫可能暴露位置 vs 布兰无法物理上阻止他
+        value_start: 布兰的易形术仅限于冰原狼
+        value_end: 首次控制人类意识——超自然能力跃迁
+        must_include: 无意识的跨越——布兰不是刻意为之，而是在危急中本能反应
+        handoff: 布兰的能力边界被打破，为后续北行奠定基础
+        source_chapter: 188
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-2
+        location: 客栈附近
+        time: 夜晚
+        participants: [琼恩, 耶哥蕊特, 马格拿, 一名老人]
+        pov: 琼恩
+        conflict: 琼恩被命令杀死无辜老人以证忠诚
+        value_start: 琼恩的卧底身份尚存
+        value_end: 拒绝杀人，身份暴露，与耶哥蕊特决裂
+        must_include: 冰原狼（布兰附体的夏天）的突然出现帮助琼恩脱困；耶哥蕊特射箭
+        handoff: 琼恩带伤独骑逃向黑城堡
+        source_chapter: 189
+
+      - scene_id: S25
+        arc_id: ARC-2
+        location: 丹妮营地，渊凯城外
+        time: 深夜
+        participants: [丹妮莉丝, 乔拉, 达里奥·纳哈里斯, 灰虫子]
+        pov: 丹妮莉丝
+        conflict: 如何在兵力劣势下击败渊凯——外交欺骗+夜袭+佣兵叛变
+        value_start: 丹妮面对五千守军和两支佣兵团
+        value_end: 达里奥带着两颗人头投靠，暴鸦团归降，夜袭计划启动
+        must_include: 三天假期限的战术欺骗、三路夜袭部署（无垢者左右+骑兵中路）、达里奥的人头投名状
+        handoff: 渊凯之战胜利→丹妮被称为"母亲"
+        beat_direction: 外交威胁→战术部署→达里奥叛变→信任博弈→进攻令
+        source_chapter: 190
+
+      - scene_id: S11
+        arc_id: ARC-2
+        location: 赫伦堡斗熊坑
+        time: 午后
+        participants: [詹姆, 布蕾妮, 瓦格·赫特, 铁腿沃顿]
+        pov: 詹姆
+        conflict: 布蕾妮手持木剑对抗黑熊 vs 詹姆选择是否冒死相救
+        value_start: 詹姆可以安全离开——布蕾妮不是他的责任
+        value_end: 单臂跳入熊坑——以行动宣告新的身份（守誓者而非弑君者）
+        must_include: 詹姆折返的决定过程（梦境触发）；单臂面对黑熊的绝望勇气
+        handoff: 两人一同获救离开，詹姆的道德转变不可逆
+        beat_direction: 梦中的触动→调头→熊坑边的震惊→跳入→十字弓救援
+        source_chapter: 192
+
+  # ── ARC-3: 红色婚礼 ──
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S24
+        arc_id: ARC-3
+        location: 荒石城废墟，古王坟前
+        time: 黄昏
+        participants: [凯特琳, 罗柏, 灰风]
+        pov: 凯特琳
+        conflict: 北征战略的制定 vs 继承人问题的母子冲突
+        value_start: 罗柏有信心收复北境
+        value_end: 罗柏决定指定琼恩为继承人（暗示），凯特琳强烈反对但无法阻止
+        must_include: 特里斯蒂芬四世坟墓的隐喻（百战九十九胜→第一百场死）、"还有别的路"的战略留白、琼恩vs珊莎的继承权之争
+        handoff: 罗柏签署继承人文件→军队开赴孪河城
+        beat_direction: 古王坟的预兆→战略暗示→继承权争论→灰风龇牙→僵持
+        source_chapter: 193
+
+      - scene_id: S12
+        arc_id: ARC-3
+        location: 孪河城大门
+        time: 白天
+        participants: [凯特琳, 罗柏, 灰风, 瓦德·佛雷]
+        pov: 凯特琳
+        conflict: 联姻的表面和平 vs 灰风感知到的危险
+        value_start: 罗柏试图修复佛雷关系
+        value_end: 灰风拒绝进城被隔离——最后的保护被移除
+        must_include: 灰风在吊桥前咆哮的不祥意象；佛雷的冷嘲热讽
+        handoff: 罗柏与灰风分离，失去最后的预警系统
+        source_chapter: 197
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-3
+        location: 孪河城宴会厅
+        time: 夜晚
+        participants: [凯特琳, 罗柏, 瓦德·佛雷, 卢斯·波顿, 大琼恩·安柏]
+        pov: 凯特琳
+        conflict: 宾客权的神圣性 vs 佛雷/波顿的预谋屠杀
+        value_start: 婚宴看似成功——艾德慕完婚，佛雷似乎接受赔偿
+        value_end: 罗柏被杀，凯特琳被割喉——北方王权覆灭
+        must_include: >
+          "卡斯特梅的雨季"奏响→凯特琳发现波顿穿甲→罗柏中箭→
+          凯特琳以铃铛响为人质→波顿"詹姆·兰尼斯特向你问好"→
+          凯特琳自毁（用指甲抓破脸颊）→割喉
+        handoff: 北方独立运动终结
+        beat_direction: 不祥预感→音乐变调→门关→箭雨→绝望求饶→波顿的低语→疯狂→死亡
+        source_chapter: 199
+
+      - scene_id: S14
+        arc_id: ARC-3
+        location: 孪河城外围营地
+        time: 同一夜晚
+        participants: [艾莉亚, 桑铎·克里冈]
+        pov: 艾莉亚
+        conflict: 艾莉亚试图冲入城堡救母 vs 猎狗强行带她离开
+        value_start: 艾莉亚即将与母亲重逢
+        value_end: 目睹屠杀，被猎狗用斧背击昏
+        must_include: 外围视角看到大帐被放倒焚烧、灰风被杀；猎狗的"保护性暴力"
+        handoff: 艾莉亚与家人的联系被彻底切断
+        source_chapter: 200
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-3
+        location: 黑城堡国王塔
+        time: 夜间战斗
+        participants: [琼恩, 耶哥蕊特, 唐纳·诺伊, 纱丁]
+        pov: 琼恩
+        conflict: 黑城堡南面防御 vs 野人攻城
+        value_start: 琼恩是长城防御的关键力量
+        value_end: 耶哥蕊特死在他怀中——"你什么都不懂，琼恩·雪诺"
+        must_include: 耶哥蕊特之死的细节——琼恩不确定是谁的箭射中了她；最后一句话
+        handoff: 琼恩的个人悲剧加深他对职责的理解
+        beat_direction: 战斗的混乱→发现垂死的耶哥蕊特→最后对话→死亡→悲痛
+        source_chapter: 203
+
+  # ── ARC-4: 审判与崩塌 ──
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S16
+        arc_id: ARC-4
+        location: 王座厅，乔佛里婚宴
+        time: 白天到傍晚
+        participants: [提利昂, 珊莎, 乔佛里, 玛格丽, 瑟曦, 荆棘女王]
+        pov: 提利昂
+        conflict: 乔佛里对提利昂的公开羞辱 vs 权力的脆弱性
+        value_start: 兰尼斯特权力鼎盛，乔佛里大婚
+        value_end: 乔佛里被毒死——"紫色婚礼"
+        must_include: 乔佛里的羞辱仪式（倒酒踢杯、矮人骑手）→ 毒发→面色发紫→瑟曦指控提利昂
+        handoff: 提利昂被捕，珊莎逃离线启动
+        beat_direction: 羞辱的层层升级→突然的窒息→混乱→指控
+        source_chapter: 208
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S17
+        arc_id: ARC-4
+        location: 铁王座前的审判大厅
+        time: 白天
+        participants: [提利昂, 瑟曦, 泰温, 雪伊, 奥柏伦, 魔山]
+        pov: 提利昂
+        conflict: 雪伊的伪证背叛 → 提利昂要求比武审判 → 奥柏伦 vs 魔山
+        value_start: 提利昂仍有一线生机（凯冯提出的认罪协议）
+        value_end: 奥柏伦胜势下被魔山反杀——提利昂被判死刑
+        must_include: >
+          雪伊的伪证（叫提利昂"我的巨人"变为羞辱性证词）→
+          提利昂当庭爆发 → 奥柏伦的复仇独白 → 魔山的反杀（承认罪行后捏碎头颅）
+        handoff: 提利昂在黑牢中等死
+        beat_direction: 背叛的痛→愤怒的爆发→希望（奥柏伦占上风）→绝望（反杀）
+        source_chapter: 218
+
+      - scene_id: S18
+        arc_id: ARC-4
+        location: 长城隧道 + 城墙
+        time: 夜间
+        participants: [琼恩, 唐纳·诺伊, 曼斯军, 巨人, 长毛象]
+        pov: 琼恩
+        conflict: 曼斯大军（含巨人和长毛象）正面攻长城 vs 极度不足的守军
+        value_start: 琼恩是守卫者之一
+        value_end: 诺伊战死后，琼恩被指定为长城指挥者
+        must_include: 诺伊率四人下隧道死守、杀死巨人之王后全部牺牲；伊蒙学士的授权
+        handoff: 琼恩从战士升为领袖
+        source_chapter: 212
+
+      - scene_id: S19
+        arc_id: ARC-4
+        location: 詹姆的白塔房间 / 红堡庭院
+        time: 白天
+        participants: [詹姆, 布蕾妮]
+        pov: 詹姆
+        conflict: 对凯特琳的誓言 vs 现实的政治约束
+        value_start: 詹姆已与瑟曦决裂，但尚未找到新的方向
+        value_end: 将瓦雷利亚钢剑"守誓剑"赠予布蕾妮，命她寻找珊莎
+        must_include: 命名"守誓剑"的意涵——用弑君者的手段（兰尼斯特钢剑）来履行骑士的誓言
+        handoff: 詹姆的道德转变以具体行动完成
+        beat_direction: 与瑟曦决裂→独坐白典前→赠剑→命名→布蕾妮离去
+        source_chapter: 220
+
+      - scene_id: S26
+        arc_id: ARC-4
+        location: 野人营地，长城以北
+        time: 白天
+        participants: [琼恩, 曼斯·雷德, 托蒙德, 瓦拉米尔, 史坦尼斯军]
+        pov: 琼恩
+        conflict: 史坦尼斯大军三路合围 vs 野人营地的混乱防御
+        value_start: 琼恩被困于曼斯营地，准备刺杀曼斯
+        value_end: 史坦尼斯骑兵从三个方向碾碎野人，曼斯被俘——长城危机解除
+        must_include: 号角预警→三路重骑兵出现→鹰的燃烧→野人崩溃→"史坦尼斯万岁"
+        handoff: 长城军事危机解除→琼恩的命运转折（从刺客到未来总司令）
+        beat_direction: 不明号声→三路夹击的视觉展开→混乱中的旁观→旗帜揭示→呐喊确认
+        source_chapter: 221
+
+  # ── ARC-5: 抉择与重生 ──
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S20
+        arc_id: ARC-5
+        location: 红堡密道 → 首相卧室 → 厕所
+        time: 深夜
+        participants: [提利昂, 詹姆, 雪伊, 泰温, 瓦里斯]
+        pov: 提利昂
+        conflict: 提利昂被救出后的终极选择——逃走还是复仇？
+        value_start: 提利昂是泰温权力体系的受害者和囚徒
+        value_end: 勒死雪伊、射杀泰温——兰尼斯特帝国从内部瓦解
+        must_include: >
+          詹姆揭露泰莎真相→提利昂的暴怒→"是我杀了乔佛里"的报复性谎言→
+          发现雪伊在泰温床上→勒死→厕所对峙→
+          "不准用那个词"→射杀→经瓦里斯密道逃离
+        handoff: 泰温之死→权力真空→全系列转折点
+        beat_direction: 真相的冲击→兄弟决裂→发现雪伊→勒杀→对峙泰温→射杀→逃亡
+        source_chapter: 225
+
+      - scene_id: S21
+        arc_id: ARC-5
+        location: 黑城堡地窖
+        time: 夜晚
+        participants: [琼恩, 山姆, 白灵, 莫尔蒙的乌鸦, 众守夜人]
+        pov: 琼恩
+        conflict: 临冬城公爵的诱惑 vs 守夜人誓言
+        value_start: 琼恩挣扎于私欲（临冬城）和职责（守夜人）之间
+        value_end: 白灵回归帮他做出选择——拒绝史坦尼斯，当选第998任总司令
+        must_include: >
+          白灵的红色鱼梁木般的眼睛→琼恩的决定→
+          地窖中的选举→莫尔蒙的乌鸦落肩高喊"雪诺"→压倒性票数
+        handoff: 琼恩的身份危机获得回答——不再是私生子，而是总司令
+        beat_direction: 内心挣扎→白灵回归→顿悟→走入地窖→乌鸦落肩→当选
+        source_chapter: 227
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S22
+        arc_id: ARC-5
+        location: 鹰巢城月门
+        time: 下午
+        participants: [珊莎, 小指头, 莱莎·艾林]
+        pov: 珊莎
+        conflict: 莱莎的嫉妒疯狂 vs 小指头的操控
+        value_start: 珊莎以为在鹰巢城获得安全
+        value_end: 莱莎被推下月门——揭露全系列阴谋源头（琼恩·艾林之死）
+        must_include: >
+          莱莎歇斯底里的自白（在小指头指使下毒杀琼恩·艾林）→
+          "我一生只爱过一个女人——只爱凯特"→推下月门
+        handoff: 小指头独揽谷地权力，珊莎陷入更深的棋局
+        beat_direction: 小指头的吻→莱莎的暴怒→月门边缘→自白→小指头的低语→坠落
+        source_chapter: 228
+
+      - scene_id: S23
+        arc_id: ARC-5
+        location: 荒石城废墟
+        time: 黄昏
+        participants: [梅里·佛雷, 七弦汤姆, 柠檬, 石心夫人]
+        pov: 梅里·佛雷
+        conflict: 佛雷家的赎金任务 vs 兄弟会的复仇审判
+        value_start: 梅里以为这是简单的赎金交换
+        value_end: 石心夫人（复活的凯特琳）点头判他死刑
+        must_include: >
+          梅里对红色婚礼的回忆（佛雷视角内部的罪恶分配）→
+          兜帽女子揭开面容→恐怖的认知（"她死了……我明明看见她死了"）→
+          石心夫人点头→绞刑
+        handoff: 全书以复仇的意象结束——正义/复仇的边界模糊
+        beat_direction: 赎金的期望→侄子已死→被捕→审问→兜帽揭开→恐惧→点头→绞绳
+        source_chapter: 229
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: >
+    全书张力曲线呈"双峰+尾峰"结构：
+    第一峰：阿斯塔波之变/斗熊坑（ARC-2 高潮，约 40% 处）——正面情绪峰值
+    第二峰：红色婚礼（ARC-3 高潮，约 60% 处）——全书最大负面情绪冲击
+    尾峰群：紫色婚礼→比武审判→弑父之夜→石心夫人（ARC-4/5，80-100%）——密集的高潮序列
+    两峰之间有一段"通往孪河城"的张力爬升（ARC-3 SEQ1），
+    不祥预兆的积累让读者在灾难发生前就已经紧张。
+  peaks:
+    - S06  # 阿斯塔波之变
+    - S13  # 红色婚礼
+    - S16  # 紫色婚礼
+    - S17  # 比武审判
+    - S20  # 弑父之夜
+    - S23  # 石心夫人
+  valleys:
+    - S03  # 琼恩进入曼斯营地（建置性场景，张力较低）
+    - S09  # 布兰控制阿多（紧张但规模小）
+    - S12  # 进入孪河城（铺垫性场景，张力在酝酿中）
+
+# ── 因果链 ──
+
+causal_chain: >
+  S01（先民拳峰溃败）→ S03（琼恩潜入野人）→ S10（琼恩叛离）→ S15（耶哥蕊特之死）→ S18（长城大战）→ S26（史坦尼斯击溃野人）→ S21（当选总司令）
+  |||
+  S02（提利昂被拒）→ S16（紫色婚礼后被指控）→ S17（比武审判失败）→ S20（弑父之夜）
+  |||
+  S04（罗柏毁约揭露）→ S24（罗柏战略会议/继承人文件）→ S12（灰风拒绝进城）→ S13（红色婚礼）→ S14（艾莉亚被劫）→ S23（石心夫人复仇）
+  |||
+  S05（詹姆断手）→ S08（弑君真相揭示）→ S11（斗熊坑）→ S19（赠剑布蕾妮）
+  |||
+  S06（丹妮获无垢者）→ S25（渊凯夜袭部署/达里奥叛变）→ [弥林征服] → 丹妮留守弥林
+  |||
+  戴佛斯求援信（ARC-3 SEQ3）→ S26（史坦尼斯三路合围）——将长城线与龙石岛线连接
+  |||
+  所有线通过红色婚礼（S13）和紫色婚礼（S16）产生交叉共振——
+  前者终结北方线，后者引爆君临线。

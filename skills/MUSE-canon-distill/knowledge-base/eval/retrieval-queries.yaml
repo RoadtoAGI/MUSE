@@ -1,0 +1,244 @@
+- query_id: q001
+  query: 郭靖在强敌压迫下守住心神，以朴拙动作承接师门压力。叙述贴近动作链，少解释心理。
+  genre: 武侠
+  style_hint: 限知贴身 动作推进 对白稀少
+  function_hint: 苦守蓄势 单打压制
+  source_medium: novel
+  relevant:
+  - novel: 射雕英雄传
+    scene_id: S30
+    grade: 2
+  - novel: 射雕英雄传
+    scene_id: S18
+    grade: 1
+- query_id: q002
+  query: 洪七公传授降龙十八掌，师徒关系通过招式和吃食建立信任。语态明快，动作节拍清楚。
+  genre: 武侠
+  style_hint: 明快 动作链 师徒传授
+  function_hint: 师徒传授 招式教学
+  source_medium: novel
+  relevant:
+  - novel: 射雕英雄传
+    scene_id: S05
+    grade: 2
+- query_id: q003
+  query: 杨过在恩怨纠葛里以德报怨，角色选择比口头辩解更重要。叙述带武侠伦理和情感压抑。
+  genre: 武侠
+  style_hint: 武侠伦理 克制 情感压抑
+  function_hint: 恩怨和解 道德抉择
+  source_medium: novel
+  relevant:
+  - novel: 神雕侠侣
+    scene_id: S16
+    grade: 2
+- query_id: q004
+  query: 水滴袭击让人类舰队的自信瞬间崩塌，宏大技术想象转成灾难现场。语态冷静、残酷、物理感强。
+  genre: 科幻
+  style_hint: 冷静 技术灾难 物理压迫
+  function_hint: 科技碾压 群体溃败
+  source_medium: novel
+  relevant:
+  - novel: 三体Ⅱ-黑暗森林
+    scene_id: S10
+    grade: 2
+- query_id: q005
+  query: 黑暗森林公理被播种，人物尚未理解后果但宇宙规则已经改变。叙述理性、悬念后置。
+  genre: 科幻
+  style_hint: 理性 悬念后置 宇宙尺度
+  function_hint: 规则揭示 悬念埋设
+  source_medium: novel
+  relevant:
+  - novel: 三体Ⅱ-黑暗森林
+    scene_id: S01
+    grade: 2
+  - novel: 三体Ⅱ-黑暗森林
+    scene_id: S03
+    grade: 1
+- query_id: q006
+  query: 执剑人身份把普通人推向文明存亡的决断位置，枪击和新世界共同完成命运转向。语态克制但高压。
+  genre: 科幻
+  style_hint: 高压 冷静 文明存亡
+  function_hint: 命运抉择 高压对峙
+  source_medium: novel
+  relevant:
+  - novel: 三体Ⅲ-死神永生
+    scene_id: S03
+    grade: 2
+- query_id: q007
+  query: 宇宙闪烁证实超常力量针对人类，科学理性被不可理解的现象击穿。叙述要有惊悚感和技术细节。
+  genre: 科幻
+  style_hint: 技术惊悚 理性崩塌
+  function_hint: 异象降临 理性崩塌
+  source_medium: novel
+  relevant:
+  - novel: 三体Ⅰ-地球往事
+    scene_id: S04
+    grade: 2
+  - novel: 三体Ⅰ-地球往事
+    scene_id: S02
+    grade: 1
+- query_id: q008
+  query: 地球发动机和死亡谜语共同建立流浪地球的世界观，童年视角里混合宏大工程与恐惧。语态朴素但想象宏阔。
+  genre: 科幻
+  style_hint: 童年视角 宏大工程 朴素恐惧
+  function_hint: 世界观铺陈 童年视角
+  source_medium: novel
+  relevant:
+  - novel: 流浪地球
+    scene_id: scene_01
+    grade: 2
+- query_id: q009
+  query: 末日废墟中父亲和孩子发现一罐可口可乐，微小美好在绝望世界中短暂发光。语态冷峻克制。
+  genre: 后末日文学
+  style_hint: 冷峻 克制 微光
+  function_hint: 末世日常 微光温情
+  source_medium: novel
+  relevant:
+  - novel: 长路
+    scene_id: scene_01
+    grade: 2
+- query_id: q010
+  query: 地窖里发现被囚禁截肢的活人，后末日生存恐怖从暗示变成直面。叙述紧绷、少解释。
+  genre: 后末日文学
+  style_hint: 紧绷 生存恐怖 少解释
+  function_hint: 恐怖揭露 生存威胁
+  source_medium: novel
+  relevant:
+  - novel: 长路
+    scene_id: scene_06
+    grade: 2
+- query_id: q011
+  query: 君临暴乱中民众撕碎总主教，王权表面秩序突然瓦解。群像调度混乱但权力逻辑清楚。
+  genre: 史诗奇幻
+  style_hint: 群像 暴乱 权力失控
+  function_hint: 群体暴乱 秩序崩溃
+  source_medium: novel
+  relevant:
+  - novel: 冰与火之歌Ⅱ-列王的纷争
+    scene_id: S13
+    grade: 2
+- query_id: q012
+  query: 瑟曦赤身走过君临街道，骄傲被公众羞辱逐步碾碎。叙述需要心理崩溃的渐进层次。
+  genre: 史诗奇幻
+  style_hint: 羞辱 渐进崩溃 权力反噬
+  function_hint: 公开羞辱 心理崩溃
+  source_medium: novel
+  relevant:
+  - novel: 冰与火之歌Ⅴ-魔龙的狂舞
+    scene_id: S18
+    grade: 2
+- query_id: q013
+  query: 甘道夫在卡扎督姆桥上独挡炎魔，为同伴争取逃生时间。史诗语态、牺牲感和动作画面并重。
+  genre: 高奇幻
+  style_hint: 史诗 牺牲 动作画面
+  function_hint: 自我牺牲 断后阻敌
+  source_medium: novel
+  relevant:
+  - novel: 指环王
+    scene_id: S05
+    grade: 2
+- query_id: q014
+  query: 弗罗多自愿承担携带魔戒前往末日山的使命，沉默后的选择比宣言更重。语态庄严克制。
+  genre: 高奇幻
+  style_hint: 庄严 克制 使命承担
+  function_hint: 使命承担 沉默抉择
+  source_medium: novel
+  relevant:
+  - novel: 指环王
+    scene_id: S04
+    grade: 2
+- query_id: q015
+  query: 白鹿原上白嘉轩为了风水地欺骗鹿家，乡土伦理和利益算计缠在一起。叙述厚重、现实主义。
+  genre: 现实主义
+  style_hint: 乡土 厚重 伦理算计
+  function_hint: 利益算计 乡土伦理
+  source_medium: novel
+  relevant:
+  - novel: 白鹿原
+    scene_id: S01
+    grade: 2
+- query_id: q016
+  query: 祠堂惩罚和分家把家族秩序压到个人欲望之上，场面要有宗法压力。叙述冷硬、细节具体。
+  genre: 现实主义
+  style_hint: 宗法压力 冷硬 细节具体
+  function_hint: 宗法惩戒 家族秩序
+  source_medium: novel
+  relevant:
+  - novel: 白鹿原
+    scene_id: S06
+    grade: 2
+- query_id: q017
+  query: 渡边在机场被《挪威的森林》旋律击中，二十年前的草地和直子回潮。语态内敛、回忆流动。
+  genre: 青春成长
+  style_hint: 内敛 回忆 留白
+  function_hint: 记忆触发 情感回潮
+  source_medium: novel
+  relevant:
+  - novel: 挪威的森林
+    scene_id: S01
+    grade: 2
+  - novel: 挪威的森林
+    scene_id: S02
+    grade: 1
+- query_id: q018
+  query: 渡边在水塔旁放飞萤火虫，孤独灰暗里只有一点微弱的光。语态安静，象征不解释。
+  genre: 青春成长
+  style_hint: 安静 象征 留白 孤独
+  function_hint: 孤独象征 静默留白
+  source_medium: novel
+  relevant:
+  - novel: 挪威的森林
+    scene_id: S05
+    grade: 2
+  - novel: 挪威的森林
+    scene_id: S02
+    grade: 1
+- query_id: q019
+  query: 赵玖百骑夜驰投奔韩世忠，用冒险行动完成政治信任交换。叙述有历史穿越的临场感和君臣张力。
+  genre: 历史穿越
+  style_hint: 历史临场 君臣张力 行动决断
+  function_hint: 冒险行动 政治信任
+  source_medium: novel
+  relevant:
+  - novel: 绍宋
+    scene_id: scene_03
+    grade: 2
+- query_id: q020
+  query: 淮上决战里韩世忠三段伏击，赵玖城头掼帽高呼胜利。战争调度和情绪释放都要清楚。
+  genre: 历史穿越
+  style_hint: 战争调度 情绪释放 历史语态
+  function_hint: 战争调度 胜利释放
+  source_medium: novel
+  relevant:
+  - novel: 绍宋
+    scene_id: scene_06
+    grade: 2
+  - novel: 绍宋
+    scene_id: scene_05
+    grade: 1
+- query_id: q021
+  query: 阿琴波尔迪研究者在学术会议上结盟并击败对手学派，文学权力像荒诞社交游戏。语态冷峻讽刺。
+  genre: 后现代主义
+  style_hint: 冷峻 讽刺 学术权力
+  function_hint: 学术权力 社交博弈
+  source_medium: novel
+  relevant:
+  - novel: 2666
+    scene_id: S01
+    grade: 2
+  - novel: 2666
+    scene_id: S19
+    grade: 1
+- query_id: q022
+  query: 圣特莱莎妇女谋杀案的规模被揭露，记者之死让城市恐惧变成事实压力。叙述像冷峻调查记录。
+  genre: 后现代主义
+  style_hint: 调查记录 冷峻 城市恐惧
+  function_hint: 调查记录 恐惧压力
+  source_medium: novel
+  relevant:
+  - novel: 2666
+    scene_id: S09
+    grade: 2
+  - novel: 2666
+    scene_id: S04
+    grade: 1

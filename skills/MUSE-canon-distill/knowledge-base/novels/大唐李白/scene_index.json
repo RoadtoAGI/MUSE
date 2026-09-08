@@ -1,0 +1,811 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "师徒",
+      "品诗",
+      "伏笔"
+    ],
+    "characters": [
+      "赵蕤",
+      "月娘"
+    ],
+    "conflict_type": "internal",
+    "pov": "赵蕤",
+    "word_count": 453,
+    "source_chapter": "卷一·第三章",
+    "file": "scenes/scene_S01.md",
+    "description": "赵蕤与月娘品评石上诗，识出故人之子",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴赵蕤，夹入辨诗直评",
+      "diction": "文言骨架夹日常问答",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问短答推进，叙述补心理",
+      "pacing": "缓入机锋，末句轻收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "师徒确立",
+      "机锋对答",
+      "核心转折"
+    ],
+    "characters": [
+      "赵蕤",
+      "李白",
+      "吴指南"
+    ],
+    "conflict_type": "personal",
+    "pov": "赵蕤",
+    "word_count": 2660,
+    "source_chapter": "卷一·第八-九章",
+    "file": "scenes/scene_S02.md",
+    "description": "深夜大匡山林中师徒照面——金铁鸣声、机锋对答、一约既订",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴赵蕤观察，兼析少年气",
+      "diction": "古雅论辨混侠少年口气",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论辩为主，插入动作打断",
+      "pacing": "长铺短答，递进到约定"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "身世揭秘",
+      "醉话",
+      "悬念"
+    ],
+    "characters": [
+      "赵蕤",
+      "月娘",
+      "李客"
+    ],
+    "conflict_type": "external",
+    "pov": "赵蕤",
+    "word_count": 1130,
+    "source_chapter": "卷一·第十九章",
+    "file": "scenes/scene_S03.md",
+    "description": "李客醉夜吐露西域身世——客之名本非我名",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "回忆转述，借赵蕤考据",
+      "diction": "史传词汇压住家常酒话",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量追问牵出身世",
+      "pacing": "先逸事后释义，留神秘"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "隐士策略",
+      "声望博弈",
+      "群鸟奇观"
+    ],
+    "characters": [
+      "赵蕤",
+      "李白",
+      "李颙",
+      "元丹丘"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角",
+    "word_count": 1511,
+    "source_chapter": "卷一·第二九-三二章",
+    "file": "scenes/scene_S04.md",
+    "description": "赵蕤施朝阳诀召鸟、举而不应拒绝刺史举荐",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书，兼释典故机关",
+      "diction": "博物名物接士林雅语",
+      "rhetoric_density": "high",
+      "dialogue_mode": "宴席辞令与暗号并行",
+      "pacing": "鸟声铺张后转入幽叹"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "超自然",
+      "鬼魂",
+      "政治警示"
+    ],
+    "characters": [
+      "李白",
+      "薛稷",
+      "狂客"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1552,
+    "source_chapter": "卷一·第四二-四三章",
+    "file": "scenes/scene_S05.md",
+    "description": "露寒驿遇薛稷鬼魂与狂客，饮酒论鹤，仙鹤歌警示",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白幻视，旁出史意",
+      "diction": "仙鬼词色混政治隐喻",
+      "rhetoric_density": "high",
+      "dialogue_mode": "诗歌独唱压过散对白",
+      "pacing": "异象叠歌，末端急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "身份壁垒",
+      "先扬后抑",
+      "白身"
+    ],
+    "characters": [
+      "李白",
+      "卢焕",
+      "陈过"
+    ],
+    "conflict_type": "personal",
+    "pov": "李白",
+    "word_count": 1241,
+    "source_chapter": "卷一·第五一-五二章",
+    "file": "scenes/scene_S06.md",
+    "description": "即席赋散花楼诗后卢焕点破白身困境",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴李白，兼作机锋旁白",
+      "diction": "游侠口吻夹佛道词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "挑衅问答带身份试探",
+      "pacing": "动作急，义理处放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "追寻",
+      "仙道暗示",
+      "声音"
+    ],
+    "characters": [
+      "李白"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1852,
+    "source_chapter": "卷一·第五三章",
+    "file": "scenes/scene_S07.md",
+    "description": "夜闻骑羊者歌声，追之不及——另一条路的暗示",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知铺陈，转入李白感受",
+      "diction": "山水色彩接士人语汇",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀疏，叙述托情",
+      "pacing": "景物缓铺，情绪渐密"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "干谒",
+      "诗名初立",
+      "卷终"
+    ],
+    "characters": [
+      "李白",
+      "苏颋",
+      "卢焕"
+    ],
+    "conflict_type": "external",
+    "pov": "李白",
+    "word_count": 2044,
+    "source_chapter": "卷一·第五七章",
+    "file": "scenes/scene_S08.md",
+    "description": "干谒苏颋获评可与相如比肩——少年游终章",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白行游，偶作史注",
+      "diction": "地名制度词嵌入口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "行旅寒暄牵出判断",
+      "pacing": "叙事稳步，转折处短促"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "复仇",
+      "暴力",
+      "月娘线"
+    ],
+    "characters": [
+      "月娘",
+      "毛韬",
+      "魏牟"
+    ],
+    "conflict_type": "personal",
+    "pov": "月娘",
+    "word_count": 2941,
+    "source_chapter": "卷二·第五章",
+    "file": "scenes/scene_S09.md",
+    "description": "月娘在添子洞杀仇毛韬，月娘线独立展开",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴李白，旁白辨人物",
+      "diction": "酒席俗语混古典断语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "席间对白推进关系",
+      "pacing": "热闹中留出凝视停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "道教认可",
+      "权威",
+      "仙风道骨"
+    ],
+    "characters": [
+      "李白",
+      "司马承祯",
+      "丹丘子",
+      "崔涤"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1055,
+    "source_chapter": "卷二·第十二章",
+    "file": "scenes/scene_S10.md",
+    "description": "江陵会司马承祯被赞仙风道骨",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知压场，贴近群像反应",
+      "diction": "市井声口接豪侠辞色",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "众声鼓噪夹主角短句",
+      "pacing": "人群密集，动作突发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "死亡",
+      "同行者",
+      "虎",
+      "情感高峰"
+    ],
+    "characters": [
+      "李白",
+      "吴指南"
+    ],
+    "conflict_type": "personal",
+    "pov": "李白",
+    "word_count": 2856,
+    "source_chapter": "卷二·第二一-二二章",
+    "file": "scenes/scene_S11.md",
+    "description": "吴指南追问资财后遇虎临终吼啸——少年时代终结",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白心念，兼回扣旧事",
+      "diction": "感伤词调混典故判断",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白少，内心承接诗意",
+      "pacing": "回忆插叙，情绪迟缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "初遇",
+      "音乐",
+      "情感线"
+    ],
+    "characters": [
+      "李白",
+      "段七娘",
+      "瞽叟"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1627,
+    "source_chapter": "卷二·第二三章",
+    "file": "scenes/scene_S12.md",
+    "description": "金陵孙楚楼初遇段七娘——先闻其乐后见其人",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知叙局，贴人物尴尬",
+      "diction": "礼法官场词压住私情",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "含蓄应酬多于直说",
+      "pacing": "礼节拖慢，暗线推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "酒令",
+      "身份表演",
+      "士族交游"
+    ],
+    "characters": [
+      "李白",
+      "崔宗之",
+      "范十三",
+      "段七娘"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角",
+    "word_count": 1405,
+    "source_chapter": "卷二·第二七章",
+    "file": "scenes/scene_S13.md",
+    "description": "孙楚楼行酒令赋诗明志——李白以张良自况",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白惊疑，旁白释局",
+      "diction": "神异词汇夹江湖口吻",
+      "rhetoric_density": "high",
+      "dialogue_mode": "短促对白触发异象",
+      "pacing": "先静后奇，句群骤密"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "身份宣言",
+      "反讽",
+      "神仙自处"
+    ],
+    "characters": [
+      "李白",
+      "孟浩然",
+      "崔宗之"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1698,
+    "source_chapter": "卷二·第三二章",
+    "file": "scenes/scene_S14.md",
+    "description": "以神仙自处回应为何不赴科举——将不得出转化为不为",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴李白，回望师门",
+      "diction": "师门日常接庄骚语汇",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "训诫式对白带余味",
+      "pacing": "旧事慢放，末尾内收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "超自然",
+      "龙君",
+      "论道"
+    ],
+    "characters": [
+      "李白",
+      "丹砂",
+      "钱塘龙君"
+    ],
+    "conflict_type": "external",
+    "pov": "李白",
+    "word_count": 1290,
+    "source_chapter": "卷三·第五-六章",
+    "file": "scenes/scene_S15.md",
+    "description": "龙君现身广陵渡头助李白，西灵塔论生死",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知写席面，贴诗人辨兴",
+      "diction": "诗论术语混酒席口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论诗对白密集互接",
+      "pacing": "辩析层层加码，忽作笑声"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "散财",
+      "豪侠",
+      "身份策略",
+      "高潮"
+    ],
+    "characters": [
+      "李白",
+      "丹砂",
+      "高适",
+      "董庭兰"
+    ],
+    "conflict_type": "personal",
+    "pov": "李白",
+    "word_count": 1384,
+    "source_chapter": "卷三·第九-十一章",
+    "file": "scenes/scene_S16.md",
+    "description": "琼花楼以五蠹人自号散财三十万——以季札论折服高适",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白所见，兼写群体气息",
+      "diction": "市井动作词混唐人礼俗",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叫喊唱词推动冲突",
+      "pacing": "拥挤急促，奇物破局"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "抉择",
+      "弃志",
+      "自由"
+    ],
+    "characters": [
+      "李白",
+      "丹砂"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1226,
+    "source_chapter": "卷三·第十三章",
+    "file": "scenes/scene_S17.md",
+    "description": "李白决意不赴长安——以歌曲浪迹为志",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知回护，贴人物迟疑",
+      "diction": "仕宦词与私人称谓并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "客套问答掩真实意图",
+      "pacing": "铺垫绵密，关键处停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "复仇",
+      "克制",
+      "禅意",
+      "三刀"
+    ],
+    "characters": [
+      "月娘",
+      "毛韬",
+      "仪光禅师"
+    ],
+    "conflict_type": "internal",
+    "pov": "月娘",
+    "word_count": 1204,
+    "source_chapter": "卷三·第十五-十六章",
+    "file": "scenes/scene_S18.md",
+    "description": "月娘三刀不忍下手，仪光以狮子骢劝化，毛韬惊死",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白情绪，旁白拆诗法",
+      "diction": "诗语典故与直白心声交替",
+      "rhetoric_density": "high",
+      "dialogue_mode": "诗句唱和引出追问",
+      "pacing": "吟咏舒展，问答突然收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "重逢",
+      "宴饮",
+      "物件追踪"
+    ],
+    "characters": [
+      "李白",
+      "李衍",
+      "许自正"
+    ],
+    "conflict_type": "external",
+    "pov": "李白",
+    "word_count": 1266,
+    "source_chapter": "卷三·第十八-二一章",
+    "file": "scenes/scene_S19.md",
+    "description": "安州偶遇李衍、桃李园春宴、紫绮裘揭示婚事",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知叙事，贴酒局众声",
+      "diction": "豪饮俗语夹清谈术语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "多人插话形成席间流动",
+      "pacing": "热闹快切，独白处放缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "暴力",
+      "沦落",
+      "悲剧",
+      "安禄山"
+    ],
+    "characters": [
+      "月娘",
+      "轧牢山",
+      "康破延"
+    ],
+    "conflict_type": "external",
+    "pov": "月娘",
+    "word_count": 1154,
+    "source_chapter": "卷三·第二九章",
+    "file": "scenes/scene_S20.md",
+    "description": "月娘被轧牢山侵占——梦中忆李白诗句",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴主角行旅，兼作命运旁白",
+      "diction": "江湖地景混士人抱负",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白点到即止，叙述主导",
+      "pacing": "路途展开，转念处凝住"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "诀别",
+      "音乐",
+      "情感终结"
+    ],
+    "characters": [
+      "李白",
+      "段七娘",
+      "瞽叟"
+    ],
+    "conflict_type": "internal",
+    "pov": "李白",
+    "word_count": 1328,
+    "source_chapter": "卷三·第三二章",
+    "file": "scenes/scene_S21.md",
+    "description": "段七娘以歌点破心结——好因缘恰是恶因缘的完整诠释",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴李白，夹入旧友回声",
+      "diction": "侠气词汇接婚俗俚声",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "群声逼近，主角以短句应",
+      "pacing": "喧闹压迫，奇迹断开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "婚礼",
+      "仪式",
+      "超自然回声",
+      "终章"
+    ],
+    "characters": [
+      "李白",
+      "许宛",
+      "薛乂"
+    ],
+    "conflict_type": "symbolic",
+    "pov": "李白",
+    "word_count": 1973,
+    "source_chapter": "卷三·第三三章",
+    "file": "scenes/scene_S22.md",
+    "description": "亲迎许宛——繁缛婚仪与酒壶从天而降，全书终章",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白感官，群像如梦推进",
+      "diction": "礼俗唱词混鬼魅比喻",
+      "rhetoric_density": "high",
+      "dialogue_mode": "障车唱词反复造势",
+      "pacing": "拥挤鼓噪，坠物瞬间断拍"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "论诗",
+      "改字",
+      "对等交流",
+      "文人友谊"
+    ],
+    "characters": [
+      "李白",
+      "孟浩然",
+      "崔宗之",
+      "龚霸"
+    ],
+    "conflict_type": "intellectual",
+    "pov": "多视角",
+    "word_count": 1450,
+    "source_chapter": "卷二·第三〇章",
+    "file": "scenes/scene_S23.md",
+    "description": "江津驿偶遇孟浩然——以改字论诗建立对等的精神共鸣",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知考据，贴席间机锋",
+      "diction": "史传考据与驿亭口语交织",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论字问答牵出长注",
+      "pacing": "一字入史，笑声缓冲"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "分道",
+      "友谊裂痕",
+      "经济与自由",
+      "告别"
+    ],
+    "characters": [
+      "李白",
+      "高适",
+      "丹砂",
+      "董庭兰"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角",
+    "word_count": 1380,
+    "source_chapter": "卷三·第十一-十三章",
+    "file": "scenes/scene_S24.md",
+    "description": "琼花楼散财翌日——高适坦言必须赴长安，两个好人走向不同的路",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白诗兴，旁白释作法",
+      "diction": "诗论古语夹醉席俗语",
+      "rhetoric_density": "high",
+      "dialogue_mode": "索诗应答推动顿悟",
+      "pacing": "醉语快起，诗论慢释"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "大唐李白",
+    "author": "张大春",
+    "genre": "历史小说",
+    "lang": "zh",
+    "tags": [
+      "共同创作",
+      "续诗",
+      "告别",
+      "诗即友谊"
+    ],
+    "characters": [
+      "李白",
+      "孟浩然",
+      "龚霸"
+    ],
+    "conflict_type": "internal",
+    "pov": "多视角",
+    "word_count": 1620,
+    "source_chapter": "卷二·第三三章",
+    "file": "scenes/scene_S25.md",
+    "description": "孟浩然梦中得残句李白助成绝唱——以共同创作完成最深的告别",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴李白与孟浩然互照",
+      "diction": "赠别诗语接庄子典故",
+      "rhetoric_density": "high",
+      "dialogue_mode": "梦呓唱和转严肃追问",
+      "pacing": "清晨缓叙，末问沉下"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

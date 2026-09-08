@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-06076bfc0745b994fff1f41f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2006
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 这一切，又都在宁静与平和中流逝着，像电子边上的小溪一样
+sensory_mapping: 流水听觉；缓速位移；清凉触觉；边缘路径；时间连续
+context_fact: 乡村生活物质和色彩都很浓烈，却没有冲突和急剧转折，安静地度过半年。
+image_mechanism: 油画般凝固的浓色场景下又铺开一条细水，日子沿溪流缓慢离开；画面的厚与时间的轻流同时存在。
+property_alignment: 连续日子对应不断溪水；平和氛围对应水面无浪；时段过去对应水流离开原处；浓烈生活旁的宁静对应小溪贴着边缘流动
+context_alignment: 它与前面的油画互补：记忆可被定格观看，实际时间却在不知不觉中流走，解释幸福为何显得短暂。
+narrative_function: 为浓郁乡村画面加入低速时间感，柔和收束半年生活。
+transfer_rule: 以小溪写时间时，应匹配连续、方向、低速度、轻声和沿固定生活路径推进。
+failure_boundary: 时段充满剧烈转折、主观感觉停滞或时间突然跳切时，小溪会抹平真实节奏。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 齐家屯浓烈温热的生活在半年中持续、安静、平缓地经过
+vehicle: 沿边缘缓慢流动、声音轻柔且水势稳定的小溪
+ground: 日子连续向前对应溪水不断流动；生活节奏平和对应小溪水势缓慢无激浪

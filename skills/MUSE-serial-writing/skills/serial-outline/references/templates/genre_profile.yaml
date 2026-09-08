@@ -1,0 +1,12 @@
+# series/genre_profile.yaml —— 本作类型档案，S1 判定后冻结
+# 后续修改使用 frozen_amendment，目标 token 为 profile:genre
+schema_version: 1
+substrate: null                # history | xianxia | infinite | generic；按本作世界底座选择
+engine:
+  primary: null                # 主要阅读动力，自由文本
+  secondary: null              # 辅助动力，可空
+mainline_type: null            # 声明位：如事业线、关系线、双线
+tags: []                     # 声明位：参考检索与类型定位
+pacing_contract: null          # 免费快节奏 | 付费标准 | 慢热精品；项目配置选项
+benchmark: []                  # 作者指定或确认的对标作品
+substrate_config: {}           # 按对应 genre-pack 的 substrate_config_keys 填写

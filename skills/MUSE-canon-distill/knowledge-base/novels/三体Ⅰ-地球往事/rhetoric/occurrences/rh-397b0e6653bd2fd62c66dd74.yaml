@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-397b0e6653bd2fd62c66dd74
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2335
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 每个人在精神上都将成为新人，世界也将成为新的世界
+sensory_mapping: 旧皮脱落；重新出生；世界翻新；记忆褪色；身份重置
+context_fact: 斯坦顿说得知三体舰队后像患失忆症，自己经历的战争都变得微不足道。
+image_mechanism: 外星入侵消息像一道历史分娩线，线前的战争和身份留在旧世界，线后的人带着同一身体却以新尺度生活。
+property_alignment: 舰队消息对应出生触发；个人价值重估对应成为新人；过去战争淡化对应旧记忆退场；全球共同敌人对应新世界规则；文明史假设改变对应从起点重写；精神变化对应非肉身新生
+context_alignment: 他用无意义闲谈帮汪淼度过杀戮前夕，新人世界也给这场行动套上文明转折尺度，既真诚又自我安慰。
+narrative_function: 把外星接触对历史尺度的冲击写成再生，并解释上校为何看轻旧战争。
+transfer_rule: 用新人新世界写认知转折时，应指出旧尺度被何事终止、新规则如何建立以及哪些判断随之改变。
+failure_boundary: 消息只短暂吸引注意、制度和价值迅速恢复旧状，或个人仍按旧战争逻辑行动时，全面新生会夸大断裂。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 确认外星舰队后，人类会重估既往战争、国家事件和自我身份，文明精神坐标发生根本变化
+vehicle: 旧的人与世界结束一次生命，新个体和新世界重新出生，拥有不同记忆权重和规则
+ground: 价值体系重置对应新人诞生；旧战争失去意义对应旧世界消亡；共同敌人出现对应新世界规则建立

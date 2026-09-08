@@ -1,0 +1,36 @@
+card_id: private-rite-closure
+pattern_name: 私设仪式了结
+dramatic_function: 让人物用自创仪式或带历史负载的物件动作完成告别与了结，替代正式仪式、控诉与解释性长谈；哀悼方式被主动重写
+applicability: 适用于失去后需要行动收束的关系；物件或符号须有共同历史负载；写成治愈完成即失真
+reuse_candidates:
+- 喜乐零食
+- 美香食杂店牌匾
+- 自制连环画
+- 五十一首曲子
+- 吉他和火柴
+tags:
+- 关系了结
+- 物件叙事
+- 象征动作
+- 仪式
+- 告别
+- 音乐
+- 哀悼
+source_scenes:
+- novel: 你好，旧时光
+  scene_id: scene_16
+  note: 买回喜乐后离开，父女关系不再需要解释。
+- novel: 你好，旧时光
+  scene_id: scene_17
+  note: 连环画把共同记忆变成未完待续。
+- novel: 挪威的森林
+  scene_id: S14
+  note: 玲子用曲目和火柴为直子办不凄凉的葬礼。
+- novel: 挪威的森林
+  scene_id: S15
+  note: 仪式之后渡边才拨通通向生者的电话。
+phase_affinity:
+- 2
+- 3
+- 4
+- 5

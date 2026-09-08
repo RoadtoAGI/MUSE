@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-48adef7e5d414c26ea04911d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2647
+chapter: 第35章 虫子
+figure_type: analogy
+quote: 那些三维结构的信息在展开时已经消失了，像打碎了的杯子不可能还原，原子在自然状态下的低维度展开是不可逆的过程
+sensory_mapping: 杯体破裂；碎片散落；原形消失；不可逆时间；重组失败
+context_fact: 丁仪纠正汪淼从低维展开研究物质内部、绕过加速器封锁的设想。
+image_mechanism: 降维不再像摊开可复折的纸，而成为一次破碎；高维连接关系在裂响中消失，研究者面对的平面只像无标记碎片，无法知道原杯如何拼合。
+property_alignment: 原子高维结构对应完整杯形；自然展开对应打碎；结构信息消失对应连接边破坏；低维结果对应散碎片；逆推困难对应无法复原；三体保留信息技术对应特殊记录每片位置
+context_alignment: 杯子是丁仪手边过滤嘴讨论的延续，以日常物件说明为何面积展开不等于获得原结构知识。
+narrative_function: 封堵看似可行的科学捷径，并明确可逆展开才是三体技术优势。
+transfer_rule: 用破杯写信息不可逆时，应对应完整结构、破坏操作、关系信息丢失、碎后多解和缺少复原记录。
+failure_boundary: 若展开过程完整保存拓扑标记、可精确追踪每个单元，或只是无损折叠，破杯的不可逆结论不适用。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 原子自然低维展开会丢失原有高维结构信息，因此无法从展开平面逆推并恢复原子
+vehicle: 杯子破碎后原有连续形状和连接关系丢失，碎片不能自行还原成完整器皿
+ground: 降维丢失结构关系对应打碎破坏杯形；展开结果对应碎片；信息缺失使逆过程无唯一解对应无法还原

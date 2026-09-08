@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-828b26323f5f297dd8160bb3
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L1382-L1383
+chapter: 【威慑后第一年，澳大利亚】
+figure_type: metaphor
+quote: '而你们，
+
+  却撒下一片砾石'
+sensory_mapping: 露珠和花瓣构成可入口的土地，殖民者手臂一扬，灰白砾石落下，逐层盖住颜色与水分。
+context_fact: 弗雷斯吟诵土著诗人杰克·戴维斯的诗，前文已回顾澳洲土著遭屠杀和文化消失。
+image_mechanism: 饮食与撒石把两种文明关系压进土地材质变化，生活被毁不是抽象衰落，而是可咀嚼之物变成硌牙石块。
+property_alignment: 土著自然生活对应露与花；殖民暴力对应撒石；文化覆盖对应砾石铺地；部落消失对应花露被埋。
+context_alignment: 程心正身处同一片澳洲土地并经历新的保留地，诗中砾石同时指旧殖民和当前文明倒退。
+narrative_function: 用极简材质对照保存被消灭者声音，并让历史类比获得情感落点。
+transfer_rule: 写文化覆盖时，可用土地表层被替换，但应让前后材质分别承担生活方式、感官价值和破坏动作。
+failure_boundary: 饮露餐花是诗化生存而非字面饮食，也可能浪漫化艰苦生活；砾石不概括殖民全部制度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 土著原有土地生活被殖民者暴力、开发和文化毁灭替代的历史
+vehicle: 人原在柔软花露中取食，后来者把贫瘠尖硬的碎石铺满土地，使花与水无处生长
+ground: 前态轻柔丰饶且与自然共生；外来行动覆盖原环境；结果坚硬贫瘠并割断旧生活

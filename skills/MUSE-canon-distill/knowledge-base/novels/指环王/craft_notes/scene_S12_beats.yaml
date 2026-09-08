@@ -1,0 +1,28 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 独战巨蛛
+  dimension: omission
+  original_move: 叙述者声明关闭心理通道，镜头全程贴身体部位
+  ai_default_failure: 加「他想起少爷的脸，勇气涌上心头」的内心仪式
+  transfer_rule: 孤注一掷不写鼓起勇气，动词速度差呈现体型差
+  quote: 没去细想该怎么办，也没去想自己勇不勇敢
+- pattern_id: S12-p2
+  beat: 哀悼
+  dimension: verb
+  original_move: 悲痛转存进殡仪动作清单，重复的「摆」轻慢郑重
+  ai_default_failure: 写两段夏尔回忆闪回与眼泪特写
+  transfer_rule: 至痛时刻砍抒情，用动作的秩序感承载情感
+  quote: 将他冰冷的手交叠摆在胸前
+- pattern_id: S12-p3
+  beat: 抉择
+  dimension: info_density
+  original_move: 抉择写成自问自答双声辩论，结论自长，叙述者只拆台
+  ai_default_failure: 叙述者总结陈词，替角色把题答了
+  transfer_rule: 普通人重大抉择对话化，决心与怀疑同时为真
+  quote: 你没有自告奋勇，你是被迫奋勇
+overall_traits:
+- 三段节奏断层，靠动词硬度换挡
+- 内心戏对话化，结论从争论中长出
+- 悲痛动作化，秩序感本身就是情感

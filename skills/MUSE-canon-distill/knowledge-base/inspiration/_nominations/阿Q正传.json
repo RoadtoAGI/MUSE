@@ -1,0 +1,156 @@
+{
+  "novel": "阿Q正传",
+  "nominations": [
+    {
+      "pattern_name": "自欺循环梯",
+      "dramatic_function": "让主角每次把失败解释成胜利，却把真实处境推向更坏",
+      "applicability": "适合讽刺型反成长；若主角能稳定自省则失效",
+      "reuse_candidates": [
+        "精神胜利法口号",
+        "未庄闲人打头",
+        "儿子打老子说法"
+      ],
+      "tags": [
+        "自欺",
+        "反成长",
+        "讽刺结构",
+        "失败升级"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S02",
+          "note": "被打后反解释为得胜，形成可重复心理机制"
+        },
+        {
+          "scene_id": "S11",
+          "note": "签下死刑后仍把圈不圆转化为面子问题"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "暴力下泄链",
+      "dramatic_function": "不用说教呈现压迫如何被弱者转嫁给更弱者",
+      "applicability": "适合阶层或组织讽刺；若角色只承受不转嫁则不适用",
+      "reuse_candidates": [
+        "王胡捉虱子",
+        "小尼姑剃头",
+        "酒店哈哈哈"
+      ],
+      "tags": [
+        "权力链",
+        "欺软怕硬",
+        "看客",
+        "结构论证"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "连续向上失败后，主角转向更弱者获得伪胜利"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "假上升中点",
+      "dramatic_function": "在中段给主角短暂地位跃升，再揭示上升只是假象",
+      "applicability": "适合身份或财富幻觉故事；若上升真实改变制度则失效",
+      "reuse_candidates": [
+        "赃物买卖",
+        "新夹袄和搭连",
+        "杀头见闻炫耀"
+      ],
+      "tags": [
+        "中点反转",
+        "虚假上升",
+        "地位幻觉",
+        "崩塌前兆"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "钱和见闻带来短暂尊敬，主角似乎翻身"
+        },
+        {
+          "scene_id": "S07",
+          "note": "权贵暂时客气，只因利益需要而非真正承认"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "大词私欲化",
+      "dramatic_function": "让宏大观念进入小人物欲望清单，生成反讽和人物暴露",
+      "applicability": "适合政治、宗教、理想被误读的叙事；若角色真懂理念则慎用",
+      "reuse_candidates": [
+        "白盔白甲革命党",
+        "搬宁式床",
+        "土谷祠独白"
+      ],
+      "tags": [
+        "误读",
+        "宏大叙事",
+        "私欲清单",
+        "无评论讽刺"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S08",
+          "note": "革命被想象成分财物、选女人和报私仇"
+        },
+        {
+          "scene_id": "S09",
+          "note": "真正的权力入口拒绝主角参与，幻想无法兑现"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pattern_name": "无声真呼救",
+      "dramatic_function": "高潮处让角色终于接触真实需求，却让表达停在出口前",
+      "applicability": "适合反高潮悲剧；若需要英雄式宣言则不适用",
+      "reuse_candidates": [
+        "游街示众",
+        "狼眼回忆",
+        "微尘迸散"
+      ],
+      "tags": [
+        "反高潮",
+        "未完成动作",
+        "觉醒失败",
+        "死亡场景"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S12",
+          "note": "救命出现但没有说出口，觉醒与失败同时发生"
+        },
+        {
+          "scene_id": "S13",
+          "note": "死亡没有产生意义，社会只按看客逻辑收尾"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

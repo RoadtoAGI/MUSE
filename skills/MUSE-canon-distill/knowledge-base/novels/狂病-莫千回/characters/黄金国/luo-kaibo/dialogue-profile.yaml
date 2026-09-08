@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:黄金国--luo-kaibo
+work_id: novel:狂病-莫千回
+display_name: 罗凯伯
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '罗凯伯的话永远裹着一层温和、说教式的从容，越是残忍的内容说得越平和。他爱用"孩子""朋友"称呼、爱讲商业逻辑和人性下限的"道理"来给冷酷找台阶——"大部分人只是数字""人这种东西总会有的，几个人、几十个人的区别没有任何意义""这世界哪有那么多非黑即白"。被戳穿时他不暴怒而是冷笑、被气笑，用轻蔑的反问把锅推回对方——"看来你末日前连社会都没真正踏入过""难道这种事也要挂在我头上"。只有在窒息体验、关门求生这类濒死时刻，他的从容才会碎成不受控制的颤抖与粗喘——那是他唯一卸下面具的瞬间。
+
+
+    佐证：scenes/scene_HJ-S06.md:L63-L65 / scenes/scene_HJ-S11.md:L85-L85 / scenes/scene_HJ-S13.md:L15-L15'
+  evidence_locators:
+  - scenes/scene_HJ-S06.md:L63-L65
+  - scenes/scene_HJ-S11.md:L85-L85
+  - scenes/scene_HJ-S13.md:L15-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

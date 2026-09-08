@@ -1,0 +1,27 @@
+scene_id: '04'
+source_notes: scene_04_beats.md
+patterns:
+- pattern_id: 04-p1
+  beat: 撞墙替代争辩
+  dimension: omission
+  original_move: 省略全部解释台词，让包惜弱用身体撞墙作证
+  ai_default_failure: 安排母亲含泪讲述十八年隐忍或掏信物作证
+  transfer_rule: 真相重大且当事人无言可辩时，用身体行动作证
+  quote: 举头猛往墙上撞去，蓬的一声
+- pattern_id: 04-p2
+  beat: 枪法替代辩论
+  dimension: info_density
+  original_move: 用杨家嫡传半招枪法证明血脉，武功即血统
+  ai_default_failure: 安排父子对话回忆往事、以物件相认
+  transfer_rule: 身份揭露改用领域专属技能作不可伪造的证明
+  quote: 这招枪法我杨家传子不传女
+- pattern_id: 04-p3
+  beat: 踌躇对照冲出
+  dimension: verb
+  original_move: 「踌躇」对「冲出」，两代性格差在动作对比中完成
+  ai_default_failure: 给杨康一段富贵与生父之间的内心独白
+  transfer_rule: 关键抉择处用一静一动的动作对比代替心理铺陈
+  quote: 完顔康踌躇难决
+overall_traits:
+- 身体替代语言：真相揭露全靠身体行动完成
+- 「踌躇难决」四字是比独白更准的性格标签

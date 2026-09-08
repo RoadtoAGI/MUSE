@@ -1,0 +1,506 @@
+[
+  {
+    "scene_id": "scene_01",
+    "title": "余周周小朋友的个人秀",
+    "arc_id": "ARC-1",
+    "source_chapter": "美好之一·1（余周周小朋友的个人秀第一幕）",
+    "line_range": [
+      27,
+      170
+    ],
+    "file": "scenes/scene_01.md",
+    "line_count": 141,
+    "char_count": 2425,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_01_beats.md",
+    "description": "余周周小朋友的个人秀",
+    "style_profile": {
+      "narration_voice": "限知贴身，成人旁白轻点破",
+      "diction": "童稚口语混电视剧套语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "独角戏对白密集，叙述拆动作",
+      "pacing": "短动作连缀，末尾忽然收苦"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_02",
+    "title": "与奔奔的彩虹告别",
+    "arc_id": "ARC-1",
+    "source_chapter": "美好之一·6（芳草碧连天）",
+    "line_range": [
+      761,
+      888
+    ],
+    "file": "scenes/scene_02.md",
+    "line_count": 121,
+    "char_count": 2551,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_02_beats.md",
+    "description": "与奔奔的彩虹告别",
+    "style_profile": {
+      "narration_voice": "贴近儿童误会，成人旁白补义",
+      "diction": "日常口语夹童话英雄词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白解误会，叙述蓄离别",
+      "pacing": "雨后放慢，告别处拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_03",
+    "title": "黑色星期二与林杨的脸颊亲吻",
+    "arc_id": "ARC-1",
+    "source_chapter": "美好之二·8（黑色星期二）",
+    "line_range": [
+      1993,
+      2178
+    ],
+    "file": "scenes/scene_03.md",
+    "line_count": 183,
+    "char_count": 5374,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_03_beats.md",
+    "description": "黑色星期二与林杨的脸颊亲吻",
+    "style_profile": {
+      "narration_voice": "限知受挫，旁白直评规则",
+      "diction": "校园白描夹英雄化命名",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少对白，多内心反复推进",
+      "pacing": "打击递进，羞耻感停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_04",
+    "title": "故事大王——小老鼠奔奔",
+    "arc_id": "ARC-1",
+    "source_chapter": "美好之二·13（可是我还没有讲完）",
+    "line_range": [
+      2733,
+      2886
+    ],
+    "file": "scenes/scene_04.md",
+    "line_count": 151,
+    "char_count": 3899,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_04_beats.md",
+    "description": "故事大王——小老鼠奔奔",
+    "style_profile": {
+      "narration_voice": "童年群像中贴近奔奔",
+      "diction": "朴素叙事夹童话比附",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "孩子问答推动亲近",
+      "pacing": "小事件铺陈，情绪后置"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_05",
+    "title": "照妖镜摄走了她的魔法",
+    "arc_id": "ARC-1",
+    "source_chapter": "美好之二·17-18（照妖镜 / 你的格林，我的童话）",
+    "line_range": [
+      3369,
+      3706
+    ],
+    "file": "scenes/scene_05.md",
+    "line_count": 331,
+    "char_count": 6889,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_05_beats.md",
+    "description": "照妖镜摄走了她的魔法",
+    "style_profile": {
+      "narration_voice": "贴身羞耻，旁白揭魔法失效",
+      "diction": "校园口语混幻想词汇",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白少，目光和沉默主导",
+      "pacing": "外部场面快，内心慢放"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_06",
+    "title": "学会做反派",
+    "arc_id": "ARC-2",
+    "source_chapter": "美好之三·9（反派）",
+    "line_range": [
+      5133,
+      5274
+    ],
+    "file": "scenes/scene_06.md",
+    "line_count": 139,
+    "char_count": 3010,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_06_beats.md",
+    "description": "学会做反派——余周周在被孤立后决定不再讨好所有人，第一次主动选择对抗",
+    "style_profile": {
+      "narration_voice": "限知跟随自我辩护",
+      "diction": "儿童逻辑配江湖反派词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "冲突对白短促，旁白解释",
+      "pacing": "误会累积，反转处急落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_07",
+    "title": "好人与道别——谷老师之死",
+    "arc_id": "ARC-2",
+    "source_chapter": "美好之四·5-6（好人 / 道别就是死去一点点）",
+    "line_range": [
+      6019,
+      6306
+    ],
+    "file": "scenes/scene_07.md",
+    "line_count": 285,
+    "char_count": 6495,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_07_beats.md",
+    "description": "好人与道别——谷老师之死",
+    "style_profile": {
+      "narration_voice": "克制贴身，成人旁白收束死亡",
+      "diction": "日常词压住悲伤词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白稀疏，动作承载告别",
+      "pacing": "慢段落留白，结尾轻收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_08",
+    "title": "雪地里的一声嗯",
+    "arc_id": "ARC-2",
+    "source_chapter": "美好之四·10（时间轴上的暂停键）",
+    "line_range": [
+      6751,
+      6952
+    ],
+    "file": "scenes/scene_08.md",
+    "line_count": 199,
+    "char_count": 4102,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_08_beats.md",
+    "description": "雪地里的一声嗯",
+    "style_profile": {
+      "narration_voice": "近距观察，把暧昧说成天气",
+      "diction": "寒冷景物配少年口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少字对白制造默契",
+      "pacing": "雪景放慢，一声回应定格"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_09",
+    "title": "你到底相信谁——主角的游戏",
+    "arc_id": "ARC-2",
+    "source_chapter": "美好之四·13-15（Fly Away / 你到底相信谁 / 主角的游戏）",
+    "line_range": [
+      7185,
+      7574
+    ],
+    "file": "scenes/scene_09.md",
+    "line_count": 387,
+    "char_count": 8124,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_09_beats.md",
+    "description": "你到底相信谁——主角的游戏",
+    "style_profile": {
+      "narration_voice": "贴身疑心，旁白拆友情规则",
+      "diction": "校园口语夹游戏隐喻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "质问对白推进关系裂缝",
+      "pacing": "对峙紧，解释处放缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_10",
+    "title": "万事胜意——选择十三中",
+    "arc_id": "ARC-2",
+    "source_chapter": "美好之四·16-18（你和别人不一样 / 万事胜意 / 从告别开始）",
+    "line_range": [
+      7575,
+      8194
+    ],
+    "file": "scenes/scene_10.md",
+    "line_count": 613,
+    "char_count": 13697,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_10_beats.md",
+    "description": "万事胜意——选择十三中",
+    "style_profile": {
+      "narration_voice": "回望式限知，直点选择重量",
+      "diction": "升学语汇混祝愿口语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "家人对白托出决定",
+      "pacing": "信息密，关键选择留停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_11",
+    "title": "与奔奔重逢",
+    "arc_id": "ARC-3",
+    "source_chapter": "美好之五·4（重逢）",
+    "line_range": [
+      8601,
+      8822
+    ],
+    "file": "scenes/scene_11.md",
+    "line_count": 215,
+    "char_count": 4474,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_11_beats.md",
+    "description": "与奔奔重逢——多年后在新学校意外重遇童年好友，陌生感与熟悉感交织",
+    "style_profile": {
+      "narration_voice": "重逢贴身，旁白压住怀旧",
+      "diction": "现实白描夹童年残影",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "旧友对白克制留余味",
+      "pacing": "相认慢放，余波略写"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_12",
+    "title": "师大附中推墙重逢林杨",
+    "arc_id": "ARC-3",
+    "source_chapter": "美好之六·6-7（都是推墙惹的祸 / 冤家路窄）",
+    "line_range": [
+      10831,
+      11342
+    ],
+    "file": "scenes/scene_12.md",
+    "line_count": 509,
+    "char_count": 11470,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_12_beats.md",
+    "description": "师大附中推墙重逢林杨",
+    "style_profile": {
+      "narration_voice": "校园现场感强，贴近惊讶",
+      "diction": "青春口语配夸张动作词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "插科对白带动重逢",
+      "pacing": "场面快切，笑点后接心动"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_13",
+    "title": "也许我太幸福了——中考与重逢",
+    "arc_id": "ARC-3",
+    "source_chapter": "美好之六·15（也许，我太幸福了）",
+    "line_range": [
+      12441,
+      12632
+    ],
+    "file": "scenes/scene_13.md",
+    "line_count": 185,
+    "char_count": 3485,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_13_beats.md",
+    "description": "也许我太幸福了——中考与重逢",
+    "style_profile": {
+      "narration_voice": "幸福中贴身自省",
+      "diction": "考试现实词混明亮抒情",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白轻，内心确认关系",
+      "pacing": "成绩线快，重逢处放光"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_14",
+    "title": "默契——揭示妈妈去世",
+    "arc_id": "ARC-4",
+    "source_chapter": "美好之七·6（默契）",
+    "line_range": [
+      13547,
+      13914
+    ],
+    "file": "scenes/scene_14.md",
+    "line_count": 365,
+    "char_count": 8116,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_14_beats.md",
+    "description": "默契——揭示妈妈去世",
+    "style_profile": {
+      "narration_voice": "克制揭伤，旁白少解释",
+      "diction": "平实口语承接丧亲事实",
+      "rhetoric_density": "low",
+      "dialogue_mode": "默契对白短，空白更重",
+      "pacing": "压低节奏，真相后留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_15",
+    "title": "普吉岛——与陈桉告别",
+    "arc_id": "ARC-4",
+    "source_chapter": "美好之八·10（下凡）",
+    "line_range": [
+      16555,
+      16798
+    ],
+    "file": "scenes/scene_15.md",
+    "line_count": 241,
+    "char_count": 5289,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_15_beats.md",
+    "description": "普吉岛——与陈桉告别",
+    "style_profile": {
+      "narration_voice": "异地回望，贴身完成告别",
+      "diction": "旅行景物配青春口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白含蓄，叙述补未说之意",
+      "pacing": "景物舒展，告别句收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_16",
+    "title": "喜乐与美香食杂店——释怀与穿透",
+    "arc_id": "ARC-4",
+    "source_chapter": "美好之八·13（终将逝去的旧时光）—— 生父/辛锐段",
+    "line_range": [
+      17343,
+      17563
+    ],
+    "file": "scenes/scene_16.md",
+    "line_count": 221,
+    "char_count": 3530,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_16_beats.md",
+    "description": "喜乐与美香食杂店——释怀与穿透",
+    "style_profile": {
+      "narration_voice": "冷静贴身，直切人物真相",
+      "diction": "拆迁白描配心理判词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对话审问式剥开动机",
+      "pacing": "句句推进，崩溃后放空"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_17",
+    "title": "To be continued——送林杨连环画",
+    "arc_id": "ARC-4",
+    "source_chapter": "美好之八·13（终将逝去的旧时光）—— 连环画段",
+    "line_range": [
+      17457,
+      17487
+    ],
+    "file": "scenes/scene_17.md",
+    "line_count": 31,
+    "char_count": 549,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_17_beats.md",
+    "description": "To be continued——送林杨连环画",
+    "style_profile": {
+      "narration_voice": "贴近林杨，旁白藏甜意",
+      "diction": "简洁口语混英文小标题",
+      "rhetoric_density": "low",
+      "dialogue_mode": "少量打趣对白确认关系",
+      "pacing": "动作细读，尾句放长未来"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_18",
+    "title": "Fly free——毕业典礼与尾声",
+    "arc_id": "ARC-4",
+    "source_chapter": "美好之八·13 + 尾声",
+    "line_range": [
+      17489,
+      17737
+    ],
+    "file": "scenes/scene_18.md",
+    "line_count": 249,
+    "char_count": 3847,
+    "novel": "你好，旧时光",
+    "author": "八月长安",
+    "genre": "青春成长",
+    "lang": "zh",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_18_beats.md",
+    "description": "Fly free——毕业典礼与尾声",
+    "style_profile": {
+      "narration_voice": "回望全知，贴身收束成长",
+      "diction": "青春口语与抒情宣言并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "多组短对白串起尾声",
+      "pacing": "典礼快收，尾声循环回环"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

@@ -1,0 +1,194 @@
+# Phase 4: 序列展开 —— 《神雕侠侣》逆向分析
+# 接收 Phase 3 的 8 Arc 框架，逐 Arc 展开为序列
+
+arc_expansions:
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "前史清算与各方汇聚"
+        core_conflict: "李莫愁的复仇搅动江湖——杨过的身世在混乱中被揭露"
+        escalation_direction: "从旁观者（程英/陆无双）的恐惧 → 杨过身世揭露 → 被送桃花岛受排挤 → 被送终南山"
+        sequence_climax: "杨过以蛤蟆功误伤武修文，郭靖决定将他送往全真教——与桃花岛彻底断裂"
+        closed: "杨过在郭靖身边的可能性"
+        opened: "杨过在全真教会遭遇什么？"
+      - seq_id: ARC1-SEQ2
+        name: "古墓修炼与情感绑定"
+        core_conflict: "杨过在全真教受虐 → 逃入禁地 → 在封闭空间中与师父的关系从师徒走向生死相依"
+        escalation_direction: "从赵志敬虐待 → 孙婆婆牺牲 → 小龙女收留 → 捉麻雀练功 → 断龙石甘愿同死"
+        sequence_climax: "杨过放下断龙石又钻回墓中，甘愿同死；小龙女因此破除'终身不下山'誓言"
+        closed: "师徒情感纽带确立，不可逆"
+        opened: "当他们走出古墓面对江湖，这份禁忌之情将如何被接受？"
+    arc_progression_note: "从被动漂泊（被送来送去）→ 封闭空间沉淀（古墓修炼）→ 主动选择（甘愿同死）。杨过第一次做出真正的选择"
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "江湖历险与武学积累"
+        core_conflict: "杨过以'傻蛋'身份闯荡江湖，在各方势力中求生"
+        escalation_direction: "从假扮傻蛋救陆无双 → 结识程英/完颜萍 → 华山遇洪七公获打狗棒法招式"
+        sequence_climax: "洪七公与欧阳锋华山绝顶同归于尽——旧五绝时代终结"
+        closed: "旧一代高手的时代"
+        opened: "杨过带着多派武功遗产，将如何在新格局中定位？"
+      - seq_id: ARC2-SEQ2
+        name: "英雄大宴扬名"
+        core_conflict: "中原武林 vs. 金轮法王争盟主——杨过能否在大场面中证明自己？"
+        escalation_direction: "从偷听打狗棒法口诀 → 装扮潦倒赴宴 → 三场比武 → 小龙女重逢 → 联手逼退法王"
+        sequence_climax: "杨过与小龙女首合玉女素心剑法逼退金轮法王，扬名天下"
+        closed: "杨过的江湖地位确立"
+        opened: "师徒关系的亲密在众人面前暴露——礼教危机即将爆发"
+    arc_progression_note: "从游侠式的个人冒险 → 武林大会的公开舞台。冲击力从'个人求生'升级到'当众扬名'"
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "礼教大防——中点反转"
+        core_conflict: "杨过与小龙女的师徒恋 vs. 整个江湖的礼教秩序"
+        escalation_direction: "从郭靖提亲被拒 → 小龙女当众宣言 → 赵志敬揭破'苟且' → 郭靖举掌欲杀 → 黄蓉离间小龙女出走"
+        sequence_climax: "小龙女留书'善自珍重，勿以为念'出走——全书最核心的分离事件"
+        closed: "杨过'被接纳'的可能性——从此成为秩序外的人"
+        opened: "杨过的愤怒将导向何处？小龙女去了哪里？"
+      - seq_id: ARC3-SEQ2
+        name: "身世揭秘与仇恨种子"
+        core_conflict: "杨过追查父亲死因——碎片信息导向错误归因"
+        escalation_direction: "从程英救伤 → 黄药师收为忘年交 → 傻姑断续揭秘 → 认定黄蓉为杀父仇人"
+        sequence_climax: "杨过悲愤立誓'不报此仇，杨过誓不为人'——刺杀郭靖的念头萌生"
+        closed: "'杨过不知父仇'的状态"
+        opened: "他会真的刺杀郭靖吗？"
+    arc_progression_note: "从社会层面的放逐（礼教） → 个人层面的仇恨（父仇）。两个序列的冲击力叠加"
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "绝情谷困局"
+        core_conflict: "杨过寻找小龙女 → 在绝情谷遭遇公孙止的阴谋和情花毒的生死威胁"
+        escalation_direction: "从小龙女化名拒认 → 声声呼唤'姑姑你看我一眼' → 联剑对战公孙止 → 裘千尺限十八日取首级换药"
+        sequence_climax: "裘千尺将绝情丹切半，要求十八日内取郭靖黄蓉首级换另半枚——将私仇与解药绑定"
+        closed: "'只要找到小龙女就好'的幻想——找到了，但有了更致命的问题"
+        opened: "杨过会为了解药杀郭靖吗？"
+      - seq_id: ARC4-SEQ2
+        name: "襄阳道德抉择"
+        core_conflict: "杨过的私仇执念 vs. 郭靖'为国为民，侠之大者'的感召"
+        escalation_direction: "从接受蒙古刺杀之邀 → 三度欲刺郭靖不忍 → 目睹郭靖舍命为民 → 城头飞身相救"
+        sequence_climax: "杨过飞身救郭靖'是我害了你，今日我和你死在一起'——从刺客转为救人者"
+        closed: "杨过的'弑父之仇'执念"
+        opened: "道德觉醒了，但小龙女呢？断臂呢？"
+      - seq_id: ARC4-SEQ3
+        name: "真相与断臂"
+        core_conflict: "小龙女发现被玷污真相 → 连锁反应导致不可逆的身体毁灭"
+        escalation_direction: "从小龙女偷听尹志平真相 → 精神崩溃 → 误会杨过与郭芙定亲 → 将淑女剑交郭芙离去 → 郭芙拔剑断臂"
+        sequence_climax: "郭芙挥淑女剑斩断杨过右臂——'无声无息'，全书最大的不可逆转折"
+        closed: "旧杨过（身体完整、可能复仇的少年）"
+        opened: "独臂的杨过将走向何方？"
+    arc_progression_note: "三个序列构成'困局→抉择→代价'的因果链。绝情谷设置了两难困境，襄阳完成了道德选择，代价（断臂）紧随其后"
+
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "小龙女独闯重阳宫 + 神雕重剑修炼 + 以德报怨"
+        core_conflict: "双线并行——小龙女独力面对多方围攻（重阳宫）；杨过在身体残缺中完成武学突破（神雕谷）"
+        escalation_direction: "从小龙女独闯重阳宫横扫群敌 → 分心失利被围重伤 → 杨过断臂后遇神雕 → 发现剑冢 → 领悟'重剑无锋' → 山洪练剑 → 返回襄阳 → 目睹郭靖欲斩女臂 → 以德报怨"
+        sequence_climax: "杨过目睹郭靖要砍郭芙手臂以偿，不忍下手——以德报怨放弃复仇"
+        closed: "杨过与郭芙的断臂之仇（虽未正面和解，但杨过选择了宽恕）"
+        opened: "武功大成、道德升华后，他能否与小龙女重聚？"
+      - seq_id: ARC5-SEQ2
+        name: "重阳宫拜堂成亲"
+        core_conflict: "禁忌之恋能否获得公开的仪式性认可？"
+        escalation_direction: "从黄蓉棘藤阵智斗李莫愁 → 重阳宫冲突 → 小龙女当众坦言被玷污 → 杨过'情义更增十倍' → 王重阳像前拜堂"
+        sequence_climax: "杨过在王重阳像前强行拜堂——'你不是我师父，是我妻子'——爱情战胜礼教"
+        closed: "师徒恋的禁忌身份（拜堂即事实婚姻）"
+        opened: "小龙女体内的毒伤能否治愈？"
+    arc_progression_note: "从身体蜕变（重剑） → 道德蜕变（以德报怨） → 情感圆满（拜堂）。三重蜕变在短短四回内完成"
+
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: "希望-毁灭阶梯"
+        core_conflict: "每次即将痊愈都被更残酷的意外打碎"
+        escalation_direction: "从寒玉床疗伤 → 李莫愁偷袭 → 借敌力通穴 → 郭芙误射毒针倒灌 → 一灯续命七日"
+        sequence_climax: "郭芙误射冰魄银针中棺中杨过与小龙女——彻底将即将痊愈的小龙女推入绝境"
+        closed: "'在古墓中安静疗伤'的希望"
+        opened: "毒入内脏，只剩七日——去哪里求药？"
+      - seq_id: ARC6-SEQ2
+        name: "绝情谷终战与小龙女跳崖"
+        core_conflict: "所有解药之路逐一封死——绿萼殉情、天竺僧被杀、李莫愁情花自焚"
+        escalation_direction: "从绝情谷求药 → 绿萼以命换药 → 公孙止夺药 → 天竺僧即将配药时被杀 → 李莫愁情花自焚 → 小龙女跳崖"
+        sequence_climax: "小龙女纵身跃下断肠崖，以'十六年后在此相会'的谎言保全杨过——全书最大悬念"
+        closed: "杨过与小龙女的相守（十六年分离开始）"
+        opened: "小龙女是否真的死了？十六年后会怎样？"
+    arc_progression_note: "'给予希望再剥夺'手法的阶梯式执行。每一级台阶都比上一级更残酷，直到最后一级——小龙女亲手选择跳崖"
+
+  - arc_id: ARC-7
+    sequences:
+      - seq_id: ARC7-SEQ1
+        name: "郭襄视角——十六年后的神雕侠"
+        core_conflict: "新视角人物（郭襄）通过他人讲述间接认识已成大侠的杨过"
+        escalation_direction: "从风陵渡口夜话 → 众人讲述神雕侠事迹 → 郭襄跟随大头鬼 → 三枚金针之约 → 杨过揭面具"
+        sequence_climax: "郭襄用第一枚金针请杨过摘面具——首次以'他者之眼'见到成熟的杨过"
+        closed: "杨过十六年间的空白（通过传说叙事间接填补）"
+        opened: "三枚金针的承诺将引向什么？"
+      - seq_id: ARC7-SEQ2
+        name: "三件大礼与旧怨化解"
+        core_conflict: "杨过如何在庆典场合展示'至情之人亦可至义'？"
+        escalation_direction: "从一灯/瑛姑/周伯通三角化解 → 黯然销魂掌首次展示 → 歼灭蒙古千人队 → 火烧粮草 → 擒达尔巴揭穿霍都"
+        sequence_climax: "三件大礼震动全场——杨过完成了从'情侠'到'大侠'的最终蜕变"
+        closed: "霍都阴谋线（被达尔巴击杀）；丐帮帮主悬案（打狗棒归还）"
+        opened: "'南海神尼'谎言即将被戳破——十六年之约即将到期"
+      - seq_id: ARC7-SEQ3
+        name: "断肠崖跳崖与谷底重逢"
+        core_conflict: "杨过发现'南海神尼'是黄蓉编造的谎言 → 十六年之约到期小龙女未现 → 生死抉择"
+        escalation_direction: "从真相揭露 → 心如死灰 → 赴断肠崖 → 一夜白发 → 吟悼亡词 → 纵身跳崖 → 谷底寒潭 → 花谷重逢"
+        sequence_climax: "杨过'双足一登，跃入深谷'——在谷底花谷中与小龙女十六年后重逢"
+        closed: "十六年的分离与等待"
+        opened: "重逢后的杨过将如何面对家国危机？"
+    arc_progression_note: "从'他者之眼'（郭襄视角）→ '侠之展示'（三件大礼）→ '至情之极'（跳崖重逢）。三个序列的情感浓度递增"
+
+  - arc_id: ARC-8
+    sequences:
+      - seq_id: ARC8-SEQ1
+        name: "襄阳大战——情义合一"
+        core_conflict: "襄阳被围城破在即 + 杨过vs金轮法王终极对决"
+        escalation_direction: "从驰援襄阳 → 登高台救郭襄 → 黯然销魂掌因'永诀'之痛恢复威力 → 踢翻法王 → 冲入蒙古军阵 → 飞石击杀蒙哥"
+        sequence_climax: "杨过以一块石头击中蒙哥后心——蒙古大汗毙命，蒙古军溃败"
+        closed: "蒙古南侵的家国危机（至少十三年）；金轮法王退场"
+        opened: "战后的江湖格局将如何重塑？"
+      - seq_id: ARC8-SEQ2
+        name: "华山新五绝——新平衡"
+        core_conflict: "无外在冲突——内在张力在于杨过的自省与感恩"
+        escalation_direction: "从祝捷宴 → 郭芙内心独白 → 杨过说出感恩之言 → '汗流浃背，暗自心惊' → 大醉而散"
+        sequence_climax: "杨过对郭靖说出二十余年未说的感恩之言——三代恩怨彻底化解"
+        closed: "杨过与郭靖的精神传承完成；新五绝确立"
+        opened: "（全书收束）"
+    arc_progression_note: "从最强外在冲突（襄阳大战）→ 最深内在宁静（自省与和解）。以最安静的方式收束全书"
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: "ARC-1（情感绑定）→ ARC-2（江湖扬名）→ ARC-3（公开放逐，冲击力跃升）→ ARC-4（道德觉醒+断臂，双重不可逆）→ ARC-5（短暂圆满）→ ARC-6（阶梯式毁灭，最深绝望）→ ARC-7（十六年后跳崖重逢，情感最高潮）→ ARC-8（击杀蒙哥，家国最高潮）"
+  causal_chain: "ARC-1（师徒绑定）→ 触发 ARC-3（礼教冲突）→ 触发 ARC-4（仇杀念头+断臂）→ 触发 ARC-5（武功重塑+成婚）→ 触发 ARC-6（解药之路封死→跳崖）→ 十六年跳跃 → ARC-7（谷底重逢）→ ARC-8（襄阳决战→新五绝）"
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "情感线（主线）"
+    description: "杨过与小龙女的师徒禁忌之恋"
+    primary_arcs: [ARC-1, ARC-3, ARC-5, ARC-6, ARC-7]
+
+  - name: "成长线"
+    description: "杨过从叛逆孤儿到'神雕大侠'的成长"
+    primary_arcs: [ARC-1, ARC-2, ARC-4, ARC-5, ARC-8]
+
+  - name: "家国线"
+    description: "蒙古南侵与襄阳保卫战"
+    primary_arcs: [ARC-4, ARC-8]
+
+  - name: "暗线：李莫愁的镜像"
+    description: "杨过的黑暗镜像——同样因爱生恨但走向了毁灭之路"
+    presence: "贯穿全书（第1、6、27、29、32回为关键节点），ARC-6中自焚于情花丛"
+
+  - name: "暗线：三代恩怨"
+    description: "杨康→杨过→郭襄 / 郭靖→郭芙→郭襄的命运纠缠"
+    presence: "间歇浮现（第2、14、16、24、37回），第37回完全显现，第40回彻底化解"
+
+# ── 序列级因果链 ──
+
+causal_chain: "ARC1-SEQ1（杨过被送全真教）→ ARC1-SEQ2（逃入古墓，师徒绑定）→ ARC2-SEQ1（闯荡江湖，华山双雄归天）→ ARC2-SEQ2（英雄宴扬名，暴露师徒关系）→ ARC3-SEQ1（恋情曝光被逐）→ ARC3-SEQ2（从傻姑处得知父仇）→ ARC4-SEQ1（绝情谷困局，解药与刺杀绑定）→ ARC4-SEQ2（襄阳道德觉醒）→ ARC4-SEQ3（真相连锁→断臂）→ ARC5-SEQ1（重剑蜕变+以德报怨）→ ARC5-SEQ2（拜堂成亲）→ ARC6-SEQ1（希望-毁灭阶梯）→ ARC6-SEQ2（解药封死→小龙女跳崖）→ ARC7-SEQ1（十六年后郭襄视角）→ ARC7-SEQ2（三件大礼+旧怨化解）→ ARC7-SEQ3（跳崖→谷底重逢）→ ARC8-SEQ1（襄阳大战→击杀蒙哥）→ ARC8-SEQ2（华山新五绝→大醉而散）"

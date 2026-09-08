@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3409733724d0555c130c9abf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1234
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 随着眼界的开阔，人们也清楚了外星文明探索的难度
+sensory_mapping: 视觉；视野广度；远近空间；认知
+context_fact: 红岸初建时对外界研究了解有限，后来国际SETI发展和功率尺度让人们认识到成功概率极低。
+image_mechanism: 知识边界被做成视野边缘，信息增加把边缘向外推；世界并未变简单，反而因看得更远而显出更多距离和障碍。
+property_alignment: 知识来源增加对应视野展开；认清星际尺度对应看见更远距离；发现困难更多对应新障碍进入视域
+context_alignment: 前文多次使用战略视野和盲区，这里眼界开阔完成其反面：看清后不是更乐观，而是放弃项目。
+narrative_function: 解释红岸失宠并非单纯政治变化，而是知识增加改变可行性判断。
+transfer_rule: 用眼界写认知扩展时，应说明新增信息扩大了哪一方向，以及新视野具体暴露了什么此前看不见的结构。
+failure_boundary: 态度变化来自经费斗争、没有新增知识，或新信息只加深单一偏见时，眼界开阔会美化因果。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 国际信息和科学认识增加后，决策者对SETI尺度与困难形成更全面判断
+vehicle: 观察范围向四周展开，原先视野外的障碍进入眼中
+ground: 获取更多知识对应视域扩大；看见此前忽略的困难对应远处障碍进入可见范围

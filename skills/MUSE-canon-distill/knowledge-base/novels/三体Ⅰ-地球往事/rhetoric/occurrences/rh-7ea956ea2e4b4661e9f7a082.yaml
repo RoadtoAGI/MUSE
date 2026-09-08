@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7ea956ea2e4b4661e9f7a082
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1402-L1403
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: '开发方式很像前几年红过一阵儿的
+
+  LINUX'
+sensory_mapping: 网络空间；群体协作；代码汇聚；地理分布
+context_fact: 警方追踪发现参与游戏编程者很多且遍布各地，未见单一正常商业开发主体。
+image_mechanism: 看不见的游戏制作网络被套入当时已有的Linux协作图：各地节点分别写代码，成果沿网络汇入同一系统；陌生组织由熟悉先例显形。
+property_alignment: 全球多地程序员对应Linux分布式贡献者；共同完成复杂软件对应协作维护同一代码库；非典型商业团队对应社区式开发；网络协调对应远程提交与整合
+context_alignment: 徐冰冰是信息安全专家，使用近年的软件案例解释调查判断，技术类比符合角色知识且不夸成超自然。
+narrative_function: 提供《三体》全球协作的现实机制，同时保留谁在组织、工具为何超前的谜团。
+transfer_rule: 用已有项目解释协作模式时，应对应参与者分布、成果整合、治理形态和技术媒介，并明确尚未解释的差异。
+failure_boundary: 《三体》是否开放源码及如何治理尚不明；类比只支持分布式开发，不能推断其许可证、社区价值或具体工具与Linux相同。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 《三体》由遍布世界各地的大量程序员共同开发的组织方式
+vehicle: Linux由分散贡献者跨地域协作、共同维护代码的开发模式
+ground: 开发者分布全球对应Linux贡献者地理分散；多人协同形成同一软件对应分布式社区整合代码

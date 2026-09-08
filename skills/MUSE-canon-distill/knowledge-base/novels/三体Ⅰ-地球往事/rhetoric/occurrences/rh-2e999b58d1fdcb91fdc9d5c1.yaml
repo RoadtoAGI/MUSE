@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2e999b58d1fdcb91fdc9d5c1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2349
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 汪淼看到了切割面，像镜面般光滑，毫不走形地映着天空火红的朝霞
+sensory_mapping: 金属亮面；清晰倒影；红色朝霞；无毛刺触感；冷硬平整
+context_fact: 士兵灭火后，汪淼用望远镜观察被纳米丝横切的残骸，并在镜面上看到疑似血斑。
+image_mechanism: 暴力切口没有撕裂伤常见的粗糙，反而被飞刃一次抛光成镜子；朝霞完整映入其中，美丽天空与血色圆斑同占一面。
+property_alignment: 切面平滑对应镜面抛光；没有走形对应镜面平整；金属反光对应镜面亮度；映出朝霞对应镜子成像；深红血斑对应镜上污点；巨大截面对应巨幅镜面
+context_alignment: 飞刃的技术优势正是分子尺度锋利，镜面切口提供可见证据；朝霞与血斑又保留行动的伦理寒意。
+narrative_function: 验证纳米切割的精度，并把技术洁净与人体死亡并置成结尾特写。
+transfer_rule: 用镜面写切口时，应有无毛刺、平整反光、影像不变形和可见倒影等观察证据。
+failure_boundary: 切口焦黑粗糙、波浪变形或只有湿润反光而不能成像时，镜面会夸大加工精度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 飞刃穿过船体后留下的极端平整、没有毛刺变形且能清晰反光的钢铁截面
+vehicle: 抛光镜面平滑连续，能不失真地映出天空和朝霞
+ground: 切面微观平整对应镜面光洁；影像不走形对应表面无起伏；反射朝霞对应镜面成像

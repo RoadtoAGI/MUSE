@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-115c653e194b96d7283074f1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L590
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 她挥舞着战旗，挥动着自己燃烧的青春，敌人将在这火焰中化为灰烬，理想世界明天就会在她那沸腾的热血中诞生
+sensory_mapping: 颜色；温度；燃烧；流体沸腾；毁灭与生成
+context_fact: 十五岁少女在枪火中挥旗，自信会以献身激情实现理想。
+image_mechanism: 青春先被点成旗旁火焰，火焰向外烧掉敌人；视线再进入身体，血液升温沸腾，理想世界被想象成从中分娩。毁灭与新生共享同一热源。
+property_alignment: 青春亢奋对应燃料燃烧放热；攻击敌人对应火焰焚物成灰；血液激荡对应液体沸腾；理想被期待出现对应新生命从热血中诞生
+context_alignment: 红旗、枪火、青春和即刻死亡都在现场，热意象既符合她的自我陶醉，也让下一刻胸膛被洞穿格外残酷。
+narrative_function: 内嵌少女的革命浪漫想象，并以随后的死亡击碎它。
+transfer_rule: 延展热意象时，应让同一热源依次作用于主体、敌手和未来结果，清楚区分燃料、燃烧、灰烬与生成各环节。
+failure_boundary: 人物冷静算计、行动无毁灭目标或理想依靠长期制度建设时，瞬时燃烧与沸腾生产会夸大激情的因果能力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 少女把青春激情、消灭敌人和催生理想世界连成的革命幻觉
+vehicle: 燃料化成旺火焚毁对象，滚沸液体又孕育新物的热力过程
+ground: 青春亢奋对应燃料燃烧放热；攻击敌人对应火焰焚物成灰；血液激荡对应液体沸腾；理想被期待出现对应新生命从热血中诞生

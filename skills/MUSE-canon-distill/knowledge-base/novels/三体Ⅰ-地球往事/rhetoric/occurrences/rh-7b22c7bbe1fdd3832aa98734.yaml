@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7b22c7bbe1fdd3832aa98734
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L733
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 嘴里还像老大妈似的嘟囔着
+sensory_mapping: 听觉；语调；节奏；人际距离
+context_fact: 军代表进入冰冷监室，先以关怀、微笑和自述错误降低叶文洁戒心。
+image_mechanism: 官员身份暂时退到军大衣之后，声音换上家庭长辈的低声絮叨；审讯距离被压缩成床边家常谈话的亲近距离。
+property_alignment: 语速低缓絮叨对应老年妇女家常嘟囔；以“小叶”亲昵称呼对应长辈对晚辈；反复说年轻人糊涂对应日常劝诫口吻
+context_alignment: 她的年龄、柔和面部和近身坐姿支持老大妈形象，也为随后冷酷变脸设置可验证反差。
+narrative_function: 把制度诱骗包装成家庭关怀，让威胁更隐蔽。
+transfer_rule: 借社会角色写伪装语气时，应匹配称呼、音量、重复方式和身体距离，并让后续行动检验这层角色外衣。
+failure_boundary: 真诚长辈关怀、公开命令或说话者年龄姿态完全不符时，老大妈意象分别失去欺骗性或可信外观。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 程丽华对叶文洁刻意表现出的家常、慈爱而絮叨的说话姿态
+vehicle: 熟稔长辈在家中对年轻人低声反复叮咛
+ground: 语速低缓絮叨对应老年妇女家常嘟囔；以“小叶”亲昵称呼对应长辈对晚辈；反复说年轻人糊涂对应日常劝诫口吻

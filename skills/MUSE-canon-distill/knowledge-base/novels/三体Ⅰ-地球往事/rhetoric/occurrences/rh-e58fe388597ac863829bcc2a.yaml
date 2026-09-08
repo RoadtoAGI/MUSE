@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e58fe388597ac863829bcc2a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L524
+chapter: 第5章 叶文洁
+figure_type: simile
+quote: 只剩下如水的柔和
+sensory_mapping: 触觉；温度；流动
+context_fact: 汪淼初见年老的叶文洁，她真诚接待来访。
+image_mechanism: 岁月先磨去性格中的硬度和热度，只留下能改变形状的流体；性格变化沿材质硬—软、热—凉两条轴完成。
+property_alignment: 性情柔和对应水无硬棱；待人包容顺应对应水贴合容器；刚硬火热消退对应水消解锐度热度
+context_alignment: 水意象与后文她说女人应像水互相照应。
+narrative_function: 压缩岁月对人物性格的改造。
+transfer_rule: 用材质写性格变化时，应明确哪些旧属性被消去、哪些新物性留下，并让后文行为验证。
+failure_boundary: 人物只是冷淡、软弱或表面客气而不能适应环境时，“水的柔和”会混淆不同性格。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 叶文洁晚年温和无锋芒的性情
+vehicle: 无坚硬棱角、顺势流动的水
+ground: 性情柔和对应水无硬棱；待人包容顺应对应水贴合容器；刚硬火热消退对应水消解锐度热度

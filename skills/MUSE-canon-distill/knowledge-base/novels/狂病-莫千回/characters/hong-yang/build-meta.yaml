@@ -1,0 +1,39 @@
+mode: reference
+display_name: 洪扬
+role_slug: hong-yang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_TZ-S02.md
+  - scenes/scene_TZ-S10.md
+  - scenes/scene_TZ-S11.md
+  - scenes/scene_SB-S11.md
+  - scenes/scene_HJ-S04.md
+  - scenes/scene_HJ-S06.md
+built_at: "2026-05-29T16:21:36+08:00"
+skill_version: 1
+locator_count: 14
+has_canon_ending: false
+coverage_note: |
+  洪扬 = 罗允固定搭档 + 现实主义对照镜。覆盖其跨篇代表性场景：
+  《套中人》（主角篇 / 前传）—— TZ-S02（套子外形 + 初中起被当怪物 + 守规则人格成形）、
+  TZ-S10（父亲洪宝山天台前断后惨死、套子被撕开"在自己死之前杀掉所有人"、差点引爆手雷自尽）、
+  TZ-S11（焚家送葬 + 沿北区铁路南下复现儿时与父亲走铁路的旧路 + line 695 被罗允骑摩托追上 =
+  二人搭档关系缘起；并含"己所不欲勿施于人"对唐志林见死不救的不苛责）；
+  《死亡奔赴》—— SB-S11（罗允搭档，"正常末日嘛"现实主义对照镜、读遗书温差、速降梗交代相遇后磨合）；
+  《黄金国》—— HJ-S04（地狱冷笑话"祝你痛快地死去"+"两个人一起痛快地死掉"，跟老爹学的）、
+  HJ-S06（拒留黄金大厦袒露自杀背景"铁路尽头本是归宿，是罗允给了活下去的理由" + 输液港 / PICC
+  阶级创伤 + 把脑袋盖进被子的套子残留）。
+
+  《套中人》前传性：本篇是洪扬"成为罗允搭档之前"的起源故事（童年家暴 → 套子人格 → 父死撕套 →
+  孤身南下 → 被罗允追上）；character_map 已据可能性 1（同一人时间线前置）统一 slug 为 hong-yang，
+  非撞名的不同角色。
+
+  声音弧光跨多场：声音框架跨 3 场取证（SB-S11 现实主义短语 / HJ-S04 地狱冷笑话 / HJ-S06 省字闷声），
+  弧光跨起点（TZ-S02 套子成形）/ 转折（TZ-S10 父死撕套、TZ-S11 相遇）/ 终点（HJ-S06 活下去理由外挂）
+  四个 locator，均非单点外推。
+
+  活态角色（与罗允仍在路上），弧光按"已完成的内在转变轨迹"写，不生成 canon-ending.md
+  （has_canon_ending: false）。本系列无 novel-meta.yaml（非 canonical），按 reference 模式跳过 claims.yaml。
+  注：父亲洪宝山（前传中已死）、唐志林等为《套中人》单篇人物，仅作洪扬弧光 / 边界的佐证背景，未独立蒸馏。

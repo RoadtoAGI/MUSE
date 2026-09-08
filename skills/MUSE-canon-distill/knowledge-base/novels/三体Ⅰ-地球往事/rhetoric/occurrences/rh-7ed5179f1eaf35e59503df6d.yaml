@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7ed5179f1eaf35e59503df6d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L900-L901
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 你是说，宇宙在冲你眨巴眼儿？
+sensory_mapping: 视觉；面部动作；节奏；方向；交际意图；尺度
+context_fact: 汪淼讲完宇宙闪烁与倒计时，大史用一句话概括，汪淼称比喻到位。
+image_mechanism: 背景辐射的全局明暗被压到一片眼睑上，每次闪动成为朝向汪淼的眨眼；复杂观测从宇宙学现象变成一个庞大主体近距离做出的私密手势。
+property_alignment: 背景明暗交替对应眼睑开合；闪烁似有信息编码对应眨眼传意；现象围绕汪淼研究出现对应动作朝向他；宇宙整体同步对应整个宇宙被人格化为单一面孔
+context_alignment: 大史的北京口语把前章心脏、孤灯等崇高意象压成“眨巴眼儿”，既准确抓住闪烁又符合其去神秘化声音。
+narrative_function: 一句重述核心异常，并用人物声音缩短汪淼与读者的理解距离。
+transfer_rule: 把宏观信号人格化为手势时，应对应可见动作、节奏编码、接收方向和主体尺度，同时让措辞服从说话者口吻。
+failure_boundary: 随机仪器噪声、无接收对象的自然周期或局部闪烁没有定向交流证据；眨眼只表达汪淼感受，不证明宇宙具人格。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 宇宙背景辐射专门向汪淼显示倒计时式同步闪烁
+vehicle: 一个有眼睛和意图的巨大生命朝特定对象反复眨眼传递信号
+ground: 背景明暗交替对应眼睑开合；闪烁似有信息编码对应眨眼传意；现象围绕汪淼研究出现对应动作朝向他；宇宙整体同步对应整个宇宙被人格化为单一面孔

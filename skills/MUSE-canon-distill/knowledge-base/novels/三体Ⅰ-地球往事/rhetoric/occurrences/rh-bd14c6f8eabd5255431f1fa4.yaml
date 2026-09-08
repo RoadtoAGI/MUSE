@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bd14c6f8eabd5255431f1fa4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2015
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 在她心灵的冰原上，融出了小小的一汪清澈的湖泊
+sensory_mapping: 冰原寒白；局部融水；清澈湖面；温度回升；水体流动
+context_fact: 农民献血救她、共同哺育杨冬，齐家屯半年让她体验到稳定的人情温度。
+image_mechanism: 创伤把心灵铺成无边冻土，齐家屯的血、奶、火炕和灯光只融开中央一小块；湖虽不足以结束冬季，却证明冰层下仍有水。
+property_alignment: 创伤冷漠对应冰原；人情温暖对应热源；半年疗愈对应缓慢融化；小范围信任对应一汪小湖；情感纯净对应清澈；整体怀疑仍在对应冰原仍广
+context_alignment: 前文生活反复出现火炕、油灯和阳光，融冰把这些具体热源汇入人物心理变化，尺度克制。
+narrative_function: 标记人物弧线中短暂而有限的信任恢复，为后来希望再次蒸发增加损失感。
+transfer_rule: 用冰原融湖写心理软化时，应同时保留原有大范围冻结、具体热源、局部变化和新情感的流动性。
+failure_boundary: 人物已全面恢复信任、变化突然无外因，或新情感混乱浑浊时，小而清的融湖会误判程度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 齐家屯的照料和温暖使叶文洁长期冻结的信任与柔情恢复了一小部分
+vehicle: 广阔冰原受热后局部融化，形成面积很小却清澈可流动的湖水
+ground: 心灵长期冷硬对应冰原；乡村温情对应融化热源；信任恢复有限对应小湖；情感重新流动对应液态清水

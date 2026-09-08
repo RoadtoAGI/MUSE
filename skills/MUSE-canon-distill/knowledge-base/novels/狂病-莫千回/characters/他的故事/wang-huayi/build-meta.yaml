@@ -1,0 +1,29 @@
+mode: reference
+display_name: 汪华依
+role_slug: wang-huayi
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/他的故事/phase3_spine.yaml
+  - pipeline/他的故事/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TG-S01.md
+  - scenes/scene_TG-S04.md
+  - scenes/scene_TG-S05.md
+  - scenes/scene_TG-S07.md
+  - scenes/scene_TG-S08.md
+  - scenes/scene_TG-S09.md
+  - scenes/scene_TG-S10.md
+  - scenes/scene_TG-S12.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  软建议覆盖情况（注：脚本对 (path,start,end) 去重，本篇 SKILL.md 内 raw 15 处引用去重后为 12 个唯一 locator；
+  部分场景如 S05:L23-L27 / S07:L13-L13 / S09:L19-L19 在欲望/真相/声音/边界多段交叉复用，属同一证据支撑多维度，非外推）：
+  - 声音框架：跨 S04/S05/S08 三场景取证（游戏术语安慰 + 信念铺陈），非单点。
+  - 弧光：起点（S01）/ 转折（S10 首次认错）/ 终点（S12 自述+临终赠言）三段齐全。
+  - 性格真相（纯粹中二 vs 理性推理的矛盾维度 + 崩溃裂隙）：S09 装甲车推理 + S10 崩溃道歉两处不同压力场景佐证。
+  - 核心欲望：S05 信念独白 + S07 以命换世界两处支撑。
+  单点支撑项：免疫者身份仅 S05:L33 自曝 + canon-ending 引 S11 被咬实证；外貌/性别"男相"细节本 SKILL 以散文带过、未单列 locator（出处 line 35，散见于身份段背景）。

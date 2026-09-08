@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-221cd0e778da414c9617a296
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L653-L664
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 每到这时，她总觉得自己是在为一个巨人整理遗体。她甚至常常有这样的想象：这巨人就是自己的父亲。两年前那个凄惨的夜晚，她在太平间为父亲整理遗容时的感觉就在这时重现。巨松上那绽开的树皮，似乎就是父亲躯体上累累的伤痕。
+sensory_mapping: 视觉；触觉；痛觉想象；颜色；动作；创伤记忆
+context_fact: 两年前叶文洁曾在太平间为被打死的父亲整理遗容，此后在伐木场反复重演该动作。
+image_mechanism: 倒木先获得巨人的身体比例，修枝动作把它转成尸体，父亲身份再覆盖其上；随后树皮、锯面、拖痕和暗红渗水依次占据皮肤、伤口、撕裂与血液的位置，整条伐运过程成为创伤复演。
+property_alignment: 修除枝丫对应整理遗体；绽裂树皮对应父亲身体伤痕；树干被拖得皮开肉绽对应尸身再受损；沟中暗红水对应伤口流血；叶文洁抚摸断面对应触碰逝者创口
+context_alignment: 人物有具体太平间经验，且后文物理细节连续支持身体映射，因此父亲并非任意象征，而是由相同手势触发的创伤记忆。
+narrative_function: 把政治暴力与生态暴力焊成同一伤害模型，解释叶文洁对人类之恶的认识。
+transfer_rule: 构造延展身体隐喻时，应让后续每个动作依次找到稳定的解剖对应，并由人物曾经历的相似手势提供情感触发点。
+failure_boundary: 机械处理没有可见裂口、流体或人物丧亲联想时，强行延伸到尸体会煽情；暗红水也只在这条既成伤体链中承担血液功能。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 被砍倒、修枝、拖行并流出暗红积水的落叶松，以及叶文洁反复被唤回的丧父创伤
+vehicle: 遭杀害后由女儿整理遗体、遍体受伤并在拖行中继续流血的巨人父亲
+ground: 修除枝丫对应整理遗体；绽裂树皮对应父亲身体伤痕；树干被拖得皮开肉绽对应尸身再受损；沟中暗红水对应伤口流血；叶文洁抚摸断面对应触碰逝者创口

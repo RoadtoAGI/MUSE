@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5df9a69aafb39d8376ac7323
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L389
+chapter: 第4章 三体、周文王、长夜
+figure_type: analogy
+quote: 一面空荡荡的黑屏幕，只有一个简单得不能再简单的“C:>”提示符在闪动，你输入什么它就输出什么
+sensory_mapping: 视觉；交互；语言节奏
+context_fact: 汪淼从电报般精简进一步回想申玉菲。
+image_mechanism: 人物谈话被重排成交互回路：空屏等待、外界输入、最小输出、重新等待；她的沉默和答句都有了机器时序。
+property_alignment: 极少主动表达对应空屏只留提示符；问什么答什么对应输入命令才输出；表面简单背后功能深对应提示符连接复杂系统
+context_alignment: 技术人物共享DOS经验，输入输出模式逐点吻合。
+narrative_function: 塑造人物声音并为深渊反转蓄势。
+transfer_rule: 用界面类比人物交流时，应对应默认状态、触发条件、输出形式和循环节奏。
+failure_boundary: 人物会主动寒暄、情绪外溢或回答常常偏离问题时，命令行的确定输入输出不成立。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 申玉菲只按问题给最少回应且隐藏巨大内在的交流方式
+vehicle: DOS黑屏上等待输入并按命令输出的提示符
+ground: 极少主动表达对应空屏只留提示符；问什么答什么对应输入命令才输出；表面简单背后功能深对应提示符连接复杂系统

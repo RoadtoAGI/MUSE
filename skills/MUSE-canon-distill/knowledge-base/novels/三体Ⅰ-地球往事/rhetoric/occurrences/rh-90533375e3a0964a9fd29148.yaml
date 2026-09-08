@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-90533375e3a0964a9fd29148
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1000
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 孔子就那么站着冻成了冰柱
+sensory_mapping: 视觉；低温；硬度；垂直形状
+context_fact: 太阳在正空突然熄灭，严寒瞬间降临，孔子保持原姿势冻死并站立至今。
+image_mechanism: 人体轮廓在低温中被简化成竖直冰体，关节、体温和生命运动一并冻结，只留下可长期矗立的冷硬形状。
+property_alignment: 站立人体对应柱状轮廓；全身结冰对应冰质材料；数十万年不动对应冰柱无生命的凝固
+context_alignment: 游戏允许遗骸长期保存，冰柱既符合极寒结果，也把孔子自信的站姿凝成讽刺性纪念物。
+narrative_function: 以一个冷硬形象收束错误预测，保存上轮文明失败的遗迹。
+transfer_rule: 把冻僵身体写成冰体时，应同时匹配冻结程度、残留姿态和失去活动后的材质感。
+failure_boundary: 只是发冷、身体仍柔软活动或姿势蜷缩时，竖直冰柱会夸大冻结程度并误报轮廓。
+quality_assessment: functional
+confidence: 0.97
+review_status: reviewed
+tenor: 在极寒中直立冻结、失去生命和活动的孔子身体
+vehicle: 坚硬、竖直、没有动作的一根冰柱
+ground: 身体被冻硬且保持站姿对应冰柱坚硬竖立；生命和动作停止对应无机冰体静止

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-99f6efd744104dae2ab0641e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1870
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 那个一次次浴火重生的文明
+sensory_mapping: 烈火；焚毁；灰烬；新生身体；循环亮灭
+context_fact: 叶文洁从收到的信息中知道三体世界多次灾变、轮回文明和星际移民计划。
+image_mechanism: 各轮文明被串成同一只反复焚烧的生命，乱纪元和太阳灾变是火浴，幸存遗传与知识则从灰中重新聚成身体；编号更替仍保留共同身份。
+property_alignment: 文明灾变对应火焚；文明毁灭对应身体化灰；生命种子幸存对应灰中胚芽；下一轮演化对应重新出生；多轮循环对应反复浴火
+context_alignment: 叶文洁本人有死灰与复燃意象，她遇见的外星文明也从火中重生，双方创伤结构形成危险共鸣。
+narrative_function: 用凤凰式循环概括三体历史，解释她为何对其顽强产生认同。
+transfer_rule: 用浴火重生写文明循环时，应说明毁灭火源、保存连续性的载体、重建过程和新旧身份关系。
+failure_boundary: 新文明与旧文明毫无遗传、知识或共同体连续，或灾难并非火热毁灭时，重生会遮蔽真正断代。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明反复被极端天灾毁灭，却由幸存生命重新演化并建立下一轮文明
+vehicle: 生命在烈火中被焚毁，又像凤凰从火焰和灰烬里重新出生
+ground: 每轮文明遭太阳灾害毁灭对应身体投入火中；新文明从灾后出现对应生命由灰烬重生

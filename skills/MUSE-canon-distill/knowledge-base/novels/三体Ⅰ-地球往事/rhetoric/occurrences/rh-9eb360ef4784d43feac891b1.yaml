@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9eb360ef4784d43feac891b1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2242
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 这两天，我让人家像洗面口袋似的翻出来洗了个遍
+sensory_mapping: 布袋翻面；揉搓冲洗；白粉残留；缝角展开；身体受摆布
+context_fact: 史强此前进入受核弹放射污染的会场，治疗去污后用粗俗口语说明自己已无放射性。
+image_mechanism: 人的身体被降格成软口袋，医护操作像抓住袋口整只翻面，把不可见污染从每条褶缝中冲走；被治疗的狼狈经他的自嘲变得具体。
+property_alignment: 全身去污对应整袋清洗；身体褶皱隐蔽处对应袋角缝隙；翻动检查对应口袋内外翻转；附着污染对应面粉残留；彻底处理对应洗了个遍
+context_alignment: 大史以生活化粗话处理核辐射风险，洗面口袋既贴合其市井声音，也传达清洗程度而不作医学解释。
+narrative_function: 快速交代人物安全状态，延续大史用粗粝笑话消解危险的角色声音。
+transfer_rule: 用容器清洗写全身处置时，应匹配可翻转性、死角、附着残留和操作彻底度，并让喻体符合说话者生活经验。
+failure_boundary: 治疗只是抽血或服药、身体未被外部清洗翻查，或说话者语体高度文雅时，洗口袋会误写程序和声音。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 史强接受彻底去污和放射性清洗，身体各处被反复翻查处理
+vehicle: 把装过面粉的布口袋内外翻转，连缝角都抖开并彻底刷洗
+ground: 全身内外仔细处理对应口袋翻面；不留隐蔽角落对应清洗袋缝；去除附着放射物对应洗净面粉残留

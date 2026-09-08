@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bcf18bfebb668f24b77cce8e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1673
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 我们的世界，只不过是这场宇宙大捕猎的残余
+sensory_mapping: 捕猎追逐；张口吞噬；猎场；残骸；威胁逼近
+context_fact: 天文学证据显示星系曾有十二颗行星，其余十一颗都被三颗太阳膨胀气层吞噬。
+image_mechanism: 星系轨道被改造成猎场，恒星从无意志天体变成轮番张网的猎手，行星则沿轨道逃跑；三体世界的漫长幸运只是捕猎尚未收尾。
+property_alignment: 三颗太阳对应捕食者；周期膨胀气层对应张开的捕猎范围；行星对应猎物；十一颗坠日对应被捕吞食；现存世界对应漏网残余；未来必然吞噬对应猎捕继续
+context_alignment: 前文讲过恒星呼吸和巨掌，捕猎框架把这些局部动作汇成星系史，解释文明为何必须逃离。
+narrative_function: 将统计性行星消失转为持续追杀，使迁徙成为逃生而非探索。
+transfer_rule: 用捕猎写天体演化时，应对应猎手作用范围、猎物逃逸条件、已发生损失和下一次捕获概率。
+failure_boundary: 行星消失由自身碰撞或形成过程造成、恒星没有选择性捕获机制时，捕猎会错误赋予因果统一性和意志。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三颗恒星已吞噬十一颗行星，现存三体行星只是尚未被捕获的最后幸存者
+vehicle: 巨型捕食者在广阔猎场逐一猎杀猎物，行动后只剩漏网残余
+ground: 恒星气层周期捕获行星对应捕食者反复出猎；十一颗行星消失对应猎物被吞食；现存行星幸存对应猎场遗漏残余

@@ -1,0 +1,25 @@
+mode: reference
+display_name: 廖振宇
+role_slug: liao-zhen-yu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # spine + dual_antagonist_counterpoint.line_A + arc_framework
+  - pipeline/phase0_conception.yaml  # human_antagonist_typology.liao_zhenyu_type
+  - scenes/scene_EE-S01.md
+  - scenes/scene_EE-S02.md
+  - scenes/scene_EE-S03.md
+  - scenes/scene_EE-S04.md
+  - scenes/scene_EE-S08.md
+  - scenes/scene_EE-S11.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S01 对镜头表演 / S02 私下装豪迈 / S03 失控嘶吼），稳定性充分。
+  弧光起点（S02 自我神话）+ 转折（S03 特别作废 / S04 自欺重建）+ 终点（S11 被判忘了就忘了）三段齐全。
+  性格真相有压力情境直接佐证（S03 逃命推老人/小哥当替死鬼 + S11 吴先生定性"相当无情"）。
+  核心欲望跨 S02（自觉欲望显性化）+ S11（不自觉欲望"被同类记住"浮出）两场，非单点。
+  边界第 4 条（名声优先于被抓）依赖 S02:L3-L5 单点（留名哲学独白），属价值轴起点的标志性场景，可接受。

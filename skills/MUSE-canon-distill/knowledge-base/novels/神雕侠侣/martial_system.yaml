@@ -1,0 +1,48 @@
+# ============================================================
+# 武学体系总卡 —— 《神雕侠侣》（增量卡）
+# extends 射雕英雄传基准卡：同宇宙共享的战力谱系/力量来源/命名法/
+# 胜负判定见 ../射雕英雄传/martial_system.yaml，本卡只记本作的
+# 增量与改写，避免双源漂移。
+# ============================================================
+card_meta:
+  card_type: martial_system
+  extends: ../射雕英雄传/martial_system.yaml
+  scope: 只记相对射雕宇宙基准卡的增量与改写
+  derived_from:
+    - pipeline/phase1_world.yaml
+    - pipeline/phase2_character.yaml
+    - craft_notes/
+    - scene_index.json
+  consumers: [phase1-world-building, phase6-scene-development, writer]
+  annotated_by: claude-fable-5
+
+delta_power_source:
+  - 情感成为合法电源：黯然销魂掌深情时威力极大、心境平和反而无力——武功与情感直接挂钩（phase1 rules；S23 首示 / S30 逐招展示）
+  - 双修条件武功：玉女素心剑法需男女二人心意相通方能施展——"情"的武功化形式（S28 联剑战公孙止）
+  - 毒物经济学独立成层：冰魄银针/情花毒/绝情丹构成超越武功等级的变量——毒可让低战力者威胁高手，解药可成叙事筹码（phase1 rules）
+  - 身体残缺触发武学质变：断臂（S14）→重剑（S15）——"重剑无锋，大巧不工"，不可逆损失反而成为升维起点（phase1 adaptation_constraints）
+
+delta_hierarchy:
+  - 五绝换代：东邪、西狂、南僧、北侠、中顽童——"西狂"以一人新创武学入列，谱系吐故纳新；战力谱系是活的制度而非固定名单
+  - 独孤求败剑学四境作为纵向标尺：利剑→软剑→重剑→木剑→无剑——境界论替代战力数值论，给"练到什么程度"提供可写的台阶（phase1 rules）
+  - 外来体系对决：金轮法王（密宗龙象般若功）战力对标五绝但谱系独立——跨体系对决双方无共同语法，胜负更依赖环境与心智层
+
+delta_move_naming:
+  - 情感词系命名登峰：黯然销魂掌十七招全部是情绪成语（徘徊空谷/力不从心/行尸走肉/呆若木鸡…）——招式名构成十六年孤独的编年史，命名替代描写（craft_notes/scene_S30_beats.yaml S30-p3）
+  - 器物名承载关系：君子剑/淑女剑——兵器命名即人物关系注脚（style_card.yaml：武功名目即情感注脚）
+
+delta_victory_logic:
+  - 技巧可教、电源不可复制：周伯通学全黯然销魂掌招式但"悟不到其中要旨"——没有那种程度的失去就驱动不了那种武功（craft_notes/scene_S30_beats.md）
+  - 战争尺度的奇点生效：S26 飞石击杀蒙哥——个人武力不能赢下战争，但能在唯一的奇点上终结战争
+  - 非自觉状态是更高战力态：黯然销魂掌在"浑如不觉"的恍惚中才能使出——有意图的攻击反而出不了招（craft_notes/scene_S30_beats.yaml S30-p1）
+
+combat_scene_index:
+  note: 本作 30 场全部有 craft_notes；按场面类型给入口，写前读 craft_notes/scene_{id}_beats.yaml 的 transfer_rule
+  比试切磋: [scene_S30（招式命名即叙事+反向节奏：战斗越来越慢）, scene_S08（英雄大宴力退法王）]
+  双人合击: [scene_S28（联剑战公孙止——心意相通是武功前置条件）]
+  单挑: [scene_S06（华山绝顶双雄归天）, scene_S29（小龙女独闯重阳宫）]
+  群战: [scene_S18（重阳宫拜堂成亲——仪式与武戏互锁）]
+  智斗阵法: [scene_S17（黄蓉棘藤阵智斗李莫愁）]
+  战争攻城: [scene_S12（襄阳鏖兵）, scene_S26（飞石杀蒙哥）]
+  修炼: [scene_S15（神雕重剑——环境即师父）, scene_S02（古墓日常练功）]
+  开场武戏: [scene_S01（李莫愁复仇——以杀戮立反派）]

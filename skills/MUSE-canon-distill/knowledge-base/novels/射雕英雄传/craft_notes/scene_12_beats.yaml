@@ -1,0 +1,27 @@
+scene_id: '12'
+source_notes: scene_12_beats.md
+patterns:
+- pattern_id: 12-p1
+  beat: 暗处旁听者
+  dimension: camera
+  original_move: 用盲人旁听者的身子一震测量场面紧张度
+  ai_default_failure: 写攥紧铁杖心脏狂跳等内心放大
+  transfer_rule: 揭案场面借旁听者微小体感间接传递张力
+  quote: 柯镇恶身子一震
+- pattern_id: 12-p2
+  beat: 骄傲即破绽
+  dimension: info_density
+  original_move: 反派被揭后一声叹息，真心佩服对手再继续作恶
+  ai_default_failure: 让反派或强辩或威胁或阴险地笑
+  transfer_rule: 高智反派败露时给职业敬意，不给道德慌乱
+  quote: 原来仍是留下了这许多线索
+- pattern_id: 12-p3
+  beat: 粗粝的自审
+  dimension: verb
+  original_move: 让粗人用最忌讳的「臭瞎子」骂自己表达悔恨
+  ai_default_failure: 安排条理清晰的文雅反思独白
+  transfer_rule: 角色悔恨时保持其声口，不许语言升华
+  quote: 臭瞎子，是你生生逼死这位好姑娘
+overall_traits:
+- 推理由受害者引导反派自曝，不由侦探解释
+- 反派的体面比狰狞更可怕

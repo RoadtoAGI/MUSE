@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a5483cb983e5dd701b17feed
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2079
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 伊文斯的话匣子打开了，滔滔不绝地说下去
+sensory_mapping: 匣盖开启；内容涌出；连续声流；封闭解除
+context_fact: 问到父亲财产和种树费用后，他第一次向叶文洁等人讲完整个人经历。
+image_mechanism: 压在内心多年的海鸟记忆被装入密闭匣中，父亲话题掀开盖子后，故事按积存压力自行流出，听者只需承接。
+property_alignment: 平日兴趣索然对应匣子闭合；触及父亲对应开盖机关；多年记忆对应匣内储物；连续叙说对应物品倾倒；难以停下对应盖子暂不能合；听众被动聆听对应接住内容
+context_alignment: 这段长独白承担人物前史，话匣子明示从场景对话切换为集中倾诉的叙事节奏。
+narrative_function: 标记话语状态突变，并自然引入决定伊文斯一生的创伤故事。
+transfer_rule: 用话匣子写倾诉时，应有此前封闭、明确触发、积存内容、连续释放和暂时难停。
+failure_boundary: 人物一直健谈、内容短促零散或被反复追问才勉强回答时，开匣的自发涌出感不成立。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 伊文斯从寡言转为连续、主动且难以中断地讲述童年油污灾难和信念来源
+vehicle: 装满话语的匣子盖被打开，内部内容像连续物料不断涌出
+ground: 此前少言对应盒盖关闭；话题触发对应打开盖子；长篇讲述对应内容连续倒出；滔滔不绝对应难收回

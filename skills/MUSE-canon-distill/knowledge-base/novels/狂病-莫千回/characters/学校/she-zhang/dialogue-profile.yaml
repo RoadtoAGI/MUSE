@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:学校--she-zhang
+work_id: novel:狂病-莫千回
+display_name: 社长
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '社长是四人里话最少的一个，"沉默 → 突然发话 / 突然动手"是他的声音节奏：大段时间一言不发，让别人争论、崩溃、哭嚎，等情势悬住、谁都决断不了时，他才用一两句短话或一个直接的动作把局面定下来。他要说话时往往是简短的提问而非长篇大论——在留下还是逃走拉锯到顶时，他打断争执只问秦胜哥一句"坐上了车之后，我们该去哪儿"，用一个问题逼对方把空想落地；附条件答应时也只是认真、平实地把条件说清楚，不带情绪修辞。他的"声音"更多藏在动作里：不说要不要杀狗子，直接起身拦人、插刀。
+
+
+    佐证：scenes/scene_XX-S08.md:L17-L17 / scenes/scene_XX-S08.md:L21-L21 / scenes/scene_XX-S07.md:L25-L25'
+  evidence_locators:
+  - scenes/scene_XX-S08.md:L17-L17
+  - scenes/scene_XX-S08.md:L21-L21
+  - scenes/scene_XX-S07.md:L25-L25
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b2ac729935cee8635946b0bf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1989
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 他的手黑乎乎的，像树皮一般满是皲裂
+sensory_mapping: 视觉暗色；触觉粗糙；裂纹；干燥；手部近景
+context_fact: 孩子从齐家屯长途上山请教物理，希望参加恢复后的高考，手里拿着翻旧的课本。
+image_mechanism: 少年手掌的皮肤被增厚成树干外壳，每道冻裂像年轮外露的沟纹；拿书的动作让劳动留下的硬壳与求知愿望同框。
+property_alignment: 手部黝黑对应树皮暗褐；冻伤皲裂对应树皮开缝；劳动粗茧对应木质硬度；少年仍捧课本对应粗硬外壳内保持生长
+context_alignment: 树皮来自山林生活，既贴近孩子环境，也让贫困劳动痕迹与他追求知识的稚嫩年龄形成反差。
+narrative_function: 用触觉细节交代农村孩子生活条件，同时增强恢复高考带来的希望重量。
+transfer_rule: 把皮肤写成树皮时，应同时匹配颜色、粗糙度、裂纹方向和长期暴露或劳动原因。
+failure_boundary: 手部湿润光滑、裂口来自一次锐器伤或人物生活环境与木质感无关时，树皮会失去成因贴合。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 山村少年因寒冷和劳作变黑、粗糙并布满深浅裂口的手
+vehicle: 老树外层黝黑粗硬、纹理纵横开裂的树皮
+ground: 手背皲裂纹路对应树皮裂纹；皮肤黑粗对应树皮暗色坚硬质感

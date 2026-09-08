@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f73ca21a3133c26a0efbf55b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L752
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 她脸上慈祥的表情仍然没有褪去，只是凝固了，仿佛戴着一张石膏面具
+sensory_mapping: 视觉；触觉；硬度；面部；遮蔽
+context_fact: 她保持慈祥神色，有条不紊地把冷水泼向叶文洁后辱骂离开。
+image_mechanism: 笑容在变脸瞬间没有消失，而是从活肌肉硬化成外覆模具；真实恶意藏到石膏之后，脸与泼水动作形成机械错位。
+property_alignment: 表情固定不动对应石膏硬化；慈祥与行动分离对应面具遮住真面孔；外观完整而无生命对应模制脸形缺少肌肉反应；可随角色需要戴上对应伪装身份
+context_alignment: 前一刻的老大妈和母亲式语气已被行动证伪，面具准确回收伪装线并保留其外形。
+narrative_function: 把制度暴力的伪善定格为可见面孔。
+transfer_rule: 用面具写伪善时，应先让外表与行为发生明确冲突，再以材质说明表情为何僵硬、遮住什么。
+failure_boundary: 人物真诚关心但不得不执行命令、表情不断泄露挣扎或只是天生少表情时，石膏面具会过度断言蓄意伪装。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 程丽华内心转为冷酷后仍固定在脸上的慈祥表情
+vehicle: 覆盖真实面孔、僵硬无变化的石膏面具
+ground: 表情固定不动对应石膏硬化；慈祥与行动分离对应面具遮住真面孔；外观完整而无生命对应模制脸形缺少肌肉反应；可随角色需要戴上对应伪装身份

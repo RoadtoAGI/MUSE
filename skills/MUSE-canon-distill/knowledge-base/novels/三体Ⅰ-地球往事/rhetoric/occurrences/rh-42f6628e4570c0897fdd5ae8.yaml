@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-42f6628e4570c0897fdd5ae8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1310
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 见那里已被他抽得云蒸雾绕
+sensory_mapping: 视觉；嗅觉；垂直上升；空间遮蔽
+context_fact: 凌晨办公室凌乱封闭，大史不停抽烟，徐冰冰不得不用记录本扇鼻前空气。
+image_mechanism: 小房间的尺度被烟雾扩展成山间气候，烟头每吐一缕便像地面蒸出云，旧烟则围成低雾；夸张景观由扇烟动作验证。
+property_alignment: 上升烟流对应云蒸；悬浮旧烟对应雾绕；室内视线受影响对应山雾遮景；持续抽烟对应水汽不断补给
+context_alignment: 大史粗粝办公室被写成反讽仙境，既符合口语夸张，也迅速交代让年轻女警难受的烟量。
+narrative_function: 一笔建立办公室气味、可见度和人物生活习惯。
+transfer_rule: 用云雾写室内烟气时，应对齐新烟上升、旧烟悬层、空间遮蔽和持续来源。
+failure_boundary: 只有一缕淡烟、通风迅速或烟贴地不升时，云蒸雾绕会夸大浓度和运动。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 大史连续吸烟使办公室半空积满浓厚、缭绕的烟气
+vehicle: 云气蒸腾、雾层环绕的山水空间
+ground: 烟气成层悬浮对应雾绕；新烟不断上升对应云气蒸腾

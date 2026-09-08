@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fb09fb6e421f7cc76790cc17
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L868
+chapter: 第10章 宇宙闪烁之二
+figure_type: analogy
+quote: 越透明的东西越神秘，宇宙本身就是透明的，只要目力能及，你想看多远就看多远，但越看越神秘
+sensory_mapping: 视觉；透明度；空间深度；建筑结构；认识
+context_fact: 午夜灯光透过新天文馆玻璃幕墙，内部结构只隐约显现。
+image_mechanism: 眼前建筑成为认知模型：墙面撤去遮挡，视线一路穿入，却让更多梁架互相重叠；宇宙的透明也被画成同样无墙而层层后退的内部。
+property_alignment: 宇宙传播光线对应玻璃幕墙透视；望远可达深空对应透过外墙看入建筑深处；更多结构进入视野对应内部层级显现；可见信息增加而理解未增加对应透明反而加深神秘
+context_alignment: 天文馆建筑的设计意图与即将观看背景辐射的任务重合，现场材质直接触发宇宙认识论。
+narrative_function: 用建筑预演“看见更多却更不理解”的核心体验。
+transfer_rule: 以透明空间类比认识时，应区分遮挡减少、视距增加、结构叠现和理解难度四步，避免把看见等同懂得。
+failure_boundary: 对象内部简单、透明后信息足以完全解释或神秘只来自人为遮蔽时，越透明越神秘的反向关系不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 宇宙几乎无遮蔽地允许视线深入，却因所见尺度扩大而显得更难理解
+vehicle: 透明玻璃建筑让人看见越来越深的内部结构，却因层级叠现而更显幽深复杂
+ground: 宇宙传播光线对应玻璃幕墙透视；望远可达深空对应透过外墙看入建筑深处；更多结构进入视野对应内部层级显现；可见信息增加而理解未增加对应透明反而加深神秘

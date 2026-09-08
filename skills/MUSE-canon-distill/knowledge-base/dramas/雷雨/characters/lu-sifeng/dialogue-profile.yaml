@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:lu-sifeng
+work_id: drama:雷雨
+display_name: 鲁四凤
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '四凤的台词大多是简短、直接、生活化的——"是""不""您说吧""我就来"——她在所有强者（父亲 / 母亲 / 太太 / 大少爷 / 二少爷）面前都用简短回应。她对鲁贵的反击是雷雨中最早期的"年轻女性怼父亲"的对白——"您说话的神气真叫我心里想吐"（A1）；"我现在钱也没有了，还用得着小心干什么"（A1）；"我没有钱"（A1）——她对鲁贵的拒绝是干脆的。她对周萍的话总是"我"开头的告白——"我妈最疼我""我父亲，我哥哥，我母亲，他们也许有一天会不理我，你不能够的""没有你就没有我"——这种告白是她对自己处境的命名。她对母亲的话总是"妈"开头的撒娇——"妈，您让我替您解开吧"（A2
+    解白手巾）"妈，您不知道""妈呀！"。**她最深的语言习惯：在最关键的时刻她用最朴素的句子说出最重的事**——"那——那天上的雷劈了我"（起誓）；"大概已经三个月"（告知怀孕）——她不会修饰、不会铺陈，每一句都是字面意思。
+
+
+    佐证：scenes/scene_A1.md:L209-L213（"您说话的神气真叫我心里想吐"——对鲁贵的反击）；scenes/scene_A2.md:L31-L77（A2 偷情场——"萍，没有你就没有我"+"我妈最疼我"）'
+  evidence_locators:
+  - scenes/scene_A1.md:L209-L213
+  - scenes/scene_A2.md:L31-L77
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

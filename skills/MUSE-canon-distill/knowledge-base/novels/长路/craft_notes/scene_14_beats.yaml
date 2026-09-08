@@ -1,0 +1,42 @@
+scene_id: '14'
+source_notes: scene_14_beats.md
+patterns:
+- pattern_id: 14-p1
+  beat: 进入
+  dimension: verb
+  original_move: 停看听循环作为生存程序
+  ai_default_failure: 用小心翼翼等副词堆紧张
+  transfer_rule: 警觉写具体感知动作
+  quote: 观望、静听
+- pattern_id: 14-p2
+  beat: 翻找
+  dimension: verb
+  original_move: 放弃与收获都由动作判断
+  ai_default_failure: 逐件加入评估内心独白
+  transfer_rule: 搜索判断用拿放动作表达
+  quote: 放入外衣口袋
+- pattern_id: 14-p3
+  beat: 美工刀
+  dimension: omission
+  original_move: 拿起放下再拿起外化思维
+  ai_default_failure: 写他突然想到备用刀片
+  transfer_rule: 推翻判断写成重复动作
+  quote: 然后再捡起来
+- pattern_id: 14-p4
+  beat: 苹果
+  dimension: camera
+  original_move: 脚底先触到苹果再验证
+  ai_default_failure: 直接写看见苹果和惊喜
+  transfer_rule: 意外发现从非视觉感官开始
+  quote: 他踩中了什么
+- pattern_id: 14-p5
+  beat: 水源
+  dimension: omission
+  original_move: 只给排水管和找到水，中间推理省略
+  ai_default_failure: 写完整雨水收集推理链
+  transfer_rule: 智力活动可让身体走完
+  quote: 他还看到什么？排水管
+overall_traits:
+- 行为替代心理活动
+- 搜索收获指数级递增
+- 物件属性具体到可触摸

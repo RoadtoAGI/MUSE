@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-47431accf47fafb77d0c883b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L974
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 老弟，可得站直啰
+sensory_mapping: 身体姿态；垂直方向；肌肉力量
+context_fact: 大史临走前提醒汪淼害怕时想起自己的终极定理，并继续研究和探索游戏。
+image_mechanism: 看不见的心理承压被落到脊背和双腿，害怕成为向下压人的重量，维持理智则成为把身体重新撑直。
+property_alignment: 精神动摇对应身体弯折；抵住恐惧对应脊背挺直；恢复日常行动对应双脚站稳
+context_alignment: 简短命令带有军人训话和东北式直率，不需抽象心理术语便能给濒临崩溃的汪淼一个身体动作。
+narrative_function: 以大史的声音结束劝告，为汪淼重新上班提供意志支点。
+transfer_rule: 用身体姿态表达意志时，应明确压力方向、失稳方式和人物随后要维持的实际行动。
+failure_boundary: 人物的处境要求迂回、撤退或休息时，把挺直站立等同唯一坚强会误判策略；它也不描述真实身体姿势。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 汪淼在恐惧和精神干扰下保持意志与行动能力
+vehicle: 身体承压仍挺直站立、不弯腰倒下
+ground: 意志不被恐惧压垮对应身体不被外力压弯；继续工作承担责任对应站稳后维持行动姿态

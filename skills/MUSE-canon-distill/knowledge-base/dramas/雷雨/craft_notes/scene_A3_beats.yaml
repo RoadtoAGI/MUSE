@@ -1,0 +1,56 @@
+scene_id: A3
+source_notes: scene_A3_beats.md
+patterns:
+- pattern_id: A3-p1
+  beat: 暴雨夜写景
+  dimension: transition
+  original_move: 幕首大段写景蓄满气压再开幕，声音层写明远近供执行。
+  ai_default_failure: 一句「夜，雷雨将至」带过转场。
+  transfer_rule: 幕间转场用写景蓄压，气象即将到来的剧情。
+  quote: 天空黑漆漆地布满了恶相的黑云
+- pattern_id: A3-p2
+  beat: 醉汉训话
+  dimension: monologue
+  original_move: 鲁贵自怜式训话近独白，其余三人沉默劳作作底。
+  ai_default_failure: 让家人逐句反驳，写成四人对吵。
+  transfer_rule: 群戏先让一人垄断话语，沉默者的爆发才有落差。
+  quote: 你们哪一个对得起我？
+- pattern_id: A3-p3
+  beat: 拔枪入匣
+  dimension: exchange
+  original_move: 手枪首次亮出不开火，逼父道歉后即被母亲缴入床头箱。
+  ai_default_failure: 让枪当场走火，或亮过就忘。
+  transfer_rule: 武器第一次出现只换位置不见血，记住它放在哪。
+  quote: 我放在这个箱子里
+- pattern_id: A3-p4
+  beat: 雷誓
+  dimension: exchange
+  original_move: 隐雷三次插入问答之间，跪誓最终绑在天象上。
+  ai_default_failure: 写成不带环境声的母女谈心。
+  transfer_rule: 让自然声响参与对白节奏，誓绑天象即绑结局。
+  quote: 那天上的雷劈了我
+- pattern_id: A3-p5
+  beat: 窗下声戏
+  dimension: blocking
+  original_move: 半幕纠缠只闻窗外声不见人，四凤背身向观众挡窗。
+  ai_default_failure: 让来人直接进屋演对手戏。
+  transfer_rule: 高危幽会先隔一层物理屏障，越界留给高潮拍。
+  quote: （外面的声音）四凤，你开开！
+- pattern_id: A3-p6
+  beat: 闪电显形
+  dimension: blocking
+  original_move: 蘩漪零台词，闪电照出窗外惨白脸，黑暗中伸手反锁窗。
+  ai_default_failure: 给她独白宣泄，或让她当场撞门发作。
+  transfer_rule: 最毒的动作可以不配一个字，交给灯光与手。
+  quote: 伸进手……慢慢地由外面关上
+- pattern_id: A3-p7
+  beat: 撞破切幕
+  dimension: transition
+  original_move: 撞破即乱：四凤夺门冲进雨夜，追喊声渐远收幕。
+  ai_default_failure: 就地写完整对质审判戏。
+  transfer_rule: 撞破场在质问开始前切断，把审判推给下一幕。
+  quote: 妈，您快进来，我见了鬼！
+overall_traits:
+- 雷雨是本幕第六个角色，声光按剧情节拍进场
+- 空间逼仄，每次上场都是侵入，门窗即机关
+- 誓言、枪、反锁的窗在本幕装填，下幕逐一引爆

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-649f1d1107d864395b0d5715
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2347
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 像从一个绊倒的服务生手中向前倾倒的一摞盘子
+sensory_mapping: 盘叠倾斜；连续滑落；服务生前扑；脆物散乱；惯性方向
+context_fact: 审判日号撞岸并被切成水平薄片，停止后残骸越靠上层越向前伸出。
+image_mechanism: 巨轮的撞岸被改写为端盘者失足，船层在重力与惯性中像餐盘接连脱手；宏大结构的终局成为一次熟悉却放大千万倍的失衡事故。
+property_alignment: 水平船片对应叠盘；层层重合对应盘摞；撞岸减速对应服务生绊倒；上层继续前冲对应上方盘子滑脱；依次倾倒对应盘片顺序散开
+context_alignment: 扑克牌类比解释滑动开始，盘子类比接续解释撞岸后的倾倒阶段，喻体变化跟随动力阶段而非重复装饰。
+narrative_function: 将残骸最终排列和惯性原因变成一眼可懂的动态过程。
+transfer_rule: 用一摞盘子写层片倾倒时，应有堆叠、突然减速、统一前冲方向、由上至下的位移差和最终散乱。
+failure_boundary: 各片被爆炸向后抛出、仍垂直站立或没有共同减速点时，服务生失足的惯性序列会错误。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 船体薄片冲上岸后上层滑得更远，整组切片沿前进方向依次倾倒散开
+vehicle: 服务生突然绊倒，手中整齐一摞盘子因惯性逐只向前滑落倾覆
+ground: 圆整层片叠放对应盘子摞；上层向前更远对应盘子依次滑出；碰撞后失衡对应服务生绊倒

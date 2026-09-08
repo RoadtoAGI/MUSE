@@ -1,0 +1,240 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "海底世界",
+      "角色建置",
+      "异质欲望",
+      "等待结构",
+      "童话开篇"
+    ],
+    "characters": [
+      "小人鱼",
+      "海王祖母",
+      "五个姐姐"
+    ],
+    "conflict_type": "internal",
+    "pov": "小人鱼",
+    "word_count": 3651,
+    "source_chapter": "原文第 1-21 段",
+    "file": "scenes/scene_S01.md",
+    "description": "六公主中最年幼的小人鱼在海底成长，对人间产生与姐妹不同的越界渴望——种太阳花、收藏人类石像、独自等候十五岁。覆盖 Phase 5 设计场景 S01+S02。",
+    "covers_phase5_scenes": [
+      "S01",
+      "S02"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书，直评人物并引读者想象",
+      "diction": "白话译腔，形容词密集，童话物象具象化",
+      "rhetoric_density": "high",
+      "dialogue_mode": "叙述推进为主，少量引语触发愿望",
+      "pacing": "长段铺陈景观，末尾收束到渴望"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "船宴",
+      "风暴",
+      "救命",
+      "误认种下",
+      "第一次浮出海面"
+    ],
+    "characters": [
+      "小人鱼",
+      "王子",
+      "神庙女子",
+      "水手们"
+    ],
+    "conflict_type": "external",
+    "pov": "小人鱼",
+    "word_count": 2220,
+    "source_chapter": "原文第 22-38 段",
+    "file": "scenes/scene_S02.md",
+    "description": "十五岁浮上海面，目睹王子生日船宴；风暴沉船后救出王子并送到神庙岸边，却看见另一个女子接受王子的苏醒微笑——爱情对象成立的同时，误认结构被种下。覆盖 Phase 5 设计场景 S03+S04。",
+    "covers_phase5_scenes": [
+      "S03",
+      "S04"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴近小人鱼，随惊惧与怜悯转焦",
+      "diction": "白话译腔，光色词与感叹词交错",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀少，动作和视觉承担推进",
+      "pacing": "宴会慢铺后风暴急转，救援细写"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "灵魂规则",
+      "巫婆契约",
+      "失声",
+      "跨界代价",
+      "不可逆",
+      "诚实的反派"
+    ],
+    "characters": [
+      "小人鱼",
+      "海王祖母",
+      "海的巫婆"
+    ],
+    "conflict_type": "external",
+    "pov": "小人鱼",
+    "word_count": 5013,
+    "source_chapter": "原文第 39-73 段",
+    "file": "scenes/scene_S03.md",
+    "description": "得知人鱼无灵魂、必须以婚姻获得灵魂后，小人鱼穿过珊瑚虫森林求见海的巫婆，签下失声 + 剧痛 + 不可逆 + 黎明死期的契约；巫婆在签约前如实预言失败。覆盖 Phase 5 设计场景 S05+S06。",
+    "covers_phase5_scenes": [
+      "S05",
+      "S06"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书，规则说明压近内心抉择",
+      "diction": "白话译腔，宗教词与契约词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答式对白密集，巫婆逐条报价",
+      "pacing": "规则先铺再交易，痛苦后果层层加码"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "变人",
+      "入宫",
+      "无声陪伴",
+      "哑巴孤儿",
+      "类比型爱情"
+    ],
+    "characters": [
+      "小人鱼",
+      "王子",
+      "海王祖母",
+      "海王",
+      "姐姐们"
+    ],
+    "conflict_type": "personal",
+    "pov": "小人鱼",
+    "word_count": 1732,
+    "source_chapter": "原文第 74-85 段",
+    "file": "scenes/scene_S04.md",
+    "description": "变为人后，小人鱼以哑巴孤儿身份留在王子身边，每步如踩刀刃却日日陪伴；王子温柔地称她为'孤儿'、把爱欲分配给'像神庙女子的她'，亲密无法转化为婚姻。覆盖 Phase 5 设计场景 S07+S08。",
+    "covers_phase5_scenes": [
+      "S07",
+      "S08"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴身小人鱼，无声处用内心补白",
+      "diction": "白话译腔，痛感词与宫廷词相邻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "王子独白为主，小人鱼以眼神回应",
+      "pacing": "日常陪伴慢写，夜海探亲留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "误认闭合",
+      "邻国婚事",
+      "婚礼",
+      "死亡倒计时",
+      "类比型爱情确认",
+      "甜蜜反讽"
+    ],
+    "characters": [
+      "小人鱼",
+      "王子",
+      "邻国公主"
+    ],
+    "conflict_type": "personal",
+    "pov": "小人鱼",
+    "word_count": 1758,
+    "source_chapter": "原文第 86-99 段",
+    "file": "scenes/scene_S05.md",
+    "description": "王子赴邻国相亲，承诺只爱小人鱼；邻国公主出现的瞬间他认出'救活我的就是你'，立即订婚——爱情路径被无可挽回闭合，婚船夜小人鱼在'我太幸福了'的反讽中等待黎明灭亡。覆盖 Phase 5 设计场景 S09+S10。",
+    "covers_phase5_scenes": [
+      "S09",
+      "S10"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴身小人鱼，外部喜庆反衬内心灭亡",
+      "diction": "白话译腔，礼仪词与死亡词交替",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "王子解释性对白，小人鱼沉默承受",
+      "pacing": "婚讯到婚夜递进，欢乐场面中嵌终局倒计时"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "海的女儿",
+    "author": "汉斯·克里斯蒂安·安徒生",
+    "genre": "文学童话",
+    "lang": "zh",
+    "tags": [
+      "危机",
+      "高潮",
+      "扔刀",
+      "拒绝谋杀",
+      "升华",
+      "天空女儿",
+      "第一次眼泪",
+      "开放式救赎"
+    ],
+    "characters": [
+      "小人鱼",
+      "姐姐们",
+      "王子",
+      "邻国公主",
+      "天空的女儿"
+    ],
+    "conflict_type": "internal",
+    "pov": "小人鱼",
+    "word_count": 1658,
+    "source_chapter": "原文第 100-110 段",
+    "file": "scenes/scene_S06.md",
+    "description": "黎明前姐姐们以剪发换来刀子要她杀王子自救；她在新郎新娘睡着的帐篷前亲吻王子额头，把刀扔进海里，跃入泡沫；被天空女儿接引，第一次感到要流泪。覆盖 Phase 5 设计场景 S11+S12。",
+    "covers_phase5_scenes": [
+      "S11",
+      "S12"
+    ],
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书转神圣训诫，解释牺牲意义",
+      "diction": "白话译腔，宗教伦理词压过感官词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "临终催促后转为空灵问答",
+      "pacing": "抉择极短，升华说明放缓收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

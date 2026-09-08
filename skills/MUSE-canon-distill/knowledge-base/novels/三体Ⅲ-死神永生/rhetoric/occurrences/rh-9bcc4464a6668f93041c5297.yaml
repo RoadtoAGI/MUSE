@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9bcc4464a6668f93041c5297
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L3679
+chapter: 【掩体纪元67年，冥王星】
+figure_type: metaphor
+quote: 人类的文化也不至于全部湮灭
+sensory_mapping: 太阳系被压成平面后，文化也像成对粒子相撞，载体和意义一起从宇宙记录中消失。
+context_fact: 政府希望未来文明能用图像处理从二维太阳系恢复三维图像，因此派星环号分散文物。
+image_mechanism: 物理术语把文化损失从遗忘提升为结构级消失，与正在发生的维度打击共享宇宙物理尺度。
+property_alignment: 文化载体对应粒子；二维混杂对应破坏结构；无人解读对应原形消失；恢复图像对应从残余重建。
+context_alignment: 整项任务正试图把“全部湮灭”降为“死的图像”残存，保存目标已从活文化退至可逆痕迹。
+narrative_function: 给看似幻想的文物抢救提供最低动机：阻止存在证据从宇宙中彻底归零。
+transfer_rule: 用强物理毁灭词写文化消失时，应说明载体、结构、可逆性和残留信息各处于什么状态。
+failure_boundary: 文化消亡不遵循粒子湮灭定律，二维遗迹也可能仍被发现；该词强调彻底风险而非已证实结局。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 人类灭亡后，其文物、图像和文化信息也可能完全消失、不可恢复
+vehicle: 物质与反物质相遇后相互 annihilate，原有粒子形态彻底消失
+ground: 原结构消失；无法直接找回；过程彻底；只可能留下变换后的痕迹；对象从存在转为无

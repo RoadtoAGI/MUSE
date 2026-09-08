@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6c56d829feb9a3f1a60e0901
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L400
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 将一个立面像一扇门似的打开
+sensory_mapping: 视觉；动作；空间
+context_fact: 周文王展示背负的多层沙漏。
+image_mechanism: 陌生木箱先借熟悉门轴获得转动方式，开启后的视线再穿过“门口”进入五层方格。
+property_alignment: 箱面沿边转动对应门绕轴开启；打开后显露内部方格对应门后显出室内
+context_alignment: 读者尚不知箱体结构，门的动作模型能立即解释机关。
+narrative_function: 清楚交代奇异计时器结构。
+transfer_rule: 解释陌生机关时，选择具有相同铰接点、运动方向和开启后空间变化的日常部件。
+failure_boundary: 抽拉、滑盖或整体掀起的箱面不按门轴转动，门扇会误写机械结构。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 周文王木箱可向外开启的侧面
+vehicle: 绕连接边开启内部空间的门扇
+ground: 箱面沿边转动对应门绕轴开启；打开后显露内部方格对应门后显出室内

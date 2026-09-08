@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-891d996a197460952fd4efa2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1505
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 大地上三千万人构成的巨型主板仿佛液化了，充满了细密的粼粼波光
+sensory_mapping: 视觉；物态变化；光泽；细密波动
+context_fact: 系统自检启动，三千万人从绝对静止转为按旗语迅速切换状态。
+image_mechanism: 原先兵马俑巨毯的硬平面在一瞬间失去固态边界，每面旗成为一个微小水鳞；离散二进制动作从高处融合成连续流光。
+property_alignment: 静止方阵对应固态主板；旗面密集翻转对应液面微波；黑白明暗交替对应粼粼反光；全阵列同步活动对应整块平面液化
+context_alignment: 前文强调方阵凝固，此处液化形成精确状态反转，也把宏观人群计算转换成可见的信息流。
+narrative_function: 让系统启动具有物态奇观，并使庞大离散运算一眼可读。
+transfer_rule: 把阵列活动写成液化时，应先建立固态基线，再让密集局部翻转、反光和传播共同造成连续流动错觉。
+failure_boundary: 阵列动作稀疏、各处不同步或没有明暗反光时，液化会掩盖离散动作而缺少视觉依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 数千万面黑白小旗密集挥动，使静止方阵表面连续闪烁起伏
+vehicle: 固体平面融成液体，表面因微小波纹反光而粼粼闪动
+ground: 旗面翻转造成明暗连续变化对应水面波纹反光；局部动作向全阵列扩散对应固体表面转为流动

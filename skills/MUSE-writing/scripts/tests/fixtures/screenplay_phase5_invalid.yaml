@@ -1,0 +1,9 @@
+sequences:
+  - seq_id: SEQ01
+    act: 1
+    scene: 1
+    location: "上海里弄 - 黎明"
+    time: "1925 春"
+    characters_in_scene: []
+    dramatic_purpose: ""
+    arc_position: warmup

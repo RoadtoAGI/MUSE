@@ -1,0 +1,23 @@
+card_id: vendetta-goes-institutional
+pattern_name: 私刑到制度
+dramatic_function: 把个人复仇外延到司法和职业系统，扩大主题尺度
+applicability: 适合展示暴力合法化；若制度只是背景板而无行动则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 公开枪决
+- 遗体捐献
+- 医生瓜分器官
+tags:
+- 制度暴力
+- 尺度升级
+- 合法化
+source_scenes:
+- novel: 现实一种
+  scene_id: S11
+  note: 国家刑罚接管家庭复仇后的处置
+- novel: 现实一种
+  scene_id: S13
+  note: 医学职业流程继续拆解人的主体性
+phase_affinity:
+- 1
+- 3
+- 4

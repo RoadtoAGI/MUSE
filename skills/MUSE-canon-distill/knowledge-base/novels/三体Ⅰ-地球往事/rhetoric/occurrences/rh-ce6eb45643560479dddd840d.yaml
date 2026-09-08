@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ce6eb45643560479dddd840d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L960
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 他是天塌下来都不怕的人，但现在塌下来的可能不止是天了
+sensory_mapping: 视觉；上方空间；坠落；重量；覆盖；灾难尺度
+context_fact: 大史从常伟思状态判断上级缺乏战胜未知敌人的信心。
+image_mechanism: 惯用极限“天塌”先竖起灾难上限，常伟思被放在其下仍不退；后半句再拆掉这层上限，让更不可命名的结构从宇宙尺度继续压下。
+property_alignment: 极端灾难对应头顶世界结构坠落；无人可置身事外对应天空覆盖所有人；常伟思平常镇定对应即使天塌仍站立；此次恐惧升级对应坍塌范围越过天空边界
+context_alignment: 敌人促成全球军队异常联合，确实超过国家战争这一“天空”；大史以熟语破限表达无法命名的新尺度。
+narrative_function: 用常伟思的恐惧侧写敌人级别，扩大危机到人类整体。
+transfer_rule: 升级熟语时，应先让原熟语成为清楚的尺度上限，再用人物反常反应或新事实证明为何必须越界。
+failure_boundary: 若威胁仍是常规战争、人物恐惧来自私人原因或证据不足，超越天塌会制造虚假宇宙尺度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 常伟思一向不惧任何常规灾难，此次敌人却带来超出人类既有尺度的威胁
+vehicle: 覆盖所有人的天空整体坍塌，而当前还有比天空更高更大的结构一同下落
+ground: 极端灾难对应头顶世界结构坠落；无人可置身事外对应天空覆盖所有人；常伟思平常镇定对应即使天塌仍站立；此次恐惧升级对应坍塌范围越过天空边界

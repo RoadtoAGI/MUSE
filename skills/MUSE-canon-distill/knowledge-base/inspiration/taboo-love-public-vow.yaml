@@ -1,0 +1,24 @@
+card_id: taboo-love-public-vow
+pattern_name: 禁忌之恋·当众宣告
+dramatic_function: 把私密关系推到最大公共场合，由不知规则的天真者宣告，让社会规范与个人价值正面对撞，一句话重组全部人物关系。
+applicability: 需有强规范压制的世界与真正不知规则的宣告者；若双方自知违规、遮遮掩掩，落差消失即失效（单书孤证，验证面窄）
+reuse_candidates:
+- 师徒名分这一具体禁忌
+- 武林大会式群雄场合
+- 宋代礼教语境
+tags:
+- 禁忌之恋
+- 当众宣情
+- 中点反转
+- 价值对撞
+source_scenes:
+- novel: 神雕侠侣
+  scene_id: S09
+  note: 小龙女当众说「我自己要做过儿的妻子」，全场关系瞬间重组
+- novel: 神雕侠侣
+  scene_id: S18
+  note: 在敌对的重阳宫祖师像前拜堂，把阻挠者强行定义为见证人
+phase_affinity:
+- 2
+- 3
+- 4

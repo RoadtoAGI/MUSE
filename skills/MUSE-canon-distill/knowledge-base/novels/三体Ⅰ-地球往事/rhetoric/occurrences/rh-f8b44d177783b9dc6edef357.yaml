@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f8b44d177783b9dc6edef357
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1675
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 像一个巨掌，更容易捕获到行星
+sensory_mapping: 手掌张开；抓握；巨大尺度；触碰阻滞
+context_fact: 气态层厚度可扩大十余倍，行星进入其中会剧烈摩擦减速，最终落入太阳。
+image_mechanism: 无形稀薄气体被描出掌纹和边缘，恒星不再被动等待碰撞，而像伸手到更远轨道；摩擦阻力承担手指收拢的抓握力量。
+property_alignment: 膨胀气层对应张开巨掌；气层覆盖范围对应掌面面积；行星近掠对应小物掠过手边；摩擦减速对应手指扣住；坠落对应被捕获
+context_alignment: 前句的呼吸使恒星成为生命体，此处顺势补出捕食器官，把周期膨胀的物理后果转成主动威胁。
+narrative_function: 将气层截获行星的机制变成一个抓握动作，增强危险的方向感。
+transfer_rule: 用手掌写捕获区时，应落实覆盖范围、接触、减速或约束和最终不能逃脱的过程。
+failure_boundary: 行星穿越气层几乎不减速、气层没有扩大截面，或轨道远离接触区时，巨掌无法完成抓握。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 恒星气态层膨胀后扩大作用范围，使近掠行星因摩擦减速并坠入恒星
+vehicle: 张开的巨大手掌扩大覆盖面，碰到经过的小物体便合力抓住
+ground: 气层半径增大对应手掌张开面积扩大；行星进入后难逃对应物体落入掌中被抓住

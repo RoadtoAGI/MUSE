@@ -1,0 +1,14 @@
+scene_id: S25
+source_notes: scene_S25_beats.md
+patterns:
+- pattern_id: S25-p1
+  beat: 孟浩然猛醒
+  dimension: overall
+  original_move: 用梦中创作与醒后论诗共筑友谊
+  ai_default_failure: 直接写两人惺惺相惜
+  transfer_rule: 知己关系可通过共同修诗完成
+  quote: 勿就我睡榻边论诗
+overall_traits:
+- 共同成诗代替直接抒情
+- 意识梯度推动创作层次
+- 温暖后以自欺反转

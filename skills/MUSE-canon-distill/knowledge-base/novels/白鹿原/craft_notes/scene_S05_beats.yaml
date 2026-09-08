@@ -1,0 +1,28 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 贺老大殉道
+  dimension: verb
+  original_move: 用咬断吐出落在三个硬动词替代宣言
+  ai_default_failure: 先写最后尊严等心理再写动作
+  transfer_rule: 极端受辱场景先给身体动作再让读者理解
+  quote: 咬断了自己的舌头
+- pattern_id: S05-p2
+  beat: 关门修碑
+  dimension: camera
+  original_move: 戏楼暴力与祠堂修复并置成空间对位
+  ai_default_failure: 按单一时间线展开群体暴力
+  transfer_rule: 道德抗议可用缺席空间而非正面喊话
+  quote: 关上祠堂大门
+- pattern_id: S05-p3
+  beat: 跪保
+  dimension: omission
+  original_move: 直接跪下请替吊，不铺内心挣扎
+  ai_default_failure: 铺垫深吸一口气和改变一切
+  transfer_rule: 权威自降时用动作和逻辑完成博弈
+  quote: 把我吊到杆上去
+overall_traits:
+- 戏楼和祠堂构成空间对位
+- 身体自残替代语言宣告
+- 行动先于心理解释

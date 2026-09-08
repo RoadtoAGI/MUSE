@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-876ff3389beab022dc6a1e1c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L795
+chapter: 第9章 红岸之一
+figure_type: simile
+quote: 十多名穿军装的操作人员坐在几乎将他们埋没的一排排仪器前，仿佛是蹲守在深深的战壕中
+sensory_mapping: 视觉；空间深度；包围；听觉；军事动作
+context_fact: 发射主控室仪器密布，操作口令此起彼伏且项目被称为大型武器。
+image_mechanism: 一排排仪器从桌面升成壕壁，坐姿变成蹲守，信号灯与口令则替代枪火和传令；室内技术劳动获得前线空间结构。
+property_alignment: 仪器排高密围住身体对应壕壁包围士兵；操作员坐低几乎被埋对应人在深沟低伏；口令紧张对应临战值守；军装与武器项目对应真实军事身份
+context_alignment: 人物本就是军人且执行发射，战壕并非装饰；“埋没”提供垂直深度，仪器排列提供壕壁。
+narrative_function: 把技术控制室定性为看不见敌人的战场。
+transfer_rule: 用战壕写控制空间时，应匹配设备围合高度、人员低姿、命令节奏和真实对抗任务。
+failure_boundary: 开放明亮、人员自由走动或执行常规民用监测的控制室没有深壕与临战蹲守。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 被多排高密仪器包围、紧张执行发射任务的红岸操作员
+vehicle: 身体低伏在深战壕里、被壕壁遮蔽并等待战斗的士兵
+ground: 仪器排高密围住身体对应壕壁包围士兵；操作员坐低几乎被埋对应人在深沟低伏；口令紧张对应临战值守；军装与武器项目对应真实军事身份

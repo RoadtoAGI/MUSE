@@ -1,0 +1,28 @@
+scene_id: '03'
+source_notes: scene_03_beats.md
+patterns:
+- pattern_id: 03-p1
+  beat: 暴力的精确测量
+  dimension: info_density
+  original_move: 用虱子数量和咬声当力量度量衡
+  ai_default_failure: 会直写阿Q心想自己更强
+  transfer_rule: 写暗战时用可数物替代心理独白
+  quote: 一个又一个，两个又三个
+- pattern_id: 03-p2
+  beat: 向上失败向下成功
+  dimension: verb
+  original_move: 被动挨打转为主动施暴，动词随权力翻转
+  ai_default_failure: 会补出欺软怕硬的心理推理
+  transfer_rule: 写权力转向时让主被动关系说话
+  quote: 伸出手去摩着
+- pattern_id: 03-p3
+  beat: 九分得意的笑
+  dimension: omission
+  original_move: 用九分留下看客共谋的解释空缺
+  ai_default_failure: 会写十分或解释看客为何发笑
+  transfer_rule: 写共谋时保留一个精确但不解释的差值
+  quote: 酒店里的人也九分得意的笑
+overall_traits:
+- 结构即论证，不直接评判
+- 用数字替代形容词
+- 笑声是权力结构声学映射

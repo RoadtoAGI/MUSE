@@ -1,0 +1,152 @@
+analysis_meta:
+  novel: "哈姆雷特"
+  source_text: "full_text.md"
+  source_form: "戏剧/复仇悲剧；短中篇，约 69773 字"
+  evidence_note: "Phase A 第一轮逆向分析；证据以幕/景标注，未做行号级场景切分。"
+  source_path: "dramas/哈姆雷特/full_text.md"
+  work_type: "drama"
+
+arc_expansions:
+  - arc_id: "ARC-1"
+    sequences:
+      - seq_id: "ARC1-SEQ1"
+        name: "城墙恶兆"
+        core_conflict: "守卫与赫瑞修在理性怀疑和国家凶兆之间摇摆。"
+        escalation_direction: "从传闻中的两夜幻影，递进到赫瑞修亲眼看见披甲先王亡魂。"
+        sequence_climax: "鬼魂在鸡鸣前再次出现又消散，赫瑞修判断这是国家突变先兆。"
+        closed: "幽灵是否存在的怀疑被关闭。"
+        opened: "幽灵为何披甲出现、是否会向哈姆雷特开口。"
+        source_chapters: ["第一幕第一景"]
+      - seq_id: "ARC1-SEQ2"
+        name: "宫廷粉饰与王子哀悼"
+        core_conflict: "克劳地用政治语言整合丧礼、婚礼和外交，哈姆雷特拒绝接受这种表面平衡。"
+        escalation_direction: "从公开厅堂的合法化演说，递进到哈姆雷特独白中的乱伦厌恶和赫瑞修带来的幽灵消息。"
+        sequence_climax: "哈姆雷特决定夜里守望，要与酷似父王的幽灵说话。"
+        closed: "哈姆雷特的忧郁来源被确立为父死与母嫁的双重创伤。"
+        opened: "父王亡魂将把他的怀疑导向何处。"
+        source_chapters: ["第一幕第二景"]
+      - seq_id: "ARC1-SEQ3"
+        name: "爱情管制与复仇命令"
+        core_conflict: "家庭和国家同时以管制名义限制年轻人的欲望与行动，幽灵则把哈姆雷特推向危险自由。"
+        escalation_direction: "从雷尔提、波隆尼尔要求欧菲莉亚疏远哈姆雷特，递进到哈姆雷特抗拒赫瑞修阻拦并随鬼魂离开。"
+        sequence_climax: "鬼魂揭露克劳地弑兄篡位，哈姆雷特立誓复仇并让友人保密自己的装疯策略。"
+        closed: "先王之死的隐秘原因被给出。"
+        opened: "复仇如何执行、幽灵是否可靠、哈姆雷特装疯将造成什么后果。"
+        source_chapters: ["第一幕第三景", "第一幕第四景", "第一幕第五景"]
+    arc_progression_note: "第一幕把公共不安、宫廷伪秩序、爱情管制和私人复仇义务压缩到同一夜，结尾的誓言替全剧装上驱动轴。"
+
+  - arc_id: "ARC-2"
+    sequences:
+      - seq_id: "ARC2-SEQ1"
+        name: "疯症被误读"
+        core_conflict: "宫廷试图诊断和利用哈姆雷特的异常，哈姆雷特则用疯言反向测试每个来访者。"
+        escalation_direction: "从波隆尼尔派瑞挪都窥探儿子、误判哈姆雷特因爱发疯，递进到国王召老同学刺探王子。"
+        sequence_climax: "戏班到来后，哈姆雷特从演员为虚构悲剧落泪得到刺激，决定用戏剧捕捉国王良心。"
+        closed: "爱情疯癫解释被放上台面，但没有真正解释哈姆雷特。"
+        opened: "戏中戏能否验证幽灵证言。"
+        source_chapters: ["第二幕第一景", "第二幕第二景"]
+      - seq_id: "ARC2-SEQ2"
+        name: "戏剧陷阱"
+        core_conflict: "克劳地、波隆尼尔用欧菲莉亚和旁听来验证疯癫，哈姆雷特用戏剧反过来审判克劳地。"
+        escalation_direction: "从生死独白和尼姑庵对话中的精神崩裂，递进到哈姆雷特指导演员并在众人面前上演毒杀镜像。"
+        sequence_climax: "克劳地在陆西亚诺倒毒场面中起身离席，戏剧陷阱奏效。"
+        closed: "哈姆雷特获得克劳地有罪的强证据。"
+        opened: "有了证据后，哈姆雷特是否会立刻复仇。"
+        source_chapters: ["第三幕第一景", "第三幕第二景"]
+    arc_progression_note: "第二 Arc 以侦查结构运行：所有人都在看别人，最终被看见的是克劳地自己的良心反应。"
+
+  - arc_id: "ARC-3"
+    sequences:
+      - seq_id: "ARC3-SEQ1"
+        name: "祈祷前的迟疑"
+        core_conflict: "哈姆雷特已有行动机会，却被灵魂归宿和复仇是否等于赦免的逻辑拖住。"
+        escalation_direction: "从克劳地下令送哈姆雷特赴英格兰，递进到国王独自祈祷、哈姆雷特拔剑又收剑。"
+        sequence_climax: "哈姆雷特选择不在克劳地祈祷时杀他。"
+        closed: "直接复仇的第一机会被放弃。"
+        opened: "延迟行动将在哪里转化为灾难。"
+        source_chapters: ["第三幕第三景"]
+      - seq_id: "ARC3-SEQ2"
+        name: "寝室误杀"
+        core_conflict: "哈姆雷特试图以语言刺穿母亲良心，波隆尼尔和国王的窥探机制潜伏其中。"
+        escalation_direction: "从母子互相指控，递进到帐幕后呼救、哈姆雷特误以为是国王而刺杀。"
+        sequence_climax: "波隆尼尔被杀，鬼魂再次出现提醒哈姆雷特不要偏离复仇使命。"
+        closed: "葛簇特被迫看见自己灵魂污点。"
+        opened: "波隆尼尔之死会引发政治和家庭反噬。"
+        source_chapters: ["第三幕第四景"]
+      - seq_id: "ARC3-SEQ3"
+        name: "流放与军事镜像"
+        core_conflict: "克劳地要把哈姆雷特送往英格兰处死，哈姆雷特在流放途中被福丁布拉军队的行动性羞辱。"
+        escalation_direction: "从藏尸讥讽和赴英命令，递进到哈姆雷特看见挪威军队为弹丸之地冒死。"
+        sequence_climax: "哈姆雷特立下从今以后只容许浴血念头的决心。"
+        closed: "宫廷内部暂时清空哈姆雷特。"
+        opened: "他如何逃过英格兰密令并返国。"
+        source_chapters: ["第四幕第一景", "第四幕第二景", "第四幕第三景", "第四幕第四景"]
+    arc_progression_note: "第三 Arc 把复仇拖延转化成具体死亡：该死者未死，偷听者先死，反过来迫使对手升级为暗杀。"
+
+  - arc_id: "ARC-4"
+    sequences:
+      - seq_id: "ARC4-SEQ1"
+        name: "悲伤失控"
+        core_conflict: "克劳地试图管控波隆尼尔之死的舆论，欧菲莉亚和雷尔提的悲伤却突破宫廷秩序。"
+        escalation_direction: "从欧菲莉亚疯歌泄露丧父、失贞和死亡意象，递进到雷尔提率众闯宫质问国王。"
+        sequence_climax: "雷尔提看见疯癫的欧菲莉亚，把复仇怒火完全点燃。"
+        closed: "波隆尼尔之死不再能被宫廷内部处理。"
+        opened: "雷尔提的复仇会被谁引导。"
+        source_chapters: ["第四幕第五景"]
+      - seq_id: "ARC4-SEQ2"
+        name: "反复仇毒计"
+        core_conflict: "克劳地把雷尔提的荣誉伤痛转化为杀死哈姆雷特的政治工具。"
+        escalation_direction: "从哈姆雷特来信宣告返国，递进到克劳地设计比剑事故、雷尔提加上毒剑、国王补上毒酒。"
+        sequence_climax: "葛簇特报告欧菲莉亚溺死，雷尔提的悲伤重新激化，毒计更难回头。"
+        closed: "哈姆雷特返国后的杀局被设计完成。"
+        opened: "决斗礼仪将怎样吞没所有参与者。"
+        source_chapters: ["第四幕第六景", "第四幕第七景"]
+    arc_progression_note: "第四 Arc 让哈姆雷特的误杀在别人身上复制成更快、更盲目的复仇，并被真正的罪犯操控。"
+
+  - arc_id: "ARC-5"
+    sequences:
+      - seq_id: "ARC5-SEQ1"
+        name: "墓园中的死亡教育"
+        core_conflict: "哈姆雷特以哲学方式接受肉身朽坏，却在欧菲莉亚葬礼上被私人爱与嫉妒重新拉回。"
+        escalation_direction: "从掘墓人的笑谈和约利克头骨，递进到欧菲莉亚棺木出现、哈姆雷特与雷尔提在坟中冲突。"
+        sequence_climax: "哈姆雷特公开宣称自己爱欧菲莉亚并与雷尔提争执。"
+        closed: "死亡从抽象思辨变成哈姆雷特亲近者的具体坟墓。"
+        opened: "雷尔提与哈姆雷特的公开冲突将导向决斗。"
+        source_chapters: ["第五幕第一景"]
+      - seq_id: "ARC5-SEQ2"
+        name: "天意与赴赛"
+        core_conflict: "哈姆雷特已逃过英格兰密令并知道克劳地恶意，却选择进入国王安排的比赛。"
+        escalation_direction: "从哈姆雷特讲述掉包国书，递进到奥斯力克传达赌局和哈姆雷特接受不祥预感。"
+        sequence_climax: "哈姆雷特与雷尔提握手道歉，决斗开始。"
+        closed: "英格兰阴谋被哈姆雷特反制。"
+        opened: "真正的毒计隐藏在表面和解和竞技中。"
+        source_chapters: ["第五幕第二景"]
+      - seq_id: "ARC5-SEQ3"
+        name: "毒计反噬与王国交接"
+        core_conflict: "克劳地以祝酒和比赛礼仪掩护谋杀，毒剑毒酒却连锁杀死所有关键人物。"
+        escalation_direction: "从哈姆雷特连中两剑的竞技优势，递进到葛簇特误饮毒酒、雷尔提和哈姆雷特互中毒剑、国王罪行暴露。"
+        sequence_climax: "哈姆雷特用毒剑刺克劳地并逼其喝下毒酒。"
+        closed: "复仇使命、克劳地罪行、罗生克兰与盖登思邓命运和王位归属全部清算。"
+        opened: "赫瑞修需要向公共世界讲述真相，福丁布拉接管丹麦。"
+        source_chapters: ["第五幕第二景"]
+    arc_progression_note: "第五 Arc 先让哈姆雷特接受死亡，再让死亡作为揭露机制进入宫廷中心。"
+
+causal_chain: "ARC1-SEQ1 的幽灵凶兆使赫瑞修通知哈姆雷特；因此 ARC1-SEQ2 的哀悼王子走向城墙；因此 ARC1-SEQ3 亡魂命令复仇；但幽灵证言仍可疑，推动 ARC2-SEQ1 的装疯侦查；戏班到来使 ARC2-SEQ2 的戏剧陷阱成为证据；证据确认后，ARC3-SEQ1 的祈祷迟疑错过直接复仇；迟疑转入 ARC3-SEQ2 的寝室误杀；误杀造成 ARC3-SEQ3 的流放与暗杀；波隆尼尔之死触发 ARC4-SEQ1 的欧菲莉亚疯癫和雷尔提返国；克劳地借此在 ARC4-SEQ2 设计毒计；哈姆雷特返国后经 ARC5-SEQ1 的墓园接受死亡；在 ARC5-SEQ2 接受决斗；最终 ARC5-SEQ3 毒计反噬，公开清算。"
+
+arc_progression:
+  impact_escalation: "各 Arc 高潮从秘密知识升级为公开反应、误杀血债、复仇阴谋，最终达到王室集体死亡和政权交接。"
+  causal_chain: "鬼魂揭露谋杀 → 戏中戏验证罪行 → 误杀波隆尼尔引发流放和反复仇 → 欧菲莉亚死亡与雷尔提毒计 → 决斗中罪行公开、克劳地被杀、福丁布拉接管。"
+
+narrative_threads:
+  - name: "复仇与真相线"
+    description: "哈姆雷特从亡魂证言到戏剧验证，再到最终公开杀死克劳地。"
+    primary_arcs: ["ARC-1", "ARC-2", "ARC-3", "ARC-5"]
+  - name: "窥探与表演线"
+    description: "波隆尼尔、国王、朋友和哈姆雷特互相监视；戏剧、疯话和礼仪成为遮蔽/揭露工具。"
+    primary_arcs: ["ARC-2", "ARC-3", "ARC-5"]
+  - name: "波隆尼尔家族反噬线"
+    description: "欧菲莉亚被父兄管制并被用作试探，波隆尼尔被误杀后，她疯死，雷尔提成为被克劳地操控的复仇者。"
+    primary_arcs: ["ARC-1", "ARC-3", "ARC-4", "ARC-5"]
+  - name: "国家继承线"
+    description: "福丁布拉从外部军事威胁变成结尾接管者，显示丹麦旧秩序自毁后只能由外部力量重组。"
+    primary_arcs: ["ARC-1", "ARC-3", "ARC-5"]

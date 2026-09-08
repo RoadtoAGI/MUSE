@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3a9d4e8a7bd0fe7aab2aa106
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1214
+chapter: 第14章 红岸之三
+figure_type: analogy
+quote: 这些事只有站到一个新的高度上才能想得通，就这点而言，红岸已经具有很大的意义了
+sensory_mapping: 视觉；垂直高度；视野范围；空间整合
+context_fact: 批示认为即便外星文明未被发现，红岸也迫使人们思考以前无暇思考的人类整体问题。
+image_mechanism: 抽象尺度变化被做成登高动作，日常政治障碍随着视点上升而缩小，原先互相遮挡的局部在下方拼成一幅全图。
+property_alignment: 宇宙视角对应高观察点；日常政治偏见对应低处遮挡；整体文明关系显现对应俯瞰看清布局；思路贯通对应视线越过障碍
+context_alignment: 同一文件前文谈战略视野盲区，登高提供补盲的方法，并自然引出外星“旁观者”评价人类。
+narrative_function: 赋予红岸超出直接通信成败的思想价值，扩大工程主题。
+transfer_rule: 用高度写认知尺度时，应指出低处哪些障碍被越过、高处新增哪些整体关系，以及视点变化如何改写判断。
+failure_boundary: 高层视角丢失关键个体细节、观察者并未获得新信息，或“高度”只表示自我优越时，登高不能保证想得通。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 从超越地球内部政治的宇宙尺度重新审视人类社会问题
+vehicle: 登上更高观察点后看清低处整体布局和各部分关系
+ground: 宇宙尺度减少局部立场遮挡对应高处扩大视野；原本纠缠的问题显出整体关系对应俯瞰能看清布局

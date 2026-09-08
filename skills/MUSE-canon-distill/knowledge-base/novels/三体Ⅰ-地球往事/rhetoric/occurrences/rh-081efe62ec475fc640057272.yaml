@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-081efe62ec475fc640057272
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L883
+chapter: 第10章 宇宙闪烁之二
+figure_type: simile
+quote: 意识深处硬撑着的某种东西像蜡一样变软了，崩溃了
+sensory_mapping: 触觉；温度；硬度变化；形变；心理
+context_fact: 他此前强撑着行动，听圣乐并感到被抚摸后双手捂脸哭泣。
+image_mechanism: 心理支撑被做成一块靠低温保持形状的蜡，音乐和安慰像热从表面渗入；硬度逐渐下降，最后再也承不住上方重量而塌掉。
+property_alignment: 意志勉强维持形状对应硬蜡撑立；情绪安抚与压力共同作用对应热量使蜡软化；停止自控对应材料失去刚度；哭泣爆发对应结构崩塌
+context_alignment: 前文心灵先受巨手抚摸，触觉动作自然引出材质变化；“硬撑—变软—崩溃”又构成完整相变序列。
+narrative_function: 具体呈现克制解除到哭泣发生的内部过程。
+transfer_rule: 用受热材料写心理崩溃时，应交代初始刚度、热源、软化过程和失去承重后的形变，保留渐变而非瞬断。
+failure_boundary: 人物因突然打击瞬间断裂、因说服主动改变观点或只是短暂放松时，蜡的受热软化与承重失败机制不合。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼靠意志维持的最后心理防线在圣乐与恐惧中软化瓦解
+vehicle: 原本硬挺成形的蜡受热后变软、失去支撑并塌陷
+ground: 意志勉强维持形状对应硬蜡撑立；情绪安抚与压力共同作用对应热量使蜡软化；停止自控对应材料失去刚度；哭泣爆发对应结构崩塌

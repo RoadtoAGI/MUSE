@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e2a2cd80406b2e1de5c7eef9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1544
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 他们刚刚飘离的地面像蛛网似的开裂了
+sensory_mapping: 视觉；线条拓扑；脆裂；平面覆盖
+context_fact: 失重加剧、金字塔承力结构失稳，地面裂缝扩大后整座建筑解体成巨石。
+image_mechanism: 坚实石面先浮出极细放射线，线条继续分叉相接，像有蜘蛛在瞬间织满整块表面；网成之时也标志结构被切碎。
+property_alignment: 裂纹细长对应蛛丝；放射分叉对应网线节点；裂缝交会对应网格；迅速覆盖地面对应蛛网铺开
+context_alignment: 俯视脚下平面最先只能见线网，蛛网既准确描形，也以纤细结构反衬巨石即将崩解。
+narrative_function: 把宏大建筑解体前兆缩成清楚图案，给下一秒碎裂提供视觉过程。
+transfer_rule: 用蛛网写裂缝时，应匹配放射节点、分叉交连、覆盖表面和后续结构分块。
+failure_boundary: 裂缝只有一条直线、平行不交或发生在柔软表面时，蛛网几何不会成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 金字塔表面从多点迅速产生相互连接、扩大的细密裂缝
+vehicle: 从节点向多方向放射并彼此交连的蜘蛛网
+ground: 裂纹从多处辐射分叉对应蛛丝从节点伸展；裂缝互相连接覆盖表面对应蛛网形成网格

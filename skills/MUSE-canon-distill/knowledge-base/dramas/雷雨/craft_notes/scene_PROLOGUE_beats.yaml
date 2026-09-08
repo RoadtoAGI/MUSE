@@ -1,0 +1,49 @@
+scene_id: PROLOGUE
+source_notes: scene_PROLOGUE_beats.md
+patterns:
+- pattern_id: PROLOGUE-p1
+  beat: 空台音乐开场
+  dimension: transition
+  original_move: 开幕屋内寂静无人，先以远处弥撒与钟声定调，移时门才被推开。
+  ai_default_failure: 让人物开幕即上场开讲，急于交代背景。
+  transfer_rule: 需要时间距离或庄重定调时，让空台与声响先工作十几秒。
+  quote: 教堂内合唱颂主歌同大风琴声
+- pattern_id: PROLOGUE-p2
+  beat: 老人匿名上场
+  dimension: blocking
+  original_move: 权势者上场不报身份只称「老人」，问答全围着病妇打转。
+  ai_default_failure: 尽早点明人物真名身份，怕观众迷路。
+  transfer_rule: 框架场里主角可匿名化，身份延迟即悬念本体。
+  quote: 一位苍白的老年人走进来
+- pattern_id: PROLOGUE-p3
+  beat: 姊弟问话机器
+  dimension: exchange
+  original_move: 让孩童纠缠式好奇替观众发问，姐姐半懂半瞒，答案始终缺一角。
+  ai_default_failure: 用旁白或说明性台词直接交代前史。
+  transfer_rule: 前史投放时给观众安一个剧内代理提问者。
+  quote: 这三个人怎么会死的？
+- pattern_id: PROLOGUE-p4
+  beat: 尼姑闲谈喂前史
+  dimension: exchange
+  original_move: 惨案信息由两个局外仆妇以家常口吻碎片化抛出，带讹传色彩。
+  ai_default_failure: 安排知情者作完整连贯的往事讲述。
+  transfer_rule: 前史用边缘人物闲谈分片投放，每片留缺口。
+  quote: 一天夜里连男带女死过三个人
+- pattern_id: PROLOGUE-p5
+  beat: 侍萍无声倒地
+  dimension: blocking
+  original_move: 主角级人物全场零台词，踱窗、谛听、缓缓跪倒。
+  ai_default_failure: 给她一句呓语或内心戏点破身份。
+  transfer_rule: 最重的人物可以纯身体动作过场，姿态替她说话。
+  quote: 老妇人躯干无力，渐向下倒
+- pattern_id: PROLOGUE-p6
+  beat: 你去问她收尾
+  dimension: transition
+  original_move: 以姊弟互相推诿的问句收幕，台暗乐起，问题抛给观众。
+  ai_default_failure: 给出回答或预告正剧内容。
+  transfer_rule: 框架场用未回答的问题切入正剧，比预告更有钩力。
+  quote: 姐姐，你去问她
+overall_traits:
+- 序幕是距离装置，悲剧装进回忆框再开演
+- 信息全由次要人物闲谈携带，无直接叙述
+- 权势者匿名、受难者失语，双重悬置

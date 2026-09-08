@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9e9331fa290628242310873c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L820
+chapter: 第9章 红岸之一
+figure_type: simile
+quote: 她再次仰望天线，感觉它像一只向苍穹张开的巨大手掌，拥有一种超凡脱俗的力量
+sensory_mapping: 视觉；形态；动作；方向；力觉；尺度
+context_fact: 第147次发射令云发蓝、鸟群坠落，目标位于夜空中的BN20197F方向。
+image_mechanism: 圆形反射面被读成掌心，机械支架成为骨骼；它不再被动接收，而是向天空伸出并隔空施力，刚才不可见的电磁发射获得手掌击出的动作。
+property_alignment: 抛物面展开对应掌面张开；支撑结构与辐条对应掌骨指向；天线仰角朝天对应手举向苍穹；定向发射能量对应手掌把力量投向目标
+context_alignment: 叶文洁已亲见其近场杀伤且听到“目标”，手掌既贴合抛物面外形，又把设备从器物提升为施力主体。
+narrative_function: 在章末揭示红岸的力量尺度，并将未知目标悬在星空。
+transfer_rule: 把机械结构写成肢体时，应匹配关节与表面形态、朝向、动作动词和真实功能，使拟体承担作用机制。
+failure_boundary: 天线收拢、水平放置、仅被动接收或没有定向作用时，张掌施力会混淆设备角色。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 红岸抛物面天线仰向夜空并发射强大电磁能量的形态与功能
+vehicle: 一只巨大手掌向高空张开，能隔空触及并打击遥远目标
+ground: 抛物面展开对应掌面张开；支撑结构与辐条对应掌骨指向；天线仰角朝天对应手举向苍穹；定向发射能量对应手掌把力量投向目标

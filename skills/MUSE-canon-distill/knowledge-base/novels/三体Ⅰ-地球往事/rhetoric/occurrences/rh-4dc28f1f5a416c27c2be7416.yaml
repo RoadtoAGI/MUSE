@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4dc28f1f5a416c27c2be7416
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1261
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 他不过是披着科学外衣的玄学家
+sensory_mapping: 视觉衣着；内外层；身份伪装
+context_fact: 伽利略批评墨子拥有精良仪器，却凭主观想象建立全模拟模型且不认真对待反例。
+image_mechanism: 方法论被分成身体和衣层：仪器、观测词汇可穿脱，决定理论性质的推理内核藏在里面；科学外观因此无法改变玄学身份。
+property_alignment: 精良设备与观测表述对应科学衣服；主观臆测对应衣内玄学身体；忽视检验对应外观不能改变真实身份；伪科学可信度对应衣着造成误认
+context_alignment: 场景人物本就以中世纪长袍区分身份，衣服喻体利用大殿现场视觉，也符合伽利略好斗的判词。
+narrative_function: 明确经验科学与貌似科学的区别，为汪淼提出可检验模型设立方法论门槛。
+transfer_rule: 用外衣批评伪装时，应分别指出可见表层、隐藏内核和两者矛盾，并给出行为证据证明衣服没有改变本体。
+failure_boundary: 方法虽不完善但确实依据证据修正，或外在形式本身会改变内在机制时，科学外衣会变成人身标签而非分析。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 伽利略所判断的墨子理论：使用观测设备和模型形式，内里仍由主观臆测支配
+vehicle: 玄学本体穿上一件外观属于科学的衣服以伪装身份
+ground: 实验设备和术语构成外在形式对应衣服只覆盖表面；推论不服从观测构成内核对应穿衣者身份未改变

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0ab05efbdc7fcc8a97e7f9e7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L580
+chapter: 第6章 宇宙闪烁之一
+figure_type: metaphor
+quote: 好在我的项目靠卫星数据，与这些‘旅游景观’无关了
+sensory_mapping: 视觉；空间；功能降级；反讽
+context_fact: 该基地向游客开放，而米波研究因通信干扰大多不能正常开展。
+image_mechanism: 昂贵仪器从科学链条中被摘除，放回游客视线里成为纯外观对象；引号把这一功能降级标成苦涩的临时命名。
+property_alignment: 设施只保留壮观外形对应景点供观赏；科研人员不能用它观测对应景观没有研究功能；基地对游客开放对应景点实际具有参观用途
+context_alignment: 前一句“聋耳”解释失效，这一句进一步给失效设备安排仅剩的现实角色，反讽有事实支点。
+narrative_function: 批评基础科研受商业通信挤压的荒诞处境。
+transfer_rule: 写设施降级时，可用它被迫承担的次级社会用途作喻体，并让引号提示说话者对身份错位的判断。
+failure_boundary: 仍在稳定产出科研数据或参观本就是主要使命的设施并未降格，称旅游景观会抹除其实际功能。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 因干扰失去科研用途、只剩可供游客观看价值的射电天线
+vehicle: 供人参观拍照而不承担技术任务的旅游景观
+ground: 设施只保留壮观外形对应景点供观赏；科研人员不能用它观测对应景观没有研究功能；基地对游客开放对应景点实际具有参观用途

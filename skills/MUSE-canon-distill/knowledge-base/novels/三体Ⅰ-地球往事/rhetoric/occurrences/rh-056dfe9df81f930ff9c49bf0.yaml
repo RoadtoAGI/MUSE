@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-056dfe9df81f930ff9c49bf0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L654
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 他们渴望的战争就像草原天边那跑死马的远山，清晰可见，但到不了眼前
+sensory_mapping: 视觉；空间距离；运动；时间
+context_fact: 知青原期待抵抗苏军，现实工作只有垦荒、放牧和砍伐。
+image_mechanism: 政治宣传把战争竖成地平线上的清楚目标，知青的青春则化为不断奔跑的马；视觉上的近与路程中的不可达制造持续落空。
+property_alignment: 战争想象鲜明对应远山轮廓清晰；等待追逐漫长对应跑马赶路；目标不随努力接近对应地平线远山持续后退
+context_alignment: 草原地貌直接来自人物所在环境，“跑死马”还准确计入被耗尽的青春成本。
+narrative_function: 拆穿战争浪漫想象，转入知青以破坏环境消耗激情。
+transfer_rule: 写可见却不可达的承诺时，可选受透视或地平线支配的目标，并让追逐工具承担实际消耗。
+failure_boundary: 有明确日期、路程随行动缩短或最终真实抵达的目标不适合地平线远山，否则会预设承诺虚假。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 兵团知青被反复许诺却始终不会真正抵达的边境战争
+vehicle: 草原上看似清楚、骑马追赶却因尺度错觉始终到不了的天边远山
+ground: 战争想象鲜明对应远山轮廓清晰；等待追逐漫长对应跑马赶路；目标不随努力接近对应地平线远山持续后退

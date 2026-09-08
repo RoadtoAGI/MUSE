@@ -1,0 +1,27 @@
+mode: reference
+display_name: 岳子安
+role_slug: yue-zian
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/死亡奔赴/phase3_spine.yaml  # 结构化依据（spine.shadow_desire / conscious_vs_unconscious / arc_framework）
+  - pipeline/phase0_conception.yaml      # controlling_idea / emotional_charge（主题型人设语境）
+  - scenes/scene_SB-S01.md
+  - scenes/scene_SB-S03.md
+  - scenes/scene_SB-S05.md
+  - scenes/scene_SB-S08.md
+  - scenes/scene_SB-S09.md
+  - scenes/scene_SB-S10.md
+  - scenes/scene_SB-S11.md  # canon-ending 佐证（抵达即死 + 爱的异化 + 罗允取信）
+note: "本系列单篇人物未登记于 phase2_character.yaml（仅登跨篇）；结构化字段取自篇内 phase3_spine.yaml + phase0。"
+built_at: 2026-05-29T17:50:45+08:00
+skill_version: 1
+locator_count: 13
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S05 内心独白用消费品消解恐怖 / S03 自私求生的诚实念头 / S08 临终复制粘贴"我爱你"），稳定性充分。
+  弧光起点（S01）+ 转折（S05/S10）+ 终点（S10 断臂）三段齐全，仅内在转变；物理死亡 / 感染 / 幻觉异化拆入 canon-ending.md。
+  性格真相有压力情境直接佐证（S05 第一次杀人压抑 / S10 路过求救者不停车 / S10 自断左臂）。
+  核心欲望的 shadow_desire（被认定为唯一）依赖 S09:L53-L55 单场长独白，但该独白是全篇双线共题的核心宣言，密度极高，可接受。
+  边界第 4 条（绝不把女友吓坏）依赖 S01:L39 单点（过滤割脸视频），属日常观察而非极端检验场景，可接受但仅单点支撑。
+  岳子安为本篇 POV 主角，信息密度极高；所有断言均有篇内 SB-S* scene locator 佐证。

@@ -1,0 +1,42 @@
+scene_id: S28
+source_notes: scene_S28_beats.md
+patterns:
+- pattern_id: S28-p1
+  beat: 反透视认知链
+  dimension: info_density
+  original_move: 现象观察实验规律命名五步认知链，测量被剧情稀释分散
+  ai_default_failure: AI 默认用说明书直接交代设定原理
+  transfer_rule: 反常识设定让读者亲历测量，认知链同时训练解码方法论
+  quote: 不管远近，他在我们眼中的大小都是一样的
+- pattern_id: S28-p2
+  beat: 木盆事故顿悟
+  dimension: omission
+  original_move: 顿悟只一句反问，思维链留给读者用刚展示过的零件补完
+  ai_default_failure: AI 写顿悟必给完整思维链
+  transfer_rule: 解决方案的惊讶但必然，等于新组合乘旧零件
+  quote: 那要是一只小船呢？
+- pattern_id: S28-p3
+  beat: 泡沫航道
+  dimension: camera
+  original_move: 三个机位写航道奇观，威胁只许擦边不夺意象注意力
+  ai_default_failure: AI 会兑现惊险戏，夺走读者对航迹意象的注意力
+  transfer_rule: 编码物行为在故事内严格守恒，物理映射藏在守恒账目里
+  quote: 一颗拖着雪白彗尾的彗星
+- pattern_id: S28-p4
+  beat: 针眼终局
+  dimension: camera
+  original_move: 崩溃不给表情特写，脚步声三变写完一次心理全程
+  ai_default_failure: AI 写反派末路必给挣扎与忏悔
+  transfer_rule: 规则推到对自己也成立的极限测试，设定细节兼作物证
+  quote: 雪浪纸翘起的一角
+- pattern_id: S28-p5
+  beat: 卸伞仪式
+  dimension: omission
+  original_move: 生死验证只写她让伞慢下来的动作，犹豫与欢呼全省
+  ai_default_failure: AI 会写验证前恐惧与验证后欢呼，情感不留给读者
+  transfer_rule: 规则系统谢幕时完整重放一次，双重收束分供编码与情感层
+  quote: 公主安然无恙
+overall_traits:
+- 全零件闭环；故意留下的缺口就是最响的钩子
+- 认知链释设定，读者获得自己发现的知识
+- 美本身就是载体，而不是载体的装饰

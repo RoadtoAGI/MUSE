@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--liu-yisheng
+work_id: novel:狂病-莫千回
+display_name: 刘医生「我」
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '"我"是第一人称叙述者，嗓音是压抑的、向内卷的独白。对外说话克制、负责、带医生式的安抚（"没事的，所有人都吓坏了……所有人的压力都已经到极限了"）；真正的情绪全在不出声的内心吐槽和自我审判里——"我真的服了，这个世界还能更糟点吗""啊，烦死了""那时的我还不知道，那场晚餐将是我们最后一次所有人齐全地聚在一起吃饭"。他惯用这种"事后回望"的预叙口吻给灾难定调，把最黑的判断（"人类好像自始至终和感染者都没什么区别"）用近乎平静的句子说出来。到了终局，面对石浩洋，他的声音第一次从隐忍翻成冷冽的反击与宣告。
+
+
+    佐证：scenes/scene_YY-S08.md:L3-L3 / scenes/scene_YY-S03.md:L77-L77 / scenes/scene_YY-S07.md:L41-L41 / scenes/scene_YY-S10.md:L83-L83'
+  evidence_locators:
+  - scenes/scene_YY-S08.md:L3-L3
+  - scenes/scene_YY-S03.md:L77-L77
+  - scenes/scene_YY-S07.md:L41-L41
+  - scenes/scene_YY-S10.md:L83-L83
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1aef4496d2adc08172ed1775
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1512
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: “维修”了故障部件后
+sensory_mapping: 刀剑切除；零件拆换；机器复转；冷硬材质
+context_fact: 秦始皇按牛顿建议下令将故障门电路所有兵卒斩首，冯·诺伊曼厌恶地旁观后重启计算机。
+image_mechanism: 引号把处决强行塞进机修词汇：利剑成为扳手，活人被降格为可拔插零件，重启成功则冷酷地验证技术层面的“修好”。
+property_alignment: 门电路士兵出错对应机器部件故障；集体斩杀对应拆除整块组件；补充新兵对应更换零件；重启顺利对应维修后恢复功能
+context_alignment: 整段人列计算机类比到此越过认知说明进入伦理后果，引号和冯·诺伊曼的厌恶明确暴露去人化。
+narrative_function: 以反讽术语揭示帝国计算的残暴成本，让技术奇观突然显出血腥底层。
+transfer_rule: 用维修反讽人员处置时，应让组织确实按功能定位、移除、替换和复运处理人，并用语气标记伦理错位。
+failure_boundary: 只是帮助成员改正错误、没有把人当耗材，或文本无反讽信号时，维修可成为中性培养比喻，不能推出处决式去人化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 秦军骑兵杀死组成出错门电路的全部士兵并用新人替换
+vehicle: 技术人员拆除损坏机器零件并换上可工作的部件
+ground: 出错士兵被定位并清除对应拆下故障零件；替换后系统恢复对应维修使机器重新运行

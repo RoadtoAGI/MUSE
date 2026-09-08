@@ -1,0 +1,28 @@
+scene_id: S28
+source_notes: scene_S28_beats.md
+patterns:
+- pattern_id: S28-p1
+  beat: 人格切换
+  dimension: omission
+  original_move: 分裂不靠解说，自称「我／我们／斯密戈」摇摆自证
+  ai_default_failure: 写「两个人格在他体内争吵」的说明书
+  transfer_rule: 多重人格交给代词与语言破碎度，叙述者只录音
+  quote: 我，我们，我不要回去
+- pattern_id: S28-p2
+  beat: 发誓
+  dimension: info_density
+  original_move: 全场最重动作是誓词介词之争：「以它」还是「对它」
+  ai_default_failure: 插入一段魔戒誓言原理的讲解
+  transfer_rule: 规范性语言可承担动作场面级张力，默契本身即信息
+  quote: 别以它的名义发誓……就对它发誓
+- pattern_id: S28-p3
+  beat: 誓成之后
+  dimension: info_density
+  original_move: 驯服达成同段即标有效期，主仆判断分歧靠反应并置
+  ai_default_failure: 安排一场「我们能信他吗」的辩论戏
+  transfer_rule: 敌人转化必带倒计时，善意与不信任同步发放
+  quote: 从那刻起他变了，至少有段时间是这样
+overall_traits:
+- 人格外化为语法，台词即诊断
+- 言语行为当动作场面写
+- 转化必带有效期，读者带倒计时阅读

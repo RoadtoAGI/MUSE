@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a0125f6630991825faa9aebf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L48
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 烟雾像晨雾般在半空浮了一层
+sensory_mapping: 视觉；嗅觉；空间
+context_fact: 多人在封闭大厅连续吸烟，烟已浓到可见。
+image_mechanism: 把难量化的烟味变成半空可见的一层灰白介质；“浮”让烟雾获得晨雾缓慢悬停的运动，视线也随之被削弱。
+property_alignment: 烟雾成层漂浮对应晨雾低悬；烟气削弱视线对应晨雾造成朦胧遮蔽
+context_alignment: 晨雾把抽象的烟味浓转成有体积的空间层。
+narrative_function: 加厚临时指挥部的疲惫和窒闷气氛。
+transfer_rule: 描写气体浓度时，可寻找具有相同悬浮高度、边界和遮蔽效果的自然介质，让浓度通过占据空间来显形。
+failure_boundary: 烟气高速喷射、贴地翻滚或黑得完全遮视时，晨雾的轻缓、低对比质感会失真。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 大厅上方悬浮的一层烟雾
+vehicle: 低悬、边界模糊的晨雾
+ground: 烟雾成层漂浮对应晨雾低悬；烟气削弱视线对应晨雾造成朦胧遮蔽

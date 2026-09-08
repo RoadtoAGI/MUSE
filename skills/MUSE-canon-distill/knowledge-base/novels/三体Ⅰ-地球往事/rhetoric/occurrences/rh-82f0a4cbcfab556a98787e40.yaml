@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-82f0a4cbcfab556a98787e40
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L477
+chapter: 第4章 三体、周文王、长夜
+figure_type: metaphor
+quote: 他的双手手指同时在进行着复杂的运动，组合成一部高速运转的计算器
+sensory_mapping: 视觉；动作；速度；计算
+context_fact: 周文王在阴阳图中央推算恒乱纪元。
+image_mechanism: 十根手指被拆成并行机械部件，屈伸组合成为运算步骤，最终从肉身动作中“输出”日期。
+property_alignment: 十指按规则组合对应计算部件操作；动作输出日期预测对应运算给数值结果；高速重复对应机器运转
+context_alignment: 古代形象与现代算法错位，让读者看到占卜也是计算。
+narrative_function: 提示问题在模型而非计算速度。
+transfer_rule: 用机器比人体动作时，应明确各身体部位承担的部件角色、操作规则和输出。
+failure_boundary: 手势随意、没有重复规则或不产生可验证结果时，计算器会把表演误写成运算。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 周文王十指高速组合执行占算
+vehicle: 多个部件协同高速运算的计算器
+ground: 十指按规则组合对应计算部件操作；动作输出日期预测对应运算给数值结果；高速重复对应机器运转

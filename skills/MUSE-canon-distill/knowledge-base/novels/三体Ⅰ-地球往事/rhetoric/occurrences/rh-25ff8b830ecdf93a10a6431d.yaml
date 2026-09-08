@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-25ff8b830ecdf93a10a6431d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L590
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 每次他们都能在弹雨中全身而退
+sensory_mapping: 听觉；视觉；密度；空间覆盖；触觉想象
+context_fact: 楼顶旗手此前多次在杂乱枪声中挥旗、喊口号或撒传单。
+image_mechanism: 离散弹道被合成一层可进入的天气，人不再只躲某一枪，而是整个身体暴露在由金属点线组成的降雨区。
+property_alignment: 子弹数量密集对应雨滴众多；弹道连续穿过周围对应雨丝覆盖空间；人在火力中暴露对应身体置身降雨
+context_alignment: 多种枪械同时射击形成高密度覆盖，雨比单一道光或箭更贴近遍布周身的危险。
+narrative_function: 压缩交火强度，并凸显少女把侥幸误当惯例。
+transfer_rule: 用天气写弹火时，应核对弹道密度、持续时间和覆盖范围；方向不一致时重点落在包围感而非垂直下落。
+failure_boundary: 单发狙击、稀疏警告射击或可清楚定位的一条弹道不构成雨状覆盖。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 从多个方向密集射向楼顶旗手的枪弹
+vehicle: 铺满一片空间、连续落下并使人无处完全躲避的雨
+ground: 子弹数量密集对应雨滴众多；弹道连续穿过周围对应雨丝覆盖空间；人在火力中暴露对应身体置身降雨

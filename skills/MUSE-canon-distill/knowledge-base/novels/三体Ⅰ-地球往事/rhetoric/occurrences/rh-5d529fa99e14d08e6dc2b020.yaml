@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5d529fa99e14d08e6dc2b020
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1551
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 奠定了对三体运动进行定量数学分析的基础
+sensory_mapping: 地面；承重；建筑层次；铺设动作
+context_fact: 第184号文明虽毁灭，其经典力学、微积分和计算机成果仍被游戏结算为后续分析的起点。
+image_mechanism: 三项知识被浇筑成一块不会随本轮文明倒塌的基座，未来求解方法和预测精度可在其上逐层加高。
+property_alignment: 先导理论工具对应建筑地基；后续定量研究对应上层结构；可靠数学关系对应地基承重；历史积累对应按层施工
+context_alignment: 文明实体刚被彻底摧毁，基础却以知识形式留下，建筑喻体把一次失败转成下一轮可继承的高度。
+narrative_function: 总结本轮文明的知识增量，维持反复毁灭中的进化连续性。
+transfer_rule: 用奠基评价成果时，应说明它具体支撑哪些后续工作、为何必须先有以及承载范围。
+failure_boundary: 成果并非必要前提、无法被后续继承或尚未验证可靠时，奠基会过早宣称历史地位。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 经典力学、微积分和计算机为后续定量研究提供必要理论与计算条件
+vehicle: 建筑开工时先铺设能承载上层结构的坚实地基
+ground: 基础成果支撑后续研究对应地基承受上层建筑；先完成这些条件对应施工先筑基础再向上建造

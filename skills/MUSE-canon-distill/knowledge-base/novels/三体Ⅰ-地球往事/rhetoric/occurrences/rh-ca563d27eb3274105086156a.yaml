@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ca563d27eb3274105086156a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1054
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 巨日的表面构成了火焰的大地。他感觉自己正向这灿烂的地狱坠落
+sensory_mapping: 视觉；方向反转；坠落动觉；高温
+context_fact: 巨日升至正空遮住大部分天空，汪淼先感到仰视变成俯视，周围人和土地正在燃烧。
+image_mechanism: 天空与地面的坐标先被翻面：头顶日面变成脚下火地，原本仰望的身体随即获得向下坠落的内耳错觉；炽亮景象因此成为既壮丽又致命的地狱入口。
+property_alignment: 巨日连续表面对应可落脚的大地；上下感颠倒对应天面翻到脚下；日面火焰对应地狱火场；眩晕失重对应向深处坠落
+context_alignment: 上一句大地沿光墙下沉已动摇参照系，此处巨日占满天顶，视野条件足以完成天地翻转而非抽象夸张。
+narrative_function: 把天体灾变推进为第一人称坠落体验，使壮观和恐怖同时达到峰值。
+transfer_rule: 写方向错觉时，应先建立占满视野的新表面，再让观察姿势、重力感和目的地危险按同一次坐标翻转联动。
+failure_boundary: 天体仍只是远处小亮点、人物没有眩晕或地表未受火灾时，坠向地狱会失去视觉和身体依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨日覆盖头顶后产生的上下颠倒与朝日面跌落的眩晕感
+vehicle: 位于脚下、由火焰构成且会吞噬坠落者的地狱地面
+ground: 日面铺满视野成为连续表面对应大地承接视线；身体感觉朝太阳靠近对应坠向下方地面和地狱

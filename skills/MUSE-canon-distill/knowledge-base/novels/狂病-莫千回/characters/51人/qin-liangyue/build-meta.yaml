@@ -1,0 +1,24 @@
+mode: reference
+display_name: 秦良岳
+role_slug: qin-liangyue
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/51人/phase3_spine.yaml
+  - pipeline/51人/phase5_scenes.yaml
+  - scenes/scene_51-S06.md
+  - scenes/scene_51-S08.md
+  - scenes/scene_51-S09.md
+  - scenes/scene_51-S11.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 10
+has_canon_ending: true
+coverage_note: |
+  极高信息密度配角（"好人没好报"灰色男主谱系变体 + 毒虫偏见反转），软建议维度多数跨多场支撑：
+  - 声音框架：跨 S06 / S08 / S09，覆盖"医生式平静直陈病理药理 + 三欲三原色类比 + 苦笑轻描痛苦"，告别独白卸下克制（S11）形成压力下的变化范围。
+  - 性格真相：S08 主动当挡箭牌（明知会死仍跟随）+ S11 欢呼后仍出手救人，裂隙有压力情境佐证。
+  - 弧光：起点（S11 好人没好报的虚无）+ 终点/转折（S11 与张亦川互认、意义安放）覆盖 ≥2 段。
+  - 边界：S11 救治挣扎者、S11 隐瞒病情压痛催人先走均为极端检验场景。
+  - 核心欲望：跨 S08（少受痛苦就知足）/ S11（害怕被遗忘）双场支撑，非单点。
+  has_canon_ending=true：已回 scene 原文（scene_51-S11.md L31-L43）核对——秦良岳自选感染作为安乐死，化为感染者后蹦跳奔向夕阳倒下，属不可逆物理终局，故生成 references/canon-ending.md。弧光本体仅描内在意义安放，物理终局隔离到附件。

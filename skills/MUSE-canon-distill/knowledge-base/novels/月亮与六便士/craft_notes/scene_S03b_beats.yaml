@@ -1,0 +1,28 @@
+scene_id: S03b
+source_notes: scene_S03b_beats.md
+patterns:
+- pattern_id: S03b-p1
+  beat: 癌细胞比喻
+  dimension: verb
+  original_move: 用医学动词写创作欲入侵
+  ai_default_failure: 会写灵感降临和缪斯召唤
+  transfer_rule: 写觉醒时可改用病理比喻
+  quote: 像癌细胞在人体组织中不断长大
+- pattern_id: S03b-p2
+  beat: 杜鹃鸟比喻
+  dimension: overall
+  original_move: 用自然寄生绕开道德裁判
+  ai_default_failure: 会直接评判天才毁灭他人
+  transfer_rule: 写破坏性欲望时用非道德类比
+  quote: 把其他小鸟挤出去
+- pattern_id: S03b-p3
+  beat: 涂油摔跤手
+  dimension: camera
+  original_move: 从旁观挫败写规范无法着力
+  ai_default_failure: 会进入角色内心解释反叛
+  transfer_rule: 写不可规训者时保持外部视角
+  quote: 你根本抓不住他
+overall_traits:
+- 三个比喻分层覆盖驱动力
+- 思辨链也可写成场景
+- 反浪漫化艺术觉醒

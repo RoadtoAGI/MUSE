@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5be55d63c72462b98cec2115
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1507
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 总线立刻变成了一条湍急的河流，这河流沿途又分成无数条细小的支流，渗入到各个模块阵列之中
+sensory_mapping: 视觉；流动；分叉拓扑；速度
+context_fact: 人列计算机开始加载系统，骑兵承担模块间信息传递，黑白旗状态随之遍布主板。
+image_mechanism: 骑兵队列从离散人马融成一股连续水流，通道成为河床；每到接口便分出支流，把信息像水一样送入模块深处。
+property_alignment: 系统总线对应主河道；高速骑兵对应湍急水流；接口分发对应支流分叉；信号进入模块对应水渗入区域；旗语扩散对应水波传播
+context_alignment: 高处俯瞰只能看见线路上的整体移动，河网同时准确解释计算机总线的共享通道与分支结构。
+narrative_function: 把不可见的信息传输拓扑变成地表水系，使计算过程可视化。
+transfer_rule: 用河流解释网络传输时，应对应主干通道、载流单元、分支节点、目标模块和传播速度。
+failure_boundary: 数据广播并非水量守恒，支流也可能双向回传；类比不能据此推断信号必然单向或分流后强度降低。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 轻骑兵沿主总线高速传递信号并分流进入各计算模块
+vehicle: 主河高速奔流、分出支流并渗灌沿途区域的水系
+ground: 信息沿中央通道快速移动对应河水沿主河奔流；信号分派到模块对应河流分支渗入各地

@@ -1,0 +1,25 @@
+card_id: emotion-powered-craft-system
+pattern_name: 情感供能的技艺系统
+dramatic_function: 把内在情感状态硬编码为能力开关——唯痛苦时招法有效、动情即剧痛，使情节高潮与情感高潮自动重合。
+applicability: 适用于任何超常能力体系；规则须全书一致且有真实代价；若只作修辞比喻不进系统即失效（单书孤证，验证面窄）
+reuse_candidates:
+- 黯然销魂掌及其招名
+- 情花见情即痛的具体设定
+- 双剑磁力相吸的意象
+tags:
+- 以情入武
+- 能力代价
+- 设定即主题
+source_scenes:
+- novel: 神雕侠侣
+  scene_id: S30
+  note: 招名即十六年孤独编年史，无痛苦者学不会
+- novel: 神雕侠侣
+  scene_id: S26
+  note: 重逢后掌法失效，「龙儿别了」的永诀之痛令其复活
+- novel: 神雕侠侣
+  scene_id: S28
+  note: 情花把搭档心心相印的优势反转成致命弱点
+phase_affinity:
+- 1
+- 2

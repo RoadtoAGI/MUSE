@@ -1,0 +1,28 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 最后请求
+  dimension: omission
+  original_move: 请求后无人搭理，以集体沉默写冷酷
+  ai_default_failure: 写白孝文冷笑或面无表情
+  transfer_rule: 制度性冷酷可用无人回应呈现
+  quote: 没有人搭理他
+- pattern_id: S15-p2
+  beat: 最后对视
+  dimension: camera
+  original_move: 嘴唇眼睛泪珠背影三拍完成诀别
+  ai_default_failure: 写千言万语凝聚在一眼
+  transfer_rule: 无力拯救时用看见后转身留白
+  quote: 转身走掉了
+- pattern_id: S15-p3
+  beat: 枪声昏厥
+  dimension: verb
+  original_move: 摇摆磨蹭后枪声切断，身体直接崩溃
+  ai_default_failure: 写他知道死讯后巨大悲痛
+  transfer_rule: 精神冲击可物质化为身体失效
+  quote: 眼前一黑就栽倒
+overall_traits:
+- 用缺失写最关键情感
+- 身体作为情感唯一出口
+- 三拍之间用空白连接

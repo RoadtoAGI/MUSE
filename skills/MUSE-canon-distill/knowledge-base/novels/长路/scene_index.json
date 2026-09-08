@@ -1,0 +1,470 @@
+[
+  {
+    "scene_id": "scene_01",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "物件承载情感",
+      "极简对白",
+      "父子",
+      "末世日常"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 438,
+    "source_chapter": "无章节划分，约行160-192",
+    "file": "scenes/scene_01.md",
+    "description": "在废弃超市的贩卖机残骸中发现一罐可口可乐——末世中微小而震撼的美好瞬间",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴父亲，少直评多动作",
+      "diction": "白话夹精确物名，译腔克制",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短句问答推进，归属语极省",
+      "pacing": "动作细密后留一拍沉默"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_02",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "记忆",
+      "父子张力",
+      "恐惧",
+      "旧世界"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 795,
+    "source_chapter": "无章节划分，约行198-246",
+    "file": "scenes/scene_02.md",
+    "description": "父亲带孩子回到自己的童年故居——记忆的诱惑与孩子的恐惧形成拉锯",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲记忆，幻象不加解释",
+      "diction": "废墟实物词混童年旧词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "孩子阻止，父亲短答回避",
+      "pacing": "长描写压住短对白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_03",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "暴力",
+      "保护",
+      "创伤",
+      "密集节拍",
+      "仪式化动作"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "卡车团伙",
+      "持刀恶棍"
+    ],
+    "conflict_type": "external",
+    "pov": "父亲",
+    "word_count": 3848,
+    "source_chapter": "无章节划分，约行710-884",
+    "file": "scenes/scene_03.md",
+    "description": "卡车团伙逼近，恶棍劫持孩子——父亲六英尺外开枪射杀，用掉倒数第二发子弹",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴父亲危机感，冷述暴力",
+      "diction": "身体器官与器物名密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "威胁审问式对白密集",
+      "pacing": "追逃急促，创伤处拖长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_04",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "道德分歧",
+      "善良",
+      "沉默抗议",
+      "被雷击者"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "被雷击者"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 843,
+    "source_chapter": "无章节划分，约行504-562",
+    "file": "scenes/scene_04.md",
+    "description": "孩子要帮助被雷击的陌生人，父亲拒绝——第一次道德分歧爆发，孩子说出'我想在妈妈身边'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知随行，伦理判断压低",
+      "diction": "焦黑灰泥词汇反复铺底",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "孩子追问，父亲封口",
+      "pacing": "目击缓慢，余波静默延长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_05",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "对白驱动",
+      "哲学辩论",
+      "自杀",
+      "绝望的理性",
+      "缺席的对手"
+    ],
+    "characters": [
+      "父亲",
+      "母亲"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 1009,
+    "source_chapter": "无章节划分，约行606-677（回忆段落）",
+    "file": "scenes/scene_05.md",
+    "description": "母亲决定自杀离去——'死神就是情夫'——全书最强大的反面论证",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲承受，母亲话语主导",
+      "diction": "抽象死亡语混粗砺辱词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "长段独白压倒哀求短句",
+      "pacing": "对白连压，结尾骤然省略"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_06",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "恐怖",
+      "省略",
+      "食人",
+      "地窖",
+      "逃亡",
+      "教孩子自杀"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "地窖囚徒",
+      "食人团伙"
+    ],
+    "conflict_type": "external",
+    "pov": "父亲",
+    "word_count": 3374,
+    "source_chapter": "无章节划分，约行1356-1506",
+    "file": "scenes/scene_06.md",
+    "description": "打开大屋地窖——发现活人被囚禁截肢食用——食人团伙返回——夜间逃亡",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲恐惧，景物先于真相",
+      "diction": "建筑细部与腐臭词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "低声命令与求救交错",
+      "pacing": "搜索慢铺，发现后急坠"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_07",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "镜像结构",
+      "逆转",
+      "地窖",
+      "希望",
+      "发现"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "internal",
+    "pov": "父亲",
+    "word_count": 1962,
+    "source_chapter": "无章节划分，约行1684-1798",
+    "file": "scenes/scene_07.md",
+    "description": "又一个带锁的地窖——与scene_06精确镜像——这次是天堂：满载食物、水和生活用品",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴父亲濒死感，奇迹仍实写",
+      "diction": "工具步骤词接罐头名目",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "安抚式短答，惊喜慢显",
+      "pacing": "开门前拖延，入窖后舒展"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_08",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "祷词",
+      "善良",
+      "信仰",
+      "自发",
+      "简洁"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "internal",
+    "pov": "父亲",
+    "word_count": 175,
+    "source_chapter": "无章节划分，约行1858-1876",
+    "file": "scenes/scene_08.md",
+    "description": "孩子自发说出感恩祷词——'若你们在场，不论多饿，我们绝不会争食'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "旁观孩子祷告，不代评神圣",
+      "diction": "朴素感谢语带宗教词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "引导后交给孩子整段话",
+      "pacing": "极短场景，停在反问"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_09",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "哲学对话",
+      "三角张力",
+      "末世先知",
+      "外部见证"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "艾利"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 2981,
+    "source_chapter": "无章节划分，约行2180-2606",
+    "file": "scenes/scene_09.md",
+    "description": "路遇老人艾利——孩子坚持帮助——三人围火的哲学对话——'与末世真神同路是很可怕的'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲戒备，容纳老人虚无",
+      "diction": "路人粗语混末世哲思",
+      "rhetoric_density": "high",
+      "dialogue_mode": "盘问、施舍、辩论轮换",
+      "pacing": "相遇慢近，夜谈大段展开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_10",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "目标落空",
+      "灰色",
+      "留白",
+      "游泳",
+      "沉默的哭泣"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "internal",
+    "pov": "父亲",
+    "word_count": 750,
+    "source_chapter": "无章节划分，约行3260-3340",
+    "file": "scenes/scene_10.md",
+    "description": "抵达海岸——海是灰色的——'抱歉不是蓝色'——孩子下海游泳后默默哭泣",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴父子期待落空，少解释",
+      "diction": "灰海风盐骸骨词反复",
+      "rhetoric_density": "high",
+      "dialogue_mode": "温柔短问答维持火炬",
+      "pacing": "景观静止，游泳处短促"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_11",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "道德反转",
+      "权威转移",
+      "报复",
+      "善良",
+      "窃贼"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "窃贼"
+    ],
+    "conflict_type": "personal",
+    "pov": "父亲",
+    "word_count": 1845,
+    "source_chapter": "无章节划分，约行3896-4058",
+    "file": "scenes/scene_11.md",
+    "description": "窃贼偷走全部物资——父亲剥光他——孩子崩溃抗议——'就是我的事，我一定要管'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴父亲怒惧，孩子反向审判",
+      "diction": "追踪细节与惩罚词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令、求饶、孩子抗辩交错",
+      "pacing": "追捕紧，事后呼喊拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_12",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "临终",
+      "传承",
+      "火炬",
+      "信任",
+      "新家庭",
+      "尾声"
+    ],
+    "characters": [
+      "父亲",
+      "孩子",
+      "带枪的男人",
+      "女人"
+    ],
+    "conflict_type": "internal",
+    "pov": "父亲/孩子",
+    "word_count": 2407,
+    "source_chapter": "无章节划分，约行4291-4539",
+    "file": "scenes/scene_12.md",
+    "description": "父亲临终——'火炬在你心里'——孩子独处三天——选择信任陌生人——加入新家庭——河鳟尾声",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴孩子继承，死亡写成仪式",
+      "diction": "圣经典故混寒冷物象",
+      "rhetoric_density": "high",
+      "dialogue_mode": "临终训诫与试探问答",
+      "pacing": "诀别缓慢，收束转寓言"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_13",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "城市废墟",
+      "搜索失败",
+      "环境描写",
+      "感官排序",
+      "尸体旁扯毯子"
+    ],
+    "characters": [
+      "父亲",
+      "孩子"
+    ],
+    "conflict_type": "external",
+    "pov": "父亲",
+    "word_count": 1005,
+    "source_chapter": "无章节划分，约行946-998",
+    "file": "scenes/scene_13.md",
+    "description": "进入废弃小镇逐店搜索——百货店、食品卖场、民宅翻遍，几乎一无所获——城市废墟环境描写范例",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲搜寻，警觉不断回头",
+      "diction": "废城商店词混腐败气味",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "生存问答夹道德承诺",
+      "pacing": "逐屋搜查，狗叫处停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "scene_14",
+    "novel": "长路",
+    "author": "科马克·麦卡锡",
+    "genre": "后末日文学",
+    "lang": "zh",
+    "tags": [
+      "系统性搜索",
+      "物资发现",
+      "行为外化心理",
+      "物件精确性",
+      "搜索弧线"
+    ],
+    "characters": [
+      "父亲"
+    ],
+    "conflict_type": "internal",
+    "pov": "父亲",
+    "word_count": 2079,
+    "source_chapter": "无章节划分，约行1510-1530",
+    "file": "scenes/scene_14.md",
+    "description": "独自搜索农舍谷仓果园——从种子到调味粉到美工刀到苹果到隐藏水源——系统性搜索的完整弧线",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴父亲独行，发现按步骤展开",
+      "diction": "农具果树水槽词精确",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少，结尾孩子称赞",
+      "pacing": "细搜慢行，水与苹果处舒缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

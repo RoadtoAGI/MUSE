@@ -1,0 +1,276 @@
+analysis_meta:
+  source: 雷雨
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.4.1
+  completed_at: 2026-05-24
+  analyst_notes: |
+    曹禺没有用"第×幕第×场"二级切分；每幕 = 单一地点 + 连续时间，
+    内部 sequence 已在 phase4_act_sequence.yaml 中切出。
+    本 phase 按"作者原始幕级"列 6 场（PROLOGUE / A1 / A2 / A3 / A4 / EPILOGUE）。
+
+scenes:
+  - scene_id: PROLOGUE
+    act: 0
+    scene: 0
+    location: 教堂附设医院的客厅（即十年后的旧周公馆）
+    time: 1935_冬日下午_腊月三十日_约下午三点
+    characters_on_stage: [姑奶奶甲, 姑奶奶乙, 老人=周朴园, 姊姊, 弟弟, 老妇=鲁侍萍]
+    entrances: [姑甲, 老人, 姑乙+姊弟, 姑甲再入, 老妇=鲁侍萍]
+    exits: [姑甲(领老人上楼), 姑乙(进病房), 姑乙(关心姊弟), 姑甲(上楼), 老妇倒地+全员定格]
+    dramatic_purpose: |
+      搭"十年后回看"的镜头框；同时把"楼上的疯妇 / 楼下的痴妇 / 来探病的老人"
+      作为三个谜面抛给观众；为后四幕装上 chorus 距离。
+    scene_turn: 老妇无声地倒地 → 姊弟"你去问她 / 你去问她"对换给观众
+    subtext: [死过三个人的旧屋, 楼上女疯子 = 谁, 楼下痴妇 = 谁, 老人为何来]
+    stageable_actions: [姑甲整理白桌布, 姑乙送水, 姑甲领老人上楼, 老妇倒地]
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: low
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      序幕的 chorus 功能见 phase0.theatricality_notes。
+      音乐 cue：巴赫 B 小调弥撒 + 教堂合唱。
+      作者明言此场常被演出删除，但删除会失去"哀静的距离感"。
+
+  - scene_id: A1
+    act: 1
+    scene: 1
+    location: 周公馆客厅
+    time: 1925_夏_郁热的上午
+    characters_on_stage:
+      - 鲁四凤
+      - 鲁贵
+      - 鲁大海
+      - 周冲
+      - 周蘩漪
+      - 周萍
+      - 周朴园
+      - 仆人（角色甲）
+    entrances:
+      [鲁贵+四凤(开场已在), 鲁大海(中段), 周冲(中段), 周蘩漪(中段), 周萍(后段), 周朴园(后段)]
+    exits:
+      [鲁贵+大海(中段下), 周蘩漪(喝完药跑下), 周冲(被叫上楼), 四凤(进饭厅), 朴园(留萍训话后)]
+    dramatic_purpose: |
+      集结：让八个核心人物以"父权日常"的形态依次登场；
+      让"楼上太太 vs 大少爷"的乱伦秘密由仆人之口先于真实人物之前被命名（即诺贝尔奖式的剧本设计——
+      观众先知道秘密，再看人物在不知中行动）；
+      让"喝药仪式"作为父权运行机制的可视化展演。
+    scene_turn: 朴园强迫蘩漪喝下药并召周冲、周萍依次跪劝 → 蘩漪的"复仇火"被点燃
+    subtext:
+      - 鲁贵已经知道太太 vs 大少爷的秘密——他在用秘密讨钱
+      - 蘩漪知道萍要走是为了离开自己——她在向朴园 + 萍 + 四凤之间布置反击
+      - 周冲不知母亲爱大哥 + 不知四凤爱大哥——他在两个不知里求婚
+      - 朴园不知道家中真正的危机是什么——他训萍只针对"跳舞场喝酒"
+    stageable_actions:
+      - 鲁贵擦银器 + 偷烟
+      - 四凤滤药
+      - 大海擦手枪（已经预先携带）
+      - 周冲端汽水给四凤、压到她的手
+      - 蘩漪从镜台前看自己苍白的脸
+      - 喝药一场：周朴园→四凤→蘩漪→周冲→周萍五人轴线
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      "喝药一场"是中国话剧史上最常被引用的父权展演场——
+      朴园通过"为你健康"的名义把全家人变成他权力的工具人。
+
+  - scene_id: A2
+    act: 2
+    scene: 1
+    location: 周公馆客厅
+    time: 1925_夏_郁热的下午_雷雨欲来
+    characters_on_stage:
+      - 周萍
+      - 鲁四凤
+      - 鲁贵
+      - 周蘩漪
+      - 鲁侍萍
+      - 周朴园
+      - 鲁大海
+      - 仆人若干
+    entrances:
+      [周萍(开场偷开窗), 四凤(回应哨声), 鲁贵, 蘩漪, 侍萍+四凤, 朴园, 大海(被仆人带入)]
+    exits:
+      [蘩漪(下楼检雨衣), 四凤(去厨房), 朴园(看克大夫之前), 大海+侍萍(被打后退下)]
+    dramatic_purpose: |
+      把三十年前的旧债 + 即将爆发的乱伦危机在同一场内两次峰值揭示——
+      朴园 ↔ 侍萍的认母（递进式：无锡→姓梅→投河→绣梅花的衬衣→萍字），
+      与"萍打弟弟大海"的骨肉相残被侍萍当场命名。
+    scene_turn:
+      - 内峰 1：朴园慢动作认出侍萍 → 拿出 5000 块支票被撕碎
+      - 内峰 2：周萍打鲁大海耳光 → "你是萍——凭什么打我的儿子"
+    subtext:
+      - 朴园三十年保留旧家具 + 关窗户的习惯——既是悔愧也是变相的占有
+      - 蘩漪在 A2.B 揭穿萍是私生子，是为了把萍拉回到与她相同的位置（弃妇之子 vs 弃妇）
+      - 侍萍撕支票 = 拒绝把伦理债务货币化
+      - 大海当场幻灭于"三个工人代表叛变" = 阶级线的小型悲剧
+    stageable_actions:
+      - 萍偷开窗 + 吹哨叫四凤 → 暗号确立
+      - 蘩漪指着桌上相片说"你父亲引诱过梅家姑娘 + 你就是那年青姑娘生的"
+      - 鲁妈拉开抽屉看是否有"绣花虎头鞋"
+      - 鲁妈关窗户（朴园的旧习惯由鲁妈无意复演）
+      - 朴园拿支票 → 鲁妈接过 → 当面撕碎
+      - 萍当众打大海耳光（流血）
+      - 鲁妈抱着流血的大海大哭"这真是一群强盗"+"你是萍——凭什么打我的儿子"
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      认母场的"绣梅花衬衣 + 萍字"是中国话剧史上最经典的渐进式认识装置——
+      朴园从"你三十年前在无锡么"到"你——你——你是"经历六七次问答才能确认。
+      不能跳过任何一句；任何加速都会摧毁该场的物证 / 心证递进。
+
+  - scene_id: A3
+    act: 3
+    scene: 1
+    location: 杏花巷十号鲁家小屋
+    time: 1925_夏_当天夜晚十时半_雷雨进行中
+    characters_on_stage:
+      - 鲁贵
+      - 鲁四凤
+      - 鲁大海
+      - 鲁侍萍
+      - 周冲
+      - 周萍
+      - 周蘩漪（出现于窗外，未进屋）
+    entrances:
+      [鲁家四人在屋(开场), 大海离场买保人, 周冲来送钱, 大海回来与冲对峙,
+       侍萍回, 大海再出, 周萍翻窗入, 大海闯入撞破, 鲁贵进, 全员奔出找四凤]
+    exits:
+      [大海(去车厂), 周冲(被大海赶), 大海(再去), 侍萍(同大海出),
+       萍(被侍萍喝令"还不跑"由右门下), 侍萍+大海+鲁贵(冒雨追四凤)]
+    dramatic_purpose: |
+      把雷雨从"欲来"推进到"进行中"；
+      把四凤的退路在物理（蘩漪关窗）+ 伦理（与亲哥乱伦）+ 命运（雷劈起誓）三个层面同时封死。
+    scene_turn: 蘩漪从窗外把窗关上 → 萍 / 四凤被外面的力量封死在屋内
+    subtext:
+      - 鲁贵的酒醉训人 = 把家族暴力的根（不只朴园）暴露在底层
+      - 大海拿出手枪 = 警察镇压罢工的物理痕迹（手枪后传到萍手中自杀）
+      - 周冲在鲁家说"白帆船向天边飞"的乌托邦 = 与现实碾压形成强烈反讽
+      - 蘩漪从窗外的出现 = 半 offstage 的鬼魂式存在（"惨白发死青的脸"+ 闪电照见）
+      - 雷劈起誓 → 三幕之内即应验
+    stageable_actions:
+      - 鲁贵兴致淋漓地咒骂 + 啪地一口痰
+      - 大海擦手枪 + 拔枪威胁鲁贵 + 把枪交给母亲
+      - 鲁贵在椅上脱衣只剩线坎肩 + 唱春调
+      - 周冲坐家车带 100 块来送 + 被大海赶走
+      - 四凤跪下起誓 + 远处雷声轰过
+      - 四凤换拖鞋、解发、坐床边、把红纸罩了灯放在窗前（暗号）
+      - 周萍翻窗（满脸血）+ 蘩漪从外面关窗
+      - 大海持灯推门进 → 鲁妈"扶着门闩几乎晕倒"
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      A3 是雷雨"封闭"的关键幕——
+      作者用三层封闭（物理 / 伦理 / 命运）让 A4 的三死变为"已经无路可走的必然"。
+      蘩漪从窗外关窗是雷雨最阴森也是最有名的舞台动作之一。
+
+  - scene_id: A4
+    act: 4
+    scene: 1
+    location: 周公馆客厅
+    time: 1925_夏_当天半夜两点_雷雨过后仍有滴雨
+    characters_on_stage:
+      - 周朴园
+      - 周冲
+      - 周蘩漪
+      - 周萍
+      - 鲁贵
+      - 鲁大海
+      - 鲁四凤
+      - 鲁侍萍
+      - 仆人若干
+      - 老仆
+    entrances:
+      [朴园+仆人(开场), 周冲(下楼), 蘩漪(冒雨归), 周萍(下楼想走), 鲁贵(勒索),
+       大海(爬墙入), 四凤(冒雨投奔), 鲁妈+大海(进屋), 蘩漪+冲(从饭厅出),
+       朴园(从书房出, 大揭示)]
+    exits:
+      [冲(被支走), 朴园(回书房), 鲁贵(向饭厅下), 大海(临时退到饭厅躲),
+       四凤+冲奔出花园(触电), 萍(进书房自杀), 大海(连踢带打跑掉)]
+    dramatic_purpose: |
+      把所有秘密在同一客厅一次性曝光 + 让命运在 30 秒内完成对三个孩子的清算。
+      孩子们的认知崩塌（不是死本身）是高潮——死是高潮揭示的物理后果。
+    scene_turn: 朴园说出"她就是萍儿的母亲，三十年前死了的"
+    subtext:
+      - 蘩漪从恳求 → 报复 → 主动召回所有人 = 复仇的执行者
+      - 萍 ↔ 大海长对话是雷雨中唯一让人喘息的"暂停"
+        ——萍向不知是弟弟的大海袒露与蘩漪的乱伦，大海理解性地把枪给他
+      - 侍萍说"罪过我一个人担" = 她试图用"母亲式自责"压住命运 → 命运不答应
+      - 朴园说"萍儿你过来，跪下，不要以为是在做梦" = 父权的最后一次仪式 → 也是最后一次失效
+      - 蘩漪在三死后说"冲儿你该死，该死。你有了这样的母亲，你该死" =
+        从复仇者瞬间垮塌为最痛的母亲
+    stageable_actions:
+      - 朴园望着侍萍的相片
+      - 蘩漪雨衣滴水进场
+      - 蘩漪撕碎相片后又拼起来给鲁贵看（认侍萍身份的密钥）
+      - 大海用手巾擦脸上的雨水
+      - 大海用力击萍的脸 → 流血再破
+      - 萍接过手枪
+      - 四凤头发散乱、衣裳贴皮肤进来
+      - 四凤、萍跪下；侍萍按四凤前额、灌凉水
+      - 蘩漪把周冲从饭厅"召出"
+      - 朴园下令"萍儿，跪下"
+      - 四凤奔出 → 远处惨叫 → 仆报"四凤死了 / 二少爷也死了"
+      - 萍取手枪进书房 → 一声枪响
+      - 鲁妈"我哭不出来"，倒在台中跪下（与序幕结尾老妇倒地同 pose）
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: very_high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      A4 是雷雨最长的一幕（剧本约占 1/3）。
+      所有死亡都发生在 offstage——四凤 / 周冲触电由仆人传报；周萍开枪只闻枪响。
+      这是中国话剧"言说而非展示"暴力传统的源头之一。
+      末尾鲁妈倒在台中跪下的 pose 直接对应序幕结尾老妇倒下的 pose——
+      序幕 + 尾声 + 第四幕末尾构成时间循环。
+
+  - scene_id: EPILOGUE
+    act: 5
+    scene: 0
+    location: 教堂附设医院的客厅
+    time: 1935_冬日下午_腊月三十日（与序幕同日 + 同空间）
+    characters_on_stage: [老妇=鲁侍萍, 姑奶奶甲, 姑奶奶乙, 老人=周朴园, 姊姊, 弟弟]
+    entrances: [姑乙照护老妇, 姑甲从饭厅出, 老人从左饭厅出, 姊弟回来找手套]
+    exits: [姑甲(出门), 姊弟(找到手套回家), 老妇(走到窗前), 老人(坐回炉旁圈椅)]
+    dramatic_purpose: |
+      合拢 chorus 框；让"侍萍"这个名字在十年后没有回应（叫三声皆无反应）；
+      给观众"哀静的心情"作为离场情绪。
+    scene_turn: 老人低唤"侍萍——侍——"老妇拉开帷幔痴呆望窗外（不是不在，而是不再"在"）
+    subtext:
+      - 朴园找了大海十年没有结果，私下相信他已死（与四凤、冲、萍并列在死者那一边）
+      - 鲁妈"她就是想着儿子，每到节期总在窗前望一晚上"——侍萍 + 鲁大海的母子关系
+        是雷雨唯一未被命运清算却也无法实现的执念
+      - 弟弟丢手套 + 找到手套——天真无差别的童年与楼上 / 楼下的双重囚禁形成对比
+    stageable_actions:
+      - 姑乙读圣经
+      - 姑甲拿雨伞出门
+      - 老妇拉开帷慢望窗外
+      - 老人转身坐回炉旁圈椅，呆呆望着火光
+      - 雪开始下
+    monologue_or_soliloquy: false
+    has_aside: false
+    verse_or_prose: prose
+    dialogue_density: low
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      尾声的"老人低唤侍萍而无应"是雷雨最短也是最深的一笔——
+      30 年的恨 + 10 年的痴 = 一句无人接的呼唤。
+      巴赫 B 小调弥撒在远处奏起，与序幕收束音乐声相同 → 时间圆环正式合拢。

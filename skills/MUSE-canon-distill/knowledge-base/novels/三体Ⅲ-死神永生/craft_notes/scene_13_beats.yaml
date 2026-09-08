@@ -1,0 +1,28 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 157万种语言
+  dimension: info_density
+  original_move: 文明生死簿写成滚动数据流，规模感由数字对比建立
+  ai_default_failure: 加回归运动意义的解释性段落
+  transfer_rule: 宇宙级悬念可用纯数据滚动，命运浓缩为出现与否
+  quote: 已经广播了二十万种语言
+- pattern_id: 13-p2
+  beat: 物理拆除
+  dimension: camera
+  original_move: 告别家园只记录物质递减，彩虹消失自带象征
+  ai_default_failure: 加永别家园的悲伤情感段落
+  transfer_rule: 离别可写成物理拆除清单，象征不点破
+  quote: 彩虹消失了
+- pattern_id: 13-p3
+  beat: 五公斤
+  dimension: overall
+  original_move: 终极选择以重量单位承载，全书收于误差一词
+  ai_default_failure: 写留下生命痕迹的希望主题阐述
+  transfer_rule: 高潮反向收缩，越重要的选择配越小的物件
+  quote: 还可以再留下五公斤吗？
+overall_traits:
+- 尺度收缩：高潮越大焦点越小
+- 物理量替代情感量，情感藏在重量后面
+- 事实性结尾，把抒情留给读者

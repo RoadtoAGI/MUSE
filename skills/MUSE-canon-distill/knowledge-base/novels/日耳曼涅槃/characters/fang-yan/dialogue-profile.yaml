@@ -1,0 +1,33 @@
+schema_version: dialogue-character/v1
+character_id: novel:日耳曼涅槃:fang-yan
+work_id: novel:日耳曼涅槃
+display_name: 方彦/约纳斯·布罗姆
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '对上位者是**论证流**：历史溯源→数据压服→利害收束的三段式，从不诉诸情感，永远给对方一个"自己想通"的台阶——对雷德尔从英德矛盾根源讲到"海军只是手段"的石破天惊，对希特勒用航拍照片、舢板运力、机场距离的数据轰炸开路，再以"大国和平只有两种"的政治哲学收网。他深谙听者心理：对"最喜欢卖弄繁琐数据记忆力"的希特勒，就"用更繁琐的数据去对付他"。
+
+
+    公开政治场合切**信徒腔**：排比颂词、"万寿无疆"式祝颂、把自己的贡献说成"无上的荣幸"——修辞华丽到与其私下的冷静形成反讽。对盟友与对手用**机锋外交腔**，绵里藏针、以战绩压人。介绍武器装备时进入**参数流**：航程、穿深、工时如数家珍，用具体数字制造压服感。
+
+
+    内心独白是他唯一卸妆的地方：现代网络语感与军史术语混搭（"翻白眼""究极大招"）；对妻子则是卸甲的疲惫短句（"心好累"）——公共声音与私人声音存在明确档位差。
+
+
+    佐证：scenes/scene_04.md:L28-L34 （对雷德尔的三段式论证）；scenes/scene_13.md:L12-L26 （数据轰炸与"用更繁琐的数据对付他"）；scenes/scene_13.md:L42-L46 （"大国和平只有两种"的肃杀论证）；scenes/scene_19.md:L16-L16
+    （"万寿无疆"信徒腔）；scenes/scene_15.md:L8-L8 （机锋外交腔"重新摁回深海"）；scenes/scene_12.md:L6-L6 （对妻子的疲惫短句）；scenes/scene_19.md:L28-L30 （武器参数流）'
+  evidence_locators:
+  - scenes/scene_04.md:L28-L34
+  - scenes/scene_13.md:L12-L26
+  - scenes/scene_13.md:L42-L46
+  - scenes/scene_19.md:L16-L16
+  - scenes/scene_15.md:L8-L8
+  - scenes/scene_12.md:L6-L6
+  - scenes/scene_19.md:L28-L30
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,25 @@
+card_id: battle-phase-breathing
+pattern_name: 战斗相位呼吸
+dramatic_function: 以等待、爆发、闲谈、再袭等相位交替，为长战斗制造呼吸并防止强度疲劳
+applicability: 适合持续时间长且至少有两个战术节点的战斗；短促袭击硬拆相位会稀释冲击（单书孤证，验证面窄）
+reuse_candidates:
+- 杀敌计数玩笑作为两波攻势间的喘息
+- 拟声鼓点独立成段切换遭遇战相位
+tags:
+- 战斗编排
+- 节奏
+- 相位
+- 喘息
+source_scenes:
+- novel: 指环王
+  scene_id: S31
+  note: 等待、攻防、计数闲谈与爆破形成完整战斗呼吸
+- novel: 指环王
+  scene_id: S36
+  note: 「咚隆」独立成段，持续切换朗读、攻门、混战与撤退相位
+- novel: 指环王
+  scene_id: S09
+  note: 黎明辩论、号角点火与森林既成事实完成收束换挡
+phase_affinity:
+- 4
+- 5

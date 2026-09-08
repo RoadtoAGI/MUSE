@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cc9d5100ab3f0f8d5dabb13a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2338
+chapter: 第32章 古筝行动
+figure_type: analogy
+quote: 太空电梯其实就是一条运河，像巴拿马运河连接了两个大洋一样，太空电梯将地球和太空连接起来
+sensory_mapping: 纵向通道；两端空间；货物连续运输；屏障贯通；宏大工程
+context_fact: 斯坦顿在审判日号逼近古筝时，以盖拉德和巴拿马运河鼓励研究纳米材料的汪淼。
+image_mechanism: 垂直的地球—太空距离被折成地图上的两片海，重力壁垒变为地峡；电梯缆索像开凿出的窄水道，让原本分属两套环境的交通流直接贯通。
+property_alignment: 地球与太空对应两个大洋；重力边界对应巴拿马地峡；电梯缆索对应运河航道；轨道运输对应船流；降低发射成本对应缩短海运航程；建造者对应盖拉德式工程师
+context_alignment: 行动就在巴拿马运河展开，眼前水道为未来工程提供现成空间模型，也让汪淼的纳米研究从杀人用途转向建设愿景。
+narrative_function: 在死亡倒计时中短暂恢复技术的创造性用途，并以机制类比解释太空电梯。
+transfer_rule: 以运河类比跨域基础设施时，应逐项对应两端网络、中央屏障、固定通道、运输流和成本改变。
+failure_boundary: 设施只提供单次跃迁、不形成持续运输通道，或两端原本已自由连通时，运河模型无法解释其价值。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 未来太空电梯以固定通道连接地表与轨道空间、降低跨越重力边界的运输成本
+vehicle: 巴拿马运河切开陆地屏障，以人工水道连接两个大洋并改变全球运输
+ground: 重力井阻隔地球与太空对应陆地阻隔两洋；电梯固定运输线对应人工运河；两端交通系统被接通并降低绕行成本

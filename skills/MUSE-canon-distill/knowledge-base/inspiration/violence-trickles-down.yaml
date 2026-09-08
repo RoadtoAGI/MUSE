@@ -1,0 +1,21 @@
+card_id: violence-trickles-down
+pattern_name: 暴力下泄链
+dramatic_function: 不用说教呈现压迫如何被弱者转嫁给更弱者
+applicability: 适合阶层或组织讽刺；若角色只承受不转嫁则不适用（单书孤证，验证面窄）
+reuse_candidates:
+- 王胡捉虱子
+- 小尼姑剃头
+- 酒店哈哈哈
+tags:
+- 权力链
+- 欺软怕硬
+- 看客
+- 结构论证
+source_scenes:
+- novel: 阿Q正传
+  scene_id: S03
+  note: 连续向上失败后，主角转向更弱者获得伪胜利
+phase_affinity:
+- 1
+- 2
+- 5

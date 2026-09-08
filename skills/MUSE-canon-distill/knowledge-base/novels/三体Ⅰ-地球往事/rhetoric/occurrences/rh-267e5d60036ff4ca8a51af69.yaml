@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-267e5d60036ff4ca8a51af69
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2579
+chapter: 第34章 智子
+figure_type: simile
+quote: 包裹三体世界的二维质子巨膜迅速收缩，仿佛宇宙中的一只巨手扯开了这个世界的蒙布
+sensory_mapping: 巨手拉扯；布幕收拢；骤然揭亮；天空开放；阳光涌入
+context_fact: 二维质子球壳完成蚀刻后由二维收回三维，三体行星刚经历史上最黑的夜。
+image_mechanism: 封闭球壳被还原成一张覆盖舞台的布，收缩不是抽象维度变化，而是巨手抓住边缘猛然揭幕；黑暗与白昼因此在一个拉扯动作中切换。
+property_alignment: 质子巨膜对应蒙布；包裹行星对应覆盖物体；遮断星光对应布幕不透光；快速收缩对应巨手扯开；阳光普照对应揭幕见光；宇宙尺度对应巨手尺度
+context_alignment: 前文球壳像洞窟封闭世界，此句用揭布动作解除包围，空间状态完成清晰对称的收束。
+narrative_function: 把二维收缩的瞬时性和视觉后果合成一个揭幕动作，结束漫长包裹过程。
+transfer_rule: 用揭布写遮蔽物消退时，应匹配覆盖关系、边缘收拢、动作速度、光线突变和空间重新开放。
+failure_boundary: 遮蔽通过逐渐变透明、破成碎片或光源自身亮起而解除时，巨手扯布的连续动作不准确。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 遮住全部星空和阳光的质子球膜解除包裹，使三体世界瞬间重新暴露在外部宇宙中
+vehicle: 宇宙巨手抓住覆盖世界的巨大蒙布，一把扯开，让被罩住的物体重见光明
+ground: 质子膜遮蔽外界对应蒙布覆盖；迅速收缩对应手扯布离开；阳光瞬间进入对应揭幕见光

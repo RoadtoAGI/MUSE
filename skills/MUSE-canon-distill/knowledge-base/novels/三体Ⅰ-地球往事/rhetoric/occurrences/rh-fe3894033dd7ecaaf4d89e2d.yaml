@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fe3894033dd7ecaaf4d89e2d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L300
+chapter: 第3章 射手和农场主
+figure_type: analogy
+quote: 科技革命是人类社会的一种病变，技术的爆炸性发展与癌细胞的飞速扩散相当
+sensory_mapping: 生理；增长；因果过程
+context_fact: 叙述概括生物学家潘寒的反技术社会思想。
+image_mechanism: 抽象社会变化被分解成增殖、争夺养分、破坏器官、宿主死亡四个病理阶段，观点因而获得一条可推演因果链。
+property_alignment: 技术快速扩张对应癌细胞失控增殖；资源耗尽和生态破坏对应癌细胞夺取营养并破坏器官；社会生存受威胁对应肿瘤最终杀死宿主
+context_alignment: 喻体来自潘寒的生物学专业，并直接为其主张废除粗暴技术提供论证框架。
+narrative_function: 压缩潘寒的反技术逻辑，同时显出其把社会视作有机体的立场。
+transfer_rule: 机制类比应逐阶段匹配增长来源、资源流向、局部损害和整体结局，并标明它是谁的解释模型。
+failure_boundary: 癌细胞没有反思和公共治理，技术也并非单一自利生物；此类比表达潘寒立场，不能证明所有技术必然杀死社会。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 潘寒所理解的科技扩张及其对社会和自然资源的作用
+vehicle: 癌细胞失控增殖、耗尽营养并杀死宿主的病程
+ground: 技术快速扩张对应癌细胞失控增殖；资源耗尽和生态破坏对应癌细胞夺取营养并破坏器官；社会生存受威胁对应肿瘤最终杀死宿主

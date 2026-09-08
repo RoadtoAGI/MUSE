@@ -1,0 +1,28 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 逼问傻姑
+  dimension: omission
+  original_move: 不进傻姑视角还原往事，碎片状态是误判前提
+  ai_default_failure: 插入闪回或让叙述变得连贯
+  transfer_rule: 要让角色误判，选无法输出完整信息的信源
+  quote: 姑姑就是姑姑
+- pattern_id: S10-p2
+  beat: 致命拼图
+  dimension: verb
+  original_move: 「学」腔调是表演级证据，感官证据胜过逻辑
+  ai_default_failure: 逐步列出线索串联的推理步骤
+  transfer_rule: 情感强烈时碎片自动拼成最恐惧的图
+  quote: 姑姑就叫：「靖哥哥，靖哥哥！」
+- pattern_id: S10-p3
+  beat: 痛哭与杀婴并置
+  dimension: camera
+  original_move: 个人悲痛与世界暴行同框并置，不写觉悟过程
+  ai_default_failure: 写从私仇升华到家国大义的独白
+  transfer_rule: 并置不调和，保持人物此阶段的局限
+  quote: 矛头上挑着个两三岁大的婴孩
+overall_traits:
+- 碎片叙事是错误归因的结构前提
+- 情感先于逻辑：省略推理只给结论
+- 私仇公义并置不调和，拒绝提前升华

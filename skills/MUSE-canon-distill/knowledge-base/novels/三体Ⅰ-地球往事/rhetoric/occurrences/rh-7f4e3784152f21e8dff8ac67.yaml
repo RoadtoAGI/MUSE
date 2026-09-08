@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7f4e3784152f21e8dff8ac67
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2475
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 要想有效遏制一个文明的发展，解除其武装，办法只有一个，杀死它们的科学
+sensory_mapping: 生命器官；致命打击；身体失能；武器卸下；生长停止
+context_fact: 传统战争破坏可在四万时内恢复，三体需要对文明发展能力施加不可恢复的长期伤害。
+image_mechanism: 文明被当作有生命的战士，城市和军队只是可再生肢体，科学则是控制生长的核心器官；三体选择杀器官而不是砍肢体。
+property_alignment: 地球文明对应生命战士；科学对应核心器官；技术应用对应肢体武器；传统破坏对应皮肉伤；基础研究中断对应器官死亡；不能突破对应身体停止成长
+context_alignment: 后文窒息、锁死科学继续同一生命与拘禁框架，智子计划就是实施方式。
+narrative_function: 说明战略目标从物理破坏转向知识能力，确立智子工程必要性。
+transfer_rule: 用杀死科学写技术封锁时，应证明科学对文明增长的器官性依赖、普通破坏可恢复和封锁不可再生。
+failure_boundary: 科学知识已有多路径保存、研究可在封锁外继续，或应用技术无需新基础理论仍能达到目标时，杀死断言需收窄。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体要通过破坏基础研究能力，使地球文明长期无法提升技术并失去未来军事反抗能力
+vehicle: 科学成为文明体内可被杀死的生命器官；器官死亡后身体仍在却不能成长和武装
+ground: 科学维持技术发展对应生命器官维持身体；阻断研究对应杀死器官；技术停滞对应生长终止；军事能力受限对应解除武装

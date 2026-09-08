@@ -1,0 +1,66 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    底本：RSC Shakespeare（Modern Library 2009, ed. Bate & Rasmussen），
+    五幕 27 场（RSC 切法；与 Riverside 8 场 Act 5 略异）。
+    Hecate 戏份（A3S5 + A4S1 部分）疑为 Middleton 插入，本分析按 Folio 既有结构保留。
+
+premise: |
+  A victorious thane, hailed by three witches as future king, is goaded
+  by his wife into murdering the sleeping king who is his guest, then
+  is forced to keep killing—Banquo, Macduff's family—to defend the
+  stolen crown, until equivocal prophecies fail him and the man "of no
+  woman born" beheads him at his own castle gate.
+
+genre: regicide-tragedy            # 弑君悲剧，与 court-tragedy / political-tragedy 同族
+secondary_genres:
+  - supernatural-tragedy           # 女巫、幽灵、显灵贯穿全剧
+  - psychological-tragedy          # 焦点是良知崩解、失眠、幻觉
+
+controlling_idea: |
+  When private ambition seizes a public crown by sacred betrayal—
+  murdering a guest, a king, a kinsman in one act—the killer's
+  imagination becomes the executioner: blood multiplies, sleep dies,
+  meaning empties, and the murderer ends signifying nothing.
+  （核心价值动线：ambition+ → sacrilege+ → conscience-collapse → meaning-collapse → public_butchery → just_terminal）
+
+core_tension:
+  - ambition_vs_loyalty            # 欲望对君臣 / 主客 / 血亲三重忠诚
+  - imagination_vs_action          # 想得太清楚的人下不了手；下手了又被想象反噬
+  - manhood_vs_humanity            # "be a man" 的胁迫如何驱动恶行（Lady Macbeth → Macbeth；Malcolm → Macduff）
+  - prophecy_vs_agency             # 预言究竟是揭示还是诱导
+  - sleep_vs_wakefulness           # 睡眠作为良知 / 清白 / 自然秩序的可见隐喻
+
+dramatic_engine:                   # 三段戏剧力学
+  inciting_disturbance: |
+    A1S3 — Three Witches hail Macbeth as Thane of Cawdor (proven true
+    within minutes) and "king hereafter," planting equivocal certainty
+    that fuses with Lady Macbeth's invocation (A1S5) into the deed.
+  sustaining_pressure: |
+    A2S2–A4S1 — Each murder breeds the next: Duncan's blood drives the
+    killing of Banquo; Banquo's ghost (A3S4) breaks the public mask;
+    Macduff's flight triggers the slaughter at Fife (A4S2). The pressure
+    is internal (sleeplessness, hallucination) and political (thanes
+    defecting, English army assembling) at once.
+  terminal_pressure: |
+    A5 — Lady Macbeth's sleepwalking confession + "Tomorrow" nihilism
+    + the literal arrival of Birnam Wood and the man "of no woman born"
+    collapse the equivocal charms into a single, just decapitation.
+
+theatricality_notes: |
+  Macbeth is structurally dependent on soliloquy + offstage murder.
+  The most consequential acts (Duncan's killing A2S2, Lady Macbeth's
+  suicide A5S5) happen offstage and reach the audience as report or
+  scream. Onstage we see preparation, conscience, public mask. Removing
+  the soliloquies (Lady Macbeth's "unsex me" / Macbeth's "If it were
+  done" / "Is this a dagger" / "Tomorrow") removes the play's spine—
+  the murders without them would be merely bloody, not tragic.
+
+  Equivocation is the play's grammar: witches' prophecies (Cawdor true,
+  king true, "none of woman born" / "Birnam Wood" false-true), Porter's
+  hell-gate riff (A2S3) explicitly naming the equivocator. The play
+  teaches the audience to distrust language alongside the protagonist.

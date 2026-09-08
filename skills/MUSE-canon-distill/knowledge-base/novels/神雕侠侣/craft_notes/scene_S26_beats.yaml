@@ -1,0 +1,28 @@
+scene_id: S26
+source_notes: scene_S26_beats.md
+patterns:
+- pattern_id: S26-p1
+  beat: 龙儿别了掌法复活
+  dimension: verb
+  original_move: 决战高潮用「没精打采的挥」，心死手才活
+  ai_default_failure: 写猛然领悟此刻心境正合掌法
+  transfer_rule: 领悟放在动作之后，身体先于意识知道
+  quote: 没精打采的挥袖卷出，拍出一掌
+- pattern_id: S26-p2
+  beat: 飞石击杀蒙哥
+  dimension: verb
+  original_move: 「拾」「掷」最朴素动作终结大汗，反高潮处理
+  ai_default_failure: 给英雄百感交集的庆祝时刻
+  transfer_rule: 最关键一击用最原始手段，英雄不自审
+  quote: 呼的一声掷出，正中蒙哥后心
+- pattern_id: S26-p3
+  beat: 战争缝隙裹伤
+  dimension: omission
+  original_move: 大战后让她一句话也说不出，颤抖的手代台词
+  ai_default_failure: 写吓死我了或答应我别再这样
+  transfer_rule: 私人时刻嵌进战争缝隙，语言不够时沉默
+  quote: 双手颤抖，竟是一句话也说不出来
+overall_traits:
+- 情感即武力：失效与复活论证主题
+- 反高潮的高潮拒绝武侠浪漫化
+- 公私两个尺度靠一句话完成切换

@@ -1,0 +1,25 @@
+card_id: identity-taunt-persuasion
+pattern_name: 身份激将说服术
+dramatic_function: 说服不走利害分析而攻击对方身份认同，把退缩定义为自我否定，使让步成为唯一保全身份的出路
+applicability: 适用于亲密或同侪关系内的道德拉锯，双方须共享同一身份价值脚本；纯利益陌生人关系失效（单书孤证，验证面窄）
+reuse_candidates:
+- 哺乳杀婴誓言的具体意象
+- 夫妻弑君的情节框架
+tags:
+- 说服
+- 激将
+- 身份脚本
+- 对白攻防
+source_scenes:
+- novel: Macbeth
+  scene_id: A1S7
+  note: 是不是男人与杀婴誓言连环进攻拉回弑君决议
+- novel: Macbeth
+  scene_id: A3S4
+  note: 宴会失控中妻子以你是不是男人耳语压制
+- novel: Macbeth
+  scene_id: A4S3
+  note: 像男人一样感受它——同一杠杆的正向反用
+phase_affinity:
+- 2
+- 5

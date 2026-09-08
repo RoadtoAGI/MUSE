@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-47fa8352f5621ad53ab3c34b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1286
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 大殿里立刻活跃起来，大家好像遇到了什么喜事
+sensory_mapping: 群体动作；表情情绪；节奏；反讽
+context_fact: 教皇温和地下令烧死汪淼，伽利略等人随即搬走旧焦尸、竖火刑架并兴奋堆柴。
+image_mechanism: 处刑准备保留全部欢快外壳：人群活跃、动作利落、共同布置；结果却从庆典礼物替换成一具将被烧的身体，形成冷酷错位。
+property_alignment: 兴高采烈对应喜讯后的情绪；搬架堆柴对应筹办喜事的集体忙碌；共同期待点火对应等待庆典高潮；实际目的杀人对应表层喜庆与后果反转
+context_alignment: 游戏中的学者把处死异端当惯例娱乐，喜事语汇准确揭露制度化残酷，并承接焦尸已在架上的荒诞。
+narrative_function: 以反讽加速处刑场面，刻画所谓科学权威的残忍和游戏黑色幽默。
+transfer_rule: 用喜庆动作反写暴力时，应保留可核对的情绪、群体协作和仪式准备，再让实际目标与这些表征正面冲突。
+failure_boundary: 人群只是紧张服从、没有兴奋表情与主动筹备时，喜事会把恐惧误读成欢乐。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 众人听到烧死汪淼的命令后兴高采烈搬火刑架、堆木柴的反常兴奋
+vehicle: 听闻喜讯后忙碌庆祝、共同筹备好事的人群
+ground: 众人情绪高涨对应遇喜事的兴奋；多人主动搬运布置对应庆典前集体筹备

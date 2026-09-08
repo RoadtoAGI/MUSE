@@ -1,0 +1,168 @@
+{
+  "novel": "I Am Legend",
+  "nominations": [
+    {
+      "pattern_name": "围城内耗",
+      "dramatic_function": "把外部威胁转化为主角身体欲望、羞耻和自责的持续内耗。",
+      "applicability": "适合封闭空间生存题材；若只写怪物攻击而无内在诱因会失效。",
+      "reuse_candidates": [
+        "吸血鬼夜袭",
+        "女性挑逗围屋",
+        "Cortman喊门"
+      ],
+      "tags": [
+        "围城",
+        "孤独",
+        "内耗",
+        "诱惑"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S01",
+          "note": "夜间围困通过声音和欲望逼近，主角几乎主动开门。"
+        },
+        {
+          "scene_id": "S02",
+          "note": "一次时间失误把日常防线变成濒死突破。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "日常病兆",
+      "dramatic_function": "让灾变先以早餐、睡眠、灰尘等小异常侵入亲密生活。",
+      "applicability": "适合慢性灾难或家庭恐怖；若直接宣告设定会削弱迟滞恐惧。",
+      "reuse_candidates": [
+        "沙尘暴传播",
+        "蚊虫入果汁",
+        "妻子变吸血鬼"
+      ],
+      "tags": [
+        "日常恐怖",
+        "病兆",
+        "家庭",
+        "迟滞揭示"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "病弱、灰尘和学校琐事并置，最后以熟人问候刺破正常。"
+        },
+        {
+          "scene_id": "S05",
+          "note": "死亡处理从家中静止延伸到违法埋葬和回返敲门。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "知识止痛",
+      "dramatic_function": "用研究、分类和实验给孤独者暂时秩序，同时暴露秩序无力。",
+      "applicability": "适合理性主角面对失控世界；若研究只提供答案而不反噬会变薄。",
+      "reuse_candidates": [
+        "图书馆细菌学",
+        "vampiris命名",
+        "血液药片设定"
+      ],
+      "tags": [
+        "科学自救",
+        "秩序",
+        "孤独",
+        "反噬"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "主角以图书馆和显微镜重建解释框架。"
+        },
+        {
+          "scene_id": "S10",
+          "note": "书信中的变异事实推翻他此前的分类安全感。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pattern_name": "亲密测谎",
+      "dramatic_function": "把久违亲密关系设计成测试场，让渴望与怀疑互相摧毁。",
+      "applicability": "适合幸存者、间谍、卧底关系；若双方无真实需求会只剩机关。",
+      "reuse_candidates": [
+        "大蒜测试",
+        "血液显微镜",
+        "Ruth的间谍身份"
+      ],
+      "tags": [
+        "亲密",
+        "测谎",
+        "背叛",
+        "信任"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S08",
+          "note": "首次接触同时是救援、暴力、测试和恐惧。"
+        },
+        {
+          "scene_id": "S09",
+          "note": "创伤倾诉后立刻进入血检，亲密被证据摧毁。"
+        },
+        {
+          "scene_id": "S10",
+          "note": "信件承认欺骗，同时保留真实爱意和逃生建议。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "常态易主",
+      "dramatic_function": "让主角在终局发现自己不是幸存标准，而是新秩序的怪物。",
+      "applicability": "适合价值翻转型结局；若新秩序没有合理性会沦为反派胜利。",
+      "reuse_candidates": [
+        "新吸血鬼社会",
+        "处决药片",
+        "I am legend标题句"
+      ],
+      "tags": [
+        "价值翻转",
+        "新秩序",
+        "怪物视角",
+        "终局认知"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S10",
+          "note": "新社会的存在首次迫使主角重估自己位置。"
+        },
+        {
+          "scene_id": "S11",
+          "note": "主角对旧怪物产生同情，对新执法者产生恐惧。"
+        },
+        {
+          "scene_id": "S12",
+          "note": "临终从人群恐惧中确认自己已成为传说中的异常。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

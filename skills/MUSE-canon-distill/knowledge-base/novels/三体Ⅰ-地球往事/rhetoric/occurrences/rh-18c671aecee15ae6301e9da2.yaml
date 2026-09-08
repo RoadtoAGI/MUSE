@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-18c671aecee15ae6301e9da2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2184
+chapter: 第31章 两个质子
+figure_type: metaphor
+quote: 降临派把主的信息当“人质”
+sensory_mapping: 人质被扣；武器抵近；谈判僵局；生命威胁；营救顾忌
+context_fact: 信息存于审判日号某台计算机，位置和备份不明，任何攻击都可能触发删除。
+image_mechanism: 无生命数字文件获得可被杀死的身体，删除键成为抵住它的武器；巨轮因此不只是基地，也是绑架现场。
+property_alignment: 信息文件对应人质；降临派对应劫持者；删除权限对应伤害武器；拯救派政府对应营救方；攻船对应强攻；信息永久丢失对应人质死亡
+context_alignment: 同句把信息比作宗教经典说明价值，人质隐喻另行解释降临派如何把价值转成战略保护。
+narrative_function: 把信息不对称转成劫持博弈，直接说明巨轮为何长期未受攻击。
+transfer_rule: 用人质写信息资产时，应具备不可替代价值、敌方实际控制、可信毁损威胁和进攻方因此受制。
+failure_boundary: 信息有完整外部备份、删除可轻易恢复，或控制者没有毁损意愿与能力时，人质筹码不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 降临派以随时删除唯一三体信息相威胁，阻止拯救派和政府攻击审判日号
+vehicle: 劫持者控制不可替代的人质生命，以伤害人质逼迫对手放弃进攻
+ground: 三体信息不可替代对应人质生命；降临派掌握删除权对应劫持控制；攻击即删对应伤害威胁；各方克制对应谈判让步

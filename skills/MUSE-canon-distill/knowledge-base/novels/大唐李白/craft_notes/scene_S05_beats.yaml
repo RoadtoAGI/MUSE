@@ -1,0 +1,14 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 仙鹤歌
+  dimension: info_density
+  original_move: 让整首诗承担政治预警
+  ai_default_failure: 把诗歌当氛围装饰
+  transfer_rule: 嵌诗必须改变人物对世界的判断
+  quote: 哀我十方不遇之士子
+overall_traits:
+- 鬼魂以知己形态出现
+- 诗歌承担叙事重量
+- 醒后空无封存真实性

@@ -1,0 +1,17 @@
+sequences:
+  - seq_id: SEQ01
+    act: 1
+    scene: 1
+    location: "INT. 上海里弄 - 黎明"
+    time: "1925 春"
+    characters_in_scene: [李慕白, 阿香]
+    dramatic_purpose: "建立李慕白卧底身份与阿香的初遇"
+    arc_position: setup
+  - seq_id: SEQ02
+    act: 1
+    scene: 2
+    location: "EXT. 黄浦江码头 - 黄昏"
+    time: "1925 春"
+    characters_in_scene: [李慕白, 黑帮甲]
+    dramatic_purpose: "首次冲突；李慕白身份受威胁"
+    arc_position: rising

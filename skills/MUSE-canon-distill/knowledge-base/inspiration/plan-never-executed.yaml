@@ -1,0 +1,23 @@
+card_id: plan-never-executed
+pattern_name: 永不执行计划
+dramatic_function: 先证明角色有胜利路径，再用制度性背叛碾碎它。
+applicability: 适合悲剧和政治线；若计划本身不聪明则削弱痛感（单书孤证，验证面窄）
+reuse_candidates:
+- 卡林湾
+- 孪河城
+- 罗柏北境继承令
+tags:
+- 悲剧结构
+- 战略留白
+- 政治背叛
+source_scenes:
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S24
+  note: 罗柏的北征方案只保留为承诺。
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S13
+  note: 红色婚礼让所有战略可能归零。
+phase_affinity:
+- 3
+- 4
+- 5

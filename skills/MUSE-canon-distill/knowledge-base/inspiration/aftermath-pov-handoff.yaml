@@ -1,0 +1,32 @@
+card_id: aftermath-pov-handoff
+pattern_name: 结局留白·余波接棒
+dramatic_function: 在最后动作处截断结局，让新视角通过关系后果延续情感。
+applicability: 适合存在关系承接者与认知差的收束；后续因果依赖精确生死时留白会造成缺口（单书孤证，验证面窄）
+reuse_candidates:
+- 停在迎击瞬间的动作
+- 几天后的时间跳跃
+- 不知前因的亲属视角
+- 新视角看见的眼泪
+- 被后来者拾到的日记
+tags:
+- 视角转交
+- 结局留白
+- 关系余波
+- 认知差
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: DT-S11
+  note: 陆霞克的具体结局停在吉他迎击处，数日后转向陆小虎，读者知道断后前因，他只看见陈雨琪的哭泣与关心。
+- novel: 狂病-莫千回
+  scene_id: XX-S10
+  note: 日记在叙述者自我感染的动作处戛然中止，将结局解释权留给下一场。
+- novel: 狂病-莫千回
+  scene_id: XX-S11
+  note: 罗允拾到并读完日记，他的叹息和继续上路将前一视角的余波带入更大故事。
+- novel: 狂病-莫千回
+  scene_id: SB-S11
+  note: 数月跳跃后改从罗允所见揭穿女友幻觉，遗书又把岳子安的生存经验交给后来者。
+phase_affinity:
+- 3
+- 4
+- 5

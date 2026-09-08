@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:套中人--wan-qing
+work_id: novel:狂病-莫千回
+display_name: 婉清
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她说话是幼童式的天真直白——问奶奶"今天不是休息吗"，一听有好吃的就乖乖应下、甩着小手保证帮忙。大人议论灾祸时她听不懂，便不插话，自己蹲在地上无聊地等车。她的"声音"更多不在台词，而在那双不带成见、对世界好奇张望的眼睛里：同样面对怪人，大人看到的是"神经病"，她看到的是隔绝与孤独。
+
+
+    来源：phase2_character.yaml → voice_traits（幼童天真口吻 + 不设防的好奇）
+
+    佐证：scenes/scene_TZ-S01.md:L5-L5 / scenes/scene_TZ-S01.md:L21-L21'
+  evidence_locators:
+  - scenes/scene_TZ-S01.md:L5-L5
+  - scenes/scene_TZ-S01.md:L21-L21
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

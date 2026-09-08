@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-63ebc9a5da5c5b16419cbe2d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1696
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 寂静笼罩着一切，这几亿人造就的寂静有一种令人窒息的诡异
+sensory_mapping: 听觉缺失；上方覆盖；胸口窒息；密闭空间
+context_fact: 如此巨大人群没有交谈或杂音，所有人只仰望天空等待舰队。
+image_mechanism: 寂静从声音空白凝成一顶透明巨罩，越多人不出声，罩壁越厚；戈壁虽开阔，汪淼却像被封进没有空气的室内。
+property_alignment: 全场无声对应罩体覆盖；几亿人共同沉默对应罩面巨大；诡异压力对应罩下空间封闭；令人窒息对应空气被隔绝
+context_alignment: 开放戈壁通常通风辽阔，窒息感与其物理空间反向，准确显示反常群体纪律和等待重量。
+narrative_function: 冻结起航前一刻的时间，让随后的欢呼爆发获得声压反差。
+transfer_rule: 用笼罩和窒息写沉默时，应有全域静止、群体规模、密闭感和随后可能打破罩层的声音变化。
+failure_boundary: 沉默来自宁静享受、空间中仍有自然声响且人物呼吸放松时，窒息罩会误写气氛。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 几亿人集体无声等待，使整个戈壁陷入密闭般的压迫感
+vehicle: 厚重罩体从上方覆盖空间，隔绝空气，让罩下的人难以呼吸
+ground: 无声状态覆盖所有位置对应罩子包住场域；群体沉默造成身体压迫对应密闭罩内缺氧窒息

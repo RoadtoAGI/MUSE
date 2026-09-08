@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-85f384f2831f035568411718
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2560
+chapter: 第34章 智子
+figure_type: simile
+quote: 一片片云层好像是紧贴着大陆的残雪
+sensory_mapping: 褐地白斑；薄层贴附；残雪边缘；俯视平面；冷白色
+context_fact: 三体人第一次从二维镜像中看清自己行星的大陆、山脉和云层细节。
+image_mechanism: 云的垂直高度在行星尺度俯视中被压平，漂浮物变成贴地雪斑；大气层因此像覆盖大陆的一层薄薄季节痕迹。
+property_alignment: 白色云层对应白雪；片状分布对应残雪斑块；俯视高度压缩对应紧贴地面；大陆褐色对应融雪后的土地；云边不规则对应雪缘消融
+context_alignment: 前文一直强调镜像如屏幕图像，残雪比照补回自然地貌触感，使行星自画像既陌生又可认。
+narrative_function: 提供识别行星的细节锚点，并表现宇宙俯视下云层高度被压缩的尺度感。
+transfer_rule: 把云写成残雪时，应采用高空俯视，让白色、片状、贴地错觉和深色地表形成明确对应。
+failure_boundary: 近地仰视云层、云体高耸翻滚或地表同样白色时，残雪的贴附和平面色差无法成立。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 从太空镜像中看见的白色云层斑块，平贴在褐色大陆表面
+vehicle: 冬末仍附着地面、沿山谷和阴影零散保留的片状白雪
+ground: 云层白色片状对应残雪；视觉上贴近地表对应雪附着大陆；分散不连续对应雪融后残留

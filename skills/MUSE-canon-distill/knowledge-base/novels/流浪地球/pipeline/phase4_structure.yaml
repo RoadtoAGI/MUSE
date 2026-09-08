@@ -1,0 +1,99 @@
+# Phase 4: 结构（序列展开）—— 《流浪地球》逆向分析
+# 接收 Phase 3 的 arcs[] 框架，逐 Arc 展开为序列
+
+arc_expansions:
+
+  # ═══════ ARC-1: 认知与启航 ═══════
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "认识世界"
+        core_conflict: 儿童的渺小感 vs 末世的宏大恐怖
+        escalation_direction: 从物理认知（地球发动机的巨大）递进到存在性恐惧（死亡谜语→太阳=死亡）
+        sequence_climax: 第一次日出——恐惧使所有孩子坠入深渊，"死亡之墙是雪亮的"
+        closed: 世界观建置完成——读者理解了这个世界的物理规则和心理氛围
+        opened: 人类为什么选择这条路？飞船不行吗？
+
+      - seq_id: ARC1-SEQ2
+        name: "论辩与启航"
+        core_conflict: 飞船派（小生态系统逃亡）vs 地球派（带着地球走）
+        escalation_direction: 从理性辩论（生态球论证）递进到情感锚定（星空下的比邻星）再到不可逆行动（启航）
+        sequence_climax: 星空下集体流泪+地球启航+爷爷去世——希望确立与第一次丧失同时发生
+        closed: 地球派合理性确立；旅程正式开始
+        opened: 旅程中会发生什么？人类能承受这2500年吗？
+
+    arc_progression_note: >
+      SEQ1 建立"恐惧"，SEQ2 在恐惧之上建立"希望"——
+      Arc 结束时读者同时持有两种情感，这是后续所有张力的基础。
+
+  # ═══════ ARC-2: 逃亡与丧失 ═══════
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "情感异化"
+        core_conflict: 生存压力对人类情感的系统性压缩
+        escalation_direction: 从家庭关系空洞化（父亲出轨被平静接受）递进到个体虚无选择（灵儿的肥皂泡哲学→消失）
+        sequence_climax: 灵儿与阿东消失——"我以后再也没见到他们"
+        closed: 虚无主义作为一种回应被展示并被否定（选择虚无的人消失了）
+        opened: 忍耐前行的人将面对什么？
+
+      - seq_id: ARC2-SEQ2
+        name: "灾难与延续"
+        core_conflict: 自然灾害不断夺去亲人 vs 生命顽强延续
+        escalation_direction: 从间接恐惧（近日点轮盘赌）递进到实际丧失（母亲遇难），再从极端孤独中获得爱情（遇见加代子）
+        sequence_climax: 纽约冰面上的结婚/抽签生育——"为人类的延续干杯"
+        closed: 母亲的丧失；新家庭的建立
+        opened: 穿越小行星带的威胁迫在眉睫
+
+      - seq_id: ARC2-SEQ3
+        name: "逃出太阳系"
+        core_conflict: 物理灾难的最后冲刺——小行星带+木星引力弹弓
+        escalation_direction: 从小行星轰炸（父亲牺牲）递进到彻底绝望（最黑的黑夜/自杀未遂），再从蓝光中重获希望，最终达到逃逸速度
+        sequence_climax: 木星交会——"宇宙巨怪"占满天空，地球擦过木星达到逃逸速度
+        closed: 物理逃亡成功；叙述者的所有长辈亲人已全部失去
+        opened: 脱离太阳系后的"安全"反而催生了怀疑——太阳真的会爆发吗？
+
+    arc_progression_note: >
+      三个序列的赌注递增：SEQ1 失去朋友/情感，SEQ2 失去母亲/获得妻子，SEQ3 失去父亲/获得儿子。
+      每次丧失都不可逆，但每次丧失后都有新的生命补偿——直到ARC-3打破这个模式。
+
+  # ═══════ ARC-3: 信念审判 ═══════
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "信念崩溃"
+        core_conflict: 观测"证据"vs 四百年的科学预测——认识论危机
+        escalation_direction: 从个体怀疑（加代子观测太阳）递进到集体叛乱（全球暴动），通过夫妻分裂映射人类分裂
+        sequence_climax: 加代子默默接过冲锋枪，"没有回头"——个人关系和社会秩序同时崩溃
+        closed: 人类内部的信念裂痕不可弥合
+        opened: 联合政府必将倒台——坚守者将如何面对？
+
+      - seq_id: ARC3-SEQ2
+        name: "审判与真理"
+        core_conflict: 信念的殉道 vs 宇宙的最终裁决
+        escalation_direction: 从军事失败（联合政府崩溃）递进到道德宣言（最高执政官演说），再从集体狂欢/冻刑递进到太阳氦闪的终极反转
+        sequence_climax: 太阳氦闪爆发——"《我的太阳》的合唱戛然而止"
+        closed: 太阳死了；真理被证实；坚守者成为纪念碑
+        opened: 漫长的流浪才刚刚开始——"幸运的是，还有人活着"
+
+    arc_progression_note: >
+      ARC-3 只有两个序列，节奏比 ARC-2 更紧凑——
+      因为信念危机一旦爆发就不可逆转，没有"恢复"的余地。
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: >
+    ARC-1 高潮（启航/爷爷去世）是个人层面的离别；
+    ARC-2 高潮（木星弹弓）是全人类层面的物理冒险；
+    ARC-3 高潮（冻刑+氦闪）是文明层面的信念审判——
+    冲击力从个人→全人类→文明，逐级递增。
+  causal_chain: >
+    ARC-1 确立希望 → ARC-2 中物理逃亡成功但亲人全失，产生精神真空 →
+    ARC-3 中精神真空被"太阳没变化"引爆为信念危机 → 叛乱 → 冻刑 → 氦闪
+
+causal_chain: >
+  ARC1-SEQ1（认识世界/恐惧）→ ARC1-SEQ2（论辩确立希望/启航）→
+  ARC2-SEQ1（情感被压缩/灵儿消失）→ ARC2-SEQ2（母亲遇难/遇见加代子）→
+  ARC2-SEQ3（父亲牺牲/绝望蓝光/木星弹弓）→
+  ARC3-SEQ1（观测太阳/叛乱/夫妻分裂）→ ARC3-SEQ2（投降/冻刑/氦闪/流浪）

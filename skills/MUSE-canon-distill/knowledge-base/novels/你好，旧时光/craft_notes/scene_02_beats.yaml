@@ -1,0 +1,14 @@
+scene_id: '02'
+source_notes: scene_02_beats.md
+patterns:
+- pattern_id: 02-p1
+  beat: 卡车离别
+  dimension: camera
+  original_move: 结尾从离开者翻到留下者内心
+  ai_default_failure: 会让孩子直说别忘了我
+  transfer_rule: 写告别可在末段切给留下者
+  quote: 安静地看着她离去
+overall_traits:
+- 用喜剧节奏承载悲伤
+- 道具由实物升级为象征
+- 末段视角翻转制造余韵

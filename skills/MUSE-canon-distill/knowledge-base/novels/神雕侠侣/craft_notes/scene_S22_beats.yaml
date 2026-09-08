@@ -1,0 +1,28 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 叙述者接力
+  dimension: info_density
+  original_move: 多个陌生证人各带碎片，众口一词建立可信度
+  ai_default_failure: 插入杨过视角闪回或感性自白
+  transfer_rule: 长期缺席的主角用他者证词链重建
+  quote: 这便是江湖上赫赫有名的「神雕侠」
+- pattern_id: S22-p2
+  beat: 郭襄的三次介入
+  dimension: omission
+  original_move: 「悠然出神」四字止步，不命名少女心事
+  ai_default_failure: 写说不清道不明的情愫涌起
+  transfer_rule: 尚未成形的情感不写破，写出来反而小了
+  quote: 轻轻的道：「神雕大侠，神雕大侠……」
+- pattern_id: S22-p3
+  beat: 美妇沉默与爆发
+  dimension: camera
+  original_move: 知情者全场被锁在外部表情，阻断叙事反泄信息
+  ai_default_failure: 暗示她的身份或插入当年一剑回忆
+  transfer_rule: 让唯一知情者被情绪锁死，谜面留给重读
+  quote: 你是大侠，我也是大侠
+overall_traits:
+- 他者之眼：一场夜话覆盖十六年三地
+- 新鲜视角重启读者对熟角色的好奇
+- 三层认知各说各话，信息差自成悬念

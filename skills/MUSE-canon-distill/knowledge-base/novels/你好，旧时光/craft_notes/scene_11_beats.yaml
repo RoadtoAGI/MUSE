@@ -1,0 +1,14 @@
+scene_id: '11'
+source_notes: scene_11_beats.md
+patterns:
+- pattern_id: 11-p1
+  beat: 延迟相认
+  dimension: omission
+  original_move: 把重逢拆成欲言又止和爆发
+  ai_default_failure: 会让相认当场完成并抒情
+  transfer_rule: 写旧友重逢时先压住名字
+  quote: 我是奔奔啊！
+overall_traits:
+- 荒诞喜剧包裹真实恐惧
+- 延迟相认制造双重体验
+- 物件象征体系双重编码

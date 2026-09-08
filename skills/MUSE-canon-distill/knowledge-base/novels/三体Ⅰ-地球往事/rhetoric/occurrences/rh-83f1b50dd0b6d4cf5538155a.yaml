@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-83f1b50dd0b6d4cf5538155a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L639
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 接下来带铜扣的宽皮带如雨点般打在他的头上和身上
+sensory_mapping: 触觉；痛觉；听觉；密度；下落动作
+context_fact: 铁高帽被打落后，叶哲泰失去保护并最终倒地。
+image_mechanism: 单次皮带抽击被复制成覆盖性的降雨，铜扣每次落下成为一个硬重雨点；自然界的连续节奏在此换成肉体无法躲避的打击密度。
+property_alignment: 抽打次数密集对应雨点连续落下；皮带从上方轮番落下对应雨滴同向坠落；打击覆盖头身对应雨点铺满受击面
+context_alignment: 四人轮流高举皮带制造高频、向下、遍体的动作，雨点准确概括其轨迹而不弱化铜扣的痛感。
+narrative_function: 将多人施暴压成持续不断的感官冲击，推动叶哲泰倒下。
+transfer_rule: 用降水写连续打击时，应核对击打方向、频率、覆盖范围与单个落点，并由材质补足雨点本身缺少的硬度。
+failure_boundary: 单次重击、横向挥砍或间隔很长的折磨没有雨点式密度与同向覆盖，使用此喻会模糊动作。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 四名少女用带铜扣的皮带连续密集抽打叶哲泰
+vehicle: 大量雨点从上方急促而连续地落向地面
+ground: 抽打次数密集对应雨点连续落下；皮带从上方轮番落下对应雨滴同向坠落；打击覆盖头身对应雨点铺满受击面

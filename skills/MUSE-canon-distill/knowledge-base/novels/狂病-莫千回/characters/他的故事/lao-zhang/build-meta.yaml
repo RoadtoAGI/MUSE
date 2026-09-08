@@ -1,0 +1,27 @@
+mode: reference
+display_name: 老张
+role_slug: lao-zhang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/他的故事/phase3_spine.yaml
+  - pipeline/他的故事/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TG-S01.md
+  - scenes/scene_TG-S02.md
+  - scenes/scene_TG-S05.md
+  - scenes/scene_TG-S07.md
+  - scenes/scene_TG-S08.md
+  - scenes/scene_TG-S11.md
+  - scenes/scene_TG-S12.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 16
+has_canon_ending: true
+coverage_note: |
+  软建议覆盖情况：
+  - 声音框架：跨 S05/S07/S08/S11 四个场景取证，非单点外推（满足"≥2 场景"建议）。
+  - 弧光：起点（S01）/ 关键转折（S12 潜行取药）/ 终点（S12 录音托付）三段齐全。
+  - 性格真相（拧巴/当断不断）：S02 路人冲突 + S12 弃友纠结两处不同压力场景佐证，"当断不断"全称由汪华依两次点破（line 79 / line 807）外加这两处行为锚定，非单点。
+  - 核心欲望：自觉/不自觉欲望分别由 S12（羡慕纯粹自陈）与 S05/S12（求生口吻 + 救药纠结）双点支撑。
+  单点支撑项：边界第三条（"想做的事只敢偷偷做"）主要靠 S01 推门一处具象 + S01 绣剑对照背景，属灾前观察而非极端检验场景，但与不自觉欲望段同源、彼此印证。

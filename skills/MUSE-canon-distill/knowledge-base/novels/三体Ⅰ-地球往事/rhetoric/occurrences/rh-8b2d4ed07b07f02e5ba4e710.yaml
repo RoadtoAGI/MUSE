@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8b2d4ed07b07f02e5ba4e710
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1303
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 三体文明将产生第一次飞跃，游戏进入第二级
+sensory_mapping: 身体运动；垂直层级；距离跨越
+context_fact: 哥白尼模型首次揭示三体世界基本结构，尽管本轮文明毁灭，该知识将保留并开启游戏第二级。
+image_mechanism: 渐进文明道路突然出现高差，理论突破让整个文明不再逐步爬行，而是一跃跨过旧认知层，直接落在新关卡。
+property_alignment: 理论突破对应起跳力量；知识跨阶段提升对应越过中间距离；游戏第二级对应更高落点；文明整体受益对应跃起主体为整个文明
+context_alignment: 前文文明一直艰难走过时代，此处“飞跃”用更快运动标记科学理论首次改变循环质量。
+narrative_function: 把本轮毁灭转化为认知胜利，奖励汪淼并推进游戏结构。
+transfer_rule: 用飞跃写进步时，应明确此前路径、被跨过的中间阶段、起跳原因和可验证的新落点。
+failure_boundary: 成果只是数量增加、未改变阶段能力或中间步骤仍需逐项完成时，飞跃会夸大突破。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 正确认识三太阳结构使三体文明的知识和游戏进程出现跨阶段提升
+vehicle: 身体越过中间距离直接跃上更高台阶
+ground: 认识改变幅度大对应跳跃跨越多段距离；进入新游戏等级对应落到更高层面

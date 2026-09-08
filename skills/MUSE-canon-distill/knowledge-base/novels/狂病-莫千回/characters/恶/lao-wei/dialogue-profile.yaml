@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--lao-wei
+work_id: novel:狂病-莫千回
+display_name: 老魏
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '老魏的声音几乎全部是临终时的内心独白，一种被痛觉缺失托起来的、奇异的平静与黑色幽默。他在被分尸时还在想"该发个朋友圈告诉那些发小——死好像根本就不痛"，用近乎玩笑的口吻消解眼前的酷刑。回忆往事时他的语气是淡的、带点自嘲的（见到大海只评一句"不过如此"，转头却给父母打了十几分钟电话讲海边的感受）。临终顿悟时他不悲不怒，只是叹一句"看来生活还是不够充实呀"，然后认出真相。他对自己被抛弃这件事没有怨恨，只有一种"这个年轻人根本不明白"的怜悯式清醒。
+
+
+    佐证：scenes/scene_EE-S07.md:L3-L3 / scenes/scene_EE-S07.md:L13-L13 / scenes/scene_EE-S07.md:L21-L21'
+  evidence_locators:
+  - scenes/scene_EE-S07.md:L3-L3
+  - scenes/scene_EE-S07.md:L13-L13
+  - scenes/scene_EE-S07.md:L21-L21
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

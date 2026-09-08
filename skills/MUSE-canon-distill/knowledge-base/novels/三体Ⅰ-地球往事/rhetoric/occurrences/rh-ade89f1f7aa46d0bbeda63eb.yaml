@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ade89f1f7aa46d0bbeda63eb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L641
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 那条血迹是唯一在动的东西，它像一条红蛇缓慢地蜿蜒爬行着
+sensory_mapping: 视觉；颜色；形态；缓慢运动
+context_fact: 叶哲泰已倒地死亡，会场由疯狂骤然陷入死寂。
+image_mechanism: 死亡现场唯一流动的血被赋予蛇的脊线和自主爬行动作；生命已从身体消失，却以红色活物的形态离开尸体。
+property_alignment: 血迹细长弯曲对应蛇身；鲜红颜色对应红蛇；液体沿地面推进对应蛇贴地爬行；周围静止衬出唯一运动对应活物独行
+context_alignment: “唯一在动”使血迹天然占据活物位置，蛇的低伏曲线与液体流路精确重合。
+narrative_function: 冻结会场并把死亡的发生转换成可追随的慢动作。
+transfer_rule: 把液体写成动物时，应从流迹的颜色、截面、弯曲方式和速度选择具体物种，让运动轨迹先成立再承载象征。
+failure_boundary: 血液大片漫开、飞溅或垂直滴落时没有蛇身曲线与贴地推进，蛇喻会误写流态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从叶哲泰头颅流出并在死寂会场中延伸的血迹
+vehicle: 一条红蛇贴地缓慢蜿蜒爬行
+ground: 血迹细长弯曲对应蛇身；鲜红颜色对应红蛇；液体沿地面推进对应蛇贴地爬行；周围静止衬出唯一运动对应活物独行

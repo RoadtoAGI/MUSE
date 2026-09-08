@@ -1,0 +1,42 @@
+scene_id: S35
+source_notes: scene_S35_beats.md
+patterns:
+- pattern_id: S35-p1
+  beat: 声音先于人到场
+  dimension: omission
+  original_move: 不写声波光效，魔力写成记不起内容却想附和的落差
+  ai_default_failure: 写一段华丽台词再宣布其不可抗拒，当场被读者检验
+  transfer_rule: 写不可抗的魅惑，魔力放进体验与记忆的落差，不可证伪
+  quote: 很少能说得出自己都听到了什么
+- pattern_id: S35-p2
+  beat: 叙述被灌进幻象
+  dimension: omission
+  original_move: 幻象以陈述句当实景拍，叙述者不标注这是谎言
+  ai_default_failure: 立刻标注这是诡计，或让主角内心免疫
+  transfer_rule: 写群体中咒让叙述同批被感染，读者亲历劝诱体感
+  quote: 萨茹曼站在一扇逃生门旁
+- pattern_id: S35-p3
+  beat: 破解拒绝进入语域
+  dimension: omission
+  original_move: 无人逐条反驳，破咒靠低吼、阵亡者名单与暴行清单
+  ai_default_failure: 让正方发表同样华丽的驳论，在修辞主场对轰
+  transfer_rule: 对话术型对手接话就是输，用粗、具体、点名破局
+  quote: 帮助就是破坏，拯救就是残害
+- pattern_id: S35-p4
+  beat: 大笑改类别
+  dimension: verb
+  original_move: 单个动词完成反制，把恐怖巫师重新归档为弄臣
+  ai_default_failure: 让主角庄严揭穿谎言，或写两股法力对撞光效
+  transfer_rule: 对以庄严为燃料的力量，反驳是供氧，发笑是釜底抽薪
+  quote: 这时，甘道夫大笑起来
+- pattern_id: S35-p5
+  beat: 规则最后才亮出
+  dimension: info_density
+  original_move: 赌注与险情押后到战后复盘补交，读者被迫重打一遍对决
+  ai_default_failure: 开打前先交代试探目的与危险等级，张力提前泄光
+  transfer_rule: 对决的意义结构可事后装配，先裸考后发评分标准
+  quote: 尽管其实只差毫厘
+overall_traits:
+- 魔法强度全程以听众效应计量，破解是打断语域
+- 规则首尾包夹中段裸打，说明书与复盘夹住对决
+- 力量差写在姿态几何上，位置未变权力轴翻转

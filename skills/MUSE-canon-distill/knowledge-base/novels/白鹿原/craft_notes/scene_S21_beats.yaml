@@ -1,0 +1,28 @@
+scene_id: S21
+source_notes: scene_S21_beats.md
+patterns:
+- pattern_id: S21-p1
+  beat: 笔头干涸
+  dimension: overall
+  original_move: 笔帽干涸泡开磨墨落字完成师承
+  ai_default_failure: 写凝视笔尖百感交集
+  transfer_rule: 传承仪式让器物状态替人物说话
+  quote: 笔头儿已经干涸
+- pattern_id: S21-p2
+  beat: 日课序列
+  dimension: verb
+  original_move: 舞剑诵读求问构成习惯蒙太奇
+  ai_default_failure: 安排读不懂和摔书挫折
+  transfer_rule: 内在改变可用重复行动清单呈现
+  quote: 每日早起借着蒙蒙的晨曦舞剑
+- pattern_id: S21-p3
+  beat: 朱先生评价
+  dimension: info_density
+  original_move: 从惊讶到认真交谈写真正认可
+  ai_default_failure: 写黑娃眼眶湿润的感动
+  transfer_rule: 师长认可可写判断升级而非抒情
+  quote: 你才是真个求学问
+overall_traits:
+- 器物即人物关系
+- 行动清单替代心理描写
+- 用器具物理状态写书法传承

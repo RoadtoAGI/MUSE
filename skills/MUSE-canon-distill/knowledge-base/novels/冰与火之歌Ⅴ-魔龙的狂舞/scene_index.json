@@ -1,0 +1,826 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "超自然",
+      "死亡",
+      "变身术",
+      "异鬼",
+      "序章"
+    ],
+    "characters": [
+      "瓦拉米尔",
+      "大蓟",
+      "独眼"
+    ],
+    "conflict_type": "external",
+    "pov": "瓦拉米尔",
+    "word_count": 2984,
+    "source_chapter": "第279章 序章",
+    "file": "scenes/scene_S01.md",
+    "description": "变身者瓦拉米尔垂死，灵魂入驻独眼狼，异鬼大军在长城以北降临",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，意识滑入兽性",
+      "diction": "冷硬感官词夹粗粝口语",
+      "rhetoric_density": "high",
+      "dialogue_mode": "回忆对白嵌入濒死独白",
+      "pacing": "短句惊厥与长回忆交替"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "权力",
+      "处决",
+      "领导力",
+      "家族传统"
+    ],
+    "characters": [
+      "琼恩",
+      "杰诺斯·史林特"
+    ],
+    "conflict_type": "personal",
+    "pov": "琼恩",
+    "word_count": 2516,
+    "source_chapter": "第286章 琼恩",
+    "file": "scenes/scene_S02.md",
+    "description": "琼恩当众斩杀抗命的史林特，以铁腕确立总司令权威",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，压住怒意判事",
+      "diction": "军令词与侮辱口语并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令抗命对白逐级升级",
+      "pacing": "程序性推进后骤然处决"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "道德困境",
+      "龙的代价",
+      "统治",
+      "物件叙事"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "巴利斯坦",
+      "一位父亲"
+    ],
+    "conflict_type": "internal",
+    "pov": "丹妮莉丝",
+    "word_count": 508,
+    "source_chapter": "第281章 丹妮莉丝",
+    "file": "scenes/scene_S03.md",
+    "description": "父亲带着被龙烧死的幼女焦骨来申诉，无需对白的实物控诉",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，惊觉压过宣仪",
+      "diction": "宫廷称号接焦黑实物",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "请愿断句逼出真相",
+      "pacing": "缓慢呈物后短句坠落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "心理摧毁",
+      "身份丧失",
+      "恐惧",
+      "施虐"
+    ],
+    "characters": [
+      "席恩/臭佬",
+      "拉姆斯·波顿",
+      "大小瓦德"
+    ],
+    "conflict_type": "personal",
+    "pov": "席恩",
+    "word_count": 3946,
+    "source_chapter": "第291章 臭佬",
+    "file": "scenes/scene_S04.md",
+    "description": "被彻底心理摧毁的席恩以'臭佬'身份在恐怖堡黑牢中苟活",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，恐惧吞没自我",
+      "diction": "污秽肉感词反复压迫",
+      "rhetoric_density": "high",
+      "dialogue_mode": "审问短句触发身份崩塌",
+      "pacing": "饥饿细写后脚步逼近"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "超自然",
+      "绿先知",
+      "命运",
+      "尸鬼战斗"
+    ],
+    "characters": [
+      "布兰",
+      "三眼乌鸦",
+      "梅拉",
+      "阿多"
+    ],
+    "conflict_type": "external",
+    "pov": "布兰",
+    "word_count": 6131,
+    "source_chapter": "第292章 布兰",
+    "file": "scenes/scene_S05.md",
+    "description": "布兰一行遭尸鬼伏击后进入洞穴，见到三眼乌鸦——'你可以飞'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "孩童限知混入狼性感知",
+      "diction": "寒冷、树影、尸鬼词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "危机对白短促互相接力",
+      "pacing": "攀登拖慢，伏击急收"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "政治翻转",
+      "忠诚",
+      "密谋",
+      "北境"
+    ],
+    "characters": [
+      "戴佛斯",
+      "威曼·曼德勒"
+    ],
+    "conflict_type": "personal",
+    "pov": "戴佛斯",
+    "word_count": 4903,
+    "source_chapter": "第308章 戴佛斯",
+    "file": "scenes/scene_S06.md",
+    "description": "曼德勒秘密翻牌，揭露白港一直在欺骗佛雷——'北方人的记忆是长久的'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "旁观限知，礼仪下藏翻牌",
+      "diction": "席宴礼词混北境硬誓",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长段陈述完成政治反转",
+      "pacing": "铺陈饮食后忽然亮刃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "魔法",
+      "预言",
+      "身份欺骗",
+      "红神"
+    ],
+    "characters": [
+      "梅丽珊卓",
+      "琼恩",
+      "曼斯·雷德"
+    ],
+    "conflict_type": "internal",
+    "pov": "梅丽珊卓",
+    "word_count": 1351,
+    "source_chapter": "第310章 梅丽珊卓",
+    "file": "scenes/scene_S07.md",
+    "description": "梅丽珊卓揭示'骸骨之王'是假曼斯，真曼斯已秘密前往临冬城",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "神秘限知，祭司掌控解释",
+      "diction": "火焰、幻术、预言词交叠",
+      "rhetoric_density": "high",
+      "dialogue_mode": "揭谜对白压过动作",
+      "pacing": "低声揭示，信息层层剥开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "超自然",
+      "绿先知",
+      "时间穿越",
+      "心树"
+    ],
+    "characters": [
+      "布兰",
+      "三眼乌鸦"
+    ],
+    "conflict_type": "internal",
+    "pov": "布兰",
+    "word_count": 2283,
+    "source_chapter": "第313章 布兰",
+    "file": "scenes/scene_S08.md",
+    "description": "布兰服食心树种子成为绿先知，穿越时间看见父亲年少时在神木林祈祷",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "梦视限知，时间层层透视",
+      "diction": "树根、血、旧神意象浓",
+      "rhetoric_density": "high",
+      "dialogue_mode": "少量训诫嵌入幻视",
+      "pacing": "仪式缓慢，幻景跳跃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "假身份",
+      "婚礼",
+      "心理控制",
+      "旧神"
+    ],
+    "characters": [
+      "席恩",
+      "拉姆斯",
+      "珍妮·普尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "席恩",
+    "word_count": 4041,
+    "source_chapter": "第316章 临冬城亲王",
+    "file": "scenes/scene_S09.md",
+    "description": "拉姆斯在神木林迎娶假艾莉亚，席恩被迫扮演'父亲'送假新娘入洞房",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "创伤限知，被迫执行仪式",
+      "diction": "婚礼华词被恐惧词污染",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令与称谓压制真名",
+      "pacing": "仪式步进，心理窒息"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "政治联姻",
+      "妥协",
+      "求婚",
+      "多恩"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "昆廷",
+      "西茨达拉",
+      "达里奥"
+    ],
+    "conflict_type": "internal",
+    "pov": "丹妮莉丝",
+    "word_count": 4865,
+    "source_chapter": "第322章 丹妮莉丝",
+    "file": "scenes/scene_S10.md",
+    "description": "昆廷献上婚约被婉拒，丹妮与西茨达拉完成政治联姻大婚",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "女王限知，私情让位政局",
+      "diction": "婚仪、交易、欲望词并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "求婚与政谈互相拆台",
+      "pacing": "会谈拖延，婚礼定音"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "身份重建",
+      "逃亡",
+      "救赎",
+      "名字的力量"
+    ],
+    "characters": [
+      "席恩",
+      "珍妮·普尔",
+      "洗衣妇"
+    ],
+    "conflict_type": "internal",
+    "pov": "席恩",
+    "word_count": 2874,
+    "source_chapter": "第330章 席恩",
+    "file": "scenes/scene_S11.md",
+    "description": "席恩记起自己的名字，协助洗衣妇救出珍妮，混乱中跳下城墙",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "创伤限知，真名艰难回返",
+      "diction": "雪、血、逃亡动词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低声催促推动逃亡",
+      "pacing": "潜行碎步后纵身断裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "驯龙",
+      "本质觉醒",
+      "竞技场",
+      "龙骑士"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "卓耿",
+      "巴利斯坦"
+    ],
+    "conflict_type": "external",
+    "pov": "丹妮莉丝",
+    "word_count": 1855,
+    "source_chapter": "第331章 丹妮莉丝",
+    "file": "scenes/scene_S12.md",
+    "description": "竞技场上卓耿突降，丹妮用鞭子驯服黑龙——'龙的血肉由火构成，我也一样'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "女王限知，恐惧转为本能",
+      "diction": "火、血、沙场词高热",
+      "rhetoric_density": "high",
+      "dialogue_mode": "喧嚣背景中对白稀疏",
+      "pacing": "群场混乱后聚焦驯龙"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "口才",
+      "谈判",
+      "佣兵",
+      "身份暴露"
+    ],
+    "characters": [
+      "提利昂",
+      "棕人本·普棱",
+      "乔拉",
+      "分妮"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 2259,
+    "source_chapter": "第336章 提利昂",
+    "file": "scenes/scene_S13.md",
+    "description": "提利昂自曝身份说服棕人本收留三个逃奴加入次子团",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "讥诮限知，弱者操盘谈判",
+      "diction": "佣兵黑话混贵族机锋",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "机辩对白直接转局",
+      "pacing": "试探递进，身份亮出收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "政变",
+      "荣誉",
+      "密谋",
+      "骑士"
+    ],
+    "characters": [
+      "巴利斯坦",
+      "斯卡拉茨"
+    ],
+    "conflict_type": "internal",
+    "pov": "巴利斯坦",
+    "word_count": 5991,
+    "source_chapter": "第346章 废王者",
+    "file": "scenes/scene_S14.md",
+    "description": "巴利斯坦与斯卡拉茨在兵器库密谋推翻西茨达拉，暗号'格罗莱'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "骑士限知，荣誉包住政变",
+      "diction": "兵器、誓言、城政词密布",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "密谋对白重暗号与条件",
+      "pacing": "静室筹划，节点清晰"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "军事",
+      "奇袭",
+      "归乡",
+      "黄金团"
+    ],
+    "characters": [
+      "乔恩·康宁顿",
+      "伊耿",
+      "黑巴曲"
+    ],
+    "conflict_type": "external",
+    "pov": "乔恩·康宁顿",
+    "word_count": 5869,
+    "source_chapter": "第340章 重生的狮鹫",
+    "file": "scenes/scene_S15.md",
+    "description": "黄金团以奇袭攻占鹫巢堡，康宁顿重返故土——伊耿正式登陆维斯特洛",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "军人限知，归乡压住病痛",
+      "diction": "战术地名与旧怨词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "军令对白配内心倒计时",
+      "pacing": "行动迅疾，回忆短插"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "驯龙",
+      "反英雄",
+      "悲剧",
+      "死亡"
+    ],
+    "characters": [
+      "昆廷",
+      "盖里斯",
+      "韦赛利昂",
+      "雷哥"
+    ],
+    "conflict_type": "external",
+    "pov": "昆廷",
+    "word_count": 6535,
+    "source_chapter": "第347章 驯龙者",
+    "file": "scenes/scene_S16.md",
+    "description": "昆廷闯入龙穴试图驯龙——'他举起鞭子，却发现鞭子烧着了'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "失败英雄限知，误判逐步显形",
+      "diction": "火焰、皮革、龙名词灼热",
+      "rhetoric_density": "high",
+      "dialogue_mode": "鼓劲短句被巨兽打断",
+      "pacing": "仪式慢启，火灾急坠"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "背叛",
+      "刺杀",
+      "守夜人",
+      "悲剧"
+    ],
+    "characters": [
+      "琼恩",
+      "波文·马尔锡",
+      "维克",
+      "旺旺"
+    ],
+    "conflict_type": "personal",
+    "pov": "琼恩",
+    "word_count": 8522,
+    "source_chapter": "第348章 琼恩",
+    "file": "scenes/scene_S17.md",
+    "description": "琼恩被守夜人兄弟背刺——波文含泪说'为了守夜人'——'只有冷……'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "统帅限知，事务突变刺杀",
+      "diction": "公文军务忽转血与冷",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "口令式对白掩护背刺",
+      "pacing": "杂务铺排后连击收黑"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "羞辱",
+      "权力剥夺",
+      "赎罪",
+      "身体叙事"
+    ],
+    "characters": [
+      "瑟曦",
+      "教会武装",
+      "民众"
+    ],
+    "conflict_type": "external",
+    "pov": "瑟曦",
+    "word_count": 7436,
+    "source_chapter": "第344章 瑟曦",
+    "file": "scenes/scene_S18.md",
+    "description": "瑟曦赤身裸体走过君临街道——从骄傲到精神崩溃的渐进过程",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "羞辱限知，骄傲被街声削薄",
+      "diction": "身体、污辱、王权词对撞",
+      "rhetoric_density": "high",
+      "dialogue_mode": "群众叫骂压过人物对白",
+      "pacing": "长路分段，屈辱递增"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "孤独",
+      "求生",
+      "龙骑士",
+      "荒野"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "卓耿"
+    ],
+    "conflict_type": "internal",
+    "pov": "丹妮莉丝",
+    "word_count": 5201,
+    "source_chapter": "第350章 丹妮莉丝",
+    "file": "scenes/scene_S19.md",
+    "description": "丹妮骑龙后流落多斯拉克海荒野——剥去一切头衔后的独自求生",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "孤身限知，头衔剥落成本能",
+      "diction": "荒草、饥渴、龙性词粗粝",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，靠内问推进",
+      "pacing": "求生细节慢，顿悟短促"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "暗杀",
+      "阴谋",
+      "终章",
+      "秩序崩塌"
+    ],
+    "characters": [
+      "凯冯",
+      "瓦里斯",
+      "儿童刺客"
+    ],
+    "conflict_type": "external",
+    "pov": "凯冯",
+    "word_count": 10143,
+    "source_chapter": "第351章 终章",
+    "file": "scenes/scene_S20.md",
+    "description": "白鸦落窗——'冬天到了'——瓦里斯射杀凯冯——儿童刺客从阴影涌出",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "政务限知，秩序被阴影拆解",
+      "diction": "宫廷行政词转入暗杀冷词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "解释性对白完成布局",
+      "pacing": "白鸦静落后快速清场"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "龙",
+      "囚禁",
+      "道德代价",
+      "统治困境"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "韦赛利昂",
+      "雷哥"
+    ],
+    "conflict_type": "internal",
+    "pov": "丹妮莉丝",
+    "word_count": 4573,
+    "source_chapter": "第290章 丹妮莉丝",
+    "file": "scenes/scene_S21.md",
+    "description": "丹妮秘密探视被铁链锁住的两龙——囚禁龙即囚禁自己的本质",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "女王限知，母性与恐惧交战",
+      "diction": "锁链、黑暗、龙火词回环",
+      "rhetoric_density": "high",
+      "dialogue_mode": "少量问答衬出沉默巨兽",
+      "pacing": "下行缓慢，龙影骤张"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "火刑",
+      "幻术",
+      "野人",
+      "长城"
+    ],
+    "characters": [
+      "琼恩",
+      "梅丽珊卓",
+      "曼斯·雷德"
+    ],
+    "conflict_type": "external",
+    "pov": "琼恩",
+    "word_count": 5156,
+    "source_chapter": "第289章 琼恩",
+    "file": "scenes/scene_S22.md",
+    "description": "梅丽珊卓公开将'曼斯'处以火刑，琼恩命弓箭手射杀以免其受苦",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "统帅限知，怜悯藏在仪式外",
+      "diction": "宗教宣告与寒地实物并置",
+      "rhetoric_density": "high",
+      "dialogue_mode": "布道长句对照求饶短句",
+      "pacing": "公开仪式缓升，箭矢截断"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "历史性时刻",
+      "野人",
+      "长城",
+      "领导力"
+    ],
+    "characters": [
+      "琼恩",
+      "托蒙德",
+      "自由民"
+    ],
+    "conflict_type": "personal",
+    "pov": "琼恩",
+    "word_count": 8312,
+    "source_chapter": "第337章 琼恩",
+    "file": "scenes/scene_S23.md",
+    "description": "琼恩主持三千余名自由民穿越长城——从黎明到黄昏的历史性行动",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "统帅限知，梦魇压着公事",
+      "diction": "军务食物与噩梦残象交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "官员汇报配阴郁插科",
+      "pacing": "梦境爆裂，日程铺长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "俘获",
+      "命运转折",
+      "妓院",
+      "流亡"
+    ],
+    "characters": [
+      "提利昂",
+      "乔拉·莫尔蒙"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 6059,
+    "source_chapter": "第301章 提利昂",
+    "file": "scenes/scene_S24.md",
+    "description": "提利昂在赛荷鲁镇妓院被乔拉·莫尔蒙俘获——'你是我的了，小恶魔'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "讥诮限知，以异域照见旧伤",
+      "diction": "市井感官词混历史掌故",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "翻译与俏皮话交错推进",
+      "pacing": "游街观察慢，俘获突转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "冰与火之歌Ⅴ·魔龙的狂舞",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "驯龙前夜",
+      "自我说服",
+      "英雄叙事",
+      "恐惧"
+    ],
+    "characters": [
+      "昆廷",
+      "盖里斯"
+    ],
+    "conflict_type": "internal",
+    "pov": "昆廷",
+    "word_count": 3470,
+    "source_chapter": "第347章 驯龙者",
+    "file": "scenes/scene_S25.md",
+    "description": "昆廷驯龙前夜与盖里斯对话——'英雄不会死。我只要当英雄。'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "失败英雄限知，自劝压住恐惧",
+      "diction": "冒险套语被烧伤现实拆穿",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "朋友调侃逼出自欺",
+      "pacing": "夜谈慢逼，决心硬收"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

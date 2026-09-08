@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a0391975f706a0a7584e7277
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2666
+chapter: 第35章 虫子
+figure_type: metaphor
+quote: 物质深层结构的研究是其他一切科学基础的基础
+sensory_mapping: 深挖地基；承重基座；层层楼体；支柱受力；楼高封顶
+context_fact: 大史质疑加速器失效是否等于一切结束，汪淼说明应用技术可改进，但缺少基础物理便无法实现范式跃迁。
+image_mechanism: 科学体系变成一座层层加高的建筑，材料、工程和武器都站在物质结构这块最深基座上；智子封住地基施工，上层还能装修，却不能再增加真正的新楼层。
+property_alignment: 微观物理对应最深地基；其他学科对应承重层；应用技术对应上层房间；理论解释对应结构支撑；加速器研究对应地基施工；科学锁死对应不能继续下挖；范式跃迁对应增建高层
+context_alignment: 前面的古代武器类比区分改良与跨代技术，本句以建筑层级给出造成该差距的学科依赖关系。
+narrative_function: 说明两位科学家为何把基础物理封锁视为整个文明发展的上限。
+transfer_rule: 用基础写学科依赖时，应对应底层知识的承重对象、上层增建条件、局部装修空间和地基受损后的传播范围。
+failure_boundary: 各学科可独立发展、上层创新不依赖所称基础，或新技术能反向重建底层理论时，单向建筑层级会过度简化知识网络。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 对微观物质结构的基础物理认识为其他科学理论和技术进步提供最底层条件
+vehicle: 大型建筑下面还有更深的承重地基，最底层一旦不能加固，上部所有楼层的高度都受限
+ground: 基础物理对应深层地基；其他科学对应上层结构；理论支撑对应承重；微观研究停滞对应地基无法继续下挖；技术上限对应楼高受限

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-301db1dcd13db5c10018f45f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2162
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 这三股强大的动力推动地球三体运动迅速发展
+sensory_mapping: 三向推力；机械加速；前进轨迹；能量输入；重量被推动
+context_fact: 三派分别主要承载三类动机，虽内部冲突，却都增加组织规模和社会影响。
+image_mechanism: 派别差异被暂时抽象为发动机上的三组推力，每组燃料不同，却都把同一运动推向更大规模；组织裂痕与外部加速可以并存。
+property_alignment: 三种欲望对应三股力；各派成员对应动力来源；ETO对应被推动载体；人数增长对应速度提升；社会扩张对应前进距离；动机持续对应能源不断输入
+context_alignment: 上一段强调组织有裂痕，此句解释裂而不散的原因：各派仍在同一扩张方向施力。
+narrative_function: 把复杂成因整理为可叠加的动力系统，为燎原结果提供过程解释。
+transfer_rule: 用动力推动写社会运动时，应区分各动力来源、共同方向、作用载体和可观察的加速指标。
+failure_boundary: 动机方向相反抵消、只影响观念不增加组织行动，或发展主要靠外部强制时，推力叠加会简化因果。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 文明异化、对高级文明崇拜和后代求生三种独立动机共同加速ETO扩张
+vehicle: 三股方向一致的机械力或推力同时作用于物体，使其加速前进
+ground: 三类动机对应三股动力；组织发展对应物体前进；共同作用对应推力叠加；速度迅速增加对应加速

@@ -1,0 +1,30 @@
+---
+name: design-validation
+description: 检查 Phase 0–5 设计中的时间矛盾、世界规则冲突和引用断裂，写入现有 design_validation.yaml；由 story-writing 在正文创作前调用。
+---
+
+# 设计一致性校验
+
+读取当前工作目录的 `pipeline/phase0_conception.yaml` 至 `phase5_scenes.yaml`、已引用的 `inspiration_ledger.yaml` 条目，以及本技能的 [校验方法](references/validation-guide.md) 和 [报告格式](references/output-schema.md)。人物经历与轨迹以 Phase 2 YAML 为准，兼容 adapter 只承载身份与声音。
+
+## 判断与定位
+
+围绕跨阶段实际相关的断言，检查时间、世界规则与引用是否能够同时成立。每个问题给出双方原文、字段位置及决定性条件，建议修复应回到哪个设计决定。时间轴、映射表可帮助复杂关系分析，无需单独交付。
+
+- 时间计算保留原始精度、角色身份与适用的世界机制。
+- 世界约束保留硬规则、社会规范、经验倾向及人物观点的区别。
+- ID、角色、序列和 INS-* 引用对照真实生产者与消费者；显式机器 ID 精确匹配。
+
+只有可确认的冲突进入 `review_findings`。缺少执行必要输入时，在既有报告的 `summary.input_gaps` 记录路径、缺什么及影响哪个判断；没有检查依据的空报告不能表示校验完成。无关空白无需补齐。
+
+`primary_drive`、人物轨迹和 `spine_mode` 描述不同层面的选择，可独立组合。以实际情境、事件与作者目标判断；标签组合、主题承载角色、转折数量和审美偏好本身不产生矛盾。
+
+## 来源引用
+
+未使用 INS-* 时可以没有 ledger。使用时核对 ID、状态、类型、适用对象和项目落点；缺条目、弃用条目或错误目标归引用问题。来源无法核实时按实际影响记录输入缺口。
+
+按来源生成方提供的锚点核对；`verified_by` 记录生产者，不能单凭该字段证明内容真实。需要原始证据时向来源生产者取得可读内容，遵守插件分发边界。
+
+## 交接
+
+写入 `pipeline/review/design_validation.yaml`，返回完成状态、报告路径和是否有待补输入。orchestrator 解决确定矛盾及阻碍正文执行的缺口；修改后复查受影响关系。作者裁决设计与审美选择。

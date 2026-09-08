@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-01646aa501c2741aa7a54082
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1728
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 整个人类在我的眼中已是一堆垃圾
+sensory_mapping: 视觉堆积；污秽气味；触觉脏乱；丢弃动作
+context_fact: 潘寒被指借环保事业捞取名利，他以蔑视人类辩称出名只是为了操纵公众思想。
+image_mechanism: 无数具体的人被压缩成一堆不分个体的废物，尊严和差异像原用途一样被抹掉；说话者站在堆外，获得自封的清理者位置。
+property_alignment: 全体人类对应垃圾集合；否定个体价值对应废物失去用途；蔑视文明对应嫌恶污秽；主张毁灭或操控对应清除处理垃圾；潘寒自外于人类对应站在垃圾堆外
+context_alignment: 他正否认自己在乎人类名誉，却仍利用公众，垃圾称呼同时暴露降临派的反人类立场和自我例外。
+narrative_function: 用去人化物象迅速揭开潘寒的价值底色，为秘密毁灭纲领铺垫。
+transfer_rule: 把群体称为垃圾时，应识别说话者取消了哪些价值、把自己置于何种清理位置，以及这种去人化将许可什么行动。
+failure_boundary: 对象只是某项行为失败、仍被承认具有人格和改正能力时，垃圾化会从批评滑向无依据的全盘剥夺。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 潘寒声称自己彻底蔑视全人类及其文明，不再认为人类具有值得维护的价值
+vehicle: 失去用途、被混杂堆放并等待清除的废弃物
+ground: 人类被判定无价值对应物品报废；文明整体遭厌弃对应垃圾成堆且需要处理

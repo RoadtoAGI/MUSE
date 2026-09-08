@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-db8715a5d7699e4063e76c3f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1962
+chapter: 第26章 雷志成、杨卫宁之死
+figure_type: metaphor
+quote: 外星侵略者必然会淹没于人民战争的汪洋大海之中
+sensory_mapping: 无边海面；巨浪包围；下沉窒息；数量压倒；持续冲刷
+context_fact: 雷志成尚不知道回信已经发出，以文革政治语言宣称即便外星入侵也无需惧怕。
+image_mechanism: 亿万群众的个体边界被消融成连续海洋，侵略军无论技术多强都成为海中小物；政治口号用数量和持久性替代技术差距。
+property_alignment: 人民数量巨大对应海水无边；分布全国对应四面包围；持久战对应浪潮连续；外星舰队对应落海异物；最终消灭对应淹没；政治动员对应海水汇聚
+context_alignment: 面对真正跨星际文明，他仍机械套用人民战争口号，海洋气势既表现时代语言，也暴露其想象贫乏。
+narrative_function: 以宏大政治隐喻制造冷讽，显示雷志成误判外星威胁却准确识别政治机会。
+transfer_rule: 用汪洋写群众力量时，应对应数量、包围面、持续冲击和目标被消耗的过程，同时审查技术差是否让模型失真。
+failure_boundary: 对手能远程毁灭整个环境、群众无法接触目标，或个体协同并不连续时，海量人数不等于可淹没力量。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 雷志成相信数量庞大的人民群众和持久战争能包围、消耗并消灭外星入侵力量
+vehicle: 无边海水从四面包围异物，以巨大体量和连续波涛将其吞没至不可见
+ground: 广大人民对应汪洋水体；群众持续作战对应海浪不断冲击；侵略者少而孤立对应落海物被吞没

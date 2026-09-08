@@ -1,0 +1,21 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:不详--yifan
+work_id: novel:狂病-莫千回
+display_name: 亦凡
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '亦凡的语言带着高三少年的稚气和讨好——被王晨轩怼了只会顺着台阶下"确实确实，轩姐说的没毛病"，在成年人面前主动放低姿态。可到了生命最后一刻，他的声音却褪去所有少年气，沉成一句近乎平静的交代："没事的，这些都是我一爷们该做的事情。"——把临终的恐惧全部咽下，只留一句替别人宽心、也替自己正名的话。日常的讨好与终局的担当之间，是他全部的成长落差。
+
+
+    佐证：scenes/scene_BX-S04.md:L57-L57 / scenes/scene_BX-S08.md:L31-L31'
+  evidence_locators:
+  - scenes/scene_BX-S04.md:L57-L57
+  - scenes/scene_BX-S08.md:L31-L31
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

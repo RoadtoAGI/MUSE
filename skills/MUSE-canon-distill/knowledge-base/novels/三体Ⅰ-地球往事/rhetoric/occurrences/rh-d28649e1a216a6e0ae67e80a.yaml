@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d28649e1a216a6e0ae67e80a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1369
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: 把那些轨迹画出来，足够办一个后现代派画展了
+sensory_mapping: 视觉；线条；构图；陈列空间
+context_fact: 此前研究者只找到三四种稳定状态，魏成用进化算法找到百余种，但强调这仍非其最终目标。
+image_mechanism: 数学轨迹从论文图表摘下、装框并排挂上展墙，观者先看到曲线的形式美和多样性，暂时忘记其预测功能。
+property_alignment: 轨迹抽象线条对应后现代非具象画；上百种结果对应展品规模；每种结构独特对应画作构图变化；研究偏离最终预测目标对应艺术展示重形式而非实用
+context_alignment: 魏成以懒散幽默贬低同行追逐特解，也承认轨迹视觉奇观，画展比喻兼具炫耀和自我校正。
+narrative_function: 直观显示成果数量与形态之丰富，同时划清“漂亮特解”和真正解决问题的距离。
+transfer_rule: 把科学图形比作艺术展时，应落实线条风格、结果数量和观看方式，并说明形式美与科学目标的关系。
+failure_boundary: 只有一两张普通曲线、形态高度重复或研究目的本就是可视化传播时，画展会夸大多样性或制造错误讽刺。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 魏成求得的一百多种形态复杂、彼此不同的三体稳定轨迹图
+vehicle: 数量足以成展、以非具象线条和几何构成取胜的后现代艺术作品
+ground: 轨迹线条复杂抽象对应非具象艺术构图；上百种形态各异对应画展需要数量和变化

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ce0ac6a3a09f03478cbc3307
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1081
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 杨母向汪淼讲述了那段还未尘封的往事
+sensory_mapping: 视觉；尘埃覆盖；时间沉积；揭取动作
+context_fact: 年老叶文洁常想起基地岁月，相关内容仍属机密，却因书籍和亲历者叙述逐渐成为公开秘密。
+image_mechanism: 时间被想成缓慢落下的尘土，旧事本应在层层覆盖中失去轮廓；“还未”停住这一过程，让她能从记忆表面直接取出并讲述。
+property_alignment: 年代久远对应旧物积尘；保密与沉默对应尘层遮盖；记忆清楚并开口讲述对应物体尚未被完全封住
+context_alignment: 红岸历史介于机密与公开之间，未尘封既说明年代感，也准确表示它仍活跃在当事人和公共叙述中。
+narrative_function: 从当下对话平滑转入回忆，并提示这段历史仍在作用于现在。
+transfer_rule: 用尘封写往事时，应同时处理时间沉积、信息遮蔽和重新叙述的可达性，让覆盖程度对应记忆状态。
+failure_boundary: 刚发生的事件、当事人已经遗忘或资料彻底不可访问时，“还未尘封”分别会缺少时间尘埃或夸大可讲述性。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 叶文洁仍清晰保存、尚未被时间和保密彻底遮蔽的红岸经历
+vehicle: 尚未被尘土覆盖、仍能显露形状和被取出的旧物
+ground: 往事距今久远对应物体久置会积尘；记忆仍鲜明且被重新讲述对应表面尚未封死、仍可辨认

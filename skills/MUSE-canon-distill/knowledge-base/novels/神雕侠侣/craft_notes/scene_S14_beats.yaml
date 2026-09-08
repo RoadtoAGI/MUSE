@@ -1,0 +1,28 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 郭芙转述小龙女之言
+  dimension: camera
+  original_move: 深情话语经愤怒转述失真，纯听觉三层信息叠加
+  ai_default_failure: 写一大段不敢相信的内心崩溃独白
+  transfer_rule: 信息过载时刻用身体反应替代内心独白
+  quote: 心中就如猛中一推
+- pattern_id: S14-p2
+  beat: 挥剑斩落
+  dimension: omission
+  original_move: 不写断臂本身，叙事空白模拟创伤性失忆
+  ai_default_failure: 写鲜血如注与撕心裂肺的惨叫
+  transfer_rule: 暴力到阈值时跳切留白，读者脑补更可怕
+  quote: 一咬牙，手上加劲，挥剑斩落
+- pattern_id: S14-p3
+  beat: 杨过的第一反应
+  dimension: verb
+  original_move: 被打后写穿鞋等零硬度日常动词，独白是政治判断
+  ai_default_failure: 写愤怒委屈想要辩解反击的心理
+  transfer_rule: 角色定义性反应用低烈度动作锚定身份
+  quote: 伸脚下床穿了鞋子
+overall_traits:
+- 慢性积压造势能，极简暴力造冲击
+- 三节拍共同点是省略：信任读者想象力
+- 日常动作锚定永远的外人身份

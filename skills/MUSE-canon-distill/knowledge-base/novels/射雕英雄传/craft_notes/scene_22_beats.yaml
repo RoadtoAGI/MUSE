@@ -1,0 +1,27 @@
+scene_id: '22'
+source_notes: scene_22_beats.md
+patterns:
+- pattern_id: 22-p1
+  beat: 词穷即声音
+  dimension: omission
+  original_move: 无数言辞一字不给，让郭靖只会说「很好很好」
+  ai_default_failure: 替笨角色编出聪明流畅的深情辩护词
+  transfer_rule: 拙者表白让其表达失败，失败即最有力表达
+  quote: 除了说她「很好很好」，更无别语
+- pattern_id: 22-p2
+  beat: 沉默替代千言
+  dimension: omission
+  original_move: 千言万语不展开，用叙述者一句两心相通概括
+  ai_default_failure: 补双方内心独白展示相通的具体内容
+  transfer_rule: 感情被行动证明过后，可用概述替代展示
+  quote: 纵然一言不发，两心相通
+- pattern_id: 22-p3
+  beat: 务实替代抒情
+  dimension: info_density
+  original_move: 黄蓉感动只占半句，立刻切到务实建议
+  ai_default_failure: 让她先流泪再说一段感激心里话
+  transfer_rule: 聪明角色情动时直接跳到行动方案
+  quote: 你多说也没用。别回去吧！
+overall_traits:
+- 词穷是性格不是沉默：尝试说话但失败
+- 重复句的力量来自它替代的未说之言

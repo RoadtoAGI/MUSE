@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f8b5660f4a2133a06626b818
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1683
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 摆锤像一只巨大的金属拳头，对冷酷的宇宙永恒地挥舞着，无声地发出三体文明不屈的呐喊
+sensory_mapping: 金属触觉；挥拳动作；风声与无声呐喊；力量；巨大尺度
+context_fact: 三体文明用巨摆纪念行星大撕裂；汪淼思考它究竟是向规律渴望还是向混沌屈服。
+image_mechanism: 镜面摆锤先收拢成握紧的指节，每次越过最低点都像向宇宙出拳；机械风声被进一步翻译成无法在真空传播却意志鲜明的群体呐喊。
+property_alignment: 沉重摆锤对应巨大拳头；金属材质对应坚硬意志；周期摆动对应持续挥拳；对抗混沌对应击向冷酷宇宙；纪念碑象征对应三体文明呐喊
+context_alignment: 摆动既可能徒劳重复又永不停止，拳头准确保留反抗的力量和无法击中宇宙的悲壮，令汪淼落泪。
+narrative_function: 把工程纪念碑凝成文明人格，使三体人的生存斗争获得强烈情感认同。
+transfer_rule: 把摆动物写成拳头时，应匹配重量、材质、挥击弧线、对抗对象和反复动作所承载的意志。
+failure_boundary: 物体轻柔摆动、没有对抗语境或运动旨在安抚顺从时，金属拳头会强加战斗姿态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨摆以永不停息的往复运动纪念三体灾难，并表达文明对不可预测宇宙的抗争
+vehicle: 战士举起坚硬巨拳反复击向强敌，同时以呐喊宣告不屈
+ground: 金属摆锤的圆重形体对应握紧铁拳；摆动轨迹对应拳头反复挥击；无声运动承载意志对应呐喊虽无声音仍可被读懂

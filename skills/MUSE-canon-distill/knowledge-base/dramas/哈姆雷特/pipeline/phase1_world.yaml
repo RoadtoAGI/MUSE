@@ -1,0 +1,96 @@
+analysis_meta:
+  novel: "哈姆雷特"
+  source_text: "full_text.md"
+  source_form: "戏剧/复仇悲剧；短中篇，约 69773 字"
+  evidence_note: "Phase A 第一轮逆向分析；证据以幕/景标注，未做行号级场景切分。"
+  source_path: "dramas/哈姆雷特/full_text.md"
+  work_type: "drama"
+
+setting:
+  era: "丹麦王国的宫廷时代；文本混合中世纪王权、基督教死后审判观与卫登堡大学等早期现代参照。"
+  duration: "先王死后、克劳地加冕和婚礼不久开始，至哈姆雷特海上遇险返国后的宫廷决斗结束；舞台时间约数周，人物记忆中先王之死已过两三个月。"
+  location: "艾辛诺尔城堡及其城墙、宫中厅室、波隆尼尔家、皇后寝室、丹麦原野、墓园；英格兰、挪威、波兰与海上事件主要通过信件和报告进入。"
+  conflict_levels:
+    internal: "哈姆雷特在复仇义务、证据怀疑、死亡恐惧、母亲厌恶和自我鄙弃之间摇摆。"
+    personal: "子与母、侄与叔、恋人与被利用的恋人、朋友与密探、复仇者与镜像复仇者之间互不信任。"
+    external: "篡位后的王权合法性、对挪威军事威胁的防备、宫廷舆论、英格兰外交命令和决斗礼仪共同限制行动。"
+
+world_rules:
+  physical:
+    - rule: "亡魂可以在深夜显现，并在鸡鸣或黎明前消散。"
+      evidence: "第一幕第一景；第一幕第五景"
+      story_implication: "真相以超自然方式进入，但不能直接完成司法，只能把复仇任务交给生者。"
+    - rule: "毒药是王室谋杀的高效工具，可通过耳、酒杯和剑尖进入身体。"
+      evidence: "第一幕第五景；第五幕第二景"
+      story_implication: "隐蔽暴力与宫廷表面礼仪并存，结局中谋杀工具反噬设计者。"
+    - rule: "海上航行、国书、封印和海盗让流放线可以在舞台外急速逆转。"
+      evidence: "第四幕第六景；第五幕第二景"
+      story_implication: "外部世界既是克劳地清除哈姆雷特的工具，也是命运让哈姆雷特返场的通道。"
+  social:
+    - rule: "国王拥有外交、审判、监禁和调度臣属的权力，但不能完全无视王子在民众中的声望。"
+      evidence: "第四幕第三景；第四幕第七景"
+      story_implication: "克劳地必须把处置哈姆雷特伪装为流放或意外，不能公开摊牌。"
+    - rule: "宫廷中信息通过窥探、密信、旁听、戏剧和报告流动，公开言说反而最危险。"
+      evidence: "第二幕第二景；第三幕第一景；第三幕第四景"
+      story_implication: "每个调查行为都可能制造新的误判和死亡。"
+    - rule: "女性的行动被父亲、兄长、丈夫和王权管理，贞节与婚姻名誉被当作政治风险。"
+      evidence: "第一幕第三景；第三幕第一景；第四幕第五景"
+      story_implication: "欧菲莉亚和葛簇特的选择空间被压缩，她们的身体和名誉成为男性冲突的战场。"
+    - rule: "贵族荣誉要求对父亲之死作出回应，复仇是一种社会期待。"
+      evidence: "第一幕第五景；第四幕第五景；第五幕第一景"
+      story_implication: "哈姆雷特、雷尔提和福丁布拉构成三种行动速度的复仇镜像。"
+  psychological:
+    - rule: "罪感无法被华丽语言彻底遮蔽，会在祈祷、戏剧观看、疯歌和临死告白中泄漏。"
+      evidence: "第三幕第二景；第三幕第三景；第五幕第二景"
+      story_implication: "真相不是靠侦探式证据单独完成，而靠良心在压力下露出破绽。"
+    - rule: "对死后审判和灵魂归宿的恐惧会改变行动时机。"
+      evidence: "第三幕第一景；第三幕第三景；第五幕第二景"
+      story_implication: "哈姆雷特的拖延不是单纯软弱，而是复仇伦理和宗教想象共同造成的迟滞。"
+    - rule: "语言可以同时遮掩和揭露真相，疯话、双关和戏谑往往比正言更接近真实。"
+      evidence: "第二幕第二景；第三幕第二景；第四幕第二景"
+      story_implication: "对白本身就是斗争场，角色通过误解、试探和反讽互相逼近。"
+
+genre_conventions:
+  primary_genre: "复仇悲剧"
+  secondary_genre: "宫廷阴谋剧 / 心理悲剧"
+  conventions:
+    - convention: "亡父幽灵命令儿子复仇。"
+      planned_subversion: "幽灵虽给出真相，却因可能是恶鬼而需要再经戏中戏验证，使复仇命令变成认识论难题。"
+      evidence: "第一幕第五景；第二幕第二景"
+    - convention: "复仇者应迅速行动。"
+      planned_subversion: "哈姆雷特不断把行动延宕到证据、祈祷时机、母亲良心和自身死亡准备都被处理后，行动迟缓成为主题核心。"
+      evidence: "第三幕第三景；第四幕第四景"
+    - convention: "宫廷礼仪维持秩序。"
+      planned_subversion: "每一次礼仪场面都遮住暴力：婚宴遮住弑兄，戏剧遮住审讯，决斗遮住谋杀。"
+      evidence: "第一幕第二景；第三幕第二景；第五幕第二景"
+    - convention: "悲剧高潮集中清算罪行。"
+      planned_subversion: "高潮不是单一复仇成功，而是毒剑、毒酒、误饮、换剑和临死供认的连锁反噬。"
+      evidence: "第五幕第二景"
+
+daily_life:
+  - dimension: "宫廷政务"
+    findings:
+      - detail: "加冕、外交使节、挪威通行许可和英格兰贡属关系均由王室厅堂处理。"
+        story_implication: "私人罪案始终与国家机器缠绕，谋杀不是家庭事件而是政权事件。"
+  - dimension: "教育与文化"
+    findings:
+      - detail: "哈姆雷特、赫瑞修、罗生克兰、盖登思邓与卫登堡大学相关；巡回戏班进入宫廷演出。"
+        story_implication: "学者式怀疑、戏剧观念和宫廷政治形成独特冲突。"
+  - dimension: "宗教与丧葬"
+    findings:
+      - detail: "忏悔、炼狱、基督葬礼、自杀疑云和墓园笑谈共同出现。"
+        story_implication: "死亡不仅是肉体终结，也是灵魂审判和社会名誉问题。"
+  - dimension: "武艺与贵族礼仪"
+    findings:
+      - detail: "雷尔提的剑术名声、赌注、裁判、酒杯和军礼都构成第五幕决斗的表面形式。"
+        story_implication: "礼貌竞技可以被篡位者改造成暗杀机器。"
+
+creative_constraints:
+  - constraint: "哈姆雷特不能直接公开指控国王。"
+    narrative_function: "迫使故事通过幽灵、装疯、戏中戏和私室对质来推进证据链。"
+  - constraint: "克劳地不能公开处死受民众爱戴的王子。"
+    narrative_function: "迫使对手选择英格兰密令和决斗陷阱，增加反噬空间。"
+  - constraint: "母亲的良心可被唤醒，但她不是复仇执行者。"
+    narrative_function: "第三幕第四景成为道德揭露场，而不是情节终结点。"
+  - constraint: "真相必须由幸存见证者讲述。"
+    narrative_function: "赫瑞修的存活把悲剧从私仇转化为公共历史。"

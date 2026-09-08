@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e74a1e65101b3293a412dca3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2129
+chapter: 第29章 第二红岸基地
+figure_type: metaphor
+quote: 在这太空的江之头和江之尾，任何联系都细若游丝
+sensory_mapping: 江河两端；漫长水道；细丝牵连；微弱张力；远距不可见
+context_fact: 伊文斯销声匿迹三年，叶文洁不知道他能否证实三体信息，四光年对生命仍遥不可及。
+image_mechanism: 宇宙距离先被折成同一条长江，两文明位于源尾；随后连河水也被抽走，只剩一根游丝横跨两端，显示信号虽存在却不足以支撑常态往来。
+property_alignment: 地球对应江尾一端；三体世界对应江头另一端；四光年对应河道长度；共同宇宙对应同一流域；电波通信对应牵线；生命脆弱对应丝线无法承载实体旅行
+context_alignment: 第二红岸将用巨轮天线强化这根联系，江海与游丝意象自然导向海上基地。
+narrative_function: 把宇宙尺度与生命尺度的反差压缩成两端细线，并为通信被证实蓄势。
+transfer_rule: 用江头江尾和游丝写远距联系时，应对应共同介质、两端位置、传播距离、联系强度和承载限制。
+failure_boundary: 双方已有稳定高速、多通道通信或实体航行频繁时，游丝会低估联系宽度与可靠性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 地球与四光年外三体星系分处通信两端，生命尺度下距离巨大且只能依靠极微弱电波联系
+vehicle: 长江上下游相隔遥远，仅由一根细到近乎断裂的丝线维系两端
+ground: 两个星系对应江头江尾；四光年空间对应漫长河程；微弱电波对应游丝；联系脆弱对应细丝易断

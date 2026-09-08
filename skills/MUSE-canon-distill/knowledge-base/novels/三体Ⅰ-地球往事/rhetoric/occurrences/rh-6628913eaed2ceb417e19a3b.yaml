@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6628913eaed2ceb417e19a3b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1554
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 一个声音很有磁性的男音
+sensory_mapping: 听觉音色；无形吸力；靠近；振动
+context_fact: 汪淼刚退出震撼的游戏关卡，系统管理员第一次直接来电并邀请他参加网友聚会。
+image_mechanism: 听觉质感跨感官变成看不见的力场，电话线另一端无需现身便把汪淼的注意和行动拉向组织者。
+property_alignment: 悦耳男音对应磁体；注意被抓住对应铁屑受吸；愿意回应提问对应被牵引靠近；声音辨识度对应稳定磁场
+context_alignment: 来电既友好又带筛选控制，磁性兼具魅力与牵引，准确预示游戏组织开始把玩家拉入现实网络。
+narrative_function: 在人物未露面前建立吸引性权威，并平滑从游戏灾难转入现实邀约。
+transfer_rule: 用磁性写声音时，应有具体音色吸引、注意力转向和靠近或服从倾向，不能只作空泛赞美。
+failure_boundary: 声音尖锐令人排斥、听者不受影响，或吸引来自话语内容而非音色时，磁性会错配感官原因。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 陌生男子低沉悦耳、具有吸引力和辨识度的嗓音
+vehicle: 磁体隔空吸引铁质物体并把它拉近
+ground: 嗓音自然抓住听者注意对应磁场产生吸力；声音让人愿意继续听对应物体被吸向磁体

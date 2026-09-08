@@ -1,0 +1,35 @@
+scene_id: S10c
+source_notes: scene_S10c_beats.md
+patterns:
+- pattern_id: S10c-p1
+  beat: 平民嘲讽——用喜剧给毁灭定价
+  dimension: omission
+  original_move: 无名群声嘲讽连排不标说话人，不加一丝不祥暗示，反讽全部延迟
+  ai_default_failure: 在狂欢中插「一丝隐忧掠过心头」式预警
+  transfer_rule: 为后文落差蓄势时让自信干净落地，预支一分即削弱一分
+  quote: 这是用两千把宰牛刀杀一只鸡！
+- pattern_id: S10c-p2
+  beat: 四十五分钟
+  dimension: camera
+  original_move: 起航只从地球仰望的肉眼写，让读者亲等四十五分钟光程延迟
+  ai_default_failure: 切到旗舰舰桥写点火指令与倒计时近景
+  transfer_rule: 写远方巨变用物理规则让读者等出距离感，不直接陈述距离
+  quote: 仿佛是它的灵魂脱离了躯体
+- pattern_id: S10c-p3
+  beat: 两千个太阳——叙述者加入合唱
+  dimension: overall
+  original_move: 一贯冷峻的叙述者亲自唱颂歌，直接宣告人类的尊严与不可战胜
+  ai_default_failure: 叙述保持安全距离，写「人们觉得」把狂热推给人物
+  transfer_rule: 为终极落差蓄势可让叙述者也沉醉，上当深度等于沉醉深度
+  quote: 漆黑的太空中，突然出现了两千个太阳！
+- pattern_id: S10c-p4
+  beat: 三个冷静者
+  dimension: omission
+  original_move: 怀疑者无一句说出疑虑，不安全由身份与状态承载各有无害理由
+  ai_default_failure: 让某个角色直接说出对拦截行动本身的担忧
+  transfer_rule: 投放阴影用人物配置不用预警句，重读时才显影
+  quote: 抽着烟，无动于衷地看着狂欢的人群
+overall_traits:
+- 让最不该狂热的叙述者也狂热，背叛感直达文本契约层
+- 力量展示全走物理中介，读者从天文现象自己换算强大
+- 阴影靠怀疑者站位不靠预警句，重读显影为幸存者名单

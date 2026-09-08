@@ -1,0 +1,594 @@
+# Phase 5: 关键场景 — 《指环王》逆向分析
+# 约77万字长篇（三部曲合一），提取30个关键场景节点（结构转折点、高潮、关键建置）
+
+analysis_meta:
+  novel: 指环王
+  source_text: 指环王.md
+  source_form: "长篇（三部曲合一，约77万字，62章，邓嘉宛、石中歌、杜蕴慈译本）"
+  evidence_note: "每场景以 source_chapter 字段锚定到'卷X第Y章'（对照 navigation.md）"
+
+sequence_expansions:
+
+  # ── ARC-1 关键场景 ──
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 袋底洞
+        time: 弗罗多50岁生日前夕
+        participants: [弗罗多, 甘道夫]
+        pov: 弗罗多
+        conflict: 甘道夫揭示至尊戒真相——弗罗多的世界观被彻底颠覆
+        value_start: 安全/无知——魔戒只是隐身玩具
+        value_end: 恐惧/觉醒——手中握着世间最危险的武器
+        must_include: 火焰文字显现、咕噜的来历、甘道夫关于怜悯的教诲（"许多活着的人都该死，一些死了的人却该活……就别急着断人生死吧"，指环王.md L1042）、山姆因偷听被指派同行
+        handoff: 弗罗多决定离开夏尔，但甘道夫随即失踪
+        beat_direction: "从平静到风暴——甘道夫的揭示如同一把锤子，砸碎弗罗多的安逸外壳"
+        source_chapter: 卷一第2章
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 古冢岗墓穴
+        time: 离开夏尔后数日
+        participants: [弗罗多, 梅里, 皮平, 山姆, 古冢尸妖, 汤姆·邦巴迪尔]
+        pov: 弗罗多
+        conflict: 弗罗多在生死关头克服戴戒逃跑的诱惑，为朋友战斗
+        value_start: 恐惧/孤立——被囚在墓穴中，同伴昏迷
+        value_end: 勇气/友谊——选择砍向尸妖而非独自逃生
+        must_include: 弗罗多内心戴戒逃跑与为朋友战斗的抉择、汤姆的歌声驱散尸妖、每人获得一柄古代匕首
+        handoff: 汤姆送他们到大道上，建议前往布理
+        source_chapter: 卷一第8章
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 风云顶废墟
+        time: 十月六日夜间
+        participants: [弗罗多, 山姆, 梅里, 皮平, 阿拉贡, 五名戒灵]
+        pov: 弗罗多
+        conflict: 戒灵夜袭——弗罗多被魔窟利刃刺中
+        value_start: 脆弱的安全——有阿拉贡保护
+        value_end: 致命危机——弗罗多负伤，开始向暗影世界褪隐
+        must_include: 弗罗多被诱使戴上魔戒后看见戒灵的真实形态（苍白的王者）、被魔窟利刃刺中左肩、阿拉贡以火把驱退戒灵
+        handoff: 与时间赛跑——弗罗多必须尽快到达幽谷接受治疗
+        beat_direction: "紧凑对抗——黑暗中的短兵相接，弗罗多的恐惧达到顶峰"
+        source_chapter: 卷一第11章
+
+      - scene_id: S24
+        arc_id: ARC-1
+        location: 布茹伊能渡口
+        time: 弗罗多负伤后数日
+        participants: [弗罗多, 格罗芬德尔, 戒灵]
+        pov: 弗罗多
+        conflict: 九骑手全数追击——弗罗多以最后的意志力骑马飞渡
+        value_start: 致命危机——弗罗多伤势恶化，戒灵逼近
+        value_end: 安全——洪水吞没九骑手，弗罗多抵达幽谷
+        must_include: 骑精灵白马飞渡河流、弗罗多呼唤精灵之名对抗戒灵的命令、埃尔隆德操纵的洪水、弗罗多在河岸力竭昏厥
+        handoff: 弗罗多在幽谷被治愈，进入ARC-2
+        source_chapter: 卷一第12章
+
+  # ── ARC-2 关键场景 ──
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-2
+        location: 幽谷·埃尔隆德的会议厅
+        time: 弗罗多苏醒后
+        participants: [弗罗多, 甘道夫, 埃尔隆德, 阿拉贡, 波洛米尔, 莱戈拉斯, 吉姆利, 格罗因等]
+        pov: 弗罗多
+        conflict: 至尊戒的命运如何决定——各种族的分歧与争论
+        value_start: 困惑/被动——弗罗多只是个携带者
+        value_end: 主动承担——弗罗多自愿成为持戒人
+        must_include: 至尊戒完整历史的揭示、甘道夫被萨茹曼囚禁的经过、波洛米尔的预言之梦、弗罗多在漫长沉默后说"我来带魔戒去"
+        handoff: 九人远征队组建——"九位行者对抗九位骑手"
+        beat_direction: "从议论纷纷到一锤定音——弗罗多的一句话改变了一切"
+        source_chapter: 卷二第2章
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S36
+        arc_id: ARC-2
+        location: 马扎布尔之室（巴林墓室）·墨瑞亚
+        time: 穿越墨瑞亚第三日，抵达大门前
+        participants: [甘道夫, 弗罗多, 山姆, 阿拉贡, 波洛米尔, 吉姆利, 莱戈拉斯, 梅里, 皮平]
+        pov: 多视角（弗罗多为主）
+        conflict: 小队在死者的档案室里被奥克大队堵截——密闭空间近战与且战且退
+        value_start: 哀悼与不安——巴林之墓前诵读染血日记
+        value_end: 侥幸脱险——突围而出，但更深的威胁（Ghâsh火光）在逼近
+        must_include: 日记的预叙恐惧（"我们无法出去。我们无法出去。""鼓声，深处传来的鼓声"）、当下鼓声与日记文字的重合、穴居巨怪破门、弗罗多被矛刺中、波洛米尔/阿拉贡断后、甘道夫封门咒与对手的反制
+        handoff: 退往卡扎督姆桥——直接衔接 S05 甘道夫独挡炎魔
+        beat_direction: "恐惧的预叙——先让角色读到死者的结局，再让同样的鼓声在他们自己耳边响起"
+        source_chapter: 卷二第5章
+
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 卡扎督姆桥·墨瑞亚深处
+        time: 穿越墨瑞亚的最后阶段
+        participants: [甘道夫, 炎魔, 远征队全体]
+        pov: 远征队（以弗罗多视角为主）
+        conflict: 甘道夫独挡炎魔——光明与远古黑暗的正面碰撞
+        value_start: 希望——即将走出墨瑞亚
+        value_end: 绝望——甘道夫坠落深渊，远征队失去领袖
+        must_include: 甘道夫"你休想过"的断喝、击碎桥面、炎魔鞭子将甘道夫拖入深渊、甘道夫最后的话"你们快逃"
+        handoff: 阿拉贡接替领导，带领悲痛的队伍前往洛丝罗瑞恩
+        beat_direction: "从紧急撤退到英雄牺牲——节奏骤然停顿，巨大的失落感"
+        source_chapter: 卷二第5章
+
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 洛丝罗瑞恩·加拉德瑞尔的花园
+        time: 在精灵森林休整期间
+        participants: [弗罗多, 山姆, 加拉德瑞尔]
+        pov: 弗罗多
+        conflict: 加拉德瑞尔面对魔戒的诱惑——是接受还是拒绝？
+        value_start: 诱惑——弗罗多主动提议将魔戒交给她
+        value_end: 放弃——加拉德瑞尔拒绝，选择衰微
+        must_include: 水镜的幻象、弗罗多的提议、加拉德瑞尔变成"可怖而美丽的女王"的幻象、"我通过了考验，我将衰微"
+        handoff: 远征队获赠礼物（星光瓶、银盒等关键道具）后乘船南下
+        beat_direction: "静水深流——外表平静的花园中，一场影响世界命运的内心搏斗"
+        source_chapter: 卷二第7章
+
+  - seq_id: ARC2-SEQ4
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: 帕斯嘉兰·阿蒙汉
+        time: 远征队分裂当日
+        participants: [弗罗多, 波洛米尔, 山姆]
+        pov: 弗罗多
+        conflict: 波洛米尔受魔戒蛊惑，弗罗多被迫做出独自前行的决定
+        value_start: 犹豫——弗罗多在去魔多还是去刚铎间摇摆
+        value_end: 决断——弗罗多选择独自东行，山姆追随
+        must_include: 波洛米尔由劝说升级为威胁、弗罗多戴戒隐身逃跑、在阿蒙汉高座上险遭索隆锁定、山姆凭直觉追到河边跳水追赶
+        handoff: 远征队一分为三——东线（弗罗多/山姆）、西线（阿拉贡/莱戈拉斯/吉姆利）、被俘（梅里/皮平）
+        beat_direction: "从对话到追逐——波洛米尔的疯狂与弗罗多的孤独决断形成尖锐对比"
+        source_chapter: 卷二第10章
+
+  # ── ARC-3 关键场景 ──
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S25
+        arc_id: ARC-3
+        location: 帕斯嘉兰·安都因河岸
+        time: 远征队分裂次日
+        participants: [波洛米尔, 阿拉贡, 莱戈拉斯, 吉姆利]
+        pov: 阿拉贡
+        conflict: 波洛米尔身中无数箭矢——临终忏悔与救赎
+        value_start: 搜索——阿拉贡不知波洛米尔的命运
+        value_end: 悲痛与宽恕——波洛米尔以死赎罪，阿拉贡接过远征队领导权
+        must_include: 波洛米尔靠在树上身中无数箭矢、"我试图从霍比特人手中夺走魔戒。对不起"、阿拉贡亲吻他的额头、精灵小船送葬
+        handoff: 阿拉贡决定追踪奥克而非跟随弗罗多
+        source_chapter: 卷三第1章
+
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 范贡森林·岩架
+        time: 追踪奥克数日后
+        participants: [阿拉贡, 莱戈拉斯, 吉姆利, 甘道夫（白袍）]
+        pov: 阿拉贡
+        conflict: 一个"白袍老者"出现——是萨茹曼还是……？
+        value_start: 绝望——追踪似乎失败
+        value_end: 狂喜——甘道夫死而复生，力量格局逆转
+        must_include: 三人误以为是萨茹曼、白衣闪光、"我就是甘道夫，白袍甘道夫"、与炎魔搏斗至死又归来的叙述
+        handoff: 甘道夫告知霍比特人安全，引领三人前往洛汉
+        beat_direction: "从紧张到震撼——身份揭示的戏剧性最大化"
+        source_chapter: 卷三第5章
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S26
+        arc_id: ARC-3
+        location: 埃多拉斯·金殿美杜塞尔德
+        time: 甘道夫归来后
+        participants: [甘道夫, 希奥顿, 佞舌格里马, 阿拉贡, 伊奥温]
+        pov: 多视角
+        conflict: 甘道夫能否解除萨茹曼通过佞舌对国王施加的精神控制？
+        value_start: 傀儡——希奥顿被控制成消沉老人
+        value_end: 觉醒——国王重新握剑走出金殿
+        must_include: 甘道夫的权杖被试图没收、"你的手指会记得它们原来的力量"、希奥顿握住剑柄、佞舌被驱逐、伊奥温被委以留守重任
+        handoff: 洛汉大军西征迎敌——引向海尔姆深谷
+        source_chapter: 卷三第6章
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S31
+        arc_id: ARC-3
+        location: 海尔姆深谷·城墙
+        time: 午夜至黎明前
+        participants: [阿拉贡, 伊奥梅尔, 吉姆利, 莱戈拉斯, 甘姆林, 希奥顿]
+        pov: 多视角
+        conflict: 萨茹曼万人大军攻城——城墙能否守住？
+        value_start: 紧张等待——兵力悬殊但城墙坚固
+        value_end: 城墙被破——欧尔桑克火药炸开缺口，防线崩溃
+        must_include: 吉姆利莱戈拉斯的猎杀竞赛、闪电照亮万人敌军、撞门槌+阿拉贡伊奥梅尔出击、涵洞渗透+吉姆利堵洞、欧尔桑克火药炸城墙
+        handoff: 守军撤退至号角堡——引向S09黎明冲锋
+        beat_direction: "战斗呼吸——等待→爆发→拉锯→喘息（计分）→再爆发→爆破，完整的攻防节奏"
+        source_chapter: 卷三第7章
+
+      - scene_id: S09
+        arc_id: ARC-3
+        location: 海尔姆深谷
+        time: 黎明前最黑暗的时刻
+        participants: [希奥顿, 阿拉贡, 伊奥梅尔, 甘道夫, 吉姆利, 莱戈拉斯]
+        pov: 多视角
+        conflict: 洛汉最后的堡垒能否在萨茹曼万人大军的攻击下幸存？
+        value_start: 绝境——城墙被炸开，兵力悬殊
+        value_end: 胜利——希奥顿的冲锋与甘道夫的援军夹击扭转战局
+        must_include: 号角堡的号角声、希奥顿的黎明冲锋、甘道夫从山脊率军出现、胡奥恩吞噬溃逃的奥克
+        handoff: 萨茹曼的野战力量被消灭，但他本人仍在欧尔桑克
+        beat_direction: "绝境逢生——从最绝望的黑暗到黎明的号角声"
+        source_chapter: 卷三第7章
+
+  - seq_id: ARC3-SEQ4
+    scenes:
+      - scene_id: S27
+        arc_id: ARC-3
+        location: 艾森加德废墟
+        time: 海尔姆深谷之战后
+        participants: [梅里, 皮平, 树须, 甘道夫, 希奥顿, 阿拉贡]
+        pov: 多视角
+        conflict: 恩特如何摧毁了萨茹曼的军工基地？
+        value_start: 好奇——众人不知艾森加德发生了什么
+        value_end: 震撼与轻松——恩特的杰作令人叹服，梅里皮平的乐天令人莞尔
+        must_include: 梅里和皮平坐在废墟上抽烟迎客、恩特引水灌城的叙述、欧尔桑克高塔屹立不摇
+        handoff: 萨茹曼被困在塔中——引向"萨茹曼之声"对话
+        source_chapter: 卷三第9章
+
+      - scene_id: S35
+        arc_id: ARC-3
+        location: 欧尔桑克塔下·艾森加德
+        time: 艾森加德陷落次日
+        participants: [甘道夫, 萨茹曼, 希奥顿, 伊奥梅尔, 阿拉贡, 吉姆利, 莱戈拉斯, 梅里, 皮平, 佞舌]
+        pov: 多视角（听众感受为主）
+        conflict: 纯声音的法术对决——萨茹曼以声音魔力轮番劝诱在场每个人，甘道夫以更高权柄终结之
+        value_start: 警惕的上门——"小心他的声音"，胜利者反而是求见的一方
+        value_end: 咒语破解——萨茹曼被逐出巫师阶列，权杖折断，帕蓝提尔意外落入己方之手
+        must_include: 声音魔力的听众效应（温和的劝诫令闻者附和）、吉姆利与伊奥梅尔的粗声打断、希奥顿沉默后的拒绝"就算你与我们和解，我们又如何与你和解"、萨茹曼声音失控的破绽、甘道夫的大笑消解幻术、"萨茹曼，你的权杖折断了"、佞舌掷下帕蓝提尔、甘道夫战后复盘"他声音的魔力正在衰退"
+        handoff: 帕蓝提尔引出皮平偷看事件（S-帕蓝提尔线）；甘道夫携皮平飞奔刚铎
+        beat_direction: "不见刀剑的对决——魔法完全以修辞与听众反应呈现，破解靠的是笑声与更高的权柄"
+        source_chapter: 卷三第10章
+
+  # ── ARC-4 关键场景 ──
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S28
+        arc_id: ARC-4
+        location: 埃敏穆伊丘陵
+        time: 弗罗多和山姆独自东行后
+        participants: [弗罗多, 山姆, 咕噜]
+        pov: 弗罗多
+        conflict: 弗罗多能否将追踪者转化为向导？
+        value_start: 对峙——咕噜是敌人
+        value_end: 脆弱的信任——咕噜以魔戒之名宣誓效忠
+        must_include: 精灵绳索攀下悬崖、制伏咕噜、以"宝贝"之名起誓、甘道夫关于怜悯的教诲在此刻得到实践
+        handoff: 咕噜引领二人穿越死亡沼泽前往黑门
+        source_chapter: 卷四第1章
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-4
+        location: 汉奈斯安努恩·西方之窗
+        time: 被法拉米尔扣留期间
+        participants: [弗罗多, 山姆, 法拉米尔]
+        pov: 弗罗多
+        conflict: 又一个刚铎贵族面对魔戒——法拉米尔会重蹈波洛米尔的覆辙吗？
+        value_start: 危险——山姆失言暴露魔戒的存在
+        value_end: 信任——法拉米尔证明了高于其兄的品格
+        must_include: 波洛米尔之死的揭露（法拉米尔见到弟弟遗体的精灵小船）、山姆失言、法拉米尔的拒绝宣言
+        handoff: 法拉米尔放行但警告勿走奇立斯乌苟
+        beat_direction: "审讯中的温情——法拉米尔的高贵让紧张氛围转为信任"
+        source_chapter: 卷四第5章
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 奇立斯乌苟阶梯
+        time: 攀爬险峻石阶之夜
+        participants: [弗罗多, 山姆, 咕噜]
+        pov: 山姆
+        conflict: 咕噜内心善恶之争的最后一搏
+        value_start: 短暂的和平——三人攀爬中的疲惫休息
+        value_end: 善意被打断——山姆粗声喝退咕噜，善良的斯密戈彻底退场
+        must_include: 山姆与弗罗多讨论"我们是否会成为伟大故事的一部分"、咕噜看着沉睡的弗罗多露出近乎温情的表情、山姆的喝斥打破了这一刻
+        handoff: 三人进入希洛布的隧道——咕噜的最后一丝善意已死
+        beat_direction: "静谧中的悲剧——全书最安静但最令人心碎的场景之一"
+        source_chapter: 卷四第8章
+
+      - scene_id: S12
+        arc_id: ARC-4
+        location: 希洛布的巢穴出口 + 奇立斯乌苟塔楼
+        time: 紧接S11之后
+        participants: [弗罗多, 山姆, 咕噜, 希洛布]
+        pov: 山姆
+        conflict: 山姆独自面对巨蛛和失去弗罗多的绝望
+        value_start: 背叛——咕噜消失，希洛布攻击
+        value_end: 英雄时刻 + 绝望——山姆刺伤希洛布，但弗罗多被俘
+        must_include: 星光瓶的光芒、山姆用刺叮剑刺入希洛布腹部、弗罗多被蜇后"死亡"、山姆取走魔戒的痛苦抉择、从奥克对话中得知弗罗多还活着
+        handoff: 弗罗多被带入奥克塔楼，山姆被关在铁门外——全书最大悬念
+        beat_direction: "从恐怖到英雄到绝望——情感的极端摇摆"
+        source_chapter: 卷四第9-10章
+
+  # ── ARC-5 关键场景 ──
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S32
+        arc_id: ARC-5
+        location: 米那斯提力斯·围城
+        time: 围城期间（黑暗笼罩的白昼到夜晚）
+        participants: [甘道夫, 德内梭尔, 皮平, 法拉米尔, 伊姆拉希尔, 戒灵之王]
+        pov: 皮平
+        conflict: 魔多大军围城——投石机+格龙得+心理战能否摧毁刚铎的意志？
+        value_start: 坚守——城墙坚固，守军有信心
+        value_end: 崩溃——城门被破，德内梭尔精神崩溃欲自焚
+        must_include: 投石机抛掷人头的心理战、那兹古尔的空中恐惧、德内梭尔的绝望、格龙得攻城槌三次撞击破门、甘道夫在城门下独自面对戒灵王、公鸡啼鸣和远方的洛汉号角
+        handoff: 洛汉号角声传来——引向S29洛汉冲锋
+        beat_direction: "恐惧作为武器——物理攻城只是手段，真正的战场在守军心智中"
+        source_chapter: 卷五第4章
+
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 米那斯提力斯·白城城门
+        time: 刚铎围城的高潮
+        participants: [甘道夫, 戒灵之王]
+        pov: 皮平
+        conflict: 白袍巫师与死亡之主在破碎的城门下对峙
+        value_start: 绝望——城门被轰破
+        value_end: 转折——洛汉号角声从北方传来
+        must_include: 戒灵王骑黑兽跨入破碎的城门、甘道夫独自一人骑捷影在城门下面对他、对峙的紧张瞬间、远处传来洛汉的号角
+        handoff: 戒灵王转向北方面对新的威胁
+        source_chapter: 卷五第4章
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S29
+        arc_id: ARC-5
+        location: 佩兰诺平野北缘
+        time: 黎明
+        participants: [希奥顿, 伊奥梅尔, 悍-不里-悍, 洛汉骑兵]
+        pov: 多视角
+        conflict: 洛汉大军能否在最后时刻赶到？
+        value_start: 黑暗——魔多的黑暗遮天蔽日
+        value_end: 冲锋——风向转变，六千骑兵在黎明中发起冲锋
+        must_include: 野人引路绕过封锁、风向转变驱散黑暗、希奥顿的冲锋号令"起来，起来，洛汗的骑手们！"、骑兵如潮水冲入敌阵
+        handoff: 冲锋撞碎围城北部——但戒灵王出现
+        beat_direction: "史诗的顶点——从至暗到黎明冲锋，全书最激昂的动作场面"
+        source_chapter: 卷五第5章
+
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 佩兰诺平野
+        time: 黎明
+        participants: [希奥顿, 伊奥温, 梅里, 戒灵之王, 伊奥梅尔, 阿拉贡]
+        pov: 多视角
+        conflict: 洛汉的冲锋能否打破围城？伊奥温和梅里能否杀死"无人能杀"的戒灵王？
+        value_start: 绝境中的英勇——希奥顿发起冲锋
+        value_end: 胜利与代价——戒灵王被杀，但希奥顿阵亡
+        must_include: 希奥顿的冲锋号令、雪鬃中箭/国王被压、伊奥温摘下面具"我不是男人"、梅里从背后刺中戒灵王膝后、伊奥温一剑刺入王冠与斗篷之间、希奥顿临终托孤
+        handoff: 阿拉贡率黑舰队从南方赶到扭转战局
+        beat_direction: "史诗级战场——从冲锋的狂喜到国王之死的悲怆到预言应验的震撼"
+        source_chapter: 卷五第5-6章
+
+      - scene_id: S37
+        arc_id: ARC-5
+        location: 佩兰诺平野全域
+        time: 上午至日落
+        participants: [伊奥梅尔, 阿拉贡, 希奥顿, 伊奥温, 伊姆拉希尔亲王, 勾斯魔格, 洛汉与刚铎联军]
+        pov: 全景（多视角轮转）
+        conflict: 战场潮汐——冲锋的胜势被敌军生力军逆转，黑帆舰队带来终极绝望，却在展旗一瞬翻盘
+        value_start: 悲怒的冲锋——希奥顿传旗长逝，伊奥梅尔见妹"阵亡"后杀向敌阵
+        value_end: 惨胜与挽歌——日落时战场清空，以阵亡者名录诗收束
+        must_include: 希奥顿传旗与死讯、伊奥梅尔的狂笑冲锋"末日啊！"、盾墙绝地、黑帆出现时全场希望的死灭、王旗（圣白树+七星+王冠）展开的逆转瞬间、伊奥梅尔与阿拉贡战场重逢、日落收束与"拉马斯埃霍尔的朝露也染血而逝"的挽歌
+        handoff: 战役胜利但代价惨重——引向诊疗院（S15）与最后辩论（S33）
+        beat_direction: "战场的潮汐结构——希望与绝望三次易手，最终以史诗挽歌拉远镜头"
+        source_chapter: 卷五第6章
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: S33
+        arc_id: ARC-5
+        location: 佩兰诺平野·阿拉贡营帐
+        time: 佩兰诺之战后
+        participants: [甘道夫, 阿拉贡, 伊奥梅尔, 伊姆拉希尔, 埃洛希尔]
+        pov: 多视角
+        conflict: 在绝对劣势下如何为弗罗多创造唯一的机会？
+        value_start: 绝望——下一次进攻必然更猛烈，武力无法取胜
+        value_end: 决断——以七千人为饵进攻黑门，赌上一切
+        must_include: 甘道夫的完整推理链（先分析失败的必然→再提出佯攻策略→代入索隆的心理预判）、伊姆拉希尔的"最大的玩笑"、具体兵力分配（七千人=六千步兵+一千骑兵）、阿拉贡拔出安督利尔"直到最后一战"
+        handoff: 两天后出征——引向S34黑门之战
+        beat_direction: "策略即戏剧——推理本身是行动，心理洞察优于战术细节"
+        source_chapter: 卷五第9章
+
+      - scene_id: S34
+        arc_id: ARC-5
+        location: 魔栏农·黑门前
+        time: 出征后数日
+        participants: [阿拉贡, 甘道夫, 皮平, 贝瑞刚德, 索隆之口]
+        pov: 皮平
+        conflict: 明知是陷阱仍踏入——为弗罗多争取最后的窗口
+        value_start: 冷静——计划正在执行
+        value_end: 绝境——大军被十倍敌人围困，但大鹰赶到
+        must_include: 索隆之口展示弗罗多信物的羞辱、甘道夫劈手夺回信物拒绝条件、黑门大开/陷阱触发/大军被围、皮平杀死食人妖头领后被压倒、"大鹰来了"
+        handoff: 末日山方向传来索隆覆灭的震动——与ARC-6的S18因果相连
+        beat_direction: "明知赴死——从谈判的心理战到围困的绝境，普通士兵（皮平）的视角锚定宏大战场"
+        source_chapter: 卷五第10章
+
+      - scene_id: S30
+        arc_id: ARC-5
+        location: 米那斯提力斯·白塔陵寝
+        time: 佩兰诺之战期间
+        participants: [德内梭尔, 甘道夫, 皮平, 法拉米尔, 贝瑞刚德]
+        pov: 皮平
+        conflict: 德内梭尔因帕蓝提尔导致的绝望欲将自己与昏迷的法拉米尔一同焚烧
+        value_start: 疯狂——德内梭尔下令焚烧自己和儿子
+        value_end: 悲剧——法拉米尔被救，德内梭尔自焚而死
+        must_include: 皮平奔跑求助甘道夫、贝瑞刚德违令守门、甘道夫夺出法拉米尔、德内梭尔展示帕蓝提尔跃入火中
+        handoff: 刚铎内部权力危机终结——宰相已死
+        source_chapter: 卷五第7章
+
+      - scene_id: S15
+        arc_id: ARC-5
+        location: 米那斯提力斯·诊疗院
+        time: 佩兰诺之战后
+        participants: [阿拉贡, 梅里, 伊奥温, 法拉米尔]
+        pov: 多视角
+        conflict: 阿拉贡以"王者之手"治愈伤者——是否就此宣称王权？
+        value_start: 危机——三人患黑魔影症危在旦夕
+        value_end: 治愈——阿拉贡证明了"王者之手乃医者之手"，但选择不进城
+        must_include: 阿塞拉斯（王叶草）的香气、阿拉贡逐一唤醒三人、古谚的应验、阿拉贡选择推迟进城——权力的自愿延迟
+        handoff: 甘道夫提出以大军为饵进攻黑门
+        source_chapter: 卷五第8章
+
+  # ── ARC-6 关键场景 ──
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: S16
+        arc_id: ARC-6
+        location: 奇立斯乌苟之塔
+        time: 紧接ARC-4结尾
+        participants: [山姆, 弗罗多, 奥克（已自相残杀）]
+        pov: 山姆
+        conflict: 山姆独自闯入敌人控制的塔楼营救弗罗多
+        value_start: 孤立——山姆独自面对满是奥克的塔楼
+        value_end: 重逢——山姆找到弗罗多并归还魔戒
+        must_include: 山姆用星光瓶突破监视者的魔法封锁、塔内奥克自相残杀的惨状、在塔顶找到被扒光衣服的弗罗多、归还魔戒时山姆的不舍与释然
+        handoff: 两人伪装成奥克逃出塔楼进入魔多
+        source_chapter: 卷六第1章
+
+      - scene_id: S17
+        arc_id: ARC-6
+        location: 末日山山坡
+        time: 魔戒销毁前的最后攀登
+        participants: [弗罗多, 山姆]
+        pov: 山姆
+        conflict: 弗罗多筋疲力尽无法继续，山姆必须找到前进的方式
+        value_start: 绝望——弗罗多再也走不动了
+        value_end: 最朴素的英雄主义——山姆背起弗罗多往上爬
+        must_include: '山姆的誓言"我不能为你背负它，但我能背负你，连它一起"（指环王.md L18688）、山姆惊觉"这负担并不重"（L18690）'
+        handoff: 抵达末日裂隙的入口
+        beat_direction: "极简的力量——没有魔法没有武器，只有一个园丁背着他的主人"
+        source_chapter: 卷六第3章
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: S18
+        arc_id: ARC-6
+        location: 末日裂隙
+        time: 故事高潮
+        participants: [弗罗多, 山姆, 咕噜]
+        pov: 山姆
+        conflict: 弗罗多 vs 至尊戒的最终对决
+        value_start: 最后的意志——弗罗多站在裂隙边缘
+        value_end: 毁灭与自由——魔戒被销毁，索隆覆灭
+        must_include: 咕噜在入口处突然袭击、弗罗多宣称"魔戒归我"并戴上、咕噜咬断手指夺回魔戒、咕噜抱着魔戒坠入火焰、巴拉督尔崩塌
+        handoff: 弗罗多和山姆困在喷发的火山上，大鹰前来营救
+        beat_direction: "全书的核心时刻——'失败'即是'完成'——仁慈的种子在此刻结出果实"
+        source_chapter: 卷六第3章
+
+      - scene_id: S19
+        arc_id: ARC-6
+        location: 末日山灰烬山丘
+        time: 魔戒销毁后
+        participants: [弗罗多, 山姆]
+        pov: 山姆
+        conflict: 使命完成但无路可退——等待死亡
+        value_start: 完成——使命达成
+        value_end: 平静——接受命运
+        must_include: 山姆说"我们是否会成为后人传颂的故事"的回应（呼应S11）、弗罗多说"山姆，我很高兴有你在一起"、大鹰从天而降的营救
+        handoff: 被送至伊希利恩的科瑁兰原野
+        source_chapter: 卷六第3章（末尾）至第4章
+
+  - seq_id: ARC6-SEQ3
+    scenes:
+      - scene_id: S20
+        arc_id: ARC-6
+        location: 伊希利恩·科瑁兰原野
+        time: 弗罗多和山姆苏醒
+        participants: [山姆, 弗罗多, 甘道夫, 阿拉贡, 远征队全体]
+        pov: 山姆
+        conflict: 回到光明世界——重逢的喜悦与难以置信
+        value_start: 昏睡/迷失——山姆不知身在何处
+        value_end: 狂喜——"甘道夫！我还以为你死了！"
+        must_include: 山姆醒来发现弗罗多在身边、甘道夫的笑声"如同音乐"、阿拉贡在三军面前向两个霍比特人跪下致意、吟游诗人颂唱"九指弗罗多和厄运魔戒"、山姆欢喜落泪
+        handoff: 通向加冕与归家的漫长收束
+        source_chapter: 卷六第4章
+
+      - scene_id: S21
+        arc_id: ARC-6
+        location: 米那斯提力斯
+        time: 五月
+        participants: [阿拉贡, 甘道夫, 法拉米尔, 伊奥温]
+        pov: 多视角
+        conflict: 王者归来——阿拉贡能否承担起重建的责任？
+        value_start: 等待——王权尚未正式确立
+        value_end: 新秩序——阿拉贡加冕，白树重生
+        must_include: 法拉米尔交出宰相权杖、阿拉贡以"埃莱萨"之名加冕、甘道夫引他在山上发现白树幼苗、阿尔玟从幽谷前来成婚
+        handoff: 逐一道别——远征队成员各回故土
+        source_chapter: 卷六第5章
+
+      - scene_id: S22
+        arc_id: ARC-6
+        location: 夏尔·傍水镇
+        time: 归来后
+        participants: [弗罗多, 山姆, 梅里, 皮平, 萨茹曼, 佞舌]
+        pov: 四个霍比特人
+        conflict: 四个远征归来的霍比特人发现家乡被蹂躏——最后的考验
+        value_start: 震惊——夏尔被萨茹曼控制
+        value_end: 光复——霍比特人自己保卫了家园
+        must_include: 梅里和皮平组织起义、傍水镇之战、萨茹曼的真面目、佞舌割断萨茹曼喉咙
+        handoff: 弗罗多无法痊愈——指向最终的离别
+        beat_direction: "从田园到战场——证明最弱小的种族也能保卫自己的土地"
+        source_chapter: 卷六第8章
+
+      - scene_id: S23
+        arc_id: ARC-6
+        location: 灰港
+        time: 两年后的秋天（1421年9月）
+        participants: [弗罗多, 山姆, 梅里, 皮平, 甘道夫, 加拉德瑞尔, 埃尔隆德, 比尔博]
+        pov: 山姆
+        conflict: 弗罗多必须永远离开——拯救者无法享受被拯救的世界
+        value_start: 弗罗多的创伤——"我受了伤，它永远不会真正痊愈"
+        value_end: 离别与回归——弗罗多西渡，山姆"我回来了"
+        must_include: 路上遇到精灵和比尔博、弗罗多告诉山姆"你必须一心一意做个完整的人"、甘道夫的话"并非所有的眼泪都是不幸"、弗罗多登上白船离去、山姆回到傍水镇的灯光和炉火前说"我回来了"
+        handoff: 无——这是全书的最后一个场景
+        beat_direction: "从史诗到日常的完美降落——全书以最简单的一句话收束"
+        source_chapter: 卷六第9章
+
+tension_curve:
+  description: |
+    全书张力曲线呈现"双峰+余波"结构：
+    第一个高峰在ARC-2末尾（远征队分裂）后短暂回落，
+    随后ARC-3/4双线交替制造持续递增的张力，
+    第二个（也是最高的）高峰在ARC-5/6的交界处——
+    佩兰诺之战（外线高潮）与末日山（内线高潮）几乎同时爆发，
+    之后的漫长收束（加冕→夏尔平乱→灰港）以逐渐下降但仍有波澜的方式
+    将张力释放到"我回来了"的最终宁静。
+  peaks: [S05, S07, S12, S31, S32, S14, S29, S18]
+  valleys: [S06, S11, S20]
+
+causal_chain: |
+  S01（真相揭示）→ S02（勇气初现）→ S03（风云顶负伤）→ S24（渡口飞渡/抵达幽谷）→
+  S04（使命确立）→ S05（甘道夫坠落/失去导师）→ S06（加拉德瑞尔拒绝/放弃权力范例）→
+  S07（波洛米尔堕落/远征队分裂）→ S25（波洛米尔忏悔/以死赎罪）→
+  S08（甘道夫白袍归来/力量逆转）→ S26（希奥顿觉醒/洛汉解放）→
+  S09（海尔姆深谷胜利）→ S27（恩特摧毁艾森加德/西线清除）→
+  S28（咕噜宣誓/仁慈的实践）→ S10（法拉米尔拒绝/人性的证明）→
+  S11（咕噜温情被打断/善意之死）→ S12（弗罗多被俘/最大悬念）→
+  S32（刚铎围城/心理战+格龙得破门）→ S13（城门对峙/甘道夫vs戒灵王）→
+  S29（洛汉黎明冲锋）→ S14（伊奥温梅里杀戒灵王）→
+  S30（德内梭尔自焚/内部崩溃）→ S15（阿拉贡治愈/王权确认）→
+  S33（最后辩论/以七千人为饵的战略决策）→ S34（黑门之战/被围绝境）→
+  S16（山姆闯塔楼救弗罗多）→ S17（山姆背起弗罗多）→
+  S18（末日裂隙/故事高潮——仁慈因果链兑现）→ S19（等待死亡/大鹰营救）→
+  S20（科瑁兰原野重逢）→ S21（阿拉贡加冕/新秩序建立）→
+  S22（夏尔平乱/成长证明）→ S23（灰港西渡/带着创伤的完满结局）

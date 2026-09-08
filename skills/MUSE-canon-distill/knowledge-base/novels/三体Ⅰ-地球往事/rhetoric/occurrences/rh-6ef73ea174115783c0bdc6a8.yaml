@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6ef73ea174115783c0bdc6a8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2036
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 她们当年那魔鬼般的精神力量显然已荡然无存
+sensory_mapping: 恶魔面孔；黑暗威压；非人力量；恐惧寒意；力量消散
+context_fact: 三名女人穿旧军装试图重现当年尊严，但身体残缺、贫困且精神已经衰败。
+image_mechanism: 当年政治狂热像恶魔附体，使少女身体拥有超出个人的残酷力量；时代退潮后附体者离开，只剩衰老受损的普通人。
+property_alignment: 政治狂热对应魔鬼附体；群体暴力对应恶魔力量；杀害教授对应非人残酷；当年尊严对应威压幻象；今日衰败对应力量离体；荡然无存对应驱魔后空壳
+context_alignment: 同一批人既曾携魔鬼力量又成为受害者，喻体将力量来源指向时代附体，而不抹去她们亲手施暴。
+narrative_function: 量化今昔反差，削弱叶文洁预期中的审判结构并增加伦理复杂度。
+transfer_rule: 用魔鬼般写群体狂热时，应落到具体非人化行为、恐惧效果、力量来源和后来是否退去。
+failure_boundary: 若人物暴力出于冷静私利且始终保持同等权力，附体后消散的魔鬼模型会转移个人责任。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 少女红卫兵当年以狂热、残忍和群体权力折磨杀死叶哲泰时展现的压倒性精神气势
+vehicle: 魔鬼以非人恶意和恐怖力量支配、折磨并摧毁凡人
+ground: 施暴残酷对应魔鬼恶意；狂热不受同情约束对应非人性；当年令受害者恐惧屈服对应魔力压制

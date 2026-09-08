@@ -1,0 +1,35 @@
+scene_id: DT-S11
+source_notes: scene_DT-S11_beats.md
+patterns:
+  - pattern_id: DT-S11-p1
+    beat: 监控盲区计时
+    dimension: camera
+    original_move: 用监控再次出现与否衡量伤者能否穿过盲区
+    ai_default_failure: 给盲区补一轮追逐，只靠事件维持紧张
+    transfer_rule: 可见性本身能成为远程援助与生还信号
+    quote: 下个监控里永远都不会出现
+  - pattern_id: DT-S11-p2
+    beat: 出口撤销安全
+    dimension: camera
+    original_move: 黄昏释放后用手机放大远处追兵
+    ai_default_failure: 出隧道即收束危险，另起事件补尾声高潮
+    transfer_rule: 让同一威胁越过边界，重写出口的意义
+    quote: 拿出手机放大镜头
+  - pattern_id: DT-S11-p3
+    beat: 迎击后转交视角
+    dimension: omission
+    original_move: 停在吉他迎击动作，下一段跳到不知前因者
+    ai_default_failure: 写完死亡过程，再由旁白解释幸存者的关心
+    transfer_rule: 前因充分时可省略结果，以认知差承接余波
+    quote: 他不明白
+overall_traits:
+  - 监控可见性把移动转化为生还信号
+  - 出口释放后以远距镜头恢复追逐
+  - 迎击动作与时间跳跃保留结局空白
+narrative_organization:
+  presentation: 开场进入徐海水的监控视角，随后回到二人现场；出隧道后送达半小时前的消息，再以手机镜头重新引入追兵；叙述止于陆霞克最后抵抗，跳到几天后的陆小虎
+  transition_anchor: 监视器和广播、黄昏天空、半小时前的群消息、手机放大镜头、吉他以及“几天后”
+  knowledge_change: 人物一度把离开隧道视为安全释放，随后确认杨和修仍在追猎；读者知道陆霞克选择留下，具体结局留白；陆小虎只看见关系后果
+  cross_thread_effect: 徐海水援助线以广播转移危险后退出；感染者追猎线抵达山林；陆小虎线接收陈雨琪的后续关系
+  effect: 出口先释放压力，追兵重现再撤销安全；赴死结果留白后转给不知前因者，读者自行解释关系余波
+  source_anchor: 地铁.md:349-393

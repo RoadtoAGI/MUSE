@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ed7647a33722a0e550965a6b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1742
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 在世界政治舞台上表明我们的存在，这将标志着地球三体组织第一次公开登上人类历史的舞台
+sensory_mapping: 舞台灯光；前台后台；登台动作；观众视线；角色表演
+context_fact: 政府搜捕已开始，有人仍认为公开起义会显示组织存在并引发世界响应。
+image_mechanism: 世界政治被架成剧场，ETO此前在幕布后活动，起义则掀幕走到聚光灯下；“历史舞台”再把当下表演延长为后世观看的剧目。
+property_alignment: 秘密组织对应后台演员；公开起义对应登台；世界公众与政府对应观众；政治纲领对应角色台词；历史记录对应演出留档；国际响应对应观众反应
+context_alignment: 舞台既许诺能见度，也意味着暴露在政府灯光下，恰好包含公开行动的声势与风险。
+narrative_function: 把起义者追求的历史主体感具象化，并显露其表演性政治冲动。
+transfer_rule: 用舞台写政治公开化时，应明确幕后状态、登台事件、观众、角色台词和被观看后的后果。
+failure_boundary: 行动仍完全秘密、没有公共受众或只求实际效果而非可见身份时，登台不能解释其策略。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: ETO计划通过公开起义从秘密组织变为全球政治事件和历史行动者
+vehicle: 一直藏在幕后的人走上可被观众看见的舞台，公开扮演角色并进入演出记录
+ground: 秘密活动转公开对应演员从后台登台；全球社会开始关注对应观众看见角色；行动进入历史对应演出被记录

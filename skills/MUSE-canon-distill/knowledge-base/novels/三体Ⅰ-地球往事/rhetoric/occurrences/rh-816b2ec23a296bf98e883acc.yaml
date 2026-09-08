@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-816b2ec23a296bf98e883acc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1092
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 遇到工作上不顺心的时候，叶文洁就成了他唯一的出气筒
+sensory_mapping: 气压；冲击；容器出口；声音
+context_fact: 杨卫宁政治地位低、对部下谨慎，只有面对身份弱势的叶文洁时能粗暴发火。
+image_mechanism: 无法对真正压力来源表达的情绪被压进密闭容器，叶文洁则被装成唯一阀口；每逢压力升高，冲击都从她这里排出。
+property_alignment: 杨卫宁积累不满对应容器蓄压；发火对应高压气体喷出；叶文洁地位弱且固定受责对应唯一排气口；她并非问题来源对应筒只承受不产生压力
+context_alignment: 权力结构解释了为何出口只能朝向叶文洁，喻体把政治压抑如何转嫁给弱者呈成清楚流向。
+narrative_function: 揭示杨卫宁粗暴背后的权力机制，并加深叶文洁的孤立。
+transfer_rule: 用出气装置写迁怒时，应明确压力源、被阻断的真实出口、替代承受者和反复排放路径。
+failure_boundary: 受责者确实造成问题、双方能够对等争论或怒气并非积压转移时，出气筒会掩盖责任关系。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 杨卫宁把工作挫折造成的怒气集中发泄到叶文洁身上
+vehicle: 承受内部气压并供人向外排气的筒状出口
+ground: 积压怒气需要释放对应气体压力需排出；叶文洁被反复选作对象对应固定出口承受气流

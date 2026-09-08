@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:zhou-puyuan
+work_id: drama:雷雨
+display_name: 周朴园
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '朴园的台词总是短、慢、带停顿——"嗯""哼""哦"作为打断别人话头的工具用得极多。当他要把私密情感说出口时，会包裹在公共修辞里："你的生母永远喜欢夏天把窗户关上的"（实为"我从未忘记你母亲"）；"我们想把她的坟墓修一修"（实为"我心里一直有她"）。他对仆人的话总是命令短句（"喝了它""不要打人""跟太太说"），对子女的话总是抽象大词（"自爱""圆满""秩序""闲话"），对蘩漪的话总是医学话语（"克大夫""神经""上楼休息"）——三种不同的对象有三种不同的语域，但都不传情。**最深的声音特征：他把自己的情感全部留在停顿里**——A2
+    慢动作认母时，"哦，三十年前你在无锡？"和"姓鲁。你的口音不像北方人"之间的几次停顿才是他真正的台词。
+
+
+    佐证：scenes/scene_A1.md:L395-L399（"倒了？哦？(更慢)倒了！"——三个"倒了"的递进停顿）；scenes/scene_A1.md:L423-L431（教训萍"将近三十的人应当懂得''自爱！''"+"我的家庭是我认为最圆满，最有秩序的家庭"——公共修辞包裹私密焦虑）；scenes/scene_A2.md:L275-L283（"三十年前在无锡有一件很出名的事情——"的停顿驱动慢动作认母）'
+  evidence_locators:
+  - scenes/scene_A1.md:L395-L399
+  - scenes/scene_A1.md:L423-L431
+  - scenes/scene_A2.md:L275-L283
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

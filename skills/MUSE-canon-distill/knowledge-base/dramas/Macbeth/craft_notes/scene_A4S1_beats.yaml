@@ -1,0 +1,49 @@
+scene_id: A4S1
+source_notes: scene_A4S1_beats.md
+patterns:
+- pattern_id: A4S1-p1
+  beat: 配料罗列副歌回环
+  dimension: overall
+  original_move: 巫术写成轮唱劳动歌谣，具体秽物清单比抽象邪气可怖
+  ai_default_failure: 写神秘氛围的形容词堆叠
+  transfer_rule: 仪式戏用歌谣结构与名词清单，拒绝形容词氛围
+  quote: Fire burn, and cauldron bubble
+- pattern_id: A4S1-p2
+  beat: 闯入者命令式问卜
+  dimension: exchange
+  original_move: 再见巫改用咒师口吻喝令作答，堕落深度写进语法
+  ai_default_failure: 写他畏惧谦卑地求告
+  transfer_rule: 同一关系复现时换语气，语法变化即人物弧
+  quote: by that which you profess
+- pattern_id: A4S1-p3
+  beat: 三谕示一真两双关
+  dimension: exchange
+  original_move: 谕示字面安抚结构埋雷，妇人所生与树林移动皆按字面成立
+  ai_default_failure: 给单义预言或纯骗局
+  transfer_rule: 预言写成合同条款：按字面兑现，按理解失效
+  quote: none of woman born
+- pattern_id: A4S1-p4
+  beat: 多问一句引惩罚
+  dimension: exchange
+  original_move: 已获安抚仍追问子嗣，触发八王游行，贪问自招最深恐惧
+  ai_default_failure: 让他得到安抚即满足离场
+  transfer_rule: 给满足设一道贪婪测试，多问的代价推动转折
+  quote: Banquo's issue ever reign
+- pattern_id: A4S1-p5
+  beat: 哑剧游行实况解说
+  dimension: blocking
+  original_move: 八王幻影沉默列队，恐怖由麦克白逐一点数解说承担
+  ai_default_failure: 让幻象开口宣判
+  transfer_rule: 哑剧加旁观者实况，让受刑者亲口执行刑罚
+  quote: Why do you show me this?
+- pattern_id: A4S1-p6
+  beat: 出洞即下灭门令
+  dimension: transition
+  original_move: 心念即手令屠满门，思行间隙归零宣告黑化完成
+  ai_default_failure: 写一段犹豫权衡
+  transfer_rule: 用决策延迟的归零标记人物彻底黑化
+  quote: firstlings of my hand
+overall_traits:
+- 四音步咒韵与五音步素体场内交替，两界共台
+- 三谕示是全剧结构发条，第五幕逐条按字面引爆
+- 本场是主角最后一次提问，此后只剩执行

@@ -1,0 +1,351 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, science fiction, survival",
+    "lang": "en",
+    "tags": [
+      "isolation",
+      "sexual torment",
+      "siege",
+      "internal monologue",
+      "dark humor",
+      "near-surrender"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ben Cortman (voice)",
+      "vampire women (exterior)"
+    ],
+    "conflict_type": "internal",
+    "pov": "Robert Neville",
+    "word_count": 1490,
+    "source_chapter": "Chapters 1–3 (evening siege through crossbar crisis)",
+    "file": "scenes/scene_S01.md",
+    "description": "Neville endures the nightly siege — the women's provocations, Cortman's calls, a drunken monologue on vampire civil rights — until he nearly lifts the crossbar and lets them in.",
+    "has_craft_notes": true,
+    "craft_notes_file": "scenes/scene_S01_craft.md",
+    "style_profile": {
+      "narration_voice": "限知贴身，紧扣生理压抑与自责",
+      "diction": "冷硬口语夹医学词，动作名词具体",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量外部喊话，内心反问推进",
+      "pacing": "短句压迫，反复动作拖长失控"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, science fiction, action",
+    "lang": "en",
+    "tags": [
+      "chase",
+      "ticking clock",
+      "stopped watch",
+      "siege breakthrough",
+      "berserk rage",
+      "emotional collapse"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ben Cortman",
+      "vampires"
+    ],
+    "conflict_type": "external",
+    "pov": "Robert Neville",
+    "word_count": 2371,
+    "source_chapter": "Chapter 5",
+    "file": "scenes/scene_S02.md",
+    "description": "Neville's watch stops — he races home at nightfall, crashes through the vampire line, fights hand-to-hand to the door, empties two pistols in berserk fury, then collapses sobbing Virginia's name.",
+    "has_craft_notes": true,
+    "craft_notes_file": "scenes/scene_S02_craft.md",
+    "style_profile": {
+      "narration_voice": "限知贴身，随恐慌即时自辩",
+      "diction": "道路动作词密集，口语惊惧直接",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎无对白，自我呵斥替代对话",
+      "pacing": "加速短句连撞，省略安全余地"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, domestic drama",
+    "lang": "en",
+    "tags": [
+      "flashback",
+      "domestic horror",
+      "plague onset",
+      "dramatic irony",
+      "devastating reveal",
+      "normalcy as horror"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Virginia Neville",
+      "Ben Cortman"
+    ],
+    "conflict_type": "personal",
+    "pov": "Robert Neville",
+    "word_count": 1979,
+    "source_chapter": "Chapter 6 (flashback)",
+    "file": "scenes/scene_S03.md",
+    "description": "Flashback to the plague's early days: Virginia ill at the breakfast table, dust storms, mosquitoes in the orange juice, mundane anxieties about school — ending with the devastating casual line: 'Good morning, said Ben Cortman.'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知回忆，家常观察压住病兆",
+      "diction": "日常家居词混风沙触感词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问短答，沉默制造病感",
+      "pacing": "晨间流程缓走，细节逐步加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, tragedy",
+    "lang": "en",
+    "tags": [
+      "death scene",
+      "defiance of law",
+      "burial",
+      "the return",
+      "ghost wife",
+      "emotional core"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Virginia Neville",
+      "Ben Cortman (comatose)",
+      "Freda Cortman (comatose)",
+      "a neighbor"
+    ],
+    "conflict_type": "personal",
+    "pov": "Robert Neville",
+    "word_count": 2792,
+    "source_chapter": "Chapter 9",
+    "file": "scenes/scene_S05.md",
+    "description": "Virginia's heart stops. Neville sews her into a blanket, defies the law requiring cremation, buries her secretly in an empty lot. Two nights later, she returns to the door: 'Rob...ert.'",
+    "has_craft_notes": true,
+    "craft_notes_file": "scenes/scene_S05_craft.md",
+    "style_profile": {
+      "narration_voice": "限知贴身，震惊中抽离观察自身",
+      "diction": "身体崩坏词与火葬记忆交叠",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "单字呼唤为主，叙述承载崩溃",
+      "pacing": "静止长段后突发动作，时间凝滞"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "science fiction, horror",
+    "lang": "en",
+    "tags": [
+      "self-education",
+      "scientific method",
+      "library",
+      "microscope",
+      "discovery",
+      "knowledge as consolation"
+    ],
+    "characters": [
+      "Robert Neville"
+    ],
+    "conflict_type": "internal",
+    "pov": "Robert Neville",
+    "word_count": 3897,
+    "source_chapter": "Chapters 10–11",
+    "file": "scenes/scene_S06.md",
+    "description": "Neville teaches himself bacteriology at the LA Public Library, learns microscopy by breaking 13 slides, connects dust storms to spore transmission, and finally sees the vampiris bacillus: 'I dub thee vampiris.'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知理性化，废墟中评点文明残骸",
+      "diction": "科学分类词混哲思式抽象名词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "无对白，内心命令打断遐想",
+      "pacing": "步行浏览式推进，沉思后自我截断"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, psychological thriller",
+    "lang": "en",
+    "tags": [
+      "first contact",
+      "distrust",
+      "garlic test",
+      "violence",
+      "interrogation",
+      "damaged humanity"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ruth"
+    ],
+    "conflict_type": "personal",
+    "pov": "Robert Neville",
+    "word_count": 2803,
+    "source_chapter": "Chapters 15–16",
+    "file": "scenes/scene_S08.md",
+    "description": "Neville chases a living woman across a field, drags her home, shoves garlic in her face. She retches. He suspects infection. She counterattacks with the story of her suffering. 'He didn't realize his voice was devoid of warmth.'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知外贴，兼写对方恐惧反照",
+      "diction": "追逐动词粗粝，身体伤害词醒目",
+      "rhetoric_density": "low",
+      "dialogue_mode": "断裂命令句，问答被恐惧打碎",
+      "pacing": "连续动作急促，停顿转入尴尬空白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, romance, thriller",
+    "lang": "en",
+    "tags": [
+      "confession",
+      "embrace",
+      "false intimacy",
+      "betrayal",
+      "mallet blow",
+      "reversal"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ruth"
+    ],
+    "conflict_type": "personal",
+    "pov": "Robert Neville",
+    "word_count": 1902,
+    "source_chapter": "Chapter 18",
+    "file": "scenes/scene_S09.md",
+    "description": "Neville wakes screaming 'Virge!', confesses about staking his wife, embraces Ruth in the darkness. He prepares the blood test. She begs him not to look. He sees the bacillus. The mallet falls.",
+    "has_craft_notes": true,
+    "craft_notes_file": "scenes/scene_S09_craft.md",
+    "style_profile": {
+      "narration_voice": "限知梦醒，创伤记忆侵入现实",
+      "diction": "黑暗声光词配合心理抽象词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "追问与支吾交错，隐瞒推动张力",
+      "pacing": "惊醒爆点后放慢，酒与回忆拖住"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "science fiction, horror",
+    "lang": "en",
+    "tags": [
+      "epistolary reveal",
+      "paradigm shift",
+      "spy confession",
+      "bacteria can mutate",
+      "new society"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ruth (via letter)"
+    ],
+    "conflict_type": "internal",
+    "pov": "Robert Neville",
+    "word_count": 1077,
+    "source_chapter": "Chapter 19",
+    "file": "scenes/scene_S10.md",
+    "description": "Neville wakes concussed, finds Ruth's letter: she was a spy, his executioners are coming, and 'bacteria can mutate' — the three words that restructure everything.",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "书信嵌入限知，真相由缺席者揭开",
+      "diction": "清楚说明词夹身体昏沉描写",
+      "rhetoric_density": "low",
+      "dialogue_mode": "无现场对白，信件独白主导",
+      "pacing": "醒后迟滞，读信分段释放逆转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, action, tragedy",
+    "lang": "en",
+    "tags": [
+      "organized violence",
+      "Cortman's death",
+      "moral inversion",
+      "siege reversed",
+      "capture"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ben Cortman",
+      "the new society's armed squad"
+    ],
+    "conflict_type": "external",
+    "pov": "Robert Neville",
+    "word_count": 1933,
+    "source_chapter": "Chapter 20",
+    "file": "scenes/scene_S11.md",
+    "description": "The new society arrives with spotlights and pikes. Neville watches Cortman machine-gunned on a rooftop and weeps. Then they smash in his door, shoot him, and drag him into the night.",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知旁观，价值判断随屠杀翻转",
+      "diction": "军事暴力词与光影动词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "无对话，目击与内心质问推进",
+      "pacing": "夜袭骤起，动作密集后道德停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "I Am Legend",
+    "author": "Richard Matheson",
+    "genre": "horror, science fiction, philosophical",
+    "lang": "en",
+    "tags": [
+      "epiphany",
+      "execution",
+      "moral reversal",
+      "normalcy as majority concept",
+      "title drop",
+      "ironic transcendence"
+    ],
+    "characters": [
+      "Robert Neville",
+      "Ruth"
+    ],
+    "conflict_type": "internal",
+    "pov": "Robert Neville",
+    "word_count": 2329,
+    "source_chapter": "Chapter 21",
+    "file": "scenes/scene_S12.md",
+    "description": "Dying in a cell, Neville receives Ruth's final mercy (pills). He stands at the window, sees the crowd's terror, and understands: 'I'm the abnormal one now.' He swallows the pills. 'I am legend.'",
+    "has_craft_notes": true,
+    "craft_notes_file": "scenes/scene_S12_craft.md",
+    "style_profile": {
+      "narration_voice": "限知临终，痛感中完成认知翻转",
+      "diction": "疼痛生理词混审判社会词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低声短句，临终问答压缩信息",
+      "pacing": "疼痛慢拍开场，结论逐层收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

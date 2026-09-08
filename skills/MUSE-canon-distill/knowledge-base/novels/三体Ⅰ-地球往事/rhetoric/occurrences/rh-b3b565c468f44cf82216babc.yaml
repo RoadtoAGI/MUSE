@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b3b565c468f44cf82216babc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L883
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 宇宙变小了，变成了一座空旷的教堂，穹顶隐没于背景辐射闪烁的红光中，而他则是这宏伟教堂地板砖缝中的一只小蚂蚁。他感觉到自己那颗颤抖的心灵被一只无形的巨手抚摸着
+sensory_mapping: 听觉；视觉；建筑空间；尺度；触觉；宗教情感
+context_fact: 教堂传出《圣灵光照》，汪淼在连续恐惧后停下聆听并哭泣。
+image_mechanism: 圣乐先把无形宇宙围合成有穹顶的声学空间，再把人物缩到砖缝尺度；前一刻指向天空的巨指转成轻抚心灵的手，宏大未知由威胁短暂改写为安慰。
+property_alignment: 宇宙包围且高远对应教堂空旷穹顶；红色背景覆盖上方对应穹顶隐入红光；个人尺度极小对应砖缝蚂蚁；圣乐庄严对应宗教空间声场；情绪被安慰对应巨手抚摸微小生命
+context_alignment: 真实教堂与圣乐就在现场，宇宙红光仍在记忆中，物理空间、听觉和心理尺度三者自然叠合。
+narrative_function: 把宇宙恐惧转成宗教式崇高与暂时慰藉，允许人物终于崩溃哭泣。
+transfer_rule: 用建筑重构宇宙时，应让现场声音决定空间类型、尺度参照决定人物位置，并使前文肢体意象按情绪变化改换动作。
+failure_boundary: 没有现场宗教声场、人物感到平等掌控或安慰来自具体人际解释时，教堂—蚂蚁—巨手会虚构超越体验。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 圣乐中汪淼感到宇宙既宏伟封闭、自己极度渺小，又暂时得到超越性安慰
+vehicle: 穹顶高不可见的宏伟教堂里，一只砖缝蚂蚁被无形巨手轻抚
+ground: 宇宙包围且高远对应教堂空旷穹顶；红色背景覆盖上方对应穹顶隐入红光；个人尺度极小对应砖缝蚂蚁；圣乐庄严对应宗教空间声场；情绪被安慰对应巨手抚摸微小生命

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e39e215825537297deddd98b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L241
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 幽灵般的数字像一条张开的绞索横在孩子面容前
+sensory_mapping: 视觉；束缚；死亡威胁
+context_fact: 妻子准备给儿子拍照，汪淼害怕倒计时侵入孩子影像。
+image_mechanism: 取景框把数字与孩子面孔叠在同一平面，数字的弯曲轮廓随即闭合成套索；未来终点被提前放到孩子颈前。
+property_alignment: 数字横在面孔前形成环绕威胁对应绞索张口；倒计时指向未知死亡终点对应绞索最终收紧致命；针对性覆盖孩子对应套索已经选定目标
+context_alignment: 摄影叠印条件让抽象威胁能直接横在亲人面容前，符合父亲瞬间联想。
+narrative_function: 把私人异常扩展成对家人的死亡威胁并触发制止。
+transfer_rule: 写预期性恐惧时，可利用视野或画面的真实叠层，让威胁物与所爱对象在空间上先发生接触。
+failure_boundary: 没有环绕轮廓、死亡暗示或明确目标时，绞索会强行加入勒杀方式；普通字幕遮脸不适用。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 汪淼想象中覆盖儿子照片的倒计时
+vehicle: 张开并等待套紧的绞索
+ground: 数字横在面孔前形成环绕威胁对应绞索张口；倒计时指向未知死亡终点对应绞索最终收紧致命；针对性覆盖孩子对应套索已经选定目标

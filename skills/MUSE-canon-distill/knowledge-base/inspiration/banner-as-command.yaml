@@ -1,0 +1,24 @@
+card_id: banner-as-command
+pattern_name: 符号即命令
+dramatic_function: 让可见符号的物理移动替代复杂命令链，统一群体行动。
+applicability: 适合混战、群众运动、仪式政治；符号需先被角色共同理解（单书孤证，验证面窄）
+reuse_candidates:
+- 金吾纛旓
+- 韩岳并旗
+- 宋军龙纛
+tags:
+- 符号行动
+- 群体调度
+- 军事指挥
+- 政治权威
+source_scenes:
+- novel: 绍宋
+  scene_id: scene_18
+  note: 三面旗帜移动直接触发总攻。
+- novel: 绍宋
+  scene_id: scene_06
+  note: 蓝旗黄旗分节承接伏击节奏。
+phase_affinity:
+- 1
+- 4
+- 5

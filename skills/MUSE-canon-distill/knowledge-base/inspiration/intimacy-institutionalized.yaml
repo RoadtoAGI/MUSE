@@ -1,0 +1,24 @@
+card_id: intimacy-institutionalized
+pattern_name: 私情制度化
+dramatic_function: 让亲密关系被生存制度和灾难压扁，显出时代对心理的改造。
+applicability: 适合高压社会或灾后世界；若仍按现代情感逻辑写会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 抽签生育权
+- 地下城危急法
+- 远日点狂欢
+tags:
+- 亲密关系
+- 制度压力
+- 心理异化
+- 世界观展示
+source_scenes:
+- novel: 流浪地球
+  scene_id: scene_05
+  note: 出轨和遗忘被当作低权重生活事件。
+- novel: 流浪地球
+  scene_id: scene_08
+  note: 结婚喜悦立刻被生育权抽签框住。
+phase_affinity:
+- 1
+- 2
+- 5

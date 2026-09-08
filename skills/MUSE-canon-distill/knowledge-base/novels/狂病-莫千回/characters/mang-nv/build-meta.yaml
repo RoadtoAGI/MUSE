@@ -1,0 +1,36 @@
+mode: reference
+display_name: 盲女
+role_slug: mang-nv
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_RS-S01.md
+  - scenes/scene_RS-S02.md
+  - scenes/scene_RS-S03.md
+  - scenes/scene_RS-S05.md
+  - scenes/scene_RS-S06.md
+  - scenes/scene_RS-S08.md
+  - scenes/scene_RS-S10.md
+  - scenes/scene_YY-S02.md
+  - scenes/scene_YY-S08.md
+built_at: "2026-05-29T16:30:00+08:00"
+skill_version: 1
+locator_count: 14
+has_canon_ending: true
+coverage_note: |
+  覆盖盲女跨两篇的代表性场景：《燃烧》（第二人称"你"POV 主角，证据最富）+《医院》（罗允护送的盲女）。
+  《燃烧》取证说明：全篇为第二人称"你…"叙述，所有"你"的感知与言行即盲女本人——这是她的 POV /
+  声音载体，故 RS 篇所有 locator 均直接取自其本人视角（RS-S01 失明 + 末日队伍背景；RS-S02 通感穿过
+  人肉树林；RS-S03 凭气味记忆认出感染者；RS-S05 被周全提醒跨台阶 = 被搀扶引领的依赖；RS-S08 用嗅觉
+  反过来安慰周全 = 救星能力的工具性；RS-S06 第一次"杀了我吧"；RS-S10 焦尸旁拒药 + 被罗允强行救活 +
+  接过周全遗言）。
+  《医院》取证说明：盲女在《医院》是第三人称（刘医生"我"的 POV 转述对象），故声音框架借王幸子转述
+  补足"黑暗中伸手无人回应"的内心独白（YY-S08:L15），并以 YY-S02 罗允携盲女抵达坐实跨篇身份、
+  YY-S08 王幸子"想要的也许是死亡"的洞察坐实求死意愿。
+  声音框架跨 2 篇取证（燃烧 RS-S03 / RS-S08 + 医院 YY-S08），满足"跨 ≥2 场景"软建议；
+  弧光跨起点（RS-S01，并入身份段）/ 转折（RS-S06、RS-S10:L11）/ 终点（RS-S10:L15-19）多 locator，非单点外推。
+  has_canon_ending=true（订正）：初稿据"被救活、被护送"误判为活态、未产 canon-ending；经回原文核对，
+  盲女在《医院》有明确不可逆终局——扑倒周全焦尸悲恸至"一动不动"气绝（YY-S08:L31-L37），随后被罗允
+  火化与周全合葬（YY-S08:L63-L65）。已补产 references/canon-ending.md。SKILL.md 弧光本体仍只描内在
+  转变（被搀扶的弱者→被强行救活的债务人，物理生死不入弧光），物理终局物理隔离到 canon-ending.md。

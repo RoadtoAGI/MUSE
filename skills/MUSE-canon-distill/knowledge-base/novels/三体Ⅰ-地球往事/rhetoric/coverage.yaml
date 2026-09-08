@@ -1,0 +1,6412 @@
+schema_version: rhetoric-coverage/v1
+work_id: novel:三体Ⅰ-地球往事
+container: novels
+work: 三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+body_start: 22
+body_end: 2714
+chunk_lines: 80
+chunk_chars: 8000
+figure_scope:
+- simile
+- metaphor
+- analogy
+task_package_sha256: e4958d03b1ba79b0444f7deaf57176de722c1a450246caab02abae26ad3b752e
+scope_file: rhetoric/three_body_scope.yaml
+scope_file_sha256: a3b46d4902f1df152536b4ca2d46d2827b59d49ba767e30caaf01152f71fb728
+scope_entry:
+  container: novels
+  work: 三体Ⅰ-地球往事
+  title: 三体Ⅰ：地球往事
+  author: 刘慈欣
+  translator: null
+  source_file: full_text.md
+  source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+  start_line: 22
+  end_line: 2714
+  scope_note: 纳入第1章起至正文收束；排除第22行前的前置材料及第2714行后的后置材料。
+  exclude_notes: []
+status: complete
+counts:
+  explicit_tasks: 415
+  included_explicit: 233
+  excluded_explicit: 182
+  semantic_chunks: 48
+  reviewed_semantic_chunks: 48
+  occurrences: 660
+explicit_tasks:
+- task_id: rt-exp-9acb4085e8d5c2f44cd3
+  source_locator: full_text.md:L33-L35
+  start_line: 33
+  end_line: 35
+  cue_line: 34
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-eb432ed6205732fb902a
+  source_locator: full_text.md:L47-L49
+  start_line: 47
+  end_line: 49
+  cue_line: 48
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8aa7f7859b1455f456d21d57
+  - rh-a0125f6630991825faa9aebf
+- task_id: rt-exp-84687865b2d846bb13b5
+  source_locator: full_text.md:L48-L50
+  start_line: 48
+  end_line: 50
+  cue_line: 49
+  cue_terms:
+  - 好像
+  - 一样
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-01a5523585a82b909410
+  source_locator: full_text.md:L52-L54
+  start_line: 52
+  end_line: 54
+  cue_line: 53
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-1d07e2cafd7575e20264
+  source_locator: full_text.md:L57-L59
+  start_line: 57
+  end_line: 59
+  cue_line: 58
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b1e92eaa98454de66a146992
+- task_id: rt-exp-bf9f8f138ac1d706d3e3
+  source_locator: full_text.md:L58-L60
+  start_line: 58
+  end_line: 60
+  cue_line: 59
+  cue_terms:
+  - 似的
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c1659e843b079d5c7e2ac0d3
+- task_id: rt-exp-6b07ff2ae094b7159c92
+  source_locator: full_text.md:L60-L62
+  start_line: 60
+  end_line: 62
+  cue_line: 61
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-c4ac7e9b601bb214c52f
+  source_locator: full_text.md:L62-L64
+  start_line: 62
+  end_line: 64
+  cue_line: 63
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-9b2b5f027834495a6f47
+  source_locator: full_text.md:L67-L69
+  start_line: 67
+  end_line: 69
+  cue_line: 68
+  cue_terms:
+  - 一样
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-81548ab1a930a9649dc2
+  source_locator: full_text.md:L75-L77
+  start_line: 75
+  end_line: 77
+  cue_line: 76
+  cue_terms:
+  - 如
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c4b352b74e2f3cadbbacb4c8
+- task_id: rt-exp-57e37d777636203acfd6
+  source_locator: full_text.md:L82-L84
+  start_line: 82
+  end_line: 84
+  cue_line: 83
+  cue_terms:
+  - 一样
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-deaa37dcda68de22e5fdceda
+- task_id: rt-exp-b4a742a195b68672ed7f
+  source_locator: full_text.md:L83-L85
+  start_line: 83
+  end_line: 85
+  cue_line: 84
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-037d5e772b0757711189f65f
+  - rh-caa95407513514ce12c16443
+  - rh-f6a69d55e91e93bdc50a2752
+- task_id: rt-exp-88f7f517866fb57abbd3
+  source_locator: full_text.md:L85-L87
+  start_line: 85
+  end_line: 87
+  cue_line: 86
+  cue_terms:
+  - 一般
+  - 一样
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-fab44807f2ecbedb4967
+  source_locator: full_text.md:L90-L92
+  start_line: 90
+  end_line: 92
+  cue_line: 91
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-722b3a330573e7208ef844a1
+- task_id: rt-exp-5d70fd05746ded45acfc
+  source_locator: full_text.md:L92-L94
+  start_line: 92
+  end_line: 94
+  cue_line: 93
+  cue_terms:
+  - 仿佛
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5c3ac29386b7df2a0a5a4315
+- task_id: rt-exp-f1e72c806106abb35e7c
+  source_locator: full_text.md:L94-L96
+  start_line: 94
+  end_line: 96
+  cue_line: 95
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-b82a8f20e6de5fb98cc2
+  source_locator: full_text.md:L99-L101
+  start_line: 99
+  end_line: 101
+  cue_line: 100
+  cue_terms:
+  - 似的
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4319138914cf8a1fc900eab7
+- task_id: rt-exp-0f36c78024016f9429e5
+  source_locator: full_text.md:L108-L110
+  start_line: 108
+  end_line: 110
+  cue_line: 109
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-5f6a0f24170c5a12cba6
+  source_locator: full_text.md:L109-L111
+  start_line: 109
+  end_line: 111
+  cue_line: 110
+  cue_terms:
+  - 如
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-3e685198ea428dc9ebad
+  source_locator: full_text.md:L113-L115
+  start_line: 113
+  end_line: 115
+  cue_line: 114
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-29e4d46448628771537cb0e6
+- task_id: rt-exp-2fd6e6fef66df800bc15
+  source_locator: full_text.md:L120-L122
+  start_line: 120
+  end_line: 122
+  cue_line: 121
+  cue_terms:
+  - 如
+  chapter: 第1章 科学边界
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-bfefc3f7454203857ad2efc3
+- task_id: rt-exp-358cdfec1155f36ef5cc
+  source_locator: full_text.md:L125-L127
+  start_line: 125
+  end_line: 127
+  cue_line: 126
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-56d1bdf6e6511f2e137e
+  source_locator: full_text.md:L132-L134
+  start_line: 132
+  end_line: 134
+  cue_line: 133
+  cue_terms:
+  - 像
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-82871e3289d79334a7a1
+  source_locator: full_text.md:L135-L137
+  start_line: 135
+  end_line: 137
+  cue_line: 136
+  cue_terms:
+  - 如
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-1faa9c6996e1dd9b5fd2
+  source_locator: full_text.md:L153-L155
+  start_line: 153
+  end_line: 155
+  cue_line: 154
+  cue_terms:
+  - 一样
+  chapter: 第1章 科学边界
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-459973ae080de5b8ecb5
+  source_locator: full_text.md:L163-L165
+  start_line: 163
+  end_line: 165
+  cue_line: 164
+  cue_terms:
+  - 像
+  chapter: 第2章 台球
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9cfcacab750dbfdbcc2fe7d5
+- task_id: rt-exp-69116c88a417e0e21f2a
+  source_locator: full_text.md:L165-L167
+  start_line: 165
+  end_line: 167
+  cue_line: 166
+  cue_terms:
+  - 像
+  chapter: 第2章 台球
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-af156b155f1747fb8e5ba19d
+- task_id: rt-exp-fe606188d941b4a56675
+  source_locator: full_text.md:L166-L168
+  start_line: 166
+  end_line: 168
+  cue_line: 167
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第2章 台球
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-d874055cdd78246e09ad
+  source_locator: full_text.md:L185-L187
+  start_line: 185
+  end_line: 187
+  cue_line: 186
+  cue_terms:
+  - 一样
+  chapter: 第2章 台球
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-1daff7d83d2dc3113fad
+  source_locator: full_text.md:L191-L193
+  start_line: 191
+  end_line: 193
+  cue_line: 192
+  cue_terms:
+  - 像
+  chapter: 第2章 台球
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2e54d0065d617f8fa9445dc6
+- task_id: rt-exp-0b33397d6122303923c6
+  source_locator: full_text.md:L193-L195
+  start_line: 193
+  end_line: 195
+  cue_line: 194
+  cue_terms:
+  - 仿佛
+  chapter: 第2章 台球
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-627882099dc86dc89eae8b3b
+- task_id: rt-exp-43abea50cf70093dbb3b
+  source_locator: full_text.md:L194-L196
+  start_line: 194
+  end_line: 196
+  cue_line: 195
+  cue_terms:
+  - 一样
+  chapter: 第2章 台球
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-9b9d7b9b14b60b86d26e
+  source_locator: full_text.md:L213-L215
+  start_line: 213
+  end_line: 215
+  cue_line: 214
+  cue_terms:
+  - 如
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-e14581f1b14eab704513
+  source_locator: full_text.md:L220-L222
+  start_line: 220
+  end_line: 222
+  cue_line: 221
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c208e41946673adb8b188fd2
+- task_id: rt-exp-ce65191575470b6eab17
+  source_locator: full_text.md:L229-L231
+  start_line: 229
+  end_line: 231
+  cue_line: 230
+  cue_terms:
+  - 仿佛
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ad1395b295387e5287d10a94
+- task_id: rt-exp-ea1fa0daced908cdbf70
+  source_locator: full_text.md:L240-L242
+  start_line: 240
+  end_line: 242
+  cue_line: 241
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e39e215825537297deddd98b
+- task_id: rt-exp-e2447dfcd92ca39a40d3
+  source_locator: full_text.md:L242-L244
+  start_line: 242
+  end_line: 244
+  cue_line: 243
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-206f60ceefd8f57e1c25
+  source_locator: full_text.md:L258-L260
+  start_line: 258
+  end_line: 260
+  cue_line: 259
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-e871285366ebfe4ec325
+  source_locator: full_text.md:L269-L271
+  start_line: 269
+  end_line: 271
+  cue_line: 270
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-0e91146bbd180736a19f0ae2
+- task_id: rt-exp-70fd9dbe3f7027716162
+  source_locator: full_text.md:L270-L272
+  start_line: 270
+  end_line: 272
+  cue_line: 271
+  cue_terms:
+  - 一样
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-0321279870ff8d6cc01a
+  source_locator: full_text.md:L275-L277
+  start_line: 275
+  end_line: 277
+  cue_line: 276
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-c13e6c0345fc5794e2f6
+  source_locator: full_text.md:L277-L279
+  start_line: 277
+  end_line: 279
+  cue_line: 278
+  cue_terms:
+  - 一样
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-4390c90421fa4a5f8d72
+  source_locator: full_text.md:L294-L296
+  start_line: 294
+  end_line: 296
+  cue_line: 295
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-bf76b12a64047d577145
+  source_locator: full_text.md:L299-L301
+  start_line: 299
+  end_line: 301
+  cue_line: 300
+  cue_terms:
+  - 如
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-fe3894033dd7ecaaf4d89e2d
+- task_id: rt-exp-6891c1169dd5d7616569
+  source_locator: full_text.md:L309-L311
+  start_line: 309
+  end_line: 311
+  cue_line: 310
+  cue_terms:
+  - 好像
+  - 似的
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-311fcb5678122a074c31
+  source_locator: full_text.md:L311-L313
+  start_line: 311
+  end_line: 313
+  cue_line: 312
+  cue_terms:
+  - 一样
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-d9e64c7c206db9958c07
+  source_locator: full_text.md:L313-L315
+  start_line: 313
+  end_line: 315
+  cue_line: 314
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-54b19d38b4b85f7d9d640bf6
+- task_id: rt-exp-74b90579cd06d672bc8d
+  source_locator: full_text.md:L314-L316
+  start_line: 314
+  end_line: 316
+  cue_line: 315
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8eb7632ca7f525f90e6877c5
+- task_id: rt-exp-ed40658eeb5fe9b607e4
+  source_locator: full_text.md:L323-L325
+  start_line: 323
+  end_line: 325
+  cue_line: 324
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e7b3495b961723a256f3886f
+- task_id: rt-exp-20191f6323c16417d0a8
+  source_locator: full_text.md:L329-L331
+  start_line: 329
+  end_line: 331
+  cue_line: 330
+  cue_terms:
+  - 一般
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-78fade5976454ac84c6d
+  source_locator: full_text.md:L336-L338
+  start_line: 336
+  end_line: 338
+  cue_line: 337
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-76f96b62be8995028ffe5d59
+- task_id: rt-exp-aa9fd4e26772aaeb9894
+  source_locator: full_text.md:L338-L340
+  start_line: 338
+  end_line: 340
+  cue_line: 339
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-49dff6c7e13642ca51b8
+  source_locator: full_text.md:L339-L341
+  start_line: 339
+  end_line: 341
+  cue_line: 340
+  cue_terms:
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9248890e2efaac6d0aa4a12c
+- task_id: rt-exp-0268d7ed5ba1e784a6d9
+  source_locator: full_text.md:L347-L349
+  start_line: 347
+  end_line: 349
+  cue_line: 348
+  cue_terms:
+  - 好像
+  - 似的
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-81d6899044ee7b6acf3ad19b
+- task_id: rt-exp-18b7a97e89ef3f28f107
+  source_locator: full_text.md:L349-L351
+  start_line: 349
+  end_line: 351
+  cue_line: 350
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第3章 射手和农场主
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-27dacbcf5f0ce9823ed69b5c
+- task_id: rt-exp-8aa63a65d279bb5d4291
+  source_locator: full_text.md:L363-L365
+  start_line: 363
+  end_line: 365
+  cue_line: 364
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第3章 射手和农场主
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-220d91bfecd11cf4ad52
+  source_locator: full_text.md:L384-L386
+  start_line: 384
+  end_line: 386
+  cue_line: 385
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-d2a0a7825250fb310e43
+  source_locator: full_text.md:L387-L389
+  start_line: 387
+  end_line: 389
+  cue_line: 388
+  cue_terms:
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3583993f4ae3f6aaf126781b
+- task_id: rt-exp-998b2752c075d582277d
+  source_locator: full_text.md:L390-L392
+  start_line: 390
+  end_line: 392
+  cue_line: 391
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-55040f0ac423bbe3a1b6
+  source_locator: full_text.md:L393-L395
+  start_line: 393
+  end_line: 395
+  cue_line: 394
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7aa5fb4666c91cfead62a90e
+- task_id: rt-exp-9b4137a0bafee908cfc6
+  source_locator: full_text.md:L399-L401
+  start_line: 399
+  end_line: 401
+  cue_line: 400
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-6c56d829feb9a3f1a60e0901
+- task_id: rt-exp-67660b0fa5f15e349bb6
+  source_locator: full_text.md:L401-L403
+  start_line: 401
+  end_line: 403
+  cue_line: 402
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-1b5d1fc727068eec70c2
+  source_locator: full_text.md:L404-L406
+  start_line: 404
+  end_line: 406
+  cue_line: 405
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-cf06f24392c83d5331fa
+  source_locator: full_text.md:L406-L408
+  start_line: 406
+  end_line: 408
+  cue_line: 407
+  cue_terms:
+  - 一般
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-16673b2f70280a4cb76d
+  source_locator: full_text.md:L411-L413
+  start_line: 411
+  end_line: 413
+  cue_line: 412
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-d7880c1681a3bf872684
+  source_locator: full_text.md:L418-L420
+  start_line: 418
+  end_line: 420
+  cue_line: 419
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-fbd155cb2f1b10a771d51777
+- task_id: rt-exp-11b470d8ac07c4d0dd72
+  source_locator: full_text.md:L427-L429
+  start_line: 427
+  end_line: 429
+  cue_line: 428
+  cue_terms:
+  - 仿佛
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5babb0802f1047617a7538e2
+- task_id: rt-exp-83e479197dfd44d0ee16
+  source_locator: full_text.md:L428-L430
+  start_line: 428
+  end_line: 430
+  cue_line: 429
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7eac62ca74e0fedfe731c0b9
+  - rh-4ba16c6f28c213935e98dd58
+  - rh-6bcaac5331001c36b8c3d688
+- task_id: rt-exp-4a68062c2a5b09879f72
+  source_locator: full_text.md:L432-L434
+  start_line: 432
+  end_line: 434
+  cue_line: 433
+  cue_terms:
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-788c523ed6bcf675e6bdf9ec
+- task_id: rt-exp-28fce27eeb3835747df8
+  source_locator: full_text.md:L434-L436
+  start_line: 434
+  end_line: 436
+  cue_line: 435
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e50906063b20108ca03a0bb6
+  - rh-d01731bdeebb25f290e2fe74
+- task_id: rt-exp-6298793993e6bd62956b
+  source_locator: full_text.md:L440-L442
+  start_line: 440
+  end_line: 442
+  cue_line: 441
+  cue_terms:
+  - 一样
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-a17af69660e4a718ddd4
+  source_locator: full_text.md:L466-L468
+  start_line: 466
+  end_line: 468
+  cue_line: 467
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4561f0f878351cdcaa9483c0
+  - rh-b02e14df7a79b7634618e269
+- task_id: rt-exp-ad24963999e1cf24d6ec
+  source_locator: full_text.md:L467-L469
+  start_line: 467
+  end_line: 469
+  cue_line: 468
+  cue_terms:
+  - 如同
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-592f119a1ed2421b8a15a5b7
+  - rh-8696d30a64e6dbd9cbafd2fa
+- task_id: rt-exp-cad6ca18b25353132b9c
+  source_locator: full_text.md:L468-L470
+  start_line: 468
+  end_line: 470
+  cue_line: 469
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-95415574ced208edd364c903
+- task_id: rt-exp-18f36633db9e2b950336
+  source_locator: full_text.md:L469-L471
+  start_line: 469
+  end_line: 471
+  cue_line: 470
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4701e80ffb39af05f9debb6e
+  - rh-41a31de3db0c292d359cc0a8
+- task_id: rt-exp-411720f9b1ec5ca88aaf
+  source_locator: full_text.md:L470-L472
+  start_line: 470
+  end_line: 472
+  cue_line: 471
+  cue_terms:
+  - 仿佛
+  - 似的
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: metaphor_reuse
+  occurrence_ids: []
+- task_id: rt-exp-8982b462f04d5b07adc6
+  source_locator: full_text.md:L471-L473
+  start_line: 471
+  end_line: 473
+  cue_line: 472
+  cue_terms:
+  - 仿佛
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4d080f1a9aaa433bacc998a4
+- task_id: rt-exp-1d6c5e2308e8596bcf44
+  source_locator: full_text.md:L475-L477
+  start_line: 475
+  end_line: 477
+  cue_line: 476
+  cue_terms:
+  - 如同
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e622dcbbce68b6ea16ffa21d
+- task_id: rt-exp-5848299cb8f19a365291
+  source_locator: full_text.md:L476-L478
+  start_line: 476
+  end_line: 478
+  cue_line: 477
+  cue_terms:
+  - 仿佛
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b7767dfda020bfe3e2178638
+  - rh-56bfc723f83839fa99ecddb1
+- task_id: rt-exp-67f088ffb68b362fa8ff
+  source_locator: full_text.md:L480-L482
+  start_line: 480
+  end_line: 482
+  cue_line: 481
+  cue_terms:
+  - 一般
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f98d2420e70fb183a75a580d
+- task_id: rt-exp-cfddcc3b6e423516ee65
+  source_locator: full_text.md:L483-L485
+  start_line: 483
+  end_line: 485
+  cue_line: 484
+  cue_terms:
+  - 仿佛
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-12329fa5b7cde6186b2be762
+- task_id: rt-exp-cc650b06ddea9f944a24
+  source_locator: full_text.md:L485-L487
+  start_line: 485
+  end_line: 487
+  cue_line: 486
+  cue_terms:
+  - 如
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-24ccb219f2a131638547019b
+- task_id: rt-exp-ce001aa178d2e7c85972
+  source_locator: full_text.md:L491-L493
+  start_line: 491
+  end_line: 493
+  cue_line: 492
+  cue_terms:
+  - 一样
+  chapter: 第4章 三体、周文王、长夜
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-2d2fe64f44c6cb6a3d09
+  source_locator: full_text.md:L493-L495
+  start_line: 493
+  end_line: 495
+  cue_line: 494
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ef4cf2a76836d9c3d72435a3
+- task_id: rt-exp-a589fab7638d44a5e7ed
+  source_locator: full_text.md:L497-L499
+  start_line: 497
+  end_line: 499
+  cue_line: 498
+  cue_terms:
+  - 仿佛
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-6478a9446389bf6b11f1d838
+- task_id: rt-exp-746fc5931aa731bd49c8
+  source_locator: full_text.md:L502-L504
+  start_line: 502
+  end_line: 504
+  cue_line: 503
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-65cc6776f1d8a0e126919dd1
+- task_id: rt-exp-eabcf7f68d27e6fe3832
+  source_locator: full_text.md:L503-L505
+  start_line: 503
+  end_line: 505
+  cue_line: 504
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2c0153ad7336a9ffbca893e7
+- task_id: rt-exp-c1212c6cc8b53c1e4570
+  source_locator: full_text.md:L505-L507
+  start_line: 505
+  end_line: 507
+  cue_line: 506
+  cue_terms:
+  - 像
+  chapter: 第4章 三体、周文王、长夜
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-46460b8b974de99b6701e16c
+- task_id: rt-exp-a8399fbc97c8b4f967c3
+  source_locator: full_text.md:L513-L515
+  start_line: 513
+  end_line: 515
+  cue_line: 514
+  cue_terms:
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-672c052d69ed21dc3df9032f
+- task_id: rt-exp-0881625c5518f4993ca8
+  source_locator: full_text.md:L519-L521
+  start_line: 519
+  end_line: 521
+  cue_line: 520
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-82104ce7d00a82bd87909815
+- task_id: rt-exp-483d2e810da40b261e3e
+  source_locator: full_text.md:L523-L525
+  start_line: 523
+  end_line: 525
+  cue_line: 524
+  cue_terms:
+  - 如
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e58fe388597ac863829bcc2a
+- task_id: rt-exp-9df18b204f1e34b2e9e3
+  source_locator: full_text.md:L524-L526
+  start_line: 524
+  end_line: 526
+  cue_line: 525
+  cue_terms:
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-75e04836dce52f769f9d
+  source_locator: full_text.md:L529-L531
+  start_line: 529
+  end_line: 531
+  cue_line: 530
+  cue_terms:
+  - 仿佛
+  - 如
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cbd7f6b98a7ef217a6323565
+- task_id: rt-exp-d3dbe16288dde92aacc0
+  source_locator: full_text.md:L530-L532
+  start_line: 530
+  end_line: 532
+  cue_line: 531
+  cue_terms:
+  - 仿佛
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2917dfbe305976e42e43d8c1
+- task_id: rt-exp-ba56bccdd5fa63b56dfa
+  source_locator: full_text.md:L531-L533
+  start_line: 531
+  end_line: 533
+  cue_line: 532
+  cue_terms:
+  - 似的
+  - 一样
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-ec90c100bf84e5c32289
+  source_locator: full_text.md:L532-L534
+  start_line: 532
+  end_line: 534
+  cue_line: 533
+  cue_terms:
+  - 仿佛
+  - 似的
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-75206e0c000d612ba869
+  source_locator: full_text.md:L534-L536
+  start_line: 534
+  end_line: 536
+  cue_line: 535
+  cue_terms:
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-0df2c537cfe7fe0646ca
+  source_locator: full_text.md:L536-L538
+  start_line: 536
+  end_line: 538
+  cue_line: 537
+  cue_terms:
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-73bb6fb6992b18fdf26c
+  source_locator: full_text.md:L537-L539
+  start_line: 537
+  end_line: 539
+  cue_line: 538
+  cue_terms:
+  - 一样
+  - 像
+  - 如
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-63c9ae689bb5184f2f91faae
+- task_id: rt-exp-f799a478b846b4319f37
+  source_locator: full_text.md:L541-L543
+  start_line: 541
+  end_line: 543
+  cue_line: 542
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c2e1e476b3d389bbf04f40de
+- task_id: rt-exp-dd33ad34ef204e2453fc
+  source_locator: full_text.md:L544-L546
+  start_line: 544
+  end_line: 546
+  cue_line: 545
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-371afe049f87844782fb
+  source_locator: full_text.md:L545-L547
+  start_line: 545
+  end_line: 547
+  cue_line: 546
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-f2347c9339ad5740c694
+  source_locator: full_text.md:L547-L549
+  start_line: 547
+  end_line: 549
+  cue_line: 548
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-c3d3f216b47b6f4b8c68
+  source_locator: full_text.md:L549-L551
+  start_line: 549
+  end_line: 551
+  cue_line: 550
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-27f3aa16c8dbc0600bc3
+  source_locator: full_text.md:L551-L553
+  start_line: 551
+  end_line: 553
+  cue_line: 552
+  cue_terms:
+  - 像
+  chapter: 第5章 叶文洁
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-0f548643262d6869e0b41731
+- task_id: rt-exp-a7788b79e27cc6e99698
+  source_locator: full_text.md:L556-L558
+  start_line: 556
+  end_line: 558
+  cue_line: 557
+  cue_terms:
+  - 像
+  chapter: 第6章 宇宙闪烁之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2997cf209cd096107842e640
+- task_id: rt-exp-99970f4619ded2839e3b
+  source_locator: full_text.md:L566-L568
+  start_line: 566
+  end_line: 568
+  cue_line: 567
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第6章 宇宙闪烁之一
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-9594cdfc55d1cf1a6ce9
+  source_locator: full_text.md:L568-L570
+  start_line: 568
+  end_line: 570
+  cue_line: 569
+  cue_terms:
+  - 像
+  chapter: 第6章 宇宙闪烁之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-22079973f1e8e739de26482f
+- task_id: rt-exp-0f0d90613f7e383f5b93
+  source_locator: full_text.md:L579-L581
+  start_line: 579
+  end_line: 581
+  cue_line: 580
+  cue_terms:
+  - 像
+  chapter: 第6章 宇宙闪烁之一
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-cdbf69bd562374e8c52e
+  source_locator: full_text.md:L580-L582
+  start_line: 580
+  end_line: 582
+  cue_line: 581
+  cue_terms:
+  - 如
+  chapter: 第6章 宇宙闪烁之一
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-bd93c784401379c16836
+  source_locator: full_text.md:L588-L590
+  start_line: 588
+  end_line: 590
+  cue_line: 589
+  cue_terms:
+  - 仿佛
+  - 像
+  - 如
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-54c74088b42c8bf7f0fddb80
+  - rh-53272c75527eed279dd65c86
+  - rh-ddbdd612dbb24a57b3db27bd
+  - rh-2ea43a842e6ad99d4c59569e
+- task_id: rt-exp-4df00c18b3020722af21
+  source_locator: full_text.md:L589-L591
+  start_line: 589
+  end_line: 591
+  cue_line: 590
+  cue_terms:
+  - 仿佛
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-90d8245d2de5e20343326e1b
+- task_id: rt-exp-b43d9b3c68bac07465b1
+  source_locator: full_text.md:L590-L592
+  start_line: 590
+  end_line: 592
+  cue_line: 591
+  cue_terms:
+  - 如同
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b5a59015f519d27dbad78266
+  - rh-93e205dad86214f248cdeaba
+- task_id: rt-exp-a28c980d145bc1f3be5f
+  source_locator: full_text.md:L593-L595
+  start_line: 593
+  end_line: 595
+  cue_line: 594
+  cue_terms:
+  - 如同
+  - 像
+  - 如
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b4bc55105b46816d0249cce7
+  - rh-3632faf93a4b5961052a7a7b
+- task_id: rt-exp-2f4233391a7ade88a991
+  source_locator: full_text.md:L596-L598
+  start_line: 596
+  end_line: 598
+  cue_line: 597
+  cue_terms:
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2e47cc424c3caed0f692cedd
+  - rh-516c07118fe42c03552a9f83
+- task_id: rt-exp-e41ddb0dff34cf81f17e
+  source_locator: full_text.md:L605-L607
+  start_line: 605
+  end_line: 607
+  cue_line: 606
+  cue_terms:
+  - 如
+  chapter: 第7章 疯狂年代
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-99d3ad7e4c4870107f74
+  source_locator: full_text.md:L609-L611
+  start_line: 609
+  end_line: 611
+  cue_line: 610
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-efa044ec68530e791da7
+  source_locator: full_text.md:L624-L626
+  start_line: 624
+  end_line: 626
+  cue_line: 625
+  cue_terms:
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-b5e7e04e207d202541db
+  source_locator: full_text.md:L638-L640
+  start_line: 638
+  end_line: 640
+  cue_line: 639
+  cue_terms:
+  - 如
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-83f1b50dd0b6d4cf5538155a
+- task_id: rt-exp-4a07995f297a45ef6e67
+  source_locator: full_text.md:L640-L642
+  start_line: 640
+  end_line: 642
+  cue_line: 641
+  cue_terms:
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ade89f1f7aa46d0bbeda63eb
+  - rh-f2a04588e2ad6546569313b0
+- task_id: rt-exp-9114bd19c9435a36de13
+  source_locator: full_text.md:L644-L646
+  start_line: 644
+  end_line: 646
+  cue_line: 645
+  cue_terms:
+  - 一般
+  - 一样
+  - 像
+  chapter: 第7章 疯狂年代
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4d985c8ced4afa78cb791f8a
+- task_id: rt-exp-bdcf6b528c03a4c83446
+  source_locator: full_text.md:L652-L654
+  start_line: 652
+  end_line: 654
+  cue_line: 653
+  cue_terms:
+  - 如
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b0e96d91dcdbea3867a11b19
+  - rh-221cd0e778da414c9617a296
+- task_id: rt-exp-3db2c60a02bd7c8d4640
+  source_locator: full_text.md:L653-L655
+  start_line: 653
+  end_line: 655
+  cue_line: 654
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-056dfe9df81f930ff9c49bf0
+- task_id: rt-exp-c7671150799d4d651343
+  source_locator: full_text.md:L654-L656
+  start_line: 654
+  end_line: 656
+  cue_line: 655
+  cue_terms:
+  - 如同
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c14b4b514645ede0f80cfcfd
+- task_id: rt-exp-059a29ede8df04326676
+  source_locator: full_text.md:L656-L658
+  start_line: 656
+  end_line: 658
+  cue_line: 657
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-fa3345db6cf63b5b95893594
+- task_id: rt-exp-8fb9b1922d4795534f4f
+  source_locator: full_text.md:L663-L665
+  start_line: 663
+  end_line: 665
+  cue_line: 664
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: exclude
+  reason: metaphor_reuse
+  occurrence_ids: []
+- task_id: rt-exp-0043fbee84004ed54e1e
+  source_locator: full_text.md:L677-L679
+  start_line: 677
+  end_line: 679
+  cue_line: 678
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-bcb3960fbc4d604594dc573e
+  - rh-72242bdd70c3eadd8ee7910c
+- task_id: rt-exp-c694d96ad242e796cee9
+  source_locator: full_text.md:L705-L707
+  start_line: 705
+  end_line: 707
+  cue_line: 706
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4404dd380bd4408e02ce74c3
+- task_id: rt-exp-b4845983612cf653af33
+  source_locator: full_text.md:L714-L716
+  start_line: 714
+  end_line: 716
+  cue_line: 715
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f93e50214c2c6df95d3d5bea
+- task_id: rt-exp-9facdeff2dc60e8732f7
+  source_locator: full_text.md:L732-L734
+  start_line: 732
+  end_line: 734
+  cue_line: 733
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7b22c7bbe1fdd3832aa98734
+- task_id: rt-exp-2d972b64fda88c9b7bb8
+  source_locator: full_text.md:L733-L735
+  start_line: 733
+  end_line: 735
+  cue_line: 734
+  cue_terms:
+  - 仿佛
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9853d330b07cdbc3951b641f
+  - rh-e1cb1c0bef5bba330e23e69d
+- task_id: rt-exp-7418dcfe4bb4e436b538
+  source_locator: full_text.md:L737-L739
+  start_line: 737
+  end_line: 739
+  cue_line: 738
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-d9595e4d922b53ab1512
+  source_locator: full_text.md:L738-L740
+  start_line: 738
+  end_line: 740
+  cue_line: 739
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-6312b709b072c8275581582e
+  - rh-956f6b7fbb81d08ffa0c7f0c
+- task_id: rt-exp-b06e5fbc876de2daab08
+  source_locator: full_text.md:L751-L753
+  start_line: 751
+  end_line: 753
+  cue_line: 752
+  cue_terms:
+  - 仿佛
+  - 一般
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4a6639c3385f4c637e2efbbe
+  - rh-f73ca21a3133c26a0efbf55b
+- task_id: rt-exp-e37fcd13b46a4f6e4aa5
+  source_locator: full_text.md:L753-L755
+  start_line: 753
+  end_line: 755
+  cue_line: 754
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1ac5670b5c1a59b17d068769
+- task_id: rt-exp-8ccad5b8b1ba8a2164d8
+  source_locator: full_text.md:L754-L756
+  start_line: 754
+  end_line: 756
+  cue_line: 755
+  cue_terms:
+  - 像
+  chapter: 第8章 寂静的春天
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1b09e47f9f5918352470b354
+- task_id: rt-exp-9fea145afec731f556c1
+  source_locator: full_text.md:L764-L766
+  start_line: 764
+  end_line: 766
+  cue_line: 765
+  cue_terms:
+  - 像
+  chapter: 第9章 红岸之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-a80c118255368f369aac554f
+- task_id: rt-exp-cb818eb8878ac57ab275
+  source_locator: full_text.md:L765-L767
+  start_line: 765
+  end_line: 767
+  cue_line: 766
+  cue_terms:
+  - 一样
+  chapter: 第9章 红岸之一
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-c4303042558a271a293c
+  source_locator: full_text.md:L784-L786
+  start_line: 784
+  end_line: 786
+  cue_line: 785
+  cue_terms:
+  - 像
+  chapter: 第9章 红岸之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e042f87fbd50a60f0d7b8f3a
+- task_id: rt-exp-196e6518b8c3eea7bfbb
+  source_locator: full_text.md:L792-L794
+  start_line: 792
+  end_line: 794
+  cue_line: 793
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第9章 红岸之一
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-0c4281d16d3dfb7d97ad
+  source_locator: full_text.md:L794-L796
+  start_line: 794
+  end_line: 796
+  cue_line: 795
+  cue_terms:
+  - 仿佛
+  chapter: 第9章 红岸之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-876ff3389beab022dc6a1e1c
+- task_id: rt-exp-a05702bd277f16bd25ec
+  source_locator: full_text.md:L819-L821
+  start_line: 819
+  end_line: 821
+  cue_line: 820
+  cue_terms:
+  - 像
+  chapter: 第9章 红岸之一
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9e9331fa290628242310873c
+- task_id: rt-exp-289b998ccd48cffb73d4
+  source_locator: full_text.md:L831-L833
+  start_line: 831
+  end_line: 833
+  cue_line: 832
+  cue_terms:
+  - 仿佛
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ae83116e9e0d6bb6ee40fb4d
+- task_id: rt-exp-40e39c567273136d9afa
+  source_locator: full_text.md:L832-L834
+  start_line: 832
+  end_line: 834
+  cue_line: 833
+  cue_terms:
+  - 如同
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f4dbd13ec9ff0ee89eb12d3d
+- task_id: rt-exp-a334132306d25bcae260
+  source_locator: full_text.md:L836-L838
+  start_line: 836
+  end_line: 838
+  cue_line: 837
+  cue_terms:
+  - 一样
+  chapter: 第10章 宇宙闪烁之二
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-15ea4a904ff78772ee3d
+  source_locator: full_text.md:L869-L871
+  start_line: 869
+  end_line: 871
+  cue_line: 870
+  cue_terms:
+  - 像
+  chapter: 第10章 宇宙闪烁之二
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-5a61c50e6fbe5ec4731f
+  source_locator: full_text.md:L871-L873
+  start_line: 871
+  end_line: 873
+  cue_line: 872
+  cue_terms:
+  - 仿佛
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f11cf1a3051471c9f0c574ea
+- task_id: rt-exp-a609dfd55bc6ece8214e
+  source_locator: full_text.md:L872-L874
+  start_line: 872
+  end_line: 874
+  cue_line: 873
+  cue_terms:
+  - 像
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2161744dd6149a0416bd23c5
+- task_id: rt-exp-5e2b9f3cb7bdb429bdbc
+  source_locator: full_text.md:L879-L881
+  start_line: 879
+  end_line: 881
+  cue_line: 880
+  cue_terms:
+  - 像
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7058f2e44b929f01b6572800
+- task_id: rt-exp-83aa0b40f2a74260b308
+  source_locator: full_text.md:L880-L882
+  start_line: 880
+  end_line: 882
+  cue_line: 881
+  cue_terms:
+  - 仿佛
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e077fcea8a10c066e0916b03
+- task_id: rt-exp-41a6a3aa0d12353039de
+  source_locator: full_text.md:L881-L883
+  start_line: 881
+  end_line: 883
+  cue_line: 882
+  cue_terms:
+  - 像
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2fe3d1779a6c9299966ddddb
+- task_id: rt-exp-9d7b4a599f6bbf96ad63
+  source_locator: full_text.md:L882-L884
+  start_line: 882
+  end_line: 884
+  cue_line: 883
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第10章 宇宙闪烁之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b3b565c468f44cf82216babc
+  - rh-081efe62ec475fc640057272
+- task_id: rt-exp-90dd5bf0c04d01f39244
+  source_locator: full_text.md:L899-L901
+  start_line: 899
+  end_line: 901
+  cue_line: 900
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第11章 大史
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b1995d4a9e3c7423e07a2870
+  - rh-7ed5179f1eaf35e59503df6d
+- task_id: rt-exp-aa906f3e47a93960ded2
+  source_locator: full_text.md:L904-L906
+  start_line: 904
+  end_line: 906
+  cue_line: 905
+  cue_terms:
+  - 如
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-968ce0bb511920cf51c7
+  source_locator: full_text.md:L934-L936
+  start_line: 934
+  end_line: 936
+  cue_line: 935
+  cue_terms:
+  - 像
+  chapter: 第11章 大史
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-55b8da5490c9d7c37c5696cd
+- task_id: rt-exp-a58722b1ccce4cf258d5
+  source_locator: full_text.md:L937-L939
+  start_line: 937
+  end_line: 939
+  cue_line: 938
+  cue_terms:
+  - 如
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-f3031cb44c46fef501fb
+  source_locator: full_text.md:L939-L941
+  start_line: 939
+  end_line: 941
+  cue_line: 940
+  cue_terms:
+  - 如
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-5eb52ac58dc9faecb559
+  source_locator: full_text.md:L945-L947
+  start_line: 945
+  end_line: 947
+  cue_line: 946
+  cue_terms:
+  - 一般
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-e7518dd8cdfbba38b25e
+  source_locator: full_text.md:L955-L957
+  start_line: 955
+  end_line: 957
+  cue_line: 956
+  cue_terms:
+  - 一样
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-a8ec474b967db4b51123
+  source_locator: full_text.md:L963-L965
+  start_line: 963
+  end_line: 965
+  cue_line: 964
+  cue_terms:
+  - 像
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-a297ff43dfa449d3f964
+  source_locator: full_text.md:L967-L969
+  start_line: 967
+  end_line: 969
+  cue_line: 968
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-9729bfcb8808cd932df1
+  source_locator: full_text.md:L971-L973
+  start_line: 971
+  end_line: 973
+  cue_line: 972
+  cue_terms:
+  - 一般
+  chapter: 第11章 大史
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-a1fdd853cff330a97965
+  source_locator: full_text.md:L982-L984
+  start_line: 982
+  end_line: 984
+  cue_line: 983
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-ccb1c4a98ec663c00538
+  source_locator: full_text.md:L983-L985
+  start_line: 983
+  end_line: 985
+  cue_line: 984
+  cue_terms:
+  - 一样
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-5f43c3d07bd511fa6355
+  source_locator: full_text.md:L992-L994
+  start_line: 992
+  end_line: 994
+  cue_line: 993
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-43e826b933ecb2bb376a78e7
+  - rh-df058512e8fc0dd634006549
+- task_id: rt-exp-2e6ee4c490b05f5036d5
+  source_locator: full_text.md:L1001-L1003
+  start_line: 1001
+  end_line: 1003
+  cue_line: 1002
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f9a8fa61d51e125886cfc9f1
+- task_id: rt-exp-ccdc7cda9ed1e3ddf037
+  source_locator: full_text.md:L1015-L1017
+  start_line: 1015
+  end_line: 1017
+  cue_line: 1016
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b03e3cd01a8f1c8288290588
+- task_id: rt-exp-25c70d7178fc8c6ca17e
+  source_locator: full_text.md:L1018-L1020
+  start_line: 1018
+  end_line: 1020
+  cue_line: 1019
+  cue_terms:
+  - 一样
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-4eb73956763a189bcc19
+  source_locator: full_text.md:L1032-L1034
+  start_line: 1032
+  end_line: 1034
+  cue_line: 1033
+  cue_terms:
+  - 一般
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-82d6634ae5c9cb7ea118
+  source_locator: full_text.md:L1035-L1037
+  start_line: 1035
+  end_line: 1037
+  cue_line: 1036
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-a4e161cd8ffb7d031eb27d12
+  - rh-56107f07317bc77675bdecc9
+- task_id: rt-exp-04d859cf5992ac1fea44
+  source_locator: full_text.md:L1041-L1043
+  start_line: 1041
+  end_line: 1043
+  cue_line: 1042
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-81466b94dbcdfa54e5eeb7de
+  - rh-1175ed784632246d97e09424
+- task_id: rt-exp-fefa11c076a5c7555c2e
+  source_locator: full_text.md:L1042-L1044
+  start_line: 1042
+  end_line: 1044
+  cue_line: 1043
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-31b41b51c07b8f8bcbb5
+  source_locator: full_text.md:L1045-L1047
+  start_line: 1045
+  end_line: 1047
+  cue_line: 1046
+  cue_terms:
+  - 一样
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-4762469fd11d5955a168
+  source_locator: full_text.md:L1048-L1050
+  start_line: 1048
+  end_line: 1050
+  cue_line: 1049
+  cue_terms:
+  - 仿佛
+  - 一样
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-324ab921cf4229b77da34219
+- task_id: rt-exp-d077c4c2f4c957049e80
+  source_locator: full_text.md:L1051-L1053
+  start_line: 1051
+  end_line: 1053
+  cue_line: 1052
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-509d343dfebf2b34e84ae92d
+  - rh-59538cc86c0e492eb741c531
+  - rh-803428534279634fe47797e5
+  - rh-d8ee2b4bb9da5b13ac06bdda
+- task_id: rt-exp-e169461c62c854dc4753
+  source_locator: full_text.md:L1052-L1054
+  start_line: 1052
+  end_line: 1054
+  cue_line: 1053
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c8ba0c54b8f2ee64b53e328a
+- task_id: rt-exp-039fed2b9c619a4acd5d
+  source_locator: full_text.md:L1057-L1059
+  start_line: 1057
+  end_line: 1059
+  cue_line: 1058
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-47a61e49e1b16e058a04cb51
+  - rh-03f40a5d20bfbf21aabee8e8
+- task_id: rt-exp-3039ea5413c11f05ab29
+  source_locator: full_text.md:L1060-L1062
+  start_line: 1060
+  end_line: 1062
+  cue_line: 1061
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-23525c69fa9a3573f9f208ae
+- task_id: rt-exp-dab0529068026b07df21
+  source_locator: full_text.md:L1062-L1064
+  start_line: 1062
+  end_line: 1064
+  cue_line: 1063
+  cue_terms:
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5db22d0cd03786c7fa975821
+- task_id: rt-exp-1982f2432bbc098dcafe
+  source_locator: full_text.md:L1067-L1069
+  start_line: 1067
+  end_line: 1069
+  cue_line: 1068
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第12章 三体、墨子、烈焰
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9dd46df8904850a12b7abfc6
+  - rh-1fb13e18eea2ef8f5ed291f5
+- task_id: rt-exp-2e4ba83de87baed4be41
+  source_locator: full_text.md:L1090-L1092
+  start_line: 1090
+  end_line: 1092
+  cue_line: 1091
+  cue_terms:
+  - 如
+  chapter: 第13章 红岸之二
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-87fcdf385137a5197259
+  source_locator: full_text.md:L1100-L1102
+  start_line: 1100
+  end_line: 1102
+  cue_line: 1101
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第13章 红岸之二
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-8f7461c74e62aaa2d0f2
+  source_locator: full_text.md:L1107-L1109
+  start_line: 1107
+  end_line: 1109
+  cue_line: 1108
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第13章 红岸之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4ad24ba7467ca6afdbeb03ab
+- task_id: rt-exp-3c808feb5c12baf79b57
+  source_locator: full_text.md:L1120-L1122
+  start_line: 1120
+  end_line: 1122
+  cue_line: 1121
+  cue_terms:
+  - 如
+  chapter: 第13章 红岸之二
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-fe7536a188e85b216f33
+  source_locator: full_text.md:L1121-L1123
+  start_line: 1121
+  end_line: 1123
+  cue_line: 1122
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第13章 红岸之二
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-8c585ea884c23db547c5
+  source_locator: full_text.md:L1129-L1131
+  start_line: 1129
+  end_line: 1131
+  cue_line: 1130
+  cue_terms:
+  - 仿佛
+  chapter: 第13章 红岸之二
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b939e7e0936f74c3c60f6d22
+- task_id: rt-exp-fc953f5791ad71d0d999
+  source_locator: full_text.md:L1219-L1221
+  start_line: 1219
+  end_line: 1221
+  cue_line: 1220
+  cue_terms:
+  - 有如
+  chapter: 第15章 红岸之四
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-392bc6628ab652b3a774
+  source_locator: full_text.md:L1223-L1225
+  start_line: 1223
+  end_line: 1225
+  cue_line: 1224
+  cue_terms:
+  - 如
+  chapter: 第15章 红岸之四
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-114738625480a544c72e2182
+  - rh-948cdd621c218f9f45e45e02
+- task_id: rt-exp-d7312ff145965b2cfb20
+  source_locator: full_text.md:L1227-L1229
+  start_line: 1227
+  end_line: 1229
+  cue_line: 1228
+  cue_terms:
+  - 像
+  chapter: 第15章 红岸之四
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-efa437ee8c897c0459844562
+- task_id: rt-exp-55d287c465b41c6d9783
+  source_locator: full_text.md:L1239-L1241
+  start_line: 1239
+  end_line: 1241
+  cue_line: 1240
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第15章 红岸之四
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9cd7017ca5a3a9a9ea9f5028
+  - rh-b266670bb848c40b4c9ad44c
+  - rh-10753671f764cf3d510f8119
+- task_id: rt-exp-4d685938c55c7a51601b
+  source_locator: full_text.md:L1240-L1242
+  start_line: 1240
+  end_line: 1242
+  cue_line: 1241
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第15章 红岸之四
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-14d99a08a0623c084a2ce744
+  - rh-7d2ab033399fdec027953a3c
+  - rh-cae3c07ef1ac0796f708fc6d
+- task_id: rt-exp-4bd4f14778900fd406c2
+  source_locator: full_text.md:L1242-L1244
+  start_line: 1242
+  end_line: 1244
+  cue_line: 1243
+  cue_terms:
+  - 一样
+  chapter: 第15章 红岸之四
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-23e73732ef88d4e7b994
+  source_locator: full_text.md:L1249-L1251
+  start_line: 1249
+  end_line: 1251
+  cue_line: 1250
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4065712f4af5debe2582dd19
+- task_id: rt-exp-9cb370fb6010362aff64
+  source_locator: full_text.md:L1250-L1252
+  start_line: 1250
+  end_line: 1252
+  cue_line: 1251
+  cue_terms:
+  - 仿佛
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-a7e5719a5877ada8fb838aea
+- task_id: rt-exp-5ac8a2775a1f666baac5
+  source_locator: full_text.md:L1251-L1253
+  start_line: 1251
+  end_line: 1253
+  cue_line: 1252
+  cue_terms:
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-1c601df52693c90b269f
+  source_locator: full_text.md:L1255-L1257
+  start_line: 1255
+  end_line: 1257
+  cue_line: 1256
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-3ffcb8174bee35510658
+  source_locator: full_text.md:L1260-L1262
+  start_line: 1260
+  end_line: 1262
+  cue_line: 1261
+  cue_terms:
+  - 一样
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4dc28f1f5a416c27c2be7416
+- task_id: rt-exp-79ca52030ff0034ab8aa
+  source_locator: full_text.md:L1267-L1269
+  start_line: 1267
+  end_line: 1269
+  cue_line: 1268
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cdf8ad25853bfd76cf6808c1
+- task_id: rt-exp-c1b4013acb06a250d0b7
+  source_locator: full_text.md:L1274-L1276
+  start_line: 1274
+  end_line: 1276
+  cue_line: 1275
+  cue_terms:
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-baae2b5d337e15d594c0
+  source_locator: full_text.md:L1280-L1282
+  start_line: 1280
+  end_line: 1282
+  cue_line: 1281
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-1a42e1924594e4fd2622
+  source_locator: full_text.md:L1281-L1283
+  start_line: 1281
+  end_line: 1283
+  cue_line: 1282
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-137d3afe25e4b4fc227c
+  source_locator: full_text.md:L1285-L1287
+  start_line: 1285
+  end_line: 1287
+  cue_line: 1286
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-47fa8352f5621ad53ab3c34b
+- task_id: rt-exp-0f7ee45fa8e4599ee268
+  source_locator: full_text.md:L1286-L1288
+  start_line: 1286
+  end_line: 1288
+  cue_line: 1287
+  cue_terms:
+  - 一样
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-93355b5184ed9d226210
+  source_locator: full_text.md:L1295-L1297
+  start_line: 1295
+  end_line: 1297
+  cue_line: 1296
+  cue_terms:
+  - 仿佛
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1d7d770449d5f87dbda0e10c
+- task_id: rt-exp-4d2a4e867cd692bebda8
+  source_locator: full_text.md:L1297-L1299
+  start_line: 1297
+  end_line: 1299
+  cue_line: 1298
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3ac5cf5a4bb8ad2745486302
+- task_id: rt-exp-8f56ce9ec7c90e816936
+  source_locator: full_text.md:L1299-L1301
+  start_line: 1299
+  end_line: 1301
+  cue_line: 1300
+  cue_terms:
+  - 像
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-73a16907c407cc79c6c84a36
+- task_id: rt-exp-fb684a13ee961380fe57
+  source_locator: full_text.md:L1309-L1311
+  start_line: 1309
+  end_line: 1311
+  cue_line: 1310
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-8cd59611375a70413f6e
+  source_locator: full_text.md:L1317-L1319
+  start_line: 1317
+  end_line: 1319
+  cue_line: 1318
+  cue_terms:
+  - 一样
+  - 如
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-df7bc13901c2bfcd7fe2
+  source_locator: full_text.md:L1318-L1320
+  start_line: 1318
+  end_line: 1320
+  cue_line: 1319
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-620d7de6b964f96ca033f088
+- task_id: rt-exp-61f930dcbbf667575ca5
+  source_locator: full_text.md:L1319-L1321
+  start_line: 1319
+  end_line: 1321
+  cue_line: 1320
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2927b336db172c7a6a115208
+  - rh-d356e17bb65ffcf74bdae94a
+- task_id: rt-exp-283f3db18e0ed3918555
+  source_locator: full_text.md:L1320-L1322
+  start_line: 1320
+  end_line: 1322
+  cue_line: 1321
+  cue_terms:
+  - 好像
+  - 似的
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3837a50fab32184cf0c8a4be
+- task_id: rt-exp-da993e4159b4fcf1d1c4
+  source_locator: full_text.md:L1322-L1324
+  start_line: 1322
+  end_line: 1324
+  cue_line: 1323
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e68bb7c6e6cc821c76221a29
+- task_id: rt-exp-03d695310d2ad0e248e2
+  source_locator: full_text.md:L1325-L1327
+  start_line: 1325
+  end_line: 1327
+  cue_line: 1326
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7eceb59b6c089b6d43271d01
+- task_id: rt-exp-8074c6badb0d329e711c
+  source_locator: full_text.md:L1326-L1328
+  start_line: 1326
+  end_line: 1328
+  cue_line: 1327
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-570ed6c7742877de4599547e
+  - rh-3cd8bca6fcf59e116e26337d
+  - rh-eabbcaed8137e8368bba2324
+- task_id: rt-exp-cdd2a542f91ab18fe328
+  source_locator: full_text.md:L1327-L1329
+  start_line: 1327
+  end_line: 1329
+  cue_line: 1328
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9bc9205c21393059144903a6
+  - rh-3e55f66df06e8d93750e2194
+- task_id: rt-exp-a8d68a6c26bac1c4cc5a
+  source_locator: full_text.md:L1329-L1331
+  start_line: 1329
+  end_line: 1331
+  cue_line: 1330
+  cue_terms:
+  - 一样
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-ec9495d39a16d5ad4c0e
+  source_locator: full_text.md:L1335-L1337
+  start_line: 1335
+  end_line: 1337
+  cue_line: 1336
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7ff96f9bf99e1650b5785551
+- task_id: rt-exp-237789bac59f372e64dd
+  source_locator: full_text.md:L1336-L1338
+  start_line: 1336
+  end_line: 1338
+  cue_line: 1337
+  cue_terms:
+  - 一般
+  - 一样
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-5c22f7b77a604dc01d17
+  source_locator: full_text.md:L1340-L1342
+  start_line: 1340
+  end_line: 1342
+  cue_line: 1341
+  cue_terms:
+  - 一样
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-8355dc10200cdc5a43da
+  source_locator: full_text.md:L1341-L1343
+  start_line: 1341
+  end_line: 1343
+  cue_line: 1342
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-77507cbbae7744a6b7ca
+  source_locator: full_text.md:L1346-L1348
+  start_line: 1346
+  end_line: 1348
+  cue_line: 1347
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8a8162aacc5fd720f7efdf68
+- task_id: rt-exp-9fcd75d670a43d00a922
+  source_locator: full_text.md:L1353-L1355
+  start_line: 1353
+  end_line: 1355
+  cue_line: 1354
+  cue_terms:
+  - 一般
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-9ffd8ca8b516bbc5e5e0
+  source_locator: full_text.md:L1367-L1369
+  start_line: 1367
+  end_line: 1369
+  cue_line: 1368
+  cue_terms:
+  - 一般
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-c0780ad1db64c4d0df6c
+  source_locator: full_text.md:L1368-L1370
+  start_line: 1368
+  end_line: 1370
+  cue_line: 1369
+  cue_terms:
+  - 似的
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-d28649e1a216a6e0ae67e80a
+- task_id: rt-exp-097905b9746e5c01fbb7
+  source_locator: full_text.md:L1381-L1383
+  start_line: 1381
+  end_line: 1383
+  cue_line: 1382
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2b83c0d732703436003ec132
+- task_id: rt-exp-0a2507436b3c09f9f036
+  source_locator: full_text.md:L1399-L1401
+  start_line: 1399
+  end_line: 1401
+  cue_line: 1400
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-c11c317fe448581209ef
+  source_locator: full_text.md:L1401-L1403
+  start_line: 1401
+  end_line: 1403
+  cue_line: 1402
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7ea956ea2e4b4661e9f7a082
+- task_id: rt-exp-9cecfc158b517900dad4
+  source_locator: full_text.md:L1406-L1408
+  start_line: 1406
+  end_line: 1408
+  cue_line: 1407
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-6ed3c8e960d922211635
+  source_locator: full_text.md:L1407-L1409
+  start_line: 1407
+  end_line: 1409
+  cue_line: 1408
+  cue_terms:
+  - 一样
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-7c6d28d6b6574c547a2b
+  source_locator: full_text.md:L1410-L1412
+  start_line: 1410
+  end_line: 1412
+  cue_line: 1411
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-a68b7e34e4e45fa674ba
+  source_locator: full_text.md:L1415-L1417
+  start_line: 1415
+  end_line: 1417
+  cue_line: 1416
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-12ef4ebdb52eb2f754a8
+  source_locator: full_text.md:L1418-L1420
+  start_line: 1418
+  end_line: 1420
+  cue_line: 1419
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-c2b269a8414d6def54fc
+  source_locator: full_text.md:L1419-L1421
+  start_line: 1419
+  end_line: 1421
+  cue_line: 1420
+  cue_terms:
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-9242ce9639d59e1965d5
+  source_locator: full_text.md:L1425-L1427
+  start_line: 1425
+  end_line: 1427
+  cue_line: 1426
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第17章 三体问题
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-ed7d64ff44b941037bf4
+  source_locator: full_text.md:L1442-L1444
+  start_line: 1442
+  end_line: 1444
+  cue_line: 1443
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-839a430aaffd52627df6
+  source_locator: full_text.md:L1462-L1464
+  start_line: 1462
+  end_line: 1464
+  cue_line: 1463
+  cue_terms:
+  - 如
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-b5f1aee901b02284825e
+  source_locator: full_text.md:L1468-L1470
+  start_line: 1468
+  end_line: 1470
+  cue_line: 1469
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-474fd35cbfebd61a9e81f20d
+- task_id: rt-exp-2341fe10924aa61b5f67
+  source_locator: full_text.md:L1487-L1489
+  start_line: 1487
+  end_line: 1489
+  cue_line: 1488
+  cue_terms:
+  - 仿佛
+  - 似的
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e99732558cae7ceea6ef3e2a
+- task_id: rt-exp-1ee06bbeb91d467767b8
+  source_locator: full_text.md:L1500-L1502
+  start_line: 1500
+  end_line: 1502
+  cue_line: 1501
+  cue_terms:
+  - 一样
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-9803c6f602b5f6688073
+  source_locator: full_text.md:L1501-L1503
+  start_line: 1501
+  end_line: 1503
+  cue_line: 1502
+  cue_terms:
+  - 如同
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-25fa3ad584a8ffee6b691a5c
+- task_id: rt-exp-2a857dbacb7afcc7374c
+  source_locator: full_text.md:L1504-L1506
+  start_line: 1504
+  end_line: 1506
+  cue_line: 1505
+  cue_terms:
+  - 仿佛
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-891d996a197460952fd4efa2
+- task_id: rt-exp-3b6d787050654cbe4322
+  source_locator: full_text.md:L1506-L1508
+  start_line: 1506
+  end_line: 1508
+  cue_line: 1507
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5be55d63c72462b98cec2115
+  - rh-03cc891e1359f9ea18a8bb1a
+  - rh-6621ecc325cb8d776d98be74
+- task_id: rt-exp-1fdf742e66e358b2d0f3
+  source_locator: full_text.md:L1524-L1526
+  start_line: 1524
+  end_line: 1526
+  cue_line: 1525
+  cue_terms:
+  - 仿佛
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f1ab87a7fb8b3a8d6410bcd7
+- task_id: rt-exp-23b217150fa3348588ad
+  source_locator: full_text.md:L1543-L1545
+  start_line: 1543
+  end_line: 1545
+  cue_line: 1544
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cb616038d751081b8f8f8aab
+  - rh-e2a2cd80406b2e1de5c7eef9
+- task_id: rt-exp-23c5bbaff11f7d823704
+  source_locator: full_text.md:L1544-L1546
+  start_line: 1544
+  end_line: 1546
+  cue_line: 1545
+  cue_terms:
+  - 像
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f4ff36fe1df4ae78189d48f4
+- task_id: rt-exp-f205f4482277d81106e9
+  source_locator: full_text.md:L1565-L1567
+  start_line: 1565
+  end_line: 1567
+  cue_line: 1566
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第19章 聚会
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-53db512f8895483fbfdf
+  source_locator: full_text.md:L1573-L1575
+  start_line: 1573
+  end_line: 1575
+  cue_line: 1574
+  cue_terms:
+  - 像
+  chapter: 第19章 聚会
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-dcb77f77fb7414094006
+  source_locator: full_text.md:L1593-L1595
+  start_line: 1593
+  end_line: 1595
+  cue_line: 1594
+  cue_terms:
+  - 一样
+  - 如
+  chapter: 第19章 聚会
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-6620df85c96542c6673d
+  source_locator: full_text.md:L1607-L1609
+  start_line: 1607
+  end_line: 1609
+  cue_line: 1608
+  cue_terms:
+  - 仿佛
+  chapter: 第19章 聚会
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e4c5bcb04788a970f01f4f1f
+- task_id: rt-exp-3f4f6bf4170c323a29f4
+  source_locator: full_text.md:L1619-L1621
+  start_line: 1619
+  end_line: 1621
+  cue_line: 1620
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1f98758e8c82d906d0cdad12
+- task_id: rt-exp-44fe57dd15c7a85a4a89
+  source_locator: full_text.md:L1620-L1622
+  start_line: 1620
+  end_line: 1622
+  cue_line: 1621
+  cue_terms:
+  - 仿佛
+  - 好像
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-17f47f928b1d4eb1d1824a41
+- task_id: rt-exp-15e5ffe03385fae375a0
+  source_locator: full_text.md:L1621-L1623
+  start_line: 1621
+  end_line: 1623
+  cue_line: 1622
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-eb29e6253aac1562097bc34b
+- task_id: rt-exp-f2dfb11e1e6bc59ca49a
+  source_locator: full_text.md:L1622-L1624
+  start_line: 1622
+  end_line: 1624
+  cue_line: 1623
+  cue_terms:
+  - 仿佛
+  - 一样
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-94f55a67d071d5aada0dfd49
+  - rh-84b889bc7cb495c4b8da99a7
+- task_id: rt-exp-4020db9516afe9624a8c
+  source_locator: full_text.md:L1624-L1626
+  start_line: 1624
+  end_line: 1626
+  cue_line: 1625
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5ba06e8748019275eb107cab
+- task_id: rt-exp-b6a021b851b67f905b14
+  source_locator: full_text.md:L1638-L1640
+  start_line: 1638
+  end_line: 1640
+  cue_line: 1639
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-d5214f51da4fc45f5473
+  source_locator: full_text.md:L1639-L1641
+  start_line: 1639
+  end_line: 1641
+  cue_line: 1640
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-8b549c70bf042bd3d9d7
+  source_locator: full_text.md:L1652-L1654
+  start_line: 1652
+  end_line: 1654
+  cue_line: 1653
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-84e664bfe83b4737e4db740f
+- task_id: rt-exp-e92a465d0aa8a91e4f60
+  source_locator: full_text.md:L1655-L1657
+  start_line: 1655
+  end_line: 1657
+  cue_line: 1656
+  cue_terms:
+  - 仿佛
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-0d78c90368323b748a6d982c
+  - rh-995e97da46767e70b555dae6
+- task_id: rt-exp-b8112a07faeaf4e9697f
+  source_locator: full_text.md:L1656-L1658
+  start_line: 1656
+  end_line: 1658
+  cue_line: 1657
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-b40d40bbab9b5a67c483
+  source_locator: full_text.md:L1660-L1662
+  start_line: 1660
+  end_line: 1662
+  cue_line: 1661
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5ea49edcd017963b9ede660e
+- task_id: rt-exp-419a3972946336f614dd
+  source_locator: full_text.md:L1661-L1663
+  start_line: 1661
+  end_line: 1663
+  cue_line: 1662
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-2b82c1d3ed4598ce3676
+  source_locator: full_text.md:L1669-L1671
+  start_line: 1669
+  end_line: 1671
+  cue_line: 1670
+  cue_terms:
+  - 一般
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-5615516cf7857d6794c4
+  source_locator: full_text.md:L1670-L1672
+  start_line: 1670
+  end_line: 1672
+  cue_line: 1671
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7f034d7cbefe662ed51c95cb
+  - rh-0dc5f9dbca824f791d0c6f7e
+- task_id: rt-exp-90d944b2ff34064077a9
+  source_locator: full_text.md:L1674-L1676
+  start_line: 1674
+  end_line: 1676
+  cue_line: 1675
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5bee37cb032b79a8d06d77df
+  - rh-f8b44d177783b9dc6edef357
+  - rh-4d26614d79ccb6e0939f349a
+- task_id: rt-exp-cbae0a097c7ad7040768
+  source_locator: full_text.md:L1681-L1683
+  start_line: 1681
+  end_line: 1683
+  cue_line: 1682
+  cue_terms:
+  - 仿佛
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-18346408da417313a2ab
+  source_locator: full_text.md:L1682-L1684
+  start_line: 1682
+  end_line: 1684
+  cue_line: 1683
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-f8b5660f4a2133a06626b818
+- task_id: rt-exp-6da352dfebfc85e12345
+  source_locator: full_text.md:L1689-L1691
+  start_line: 1689
+  end_line: 1691
+  cue_line: 1690
+  cue_terms:
+  - 像
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-a4128f413b87fd0f12e6
+  source_locator: full_text.md:L1695-L1697
+  start_line: 1695
+  end_line: 1697
+  cue_line: 1696
+  cue_terms:
+  - 一样
+  chapter: 第21章 三体、远征
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-bc09b4fea7401f60169c
+  source_locator: full_text.md:L1721-L1723
+  start_line: 1721
+  end_line: 1723
+  cue_line: 1722
+  cue_terms:
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-ea257316ed5219c0edcf
+  source_locator: full_text.md:L1728-L1730
+  start_line: 1728
+  end_line: 1730
+  cue_line: 1729
+  cue_terms:
+  - 一样
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: enumeration
+  occurrence_ids: []
+- task_id: rt-exp-867083cdd98038f80723
+  source_locator: full_text.md:L1731-L1733
+  start_line: 1731
+  end_line: 1733
+  cue_line: 1732
+  cue_terms:
+  - 一样
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-4f160532abc095bfaea6
+  source_locator: full_text.md:L1734-L1736
+  start_line: 1734
+  end_line: 1736
+  cue_line: 1735
+  cue_terms:
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-17a99e0368924fa27011
+  source_locator: full_text.md:L1751-L1753
+  start_line: 1751
+  end_line: 1753
+  cue_line: 1752
+  cue_terms:
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7e2f35007bd0b2101dbc6e40
+- task_id: rt-exp-97c89cc4a2c62535d594
+  source_locator: full_text.md:L1756-L1758
+  start_line: 1756
+  end_line: 1758
+  cue_line: 1757
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-530269d3cc75368aae8a2cb2
+- task_id: rt-exp-2d9fe1d43e9e8bedb703
+  source_locator: full_text.md:L1764-L1766
+  start_line: 1764
+  end_line: 1766
+  cue_line: 1765
+  cue_terms:
+  - 一样
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-5a3555df88bfda600061
+  source_locator: full_text.md:L1772-L1774
+  start_line: 1772
+  end_line: 1774
+  cue_line: 1773
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-eab1e9e2ce2cd7887c69b198
+  - rh-184cdc58a304dc82ea71bb0e
+- task_id: rt-exp-e56c02cdded029164a5f
+  source_locator: full_text.md:L1775-L1777
+  start_line: 1775
+  end_line: 1777
+  cue_line: 1776
+  cue_terms:
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-99e9d9477db11e3a809b
+  source_locator: full_text.md:L1778-L1780
+  start_line: 1778
+  end_line: 1780
+  cue_line: 1779
+  cue_terms:
+  - 仿佛
+  - 好像
+  - 似的
+  - 像
+  - 如
+  chapter: 第22章 地球叛军
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-eafc00ca87313d51edf742ec
+  - rh-3560bdb8d5f8b0653215668b
+  - rh-7f160c85f2782375ad4613d7
+  - rh-5ded6dad1c21e17b59aff363
+- task_id: rt-exp-f8a1c581a939af505c2d
+  source_locator: full_text.md:L1783-L1785
+  start_line: 1783
+  end_line: 1785
+  cue_line: 1784
+  cue_terms:
+  - 像
+  chapter: 第22章 地球叛军
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9595970f35ec644807b20f50
+- task_id: rt-exp-dd4f42a8e91c04e11b8e
+  source_locator: full_text.md:L1795-L1797
+  start_line: 1795
+  end_line: 1797
+  cue_line: 1796
+  cue_terms:
+  - 像
+  chapter: 第23章 红岸之五
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-4d27779d6c51deb5cede
+  source_locator: full_text.md:L1815-L1817
+  start_line: 1815
+  end_line: 1817
+  cue_line: 1816
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第23章 红岸之五
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-3dfde8555e71c7948c5b
+  source_locator: full_text.md:L1819-L1821
+  start_line: 1819
+  end_line: 1821
+  cue_line: 1820
+  cue_terms:
+  - 像
+  chapter: 第23章 红岸之五
+  disposition: exclude
+  reason: identity_classification
+  occurrence_ids: []
+- task_id: rt-exp-888c13c4983dc69f77da
+  source_locator: full_text.md:L1821-L1823
+  start_line: 1821
+  end_line: 1823
+  cue_line: 1822
+  cue_terms:
+  - 一样
+  chapter: 第23章 红岸之五
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-5ea0a6884fef3d61a33e
+  source_locator: full_text.md:L1822-L1824
+  start_line: 1822
+  end_line: 1824
+  cue_line: 1823
+  cue_terms:
+  - 像
+  chapter: 第23章 红岸之五
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3dbc2ee64f54865f5c140868
+- task_id: rt-exp-82009b7b8a86430f2547
+  source_locator: full_text.md:L1841-L1843
+  start_line: 1841
+  end_line: 1843
+  cue_line: 1842
+  cue_terms:
+  - 像
+  chapter: 第23章 红岸之五
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4ef3fa3a09b69621cfa1a43d
+  - rh-412c7e76433f491fd5425266
+- task_id: rt-exp-7316a1cf9fa9a27b4550
+  source_locator: full_text.md:L1842-L1844
+  start_line: 1842
+  end_line: 1844
+  cue_line: 1843
+  cue_terms:
+  - 如
+  chapter: 第23章 红岸之五
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4b2bf74ae760a54efab79dc4
+- task_id: rt-exp-388191d7168d5e400808
+  source_locator: full_text.md:L1849-L1851
+  start_line: 1849
+  end_line: 1851
+  cue_line: 1850
+  cue_terms:
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9ba94264f31c94e9699f6cff
+- task_id: rt-exp-ea6a0e0a9b5c2ee83f1c
+  source_locator: full_text.md:L1851-L1853
+  start_line: 1851
+  end_line: 1853
+  cue_line: 1852
+  cue_terms:
+  - 仿佛
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: duplicate_prior_fragment
+  occurrence_ids: []
+- task_id: rt-exp-14180aea444df195808b
+  source_locator: full_text.md:L1854-L1856
+  start_line: 1854
+  end_line: 1856
+  cue_line: 1855
+  cue_terms:
+  - 如
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: duplicate_prior_fragment
+  occurrence_ids: []
+- task_id: rt-exp-ac8cc7b7758fff893a59
+  source_locator: full_text.md:L1856-L1858
+  start_line: 1856
+  end_line: 1858
+  cue_line: 1857
+  cue_terms:
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: duplicate_prior_fragment
+  occurrence_ids: []
+- task_id: rt-exp-d89df65fa098a988c0df
+  source_locator: full_text.md:L1857-L1859
+  start_line: 1857
+  end_line: 1859
+  cue_line: 1858
+  cue_terms:
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: duplicate_prior_fragment
+  occurrence_ids: []
+- task_id: rt-exp-d50401962769ab7995cf
+  source_locator: full_text.md:L1875-L1877
+  start_line: 1875
+  end_line: 1877
+  cue_line: 1876
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-98d89515dfe5c130c697
+  source_locator: full_text.md:L1877-L1879
+  start_line: 1877
+  end_line: 1879
+  cue_line: 1878
+  cue_terms:
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-a0d94dddfbf4af433453
+  source_locator: full_text.md:L1885-L1887
+  start_line: 1885
+  end_line: 1887
+  cue_line: 1886
+  cue_terms:
+  - 像
+  chapter: 第24章 红岸之六
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-d7edb72b4118764778ae
+  source_locator: full_text.md:L1900-L1902
+  start_line: 1900
+  end_line: 1902
+  cue_line: 1901
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第25章 叛乱
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-0a106b05b56dbf132efe
+  source_locator: full_text.md:L1903-L1905
+  start_line: 1903
+  end_line: 1905
+  cue_line: 1904
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第25章 叛乱
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-12c4255884f5a9e1ea0f3d09
+- task_id: rt-exp-d1cc09b929eb0bf4d408
+  source_locator: full_text.md:L1915-L1917
+  start_line: 1915
+  end_line: 1917
+  cue_line: 1916
+  cue_terms:
+  - 仿佛
+  chapter: 第25章 叛乱
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3f551e4e18890fc01abb2e80
+  - rh-e5cc8239cede27a1a7248584
+- task_id: rt-exp-47ab2104e9ae1beddebe
+  source_locator: full_text.md:L1929-L1931
+  start_line: 1929
+  end_line: 1931
+  cue_line: 1930
+  cue_terms:
+  - 一样
+  chapter: 第25章 叛乱
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-ea90f98fd329f2162521
+  source_locator: full_text.md:L1971-L1973
+  start_line: 1971
+  end_line: 1973
+  cue_line: 1972
+  cue_terms:
+  - 一般
+  - 如
+  chapter: 第26章 雷志成、杨卫宁之死
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-bc6907a8b6ab6718117e
+  source_locator: full_text.md:L1972-L1974
+  start_line: 1972
+  end_line: 1974
+  cue_line: 1973
+  cue_terms:
+  - 好像
+  - 似的
+  - 像
+  chapter: 第26章 雷志成、杨卫宁之死
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-be8bd31543d69faf8e4b
+  source_locator: full_text.md:L1988-L1990
+  start_line: 1988
+  end_line: 1990
+  cue_line: 1989
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b2ac729935cee8635946b0bf
+- task_id: rt-exp-1c6366a1626934f40a40
+  source_locator: full_text.md:L1997-L1999
+  start_line: 1997
+  end_line: 1999
+  cue_line: 1998
+  cue_terms:
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1990c58d1b0d753662c0c0dd
+- task_id: rt-exp-b686f3c77e81bd80987f
+  source_locator: full_text.md:L2003-L2005
+  start_line: 2003
+  end_line: 2005
+  cue_line: 2004
+  cue_terms:
+  - 一样
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-02a8788a06480f88f145c0fd
+- task_id: rt-exp-c7d26f660ec444796a84
+  source_locator: full_text.md:L2005-L2007
+  start_line: 2005
+  end_line: 2007
+  cue_line: 2006
+  cue_terms:
+  - 仿佛
+  - 一样
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ed8889b02ada93a81e3cffbf
+  - rh-6ee9c7170228225195df0291
+  - rh-06076bfc0745b994fff1f41f
+- task_id: rt-exp-4e9ee315acd191a094e5
+  source_locator: full_text.md:L2013-L2015
+  start_line: 2013
+  end_line: 2015
+  cue_line: 2014
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-5446653621d460a804b34589
+  - rh-f1f13597ad11e8852b382b66
+- task_id: rt-exp-42df243318a3b05b10c5
+  source_locator: full_text.md:L2017-L2019
+  start_line: 2017
+  end_line: 2019
+  cue_line: 2018
+  cue_terms:
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4cd34b30a349a07affcac9ef
+- task_id: rt-exp-4bff3425dc6318e57f67
+  source_locator: full_text.md:L2020-L2022
+  start_line: 2020
+  end_line: 2022
+  cue_line: 2021
+  cue_terms:
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b327a2e742308150e9cd51d4
+- task_id: rt-exp-876290517ee23f855990
+  source_locator: full_text.md:L2025-L2027
+  start_line: 2025
+  end_line: 2027
+  cue_line: 2026
+  cue_terms:
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7481a56678757fce6b23a6da
+  - rh-859968b46f17d83f1fcd3630
+- task_id: rt-exp-01e44f5f1ddb65498551
+  source_locator: full_text.md:L2036-L2038
+  start_line: 2036
+  end_line: 2038
+  cue_line: 2037
+  cue_terms:
+  - 似的
+  chapter: 第27章 无人忏悔
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-1c73e9ded78477cd96f8
+  source_locator: full_text.md:L2038-L2040
+  start_line: 2038
+  end_line: 2040
+  cue_line: 2039
+  cue_terms:
+  - 仿佛
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-d0d654025e6fb30b88d5071c
+- task_id: rt-exp-dc7ec42da9c766baf4a7
+  source_locator: full_text.md:L2046-L2048
+  start_line: 2046
+  end_line: 2048
+  cue_line: 2047
+  cue_terms:
+  - 一样
+  chapter: 第27章 无人忏悔
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-494649ee05cf5274e118
+  source_locator: full_text.md:L2053-L2055
+  start_line: 2053
+  end_line: 2055
+  cue_line: 2054
+  cue_terms:
+  - 像
+  chapter: 第27章 无人忏悔
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4dd713bb60eeb60f9bbfc5cc
+- task_id: rt-exp-d619c69e54152d57adf1
+  source_locator: full_text.md:L2059-L2061
+  start_line: 2059
+  end_line: 2061
+  cue_line: 2060
+  cue_terms:
+  - 像
+  chapter: 第28章 伊文斯
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c27ea0a1ec87dc939833f09a
+- task_id: rt-exp-9494575c1bd634040d31
+  source_locator: full_text.md:L2066-L2068
+  start_line: 2066
+  end_line: 2068
+  cue_line: 2067
+  cue_terms:
+  - 像
+  chapter: 第28章 伊文斯
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7754932c389b2a3c97b730cd
+- task_id: rt-exp-d3cf87f8f79fb69a802a
+  source_locator: full_text.md:L2067-L2069
+  start_line: 2067
+  end_line: 2069
+  cue_line: 2068
+  cue_terms:
+  - 一样
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-71ae4cdd8f62e0272c39
+  source_locator: full_text.md:L2078-L2080
+  start_line: 2078
+  end_line: 2080
+  cue_line: 2079
+  cue_terms:
+  - 像
+  chapter: 第28章 伊文斯
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c4daa7abbded27b52592586a
+- task_id: rt-exp-d1f4b0156017b746af51
+  source_locator: full_text.md:L2089-L2091
+  start_line: 2089
+  end_line: 2091
+  cue_line: 2090
+  cue_terms:
+  - 一样
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: counterfactual_comparison
+  occurrence_ids: []
+- task_id: rt-exp-51a91d241668f21d05e5
+  source_locator: full_text.md:L2094-L2096
+  start_line: 2094
+  end_line: 2096
+  cue_line: 2095
+  cue_terms:
+  - 如
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: anaphoric_reference
+  occurrence_ids: []
+- task_id: rt-exp-f5989372b8711b4788d7
+  source_locator: full_text.md:L2099-L2101
+  start_line: 2099
+  end_line: 2101
+  cue_line: 2100
+  cue_terms:
+  - 像
+  chapter: 第28章 伊文斯
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-3abfd748be1ff7a937124ec0
+- task_id: rt-exp-d783308ebab0030d6de8
+  source_locator: full_text.md:L2111-L2113
+  start_line: 2111
+  end_line: 2113
+  cue_line: 2112
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-b02a678a0d998fd8fd45
+  source_locator: full_text.md:L2112-L2114
+  start_line: 2112
+  end_line: 2114
+  cue_line: 2113
+  cue_terms:
+  - 似的
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: literal_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-2edf450ab20a80431afd
+  source_locator: full_text.md:L2115-L2117
+  start_line: 2115
+  end_line: 2117
+  cue_line: 2116
+  cue_terms:
+  - 一样
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: locative_identity
+  occurrence_ids: []
+- task_id: rt-exp-711b914b5d76c7c992a5
+  source_locator: full_text.md:L2116-L2118
+  start_line: 2116
+  end_line: 2118
+  cue_line: 2117
+  cue_terms:
+  - 一样
+  chapter: 第28章 伊文斯
+  disposition: exclude
+  reason: class_identity
+  occurrence_ids: []
+- task_id: rt-exp-97078b776270edaf80f9
+  source_locator: full_text.md:L2129-L2131
+  start_line: 2129
+  end_line: 2131
+  cue_line: 2130
+  cue_terms:
+  - 仿佛
+  chapter: 第29章 第二红岸基地
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-e615b2bd7d6e5c323e94e68f
+- task_id: rt-exp-94481e3a9e41e876ffea
+  source_locator: full_text.md:L2131-L2133
+  start_line: 2131
+  end_line: 2133
+  cue_line: 2132
+  cue_terms:
+  - 像
+  chapter: 第29章 第二红岸基地
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-6e99f757e708de6345cfb3b5
+  - rh-07cd763c9132af4c1a40150a
+  - rh-a902d7adc3eaeec677a7f5bc
+- task_id: rt-exp-cfe4c9466607760b8a31
+  source_locator: full_text.md:L2151-L2153
+  start_line: 2151
+  end_line: 2153
+  cue_line: 2152
+  cue_terms:
+  - 一般
+  - 一样
+  chapter: 第30章 地球三体运动
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-9ab990da862443404704
+  source_locator: full_text.md:L2155-L2157
+  start_line: 2155
+  end_line: 2157
+  cue_line: 2156
+  cue_terms:
+  - 如同
+  chapter: 第30章 地球三体运动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cfec35b85fbde01d6075532f
+  - rh-e46ca9891a2220236a4d2659
+  - rh-fc7ecbe992f9c71294e0019b
+- task_id: rt-exp-c0962ef61883fd187b29
+  source_locator: full_text.md:L2158-L2160
+  start_line: 2158
+  end_line: 2160
+  cue_line: 2159
+  cue_terms:
+  - 像
+  chapter: 第30章 地球三体运动
+  disposition: exclude
+  reason: class_exemplar
+  occurrence_ids: []
+- task_id: rt-exp-0725b659915570963fed
+  source_locator: full_text.md:L2168-L2170
+  start_line: 2168
+  end_line: 2170
+  cue_line: 2169
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第31章 两个质子
+  disposition: exclude
+  reason: anaphoric_manner
+  occurrence_ids: []
+- task_id: rt-exp-6358885d126c7c453b28
+  source_locator: full_text.md:L2183-L2185
+  start_line: 2183
+  end_line: 2185
+  cue_line: 2184
+  cue_terms:
+  - 如同
+  chapter: 第31章 两个质子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-51ce9daa4e738921d5d2a39a
+- task_id: rt-exp-e69ab108e0a4fc71fdaf
+  source_locator: full_text.md:L2186-L2188
+  start_line: 2186
+  end_line: 2188
+  cue_line: 2187
+  cue_terms:
+  - 像
+  chapter: 第31章 两个质子
+  disposition: exclude
+  reason: literal_group_comparison
+  occurrence_ids: []
+- task_id: rt-exp-d738cfcd8573305ac093
+  source_locator: full_text.md:L2190-L2192
+  start_line: 2190
+  end_line: 2192
+  cue_line: 2191
+  cue_terms:
+  - 如
+  chapter: 第31章 两个质子
+  disposition: exclude
+  reason: discourse_marker
+  occurrence_ids: []
+- task_id: rt-exp-059f350c3109052e1acb
+  source_locator: full_text.md:L2220-L2222
+  start_line: 2220
+  end_line: 2222
+  cue_line: 2221
+  cue_terms:
+  - 像
+  chapter: 第31章 两个质子
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-b7c9eb02bfb44ee8f8c7
+  source_locator: full_text.md:L2226-L2228
+  start_line: 2226
+  end_line: 2228
+  cue_line: 2227
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第31章 两个质子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-dd07350ee9ed042b8cc2c9bb
+- task_id: rt-exp-bc3cce054eca7d75b319
+  source_locator: full_text.md:L2231-L2233
+  start_line: 2231
+  end_line: 2233
+  cue_line: 2232
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第31章 两个质子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1b522df3e7587d1f1906d943
+- task_id: rt-exp-717ef0bde534e11b5db1
+  source_locator: full_text.md:L2235-L2237
+  start_line: 2235
+  end_line: 2237
+  cue_line: 2236
+  cue_terms:
+  - 像
+  chapter: 第31章 两个质子
+  disposition: exclude
+  reason: literal_person_comparison
+  occurrence_ids: []
+- task_id: rt-exp-821b320a409606fd0c62
+  source_locator: full_text.md:L2241-L2243
+  start_line: 2241
+  end_line: 2243
+  cue_line: 2242
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9eb360ef4784d43feac891b1
+- task_id: rt-exp-cf19185a98f53a7a5d94
+  source_locator: full_text.md:L2257-L2259
+  start_line: 2257
+  end_line: 2259
+  cue_line: 2258
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-ba3b74174271fb7e20ea
+  source_locator: full_text.md:L2268-L2270
+  start_line: 2268
+  end_line: 2270
+  cue_line: 2269
+  cue_terms:
+  - 像
+  - 如
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: class_exemplar
+  occurrence_ids: []
+- task_id: rt-exp-bffa2da78eeacddfc5d9
+  source_locator: full_text.md:L2281-L2283
+  start_line: 2281
+  end_line: 2283
+  cue_line: 2282
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-a74a5d58429f7a617b053414
+- task_id: rt-exp-fd8c8f47346a24ea8d2b
+  source_locator: full_text.md:L2299-L2301
+  start_line: 2299
+  end_line: 2301
+  cue_line: 2300
+  cue_terms:
+  - 似的
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: literal_category
+  occurrence_ids: []
+- task_id: rt-exp-4d44f6326d93e5a15938
+  source_locator: full_text.md:L2319-L2321
+  start_line: 2319
+  end_line: 2321
+  cue_line: 2320
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: epistemic_comparison
+  occurrence_ids: []
+- task_id: rt-exp-782e5a22b9d924e52aa8
+  source_locator: full_text.md:L2328-L2330
+  start_line: 2328
+  end_line: 2330
+  cue_line: 2329
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c79bc22133810283a132dce7
+- task_id: rt-exp-60bc406c72f3e7bd9cf4
+  source_locator: full_text.md:L2334-L2336
+  start_line: 2334
+  end_line: 2336
+  cue_line: 2335
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: anaphoric_reference
+  occurrence_ids: []
+- task_id: rt-exp-c7a368c74006c3c74c0b
+  source_locator: full_text.md:L2337-L2339
+  start_line: 2337
+  end_line: 2339
+  cue_line: 2338
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cc9d5100ab3f0f8d5dabb13a
+- task_id: rt-exp-6b340690f031670ff4ec
+  source_locator: full_text.md:L2340-L2342
+  start_line: 2340
+  end_line: 2342
+  cue_line: 2341
+  cue_terms:
+  - 仿佛
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-cd479cc6b09a64f3bbda62b5
+- task_id: rt-exp-2518d8f7c7120d2e49c7
+  source_locator: full_text.md:L2341-L2343
+  start_line: 2341
+  end_line: 2343
+  cue_line: 2342
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: exclude
+  reason: anaphoric_metaphor
+  occurrence_ids: []
+- task_id: rt-exp-6a130d04e67e66e337de
+  source_locator: full_text.md:L2345-L2347
+  start_line: 2345
+  end_line: 2347
+  cue_line: 2346
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-42bc94c8831f73fd7dc8bdd9
+- task_id: rt-exp-97a0bebe545fac09ffb6
+  source_locator: full_text.md:L2346-L2348
+  start_line: 2346
+  end_line: 2348
+  cue_line: 2347
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4b7d34f53a9b7e33cad52a4a
+  - rh-efbcb407a6d6aa3f26e89edd
+  - rh-88e664b65bd3b5215566395d
+  - rh-649f1d1107d864395b0d5715
+  - rh-77f2b1db8841fa0975e4cb4f
+- task_id: rt-exp-2a3bacf919500c86fae5
+  source_locator: full_text.md:L2348-L2350
+  start_line: 2348
+  end_line: 2350
+  cue_line: 2349
+  cue_terms:
+  - 像
+  chapter: 第32章 古筝行动
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2e999b58d1fdcb91fdc9d5c1
+- task_id: rt-exp-f3dc8b9b28542ae340ef
+  source_locator: full_text.md:L2371-L2373
+  start_line: 2371
+  end_line: 2373
+  cue_line: 2372
+  cue_terms:
+  - 像
+  chapter: 第33章 监听员
+  disposition: exclude
+  reason: class_exemplar
+  occurrence_ids: []
+- task_id: rt-exp-7504be66e6df85865b2f
+  source_locator: full_text.md:L2373-L2375
+  start_line: 2373
+  end_line: 2375
+  cue_line: 2374
+  cue_terms:
+  - 像
+  chapter: 第33章 监听员
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2c4bc7b01b7a62e7ba925a1a
+- task_id: rt-exp-0f8132f2906314687170
+  source_locator: full_text.md:L2374-L2376
+  start_line: 2374
+  end_line: 2376
+  cue_line: 2375
+  cue_terms:
+  - 像
+  chapter: 第33章 监听员
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-dce080df786c53a602f18693
+- task_id: rt-exp-ccb0fd44e055eb8f2932
+  source_locator: full_text.md:L2375-L2377
+  start_line: 2375
+  end_line: 2377
+  cue_line: 2376
+  cue_terms:
+  - 像
+  chapter: 第33章 监听员
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8f5a7f0e642b3d9e347b64bc
+- task_id: rt-exp-da35d01924c2b23f1a3b
+  source_locator: full_text.md:L2387-L2389
+  start_line: 2387
+  end_line: 2389
+  cue_line: 2388
+  cue_terms:
+  - 一般
+  chapter: 第33章 监听员
+  disposition: exclude
+  reason: statistical_generalization
+  occurrence_ids: []
+- task_id: rt-exp-04a855ddd7e46e3676f0
+  source_locator: full_text.md:L2395-L2397
+  start_line: 2395
+  end_line: 2397
+  cue_line: 2396
+  cue_terms:
+  - 一样
+  chapter: 第33章 监听员
+  disposition: exclude
+  reason: literal_functional_similarity
+  occurrence_ids: []
+- task_id: rt-exp-26820a63533aada487db
+  source_locator: full_text.md:L2406-L2408
+  start_line: 2406
+  end_line: 2408
+  cue_line: 2407
+  cue_terms:
+  - 像
+  chapter: 第33章 监听员
+  disposition: exclude
+  reason: exemplification_marker
+  occurrence_ids: []
+- task_id: rt-exp-03c4c8ce0f7fdba55bdd
+  source_locator: full_text.md:L2411-L2413
+  start_line: 2411
+  end_line: 2413
+  cue_line: 2412
+  cue_terms:
+  - 一样
+  chapter: 第33章 监听员
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7373876f4606bc5661ee662c
+- task_id: rt-exp-031a57ae91ee8a5b45e8
+  source_locator: full_text.md:L2412-L2414
+  start_line: 2412
+  end_line: 2414
+  cue_line: 2413
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第33章 监听员
+  disposition: exclude
+  reason: counterfactual_manner
+  occurrence_ids: []
+- task_id: rt-exp-d565ec5e4bad68916e55
+  source_locator: full_text.md:L2416-L2418
+  start_line: 2416
+  end_line: 2418
+  cue_line: 2417
+  cue_terms:
+  - 如
+  chapter: 第33章 监听员
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-fbc5a1279c18c24e11b8e037
+- task_id: rt-exp-c79048daba8637b89f0d
+  source_locator: full_text.md:L2451-L2453
+  start_line: 2451
+  end_line: 2453
+  cue_line: 2452
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b8bd37caba3700930c76e53d
+- task_id: rt-exp-c71908e5a61c16c68a14
+  source_locator: full_text.md:L2461-L2463
+  start_line: 2461
+  end_line: 2463
+  cue_line: 2462
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-510d2415e42023a0b54040b0
+- task_id: rt-exp-1e84cbe58c77c608eff5
+  source_locator: full_text.md:L2462-L2464
+  start_line: 2462
+  end_line: 2464
+  cue_line: 2463
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-872a7011f7847bc13d656ff9
+- task_id: rt-exp-1578b32e9d9401eec158
+  source_locator: full_text.md:L2467-L2469
+  start_line: 2467
+  end_line: 2469
+  cue_line: 2468
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: lexical_typo
+  occurrence_ids: []
+- task_id: rt-exp-7da2fb7df55f500f8bb9
+  source_locator: full_text.md:L2472-L2474
+  start_line: 2472
+  end_line: 2474
+  cue_line: 2473
+  cue_terms:
+  - 一样
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: literal_group_comparison
+  occurrence_ids: []
+- task_id: rt-exp-b2c5fd1e3828035820d8
+  source_locator: full_text.md:L2475-L2477
+  start_line: 2475
+  end_line: 2477
+  cue_line: 2476
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: exemplification_marker
+  occurrence_ids: []
+- task_id: rt-exp-72dcd031586ece99daf1
+  source_locator: full_text.md:L2490-L2492
+  start_line: 2490
+  end_line: 2492
+  cue_line: 2491
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-02885d530dd446ac500eeb0b
+- task_id: rt-exp-0d1b9fe2f70a17ca9ba7
+  source_locator: full_text.md:L2497-L2499
+  start_line: 2497
+  end_line: 2499
+  cue_line: 2498
+  cue_terms:
+  - 一样
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8add91755d3d350795046c6a
+- task_id: rt-exp-f63970a58471627ab73c
+  source_locator: full_text.md:L2498-L2500
+  start_line: 2498
+  end_line: 2500
+  cue_line: 2499
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b57d403622ab0d35e571126c
+- task_id: rt-exp-ff8911ecd24e15ae1b92
+  source_locator: full_text.md:L2506-L2508
+  start_line: 2506
+  end_line: 2508
+  cue_line: 2507
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: counterfactual_absence
+  occurrence_ids: []
+- task_id: rt-exp-17f3f082334e203fd558
+  source_locator: full_text.md:L2508-L2510
+  start_line: 2508
+  end_line: 2510
+  cue_line: 2509
+  cue_terms:
+  - 一样
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: literal_physical_equality
+  occurrence_ids: []
+- task_id: rt-exp-2cab198844707ec92eb5
+  source_locator: full_text.md:L2509-L2511
+  start_line: 2509
+  end_line: 2511
+  cue_line: 2510
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-8e875bebb40a26b1d924
+  source_locator: full_text.md:L2511-L2513
+  start_line: 2511
+  end_line: 2513
+  cue_line: 2512
+  cue_terms:
+  - 似的
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-014a529721515f88630294ad
+  - rh-6533d73bddf92182fcc97330
+  - rh-6e72c1ac9e17824d7556d814
+- task_id: rt-exp-956c818dbf1b536123bc
+  source_locator: full_text.md:L2513-L2515
+  start_line: 2513
+  end_line: 2515
+  cue_line: 2514
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-cff99ca59eea51a9a48c
+  source_locator: full_text.md:L2517-L2519
+  start_line: 2517
+  end_line: 2519
+  cue_line: 2518
+  cue_terms:
+  - 一样
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-2868c28d3902e746e7503afb
+- task_id: rt-exp-fbaa4a2f6609ca4ef460
+  source_locator: full_text.md:L2520-L2522
+  start_line: 2520
+  end_line: 2522
+  cue_line: 2521
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: literal_representational_likeness
+  occurrence_ids: []
+- task_id: rt-exp-2baadba7a5b2c2c2b68e
+  source_locator: full_text.md:L2523-L2525
+  start_line: 2523
+  end_line: 2525
+  cue_line: 2524
+  cue_terms:
+  - 一样
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: literal_process_comparison
+  occurrence_ids: []
+- task_id: rt-exp-cdefff4f0c31eaa598f4
+  source_locator: full_text.md:L2525-L2527
+  start_line: 2525
+  end_line: 2527
+  cue_line: 2526
+  cue_terms:
+  - 仿佛
+  - 像
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-85c068e397307fcf205fb0f6
+  - rh-bd8d13e6c3d0204cf11238f0
+  - rh-c5762626672068efb0ea1096
+- task_id: rt-exp-876efedb1103fce65dd5
+  source_locator: full_text.md:L2529-L2531
+  start_line: 2529
+  end_line: 2531
+  cue_line: 2530
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-96431a08c7857d05f570ca4f
+- task_id: rt-exp-dc51ec357aee5d84a4b3
+  source_locator: full_text.md:L2546-L2548
+  start_line: 2546
+  end_line: 2548
+  cue_line: 2547
+  cue_terms:
+  - 仿佛
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-83173aa7811e4724aae8b47f
+- task_id: rt-exp-05ff52a52791877d29cb
+  source_locator: full_text.md:L2550-L2552
+  start_line: 2550
+  end_line: 2552
+  cue_line: 2551
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: exemplification_marker
+  occurrence_ids: []
+- task_id: rt-exp-af3d69e901374e247718
+  source_locator: full_text.md:L2553-L2555
+  start_line: 2553
+  end_line: 2555
+  cue_line: 2554
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: class_exemplar
+  occurrence_ids: []
+- task_id: rt-exp-2a61dd621b01f9843edd
+  source_locator: full_text.md:L2557-L2559
+  start_line: 2557
+  end_line: 2559
+  cue_line: 2558
+  cue_terms:
+  - 仿佛
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-9bc6e439907fedfe7c121daa
+- task_id: rt-exp-e95a695dabe9e13d0e09
+  source_locator: full_text.md:L2559-L2561
+  start_line: 2559
+  end_line: 2561
+  cue_line: 2560
+  cue_terms:
+  - 好像
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-b3ea69224d95f39056fdc904
+  - rh-85f384f2831f035568411718
+- task_id: rt-exp-913b009dba5a1465ca2c
+  source_locator: full_text.md:L2564-L2566
+  start_line: 2564
+  end_line: 2566
+  cue_line: 2565
+  cue_terms:
+  - 一般
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-281ec4029e1b9cdbbc07216b
+- task_id: rt-exp-391fc9a0035a33dbc916
+  source_locator: full_text.md:L2565-L2567
+  start_line: 2565
+  end_line: 2567
+  cue_line: 2566
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-be6f9ebe28c6c55bea6c9a1f
+  - rh-76d53e0fa4f102fe30a91db8
+- task_id: rt-exp-2a1586dd4dc69aad1221
+  source_locator: full_text.md:L2566-L2568
+  start_line: 2566
+  end_line: 2568
+  cue_line: 2567
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-dd206460d5587729db7fa600
+- task_id: rt-exp-e810146de849caa97ea8
+  source_locator: full_text.md:L2578-L2580
+  start_line: 2578
+  end_line: 2580
+  cue_line: 2579
+  cue_terms:
+  - 仿佛
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-267e5d60036ff4ca8a51af69
+- task_id: rt-exp-a6f84088e63ec701c668
+  source_locator: full_text.md:L2592-L2594
+  start_line: 2592
+  end_line: 2594
+  cue_line: 2593
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-633d3d7e6d83140a1867a1f3
+- task_id: rt-exp-bf92d4941444fd619f6a
+  source_locator: full_text.md:L2596-L2598
+  start_line: 2596
+  end_line: 2598
+  cue_line: 2597
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: lexical_substring
+  occurrence_ids: []
+- task_id: rt-exp-f2d8e4acb45f449f59f7
+  source_locator: full_text.md:L2599-L2601
+  start_line: 2599
+  end_line: 2601
+  cue_line: 2600
+  cue_terms:
+  - 好像
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: epistemic_modal
+  occurrence_ids: []
+- task_id: rt-exp-33e2a8ebffb01ac68712
+  source_locator: full_text.md:L2606-L2608
+  start_line: 2606
+  end_line: 2608
+  cue_line: 2607
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-7d99b0ac8704a0f282b8e3b2
+- task_id: rt-exp-5c7b59da09f3bcc380fd
+  source_locator: full_text.md:L2610-L2612
+  start_line: 2610
+  end_line: 2612
+  cue_line: 2611
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-d0ab51212583122a18db2c92
+- task_id: rt-exp-e1d394626b64cda5832a
+  source_locator: full_text.md:L2611-L2613
+  start_line: 2611
+  end_line: 2613
+  cue_line: 2612
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-804a2d59af6cd47797a3b7ee
+  - rh-2d6972a267b102aca0d6381a
+- task_id: rt-exp-81e69c35145d862c82ac
+  source_locator: full_text.md:L2614-L2616
+  start_line: 2614
+  end_line: 2616
+  cue_line: 2615
+  cue_terms:
+  - 一般
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8a78dab58f47dc2c7f3f2fab
+- task_id: rt-exp-806270f1313f4c805709
+  source_locator: full_text.md:L2620-L2622
+  start_line: 2620
+  end_line: 2622
+  cue_line: 2621
+  cue_terms:
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-584af2a45373e4935d93d01f
+- task_id: rt-exp-804b42b398f683155be9
+  source_locator: full_text.md:L2621-L2623
+  start_line: 2621
+  end_line: 2623
+  cue_line: 2622
+  cue_terms:
+  - 如
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1d04cb78e5aca996fb6b429b
+- task_id: rt-exp-bb49d30ff93d9614cdcd
+  source_locator: full_text.md:L2625-L2627
+  start_line: 2625
+  end_line: 2627
+  cue_line: 2626
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-760fa060e682afb5f4146057
+- task_id: rt-exp-6c4d8d38ba62d985a206
+  source_locator: full_text.md:L2637-L2639
+  start_line: 2637
+  end_line: 2639
+  cue_line: 2638
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第34章 智子
+  disposition: exclude
+  reason: literal_event_comparison
+  occurrence_ids: []
+- task_id: rt-exp-303fa842bd7d42c88108
+  source_locator: full_text.md:L2646-L2648
+  start_line: 2646
+  end_line: 2648
+  cue_line: 2647
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-48adef7e5d414c26ea04911d
+  - rh-3c32e7507d8c32e8af36f5ce
+- task_id: rt-exp-53164c8ce2f846132acc
+  source_locator: full_text.md:L2647-L2649
+  start_line: 2647
+  end_line: 2649
+  cue_line: 2648
+  cue_terms:
+  - 一样
+  chapter: 第35章 虫子
+  disposition: exclude
+  reason: literal_architectural_resemblance
+  occurrence_ids: []
+- task_id: rt-exp-57b3b72bd373ca738849
+  source_locator: full_text.md:L2656-L2658
+  start_line: 2656
+  end_line: 2658
+  cue_line: 2657
+  cue_terms:
+  - 一样
+  - 如
+  chapter: 第35章 虫子
+  disposition: exclude
+  reason: literal_outcome_comparison
+  occurrence_ids: []
+- task_id: rt-exp-31a09383b0fcaabd03bc
+  source_locator: full_text.md:L2657-L2659
+  start_line: 2657
+  end_line: 2659
+  cue_line: 2658
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: exclude
+  reason: reported_claim_manner
+  occurrence_ids: []
+- task_id: rt-exp-d286e9f380d70e36446e
+  source_locator: full_text.md:L2662-L2664
+  start_line: 2662
+  end_line: 2664
+  cue_line: 2663
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-8e2f13c5293fbbb06cb2e882
+- task_id: rt-exp-a8e8c4ab086699475e91
+  source_locator: full_text.md:L2681-L2683
+  start_line: 2681
+  end_line: 2683
+  cue_line: 2682
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-a8200055905adee7227deefc
+- task_id: rt-exp-1fded515557ab651aa2c
+  source_locator: full_text.md:L2683-L2685
+  start_line: 2683
+  end_line: 2685
+  cue_line: 2684
+  cue_terms:
+  - 一样
+  - 像
+  chapter: 第35章 虫子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-fca050231c1e9b5c76f30751
+- task_id: rt-exp-b8acd876c73713414de3
+  source_locator: full_text.md:L2686-L2688
+  start_line: 2686
+  end_line: 2688
+  cue_line: 2687
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ee163e837311f021e9f6ac7d
+- task_id: rt-exp-c0950f24d2ac22ed3ccf
+  source_locator: full_text.md:L2687-L2689
+  start_line: 2687
+  end_line: 2689
+  cue_line: 2688
+  cue_terms:
+  - 像
+  chapter: 第35章 虫子
+  disposition: exclude
+  reason: exemplification_marker
+  occurrence_ids: []
+- task_id: rt-exp-6a5ccd26ce633baaaf6d
+  source_locator: full_text.md:L2698-L2700
+  start_line: 2698
+  end_line: 2700
+  cue_line: 2699
+  cue_terms:
+  - 像
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-941200f5b6f0153ec5fc41fb
+- task_id: rt-exp-e068c942e96d2e7e59de
+  source_locator: full_text.md:L2699-L2701
+  start_line: 2699
+  end_line: 2701
+  cue_line: 2700
+  cue_terms:
+  - 仿佛
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-4e737777b46b8867b4d19074
+- task_id: rt-exp-5163ca722eda090dd9d6
+  source_locator: full_text.md:L2700-L2702
+  start_line: 2700
+  end_line: 2702
+  cue_line: 2701
+  cue_terms:
+  - 仿佛
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-64906c870a40b28bfaa096df
+- task_id: rt-exp-7ed98c2c564165a0ccda
+  source_locator: full_text.md:L2708-L2710
+  start_line: 2708
+  end_line: 2710
+  cue_line: 2709
+  cue_terms:
+  - 像
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-c61b7f9f40712a37d2826312
+- task_id: rt-exp-019dcd8376662f4adcff
+  source_locator: full_text.md:L2709-L2711
+  start_line: 2709
+  end_line: 2711
+  cue_line: 2710
+  cue_terms:
+  - 像
+  chapter: 第36章 尾声·遗址
+  disposition: exclude
+  reason: literal_group_comparison
+  occurrence_ids: []
+- task_id: rt-exp-57714702cd0cd3116312
+  source_locator: full_text.md:L2710-L2712
+  start_line: 2710
+  end_line: 2712
+  cue_line: 2711
+  cue_terms:
+  - 像
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-ce12ddbc3248d56e7c3b418a
+- task_id: rt-exp-cf1171a5004c5229f5e6
+  source_locator: full_text.md:L2711-L2713
+  start_line: 2711
+  end_line: 2713
+  cue_line: 2712
+  cue_terms:
+  - 仿佛
+  chapter: 第36章 尾声·遗址
+  disposition: include
+  reason: ''
+  occurrence_ids:
+  - rh-1ee302fb11aac0c46e4eb516
+semantic_chunks:
+- task_id: rt-sem-db7e52d50e2208409a25
+  source_locator: full_text.md:L22-L101
+  start_line: 22
+  end_line: 101
+  chapter: 第1章 科学边界
+  reviewed: true
+  occurrence_ids:
+  - rh-89230b368b714bfa6d0ac16c
+  - rh-271277f6414e5d1f7fac739e
+  - rh-0c6951cf14aa913cfde0772f
+  - rh-b24d12eb200a44b153f1a372
+- task_id: rt-sem-4d61ce920a7d6899868a
+  source_locator: full_text.md:L102-L158
+  start_line: 102
+  end_line: 158
+  chapter: 第1章 科学边界
+  reviewed: true
+  occurrence_ids:
+  - rh-997248a9bb4d6d57f35b5aac
+  - rh-e720b89fc16a95790bb06180
+  - rh-5bf14f3f63f50d85839abb5f
+- task_id: rt-sem-d64090ff7158f556371b
+  source_locator: full_text.md:L159-L211
+  start_line: 159
+  end_line: 211
+  chapter: 第2章 台球
+  reviewed: true
+  occurrence_ids:
+  - rh-205578acdaf250e276135f5b
+  - rh-4b98c26e2f198be138c13171
+- task_id: rt-sem-015c7fc11f56a1eb8cbf
+  source_locator: full_text.md:L212-L291
+  start_line: 212
+  end_line: 291
+  chapter: 第3章 射手和农场主
+  reviewed: true
+  occurrence_ids:
+  - rh-8674f60628288d9ce4f7f5c4
+  - rh-962638a57e4fc99bdb0c3f40
+  - rh-7189b1fe9de36573b2fa13fc
+  - rh-b3a961708faf90e9813e80d1
+  - rh-217fa293210ab0287cc1417d
+- task_id: rt-sem-ed7f705f1493421c15e5
+  source_locator: full_text.md:L292-L371
+  start_line: 292
+  end_line: 371
+  chapter: 第3章 射手和农场主
+  reviewed: true
+  occurrence_ids:
+  - rh-a3d635945ca6452adf766cb8
+  - rh-f13bf9004d8f733ef54490bc
+- task_id: rt-sem-ea0cd8d01a8d493bd927
+  source_locator: full_text.md:L372-L376
+  start_line: 372
+  end_line: 376
+  chapter: 第3章 射手和农场主
+  reviewed: true
+  occurrence_ids:
+  - rh-450c8f3d9553755d86a9353f
+  - rh-d18218a98ecee3325ca8439d
+- task_id: rt-sem-e48a8bfc4d0806a25cec
+  source_locator: full_text.md:L377-L456
+  start_line: 377
+  end_line: 456
+  chapter: 第4章 三体、周文王、长夜
+  reviewed: true
+  occurrence_ids:
+  - rh-5df9a69aafb39d8376ac7323
+  - rh-cb2ae44d412f60528d79138b
+- task_id: rt-sem-152752aaa374a9ac670a
+  source_locator: full_text.md:L457-L511
+  start_line: 457
+  end_line: 511
+  chapter: 第4章 三体、周文王、长夜
+  reviewed: true
+  occurrence_ids:
+  - rh-cac3554067e0a023810d9445
+  - rh-546ef088a1cfebbeef1efefb
+  - rh-82f0a4cbcfab556a98787e40
+  - rh-a79e6b36b974f684ba1a9b9d
+  - rh-c8fc5b8203f2d2f6d699de17
+  - rh-11ada2c7ef183be911cc4add
+- task_id: rt-sem-839881d9ec6e590c97b9
+  source_locator: full_text.md:L512-L554
+  start_line: 512
+  end_line: 554
+  chapter: 第5章 叶文洁
+  reviewed: true
+  occurrence_ids:
+  - rh-7bb8f348e0aaa412b9d1c696
+  - rh-e10732919c6c7d22d2420885
+  - rh-35b0cc1fb0e83b74e5d6869c
+  - rh-f2f7ec4dadd7e12da8a0e8f4
+- task_id: rt-sem-381a8890aaeae38313dd
+  source_locator: full_text.md:L555-L585
+  start_line: 555
+  end_line: 585
+  chapter: 第6章 宇宙闪烁之一
+  reviewed: true
+  occurrence_ids:
+  - rh-ab72453e5449cf9688041176
+  - rh-8de15f65ab6e1b4a6eee01a3
+  - rh-2db7f27608972f3c78006ced
+  - rh-0ab05efbdc7fcc8a97e7f9e7
+  - rh-8a0585fe348c9e0e22fd8f9b
+- task_id: rt-sem-10930328cd068f116d87
+  source_locator: full_text.md:L586-L648
+  start_line: 586
+  end_line: 648
+  chapter: 第7章 疯狂年代
+  reviewed: true
+  occurrence_ids:
+  - rh-df52da617c686a6e9cce9349
+  - rh-25ff8b830ecdf93a10a6431d
+  - rh-115c653e194b96d7283074f1
+  - rh-0cbfa25fafda961fcbaeb5e3
+  - rh-df5bf3e097600dd079465774
+  - rh-1a538c2b9378114cf90d03d9
+  - rh-7d12b9282d058fd30f1b0e28
+  - rh-564d420b90266ef63ed8fec3
+  - rh-4a98fad367381c51a19ef18b
+  - rh-5edf52bafef9b8a958451169
+  - rh-08c24f326bd52ef15a144335
+  - rh-6e53ea131d4cae84e854aaf6
+  - rh-6ad588d9a282040983a1672c
+  - rh-87b309a4651bbe99ce6670af
+- task_id: rt-sem-e2bfe5afcb8e1333560e
+  source_locator: full_text.md:L649-L728
+  start_line: 649
+  end_line: 728
+  chapter: 第8章 寂静的春天
+  reviewed: true
+  occurrence_ids:
+  - rh-42f65e73cb1992835864fdab
+  - rh-e543713794882f6a6180740c
+  - rh-9ff8178ff8fa74ad1bfcb0ee
+  - rh-dfd51bcf6d6b94e9cc77ea2c
+  - rh-598eac0832ca296a149cb7b9
+  - rh-e68744560dd0a60c70aea389
+  - rh-d8ae6cb77b0e7e45db416fb0
+  - rh-c5a343354a112859e452b8c2
+- task_id: rt-sem-0d873a93eb76b62f4928
+  source_locator: full_text.md:L729-L758
+  start_line: 729
+  end_line: 758
+  chapter: 第8章 寂静的春天
+  reviewed: true
+  occurrence_ids:
+  - rh-61facbe5b510c133686760a0
+  - rh-afd0d9967a57aa2a503c9ea1
+  - rh-a147897a3635b81184f09480
+- task_id: rt-sem-1b940375052444bc7a08
+  source_locator: full_text.md:L759-L822
+  start_line: 759
+  end_line: 822
+  chapter: 第9章 红岸之一
+  reviewed: true
+  occurrence_ids:
+  - rh-995cbae051cd7266a12aa75d
+  - rh-3e137a154dbb952d4dbae539
+  - rh-7b654269fe93a53f78a5e24f
+  - rh-9623281d3907ba13d7106f15
+  - rh-ba49a8fc03269996886708d3
+- task_id: rt-sem-d2fbf75adf951926ab7f
+  source_locator: full_text.md:L823-L887
+  start_line: 823
+  end_line: 887
+  chapter: 第10章 宇宙闪烁之二
+  reviewed: true
+  occurrence_ids:
+  - rh-92ea7238c7914541faa5c349
+  - rh-06065993fe6e827711d6908b
+  - rh-fb09fb6e421f7cc76790cc17
+  - rh-7433c0da8aac7c8814196700
+  - rh-4bbef879944095520420be87
+  - rh-e619cd5e764a23c98313e8cc
+- task_id: rt-sem-88ae4b74ab1852b1d46b
+  source_locator: full_text.md:L888-L967
+  start_line: 888
+  end_line: 967
+  chapter: 第11章 大史
+  reviewed: true
+  occurrence_ids:
+  - rh-1f56f122107e39db1dca6199
+  - rh-e670d3e59c851b16e8939939
+  - rh-44b6514a4229755655396784
+  - rh-86420916e74d0446259cbf62
+  - rh-854611bf6dc4a6d2278bfd5e
+  - rh-d4fbfcbcf07a35137bc756ca
+  - rh-e646652e1145ca602541c739
+  - rh-b67b28a27e67057ac5df4e66
+  - rh-7dfa94850bf870e87ebaf5b0
+  - rh-393b66dc3677ddd47b0d38a4
+  - rh-017c7da0f147327ae21571bb
+  - rh-49ed61a21c6bbd27db308ccf
+  - rh-ce6eb45643560479dddd840d
+  - rh-138ac5fd898f6d19abd667ce
+- task_id: rt-sem-6346607f018a9e599381
+  source_locator: full_text.md:L968-L977
+  start_line: 968
+  end_line: 977
+  chapter: 第11章 大史
+  reviewed: true
+  occurrence_ids:
+  - rh-01f93ec965d03eb47fc5303b
+  - rh-84906e77bc6eadbd82ebc8a7
+  - rh-47431accf47fafb77d0c883b
+- task_id: rt-sem-c5e1d5527cb4426324fa
+  source_locator: full_text.md:L978-L1057
+  start_line: 978
+  end_line: 1057
+  chapter: 第12章 三体、墨子、烈焰
+  reviewed: true
+  occurrence_ids:
+  - rh-3de6199768029135fd56a31a
+  - rh-a9685be1c13073a26ee1fe67
+  - rh-72fe9b5d867de0add8081090
+  - rh-90533375e3a0964a9fd29148
+  - rh-f0bffc0c49ab84e78c6d6c0b
+  - rh-5cc861cee38cf7a3ddeb0bf2
+  - rh-878d7ce933bbb4c1d0b170a7
+  - rh-bc3ebd6984cbef4402623d3d
+  - rh-5fc071b4f385ff8939539629
+  - rh-ca563d27eb3274105086156a
+  - rh-07160d19bc700014e84281c3
+  - rh-bffb10a494f2cdc91b7bd19f
+- task_id: rt-sem-332788b7b41788a5b6f0
+  source_locator: full_text.md:L1058-L1083
+  start_line: 1058
+  end_line: 1083
+  chapter: 第12章 三体、墨子、烈焰
+  reviewed: true
+  occurrence_ids:
+  - rh-38f59e2a4e19610c38420c31
+  - rh-2d828d4329863fe7014efe3a
+  - rh-ea0726abfbacae3cede43124
+  - rh-5bde41dc04994280a7fc9a22
+  - rh-ce0ac6a3a09f03478cbc3307
+- task_id: rt-sem-c2799315978bb020ee1a
+  source_locator: full_text.md:L1084-L1137
+  start_line: 1084
+  end_line: 1137
+  chapter: 第13章 红岸之二
+  reviewed: true
+  occurrence_ids:
+  - rh-2ef6493a7efe494be39e2431
+  - rh-816b2ec23a296bf98e883acc
+  - rh-8090aac48057d382e8bc60c6
+  - rh-d4220ded3a32ecfd843af0c1
+  - rh-2a9507ec1277d68e6c4f4624
+  - rh-b4ae485e7c8d1769c81d1dd5
+  - rh-04b530d79f8c8cbcd4b2e02f
+  - rh-bfbd3dec95671032ebe6f593
+  - rh-8b94d7517bf93d21bb286124
+  - rh-8d1e7c1194e92e09cbe95fc8
+  - rh-df58b9562ea7d3ec0e3a5f66
+  - rh-348c2f7f401850296c551711
+  - rh-082f719cb5d6be4a8e459e83
+- task_id: rt-sem-21f507ae222bcbab1459
+  source_locator: full_text.md:L1138-L1217
+  start_line: 1138
+  end_line: 1217
+  chapter: 第14章 红岸之三
+  reviewed: true
+  occurrence_ids:
+  - rh-ad35c3c6b478bf713e912f9f
+  - rh-3b7cd96b9d27362e4c3028e8
+  - rh-acb38183b1a3bc366130a267
+  - rh-3aee821ada3430b13a8aa219
+  - rh-eb8a6754990360ab1d2c99c9
+  - rh-775e440343f6c88b5bca6bc3
+  - rh-3a9d4e8a7bd0fe7aab2aa106
+  - rh-cc1e1c572576f04e44a2b2c9
+- task_id: rt-sem-eaddca154c2187589212
+  source_locator: full_text.md:L1218-L1246
+  start_line: 1218
+  end_line: 1246
+  chapter: 第15章 红岸之四
+  reviewed: true
+  occurrence_ids:
+  - rh-52854f376d35ea10441a9522
+  - rh-a561b9988c625b3c34782f9a
+  - rh-19564e6a8cbd7d705db4d843
+  - rh-8648746bf45b018ee59bc06b
+  - rh-3409733724d0555c130c9abf
+  - rh-467dcccb510acee3e88c9406
+- task_id: rt-sem-6294590425933b59451c
+  source_locator: full_text.md:L1247-L1306
+  start_line: 1247
+  end_line: 1306
+  chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+  reviewed: true
+  occurrence_ids:
+  - rh-4f1face2c782bd6843dce8ab
+  - rh-3c93664eae023d4cfd2f3f51
+  - rh-fd85da643db49b0ceaf0da70
+  - rh-98628f6227bed27269c71650
+  - rh-dde92554a9edfd0cac4e0fc4
+  - rh-d2efafaed45ded0f11c67fd8
+  - rh-eed83b252dd73bc498a2e5a4
+  - rh-b0232893c11ef85733fa2110
+  - rh-b6d3030c2a83a7ad4eb559c0
+  - rh-3e7e5bb7013fef19290574a4
+  - rh-8b2d4ed07b07f02e5ba4e710
+- task_id: rt-sem-13139cc74fe6335fc7da
+  source_locator: full_text.md:L1307-L1386
+  start_line: 1307
+  end_line: 1386
+  chapter: 第17章 三体问题
+  reviewed: true
+  occurrence_ids:
+  - rh-42f6628e4570c0897fdd5ae8
+  - rh-f38037bf5cab5872a586e05f
+  - rh-648a709917d6b8821f882a0d
+  - rh-e9212a659b12fe634562e6da
+  - rh-6f9a4a01ecc486a63e06cec5
+  - rh-f05e041b57665e1df77f174e
+  - rh-63b5f85e49a6e64fb114a3ae
+  - rh-7800a2bb775789bf653ef110
+  - rh-feab7d15baca84dbc2583f87
+  - rh-ed4bc65e21fe048819612f15
+  - rh-a245a98fe1ba6dff24717a28
+- task_id: rt-sem-68d9947d7ec26245969b
+  source_locator: full_text.md:L1387-L1433
+  start_line: 1387
+  end_line: 1433
+  chapter: 第17章 三体问题
+  reviewed: true
+  occurrence_ids:
+  - rh-c650d681b09837ae234fd84e
+  - rh-19147ce814481a91ae1508c2
+  - rh-b74c404f25257dfd67d59f9d
+  - rh-48693f44413dd9eb2a65a650
+  - rh-95d5166c98b684a7d7a86de6
+  - rh-0f47a61ec071f6a9ec706d6f
+  - rh-6b804864f633cddb83b064a1
+  - rh-7448d4bff14e1c34bb5d31fd
+  - rh-97cead8ca0eb8652d94b57db
+- task_id: rt-sem-6158b8df772750f470a2
+  source_locator: full_text.md:L1434-L1513
+  start_line: 1434
+  end_line: 1513
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  reviewed: true
+  occurrence_ids:
+  - rh-b72fa1734c0c15068d445399
+  - rh-69e54e9eff039ea1ca2b3f40
+  - rh-eb4c1adf1d3e2dd6e846eff8
+  - rh-e1952cc3d79ff2805077c5b4
+  - rh-5baa045f8aac0a4889e8d3f1
+  - rh-be4dd086c2e8949e0d39f162
+  - rh-c0f5712d51de9f819e978682
+  - rh-26e3de643fc84c52ba33832e
+  - rh-a886a02a359d92d579fff47c
+  - rh-1aef4496d2adc08172ed1775
+- task_id: rt-sem-45b4701c8c8e15ffe36f
+  source_locator: full_text.md:L1514-L1563
+  start_line: 1514
+  end_line: 1563
+  chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+  reviewed: true
+  occurrence_ids:
+  - rh-a1ed1a599effcd7a4af40f46
+  - rh-ebffbffdfdbfd4442cf8df08
+  - rh-2b0d4e9cd0b4669d81733166
+  - rh-4d3acabafde814165f2919a1
+  - rh-8a42076d5b4c118ab843059c
+  - rh-cef8a3ddae6ee144d61b0231
+  - rh-2219cb1716ffdc45f50b137e
+  - rh-9299344fb816c95fb0cea634
+  - rh-11e3757a0f3b4e859ac4f4db
+  - rh-0f9dee9cbc3251b0134024f9
+  - rh-117476560c36a68e9ec824d5
+  - rh-5d529fa99e14d08e6dc2b020
+  - rh-5fdacbcf3143baf0c392923d
+  - rh-6628913eaed2ceb417e19a3b
+- task_id: rt-sem-3d38beec9ffc2719f94b
+  source_locator: full_text.md:L1564-L1617
+  start_line: 1564
+  end_line: 1617
+  chapter: 第19章 聚会
+  reviewed: true
+  occurrence_ids:
+  - rh-11ae5b97bee3d97f237ff80e
+  - rh-f65161f08d838919a9773103
+  - rh-8801cb0d17da2c329ad9256e
+  - rh-b7a5de804f8dcc7511a21d73
+  - rh-17157e3b610d32fae670d2ed
+  - rh-fd9743954c32adddb110b3ea
+  - rh-73a8a00d57d63e0014e9c9ca
+  - rh-a6e085660ccab657c3da4cae
+  - rh-04d9d5a945205e40cf465531
+  - rh-3bd142de8c721c9b225f2f5e
+  - rh-78e410c4ffc9bf012b2b0547
+  - rh-4a43b21ce3956d454c88318b
+  - rh-7f2819f61eda47f89a1664ac
+  - rh-451a8062f6f6da119f828eb2
+  - rh-4c88217bd5665187ab2d4e7b
+- task_id: rt-sem-948cf8f371ba73318baa
+  source_locator: full_text.md:L1618-L1693
+  start_line: 1618
+  end_line: 1693
+  chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+  reviewed: true
+  occurrence_ids:
+  - rh-3cb4121dafee5e140904dbaa
+  - rh-64ad821ec369e4e907057763
+  - rh-c812618c65b8b4295358f7ce
+  - rh-5a3ab764c4676d952f0e714d
+  - rh-0d0ba727772b6cfca499ccf4
+  - rh-de59afb34f824d208edd5564
+  - rh-4af9d9087f408f9cdbb15ec2
+  - rh-f144846b0252ab501002672b
+  - rh-64a477837c3deb81085d7d71
+  - rh-1607c5375031ef3e02a8214e
+  - rh-bcf18bfebb668f24b77cce8e
+  - rh-addeb55630019e75746a4f3d
+- task_id: rt-sem-8969c4fd23105e3e0aac
+  source_locator: full_text.md:L1694-L1715
+  start_line: 1694
+  end_line: 1715
+  chapter: 第21章 三体、远征
+  reviewed: true
+  occurrence_ids:
+  - rh-907aa3b4efb6e63c398a7391
+  - rh-63ebc9a5da5c5b16419cbe2d
+  - rh-35ea9d1b7004d8efeb0d858c
+  - rh-1b854a48d24d1e70e56bdf76
+  - rh-79560be5f86364c79b4fadc3
+  - rh-2560a07ab3c152b85e6c6cbe
+  - rh-224dbe72b430688dd85f1c2c
+  - rh-60813820e78d5ef7219ad15f
+- task_id: rt-sem-91a660ebd168d9aeb73e
+  source_locator: full_text.md:L1716-L1787
+  start_line: 1716
+  end_line: 1787
+  chapter: 第22章 地球叛军
+  reviewed: true
+  occurrence_ids:
+  - rh-01646aa501c2741aa7a54082
+  - rh-1a815b07a9720a0bf5b17b7f
+  - rh-5a29d7fc7d5d4f12bfdcd114
+  - rh-879f30644c46a6a408a25635
+  - rh-ed7647a33722a0e550965a6b
+  - rh-4b261a91677495c992fea838
+  - rh-ddd1b47c82fe3ebe7ce45531
+  - rh-64557ea48bb4de36d52a0823
+  - rh-9d222fe8de694042817208e3
+  - rh-44d8d1afa75f1b5c5941cf49
+- task_id: rt-sem-20fb382362ffd2504997
+  source_locator: full_text.md:L1788-L1846
+  start_line: 1788
+  end_line: 1846
+  chapter: 第23章 红岸之五
+  reviewed: true
+  occurrence_ids:
+  - rh-84765cd367207b5eb7510903
+  - rh-6287db799dd62f1ddd78ed76
+  - rh-f76040593729b52e26ebd68a
+  - rh-20c7b3670e91da95f2271af9
+  - rh-3222a7ba3db52290fdf3a8d8
+  - rh-836d47984b17cd99ceef7f78
+  - rh-79345a0d00978b9c828cc53a
+  - rh-fc007dd2a2bc25d3d290af3f
+  - rh-4fc75a324d88e064416e07de
+  - rh-c4cc5952784496c46007b44c
+  - rh-0f23bc04178d720a40e87a24
+  - rh-aa8a329ed137cd2f620b7dfe
+  - rh-0f52062a57296d54091a57bf
+- task_id: rt-sem-fe4df6add1ec75d9e299
+  source_locator: full_text.md:L1847-L1888
+  start_line: 1847
+  end_line: 1888
+  chapter: 第24章 红岸之六
+  reviewed: true
+  occurrence_ids:
+  - rh-9f51e631173fa9d36bda1ca5
+  - rh-e8bc8063fd1d3c8d83ba6e97
+  - rh-c59bc35bc78a078bf7419f79
+  - rh-9de138d2ac05dec106aee68f
+  - rh-29ebc32c11a0feb1cbf5fce8
+  - rh-1a198e98eccd50d606b8f280
+  - rh-1dccb870ea18e538afe59f4d
+  - rh-e4f70381b10aa4a5d0a76a29
+  - rh-a8d8d299f7c7b184e5e2d4bd
+  - rh-ea0cabda30f285bf4d387005
+  - rh-10e57bd8391a80a15c29e892
+  - rh-0a2fb7949774b42c77fecd1c
+  - rh-092fdecd20c5f4b7f209626b
+  - rh-c949aefdc4c7b25d845c983f
+  - rh-99f6efd744104dae2ab0641e
+  - rh-bdc187cd1e11700598b11f5e
+  - rh-032027bb4cf1dbd0e5c4c589
+- task_id: rt-sem-d00fb27c46ba715b7782
+  source_locator: full_text.md:L1889-L1937
+  start_line: 1889
+  end_line: 1937
+  chapter: 第25章 叛乱
+  reviewed: true
+  occurrence_ids:
+  - rh-702669f8503e045220f3216f
+  - rh-0ba4b746526752d2d6adf578
+  - rh-291b7b4388c8a3bf99b85d87
+  - rh-278a7ed77f62a574eb476fdf
+  - rh-4dfa47e642b713a95724cd87
+  - rh-431296050dfd95a8610b39a0
+- task_id: rt-sem-aee20095c3ff53784d06
+  source_locator: full_text.md:L1938-L1983
+  start_line: 1938
+  end_line: 1983
+  chapter: 第26章 雷志成、杨卫宁之死
+  reviewed: true
+  occurrence_ids:
+  - rh-2d321eb229700e8193c35b2c
+  - rh-27ad982dbee36491c6aaad0c
+  - rh-db8715a5d7699e4063e76c3f
+- task_id: rt-sem-4becb70079dc797c5ec2
+  source_locator: full_text.md:L1984-L2056
+  start_line: 1984
+  end_line: 2056
+  chapter: 第27章 无人忏悔
+  reviewed: true
+  occurrence_ids:
+  - rh-52afdbc5826a84aa0bb89d6c
+  - rh-94c61a9d6c72c273f7694159
+  - rh-0a735ee806632825e32f0ce8
+  - rh-bd14c6f8eabd5255431f1fa4
+  - rh-1e6c521b202d3db20100d3d8
+  - rh-63e97dac856a92565a623b26
+  - rh-9a05dc247f012776022964b9
+  - rh-a533a8057b4bd607a524cad0
+  - rh-6ef73ea174115783c0bdc6a8
+  - rh-79f07abe815c79333226cd7c
+- task_id: rt-sem-dd429255c6a9070ffb77
+  source_locator: full_text.md:L2057-L2126
+  start_line: 2057
+  end_line: 2126
+  chapter: 第28章 伊文斯
+  reviewed: true
+  occurrence_ids:
+  - rh-d62e908c57410a804fe12716
+  - rh-a5483cb983e5dd701b17feed
+  - rh-2e07c50832229f4f7a01d25e
+  - rh-cae355708a3862dcfbf4caba
+  - rh-5748dd5ce83d679ff1ca4633
+  - rh-ffa850808587fa4e75d469f2
+  - rh-3b46255eb89e424fdd4a9bcb
+  - rh-e243c959a2d712b82dcec831
+  - rh-4823ce07b14991b7b30302fd
+- task_id: rt-sem-e0e8293f64fb4ec1aeb0
+  source_locator: full_text.md:L2127-L2145
+  start_line: 2127
+  end_line: 2145
+  chapter: 第29章 第二红岸基地
+  reviewed: true
+  occurrence_ids:
+  - rh-e74a1e65101b3293a412dca3
+  - rh-371faf0bac880df59f2a1828
+  - rh-7ed36ba6e9338e7dcaeb8e35
+- task_id: rt-sem-104cb6cf72ef260ea58e
+  source_locator: full_text.md:L2146-L2166
+  start_line: 2146
+  end_line: 2166
+  chapter: 第30章 地球三体运动
+  reviewed: true
+  occurrence_ids:
+  - rh-a4d11044c89901b2010488ab
+  - rh-76f996bf3cba6be8ddf35c76
+  - rh-c29fdd1e4a45fa9535f23409
+  - rh-dc3569fefac77bede4593e9d
+  - rh-364cead9a505795506602919
+  - rh-c6b6a93a30de405a8912117a
+  - rh-905d2db678b6b491c2abfed1
+  - rh-301db1dcd13db5c10018f45f
+  - rh-542f6fcad9d28c40805bfd58
+- task_id: rt-sem-afe43e26ad1343ac0465
+  source_locator: full_text.md:L2167-L2239
+  start_line: 2167
+  end_line: 2239
+  chapter: 第31章 两个质子
+  reviewed: true
+  occurrence_ids:
+  - rh-9774766e3b0cf371ba00a402
+  - rh-18c671aecee15ae6301e9da2
+  - rh-d7df3d2686c111fe587829c4
+  - rh-c3a39cc9afe9e158bfd4ba03
+  - rh-b7dbcbed17d2961db78b5425
+  - rh-0022778629b500c378a3aeff
+- task_id: rt-sem-628bdf89f55ec2ce7c40
+  source_locator: full_text.md:L2240-L2319
+  start_line: 2240
+  end_line: 2319
+  chapter: 第32章 古筝行动
+  reviewed: true
+  occurrence_ids:
+  - rh-f1be09503acb2cf76783bfc1
+  - rh-5ae741bab86a12194a6bceaf
+  - rh-8200c9142146ce184a480501
+  - rh-d2fae0530ddc0cabb5f6a8f4
+- task_id: rt-sem-46cf94aedcf022abf4af
+  source_locator: full_text.md:L2320-L2368
+  start_line: 2320
+  end_line: 2368
+  chapter: 第32章 古筝行动
+  reviewed: true
+  occurrence_ids:
+  - rh-a8ad7a266788958261fc8ba2
+  - rh-397b0e6653bd2fd62c66dd74
+- task_id: rt-sem-d22b1c4748e9838542bc
+  source_locator: full_text.md:L2369-L2445
+  start_line: 2369
+  end_line: 2445
+  chapter: 第33章 监听员
+  reviewed: true
+  occurrence_ids:
+  - rh-c26e785665e7680b41399ab1
+  - rh-4566255e21ad65b4a6860213
+  - rh-3b97c33c72d9ad67553907ff
+  - rh-5da536fb208761997fb09806
+  - rh-3cc0b95d1308439932500f84
+  - rh-8666d0a59ddff4c5352cb3e5
+  - rh-5b2c1ae634d57a0005fc7586
+  - rh-92d09f33d51c78d26beedf85
+  - rh-854e35ffc27676aac0d4e7e0
+- task_id: rt-sem-5193d029f19006c73882
+  source_locator: full_text.md:L2446-L2525
+  start_line: 2446
+  end_line: 2525
+  chapter: 第34章 智子
+  reviewed: true
+  occurrence_ids:
+  - rh-8b73ad9b478706b66262bea8
+  - rh-7f4e3784152f21e8dff8ac67
+  - rh-d49dd3f76fc26bb58220aa62
+  - rh-b958a03bb23f14b59f3d7d48
+  - rh-2887a3f674cf8d02232d11c6
+  - rh-03e68e03e020c7e14e8951d6
+  - rh-85efd6e3351e117e884b0f13
+- task_id: rt-sem-5e87828a9f3fb9065c13
+  source_locator: full_text.md:L2526-L2605
+  start_line: 2526
+  end_line: 2605
+  chapter: 第34章 智子
+  reviewed: true
+  occurrence_ids:
+  - rh-b82cc8fab9e202ddf0e2faaf
+  - rh-b08a1677ae6c4d7c20f69d89
+  - rh-9fbebdd79cd88ab0bbbfc13b
+  - rh-48e7b0168ce1412d2b77ccd2
+  - rh-0b2926371b247e939662f5a0
+- task_id: rt-sem-04a7a214ccbaedd96a3a
+  source_locator: full_text.md:L2606-L2641
+  start_line: 2606
+  end_line: 2641
+  chapter: 第34章 智子
+  reviewed: true
+  occurrence_ids:
+  - rh-83449ec92710bdcbb6e0447c
+  - rh-39387889cd5391548dcdea62
+  - rh-b2045457554779b317c0fe8d
+  - rh-303d4d209e1cba628efe005c
+  - rh-dc7d968e9bf283d5f989bbc1
+  - rh-1cf911b57592a7f695a1dae1
+  - rh-5d3adf69c9ce4bc4127b6032
+- task_id: rt-sem-08e8973c6f1fd22c53f9
+  source_locator: full_text.md:L2642-L2694
+  start_line: 2642
+  end_line: 2694
+  chapter: 第35章 虫子
+  reviewed: true
+  occurrence_ids:
+  - rh-69806d9b06613c4a307a720e
+  - rh-29668a4311d43e1bd3c89455
+  - rh-a0391975f706a0a7584e7277
+  - rh-c88c39bddc257fbbcee6fd5e
+  - rh-7526a5a456c195d6f176fc73
+  - rh-c47b8255394ab835cf30122b
+- task_id: rt-sem-6416df5ad33a58c6d0af
+  source_locator: full_text.md:L2695-L2714
+  start_line: 2695
+  end_line: 2714
+  chapter: 第36章 尾声·遗址
+  reviewed: true
+  occurrence_ids:
+  - rh-811c9921dbbbdb402cbda005
+  - rh-1531121e0ffbcb5ff2fe83d3
+  - rh-bbb4209fe6d9a7067f10cfa4
+  - rh-f0b6a7e912631ab289201134
+occurrence_ids:
+- rh-0022778629b500c378a3aeff
+- rh-014a529721515f88630294ad
+- rh-01646aa501c2741aa7a54082
+- rh-017c7da0f147327ae21571bb
+- rh-01f93ec965d03eb47fc5303b
+- rh-02885d530dd446ac500eeb0b
+- rh-02a8788a06480f88f145c0fd
+- rh-032027bb4cf1dbd0e5c4c589
+- rh-037d5e772b0757711189f65f
+- rh-03cc891e1359f9ea18a8bb1a
+- rh-03e68e03e020c7e14e8951d6
+- rh-03f40a5d20bfbf21aabee8e8
+- rh-04b530d79f8c8cbcd4b2e02f
+- rh-04d9d5a945205e40cf465531
+- rh-056dfe9df81f930ff9c49bf0
+- rh-06065993fe6e827711d6908b
+- rh-06076bfc0745b994fff1f41f
+- rh-07160d19bc700014e84281c3
+- rh-07cd763c9132af4c1a40150a
+- rh-081efe62ec475fc640057272
+- rh-082f719cb5d6be4a8e459e83
+- rh-08c24f326bd52ef15a144335
+- rh-092fdecd20c5f4b7f209626b
+- rh-0a2fb7949774b42c77fecd1c
+- rh-0a735ee806632825e32f0ce8
+- rh-0ab05efbdc7fcc8a97e7f9e7
+- rh-0b2926371b247e939662f5a0
+- rh-0ba4b746526752d2d6adf578
+- rh-0c6951cf14aa913cfde0772f
+- rh-0cbfa25fafda961fcbaeb5e3
+- rh-0d0ba727772b6cfca499ccf4
+- rh-0d78c90368323b748a6d982c
+- rh-0dc5f9dbca824f791d0c6f7e
+- rh-0e91146bbd180736a19f0ae2
+- rh-0f23bc04178d720a40e87a24
+- rh-0f47a61ec071f6a9ec706d6f
+- rh-0f52062a57296d54091a57bf
+- rh-0f548643262d6869e0b41731
+- rh-0f9dee9cbc3251b0134024f9
+- rh-10753671f764cf3d510f8119
+- rh-10e57bd8391a80a15c29e892
+- rh-114738625480a544c72e2182
+- rh-115c653e194b96d7283074f1
+- rh-117476560c36a68e9ec824d5
+- rh-1175ed784632246d97e09424
+- rh-11ada2c7ef183be911cc4add
+- rh-11ae5b97bee3d97f237ff80e
+- rh-11e3757a0f3b4e859ac4f4db
+- rh-12329fa5b7cde6186b2be762
+- rh-12c4255884f5a9e1ea0f3d09
+- rh-138ac5fd898f6d19abd667ce
+- rh-14d99a08a0623c084a2ce744
+- rh-1531121e0ffbcb5ff2fe83d3
+- rh-1607c5375031ef3e02a8214e
+- rh-17157e3b610d32fae670d2ed
+- rh-17f47f928b1d4eb1d1824a41
+- rh-184cdc58a304dc82ea71bb0e
+- rh-18c671aecee15ae6301e9da2
+- rh-19147ce814481a91ae1508c2
+- rh-19564e6a8cbd7d705db4d843
+- rh-1990c58d1b0d753662c0c0dd
+- rh-1a198e98eccd50d606b8f280
+- rh-1a538c2b9378114cf90d03d9
+- rh-1a815b07a9720a0bf5b17b7f
+- rh-1ac5670b5c1a59b17d068769
+- rh-1aef4496d2adc08172ed1775
+- rh-1b09e47f9f5918352470b354
+- rh-1b522df3e7587d1f1906d943
+- rh-1b854a48d24d1e70e56bdf76
+- rh-1cf911b57592a7f695a1dae1
+- rh-1d04cb78e5aca996fb6b429b
+- rh-1d7d770449d5f87dbda0e10c
+- rh-1dccb870ea18e538afe59f4d
+- rh-1e6c521b202d3db20100d3d8
+- rh-1ee302fb11aac0c46e4eb516
+- rh-1f56f122107e39db1dca6199
+- rh-1f98758e8c82d906d0cdad12
+- rh-1fb13e18eea2ef8f5ed291f5
+- rh-205578acdaf250e276135f5b
+- rh-20c7b3670e91da95f2271af9
+- rh-2161744dd6149a0416bd23c5
+- rh-217fa293210ab0287cc1417d
+- rh-22079973f1e8e739de26482f
+- rh-2219cb1716ffdc45f50b137e
+- rh-221cd0e778da414c9617a296
+- rh-224dbe72b430688dd85f1c2c
+- rh-23525c69fa9a3573f9f208ae
+- rh-24ccb219f2a131638547019b
+- rh-2560a07ab3c152b85e6c6cbe
+- rh-25fa3ad584a8ffee6b691a5c
+- rh-25ff8b830ecdf93a10a6431d
+- rh-267e5d60036ff4ca8a51af69
+- rh-26e3de643fc84c52ba33832e
+- rh-271277f6414e5d1f7fac739e
+- rh-278a7ed77f62a574eb476fdf
+- rh-27ad982dbee36491c6aaad0c
+- rh-27dacbcf5f0ce9823ed69b5c
+- rh-281ec4029e1b9cdbbc07216b
+- rh-2868c28d3902e746e7503afb
+- rh-2887a3f674cf8d02232d11c6
+- rh-2917dfbe305976e42e43d8c1
+- rh-291b7b4388c8a3bf99b85d87
+- rh-2927b336db172c7a6a115208
+- rh-29668a4311d43e1bd3c89455
+- rh-2997cf209cd096107842e640
+- rh-29e4d46448628771537cb0e6
+- rh-29ebc32c11a0feb1cbf5fce8
+- rh-2a9507ec1277d68e6c4f4624
+- rh-2b0d4e9cd0b4669d81733166
+- rh-2b83c0d732703436003ec132
+- rh-2c0153ad7336a9ffbca893e7
+- rh-2c4bc7b01b7a62e7ba925a1a
+- rh-2d321eb229700e8193c35b2c
+- rh-2d6972a267b102aca0d6381a
+- rh-2d828d4329863fe7014efe3a
+- rh-2db7f27608972f3c78006ced
+- rh-2e07c50832229f4f7a01d25e
+- rh-2e47cc424c3caed0f692cedd
+- rh-2e54d0065d617f8fa9445dc6
+- rh-2e999b58d1fdcb91fdc9d5c1
+- rh-2ea43a842e6ad99d4c59569e
+- rh-2ef6493a7efe494be39e2431
+- rh-2fe3d1779a6c9299966ddddb
+- rh-301db1dcd13db5c10018f45f
+- rh-303d4d209e1cba628efe005c
+- rh-3222a7ba3db52290fdf3a8d8
+- rh-324ab921cf4229b77da34219
+- rh-3409733724d0555c130c9abf
+- rh-348c2f7f401850296c551711
+- rh-3560bdb8d5f8b0653215668b
+- rh-3583993f4ae3f6aaf126781b
+- rh-35b0cc1fb0e83b74e5d6869c
+- rh-35ea9d1b7004d8efeb0d858c
+- rh-3632faf93a4b5961052a7a7b
+- rh-364cead9a505795506602919
+- rh-371faf0bac880df59f2a1828
+- rh-3837a50fab32184cf0c8a4be
+- rh-38f59e2a4e19610c38420c31
+- rh-39387889cd5391548dcdea62
+- rh-393b66dc3677ddd47b0d38a4
+- rh-397b0e6653bd2fd62c66dd74
+- rh-3a9d4e8a7bd0fe7aab2aa106
+- rh-3abfd748be1ff7a937124ec0
+- rh-3ac5cf5a4bb8ad2745486302
+- rh-3aee821ada3430b13a8aa219
+- rh-3b46255eb89e424fdd4a9bcb
+- rh-3b7cd96b9d27362e4c3028e8
+- rh-3b97c33c72d9ad67553907ff
+- rh-3bd142de8c721c9b225f2f5e
+- rh-3c32e7507d8c32e8af36f5ce
+- rh-3c93664eae023d4cfd2f3f51
+- rh-3cb4121dafee5e140904dbaa
+- rh-3cc0b95d1308439932500f84
+- rh-3cd8bca6fcf59e116e26337d
+- rh-3dbc2ee64f54865f5c140868
+- rh-3de6199768029135fd56a31a
+- rh-3e137a154dbb952d4dbae539
+- rh-3e55f66df06e8d93750e2194
+- rh-3e7e5bb7013fef19290574a4
+- rh-3f551e4e18890fc01abb2e80
+- rh-4065712f4af5debe2582dd19
+- rh-412c7e76433f491fd5425266
+- rh-41a31de3db0c292d359cc0a8
+- rh-42bc94c8831f73fd7dc8bdd9
+- rh-42f65e73cb1992835864fdab
+- rh-42f6628e4570c0897fdd5ae8
+- rh-431296050dfd95a8610b39a0
+- rh-4319138914cf8a1fc900eab7
+- rh-43e826b933ecb2bb376a78e7
+- rh-4404dd380bd4408e02ce74c3
+- rh-44b6514a4229755655396784
+- rh-44d8d1afa75f1b5c5941cf49
+- rh-450c8f3d9553755d86a9353f
+- rh-451a8062f6f6da119f828eb2
+- rh-4561f0f878351cdcaa9483c0
+- rh-4566255e21ad65b4a6860213
+- rh-46460b8b974de99b6701e16c
+- rh-467dcccb510acee3e88c9406
+- rh-4701e80ffb39af05f9debb6e
+- rh-47431accf47fafb77d0c883b
+- rh-474fd35cbfebd61a9e81f20d
+- rh-47a61e49e1b16e058a04cb51
+- rh-47fa8352f5621ad53ab3c34b
+- rh-4823ce07b14991b7b30302fd
+- rh-48693f44413dd9eb2a65a650
+- rh-48adef7e5d414c26ea04911d
+- rh-48e7b0168ce1412d2b77ccd2
+- rh-49ed61a21c6bbd27db308ccf
+- rh-4a43b21ce3956d454c88318b
+- rh-4a6639c3385f4c637e2efbbe
+- rh-4a98fad367381c51a19ef18b
+- rh-4ad24ba7467ca6afdbeb03ab
+- rh-4af9d9087f408f9cdbb15ec2
+- rh-4b261a91677495c992fea838
+- rh-4b2bf74ae760a54efab79dc4
+- rh-4b7d34f53a9b7e33cad52a4a
+- rh-4b98c26e2f198be138c13171
+- rh-4ba16c6f28c213935e98dd58
+- rh-4bbef879944095520420be87
+- rh-4c88217bd5665187ab2d4e7b
+- rh-4cd34b30a349a07affcac9ef
+- rh-4d080f1a9aaa433bacc998a4
+- rh-4d26614d79ccb6e0939f349a
+- rh-4d3acabafde814165f2919a1
+- rh-4d985c8ced4afa78cb791f8a
+- rh-4dc28f1f5a416c27c2be7416
+- rh-4dd713bb60eeb60f9bbfc5cc
+- rh-4dfa47e642b713a95724cd87
+- rh-4e737777b46b8867b4d19074
+- rh-4ef3fa3a09b69621cfa1a43d
+- rh-4f1face2c782bd6843dce8ab
+- rh-4fc75a324d88e064416e07de
+- rh-509d343dfebf2b34e84ae92d
+- rh-510d2415e42023a0b54040b0
+- rh-516c07118fe42c03552a9f83
+- rh-51ce9daa4e738921d5d2a39a
+- rh-52854f376d35ea10441a9522
+- rh-52afdbc5826a84aa0bb89d6c
+- rh-530269d3cc75368aae8a2cb2
+- rh-53272c75527eed279dd65c86
+- rh-542f6fcad9d28c40805bfd58
+- rh-5446653621d460a804b34589
+- rh-546ef088a1cfebbeef1efefb
+- rh-54b19d38b4b85f7d9d640bf6
+- rh-54c74088b42c8bf7f0fddb80
+- rh-55b8da5490c9d7c37c5696cd
+- rh-56107f07317bc77675bdecc9
+- rh-564d420b90266ef63ed8fec3
+- rh-56bfc723f83839fa99ecddb1
+- rh-570ed6c7742877de4599547e
+- rh-5748dd5ce83d679ff1ca4633
+- rh-584af2a45373e4935d93d01f
+- rh-592f119a1ed2421b8a15a5b7
+- rh-59538cc86c0e492eb741c531
+- rh-598eac0832ca296a149cb7b9
+- rh-5a29d7fc7d5d4f12bfdcd114
+- rh-5a3ab764c4676d952f0e714d
+- rh-5ae741bab86a12194a6bceaf
+- rh-5b2c1ae634d57a0005fc7586
+- rh-5ba06e8748019275eb107cab
+- rh-5baa045f8aac0a4889e8d3f1
+- rh-5babb0802f1047617a7538e2
+- rh-5bde41dc04994280a7fc9a22
+- rh-5be55d63c72462b98cec2115
+- rh-5bee37cb032b79a8d06d77df
+- rh-5bf14f3f63f50d85839abb5f
+- rh-5c3ac29386b7df2a0a5a4315
+- rh-5cc861cee38cf7a3ddeb0bf2
+- rh-5d3adf69c9ce4bc4127b6032
+- rh-5d529fa99e14d08e6dc2b020
+- rh-5da536fb208761997fb09806
+- rh-5db22d0cd03786c7fa975821
+- rh-5ded6dad1c21e17b59aff363
+- rh-5df9a69aafb39d8376ac7323
+- rh-5ea49edcd017963b9ede660e
+- rh-5edf52bafef9b8a958451169
+- rh-5fc071b4f385ff8939539629
+- rh-5fdacbcf3143baf0c392923d
+- rh-60813820e78d5ef7219ad15f
+- rh-61facbe5b510c133686760a0
+- rh-620d7de6b964f96ca033f088
+- rh-627882099dc86dc89eae8b3b
+- rh-6287db799dd62f1ddd78ed76
+- rh-6312b709b072c8275581582e
+- rh-633d3d7e6d83140a1867a1f3
+- rh-63b5f85e49a6e64fb114a3ae
+- rh-63c9ae689bb5184f2f91faae
+- rh-63e97dac856a92565a623b26
+- rh-63ebc9a5da5c5b16419cbe2d
+- rh-64557ea48bb4de36d52a0823
+- rh-6478a9446389bf6b11f1d838
+- rh-648a709917d6b8821f882a0d
+- rh-64906c870a40b28bfaa096df
+- rh-649f1d1107d864395b0d5715
+- rh-64a477837c3deb81085d7d71
+- rh-64ad821ec369e4e907057763
+- rh-6533d73bddf92182fcc97330
+- rh-65cc6776f1d8a0e126919dd1
+- rh-6621ecc325cb8d776d98be74
+- rh-6628913eaed2ceb417e19a3b
+- rh-672c052d69ed21dc3df9032f
+- rh-69806d9b06613c4a307a720e
+- rh-69e54e9eff039ea1ca2b3f40
+- rh-6ad588d9a282040983a1672c
+- rh-6b804864f633cddb83b064a1
+- rh-6bcaac5331001c36b8c3d688
+- rh-6c56d829feb9a3f1a60e0901
+- rh-6e53ea131d4cae84e854aaf6
+- rh-6e72c1ac9e17824d7556d814
+- rh-6e99f757e708de6345cfb3b5
+- rh-6ee9c7170228225195df0291
+- rh-6ef73ea174115783c0bdc6a8
+- rh-6f9a4a01ecc486a63e06cec5
+- rh-702669f8503e045220f3216f
+- rh-7058f2e44b929f01b6572800
+- rh-7189b1fe9de36573b2fa13fc
+- rh-72242bdd70c3eadd8ee7910c
+- rh-722b3a330573e7208ef844a1
+- rh-72fe9b5d867de0add8081090
+- rh-7373876f4606bc5661ee662c
+- rh-73a16907c407cc79c6c84a36
+- rh-73a8a00d57d63e0014e9c9ca
+- rh-7433c0da8aac7c8814196700
+- rh-7448d4bff14e1c34bb5d31fd
+- rh-7481a56678757fce6b23a6da
+- rh-7526a5a456c195d6f176fc73
+- rh-760fa060e682afb5f4146057
+- rh-76d53e0fa4f102fe30a91db8
+- rh-76f96b62be8995028ffe5d59
+- rh-76f996bf3cba6be8ddf35c76
+- rh-7754932c389b2a3c97b730cd
+- rh-775e440343f6c88b5bca6bc3
+- rh-77f2b1db8841fa0975e4cb4f
+- rh-7800a2bb775789bf653ef110
+- rh-788c523ed6bcf675e6bdf9ec
+- rh-78e410c4ffc9bf012b2b0547
+- rh-79345a0d00978b9c828cc53a
+- rh-79560be5f86364c79b4fadc3
+- rh-79f07abe815c79333226cd7c
+- rh-7aa5fb4666c91cfead62a90e
+- rh-7b22c7bbe1fdd3832aa98734
+- rh-7b654269fe93a53f78a5e24f
+- rh-7bb8f348e0aaa412b9d1c696
+- rh-7d12b9282d058fd30f1b0e28
+- rh-7d2ab033399fdec027953a3c
+- rh-7d99b0ac8704a0f282b8e3b2
+- rh-7dfa94850bf870e87ebaf5b0
+- rh-7e2f35007bd0b2101dbc6e40
+- rh-7ea956ea2e4b4661e9f7a082
+- rh-7eac62ca74e0fedfe731c0b9
+- rh-7eceb59b6c089b6d43271d01
+- rh-7ed36ba6e9338e7dcaeb8e35
+- rh-7ed5179f1eaf35e59503df6d
+- rh-7f034d7cbefe662ed51c95cb
+- rh-7f160c85f2782375ad4613d7
+- rh-7f2819f61eda47f89a1664ac
+- rh-7f4e3784152f21e8dff8ac67
+- rh-7ff96f9bf99e1650b5785551
+- rh-803428534279634fe47797e5
+- rh-804a2d59af6cd47797a3b7ee
+- rh-8090aac48057d382e8bc60c6
+- rh-811c9921dbbbdb402cbda005
+- rh-81466b94dbcdfa54e5eeb7de
+- rh-816b2ec23a296bf98e883acc
+- rh-81d6899044ee7b6acf3ad19b
+- rh-8200c9142146ce184a480501
+- rh-82104ce7d00a82bd87909815
+- rh-82f0a4cbcfab556a98787e40
+- rh-83173aa7811e4724aae8b47f
+- rh-83449ec92710bdcbb6e0447c
+- rh-836d47984b17cd99ceef7f78
+- rh-83f1b50dd0b6d4cf5538155a
+- rh-84765cd367207b5eb7510903
+- rh-84906e77bc6eadbd82ebc8a7
+- rh-84b889bc7cb495c4b8da99a7
+- rh-84e664bfe83b4737e4db740f
+- rh-854611bf6dc4a6d2278bfd5e
+- rh-854e35ffc27676aac0d4e7e0
+- rh-859968b46f17d83f1fcd3630
+- rh-85c068e397307fcf205fb0f6
+- rh-85efd6e3351e117e884b0f13
+- rh-85f384f2831f035568411718
+- rh-86420916e74d0446259cbf62
+- rh-8648746bf45b018ee59bc06b
+- rh-8666d0a59ddff4c5352cb3e5
+- rh-8674f60628288d9ce4f7f5c4
+- rh-8696d30a64e6dbd9cbafd2fa
+- rh-872a7011f7847bc13d656ff9
+- rh-876ff3389beab022dc6a1e1c
+- rh-878d7ce933bbb4c1d0b170a7
+- rh-879f30644c46a6a408a25635
+- rh-87b309a4651bbe99ce6670af
+- rh-8801cb0d17da2c329ad9256e
+- rh-88e664b65bd3b5215566395d
+- rh-891d996a197460952fd4efa2
+- rh-89230b368b714bfa6d0ac16c
+- rh-8a0585fe348c9e0e22fd8f9b
+- rh-8a42076d5b4c118ab843059c
+- rh-8a78dab58f47dc2c7f3f2fab
+- rh-8a8162aacc5fd720f7efdf68
+- rh-8aa7f7859b1455f456d21d57
+- rh-8add91755d3d350795046c6a
+- rh-8b2d4ed07b07f02e5ba4e710
+- rh-8b73ad9b478706b66262bea8
+- rh-8b94d7517bf93d21bb286124
+- rh-8d1e7c1194e92e09cbe95fc8
+- rh-8de15f65ab6e1b4a6eee01a3
+- rh-8e2f13c5293fbbb06cb2e882
+- rh-8eb7632ca7f525f90e6877c5
+- rh-8f5a7f0e642b3d9e347b64bc
+- rh-90533375e3a0964a9fd29148
+- rh-905d2db678b6b491c2abfed1
+- rh-907aa3b4efb6e63c398a7391
+- rh-90d8245d2de5e20343326e1b
+- rh-9248890e2efaac6d0aa4a12c
+- rh-9299344fb816c95fb0cea634
+- rh-92d09f33d51c78d26beedf85
+- rh-92ea7238c7914541faa5c349
+- rh-93e205dad86214f248cdeaba
+- rh-941200f5b6f0153ec5fc41fb
+- rh-948cdd621c218f9f45e45e02
+- rh-94c61a9d6c72c273f7694159
+- rh-94f55a67d071d5aada0dfd49
+- rh-95415574ced208edd364c903
+- rh-956f6b7fbb81d08ffa0c7f0c
+- rh-9595970f35ec644807b20f50
+- rh-95d5166c98b684a7d7a86de6
+- rh-9623281d3907ba13d7106f15
+- rh-962638a57e4fc99bdb0c3f40
+- rh-96431a08c7857d05f570ca4f
+- rh-9774766e3b0cf371ba00a402
+- rh-97cead8ca0eb8652d94b57db
+- rh-9853d330b07cdbc3951b641f
+- rh-98628f6227bed27269c71650
+- rh-995cbae051cd7266a12aa75d
+- rh-995e97da46767e70b555dae6
+- rh-997248a9bb4d6d57f35b5aac
+- rh-99f6efd744104dae2ab0641e
+- rh-9a05dc247f012776022964b9
+- rh-9ba94264f31c94e9699f6cff
+- rh-9bc6e439907fedfe7c121daa
+- rh-9bc9205c21393059144903a6
+- rh-9cd7017ca5a3a9a9ea9f5028
+- rh-9cfcacab750dbfdbcc2fe7d5
+- rh-9d222fe8de694042817208e3
+- rh-9dd46df8904850a12b7abfc6
+- rh-9de138d2ac05dec106aee68f
+- rh-9e9331fa290628242310873c
+- rh-9eb360ef4784d43feac891b1
+- rh-9f51e631173fa9d36bda1ca5
+- rh-9fbebdd79cd88ab0bbbfc13b
+- rh-9ff8178ff8fa74ad1bfcb0ee
+- rh-a0125f6630991825faa9aebf
+- rh-a0391975f706a0a7584e7277
+- rh-a147897a3635b81184f09480
+- rh-a1ed1a599effcd7a4af40f46
+- rh-a245a98fe1ba6dff24717a28
+- rh-a3d635945ca6452adf766cb8
+- rh-a4d11044c89901b2010488ab
+- rh-a4e161cd8ffb7d031eb27d12
+- rh-a533a8057b4bd607a524cad0
+- rh-a5483cb983e5dd701b17feed
+- rh-a561b9988c625b3c34782f9a
+- rh-a6e085660ccab657c3da4cae
+- rh-a74a5d58429f7a617b053414
+- rh-a79e6b36b974f684ba1a9b9d
+- rh-a7e5719a5877ada8fb838aea
+- rh-a80c118255368f369aac554f
+- rh-a8200055905adee7227deefc
+- rh-a886a02a359d92d579fff47c
+- rh-a8ad7a266788958261fc8ba2
+- rh-a8d8d299f7c7b184e5e2d4bd
+- rh-a902d7adc3eaeec677a7f5bc
+- rh-a9685be1c13073a26ee1fe67
+- rh-aa8a329ed137cd2f620b7dfe
+- rh-ab72453e5449cf9688041176
+- rh-acb38183b1a3bc366130a267
+- rh-ad1395b295387e5287d10a94
+- rh-ad35c3c6b478bf713e912f9f
+- rh-addeb55630019e75746a4f3d
+- rh-ade89f1f7aa46d0bbeda63eb
+- rh-ae83116e9e0d6bb6ee40fb4d
+- rh-af156b155f1747fb8e5ba19d
+- rh-afd0d9967a57aa2a503c9ea1
+- rh-b0232893c11ef85733fa2110
+- rh-b02e14df7a79b7634618e269
+- rh-b03e3cd01a8f1c8288290588
+- rh-b08a1677ae6c4d7c20f69d89
+- rh-b0e96d91dcdbea3867a11b19
+- rh-b1995d4a9e3c7423e07a2870
+- rh-b1e92eaa98454de66a146992
+- rh-b2045457554779b317c0fe8d
+- rh-b24d12eb200a44b153f1a372
+- rh-b266670bb848c40b4c9ad44c
+- rh-b2ac729935cee8635946b0bf
+- rh-b327a2e742308150e9cd51d4
+- rh-b3a961708faf90e9813e80d1
+- rh-b3b565c468f44cf82216babc
+- rh-b3ea69224d95f39056fdc904
+- rh-b4ae485e7c8d1769c81d1dd5
+- rh-b4bc55105b46816d0249cce7
+- rh-b57d403622ab0d35e571126c
+- rh-b5a59015f519d27dbad78266
+- rh-b67b28a27e67057ac5df4e66
+- rh-b6d3030c2a83a7ad4eb559c0
+- rh-b72fa1734c0c15068d445399
+- rh-b74c404f25257dfd67d59f9d
+- rh-b7767dfda020bfe3e2178638
+- rh-b7a5de804f8dcc7511a21d73
+- rh-b7dbcbed17d2961db78b5425
+- rh-b82cc8fab9e202ddf0e2faaf
+- rh-b8bd37caba3700930c76e53d
+- rh-b939e7e0936f74c3c60f6d22
+- rh-b958a03bb23f14b59f3d7d48
+- rh-ba49a8fc03269996886708d3
+- rh-bbb4209fe6d9a7067f10cfa4
+- rh-bc3ebd6984cbef4402623d3d
+- rh-bcb3960fbc4d604594dc573e
+- rh-bcf18bfebb668f24b77cce8e
+- rh-bd14c6f8eabd5255431f1fa4
+- rh-bd8d13e6c3d0204cf11238f0
+- rh-bdc187cd1e11700598b11f5e
+- rh-be4dd086c2e8949e0d39f162
+- rh-be6f9ebe28c6c55bea6c9a1f
+- rh-bfbd3dec95671032ebe6f593
+- rh-bfefc3f7454203857ad2efc3
+- rh-bffb10a494f2cdc91b7bd19f
+- rh-c0f5712d51de9f819e978682
+- rh-c14b4b514645ede0f80cfcfd
+- rh-c1659e843b079d5c7e2ac0d3
+- rh-c208e41946673adb8b188fd2
+- rh-c26e785665e7680b41399ab1
+- rh-c27ea0a1ec87dc939833f09a
+- rh-c29fdd1e4a45fa9535f23409
+- rh-c2e1e476b3d389bbf04f40de
+- rh-c3a39cc9afe9e158bfd4ba03
+- rh-c47b8255394ab835cf30122b
+- rh-c4b352b74e2f3cadbbacb4c8
+- rh-c4cc5952784496c46007b44c
+- rh-c4daa7abbded27b52592586a
+- rh-c5762626672068efb0ea1096
+- rh-c59bc35bc78a078bf7419f79
+- rh-c5a343354a112859e452b8c2
+- rh-c61b7f9f40712a37d2826312
+- rh-c650d681b09837ae234fd84e
+- rh-c6b6a93a30de405a8912117a
+- rh-c79bc22133810283a132dce7
+- rh-c812618c65b8b4295358f7ce
+- rh-c88c39bddc257fbbcee6fd5e
+- rh-c8ba0c54b8f2ee64b53e328a
+- rh-c8fc5b8203f2d2f6d699de17
+- rh-c949aefdc4c7b25d845c983f
+- rh-ca563d27eb3274105086156a
+- rh-caa95407513514ce12c16443
+- rh-cac3554067e0a023810d9445
+- rh-cae355708a3862dcfbf4caba
+- rh-cae3c07ef1ac0796f708fc6d
+- rh-cb2ae44d412f60528d79138b
+- rh-cb616038d751081b8f8f8aab
+- rh-cbd7f6b98a7ef217a6323565
+- rh-cc1e1c572576f04e44a2b2c9
+- rh-cc9d5100ab3f0f8d5dabb13a
+- rh-cd479cc6b09a64f3bbda62b5
+- rh-cdf8ad25853bfd76cf6808c1
+- rh-ce0ac6a3a09f03478cbc3307
+- rh-ce12ddbc3248d56e7c3b418a
+- rh-ce6eb45643560479dddd840d
+- rh-cef8a3ddae6ee144d61b0231
+- rh-cfec35b85fbde01d6075532f
+- rh-d01731bdeebb25f290e2fe74
+- rh-d0ab51212583122a18db2c92
+- rh-d0d654025e6fb30b88d5071c
+- rh-d18218a98ecee3325ca8439d
+- rh-d28649e1a216a6e0ae67e80a
+- rh-d2efafaed45ded0f11c67fd8
+- rh-d2fae0530ddc0cabb5f6a8f4
+- rh-d356e17bb65ffcf74bdae94a
+- rh-d4220ded3a32ecfd843af0c1
+- rh-d49dd3f76fc26bb58220aa62
+- rh-d4fbfcbcf07a35137bc756ca
+- rh-d62e908c57410a804fe12716
+- rh-d7df3d2686c111fe587829c4
+- rh-d8ae6cb77b0e7e45db416fb0
+- rh-d8ee2b4bb9da5b13ac06bdda
+- rh-db8715a5d7699e4063e76c3f
+- rh-dc3569fefac77bede4593e9d
+- rh-dc7d968e9bf283d5f989bbc1
+- rh-dce080df786c53a602f18693
+- rh-dd07350ee9ed042b8cc2c9bb
+- rh-dd206460d5587729db7fa600
+- rh-ddbdd612dbb24a57b3db27bd
+- rh-ddd1b47c82fe3ebe7ce45531
+- rh-dde92554a9edfd0cac4e0fc4
+- rh-de59afb34f824d208edd5564
+- rh-deaa37dcda68de22e5fdceda
+- rh-df058512e8fc0dd634006549
+- rh-df52da617c686a6e9cce9349
+- rh-df58b9562ea7d3ec0e3a5f66
+- rh-df5bf3e097600dd079465774
+- rh-dfd51bcf6d6b94e9cc77ea2c
+- rh-e042f87fbd50a60f0d7b8f3a
+- rh-e077fcea8a10c066e0916b03
+- rh-e10732919c6c7d22d2420885
+- rh-e1952cc3d79ff2805077c5b4
+- rh-e1cb1c0bef5bba330e23e69d
+- rh-e243c959a2d712b82dcec831
+- rh-e2a2cd80406b2e1de5c7eef9
+- rh-e39e215825537297deddd98b
+- rh-e46ca9891a2220236a4d2659
+- rh-e4c5bcb04788a970f01f4f1f
+- rh-e4f70381b10aa4a5d0a76a29
+- rh-e50906063b20108ca03a0bb6
+- rh-e543713794882f6a6180740c
+- rh-e58fe388597ac863829bcc2a
+- rh-e5cc8239cede27a1a7248584
+- rh-e615b2bd7d6e5c323e94e68f
+- rh-e619cd5e764a23c98313e8cc
+- rh-e622dcbbce68b6ea16ffa21d
+- rh-e646652e1145ca602541c739
+- rh-e670d3e59c851b16e8939939
+- rh-e68744560dd0a60c70aea389
+- rh-e68bb7c6e6cc821c76221a29
+- rh-e720b89fc16a95790bb06180
+- rh-e74a1e65101b3293a412dca3
+- rh-e7b3495b961723a256f3886f
+- rh-e8bc8063fd1d3c8d83ba6e97
+- rh-e9212a659b12fe634562e6da
+- rh-e99732558cae7ceea6ef3e2a
+- rh-ea0726abfbacae3cede43124
+- rh-ea0cabda30f285bf4d387005
+- rh-eab1e9e2ce2cd7887c69b198
+- rh-eabbcaed8137e8368bba2324
+- rh-eafc00ca87313d51edf742ec
+- rh-eb29e6253aac1562097bc34b
+- rh-eb4c1adf1d3e2dd6e846eff8
+- rh-eb8a6754990360ab1d2c99c9
+- rh-ebffbffdfdbfd4442cf8df08
+- rh-ed4bc65e21fe048819612f15
+- rh-ed7647a33722a0e550965a6b
+- rh-ed8889b02ada93a81e3cffbf
+- rh-ee163e837311f021e9f6ac7d
+- rh-eed83b252dd73bc498a2e5a4
+- rh-ef4cf2a76836d9c3d72435a3
+- rh-efa437ee8c897c0459844562
+- rh-efbcb407a6d6aa3f26e89edd
+- rh-f05e041b57665e1df77f174e
+- rh-f0b6a7e912631ab289201134
+- rh-f0bffc0c49ab84e78c6d6c0b
+- rh-f11cf1a3051471c9f0c574ea
+- rh-f13bf9004d8f733ef54490bc
+- rh-f144846b0252ab501002672b
+- rh-f1ab87a7fb8b3a8d6410bcd7
+- rh-f1be09503acb2cf76783bfc1
+- rh-f1f13597ad11e8852b382b66
+- rh-f2a04588e2ad6546569313b0
+- rh-f2f7ec4dadd7e12da8a0e8f4
+- rh-f38037bf5cab5872a586e05f
+- rh-f4dbd13ec9ff0ee89eb12d3d
+- rh-f4ff36fe1df4ae78189d48f4
+- rh-f65161f08d838919a9773103
+- rh-f6a69d55e91e93bdc50a2752
+- rh-f73ca21a3133c26a0efbf55b
+- rh-f76040593729b52e26ebd68a
+- rh-f8b44d177783b9dc6edef357
+- rh-f8b5660f4a2133a06626b818
+- rh-f93e50214c2c6df95d3d5bea
+- rh-f98d2420e70fb183a75a580d
+- rh-f9a8fa61d51e125886cfc9f1
+- rh-fa3345db6cf63b5b95893594
+- rh-fb09fb6e421f7cc76790cc17
+- rh-fbc5a1279c18c24e11b8e037
+- rh-fbd155cb2f1b10a771d51777
+- rh-fc007dd2a2bc25d3d290af3f
+- rh-fc7ecbe992f9c71294e0019b
+- rh-fca050231c1e9b5c76f30751
+- rh-fd85da643db49b0ceaf0da70
+- rh-fd9743954c32adddb110b3ea
+- rh-fe3894033dd7ecaaf4d89e2d
+- rh-feab7d15baca84dbc2583f87
+- rh-ffa850808587fa4e75d469f2
+unresolved: []

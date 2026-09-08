@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3bd142de8c721c9b225f2f5e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1597
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 为了聚集起我们这样志同道合的人
+sensory_mapping: 道路；行进方向；队伍汇合；共同终点
+context_fact: 聚会者来自不同职业，游戏根据投入和回答筛选他们，随后意见相反者被逐出。
+image_mechanism: 散落社会各处的玩家被放在一张路线图上，游戏像路标把方向相同者引到咖啡馆；握手成立组织则是旅伴正式并队。
+property_alignment: 共同反人类倾向对应相同志向；欢迎三体介入对应共同道路；玩家原本分散对应各自起行；游戏筛选对应路标召集；聚会结盟对应队伍汇合
+context_alignment: 汪淼追问“什么志和什么道”重新激活熟语的两个构件，迫使潘寒把含混的共同方向落实为对三体到来的态度。
+narrative_function: 说明游戏的招募用途，并自然开启价值立场测验。
+transfer_rule: 以同道写联盟时，应分别说明共同终点、共同路线和汇合机制，避免把暂时兴趣相同等同政治一致。
+failure_boundary: 成员只共享爱好、最终目标冲突或手段彼此排斥时，同道会虚构团结；本场筛人正为排除此类差异。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 《三体》用于识别并召集对人类和三体文明持相近价值立场的人
+vehicle: 怀有同一志向、沿同一条道路向同一目的地行进的旅伴汇合
+ground: 共同价值目标对应相同志向；实现目标的方法立场一致对应走同一路径；游戏招募对应把分散行者召到一起

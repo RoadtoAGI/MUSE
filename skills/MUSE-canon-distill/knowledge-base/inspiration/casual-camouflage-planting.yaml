@@ -1,0 +1,34 @@
+card_id: casual-camouflage-planting
+pattern_name: 低显著伏笔·命运兑现
+dramatic_function: 把关键预告或致命装置藏进不可信声音与家常闲谈，首读如噪音；隔段引爆零解释，兑现读作命中注定，重读变结构锁扣
+applicability: 适用于长线伏笔与命运感营造；登记与引爆须隔开足够距离，旁白额外提示或当场亮当场用即失天意感
+reuse_candidates:
+- 补丁脸
+- 影子刺客
+- 三重预言措辞
+- 花园走电电线与狗触电的具体细节
+- 床头木箱藏枪
+tags:
+- 伏笔
+- 预言
+- 不可信声音
+- 重读回报
+- 契诃夫之枪
+- 凶兆登记
+source_scenes:
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S01
+  note: 弄臣歌谣在荒诞表层下预告后续影子杀局
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S15
+  note: 幻象以碎片形式给出命运线索而不解释
+- novel: 雷雨
+  scene_id: A3
+  note: 大海的枪被母亲缴入床头木箱，完成装填
+- novel: 雷雨
+  scene_id: A4
+  note: 电线凶兆以仆人闲谈报到，书房枪声幕后引爆
+phase_affinity:
+- 3
+- 4
+- 5

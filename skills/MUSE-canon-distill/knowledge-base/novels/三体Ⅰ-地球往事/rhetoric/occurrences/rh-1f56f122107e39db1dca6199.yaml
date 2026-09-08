@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1f56f122107e39db1dca6199
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L914
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 我是个一眼能从嘴巴看到屁眼的直肠子
+sensory_mapping: 视觉；身体内部；直线空间；口腔到排泄；语言风格
+context_fact: 大史解释自己不想终极哲学，且因直率不得领导喜欢。
+image_mechanism: 人格被剖成一根透明直管，目光从说话的嘴一路穿到最粗俗的出口；思考、修饰和隐藏都没有可停留的弯道。
+property_alignment: 话从口中直接出来对应内容沿直管通过；不绕弯对应肠道没有曲折；没有隐瞒对应入口可看见出口；表达粗俗对应以身体消化器官自喻
+context_alignment: 污俗身体词完全符合大史声音，也以实际句法示范他所说的毫无遮掩。
+narrative_function: 自画像式确立大史的直率声音，并与汪淼抽象思维对照。
+transfer_rule: 让角色用身体结构自喻时，应让结构形态、措辞粗雅和角色真实说话方式三者一致。
+failure_boundary: 直率不等于诚实无误；人物若擅长策略隐瞒或语言委婉，透明直管会与行为冲突。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 大史自称说话行事直接、粗俗、没有隐藏层次
+vehicle: 一条从入口到出口笔直贯通、可一眼望到底的肠管
+ground: 话从口中直接出来对应内容沿直管通过；不绕弯对应肠道没有曲折；没有隐瞒对应入口可看见出口；表达粗俗对应以身体消化器官自喻

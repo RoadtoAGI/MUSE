@@ -1,0 +1,35 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 进入
+  dimension: camera
+  original_move: 用排雷式移动呈现城市危险
+  ai_default_failure: 先堆坍塌玻璃锈车街景
+  transfer_rule: 危险环境可先写角色怎么走
+  quote: 像排雷小组
+- pattern_id: 13-p2
+  beat: 搜索
+  dimension: verb
+  original_move: 动作链压缩卖场搜索
+  ai_default_failure: 描写冷藏库内部画面
+  transfer_rule: 恐怖空间可只给气味和反应
+  quote: 酸臭气味自黑暗中倾泻
+- pattern_id: 13-p3
+  beat: 居民楼
+  dimension: omission
+  original_move: 尸体旁扯毯子而零反应
+  ai_default_failure: 补心理恶心或见惯死亡
+  transfer_rule: 末世阈值用不反应表现
+  quote: 将毯子扯下床
+- pattern_id: 13-p4
+  beat: 收尾
+  dimension: overall
+  original_move: 西装外套改作孩子保暖层
+  ai_default_failure: 评论体面旧物的荒谬
+  transfer_rule: 物件功能转换自己产生意味
+  quote: 披上两件西装外套
+overall_traits:
+- 系统性落空建立世界观
+- 嗅觉触觉常先于视觉
+- 不反应即最深反应

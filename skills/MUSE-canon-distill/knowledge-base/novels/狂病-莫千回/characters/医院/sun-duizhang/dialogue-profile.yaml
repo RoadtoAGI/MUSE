@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--sun-duizhang
+work_id: novel:狂病-莫千回
+display_name: 孙队长
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '感染前的孙队长几乎不靠言语，只靠命令与行动：他的"声音"是把感染者顶回病房的身体、是"别开枪让我解脱、带他走、锁门"这种不容置疑的处置式短令——队长式的、压住恐惧的、只说必须做的事。感染之后，他丧失了人类语言，只剩感染者的癫狂大笑，唯一穿透疯狂残留下来的词是反复嘶喊的"骗子"——一个失去了句子、只剩指控核心的声音，连被汽油点燃仍在喊。
+
+
+    佐证：scenes/scene_YY-S03.md:L23-L23 / scenes/scene_YY-S10.md:L9-L9 / scenes/scene_YY-S10.md:L41-L41'
+  evidence_locators:
+  - scenes/scene_YY-S03.md:L23-L23
+  - scenes/scene_YY-S10.md:L9-L9
+  - scenes/scene_YY-S10.md:L41-L41
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

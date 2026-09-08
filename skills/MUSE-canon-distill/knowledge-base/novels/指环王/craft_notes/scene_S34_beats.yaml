@@ -1,0 +1,28 @@
+scene_id: S34
+source_notes: scene_S34_beats.md
+patterns:
+- pattern_id: S34-p1
+  beat: 索隆之口谈判
+  dimension: omission
+  original_move: 嘲讽多话对阵无言凝视，阿拉贡仅一个动词「盯住」
+  ai_default_failure: 写阿拉贡心中涌起一股王者的威严
+  transfer_rule: 力量悬殊的交锋用多话对沉默，不进强者内心
+  quote: 他盯住对方的眼睛不放
+- pattern_id: S34-p2
+  beat: 夺回信物
+  dimension: info_density
+  original_move: 「我们会接受这些」语义双关，五个硬动词两句完成夺还
+  ai_default_failure: 让甘道夫逐条论证为什么拒绝条件
+  transfer_rule: 长谈判的转折交给一个歧义代词加骤然提速的动作
+  quote: 至于你的条件，我们全部拒绝
+- pattern_id: S34-p3
+  beat: 皮平的内心
+  dimension: omission
+  original_move: 临战内心只剩碎片愿望：想梅里、想干掉几个、想阳光
+  ai_default_failure: 写大段「此刻他知道自己为什么而战」
+  transfer_rule: 绝境士兵心理用碎念与「希望」连用，不写觉悟
+  quote: 我真希望还能再见到清朗的阳光
+overall_traits:
+- 谈判本身就是一场心理战
+- 普通人碎念是进入万人战场的入口
+- 明知会死的清醒，不自欺能赢

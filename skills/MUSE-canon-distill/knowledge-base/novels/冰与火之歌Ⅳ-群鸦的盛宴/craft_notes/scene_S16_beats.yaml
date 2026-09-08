@@ -1,0 +1,35 @@
+scene_id: S16
+source_notes: scene_S16_beats.md
+patterns:
+- pattern_id: S16-p1
+  beat: 梦中的灰衣女人
+  dimension: omission
+  original_move: 用线索指向母亲但不确认
+  ai_default_failure: 让角色内心直接说出母亲
+  transfer_rule: 梦境象征要让读者自己闭合
+  quote: 我不是你姐姐
+- pattern_id: S16-p2
+  beat: 醒来初雪
+  dimension: camera
+  original_move: 触觉到视觉到体感拉回现实
+  ai_default_failure: 醒后立刻反思梦的意义
+  transfer_rule: 重大象征后先写物理动作
+  quote: 血从来不会这么冷
+- pattern_id: S16-p3
+  beat: 童年记忆
+  dimension: omission
+  original_move: 一句雪球写出失去而不感伤
+  ai_default_failure: 把失去的痛苦展开成长段内心
+  transfer_rule: 旧关系断裂前给一个轻记忆
+  quote: 你得有两只手才行
+- pattern_id: S16-p4
+  beat: 烧信
+  dimension: omission
+  original_move: 无解释，只用烧信动作完成决裂
+  ai_default_failure: 插入心理描写解释为什么烧信
+  transfer_rule: 情感转折最大时让行动作解释
+  quote: 把它烧了吧
+overall_traits:
+- 梦不解释醒来不反思
+- 物理细节承载全部情感
+- 高潮处持续减速到静止

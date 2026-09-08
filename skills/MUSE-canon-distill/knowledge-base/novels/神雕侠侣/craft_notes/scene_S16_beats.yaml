@@ -1,0 +1,28 @@
+scene_id: S16
+source_notes: scene_S16_beats.md
+patterns:
+- pattern_id: S16-p1
+  beat: 花树上的刺客
+  dimension: camera
+  original_move: 俯拍旁观框架，复仇行动被来者出现自然打断
+  ai_default_failure: 写树上凝视窗户回忆屈辱的内心戏
+  transfer_rule: 旁观者场景只给定格画面，省略前置等待
+  quote: 将心一横，正要从木笔花树上跳下
+- pattern_id: S16-p2
+  beat: 伸出右臂来
+  dimension: verb
+  original_move: 用刑罚动词「斩」写执法非发怒，一顿泄露犹豫
+  ai_default_failure: 写心如刀绞身为大侠岂能的独白
+  transfer_rule: 让行动承载情感，微停顿胜过万语
+  quote: 挥剑削下，剑到半空时微微一顿
+- pattern_id: S16-p3
+  beat: 杨过不下手
+  dimension: omission
+  original_move: 从仇恨到放下的逻辑链全留白，只给生理反应
+  ai_default_failure: 把转变写成明白仇恨虚无的顿悟
+  transfer_rule: 道德选择放进世俗混乱情境，不庄严化
+  quote: 心中一酸，眼眶儿红了
+overall_traits:
+- 旁观者视角：随情绪震荡而非行动推进
+- 「下不了手」三字保留想报仇的真实
+- 最深道德选择发生在最世俗情境

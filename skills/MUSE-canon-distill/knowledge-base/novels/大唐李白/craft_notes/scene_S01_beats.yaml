@@ -1,0 +1,14 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 月娘评诗
+  dimension: info_density
+  original_move: 用评诗同时塑造月娘与少年李白
+  ai_default_failure: 先展示原诗再解释人物反应
+  transfer_rule: 可在才学场景用品鉴替代事件推进
+  quote: 看似是一初生小驹
+overall_traits:
+- 以品鉴代替叙事动作
+- 原诗缺席制造参与感
+- 夫妻问答兼作双人素描

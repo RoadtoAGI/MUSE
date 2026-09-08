@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c4cc5952784496c46007b44c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1825
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 基地用于与外界联系的常规军用电台只是个玩具
+sensory_mapping: 小型器具；塑料轻感；儿童操作；真机与模型尺度
+context_fact: 红岸接收系统仍在检修，叶文洁只能请求用基地军用电台监听太阳回波。
+image_mechanism: 军用设备在更强系统旁骤然缩小、变轻，旋钮和天线保留真机外观，内部能力却像儿童模型；临时监听因此显得近乎荒谬。
+property_alignment: 军用电台对应玩具设备；红岸系统对应专业真机；灵敏度差距对应玩具性能低；监听深空回波对应让玩具承担工程任务；仅能收极强信号对应玩具功能有限
+context_alignment: 叶文洁的太阳放大理论若正确，极强回波本可让“玩具”也收到，贬低反而校准了实验所需增益。
+narrative_function: 直观标出备用接收能力的悬殊，增加等待回波的不确定性。
+transfer_rule: 把弱设备称为玩具时，应给出同类专业基准、关键性能数量级差和任务为何超出能力。
+failure_boundary: 设备只是便携但性能足够、任务本来简单，或比较对象功能不同不可直接对照时，玩具会成为轻率贬损。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 基地常规电台相对红岸接收系统灵敏度和能力极低，几乎无法接收预期微弱回波
+vehicle: 供儿童摆弄、外形像真设备却性能有限的玩具机器
+ground: 常规电台功能尺度远低于红岸对应玩具仿真却弱小；用它承担深空接收不现实对应玩具无法完成专业任务

@@ -1,0 +1,811 @@
+schema_version: dialogue-corpus/v1
+catalogs:
+- catalog_id: canon_backbone_v1
+  file: canon_backbone_v1.yaml
+  status: planned_or_available
+works:
+- work_id: novel:2666
+  title: '2666'
+  directory: novels/2666
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 罗贝托·波拉尼奥
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 22
+    indexed_scenes: 22
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 22
+- work_id: novel:I Am Legend
+  title: I Am Legend
+  directory: novels/I Am Legend
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: Richard Matheson
+  aliases: []
+  editions:
+  - edition_id: current
+    language: en
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 15
+    indexed_scenes: 10
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 15
+- work_id: novel:三体Ⅰ-地球往事
+  title: 三体Ⅰ-地球往事
+  directory: novels/三体Ⅰ-地球往事
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: partial
+  author: 刘慈欣
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 23
+    indexed_scenes: 23
+    dialogue_events: 0
+    dialogue_profiles: 1
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 23
+- work_id: novel:三体Ⅱ-黑暗森林
+  title: 三体Ⅱ-黑暗森林
+  directory: novels/三体Ⅱ-黑暗森林
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 刘慈欣
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 29
+    indexed_scenes: 29
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 29
+- work_id: novel:三体Ⅲ-死神永生
+  title: 三体Ⅲ-死神永生
+  directory: novels/三体Ⅲ-死神永生
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 刘慈欣
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 28
+    indexed_scenes: 28
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 28
+- work_id: novel:你好，旧时光
+  title: 你好，旧时光
+  directory: novels/你好，旧时光
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 八月长安
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 18
+    indexed_scenes: 18
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 18
+- work_id: novel:信（东野圭吾）
+  title: 信（东野圭吾）
+  directory: novels/信（东野圭吾）
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: partial
+  author: 东野圭吾
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 22
+    indexed_scenes: 22
+    dialogue_events: 0
+    dialogue_profiles: 6
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 22
+- work_id: novel:冰与火之歌Ⅰ-权力的游戏
+  title: 冰与火之歌Ⅰ-权力的游戏
+  directory: novels/冰与火之歌Ⅰ-权力的游戏
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 乔治·R·R·马丁
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 20
+    indexed_scenes: 20
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 20
+- work_id: novel:冰与火之歌Ⅱ-列王的纷争
+  title: 冰与火之歌Ⅱ-列王的纷争
+  directory: novels/冰与火之歌Ⅱ-列王的纷争
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 乔治·R·R·马丁
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 27
+    indexed_scenes: 27
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 27
+- work_id: novel:冰与火之歌Ⅲ-冰雨的风暴
+  title: 冰与火之歌Ⅲ-冰雨的风暴
+  directory: novels/冰与火之歌Ⅲ-冰雨的风暴
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 乔治·R·R·马丁
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 26
+    indexed_scenes: 26
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 26
+- work_id: novel:冰与火之歌Ⅳ-群鸦的盛宴
+  title: 冰与火之歌Ⅳ-群鸦的盛宴
+  directory: novels/冰与火之歌Ⅳ-群鸦的盛宴
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 乔治·R·R·马丁
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 16
+    indexed_scenes: 16
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 16
+- work_id: novel:冰与火之歌Ⅴ-魔龙的狂舞
+  title: 冰与火之歌Ⅴ-魔龙的狂舞
+  directory: novels/冰与火之歌Ⅴ-魔龙的狂舞
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 乔治·R·R·马丁
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 25
+    indexed_scenes: 25
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 25
+- work_id: novel:大唐李白
+  title: 大唐李白
+  directory: novels/大唐李白
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 张大春
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 25
+    indexed_scenes: 25
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 25
+- work_id: novel:射雕英雄传
+  title: 射雕英雄传
+  directory: novels/射雕英雄传
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: partial
+  author: 金庸
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 31
+    indexed_scenes: 31
+    dialogue_events: 3
+    dialogue_profiles: 12
+    annotated: 3
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 28
+- work_id: novel:指环王
+  title: 指环王
+  directory: novels/指环王
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: J.R.R.托尔金
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 37
+    indexed_scenes: 37
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 37
+- work_id: novel:挪威的森林
+  title: 挪威的森林
+  directory: novels/挪威的森林
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 村上春树
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 15
+    indexed_scenes: 15
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 15
+- work_id: novel:斯通纳
+  title: 斯通纳
+  directory: novels/斯通纳
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 约翰·威廉斯
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 17
+    indexed_scenes: 17
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 17
+- work_id: novel:日耳曼涅槃
+  title: 日耳曼涅槃
+  directory: novels/日耳曼涅槃
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: partial
+  author: 幽冷秋月
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 30
+    indexed_scenes: 30
+    dialogue_events: 0
+    dialogue_profiles: 5
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 30
+- work_id: novel:月亮与六便士
+  title: 月亮与六便士
+  directory: novels/月亮与六便士
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 毛姆
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 14
+    indexed_scenes: 14
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 14
+- work_id: novel:流浪地球
+  title: 流浪地球
+  directory: novels/流浪地球
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 刘慈欣
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 15
+    indexed_scenes: 15
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 15
+- work_id: novel:海的女儿
+  title: 海的女儿
+  directory: novels/海的女儿
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: partial
+  author: 汉斯·克里斯蒂安·安徒生
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 6
+    indexed_scenes: 6
+    dialogue_events: 0
+    dialogue_profiles: 4
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 6
+- work_id: novel:狂病-莫千回
+  title: 狂病-莫千回
+  directory: novels/狂病-莫千回
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: partial
+  author: 莫千回
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 145
+    indexed_scenes: 145
+    dialogue_events: 0
+    dialogue_profiles: 63
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 145
+- work_id: novel:现实一种
+  title: 现实一种
+  directory: novels/现实一种
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 余华
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 13
+    indexed_scenes: 13
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 13
+- work_id: novel:白鹿原
+  title: 白鹿原
+  directory: novels/白鹿原
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 陈忠实
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 23
+    indexed_scenes: 23
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 23
+- work_id: novel:神雕侠侣
+  title: 神雕侠侣
+  directory: novels/神雕侠侣
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 金庸
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 30
+    indexed_scenes: 30
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 30
+- work_id: novel:穿越东汉末年
+  title: 穿越东汉末年
+  directory: novels/穿越东汉末年
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: unknown
+  aliases: []
+  editions:
+  - edition_id: current
+    language: unknown
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 0
+    indexed_scenes: 0
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 0
+- work_id: novel:简·爱
+  title: 简·爱
+  directory: novels/简·爱
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: unknown
+  aliases: []
+  editions:
+  - edition_id: current
+    language: unknown
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 0
+    indexed_scenes: 0
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 0
+- work_id: novel:红与黑
+  title: 红与黑
+  directory: novels/红与黑
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: unknown
+  aliases: []
+  editions:
+  - edition_id: current
+    language: unknown
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 0
+    indexed_scenes: 0
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 0
+- work_id: novel:绍宋
+  title: 绍宋
+  directory: novels/绍宋
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 榴弹怕水
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 19
+    indexed_scenes: 19
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 19
+- work_id: novel:长路
+  title: 长路
+  directory: novels/长路
+  medium: novel
+  canon_class: registered
+  source_status: available
+  processing_status: unresolved
+  author: 科马克·麦卡锡
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 14
+    indexed_scenes: 14
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 14
+- work_id: novel:阿Q正传
+  title: 阿Q正传
+  directory: novels/阿Q正传
+  medium: novel
+  canon_class: canonical
+  source_status: available
+  processing_status: unresolved
+  author: 鲁迅
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 13
+    indexed_scenes: 12
+    dialogue_events: 0
+    dialogue_profiles: 0
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 13
+- work_id: drama:Macbeth
+  title: Macbeth
+  directory: dramas/Macbeth
+  medium: drama
+  canon_class: registered
+  source_status: available
+  processing_status: partial
+  author: William Shakespeare
+  aliases: []
+  editions:
+  - edition_id: current
+    language: en
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 27
+    indexed_scenes: 27
+    dialogue_events: 0
+    dialogue_profiles: 5
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 27
+- work_id: drama:哈姆雷特
+  title: 哈姆雷特
+  directory: dramas/哈姆雷特
+  medium: drama
+  canon_class: canonical
+  source_status: available
+  processing_status: partial
+  author: 威廉·莎士比亚
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 20
+    indexed_scenes: 20
+    dialogue_events: 1
+    dialogue_profiles: 7
+    annotated: 1
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 19
+- work_id: drama:雷雨
+  title: 雷雨
+  directory: dramas/雷雨
+  medium: drama
+  canon_class: canonical
+  source_status: available
+  processing_status: partial
+  author: 曹禺
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 6
+    indexed_scenes: 6
+    dialogue_events: 0
+    dialogue_profiles: 8
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 6
+- work_id: drama:麦克白
+  title: 麦克白
+  directory: dramas/麦克白
+  medium: drama
+  canon_class: canonical
+  source_status: available
+  processing_status: partial
+  author: William Shakespeare
+  aliases: []
+  editions:
+  - edition_id: current
+    language: zh
+    translator: unknown
+    rights: unreviewed
+  counts:
+    scene_files: 27
+    indexed_scenes: 27
+    dialogue_events: 0
+    dialogue_profiles: 4
+    annotated: 0
+    no_dialogue: 0
+    excluded: 0
+    unresolved: 27

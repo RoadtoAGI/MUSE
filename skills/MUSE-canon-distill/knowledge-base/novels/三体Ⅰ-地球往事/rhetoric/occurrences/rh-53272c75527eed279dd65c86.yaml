@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-53272c75527eed279dd65c86
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L589
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: “红色联合”的指挥官心急如焚
+sensory_mapping: 温度；痛觉；心理
+context_fact: 他担心守军引爆十几个装满炸药的铁炉。
+image_mechanism: 外部真实存在的炸药危险被内收到胸腔，焦急变成持续灼烧；熟语在火种与火炭密布的段落中重新获得实火温度。
+property_alignment: 焦虑持续侵扰对应火焰持续灼烧；紧迫难耐对应高温疼痛；心绪失稳对应燃烧消耗
+context_alignment: 同句布满火种、炸药、火炭，心中之火与将爆现场互相照应。
+narrative_function: 压缩指挥官对爆炸风险的急迫感。
+transfer_rule: 采用熟语时，可让周边物理环境提供同源感官细节，使惯用映射获得当前场景的具体温度。
+failure_boundary: 人物只是理性催促或缓慢忧虑，且场景没有灼热危险时，“焚”会把情绪强度写得过高。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 指挥官面对楼内炸药威胁时的极度焦急
+vehicle: 火焰正在灼烧人的内心
+ground: 焦虑持续侵扰对应火焰持续灼烧；紧迫难耐对应高温疼痛；心绪失稳对应燃烧消耗

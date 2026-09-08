@@ -1,0 +1,22 @@
+mode: reference
+display_name: 李萍
+role_slug: li-ping
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_01.md
+  - scenes/scene_13.md
+built_at: 2026-04-14T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 6
+coverage_note: |
+  李萍全书共出场 2 个场景（S01 牛家村惨变、S13 李萍自刎），本次蒸馏两场景全部覆盖：
+  - S01 提供她作为"被动承受者"的起点镜像（被抛下马、"使不得"、"这些小鸡小猫呢"）
+  - S13 提供她全部的个性显影：挑破锦囊看密令的绣娘聪明、临终独白的完整结构、自刎动作的速度与温柔
+
+  两场景信号充分互补——S01 的沉默/被动 vs S13 的主动/清醒形成的反差本身就是她的弧光。
+  未破例读 full_text.md，所有断言都由两场景切片直接佐证。
+
+  可能未覆盖的侧面：蒙古大漠独立抚养郭靖的二十年（第3-5回）——这段她几乎不出场，只作为"郭靖的母亲"被提及。
+  她的隐忍性格在 S13 临终独白中已显影（"想我当年忍辱蒙垢"一句收束），无需单独补证。

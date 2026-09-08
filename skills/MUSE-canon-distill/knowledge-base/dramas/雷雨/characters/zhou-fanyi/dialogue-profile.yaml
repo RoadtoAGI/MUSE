@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:zhou-fanyi
+work_id: drama:雷雨
+display_name: 周蘩漪
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '蘩漪的台词在"忧郁低声"和"尖锐爆发"之间高速切换——同一场内可以从"我不愿意躺在床上"的温柔低咳跳到"你父亲是第一个伪君子"的当面揭穿。她最常用的句式是"我不"——"我不愿意""我没有病""我不是他的母亲""我不是周朴园的妻子"——但每个"我不"都是一个未说出的"我要"的反面。她会突然用"怪笑""狂笑""冷笑""尖声笑"打断对话节奏（作者标了二十多处她的"笑"），笑是她最常用的进攻武器。她对萍说话时常用第二人称的逼问（"你忘了""你父亲就……""你欠了我一笔债"），把萍永远逼到"被告"的位置。**她的最深声音特征：在恳求的瞬间她仍能威胁**——A4
+    对萍说"如果今天你不走，你父亲那儿我可以替你想法子"——"替你想法子"和"叫四凤回来"是同一句话里的两件事：恳求即威胁。
+
+
+    佐证：scenes/scene_A1.md:L385-L399（喝药一场——"我不想喝"+"留着我晚上喝不成么"+"我喝，我现在喝"——从忍到抗到投降的声音斜坡）；scenes/scene_A4.md:L131-L143（A4 长段恳求萍带她走"我从来不肯对人这样低声下气说话"——但同段里"叫她回来还来得及"是威胁不是恳求）'
+  evidence_locators:
+  - scenes/scene_A1.md:L385-L399
+  - scenes/scene_A4.md:L131-L143
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

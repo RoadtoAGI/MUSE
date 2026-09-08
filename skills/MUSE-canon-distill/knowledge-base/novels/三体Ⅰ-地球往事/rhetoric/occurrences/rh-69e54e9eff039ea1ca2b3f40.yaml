@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-69e54e9eff039ea1ca2b3f40
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1447
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 那些海量计算
+sensory_mapping: 视觉广度；水体体量；数量压迫；空间无边
+context_fact: 冯·诺伊曼已判断全世界数学家工作到末日也算不完，汪淼追问将用什么执行。
+image_mechanism: 离散运算被汇成连续海面，单个步骤像水滴消失在总体中；提问者面对的已不是一叠题，而是一片无法徒步越过的水域。
+property_alignment: 运算条目数量巨大对应水滴无数；任务覆盖范围广对应海面辽阔；人工完成困难对应个体被海量压倒
+context_alignment: 紧邻“三千万人”的解法，海的总体尺度为随后以人海对抗计算海建立数量对称。
+narrative_function: 快速放大算力缺口，让人列计算机的夸张规模获得必要性。
+transfer_rule: 以海量写数量时，应让对象具有可累加单元、总体不可直观计数和压倒常规处理能力的规模。
+failure_boundary: 对象只有几十或几百项、能轻易枚举，或难点来自单项复杂而非数量时，海量会错报问题性质。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 求取三体数值解所需的极大数量运算
+vehicle: 铺展无边、难以逐滴计数的海水总量
+ground: 运算项目极多对应海水水滴不可胜数；总任务远超个人能力对应海面尺度压倒人体

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fbc5a1279c18c24e11b8e037
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2417
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 那个在永远如春的美丽温室中娇生惯养的社会
+sensory_mapping: 恒温暖意；玻璃屏障；春日花木；人工呵护；外界严寒
+context_fact: 元首反驳监听员对地球自由美感的向往，认为民主文化型文明在三体乱纪元中极其短命。
+image_mechanism: 地球行星系统被罩进恒温玻璃，历史灾难仍被视作园内小波动；文化成为漂亮植物，正因从未暴露于三日乱序的极寒烈热而缺少三体式硬化。
+property_alignment: 单太阳稳定对应温室恒温；气候宜居对应永远如春；地球社会对应被培育植物；文化丰富对应花朵繁盛；缺少乱纪元对应隔绝风霜；三体判断其脆弱对应娇生惯养
+context_alignment: 该比喻出自三体元首，既准确呈现环境差异，也携带三体社会把麻木专制等同生存力的价值偏见。
+narrative_function: 用环境培育模型概括两种文明性格差异，并显示侵略者对地球的轻视与嫉羡。
+transfer_rule: 用温室写文明时，应明确保护层、稳定条件、内部繁荣、未受考验的抗逆性以及评价者的立场。
+failure_boundary: 社会长期经历同等级灭绝灾难仍保持制度，或环境并不稳定且繁荣来自主动适应时，娇养温室会歪曲韧性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 在单一太阳、气候相对稳定且长期免受乱纪元灭绝考验的地球文明
+vehicle: 温度恒定、四季如春并隔绝外界风霜的美丽温室，以及其中被精心养护的娇嫩植物
+ground: 地球稳定环境对应温室恒温；文明少受行星灾变对应植物免受风霜；自由文化繁盛却抗逆弱对应花木美丽娇嫩

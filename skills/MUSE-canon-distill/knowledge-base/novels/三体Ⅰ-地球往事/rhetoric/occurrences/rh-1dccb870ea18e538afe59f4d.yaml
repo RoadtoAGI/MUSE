@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1dccb870ea18e538afe59f4d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1853
+chapter: 第24章 红岸之六
+figure_type: simile
+quote: 幽灵般潜行在深海下的战略核潜艇
+sensory_mapping: 黑暗深水；无声移动；半透明缺席；寒意；突然现身
+context_fact: 美苏核潜艇携带足以毁灭上百城市的分导弹头，在海下维持二次打击能力。
+image_mechanism: 巨型钢铁舰体在海水黑暗中失去重量与声响，只留下看不见的死亡存在；它不必浮出，城市已被一个幽灵般的可能攻击跟随。
+property_alignment: 深海隐蔽对应幽灵不可见；静音航行对应幽灵无声；难以追踪对应没有实体足迹；核弹头对应索命力量；长期巡弋对应阴魂不散
+context_alignment: 普通人对核威胁一笑置之，幽灵意象强调危险虽然不在视野中，却始终贴近文明。
+narrative_function: 为抽象核威慑赋予潜行死亡形态，扩大冷战场景的阴森感。
+transfer_rule: 把隐蔽载具写成幽灵时，应对齐低可见低可听、难追踪、持续潜伏和突然致命能力。
+failure_boundary: 载具噪声巨大、位置公开或不具威胁时，幽灵会只剩黑暗环境装饰。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 在深海中隐蔽航行、难以发现却携带巨大核毁灭力的战略潜艇
+vehicle: 无声穿过黑暗、没有清晰实体踪迹并会突然现身索命的幽灵
+ground: 潜艇隐身不留可见轨迹对应幽灵不可见；潜藏致命武器对应亡灵带来死亡威胁

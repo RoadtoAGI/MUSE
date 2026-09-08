@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e46ca9891a2220236a4d2659
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2156
+chapter: 第30章 地球三体运动
+figure_type: simile
+quote: 对他(她)的美好想象便如同野火般蔓延
+sensory_mapping: 火线推进；热浪；亮光扩散；干草连燃；失控速度
+context_fact: 拯救派无法直接看见三体社会，却不断丰富其美好形象，最终形成宗教感情。
+image_mechanism: 每一处认知空白变成干草，一点浪漫猜测落火后沿群体渴望连片点燃；想象越丰富，火势越脱离最初那束有限电波。
+property_alignment: 最初外星消息对应火种；未知细节对应干燥可燃物；个人幻想传给群体对应火线越界；想象迅速丰富对应火势增大；宗教化难逆转对应野火失控
+context_alignment: 三体运动已经被写成燎原之势，野火既说明拯救派幻想的扩散，也与整场运动的政治传播互相照应。
+narrative_function: 把抽象集体投射改写为自我加速的传播过程，提示其危险性。
+transfer_rule: 用野火写观念传播时，应指出火种、连续传播介质、加速条件和失控后果，不能只借用热烈色彩。
+failure_boundary: 想象局限于单个人、传播缓慢且不断受证据校正，或群体环境对其普遍抵制时，野火蔓延会夸大速度与自发性。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 缺少事实约束时，人类精英对三体文明的美化想象在人群与意识中快速扩张
+vehicle: 旷野火焰借连续可燃物自行传播，范围迅速扩大且难以控制
+ground: 想象从一点扩散对应火线蔓延；未知空间为幻想提供材料对应旷野可燃物；传播失控对应野火难扑灭

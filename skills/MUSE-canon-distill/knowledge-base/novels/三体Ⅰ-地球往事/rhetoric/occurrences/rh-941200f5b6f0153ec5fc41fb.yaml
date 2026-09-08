@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-941200f5b6f0153ec5fc41fb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2699
+chapter: 第36章 尾声·遗址
+figure_type: simile
+quote: 在阴霾的雾气中行走了一天，现在一下子看到了在西天灿烂照耀着的太阳和湛蓝的晴空，真像登入另一个世界
+sensory_mapping: 阴雾灰暗；峰顶破云；金色阳光；湛蓝天空；跨界眩亮
+context_fact: 叶文洁与众人重返已拆除的红岸基地，登峰途中整天处于阴霾，峰顶刚探出云层。
+image_mechanism: 云层成为两个世界的边界膜，登山不是高度增加而是穿界；脚下仍是阴霾旧世，峰顶则在一次抬头中换成蓝金色宇宙。
+property_alignment: 云下阴霾对应原世界；云上晴空对应另一世界；登山穿云对应跨越边界；光线骤亮对应新环境规则；雷达峰孤立对应异界入口；行走一天对应漫长抵达
+context_alignment: 红岸曾是叶文洁通向外星世界的门，结尾重返时地理穿云再次具备世界转换含义。
+narrative_function: 以光色跃迁开启终章圣地般氛围，并呼应红岸造成的文明跨界。
+transfer_rule: 用另一个世界写景观突变时，应有清晰边界、跨越动作、光色气候多项同时变化和地点的叙事转界意义。
+failure_boundary: 天气渐变、没有越界节点，或两侧景观差异只在单一颜色上时，登入异界会夸大转换。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 登山者穿过整日阴雾后随雷达峰顶升出云层，视野和光线骤然转换到晴朗云海上方
+vehicle: 跨过世界边界，从灰暗封闭的旧世界进入阳光、蓝天和全新空间规则的另一世界
+ground: 云层上下气象截然不同对应两个世界；穿雾登峰对应越界进入；光色骤变对应新世界显现

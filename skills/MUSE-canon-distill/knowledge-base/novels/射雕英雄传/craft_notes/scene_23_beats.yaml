@@ -1,0 +1,27 @@
+scene_id: '23'
+source_notes: scene_23_beats.md
+patterns:
+- pattern_id: 23-p1
+  beat: 物件建立世界
+  dimension: camera
+  original_move: 不写面容心境，褪色长袍加乐器声建立说书场
+  ai_default_failure: 写老者面容凝重目光忧国等表情定调
+  transfer_rule: 人物出场先给随身物件与声音，省略神态
+  quote: 青布长袍早洗得褪成了蓝灰色
+- pattern_id: 23-p2
+  beat: 反问代替结论
+  dimension: omission
+  original_move: 政治真相用市井反问点破，结论留给听者推导
+  ai_default_failure: 让角色把政治分析义正词严说透
+  transfer_rule: 敏感主题借小人物随口反问，不给结论
+  quote: 高宗皇帝他又做甚么呀？
+- pattern_id: 23-p3
+  beat: 生活细节铺陈
+  dimension: info_density
+  original_move: 一句初二十六方有肉卖完成贫村世界构建
+  ai_default_failure: 用独立环境描写段交代村庄贫困
+  transfer_rule: 背景信息折进客套对白，一句话干三件事
+  quote: 只初二、十六方有肉卖
+overall_traits:
+- 嵌套叙事隐去「我要讲背景」的叙述者声音
+- 对白承载一切：三种身份对白各建世界一维

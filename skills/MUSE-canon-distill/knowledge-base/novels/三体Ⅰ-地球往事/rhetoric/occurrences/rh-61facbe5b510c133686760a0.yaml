@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-61facbe5b510c133686760a0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L741
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 上面的每一个标点符号都具有致命的政治杀伤力
+sensory_mapping: 视觉；微小尺度；爆发力；伤害；文本结构
+context_fact: 材料牵涉两弹工程人员，叶文洁判断会有许多人因此坠入悲惨命运。
+image_mechanism: 纸页上的点和线被逐枚装填杀伤能量，阅读不再经过句义缓慢生效，而像触发一排微型弹药；文本表面越精确，瞄准越具体。
+property_alignment: 标点体积极小对应弹药部件微小；细节改变句义对应武器改变打击方向；材料可致人获罪对应武器造成伤亡；全部符号都被权力利用对应整套文本完成密集火力
+context_alignment: 上一句把材料外表写成流水账，此句从最不起眼的标点翻出致命后果，准确放大平静与杀机的落差。
+narrative_function: 让政治文本的精确性显出物理暴力，解释叶文洁为何拒签。
+transfer_rule: 把文字写成武器时，应找到最小语言单位、它如何改变指向、由何种权力机制放大，以及最终伤害对象。
+failure_boundary: 标点本身没有独立杀伤，只有在特定定罪制度中才被放大；普通文字争议不能套用致命火力。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 检举材料中看似最微小的文字细节也可能被用来定罪并害死人
+vehicle: 每一枚细小部件都装有致命威力、可命中目标的武器系统
+ground: 标点体积极小对应弹药部件微小；细节改变句义对应武器改变打击方向；材料可致人获罪对应武器造成伤亡；全部符号都被权力利用对应整套文本完成密集火力

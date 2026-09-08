@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9248890e2efaac6d0aa4a12c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L340
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 汪淼抬头看看反应黑箱，觉得它像一个子宫
+sensory_mapping: 形状；内部空间；生命过程
+context_fact: 设备故障频发，工程师围着它艰难维持，汪淼即将停机。
+image_mechanism: 球形黑箱先成为封闭孕育空间，围在外面的工程师随即成为维持生命条件的人；停机因此被感成中止一场艰难孕育。
+property_alignment: 设备内部生成新材料对应子宫孕育生命；工程师维持传感和反应条件对应母体维持孕育环境；封闭球体包裹过程对应子宫内部空间
+context_alignment: 生成、包裹、维护三项均在现场成立，且贴合汪淼面对停机的心理压力。
+narrative_function: 让应用研究产出获得生命尺度。
+transfer_rule: 用生命器官比拟生产系统时，必须同时对应内部生成、环境维持和外部照料，不能只凭圆形外观。
+failure_boundary: 只储存成品、没有内部生成过程，或无需持续维持环境的容器不适用子宫；否则会滥加生命伦理。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 孕育新材料且依赖工程师维持环境的球形反应黑箱
+vehicle: 包裹并孕育生命的子宫
+ground: 设备内部生成新材料对应子宫孕育生命；工程师维持传感和反应条件对应母体维持孕育环境；封闭球体包裹过程对应子宫内部空间

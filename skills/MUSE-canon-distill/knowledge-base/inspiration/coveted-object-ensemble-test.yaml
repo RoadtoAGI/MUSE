@@ -1,0 +1,42 @@
+card_id: coveted-object-ensemble-test
+pattern_name: 一物试众生·执念自毁
+dramatic_function: 用单一诱惑物串联多方群像：各角色差异反应当场立人并完成主题对比，执念者被宝物反噬，收束于自毁
+applicability: 适用于群像多势力叙事需统一动力源；诱惑须向每人承诺其最深欲望且理由体面；宝物只是奖品而不反噬人格即失效
+reuse_candidates:
+- 经文刺在胸口人皮的桥段
+- 逆练经脉发疯的具体设定
+- 武学秘笈这一武侠专属载体
+- 至尊戒的统御设定
+- 「我通过了考验」的原句宣言
+tags:
+- 麦高芬
+- 多方争夺
+- 执念
+- 主题收束
+- 诱惑
+- 群像塑造
+- 价值观考验
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S02
+  note: 黑风双煞窃经炼邪功，宝物首次显形即伴随灾祸
+- novel: 射雕英雄传
+  scene_id: S18
+  note: 郭靖不知情背出全经，无执念者反而得经
+- novel: 射雕英雄传
+  scene_id: S31
+  note: 假经逆练致欧阳锋认知崩溃，执念收束于疯癫
+- novel: 指环王
+  scene_id: S06
+  note: 强者剧烈挣扎后拒绝，幻象外化欲望
+- novel: 指环王
+  scene_id: S07
+  note: 以保家卫国为名索要，体面理由滑向堕落
+- novel: 指环王
+  scene_id: S10
+  note: 堕落者之弟面对同一诱惑坚拒，成镜像
+phase_affinity:
+- 1
+- 2
+- 3
+- 5

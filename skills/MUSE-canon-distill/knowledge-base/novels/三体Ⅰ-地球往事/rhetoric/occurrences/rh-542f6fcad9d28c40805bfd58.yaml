@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-542f6fcad9d28c40805bfd58
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2162
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 当它被察觉时，已成燎原之势
+sensory_mapping: 草原火线；风助火势；夜空红光；快速蔓延；灭火失机
+context_fact: 组织半公开活动却因政府想象贫乏未被重视，直到武装化后才受到有效打击。
+image_mechanism: 精英圈中最初的信念火点沿社会关系和游戏渠道跳跃，政府的迟钝像无人巡看的干原；看到烟光时，火线已跨过多个边界。
+property_alignment: 早期ETO对应小火；传播渠道对应干草连接；三类动力对应助燃风；跨国成员对应火面扩大；武装化对应火势升级；迟来打击对应错过最佳扑灭期
+context_alignment: 前文人类幻想如野火蔓延，此处野火从心理扩展到组织政治，二者构成因果而非简单复述。
+narrative_function: 概括扩张结果和政府应对迟滞，结束运动发展史。
+transfer_rule: 用燎原写组织扩张时，应给出火种、传播介质、助燃条件、察觉延迟和失控阈值。
+failure_boundary: 组织增长集中单点、传播链已切断或政府在萌芽期即有效控制时，燎原会夸大覆盖和不可逆性。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: ETO在政府真正注意前已跨国扩张、成员广布并形成武装与持续增长势头
+vehicle: 初起火点借干草和风蔓延成覆盖原野的大火，发现时已无法轻易扑灭
+ground: 秘密早期组织对应火种；成员传播对应火线扩展；社会条件对应可燃原野；政府迟察对应火大才发现

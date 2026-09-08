@@ -1,0 +1,14 @@
+scene_id: '10'
+source_notes: scene_10_beats.md
+patterns:
+- pattern_id: 10-p1
+  beat: 雨中名单
+  dimension: camera
+  original_move: 用缺席名单和融化巧克力写崩溃
+  ai_default_failure: 会切到另一方写互相想念
+  transfer_rule: 写离别可让缺席物件独自承压
+  quote: 根本就没有余周周
+overall_traits:
+- 用缺失承载深情
+- 物件叙事替代心理描写
+- 信息不对称制造张力

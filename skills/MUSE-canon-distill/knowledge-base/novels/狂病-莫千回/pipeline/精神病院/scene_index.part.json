@@ -1,0 +1,279 @@
+[
+  {
+    "scene_id": "JB-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭"
+    ],
+    "conflict_type": "internal",
+    "pov": "杨中旭（第三人称限知）",
+    "word_count": 1811,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S01.md",
+    "description": "汉恩基金广告 → 杨中旭幻想特种兵来接他拯救世界 → 幻想被戳破回到白墙 → 交代他写丧尸日记被父母送进私立精神病院、中度病区吐药禁手机限放风的囚禁日常",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "（远景）郑云凡",
+      "（声）副院长"
+    ],
+    "conflict_type": "interpersonal + societal",
+    "pov": "杨中旭",
+    "word_count": 2554,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S02.md",
+    "description": "门诊罕见排队 → 食堂结识李亚伟（朋克/自愿入院/带手机镜子）→ 弑父佣兵被推入 + 李亚伟讲其灭门反杀往事 → 中度区会议听副院长广播'只有这里才是你们该待的地方'",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "杨万新",
+      "耿小桃",
+      "李亚伟"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "杨中旭 + 李亚伟（穿插）",
+    "word_count": 2654,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S03.md",
+    "description": "护工议论'病人咬下医生指头' → 深夜杨万新狂喊末日预言被放倒 → 呼叫铃整夜失灵 → 耿小桃推理'医疗事故/药物出问题' → 走廊跑动尖叫 + 抱红污渍的护士跑过",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "张宁（感染者）"
+    ],
+    "conflict_type": "external",
+    "pov": "张宁（感染者内聚焦）",
+    "word_count": 1157,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S04.md",
+    "description": "感染者张宁在黑暗病房把三个室友尸体当人体乐高组装成五眼脑袋圣诞树 + 缠毛巾遮监控 + 盘算挂闲鱼能卖",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨万新",
+      "针灸医生(感染者)",
+      "耿小桃",
+      "理疗医生(感染者)",
+      "二号理疗室病人",
+      "副院长"
+    ],
+    "conflict_type": "external",
+    "pov": "杨万新 + 耿小桃 + 二号理疗室病人 + 副院长（多焦点并列）",
+    "word_count": 2350,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S05.md",
+    "description": "针灸室医生倒苦水后用芒针刺穿杨万新眼球 → 理疗室医生圆凳砸死护士邪笑看耿小桃 → 二号理疗室老式电疗仪电死绑缚病人 → 副院长监控全院屠杀 + '社会定时炸弹'独白",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "厕所里的室友",
+      "探视窗感染者",
+      "尸变室友"
+    ],
+    "conflict_type": "internal + external + interpersonal",
+    "pov": "杨中旭",
+    "word_count": 3658,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S06.md",
+    "description": "杨中旭堵厕所门防室友尸变 + 扇自己上百耳光验证非幻觉 → 探视窗感染者反复撞玻璃染红 → 窗外护工被挂树啃食/医生坠楼被听诊器捅耳 → 室友被吐血染口尸变 → 杨中旭哭着砸死室友 + 输液架捅死探视窗感染者",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "杨中旭",
+    "word_count": 4925,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S07.md",
+    "description": "李亚伟抢钥匙开门带唐科进来三人结盟 → 镜子侦察楼道 → 杨中旭点破病房门向外开无法反锁的死局 → 杨中旭一反羞怯讲解'康复区取武器→理疗区取铅衣→司法病区上五楼→廊桥过康复楼→后山出'的多关卡逃生路线",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "被放出的病友",
+      "跳舞病人",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭",
+    "word_count": 3594,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S08.md",
+    "description": "三人做简易护甲 → 杨中旭灰色提议开门放病友增加目标 + 李亚伟反转成'积德' → 放出的病友多数不出/出来的精神不正常 → 跳舞病人被拽到探视窗前被扭曲折断挤压拽入",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "杨中旭",
+    "word_count": 4031,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S09.md",
+    "description": "针灸室遭遇自虐医生被围 → 杨中旭用损坏电池芒针引燃酒精衣 → 挑到氧气罐喷口引火蛇点燃感染者群 → 回楼道引火警全层喷淋 → 推病床扯断指示牌电线丢积水触电秒杀整群 → 电力恢复肃清 + 同伴钦佩其病态熟悉",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "缝嘴感染者",
+      "防爆服魁梧感染者",
+      "郑云凡"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭 + 郑云凡（穿插）",
+    "word_count": 3866,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S10.md",
+    "description": "逃生通道异常安静 + 司法病区铁门竟开着 → 杨中旭贪取自尽警察手枪被缝嘴感染者拽入 → 防爆服两米魁梧感染者撞飞李亚伟 → 郑云凡用手铐链条勒断其颈 → 枪无子弹 + 郑云凡现身(弑父佣兵)自承可能感染主动退回病房自我隔离",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "（声）副院长",
+      "（隔门）郑云凡"
+    ],
+    "conflict_type": "interpersonal + societal",
+    "pov": "杨中旭 + 郑云凡（穿插）",
+    "word_count": 926,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S11.md",
+    "description": "副院长广播警告回病房 → 李亚伟问'AI 监控?'杨中旭'AI 是什么?' → 副院长骂'精神病就该全部去死'远程打开安保拼死关上的隔离门禁 → 三人搜警察尸体得门禁卡卡门跑上五楼 → 郑云凡缩回病房放弃自杀",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S12",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "耿小桃",
+      "（声）副院长",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭 + 李亚伟",
+    "word_count": 2774,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S12.md",
+    "description": "防火门自动关闭杨中旭卡撬棍让三人钻入 → 黑钢板降下封死后门(瓮中之鳖) → 必死难题须有人留对侧重启+破坏面板 → 耿小桃讲律师创伤独白 → '让我做一次大侠'钻门缝哭着关门破坏面板 → 撞柱自尽换防火门彻底关闭",
+    "has_craft_notes": false
+  },
+  {
+    "scene_id": "JB-S13",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "副院长",
+      "（远景）郑云凡",
+      "（黄金大厦）老张"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "杨中旭 + 副院长 + 唐科（多焦点）",
+    "word_count": 3443,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S13.md",
+    "description": "钢板升起副院长放行 + 动机全揭(家人被装病脱罪患者灭门)+自我永封医院 → 李亚伟雨中辞世+揭穿'入院十几年'+'充满刺'遗言+指引黄金大厦 → 唐科送杨中旭回家清醒后安然离世+坐标塞口袋 → 杨中旭离家水坑倒影从18岁青年翻转为中年男人 → 走进黄金大厦对老张自报'从几千人地狱死路爬出来'",
+    "has_craft_notes": false
+  }
+]

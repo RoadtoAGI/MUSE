@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bffb10a494f2cdc91b7bd19f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1057
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 汪淼自己也在燃烧，他举起双手，看到了两根火炬
+sensory_mapping: 视觉；形状；火光；身体痛觉
+context_fact: 巨日已点燃地表所有人，墨子的手炭化，汪淼也发现自己的身体开始燃烧。
+image_mechanism: 人物低头寻找双手时，熟悉的皮肤和手指被火光抹掉，只剩两根竖直燃烧物；第一人称身体在视野中被迅速物化。
+property_alignment: 举起的两臂对应成对直杆；包裹双手的火焰对应火炬火头；人体被当作燃料对应火炬靠自身材料持续燃烧
+context_alignment: 前文人群已被写成炉中柴火，此处火炬把同一燃料化命运缩到汪淼自己的视野，完成从远观到亲历。
+narrative_function: 让玩家以身体自见的方式进入文明焚毁，而非只观看他人死亡。
+transfer_rule: 将燃烧肢体比作照明物时，应对齐数量、姿态、轮廓消失和燃料关系，并让视角人物实际看见这一变化。
+failure_boundary: 火焰只在衣角、手仍清楚可辨或手臂没有竖起时，两根火炬的完整形态不会成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼举起后被火焰完整包裹、已经看不清手形的双手
+vehicle: 两根顶端和杆身持续燃烧、只剩火光轮廓的火炬
+ground: 两只手臂竖直举起对应两根细长火炬；手上火焰包围轮廓对应火炬燃烧发光

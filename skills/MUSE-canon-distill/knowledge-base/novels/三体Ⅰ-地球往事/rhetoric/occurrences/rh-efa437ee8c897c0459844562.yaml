@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-efa437ee8c897c0459844562
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1228
+chapter: 第15章 红岸之四
+figure_type: analogy
+quote: 这一声呼唤，就像万里长空中的一只蚊子在嗡嗡叫，不会有谁听见的
+sensory_mapping: 听觉；尺度；距离；声强
+context_fact: 叶文洁以恒星级通信功率作参照，说明红岸功率仅为地球可调集输出的千万分之一，且太空干扰众多。
+image_mechanism: 星际电波先被翻译成一声可听呼唤，再把发声者缩成蚊虫、传播空间放大成万里天空；两个尺度同时拉开，信号的不可听见成为直觉。
+property_alignment: 红岸功率相对通信需求极低对应蚊鸣声功率小；星际空间广大对应万里长空；电波受衰减和干扰对应嗡声被空气与环境噪音淹没；未知接收者遥远对应长空中没有近旁听众
+context_alignment: 长段十次幂数据需要生活听觉校准，“一声呼唤”到“嗡嗡叫”保持同一感官通道，也保留叶文洁的孤独经验。
+narrative_function: 把文明通信的数量级落差变成可听场景，说明红岸常规发射近乎徒劳。
+transfer_rule: 表现信号尺度悬殊时，要同时比较源强、传播空间、衰减环境和接收距离，让发出—传播—被听见的链条完整对应。
+failure_boundary: 此类比不能给出精确电波衰减定律；若接收者极近或灵敏度远超预期，“不会有谁听见”也不再由蚊鸣图景保证。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 红岸以有限功率向星际空间发出的地球文明呼叫
+vehicle: 一只蚊子在万里长空中发出的微弱嗡鸣
+ground: 信号源相对传播空间极小对应蚊虫相对长空微不足道；能量随远距传播稀释对应蚊鸣在开放天空迅速消散

@@ -1,0 +1,36 @@
+schema_version: dialogue-character/v1
+character_id: drama:Macbeth:lady-macbeth
+work_id: drama:Macbeth
+display_name: 麦克白夫人
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: 'A1-A3 的核心调式：五步抑扬格 + 直接命令式 + 物质 / 仪式意象的极致密度（raven / blood / milk / gall / knife / serpent / flower / candle
+    / spirits）。她偏好把抽象的意志问题翻译成可感官化的身体动作——"screw your courage to the sticking-place"，"a little water clears us of this deed"，"give
+    me the daggers"。她对丈夫的语言压迫几乎总走"manhood ↔ 动作"轴：把"你敢不敢"重新编码为"你是不是男人"。
+
+
+    A5S1 起调式整体翻转：放弃韵文转入散文，句子碎裂为短促命令（"to bed, to bed, to bed"），命令的对象从丈夫退回到自己（"wash your hands, put on your nightgown"），意象从控场用的隐喻退回到字面的感官（"here''s
+    the smell of the blood still"）。两种调式都属于她——前者是她想成为的那个声音，后者是她身体一直承担的那个声音。
+
+
+    来源：phase2_roles.yaml → roles.lady_macbeth.voice_signature
+
+    佐证：
+
+    - scenes/scene_A1S5.md:L93-L120（unsex 段——A1-A3 调式的代表）
+
+    - scenes/scene_A1S7.md:L83-L138（manhood ↔ 动作的话术）
+
+    - scenes/scene_A5S1.md:L71-L142（A5S1 调式翻转的代表段）'
+  evidence_locators:
+  - scenes/scene_A1S5.md:L93-L120
+  - scenes/scene_A1S7.md:L83-L138
+  - scenes/scene_A5S1.md:L71-L142
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

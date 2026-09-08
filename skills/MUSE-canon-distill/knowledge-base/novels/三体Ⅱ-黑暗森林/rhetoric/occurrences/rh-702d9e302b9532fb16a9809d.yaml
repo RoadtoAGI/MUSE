@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-702d9e302b9532fb16a9809d
+work_id: novel:三体Ⅱ-黑暗森林
+edition_id: three-body-2-local-md-25283d83
+source_file: full_text.md
+source_sha256: 25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a
+source_locator: full_text.md:L4386
+chapter: 正文
+figure_type: analogy
+quote: 星舰地球是宇宙文明的缩影
+sensory_mapping: 整个银河缩进五个光点、资源与距离按比例压小、一次黑暗战役像模型实验显出宇宙结构
+context_fact: 星舰地球因资源死局和互疑发生先发攻击，罗辑以此向大史推导全宇宙文明关系。
+image_mechanism: 历史事件从个案转成模型，具体舰船关系被保留而尺度压缩，使不可观测宇宙社会获得实验窗口。
+property_alignment: 1）单舰社会对应单文明；2）舰间真空对应星际空间；3）配件燃料对应物质资源；4）技术与武器对应文明能力；5）黑暗战役对应森林攻击。
+context_alignment: 大史刚见证星舰互杀，缩影类比把熟悉事实作为新理论 few-shot，符合罗辑通俗讲解策略。
+narrative_function: 连接星舰线和黑暗森林理论，把惨剧转化为宇宙社会学的可验证证据。
+transfer_rule: 局部事件作整体缩影时，应逐项保留主体、资源、距离、信息和行动结果，并标出模型缺失因素。
+failure_boundary: 五舰同属人类、距离近且共享文化，不等于异种文明；它只是支持机制可能性，不能单独证明全宇宙状态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 五艘资源有限、相互隔绝且形成猜疑链的战舰社会，局部重现宇宙文明之间的生存结构
+vehicle: 缩小模型保留原系统关键比例、关系和机制，可在有限尺度上观察整体难以直接看到的规律
+ground: 1）五舰对应多个宇宙文明；2）太空隔绝对应星际距离；3）有限燃料对应宇宙资源有限；4）互杀对应文明清除；5）猜疑链对应宇宙安全困境。

@@ -1,0 +1,27 @@
+mode: reference
+display_name: 杨中旭
+role_slug: yang-zhongxu
+source_novel: 狂病-莫千回
+source_part: 精神病院
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/精神病院/phase3_spine.yaml
+  - pipeline/精神病院/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_JB-S01.md
+  - scenes/scene_JB-S02.md
+  - scenes/scene_JB-S06.md
+  - scenes/scene_JB-S07.md
+  - scenes/scene_JB-S08.md
+  - scenes/scene_JB-S09.md
+  - scenes/scene_JB-S13.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 17
+has_canon_ending: false
+coverage_note: |
+  软建议覆盖良好：声音框架跨 S06/S07/S09 多场景，弧光覆盖起点/转折/终点三段，
+  性格真相有压力情境（S07 逃生模式切换、S09 兑现病态熟悉）支撑，核心欲望跨 S01/S06/S13 非单点。
+  has_canon_ending 经回 scene 原文核对判 false：杨中旭活到全篇结尾、人格完整走进黄金大厦，
+  无物理死亡/疯癫/封印等不可逆终局；结尾水坑倒影翻转为中年人是元叙事真实性悬置（主题层），
+  非角色物理终局，故不生成 canon-ending.md，下游可"没有终局地"扮演他。

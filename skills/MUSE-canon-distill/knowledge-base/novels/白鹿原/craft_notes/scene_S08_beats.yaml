@@ -1,0 +1,28 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 杀人
+  dimension: omission
+  original_move: 只留一声称呼，不铺恐惧挣扎
+  ai_default_failure: 铺展受害者恐惧呼救身体反应
+  transfer_rule: 亲人相杀时用称呼压缩关系和冲击
+  quote: 大呀
+- pattern_id: S08-p2
+  beat: 追凶
+  dimension: verb
+  original_move: 拔出掷到两个硬动词完成认罪
+  ai_default_failure: 写手发抖或终于无法隐瞒
+  transfer_rule: 揭露罪行时让物证替代口头承认
+  quote: 掷到黑娃面前的地上
+- pattern_id: S08-p3
+  beat: 断父
+  dimension: omission
+  original_move: 看物看人后转身离去，无需控诉
+  ai_default_failure: 写激烈控诉和痛苦对质
+  transfer_rule: 永久决裂可用离开动作作宣告
+  quote: 他转身走了
+overall_traits:
+- 两字称呼完成多层信息投放
+- 物证替代对质
+- 转身成为决裂动作语法

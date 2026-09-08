@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5ded6dad1c21e17b59aff363
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1779
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 头颅却一动不动。仿佛从来就没有属于过那个躯体
+sensory_mapping: 视觉静止与抽搐；身体断联；空间错位；死亡冷感
+context_fact: 少女瞬间扭断潘寒颈椎，他倒地后躯体仍有神经性抽搐，头却维持异常角度不动。
+image_mechanism: 死亡不是抽象停止，而是身体整体被拆成互不认识的两件东西；抽搐的躯干和静止头颅各行其是，把断裂神经连接直接显给眼睛。
+property_alignment: 颈椎折断对应所属关系切断；躯体抽搐对应独立残余运动；头颅静止对应另一物体无响应；一百八十度错位对应从未自然装配
+context_alignment: 前文人列计算机把人当可更换部件，此处组织以同样冷硬效率清除潘寒，身体部件化带来具象死亡震撼。
+narrative_function: 用运动不协调证明处决的彻底性，并把暴力后果从声响推进到解体视觉。
+transfer_rule: 用“不属于身体”写创伤时，应让连接确实中断、各部位运动状态冲突且空间关系异常。
+failure_boundary: 头身仍协调、只是人物僵住或姿势暂时别扭时，断绝所属会不当夸大伤害。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 潘寒头颅被扭转一百八十度并因颈椎折断与仍抽搐的身体完全失去协调
+vehicle: 一个原本独立的陌生物体只是被临时放在躯干旁，从未与身体组成同一生命
+ground: 身体抽搐而头完全静止对应两件物体没有联动；头颅方向异常对应它与躯体缺乏自然连接

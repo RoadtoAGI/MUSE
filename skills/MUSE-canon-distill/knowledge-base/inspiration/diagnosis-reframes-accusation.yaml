@@ -1,0 +1,40 @@
+card_id: diagnosis-reframes-accusation
+pattern_name: 诊断吸收指控
+dramatic_function: 人物借错认和双关表达攻击，对方却把言语纳入已有诊断；同场言语揭示彼此不同的理解与权力处境。
+applicability: 适用于一方已给另一方贴上认知标签、双方解释不对等的对话；需有具体关系与利益支持各自的误读。
+reuse_candidates:
+- 鱼贩错认
+- 对女儿的反复提及
+- 私下旁白与当面对答的交错
+tags:
+- 误读
+- 既定诊断
+- 指控
+- 双关
+- 关系
+- 装疯
+source_scenes:
+- novel: 哈姆雷特
+  scene_id: A2S2
+  note: 波隆尼尔的判断、鱼贩对答与私下解释
+  line_start: 29
+  line_end: 45
+- novel: 哈姆雷特
+  scene_id: A3S1
+  note: 窃听中的攻击及听者对疯癫和危险的不同判断
+  line_start: 1
+  line_end: 23
+mechanism: 一方的具体指控，经另一方既有的诊断框架，被重新理解为该诊断的证据；不同解释继续改变关系与应对。
+source_analyses:
+- novel: 哈姆雷特
+  creative_move: 波隆尼尔已将王子的反常解释为失恋；哈姆雷特称他为鱼贩并反复提到女儿，波隆尼尔继续将这些话归入自己的判断。
+  narrative_reason: 前段交代父亲干预恋情并计划利用女儿观察王子，随后的对话与私下旁白并列，读者能看出话语对关系的攻击及听者的再解释。下一幕中，国王与波隆尼尔对同一场谈话也作出不同判断。
+  transfer_conditions: 先有可见的诊断框架和双方关系，双关才能产生具体作用。它依靠解释不对等，不要求精确编码或一个最终解码答案；王子对全部窃听细节的知情程度应按具体文本判断。
+  source_scene_ids:
+  - A2S2
+  - A3S1
+phase_affinity:
+- 0
+- 2
+- 3
+- 5

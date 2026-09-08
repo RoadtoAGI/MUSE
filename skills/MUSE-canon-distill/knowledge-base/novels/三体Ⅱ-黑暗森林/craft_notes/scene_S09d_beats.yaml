@@ -1,0 +1,35 @@
+scene_id: S09d
+source_notes: scene_S09d_beats.md
+patterns:
+- pattern_id: S09d-p1
+  beat: 木星入窗
+  dimension: omission
+  original_move: 大红斑奇观紧接一句纯后勤说明同段完成，美学与设定互相担保
+  ai_default_failure: 把壮丽奇观与战略说明拆成抒情段加说明段
+  transfer_rule: 写奇观时同段登记其实用逻辑，奇观的说服力恰来自有用
+  quote: 其氢氦海洋中有取之不尽的核聚变燃料
+- pattern_id: S09d-p2
+  beat: 钢铁群山与假日出
+  dimension: camera
+  original_move: 战舰写成群山，发动机白光误认作日出，误认纠正瞬间尺度自成
+  ai_default_failure: 写军港必罗列吨位与武器参数堆数字
+  transfer_rule: 写超常尺度先让视点误认成自然物，再揭示真身完成换算
+  quote: 章北海感觉自己在目睹群山上的日出
+- pattern_id: S09d-p3
+  beat: 参数舰容——数据即威严
+  dimension: info_density
+  original_move: 登舰前插一段年鉴体参数档案，威严由读者自己换算，零主观评语
+  ai_default_failure: 写人物被巨舰的力量震撼了，用评语代替参数
+  transfer_rule: 写强大之物给可换算的硬参数，且每个参数须是后文的支票
+  quote: 能够单独摧毁一个地球大小的行星的表面
+- pattern_id: S09d-p4
+  beat: 方阵与赠枪
+  dimension: omission
+  original_move: 潜伏者内心全程关闭，推辞全是真话，反讽零标注延迟到劫舰兑现
+  ai_default_failure: 给潜伏者内心独白如「他心中暗喜」自曝底牌
+  transfer_rule: 写深潜者让读者与审查者拿同一份观测数据，价值延迟回收
+  quote: 前辈可以用它杀了我
+overall_traits:
+- 奇观全经旧时代参观者目光换算，惊讶即尺度
+- 每处奇观同时是设定与伏笔登记，无一处纯观光
+- 主视角内心对读者关闭，言行全部可作两读

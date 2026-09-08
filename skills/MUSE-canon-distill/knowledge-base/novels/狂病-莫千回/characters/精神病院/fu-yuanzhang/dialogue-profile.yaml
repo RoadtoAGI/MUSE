@@ -1,0 +1,28 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:精神病院--fu-yuanzhang
+work_id: novel:狂病-莫千回
+display_name: 副院长
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '副院长的声音分两副。对外是通过广播单向播出的、略显沧桑的训诫体——温情广告被他亲口反转成冷硬的判词（"只有这里，才是你们该待的地方"），逼到极处会直接撕掉伪装爆出"精神病就该全部去死"。对内（监控室独白）则是一套自我正当化的话术：把屠杀说成"社会定时炸弹爆炸"，把施虐的医护分类成"被逼的"或"潜藏的毒瘤"，永远在给自己的恶找一个秩序与正义的解释。直到崩溃时，他才第一次用对着相框的、破碎的私语说话。
+
+
+    - 来源：phase2_character.yaml → voice_traits
+
+    - 佐证：scenes/scene_JB-S02.md:L17-L17（广播"只有这里，才是你们该待的地方" + 厌恶感浓稠到快从广播流出来）
+
+    - 佐证：scenes/scene_JB-S11.md:L5-L5（"精神病就该全部去死"——撕掉伪装的判词）
+
+    - 佐证：scenes/scene_JB-S05.md:L9-L9（监控独白把施虐医护分类成"被逼的"或"社会毒瘤"——自我正当化话术）'
+  evidence_locators:
+  - scenes/scene_JB-S02.md:L17-L17
+  - scenes/scene_JB-S11.md:L5-L5
+  - scenes/scene_JB-S05.md:L9-L9
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

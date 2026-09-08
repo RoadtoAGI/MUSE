@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2560a07ab3c152b85e6c6cbe
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1711
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 一千颗星体很快变成了一千颗小太阳
+sensory_mapping: 强光；星点增亮；白昼；热感联想；数量阵列
+context_fact: 飞船原先像群星排成正方形，启动推进后亮度急升并照出地面人影。
+image_mechanism: 人造星点逐颗点燃为太阳，舰队方阵仿佛携带一片可移动白昼；技术力量由队形可见升级为照亮世界。
+property_alignment: 飞船点光源对应小恒星；推进器自发光对应太阳发光；一千艘编队对应太阳群；照亮地表对应制造白昼；光强压过晨曦对应太阳级视觉支配
+context_alignment: 三体文明长期受太阳摆布，如今飞船短暂成为人造小太阳，象征其第一次主动离开恒星命运。
+narrative_function: 用恒星尺度表现推进技术，并赋予起航以反抗旧太阳的象征。
+transfer_rule: 把强光人造物写成小太阳时，应匹配自发光、照明范围、亮度优势和圆点远观形态。
+failure_boundary: 物体只反射弱光、不能改变环境照度或近看形态完全不似星点时，小太阳会成为泛化亮度夸张。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 约一千艘星际飞船发动后成为极亮、能共同照亮地面的点光源
+vehicle: 一千颗具有自发强光、可制造白昼的小型太阳
+ground: 每艘飞船由反光点变为自身发光对应恒星自发光；合力压过晨曦对应太阳具有照明白昼的亮度

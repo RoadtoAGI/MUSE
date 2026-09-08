@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-60813820e78d5ef7219ad15f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1711
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 默默地看着他们的希望在西方的太空渐渐远去
+sensory_mapping: 视觉远眺；距离拉长；光点缩小；消失；时间延迟
+context_fact: 舰队缩成一颗星后消失，送行者此生无法看到四光年航程的结局。
+image_mechanism: “希望”不再停在心里，而被装进一千艘飞船的亮点；亮点越缩小，文明与结果的时间距离越拉长，最终只剩后代才能接住。
+property_alignment: 星际舰队对应希望实体；向西飞行对应希望位移；光点缩小对应可控性降低；此生无结局对应希望远超个人时间；后代收信对应远方希望可能兑现
+context_alignment: 送行者欢呼后转入沉默，具象希望的离开同时包含振奋与失控，准确承载复杂情绪。
+narrative_function: 把宏大起航落到代际等待，收束游戏并把舰队方向暗指地球。
+transfer_rule: 将希望写成远去实体时，应有真实载体、清楚轨迹、观察距离变化和兑现时间的延迟。
+failure_boundary: 希望没有行动载体、人物仍能直接控制结果，或远离反而意味着彻底放弃时，该物化会混淆期待与失去。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体人目送承载文明生存机会的舰队驶离，未来成功与否将由数百年后的后代得知
+vehicle: 抽象希望获得实体和轨迹，从眼前向远方移动直至消失
+ground: 舰队是生存希望的实际载体对应希望具有可见身体；飞船远离母星对应希望在空间中远去

@@ -1,0 +1,1238 @@
+[
+  {
+    "scene_id": "S01",
+    "title": "李莫愁复仇",
+    "file": "scenes/scene_S01.md",
+    "source_chapter": "第1回 风月无情",
+    "arc": 1,
+    "scene_type": "establishing",
+    "tension_level": 7,
+    "value_change": "表面平静 → 血腥杀戮",
+    "key_elements": [
+      "李莫愁出场",
+      "血手印杀陆家庄",
+      "问世间情为何物"
+    ],
+    "few_shot_tags": [
+      "因爱生恨",
+      "反派出场",
+      "开篇建置",
+      "武侠动作"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "李莫愁复仇——表面平静 → 血腥杀戮",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知说书人，常插入背景考据与人物心声直评",
+      "diction": "半文半白，宋词与江湖白话并置，叹词「当真」「岂知」频出",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叙述推进为主，对白点睛；归属用「某某道／叫道／笑问」",
+      "pacing": "短句连动写打斗，长段铺陈身世；常省略时间过渡，以「忽忽数年」带过"
+    },
+    "style_profile_by": "claude-opus-4-7",
+    "tags": [
+      "开场",
+      "武戏",
+      "复仇"
+    ]
+  },
+  {
+    "scene_id": "S02",
+    "title": "古墓师徒日常：捉麻雀练轻功 + 花丛练功",
+    "file": "scenes/scene_S02.md",
+    "source_chapter": "第6回 玉女心经",
+    "arc": 1,
+    "scene_type": "deepening",
+    "tension_level": 2,
+    "value_change": "生疏（初入古墓）→ 默契（师徒日常的亲密）",
+    "key_elements": [
+      "石室捉麻雀练天罗地网势",
+      "从三只到八十一只",
+      "花丛为屏障修炼玉女心经",
+      "夜间花香蒸腾"
+    ],
+    "few_shot_tags": [
+      "安静日常",
+      "修炼生活",
+      "无冲突的亲密感建置",
+      "氛围描写",
+      "师徒关系深化"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "古墓师徒日常：捉麻雀练轻功 + 花丛练功",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知说书体，叙述者偶以「岂知」「说也奇怪」直引读者，但不评人物善恶",
+      "diction": "半文半白，文言虚词如「殊无」「甫毕」与口语「好小子」并用，带旧式话本腔",
+      "rhetoric_density": "low",
+      "dialogue_mode": "叙述推进为主，对白短促穿插，归属高频用「某某道」「奇道」「冷冷的道」",
+      "pacing": "短句叙动作，长句缀解释；时间用「八日」「三月」直接跳接，省略心理铺陈"
+    },
+    "style_profile_by": "claude-opus-4-7",
+    "tags": [
+      "日常",
+      "修炼",
+      "传功"
+    ]
+  },
+  {
+    "scene_id": "S03",
+    "title": "活死人墓拜师",
+    "file": "scenes/scene_S03.md",
+    "source_chapter": "第5回 活死人墓",
+    "arc": 1,
+    "scene_type": "turning",
+    "tension_level": 8,
+    "value_change": "孤绝 → 归属",
+    "key_elements": [
+      "孙婆婆牺牲",
+      "小龙女收留杨过",
+      "照顾他一生一世"
+    ],
+    "few_shot_tags": [
+      "激励事件",
+      "导师登场",
+      "牺牲与托付",
+      "师徒关系建立"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "活死人墓拜师",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知轮入各人心理，叙述者直评人物名声与门派渊源",
+      "diction": "浅近文言底，招式语与口语呼告并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "「某某道」高频归属，临终托孤全靠对白逼出承诺",
+      "pacing": "过招段短句急进，殓葬段放缓，以良久呆坐留白"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "拜师",
+      "仪式",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S04",
+    "title": "断龙石甘愿同死",
+    "file": "scenes/scene_S04.md",
+    "source_chapter": "第6-7回",
+    "arc": 1,
+    "scene_type": "turning",
+    "tension_level": 9,
+    "value_change": "师徒之情 → 生死与共",
+    "key_elements": [
+      "杨过咬腕救小龙女",
+      "放下断龙石又钻回墓中",
+      "发现九阴真经"
+    ],
+    "few_shot_tags": [
+      "生死抉择",
+      "情感升华",
+      "绝境逢生",
+      "秘笈发现"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "断龙石甘愿同死",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴杨龙二人轮转，随时插史事补叙器物来历",
+      "diction": "半文半白，称谓回环，器物方位名词精确",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短句问答推进揭秘，「道」字归属密集",
+      "pacing": "危急段句促，读棺中刻字处放慢逐字呈现"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "情感",
+      "死亡诀别",
+      "转折"
+    ]
+  },
+  {
+    "scene_id": "S05",
+    "title": "杨过假扮'傻蛋'救陆无双",
+    "file": "scenes/scene_S05.md",
+    "source_chapter": "第8-9回",
+    "arc": 2,
+    "scene_type": "advancing",
+    "tension_level": 5,
+    "value_change": "危险（李莫愁追杀）→ 脱险（机智化解）",
+    "key_elements": [
+      "假扮牧童傻蛋",
+      "暗中三次化解暗杀",
+      "牯牛计",
+      "假扮新郎骗李莫愁",
+      "杜撰'美女拳法'戏耍丐帮"
+    ],
+    "few_shot_tags": [
+      "喜剧场景",
+      "机智幽默",
+      "身份伪装",
+      "以弱胜强",
+      "武侠轻松笔法"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "杨过假扮'傻蛋'救陆无双",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知带谐趣，中途整段插叙人物身世来历",
+      "diction": "口语谑词混说书套语，骂语成口头禅",
+      "rhetoric_density": "low",
+      "dialogue_mode": "斗嘴对白密集推进，叫嚷反复成节奏",
+      "pacing": "追逐段短促反复，插叙段一气放缓数百字"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "救援",
+      "智计",
+      "喜剧"
+    ]
+  },
+  {
+    "scene_id": "S06",
+    "title": "华山绝顶双雄归天",
+    "file": "scenes/scene_S06.md",
+    "source_chapter": "第11回 百计避敌",
+    "arc": 2,
+    "scene_type": "turning",
+    "tension_level": 9,
+    "value_change": "旧五绝仍在 → 旧五绝退场",
+    "key_elements": [
+      "洪七公与欧阳锋最后对决",
+      "相抱大笑而逝",
+      "杨过安葬二老"
+    ],
+    "few_shot_tags": [
+      "宿敌和解",
+      "英雄之死",
+      "时代终结",
+      "旁观者视角"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "华山绝顶双雄归天",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知叙述为主，结尾叙述者直接咏叹议论生死",
+      "diction": "半文言叙述语，武学说理词汇密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀疏，多为斗口与传招指令，叙述推进",
+      "pacing": "拼内力以时辰刻度拉长，相拥一笑骤然收束"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "单挑",
+      "死亡诀别"
+    ]
+  },
+  {
+    "scene_id": "S07",
+    "title": "杨过偷听打狗棒法口诀",
+    "file": "scenes/scene_S07.md",
+    "source_chapter": "第12回 英雄大宴",
+    "arc": 2,
+    "scene_type": "advancing",
+    "tension_level": 4,
+    "value_change": "武功不全（只有招式无口诀）→ 武功完整（偷听补齐）",
+    "key_elements": [
+      "黄蓉传授鲁有脚口诀心法",
+      "杨过藏于暗处偷听",
+      "天资百倍三遍全记",
+      "黄蓉未察觉"
+    ],
+    "few_shot_tags": [
+      "信息差",
+      "戏剧反讽",
+      "偷学",
+      "旁观者视角",
+      "伏笔埋设"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "杨过偷听打狗棒法口诀",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知说书，大段解释武学原理与前情因果",
+      "diction": "书面语夹口诀术语，孩童口语对比轻快",
+      "rhetoric_density": "low",
+      "dialogue_mode": "后半对白演武，母女斗嘴中带教学议论",
+      "pacing": "前半长段铺叙缓慢，演武对答转短句轻快"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "传功",
+      "武学",
+      "暗线"
+    ]
+  },
+  {
+    "scene_id": "S08",
+    "title": "英雄大宴力退法王",
+    "file": "scenes/scene_S08.md",
+    "source_chapter": "第13回 武林盟主",
+    "arc": 2,
+    "scene_type": "climactic",
+    "tension_level": 8,
+    "value_change": "无名少年 → 江湖新星",
+    "key_elements": [
+      "三场比武",
+      "小龙女重逢",
+      "玉女素心剑法逼退金轮法王"
+    ],
+    "few_shot_tags": [
+      "武林大会",
+      "比武",
+      "重逢",
+      "联手作战"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "英雄大宴力退法王",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知频切群雄反应作和声，插典故注解拳招",
+      "diction": "文白相济，典故人名与武功名目铺陈",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叫阵斗口点缀，武打叙述推进为主",
+      "pacing": "一招一段落，群笑群呼作段落收点"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "群戏",
+      "比试"
+    ]
+  },
+  {
+    "scene_id": "S09",
+    "title": "礼教大防",
+    "file": "scenes/scene_S09.md",
+    "source_chapter": "第14回 礼教大防",
+    "arc": 3,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "隐秘的幸福 → 公开的放逐",
+    "key_elements": [
+      "小龙女宣言'我要做过儿的妻子'",
+      "杨过'我没错！'",
+      "郭靖举掌欲杀",
+      "小龙女留书出走"
+    ],
+    "few_shot_tags": [
+      "中点反转",
+      "禁忌之恋曝光",
+      "社会排斥",
+      "价值观宣言",
+      "分离"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "礼教大防——隐秘的幸福 → 公开的放逐",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知轮转四人心理，叙述者评点宋人礼法",
+      "diction": "庄重书面语为底，对白直白如誓言",
+      "rhetoric_density": "low",
+      "dialogue_mode": "当众宣情对白承重，问答步步升级如审",
+      "pacing": "大厅对峙绵密不歇，举掌处凝住，出厅骤缓"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "冲突",
+      "礼教",
+      "情感",
+      "放逐"
+    ]
+  },
+  {
+    "scene_id": "S10",
+    "title": "杨过探父仇/傻姑揭秘",
+    "file": "scenes/scene_S10.md",
+    "source_chapter": "第16回 杀父深仇",
+    "arc": 3,
+    "scene_type": "turning",
+    "tension_level": 9,
+    "value_change": "不知父仇 → 认定黄蓉为杀父仇人",
+    "key_elements": [
+      "傻姑毒性发作神志迷糊",
+      "断续回忆拼凑杨康死因",
+      "杨过悲愤立誓"
+    ],
+    "few_shot_tags": [
+      "身世揭秘",
+      "碎片叙事",
+      "仇恨种子",
+      "不可靠叙述者"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "杨过探父仇/傻姑揭秘",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴杨过内心翻涌，逼问段冷眼白描",
+      "diction": "白话激语为主，詈骂与哭喊入文",
+      "rhetoric_density": "low",
+      "dialogue_mode": "逼供式短问短答，疯语成关键证词",
+      "pacing": "逼问急促叠句，独行段长段内心独白放缓"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "揭秘",
+      "身世",
+      "复仇"
+    ]
+  },
+  {
+    "scene_id": "S11",
+    "title": "绝情谷'姑姑你看我一眼'",
+    "file": "scenes/scene_S11.md",
+    "source_chapter": "第17-18回",
+    "arc": 4,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "拒认（小龙女忍痛不认杨过）→ 相认（'我自然是你的妻子'）",
+    "key_elements": [
+      "小龙女化名柳姑娘",
+      "杨过声声呼唤",
+      "公孙止宣布婚事",
+      "小龙女终于相认"
+    ],
+    "few_shot_tags": [
+      "忍痛拒认",
+      "深情呼唤",
+      "身份伪装",
+      "反转相认"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "绝情谷'姑姑你看我一眼'",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知逐人轮入心理，长段补叙解释违心抉择",
+      "diction": "雅驯书面语，客套礼数话与剖白对照",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "试探与违心话承重，旁观者插话搅局",
+      "pacing": "误会层层加码不松手，两度吐血作重拍"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "情感",
+      "重逢",
+      "误会"
+    ]
+  },
+  {
+    "scene_id": "S12",
+    "title": "襄阳鏖兵/道德觉醒",
+    "file": "scenes/scene_S12.md",
+    "source_chapter": "第21回 襄阳鏖兵",
+    "arc": 4,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "私仇执念 → 公义觉醒",
+    "key_elements": [
+      "为国为民侠之大者",
+      "杨过三度欲刺不忍",
+      "城头飞身相救"
+    ],
+    "few_shot_tags": [
+      "道德觉醒",
+      "主题句",
+      "刺杀转救人",
+      "战争场面",
+      "精神导师"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "description": "襄阳鏖兵/道德觉醒",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知史笔，引诗咏志，插军制战法考释",
+      "diction": "史传雅语与战阵白描相济，引杜甫成句",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "前半论道对话，后半战场呼喝短令",
+      "pacing": "谈史段从容，攻城段一浪一浪推升至箭救"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "战争攻城",
+      "武戏",
+      "成长蜕变"
+    ]
+  },
+  {
+    "scene_id": "S13",
+    "title": "尹志平玷污小龙女/真相大白",
+    "file": "scenes/scene_S13.md",
+    "source_chapter": "第24回（真相揭露段，事件发生于第6回）",
+    "arc": 4,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "蒙昧（小龙女误以为是杨过）→ 崩溃（发现真相）",
+    "key_elements": [
+      "尹志平与赵志敬对话暴露真相",
+      "小龙女震惊崩溃",
+      "尹志平递剑求死"
+    ],
+    "few_shot_tags": [
+      "真相揭露",
+      "隐笔处理的暴力",
+      "后续矛盾根源",
+      "受害者视角"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "尹志平玷污小龙女/真相大白",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴偷听者耳目，窗内对话如戏中戏",
+      "diction": "道门口吻与隐语对照，叙述语清冷",
+      "rhetoric_density": "low",
+      "dialogue_mode": "窗内对白完成致命揭秘，听者只字不插",
+      "pacing": "偷听段静止凝滞，追逃段以时辰拉成消耗战"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "揭秘",
+      "变故",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S14",
+    "title": "郭芙断杨过右臂",
+    "file": "scenes/scene_S14.md",
+    "source_chapter": "第24回 意乱情迷",
+    "arc": 4,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "完整 → 残缺",
+    "key_elements": [
+      "杨过掌掴郭芙",
+      "郭芙拔剑断臂",
+      "小龙女误听离去"
+    ],
+    "few_shot_tags": [
+      "不可逆损伤",
+      "情感爆发",
+      "误会",
+      "善意成为伤害"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "description": "郭芙断杨过右臂",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知先吵后补叙，倒叙解开误会成因链",
+      "diction": "闺阁斗口白话，讥语反话密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "激将式对白步步逼出真相，转述话中藏话",
+      "pacing": "对骂节节升级至掌掴，补叙段整段回溯放缓"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "变故",
+      "冲突",
+      "转折"
+    ]
+  },
+  {
+    "scene_id": "S15",
+    "title": "神雕重剑修炼",
+    "file": "scenes/scene_S15.md",
+    "source_chapter": "第26回 神雕重剑",
+    "arc": 5,
+    "scene_type": "deepening",
+    "tension_level": 6,
+    "value_change": "绝望残缺 → 武学重生",
+    "key_elements": [
+      "独孤求败剑冢",
+      "重剑无锋大巧不工",
+      "山洪中练剑"
+    ],
+    "few_shot_tags": [
+      "英雄蜕变",
+      "修炼",
+      "残缺中的突破",
+      "武学哲学"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "神雕重剑修炼",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知贴独角自问自答，碑刻引文嵌入叙述",
+      "diction": "碑铭文言与白话心语对照，武理词雅正",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，唤雕自语，叙述推进",
+      "pacing": "攀壁练剑反复迭进，引文处停顿凝视"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "修炼",
+      "武学",
+      "成长蜕变"
+    ]
+  },
+  {
+    "scene_id": "S16",
+    "title": "郭靖欲斩郭芙臂以偿 / 杨过以德报怨",
+    "file": "scenes/scene_S16.md",
+    "source_chapter": "第26-27回",
+    "arc": 5,
+    "scene_type": "turning",
+    "tension_level": 9,
+    "value_change": "复仇之念 → 以德报怨",
+    "key_elements": [
+      "杨过独臂伏于花树",
+      "郭靖'斩断你一臂'",
+      "黄蓉飞身救女",
+      "杨过目睹后不忍下手"
+    ],
+    "few_shot_tags": [
+      "道德困境",
+      "父亲的公正",
+      "受害者的宽恕",
+      "以德报怨",
+      "旁观者视角转化"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "郭靖欲斩郭芙臂以偿 / 杨过以德报怨",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知以树上偷观作画框，屋内屋外双线心理",
+      "diction": "家常白话与侠义大义语并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "父女夫妻对白承伦理重量，旁观者不语",
+      "pacing": "举剑一顿一落扣人，使计后转轻快收尾"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "伦理",
+      "情感",
+      "对质"
+    ]
+  },
+  {
+    "scene_id": "S17",
+    "title": "黄蓉棘藤阵智斗李莫愁",
+    "file": "scenes/scene_S17.md",
+    "source_chapter": "第27回 斗智斗力",
+    "arc": 5,
+    "scene_type": "advancing",
+    "tension_level": 7,
+    "value_change": "李莫愁占上风 → 被智谋反制",
+    "key_elements": [
+      "棘藤九宫阵布局",
+      "似左实右可望不可即",
+      "苹果藏针反噬冰魄银针",
+      "杨过空中掠走郭襄"
+    ],
+    "few_shot_tags": [
+      "纯智谋对决",
+      "以智取胜",
+      "阵法",
+      "母性保护",
+      "黄蓉经典"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "黄蓉棘藤阵智斗李莫愁",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知双线轮入两人算计，斗智步骤随手注解",
+      "diction": "机锋客套裹杀意，招式名目工整",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "交手间隙讥语试探，话语本身即兵器",
+      "pacing": "一计一反转回合制，解谜处稍作停顿"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "智斗",
+      "阵法",
+      "武戏"
+    ]
+  },
+  {
+    "scene_id": "S18",
+    "title": "重阳宫拜堂成亲",
+    "file": "scenes/scene_S18.md",
+    "source_chapter": "第28回 洞房花烛",
+    "arc": 5,
+    "scene_type": "climactic",
+    "tension_level": 8,
+    "value_change": "禁忌之恋 → 公开婚姻",
+    "key_elements": [
+      "小龙女坦言被玷污",
+      "杨过'情义更增十倍'",
+      "王重阳像前拜堂"
+    ],
+    "few_shot_tags": [
+      "情感高潮",
+      "婚礼",
+      "爱情战胜礼教",
+      "接纳与宽恕"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "重阳宫拜堂成亲",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴杨龙主线，群道反应作和声，插祖师旧事",
+      "diction": "誓辞庄重炽烈，俗骂混雅语见叛逆",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "誓言对白为情感顶点，喝斥与柔语交错",
+      "pacing": "拜堂仪式逐步放慢，巨锺坠落骤转急击"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "群战",
+      "仪式",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S19",
+    "title": "郭芙误射毒针中小龙女",
+    "file": "scenes/scene_S19.md",
+    "source_chapter": "第29回 劫难重重",
+    "arc": 6,
+    "scene_type": "turning",
+    "tension_level": 10,
+    "value_change": "即将痊愈 → 彻底无救",
+    "key_elements": [
+      "借李莫愁掌力冲通膻中穴",
+      "假死骗计封李莫愁入棺",
+      "郭芙误射冰魄银针入棺",
+      "毒质倒灌内脏",
+      "杨过伏棺大哭"
+    ],
+    "few_shot_tags": [
+      "给予希望再剥夺",
+      "致命意外",
+      "善意造成毁灭",
+      "反转链",
+      "阶梯式劫难"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "description": "郭芙误射毒针中小龙女",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴听觉悬疑，险计得手后回头补解机关",
+      "diction": "经穴内功术语密布，对答简短素朴",
+      "rhetoric_density": "low",
+      "dialogue_mode": "敌我试探对白稀疏，威吓与诈语为主",
+      "pacing": "嗒声逐响逼近慢凌迟，反杀一瞬即收"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "变故",
+      "转折"
+    ]
+  },
+  {
+    "scene_id": "S20",
+    "title": "绝情谷：绿萼殉情/希望断绝",
+    "file": "scenes/scene_S20.md",
+    "source_chapter": "第31-32回",
+    "arc": 6,
+    "scene_type": "climactic",
+    "tension_level": 10,
+    "value_change": "最后的希望 → 绝望深渊",
+    "key_elements": [
+      "绿萼撞剑殉情",
+      "天竺僧被杀",
+      "小龙女跳断肠崖",
+      "十六年之约"
+    ],
+    "few_shot_tags": [
+      "殉情",
+      "希望断绝",
+      "生死分离",
+      "给予希望再剥夺"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "绝情谷：绿萼殉情/希望断绝",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知多线穿插，善意谎言由对白当场织成",
+      "diction": "文雅说辞包裹机心，写死亡用语克制",
+      "rhetoric_density": "low",
+      "dialogue_mode": "编造神尼一段全凭问答圆谎，层层铺垫",
+      "pacing": "死亡变故疾如电，解字圆谎段铺陈放缓"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "殉情",
+      "死亡诀别",
+      "绝望"
+    ]
+  },
+  {
+    "scene_id": "S21",
+    "title": "李莫愁情花中自焚",
+    "file": "scenes/scene_S21.md",
+    "source_chapter": "第32回 情是何物",
+    "arc": 6,
+    "scene_type": "climactic",
+    "tension_level": 9,
+    "value_change": "杀人者 → 殉情者",
+    "key_elements": [
+      "情花毒发",
+      "烈火中高唱'问世间情为何物'",
+      "幻视陆展元何沅君",
+      "声绝火中"
+    ],
+    "few_shot_tags": [
+      "反派之死",
+      "以情殉火",
+      "主题曲闭环",
+      "镜像角色结局",
+      "象征性死亡"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "description": "李莫愁情花中自焚",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知群像环视，结尾叙述者总评恶人致悯",
+      "diction": "庄肃书面语，词曲歌句嵌入收束",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "临终对质问答，仇家逐个发声如听证",
+      "pacing": "围审段沉稳，入火骤紧，歌声断绝留白"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "死亡诀别",
+      "反派落幕",
+      "主题"
+    ]
+  },
+  {
+    "scene_id": "S22",
+    "title": "风陵夜话",
+    "file": "scenes/scene_S22.md",
+    "source_chapter": "第33回 风陵夜话",
+    "arc": 7,
+    "scene_type": "establishing",
+    "tension_level": 5,
+    "value_change": "传说 → 邂逅",
+    "key_elements": [
+      "风陵渡口众人讲述神雕侠事迹",
+      "郭襄初闻杨过"
+    ],
+    "few_shot_tags": [
+      "视角转换",
+      "他者之眼",
+      "传说叙事",
+      "时间跳跃后的重新建置"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "风陵夜话——传说 → 邂逅",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "叙述者退居店堂，由旅客转述层层堆出传奇",
+      "diction": "市井口语杂陈，以各地口音标记人物",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎全对白，群口接力讲古，问一段答一段",
+      "pacing": "围炉夜话从容铺陈，靠插话与卖关子续悬念"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "框架叙事",
+      "传说",
+      "相遇"
+    ]
+  },
+  {
+    "scene_id": "S23",
+    "title": "一灯/瑛姑/周伯通三角化解 + 黯然销魂掌首次展示",
+    "file": "scenes/scene_S23.md",
+    "source_chapter": "第34回 排难解纷",
+    "arc": 7,
+    "scene_type": "deepening",
+    "tension_level": 7,
+    "value_change": "数十年恩怨 → 化解与安息；武功未名 → 黯然销魂掌完整亮相",
+    "key_elements": [
+      "瑛姑/周伯通/一灯三角和解",
+      "慈恩安然辞世",
+      "黯然销魂掌十七招展示",
+      "周伯通因无情无法领悟"
+    ],
+    "few_shot_tags": [
+      "前代恩怨化解",
+      "多线收束",
+      "以情入武",
+      "武功哲学",
+      "喜剧与悲剧交织"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "一灯/瑛姑/周伯通三角化解 + 黯然销魂掌首次展示",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知带孩童新人眼光，旧怨由叙述者补全前史",
+      "diction": "佛门语汇与怨毒语对冲，叙述温润",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "劝恕问答为骨，孩童直问戳破僵局",
+      "pacing": "七日苦求的滞重，长啸段以声浪层层加压"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "恩怨化解",
+      "武戏",
+      "招式创新"
+    ]
+  },
+  {
+    "scene_id": "S24",
+    "title": "郭襄生日三件大礼",
+    "file": "scenes/scene_S24.md",
+    "source_chapter": "第36-37回 献礼祝寿/三世恩怨",
+    "arc": 7,
+    "scene_type": "climactic",
+    "tension_level": 8,
+    "value_change": "庆典 → 侠之大者的完整展示",
+    "key_elements": [
+      "歼灭蒙古两千人队",
+      "火烧南阳粮草火药库",
+      "擒达尔巴揭穿霍都夺回打狗棒"
+    ],
+    "few_shot_tags": [
+      "三件大礼",
+      "军事+江湖交汇",
+      "最燃章节",
+      "浪漫与侠义合一"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "郭襄生日三件大礼",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知借旁观惊疑视角，礼物逐件揭晓如悬念剧",
+      "diction": "军报体简练与贺寿吉语交替",
+      "rhetoric_density": "low",
+      "dialogue_mode": "禀报转述推进，主角缺席只闻其名",
+      "pacing": "三件礼三起三落，远处爆响火光作节拍"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "群戏",
+      "奇观",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S25",
+    "title": "断肠崖重逢",
+    "file": "scenes/scene_S25.md",
+    "source_chapter": "第38回 生死茫茫",
+    "arc": 7,
+    "scene_type": "climactic",
+    "tension_level": 10,
+    "value_change": "绝望赴死 → 至情重逢",
+    "key_elements": [
+      "一夜白发",
+      "吟悼亡词",
+      "双足一登跃入深谷",
+      "谷底与小龙女重逢",
+      "精诚所至金石为开"
+    ],
+    "few_shot_tags": [
+      "全篇情感高潮",
+      "跳崖",
+      "十六年重逢",
+      "至死不渝"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "description": "断肠崖重逢——绝望赴死 → 至情重逢",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "限知锁定独守者，引悼亡词自照，重逢转絮语",
+      "diction": "词章雅语与朴素家常话两极并用",
+      "rhetoric_density": "high",
+      "dialogue_mode": "前半纯独白呼告，重逢后对话如叙家常",
+      "pacing": "等待以日升月落计时拉满，跳崖一瞬，重逢绵长"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "重逢",
+      "情感",
+      "高潮"
+    ]
+  },
+  {
+    "scene_id": "S26",
+    "title": "飞石击杀蒙哥/襄阳大战",
+    "file": "scenes/scene_S26.md",
+    "source_chapter": "第39回 大战襄阳",
+    "arc": 8,
+    "scene_type": "climactic",
+    "tension_level": 10,
+    "value_change": "家国危亡 → 天下太平",
+    "key_elements": [
+      "黯然销魂掌恢复威力",
+      "踢翻金轮法王",
+      "飞石击中蒙哥后心",
+      "男儿汉大丈夫为国战死沙场"
+    ],
+    "few_shot_tags": [
+      "全篇军事高潮",
+      "以弱胜强",
+      "情感化为力量",
+      "家国大义"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "飞石击杀蒙哥/襄阳大战",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知战场调度，要点处插武学因果解说",
+      "diction": "战阵动词密集，掌招名目自带情绪反讽",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短呼号令为主，阵前点缀私语温言",
+      "pacing": "战事一波未平一波起，掷矛中石处定格慢放"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "战争攻城",
+      "武戏",
+      "高潮"
+    ]
+  },
+  {
+    "scene_id": "S27",
+    "title": "华山之巅/新平衡",
+    "file": "scenes/scene_S27.md",
+    "source_chapter": "第39-40回",
+    "arc": 8,
+    "scene_type": "establishing",
+    "tension_level": 3,
+    "value_change": "胜利的欢欣 → 敬畏的沉静",
+    "key_elements": [
+      "杨过对郭靖感恩之言",
+      "汗流浃背暗自心惊",
+      "新五绝册封",
+      "大醉而散"
+    ],
+    "few_shot_tags": [
+      "结局",
+      "新平衡",
+      "和解",
+      "自省与敬畏",
+      "余韵"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "华山之巅/新平衡",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知收束，长段心事剖白由叙述者代述",
+      "diction": "庆典雅语与感恩剖白，语调转暖",
+      "rhetoric_density": "low",
+      "dialogue_mode": "致谢敬酒对白点题，心事独白多于交谈",
+      "pacing": "战斗余波渐缓，宴饮从容收梢至大醉而散"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "结局",
+      "仪式",
+      "传承"
+    ]
+  },
+  {
+    "scene_id": "S28",
+    "title": "杨过与小龙女联剑对战公孙止",
+    "file": "scenes/scene_S28.md",
+    "source_chapter": "第18回 公孙谷主",
+    "arc": 4,
+    "scene_type": "climactic",
+    "tension_level": 9,
+    "value_change": "联手抗敌 → 情花毒发战局逆转",
+    "key_elements": [
+      "玉女素心剑法",
+      "君子淑女双剑磁力",
+      "搭档战斗",
+      "情花毒发"
+    ],
+    "few_shot_tags": [
+      "搭档战斗",
+      "招式创新",
+      "双剑磁力",
+      "武打节奏",
+      "战斗中内心活动"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "杨过与小龙女联剑对战公孙止",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴杨龙二人，比剑段逐招解说门派路数",
+      "diction": "缠绵软语与刀剑招式名目交错",
+      "rhetoric_density": "low",
+      "dialogue_mode": "情话与谈判穿插打斗，柔语承重",
+      "pacing": "拣剑段缱绻放缓，比剑回合加速，刑花骤紧"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "双人合击",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S29",
+    "title": "小龙女独闯重阳宫",
+    "file": "scenes/scene_S29.md",
+    "source_chapter": "第25回 内忧外患",
+    "arc": 5,
+    "scene_type": "climactic",
+    "tension_level": 9,
+    "value_change": "独力横扫群敌 → 分心失利被围",
+    "key_elements": [
+      "小龙女独立战斗",
+      "天罗地网势",
+      "一对多",
+      "左右互搏双剑",
+      "战局逆转"
+    ],
+    "few_shot_tags": [
+      "一对多战斗",
+      "小龙女独立行动",
+      "武功风格展示",
+      "战局逆转",
+      "冷静型战斗"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "小龙女独闯重阳宫",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知武戏调度，借旁观高手惊色丈量剑速",
+      "diction": "招式名与兵刃声响词密集，叙述利落",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白极稀，只作叫阵与战术招呼",
+      "pacing": "连攻以一声长响压缩四十招，僵持段刻意拖慢"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "救援",
+      "单挑"
+    ]
+  },
+  {
+    "scene_id": "S30",
+    "title": "杨过与周伯通百花谷比武（黯然销魂掌逐招展示）",
+    "file": "scenes/scene_S30.md",
+    "source_chapter": "第34回 排难解纷",
+    "arc": 7,
+    "scene_type": "deepening",
+    "tension_level": 7,
+    "value_change": "试探比武 → 全套掌法展示",
+    "key_elements": [
+      "黯然销魂掌十七招",
+      "左右互搏vs情感武学",
+      "快慢节奏交替",
+      "郭襄旁观"
+    ],
+    "few_shot_tags": [
+      "招式逐一展示",
+      "以情入武",
+      "快慢节奏",
+      "武功哲学",
+      "旁观者评论"
+    ],
+    "novel": "神雕侠侣",
+    "genre": "武侠",
+    "description": "杨过与周伯通百花谷比武（黯然销魂掌逐招展示）",
+    "has_craft_notes": true,
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知谐趣，插长段补叙掌法来历与师承谱系",
+      "diction": "招式名目化用成语典故，谐中藏悲",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "斗嘴讨教对白推进，孩童插话调停节奏",
+      "pacing": "试招一来一往轻快，报名目处停顿玩味"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "比试",
+      "招式创新",
+      "情感"
+    ]
+  }
+]

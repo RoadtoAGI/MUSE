@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c949aefdc4c7b25d845c983f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1870
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 信息仍源源不断地从太空中涌进红岸天线
+sensory_mapping: 水流；涌入；连续性；容器充盈；方向
+context_fact: 第一批警告译解后，后续内容实时显示，叶文洁四小时内了解三体文明和移民企图。
+image_mechanism: 太空不再是干燥沙漠，而在一个信号源出现后突然开出水道，编码像水从四光年外沿天线口灌入；信息量由涓滴迅速成为持续涌流。
+property_alignment: 三体发射源对应水源；电磁传播通道对应河道；连续编码对应不断水流；红岸天线对应入口；实时译解对应接住并分流；四小时内容对应持续流量
+context_alignment: 此前波形被写成无尽沙漠，此处信息以水涌入，干与湿的反转准确表现宇宙从荒凉到充满生机。
+narrative_function: 压缩长时接收过程，并用丰沛感表现第一次星际交流的信息冲击。
+transfer_rule: 用涌流写信息时，应有稳定源、连续传输、明确流向、足够数据量和接收容器。
+failure_boundary: 只有单个短脉冲、信号断续微弱或来源不明时，源源涌入会误写持续性和规模。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 来自三体世界的连续大量编码电波在数小时内不断被红岸接收
+vehicle: 有源头的水流持续大量涌入入口或容器，没有枯竭迹象
+ground: 信息连续到达对应水源不断；数据量大且流向接收端对应水流汇入入口

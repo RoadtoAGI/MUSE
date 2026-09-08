@@ -1,0 +1,56 @@
+scene_id: A2S3
+source_notes: scene_A2S3_beats.md
+patterns:
+- pattern_id: A2S3-p1
+  beat: 地狱守门人独白
+  dimension: monologue
+  original_move: 醉汉散文把敲门虚构成地狱收客，玩笑内容暗扣楼上罪行
+  ai_default_failure: 让门立即打开直奔发现尸体
+  transfer_rule: 灾难公布前插延宕性喜剧，玩笑暗扣主题
+  quote: porter of hell gate
+- pattern_id: A2S3-p2
+  beat: 散文素体换档
+  dimension: overall
+  original_move: 底层散文带荤段子，贵族入场即回诗体，文体随阶层切换
+  ai_default_failure: 全场统一文体腔调
+  transfer_rule: 散韵切换是免费的阶层标记与节奏换档
+  quote: I pray you remember the porter
+- pattern_id: A2S3-p3
+  beat: 反常之夜不祥报告
+  dimension: exchange
+  original_move: 不知情者描述夜间异象，观众全知，天人感应由无知者代述
+  ai_default_failure: 直接进入发现尸体的尖叫
+  transfer_rule: 让不知情角色描述异兆，反讽与蓄压一次完成
+  quote: The night has been unruly
+- pattern_id: A2S3-p4
+  beat: 语言失能发现呼号
+  dimension: monologue
+  original_move: 发现尸体先三呼恐怖拒绝描述，弑君升格为亵渎圣殿
+  ai_default_failure: 让发现者具体描述伤口与现场
+  transfer_rule: 至恶不可直描，写语言的失败本身
+  quote: O horror, horror, horror
+- pattern_id: A2S3-p5
+  beat: 警钟分批唤人上场
+  dimension: blocking
+  original_move: 鸣钟让城堡角色披睡衣分批涌上，每批带新反应层
+  ai_default_failure: 让所有人同时聚齐
+  transfer_rule: 群戏入场排好批次，每批分配独立反应拍
+  quote: Ring the alarum bell
+- pattern_id: A2S3-p6
+  beat: 凶手过度哀恸表演
+  dimension: exchange
+  original_move: 凶手以华丽哀辞抢答疑点，修辞越华美越假
+  ai_default_failure: 让凶手沉默心虚露馅
+  transfer_rule: 谎言写成表演过度，台词质地代替旁白指认
+  quote: I do repent me of my fury
+- pattern_id: A2S3-p7
+  beat: 王子旁白即时出逃
+  dimension: transition
+  original_move: 幸存者两句旁白决定分逃即退场，留出权力真空
+  ai_default_failure: 给王子们告别与哀悼长戏
+  transfer_rule: 次要角色退场可压成旁白，退场后果即下场戏
+  quote: daggers in men's smiles
+overall_traits:
+- 一场完成喜剧恐怖悬疑政治四种调性接力
+- 敲门声横跨三场，是全剧最长的声音桥
+- 发现场的真正主角是反应，尸体从未上台

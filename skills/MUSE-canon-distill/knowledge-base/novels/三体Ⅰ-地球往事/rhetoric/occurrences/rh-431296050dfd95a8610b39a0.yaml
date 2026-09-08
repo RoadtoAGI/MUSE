@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-431296050dfd95a8610b39a0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1930
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 这枚流产的核弹只炸死她一人
+sensory_mapping: 孕育中断；未完成出生；残留血肉；过程夭折；结果缩小
+context_fact: 大史射中球体，外围炸药爆炸并打散核材料，只造成女孩死亡和放射污染。
+image_mechanism: 核弹被写成正在孕育的大爆炸，常规炸药本应把裂变结果推向出生，枪弹却使这一过程提前破裂；世界避免了核爆，现场仍留下血与污染。
+property_alignment: 核装置准备状态对应孕育；起爆序列对应分娩过程；外围炸药散开对应孕程中断；裂变未发生对应未能出生；常规爆炸残留对应流产伤害；预期当量落空对应结果夭折
+context_alignment: 女孩以艳丽死亡之花托住核弹，流产词把生命意象转成毁灭未能出生，延续美丽女性与致命物的矛盾组合。
+narrative_function: 用一个词区分常规爆炸与核爆失败，并保留事故的血腥代价。
+transfer_rule: 用流产写计划或装置失败时，应有已经启动的生成过程、明确成熟结果、中途不可逆中断和残余损伤。
+failure_boundary: 计划尚未启动、只是被取消，或装置完整保留可再次使用时，流产会错误暗示发生过不可逆生成。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 核弹外围炸药被枪击引爆却未形成向心压缩，核裂变爆炸没有成功发生
+vehicle: 胎儿在发育完成和出生前中止，生命过程未达到预定结果
+ground: 核爆机制启动却中途失败对应妊娠中止；完整核爆未诞生对应胎儿未出生；只发生常规爆炸对应残留身体后果

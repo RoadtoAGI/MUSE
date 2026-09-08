@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cc1e1c572576f04e44a2b2c9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1214
+chapter: 第14章 红岸之三
+figure_type: analogy
+quote: 如果宇宙中真的还有其他的人和社会，那也很好嘛，旁观者清，千秋功罪，可真的有人评说了
+sensory_mapping: 观看位置；内外空间；裁判发言；历史时间
+context_fact: 红岸项目让决策者设想，人类历史首次可能被地球之外的智慧社会观察和评论。
+image_mechanism: 整个人类历史被摆成一场局内争执，外星文明站到边线外观看；跨越千年的功过则像赛后等待一个未卷入冲突者宣读判词。
+property_alignment: 地球各方身在历史内部对应当事人入局；外星文明处于外部对应旁观者；跨星球视角对应观察位置更远；评说功罪对应局外人总结争端
+context_alignment: 句子带有政治领袖熟悉的历史评价语汇，外星旁观者把传统“后人评说”进一步移到文明之外。
+narrative_function: 表现红岸设想的思想震动，也暴露人类渴望外部裁判确认自身历史的心理。
+transfer_rule: 用旁观者解释客观性时，应明确其如何脱离利益关系、掌握哪些全局信息，同时保留局外者可能缺少内部经验的限制。
+failure_boundary: 外星文明也有自身利益与偏见、不了解人类内部证据时，身在局外不自动等于判断清楚。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 外星文明可能以局外视角评价人类漫长历史的是非得失
+vehicle: 不卷入争端的旁观者看清全局并为当事人作长期评判
+ground: 外星社会不属于地球内部阵营对应旁观者不在局中；其跨文明观察可能减少本地偏见对应局外人更易看清关系

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-510d2415e42023a0b54040b0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2462
+chapter: 第34章 智子
+figure_type: simile
+quote: 狂喜在会场上蔓延开来，但又不能充分表露，像被压抑的火山。元首知道，让这种脆弱的情绪爆发出来是有害的，于是，他立刻对“火山”泼了盆冷水
+sensory_mapping: 地下热压；火山口封闭；喷发前震动；冷水浇落；蒸汽冷却
+context_fact: 三体社会视强烈情绪为脆弱，元首在众人发现近邻宜居星球后立即宣布舰队可能航向坟墓。
+image_mechanism: 会场表面仍保持三体式冷静，狂喜则像岩浆在每个人体内汇成共同火山；元首用一句死亡前景从上方浇冷，使尚未喷出的热流迅速结壳。
+property_alignment: 狂喜热烈对应岩浆高温；群体传播对应地下岩浆连通；禁止表露对应山体封闭；情绪爆发对应火山喷发；元首警告对应冷水；会场冷静对应火势降温
+context_alignment: 三体文明崇尚冷静麻木，元首既用火山理解情绪危险，也用冷水主动管理它，延展动作符合其统治方式。
+narrative_function: 用温度和压力呈现集体情绪的升降，并无缝引出地球技术爆炸的威胁。
+transfer_rule: 用受压火山写集体情绪时，应呈现内部积累、外部禁制、潜在爆发和具体降压或冷却手段。
+failure_boundary: 情绪已经公开欢呼释放、强度温和，或后续话语反而继续煽动时，被压火山和泼冷水无法连续成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 执政官得知地球仅四光年远后迅速扩散却受纪律压制的狂喜，以及元首随即以危险预判使其冷却
+vehicle: 岩浆和压力已在火山内部积聚却被山体封住，外部一盆冷水暂时压低其喷发热势
+ground: 狂喜强烈积聚对应岩浆压力；不能表露对应火山口被压；情绪可能集体爆发对应喷发；坏消息降温对应泼冷水

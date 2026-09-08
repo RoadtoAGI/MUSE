@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7754932c389b2a3c97b730cd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2067
+chapter: 第28章 伊文斯
+figure_type: simile
+quote: 像是无意中滴到一块泛黄的破旧画布上的一小片鲜艳的绿油彩
+sensory_mapping: 黄绿强色差；平面色斑；油彩浓稠；旧画布纹理；偶然滴落
+context_fact: 叶文洁登上山顶，从几乎无植被的山区第一次看见伊文斯为燕子种下的树林。
+image_mechanism: 视野被压成一块旧画布，大片贫瘠黄土成为褪色底子，树林则以一滴尚未干透的绿颜料突然击中视线；色差把微小的人为修复从环境中挑亮。
+property_alignment: 黄土泛黄对应旧画布褪色；山地粗糙对应画布纹理；树林面积小对应一滴油彩；树色饱和对应鲜艳绿色；孤立位置对应无意滴落；植被厚密对应油彩浓稠
+context_alignment: 伊文斯独力造林的规模相对荒山极小，却是唯一亮色，偶然颜料既显珍贵也暗示其脆弱。
+narrative_function: 制造强烈视觉发现，浓缩个人生态行动与大片荒芜之间的比例悬殊。
+transfer_rule: 用画布与颜料组织风景时，应先确定大面积统一底色，再以小面积高饱和色块承载叙事焦点，并解释色块为何突兀。
+failure_boundary: 绿林连续覆盖群山、背景本就色彩丰富，或树林边界渐变不明显时，一滴油彩的孤立与突兀不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 贫瘠黄土群山之间孤立而鲜绿、面积很小的人工树林
+vehicle: 一滴饱和绿油彩偶然落在泛黄破旧画布上，形成突兀鲜亮的色斑
+ground: 黄土背景对应泛黄旧画布；小片绿林对应鲜绿油彩；树林孤立突兀对应颜料偶然滴落

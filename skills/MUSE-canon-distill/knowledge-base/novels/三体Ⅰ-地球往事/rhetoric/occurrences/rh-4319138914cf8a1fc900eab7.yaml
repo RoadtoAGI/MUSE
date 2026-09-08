@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4319138914cf8a1fc900eab7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L100
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 那些照片上死去的风景画仍在他的脑海中幻灯似的循环浮现
+sensory_mapping: 视觉；节奏；心理
+context_fact: 杨冬死讯使汪淼此前赋予照片的生命感崩塌。
+image_mechanism: 把不受控制的回忆分割成一张张静止画片，再交给幻灯机按序反复投映；“循环”同时交代媒介动作和心理强迫性。
+property_alignment: 一幅幅照片依次出现对应幻灯片逐张投映；记忆不受控制重复对应放映设备循环运行
+context_alignment: 本体就是摄影作品，幻灯媒介保留对象属性。
+narrative_function: 表现哀讯后的失神和强迫性记忆。
+transfer_rule: 写成组视觉记忆时，可选与素材同媒介、能说明出现顺序和重复机制的播放装置。
+failure_boundary: 零散气味、连续运动场景或只闪回一次的记忆不适合幻灯；它会把非视觉经验和非循环过程误写成画片。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 得知杨冬死亡后反复侵入意识的照片记忆
+vehicle: 幻灯机按序循环投出的静止画片
+ground: 一幅幅照片依次出现对应幻灯片逐张投映；记忆不受控制重复对应放映设备循环运行

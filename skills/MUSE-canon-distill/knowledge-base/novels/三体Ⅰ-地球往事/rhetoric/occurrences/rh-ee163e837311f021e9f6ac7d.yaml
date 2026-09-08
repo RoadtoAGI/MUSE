@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ee163e837311f021e9f6ac7d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2687
+chapter: 第35章 虫子
+figure_type: simile
+quote: 这个问题像一瓶冷水泼在两名醉汉科学家头上
+sensory_mapping: 头顶冷水；皮肤骤寒；醉眼清醒；停顿凝视；体温下降
+context_fact: 两名科学家醉后认定人类技术已完，大史带他们看蝗灾并问消灭虫子的战争何时胜过。
+image_mechanism: 抽象问题被装进一整瓶冷水，从两人头顶直浇下来；田野现场提供水的寒度，酒精般的失败主义被即时冲淡。
+property_alignment: 两人醉酒对应需醒酒；大史问题对应泼水动作；问题尖锐对应水温冰冷；表情凝重对应受刺激停住；很快明白对应酒意骤退；绝望缓解对应头脑清醒
+context_alignment: 他们确实喝醉，冷水醒酒不是泛化套语，而与人物生理状态和对话转折双重贴合。
+narrative_function: 标出主题反转点，让虫子韧性从景观变成反击三体优越论的论据。
+transfer_rule: 用冷水醒酒写提问冲击时，应让人物此前有迷醉或自我麻痹状态，问题突然、感受发冷并立即改变认知节奏。
+failure_boundary: 人物本来完全清醒、问题只缓慢积累影响，或回应仍嬉笑不思考时，一瓶冷水的即时刺激会失真。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 大史问人类何时真正战胜过虫子，使醉酒绝望的汪淼和丁仪突然清醒并重新思考强弱关系
+vehicle: 一瓶冰冷水突然浇到醉汉头脸，寒刺激让酒意和迷糊迅速退去
+ground: 问题突然而直接对应冷水骤泼；认知被刺激对应寒意激醒；醉态消退对应绝望情绪转为凝重思考

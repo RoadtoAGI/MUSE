@@ -1,0 +1,28 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 酗酒
+  dimension: verb
+  original_move: 科学家绝望写成醉汉失态，拣烟头砸台球的外部混乱
+  ai_default_failure: 铺设面对文明终结的严肃内心独白
+  transfer_rule: 绝望可喜剧化降格，可笑正是绝望的真实形态
+  quote: 虫子万岁，智子万岁！
+- pattern_id: S14-p2
+  beat: 一个问题
+  dimension: info_density
+  original_move: 价值反转只用一个比较句疑问，论证交给叙述者总结
+  ai_default_failure: 写长篇演说或两位科学家的展开辩论
+  transfer_rule: 翻盘论点用疑问句抛出，事实并置自动生成结论
+  quote: 还是蝗虫与咱们人的技术水平差距大？
+- pattern_id: S14-p3
+  beat: 敬酒和回去工作
+  dimension: overall
+  original_move: 终极高潮收于洒酒握手回去工作三个地面动作
+  ai_default_failure: 升华成激昂宣言坚定眼神的壮美仪式
+  transfer_rule: 希望重生场景克制壮美化，锚定在最朴素的行为上
+  quote: 我们快回去吧，有好多工作要做呢
+overall_traits:
+- 具体意象击碎抽象论证：不讲道理，让你看虫子
+- 终极高潮全书最短，高潮不需要篇幅
+- 反英雄主义：高潮是决定回去上班

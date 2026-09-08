@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cd479cc6b09a64f3bbda62b5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2341
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 它出现时，仿佛西边又突现了一座山峰，虽然汪淼知道运河可以通过七万吨级的船舶，但目睹这样的巨轮在如此窄小的河道中行驶，确实有一种奇怪的感觉。与它的巨大相比，下面的河流似乎已不存在，它像一座在陆地上移动的大山
+sensory_mapping: 黑色巨影；山峰高度；地面移动；河流消失；低沉轰鸣
+context_fact: 六万吨巨轮即将进入肉眼不可见的纳米切割网，汪淼从半山坡正面目睹其驶来。
+image_mechanism: 河船的熟悉比例被彻底放大，船身升成山体，水道缩到视野外；最稳定不可动的地貌开始向陷阱前进，使庞大与必然毁灭同时可感。
+property_alignment: 巨轮高度对应山峰耸立；船体黑色剪影对应逆光山影；六万吨体量对应山体重量；窄河被遮蔽对应山脚压住水线；发动机轰鸣对应地动声；缓慢航行对应大山迁移
+context_alignment: 前章已把审判日号称浮动钢岛，此刻目标进入窄河，山的不可撼动感将与下一段被细丝切成薄片形成最大反差。
+narrative_function: 把目标尺度推到极致，为不可见纳米丝以小制大的效果蓄力。
+transfer_rule: 把载具写成移动山体时，应通过参照物消失、垂直轮廓、重量感、低速和低频声共同建立超尺度。
+failure_boundary: 开阔海面无比例参照、船体轻小快速，或观察者距目标太远不感压迫时，移动大山会成为泛称。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 审判日号在狭窄盖拉德水道中逼近时远超河道视觉尺度的庞大船体
+vehicle: 一座山峰突然从西边地平线出现，并脱离地基在陆地上缓慢移动
+ground: 船体高大黑色轮廓对应山峰；窄河在其下被遮没对应山脚吞没细水；巨轮缓行对应大山移动

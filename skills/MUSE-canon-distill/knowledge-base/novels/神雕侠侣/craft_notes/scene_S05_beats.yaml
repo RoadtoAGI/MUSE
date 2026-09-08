@@ -1,0 +1,28 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 傻蛋人设的建立
+  dimension: verb
+  original_move: 失控动词表层下藏「暗中运气」的精确控制双层结构
+  ai_default_failure: 反复提醒读者他装傻是思念小龙女
+  transfer_rule: 喜剧伪装给一次动机后让信息差自行运转
+  quote: 暗中运气闭血，一张脸登时惨白
+- pattern_id: S05-p2
+  beat: 半夜三刺
+  dimension: omission
+  original_move: 只展示三次误中结果，布局过程全略与受骗者同步
+  ai_default_failure: 写出悄悄盖衣藏肉的准备动作
+  transfer_rule: 骗局戏隐藏准备，让读者共享发现时刻
+  quote: 刀锋入肉，手上绝无异感
+- pattern_id: S05-p3
+  beat: 假扮新郎新娘
+  dimension: camera
+  original_move: 迎亲队伍作活道具，三层观众认知嵌套各产笑点
+  ai_default_failure: 铺陈灵机一动的思维过程
+  transfer_rule: 脱险方案结果倒推，安全后才让读者看懂
+  quote: 新娘子挺俊呀。小子，你福气不小
+overall_traits:
+- 三层信息差叠加，层间交叉生紧张
+- 笑与险交替提频，让读者在笑中待险
+- 一个假身份承载喜剧伪装情感三重功能

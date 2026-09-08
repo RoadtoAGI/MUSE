@@ -1,0 +1,60 @@
+scene_id: A2S2
+source_notes: scene_A2S2_beats.md
+patterns:
+- pattern_id: A2S2-p1
+  beat: 监视外包
+  dimension: exchange
+  original_move: 王后道谢时互换二探子名字次序，客套演出可互换性
+  ai_default_failure: 给两个工具人写出鲜明个性差异
+  transfer_rule: 工具人对的台词可故意对称化处理
+  quote: 多谢, 盖登思邓与善良的罗生克兰
+- pattern_id: A2S2-p2
+  beat: 外交插曲
+  dimension: transition
+  original_move: 次要线收线插在两段主线戏之间作缓冲兼埋设
+  ai_default_failure: 长场一条线跑到底，节奏无切换
+  transfer_rule: 长场用次要线分段，节奏靠题材切换
+  quote: 乞求陛下让征军平安渡境本国
+- pattern_id: A2S2-p3
+  beat: 波隆尼尔读信定计
+  dimension: exchange
+  original_move: 自称简洁者最冗赘，被皇后一句点破
+  ai_default_failure: 把老臣台词写得干净利落，失其声口
+  transfer_rule: 让角色违背自己宣称的原则，胜过叙述评论
+  quote: 简扼乃机智之魂
+- pattern_id: A2S2-p4
+  beat: 鱼贩对答
+  dimension: exchange
+  original_move: 疯话句句双关，表层荒诞底层全是指控
+  ai_default_failure: 装疯写成无信息量的胡言乱语
+  transfer_rule: 装疯台词须双层语义，对手与观众可解码
+  quote: 你是个鱼贩
+- pattern_id: A2S2-p5
+  beat: 牢狱辩锋与逼供
+  dimension: exchange
+  original_move: 先陪练机锋再替对方道破答案，剥夺撒谎空间
+  ai_default_failure: 直接质问是否奉命，跳过攻防铺垫
+  transfer_rule: 逼供前先公布答案，审问权当场易手
+  quote: 让我先道破其中之原因
+- pattern_id: A2S2-p6
+  beat: 万物之灵急转
+  dimension: monologue
+  original_move: 颂歌与厌弃同一口气完成反转
+  ai_default_failure: 分两段先褒后贬，反差被稀释
+  transfer_rule: 崩溃可藏在最高级修辞的急转里
+  quote: 它岂不是朽如粪土?
+- pattern_id: A2S2-p7
+  beat: 伶人到
+  dimension: transition
+  original_move: 戏班以娱乐身份进场，下一拍才变成武器
+  ai_default_failure: 道具线一登场就被点明是计谋工具
+  transfer_rule: 关键道具线先以无害身份入场
+  quote: 饰演国王者将受我欢迎
+- pattern_id: A2S2-p8
+  beat: 收场独白
+  dimension: monologue
+  original_move: 独白两段式：宣泄到急刹转计谋，行动钩收场
+  ai_default_failure: 收场独白只宣泄情绪，无行动产出
+  transfer_rule: 长场尾独白须结算情绪并交付下场行动
+  quote: 让我动脑筋想想...
+overall_traits: []

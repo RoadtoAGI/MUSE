@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:51人--tao-yiren
+work_id: novel:狂病-莫千回
+display_name: 陶亦仁
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '陶亦仁说话带着布道者的感召力——惯用对比鲜明、画面强烈的格言式句子把"赴死"包装成壮美的选择（"与其死的时候如同下水道里的厕纸一样被污水撕碎，还不如像天上的烟花一般璀璨爆裂"）。他下命令时简短、笃定、不容置疑，却总在权威的命令里留一道"可以离开"的口子，让人觉得是自己选的。他几乎从不为自己辩白或解释——神格留在传闻里，他本人话不多，更多靠老大哥这类追随者替他转述、神化。
+
+
+    佐证：scenes/scene_51-S03.md:L53-L53
+
+    佐证：scenes/scene_51-S04.md:L11-L15'
+  evidence_locators:
+  - scenes/scene_51-S03.md:L53-L53
+  - scenes/scene_51-S04.md:L11-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

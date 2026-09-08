@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-082f719cb5d6be4a8e459e83
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1135
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 这是一个比雷志成的谎言更加令人难以置信的时代神话
+sensory_mapping: 叙事尺度；历史时间；现实/超常边界
+context_fact: 叶文洁即将得知红岸并非反卫星微波武器，而是试图搜索并联系外星文明的绝密工程。
+image_mechanism: 一套有文件、设备和军队的真实工程被抬到神话尺度，越是有物证越显出时代想象力的超常；“真实”与“难以置信”由同一标签并存。
+property_alignment: 联系外星文明的宏愿对应神话跨越人间边界；国家机器秘密投入对应时代集体造神；真实工程听来比谎言离奇对应神话式超常却有历史事实支撑
+context_alignment: 章节以黄昏、天线轰鸣和松涛作庄严背景，神话一词既不否认事实，又为冷战政治的宏大荒诞定调。
+narrative_function: 形成章节悬念顶点，把个人命运转入时代与宇宙尺度。
+transfer_rule: 称历史工程为神话时，应同时展示其真实物证、超常目标和时代集体力量，让“神话”描述尺度而非真假。
+failure_boundary: 项目普通、证据不足或作者意在判断纯属虚构时，时代神话会混淆事实身份。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 真实红岸工程在特定政治时代诞生的宏大、荒诞且超常识计划
+vehicle: 由一个时代创造、规模超越日常经验的神话叙事
+ground: 工程目标远超当时技术常识对应神话事件超越现实尺度；政治意志推动庞大行动对应神话由时代集体力量塑成

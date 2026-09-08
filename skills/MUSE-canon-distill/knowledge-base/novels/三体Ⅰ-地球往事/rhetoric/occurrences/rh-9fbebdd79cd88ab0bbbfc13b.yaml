@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9fbebdd79cd88ab0bbbfc13b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2573
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 现在，智子诞生了
+sensory_mapping: 孕育；出生瞬间；新生命；第一次回应；成长起点
+context_fact: 上千飞船蚀刻一万五千时、调试五千时，屏幕终于显示智子一号等待指令。
+image_mechanism: 包裹行星的巨大电路是胎内身体，加载完成如第一次呼吸；一个普通质子在屏幕回话的瞬间跨过器物与智能生命边界。
+property_alignment: 质子基材对应胚胎；蚀刻电路对应器官形成；软件调试对应神经成熟；载入完成对应分娩；回应指令对应生命啼声；智子一号命名对应新生儿命名
+context_alignment: 三体文明内部曾孕育ETO式异化力量，此处则主动孕育战略智能，生命框架显示技术创造的重大位阶。
+narrative_function: 标记漫长工程完成，并赋予智子从此可作为行动主体的叙事身份。
+transfer_rule: 用诞生写人工系统上线时，应有孕育建造期、结构成熟、首次自主响应和独立行动能力。
+failure_boundary: 系统只是被动存储器、仍未调试可用或上线后无感知响应时，诞生会过度人格化。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 质子二维电路蚀刻与软件调试完成，第一次载入运行成为具备自主响应的人工智能智子
+vehicle: 生命经过漫长孕育和身体形成后出生，开始独立感知、回应和行动
+ground: 工程建造对应孕育；电路身体成形对应胎体发育；软件加载对应意识出现；首次等待指令对应新生命开始活动

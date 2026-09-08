@@ -1,0 +1,49 @@
+scene_id: '28'
+source_notes: scene_28_beats.md
+patterns:
+- pattern_id: 28-p1
+  beat: 渔关过关
+  dimension: info_density
+  original_move: 义举换好感不换放行，通行靠抢船机变
+  ai_default_failure: 善行感动守关人直接破例放行
+  transfer_rule: 道德收益与情节通行分开结算，好感后文兑现
+  quote: 你抛回水里去罢，我不能要
+- pattern_id: 28-p2
+  beat: 樵关对唱
+  dimension: omission
+  original_move: 考题不宣示规则，放行只凭情绪一指
+  ai_default_failure: 守关人明示挑战规则再逐条评判
+  transfer_rule: 文戏关胜负写守关人情绪状态，不写答案对错
+  quote: 当下也不多问，向山边一指
+- pattern_id: 28-p3
+  beat: 耕关诈术
+  dimension: omission
+  original_move: 计策不预泄，读者与受骗者同步入彀
+  ai_default_failure: 提前写出她想到什么主意，泄底毁惊奇
+  transfer_rule: 诈术节拍只给已有主意，揭底放在得手之后
+  quote: 眉尖微蹙，早有了主意
+- pattern_id: 28-p4
+  beat: 耕关报复
+  dimension: info_density
+  original_move: 对方台词一字不差奉还，完成对称报复
+  ai_default_failure: 报复写成冲突升级或泛泛反杀
+  transfer_rule: 报复复用对方的手段与原话，严格对称
+  quote: 托个一时三刻不会出乱子
+- pattern_id: 28-p5
+  beat: 读关三试
+  dimension: omission
+  original_move: 急智揭底为家学库存，叙述者主动说破
+  ai_default_failure: 主角当场原创惊世才华且永不揭底
+  transfer_rule: 给急智一个出处，揭底增真实不减锋芒
+  quote: 爹爹当年在桃花岛上闲着无事，早就对出来了
+- pattern_id: 28-p6
+  beat: 四关结构
+  dimension: overall
+  original_move: 武力→曲艺→巧力→文才，考核类型轮换递进
+  ai_default_failure: 闯关写成同类挑战逐级加码的四场武打
+  transfer_rule: 递进靠换能力维不靠加难度，文武戏交替
+  quote: 未登其堂，已先遭渔樵耕读之毒手矣
+overall_traits:
+- 递进靠考核类型轮换而非难度数值，文武戏交替排除单调
+- 过关方式即双向人物塑造，守关人原则与闯关人分工同时显形
+- 道德收益与情节收益分开结算，善举换好感、通行靠机变

@@ -1,0 +1,43 @@
+schema_version: dialogue-coverage/v1
+work_id: novel:海的女儿
+status: partial
+counts:
+  scene_files: 6
+  indexed_scenes: 6
+  dialogue_events: 0
+  dialogue_profiles: 4
+  annotated: 0
+  no_dialogue: 0
+  excluded: 0
+  unresolved: 6
+scenes:
+- scene_id: S01
+  file: scenes/scene_S01.md
+  indexed: true
+  status: unresolved
+  event_count: 0
+- scene_id: S02
+  file: scenes/scene_S02.md
+  indexed: true
+  status: unresolved
+  event_count: 0
+- scene_id: S03
+  file: scenes/scene_S03.md
+  indexed: true
+  status: unresolved
+  event_count: 0
+- scene_id: S04
+  file: scenes/scene_S04.md
+  indexed: true
+  status: unresolved
+  event_count: 0
+- scene_id: S05
+  file: scenes/scene_S05.md
+  indexed: true
+  status: unresolved
+  event_count: 0
+- scene_id: S06
+  file: scenes/scene_S06.md
+  indexed: true
+  status: unresolved
+  event_count: 0

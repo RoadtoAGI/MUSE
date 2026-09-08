@@ -1,0 +1,348 @@
+# ============================================================
+# Phase 5: 关键场景（按序列组织）— 《射雕英雄传》逆向分析
+# ============================================================
+
+sequence_expansions:
+
+  # ── ARC-1 大漠成长 ──
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 牛家村
+        time: 风雪之夜
+        participants: [郭啸天, 杨铁心, 丘处机, 完颜洪烈, 段天德, 包惜弱, 李萍]
+        pov: 全知（群像）
+        conflict: 官兵围村 + 金国势力入侵
+        value_start: 乱世中的短暂安宁
+        value_end: 家破人亡，两家遗孤天各一方
+        must_include: "丘处机取名'靖''康'寓靖康之耻；完颜洪烈以'颜烈'之名骗走包惜弱；丘处机赠匕首"
+        handoff: 时间跳跃至十八年后，大漠中郭靖童年
+        source_chapter: "第1回"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 蒙古大漠荒山
+        time: 郭靖十岁时
+        participants: [郭靖, 江南六怪, 陈玄风, 梅超风, 张阿生]
+        pov: 全知
+        conflict: 江南六怪 vs 黑风双煞的生死搏斗
+        value_start: 六怪终于找到郭靖，满怀期待
+        value_end: 张阿生殉难、陈玄风被杀、梅超风失明——仇恨与代价并存
+        must_include: "张阿生为救韩小莹而死；郭靖以匕首无意中刺死陈玄风；梅超风被柯镇恶毒菱打瞎"
+        handoff: 时间跳跃十年，郭靖成长至少年
+        source_chapter: "第4回"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 张家口客栈
+        time: 郭靖南下途中
+        participants: [郭靖, 黄蓉]
+        pov: 郭靖
+        conflict: 无外部冲突，核心是郭靖的慷慨 vs 黄蓉的试探
+        value_start: 郭靖独行赴约，孤身一人
+        value_end: 找到灵魂伴侣，人生方向改变
+        must_include: "黄蓉扮作小乞丐；郭靖赠貂裘、黄金、汗血宝马；黄蓉被他的真诚打动"
+        handoff: 黄蓉换回女装真容重逢，二人定情
+        source_chapter: "第7回"
+
+  # ── ARC-2 江湖激荡 ──
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-2
+        location: 赵王府
+        time: 中秋前后
+        participants: [杨铁心, 包惜弱, 完颜康, 完颜洪烈, 郭靖, 黄蓉]
+        pov: 全知（多方视角切换）
+        conflict: 杨铁心认出包惜弱；完颜康拒认生父
+        value_start: 十八年离散，真相未明
+        value_end: 身世暴露，杨康选择认贼作父——命运分野确立
+        must_include: "包惜弱凭'犁头损了'认出丈夫；完颜康震惊拒认；杨铁心夫妇最终殉情"
+        handoff: 丘处机服输了结十八年之约
+        source_chapter: "第9-11回"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 郊外野地 → 客栈
+        time: 春末
+        participants: [郭靖, 黄蓉, 洪七公]
+        pov: 郭靖
+        conflict: 洪七公的馋嘴 vs 黄蓉的厨艺策略
+        value_start: 郭靖武功不过二流
+        value_end: 获降龙十八掌十五掌，跻身一流
+        must_include: "洪七公背后讨要鸡屁股；'玉笛谁家听落梅'等美食；九指断掌的来历"
+        handoff: 三人结伴，走向归云庄和桃花岛
+        source_chapter: "第12回"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 桃花岛岩洞
+        time: 郭靖被困桃花岛期间
+        participants: [郭靖, 周伯通]
+        pov: 郭靖
+        conflict: 周伯通的顽童心性 vs 被困十五年的压抑
+        value_start: 郭靖被黄药师困于岛上，前途未卜
+        value_end: 学会空明拳、双手互搏、不知情中背会全部九阴真经
+        must_include: "周伯通讲华山论剑始末；王重阳得经不练的寓意；双手互搏的创造过程"
+        handoff: 欧阳锋到岛求亲，三道试题即将开始
+        source_chapter: "第16-17回"
+
+  # ── ARC-3 海上风波 ──
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-3
+        location: 桃花岛
+        time: 欧阳锋到岛后
+        participants: [郭靖, 黄药师, 欧阳锋, 欧阳克, 洪七公, 黄蓉]
+        pov: 全知
+        conflict: 黄药师设题考较 vs 欧阳克的竞争
+        value_start: 郭靖面临被拒婚
+        value_end: 凭双手互搏和背出九阴真经获许婚
+        must_include: "三个层次的试题（武力→文化→学识）；郭靖不知情中背出全部经文；信息不对称的悬念"
+        handoff: 花船出海，海上冲突即将爆发
+        source_chapter: "第18回"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S18
+        arc_id: ARC-3
+        location: 花船甲板（烈焰中）
+        time: 花船着火后
+        participants: [洪七公, 欧阳锋, 郭靖]
+        pov: 全知
+        conflict: 降龙十八掌 vs 蛤蟆功/灵蛇拳的正面对决
+        value_start: 两大宗师势均力敌
+        value_end: 灵蛇拳首发即被破解；郭靖以蒙古摔跤近身缠斗
+        must_include: "竹棒vs蛇杖的器械对攻；灵蛇拳'手臂在不该弯处弯'的奇招首发+被洪七公一招破解；郭靖'骆驼扳''断山绞'逼欧阳锋胯下钻出"
+        beat_direction: "三层节奏切换：器械对攻（中速）→灵蛇拳奇招（快速突发）→肉搏缠斗（慢速身体纠缠）"
+        handoff: 洪七公救敌被偷袭，恩将仇报
+        source_chapter: "第19-21回"
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 海上（沉船后的海面）
+        time: 花船散裂之后
+        participants: [洪七公, 欧阳锋, 郭靖, 黄蓉]
+        pov: 全知
+        conflict: 洪七公救敌 vs 欧阳锋恩将仇报
+        value_start: 五绝均衡，洪七公为顶级战力
+        value_end: 洪七公重伤退场，善良者付出最大代价
+        must_include: "洪七公冒死救欧阳锋于火海；欧阳锋以杖头毒蛇噬其后颈+蛤蟆功击其背心；郭靖拼死缠斗"
+        handoff: 漂至荒岛，进入生存极限考验
+        source_chapter: "第21回"
+      - scene_id: S09
+        arc_id: ARC-3
+        location: 荒岛
+        time: 洪七公重伤后
+        participants: [洪七公, 黄蓉, 郭靖]
+        pov: 全知
+        conflict: 洪七公自知伤重难愈 vs 帮主之位的传承
+        value_start: 黄蓉是桃花岛主的娇女
+        value_end: 成为丐帮第十九代帮主——从少女变为领袖
+        must_include: "荒岛+重伤+绝境中的非典型权力交接；洪七公凭直觉判断传位"
+        handoff: 众人出海返回中原
+        source_chapter: "第22回"
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-3
+        location: 临安皇宫 → 牛家村密室
+        time: 深夜
+        participants: [郭靖, 黄蓉, 黄药师, 欧阳锋, 全真七子, 梅超风]
+        pov: 全知
+        conflict: 金国侵宋密谋 + 密室疗伤中目睹大战
+        value_start: 个人江湖恩怨为主
+        value_end: 家国危机浮出水面；梅超风替师而死
+        must_include: "撞破金国侵宋密谋；密室中掌心相对不可中断——主角困在'观众席'；谭处端被杀；梅超风替师挡掌——叛徒的救赎"
+        handoff: 黄药师误信女儿已死，誓杀六怪
+        source_chapter: "第23-25回"
+
+  # ── ARC-4 寻书问道 ──
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 丐帮+铁掌峰
+        time: 杨康冒任帮主后
+        participants: [黄蓉, 杨康, 郭靖]
+        pov: 全知
+        conflict: 杨康冒名帮主 vs 黄蓉正统地位 + 铁掌峰生死冒险
+        value_start: 杨康冒任帮主，武穆遗书线索未证实
+        value_end: 黄蓉就任帮主；铁掌峰发现武穆遗书
+        must_include: "打狗棒法三夺竹杖；铁掌峰禁地发现岳飞兵法遗稿"
+        handoff: 黄蓉重伤，必须求医一灯大师
+        source_chapter: "第27-28回"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-4
+        location: 一灯大师峰顶
+        time: 黄昏至深夜
+        participants: [郭靖, 黄蓉, 一灯大师, 渔樵耕读, 瑛姑]
+        pov: 全知
+        conflict: 一灯以五年功力为代价疗伤 + 瑛姑的复仇悬念
+        value_start: 黄蓉命悬一线
+        value_end: 黄蓉伤愈，瑛姑恩怨化解；一灯元气大损
+        must_include: "渔樵耕读四关（财→艺→力→智）；一灯以一阳指+先天功疗伤；段皇爷因嫉妒未救婴儿的旧事"
+        handoff: 郭靖承诺'一生一世只陪着你'
+        source_chapter: "第29-31回"
+
+  # ── ARC-5 真相与抉择 ──
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 桃花岛
+        time: 清晨
+        participants: [郭靖, 黄蓉]
+        pov: 全知（郭靖为主，黄蓉的绝望）
+        conflict: 所有物证指向黄药师杀害五怪 vs 黄蓉的直觉与无力
+        value_start: 靖蓉情深，赴桃花岛团圆
+        value_end: 郭靖与黄蓉决裂，独自离岛
+        must_include: "朱聪怀中珠宝散落；南希仁地上写的'十'字被误读为'黄'；黄蓉'你要杀我就下手罢'"
+        handoff: 郭靖赴嘉兴，烟雨楼大战即将爆发
+        source_chapter: "第34回"
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S19
+        arc_id: ARC-5
+        location: 嘉兴醉仙楼 → 烟雨楼
+        time: 中秋之夜（大战阶段）
+        participants: [郭靖, 黄药师, 全真六子, 欧阳锋, 柯镇恶]
+        pov: 全知（多方视角）
+        conflict: 郭靖抢占天罡北斗阵北极星位——与黄药师（他以为的杀师仇人/黄蓉之父）对战
+        value_start: 各方势力汇聚，黄药师即将破阵
+        value_end: 郭靖以不动制敌守住北极星位，黄药师因女儿收掌
+        must_include: "天罡北斗阵的战术展开；郭靖'双足犹似用铁钉在地下牢牢钉住'的不动哲学；黄药师'心念忽动'收掌——情感压过杀意；郭靖颤抖红眼的身体语言被双方误读"
+        beat_direction: "武术动作即情感表达——不动=克制、收掌=柔情、颤抖=悲愤，每招都承载武术+情感双重含义"
+        handoff: 黄蓉出现，局势暂缓；欧阳锋赶到，混战升级
+        source_chapter: "第34回"
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 嘉兴烟雨楼 → 铁枪庙
+        time: 中秋之夜
+        participants: [黄蓉, 柯镇恶, 欧阳锋, 杨康, 傻姑, 黄药师, 全真六子, 周伯通]
+        pov: 全知（多线交叉）
+        conflict: 多方混战 + 黄蓉以生命为赌注揭露真凶
+        value_start: 各方势力汇聚，真凶未明
+        value_end: 真凶暴露（欧阳锋+杨康），杨康中毒身亡
+        must_include: "烟雨楼多方混战（雾中阵法）；铁枪庙黄蓉引傻姑供词；欧阳锋自曝；朱聪'妙手空空'的翡翠小鞋定罪；杨康触软猬甲中毒"
+        beat_direction: "从群戏混战的外部张力→转入铁枪庙的密室推理，外部→内部的节奏转换"
+        handoff: 柯镇恶将真相告知郭靖，冤解
+        source_chapter: "第34-35回"
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-5
+        location: 西域 → 成吉思汗金帐
+        time: 西征归途
+        participants: [郭靖, 黄蓉, 成吉思汗, 李萍, 拖雷, 哲别]
+        pov: 全知
+        conflict: 成吉思汗以母亲性命要挟南攻大宋 vs 郭靖的忠孝两难
+        value_start: 郭靖仍是蒙古金刀驸马
+        value_end: 李萍自刎，郭靖与蒙古彻底决裂
+        must_include: "飞降破城展示军事才华；锦囊密令内容；'我是大宋臣民'；李萍遗言'只要一生行事无愧于心'；以匕首割绳后自刎；哲别放行、拖雷送马"
+        beat_direction: "先扬（飞降破城的军事胜利）后抑（密令+殉节），全书最大的情感落差"
+        handoff: 郭靖抱母南归，陷入精神危机
+        source_chapter: "第36-38回"
+
+  # ── ARC-6 华山论剑 ──
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: S16
+        arc_id: ARC-6
+        location: 华山之巅
+        time: 白昼
+        participants: [洪七公, 裘千仞, 一灯大师, 黄药师, 郭靖, 黄蓉, 周伯通, 丘处机]
+        pov: 全知
+        conflict: 裘千仞的'是非善恶'之问 vs 群雄各自的道德自省
+        value_start: 郭靖陷入'武功是否害人'的迷惘
+        value_end: 洪七公以'二百三十一人皆恶徒'破除迷惘——武功无善恶，端在人之为用
+        must_include: "裘千仞'哪一位生平没杀过人没犯过恶行'；一灯退后；洪七公'一生杀过二百三十一人'；一灯度化裘千仞出家"
+        handoff: 华山论剑正式开始
+        source_chapter: "第39回"
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: S20
+        arc_id: ARC-6
+        location: 华山之巅
+        time: 黎明前
+        participants: [洪七公, 欧阳锋, 郭靖, 黄蓉, 黄药师]
+        pov: 全知
+        conflict: 洪七公vs欧阳锋第四次对决 + 黄蓉假梵语心理战 + 逆练经脉的怪异武功
+        value_start: 各出全力，生死一决
+        value_end: 欧阳锋被假梵语+一棒击溃心智，疯癫奔逃
+        must_include: "降龙十八掌vs蛤蟆功的第四次对决——不再留情；黄蓉口舌之争作为独立战线与武斗并行；假梵语'源思英儿，巴巴西洛着'制造认知过载；'着！'一棒打在天灵盖——物理伤害远不如心理崩溃致命"
+        beat_direction: "双线并行（拳脚+口舌）→假信息导致认知崩溃→比武→比智→比心的三层递进"
+        handoff: 欧阳锋疯癫逃下山；黄药师到来，开始靖蓉vs五绝的比武
+        source_chapter: "第40回"
+      - scene_id: S17
+        arc_id: ARC-6
+        location: 成吉思汗临终金帐 → 襄阳城
+        time: 秋冬之际
+        participants: [郭靖, 成吉思汗, 黄蓉]
+        pov: 全知
+        conflict: 成吉思汗的帝王英雄观 vs 郭靖的侠义英雄观
+        value_start: 成吉思汗自诩千古英雄
+        value_end: "'杀得人多却未必算是英雄'——大汗口念'英雄'而崩；靖蓉南归守襄阳"
+        must_include: "'人死之后，葬在地下，占得多少土地？'；'杀得人多却未必算是英雄'；成吉思汗口念'英雄'而崩；空城计退敌；结尾诗'兵火有余烬，贫村才数家'"
+        beat_direction: "以对话和内在思辨替代外部打斗收束全书——精神层面的最终胜利"
+        handoff: 全书终
+        source_chapter: "第40回"
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: >
+    全书张力呈波浪式递增：
+    ARC-1 缓起（成长线），在S02达到第一个小高潮；
+    ARC-2 快速升级（S04杨铁心殉情为第一个情感大波峰）；
+    ARC-3 海上危机（S08洪七公重伤为武力线最高张力点）；
+    ARC-4 短暂舒缓后再攀升（S11寻书+S12疗伤为间奏式高潮）；
+    ARC-5 全书最大波谷到最大波峰（S13五怪惨死→S14铁枪庙推理→S15李萍自刎——三连打击）；
+    ARC-6 精神升华（S16是非辩论→S17英雄论，以内在张力替代外部打斗收束全书）。
+  peaks: [S04, S18, S08, S13, S19, S14, S15, S20, S17]
+  valleys: [S03, S05, S06]
+
+# ── 场景级因果链 ──
+
+causal_chain: >
+  S01（牛家村惨变）→ 因郭靖被卷入九阴真经争夺 → S02（黑风双煞）
+  → 因南下践十八年之约 → S03（遇黄蓉）
+  → 因黄蓉引入赵王府 → S04（身世揭秘+殉情）
+  → 因黄蓉要为郭靖找强师 → S05（拜师洪七公）
+  → 因被困桃花岛 → S06（周伯通+九阴真经）
+  → 因欧阳锋到岛求亲 → S07（三道试题）
+  → 因花船着火两大宗师对决 → S18（降龙十八掌vs蛤蟆功海上对决）
+  → 因洪七公救敌被偷袭 → S08（洪七公重伤）
+  → 因洪七公传位 → S09（黄蓉接任帮主）
+  → 因寻药误入禁宫 → S10（临安+密室疗伤）
+  → 因残画线索+杨康冒名 → S11（帮主之争+武穆遗书）
+  → 因黄蓉重伤 → S12（一灯疗伤）
+  → 因欧阳锋杨康栽赃 → S13（五怪惨死误会）
+  → 因郭靖赴嘉兴报仇 → S19（北极星位打黄药师——情感+战斗并行）
+  → 因黄蓉揭露真相 → S14（烟雨楼+铁枪庙）
+  → 因成吉思汗密令 → S15（西征+李萍殉节）
+  → 因精神危机 → S16（是非善恶辩论）
+  → 因华山论剑开始 → S20（洪七公vs欧阳锋实战+假梵语心理战）
+  → 因欧阳锋疯癫+终极命题 → S17（英雄论+南归守襄阳）

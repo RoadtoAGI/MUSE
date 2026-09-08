@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-addeb55630019e75746a4f3d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1679
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 飞向广阔的星海
+sensory_mapping: 辽阔海面；远航；星光波点；方向与岸；孤立
+context_fact: 三体问题无解且母星终将被太阳吞噬，文明决定以十分之一光速寻找可移民世界。
+image_mechanism: 银河平面被铺成黑色海面，恒星成为远方可辨光点，飞船则继承舰队和远征的航海姿态；离开星系像离岸后进入无边水域。
+property_alignment: 银河系对应大海；恒星对应海上岛屿或航标；星际舰队对应远洋船队；母星对应出发港；宜居行星对应新岸；漫长航程对应跨海远航
+context_alignment: 说话者明确使用舰队、移民和新世界词汇，星海使整套航海框架闭合，并承载未知与希望。
+narrative_function: 为三体文明新战略提供宏阔方向图，转入最终远征场景。
+transfer_rule: 用星海写星际旅行时，应明确出发港、航行载体、分布目标、长距离风险和可抵达的新岸。
+failure_boundary: 航行只是近轨道机动、目标唯一且路线完全确定时，海洋的无边探索感会夸大未知。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 三体舰队离开母星系，在银河系大量恒星之间进行长期星际航行
+vehicle: 船只驶入辽阔海洋，在无边水域寻找可停靠的新岸
+ground: 恒星散布广阔空间对应岛屿或灯点分布海面；舰队穿越星际空间对应船队横渡海洋

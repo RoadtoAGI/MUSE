@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-79560be5f86364c79b4fadc3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1711
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 这光芒很快淹没了天边的晨曦
+sensory_mapping: 视觉亮度；水面上涨；覆盖；边界消失；银白泛滥
+context_fact: 星阵中每个飞船亮度急增，银光已能在地面投下人影。
+image_mechanism: 光被赋予水位，飞船银辉从天边迅速涨起，晨曦像低岸被一层层吞没；强弱比较变成可见的漫水过程。
+property_alignment: 舰队强光对应上涨洪水；晨曦对应低洼地面；亮度迅速增加对应水位暴涨；晨曦消失对应被完全淹没
+context_alignment: 起航本属星海航行，光也以海水方式扩张，使天空在视觉和概念上同时成为海。
+narrative_function: 显示推进器能量规模，并把寂静黎明瞬间推成辉煌白昼。
+transfer_rule: 用淹没写强光覆盖弱光时，应有明确亮度竞争、快速扩张和原光源边界消失。
+failure_boundary: 两种光仅局部重叠、弱光仍清晰可辨或强光缓慢增加时，淹没会夸大覆盖。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 千艘飞船点火产生的强烈银光迅速盖过原本的黎明亮度
+vehicle: 高涨水体漫过较低地面，将其完全覆盖在水下
+ground: 舰光强度超过晨曦对应高水位越过低处；晨光不再可见对应地面被水覆盖

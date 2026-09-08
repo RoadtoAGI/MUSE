@@ -1,0 +1,28 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 进入大圣堂
+  dimension: info_density
+  original_move: 同一画面制造视角误判和读者警觉
+  ai_default_failure: 让聪明POV角色产生一丝警觉
+  transfer_rule: 写不可靠视角时保留其系统盲区
+  quote: 大麻雀的赤脚
+- pattern_id: S08-p2
+  beat: 谈判
+  dimension: omission
+  original_move: 只给瑟曦赢家视角，不给对方内心
+  ai_default_failure: 让对手动机被解释得过早过清
+  transfer_rule: 反讽谈判中困住读者于错误视角
+  quote: 父亲大人也不可能
+- pattern_id: S08-p3
+  beat: 胜利感高峰
+  dimension: overall
+  original_move: 自我神话化越高，反讽越强
+  ai_default_failure: 安排旁人及时指出交易危险
+  transfer_rule: 让角色亲手排除纠错信息源
+  quote: 泰温公爵的女儿
+overall_traits:
+- 每个赢的瞬间都让读者害怕
+- 读者被困在错误视角中
+- 孤立是角色自造的戏剧机制

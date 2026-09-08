@@ -1,0 +1,28 @@
+scene_id: 09
+source_notes: scene_09_beats.md
+patterns:
+- pattern_id: 09-p1
+  beat: 灭世是日常工作
+  dimension: info_density
+  original_move: 一句话立住职业身份与灭绝的例行公事性质
+  ai_default_failure: 穿插受害者视角的恐惧与挣扎
+  transfer_rule: 写碾压级加害者可全程不给受害者镜头
+  quote: 翻阅坐标数据是歌者的工作
+- pattern_id: 09-p2
+  beat: 申请二向箔
+  dimension: omission
+  original_move: 灭星武器交接只用需要和给两词，如同事借文具
+  ai_default_failure: 强调武器危险性并铺审批流程与犹豫
+  transfer_rule: 武力不对等用叙述温度差表达，越随意越骇人
+  quote: 我需要一块二向箔，清理用
+- pattern_id: 09-p3
+  beat: 投掷时仍在唱歌
+  dimension: verb
+  original_move: 掷字被漫不经心消解，投出即收场不写后果
+  ai_default_failure: 跟拍二向箔飞行轨迹并切到受害世界
+  transfer_rule: 毁灭可作歌声间奏，止于动作瞬间留白后果
+  quote: 漫不经心地把它掷向弹星者
+overall_traits:
+- 零张力叙事制造最深恐怖，降温到冰点
+- 自造词汇体系不解释不类比不翻译
+- 歌谣框架包裹灭世，毁灭只是间奏

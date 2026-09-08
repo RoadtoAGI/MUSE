@@ -1,0 +1,28 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 暴力的性欲化
+  dimension: omission
+  original_move: 省略殴打细节，锁定暴力后的快感
+  ai_default_failure: 细写殴打过程和伤口位置
+  transfer_rule: 写暴力快感时，跳过动作写余震
+  quote: 感觉像是射了精一样
+- pattern_id: S03-p2
+  beat: 踢人时的修辞飞行
+  dimension: verb
+  original_move: 每一脚都被赋予文化注脚
+  ai_default_failure: 把暴力写成单纯失控
+  transfer_rule: 写知识分子施暴时保留其修辞本能
+  quote: 这一脚给萨尔曼·拉什迪出气
+- pattern_id: S03-p3
+  beat: 事后的犯罪片式理性
+  dimension: camera
+  original_move: 从恍惚切到擦指纹等技术细节
+  ai_default_failure: 补写内疚或道德挣扎
+  transfer_rule: 写去道德化时只展示风险处理
+  quote: 我也擦掉了我和丽兹的手印
+overall_traits:
+- 暴力性欲知识三位一体
+- 括号旁白作良心脚注
+- 伤害清单延迟出场

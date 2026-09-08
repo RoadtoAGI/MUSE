@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7481a56678757fce6b23a6da
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2026
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 脸色一瞬间由温暖的微笑变得冷若冰霜
+sensory_mapping: 温度骤降；冰霜白冷；面部僵硬；触觉刺冷；瞬时变化
+context_fact: 饭桌上他与绍琳接待得体，送叶文洁出门后却警告她不要追究父亲死亡旧账。
+image_mechanism: 微笑的暖色像被寒气瞬间抽走，脸上覆盖一层硬霜；同一张脸无需换人便从家庭主人变成政治威慑者。
+property_alignment: 温暖微笑对应融暖表面；冷酷警告对应冰霜；态度骤变对应快速冻结；情感隔绝对应霜层阻隔；面部僵硬对应冻结材质
+context_alignment: 室内款待越温暖，门外结霜越突兀，显示先前得体只是社交表层而非真实亲近。
+narrative_function: 用温度切换揭露家庭会面背后的威胁，为面具意象建立感官变化。
+transfer_rule: 用冰霜写脸色时，应有明确前后温差、关系降温和使表情变硬的具体话语。
+failure_boundary: 人物只是疲惫、环境真实寒冷导致脸色变化，或语气仍温和时，冰霜会误判态度。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 绍琳丈夫送别时立即撤去热情礼貌，显露冷酷警告态度
+vehicle: 温暖表面骤然结成冰霜，失去热度并变得坚硬刺冷
+ground: 表情从亲切转冷淡对应温度由暖降至冰点；语气拒人对应霜层坚硬隔绝接触

@@ -1,0 +1,22 @@
+card_id: epic-lands-on-hearth
+pattern_name: 史诗落幕日常着陆
+dramatic_function: 宇宙级冲突收束后强制降落回炉火与家常话，让主题重量转存进日常生活，避免高潮后的荣耀空转与抒情泛滥
+applicability: 须有贯穿全书的家园价值线作着陆点，归来者还需亲手修复家园；若日常段与主线价值无关，就成泄气的尾声（单书孤证，验证面窄）
+reuse_candidates:
+- 「我回来了」原句
+- 西渡大海的不可逆离场设定
+tags:
+- 结尾设计
+- 日常着陆
+- 价值回归
+source_scenes:
+- novel: 指环王
+  scene_id: S22
+  note: 凯旋者归家先面对家园被毁，荣耀不免劳作
+- novel: 指环王
+  scene_id: S23
+  note: 双视角收束后，全书终于一句家常话
+phase_affinity:
+- 3
+- 4
+- 5

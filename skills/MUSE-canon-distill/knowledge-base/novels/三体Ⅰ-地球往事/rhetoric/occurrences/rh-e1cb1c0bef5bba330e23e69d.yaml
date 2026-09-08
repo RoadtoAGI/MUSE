@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e1cb1c0bef5bba330e23e69d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L734
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 她的语气，仿佛在哄一个小孩儿吃奶
+sensory_mapping: 听觉；口腔动作；亲密距离；照料触感；权力关系
+context_fact: 文件将牵连多人，程丽华却不让叶文洁先审慎核实便催她签字。
+image_mechanism: 审讯者把成年知识分子缩成怀中婴儿，危险文件则被换成理应吞咽的乳汁；软声哄劝遮住了谁掌握食物与选择权。
+property_alignment: 语调温柔重复对应哄婴儿；把签字包装成有益行为对应喂奶被视为照料；弱化对方判断地位对应婴儿依赖成人；隐去强制目的对应用安抚取得配合
+context_alignment: 老大妈姿态在此进一步变成母婴关系，温柔程度越高，和实际伪证要求的反差越尖锐。
+narrative_function: 揭穿慈爱语气中的人格降格与操控。
+transfer_rule: 用照料场景写诱导时，应逐项对应声调、被包装的“营养”、依赖关系和被剥夺的判断能力。
+failure_boundary: 对方确是儿童、行为真正无害有益或成年人拥有完整知情选择时，吃奶意象的操控与降格不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 程丽华诱导叶文洁签字时故作柔软、耐心和亲密的语气
+vehicle: 照料者反复轻声哄尚无判断力的婴儿接受哺乳
+ground: 语调温柔重复对应哄婴儿；把签字包装成有益行为对应喂奶被视为照料；弱化对方判断地位对应婴儿依赖成人；隐去强制目的对应用安抚取得配合

@@ -1,0 +1,28 @@
+scene_id: '01'
+source_notes: scene_01_beats.md
+patterns:
+- pattern_id: 01-p1
+  beat: 异鬼的视觉呈现
+  dimension: omission
+  original_move: 远距视觉跟踪盔甲光学变化，不写心理、不类比已知怪物
+  ai_default_failure: 加入角色震惊反应和认知尝试，如「这难道就是传说中的…」
+  transfer_rule: 首次呈现未知威胁时只给可见物质细节，禁认知解释
+  quote: 「一会儿白如新雪，一会儿黑如暗影」
+- pattern_id: 01-p2
+  beat: 钢剑碎裂
+  dimension: verb
+  original_move: 「轻描淡写地一挡」一词压缩力量差，软硬动词对撞瞬间终结
+  ai_default_failure: 写异鬼得意、败者绝望心理，以及更长的动作分解
+  transfer_rule: 实力悬殊对决用一个轻动词加一声碎裂收束，不给反应时间
+  quote: 「轻描淡写地一挡。两剑相击，钢剑应声碎裂」
+- pattern_id: 01-p3
+  beat: 尸鬼复活
+  dimension: omission
+  original_move: 完全跳过复活过程，直接「站在他面前」，蓝火眼特写主客易位
+  ai_default_failure: 写骨骼咯咯作响、身体缓缓站起等恐怖片复活套路
+  transfer_rule: 恐怖揭示处直接跳切到结果，省略过程让惊吓加倍
+  quote: 「瞳孔中烧着蓝火，看着活人」
+overall_traits:
+- 感官递进替代心理标签，身体先于大脑接收威胁
+- POV限制即恐怖装置，目击者困境同步读者无力感
+- 超自然物质化：精确细节给出可信的陌生感

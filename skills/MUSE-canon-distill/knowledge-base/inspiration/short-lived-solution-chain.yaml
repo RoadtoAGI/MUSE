@@ -1,0 +1,29 @@
+card_id: short-lived-solution-chain
+pattern_name: 短效生路·连锁过期
+dramatic_function: 让每次解围同时暴露新边界，以解法过期维持追逐压力。
+applicability: 适合连续求生与智性对抗；威胁能力始终固定时连锁会显得人为（单书孤证，验证面窄）
+reuse_candidates:
+- 合金逃生锤预警
+- 碎玻璃声
+- 带电铁轨尸体陷阱
+- 对手在伤亡边界停步
+- 出口后的远距追兵
+tags:
+- 解法过期
+- 对手调整
+- 连锁转压
+- 求生节奏
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: DT-S05
+  note: 玻璃屏障被专业工具破坏，电轨陷阱奏效一轮后又被余下感染者观察并尝试绕开。
+- novel: 狂病-莫千回
+  scene_id: DT-S10
+  note: 风井口方案失效后，人物提出涂血试验计划；门后过程留白，完成态结果将小队关系转成内部猎杀。
+- novel: 狂病-莫千回
+  scene_id: DT-S11
+  note: 走出隧道先释放压力，手机放大的远处人影随即确认杨和修仍在追猎。
+phase_affinity:
+- 1
+- 4
+- 5

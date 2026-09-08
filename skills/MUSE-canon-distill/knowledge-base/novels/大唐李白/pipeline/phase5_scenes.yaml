@@ -1,0 +1,583 @@
+# Phase 5: 场景编排 — 《大唐李白》（张大春）
+# 逆向分析：从章节结构提取关键场景蓝图（24 场景）
+
+scenes:
+
+  # ═══════════════ ARC-1: 大匡山求学 ═══════════════
+
+  - scene_id: S01
+    sequence: ARC1-SEQ1
+    title: "石上诗——赵蕤识故人之子"
+    chapter: 卷一·第三章
+    pov: 赵蕤
+    value_shift: "漠然 → 兴趣"
+    turning_point: ★
+    core_event: >
+      赵蕤与月娘在巨石前品评一首无名少年的题诗。
+      赵蕤从笔迹和诗意中识出"故人之子"——
+      李客之子李白。月娘以更冷厉的目光审视。
+    conflict_type: internal
+    beat_direction: >
+      从赵蕤对石上诗的美学鉴赏，
+      逐步滑入对诗作者身世的推理，
+      最终落在"故人之子"的情感震动上。
+    narrative_technique:
+      - 以诗论为叙事驱动——不通过动作而通过品评诗句推进剧情
+      - 月娘作为"冷眼旁观者"提供第二视角
+
+  - scene_id: S02
+    sequence: ARC1-SEQ2
+    title: "深夜照面——师徒确立"
+    chapter: 卷一·第八-九章
+    pov: 赵蕤（第八章）→ 对话（第九章）
+    value_shift: "陌生 → 师徒之约"
+    turning_point: ★★（全书核心转折）
+    core_event: >
+      深夜大匡山林中，赵蕤听到金铁鸣声，
+      两个少年（李白与吴指南）从暗处现身。
+      李白以"大道如青天，我独不得出"表明心志，
+      赵蕤应允"一约既订，重山无阻"。
+    conflict_type: personal
+    beat_direction: >
+      第八章以声音入手——金铁鸣声打破山中寂静；
+      第九章以言辞较量——李白的机锋折服赵蕤。
+      从"惊"到"试"到"许"，三拍完成。
+    narrative_technique:
+      - 以声音建立在场感（金铁声、夜虫声、呼吸声）
+      - 对话的密度骤然升高——此前赵蕤多独处或与月娘对谈
+
+  - scene_id: S03
+    sequence: ARC1-SEQ3
+    title: "李客醉吐身世"
+    chapter: 卷一·第十九章
+    pov: 赵蕤/月娘（旁听者）
+    value_shift: "信任 → 震惊"
+    turning_point: ★
+    core_event: >
+      李客醉夜来访，吐露家族西域身世：
+      "客之名本非我名，李之姓固亦不是我姓。"
+      揭示李白家族是从西域偷渡回中土的胡商后裔。
+    conflict_type: external
+    beat_direction: >
+      从酒酣的松弛气氛逐步收紧——
+      李客每吐露一层身世，赵蕤和月娘的沉默就更深一层。
+      以"汗血马"的意象收束——一匹伪装成普通马的名驹。
+    narrative_technique:
+      - 醉话作为"真话"的容器——只有在酒中才能说出的秘密
+      - 汗血马作为李白家族的核心隐喻
+
+  - scene_id: S04
+    sequence: ARC1-SEQ4
+    title: "举而不应"
+    chapter: 卷一·第二九-三二章
+    pov: 多视角（赵蕤、李白、丹丘子）
+    value_shift: "期待 → 落空 → 领悟"
+    turning_point: ★
+    core_event: >
+      赵蕤施"朝阳诀"召集群鸟，制造奇观迎接刺史入山。
+      刺史设帐拜见并提出举荐。
+      赵蕤当面拒绝——以"举而不应"的策略，
+      为李白谋取超越应举者的千里之名。
+    conflict_type: personal
+    beat_direction: >
+      朝阳诀召鸟是视觉高潮——群鸟翔集的奇观；
+      刺史入山是礼仪高潮——权力向隐士致敬；
+      举而不应是思想高潮——以退为进的终极策略。
+      三拍递进，重心在第三拍。
+    narrative_technique:
+      - 四章构成一个完整的"策略展示"序列
+      - 赵蕤的隐士形象在此完成最后的复杂化
+
+  # ═══════════════ ARC-2: 首游蜀中 ═══════════════
+
+  - scene_id: S05
+    sequence: ARC2-SEQ1
+    title: "露寒驿遇鬼"
+    chapter: 卷一·第四二-四三章
+    pov: 李白
+    value_shift: "好奇 → 惊悟"
+    turning_point: ★
+    core_event: >
+      李白在露寒驿遇薛稷鬼魂与贺知章生魂（狂客），
+      三人饮酒论鹤。薛稷以画鹤之精而被卷入太平公主之变丧命，
+      狂客唱《仙鹤歌》警示：才华与权力的纠缠可以致命。
+    conflict_type: internal
+    beat_direction: >
+      从驿站的日常场景突然滑入超自然——
+      鬼魂不以恐怖而以饮酒论艺的知己面目出现。
+      警示藏在闲谈之中。
+    narrative_technique:
+      - 超自然元素作为"历史证词"的容器
+      - 两章构成微型"对话剧"——酒桌上的三人即过去/现在/未来
+
+  - scene_id: S06
+    sequence: ARC2-SEQ2
+    title: "白身点破"
+    chapter: 卷一·第五一-五二章
+    pov: 李白
+    value_shift: "自信 → 困窘"
+    turning_point: ★
+    core_event: >
+      卢焕观李白即席赋散花楼诗后追问出身，
+      点破"商人之子无法参加科举"的壁垒。
+      核心困境第一次被他人明确说出。
+    conflict_type: personal
+    beat_direction: >
+      第五一章先扬（李白赋诗惊四座），
+      第五二章后抑（卢焕以"白身"戳破幻象）。
+      先给读者诗才绽放的快感，再用制度壁垒浇灭。
+    narrative_technique:
+      - 经典的"先扬后抑"双章结构
+      - 卢焕是"善意的真相揭示者"——不是对手而是镜子
+
+  - scene_id: S07
+    sequence: ARC2-SEQ2
+    title: "夜闻骑羊者"
+    chapter: 卷一·第五三章
+    pov: 李白
+    value_shift: "迷茫 → 隐约感知另一条道路"
+    turning_point: ★
+    core_event: >
+      被"白身"困境击中后的夜晚，
+      李白在成都街头追逐骑羊者的歌声，追之不及。
+      仙道/诗道的暗示——另一条路存在但尚不可触及。
+    conflict_type: internal
+    beat_direction: >
+      以声音驱动——歌声从远处传来，吸引李白追逐。
+      追而不及本身就是隐喻。
+    narrative_technique:
+      - 声音作为叙事线索——与段七娘的音乐、吴指南的吼啸形成声音网络
+      - "追而不及"暗示李白终其一生的状态
+
+  - scene_id: S08
+    sequence: ARC2-SEQ3
+    title: "干谒苏颋"
+    chapter: 卷一·第五七章
+    pov: 李白
+    value_shift: "忐忑 → 获认可"
+    turning_point: ★
+    core_event: >
+      李白携诗文干谒益州长史苏颋，获"可与相如比肩"之评。
+      少年游终章——李白在蜀中获得最高级别文学认可。
+    conflict_type: external
+    beat_direction: >
+      以"归来"为底色——获评后归山。
+      苏颋的评价既是肯定也是隐忧："相如"终身未获重用。
+    narrative_technique:
+      - 以历史人物（司马相如）的命运暗示李白的未来
+      - 卷一以此章结束，形成"出发→归来"的圆形结构
+
+  # ═══════════════ ARC-3: 出蜀漫游 ═══════════════
+
+  - scene_id: S09
+    sequence: ARC3-SEQ1
+    title: "月娘杀仇"
+    chapter: 卷二·第五章
+    pov: 月娘
+    value_shift: "压抑 → 释放"
+    turning_point: ★
+    core_event: >
+      月娘在添子洞追杀毛韬了结旧怨。
+      月娘线第一次独立展开——她与李白的命运从此分道。
+    conflict_type: personal
+    beat_direction: >
+      短促、冷厉。月娘的行动没有犹豫——
+      与卷三中她再次面对毛韬时的三刀不忍形成对照。
+    narrative_technique:
+      - 短促的动作节奏，与全书舒缓叙事形成强烈反差
+      - 月娘的冷厉为后续"被侵占"制造悲剧落差
+
+  - scene_id: S10
+    sequence: ARC3-SEQ2
+    title: "江陵会司马承祯"
+    chapter: 卷二·第十二-十三章
+    pov: 李白
+    value_shift: "求见 → 获道统认可"
+    turning_point: ★
+    core_event: >
+      李白在江陵会见道教最高权威司马承祯，
+      被赞为"仙风道骨"。丹丘子在场见证。
+      科举之外获得的最重要身份合法性认可。
+    conflict_type: internal
+    beat_direction: >
+      司马承祯先以卦象预感"大鹏将至"，
+      再以幻雨制造独处机会，
+      最后以"仙风道骨"定调。三拍节奏。
+    narrative_technique:
+      - 道教仪式感作为场景氛围——幻雨、卦象、法坛
+      - 司马承祯是全书最重要的"权威认可者"
+
+  - scene_id: S11
+    sequence: ARC3-SEQ3
+    title: "吴指南之死"
+    chapter: 卷二·第十八-二二章
+    pov: 李白
+    value_shift: "同行 → 永别"
+    turning_point: ★★
+    core_event: >
+      吴指南遇张夜叉预知己死。追问李白私吞资财（兄弟裂痕）。
+      洞庭湖畔遇虎，吴指南以最后的吼啸驱虎而死。
+      李白失去从少年时代起唯一的同行者。
+    conflict_type: personal → external
+    beat_direction: >
+      先以争执制造情感距离（第二一章），
+      再以死亡弥合一切（第二二章）。
+      吴指南的"吼啸"呼应他早年在大匡山的金铁之声。
+    narrative_technique:
+      - 先裂痕后弥合——死亡以最暴烈的方式终结所有争执
+      - 跨越五章的渐进式铺垫（预言→裂痕→对峙→死亡）
+
+  # ═══════════════ ARC-4: 金陵交游 ═══════════════
+
+  - scene_id: S12
+    sequence: ARC4-SEQ1
+    title: "孙楚楼初遇段七娘"
+    chapter: 卷二·第二三-二四章
+    pov: 李白
+    value_shift: "孤独 → 被音乐击中"
+    turning_point: ★
+    core_event: >
+      李白在金陵孙楚楼听到段七娘与瞽叟演奏，
+      被她改编的《望庐山瀑布》打动。
+      段七娘是自由的化身——以音乐行走天下的女子。
+    conflict_type: internal
+    beat_direction: >
+      先闻其乐后见其人（第二三章），
+      再以诗入乐——段七娘将诗改编为歌曲（第二四章）。
+    narrative_technique:
+      - 以"声音"驱动场景——音乐是段七娘的语言
+      - "好因缘恰是恶因缘"的暗示已埋下
+
+  - scene_id: S13
+    sequence: ARC4-SEQ2
+    title: "孙楚楼行酒令"
+    chapter: 卷二·第二七-二八章
+    pov: 多视角
+    value_shift: "试探 → 倾心"
+    turning_point: ★
+    core_event: >
+      李白、崔宗之、范十三在孙楚楼行酒令赋诗明志。
+      李白以张良自况——"帝王师"而非"帝王臣"。
+      段七娘在场旁听。
+    conflict_type: personal
+    beat_direction: >
+      酒令形式制造竞技感，
+      但李白的"张良"自况透露深层野心——
+      他不想当臣而想当"师"。
+    narrative_technique:
+      - 酒令即"身份表演"的微型剧场
+      - 三人诗作互为镜像，揭示各自价值取向
+
+  - scene_id: S14
+    sequence: ARC4-SEQ3
+    title: "以神仙自处"
+    chapter: 卷二·第三〇-三二章
+    pov: 李白
+    value_shift: "被追问 → 主动宣言"
+    turning_point: ★
+    core_event: >
+      偶遇孟浩然论诗改字，龚霸赠紫绮裘。
+      面对"为何不赴科举"的直接追问，
+      李白以"神仙自处"回应——将"不得出"转化为主动姿态。
+    conflict_type: internal
+    beat_direction: >
+      孟浩然的追问温和但直指核心——
+      李白的回答表面洒脱，但读者知道背后是无法言说的身份壁垒。
+    narrative_technique:
+      - 反讽结构——角色的"洒脱"与读者知道的"无奈"之间的张力
+      - 孟浩然作为"理想士人"映衬李白的无路可走
+
+  # ── ARC-4 补充场景（友谊三拍：相识→交锋→共鸣）──
+
+  - scene_id: S23
+    sequence: ARC4-SEQ3
+    title: "孟浩然改字论诗"
+    chapter: 卷二·第三〇章
+    pov: 李白/孟浩然
+    value_shift: "陌生 → 对等的精神共鸣"
+    turning_point: ★
+    core_event: >
+      江津驿偶遇孟浩然。孟浩然以改字（映→淡/耽志）论诗，
+      李白回应以技术批评建立对等关系——
+      这是全书中唯一一次两个文人以纯粹的诗艺讨论建立友谊。
+    conflict_type: personal
+    beat_direction: >
+      以改字为戏剧事件——一个字的替换承载了诗学观的碰撞。
+      不是互相赞美而是互相批评，批评即尊重。
+    narrative_technique:
+      - 技术讨论替代情感表白——改字是手段，精神共鸣是结果
+      - 多声部推进——崔宗之、龚霸在旁但李白只说关键的一句
+    query_relevance: "对等文人精神交流；诗词融入叙事；友情建立"
+
+  - scene_id: S25
+    sequence: ARC4-SEQ3
+    title: "孟浩然梦中得句李白助成"
+    chapter: 卷二·第三三章
+    pov: 李白/孟浩然
+    value_shift: "即将分别 → 以共同创作完成告别"
+    turning_point: ★
+    core_event: >
+      孟浩然梦中得残句，李白帮他续成完整诗作。
+      以共同创作代替告别——诗是两个诗人之间最深的语言。
+    conflict_type: internal
+    beat_direction: >
+      四层意识梯度（梦→半意识→全意识→超意识），
+      最好的诗来自最低层。续诗行为本身即告白。
+    narrative_technique:
+      - 共同创作替代情感宣言——"我们一起写了一首诗"比"我会想你"更亲密
+      - 否定句承载情感——"不沾襟"比"泪湿衣"更有力
+    query_relevance: "诗词融入叙事；友情的深层表达；以创作行为传达感情"
+
+  # ═══════════════ ARC-5: 广陵散财 ═══════════════
+
+  - scene_id: S15
+    sequence: ARC5-SEQ1
+    title: "龙君现身广陵"
+    chapter: 卷三·第五-六章
+    pov: 李白
+    value_shift: "困窘 → 获超自然助力"
+    turning_point: ★
+    core_event: >
+      李白与丹砂抵广陵渡头遭群丐纠缠（公验问题），
+      钱塘龙君从江中现身助李白，引其登西灵塔，
+      谈论生死、痴情与天刑。
+    conflict_type: external + symbolic
+    beat_direction: >
+      从极度写实（群丐勒索、公验审查）到超自然介入（龙君登塔），
+      两个世界的碰撞制造了张力。
+    narrative_technique:
+      - 公验盘查是"白身困境"的日常化表达
+      - 龙君的出现每次都伴随对李白命运的隐喻性评论
+
+  - scene_id: S16
+    sequence: ARC5-SEQ1
+    title: "琼花楼之会"
+    chapter: 卷三·第九-十一章
+    pov: 李白
+    value_shift: "无名 → 名震广陵"
+    turning_point: ★★
+    core_event: >
+      李白以"五蠹人"自号在琼花楼悬赏征瓜州调，
+      高适闯入，董庭兰现身。散尽三十万钱资助寒士，
+      以季札"以有易无"之论折服高适。
+    conflict_type: personal + external
+    beat_direction: >
+      第九章设置——悬赏征调制造悬念；
+      第十章旁证——薛商向许自正转述（散财影响扩散）；
+      第十一章高潮——李白与高适论季札之道。
+      "设置-扩散-论证"三拍。
+    narrative_technique:
+      - 散财是赵蕤"以名代仕"策略的极端化
+      - 高适是李白在广陵的"镜像对手"——同样有才但走不同路径
+
+  # ── ARC-5 补充场景（友谊分道）──
+
+  - scene_id: S24
+    sequence: ARC5-SEQ2
+    title: "李白高适季札论别"
+    chapter: 卷三·第十一章
+    pov: 李白/高适
+    value_shift: "共饮 → 分道"
+    turning_point: ★
+    core_event: >
+      琼花楼散财后的翌日，高适以经济现实点破洒脱的代价——
+      「某之先人仕宦失官，某若不赴长安谋一出身……」
+      李白坦承「某之处境容得某如此任性」。
+      友谊在志向分歧处裂开但不破裂——高适北行，李白留下。
+    conflict_type: personal
+    beat_direction: >
+      经济学视角解构浪漫——不是「你错我对」的道德冲突，
+      而是「你买得起我买不起」的物质现实。
+      高适的「怆然低回」不是被说服，而是看清了差距。
+    narrative_technique:
+      - 以经济现实替代道德判断——去英雄化的友谊分道
+      - "任性"一词完成去英雄化——李白自知洒脱是特权而非美德
+    query_relevance: "友情与背叛/分歧；文人内心冲突；复杂情感"
+
+  - scene_id: S17
+    sequence: ARC5-SEQ2
+    title: "弃长安之志"
+    chapter: 卷三·第十二-十三章
+    pov: 李白
+    value_shift: "犹豫 → 决断"
+    turning_point: ★
+    core_event: >
+      段七娘化名制衣娘子的消息浮出。
+      高适和董庭兰离去后，李白宣布不赴长安，
+      以歌曲浪迹为志。conscious desire 被 unconscious need 压倒。
+    conflict_type: internal
+    beat_direction: >
+      场景以静制动——没有戏剧化冲突，
+      而是一个人在夜色中做出选择。
+      "不做什么"的决定比"做什么"更有力量。
+    narrative_technique:
+      - 这是全书中李白最接近"自由"的时刻——也因此最脆弱
+
+  - scene_id: S18
+    sequence: ARC5-SEQ3
+    title: "月娘三刀不忍"
+    chapter: 卷三·第十五-十六章
+    pov: 月娘
+    value_shift: "杀意 → 不忍 → 仇人惊死"
+    turning_point: ★
+    core_event: >
+      月娘挟刀追逼毛韬，仪光禅师以裴行俭不杀狮子骢之典劝化。
+      三刀不忍下手，毛韬惊吓而死。
+      一行灭度遗言串联禅宗南北争端。
+    conflict_type: internal + personal
+    beat_direction: >
+      三刀的节奏——每一刀高举，每一刀不落。
+      仪光的劝化穿插其间。
+      毛韬之死不是被杀而是被自己的恐惧杀死。
+    narrative_technique:
+      - 三刀结构制造延宕——读者期待落刀但刀始终不落
+      - 仪光以动物寓言间接劝化，不直接说教
+
+  # ═══════════════ ARC-6: 安州入赘 ═══════════════
+
+  - scene_id: S19
+    sequence: ARC6-SEQ1
+    title: "桃李园春宴"
+    chapter: 卷三·第十八-二一章
+    pov: 李白/许自正
+    value_shift: "漂泊 → 被安顿"
+    turning_point: ★
+    core_event: >
+      旗亭偶遇叔父李衍。桃李园春宴上李白以庐山论惊四座。
+      许自正通过紫绮裘认出李白——婚事从暗转明。
+      一件衣服串联起道教网络与世俗婚姻。
+    conflict_type: external
+    beat_direction: >
+      紫绮裘从龚霸所赠，经崔宗之/司马承祯的传说网络
+      到达许自正耳中——物件追踪完成跨越数千里的身份链接。
+    narrative_technique:
+      - 物件追踪（紫绮裘）串联多个Arc的人物网络
+      - 许自正是"善意的算计者"
+
+  - scene_id: S20
+    sequence: ARC6-SEQ2
+    title: "月娘流亡与沦落"
+    chapter: 卷三·第二四-二九章
+    pov: 月娘/轧牢山
+    value_shift: "流亡 → 彻底丧失自由"
+    turning_point: ★
+    core_event: >
+      月娘遇康老胡被迷香控制带往西域。
+      少年轧牢山（安禄山）率安氏兄弟出走突厥，施火祆术。
+      月娘最终被轧牢山侵占，梦中忆李白诗句。
+    conflict_type: external
+    beat_direction: >
+      李白线的明亮（准备婚礼）与月娘线的阴暗（被侵占）
+      形成空间对位。月娘梦中忆诗是最后的自由之光。
+    narrative_technique:
+      - 月娘线与李白线的悲剧对照达到顶点
+      - 安禄山的暴力预示安史之乱
+
+  - scene_id: S21
+    sequence: ARC6-SEQ2
+    title: "许宛暗生情愫"
+    chapter: 卷三·第二三章
+    pov: 许宛
+    value_shift: "陌生 → 情动"
+    turning_point: ★
+    core_event: >
+      许宛通过李白的诗词暗生情愫。
+      她以《维摩诘经》天女之论自解女身，
+      是全书中最独立自主的女性之一。
+    conflict_type: internal
+    beat_direction: >
+      以诗为媒——许宛从文字中感知李白其人。
+      不见面而生情，是士族文化中独特的情感发生方式。
+    narrative_technique:
+      - 间接的"恋爱"——通过诗文而非相处
+      - 许宛的独立人格与月娘形成另一种对照
+
+  - scene_id: S22
+    sequence: ARC6-SEQ3
+    title: "段七娘诀别"
+    chapter: 卷三·第三二章
+    pov: 李白
+    value_shift: "重逢 → 永别"
+    turning_point: ★
+    core_event: >
+      李白与段七娘最后一面。
+      段七娘以歌点破李白心结——
+      "好因缘恰是恶因缘"在此获得完整诠释。
+    conflict_type: internal
+    beat_direction: >
+      以音乐入场，以沉默收尾。
+      段七娘的离去意味着李白的"自由"选项被关闭。
+    narrative_technique:
+      - 呼应 ARC-4 初遇场景（都在音乐中发生），形成圆形结构
+      - 段七娘的沉默比任何对白都更有力量
+
+  - scene_id: S23
+    sequence: ARC6-SEQ3
+    title: "士族婚仪"
+    chapter: 卷三·第三三章（前半）
+    pov: 李白
+    value_shift: "自由之身 → 仪式中的收编"
+    turning_point: null
+    core_event: >
+      薛乂详尽讲解婚仪——催妆诗、却扇诗、受绥之礼。
+      数千字的考据式描写沉浸在唐代士族婚礼细节中。
+      李白从一个自由漫游者变为遵守繁缛规矩的新郎。
+    conflict_type: external
+    beat_direction: >
+      以仪式的繁缛重量制造"收编"感——
+      读者在礼俗的细节中感受到李白被制度化的过程。
+    narrative_technique:
+      - 考据式写法的极致——用真实的唐代婚俗文献重建场景
+      - 繁缛本身就是叙事：规矩越多，自由越少
+
+  - scene_id: S24
+    sequence: ARC6-SEQ3
+    title: "亲迎——酒壶从天而降"
+    chapter: 卷三·第三三章（后半）
+    pov: 李白
+    value_shift: "仪式 → 震颤"
+    turning_point: ★★★（三卷终局）
+    core_event: >
+      李白亲迎许宛，障车之人攀上车辕与李白对峙。
+      吴指南的酒壶从天而降砸中障车者。
+      李白将酒壶递给他："今夕天地同喜，奈遽去？来！进酒。"
+      全书终于："那壶里的酒，是无论怎么喝也喝它不尽的。"
+    conflict_type: symbolic
+    beat_direction: >
+      从极实（障车之人的纠缠、"儿郎伟"的喧嚣）
+      到极虚（酒壶从天坠落）——落差即是力量。
+      最后一句以"进酒"收束全书，
+      既是接纳命运也是不甘于命运的宣言。
+    narrative_technique:
+      - 婚礼的繁缛（S23）与酒壶的突然形成最大反差
+      - 吴指南的遗物穿越时空——过去不会消散
+      - "进酒"呼应卷名《将进酒》——以邀饮收束全书
+
+# ═══════════════ 张力曲线与因果链 ═══════════════
+
+tension_curve:
+  description: >
+    全书张力曲线呈"缓升-多峰"型：
+    卷一低谷在考据/论辩章节，小高峰在师徒确立(S02)和身世揭秘(S03)；
+    卷二在吴指南之死(S11)达到第一个真正的情感高峰，
+    金陵交游(S12-S14)是相对舒缓的波谷；
+    卷三在琼花楼散财(S16)和月娘沦落(S20)处达到最高峰，
+    婚礼以看似平静的方式收尾，但酒壶坠落(S24)制造最后的震颤。
+  peaks: [S02, S06, S11, S16, S18, S20, S22]
+  valleys: [S03, S05, S07, S19, S23, S25]
+  friendship_peaks: [S23, S24, S25]  # 补充场景形成独立的友谊张力子曲线
+
+causal_chain: >
+  S01(赵蕤识"故人之子") → S02(师徒确立) → S03(身世揭秘) →
+  S04(举而不应策略) → S06(白身点破) → S08(诗名初立) →
+  S10(道教认可) → S11(吴指南之死) → S12(遇段七娘) →
+  S23(孟浩然改字论诗) → S14(神仙自处宣言) → S25(梦句助成) →
+  S16(琼花楼散财) → S24(高适季札论别) → S17(弃长安) →
+  S19(许家认领) → S21(段七娘诀别) → S22(婚礼与酒壶)
+
+narrative_structure_type: >
+  非传统三幕结构。"漫游体"（picaresque）与"考据体"的混合——
+  故事不以冲突递增为驱动，而以"认知递增"为驱动：
+  每个Arc让李白和读者对"不得出"这个核心困境的理解更深一层。
+  超自然元素（龙君、鬼魂、酒壶）作为"认知突破"的催化剂出现，
+  打破考据式写实的封闭性，开启更广阔的意义空间。

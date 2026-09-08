@@ -1,0 +1,32 @@
+mode: reference
+display_name: 白石由实子
+role_slug: shiraishi-yumiko
+source_novel: 信（东野圭吾）
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S17.md
+  - scenes/scene_S18.md
+  - scenes/scene_S19.md
+  - scenes/scene_S20.md
+built_at: 2026-05-24T05:00:00Z
+skill_version: 1
+locator_count: 18
+has_canon_ending: false
+coverage_note: |
+  白石由实子的实体在场以第四章 §5（S17）为分水岭——之前都是间歇性的配角出场（巴士递苹果 / 圣诞贺卡 / BJ 出现），不在 22 个关键场景内；之后作为妻子贯穿 S17-S20 + 尾声（不在场）。本次蒸馏覆盖她作为关键角色实体在场的全部 4 个场景：
+  - S17（代笔被发现 + 父亲赌博披露 + 情感性结合）—— 由实子全书最重要的人格揭示场景，"我讨厌逃避了"信念建立 + 文字处理机伪装策略 + 跪坐道歉但坚持"没有觉得自己做了错事" + 用两手包住直贵手的结合时刻
+  - S18（公园被排斥 + 拒绝搬家）—— "不再逃避"信念在母亲角色上的延伸 + 关西方言爆发"什么欸？"
+  - S19（实纪受伤医院 + 全书唯一低声抽泣）—— "绝不轻易哭出来"边界的极限测试
+  - S20（前山夫妇上门 + 主动接纳）—— "请他们进来吧！" + 替哥哥说话"罪的大小不一样啊"——保留与丈夫的内在分歧
+
+  未直接纳入 SKILL.md 佐证但与角色画像高度相关的早期出场（不在 22 关键场景内，故无 scene-level locator）：
+  - 第一章末巴士上递苹果 (full_text.md ~L1180-L1213)：第一次出场 + 关西口音首次出现
+  - 第二章 §5 圣诞贺卡 + 情人节手套 + 巧克力 (full_text.md ~L1699-L1804)：默默主动接近
+  - 第三章 §2 在 BJ 出现 + 目击直贵被酒客下药 (full_text.md ~L2655-L2783)：第一次见识直贵的卑鄙化
+  - 第三章 §7 BJ 提"既成事实"方案 (full_text.md ~L3717-L3805)：第一次提出"造成既成事实"
+  - 第三章 §9 替直贵假扮女友躲朝美 (full_text.md ~L4385-L4451)：第一次承担直贵的执行助手
+  - 第四章 §1 借钱给直贵搬家 (full_text.md ~L4783-L4843)：经济上的支援
+  - 第四章 §1 与直贵爆吵后又主动通知刚志直贵入职 (full_text.md ~L4731-L4775)：代笔哥哥关系线的伏笔
+
+  本次未生成 canon-ending.md：由实子在故事结束时仍活态（妻子 + 母亲身份贯穿至尾声，仅未在尾声实体在场），无物理死亡 / 不可逆疯癫 / 退出等终局。

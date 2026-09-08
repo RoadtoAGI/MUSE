@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5db22d0cd03786c7fa975821
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1063
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 布满群星的夜空像一面覆盖一切的放大镜，他自己是镜下的一只赤裸的小虫，无处躲藏
+sensory_mapping: 视觉；尺度；上下空间；裸露感
+context_fact: 汪淼刚退出揭示宇宙隐秘的游戏，走到户外便再次被群星触发噩梦般恐惧。
+image_mechanism: 穹顶被翻成一块朝下的巨大镜片，星星化为观察端的亮点；汪淼则缩到镜面下，身体和隐私都因放大而失去遮蔽。
+property_alignment: 星空从上方覆盖对应放大镜罩住样本；汪淼相对宇宙微小对应镜下小虫；未知力量似乎洞悉他对应放大镜暴露微小细节；无处躲藏对应样本被固定在观察范围
+context_alignment: 倒计时和宇宙闪烁已让他确信自身被定向注视，科学家的显微观察经验又自然反转为自己成为标本。
+narrative_function: 把抽象被监视感变成宇宙尺度的实验台，推进汪淼向叶文洁寻求庇护。
+transfer_rule: 写被强大观察者锁定时，可反转人物熟悉的观察工具，并同时对齐观察范围、双方尺度和被观察者的遮蔽能力。
+failure_boundary: 人物只是敬畏星空、没有被针对感，或仍能主动隐藏和反观时，放大镜下赤虫会把普通渺小感误写成监控恐惧。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼在星空下感到自己被未知宇宙力量全盘观察且无法藏身
+vehicle: 巨大放大镜下裸露、被观察者看清每一细节的小虫
+ground: 夜空笼罩全域对应放大镜覆盖观察面；个人相对宇宙渺小无掩护对应镜下小虫被放大暴露

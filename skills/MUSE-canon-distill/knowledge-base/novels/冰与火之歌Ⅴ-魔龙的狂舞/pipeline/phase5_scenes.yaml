@@ -1,0 +1,430 @@
+# Phase 5: 关键场景 — 《冰与火之歌Ⅴ·魔龙的狂舞》
+# 只提取结构转折点、高潮和关键建置场景（20-25个）
+
+sequence_expansions:
+
+  # ── 琼恩线 ──
+
+  - seq_id: JON-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-JON
+        location: 黑城堡·院子
+        time: 故事早期
+        participants: [琼恩, 杰诺斯·史林特]
+        pov: 琼恩
+        conflict: 琼恩命令史林特赴任灰卫堡，史林特公然抗命
+        value_start: 琼恩的权威不稳固，下属敢于公然违抗
+        value_end: 琼恩一刀斩首史林特，铁腕确立总司令权威
+        must_include: 斩首动作本身——呼应奈德·史塔克"判死刑的人必须亲自挥剑"的家训
+        handoff: 权威确立后，琼恩开始推行更激进的野人政策
+        beat_direction: >
+          延迟决定→犹豫是否绞死→选择斩首（家族传统）→一刀落地。
+          关键节拍：决定的切换（绞→斩）揭示琼恩骨子里是史塔克。
+        source_chapter: 第286章
+
+  - seq_id: JON-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-JON
+        location: 黑城堡
+        time: 故事前期
+        participants: [琼恩, 梅丽珊卓, 曼斯·雷德]
+        pov: 琼恩
+        conflict: 曼斯的"处决"——幻术掩盖的政治交易
+        value_start: 曼斯是敌人，必须被处死
+        value_end: 曼斯假死，被秘密派往临冬城——琼恩参与了欺骗
+        must_include: 琼恩命弓箭手射杀曼斯"以免受苦"——表面的仁慈掩盖了阴谋
+        handoff: 野人失去领袖后开始通过长城，引发序列2的核心冲突
+        source_chapter: 第289章
+
+  - seq_id: JON-SEQ4
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-JON
+        location: 黑城堡
+        time: 故事尾声
+        participants: [琼恩, 自由民, 守夜人]
+        pov: 琼恩
+        conflict: 三千余名自由民穿越长城的历史性行动
+        value_start: 长城仍是人类与野人的分界线
+        value_end: 分界线被打破——自由民成为长城的守卫者
+        must_include: 从黎明到黄昏的全程守候——表达琼恩的决心和孤注一掷
+        handoff: 行动的成功加速了内部反对派的行动
+        source_chapter: 第337章
+
+      - scene_id: S04
+        arc_id: ARC-JON
+        location: 黑城堡·哈丁塔前
+        time: 故事末尾
+        participants: [琼恩, 波文·马尔锡, 维克, 巨人旺旺]
+        pov: 琼恩
+        conflict: 巨人旺旺杀死骑士引发混乱，琼恩试图控制局面时被背刺
+        value_start: 琼恩仍是总司令，尽管众叛亲离
+        value_end: "只有冷……"——琼恩倒在雪中，生死未知
+        must_include: >
+          波文·马尔锡含泪说"为了守夜人"的细节——
+          刺客在哭泣，这不是仇恨而是"不得不"的选择
+        handoff: 全书最大悬念——长城陷入混乱
+        beat_direction: >
+          旺旺暴怒→琼恩下令控制→维克第一刀→琼恩反击→
+          波文含泪刺入→琼恩呼唤白灵→倒地→"只有冷"。
+          关键：不是战场上的壮烈牺牲，而是日常混乱中的卑劣暗杀。
+        source_chapter: 第348章
+
+  # ── 丹妮线 ──
+
+  - seq_id: DANY-SEQ1
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-DANY
+        location: 弥林·大金字塔
+        time: 故事早期
+        participants: [丹妮莉丝, 一位父亲, 焦骨]
+        pov: 丹妮莉丝
+        conflict: 父亲带着被龙烧死的幼女焦骨来申诉
+        value_start: 丹妮是解放者，龙是她的力量象征
+        value_end: 龙是不可控的杀人武器，丹妮的统治建立在恐惧之上
+        must_include: 焦骨这个物件——无需对白，实物本身即是控诉
+        handoff: 丹妮被迫锁龙，失去核心力量
+        source_chapter: 第281章
+
+      - scene_id: S06
+        arc_id: ARC-DANY
+        location: 弥林·地下龙穴
+        time: 故事早期
+        participants: [丹妮莉丝, 两条龙]
+        pov: 丹妮莉丝
+        conflict: 丹妮探视被锁铁链的两龙，面对自己造成的后果
+        value_start: 丹妮相信锁龙是正确的决定
+        value_end: 发现两龙愤怒、受伤、危险——锁龙制造了新的问题
+        must_include: 龙穴中的黑暗与铁链声——囚禁龙即囚禁自己的本质
+        handoff: 丹妮开始寻求政治妥协之路
+        source_chapter: 第290章
+
+  - seq_id: DANY-SEQ3
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-DANY
+        location: 弥林·达兹纳克竞技场
+        time: 故事后期
+        participants: [丹妮莉丝, 卓耿, 西茨达拉, 巴利斯坦]
+        pov: 丹妮莉丝
+        conflict: 竞技场上卓耿突降，丹妮在龙与人之间做出最终选择
+        value_start: 丹妮是弥林女王，政治联姻的妻子
+        value_end: 丹妮是龙骑士，飞离了一切政治束缚
+        must_include: >
+          丹妮翻过栏杆冲向卓耿、用鞭子抽打龙脸、
+          "龙的血肉由火构成，她心想，我也一样"
+        handoff: 弥林陷入权力真空
+        beat_direction: >
+          卓耿降临→杀人→矛兵上前→丹妮翻栏杆冲入→
+          卓耿朝她张嘴→"不"→用鞭子驯服→骑上→飞走。
+          关键选择：不是理性计算，而是本能——她选择了龙而非王座。
+        source_chapter: 第331章
+
+      - scene_id: S08
+        arc_id: ARC-DANY
+        location: 多斯拉克海·"龙石山"
+        time: 故事末尾
+        participants: [丹妮莉丝, 卓耿]
+        pov: 丹妮莉丝
+        conflict: 丹妮流落荒野，在饥饿和疾病中反思自己的选择
+        value_start: 刚刚驯龙的荣耀
+        value_end: 孤独、虚弱、迷失——驯龙不是征服的开始而是流放
+        must_include: >
+          丹妮独自在荒野中求生的身体细节——
+          烧伤、腹泻、饥饿——龙骑士的现实不是童话
+        handoff: 暗示丹妮即将与多斯拉克人重逢
+        source_chapter: 第350章
+
+  # ── 提利昂线 ──
+
+  - seq_id: TYR-SEQ1
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-TYRION
+        location: 含羞少女号·洛恩河
+        time: 故事前期
+        participants: [提利昂, 伊耿, 乔恩·康宁顿]
+        pov: 提利昂
+        conflict: 提利昂运用政治才智说服伊耿改变战略方向
+        value_start: 伊耿计划去弥林投靠丹妮
+        value_end: 伊耿决定直接进军维斯特洛——提利昂一句话改变了战局
+        must_include: 棋局的隐喻——提利昂在下棋中说出战略建议
+        handoff: 提利昂证明了自身价值，但随即被乔拉俘获
+        source_chapter: 第297-303章
+
+  - seq_id: TYR-SEQ2
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-TYRION
+        location: 赛荷鲁镇·妓院
+        time: 故事中期
+        participants: [提利昂, 乔拉·莫尔蒙]
+        pov: 提利昂
+        conflict: 提利昂在自我毁灭的最低点被乔拉俘获
+        value_start: 提利昂是自由人（虽在自我放逐中）
+        value_end: 成为俘虏——失去最后的自主权
+        must_include: 提利昂在妓院的颓废细节——弑父后的灵魂创伤外化
+        handoff: 开始被迫旅途，从自由人到奴隶的下坠
+        source_chapter: 第301章
+
+  - seq_id: TYR-SEQ3
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-TYRION
+        location: 渊凯军营外
+        time: 故事后期
+        participants: [提利昂, 分妮, 乔拉, 棕人本·普棱]
+        pov: 提利昂
+        conflict: 提利昂必须说服佣兵团长收留三个逃奴
+        value_start: 逃奴——最低的社会地位
+        value_end: 次子团成员——重新有了组织归属和用武之地
+        must_include: 提利昂的口才和政治嗅觉在极端条件下再次闪现
+        handoff: 弥林大战前夜，提利昂终于回到了"权力游戏"的棋盘上
+        source_chapter: 第336章
+
+  # ── 席恩线 ──
+
+  - seq_id: THEON-SEQ1
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-THEON
+        location: 恐怖堡·地牢
+        time: 故事中期
+        participants: [席恩/臭佬, 拉姆斯·波顿]
+        pov: 席恩
+        conflict: 被彻底心理摧毁的席恩以"臭佬"身份被召出地牢
+        value_start: 黑暗中的非人存在
+        value_end: 被赋予"任务"——虽是工具，至少重见天日
+        must_include: >
+          席恩对自己名字的恐惧——"我的名字叫臭佬，押韵是跑不了"——
+          洗脑口诀的细节令人毛骨悚然
+        handoff: 从地牢到婚礼舞台，开始慢慢接触旧世界的碎片
+        source_chapter: 第291章
+
+      - scene_id: S13
+        arc_id: ARC-THEON
+        location: 临冬城·神木林
+        time: 故事中期
+        participants: [席恩, 拉姆斯, 珍妮·普尔/假艾莉亚]
+        pov: 席恩
+        conflict: 席恩被迫在神木林将假艾莉亚交给拉姆斯
+        value_start: 席恩是服从的工具
+        value_end: 看着珍妮哭泣，自我意识的火苗开始闪烁
+        must_include: >
+          神木林中鱼梁木的红眼——仿佛旧神在注视；
+          珍妮的哭泣——席恩能感受到另一个人的痛苦，说明他还没完全死
+        handoff: 临冬城封城，内部压力开始积聚
+        source_chapter: 第316章
+
+  - seq_id: THEON-SEQ2
+    scenes:
+      - scene_id: S14
+        arc_id: ARC-THEON
+        location: 临冬城·城墙
+        time: 故事后期
+        participants: [席恩, 珍妮·普尔, 洗衣妇们]
+        pov: 席恩
+        conflict: 席恩必须选择：继续做"臭佬"苟活，还是冒死帮助珍妮逃脱
+        value_start: "臭佬"——一个已死之人的空壳
+        value_end: "我的名字是席恩"——跳下城墙的那一刻，他重新成为了人
+        must_include: >
+          跳城墙的瞬间——不是英雄的决定，而是"不能再这样活下去"的本能；
+          名字的力量——"席恩"这个词打破了拉姆斯的心理控制
+        handoff: 落入雪中，命运未知
+        beat_direction: >
+          洗衣妇计划→珍妮哭泣→席恩犹豫→听到自己的名字→
+          抓住珍妮→跳。关键：没有豪言壮语，只有行动。
+        source_chapter: 第330章
+
+  # ── 昆廷线 ──
+
+  - seq_id: QUEN-SEQ2
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-QUENTYN
+        location: 弥林·龙穴地下
+        time: 故事末期
+        participants: [昆廷, 盖里斯, 韦赛利昂, 雷哥]
+        pov: 昆廷
+        conflict: 昆廷试图驯龙以完成父亲的使命
+        value_start: 昆廷相信自己能成为英雄——"英雄不会死"
+        value_end: 全身烧伤，三日后死亡
+        must_include: >
+          "他举起鞭子，却发现鞭子烧着了，手也烧着了。
+          他全身、全身都烧着了。"——对丹妮驯龙成功的残酷对照
+        handoff: 两条龙飞出龙穴，弥林局势彻底失控
+        beat_direction: >
+          夜间不安→试手（手掌悬在烛火上）→闯入龙穴→
+          面对韦赛利昂→喊"坐下"→韦赛利昂无视→
+          雷哥从背后喷火→全身燃烧。
+          反讽结构：丹妮的驯龙场景的镜像——同样的动作（鞭子、喊"不"），
+          完全相反的结果。
+        source_chapter: 第347章
+
+  # ── 伊耿线 ──
+
+  - seq_id: AEGON-SEQ2
+    scenes:
+      - scene_id: S16
+        arc_id: ARC-AEGON
+        location: 鹫巢堡·风怒角
+        time: 故事末期
+        participants: [乔恩·康宁顿, 黄金团, 守城者]
+        pov: 乔恩·康宁顿
+        conflict: 黄金团以奇袭攻占鹫巢堡——康宁顿回到故土
+        value_start: 流亡者——失去一切的人
+        value_end: 康宁顿重新成为鹫巢堡之主——"鹫巢堡又由他当家做主"
+        must_include: >
+          战斗只用几分钟——与传统史诗攻城战的反差；
+          康宁顿内心的感慨——这是他漫长流亡的终点
+        handoff: 伊耿正式登陆维斯特洛
+        source_chapter: 第340章
+
+  # ── 布兰线 ──
+
+  - seq_id: BRAN-STANDALONE
+    scenes:
+      - scene_id: S17
+        arc_id: ARC-JON  # 超自然主线，与琼恩线共享主题
+        location: 地下洞穴
+        time: 故事中期
+        participants: [布兰, 三眼乌鸦, 梅拉]
+        pov: 布兰
+        conflict: 布兰服食心树种子，接受成为绿先知的命运
+        value_start: 残疾男孩——无法行走
+        value_end: 绿先知——"你永远不能行走，但你可以飞"
+        must_include: >
+          穿越时间看到父亲年少时在神木林祈祷——
+          这个画面连接了过去与未来，暗示布兰的力量超越时间
+        handoff: 布兰线在本书中到此基本收束
+        source_chapter: 第313章
+
+  # ── 君临线 ──
+
+  - seq_id: KL-SEQ1
+    scenes:
+      - scene_id: S18
+        arc_id: ARC-KINGSLANDING
+        location: 君临·从贝勒大圣堂到红堡的街道
+        time: 故事末期
+        participants: [瑟曦, 教会武装, 民众]
+        pov: 瑟曦
+        conflict: 瑟曦必须赤身裸体走过君临街道以获得暂时自由
+        value_start: 太后——七国最有权势的女人
+        value_end: 赤裸的罪人——被万民唾弃，精神崩溃
+        must_include: >
+          从骄傲到崩溃的渐进过程——开始时试图保持尊严，
+          最后泣不成声；"沉默巨人"将她抱起——暗示未来的报复
+        handoff: 瑟曦的审判仍未结束，但她已开始谋划复仇
+        beat_direction: >
+          剃发→脱衣→初始的强撑→民众的羞辱逐渐升级→
+          路越来越长→精神防线崩塌→哭泣→红堡终于出现→
+          "沉默巨人"抱起。
+          关键技巧：马丁不写瑟曦的内心独白来博取同情，
+          而是用感官细节（脚底的石子、粪便的臭味）制造身体共感。
+        source_chapter: 第344章
+
+  - seq_id: KL-SEQ2
+    scenes:
+      - scene_id: S19
+        arc_id: ARC-KINGSLANDING
+        location: 红堡·派席尔的房间
+        time: 全书最终场景
+        participants: [凯冯, 瓦里斯, 儿童刺客]
+        pov: 凯冯
+        conflict: 凯冯走入瓦里斯设下的死亡陷阱
+        value_start: 铁王座的有效摄政——正在修复秩序
+        value_end: 被杀——恰恰因为他的能力威胁到了瓦里斯的计划
+        must_include: >
+          瓦里斯的独白——"您确实是个威胁，您企图颠覆太后陛下干的好事"；
+          白鸦落在窗边——"冬天到了"——季节宣告与政治暗杀的双重意义；
+          儿童刺客从阴影中涌出——权力游戏中最无辜的存在被用作最残酷的工具
+        handoff: 全书终章——维斯特洛的秩序彻底崩塌
+        beat_direction: >
+          离开瑟曦→雪中穿过庭院→进入阴冷的房间→
+          白鸦→"冬天到了"→十字弓射中→发现派席尔尸体→
+          瓦里斯现身→独白解释→儿童匕首。
+          关键：全书最后的画面不是战场，而是一间安静的书房——
+          最致命的暴力在最安静的环境中发生。
+        source_chapter: 第351章
+
+  # ── 梅丽珊卓独立场景 ──
+
+  - seq_id: MEL-STANDALONE
+    scenes:
+      - scene_id: S20
+        arc_id: ARC-JON
+        location: 黑城堡
+        time: 故事中期
+        participants: [梅丽珊卓, 琼恩, 曼斯（假骸骨之王）]
+        pov: 梅丽珊卓
+        conflict: 梅丽珊卓揭示假曼斯的真相，以及她在火中看到的预言
+        value_start: 梅丽珊卓是神秘的、不可信的外人
+        value_end: 她的恐惧和脆弱被揭示——她也在与自己的信仰搏斗
+        must_include: >
+          本书唯一的梅丽珊卓POV——揭示她并非全知全能，
+          她在火中看到的往往不是她以为的意思
+        handoff: 为琼恩线增加了超自然维度的不确定性
+        source_chapter: 第310章
+
+  # ── 戴佛斯线 ──
+
+  - seq_id: DAVOS-STANDALONE
+    scenes:
+      - scene_id: S21
+        arc_id: ARC-THEON  # 与北境暗战线交叉
+        location: 白港·曼德勒城堡密室
+        time: 故事中期
+        participants: [戴佛斯, 威曼·曼德勒]
+        pov: 戴佛斯
+        conflict: 曼德勒秘密揭露白港一直在欺骗佛雷/波顿
+        value_start: 戴佛斯以为自己将被处决
+        value_end: 曼德勒全盘翻牌——北方人没有忘记，他们在等待时机
+        must_include: >
+          "北方人的记忆是长久的"——这句话的分量；
+          条件：找回瑞肯·史塔克——一个看似不可能的任务
+        handoff: 戴佛斯线在本书中到此收束，悬念留给下一卷
+        source_chapter: 第308章
+
+# ═══════════════════════════════════════════════
+#  张力曲线
+# ═══════════════════════════════════════════════
+
+tension_curve:
+  description: >
+    全书张力呈"多峰"结构——没有单一的张力弧，
+    而是多条线的张力峰交替出现，后半部密度显著高于前半部。
+    前1/3以建置为主（各线铺开），中1/3以冲突递进为主，
+    后1/3以高潮密集爆发为主。
+    最后5章（347-351）是全书张力最密集的区域——
+    昆廷被烧→琼恩被刺→昆廷死亡→丹妮流落→凯冯被杀，
+    几乎每一章都是一条线的高潮。
+  peaks:
+    - S01  # 斩杀史林特
+    - S07  # 丹妮驯龙飞离
+    - S14  # 席恩跳城墙
+    - S15  # 昆廷被烧
+    - S04  # 琼恩被刺
+    - S18  # 瑟曦裸行
+    - S19  # 凯冯被杀
+  valleys:
+    - S06  # 丹妮探视被锁的龙——沉重但安静
+    - S08  # 丹妮流落荒野——孤独的低谷
+    - S12  # 席恩被召出地牢——压抑的黑暗
+
+causal_chain: >
+  S05（焦骨事件）→ S06（锁龙）→ DANY-SEQ2（政治妥协）→
+  S07（卓耿回归/丹妮飞走）→ 弥林权力真空 →
+  S15（昆廷试图驯龙被烧）→ 龙出笼 → 弥林大战。
+
+  S01（斩杀史林特）→ S02（假处决曼斯）→ JON-SEQ2（收容野人）→
+  S03（自由民穿越长城）→ S04（琼恩被刺）。
+
+  S09（提利昂说服伊耿）→ S16（伊耿登陆）→ S19（瓦里斯杀凯冯）。
+
+  S12（臭佬登场）→ S13（假艾莉亚婚礼）→ S14（席恩跳城墙）。
+
+  三条因果链在全书末尾汇聚为同一个主题：所有旧秩序同时崩塌。

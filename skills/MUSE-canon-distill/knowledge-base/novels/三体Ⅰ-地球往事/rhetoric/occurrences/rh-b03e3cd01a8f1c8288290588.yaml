@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b03e3cd01a8f1c8288290588
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1016
+chapter: 第12章 三体、墨子、烈焰
+figure_type: analogy
+quote: 像照穿鸡蛋壳一般照穿了内壳，我们就看到了太阳
+sensory_mapping: 视觉；透光；层状结构
+context_fact: 墨子用内外两层球壳解释群星、晴空和太阳，汪淼追问太阳如何从固定球壳中显现。
+image_mechanism: 把不可进入的宇宙双壳缩成手中可透照的蛋壳，强光先在壳后聚集，再以亮斑穿出，太阳的出现获得可演示的光路。
+property_alignment: 石膏内壳对应薄蛋壳的半透明屏障；外部强光对应照蛋光源；被照穿的局部亮斑对应肉眼所见太阳
+context_alignment: 墨子的模型由实物铜球和石膏壳构成，鸡蛋壳是同时贴合曲面、薄层和透光性的古代日常物。
+narrative_function: 把错误宇宙模型的光学机制讲得直观可信，也暴露其依赖日常机械直觉。
+transfer_rule: 解释隔层显影时，应选具有相同曲率、厚薄与透光方式的熟悉材料，并逐一对应光源、屏障和亮斑。
+failure_boundary: 若本体屏障完全不透明、光由壳内自行产生或亮区不是穿透所成，鸡蛋壳演示会误导光路。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 墨子模型中外壳大洞的强光穿透半透明内层球壳
+vehicle: 强光从外面照透薄薄的鸡蛋壳而形成亮斑
+ground: 内层球壳薄而半透明对应蛋壳薄且可透强光；局部强光穿透形成太阳对应照蛋时壳面出现高亮区域

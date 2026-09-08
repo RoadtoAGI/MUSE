@@ -1,0 +1,35 @@
+scene_id: '12'
+source_notes: scene_12_beats.md
+patterns:
+- pattern_id: 12-p1
+  beat: 临终对话
+  dimension: omission
+  original_move: 撤掉环境，只剩父子声音
+  ai_default_failure: 回顾旅途关键时刻
+  transfer_rule: 临终场景可只指向前方
+  quote: 你得自己走下去
+- pattern_id: 12-p2
+  beat: 火炬的命名
+  dimension: omission
+  original_move: 火炬被追问但不被定义
+  ai_default_failure: 解释火炬就是善良
+  transfer_rule: 核心隐喻显性化时别释义
+  quote: 它在你心里
+- pattern_id: 12-p3
+  beat: 陌生人
+  dimension: info_density
+  original_move: 信任决策压成三个是非题
+  ai_default_failure: 写孩子长时间内心犹豫
+  transfer_rule: 铺垫足够时决定可极轻
+  quote: 那好吧
+- pattern_id: 12-p4
+  beat: 河鳟
+  dimension: camera
+  original_move: 尾声跳出叙事转向无人自然
+  ai_default_failure: 把河鳟解释成主题象征
+  transfer_rule: 终章可用不解释画面升维
+  quote: 河鳟在琥珀色流水中栖止
+overall_traits:
+- 终章节奏极慢极快再永恒
+- 重大决定用轻句完成
+- 尾声跳出角色视角

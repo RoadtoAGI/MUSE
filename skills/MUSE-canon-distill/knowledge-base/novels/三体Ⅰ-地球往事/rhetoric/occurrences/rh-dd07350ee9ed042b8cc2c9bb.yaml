@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dd07350ee9ed042b8cc2c9bb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2227
+chapter: 第31章 两个质子
+figure_type: simile
+quote: 也就是一小撮像老鼠屎似的黑炭粒
+sensory_mapping: 黑色颗粒；细小尺度；干硬触感；一撮散落；日常厌恶感
+context_fact: 丁仪用常见过滤芯解释微小三维结构内部可展开出网球场般巨大的二维面积。
+image_mechanism: 抽象微孔材料先被拉回桌边可辨认的脏小颗粒，鼠粪尺度让听者看清它何其微不足道，随后巨大的内部面积才形成认知反差。
+property_alignment: 炭粒乌黑对应鼠粪颜色；单粒短小对应粪粒尺度；形状不规则对应鼠粪轮廓；聚成一撮对应散落数量；外观粗陋对应内部结构难以想象
+context_alignment: 丁仪刻意用烟具和粗俗物象向非专业者讲高维容纳，老鼠屎的低门槛视觉参照符合其口语教学方式。
+narrative_function: 锚定活性炭的可见尺度，为微小外形与巨大内部面积的反差搭台。
+transfer_rule: 用日常颗粒物说明微观材料时，应优先匹配颜色、单粒尺寸、聚集形态，并让粗陋外观服务随后要揭示的内部反差。
+failure_boundary: 活性炭被制成规则亮面整块、读者无需尺度参照，或场景语体庄严克制时，鼠粪形象会既不准确又破坏语调。
+quality_assessment: functional
+confidence: 0.99
+review_status: reviewed
+tenor: 从烟斗过滤芯倒出的少量细小、乌黑、颗粒分明的活性炭
+vehicle: 聚成一小撮、黑色短小且形状不规则的老鼠粪粒
+ground: 活性炭黑色对应鼠粪黑色；细小颗粒形态和一撮数量对应散落粪粒

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f0b6a7e912631ab289201134
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2713
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 这是人类的落日
+sensory_mapping: 西沉红日；地平线；余晖减弱；白昼终结；长夜将临
+context_fact: 叶文洁在红岸遗址濒死时看见血红夕阳，已知自己的呼唤引来舰队并导致智子封锁人类科学。
+image_mechanism: 眼前一颗太阳的下沉突然拉长为整个物种的时间轴：红岸发信后的文明白昼抵达地平线，余晖仍壮丽，却把即将到来的四百年黑夜照得更清楚。
+property_alignment: 人类文明历程对应一天；既有繁荣对应白昼；三体危机对应日轮下沉；红岸事件对应落日开端；科学锁死对应光线衰减；可能灭绝对应夜幕；当前夕阳对应历史征兆
+context_alignment: 太阳既是红岸通信的放大器，也是叶文洁最后所见；她用同一颗天体为自己发动的文明危机命名，人物、技术和历史在一句中闭合。
+narrative_function: 以全书最后一句把个人死亡和文明悬危提升到同一时间尺度，并为三部曲后续长夜留门。
+transfer_rule: 用落日写文明转衰时，应建立此前白昼、明确下沉触发、余晖阶段、将临黑夜和现场景物与历史进程的双重对应。
+failure_boundary: 危机已解除、文明只是短暂受挫，或场景发生在象征新生的日出时，落日会把可逆低谷写成历史终局。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体入侵已被触发、基础科学遭锁死后，人类文明进入可能走向衰亡的历史末段
+vehicle: 太阳从一天的高处沉到地平线下，光明时代随余晖结束，随后是漫长黑夜
+ground: 文明兴盛对应白昼；危机显现对应太阳下沉；技术前路变暗对应余光消退；可能灭亡对应入夜；叶文洁临终对应落日见证者

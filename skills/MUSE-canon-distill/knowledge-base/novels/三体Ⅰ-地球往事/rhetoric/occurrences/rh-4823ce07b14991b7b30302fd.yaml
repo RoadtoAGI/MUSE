@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4823ce07b14991b7b30302fd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2118
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 文明仍按照自己的轨迹毁灭着地球上除人之外的其他生命
+sensory_mapping: 固定轨道；巨大惯性；前进轰鸣；无法转向；终点逼近
+context_fact: 伊文斯比较全球环保投入与持续恶化，认为富国转移污染、全人类本质相同。
+image_mechanism: 文明被装上轨道成为巨型列车，环保资金只在车厢内搬动物品，钢轨仍把整列车导向物种毁灭；问题来自路径而非燃料多少。
+property_alignment: 发展制度对应轨道；文明规模对应重型列车；经济增长惯性对应高速前进；环保局部措施对应车内调整；物种灭绝对应线路终点；难以自改对应轨道锁向
+context_alignment: 该判断使他放弃用四十五亿美元修补局部，转而接受从文明之外改变轨道的三体力量。
+narrative_function: 把系统性绝望与局部资源无效讲清，建立ETO降临派的逻辑前提。
+transfer_rule: 用轨迹写系统发展时，应指出约束路径的结构、惯性来源、局部干预为何不足及可预见终点。
+failure_boundary: 制度存在有效转向机制、数据已显示轨迹改变，或趋势由短期偶然造成时，固定轨道会把可能性封死。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 人类文明受生产、消费和权力机制驱动，持续沿既定发展模式造成物种灭绝
+vehicle: 高速物体沿预定轨道前进，方向由轨道约束，难以靠局部推力改变
+ground: 制度惯性对应轨道约束；发展方向稳定对应路线预定；局部环保投入无效对应小力难改轨；毁灭结果对应轨迹终点

@@ -1,0 +1,28 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 弗雷斯战舞
+  dimension: camera
+  original_move: 省略舞步全写眼睛，怒火喷涌后瞬间降温和善
+  ai_default_failure: 详细描写步伐手势身体姿态
+  transfer_rule: 仪式性爆发可只聚焦一个器官，落点给诊断台词
+  quote: 你没有盯住敌人的眼睛
+- pattern_id: S19-p2
+  beat: 砍人后说排队
+  dimension: verb
+  original_move: 砍成两截直切排队二字，硬软动词并置成恐怖
+  ai_default_failure: 写人群惊恐骚动的群体心理过程
+  transfer_rule: 暴力立秩序可省群体反应，力场比喻替心理
+  quote: 将刚爬上垛顶的三个人都砍成了两截
+- pattern_id: S19-p3
+  beat: 活生生的粮食
+  dimension: omission
+  original_move: 食人计划以平静提醒语气揭晓，在场只给沉默
+  ai_default_failure: 写会场哗然昏倒痛哭的反应群像
+  transfer_rule: 至暗信息用最日常语气投放，沉默一行即全部
+  quote: 都是粮食，活生生的粮食
+overall_traits:
+- 同场景切换抒情暴力数据三种质感
+- 殖民史嵌入科幻灭族，灾难获得纵深
+- 物理失明对位精神失明，对应不点破

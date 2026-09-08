@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a1ed1a599effcd7a4af40f46
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1515
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 扼杀了社会的创造力
+sensory_mapping: 喉部压力；窒息；手部控制；生命消失
+context_fact: 秦始皇面对三千万人按统一规则计算，反驳欧洲人关于其独裁会消灭创造力的批评。
+image_mechanism: 抽象能力被赋予呼吸与脉搏，政治强制收紧成卡住气管的手；创造从逐渐减弱被写成可追责的暴力致死。
+property_alignment: 社会创造力对应活的身体；严格压制对应扼住咽喉；创新停止对应呼吸和生命终止；独裁者责任对应施力之手
+context_alignment: 秦始皇刚展示纪律能制造复杂计算，却只复制固定规则，扼杀一词把“执行复杂”与“产生新意”的争论准确拉开。
+narrative_function: 压缩独裁与创新的价值冲突，为秦始皇的反驳提供鲜明靶点。
+transfer_rule: 以扼杀写压制时，应存在持续的外部控制、原本可生长的活动和被迫中止的结果。
+failure_boundary: 创造活动只是暂缓、资源不足而非遭强制，或后来仍旺盛发展时，扼杀会把抑制夸成彻底死亡。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 独裁纪律压制社会成员产生新思想和自主创新的能力
+vehicle: 掐住一个有生命者的咽喉，使其窒息死亡
+ground: 创造活动因强制而停止对应生命因呼吸被截断而终止；压制来自外部权力对应手从外部扼住咽喉

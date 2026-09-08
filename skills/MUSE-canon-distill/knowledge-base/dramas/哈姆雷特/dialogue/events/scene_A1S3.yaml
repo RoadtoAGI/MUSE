@@ -1,0 +1,102 @@
+schema_version: dialogue-scene-events/v1
+work_id: drama:哈姆雷特
+scene_id: A1S3
+scene_file: scenes/scene_A1S3.md
+events:
+  - event_id: drama:哈姆雷特:A1S3:e01
+    event_type: interaction
+    context:
+      relationship: parent_child
+      power: parent_over_child
+      intimacy: family
+      face_condition: private
+      pressure: family_honor
+      shared_context: 父女都知道哈姆雷特正在追求欧菲利亚
+      immediate_stakes: 波洛涅斯要求女儿停止与哈姆雷特来往
+    participants:
+      - character_id: drama:哈姆雷特:ophelia
+        display_name: 欧菲利亚
+        position: resisting_recipient
+        knowledge_boundary: 她只知道哈姆雷特曾表达爱意并发誓
+      - character_id: drama:哈姆雷特:polonius
+        display_name: 波洛涅斯
+        position: controlling_parent
+        knowledge_boundary: 他以父权和名誉风险解释哈姆雷特的追求
+    turns:
+      - turn_id: t01
+        speaker_id: drama:哈姆雷特:ophelia
+        speaker_label: 欧菲利亚
+        addressee_ids: [drama:哈姆雷特:polonius]
+        response_to: null
+        source_locator: scenes/scene_A1S3.md:L9
+        text: 我不知应如何去想, 父亲。
+        speech_action: admit_uncertainty
+        cooperation: deferential
+        oral_forms: [direct_address]
+        capacity: full
+      - turn_id: t02
+        speaker_id: drama:哈姆雷特:polonius
+        speaker_label: 波洛涅斯
+        addressee_ids: [drama:哈姆雷特:ophelia]
+        response_to: t01
+        source_locator: scenes/scene_A1S3.md:L9
+        text: "好, 让我告诉你: 你就好似个天真的婴儿, 把他给你的这些爱情伪币当作真钱。"
+        speech_action: belittle_and_reframe
+        cooperation: controlling
+        oral_forms: [topic_takeover, metaphor]
+        capacity: full
+      - turn_id: t03
+        speaker_id: drama:哈姆雷特:ophelia
+        speaker_label: 欧菲利亚
+        addressee_ids: [drama:哈姆雷特:polonius]
+        response_to: t02
+        source_locator: scenes/scene_A1S3.md:L9
+        text: 但是, 父亲呀, 他是有诚意的在追求我。
+        speech_action: defend_claim
+        cooperation: restrained_resistance
+        oral_forms: [adversative_opening, direct_address]
+        capacity: full
+      - turn_id: t04
+        speaker_id: drama:哈姆雷特:polonius
+        speaker_label: 波洛涅斯
+        addressee_ids: [drama:哈姆雷特:ophelia]
+        response_to: t03
+        source_locator: scenes/scene_A1S3.md:L9
+        text: 你所谓之诚意, 算了罢, 算了。
+        speech_action: dismiss
+        cooperation: refusing_premise
+        oral_forms: [keyword_repetition, repetition]
+        capacity: full
+      - turn_id: t05
+        speaker_id: drama:哈姆雷特:polonius
+        speaker_label: 波洛涅斯
+        addressee_ids: [drama:哈姆雷特:ophelia]
+        response_to: t04
+        source_locator: scenes/scene_A1S3.md:L11
+        text: 从今天开始, 你应与他疏远, 切勿一呼即至。
+        speech_action: command
+        cooperation: coercive
+        oral_forms: [imperative]
+        capacity: full
+      - turn_id: t06
+        speaker_id: drama:哈姆雷特:ophelia
+        speaker_label: 欧菲利亚
+        addressee_ids: [drama:哈姆雷特:polonius]
+        response_to: t05
+        source_locator: scenes/scene_A1S3.md:L11
+        text: 我将听从您的旨示。
+        speech_action: submit
+        cooperation: compliant
+        oral_forms: [formal_register]
+        capacity: full
+    outcome:
+      control_shift: controlling_parent_secures_compliance
+      relationship_cost: medium
+      visible_result: 欧菲利亚停止争辩并接受父亲的命令
+    transferable_mechanism: 强势一方复述并贬低对方关键词，再把争论压缩为命令；正式完整句在父权控制场景中承担服从功能。
+    annotation:
+      extractor: dialogue-kb-distill
+      confidence: 0.98
+      review_status: source_checked
+      source_file: scenes/scene_A1S3.md
+      source_sha256: c55f5640e9efa811d833a839d61832472807dc6ab511f221e77158cb6adebdcf

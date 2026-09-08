@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c88c39bddc257fbbcee6fd5e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2674
+chapter: 第35章 虫子
+figure_type: metaphor
+quote: 找振作啊
+sensory_mapping: 起身出门；驱车寻找；遗失物；抵达地点；重新带回
+context_fact: 两位科学家认为世界末日已定而醉酒颓废，大史强行带他们去郊外看未被人类消灭的蝗虫。
+image_mechanism: 内在士气被大史说成丢在外面的实物，他不在酒桌上劝说，而是把两人拖上车沿真实道路去取；麦田中的虫群成为可找到、可带回的答案。
+property_alignment: 颓废对应物件遗失；振作对应可寻之物；大史对应带路寻找者；车程对应搜索过程；蝗灾现场对应藏物地点；重新工作对应找回并使用
+context_alignment: 大史的行动型语言符合警察人物声音，一句宾语化的‘振作’直接预告他要用现场证据而非抽象安慰。
+narrative_function: 把室内绝望转成有方向的移动，并为麦田反转设置悬念。
+transfer_rule: 把精神状态写成可寻找之物时，应安排明确失落、带路者、实际行程、发现载体和状态恢复的可见结果。
+failure_boundary: 人物只停留原地接受口头劝慰、没有发现事件，或到达后情绪仍无变化时，‘找’会成为缺乏动作兑现的俏皮话。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 史强要把绝望醉酒的汪淼和丁仪带到一个能恢复信心的具体经验面前
+vehicle: 遗失的物件或可抵达的地点在外面某处，行动者出门寻找并把它重新带回来
+ground: 失去士气对应丢失物件；麦田启示对应目标所在；驾车前往对应搜索路程；恢复行动意愿对应找回所得

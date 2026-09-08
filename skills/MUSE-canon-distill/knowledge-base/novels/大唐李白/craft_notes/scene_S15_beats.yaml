@@ -1,0 +1,14 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 龙君论难易
+  dimension: overall
+  original_move: 抽象论辩始终挂在具体视觉锚点上
+  ai_default_failure: 悬空讨论痴情生死
+  transfer_rule: 哲理对白需绑定可见物和位置
+  quote: 生者难为情
+overall_traits:
+- 仙凡嵌入写实空间
+- 抽象论辩有物理锚点
+- 单字承担叙事重量

@@ -1,0 +1,34 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:huang-yaoshi
+work_id: novel:射雕英雄传
+display_name: 黄药师
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的声音以简洁、锐利、带文人气为特征。
+
+
+    关键特征：
+
+    - **极少多说一句话**——他经常用一声"哼"、一声冷笑、一句判决式短句完成交流："小畜生还有眼光"（七个字包含轻蔑+赞赏）
+
+    - **称呼等级感强**——对同辈（洪七公、王重阳）直呼外号或兄；对晚辈用"小子""姑娘"；对女儿称"蓉儿""我的好孩子"——称呼的柔软度反映关系的紧密度
+
+    - **诗文随口而出**——"桃花影落飞神剑，碧海潮生按玉箫"是他本人的生活美学
+
+    - **判决式断言替代论证**——"爽爽快快将黄老邪杀了，以成全真派之名，岂不美哉？"——用讽刺的反问替代解释
+
+    - **发作时用武功而非语言**——他发怒不吵架，直接出手，招到即止
+
+
+    佐证：scenes/scene_30.md:L19-L19 （"黄老邪一生独来独往，杀了几个人难道还会赖账？不错，你那些师父通通是我杀的！"——用最极端的"承担"姿态替代解释）；scenes/scene_30.md:L18-L18 （"好孩子，过来，让爹疼你"——对女儿的柔软称呼）'
+  evidence_locators:
+  - scenes/scene_30.md:L19-L19
+  - scenes/scene_30.md:L18-L18
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

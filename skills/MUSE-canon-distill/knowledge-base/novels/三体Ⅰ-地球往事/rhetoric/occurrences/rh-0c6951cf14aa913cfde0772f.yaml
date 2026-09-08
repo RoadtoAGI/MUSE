@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0c6951cf14aa913cfde0772f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L95
+chapter: 第1章 科学边界
+figure_type: metaphor
+quote: 晴天霹雳，汪淼的大脑一片空白
+sensory_mapping: 听觉；视觉；冲击；心理
+context_fact: 常伟思宣布名单上的物理学家都已自杀。
+image_mechanism: 无预警死讯被压成晴空中的瞬时爆响，冲击随后擦除思考和画面；自然事件的突发性与认知停摆首尾相接。
+property_alignment: 消息毫无准备到来对应晴空突然霹雳；冲击使思考停止对应雷击造成感官空白
+context_alignment: 此前回忆温暖构图，死讯如无云天气的雷击。
+narrative_function: 把认知中断压成瞬间自然灾变。
+transfer_rule: 写消息冲击时，让喻体同时匹配事前无征兆、到达瞬间的强度和到达后的感官/思维结果。
+failure_boundary: 早有预期、逐步确认或只引起轻微惊讶的消息没有晴天霹雳的反差和击空后果。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬死讯造成的突然而强烈的精神震击
+vehicle: 晴朗无预警时突发雷击并把视野击空
+ground: 消息毫无准备到来对应晴空突然霹雳；冲击使思考停止对应雷击造成感官空白

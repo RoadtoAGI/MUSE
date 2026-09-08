@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-620d7de6b964f96ca033f088
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1319
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 那时候，中学教师中可是卧虎藏龙
+sensory_mapping: 视觉隐蔽；动物力量；空间藏伏
+context_fact: 魏成的中学数学老师原是文革中流落基层的有才华者，能迅速识别并引导他的罕见天分。
+image_mechanism: 平凡教师队伍的表面被掀开，下面潜伏着大型有力生物；政治运动造成的职业降位被转成力量被迫收敛和隐藏。
+property_alignment: 高才教师身份普通对应龙虎隐身；专业能力未被岗位使用对应力量伏而不发；老师识出魏成天赋对应潜藏强者突然展现本领
+context_alignment: 成语带有传统传奇色彩，适合魏成口述一位近乎点化他的老师，也贴合文革人才被埋没的时代事实。
+narrative_function: 一句交代老师为何有能力识才，并侧写时代对人才的错置。
+transfer_rule: 用藏伏猛兽写隐人才时，应给出低调表面、被压住的具体能力和一次显能动作。
+failure_boundary: 群体只是名望不显却能力普通，或人才主动公开竞争时，龙虎的隐藏与爆发潜力不成立。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 文革中流落到中学任教、外表普通却有高深才能的教师群体
+vehicle: 伏卧的猛虎与隐藏的蛟龙暂不显露力量
+ground: 人才身处普通岗位而未被识别对应龙虎藏伏不露形；能力一旦遇事显现便远超环境预期对应猛兽潜力巨大

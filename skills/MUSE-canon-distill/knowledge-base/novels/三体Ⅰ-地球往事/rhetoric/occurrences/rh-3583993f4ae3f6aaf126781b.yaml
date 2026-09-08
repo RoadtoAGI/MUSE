@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3583993f4ae3f6aaf126781b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L388
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 这个说话如电报般精简的女人
+sensory_mapping: 听觉；语言节奏；信息密度
+context_fact: 汪淼回想申玉菲冷淡的应答。
+image_mechanism: 自然口语被剪去连接、解释和情绪，只剩像电报码一样的最小信息单元；听觉节奏随之变成短促发送。
+property_alignment: 句子极短对应电报按字计费而压缩；只留指令事实对应电报删去寒暄情绪
+context_alignment: 技术人员视角和申玉菲机械冷硬的交流风格都适合通信媒介。
+narrative_function: 固定人物声音并引向DOS提示符比拟。
+transfer_rule: 用媒介刻画话风时，应对应信息压缩方式、句子节奏和被删去的内容，而非只因话少。
+failure_boundary: 寡言却含蓄抒情、停顿很多或信息并不明确的人不具备电报的高密度和指令性。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 申玉菲只给必要信息、极少多说一字的表达方式
+vehicle: 按字压缩、只传关键内容的电报
+ground: 句子极短对应电报按字计费而压缩；只留指令事实对应电报删去寒暄情绪

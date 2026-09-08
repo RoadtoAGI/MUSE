@@ -1,0 +1,24 @@
+mode: reference
+display_name: 蔡宇
+role_slug: cai-yu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # antagonistic_forces.societal + arc_framework + story_climax_design
+  - pipeline/phase0_conception.yaml  # controlling_idea.candidate_b（道德感拖累生存）
+  - scenes/scene_EE-S04.md
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S07.md
+  - scenes/scene_EE-S09.md
+  - scenes/scene_EE-S11.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S04 谦逊纠正"只是辅警" / S05 节制恐慌+厉声呵斥扰乱者 / S07 向老魏道歉），稳定性充分。
+  弧光起点（领队利他）+ 转折（S07 担坏人角色）+ 终点（S09 枪里无子弹回收希望真相）三段齐全。
+  性格真相有压力情境直接佐证（S07 表决僵局担坏人 + S09 无子弹的枪被翻出）。
+  核心欲望跨 S05（拯救每一个人）+ S11（子弹就是希望/怀绝望给希望）两场，非单点。
+  cai-yu 在 phase0 登记为跨篇 slug，但本篇是其唯一实质出场；本目录按《恶》子目录 + per-part map 隔离独立蒸馏。

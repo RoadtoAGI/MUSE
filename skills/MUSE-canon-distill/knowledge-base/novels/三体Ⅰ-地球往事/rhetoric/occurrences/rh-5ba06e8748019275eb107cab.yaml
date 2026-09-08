@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5ba06e8748019275eb107cab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1625
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 那些皱纹都很长，曲线也很柔和，像在努力造就一种和谐
+sensory_mapping: 视觉；线条；柔性运动；构图
+context_fact: 汪淼近看流浪老人的脸，准备确认他是否为爱因斯坦，琴声也带自得和谐。
+image_mechanism: 静止皱纹被赋予缓慢创作动作，每条线都像在面孔上寻找不相撞的弧度；衰老痕迹因此不显破败，而像共同完成一幅协调构图。
+property_alignment: 皱纹长曲线对应构图线条；曲率柔和对应追求和谐的避免冲突；多纹共处对应多声部协调；脸部整体安宁对应努力结果趋于和谐
+context_alignment: 老人正拉小提琴，和谐既是视觉构图也是音乐术语，面容与琴声在同一审美原则下相连。
+narrative_function: 把爱因斯坦的衰老与内在温和写成面部线条动作，深化人物气质。
+transfer_rule: 让静态纹理承担意图时，应从曲率、相互关系和整体效果推导具体“努力”，并与人物现场活动呼应。
+failure_boundary: 皱纹短促尖锐、彼此杂乱或人物气质明显紧绷时，造就和谐会违背可见线条。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 老人脸上长而柔缓、彼此协调的皱纹线条
+vehicle: 多条曲线主动调整自身走向，共同构成和谐图案
+ground: 皱纹曲率柔和平顺对应线条避免尖锐冲突；多条纹路共同组织面孔对应各部分协力形成整体和谐

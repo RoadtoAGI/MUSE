@@ -1,0 +1,26 @@
+mode: reference
+display_name: 杨康
+role_slug: yang-kang
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_04.md
+  - scenes/scene_12.md
+  - scenes/scene_26.md
+built_at: 2026-04-14T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 11
+coverage_note: |
+  杨康全书共出场 3 个主要场景（S04 赵王府身世揭秘、S12 铁枪庙身亡、S26 段天德灵前改姓结义）。本次蒸馏三场景全部覆盖：
+  - S04 提供身世揭秘时的"踌躇难决"——他弧光的起点（第一次选择背生向养）
+  - S26 提供他口头改姓杨康+立刻"踌躇不答"的双面模式——声音框架的核心（说正确的话+做相反的事）
+  - S12 提供末路——"眼中流泪叫父王"证明他至死未真正离开金国；"康儿想出来的"栽赃计证明他是阴谋主谋
+
+  coverage_note 要点：杨康是郭靖的镜像——Phase 3 spine 中明确 primary_axis 即"郭靖 vs 杨康：同一起点，相反终点"。他的所有边界和弧光都必须以"郭靖会做什么"为参照反向定义。本 SKILL 多次显式提及"与郭靖对比"——这是设计上的必要而非冗余。
+
+  未覆盖：
+  - 他与穆念慈的感情线（比武招亲、赵王府囚禁穆念慈、后来承诺娶她后仍拒认等）——由于主要体现在 scene_16 穆念慈比武招亲和其他未切入 scenes/ 的片段中，本次未引用作为佐证。
+  - 他在欧阳锋跟前"师父徒儿磕头"的原始描写可能在 scene_12 更早段落之外，本次用"康儿栽赃计"替代作为"彻底投靠欧阳锋"的佐证。如下游续写需要拜师仪式原文，建议读第35回的相关段落。
+
+  未破例读 full_text.md。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d8ae6cb77b0e7e45db416fb0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L721
+chapter: 第8章 寂静的春天
+figure_type: analogy
+quote: 当时的政治神经是极其错综复杂的，作为记者，白沐霖自以为了解这神经系统的走向和敏感之处，但他过分自信了，他这封信触动了他以前不知道的雷区
+sensory_mapping: 神经触觉；网络空间；引爆声；危险地形；系统机制
+context_fact: 白沐霖以为上书可能有政治收益，却因触犯未知边界而恐惧并牺牲叶文洁。
+image_mechanism: 政治首先成为布满线路的身体，信件像电脉冲沿其内部前行；“敏感”随后从生理阈值升级为空间雷区，信号一触即爆，认识不足转成踩错一步的灾难。
+property_alignment: 政治信息通道对应神经走向；议题反应阈值不同对应身体敏感点；写信进入系统对应刺激沿网络传入；未知禁区触发惩罚对应误踩地雷爆炸；后果扩散对应神经反应与爆炸波及周围
+context_alignment: 记者确实掌握部分信息路线却不知道隐蔽边界，神经网说明复杂连通，雷区说明局部后果为何突然跃迁。
+narrative_function: 解释背叛并非预谋，却仍由不透明政治系统制造历史转折。
+transfer_rule: 复合系统类比要安排清楚转换节点：网络负责传导和敏感度，危险地形负责阈值触发与不可逆后果，两者不能只堆气氛。
+failure_boundary: 规则公开、反馈线性或行为者准确知道禁区时，未知神经—雷区模型不成立；它也不免除白沐霖后续主动嫁祸的责任。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 文革政治中信息传递、敏感议题与未知惩罚触发点构成的复杂响应网络
+vehicle: 信号沿神经网络传导，并在触及异常敏感区后像踩雷一样引爆伤害
+ground: 政治信息通道对应神经走向；议题反应阈值不同对应身体敏感点；写信进入系统对应刺激沿网络传入；未知禁区触发惩罚对应误踩地雷爆炸；后果扩散对应神经反应与爆炸波及周围

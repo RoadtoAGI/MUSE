@@ -1,0 +1,917 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "毒杀",
+      "理性vs魔法",
+      "序幕",
+      "老人之死",
+      "预兆"
+    ],
+    "characters": [
+      "克礼森",
+      "梅丽珊卓",
+      "戴佛斯"
+    ],
+    "conflict_type": "external",
+    "pov": "克礼森",
+    "word_count": 2102,
+    "source_chapter": "第77章 序幕",
+    "file": "scenes/scene_S01.md",
+    "description": "龙石岛老学士克礼森以毒酒试图除掉红袍女梅丽珊卓，红宝石魔力化解毒药，克礼森反死于自己的毒药",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，随老人恐惧收紧",
+      "diction": "宫廷称谓夹冷硬宗教词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对峙对白推进，夹内心盘算",
+      "pacing": "慢铺羞辱，末段骤然窒息"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "权力交接",
+      "姐弟对抗",
+      "智谋",
+      "宫廷"
+    ],
+    "characters": [
+      "提利昂",
+      "瑟曦",
+      "曼登·穆尔",
+      "波隆"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 3519,
+    "source_chapter": "第80章 提利昂",
+    "file": "scenes/scene_S02.md",
+    "description": "提利昂手持泰温任命书闯入御前会议，与瑟曦展开第一回合权力博弈",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴提利昂视角，讥诮直评",
+      "diction": "政务套话混辛辣口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "机锋对白主导权力试探",
+      "pacing": "短回合递进，信息逐层亮牌"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "宗教仪式",
+      "焚神",
+      "忠诚困境",
+      "道德观察"
+    ],
+    "characters": [
+      "戴佛斯",
+      "史坦尼斯",
+      "梅丽珊卓",
+      "赛丽丝"
+    ],
+    "conflict_type": "internal",
+    "pov": "戴佛斯",
+    "word_count": 3283,
+    "source_chapter": "第87章 戴佛斯",
+    "file": "scenes/scene_S03.md",
+    "description": "戴佛斯目睹史坦尼斯焚烧七神雕像、从火中拔出光明使者——忠诚与道德的张力",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "戴佛斯限知，忠诚中含疑惧",
+      "diction": "宗教颂词对照航海俗语",
+      "rhetoric_density": "high",
+      "dialogue_mode": "仪式呼喊少，叙述推进多",
+      "pacing": "景物厚铺后以讽刺收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "归乡",
+      "身份认同",
+      "家族期望",
+      "失落"
+    ],
+    "characters": [
+      "席恩",
+      "巴隆·葛雷乔伊",
+      "阿莎"
+    ],
+    "conflict_type": "personal",
+    "pov": "席恩",
+    "word_count": 6451,
+    "source_chapter": "第88章 席恩",
+    "file": "scenes/scene_S04.md",
+    "description": "席恩以罗柏使者身份返回铁群岛派克城，从海上望见故乡，发现父亲已有自己的计划",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "席恩贴身，自尊不断受挫",
+      "diction": "海岛地貌词混粗粝欲望词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "少量问答暴露身份落差",
+      "pacing": "长景观铺陈接尴尬顿挫"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "绝境领导",
+      "荒原求生",
+      "龙母",
+      "彗星"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "乔拉·莫尔蒙",
+      "多莉亚"
+    ],
+    "conflict_type": "external",
+    "pov": "丹妮莉丝",
+    "word_count": 3329,
+    "source_chapter": "第89章 丹妮莉丝",
+    "file": "scenes/scene_S05.md",
+    "description": "丹妮率多斯拉克残部在红土荒原中追随彗星前行——绝境中的领导力展示",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "丹妮限知，王命与脆弱并置",
+      "diction": "异域名词夹荒原苦旱词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "顾问对白短促，叙述承重",
+      "pacing": "旅程压缩，死亡逐项累积"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "长城以北",
+      "空村",
+      "异鬼暗示",
+      "心树",
+      "侦察"
+    ],
+    "characters": [
+      "琼恩",
+      "莫尔蒙",
+      "山姆威尔"
+    ],
+    "conflict_type": "external",
+    "pov": "琼恩",
+    "word_count": 4405,
+    "source_chapter": "第90章 琼恩",
+    "file": "scenes/scene_S06.md",
+    "description": "守夜人巡逻队深入长城以北发现白树村空无一人，心树洞中有人类骸骨——北方异常的寂静",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "琼恩贴身，警觉压住恐惧",
+      "diction": "荒村实物词带古老阴影",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "巡查问答穿插乌鸦复诵",
+      "pacing": "勘察缓行，末句悬念留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "权谋",
+      "间谍测试",
+      "智慧对决",
+      "联姻策略"
+    ],
+    "characters": [
+      "提利昂",
+      "派西尔",
+      "小指头",
+      "瓦里斯",
+      "瑟曦"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 11070,
+    "source_chapter": "第94章 提利昂",
+    "file": "scenes/scene_S07.md",
+    "description": "提利昂以三个不同联姻方案分别告知三位幕僚，设计揪出瑟曦的告密者——经典权谋场景",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "提利昂限知，以幽默拆局",
+      "diction": "朝堂文书词混餐桌讥刺",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "诱供式对白推动反转",
+      "pacing": "闲谈开场，证据突然锁紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "逃亡密谋",
+      "弄臣骑士",
+      "神木林",
+      "希望"
+    ],
+    "characters": [
+      "珊莎",
+      "唐托斯"
+    ],
+    "conflict_type": "personal",
+    "pov": "珊莎",
+    "word_count": 6215,
+    "source_chapter": "第95章 珊莎",
+    "file": "scenes/scene_S08.md",
+    "description": "珊莎秘密前往神木林，落魄弄臣唐托斯承诺做她的'佛罗理安'助她逃亡",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "布兰贴身，童年感知罩住异象",
+      "diction": "城堡日常词接梦境兽性词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "训导对白少，内感推进多",
+      "pacing": "日常慢行，异样感逐步浮出"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "超自然契约",
+      "三条命",
+      "复仇",
+      "无面者",
+      "受害者蜕变"
+    ],
+    "characters": [
+      "艾莉亚",
+      "贾昆·赫加尔",
+      "威斯",
+      "奇斯威克"
+    ],
+    "conflict_type": "internal",
+    "pov": "艾莉亚",
+    "word_count": 9253,
+    "source_chapter": "第107章 艾莉亚",
+    "file": "scenes/scene_S09.md",
+    "description": "艾莉亚在赫伦堡获得贾昆'三条命'许诺，耳语第一个名字杀死奇斯威克——从老鼠到鬼魂的蜕变",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "艾莉亚限知，戒备中带倔强",
+      "diction": "逃亡尘土词混儿童直觉",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "粗口短句塑造群体压力",
+      "pacing": "赶路碎片化，危险忽近忽远"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "兄弟对峙",
+      "外交失败",
+      "王权争夺",
+      "桃子",
+      "光明使者"
+    ],
+    "characters": [
+      "凯特琳",
+      "史坦尼斯",
+      "蓝礼",
+      "梅丽珊卓",
+      "布蕾妮"
+    ],
+    "conflict_type": "personal",
+    "pov": "凯特琳",
+    "word_count": 10261,
+    "source_chapter": "第108章 凯特琳",
+    "file": "scenes/scene_S10.md",
+    "description": "凯特琳主持史坦尼斯与蓝礼的兄弟和谈——史坦尼斯揭露乔佛里身世，蓝礼以桃子嘲讽，谈判彻底破裂",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "戴佛斯贴身，务实观察压迷信",
+      "diction": "航海军务词混宗教暗语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低声交谈承载政治判断",
+      "pacing": "行动克制，阴影意象延宕"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "影子刺客",
+      "超自然暗杀",
+      "骑士秩序崩塌",
+      "逃亡"
+    ],
+    "characters": [
+      "凯特琳",
+      "蓝礼",
+      "布蕾妮",
+      "影子"
+    ],
+    "conflict_type": "external",
+    "pov": "凯特琳",
+    "word_count": 7576,
+    "source_chapter": "第110章 凯特琳",
+    "file": "scenes/scene_S11.md",
+    "description": "蓝礼被影子刺客杀死——护喉钢板如棉布般被划开，凯特琳与布蕾妮仓皇出逃",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "凯特琳限知，哀恸中审视局势",
+      "diction": "贵族礼法词带母性痛感",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "克制对白显露政治裂缝",
+      "pacing": "沉缓铺情，关键处短句断裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "影子降生",
+      "超自然恐怖",
+      "忠诚考验",
+      "石窟"
+    ],
+    "characters": [
+      "戴佛斯",
+      "梅丽珊卓"
+    ],
+    "conflict_type": "internal",
+    "pov": "戴佛斯",
+    "word_count": 13640,
+    "source_chapter": "第119章 戴佛斯",
+    "file": "scenes/scene_S12.md",
+    "description": "戴佛斯秘密驾船送梅丽珊卓穿越风息堡海底石窟，目睹红袍女产下影子刺客",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "席恩贴身，虚荣转为羞辱",
+      "diction": "铁民粗硬词对照北境家常词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "挑衅对白暴露身份焦虑",
+      "pacing": "社交碰撞密集，内心反复补偿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "暴乱",
+      "社会崩溃",
+      "民众暴力",
+      "合法性危机"
+    ],
+    "characters": [
+      "提利昂",
+      "乔佛里",
+      "珊莎",
+      "猎狗"
+    ],
+    "conflict_type": "external",
+    "pov": "提利昂",
+    "word_count": 10433,
+    "source_chapter": "第118章 提利昂",
+    "file": "scenes/scene_S13.md",
+    "description": "弥赛菈送走后乔佛里引发君临大暴乱——总主教被民众撕碎，珊莎几乎遇害",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "珊莎贴身，恐惧裹着礼貌",
+      "diction": "宫廷华饰词下藏威胁词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "礼貌问答暗含压迫",
+      "pacing": "表面缓慢，心理迅速收缩"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "背叛",
+      "城堡沦陷",
+      "养子叛变",
+      "投降"
+    ],
+    "characters": [
+      "布兰",
+      "席恩",
+      "密肯",
+      "欧莎"
+    ],
+    "conflict_type": "personal",
+    "pov": "布兰",
+    "word_count": 6727,
+    "source_chapter": "第123章 布兰",
+    "file": "scenes/scene_S14.md",
+    "description": "席恩奇袭临冬城成功，布兰被迫在城头宣告投降——'是罗柏派你来的吗？'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "提利昂限知，算计与不安并行",
+      "diction": "市井讥刺接财政政务词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "交易对白推进联盟变化",
+      "pacing": "机锋快切，段尾留反制空间"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "预言",
+      "不朽之殿",
+      "三重命运",
+      "龙",
+      "幻象"
+    ],
+    "characters": [
+      "丹妮莉丝",
+      "卓耿",
+      "不朽者"
+    ],
+    "conflict_type": "internal",
+    "pov": "丹妮莉丝",
+    "word_count": 7560,
+    "source_chapter": "第125章 丹妮莉丝",
+    "file": "scenes/scene_S15.md",
+    "description": "丹妮独闯不朽之殿经历三重幻象预言——三团火焰、三匹坐骑、三次背叛——卓耿喷火救主",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "丹妮限知，饥渴中维持王者姿态",
+      "diction": "荒漠生理词混王族誓言",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量命令对白，叙述压迫感强",
+      "pacing": "苦难连续列举，末端给希望"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "成长",
+      "初潮",
+      "女性命运",
+      "权力与性别"
+    ],
+    "characters": [
+      "珊莎",
+      "瑟曦",
+      "猎狗"
+    ],
+    "conflict_type": "internal",
+    "pov": "珊莎",
+    "word_count": 7102,
+    "source_chapter": "第129章 珊莎",
+    "file": "scenes/scene_S16.md",
+    "description": "珊莎经历初潮后与瑟曦进行关于女性命运的深谈——爱是毒药",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "琼恩贴身，侦察判断不断校正",
+      "diction": "雪地行动词带野性气味",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "军令短句与嘲讽交替",
+      "pacing": "潜行拉长，遭遇时骤然加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "道德困境",
+      "俘虏",
+      "仁慈",
+      "野人",
+      "荒野"
+    ],
+    "characters": [
+      "琼恩",
+      "耶哥蕊特",
+      "石蛇"
+    ],
+    "conflict_type": "internal",
+    "pov": "琼恩",
+    "word_count": 8383,
+    "source_chapter": "第128章 琼恩",
+    "file": "scenes/scene_S17.md",
+    "description": "琼恩夜袭野人营地俘获耶哥蕊特，但最终选择放走她——仁慈不经由言语而经由停顿",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "艾莉亚贴身，恐惧化为记名",
+      "diction": "酷刑污秽词配儿童直白词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "威吓对白短硬，叙述补全暴力",
+      "pacing": "暴行片段堆叠，复仇名册收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "姐弟争吵",
+      "情感爆发",
+      "弥赛菈",
+      "权力代价"
+    ],
+    "characters": [
+      "提利昂",
+      "瑟曦"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 2985,
+    "source_chapter": "第97章 提利昂",
+    "file": "scenes/scene_S18.md",
+    "description": "提利昂与瑟曦因弥赛菈送往多恩激烈争吵——瑟曦罕见落泪，提利昂发出底线警告",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "凯特琳贴身，政治判断夹母亲焦灼",
+      "diction": "军议礼法词带河地悲凉",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "谈判对白层层试探立场",
+      "pacing": "议事沉稳，情绪暗流持续推压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "海战",
+      "野火",
+      "大爆炸",
+      "战争恐怖"
+    ],
+    "characters": [
+      "戴佛斯",
+      "马索斯",
+      "阿拉德"
+    ],
+    "conflict_type": "external",
+    "pov": "戴佛斯",
+    "word_count": 10903,
+    "source_chapter": "第135章 戴佛斯",
+    "file": "scenes/scene_S19.md",
+    "description": "史坦尼斯舰队攻入黑水河——野火大爆炸将河面变成翡翠色地狱，戴佛斯落水",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "戴佛斯限知，战前经验压住恐惧",
+      "diction": "舰队术语密集，夹朴素信念",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "号令对白少，动作叙述主导",
+      "pacing": "队列推进稳，箭火临近加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "演说",
+      "英雄时刻",
+      "半人",
+      "惧火",
+      "出击"
+    ],
+    "characters": [
+      "提利昂",
+      "猎狗",
+      "波德瑞克"
+    ],
+    "conflict_type": "external",
+    "pov": "提利昂",
+    "word_count": 3935,
+    "source_chapter": "第136章 提利昂",
+    "file": "scenes/scene_S20.md",
+    "description": "猎狗因惧火崩溃拒战，提利昂高喊'你们比侏儒多出了什么'亲率突击队出城",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "提利昂贴身，胜利感被危机吞没",
+      "diction": "战场火焰词混尖刻演说",
+      "rhetoric_density": "high",
+      "dialogue_mode": "动员演说扭转士气",
+      "pacing": "宏观火海转入冲锋急拍"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "刺杀",
+      "背刺",
+      "功臣之殇",
+      "讽刺"
+    ],
+    "characters": [
+      "提利昂",
+      "曼登·穆尔",
+      "波德瑞克"
+    ],
+    "conflict_type": "personal",
+    "pov": "提利昂",
+    "word_count": 5205,
+    "source_chapter": "第138章 提利昂",
+    "file": "scenes/scene_S21.md",
+    "description": "提利昂浴血战斗时被曼登·穆尔从背后行刺——波德瑞克救下主人，全书最残酷的反转",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "提利昂限知，战斗感官碎裂",
+      "diction": "血泥钢铁词压过政务词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令短促，内心惊觉补缝",
+      "pacing": "冲锋连续加速，濒死处放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "告别",
+      "暴力与柔情",
+      "白色披风",
+      "一首歌"
+    ],
+    "characters": [
+      "珊莎",
+      "猎狗"
+    ],
+    "conflict_type": "personal",
+    "pov": "珊莎",
+    "word_count": 4982,
+    "source_chapter": "第139章 珊莎",
+    "file": "scenes/scene_S22.md",
+    "description": "猎狗醉酒闯入珊莎卧室，匕首抵喉索要一首歌，最终收刀离去留下白色披风",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "珊莎贴身，惊惧中捕捉权力变脸",
+      "diction": "宴会华丽词被战败词刺破",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "传令对白与私密威胁交错",
+      "pacing": "消息快进，卧室段落骤然窒息"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "第一次杀人",
+      "出逃",
+      "蜕变",
+      "Valar Morghulis"
+    ],
+    "characters": [
+      "艾莉亚",
+      "詹德利",
+      "热派",
+      "卢斯·波顿"
+    ],
+    "conflict_type": "external",
+    "pov": "艾莉亚",
+    "word_count": 11222,
+    "source_chapter": "第141章 艾莉亚",
+    "file": "scenes/scene_S23.md",
+    "description": "艾莉亚亲手割喉卫兵逃出赫伦堡，口中念出Valar morghulis——从受害者到猎手的关键蜕变",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "艾莉亚限知，孩子眼看残酷秩序",
+      "diction": "尸首污秽词夹地图日常词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "会议对白远听，行动叙述贴身",
+      "pacing": "压迫日常化，练剑名册作回声"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "焚城",
+      "双重背叛",
+      "拉姆斯",
+      "毁灭"
+    ],
+    "characters": [
+      "席恩",
+      "拉姆斯·波顿",
+      "鲁温"
+    ],
+    "conflict_type": "external",
+    "pov": "席恩",
+    "word_count": 8998,
+    "source_chapter": "第143章 席恩",
+    "file": "scenes/scene_S24.md",
+    "description": "拉姆斯·波顿以援军身份到来后反目焚毁临冬城——笑星鬃毛燃烧着冲出马厩",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "席恩贴身，绝境中自辩瓦解",
+      "diction": "投降军语混身份羞辱词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "谈判对白逼出道德判决",
+      "pacing": "对话拉锯，塔影缓慢压顶"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "牺牲",
+      "卧底",
+      "誓言悖论",
+      "师徒",
+      "最简告别"
+    ],
+    "characters": [
+      "琼恩",
+      "断掌科林",
+      "耶哥蕊特"
+    ],
+    "conflict_type": "internal",
+    "pov": "琼恩",
+    "word_count": 7311,
+    "source_chapter": "第145章 琼恩",
+    "file": "scenes/scene_S25.md",
+    "description": "断掌科林命琼恩假装叛变卧底野人，决斗中主动送死——临死前只说'锋利'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "琼恩贴身，使命压住求生本能",
+      "diction": "雪山寒冷词混游骑兵誓言",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "军令与嘲弄对白制造抉择",
+      "pacing": "逃亡长线收紧，投降一刻停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S26",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "废墟",
+      "告别",
+      "分离",
+      "意志存续",
+      "全书结尾"
+    ],
+    "characters": [
+      "布兰",
+      "瑞肯",
+      "梅拉",
+      "玖健",
+      "欧莎",
+      "鲁温"
+    ],
+    "conflict_type": "internal",
+    "pov": "布兰",
+    "word_count": 7899,
+    "source_chapter": "第146章 布兰",
+    "file": "scenes/scene_S26.md",
+    "description": "临冬城废墟中布兰一行从地下墓窖出逃，鲁温临终嘱托二王子分开——'它没有死，只是残破，和我一样'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，在狼性知觉与布兰意识间切换",
+      "diction": "灰烬废墟词汇夹动物嗅觉感官",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "临终嘱托式对白，低声收束群像去向",
+      "pacing": "兽性巡游慢铺，墓窖逃离后转入哀悼告别"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S27",
+    "novel": "冰与火之歌Ⅱ-列王的纷争",
+    "author": "乔治·R·R·马丁",
+    "genre": "史诗奇幻",
+    "lang": "zh",
+    "tags": [
+      "陆战",
+      "渡河攻防",
+      "多波次进攻",
+      "弓弩阵地",
+      "骑兵冲锋",
+      "将领调度",
+      "等待者视角"
+    ],
+    "characters": [
+      "凯特琳",
+      "艾德慕",
+      "布蕾妮",
+      "杰森·梅利斯特",
+      "戴斯蒙"
+    ],
+    "conflict_type": "external",
+    "pov": "凯特琳",
+    "word_count": 8286,
+    "source_chapter": "第122章 凯特琳",
+    "file": "scenes/scene_S27.md",
+    "description": "艾德慕指挥河间地军队在红叉河多个渡口阻击泰温大军渡河——木桩弓手防线、骑兵反冲、多波次昼夜攻防",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "凯特琳限知旁观，军事调度中压着亲族焦虑",
+      "diction": "军阵渡口术语夹家族责任词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "军令与旁观对白交错，内心评判补足压力",
+      "pacing": "出征铺排后多波次战报递进，昼夜攻防持续加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2ef6493a7efe494be39e2431
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1088
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 很快成了发射部不可缺少的技术骨干
+sensory_mapping: 身体结构；承重；内部支撑
+context_fact: 基地工程师故意压低能力以求调离，叶文洁因专注工作迅速承担大量维护任务。
+image_mechanism: 组织被还原为一具需要站立和行动的身体，关键技术工作成为内在承重，叶文洁被安放在维持结构的骨架位置。
+property_alignment: 关键技能对应骨骼承重能力；日常维护保证部门运行对应骨架协调身体动作；不可缺少对应抽掉主骨便失稳
+context_alignment: 她没有正式政治身份却在技术上成为中坚，隐藏在身体内部的骨架准确表现功能重要性高于外在地位。
+narrative_function: 说明她为何快速进入机密链条，也反衬正式技术人员的消极。
+transfer_rule: 用骨干写组织成员时，应指出其承载的具体功能、整体对其依赖和缺失后的结构后果。
+failure_boundary: 成员只是表现优秀但可随时替代，或只具象征声望而不承重时，骨干会夸大不可缺少性。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 承担发射部关键维护工作、缺少便影响部门运转的叶文洁
+vehicle: 支撑身体形态并承受主要力量的骨骼主干
+ground: 她承担关键技术任务对应骨干支撑身体；部门离不开她对应失去主骨会破坏整体行动

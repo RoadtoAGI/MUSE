@@ -1,0 +1,95 @@
+role_slug: yang-kang
+claims:
+  - id: C001
+    text: "杨康是杨铁心和包惜弱的亲生子"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "楊鐵心與包惜弱的親生兒子"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "杨铁心和包惜弱所生之子"
+    resolution_note: null
+
+  - id: C002
+    text: "杨康被完颜洪烈抚养长大，长期以为完颜洪烈是亲生父亲（认贼作父）"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "完顏洪烈則與宋兵合謀，假裝從官兵手中救出包惜弱…生下楊康；楊康以完顏康之名在金國成長"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "杨康在金国出生后，认完颜洪烈为父"
+    resolution_note: null
+
+  - id: C003
+    text: "杨康在金国身份是赵王世子（小王爷），名完颜康"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "小王爺/康兒…生於金中都趙王府；金國趙王世子"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "作为金国六王爷的小王爷；一身锦袍，服饰华贵"
+    resolution_note: null
+
+  - id: C004
+    text: "丘处机传授杨康全真派武功"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "丘处机传授武艺（虽然杨康从未认其为师，更拜梅超风为师）"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "丘处机于暗处授其全真派武功"
+    resolution_note: |
+      claim 仅断言"传授武功"，不涉及正式拜师与否——
+      wiki 和 baike 在"是否拜师"上有分歧（wiki 称杨康从未正式认丘
+      为师，更拜梅超风；baike 表述较模糊），但"丘处机授武"两源一致。
+      原子化保留可两源核实部分；"拜师"细节不抽 claim。
+
+  - id: C005
+    text: "杨康为救穆念慈而偷袭刺杀欧阳克"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "為救穆念慈而偷襲殺死歐陽克"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "杨康趁其疏忽，用枪将他刺死（指欧阳克）"
+    resolution_note: null
+
+  - id: C006
+    text: "杨康因击打黄蓉所穿软猬甲而中蛇毒身亡（死于铁枪庙）"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/杨康
+        quote: "楊康欲殺黃蓉滅口而對其出掌，但正好打在軟蝟甲上…而身中劇毒；楊康毒發後…死後被棲息廟宇附近的烏鴉啄食"
+      - url: https://baike.baidu.com/item/杨康
+        quote: "中毒的杨康开始神智错乱，在地上翻滚不止；杨康死后，聚集的乌鸦飞下来啄食他的尸体"
+    resolution_note: null

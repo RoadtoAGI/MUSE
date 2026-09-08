@@ -1,0 +1,25 @@
+card_id: mind-blackbox-gambit
+pattern_name: 思想黑箱博弈
+dramatic_function: 在全知监视设定下保住悬念与谋略空间：计划只存在于一颗大脑里，对读者也保密，专属对手从行为反推意图，揭晓即反转
+applicability: 需要监视无死角但读不到内心的世界规则；若敌方可读心或计划提前向读者摊牌，博弈感即失效（单书孤证，验证面窄）
+reuse_candidates:
+- 智子监视的具体设定
+- 四面壁者的政治配额结构
+- 联合国仪式场面
+tags:
+- 博弈
+- 悬念设计
+- 监视社会
+source_scenes:
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S03
+  note: 面壁者制度宣布：思维成为唯一不可监听的战场
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S04
+  note: 破壁人逐一受封，博弈双方就位
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S06
+  note: 泰勒被破壁：从公开行为反推真实战略的范本
+phase_affinity:
+- 1
+- 3

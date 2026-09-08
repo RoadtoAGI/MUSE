@@ -1,0 +1,91 @@
+role_slug: huang-yaoshi
+claims:
+  - id: C001
+    text: "黄药师是桃花岛的创立者与岛主"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "是桃花島創始人兼島主"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "东海桃花岛主"
+    resolution_note: null
+
+  - id: C002
+    text: "黄药师为天下五绝之一'东邪'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "「天下五絕」之一「東邪」"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "世称'东邪'；获得东邪的称号"
+    resolution_note: null
+
+  - id: C003
+    text: "黄蓉是黄药师之女"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "黃蓉（女兒）"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "黄药师之女"
+    resolution_note: null
+
+  - id: C004
+    text: "黄药师之妻是冯衡"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "馮衡（妻子）"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "妻子央求周伯通借经书一观；冯衡秀丽绝伦"
+    resolution_note: null
+
+  - id: C005
+    text: "陈玄风、梅超风偷《九阴真经》后从桃花岛叛逃"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "陳玄風、梅超風兩人盜取黃藥師處的《九陰真經》叛逃师门"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "陈玄风…煽动梅超风，合伙将《九阴真经》偷出来。两人逃出桃花岛"
+    resolution_note: null
+
+  - id: C006
+    text: "黄药师将其余弟子（曲灵风、陆乘风、武眠风、冯默风）打断脚筋后逐出师门"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/黄药师
+        quote: "打斷曲靈風、陸乘風、武眠風、馮默風4人的腳筋，然後逐出師門"
+      - url: https://baike.baidu.com/item/黄药师
+        quote: "将他们一个个打断脚骨，逐出桃花岛"
+    resolution_note: null

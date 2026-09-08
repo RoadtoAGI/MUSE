@@ -1,0 +1,20 @@
+card_id: bliss-spectator-countdown
+pattern_name: 圆满旁观者
+dramatic_function: 把他人的婚礼或胜利写成主角失败倒计时，制造甜蜜反讽。
+applicability: 适合三角关系、竞赛、继承线；若主角无损失则只是旁观（单书孤证，验证面窄）
+reuse_candidates:
+- 王子婚礼
+- 皇家帐篷
+- 船上舞蹈
+tags:
+- 反讽
+- 倒计时
+- 旁观者
+- 婚礼结构
+source_scenes:
+- novel: 海的女儿
+  scene_id: S05
+  note: 婚礼音乐和舞蹈越欢乐，小人鱼越接近黎明灭亡。
+phase_affinity:
+- 4
+- 5

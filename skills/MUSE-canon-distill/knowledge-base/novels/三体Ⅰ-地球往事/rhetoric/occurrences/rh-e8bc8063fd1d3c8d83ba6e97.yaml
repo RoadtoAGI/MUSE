@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e8bc8063fd1d3c8d83ba6e97
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1851
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 将她引向人性的最本质也是最隐秘之处
+sensory_mapping: 道路；引领；纵深；隐蔽空间；抵达
+context_fact: 她收集外文哲学历史经典，把个人创伤放入更广阔的人类恶问题中分析。
+image_mechanism: 人性被构造成有表层、岔路和深室的地形，思想家走在前面点出路径；叶文洁沿论证越走越深，抵达日常行为遮住的暗处。
+property_alignment: 思想著作对应向导；论证步骤对应道路；表面行为对应入口；根本动机对应深处目的地；难以察觉对应地点隐秘；理解深化对应旅人抵达
+context_alignment: 她把自己定位为以理性直视创伤的科学女性，引路框架表现系统探索，而非情绪瞬间把她推向结论。
+narrative_function: 连接阅读行为与人性绝望，呈现其世界观形成的认知路线。
+transfer_rule: 用引向深处写思想影响时，应说明向导提供的路径、被穿透的表层和最终抵达的具体认识。
+failure_boundary: 读物只强化既有偏见、没有论证路径，或所谓“本质”无法由材料支持时，抵达隐秘处会虚构认识深度。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 思想家的论述带领叶文洁追究人类行为背后最根本、最难察觉的心理机制
+vehicle: 向导带旅人穿过复杂道路，抵达位于深处且隐蔽的地点
+ground: 阅读提供推理路线对应向导指路；理解深层人性对应抵达隐藏目的地

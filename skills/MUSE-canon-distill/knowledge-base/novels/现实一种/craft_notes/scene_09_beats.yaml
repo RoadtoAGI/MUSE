@@ -1,0 +1,28 @@
+scene_id: 09
+source_notes: scene_09_beats.md
+patterns:
+- pattern_id: 09-p1
+  beat: 谈判
+  dimension: omission
+  original_move: 关怀语言包裹死亡安排
+  ai_default_failure: 会泄露快意或犹豫心理
+  transfer_rule: 写酷刑可让台词保持照料语气
+  quote: 你说得很有道理
+- pattern_id: 09-p2
+  beat: 涂抹
+  dimension: verb
+  original_move: 用护理问答掩盖肉骨头陷阱
+  ai_default_failure: 会让受害者突然起疑
+  transfer_rule: 受害者虚弱时让误认持续到底
+  quote: 好像不是清凉油
+- pattern_id: 09-p3
+  beat: 笑声
+  dimension: camera
+  original_move: 用笑声变化标记死亡进程
+  ai_default_failure: 会补写无法呼吸的医学说明
+  transfer_rule: 写死亡可用声音序列替代诊断
+  quote: 那笑声像一口一口从嘴中抖出来
+overall_traits:
+- 温暖语调服务酷刑结构
+- 对话替代暴力描写
+- 笑声构成声学死亡曲线

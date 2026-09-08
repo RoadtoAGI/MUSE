@@ -1,0 +1,26 @@
+mode: reference
+display_name: 王幸子
+role_slug: wang-xingzi
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces（盲女照护 + 罗允密告中转）+ blind_girl_line
+  - pipeline/phase0_conception.yaml          # central_value_pair（活着/死亡）+ controlling_idea candidate_c（"活下去"的善意未必是好事）
+  - scenes/scene_YY-S02.md
+  - scenes/scene_YY-S04.md
+  - scenes/scene_YY-S08.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T20:20:00+08:00
+skill_version: 1
+locator_count: 6
+has_canon_ending: true
+coverage_note: |
+  信息密度中等。最密集落点是 S08（盲女诊断 + "想要的也许是死亡"洞察 + 选择留下等死），
+  其余分布在 S02（查验新人/告知）/ S04（转达录音机杀手密告）/ S10（被铁门撞飞昏迷 + 被安乐死）。
+  声音框架跨 2 个场景（S04 医生式直率传话 / S08 诊断式冷静的残酷诚实 + "累了"的放下式短语），核心声音稳定。
+  边界 4 条各带 locator（不用虚假安慰粉饰将死者 S08 / 不把"别人需要"凌驾于"真正想要" S08 / 不为求生背弃判断装希望 S08 / 不外泄机密 S04）。
+  弧光为"尽职照护者→坦然承认不愿再撑"的内在曲线，覆盖起点（稳定器）+ 转折（说出盲女"想要的也许是死亡"）+ 终点（决定留下等死）。
+  has_canon_ending: true —— 已回 scene 原文核对：王幸子的"留下等死"（S08:L53）是内在弧光终点（放下求生意愿）；
+    其不可逆物理终局是 S10 被铁门撞飞昏迷后、被"我"用近 2000 毫克吗啡安乐死（S10:L27-L29，石浩洋查看摇头确认死亡 S10:L43）——
+    死亡发生在她已昏迷无法自主的状态、由"我"代为执行，属被动物理终局，隔离到 references/canon-ending.md，不进人格本体。
+  王幸子为医院【单篇】人物（非跨篇），phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

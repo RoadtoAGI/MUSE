@@ -1,0 +1,35 @@
+schema_version: dialogue-character/v1
+character_id: drama:Macbeth:macbeth
+work_id: drama:Macbeth
+display_name: 麦克白
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '抽象名词与具象事物混合的五步抑扬格——他几乎所有重要言说都把"function / surmise / consequence / equivocation / imperial theme"这样的概念名词与"dagger
+    / blood / hand / hair / seas / sleep / candle / shadow / player"这样的物质 / 戏剧形象拼在一起；这是他声音的指纹。条件从句密集（"if … if … if"），常以假设开启思维，再被现实打断。在公开场合他能维持典雅的廷臣腔（A1S4
+    致辞、A3S1 主持），但在独处或与妻独处时立即转入幻象 - 自问 - 自我命名的内省语流。终场（A5S5）他的语流转为短促节拍与重复（tomorrow / and tomorrow / and tomorrow），把内省的句法瓦解为节奏本身——这是他从"看见后果"退到"放弃看见任何意义"的语言信号。
+
+
+    来源：phase2_roles.yaml → roles.macbeth.voice_signature
+
+    佐证：
+
+    - scenes/scene_A1S7.md:L9-L67（条件从句密集 + 抽象 / 物质混合的代表段）
+
+    - scenes/scene_A2S1.md:L103-L171（"Is this a dagger which I see before me" — 物质幻象 + 自问 + 自我命名）
+
+    - scenes/scene_A2S2.md:L101-L122（"Sleep no more" 段：他人之声穿入自己的口）
+
+    - scenes/scene_A5S5.md:L53-L72（终场短促节拍 + 重复 + "signifying nothing"）'
+  evidence_locators:
+  - scenes/scene_A1S7.md:L9-L67
+  - scenes/scene_A2S1.md:L103-L171
+  - scenes/scene_A2S2.md:L101-L122
+  - scenes/scene_A5S5.md:L53-L72
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

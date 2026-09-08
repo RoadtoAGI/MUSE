@@ -1,0 +1,26 @@
+card_id: object-proxy-warfare
+pattern_name: 以物代战
+dramatic_function: 把关系中的控制、剥夺和反击转译为空间、物件和使用权的变化。
+applicability: 适用于亲密关系或职场权力的慢性压迫；若冲突必须即时爆炸则不宜（单书孤证，验证面窄）
+reuse_candidates:
+- 粉红色小桌
+- 教授书房
+- 中世纪英语教材
+tags:
+- 冷暴力
+- 空间权力
+- 物件叙事
+source_scenes:
+- novel: 斯通纳
+  scene_id: S06
+  note: 婚姻战争通过桌子、书房和手稿的位移升级。
+- novel: 斯通纳
+  scene_id: S14
+  note: 事业反击不是争吵，而是直接改造课堂行动。
+- novel: 斯通纳
+  scene_id: S17
+  note: 书房的打磨和布置成为自我定义。
+phase_affinity:
+- 1
+- 2
+- 5

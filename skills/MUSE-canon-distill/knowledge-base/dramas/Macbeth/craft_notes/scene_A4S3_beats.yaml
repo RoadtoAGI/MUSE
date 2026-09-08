@@ -1,0 +1,56 @@
+scene_id: A4S3
+source_notes: scene_A4S3_beats.md
+patterns:
+- pattern_id: A4S3-p1
+  beat: 自污测试
+  dimension: exchange
+  original_move: 王子把自己说得比暴君更坏，看来投者是否仍劝进
+  ai_default_failure: 让流亡者相认即结盟
+  transfer_rule: 忠诚无法直接验证，设计一个谎言让它现形
+  quote: seem as pure as snow
+- pattern_id: A4S3-p2
+  beat: 通过点设在绝望
+  dimension: exchange
+  original_move: 受试者宁弃复仇也不扶恶王，绝望痛斥即合格证
+  ai_default_failure: 让受试者识破计谋
+  transfer_rule: 让受试者用拒绝利益通过测试，人格由放弃证明
+  quote: Fit to govern? No, not to live
+- pattern_id: A4S3-p3
+  beat: 撤回自污如宣誓
+  dimension: exchange
+  original_move: 逐条收回自我抹黑并自陈清白，新王人格当场重装
+  ai_default_failure: 一句道歉快速带过
+  transfer_rule: 撤回谎言的篇幅不可省，它是新秩序的就职演说
+  quote: Unspeak mine own detraction
+- pattern_id: A4S3-p4
+  beat: 报丧者歧义词拖延
+  dimension: exchange
+  original_move: 先答妻儿安好再吐灭门真相，安好实指已安息
+  ai_default_failure: 信使直接报丧
+  transfer_rule: 噩耗给报信者一个说不出口的节拍，双关即慈悲
+  quote: Your castle is surprised
+- pattern_id: A4S3-p5
+  beat: 悲恸先走动作沉默
+  dimension: blocking
+  original_move: 拉帽遮脸沉默，话由旁人劝出来
+  ai_default_failure: 立即爆发哭喊台词
+  transfer_rule: 至痛第一拍是哑的：动作先行，语言由他人触发
+  quote: Give sorrow words
+- pattern_id: A4S3-p6
+  beat: 单音节句的至痛
+  dimension: exchange
+  original_move: 至痛压成四字短句，先以男人之身痛感再谈刀剑
+  ai_default_failure: 写长篇咒骂与复仇宣言
+  transfer_rule: 悲恸的尺寸与句长成反比，复仇从感受起跳
+  quote: He has no children
+- pattern_id: A4S3-p7
+  beat: 私痛折算成军令
+  dimension: transition
+  original_move: 悲恸当场完成军事化折算，把悲伤磨成剑刃收场
+  ai_default_failure: 以哭别或誓师仪式淡出
+  transfer_rule: 长对话场的出口接行动线，情感不留库存
+  quote: our power is ready
+overall_traits:
+- 静场长对话，张力全来自语言攻防与信息节奏
+- 测试撤回报丧三段各有完整小结构串成一场
+- 谎言此处用于求真，对冲全剧的双关欺骗

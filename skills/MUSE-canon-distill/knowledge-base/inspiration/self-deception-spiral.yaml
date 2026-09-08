@@ -1,0 +1,24 @@
+card_id: self-deception-spiral
+pattern_name: 自欺循环梯
+dramatic_function: 让主角每次把失败解释成胜利，却把真实处境推向更坏
+applicability: 适合讽刺型反成长；若主角能稳定自省则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 精神胜利法口号
+- 未庄闲人打头
+- 儿子打老子说法
+tags:
+- 自欺
+- 反成长
+- 讽刺结构
+- 失败升级
+source_scenes:
+- novel: 阿Q正传
+  scene_id: S02
+  note: 被打后反解释为得胜，形成可重复心理机制
+- novel: 阿Q正传
+  scene_id: S11
+  note: 签下死刑后仍把圈不圆转化为面子问题
+phase_affinity:
+- 2
+- 3
+- 4

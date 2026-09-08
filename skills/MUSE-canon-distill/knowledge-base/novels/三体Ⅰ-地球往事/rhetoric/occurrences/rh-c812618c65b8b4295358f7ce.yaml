@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c812618c65b8b4295358f7ce
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1644
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 它是三体纪念碑，也是一个墓碑
+sensory_mapping: 石质重量；垂直纪念物；墓地静默；刻铭
+context_fact: 现代文明已证明三体问题无解，重新建造伏羲时代巨摆作为启动仪式中心。
+image_mechanism: 不断运动的金属巨摆被赋予静止墓碑的功能，每次摆动都像在无字碑上反复刻下失败；被埋葬的不是个人，而是一项跨文明努力。
+property_alignment: 巨摆保存历史对应纪念碑；两百轮求解对应漫长生命；证明无解对应死亡时刻；彻底放弃研究对应下葬；启动仪式对应集体凭吊
+context_alignment: 古代巨摆曾被当作解决问题的工具，现代复制品却只纪念失败，同一物件功能反转使墓碑格外贴切。
+narrative_function: 把数学无解转成文明丧礼，赋予技术结论以历史情感重量。
+transfer_rule: 把装置称为墓碑时，应明确被纪念的对象、终结证据和装置如何保存其历史。
+failure_boundary: 研究仍在积极推进、装置继续承担原功能，或没有明确终止事件时，墓碑会过早宣布死亡。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 现代巨摆既纪念历代文明探索三体规律，也宣告这项延续近二百轮文明的努力已经死亡
+vehicle: 立在逝者墓前、同时保存记忆并标记生命终结的石碑
+ground: 巨摆保存共同历史对应碑文纪念逝者；证明求解努力终止对应墓碑标示不可复活的死亡

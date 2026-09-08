@@ -1,0 +1,28 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 命名
+  dimension: omission
+  original_move: 身份重生嵌入租赁登记
+  ai_default_failure: 解释改名动机和象征意义
+  transfer_rule: 写重大身份变化时放进小程序
+  quote: 我叫本诺·冯·阿琴波尔迪
+- pattern_id: S15-p2
+  beat: 纯洁与意志
+  dimension: overall
+  original_move: 配角独白输出全书道德论题
+  ai_default_failure: 让主角顿悟或双方辩论
+  transfer_rule: 写主控思想时可交给边缘人独白
+  quote: 纯洁和意志
+- pattern_id: S15-p3
+  beat: 杀人犯的善良
+  dimension: verb
+  original_move: 亲密动词无缝转为杀戮动词
+  ai_default_failure: 补充道德判断和恐怖感叹
+  transfer_rule: 写善恶混淆时只描述悖论场景
+  quote: 一个杀人犯，本质上也是善良的
+overall_traits:
+- 论题通过配角独白表达
+- 商业交易中的身份重生
+- 独白螺旋式上升

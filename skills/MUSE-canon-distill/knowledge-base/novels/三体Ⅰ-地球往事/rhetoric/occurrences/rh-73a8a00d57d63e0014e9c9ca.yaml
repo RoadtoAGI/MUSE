@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-73a8a00d57d63e0014e9c9ca
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1577
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 《三体》已成为我的第二现实
+sensory_mapping: 双重空间；进入与退出；环境包围；现实感
+context_fact: 记者厌倦现实世界，认为游戏远比现实丰富；IT副总裁随即也贬低现实的平庸低俗。
+image_mechanism: 屏幕边框扩展成一道世界入口，登录不再是看模拟画面，而是跨到与街道、工作同样包围身体的另一空间；两处现实开始争夺“真正生活”的地位。
+property_alignment: 游戏世界对应并列空间；登录体验对应进入第二世界；持续认同对应在其中生活；用游戏否定日常对应两重现实竞争；退出仍受影响对应边界渗透
+context_alignment: 潘寒正筛选愿意接受三体真实存在者，称游戏为第二现实恰表明记者已主动削弱现实世界的唯一性。
+narrative_function: 暴露玩家与现实疏离程度，为其欢迎外星文明提供心理因果。
+transfer_rule: 把虚构媒介写成第二现实，应呈现稳定沉浸、行动后果、价值迁移和与日常现实的具体竞争。
+failure_boundary: 玩家清楚把体验当短暂娱乐、退出后判断不受影响时，第二现实会误写沉浸强度。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 记者对游戏世界的心理投入和价值认同已接近、甚至竞争现实生活
+vehicle: 与日常物质世界并列存在、可供人居住和行动的另一重现实
+ground: 游戏经验具有持续真实感对应另一个可进入世界；玩家以其标准反观生活对应第二现实与第一现实竞争解释权

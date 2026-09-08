@@ -1,0 +1,28 @@
+mode: reference
+display_name: 张亦川
+role_slug: zhang-yichuan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/51人/phase3_spine.yaml
+  - pipeline/51人/phase5_scenes.yaml
+  - scenes/scene_51-S01.md
+  - scenes/scene_51-S02.md
+  - scenes/scene_51-S06.md
+  - scenes/scene_51-S07.md
+  - scenes/scene_51-S08.md
+  - scenes/scene_51-S09.md
+  - scenes/scene_51-S10.md
+  - scenes/scene_51-S11.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 15
+has_canon_ending: false
+coverage_note: |
+  POV 主角，信息密度极高，各软建议维度均跨多场支撑：
+  - 声音框架：跨 S02 / S06 / S07 / S09 四场，覆盖自嘲玩笑 / 日常吐槽 / 高压命令句 / 内心独白与出口话的落差，非单点外推。
+  - 弧光：起点（S01 屎味巧克力创伤）/ 转折（S10 自爆同伴推翻踏板论）/ 终点（S11 意义安放）三段齐全。
+  - 性格真相：S07 抛弃诱饵（高压暴露冷硬实用主义）+ S06 尴尬收声（对在乎的人的柔软）+ S10 人性残余，裂隙有压力情境佐证。
+  - 边界：抛弃诱饵（S07）与珍视刺成云丹（S02）形成对位的极端检验场景。
+  has_canon_ending=false：本篇结尾张亦川幸存（五人→四人之一），带着创世军残部与秦良岳急救本子继续，人格完整，无物理终局。
+  跨篇钩：持有陶亦仁遗留的"追杀罗允"命令（S07 line 361），有潜在跨篇再现价值。

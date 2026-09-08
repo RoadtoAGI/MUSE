@@ -1,0 +1,40 @@
+mode: reference
+display_name: 洪宝山
+role_slug: hong-baoshan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/套中人/phase3_spine.yaml
+  - pipeline/套中人/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TZ-S06.md
+  - scenes/scene_TZ-S08.md
+  - scenes/scene_TZ-S09.md
+  - scenes/scene_TZ-S10.md
+  - scenes/scene_TZ-S11.md
+built_at: "2026-05-29T20:10:00+08:00"
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  洪宝山 = 莫千回式"壮胆型灰色守护者父亲"原型，是《套中人》主角洪扬 shadow_desire
+  （被一个不嫌弃自己的人接住）的承载物。覆盖其代表性跨场景：
+  TZ-S06（铁锹劈头救场 + 逼洪扬撕开"不杀人"套子 + 断绝劝洪扬"正常"的朋友背景）、
+  TZ-S08（放风时一句"对不起" + 当年学校电话醒悟 + 蹲下抱住"永不抛下"的承诺闭环 + 妻子楼顶威胁阻离婚）、
+  TZ-S09（招手乐观"其实也没那么糟糕" + 凤泉宝剑/白酒等末日备械）、
+  TZ-S10（main climax：天台前"你很优秀 / 怕事不做事做事不怕事 / 我永远是你的后盾" + 断后 +
+  割舌抠眼仍挥刀、临终大脑仍命令保护孩子）、
+  TZ-S11（唐志林心理学转述"洪叔不是勇敢，是更怕失去洪扬"=揭穿壮胆本质=爱）。
+
+  软建议覆盖：
+  - 性格真相在压力下暴露（TZ-S10 / TZ-S11）有专门的极端检验场景，非日常观察。
+  - 声音框架跨 3 场取证（TZ-S06 救场脏话 / TZ-S09 乐观挥手 / TZ-S10 口号式嘱托），非单点外推。
+  - 弧光跨起点（TZ-S08 失职父亲背景）/ 转折（TZ-S08 学校电话醒悟 + 承诺）/ 终点（TZ-S10 兑现承诺）三段。
+  - 边界 4 条均带 locator，多为极端检验场景（断后让儿子先走 / 断交护短 / 壮胆 / 对老人不手软）。
+
+  单点支撑说明：
+  - "妻子楼顶威胁阻离婚"等家庭史背景仅 TZ-S08 单场支撑，仅作弧光起点背景，未做性格全称外推。
+
+  has_canon_ending: true —— 已回 scene 原文核对（scene_TZ-S10.md:L15-L31）：
+  洪宝山在天台前断后，穿防刺服仍被砍十几刀、被割舌抠眼，最终"彻底停止起伏的胸膛"=不可逆物理死亡，
+  属"不会再以原人格出现"的终局，物理终局已隔离到 references/canon-ending.md，弧光本体只描内在转变。

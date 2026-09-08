@@ -1,0 +1,56 @@
+scene_id: A5S5
+source_notes: scene_A5S5_beats.md
+patterns:
+- pattern_id: A5S5-p1
+  beat: 命令句维持气泡
+  dimension: overall
+  original_move: 末路人物以挂旗笑敌的命令句开场，豪语与实情同台
+  ai_default_failure: 开场即写恐慌或不祥预感
+  transfer_rule: 崩塌前先让人物把话说满，落差留给后拍
+  quote: Hang out our banners
+- pattern_id: A5S5-p2
+  beat: 画外女哭先于死讯
+  dimension: transition
+  original_move: 死讯拆成哭声、询问、回报三拍，由主角主动迎接
+  ai_default_failure: 让信使直接进场报丧
+  transfer_rule: 噩耗的到达拆成声音、疑问、确认三步
+  quote: It is the cry of women
+- pattern_id: A5S5-p3
+  beat: 感官麻木自陈
+  dimension: monologue
+  original_move: 死讯前自陈已忘恐惧滋味，恐怖食至餍足
+  ai_default_failure: 直接接收死讯写震惊
+  transfer_rule: 在情感爆点前自陈麻木，随后的平静才骇人
+  quote: supped full with horrors
+- pattern_id: A5S5-p4
+  beat: 死讯五个词交付
+  dimension: exchange
+  original_move: 王后之死一行带过，无死状无哀仪，重量全压给接收者
+  ai_default_failure: 展开死亡场面与临终细节
+  transfer_rule: 死讯台词越轻，接收拍越重
+  quote: The queen, my lord, is dead
+- pattern_id: A5S5-p5
+  beat: 绕开亡妻坠入虚无
+  dimension: monologue
+  original_move: 悼词一字不提她，重复词当节拍器，写时间本身失义
+  ai_default_failure: 写对妻子的回忆与愧疚
+  transfer_rule: 终极悲恸可以不哭逝者，写存在崩塌
+  quote: Tomorrow, and tomorrow
+- pattern_id: A5S5-p6
+  beat: 树林移动战报
+  dimension: exchange
+  original_move: 预言兑现由不知情信使亲眼作证，当事人当场完成换算
+  ai_default_failure: 让主角拒绝相信拖延数场
+  transfer_rule: 埋下的双关由第三方视角引爆，当事人秒懂
+  quote: The wood began to move
+- pattern_id: A5S5-p7
+  beat: 战斗对句收场
+  dimension: transition
+  original_move: 厌倦太阳仍披甲赴死，悲剧能量射向场外
+  ai_default_failure: 以颓然绝望收场
+  transfer_rule: 绝望角色给一个朝外的收束动作，下场戏自动上膛
+  quote: die with harness on our back
+overall_traits:
+- 全场节奏=命令停驻独白爆开，两收两放
+- 死亡与战报都从画外进场，舞台只承接反应
+- 独白嵌在两个军事拍之间，哲学被战争钳住

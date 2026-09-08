@@ -1,0 +1,27 @@
+scene_id: '05'
+source_notes: scene_05_beats.md
+patterns:
+- pattern_id: 05-p1
+  beat: 出轨宣告
+  dimension: omission
+  original_move: 把出轨降格为顺口补充，不给心理铺垫
+  ai_default_failure: 写欲言又止、沉默和气氛凝重
+  transfer_rule: 写时代麻木时，用低反应处理大事件
+  quote: 呵，忘了告诉你们
+- pattern_id: 05-p2
+  beat: 母亲跑题
+  dimension: camera
+  original_move: 镜头跟随母亲注意力转向焰火
+  ai_default_failure: 写她强忍泪水或心里难过
+  transfer_rule: 要显情感失效时，让关注点跑偏
+  quote: 啊，这一颗真漂亮
+- pattern_id: 05-p3
+  beat: 遗忘冷漠
+  dimension: omission
+  original_move: 只给茫然问句，不写叙述者感叹
+  ai_default_failure: 让叙述者反思这个时代怎么了
+  transfer_rule: 写终极冷漠时，用遗忘替代争吵
+  quote: 她是谁？
+overall_traits:
+- 用缺席表达在场
+- 世界观通过非正常反应展示

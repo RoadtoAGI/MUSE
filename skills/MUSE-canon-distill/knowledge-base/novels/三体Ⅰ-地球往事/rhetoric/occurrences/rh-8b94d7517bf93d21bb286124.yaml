@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8b94d7517bf93d21bb286124
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1127
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 这么多年的风风雨雨形成的敏感告诉她，今天倒霉的人可能不是她
+sensory_mapping: 触觉；天气；时间累积；危险预感
+context_fact: 叶文洁进入领导齐聚、目光冰冷的办公室，凭过往受审和被陷害经验判断主要受罚者可能是雷政委。
+image_mechanism: 政治灾难被连续化成多年恶劣天气，身体每次受袭都留下感受器；此刻语气、座位和目光如气压变化，被她提前读成风暴征兆。
+property_alignment: 政治运动和背叛对应风雨反复袭击；长期受难对应身体久经天气；对不祥氛围敏锐对应经验者感知风暴前兆
+context_alignment: 她不是凭抽象推理而是以创伤形成的直觉反应，风雨同时容纳外部环境不可控和多年累积。
+narrative_function: 让读者相信她能迅速判读审查场面，也强调这种能力的痛苦来源。
+transfer_rule: 用风雨写长期磨难时，应让每次外部冲击留下可用于当前判断的感知变化，而非只罗列苦难。
+failure_boundary: 经历单一、当前环境与旧危机无相似信号或人物因此变迟钝时，风雨形成敏感的因果链不成立。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 多年政治迫害、背叛和危机经验磨出的危险判断力
+vehicle: 长期经历风吹雨打后形成的天气感知与抗性
+ground: 反复外部打击对应多年风雨侵袭；从细微信号预判危险对应经风雨者能察觉天气变化

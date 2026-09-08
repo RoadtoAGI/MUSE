@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-85c068e397307fcf205fb0f6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2526
+chapter: 第34章 智子
+figure_type: simile
+quote: 这颗“眼睛”是如此巨大，仿佛代表着整个宇宙在盯着三体世界
+sensory_mapping: 天幕巨眼；清澈眸子；俯视目光；被监视感；宇宙人格
+context_fact: 失败展开产生的许多眼状结构主动汇聚，三体人怀疑质子内部存在宏观智慧。
+image_mechanism: 天空不再是被观察背景，而合拢成观察者的眼眶；行星和全体三体人缩为瞳孔下的一个对象，科学实验的主客位置被倒转。
+property_alignment: 眼体巨大对应宇宙范围；所有小眼融合对应多处结构汇成整体；瞳孔映太阳对应眼睛真实凝视；朝向行星对应注视目标；三体人仰望对应被观察者反望；诡异感对应宇宙获得主体性
+context_alignment: 三体人试图操控质子内部维度，却可能惊动其中文明，宇宙凝视形象把技术支配反转为被更大存在注视。
+narrative_function: 把高维奇观推至存在恐怖，并提出微观宇宙可能有智慧的悬念。
+transfer_rule: 用宇宙巨眼写被观测感时，应有明确眼状结构、视线方向、尺度覆盖、观察者与被观察者反转及人物心理反应。
+failure_boundary: 形状只偶然近似眼睛、没有朝向或汇聚行为，且角色不感到被看见时，宇宙凝视会过度赋意。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 所有眼状质子投影合并成覆盖天空、眸子朝向三体行星的一只巨眼
+vehicle: 宇宙本身取得单一视觉器官，从外部凝视并审判三体世界
+ground: 巨眼覆盖天幕对应宇宙尺度；眸子朝下对应凝视行星；全部眼睛合一对应宇宙意志汇聚成一个观察主体

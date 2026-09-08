@@ -1,0 +1,26 @@
+mode: reference
+display_name: 社长
+role_slug: she-zhang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/学校/phase3_spine.yaml   # antagonistic_forces.interpersonal + arc_framework.arc_3/arc_4
+  - pipeline/phase0_conception.yaml   # controlling_idea（脏活接刀人对位《燃烧》周全"抽刀"）
+  - scenes/scene_XX-S01.md
+  - scenes/scene_XX-S02.md
+  - scenes/scene_XX-S04.md
+  - scenes/scene_XX-S07.md
+  - scenes/scene_XX-S08.md
+  - scenes/scene_XX-S09.md
+  - note: 单篇人物未登记于 pipeline/phase2_character.yaml（该文件仅登跨篇人物）
+built_at: 2026-05-29T17:27:00+08:00
+skill_version: 1
+locator_count: 8
+has_canon_ending: true
+coverage_note: |
+  「沉默担当者 / 脏活接刀人」原型——与《燃烧》周全"抽刀"对位（都把"了结自己人"的脏活揽到自己身上）。
+  声音框架跨 2 个场景（S08 沉默后突然发话用一问逼落地 + 平实说条件 / S07 不说话直接起身插刀），动作即声音。
+  弧光起点（S02 唯一敢看）+ 担当具体化（S04 取钥匙/堵门）+ 关键一刀（S07 杀狗子）+ 终点（S09 断后死）四段齐全。
+  性格真相有压力情境直接佐证（S07 拦崩溃者亲手割喉 / S08 附条件留退路）。
+  附条件同意逃跑（要开走秦胜哥的车独自离开）= 埋"另有打算"小钩，随其死戛然中断、未解。
+  单篇人物，phase2_character.yaml 未登记系统级条目；结构化字段依据 pipeline/学校/phase3_spine.yaml 推导。

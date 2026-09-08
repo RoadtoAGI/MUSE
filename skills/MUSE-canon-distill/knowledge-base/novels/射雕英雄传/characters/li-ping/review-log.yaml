@@ -1,0 +1,25 @@
+role_slug: li-ping
+reviews:
+  - id: R001
+    reviewer: model-self
+    date: 2026-04-15
+    severity: medium
+    type: field_type_misuse
+    claim: |
+      SKILL.md L22 "核心缺陷：她对权力的敏锐比对儿子的判断更快"
+      ——字段类型错用。该描述实际在**赞美**李萍的清醒与果决，
+      是优点而非缺陷。"核心缺陷"字段语义是"阻碍角色获得真正
+      所需的弱点"（见 character-kb-distill/references/reference-skill-template.md）。
+      建议改写方向：
+      (1) 要么换为真正的缺陷（如"从不直接向儿子吐露自己的苦，
+          导致儿子二十年不知母亲承受了什么"），
+      (2) 要么把这个字段从"缺陷"改为"张力"之类的中性描述，
+          但这需要先确认 template 是否支持这种字段。
+    location: SKILL.md L22
+    status: resolved
+    resolution: |
+      2026-04-15：采用建议方向 (1) 重写核心缺陷字段。新内容："她从不让
+      儿子知道她承受了什么——丈夫被杀、被掳北上、二十年忍辱蒙垢，她对
+      郭靖只字不提自己的苦。这使得郭靖在她自刎之前从未真正理解她为他
+      付出的代价"——这是真正阻碍她"完成对儿子的传递"的弱点（她直到自
+      刎前最后一刻才说出"想我当年忍辱蒙垢"），符合"核心缺陷"字段语义。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-19147ce814481a91ae1508c2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1392
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 知道你们信息处的都是金枝玉叶，但今天你这个专家得出这趟外勤了
+sensory_mapping: 金属光泽；植物枝叶；身份等级；保护
+context_fact: 凌晨专案组值班刑警不足，大史要求信息专家徐冰冰随队搜查，她正想离开烟雾办公室。
+image_mechanism: 办公室分工被转成园中贵重植物，信息专家长在被保护的金枝上，外勤则像风雨泥地；命令出勤就是把娇贵枝叶带出温室。
+property_alignment: 专家稀缺受重视对应金玉贵重；信息处内勤环境对应枝叶受保护；外勤辛苦危险对应风雨折损娇枝；大史调侃特权对应贵族身份
+context_alignment: 大史用粗俗、带激将意味的口吻调度年轻同事，夸贵正是为了让她不能以专业身份推脱。
+narrative_function: 展示团队分工和大史的指挥风格，并轻微缓和紧急出警气氛。
+transfer_rule: 用金枝玉叶调侃被保护者时，应指出其稀缺价值、保护环境和即将面对的粗粝条件。
+failure_boundary: 对象长期承担高风险一线、并未享受保护或称呼意在真诚赞颂血统时，调侃机制会错位。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 大史调侃信息处专家工作条件优越、少做危险辛苦外勤
+vehicle: 出身尊贵、被精心保护而不经风雨的金枝玉叶
+ground: 专业人员受单位珍视保护对应贵族子弟身份珍贵；平日不出外勤对应娇贵枝叶避开粗重环境

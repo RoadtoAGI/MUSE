@@ -1,0 +1,22 @@
+mode: reference
+display_name: 麦克白夫人
+role_slug: lady-macbeth
+source_novel: Macbeth
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S5.md
+  - scenes/scene_A1S7.md
+  - scenes/scene_A2S2.md
+  - scenes/scene_A3S2.md
+  - scenes/scene_A3S4.md
+  - scenes/scene_A5S1.md
+  - scenes/scene_A5S5.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 15
+has_canon_ending: true
+coverage_note: |
+  覆盖 Lady Macbeth 的两大调式 pillar：A1S5（unsex 命令调式）+ A5S1（梦游碎裂散文），
+  并取 A2S2 / A3S2 / A3S4 三处中段证明她从同谋 → 被排除 → 公开控场者的弧线。
+  未单独引用 A1S6（接驾"All our service"）/ A2S3 faint，按需 rebuild 可补。

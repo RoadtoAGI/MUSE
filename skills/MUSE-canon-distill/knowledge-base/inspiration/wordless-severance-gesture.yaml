@@ -1,0 +1,44 @@
+card_id: wordless-severance-gesture
+pattern_name: 无言决裂·身体替言
+dramatic_function: 在语言失效或拒绝解释处，用极少的身体动作完成决裂、抗议与告别；独白缺席让不可逆选择更硬，断裂在读者等待解释时落定
+applicability: 适用于长期关系弧线终点与高压伦理冲突；前文须累积足够矛盾，角色仍需解释动机则效果减弱
+reuse_candidates:
+- 瑟曦求救信
+- 奔流城初雪
+- 詹姆断手
+- 冲锋枪
+- 地下城迷雾
+- 父亲勋章
+- 咬舌
+- 梭镖
+- 失去左眼
+tags:
+- 省略
+- 关系断裂
+- 动作收束
+- 人物选择
+- 动作叙事
+- 身体动作
+- 省略心理
+- 高压冲突
+- 沉默表达
+source_scenes:
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S02
+  note: 詹姆与瑟曦在葬礼夜的裂痕先被正面展示。
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S16
+  note: 詹姆不解释、不回复，只命人烧掉求救信。
+- novel: 流浪地球
+  scene_id: scene_13
+  note: 加代子接枪、不回头、消失完成婚姻和阵营决裂。
+- novel: 白鹿原
+  scene_id: S08
+  note: 一声称呼、掷出凶器和转身完成弑杀后的决裂。
+- novel: 白鹿原
+  scene_id: S15
+  note: 枪声后昏厥失明替代了无法说出的悲痛。
+phase_affinity:
+- 2
+- 4
+- 5

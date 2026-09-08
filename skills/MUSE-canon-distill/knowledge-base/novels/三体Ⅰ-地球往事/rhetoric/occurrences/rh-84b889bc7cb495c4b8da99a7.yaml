@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-84b889bc7cb495c4b8da99a7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1623
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 汪淼突然将其想象成一头正在奔向太阳的宇宙巨牛的两只犄角
+sensory_mapping: 视觉；动物轮廓；方向运动；巨大尺度
+context_fact: 反光巨月由满融缺成月牙并下落，最后只有两个银光四射尖角留在地平线上。
+image_mechanism: 地平线遮掉月体中部，如同隐藏巨牛头身，只让成对尖角刺出；月体的横向速度随即补成看不见身体的奔跑。
+property_alignment: 月牙双尖对应两只犄角；地平线遮住主体对应牛身隐没；月体快速移动对应巨牛奔跑；朝真太阳方向对应奔向目标
+context_alignment: 图像只在月体几乎完全落下的一瞬成立，叙述明确标为汪淼想象，精确抓住短暂轮廓而不固化天体本体。
+narrative_function: 在巨月退场末刻生成神话动物动作，延续天象与音乐共同造成的陶醉。
+transfer_rule: 从局部轮廓想象巨兽时，应说明遮挡如何隐藏主体、露出部位怎样对应器官，以及整体运动怎样补足看不见的身体。
+failure_boundary: 月牙竖向、两尖不对称、没有运动方向或主体完全可见时，奔牛犄角的瞬时构图不会成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨月沉到地平线下只剩的两个银亮月牙尖角及其朝太阳方向运动
+vehicle: 身躯隐没、只露两只发亮犄角并向前冲奔的宇宙巨牛
+ground: 月牙两端尖锐对称对应一对牛角；巨月快速朝真太阳移动对应巨牛向目标奔跑

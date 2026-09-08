@@ -1,0 +1,35 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:wanyan-honglie
+work_id: novel:射雕英雄传
+display_name: 完颜洪烈
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他几乎不直接出手说狠话——所有威胁、命令都外包给下属。他自己的对白永远"温言软语""正色道""凛然道"，用恩义话术包装占有欲。
+
+
+    关键标志是称呼系统的精准切换：
+
+    - 在牛家村柴房对包惜弱：低声、谦卑、"娘子"——营造被救者的感恩姿态
+
+    - 面对金国武士团体：王爷口吻，但仍客气（"两位千万不要误会"）
+
+    - 密谋侵宋时对欧阳锋：平等盟友口气，从不显颐指气使
+
+    - 对养子杨康：永远温言，是刻意塑造的"慈父"模板
+
+
+    他的对白中几乎不出现"杀""害""抢"这类词，用的是"办理""拿下""对付"。承诺时习惯用"那还不容易？"的轻佻句式降低对方警惕。顿词（"顿了一顿"）是他说服别人时的节奏标志——他用停顿让对方自己填入贪婪或认同。
+
+
+    佐证：scenes/scene_01.md:L17-L17 （包惜弱病中醒来，"颜烈"以"娘子"称呼并自称"小人"——全程谦卑恭敬语调）；scenes/scene_01.md:L19-L19 （"小人路见不平，出手相救，不料老天爷有眼，所救的竟是我的大恩人"+"义愤于色，昂然道：''娘子要报杀夫之仇，这件事着落在小人身上''"——正色/昂然/义愤的表态是他最常用的三种姿态）'
+  evidence_locators:
+  - scenes/scene_01.md:L17-L17
+  - scenes/scene_01.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

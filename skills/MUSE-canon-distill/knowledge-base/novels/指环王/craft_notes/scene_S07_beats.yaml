@@ -1,0 +1,28 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 劝诱升温
+  dimension: camera
+  original_move: 称王幻想全用间接引语压缩，镜头跟踱步与失控的身体
+  ai_default_failure: 写成几大段慷慨陈词的直接引语
+  transfer_rule: 自我陶醉戏用间接引语呈现行为本身，不让读者逐句审判
+  quote: 越说越大声，看上去几乎忘了弗罗多的存在
+- pattern_id: S07-p2
+  beat: 暴起夺戒
+  dimension: omission
+  original_move: 不进堕落者内心，腐蚀只经言行台阶与脸的变化外显
+  ai_default_failure: 插入「一个声音在他脑中低语」式的内心镜头
+  transfer_rule: 好人变脸从外部看比从内部看更可怕，软硬动词同帧对撞
+  quote: 英俊和气的脸孔扭曲得十分狰狞
+- pattern_id: S07-p3
+  beat: 悔恨
+  dimension: omission
+  original_move: 疯狂到清醒无过渡，一跤代替心理恢复，悔恨无人接收
+  ai_default_failure: 写一段魔戒影响渐渐退去的意识恢复过程
+  transfer_rule: 清醒转折可用身体中断替代心理过渡，信息差驱动下一步
+  quote: 仿佛他刚才的诅咒落到了自己身上
+overall_traits:
+- 堕落是论证的滑坡，每级下滑都有体面理由
+- 腐蚀全程外置，不进堕落者内心
+- 身体先于语言失控，动作是真正台词

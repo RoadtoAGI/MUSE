@@ -1,0 +1,38 @@
+version: 1
+status: frozen
+corpus:
+  - container: "novels"
+    work: "三体Ⅰ-地球往事"
+    title: "三体Ⅰ：地球往事"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394"
+    start_line: 22
+    end_line: 2714
+    scope_note: "纳入第1章起至正文收束；排除第22行前的前置材料及第2714行后的后置材料。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "三体Ⅱ-黑暗森林"
+    title: "三体Ⅱ：黑暗森林"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a"
+    start_line: 3
+    end_line: 4657
+    scope_note: "纳入序章至文件末行；排除第3行前的题名等前置材料。"
+    exclude_notes: []
+
+  - container: "novels"
+    work: "三体Ⅲ-死神永生"
+    title: "三体Ⅲ：死神永生"
+    author: "刘慈欣"
+    translator: null
+    source_file: "full_text.md"
+    source_sha256: "3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709"
+    start_line: 41
+    end_line: 4666
+    scope_note: "纳入第一部起至文件末行；排除第41行前的前置材料。"
+    exclude_notes: []

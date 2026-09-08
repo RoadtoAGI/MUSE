@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-564d420b90266ef63ed8fec3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L601
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 他们决定亮出今天为老师准备的新武器
+sensory_mapping: 视觉；战斗动作；工具；伤害；策略
+context_fact: 中学红卫兵的口号不足以对付叶哲泰，学生挥手让绍琳登台。
+image_mechanism: 人被工具化并从台下“亮出”，婚姻关系则成为可瞄准教授弱点的攻击部件；策略更换由挥手这一动作完成。
+property_alignment: 妻子证词被预先准备对应武器被装配；在争辩受阻后启用对应战斗中换用装备；亲人背叛造成精神伤害对应武器命中弱点
+context_alignment: 批斗被组织成攻防战，而最聪明女孩“有备而来”，新武器准确表现预谋和升级。
+narrative_function: 预告绍琳出场的攻击功能，并揭露施暴者对人的器械化。
+transfer_rule: 以武器写话语或人物时，应明确谁装备、何时启用、瞄准何种弱点以及造成哪类伤害。
+failure_boundary: 证人自发发言、内容用于澄清事实或不能改变对手处境时，武器会虚构预谋与杀伤。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 红卫兵安排叶哲泰的妻子绍琳上台揭发他的策略
+vehicle: 战斗中突然亮出、专门用于击伤对手的新式武器
+ground: 妻子证词被预先准备对应武器被装配；在争辩受阻后启用对应战斗中换用装备；亲人背叛造成精神伤害对应武器命中弱点

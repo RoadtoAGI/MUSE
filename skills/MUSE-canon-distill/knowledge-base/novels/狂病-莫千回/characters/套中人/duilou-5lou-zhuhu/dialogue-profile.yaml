@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:套中人--duilou-5lou-zhuhu
+work_id: novel:狂病-莫千回
+display_name: 对楼5楼住户
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他对人没有正面交流——招手不回、看一眼就转身，开口多是隔空的挑衅与脏话（"傻瓜""真他妈傻逼""有种他妈来呀"）。他最"响"的声音其实在心里：那套絮絮叨叨为自己开脱的内心独白——"凭什么自己只能吃以前养的炉火，他们却还能悠闲吃饼干""那个老秃头那么胖一定家里有不少吃的，估计都是偷别人的，去死啊"——把嫉妒、轻蔑和被害妄想揉成一团，每一句都在论证"他们该死、我没错"。这是一种典型的网络反串引战腔调被搬进了现实。
+
+
+    来源：phase2_character.yaml → voice_traits（隔空挑衅脏话 + 自我开脱式内心独白）
+
+    佐证：scenes/scene_TZ-S09.md:L25-L25 / scenes/scene_TZ-S11.md:L79-L83'
+  evidence_locators:
+  - scenes/scene_TZ-S09.md:L25-L25
+  - scenes/scene_TZ-S11.md:L79-L83
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

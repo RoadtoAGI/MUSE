@@ -1,0 +1,21 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:polonius
+work_id: drama:哈姆雷特
+display_name: 波隆尼尔
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "波隆尼尔的声音格言密集、层层铺垫、常把简单信息拖成自我展示。他爱用“聪明”“线索”“证实”这类判断词，句子经常转弯到自己也忘记起点；面对权力时则迅速附和，面对子女时以经验和名誉压人。典型潜台词是“我比你更懂你的处境”，因此他的父爱、臣忠和窥探欲常混成同一种说话方式。\
+    \  \n\n来源：phase2_character.yaml → supporting_cast.波隆尼尔.voice_traits  \n佐证：scenes/scene_A1S3.md:L7-L11；scenes/scene_A2S1.md:L15-L21；scenes/scene_A2S2.md:L25-L31；scenes/scene_A3S2.md:L145-L163"
+  evidence_locators:
+  - scenes/scene_A1S3.md:L7-L11
+  - scenes/scene_A2S1.md:L15-L21
+  - scenes/scene_A2S2.md:L25-L31
+  - scenes/scene_A3S2.md:L145-L163
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

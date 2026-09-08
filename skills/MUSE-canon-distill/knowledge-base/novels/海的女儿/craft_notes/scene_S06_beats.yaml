@@ -1,0 +1,56 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 剪发显亲情代价
+  dimension: camera
+  original_move: 先让姐姐们失去长发，再由对白解释换刀交易
+  ai_default_failure: 先完整转述交易过程，危机开场失去视觉疑问
+  transfer_rule: 支线行动可先呈现身体结果，再补充交换原因
+  quote: 她们美丽的长头发已经不在风中飘荡了
+- pattern_id: S06-p2
+  beat: 急语压成二选一
+  dimension: verb
+  original_move: 用刺、流、联与反复快动手压缩最后几分钟
+  ai_default_failure: 扩写家人劝说和哭别，倒计时失去行动压力
+  transfer_rule: 临限危机用可执行动词和重复期限推动语速
+  quote: 不是他死，就是你死了
+- pattern_id: S06-p3
+  beat: 视线代替辩论
+  dimension: omission
+  original_move: 按新娘、王子、朝霞、尖刀的视线次序呈现抉择
+  ai_default_failure: 加入价值宣言与回忆总账，高潮动作被解释拖慢
+  transfer_rule: 价值冲突证据已齐时，用视线和手部动作作判决
+  quote: 她向尖刀看了一跟
+- pattern_id: S06-p4
+  beat: 拟血呈现弃杀
+  dimension: overall
+  original_move: 刀落海只让浪花出现血色，拒绝真正的王子流血
+  ai_default_failure: 用旁白赞美牺牲，决定与物理后果失去连结
+  transfer_rule: 拒绝一条行动路径时，可让环境短暂模拟其结果
+  quote: 浪花就发出一道红光
+- pattern_id: S06-p5
+  beat: 泡沫处转道
+  dimension: overall
+  original_move: 太阳照向泡沫后改用上行动词开启善行路径
+  ai_default_failure: 无条件复活并即时奖赏，牺牲代价被撤销
+  transfer_rule: 终局转道要更新机制，同时保留时间与劳动成本
+  quote: 渐渐地从泡沫中升起来
+- pattern_id: S06-p6
+  beat: 回收声音与眼泪
+  dimension: info_density
+  original_move: 恢复发问能力，并以第一滴眼泪证明存在改变
+  ai_default_failure: 另加总结说明成长，前文身体伏笔没有回报
+  transfer_rule: 终局身份变化用开篇生理限制的解除来验证
+  quote: 她第一次感到要流出眼泪
+overall_traits:
+- 亲情损失、倒计时与退路压入短高潮
+- 无声动作直接完成价值排序
+- 灵魂转道保留期限并回收声音与眼泪
+narrative_organization:
+  presentation: 静夜等待进入姐姐急语，再收束为帐篷内无声凝视，泡沫化后以问答转道
+  transition_anchor: 姐姐的刀、变亮朝霞、刀落海与太阳升起标记危机到新路径
+  knowledge_change: 小人鱼先知道仍可杀人自救，随后知道善行也能创造灵魂
+  cross_thread_effect: 姐姐们用头发扩大她的选择空间，她以弃刀把救援转成自我牺牲
+  effect: 明确退路使牺牲有机会成本，规则转道把终止改为长期行动
+  source_anchor: scene_S06.md:L3-L13；不是他死，就是你死了

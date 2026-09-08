@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-27dacbcf5f0ce9823ed69b5c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L350
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 像刚从水底挣扎出来一样
+sensory_mapping: 呼吸；触觉；动作
+context_fact: 停机瞬间倒计时停止并消失，现实恢复无遮挡。
+image_mechanism: 此前无形压迫被改造成水面之下的缺氧，倒计时消失就是破水一刻；一口长气和坐下动作完整复现脱困身体序列。
+property_alignment: 持续恐惧近似窒息对应水下缺氧；消失后的长呼吸对应破水换气；无力坐下对应挣扎耗尽体力
+context_alignment: 前文已写汪淼窒息，水下挣扎延续而非临时添加身体感。
+narrative_function: 量化倒计时造成的生理压迫并释放紧张。
+transfer_rule: 写压力解除时，可用具有明确“受困—突破边界—恢复呼吸—脱力”顺序的身体经验，让动作节拍承载情绪。
+failure_boundary: 若人物只是心情好转、没有呼吸受阻和体力崩落，水底脱困会把轻微放松夸成濒死获救。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 倒计时消失后长出气并虚脱坐下的汪淼
+vehicle: 缺氧者奋力冲出水面后的喘息和脱力
+ground: 持续恐惧近似窒息对应水下缺氧；消失后的长呼吸对应破水换气；无力坐下对应挣扎耗尽体力

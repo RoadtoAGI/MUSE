@@ -1,0 +1,35 @@
+scene_id: S16a
+source_notes: scene_S16a_beats.md
+patterns:
+- pattern_id: S16a-p1
+  beat: 壁画间接描写
+  dimension: omission
+  original_move: 用恐惧和题材碎片替代构图
+  ai_default_failure: 会给出空间布局说明
+  transfer_rule: 超越文字的作品只写情感碎片
+  quote: 我确实为此感到不安
+- pattern_id: S16a-p2
+  beat: 焚毁
+  dimension: info_density
+  original_move: 三短句烧毁杰作，不给仪式
+  ai_default_failure: 会慢写火焰吞噬细节
+  transfer_rule: 未正面展示之物可平淡消失
+  quote: 没多大工夫就烧成了灰烬
+- pattern_id: S16a-p3
+  beat: 水果静物画
+  dimension: camera
+  original_move: 只写色彩心理效果不写摆放
+  ai_default_failure: 会先交代水果形状和构图
+  transfer_rule: 写画作时让颜色引发相反感受
+  quote: 冷峻而不透明的蓝色
+- pattern_id: S16a-p4
+  beat: 魔咒打断
+  dimension: verb
+  original_move: 用日常喊话硬切审美体验
+  ai_default_failure: 会写回神和离开展厅过渡
+  transfer_rule: 让日常噪声结束艺术场景
+  quote: 魔咒被打破了
+overall_traits:
+- 间接法和直接法并置
+- 色彩内部制造矛盾感
+- 日常打断标记艺术边界

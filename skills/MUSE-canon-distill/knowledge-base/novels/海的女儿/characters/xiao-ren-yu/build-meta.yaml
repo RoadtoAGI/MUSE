@@ -1,0 +1,37 @@
+mode: reference
+display_name: 小人鱼
+role_slug: xiao-ren-yu
+source_novel: 海的女儿
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S01.md
+  - scenes/scene_S03.md
+  - scenes/scene_S04.md
+  - scenes/scene_S06.md
+built_at: 2026-05-23T00:00:00Z
+skill_version: 1
+locator_count: 19
+has_canon_ending: false
+coverage_note: |
+  小人鱼是全篇 POV 主角，6 个切分场景每一场都出场。本次 SKILL.md 选取 4 个场景作为原文佐证：
+  - scene_S01（海底成长）—— 身份 + 性格外在塑造的初次定型 + 最早的直接对白
+  - scene_S03（灵魂规则 + 巫婆契约）—— 核心欲望升级 + 性格真相在压力下显形 + 变人前全部直接对白 + 弧光关键转折点 1
+  - scene_S04（变人入宫无声陪伴）—— 失声后内心独白模式 + 4 条边界中的 3 条 + 误认结构的内心确认
+  - scene_S06（扔刀升华）—— 性格真相终极显形 + 弧光关键转折点 2 + 终点
+
+  未纳入 SKILL.md 佐证但角色出场的场景（可供下游续写追溯）：
+  - scene_S02（船宴 + 风暴 + 救王子 + 神庙岸）—— 第一次主动行动 + 第一次见王子。原文叙述视角全程在小人鱼身上，但她在此场无直接对白、无被巫婆契约约束的极端选择，作为角色画像的"功能性出场"
+  - scene_S05（邻国婚事 + 婚礼夜）—— 王子误认闭合的目击者位置 + 婚船旋舞。她在此场用动作（旋舞如"被追逐的燕子"）表达死亡意识，但语言/对白维度由 scene_S04 的内心独白模式已充分覆盖
+
+  覆盖度判断：scene_S04 + scene_S06 已覆盖她全部变人后的声音 / 边界 / 弧光证据；scene_S03 覆盖变人前全部声音；scene_S01 覆盖身份与外在塑造。S02 和 S05 的内容在画像维度上为冗余支撑，未额外纳入 locator 以保持精炼。
+
+  软建议（启发式维度）覆盖度自检：
+  - 声音框架跨 ≥2 场景：✓（scene_S01 + scene_S03 + scene_S04 + scene_S06，共 4 场）
+  - 弧光覆盖 ≥2 段（起点 / 转折 / 终点）：✓（4 段全覆盖）
+  - 性格真相有压力情境佐证：✓（scene_S03 巫婆契约 + scene_S06 扔刀）
+  - 边界为"极端检验场景"而非日常观察：✓（5 条边界全部锚定终局或不可逆情境）
+
+  canonical 状态：novel-meta.yaml 不存在，跳过 Step 2f-2g（claims.yaml 抽取与联网核对）。海的女儿是 1837 年安徒生发表的公共域名著，事实层（角色姓名 / 关键事件 / 死亡 vs 升华结局歧义）可在后续若添加 novel-meta.yaml 时回补。
+
+  has_canon_ending 判断：小人鱼最终未死亡 / 未发疯 / 未封印——她从人鱼形态消散后以"天空的女儿"形态继续主动活动（"我们飞向炎热的国度里去……可以散布健康和愉快的精神"）。这是**形态转换**而非"不可逆终局"。按 SKILL §canon-ending.md 判定原则"宁可漏不可错——拿不准就不生成"，本次不生成 canon-ending.md。同人 / 续写场景默认可加载本角色作为活态角色使用。

@@ -1,0 +1,20 @@
+# 接管按目标原文选择适用分册；required 是类型默认提示，不为未涉及维度补册或造事实。
+# genre-pack: infinite —— 无限流/诸天底座（机器契约层）
+schema_version: 1
+substrate: infinite
+display_name: 无限流/诸天底座
+substrate_config_keys:
+  hub_space_mode: [有主神, 轻量中介, 无中介]
+enum_extensions:
+  world_facts_kind: []
+  milestone_kind: [副本结算]
+  thread_kind: []
+  hook_type: []
+worldbook_sections:
+  - {section_id: hub-rulebook, template: infinite/hub-rulebook.md, mutability: axiom, required: true}
+  - {section_id: conversion-table, template: infinite/conversion-table.md, mutability: append, required: true}
+  - {section_id: world-card, template: infinite/world-card.md, mutability: append, required: false, per_instance: true}   # 每副本实例化 world-card-<n>.md
+character_extensions:
+  scope_layers: series 持久层（主神账户/兑换点）/ arc 半持久层（伤病消耗品）/ instance 临时层（副本身份与 NPC 关系）；何时转为持久状态以原文规则和实际事件为准
+  inheritance_list: 副本继承清单（带出物/能力，对照 hub-rulebook 兑换合同）
+  power_anchor: 导入世界战力锚（对照 conversion-table）

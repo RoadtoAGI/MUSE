@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-deaa37dcda68de22e5fdceda
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L83
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 这个外表粗俗的家伙，眼睛跟刀子一样
+sensory_mapping: 视觉；触觉；威胁
+context_fact: 史强仅凭汪淼盯住名单便判断他关注杨冬。
+image_mechanism: 把无形观察力变成刀锋从表面切入内部的触觉动作；汪淼的掩饰像外壳被划开，史强的锐利因此既可见又带威胁。
+property_alignment: 目光锐利集中对应刀锋尖锐；观察穿透掩饰抵达真实意图对应刀刃切开外壳
+context_alignment: 刀具意象符合刑警攻击性，也贴合汪淼被看穿的不适。
+narrative_function: 展示史强粗俗外表下的敏锐。
+transfer_rule: 写“看穿”时，喻体应同时匹配目光的集中度、穿透对象和被观察者的身体感受，并服务双方关系。
+failure_boundary: 只因眼睛细长或目光明亮就用刀子，会缺少切开掩饰的行为结果；温和审视也不适用其攻击性。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 史强迅速识破汪淼心思的目光
+vehicle: 切开表层、直入内部的刀子
+ground: 目光锐利集中对应刀锋尖锐；观察穿透掩饰抵达真实意图对应刀刃切开外壳

@@ -1,0 +1,20 @@
+mode: reference
+display_name: 徐海水
+role_slug: xu-haishui
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/地铁/phase3_spine.yaml  # 单篇人物未登记 phase2_character.yaml；结构化依据取 antagonistic_forces.societal + pov_structure.secondary_inserts + story_climax_design.controlling_idea_for_this_chapter 次映射 candidate_c
+  - scenes/scene_DT-S07.md
+  - scenes/scene_DT-S10.md
+  - scenes/scene_DT-S11.md
+built_at: 2026-05-29T17:21:48+08:00
+skill_version: 1
+locator_count: 8
+has_canon_ending: false
+coverage_note: |
+  声音框架跨 3 个场景（S07 调度员分条给方案 / S10 道歉 / S11 失联前留言），覆盖引导期与崩溃期，稳定性充分。
+  边界跨 S07/S10 两场景，每条带 locator；其中"绝不打包票""绝不把决定强加给幸存者"皆有 S07 路线选项场景直接佐证。
+  弧光起点（S07）+ 转折（S10）+ 终点（S11）三段齐全。
+  徐海水为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/地铁/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。
+  不产 canon-ending：徐海水终局仅被暗示（S11:L23 "再也帮不到" 发送时间半小时前 + 窗外挤满感染者），phase3 open_lores 标注"暗示徐海水已遇难或沦陷"但无明示死亡 / 沦陷描写。按"宁可漏不可错"，未确证的不可逆终局不产 canon-ending.md。

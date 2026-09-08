@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bdc187cd1e11700598b11f5e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1876
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 红岸天线的巨掌无声地向宇宙张开着
+sensory_mapping: 手掌轮廓；张开动作；向上伸展；金属冷感；无声召唤
+context_fact: 叶文洁已收到“不要回答”的警告，却走向发射室，准备邀请三体文明占领地球。
+image_mechanism: 钢铁天线从向日葵再变成人体器官，弧形反射面摊成掌心，支架像手臂伸向晨空；巨掌既可接住外星声音，也即将把地球交出去。
+property_alignment: 抛物面天线对应掌心；支撑结构对应手臂；朝向宇宙对应向外伸手；接收信息对应掌中接物；发射邀请对应递出信号；设备静默对应无声手势
+context_alignment: “来吧”的信息尚未发出，天线姿态已像邀请手势，环境物象提前替叶文洁表达选择。
+narrative_function: 把发射设备人格化为文明之手，为决定性按键前制造无声召唤。
+transfer_rule: 把抛物面设备写成手掌时，应利用掌面形状、指向、收发功能和主体将借它完成的具体手势。
+failure_boundary: 设备平放闭合、既不接收也不发射，或人物意图与邀请、抓取、递送均无关时，巨掌会流于形状联想。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨大抛物面天线朝向天空，准备向太阳发射叶文洁的回复并把信号送入宇宙
+vehicle: 一只巨手张开掌面伸向远方，准备递出、接取或召唤某物
+ground: 抛物面圆阔形状对应张开手掌；天线定向宇宙对应手向目标伸展；收发信号对应掌心接收或送出物品

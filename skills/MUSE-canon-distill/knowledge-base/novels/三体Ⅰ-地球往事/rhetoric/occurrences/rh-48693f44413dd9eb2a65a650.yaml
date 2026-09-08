@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-48693f44413dd9eb2a65a650
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1407
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 鞋底“啪啪”地踏在了正在向外流淌的血泊中
+sensory_mapping: 视觉；听觉；液体触觉；空间面积
+context_fact: 警方闻声冲进房间，申玉菲中三枪倒地，血仍从胸口涌出，手枪也泡在血里。
+image_mechanism: 血不再只是身体上的颜色，而扩展成占据房间地形的液体环境；鞋底拍击声让数量通过身体接触被听见。
+property_alignment: 大量血汇聚对应水成小泊；继续向外流对应泊边扩张；鞋底啪啪对应踩入浅水；手枪浸泡对应液面具有深度
+context_alignment: 先听见像拍墙的枪声，后听见鞋踏血液，听觉线索从暴力原因转成其物质后果。
+narrative_function: 以声、触觉和面积呈现死亡现场的血量，避免抽象说明伤势严重。
+transfer_rule: 把液体写成泊时，应落实汇聚面积、可踏深度、边界扩张和物体浸泡至少两项。
+failure_boundary: 只有少量血滴、表面已干或没有成片流动时，血泊会夸大失血量。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 申玉菲枪伤大量失血在地板积成并向门外扩散的液面
+vehicle: 有面积、深度和边缘并可被脚踏入的小水泊
+ground: 血液在地面汇聚成片对应积水成泊；脚踩发声且物体浸在其中对应水泊具有深度和流动性

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2e07c50832229f4f7a01d25e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2079
+chapter: 第28章 伊文斯
+figure_type: simile
+quote: 我来到了那片地狱般的海岸
+sensory_mapping: 黑海黑滩；黏油窒息；濒死眼睛；末日夕阳；恶臭
+context_fact: 十二岁的伊文斯参与抢救父亲公司油轮泄漏中的鸟，大多数海鸟傍晚仍死亡。
+image_mechanism: 度假海岸的正常秩序被原油翻面，水、沙和鸟都进入黑色刑场；地狱不是死后想象，而由文明燃料在现实中造出。
+property_alignment: 原油黑色对应地狱黑暗；鸟类挣扎对应受刑；油膜压海对应窒息压迫；救援失败对应无救赎；遍地死亡对应冥界；少年噩梦对应地狱记忆持续
+context_alignment: 父亲随后称石油是文明游戏规则，地狱却正由石油造成，使文明舒适与别种生命受刑构成伦理反证。
+narrative_function: 先给污染现场定下道德与感官极值，为伊文斯反人类信念提供创伤根源。
+transfer_rule: 用地狱写灾难现场时，应有持续受难、黑暗或灼热、无逃脱感和明确致害机制。
+failure_boundary: 污染轻微可迅速恢复、没有生命痛苦或说话者仅因不便夸张抱怨时，地狱会滥用极端尺度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 被泄漏原油染黑、海鸟大量挣扎死亡且夕阳如末日的污染海岸
+vehicle: 充满黑暗、痛苦、窒息和无休止死亡的地狱景观
+ground: 海鸟在油中受折磨对应地狱刑罚；海陆全黑对应冥界暗色；大量死亡与无力救援对应绝望永罚

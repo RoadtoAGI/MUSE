@@ -1,0 +1,149 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+
+acts:
+  - act: 1
+    function: prophecy_plants_the_ambition_pact_is_sealed
+    sequences:
+      - seq_id: 1.A
+        scenes: [A1S1, A1S2]
+        function: world_state_war_and_supernatural_intrusion
+        notes: |
+          A1S1 9 行女巫场——以最短篇幅建立"美即丑恶丑即美"颠倒律；
+          A1S2 战报段抬高麦克白为"英勇的表弟"，让随后的堕落更陡。
+      - seq_id: 1.B
+        scenes: [A1S3, A1S4]
+        function: prophecy_partial_fulfillment_and_obstacle_announced
+        notes: |
+          A1S3 三呼 + 立即兑现"考特爵士" + 麦克白旁白"杀人的妄念"；
+          A1S4 邓肯立马尔康 = 麦克白心中"阶石"——把动机从念头推到具体障碍。
+      - seq_id: 1.C
+        scenes: [A1S5, A1S6, A1S7]
+        function: domestic_pact_seals_the_murder
+        notes: |
+          A1S5 夫人独白"解除我的女性的柔弱"；
+          A1S6 邓肯被欢迎进城堡（戏剧反讽峰值，观众已知阴谋）；
+          A1S7 麦克白动摇 + 夫人激将 + "愿你所生育的全是男孩子"。
+    turn: ambition_becomes_committed_murder_pact
+    end_state: regicide_set_for_that_night
+
+  - act: 2
+    function: the_deed_done_offstage_and_psychic_consequence
+    sequences:
+      - seq_id: 2.A
+        scenes: [A2S1, A2S2]
+        function: pre_and_post_murder_psyche
+        notes: |
+          A2S1 匕首独白；A2S2 弑君发生在 A2S1 与 A2S2 之间的台下——
+          回到台上麦克白手沾血，听见"麦克白已经杀害了睡眠"。
+      - seq_id: 2.B
+        scenes: [A2S3, A2S4]
+        function: discovery_panic_and_cosmic_aftershock
+        notes: |
+          A2S3 门房地狱戏（散文喜剧节奏插入悲剧）→ 麦克德夫发现 →
+          麦克白杀两侍卫"灭口" → 马尔康道纳本出逃；
+          A2S4 老翁与洛斯：天象异变 + "麦克白已到斯贡即位"。
+    turn: usurper_seated_but_universe_signals_disorder
+    end_state: macbeth_crowned_but_cosmos_disturbed
+
+  - act: 3
+    function: usurped_kingship_unravels_under_paranoid_expansion
+    sequences:
+      - seq_id: 3.A
+        scenes: [A3S1, A3S2]
+        function: paranoia_targets_banquo
+        notes: |
+          A3S1 麦克白独白对班柯的恐惧 + 雇刺客（注意：不告诉夫人——
+          权力关系倒转，A1S7 她推他，现在他撇开她）；
+          A3S2 "我们不过刺伤了蛇身"独白 + "蝎子"心象。
+      - seq_id: 3.B
+        scenes: [A3S3, A3S4]
+        function: half_success_breeds_public_collapse
+        notes: |
+          A3S3 班柯被杀但弗里恩斯逃脱（预言留尾）；
+          A3S4 宴会鬼魂场——核心 turn：用最隆重的公开仪式暴露内罪。
+      - seq_id: 3.C
+        scenes: [A3S5, A3S6]
+        function: supernatural_recalibration_and_resistance_announced
+        notes: |
+          A3S5 赫卡忒训女巫预告 A4S1 二轮预言（戏剧对观众的"埋伏笔"）；
+          A3S6 列诺克斯与贵族——反讽对话首次明说"麦克德夫去英格兰"。
+    turn: tyrant_cracks_in_public_and_opposition_takes_shape_offstage
+    end_state: kingdom_polarized_resistance_brewing
+
+  - act: 4
+    function: false_security_breeds_meaningless_excess
+    sequences:
+      - seq_id: 4.A
+        scenes: [A4S1]
+        function: second_prophecy_arms_him_with_misread_oracles
+        notes: |
+          三幽灵 + 八王列队 + 镜——
+          高度 spectacle 的"假信心"加固场；
+          末尾决意屠麦克德夫家——这是 false security 的直接产物。
+      - seq_id: 4.B
+        scenes: [A4S2]
+        function: onstage_atrocity_against_innocents
+        notes: |
+          少见的"凶杀在台上完成"——夫人小儿被刺杀。
+          作用：把麦克白从"野心错路"打到"道德归零"。
+      - seq_id: 4.C
+        scenes: [A4S3]
+        function: legitimate_resistance_consolidates_through_test_and_grief
+        notes: |
+          马尔康"自污以试"麦克德夫 + 洛斯报全家被屠 + 麦克德夫立誓——
+          单场完成"试 + 真 + 痛 + 誓"四档。
+    turn: tyrant_overreaches_and_his_nemesis_is_forged
+    end_state: macduff_armed_with_personal_revenge
+
+  - act: 5
+    function: equivocated_prophecies_close_in_and_collapse
+    sequences:
+      - seq_id: 5.A
+        scenes: [A5S1]
+        function: lady_macbeth's_unconscious_confession
+        notes: |
+          梦游场——A1S5 夫人独白的镜像收束：
+          那时她请黑夜遮蔽，现在她"寝室通宵点灯"；
+          那时她说"一点点的水就可以替我们泯除痕迹"，
+          现在"所有阿拉伯的香料"都洗不掉。
+      - seq_id: 5.B
+        scenes: [A5S2, A5S3, A5S4]
+        function: military_convergence_and_macbeth's_isolation
+        notes: |
+          5.2 苏格兰诸将集结；5.3 麦克白战甲 + "日就枯萎"独白 + 拒医；
+          5.4 勃南林兵砍树枝——预言陷阱机械启动。
+      - seq_id: 5.C
+        scenes: [A5S5]
+        function: queen_dies_and_meaning_itself_is_denied
+        notes: |
+          西登报"王后死了"接"明天又明天"——
+          全剧最低点，麦克白对人生意义做出虚无判决；
+          紧接使者报勃南林移动——第一项假预言兑现。
+      - seq_id: 5.D
+        scenes: [A5S6, A5S7]
+        function: caesarean_revelation_kills_the_tyrant
+        notes: |
+          5.6 部署；5.7 三轮交战：小西华德 / 麦克德夫退一次 / 麦克德夫归来 +
+          "没有足月就从母腹剖出"——第二项假预言兑现，麦克白伏诛；
+          马尔康加冕，与 A2S4 闭环。
+    turn: prophecies_fully_equivocated_and_legitimate_king_restored
+    end_state: malcolm_proclaimed_king_at_scone
+
+inter_act_weaving:
+  parallel_arcs:
+    - macbeth_ascent ↔ macbeth_descent       # A1-A2 上升 / A3-A5 下降
+    - lady_macbeth_unsexes ↔ lady_macbeth_breaks   # A1S5 ↔ A5S1 镜像
+    - duncan_welcomed_into_castle ↔ macbeth_besieged_in_castle  # A1S6 ↔ A5S5
+    - banquo_killed_son_flees ↔ macduff_family_killed_father_avenges  # A3S3 ↔ A4S2-A5S7
+  motif_recurrence:
+    - blood                                  # 战场战报 → 弑君手血 → 鬼魂染血头发 → 梦游洗手
+    - sleep                                  # 失眠咒 → 寝衣装无辜 → 邓肯醉卫睡 → 梦游 → 睡安息祝祷
+    - manhood / "male child"                 # 夫人激将 → 班柯子孙 → 三幽灵幼子像 → 麦克德夫"非妇人所生"
+    - clothes / "borrowed robes"             # A1S3 "替我穿上借来的衣服" → A5S2 "矮小偷儿穿巨人衣服"
+    - light / dark                           # A1S4 "星星收火焰" → A1S5 "阴沉黑夜" → A2S4 白昼黑暗
+    - equivocation                           # 门房地狱戏明嘲 → 女巫预言暗设 → 终幕兑现

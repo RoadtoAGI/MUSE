@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3c93664eae023d4cfd2f3f51
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1264
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 但这毕竟是必须走的第一步
+sensory_mapping: 步行；路径；先后顺序；距离
+context_fact: 汪淼承认即使模型正确也未必能编万年历，但没有正确结构便无从预测。
+image_mechanism: 研究过程被铺成有起点和终点的路，模型建立落在脚下最近一步，精确预测则留在远方；必要性与局限同时可见。
+property_alignment: 模型建立对应第一步；预测规律对应后续路程；模型不足以解决全部问题对应一步未到终点；仍必须完成对应道路不能跳过起点
+context_alignment: 面对教皇要求立即给万年历，路径比喻让汪淼保持科学谦逊，也与游戏“走对路”规则形成后续照应。
+narrative_function: 划清科学模型与万能预测，建立汪淼理论可信度。
+transfer_rule: 用第一步写阶段任务时，应交代终点、不可跳过的依赖关系和迈步后仍未解决的距离。
+failure_boundary: 任务可并行完成、当前步骤并非必要或一步已直接解决问题时，道路顺序会误导工作结构。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 先建立可受观测检验的三太阳宇宙模型，再尝试精确预测运行
+vehicle: 通向目的地的道路上必须先迈出的第一步
+ground: 模型是后续预测的必要前置条件对应第一步先于后续路程；完成它不等于抵达目标对应迈一步仍离终点很远

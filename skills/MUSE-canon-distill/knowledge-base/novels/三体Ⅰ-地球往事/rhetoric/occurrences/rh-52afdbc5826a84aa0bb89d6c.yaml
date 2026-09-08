@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-52afdbc5826a84aa0bb89d6c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2000
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 这就是她的地狱，三个太阳构成的地狱之火将永远灼烧着她
+sensory_mapping: 三日灼光；皮肤炙烤；地狱烈火；永恒刑罚；恐惧
+context_fact: 她因大出血濒死，刚生的孩子命运未明，并把痛苦联系到向三体回信和杀人。
+image_mechanism: 医学痛觉与三体天象叠成私人地狱，三个太阳不再只是外星知识，而成为围绕罪人的刑具；宇宙背叛被身体直接判刑。
+property_alignment: 产痛高热对应地狱灼烧；三个太阳对应地狱火源；昏迷濒死对应坠入死后世界；超级背叛对应罪行；永不退去幻象对应永罚；担心孩子同来对应连坐恐惧
+context_alignment: 她亲手把三体文明引向地球，三日地狱把外星世界从抽象理想第一次转为反噬自身的惩罚图像。
+narrative_function: 显露叶文洁仍存的负罪意识，并把分娩生死关与三体命运相连。
+transfer_rule: 用地狱火写身体痛苦时，应有罪罚心理、持续灼热、濒死边界和人物独有的火源象征。
+failure_boundary: 人物没有负罪感、痛觉冰冷麻木，或三日只是中性天文景象时，地狱刑罚会强加道德判断。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 难产昏迷中的叶文洁把三个太阳幻象理解为背叛人类后将永久承受的罪罚与死亡归宿
+vehicle: 罪人死后坠入地狱，被不会熄灭的烈火永远焚烧
+ground: 难产剧痛和灼热幻觉对应地狱火烧；道德负罪对应罪人受罚；以为将死对应进入永恒归宿；三体三日对应三重火源

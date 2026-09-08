@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d356e17bb65ffcf74bdae94a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1320
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: 一切都化为数字了，就像你凑近了看报纸上的照片，都是小点儿
+sensory_mapping: 视觉；远近缩放；整体/颗粒；分辨率
+context_fact: 他的认知与常人相反：数字成为形体，几何形体则在脑内消失为数字。
+image_mechanism: 视线向几何图形内部不断放大，连续轮廓像印刷照片一样崩解为最小离散单位；抽象数学分析变成焦距改变。
+property_alignment: 整体几何对应远观照片；底层数字对应印刷网点；认知深入对应观察距离缩短；形体消失对应连续图像在颗粒尺度瓦解
+context_alignment: 报纸网点是魏成时代人人见过的缩放经验，能把罕见联觉讲给警察和汪淼听懂。
+narrative_function: 补齐其数字—图形双向转换机制，显示天分不是一般计算速度快。
+transfer_rule: 解释整体分解时，可选随观察尺度改变而从连续图像显出离散单元的媒介，并对应缩放动作和底层单位。
+failure_boundary: 底层元素连续、观察尺度不改变表征或整体信息不能由小单元组成时，报纸网点会误导结构。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 魏成观察几何整体时自动分解出底层数字关系
+vehicle: 远看完整的报纸照片在近看时显露为大量印刷网点
+ground: 几何图形表面连续对应照片远观完整；深入意识后只见数字对应近观照片只见离散小点

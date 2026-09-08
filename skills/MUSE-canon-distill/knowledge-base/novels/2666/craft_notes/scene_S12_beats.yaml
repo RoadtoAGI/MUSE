@@ -1,0 +1,28 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 海藻隐喻的建立
+  dimension: overall
+  original_move: 用否定式定义构建海底身份
+  ai_default_failure: 正面铺陈奇观世界
+  transfer_rule: 写角色起源时把隐喻系统化
+  quote: 有平原，但不是平原
+- pattern_id: S12-p2
+  beat: 全球蠢猪论
+  dimension: verb
+  original_move: 判断句重复成单人脱口秀
+  ai_default_failure: 给听者反应或缓和粗俗
+  transfer_rule: 写黑色幽默独白时让声音占满段落
+  quote: 只有普鲁士人例外
+- pattern_id: S12-p3
+  beat: 普鲁士孤岛
+  dimension: camera
+  original_move: 用三角凝视升格为民族寓言
+  ai_default_failure: 直接命名家庭温暖或紧张
+  transfer_rule: 写家族神话时让目光构图承担寓意
+  quote: 普鲁士孤岛似乎
+overall_traits:
+- 延伸隐喻作为角色起源论
+- 喜剧与挽歌无缝切换
+- 残缺家庭成神话原型

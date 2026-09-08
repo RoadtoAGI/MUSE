@@ -1,0 +1,28 @@
+scene_id: S32
+source_notes: scene_S32_beats.md
+patterns:
+- pattern_id: S32-p1
+  beat: 投石机抛人头
+  dimension: info_density
+  original_move: 先物理特征再反应最后揭底，读者与守军同步坠入恐惧
+  ai_default_failure: 堆砌人头惨状的视觉细节
+  transfer_rule: 心理战武器按未知—反应—揭底顺序放出，惨状用概括
+  quote: 杀伤力很差、却更可怕的东西
+- pattern_id: S32-p2
+  beat: 格龙得攻城槌
+  dimension: verb
+  original_move: 「格龙得缓缓前进」「战鼓隆隆」复沓，慢而不停即威胁
+  ai_default_failure: 平均笔墨写攻防两端，削弱不可阻挡感
+  transfer_rule: 不可阻挡感靠原句重复与单一焦点，砍掉防守方戏份
+  quote: 格龙得缓缓前进
+- pattern_id: S32-p3
+  beat: 破门与鸡鸣号角
+  dimension: omission
+  original_move: 最大毁灭后插一声不作解释的鸡啼，再接远方号角
+  ai_default_failure: 高潮处不敢插入日常事件，直接让援军救场
+  transfer_rule: 至暗转折用最小日常声响开启，希望经声音链传递
+  quote: 一只公鸡开始喔喔啼叫
+overall_traits:
+- 恐惧是主武器，战场在守军心智中
+- 重复即节奏，模拟围城的单调压迫
+- 最小元素承载最大转折

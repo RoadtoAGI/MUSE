@@ -1,0 +1,172 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    Phase 2（roles）单独成文件；本 phase 用 dramatic role 名指代角色，
+    完整人物条目见 phase2_roles.yaml。
+
+inciting_incident: witches_prophesy_macbeth_will_be_king
+                  # A1S3 三女巫"祝福考特 / 万福王 / 班柯子孙王"——
+                  # 现实立即兑现"考特爵士"，把"王"念植入麦克白
+
+dramatic_question: |
+  Will Macbeth seize the crown the witches name, and can he hold it
+  once the act is done — or will the same prophecies that lifted him crush him?
+
+objects_of_desire:
+  external: scottish_throne
+  internal: certainty_that_the_crown_is_safely_his
+                  # 麦克白要的不只是登基，而是"登基之后能安睡"
+
+spine:                                # 戏剧节点序列（id 用戏剧化命名）
+  - id: disturbance
+    event: witches_three_hailings_on_the_heath
+    location: heath
+    act_scene: A1S3
+    value_change: loyal_general(+)→ambition_seed_planted(±)
+    notes: |
+      女巫话刚毕，洛斯立刻送来"考特爵士"封号——
+      字面应验把"王"从幻想推到"接下来该兑现的事"。
+
+  - id: charge
+    event: lady_macbeth_unsexes_herself_and_charges_him
+    location: inverness_castle
+    act_scene: A1S5-A1S7
+    value_change: private_ambition→articulated_murder_pact
+    notes: |
+      A1S5 夫人读信 + "解除我的女性的柔弱"独白；
+      A1S7 夫人"愿你所生育的全是男孩子"激将——
+      把麦克白的"想要"锁成"必须"。
+
+  - id: transgression
+    event: regicide_offstage_followed_by_psychic_rupture
+    location: inverness_castle
+    act_scene: A2S1-A2S2
+    value_change: pre-murder_dread(±)→done_and_unsleepable(−)
+    notes: |
+      A2S1 匕首幻象独白；A2S2 弑君发生在幕后，
+      回到台上是"麦克白已经杀害了睡眠"——
+      行动一完成就立即变成不可治愈的失眠。
+
+  - id: consolidation
+    event: cover_up_and_coronation_at_scone
+    location: inverness_castle / scone (offstage)
+    act_scene: A2S3-A2S4
+    value_change: panic→public_kingship_with_secret_guilt
+    notes: |
+      麦克白杀两侍卫消灭证人；马尔康、道纳本逃亡反给自己"嫌疑"借口；
+      A2S4 老翁/洛斯说天象异变——加冕同时世界开始反常。
+
+  - id: paranoid_expansion
+    event: orders_murder_of_banquo_and_fleance
+    location: forres_palace / park
+    act_scene: A3S1-A3S3
+    value_change: usurped_kingship→needing_to_kill_again_to_secure_it
+    notes: |
+      "班柯子孙为王"的预言成新焦虑。
+      与 charge 节点的对称：A1 夫人推他动手，A3 他自己谋划且不告诉夫人——
+      "亲爱的，你暂时不必知道"。
+
+  - id: rupture
+    event: banquet_ghost_exposes_him_publicly
+    location: banquet_hall
+    act_scene: A3S4
+    value_change: outward_kingship→visibly_cracked_in_front_of_court
+    notes: |
+      鬼魂只他看得见，但他的失态全堂可见——
+      公开仪式成为暴露内罪的舞台。"流血必引流血"独白收束。
+
+  - id: false_security
+    event: witches_apparitions_promise_invincibility
+    location: witches_cavern
+    act_scene: A4S1
+    value_change: cracked_kingship→armored_with_misread_oracles
+    notes: |
+      三幽灵：留心麦克德夫 / 无妇人所生可害 / 勃南林不动则永王——
+      麦克白只听到"不可害"，没听到陷阱里的条件句。
+      转回时听说麦克德夫已逃，立即决定屠其家——
+      false security 触发最无意义的暴行。
+
+  - id: moral_collapse
+    event: macduff_family_slaughtered_and_macduff_vows_vengeance
+    location: fife_castle / english_court
+    act_scene: A4S2-A4S3
+    value_change: tyrant(+)→catalyzed_legitimate_resistance(+)
+    notes: |
+      A4S2 屠戮夫人小儿（少见的、台上完成的暴力）；
+      A4S3 马尔康试探麦克德夫 + 洛斯报噩耗——
+      把麦克德夫从"流亡者"催化为"复仇者"，凑齐反攻三方。
+
+  - id: recognition
+    event: lady_macbeth_sleepwalks_and_dies_offstage
+    location: dunsinane_castle
+    act_scene: A5S1, A5S5
+    value_change: shared_ambition→fragmented_collapse
+    notes: |
+      A5S1 梦游"血迹去吧"——夫人首次外显良心；
+      A5S5 报"王后死了"接"明天又明天"独白——
+      麦克白对人生意义本身做出最终判决。
+
+  - id: terminal
+    event: birnam_moves_macduff_not_of_woman_born_macbeth_killed
+    location: dunsinane_plain
+    act_scene: A5S6-A5S7
+    value_change: invincible_tyrant→equivocated_to_death
+    notes: |
+      预言三项以反讽方式兑现：
+      勃南林（树枝伪装）/ 非妇人所生（剖腹产）/ 暴君首级悬挂。
+      马尔康加冕——回到 A1 起点的"合法王权"，循环完成。
+
+obstacles:
+  - macbeth's own conscience            # A1S7 独白 / A2S2 失眠 / A3S4 鬼魂
+  - banquo's "royal nature"             # 班柯不动心 = 麦克白的镜像反极
+  - duncan's sacred kingship            # 弑之即招天怒
+  - prophecies' equivocation            # 信任预言反成致命漏洞
+  - macduff's family-driven vengeance   # 杀其家催生最致命对手
+  - malcolm's English alliance          # 流亡聚力 + 西华德援军
+
+arcs:                                   # 与 phase4 act_sequence 对齐的弧线视角
+  - arc_id: 1
+    name: prophecy_and_pact
+    bounds: A1
+    value_arc: loyal_general(+)→articulated_regicide_pact(−)
+    climax: A1S7_lady_macbeth_breaks_his_resistance
+
+  - arc_id: 2
+    name: deed_and_cover
+    bounds: A2
+    value_arc: psychic_dread→public_kingship_with_concealed_guilt
+    climax: A2S2_macbeth_carries_bloody_daggers_back
+
+  - arc_id: 3
+    name: usurped_throne_and_public_unmasking
+    bounds: A3
+    value_arc: secret_guilt→visibly_cracked_in_court
+    climax: A3S4_banquet_ghost
+
+  - arc_id: 4
+    name: false_security_and_excess
+    bounds: A4
+    value_arc: cracked_king→armored_with_oracles→over-reach
+    climax: A4S1_apparitions / A4S3_macduff_vows
+
+  - arc_id: 5
+    name: equivocation_closes_in
+    bounds: A5
+    value_arc: false_invincibility→stripped_alone→killed
+    climax: A5S7_macduff_reveals_he_is_not_of_woman_born
+
+story_climax_design:
+  crisis: A5S5_seyton_reports_queen_dead → tomorrow_and_tomorrow_soliloquy
+                  # 全剧最低点——意义本身的否定
+  climax: A5S7_macduff_reveals_caesarean_birth_and_kills_macbeth
+                  # 最后一项预言兑现，暴君伏诛
+  resolution: A5S7_malcolm_proclaimed_king_at_scone
+                  # 与 A2S4 麦克白加冕斯贡形成闭环
+  controlling_idea_payoff: |
+    "Both action and inaction destroy" 的麦克白版本是：
+    "凡用暴力替天命兑现的人，得到的就是天命的字面反讽"。
+    王冠到手，安睡尽失；预言全应验，命却没了。

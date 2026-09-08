@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dc3569fefac77bede4593e9d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2157
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 将一直局限于高知阶层的三体叛军的触角伸向社会的最基层
+sensory_mapping: 长触角伸展；末梢探测；中心躯体；抓取；社会层级距离
+context_fact: 三体游戏既用于传教，也用于识别玩家思想倾向并联系合格者。
+image_mechanism: 精英组织主体仍藏在高层，软件化身为可跨越阶层的细长感官肢体；玩家每次深入游戏，都相当于走近触角末端接受探测。
+property_alignment: ETO核心对应生物躯干；游戏对应触角；网络传播对应远伸；基层玩家对应触碰对象；思想考察对应感知；招募成员对应触角卷回猎物
+context_alignment: 游戏不是广泛成功的文化产品，而是带筛选功能的定向接触器，触角比普通传播渠道更贴切。
+narrative_function: 把组织扩张的侦察、接触、筛选三步合成一项生物动作。
+transfer_rule: 用触角写组织渠道时，应有中心主体、远距末端、环境探测、目标筛选和反馈回流。
+failure_boundary: 传播完全公开单向、无筛选和回收联系，或基层主动自发组织不受中心控制时，触角会误写权力方向。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: ETO借《三体》游戏从精英圈向基层社会主动探测、接触并招募年轻成员
+vehicle: 藏在中心的生物向远处伸出触角，以末端感知环境、抓取目标并扩展活动范围
+ground: 组织中心对应生物身体；游戏渠道对应触角；接触基层对应伸向远处；筛选招募对应触觉探测和抓取

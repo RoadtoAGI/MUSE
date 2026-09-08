@@ -1,0 +1,22 @@
+card_id: victory-taxed-instantly
+pattern_name: 胜利焊死代价
+dramatic_function: 让大胜在同场或紧邻结构中扣回身体、资产或权力代价；胜利越大，下一阶段的绞索越紧，抑制连胜带来的爽感通胀。
+applicability: 适用于连胜型长篇主线；代价须落在主角最在意的资产上，且改变后续行动空间；仅伤无关角色或事后口头总结会失去反噬力度。（单书孤证，验证面窄）
+reuse_candidates:
+- 飞机撞舰桥重伤情节
+- 军衔授勋制度细节
+tags:
+- 胜利代价
+- 功高震主
+- 爽感控制
+- 反噬
+source_scenes:
+- novel: 日耳曼涅槃
+  scene_id: scene_11
+  note: 胜利顶点英机撞击舰桥，统帅认证以重伤昏迷签收
+- novel: 日耳曼涅槃
+  scene_id: scene_29
+  note: 不世战功被兑换成少将枷锁，授衔仪式即雪藏现场
+phase_affinity:
+- 3
+- 4

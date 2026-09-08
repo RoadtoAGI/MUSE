@@ -1,0 +1,14 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 沉入自己的诗
+  dimension: omission
+  original_move: 避开暴力本身，只留诗句与声景
+  ai_default_failure: 直接描写侵害经过和痛苦反应
+  transfer_rule: 创伤场景可用声音外壳与诗句内核
+  quote: 水深行人没
+overall_traits:
+- 暴力被全面省略
+- 明亮回忆与黑暗现实平行
+- 以创作者身份保留主体性

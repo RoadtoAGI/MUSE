@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:lu-dahai
+work_id: drama:雷雨
+display_name: 鲁大海
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '大海的台词短促、辛辣、带口吃——曹禺写他"说话微微有点口吃，但是在他的感情激昂的时候，他词锋是锐利的"。他几乎不绕弯子；他的语言是雷雨中最接近"行动语言"的。他对父亲（鲁贵）一律用粗话："你死就死了，你算老几！""你少惹我的火""你这——"；他对妹妹（四凤）一律命令"出去""你给妈！"；他对未知是亲哥的周萍
+    A2 用"你这种混账东西"+"哼"，A4 用"你！"+"你是没有血性，只顾自己的一个十足的混蛋"。他对朴园的台词最长、最有理论——A2 与朴园论战是雷雨中唯一一次"工人代表用罢工组织语言对抗资本家"的对白。**他最深的语言习惯：他唯一的成熟时刻是
+    A4 对萍说"那大概是你父亲的报应"**——这是雷雨中"命运"被最直白地命名的一句话，由不知道自己是儿子的儿子说出。
+
+
+    佐证：scenes/scene_A2.md:L395-L405（A2 与朴园论战——"你的见地也不是没有道理""可是你完全错了"）；scenes/scene_A4.md:L289-L291（"那大概是你父亲的报应"）'
+  evidence_locators:
+  - scenes/scene_A2.md:L395-L405
+  - scenes/scene_A4.md:L289-L291
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

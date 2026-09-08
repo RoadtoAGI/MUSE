@@ -1,0 +1,28 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 浴室设定
+  dimension: camera
+  original_move: 脱衣脱甲同步脱下弑君者面具。
+  ai_default_failure: 会选书房或地牢告白。
+  transfer_rule: 心理裸露可由物理裸露承托。
+  quote: 我的名字是詹姆
+- pattern_id: S08-p2
+  beat: 高烧倾泻
+  dimension: omission
+  original_move: 谵妄让真相自然失控流出。
+  ai_default_failure: 会安排清醒理性坦白。
+  transfer_rule: 秘密可借失控状态释放。
+  quote: 野火
+- pattern_id: S08-p3
+  beat: 名字收束
+  dimension: overall
+  original_move: 最简单自称承载身份重建。
+  ai_default_failure: 会写成长篇自我宣言。
+  transfer_rule: 弧光核心可压成一句自认。
+  quote: 我的名字是詹姆
+overall_traits:
+- 物理赤裸等于心理赤裸
+- 谵妄比清醒告白可信
+- 最少词汇承载弧光

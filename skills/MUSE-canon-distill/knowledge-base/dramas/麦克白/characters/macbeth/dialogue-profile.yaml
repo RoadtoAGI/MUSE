@@ -1,0 +1,42 @@
+schema_version: dialogue-character/v1
+character_id: drama:麦克白:macbeth
+work_id: drama:麦克白
+display_name: 麦克白
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '麦克白的台词在全剧密度最高——他几乎所有的关键转折都通过独白承担：每个动手前他都会先把动作的全部后果意象化（弑君前的"赤裸婴儿在风中飘游 / 御气而行的天婴"、动手时的"匕首在哪儿"、动手后的"麦克白已经杀害了睡眠"、宴会失态时的"鸢鸟的胃囊将要变成我们的坟墓"），后期意象密度逐渐贫化——A5S5"明天又明天"用最朴素的语法承担最大的虚无，是莎翁刻意让他的语言"穷尽"的设计。倾向：长句叠浪、动词驱动、条件句密集（"要是…要是…"前期为良知拷问，后期为预言屏障）；情绪进入崩溃区时句子会变短并堆叠重复（"瞧那边！瞧！瞧！瞧！"）；公开场合的礼仪用语极其熟练但与独白形成强反差——这种反差本身是莎翁让他"潜台词与台词分裂"的核心声音机制。
+
+
+    来源：phase2_roles.yaml → macbeth.voice_function + voice_markers + soliloquy_signature + subtext_signature
+
+    佐证：
+
+    - scenes/scene_A1S7.md:L7-L7 （独白"要是干了以后就完了"——条件句驱动的良知拷问）
+
+    - scenes/scene_A2S1.md:L41-L41 （"在我面前摇晃着、它的柄对着我的手的，不是一把刀子吗？"——意象密度峰值）
+
+    - scenes/scene_A2S2.md:L47-L47 （"那清白的睡眠，把忧虑的乱丝编织起来的睡眠..."—动词链 + 排比）
+
+    - scenes/scene_A3S1.md:L55-L55 （对刺客的狗类比——熟练操控修辞）
+
+    - scenes/scene_A3S4.md:L69-L69 （崩溃区短促叠句"瞧那边！瞧！瞧！瞧！"）
+
+    - scenes/scene_A5S3.md:L23-L23 （"我已经活得够长久了；我的生命已经日就枯萎"——意象贫化）
+
+    - scenes/scene_A5S5.md:L19-L19 （"明天，明天，再一个明天"——节奏单调即风格信号）'
+  evidence_locators:
+  - scenes/scene_A1S7.md:L7-L7
+  - scenes/scene_A2S1.md:L41-L41
+  - scenes/scene_A2S2.md:L47-L47
+  - scenes/scene_A3S1.md:L55-L55
+  - scenes/scene_A3S4.md:L69-L69
+  - scenes/scene_A5S3.md:L23-L23
+  - scenes/scene_A5S5.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

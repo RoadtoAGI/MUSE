@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c650d681b09837ae234fd84e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1389
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 看来我早在这儿挂上号了
+sensory_mapping: 登记标签；号码；机构流程；识别
+context_fact: 魏成到警局报案时，值班人员没有询问便直接让他找大史，显示专案组已有其资料。
+image_mechanism: 秘密调查名单被改成挂在窗口后的公开号码牌，魏成一进门便像等候处理的病人被叫号；无形监控获得机构化流程。
+property_alignment: 警方预先建档对应挂号登记；值班员即时识别对应按号码检索；被导向专案负责人对应挂号后进入指定科室流程
+context_alignment: 魏成以懒散口语理解警方监控，用日常就医经验淡化却也暴露自己已卷入大案。
+narrative_function: 提示申玉菲和魏成早受专案组关注，扩大读者对案件网络的认识。
+transfer_rule: 用挂号写进入监控名单时，应对应预登记、身份检索和后续处理路径。
+failure_boundary: 机构只是临时认出名人、没有档案或后续流程时，挂号会虚构预先监控。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 警方已把魏成列入相关案件关注名单并能迅速识别他的身份
+vehicle: 就诊者预先登记号码，进入机构后按号被识别和处理
+ground: 值班人员一见魏成便知道去向对应登记对象可按号识别；他此前未知却已留档对应号码先于本人到场存在

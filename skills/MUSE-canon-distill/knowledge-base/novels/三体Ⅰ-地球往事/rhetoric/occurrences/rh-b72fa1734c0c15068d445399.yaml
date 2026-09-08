@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b72fa1734c0c15068d445399
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1442
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 微积分这个强有力的数学工具
+sensory_mapping: 手部握持；力量；加工动作；器具硬度
+context_fact: 牛顿刚宣称三定律解释广泛自然现象，认为再加上微积分便能很快掌握三颗太阳的运行规律。
+image_mechanism: 无形的符号方法被塞进手中，方程成为待加工的硬质对象；“强有力”把方法优势从抽象正确性改写为可施加的机械力量。
+property_alignment: 微积分的可操作步骤对应工具的使用方法；求解微分方程对应加工对象；适用范围广对应工具用途强；提高推导能力对应器具放大人力
+context_alignment: 牛顿正从决斗者转为技术征服者，工具话语延续其自信和行动感，也为冯·诺伊曼马上指出算力限制留下反差。
+narrative_function: 把微积分的功能压缩成直观器具，并建立理论工具与计算资源之间的矛盾。
+transfer_rule: 用工具写方法时，应点明它加工的对象、施加的操作和相对徒手方案增加的具体能力。
+failure_boundary: 方法只有描述作用、没有可重复操作，或问题根本不适用该方法时，工具会虚构可控性；这里计算量随后限定其力量。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 微积分作为处理运动方程、推导三颗太阳规律的方法体系
+vehicle: 能握持、发力并加工对象的坚固工具
+ground: 数学方法解决特定问题对应工具加工材料；微积分显著扩大可处理范围对应工具提供强大机械优势

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-948cdd621c218f9f45e45e02
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1224
+chapter: 第15章 红岸之四
+figure_type: analogy
+quote: 其效应也能通过人类群体的心理和文化透镜被放大
+sensory_mapping: 视觉；光学折射；倍率；信息传播
+context_fact: 理论认为元接触不含实质内容，仍会因人类内部文化差异导致分裂和冲突加剧。
+image_mechanism: 一条本来细弱的信息束进入不同群体的心理镜片，折射、聚焦后投成巨大社会影像；放大的来源由外星内容转移到人类自身。
+property_alignment: 元接触信息微小对应入射像微弱；心理文化预设对应透镜曲率；社会冲击扩大对应成像倍率增加；群体差异造成不同解释对应不同镜片产生变形
+context_alignment: 上一句把接触写成开关，此句补足开关后的放大机制，形成从触发到社会输出的连续模型。
+narrative_function: 指出灾难性影响来自人类内部结构，并把抽象文化中介变成可见光路。
+transfer_rule: 用透镜写传播效应时，应分别标明原始信号、介质偏向、倍率变化和最终投影，尤其说明放大由谁造成。
+failure_boundary: 群体被动原样接收信息、没有解释差异，或影响直接来自信息本身时，文化透镜会错误转移因果。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 微小外星接触事实经不同群体心理与文化解释后产生巨大社会后果
+vehicle: 微弱光线穿过具有倍率和成像偏差的透镜而被放大
+ground: 群体既有观念筛选解释接触对应透镜改变入射光；微小信息引发大效应对应光学系统把小像放大

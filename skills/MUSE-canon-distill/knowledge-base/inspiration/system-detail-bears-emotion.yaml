@@ -1,0 +1,40 @@
+card_id: system-detail-bears-emotion
+pattern_name: 名物制度承情
+dramatic_function: 用制度、名物、机制细节的密度承载情感与压迫：不直白抒情，读者从规则如何作用于人自行推导恐惧与悲哀
+applicability: 适用于知识或制度本身能改变人物处境的题材；纯炫学或机制不改变选择即失效；纯私人情感戏不宜硬套
+reuse_candidates:
+- 唐代婚俗清单
+- 眭夸崔浩典故
+- 道教名物谱系
+- 一棍汉
+- 金军民夫
+- 攻城填沟
+tags:
+- 考据叙事
+- 名物承压
+- 知识戏剧
+- 克制抒情
+- 系统压迫
+- 信息密度
+- 底层视角
+- 战争机制
+source_scenes:
+- novel: 大唐李白
+  scene_id: S03
+  note: 博物叙述绕行后才抵达身世秘密。
+- novel: 大唐李白
+  scene_id: S19
+  note: 紫绮裘流转替代叙述者揭示人物网络。
+- novel: 大唐李白
+  scene_id: S22
+  note: 婚仪规则本身表达主角被收编的情感。
+- novel: 绍宋
+  scene_id: scene_17
+  note: 一根木棍换饭写透强征民夫心理。
+- novel: 绍宋
+  scene_id: scene_04
+  note: 逐个问乱兵诉求，把军心写成具体利益。
+phase_affinity:
+- 1
+- 4
+- 5

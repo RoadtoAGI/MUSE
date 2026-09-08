@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7aa5fb4666c91cfead62a90e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L394
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 他的脸像那兽皮一样脏和皱
+sensory_mapping: 视觉；质感；触觉
+context_fact: 汪淼在寒冷荒原追上穿兽皮的周文王。
+image_mechanism: 镜头把脸和紧邻兽皮并排，让同一种污色与褶纹跨过人体/衣物边界直接复制。
+property_alignment: 脸上污垢对应兽皮脏表面；皮肤深皱对应兽皮褶皱
+context_alignment: 喻体就在人物身上，可由读者当场对照。
+narrative_function: 写出长期流浪和环境粗粝。
+transfer_rule: 近景外貌比较可优先取同场可见材质，让颜色和纹理都能即时互证。
+failure_boundary: 若只有肤色相近而无褶皱，或兽皮干净平整，比较会把贫困痕迹夸大。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 游戏角色周文王的脸部外观
+vehicle: 裹在身上的肮脏起皱兽皮
+ground: 脸上污垢对应兽皮脏表面；皮肤深皱对应兽皮褶皱

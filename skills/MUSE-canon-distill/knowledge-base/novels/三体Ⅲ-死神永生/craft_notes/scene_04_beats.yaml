@@ -1,0 +1,28 @@
+scene_id: '04'
+source_notes: scene_04_beats.md
+patterns:
+- pattern_id: 04-p1
+  beat: 军报作为心跳
+  dimension: info_density
+  original_move: 镜头锁屏只给军报数据，恐惧由距离递减计算出
+  ai_default_failure: 写心跳加速手抖出汗的生理反应
+  transfer_rule: 倒计时数据本身可作叙事节奏器，不写身体反应
+  quote: 九分钟到达地面！
+- pattern_id: 04-p2
+  beat: 三十五亿年
+  dimension: info_density
+  original_move: 地质纪年纯名词列表压顶，重量由读者自行感受
+  ai_default_failure: 加「她感到压力巨大」的概括句
+  transfer_rule: 抽象重负可换成专名数字列表，列表即诗歌
+  quote: 寒武纪7000万年
+- pattern_id: 04-p3
+  beat: 扔
+  dimension: verb
+  original_move: 决策过程全跳过，一个扔字完成选择与转折
+  ai_default_failure: 写权衡两个选择的内心推演过程
+  transfer_rule: 重大抉择可压缩成单个带情绪的硬动词，事后补因
+  quote: 把手中的开关扔了出去
+overall_traits:
+- 数据即叙事，恐惧从递减数字中自行生成
+- 列表的非叙事性产生叙事达不到的重量
+- 最关键心理全省略，一个动词替代

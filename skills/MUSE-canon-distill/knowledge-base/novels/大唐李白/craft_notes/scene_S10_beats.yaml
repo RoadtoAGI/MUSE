@@ -1,0 +1,14 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 八字点化
+  dimension: info_density
+  original_move: 八字典语连接风骨与离别
+  ai_default_failure: 让高人长篇讲解修行道理
+  transfer_rule: 点化人物时用短典语留余震
+  quote: 天地四时，犹有消息
+overall_traits:
+- 错位焦点制造神秘
+- 短典语承载高信息密度
+- 仪式感靠不写制造

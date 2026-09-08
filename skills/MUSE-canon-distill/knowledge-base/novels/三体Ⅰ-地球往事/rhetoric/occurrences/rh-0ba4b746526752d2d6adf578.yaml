@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0ba4b746526752d2d6adf578
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1897
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 所以，必须扑灭这项技术
+sensory_mapping: 火苗；热量增长；泼水压灭；余烟；扩散阻断
+context_fact: 纳米材料可支撑太空电梯和近地防御体系，因此主要求ETO干扰汪淼研究。
+image_mechanism: 尚在实验室中的材料技术被看成火种，太空防御是它可能点燃的整片火场；三体人选择在火线扩散前直接掐灭源头。
+property_alignment: 纳米研究对应火种；规模生产对应火势扩大；太空电梯对应被点燃的新区域；ETO干扰对应灭火动作；三体恐惧对应防火者判断灾害；时间紧迫对应趁火小扑灭
+context_alignment: 三体人技术远胜人类，却担心人类加速进步，火苗比喻准确呈现小发明蕴含的增长威胁。
+narrative_function: 将抽象技术封锁写成预防性灭火，解释汪淼为何成为攻击目标。
+transfer_rule: 把技术压制写成扑火时，应指出当前火种、可燃传播路径、未来危害和必须提前介入的时间窗。
+failure_boundary: 技术已全球成熟无法回收、不会扩散到威胁应用，或压制反会加速传播时，扑灭小火的模型失效。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三体阵营要在纳米材料成熟并催生太空电梯前压制、终止该技术路线
+vehicle: 火苗尚小时即被覆盖或浇灭，阻止其蔓延成无法控制的大火
+ground: 技术萌芽对应初火；应用扩散对应火势蔓延；提前打断研究对应扑灭火苗；对三体构成威胁对应火灾危险

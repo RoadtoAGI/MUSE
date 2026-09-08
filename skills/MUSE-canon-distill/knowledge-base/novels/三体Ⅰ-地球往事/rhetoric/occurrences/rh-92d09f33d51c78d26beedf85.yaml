@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-92d09f33d51c78d26beedf85
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2420
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 金属般的三体精神已经凝固到我们的每一个细胞中，您真的认为它还能融化吗
+sensory_mapping: 冷金属；细胞浇铸；硬化；高热熔解；全身渗透
+context_fact: 监听员怀疑即使占领地球，三体人也无法创造地球式自由美感生活。
+image_mechanism: 生存伦理不是外在法律，而像金属液灌入身体后冷却，把每个细胞铸成制度零件；改变文明需要重新熔化整具集体身体。
+property_alignment: 冷静麻木对应金属低温硬度；二百轮筛选对应反复浇铸；精神内化对应进入细胞；社会专制对应整体硬结构；创造自由文化对应熔化重铸；监听员怀疑对应缺少足够热源
+context_alignment: 开章大地如冷金属，此处金属从地表进入细胞，完成自然、社会与精神同材质化。
+narrative_function: 解释三体社会为何难靠占有乐土变得美好，并深化监听员背叛的价值理由。
+transfer_rule: 用金属凝固写文化内化时，应有长期铸造过程、身体深度、硬化后行为限制和明确转型热源。
+failure_boundary: 社会已有广泛多元文化、个体能自由改变价值，或精神只受临时政策压制时，细胞凝固会把可塑性写死。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明的冷静麻木、专制生存伦理已深入个体身心，难以转化为自由、爱与审美生活
+vehicle: 熔融金属冷却后渗入并凝固于每个细胞，形成坚硬结构，除非重新加热否则无法改变
+ground: 精神冷硬对应金属；价值内化对应渗进细胞；制度长期固定对应凝固；文化转型对应重新融化

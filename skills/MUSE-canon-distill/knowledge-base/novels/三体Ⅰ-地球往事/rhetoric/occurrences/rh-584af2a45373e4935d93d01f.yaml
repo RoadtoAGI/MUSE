@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-584af2a45373e4935d93d01f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2621
+chapter: 第34章 智子
+figure_type: simile
+quote: 如果智子以这个速度在地球上不同的加速器间巡回，那么在地球人看来，它就像同时存在于每台加速器中
+sensory_mapping: 高速闪现；多点重影；时间压缩；全球巡回；同步存在
+context_fact: 科学执政官借串行计算机多线程表象说明两个智子也能控制全球上万台加速器。
+image_mechanism: 地球尺度在光速前缩小成处理器的一轮时隙，智子从一台机器跳到下一台的空档短到不可察；顺序轨迹在人类慢速视野中叠成多重在场。
+property_alignment: 智子单体对应一个执行者；不同加速器对应多个任务点；近光速巡回对应高速时间片切换；人类低时间分辨率对应看不见间隔；每台均被干扰对应各处表观存在；全球范围小对应轮询周期短
+context_alignment: 前句已用串行计算机解释多线程，此句把抽象时间片具体落到智子全球路线，是机制的空间化收束。
+narrative_function: 说明极少智子如何覆盖大量设施，并形成无所不在的压迫感。
+transfer_rule: 把高速轮询写成同时存在时，应比较切换周期与观察窗口，并证明每个节点在需求发生前都能被访问。
+failure_boundary: 节点相距使往返延迟可测、多个事件真正同时发生，或任务需要长期连续驻留时，单体轮询不能等同多点在场。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 单个近光速智子高速轮询多台地球加速器，在人类时间分辨率内几乎同步干扰所有实验
+vehicle: 同一对象在多个地点同时拥有副本，每处观察者都持续感到它在场
+ground: 高速切换间隔短于观察分辨率对应表观同时；逐台巡回对应多处存在；每站均及时响应对应持续在场错觉

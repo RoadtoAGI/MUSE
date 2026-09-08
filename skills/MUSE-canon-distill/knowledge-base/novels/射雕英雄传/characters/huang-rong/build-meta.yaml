@@ -1,0 +1,29 @@
+mode: reference
+display_name: 黄蓉
+role_slug: huang-rong
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_03.md
+  - scenes/scene_11.md
+  - scenes/scene_12.md
+  - scenes/scene_22.md
+  - scenes/scene_27.md
+  - scenes/scene_31.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 8
+coverage_note: |
+  黄蓉全书共出场 19 个场景（超过 2/3 全书场景），是第二主角级角色。本次蒸馏选取 6 个代表性场景：
+  - S03（张家口初遇郭靖）——她的感情起点+娇憨/机心双面的第一次显影
+  - S11（五怪惨死决裂）——她最深的伤痛+"你要杀我就下手罢"的绝对脆弱
+  - S12（铁枪庙舍命）——她最完整的控场+以命传信的舍身
+  - S22（郭靖为她辩护）——她对郭靖感情的纯真度量
+  - S27（接任帮主）——领袖身份的转变起点
+  - S31（假梵语心理战）——她智慧的最高峰+为天下所用
+
+  未纳入的场景（S04/S05/S07/S08/S09/S10/S14/S15/S17/S18/S19/S25/S28 等 13 个黄蓉出场的场景）——这些场景中她的性格维度与 6 个核心场景重合度高，为避免佐证冗余未单独引用。
+  未破例读 full_text.md。
+
+  覆盖要点：黄蓉是全书声音最多变的角色——同一人在不同场景可以呈现娇憨/机心/冷峻/舍身/挑逗/温柔六种声音。本 SKILL 的"声音框架"段落对此做了综合刻画，具体语料由 6 个场景切片承担。

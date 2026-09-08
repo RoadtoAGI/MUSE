@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e7b3495b961723a256f3886f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L324
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 有时像蝌蚪
+sensory_mapping: 视觉；形状；运动
+context_fact: 眼科医生描述常见飞蚊症外观。
+image_mechanism: 视野黑点被补上圆头、细尾和随眼漂移的微小游姿，患者可据此把无名斑影认成具体形状。
+property_alignment: 杂点头尾轮廓对应蝌蚪形状；眼球移动时漂移对应蝌蚪游动
+context_alignment: 临床口语只需快速校准形状与运动，为精确数字的异常建立正常参照。
+narrative_function: 反衬汪淼所见绝非普通病变。
+transfer_rule: 医学症状类比应优先匹配患者能观察的轮廓和运动，不越界声称病因或实体就是喻体。
+failure_boundary: 固定不动的光斑、规则文字或闪光没有蝌蚪的头尾和漂移，不能借此归入飞蚊症。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 飞蚊症患者视野中漂浮的不规则黑点
+vehicle: 圆头细尾并在水中飘动的蝌蚪
+ground: 杂点头尾轮廓对应蝌蚪形状；眼球移动时漂移对应蝌蚪游动

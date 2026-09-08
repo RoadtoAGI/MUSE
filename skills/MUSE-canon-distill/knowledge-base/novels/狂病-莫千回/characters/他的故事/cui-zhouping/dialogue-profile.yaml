@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:他的故事--cui-zhouping
+work_id: novel:狂病-莫千回
+display_name: 崔周平
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的话几乎都朝同一个方向使力——往光明处兜。坏消息一落地，他接的总是"没事""没事的""还不错""再往前走说不定就有信号了"这类托底句，常配一个动作（拍肩、挠头、拄着登山杖爬坡时回头）。讲乐观时他会摆出一套像模像样的推理来支撑（备用电源、信号越近越清晰），哪怕底子很薄。听不懂别人引用的游戏梗时他不装懂，尴尬挠头照直说自己的实在想法。等他开始沉默、把想说的话咽回去，就是这个人快撑不住的信号。
+
+
+    来源：phase3_spine.yaml → theme_hooks（希望提供者）+ mckee 欲望驱动声音
+
+    佐证：scenes/scene_TG-S08.md:L25-L25（口头禅"再往前走说不定就有信号了"，成了他每次的结束语）；scenes/scene_TG-S08.md:L41-L41（听不懂兄弟会的梗"尴尬地挠了挠头"，照直说自己认为雾大反而方便逃跑）；scenes/scene_TG-S10.md:L11-L11（沦陷后率先出声打破压抑"没事的……大家当初也得找一些活下去的理由"）'
+  evidence_locators:
+  - scenes/scene_TG-S08.md:L25-L25
+  - scenes/scene_TG-S08.md:L41-L41
+  - scenes/scene_TG-S10.md:L11-L11
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

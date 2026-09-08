@@ -1,0 +1,47 @@
+mode: reference
+display_name: 吴先生
+role_slug: wu-xiansheng
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_KR-S01.md
+  - scenes/scene_KR-S03.md
+  - scenes/scene_KR-S09.md
+  - scenes/scene_KR-S10.md
+  - scenes/scene_KR-S11.md
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S10.md
+  - scenes/scene_EE-S11.md
+  - scenes/scene_YY-S10.md
+built_at: "2026-05-29T16:30:00+08:00"
+skill_version: 1
+locator_count: 16
+has_canon_ending: false
+variant_packages:                  # 同一人物的篇内特化原型包（two-package + identity_link）
+  - 医院/shi-haoyang               # 医院"游戏导演型·诈死布局"facet，供二创单独取医院切面；全人格仍以本包为准。
+coverage_note: |
+  三篇合并蒸馏：吴先生（《狂人日志》录音机主人 / 录音自白主体）＝ 石浩洋（《医院》诈死后操盘的录音机杀手）
+  ＝《恶》全程伪装"罗允"系统性诱杀整队者，三者经用户拍板确认为同一人，统一蒸馏为 wu-xiansheng；
+  display_name 用"吴先生"，character_map.json 已把"吴先生"与"石浩洋"双键都指向 wu-xiansheng。
+  活态反派 → 不生成 canon-ending.md（《恶》结尾他牵林东青隐入山林，用同套"带孩子的可靠男人"话术接触下一支队伍，循环不止）。
+
+  取证来源：
+  - 《狂人日志》（KR，核心建档篇）：KR-S01 录音自白开场（私人堡垒 / 换身份 / 自助餐厅）、KR-S03 拒绝感染临界点
+    （"变成弱智没意思"line15）、KR-S09 "升华"+"一切都是提前安排好的"+"猪仔/升华"声音、KR-S10 初中霸凌起源
+    +"天生的坏人"、KR-S11 "我可以是任何人，任何人也都可以是我"+"欢迎来到我的时代"。voice / 拒绝感染理由 /
+    伪装机制原理 / 起源全部在本篇确立。
+  - 《恶》（EE，伪装罗允最完整演示篇）：EE-S05 以"带孩子丢了队伍的可靠男人罗允"混入蔡宇队（盗用真罗允模板，
+    L17-19）、EE-S10 对同行廖振宇自陈"更纯粹，只是单纯觉得有意思"+ 童年杀狗起源 +"最大乐趣是看别人毕生希望化泡影"、
+    EE-S11 当面给廖振宇/张潇潇/蔡宇/李芳排座次判"谁配被记住"+"知道什么是对的什么是错的"+ 牵林东青隐入山林接触下一队。
+  - 《医院》（YY，石浩洋身份篇）：YY-S10 Arc6 揭示石浩洋＝录音机杀手本人（诈死操盘）、林东青为"精神延续/天选之人"、
+    评罗允"心思缜密但城府太浅"、本想把医院当根据地慢慢玩弄。石浩洋身份戏的可靠硬汉面具见 YY-S02/YY-S03/YY-S07，
+    作背景对齐，未直接取 locator。
+
+  软建议覆盖：声音框架跨 3 篇取证（KR-S09 录音自白腔 / EE-S10 对同行腔 / YY-S10 揭谜炫耀腔，且含伪装时谦卑腔的对位），
+  非单点外推；性格真相跨 KR/EE/YY 三场（起源 / 知对错仍作恶 / 想慢慢玩弄）；边界 5 条均取自极端检验场景（拒绝感染、
+  提前安排、伪装诱杀、鄙视出名、明知故犯），非日常观察；弧光跨起点（KR-S10 起源）/ 转折（KR-S03、KR-S09、EE-S11）/
+  终点（EE-S11 排座次 + 隐入山林）三段。
+
+  真假罗允严格区分：《恶》里标注/自称"罗允"的男人＝吴先生本人伪装（盗用罗允之名正是其 MO），是有效证据；
+  真罗允（luo-yun，已蒸馏）的声音 / 欲望 / 性格真相 / 弧光不掺入本包，本包不引用任何真罗允本人画像证据。

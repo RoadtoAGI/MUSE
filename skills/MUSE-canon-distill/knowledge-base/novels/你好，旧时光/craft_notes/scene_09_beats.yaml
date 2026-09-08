@@ -1,0 +1,14 @@
+scene_id: 09
+source_notes: scene_09_beats.md
+patterns:
+- pattern_id: 09-p1
+  beat: 冰滑梯失重
+  dimension: verb
+  original_move: 用身体失重替代心理治愈
+  ai_default_failure: 会让导师温柔凝视并解释
+  transfer_rule: 写开导前先让身体获得自由
+  quote: 她不再沉重，因为她失重了
+overall_traits:
+- 身体体验先于道理抵达
+- 导师只给反问和反例
+- 荒诞细节消解说教感

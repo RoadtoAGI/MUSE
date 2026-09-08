@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c8fc5b8203f2d2f6d699de17
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L508
+chapter: 第4章 三体、周文王、长夜
+figure_type: metaphor
+quote: 文明的种子仍在，它将重新启动
+sensory_mapping: 生命；生长；时间
+context_fact: 第137号文明毁于四十八年严寒，游戏仍可重启。
+image_mechanism: 庞大文明被压缩进一枚可休眠的小单位，毁灭不再是绝对终止，而是等待下个气候窗口的萌发。
+property_alignment: 残存者小却含重建潜能对应种子微小含生长信息；环境转好后文明发展对应萌发生长；长夜休眠对应种子等待季节
+context_alignment: 三体文明反复休眠复苏，与种子季节性高度贴合。
+narrative_function: 解释文明可重新开局。
+transfer_rule: 写系统韧性时，可寻找能压缩核心信息、跨越恶劣时期并在条件触发后展开的生命单元。
+failure_boundary: 知识与人口完全消失、没有传承载体或恢复依靠外部复制时，种子会虚构内部连续性。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 文明毁灭后仍存、未来可重建的个体或知识
+vehicle: 灾后保留、条件合适即可萌发的种子
+ground: 残存者小却含重建潜能对应种子微小含生长信息；环境转好后文明发展对应萌发生长；长夜休眠对应种子等待季节

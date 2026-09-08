@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--lu-de-fu
+work_id: novel:狂病-莫千回
+display_name: 陆德夫
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '陆德夫几乎不说话，是队伍里最沉默的人——他的声音主要是内心独白，而非对外言语。回忆妻子时，他的内心语言细腻、克制、带着无法挽回的痛（水上乐园里"仿佛回到大学热恋时期""世界中只有彼此"），但落到现实，他连张潇潇的嘲讽都懒得回，"面前这些人的争论拉帮结派，对他来说没有任何意义"。真正要开口时，他只说最低限度的实用话（找蔡宇换班，理由只是"自己有些难受"）。他把所有的判断都收进那句反复回响的内心结论里——"真正遇到事情的时候，每个人想的就只有他们自己"。
+
+
+    佐证：scenes/scene_EE-S06.md:L7-L7 / scenes/scene_EE-S06.md:L15-L15 / scenes/scene_EE-S09.md:L5-L5'
+  evidence_locators:
+  - scenes/scene_EE-S06.md:L7-L7
+  - scenes/scene_EE-S06.md:L15-L15
+  - scenes/scene_EE-S09.md:L5-L5
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4bbef879944095520420be87
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L874
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 午夜的城市重新恢复了可见光波段所描绘的现实图景
+sensory_mapping: 视觉；颜色；绘画；波段选择；认识
+context_fact: 3K眼镜曾把城市变成厘米微波光晕，摘下后普通夜景恢复。
+image_mechanism: 现实不再是固定物面，而是由某段光谱拿着画笔生成的版本；眼镜换了一套颜料，摘下又让可见光覆盖画布。
+property_alignment: 可见光选择部分电磁信息对应画家选用有限色料；视网膜形成城市形象对应笔触构成图画；切换波段改变所见对应更换颜料重画；日常世界显得真实对应熟悉画法被当成标准图像
+context_alignment: 人物刚在两种波段间切换，亲见同一城市出现两幅不同图像，描绘隐喻有直接实验支点。
+narrative_function: 动摇日常现实的唯一性，使汪淼继续在普通闪烁中寻找代码。
+transfer_rule: 用绘画写感知时，应明确“画笔”选择哪些信号、舍弃哪些信息、媒介切换如何生成不同版本。
+failure_boundary: 这不表示光具有意图或现实仅是幻画；讨论物体独立存在时不能把感知版本替代对象本身。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 摘下3K眼镜后由人眼可见波段重新形成的普通城市视觉世界
+vehicle: 画家使用一组限定颜料重新描绘出一幅完整图景
+ground: 可见光选择部分电磁信息对应画家选用有限色料；视网膜形成城市形象对应笔触构成图画；切换波段改变所见对应更换颜料重画；日常世界显得真实对应熟悉画法被当成标准图像

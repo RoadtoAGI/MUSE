@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3cc0b95d1308439932500f84
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2385
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 激动和兴奋很快冷却下来
+sensory_mapping: 热度下降；暖意散失；冷表面；速度快；余温消退
+context_fact: 地球天堂真实存在，却不属于地位卑微、即将失业老去的监听员。
+image_mechanism: 信息涌入带来的热量曾充满身体，个人处境像冷环境迅速吸走它；天堂仍明亮，触不到它的人只剩低温凄凉。
+property_alignment: 发现兴奋对应高热；地球天堂对应热源；无法拥有对应隔断热源；自问现实对应散热过程；失落对应冷却；凄凉对应寒冷终态
+context_alignment: 三体大地本就冰冷金属，情绪冷却让外部气候进入人物内心。
+narrative_function: 完成发现后的情绪反转，并推动他从被动向往转向主动警告。
+transfer_rule: 用冷却写情绪消退时，应给出原热源、散热原因、速度和冷却后的具体情感残留。
+failure_boundary: 情绪被另一种同样强烈的愤怒替代、并未减弱，或变化缓慢无触发时，冷却不准确。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 监听员最初强烈的发现喜悦在意识到个人生活不会改变后迅速减弱
+vehicle: 高温物质失去热源后散热降温，由炽热转为冰凉稳定
+ground: 强烈情绪对应高温；现实思考对应撤去热源；情绪减退对应冷却；剩下凄凉对应低温状态

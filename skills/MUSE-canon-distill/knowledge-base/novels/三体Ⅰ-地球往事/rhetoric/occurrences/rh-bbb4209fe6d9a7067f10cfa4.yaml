@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bbb4209fe6d9a7067f10cfa4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2711
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 在一切都没入永恒的黑暗之前
+sensory_mapping: 黑雾扩张；景物下沉；光线熄灭；无边暗处；永不破晓
+context_fact: 叶文洁心脏濒停，眼前出现黑雾，她用最后能量等待红岸日落。
+image_mechanism: 眼前生理黑雾向存在层面扩展，先吞掉视野边缘，再让整个可感世界像下沉物体越过暗面；死亡被写成没有下一次日出的彻底失明。
+property_alignment: 临终黑雾对应暗幕；视觉消退对应光灭；意识范围对应可见世界；死亡到来对应下沉入暗；不可逆死亡对应永恒无晨；最后日落对应暗前余光
+context_alignment: 她等待的是太阳意象的最后一次出现，黑暗既来自真实视野衰竭，也为紧接着的血红夕阳建立明暗极差。
+narrative_function: 把剩余生命压缩为日落前的短暂光窗，增强最后观看的紧迫感。
+transfer_rule: 用永恒黑暗写死亡时，应连接感知消退、光源终止、进入过程、不可逆时间和人物正在珍惜的最后可见物。
+failure_boundary: 人物只是暂时昏厥、闭眼或进入夜晚且必将醒来时，永恒黑暗会把可逆失明误写成死亡。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁的视觉、意识和生命即将永久终止，周围世界将不再被她感知
+vehicle: 全部景物沉入没有光源、没有出口且不会迎来黎明的无边黑暗，形状与方向彻底消失
+ground: 视野衰退对应光线熄灭；意识消失对应万物不可见；死亡永久性对应永恒无黎明；临终过程对应逐渐没入

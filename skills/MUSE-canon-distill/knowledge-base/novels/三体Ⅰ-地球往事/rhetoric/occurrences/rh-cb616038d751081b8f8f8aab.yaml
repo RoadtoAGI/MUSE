@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cb616038d751081b8f8f8aab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1544
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 他们像一群不会游泳的落水者那样笨拙地挥动者四肢试图稳定自己，但还是不时相撞
+sensory_mapping: 身体动觉；失重；四肢动作；碰撞
+context_fact: 三日引力叠加使地表重力急剧减弱，人们双脚离地并以不同角度漂浮。
+image_mechanism: 看不见的空气被赋予水的承托，脚下地面退远如池底；人们沿用有重力时的四肢动作，却像旱鸭子找不到有效划法，只能互撞。
+property_alignment: 半空漂浮对应水中悬浮；失去地面支撑对应脚不着底；笨拙挥肢对应不会游泳者乱划；彼此碰撞对应无法控制方向
+context_alignment: 角色从未经历失重，只能调用落水身体经验，类比同时解释动作形态和恐慌。
+narrative_function: 把陌生引力灾变变成可感身体经验，显示权威人物瞬间失控。
+transfer_rule: 写初次失重时，可选同样缺少固体支点的熟悉介质，并对应姿态、无效动作和方向失控。
+failure_boundary: 受过失重训练、能用喷气或支点控制身体时，不会游泳的慌乱会低估适应能力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 突然失重、漂在半空且无法控制姿态的人群
+vehicle: 不会游泳者落水后慌乱划动四肢却无法稳定身体
+ground: 无支点漂浮对应落水身体悬在流体；本能乱挥四肢对应不会游泳者胡乱划水

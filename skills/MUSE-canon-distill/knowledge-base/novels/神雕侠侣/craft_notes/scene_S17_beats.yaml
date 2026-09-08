@@ -1,0 +1,28 @@
+scene_id: S17
+source_notes: scene_S17_beats.md
+patterns:
+- pattern_id: S17-p1
+  beat: 棘藤布阵
+  dimension: omission
+  original_move: 阵法原理零解释，用迷路者体验替代原理讲解
+  ai_default_failure: 插入九宫八卦方位的阵法解说
+  transfer_rule: 智谋的紧张感来自不理解而非知道原理
+  quote: 似左实右，似前实后
+- pattern_id: S17-p2
+  beat: 苹果藏针
+  dimension: camera
+  original_move: 镜头先骗读者她中针，三拍反转后才展示苹果
+  ai_default_failure: 提前补充她早已算准的内心算计
+  transfer_rule: 反杀诡计让读者与对手一起被骗再恍然
+  quote: 每只苹果上都刺着一枚银针
+- pattern_id: S17-p3
+  beat: 饶命之问
+  dimension: omission
+  original_move: 打断回答不让选择完成，迟疑本身已是答案
+  ai_default_failure: 让恶人说出明确选择再由对方回应
+  transfer_rule: 人性测试停在「可能」状态最有力
+  quote: 颤声道：「我……我……」
+overall_traits:
+- 空间即武器：武力优势被空间劣势抵消
+- 只给结果不给过程，智谋保持不可测
+- 未完成的道德选择强于明确答案

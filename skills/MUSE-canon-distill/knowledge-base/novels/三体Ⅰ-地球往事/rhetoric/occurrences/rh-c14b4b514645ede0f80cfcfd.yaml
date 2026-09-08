@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c14b4b514645ede0f80cfcfd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L655
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 几百把油锯如同一群钢铁蝗虫，她的连队所过之处，只剩下一片树桩
+sensory_mapping: 视觉；听觉；金属材质；群体运动；生态结果
+context_fact: 兵团见什么树伐什么，整片林海迅速成为荒山。
+image_mechanism: 单件工具长出虫口，几百件机器汇成迁徙虫群；发动机的集体轰鸣替代振翅声，连队行进路线则成为被啃空的灾带。
+property_alignment: 油锯数量众多对应蝗虫成群；锯链啃噬树木对应虫口啃食植物；机械金属材质对应钢铁虫体；经过后森林尽失对应蝗灾留下裸地
+context_alignment: 数量、移动、摄食式破坏和残余景观四项均在句中兑现，“钢铁”保留人为机械来源。
+narrative_function: 把生产运动定性为生态灾害，显出集体机器的吞噬性。
+transfer_rule: 用虫灾写机械群时，应同时匹配群体数量、工作部件的取食动作、迁移路径和经过后的环境缺口。
+failure_boundary: 少量定点采伐、选择性修枝或能及时再生的作业没有蝗群式扫荡与寸草不留，使用此喻会取消尺度差异。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 成群油锯随连队快速扫荡森林并留下树桩
+vehicle: 密集迁飞、啃光沿途植被的金属蝗群
+ground: 油锯数量众多对应蝗虫成群；锯链啃噬树木对应虫口啃食植物；机械金属材质对应钢铁虫体；经过后森林尽失对应蝗灾留下裸地

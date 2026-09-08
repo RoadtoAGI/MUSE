@@ -1,0 +1,20 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:horatio
+work_id: drama:哈姆雷特
+display_name: 赫瑞修
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "赫瑞修的声音简洁、事实优先，很少修辞扩张；他会先给出观察和判断，再表达担忧。面对鬼魂，他以学者身份问话；面对哈姆雷特，他多用短句回应、校验或劝阻；结尾则转为报告口吻，承诺把淫欲、流血、乱伦、意外戳戮和自食其果讲清楚。典型潜台词是稳定场面：他不争夺解释权，直到哈姆雷特把解释权交给他。\
+    \  \n\n来源：phase2_character.yaml → supporting_cast.赫瑞修.voice_traits  \n佐证：scenes/scene_A1S1.md:L11-L17；scenes/scene_A3S2.md:L17-L17；scenes/scene_A5S2.md:L39-L41"
+  evidence_locators:
+  - scenes/scene_A1S1.md:L11-L17
+  - scenes/scene_A3S2.md:L17-L17
+  - scenes/scene_A5S2.md:L39-L41
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

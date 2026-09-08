@@ -1,0 +1,28 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 士兵演示门电路
+  dimension: verb
+  original_move: 门电路用军事操练演示，命令节奏替代教授讲解
+  ai_default_failure: 确保读者完全理解原理的教科书式解释
+  transfer_rule: 科普允许部分不理解，重点是铺垫将至的尺度冲击
+  quote: 举！好，再举！举！
+- pattern_id: S20-p2
+  beat: 三千万人方阵
+  dimension: camera
+  original_move: 跳过组建过程直切完成态，俯瞰六公里见方的静止
+  ai_default_failure: 铺设从小队到军团的训练蒙太奇过渡
+  transfer_rule: 尺度冲击一次性抵达，用熟悉地标心算锚定现实
+  quote: 一张由三千万个兵马俑构成的巨毯
+- pattern_id: S20-p3
+  beat: 运行到毁灭直切
+  dimension: overall
+  original_move: 同一方阵从液化主板直切被吸起的蚁群，无过渡无预警
+  ai_default_failure: 借母亲孩子等个体视角传递大规模死亡悲剧
+  transfer_rule: 群体灾难保持宏观镜头，个体不存在即是恐怖本身
+  quote: 像一大片被吸尘器吸起的蚂蚁群
+overall_traits:
+- 字面化隐喻：把隐喻实现成现实而非使用它
+- 科普永远有画面落点，不止给数字
+- 壮美与恐怖零距离直切，不铺过渡段

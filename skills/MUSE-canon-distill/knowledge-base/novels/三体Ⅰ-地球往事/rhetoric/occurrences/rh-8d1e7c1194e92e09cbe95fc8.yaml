@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8d1e7c1194e92e09cbe95fc8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1127
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 她最多是一个陪葬品
+sensory_mapping: 墓葬空间；连带下沉；主从位置
+context_fact: 她看到雷政委神色黯然，推断他将为私自信任自己付代价，并准备把责任揽到身上。
+image_mechanism: 政治处分变成一座即将合拢的墓，真正被埋的是雷政委，她则因关系被摆在旁边一起下葬；连带责任的主次一眼可见。
+property_alignment: 雷政委是主要追责对象对应墓中主葬者；叶文洁被牵连对应附属陪葬物；处分使两人政治前途终结对应一同封入墓穴
+context_alignment: 经历过批斗致死的叶文洁自然把政治倒霉理解为社会性死亡，冷静自称物品也显示她习惯取消自身价值。
+narrative_function: 交代她对责任主次的判断，并推动她决定说谎替雷政委承担。
+transfer_rule: 用陪葬写连带受罚时，应明确主要目标、附属关系和两者共同被毁的机制。
+failure_boundary: 双方责任对等、附属者主动获利或惩罚不造成实质终结时，陪葬的主从和死亡尺度会失真。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 若雷政委因信任她受罚，叶文洁可能被一并处分但并非主要目标
+vehicle: 随死者一同埋入墓穴、依附主葬者而毁掉的陪葬物
+ground: 她受牵连而非案件核心对应陪葬品从属于主葬者；雷政委倒台会连带毁掉她对应墓葬封闭时附属物一同被埋

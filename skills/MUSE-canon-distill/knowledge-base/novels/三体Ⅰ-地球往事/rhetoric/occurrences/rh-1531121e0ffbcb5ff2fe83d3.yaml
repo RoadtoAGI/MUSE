@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1531121e0ffbcb5ff2fe83d3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2703
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 地球文明被外星世界听到的第一声呼唤
+sensory_mapping: 孤独发声者；第一声呼喊；远方回音；跨越空旷；陌生听者
+context_fact: 遗址只剩天线金属基座，叶文洁当年正从这里把信号发向太阳，再放大到整个宇宙。
+image_mechanism: 沉默的整颗地球获得喉咙，废墟中的基座托起那次开口；无线电离开天线后变成穿越星际黑暗的一声呼喊，四年后抵达另一个文明的耳中。
+property_alignment: 地球文明对应发声生命；红岸天线对应喉咙；编码信号对应话语；太阳放大对应提高音量；星际传播对应声波远行；三体接收器对应耳朵；首次被接收对应第一声被听见
+context_alignment: 眼前基座锈蚀沉默，叙述却召回它曾放大的第一声，物件静寂与历史回响形成遗址感。
+narrative_function: 把技术链压缩成文明间开口与听见，回顾整个危机的起源。
+transfer_rule: 用呼唤写远距通信时，应对应发声主体、传声器官、可传播信息、距离、明确听者和首次回应的历史后果。
+failure_boundary: 信号只是无人接收的广播、没有可解读内容，或收发双方早已频繁联系时，第一声被听见会误写关系阶段。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁经红岸天线和太阳放大向宇宙发出的第一束被三体文明接收的地球无线电信息
+vehicle: 一个此前沉默的生命第一次向远方开口呼叫，声音穿越空旷距离并被另一个听者听见
+ground: 地球文明对应发声者；无线电信息对应呼唤；宇宙传播对应声音远行；三体接收对应外星听见；首次联系对应第一声

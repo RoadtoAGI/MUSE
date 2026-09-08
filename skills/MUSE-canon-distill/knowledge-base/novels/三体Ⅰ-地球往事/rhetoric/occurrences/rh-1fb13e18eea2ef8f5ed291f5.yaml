@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1fb13e18eea2ef8f5ed291f5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1068
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 当年以为天要塌下来的那些大事
+sensory_mapping: 视觉；重量；垂直坠压；心理
+context_fact: 叶文洁以老年视角安慰正被倒计时和未知敌人压垮的汪淼，称很多昔日大事后来看来并无什么。
+image_mechanism: 事件的重要性被竖直放大到整个穹顶，恐惧则化成从上方压下的实体重量；随后“其实没有什么”让这场想象坍塌被时间解除。
+property_alignment: 大事占据全部注意对应天空覆盖视野；后果似无可逃避对应天穹塌落封死空间；事后回看危机消退对应所谓坍塌最终没有发生
+context_alignment: 汪淼刚把夜空感成监视镜面，叶文洁沿用“天”的压迫尺度，却以自身年龄把它放回可消退的往事。
+narrative_function: 以代际视角缩小汪淼眼前危机，并展示叶文洁超常平静的来源。
+transfer_rule: 使用“天塌”写危机时，应给出人物当下被全面笼罩的感受，并最好用后续时间视角校正其主观尺度。
+failure_boundary: 局部麻烦、已有明确退路或真正发生整体毁灭的情境，分别会使天塌显得夸张或失去主观误判层。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 人在事件发生当时感到足以摧毁生活的重大危机
+vehicle: 头顶天空坍塌、整个生存空间被压毁
+ground: 危机被感为覆盖全部生活对应天空笼罩整个世界；事件似乎会摧毁秩序对应天穹坠落压垮一切

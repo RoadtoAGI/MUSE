@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3e55f66df06e8d93750e2194
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1328
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 我就像一个半生寻花问柳的放荡者突然感受到了爱情
+sensory_mapping: 情感温度；关系承诺；人生时间；突然转折
+context_fact: 魏成从小数学极强却懒于推导和研究，第三球带来的复杂性第一次使他全力思考并着迷。
+image_mechanism: 他此前接触数学的每次小胜被排列成没有承诺的艳遇，三体问题则作为唯一对象突然建立深关系；抽象研究兴趣获得爱情的排他性和持续欲望。
+property_alignment: 随手得出答案对应寻欢式短接触；不珍惜天分对应放荡者不承担关系；长期研究三体对应专一爱情；第一次全功率投入对应突然动真情
+context_alignment: 魏成自嘲、冷淡的叙述声线使夸张浪子比喻既幽默又准确，随后申玉菲的婚姻反而缺少爱情，形成结构反讽。
+narrative_function: 把研究动机从能力展示升级为情感归宿，解释他多年执着。
+transfer_rule: 用爱情写职业投入时，应建立此前短暂关系、首次专一对象、持续承诺和行为改变的完整情感史。
+failure_boundary: 人物过去已长期热爱该领域、当前只因利益投入或兴趣很快消退时，浪子初恋的转折结构不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 一向凭天分随意玩弄数学、从未真正投入的魏成首次爱上三体问题
+vehicle: 长期只追逐短暂欢娱的浪子突然体验到专一、持续的爱情
+ground: 过去随意解题不珍惜天赋对应浪子只寻欢；三体问题使他愿长期投入对应真正爱情要求专注与忠诚

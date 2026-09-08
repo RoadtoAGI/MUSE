@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6b804864f633cddb83b064a1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1425
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 世界就要发生突变了
+sensory_mapping: 形态变化；时间骤变；阈值；不稳定
+context_fact: 申玉菲已因派系冲突被杀，科学家受威胁，魏成认为连上帝或“主”也自身难保。
+image_mechanism: 整个世界被当作一具处在临界点的系统，日常连续表面下积累变化，下一刻会突然换形；个人无法凭旧规则预测新结构。
+property_alignment: 危机积累对应系统接近阈值；突然社会剧变对应形态跃迁；旧生活规则失效对应突变后性质改变；不可预测对应中间过程缺失
+context_alignment: 前章文件已定义技术突变，此处魏成把同一词扩大到全世界，显示红岸设想的风险正在现实化。
+narrative_function: 把个案凶杀提升为时代转折预兆，推动汪淼继续进入核心。
+transfer_rule: 用突变写社会变化时，应提供临界积累、短时跃迁和性质改变三项证据，区分于普通加速。
+failure_boundary: 变化缓慢可预测、只影响局部或旧结构基本保持时，突变会制造未经证实的末日尺度。
+quality_assessment: effective
+confidence: 0.96
+review_status: reviewed
+tenor: 未知宇宙力量介入后，人类社会即将出现难以预测的结构性剧变
+vehicle: 生命或物质系统在短时越过阈值，突然变成不同形态
+ground: 变化速度快且非渐进对应突变跨过中间过程；未来秩序可能性质改变对应系统形态重组

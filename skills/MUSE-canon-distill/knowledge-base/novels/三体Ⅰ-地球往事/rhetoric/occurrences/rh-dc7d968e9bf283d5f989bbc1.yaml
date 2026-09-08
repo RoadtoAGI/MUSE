@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dc7d968e9bf283d5f989bbc1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2633
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 他们的社会在绝望和恐惧之中堕落、崩溃
+sensory_mapping: 支柱松脱；重物下压；整体下坠；墙体开裂；废墟
+context_fact: 元首决定公开灭绝人类的真实意图，预判此信息更可能让地球社会陷入绝望而自行瓦解。
+image_mechanism: 社会从抽象关系网变成有楼层和支柱的整体，末日信息像骤增荷载；恐惧先把它压低，随后制度接缝断裂，各部分失去共同形状。
+property_alignment: 社会成员关系对应建筑构件；制度对应支柱；共同信念对应连接件；灭绝消息对应超额荷载；堕落对应重心下沉；崩溃对应整体解体
+context_alignment: 三体选择心理战而非立即物理攻击，结构坍塌图突出敌方希望人类从内部失去承载力。
+narrative_function: 把公开威胁的战略后果压缩成可见的社会自毁过程。
+transfer_rule: 用崩塌写社会瓦解时，应指出承重规范、外加压力、连接断裂、局部扩散到整体的次序。
+failure_boundary: 社会在威胁下反而形成更强协作、制度仍持续运转，或变化仅是短期情绪低落时，建筑崩塌会夸大失序程度。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 地球社会得知四百年后必遭入侵后，可能发生价值失序、制度失效和群体行为瓦解
+vehicle: 承重结构失去支撑，在沉重压力下向下坠落并碎成无法维持形状的残块
+ground: 制度规范对应承重骨架；社会秩序对应完整建筑；绝望恐惧对应向下压力；失序对应坠落；系统失效对应结构崩塌

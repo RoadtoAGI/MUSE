@@ -1,0 +1,17 @@
+card_id: accidental-detonation-reveal
+pattern_name: 误爆·无人蓄意
+dramatic_function: 最致命的揭示由误会者脱口而出，揭露者同被炸伤；灾难无单一凶手，悲剧归于命运而非反派。
+applicability: 终幕多方信息差汇聚时；需精确管理各角色知情表；有明确反派的复仇结构不适用（单书孤证，验证面窄）
+reuse_candidates:
+- 「侍萍，你到底还是回来了」的具体认亲台词
+tags:
+- 终幕揭示
+- 信息差
+- 悲剧机制
+source_scenes:
+- novel: 雷雨
+  scene_id: A4
+  note: 蘩漪唤父本为羞辱萍，朴园误以为事已尽知反爆血缘底牌
+phase_affinity:
+- 3
+- 4

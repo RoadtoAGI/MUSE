@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-83449ec92710bdcbb6e0447c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2611
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 智子是从真空结构中‘借’用能量，但归还遥遥无期，要等到质子衰变之时
+sensory_mapping: 宇宙账本；借据；支取能量；漫长账期；末日还款
+context_fact: 两个智子需以接近光速飞往地球，科学执政官用延迟回补解释表面违反能量守恒的加速方式。
+image_mechanism: 抽象守恒式被摊成跨越宇宙寿命的账本：真空先划出一笔能量，智子立刻花掉，欠项一直悬到质子衰变才在总账上勾销。
+property_alignment: 真空结构对应债主；可提取能量对应本金；智子加速对应借款用途；能量缺口对应欠款；守恒定律对应账目平衡；质子衰变对应还款日；宇宙末日对应超长账期
+context_alignment: 说话者正向执政官解释反直觉物理，带引号的‘借’把看似破律转成只是结算时间尺度异常。
+narrative_function: 让真空取能的因果方向和延迟代价可理解，同时强调智子技术跨越文明时间尺度。
+transfer_rule: 用借贷写守恒交换时，应明确能量来源、即时受益者、未消失的欠项、结算事件和延期尺度。
+failure_boundary: 能量被永久无中生有、没有可定义的回补过程，或交换双方同时等量得失时，借款与遥期归还的账本模型会误导。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 智子临时从真空取得高能粒子航行所需能量，能量守恒的平衡要延迟到质子衰变时才恢复
+vehicle: 借款人从债主处先取走本金，把账记在名下，并把还款日拖到极遥远的未来
+ground: 真空释放能量对应债主出借本金；智子当下使用对应借款人支取；守恒仍须满足对应债务仍记账；质子衰变时回补对应到期归还

@@ -1,0 +1,713 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "作战中心会议"
+    ],
+    "characters": [
+      "汪淼",
+      "史强",
+      "常伟思",
+      "丁仪"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 8164,
+    "source_chapter": "第1章 科学边界",
+    "file": "scenes/scene_S01.md",
+    "description": "作战中心会议：正常/安全 → 不安/好奇",
+    "style_profile": {
+      "narration_voice": "限知贴身汪淼，借其反感直评史强言行",
+      "diction": "现代白话，口语对白混军警术语，当代时代感",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白推进为主，「某某说」简洁归属，密度高",
+      "pacing": "中短句快节奏，对白连发少停顿，省略环境铺陈"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "幽灵倒计时"
+    ],
+    "characters": [
+      "汪淼",
+      "妻子",
+      "儿子",
+      "申玉菲"
+    ],
+    "conflict_type": "internal",
+    "pov": "汪淼",
+    "word_count": 11523,
+    "source_chapter": "第3章 射手和农场主",
+    "file": "scenes/scene_S02.md",
+    "description": "幽灵倒计时：不安但可控 → 恐惧/失控",
+    "style_profile": {
+      "narration_voice": "限知贴身汪淼，叙述其恐惧与推理，不直评",
+      "diction": "现代白话夹摄影术语，理科措辞求精确",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叙述推进为主，对白稀疏点状插入",
+      "pacing": "长段铺叙夹数字串震点，略过心理过渡直给动作"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "叶哲泰之死"
+    ],
+    "characters": [
+      "叶文洁",
+      "叶哲泰",
+      "绍琳",
+      "红卫兵"
+    ],
+    "conflict_type": "personal",
+    "pov": "叶文洁",
+    "word_count": 6018,
+    "source_chapter": "第7章 疯狂年代",
+    "file": "scenes/scene_S03.md",
+    "description": "叶哲泰之死：家庭完整 → 父亲死亡，信任崩塌",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知俯瞰史诗腔，直评时代疯狂，嵌内心独白",
+      "diction": "书面庄重，政治年代语汇密布，文白偏文",
+      "rhetoric_density": "high",
+      "dialogue_mode": "批斗口号式对白与长篇内心独白交替",
+      "pacing": "长句长段如潮涌，惨烈处骤停留白，少省略"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "宇宙闪烁证实"
+    ],
+    "characters": [
+      "汪淼",
+      "沙瑞山"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 4009,
+    "source_chapter": "第10章 宇宙闪烁之二",
+    "file": "scenes/scene_S04.md",
+    "description": "宇宙闪烁证实：尚存幻觉希望 → 宇宙级力量在针对人类",
+    "style_profile": {
+      "narration_voice": "限知贴身汪淼，冷静记录验证过程",
+      "diction": "天文术语密集，数字设备名精确，白话直陈",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短对白快速交换推进验证，归属词简省",
+      "pacing": "操作步骤连贯推进，结尾骤转抒情长段"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "大史终极定理"
+    ],
+    "characters": [
+      "汪淼",
+      "史强"
+    ],
+    "conflict_type": "internal",
+    "pov": "汪淼",
+    "word_count": 3695,
+    "source_chapter": "第11章 大史",
+    "file": "scenes/scene_S05.md",
+    "description": "大史终极定理：精神崩溃边缘 → 恐惧转化为可行动的认知",
+    "style_profile": {
+      "narration_voice": "限知汪淼，叙述退后让对白唱戏",
+      "diction": "京味口语俚语满纸，粗话入文，对照书面科学语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "一来一往短对白连珠，常省归属词",
+      "pacing": "短句速答如打乒乓，借酒局节拍间歇，无赘景"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "哥白尼破解三星系统"
+    ],
+    "characters": [
+      "汪淼(哥白尼)",
+      "\"达·芬奇\"",
+      "\"亚里士多德\"",
+      "教皇(NPC)"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 4547,
+    "source_chapter": "第16章 三体、哥白尼、宇宙橄榄球、三日凌空",
+    "file": "scenes/scene_S06.md",
+    "description": "哥白尼破解三星系统：三体世界运行规律不明 → 三星系统被揭示",
+    "style_profile": {
+      "narration_voice": "限知汪淼游戏视角，奇观处转全景描摹",
+      "diction": "科学论辩语混历史人物腔，白话为骨",
+      "rhetoric_density": "high",
+      "dialogue_mode": "学者轮番诘问答辩，对白承载理论推演",
+      "pacing": "论辩短对白与毁灭奇观长段交替，公告句收束"
+    },
+    "style_profile_by": "claude-fable-5",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "S07",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "三体聚会"
+    ],
+    "characters": [
+      "汪淼",
+      "潘寒",
+      "老哲学家",
+      "女作家"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 3316,
+    "source_chapter": "第19章 聚会",
+    "file": "scenes/scene_S07.md",
+    "description": "三体聚会：三体只是游戏 → 三体世界真实存在",
+    "style_profile": {
+      "narration_voice": "限知汪淼，暗线短信插叙，观察人群带直评",
+      "diction": "知识分子谈吐，称谓职衔点人，白话平实",
+      "rhetoric_density": "low",
+      "dialogue_mode": "群聊轮转对白推进，发言者以身份标签归属",
+      "pacing": "对白连贯递进，叙述仅作转场，仪式句定格收尾"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "三体远征"
+    ],
+    "characters": [
+      "汪淼",
+      "\"远征旁观者\""
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 1335,
+    "source_chapter": "第21章 三体、远征",
+    "file": "scenes/scene_S08.md",
+    "description": "三体远征：游戏中的寓言 → 真实的星际入侵",
+    "style_profile": {
+      "narration_voice": "限知汪淼仰观，全景奇观铺陈，惊叹外露",
+      "diction": "天文数量级词汇，庄严宏大形容，白话直陈",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答式对白释设定，叙述包裹对白",
+      "pacing": "大段铺陈奇观，问答短促，以欢呼高潮收束"
+    },
+    "style_profile_by": "claude-fable-5",
+    "has_craft_notes": true
+  },
+  {
+    "scene_id": "S09",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "叶文洁现身为最高统帅"
+    ],
+    "characters": [
+      "汪淼",
+      "叶文洁",
+      "潘寒",
+      "ETO成员"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 4087,
+    "source_chapter": "第22章 地球叛军",
+    "file": "scenes/scene_S09.md",
+    "description": "叶文洁现身为最高统帅：敌人身份不明 → 幕后统帅是叶文洁",
+    "style_profile": {
+      "narration_voice": "限知汪淼旁观，群像扫描，惊恐内感渗入",
+      "diction": "组织纲领语与口语质问混杂，白话为主",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "多人质问答辩驱动，高潮转冷静叙述杀人",
+      "pacing": "对白密集推进，处决段慢镜细写，轻语收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "叶文洁按下发射键"
+    ],
+    "characters": [
+      "叶文洁",
+      "值班员",
+      "杨卫宁"
+    ],
+    "conflict_type": "external",
+    "pov": "叶文洁",
+    "word_count": 4048,
+    "source_chapter": "第24章 红岸之六",
+    "file": "scenes/scene_S10.md",
+    "description": "叶文洁按下发射键：人类文明坐标未暴露 → 命运被不可逆地改写",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴叶文洁，史述笔调，直陈思想转变",
+      "diction": "书面凝重，政治史与天体物理语汇并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，叙述独行，警告文以原文块呈现",
+      "pacing": "长段心理积累，按键一句定乾坤，敢用三连重复"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "deepening",
+      "无人忏悔"
+    ],
+    "characters": [
+      "叶文洁",
+      "三名老红卫兵",
+      "齐家屯村民"
+    ],
+    "conflict_type": "external",
+    "pov": "叶文洁",
+    "word_count": 7454,
+    "source_chapter": "第27章 无人忏悔",
+    "file": "scenes/scene_S11.md",
+    "description": "无人忏悔：尚存一丝对人类的希望 → 最后希望破灭",
+    "style_profile": {
+      "narration_voice": "全知贴叶文洁，温情回忆腔转冷峻对质",
+      "diction": "东北乡土词与书面抒情并置，油画比喻雅致",
+      "rhetoric_density": "high",
+      "dialogue_mode": "乡民口语对白点缀，问星星一段以白显纯",
+      "pacing": "田园段绵长温热，对质段短冷，今昔对比留白"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "古筝行动"
+    ],
+    "characters": [
+      "史强",
+      "汪淼",
+      "常伟思",
+      "斯坦顿上校"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 8759,
+    "source_chapter": "第32章 古筝行动",
+    "file": "scenes/scene_S12.md",
+    "description": "古筝行动：三体信息被降临派垄断 → 信息完整夺取",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知汪淼列席，军事简报腔与个人不安并行",
+      "diction": "军事行动术语精确，大史粗口调剂，白话利落",
+      "rhetoric_density": "low",
+      "dialogue_mode": "会议多方对白推进方案，演示动作嵌对白",
+      "pacing": "简报长段与短对白交替，行动段倒计时收紧"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "监听员与智子工程"
+    ],
+    "characters": [
+      "1379号监听员",
+      "三体元首",
+      "科学执政官",
+      "汪淼",
+      "常伟思"
+    ],
+    "conflict_type": "external",
+    "pov": "全知（三体世界）",
+    "word_count": 21082,
+    "source_chapter": "第33章 监听员 + 第34章 智子",
+    "file": "scenes/scene_S13.md",
+    "description": "监听员与智子工程：智子是个谜 → 锁死人类基础科学的全貌揭示",
+    "style_profile": {
+      "narration_voice": "全知冷感，异星视角镜像人类，句式自比复现",
+      "diction": "设定说明语直白，科技名词自然嵌入",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "前半叙述独行，后半元首问答公文式对白",
+      "pacing": "铺陈孤寂绵长，发报一句收束，问答段冷峻短促"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "虫子"
+    ],
+    "characters": [
+      "汪淼",
+      "丁仪",
+      "史强"
+    ],
+    "conflict_type": "internal",
+    "pov": "汪淼",
+    "word_count": 2756,
+    "source_chapter": "第35章 虫子",
+    "file": "scenes/scene_S14.md",
+    "description": "虫子：绝望/放弃 → 卑微但坚定的希望",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知汪淼，结尾升格全知颂词直抒胸臆",
+      "diction": "物理学行话与酒后口语相间，结尾庄重排比",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "双人科学对谈推进，大史一问点题",
+      "pacing": "谈话从容，蝗虫意象长段升华，洒酒动作定格"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "人类的落日"
+    ],
+    "characters": [
+      "叶文洁"
+    ],
+    "conflict_type": "internal",
+    "pov": "叶文洁",
+    "word_count": 836,
+    "source_chapter": "第36章 尾声·遗址",
+    "file": "scenes/scene_S15.md",
+    "description": "人类的落日：沉默面对真相 → 生命与信念同时终结",
+    "style_profile": {
+      "narration_voice": "全知挽歌腔，贴叶文洁目光，直抒苍凉",
+      "diction": "书面抒情，碑文实录嵌入，色彩词浓烈",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，仅结尾一句轻语点题",
+      "pacing": "缓步登山节奏舒缓，短段渐进，落日一句收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "台球桌上的物理学危机"
+    ],
+    "characters": [
+      "汪淼",
+      "丁仪"
+    ],
+    "conflict_type": "internal",
+    "pov": "汪淼",
+    "word_count": 2606,
+    "source_chapter": "第2章 台球",
+    "file": "scenes/scene_S16.md",
+    "description": "丁仪用台球实验揭示物理规律失效：科学信念完好 → 根基动摇",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知汪淼，借动作细节透丁仪哀恸",
+      "diction": "物理譬喻入日常对话，白话简净",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白主导，台球演示以动作分节，归属简省",
+      "pacing": "重复五次击球成节拍，结论延宕至末，留白克制"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "三体游戏初体验"
+    ],
+    "characters": [
+      "汪淼",
+      "\"周文王追随者\"",
+      "周文王(NPC)",
+      "纣王(NPC)"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 8442,
+    "source_chapter": "第4章 三体、周文王、长夜",
+    "file": "scenes/scene_S17.md",
+    "description": "三体VR游戏初体验：脱水/恒纪元/乱纪元的异世界建置",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知汪淼游戏内视角，奇境白描不直评",
+      "diction": "拟古对白混游戏术语，白话叙述托底",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白携设定信息，玩家问答与NPC宣言交替",
+      "pacing": "赶路段时间跳跃压缩，脱水等奇观细写慢放"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "寂静的春天",
+      "出卖"
+    ],
+    "characters": [
+      "叶文洁",
+      "白沐霖",
+      "程丽华"
+    ],
+    "conflict_type": "personal",
+    "pov": "叶文洁",
+    "word_count": 8750,
+    "source_chapter": "第8章 寂静的春天",
+    "file": "scenes/scene_S18.md",
+    "description": "叶文洁在兵团被白沐霖出卖：残存信任 → 信任再次被摧毁",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知史述，贴叶文洁感知，直评时代燃烧",
+      "diction": "树种名物罗列，政治语汇与抒情书面语交织",
+      "rhetoric_density": "high",
+      "dialogue_mode": "叙述为主，对白用于事件转折与定罪",
+      "pacing": "长段铺陈砍伐与思辨，转折骤紧，史评插入跳脱"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "红岸基地"
+    ],
+    "characters": [
+      "叶文洁",
+      "杨卫宁",
+      "雷志成"
+    ],
+    "conflict_type": "external",
+    "pov": "叶文洁",
+    "word_count": 4243,
+    "source_chapter": "第9章 红岸之一",
+    "file": "scenes/scene_S19.md",
+    "description": "叶文洁进入红岸基地：死路一条 → 获得与世隔绝的避风港",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴叶文洁，感官苏醒式渐次展开",
+      "diction": "军旅称谓器物精确，白话沉静",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白少而重，决定命运处一句一顿",
+      "pacing": "感知细节慢写，抉择段短句斩截，发射奇观收束"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "advancing",
+      "人列计算机",
+      "三体游戏"
+    ],
+    "characters": [
+      "汪淼",
+      "\"冯·诺伊曼\"",
+      "\"牛顿\"",
+      "秦始皇(NPC)"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 9320,
+    "source_chapter": "第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠",
+    "file": "scenes/scene_S20.md",
+    "description": "三千万人组成冯·诺伊曼结构计算机：科学乐观 → 三日连珠毁灭",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知汪淼旁观，奇想正经讲，史人漫画化",
+      "diction": "计算机术语嫁接古装语境，庄谐并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白承载演示教学，帝王插科打诨调味",
+      "pacing": "演示步骤逐拍推进，人列计算机段宏观慢摇"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "turning",
+      "叛乱",
+      "核弹女孩"
+    ],
+    "characters": [
+      "史强",
+      "汪淼",
+      "叶文洁"
+    ],
+    "conflict_type": "external",
+    "pov": "汪淼",
+    "word_count": 2589,
+    "source_chapter": "第25章 叛乱",
+    "file": "scenes/scene_S21.md",
+    "description": "军方突袭ETO聚会+核弹女孩事件：混乱 → 叛军被控制",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知汪淼，问答转突袭，动作白描利落",
+      "diction": "纲领腔对大史黑话，反差成味，白话快进",
+      "rhetoric_density": "low",
+      "dialogue_mode": "前半问答释设定，后半喝令短对白配动作",
+      "pacing": "谈话舒缓蓄势，突袭段短句爆发，车内缓释收尾"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "climactic",
+      "杀人灭口"
+    ],
+    "characters": [
+      "叶文洁",
+      "雷志成",
+      "杨卫宁"
+    ],
+    "conflict_type": "personal",
+    "pov": "叶文洁",
+    "word_count": 2670,
+    "source_chapter": "第26章 雷志成、杨卫宁之死",
+    "file": "scenes/scene_S22.md",
+    "description": "叶文洁将雷志成和丈夫推下悬崖：秘密暴露的危机 → 冷血灭口",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "审讯笔录体，问答框架内嵌第一人称自述",
+      "diction": "公文问答干硬，自述冷静精确如证词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "全篇问答驱动，引语套引语双层嵌套",
+      "pacing": "一问一答短促，杀人段自述绵密，零抒情留白"
+    },
+    "style_profile_by": "claude-fable-5"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "三体Ⅰ·地球往事",
+    "author": "刘慈欣",
+    "genre": "科幻",
+    "lang": "zh",
+    "tags": [
+      "establishing",
+      "伊文斯起源"
+    ],
+    "characters": [
+      "伊文斯",
+      "叶文洁"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 5215,
+    "source_chapter": "第28章 伊文斯",
+    "file": "scenes/scene_S23.md",
+    "description": "伊文斯的起源：物种平等理想 → 极端化为人类灭绝主义",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴叶文洁，后转伊文斯自述长段",
+      "diction": "环保思想论辩语，乡土对白点染，白话晓畅",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论辩对白推进信仰碰撞，自述独白嵌中",
+      "pacing": "相遇段从容白描，论辩递进，仪式句呼应收尾"
+    },
+    "style_profile_by": "claude-fable-5"
+  }
+]

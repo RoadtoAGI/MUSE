@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9774766e3b0cf371ba00a402
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2182
+chapter: 第31章 两个质子
+figure_type: metaphor
+quote: 我点燃了火，却控制不了它
+sensory_mapping: 火种点亮；热势扩散；风助蔓延；烧出边界；控制失败
+context_fact: 审问者列出ETO三派均偏离她借三体改造人类的初衷，她承认自己的责任与无力。
+image_mechanism: 叶文洁的首次信号和组织授权缩成一枚火种，文明缺陷、外星崇拜和求生欲成为燃料；火离手后按环境而非点火者意志选择路径。
+property_alignment: 红岸回信对应最初火星；建立ETO对应点燃；三派动机对应不同燃料；组织扩张对应火面扩大；理念偏航对应风改变火向；威信调停失败对应扑救无效
+context_alignment: 前章称运动已成燎原之势，此句由创始人视角回看火源，完成火种—燎原的责任链。
+narrative_function: 用失控火势概括创始意图与组织后果的断裂，并让叶文洁承担起点责任。
+transfer_rule: 用点火写行动后果时，应标明火种、可燃环境、自主扩张、偏离原意和点火者失去控制的阈值。
+failure_boundary: 组织仍严格执行创始人命令、后果可随时撤回，或创始人根本未提供启动条件时，失控火灾会错配责任。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁创建并授权ETO后，组织派生出毁灭人类、宗教崇拜和投降求生等她无法约束的路线
+vehicle: 人亲手点起火种，火势借燃料自行蔓延，最终超出点火者的控制范围
+ground: 创建组织对应点火；成员和派别增长对应火势蔓延；理念异化对应火改变方向；统帅失控对应无法灭火

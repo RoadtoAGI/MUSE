@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-371faf0bac880df59f2a1828
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2133
+chapter: 第29章 第二红岸基地
+figure_type: metaphor
+quote: 这声音把她的感觉更深地拉回了过去
+sensory_mapping: 低频轰鸣；绳索牵引；身体后移；时间纵深；旧景回返
+context_fact: 直升机和巨轮空间已令她感到时光倒流，天线声与第一红岸完全相似。
+image_mechanism: 过去不由她主动回想，而从轰鸣中伸出绳子钩住身体；每一次低频振动都缩短她与雷达峰旧时刻的距离。
+property_alignment: 天线轰鸣对应牵引绳；熟悉感对应钩住身体；记忆加深对应向时间深处移动；第二基地对应拉力起点；第一红岸对应被拉回终点；非自愿回忆对应外力拖动
+context_alignment: 前句时光倒流是总体感受，此句给出更具体的听觉牵引机制，继续推进而非重复。
+narrative_function: 用声音把两座红岸基地锁在同一感官链上，为叶文洁接受统帅身份制造历史回返感。
+transfer_rule: 用声音拉回过去时，应有独特旧声、非自愿记忆触发、时间方向和感受逐步加深。
+failure_boundary: 声音从未在过去出现、人物主动理性回忆或只是短暂联想时，深度牵引会夸大记忆力量。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 巨型天线在海风中的熟悉轰鸣强化叶文洁重返红岸年代的感官和情绪体验
+vehicle: 声音成为有力绳索，抓住人物并沿时间方向把她拖回旧地点
+ground: 轰鸣触发记忆对应绳索抓取；感受由现在转向过去对应被向后拉；声音越熟悉对应拉力越深

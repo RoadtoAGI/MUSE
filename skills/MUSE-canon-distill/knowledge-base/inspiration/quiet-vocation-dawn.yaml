@@ -1,0 +1,22 @@
+card_id: quiet-vocation-dawn
+pattern_name: 低声觉醒
+dramatic_function: 让人物的终身使命不是由宣言产生，而由一次感官失衡和他人命名显影。
+applicability: 适用于内向主角的志业起点；若主角本就外放善辩则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 莎士比亚十四行诗
+- 中西部大学课堂
+tags:
+- 觉醒
+- 使命命名
+- 感知转变
+source_scenes:
+- novel: 斯通纳
+  scene_id: S01
+  note: 文学唤醒完全落在呼吸、手指和光线变化上。
+- novel: 斯通纳
+  scene_id: S02
+  note: 导师把模糊热爱命名为教师身份。
+phase_affinity:
+- 2
+- 3
+- 5

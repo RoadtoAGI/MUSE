@@ -1,0 +1,35 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 货物清单
+  dimension: info_density
+  original_move: 长清单让假交易显得真实。
+  ai_default_failure: 会提前暗示女王计谋。
+  transfer_rule: 翻盘前先让损失看起来昂贵。
+  quote: 六捆虎皮
+- pattern_id: S06-p2
+  beat: 锁链换鞭
+  dimension: camera
+  original_move: 特写权力物件的交叉传递。
+  ai_default_failure: 会只写情绪不写物。
+  transfer_rule: 权力转移要落到可触物件。
+  quote: 他交给她鞭子
+- pattern_id: S06-p3
+  beat: 语言揭示
+  dimension: omission
+  original_move: 延迟公开她听懂瓦雷利亚语。
+  ai_default_failure: 会在内心戏提前泄底。
+  transfer_rule: 让读者与敌人共享误判。
+  quote: 成交了
+- pattern_id: S06-p4
+  beat: Dracarys
+  dimension: verb
+  original_move: 以亲切语气发动最大暴力。
+  ai_default_failure: 会写成威严怒吼。
+  transfer_rule: 反差副词可定义角色关系。
+  quote: 亲切地大喊
+overall_traits:
+- 信息不对称作为武器
+- 延迟揭示积累爆发力
+- 温柔语气发动龙火

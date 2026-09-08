@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8f5a7f0e642b3d9e347b64bc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2376
+chapter: 第33章 监听员
+figure_type: simile
+quote: 这条起伏的细线像是有了灵魂
+sensory_mapping: 细线起伏；静物苏醒；内在意志；微妙节律；生命感
+context_fact: 监听员凭多年经验先于计算机感觉波形异常，随后系统判定红色10并译出地球信息。
+image_mechanism: 上一刻的沙粒曲线只是死物，智能编码没有改变其基本外形，却像把看不见的主体放进线内；监听员从细微节奏认出宇宙另一端有人在说话。
+property_alignment: 随机噪声对应无生命躯壳；智能调制对应灵魂进入；波形外观仍相近对应灵魂不可直接看见；经验辨异对应从动作识别心智；可译信息对应主体表达；宇宙文明存在对应生命确证
+context_alignment: 监听员刚把噪声视为无生命沙漠，有灵魂的线使荒漠中第一处生命迹象瞬间出现，情绪转折精准。
+narrative_function: 表现专家直觉发现智慧信号的刹那，并把文明接触写成死线苏醒。
+transfer_rule: 用灵魂写数据异变时，应保留外壳相似，同时给出由内部秩序、目的性或可译表达产生的生命证据。
+failure_boundary: 波形变化只是设备故障、幅度增大或随机异常，没有可验证编码和意图时，灵魂判断会浪漫化噪声。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 外观仍近似宇宙噪声、却被智能编码细微调制而显出内在秩序的电波曲线
+vehicle: 原本无生命的躯壳忽然获得灵魂，从随机动作中显露意志和主体存在
+ground: 无意义曲线转为受智能调制对应躯体获得意识；难以言说的秩序感对应灵魂不可见却能从行为辨认

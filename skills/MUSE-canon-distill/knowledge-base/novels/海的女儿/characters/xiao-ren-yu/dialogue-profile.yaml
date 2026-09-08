@@ -1,0 +1,34 @@
+schema_version: dialogue-character/v1
+character_id: novel:海的女儿:xiao-ren-yu
+work_id: novel:海的女儿
+display_name: 小人鱼
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '变成人之前，她的直接对白集中在巫婆签约的几分钟内——四句话："我可以忍受"、"我不怕"、"如果你把我的声音拿去了，那么我还有什么东西剩下呢？"、"就这样办吧"。这是她在原文中能集中听到的所有声音。模式：极短句、不修辞、不解释自己、用"忍受"和"不怕"接受痛苦、只有一次怀疑（关于声音）随即压下。
+
+
+    变成人之后她完全失声——但叙述者用"她想"、"她的眼睛似乎在说"、"小人鱼想"传达她的内心。这些被引述的内心句子保持与变人前同样的短句节奏（"啊！只愿他知道……"），但已经从"对世界发言"转为"对自己发言"——失声把她的语言从公共领域剥离到内心。
+
+
+    情感几乎不靠形容词外化，而是靠**身体反应**——颤抖的声音、惨白的脸、流血的脚仍然大笑、发抖的手仍然扔刀。叙述视角描写她的痛苦时镜头总是落在身体部位上，不落在心理动态上。
+
+
+    没有反讽、没有狡黠、没有自辩——她从不为自己解释。即使在王子说出"你很像我看到过的一个年轻女子"这种致命台词的瞬间，她也没有任何文本可考的反驳冲动。
+
+
+    佐证：scenes/scene_S03.md:L27-L33（变人前全部直接对白：颤抖中接受痛苦的四句话模式）；scenes/scene_S04.md:L5-L5（失声后内心独白："啊！只愿他知道，为了要和他在一起，我永远牺牲了我的声音！"）；scenes/scene_S04.md:L12-L14（眼睛"似乎在说"
+    + 长段内心独白替代对白）；scenes/scene_S04.md:L8-L8（身体外化情绪：脚流血但大笑继续）；scenes/scene_S01.md:L23-L23（变人前最早的直接对白："啊，我多么希望我已经有十五岁啊！"——简短的欲望陈述）'
+  evidence_locators:
+  - scenes/scene_S03.md:L27-L33
+  - scenes/scene_S04.md:L5-L5
+  - scenes/scene_S04.md:L12-L14
+  - scenes/scene_S04.md:L8-L8
+  - scenes/scene_S01.md:L23-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

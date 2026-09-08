@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cdf8ad25853bfd76cf6808c1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1268
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 两个身穿锈迹斑斑的全身铠甲的士兵立刻像两个笨拙的机器人一般朝汪淼走来
+sensory_mapping: 视觉；金属材质；关节运动；脚步节奏
+context_fact: 教皇无表情地下令烧死汪淼，两名穿锈蚀重铠的守卫立即上前抓捕。
+image_mechanism: 铠甲把人体皮肤完全换成金属外壳，缓慢僵步又抹掉个人意志，两名士兵遂像同型号执行器从门边启动。
+property_alignment: 全身金属铠甲对应机器人外壳；动作笨重对应机械关节迟钝；两人接令立即同步前进对应程序执行命令
+context_alignment: 中世纪人物出现在电脑游戏中，机器人比喻同时贴合铠甲外观和角色可能只是程序的暗示。
+narrative_function: 制造时代错位的黑色幽默，并预示汪淼稍后质疑众人是否程序。
+transfer_rule: 把铠甲人物写成机器人时，应让材质覆盖、关节方式和命令反应共同机械化，同时利用场景技术语境增加第二层意义。
+failure_boundary: 轻甲下动作敏捷、士兵表现独立犹豫或场景不存在人工程序暗示时，机器人只剩外壳相似。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 被沉重全身铠甲限制、步态僵硬的两名士兵
+vehicle: 关节活动受限、按命令机械前行的笨拙机器人
+ground: 铠甲使四肢僵直对应机器人关节不灵活；接令后同步走来对应机器执行指令缺少犹豫

@@ -1,0 +1,16 @@
+# 接管悬线：只记录已发生的开启、推进与回收；未来计划沿作者资料填写。
+schema_version: 1
+threads: []
+#   - thread_id: T-001
+#     kind: 伏笔                 # 伏笔 | 悬线 | 承诺 | 谜团；可用类型扩展
+#     tier: 长线                 # 有原文范围依据时填写
+#     opened_at: C0001           # 本次 manifest 已登记章
+#     statement: 开启章已建立的问题；后续信息按章写入 events
+#     intended_payoff:           # 原作者计划或本次明确创作决定存在时填写
+#       horizon: V02
+#       planned_close: null
+#       note: 计划内容及其来源，不以分析者猜想回填
+#     status: open               # open | advanced | paid | abandoned，与已有事件一致
+#     events:
+#       - {at: C0002, kind: advance, note: 原文已发生的推进}
+#       - {at: C0003, kind: payoff, note: 原文已发生的兑现}

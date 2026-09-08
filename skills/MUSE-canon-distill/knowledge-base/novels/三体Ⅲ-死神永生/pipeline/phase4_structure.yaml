@@ -1,0 +1,225 @@
+# Phase 4: 结构（序列展开）—— 《三体Ⅲ·死神永生》
+# 接收 Phase 3 的 arcs[] 框架，逐 Arc 展开为序列
+
+arc_expansions:
+
+  # ═══ ARC-1 阶梯 ═══
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "买星与安乐死"
+        core_conflict: "云天明对生命的绝望 vs 程心无意中点燃的微弱希望"
+        escalation_direction: "从'决定赴死'递进到'被阻止安乐死'，被迫面对一个他不想面对的选择"
+        sequence_climax: "程心在安乐死最后时刻阻止云天明——从赴死到接受使命"
+        closed: "云天明的死亡之路"
+        opened: "他被拖入阶梯计划，但内心的绝望并未消除——只是转化为愤怒"
+      - seq_id: ARC1-SEQ2
+        name: "只送大脑"
+        core_conflict: "阶梯计划的技术可行性 vs 将活人大脑切除送入太空的伦理底线"
+        escalation_direction: "从技术讨论递进到程心推荐云天明→脑切除→维德揭示真相→飞行器失踪"
+        sequence_climax: "帆索断裂，飞行器失踪；维德揭示'星星是云天明送的'——双重打击"
+        closed: "阶梯计划执行完毕（失败），愧疚债确立"
+        opened: "云天明的命运悬而未决（三体是否截获？），程心的愧疚将驱动此后一切选择"
+    arc_progression_note: "从云天明的个人绝望递进到程心的永恒愧疚——个体命运被绑上文明级赌注"
+
+  # ═══ ARC-2 威慑 ═══
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "执剑人竞选"
+        core_conflict: "谁有资格掌握毁灭两个世界的开关——理性冷酷者还是善良之人？"
+        escalation_direction: "从候选人辩论递进到维德枪击程心，暴力反而推动程心当选"
+        sequence_climax: "维德枪击程心（L885）——'只能前进，不择手段地前进'"
+        closed: "执剑人人选确定（程心）"
+        opened: "威慑度仅10%的定时炸弹已埋下"
+      - seq_id: ARC2-SEQ2
+        name: "威慑最后十分钟"
+        core_conflict: "35亿年生命进化的重压 vs 毁灭两个世界的道德代价"
+        escalation_direction: "从威慑交接的仪式感递进到水滴来袭的十分钟倒计时"
+        sequence_climax: "程心将开关扔出，威慑崩溃——全书第一次致命选择"
+        closed: "威慑时代终结，三个引力波发射台被摧毁"
+        opened: "42亿人的命运、三体对人类的灭绝计划"
+      - seq_id: ARC2-SEQ3
+        name: "澳大利亚保留地"
+        core_conflict: "人类的生存意志 vs 三体文明的系统性灭绝计划"
+        escalation_direction: "从被驱赶递进到断电断粮→种族灭绝倒计时→引力波广播拯救"
+        sequence_climax: "引力波广播启动（L1597）——拯救来自另一群人（褚岩），而非程心"
+        closed: "三体舰队撤离，人类获救"
+        opened: "太阳系坐标暴露于全宇宙——更大的威胁即将到来"
+      - seq_id: ARC2-SEQ4
+        name: "四维碎块与魔戒"
+        core_conflict: "人类对宇宙的有限认知 vs 宇宙更深层的秘密"
+        escalation_direction: "从四维空间的奇观递进到'海干了'——宇宙高维空间被人为降维的真相"
+        sequence_climax: "'海干了'——宇宙高维空间被人为降维（L1729）"
+        closed: "四维碎块故事线"
+        opened: "降维打击的可能性，宇宙比想象中更危险"
+    arc_progression_note: >
+      四个序列形成「选择→后果→拯救→新威胁」的完整循环。
+      程心的第一次致命选择（SEQ2）直接导致了澳大利亚灾难（SEQ3），
+      而拯救行为本身（广播）又制造了更大的威胁（坐标暴露）。
+
+  # ═══ ARC-3 童话 ═══
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "云天明的童话与解读"
+        core_conflict: "智子的实时监控 vs 云天明的编码智慧"
+        escalation_direction: "从直接对话被监控打断→转用童话编码→逐层解读→AA的肥皂船顿悟"
+        sequence_climax: "AA的肥皂船实验揭示曲率驱动（L2623-L2634）；默斯肯大旋涡→黑域概念"
+        closed: "三条战略情报成功解码（曲率驱动、掩体、黑域）"
+        opened: "'针眼画师'隐喻被错失——二维化打击的预警信息无人理解"
+      - seq_id: ARC3-SEQ2
+        name: "三条生路的政治博弈"
+        core_conflict: "光速飞船的军事暴露风险 vs 黑域/逃离的战略价值"
+        escalation_direction: "从技术验证递进到曲率航迹被发现→国际立法禁止"
+        sequence_climax: "曲率驱动航迹暴露文明位置→国际立法全面禁止光速飞船研究"
+        closed: "公开的光速飞船之路"
+        opened: "维德的秘密研发——程心交出星环公司但保留'最终决定权'"
+      - seq_id: ARC3-SEQ3
+        name: "维德接管"
+        core_conflict: "程心的道德底线 vs 维德的不择手段"
+        escalation_direction: "从程心交出控制权递进到设定'最终决定权'条件"
+        sequence_climax: "程心交出星环公司并进入冬眠——但保留最终决定权（L3046-L3110）"
+        closed: "程心暂时退出舞台"
+        opened: "最终决定权——一颗必将爆炸的炸弹，为 Arc 4 埋下核心冲突"
+    arc_progression_note: >
+      从「获取情报」到「情报转化为方案」到「方案受限」的递降弧线。
+      每个序列都在缩小人类的选择空间。
+
+  # ═══ ARC-4 投降 ═══
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "掩体世界"
+        core_conflict: "掩体方案的表面安全 vs 其战略脆弱性"
+        escalation_direction: "从太空城的繁荣假象递进到光速二号失败的暗示"
+        sequence_climax: "光速二号坠入黑洞——降低光速之路的艰难与疯狂"
+        closed: "掩体世界的正面形象"
+        opened: "掩体方案远非安全——唯一真正的安全声明需要光速飞船"
+      - seq_id: ARC4-SEQ2
+        name: "星环城对峙"
+        core_conflict: "维德的'前进'（武力+技术突破）vs 程心的'人性'"
+        escalation_direction: "从曲率驱动原型成功→一万五千发反物质弹头亮出→程心被唤醒行使最终决定权"
+        sequence_climax: "程心说'我选择人性'，维德遵守诺言投降——全书第二次致命选择"
+        closed: "光速飞船的公开研究之路，维德的生命"
+        opened: "太阳系没有黑域保护——面对降维打击将毫无防备"
+    arc_progression_note: >
+      两个序列构成「虚假安全→真正毁灭」的讽刺结构。
+      SEQ1展示人类选择了错误的方案（掩体），SEQ2中程心亲手封死了正确的方案（黑域）。
+
+  # ═══ ARC-5 降维 ═══
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "歌者的投掷"
+        core_conflict: "无——歌者没有冲突，只是例行清理"
+        escalation_direction: "从歌者翻阅坐标数据的日常感递进到随手投出二向箔"
+        sequence_climax: "歌者向太阳系方向掷出二向箔（L3459-L3482）"
+        closed: "太阳系的命运已被决定（只是人类还不知道）"
+        opened: "灭世如同丢垃圾——低张力正是恐怖所在"
+      - seq_id: ARC5-SEQ2
+        name: "太阳系二维化"
+        core_conflict: "人类文明的一切 vs 降维打击的不可抗力"
+        escalation_direction: "从白Ice揭示逃逸速度=光速→地球坠入二维→太阳坠入二维"
+        sequence_climax: "二维地球外围出现巨型雪花冰环——曾经的海洋"
+        closed: "太阳系内的人类文明"
+        opened: "是否还有幸存者？维德的遗产是否还在？"
+      - seq_id: ARC5-SEQ3
+        name: "冥王星守墓"
+        core_conflict: "已无法改变的过去 vs 仅存的一丝逃离可能"
+        escalation_direction: "从罗辑的守墓人身份→揭示'星环'号装有曲率引擎→光速飞船=黑域的终极真相"
+        sequence_climax: "罗辑揭示曲率引擎的秘密——程心意识到第二次选择的完整后果"
+        closed: "程心对自身选择后果的认知（从不知到全知）"
+        opened: "'星环'号逃离——仅够两人，飞向DX3906"
+    arc_progression_note: >
+      三个序列形成「判决（歌者）→执行（二维化）→揭示（真相）」的三段式。
+      冲击力在SEQ3达到顶点——不是物理毁灭（SEQ2），而是认知毁灭（程心理解自己做了什么）。
+
+  # ═══ ARC-6 归还 ═══
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: "宇宙规律武器化"
+        core_conflict: "人类对宇宙的最后幻想 vs 宇宙的终极真相"
+        escalation_direction: "从关一帆的温和登场递进到十维田园时代→维度武器化→宇宙废墟"
+        sequence_climax: "关一帆揭示宇宙原为十维，被战争拍扁为三维（L4192-L4236）"
+        closed: "人类对'自然法则'的信仰——物理规律不过是战争遗迹"
+        opened: "灰星死线扩散的威胁"
+      - seq_id: ARC6-SEQ2
+        name: "1890万年的错过"
+        core_conflict: "时间的不可逆 vs 跨纪元的情感纽带"
+        escalation_direction: "从即将重逢的希望→死线困住穿梭机→沉睡1890万年→石刻遗言"
+        sequence_climax: "发现AA和云天明的石刻遗言：'我们度过了幸福的一生'（L4448-L4458）"
+        closed: "程心与云天明的感情线——永远错过"
+        opened: "小宇宙之门出现——最后的庇护所？"
+      - seq_id: ARC6-SEQ3
+        name: "归还物质"
+        core_conflict: "个体的永生 vs 宇宙的存续"
+        escalation_direction: "从小宇宙的安全→回归运动广播→程心面临最终选择"
+        sequence_climax: "程心决定归还647号小宇宙物质——'如果所有小宇宙中的人都这么想，那大宇宙肯定死了'（L4619）"
+        closed: "程心的责任阶梯——登顶"
+        opened: "大宇宙的命运、漂流瓶能否到达新宇宙"
+    arc_progression_note: >
+      从「认知崩塌」到「情感终结」到「责任升华」的三段式。
+      每个序列都在剥夺程心的什么：SEQ1剥夺对宇宙的幻想，SEQ2剥夺爱，SEQ3剥夺安全——
+      但最后的剥夺也是最后的获得。
+
+# ── 序列级因果链 ──
+
+causal_chain: >
+  ARC1-SEQ1（买星/安乐死）→ ARC1-SEQ2（程心推荐→飞行器失踪→愧疚确立）
+  → ARC2-SEQ1（因DX3906恒星被唤醒→竞选执剑人）
+  → ARC2-SEQ2（威慑崩溃——因为选了威慑度10%的程心）
+  → ARC2-SEQ3（澳大利亚灾难——第一次选择的后果）
+  → ARC2-SEQ4（四维碎块——揭示降维可能性）
+  → ARC3-SEQ1（云天明传递情报——因为阶梯计划让他到达三体世界）
+  → ARC3-SEQ2（光速飞船被禁——情报转化为方案后受限）
+  → ARC3-SEQ3（维德接管，程心保留最终决定权）
+  → ARC4-SEQ1（掩体世界——错误方案的繁荣假象）
+  → ARC4-SEQ2（星环城对峙→程心第二次致命选择→活路被封）
+  → ARC5-SEQ1（歌者投出二向箔——因太阳系无黑域保护）
+  → ARC5-SEQ2（太阳系二维化——两次选择的终极后果）
+  → ARC5-SEQ3（罗辑揭示真相——维德遗产仅够一艘船）
+  → ARC6-SEQ1（宇宙终极真相——维度和光速都是武器）
+  → ARC6-SEQ2（1890万年错过——与云天明永别）
+  → ARC6-SEQ3（归还物质——责任阶梯登顶）
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: >
+    六个Arc的高潮冲击力严格递增：
+    Arc 1（阶梯失败）→ 一个人的失踪
+    Arc 2（威慑崩溃）→ 42亿人被驱往澳大利亚
+    Arc 3（光速飞船被禁）→ 一条活路被封
+    Arc 4（维德投降）→ 唯一的活路被封
+    Arc 5（太阳系二维化）→ 一个文明的毁灭
+    Arc 6（归还小宇宙）→ 整个宇宙的命运
+    从"一个人"到"一个宇宙"，赌注逐级放大。
+  causal_chain: >
+    程心推荐云天明（Arc 1）→ 获得DX3906恒星 → 被唤醒当选执剑人（Arc 2）
+    → 威慑崩溃 → 引力波广播暴露太阳系 → 云天明传递情报（Arc 3）
+    → 光速飞船被禁但维德秘密研制 → 程心命令投降（Arc 4）
+    → 太阳系无法自保 → 二向箔降维打击（Arc 5）
+    → 唯一幸存者飞向DX3906 → 进入小宇宙 → 归还物质（Arc 6）
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "程心的责任阶梯"
+    description: "主线——程心的每次选择及其后果"
+    primary_arcs: [ARC-1, ARC-2, ARC-4, ARC-6]
+  - name: "云天明的爱"
+    description: "暗线——云天明对程心的单恋，从买星到童话到最终的小宇宙礼物"
+    primary_arcs: [ARC-1, ARC-3, ARC-6]
+  - name: "维德的前进"
+    description: "对位线——维德的极端功利主义，与程心的人性主义对照"
+    primary_arcs: [ARC-1, ARC-2, ARC-4]
+  - name: "宇宙真相的逐步揭示"
+    description: "认知线——从黑暗森林到降维到宇宙规律武器化"
+    primary_arcs: [ARC-2, ARC-3, ARC-5, ARC-6]
+    presence: "贯穿全书，每个Arc揭示更深一层的宇宙真相"
+  - name: "太空流浪者"
+    description: "平行线——'蓝色空间'号/'万有引力'号的太空旅程"
+    primary_arcs: [ARC-2]
+    presence: "第二部集中展现，后续以返回的冬眠飞船和关一帆为延续"

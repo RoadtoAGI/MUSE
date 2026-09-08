@@ -1,0 +1,57 @@
+mode: reference
+display_name: 陶亦仁
+role_slug: tao-yiren
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+identity_link: li-luan
+identity_relationship: "同一人的两个人格（裂脑术后衍生，共用一具身体）：陶亦仁=第二人格（创世军'死亡奔赴'教主）；李鸾=本体人格（《不详》POV，灰暗自毁的'灾星'自我认知）。佐证 BX-S10:L13-L21'你是我'。两包并行独立蒸馏，不可在同一作品里当两个无关角色并存。"
+variant_packages:                  # 同一人物的篇内特化原型包（two-package + identity_link）
+  - 51人/tao-yiren                 # 51人 篇内"死亡奔赴教主"facet，刻意不含李鸾第二人格真相，供二创单独取用；全人格仍以本包为准。
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_51-S03.md
+  - scenes/scene_51-S04.md
+  - scenes/scene_51-S05.md
+  - scenes/scene_51-S07.md
+  - scenes/scene_BX-S06.md
+  - scenes/scene_BX-S10.md
+  - scenes/scene_HJ-S13.md
+built_at: "2026-05-29T17:10:00+08:00"
+skill_version: 1
+locator_count: 18
+has_canon_ending: true
+coverage_note: |
+  identity_link：陶亦仁 = 《不详》主角李鸾（li-luan）裂脑术后衍生的第二人格（《搏击俱乐部》式
+  "你是我"，BX-S10:L13-L21 直接佐证）。本包蒸"陶亦仁"这一感召者/教主人格侧；李鸾另有并行独立包
+  li-luan，两包互标 identity_link（phase2 antagonists.陶亦仁 与 supporting_cast.李鸾 均已登记 link）。
+  下游若做"双人格统一体"研究应两包同载。
+
+  覆盖陶亦仁跨三篇出场：
+  - 《51人》（张亦川 POV 回溯线，创世军建制/神格/崩塌证据最富）——取九条 locator：身份（S04 创造手势+
+    创世军+电台 L3-L9、神格沾血不感染吓退 L21-L23、无名编号制 L19-L23、组织外化 L9-L19）、声音
+    （S03 烟花话术 L51-L53、S04 考验冷酷×仁慈平衡 L11-L17）、性格真相（S03 站箱上居高临下下令 L29-L31）、
+    边界（S03 拒绝"为活而活" L15-L21、S04 保留退出口 L13-L17、S05 死亡只是路障 L3-L7）、弧光转折
+    （S04 组织神格化 L9-L19、S03 老大哥"风暴"评价 L13-L17）。
+  - 《不详》（李鸾 POV，identity_link 真相所在）——取五条 locator：身份起点（BX-S06 影音店借《搏击
+    俱乐部》组团 L41-L47）、核心欲望（BX-S10 造"新人类"妄想 L29-L35）、性格真相/identity_link 暴露
+    （BX-S10 "你是我·第二人格" L13-L21）、声音（BX-S10 布道腔 L31-L37）、边界（BX-S10 除掉威胁计划者
+    王晨轩 L21-L25）、弧光起点（BX-S06 影音店现身 L27-L41）。
+  - 《黄金国》（罗允/罗凯伯 POV）——本篇陶亦仁本人已不在场，仅作残骸态登记（感染后老大哥胯下缝其脸皮，
+    HJ-S13:L35-L37），未取入 SKILL 本体 locator，归入 canon-ending.md 残骸佐证。
+  - 《51人》line 361（S07:L9，刺成云丹转述"追杀罗允"遗令）作为跨篇钩与 contrast_axes（罗允"救人奔死"
+    vs 陶亦仁创世军"死亡奔赴"）的关系证据收入 built_from，但该命令未直接刻画陶亦仁人格本身，故未取作
+    SKILL 章节 locator。
+
+  声音框架跨 3 场取证（51-S03 / 51-S04 / BX-S10，含教主感召腔 + 布道腔）；边界跨 ≥2 篇 ≥4 场
+  （51-S03/S04/S05 + BX-S10，含追杀命令气质所属的创世军建制场 + 除威胁者场），非单点外推。
+  弧光覆盖起点（BX-S06）/ 转折（51-S04、51-S03）/ 终点（身份与真相段隐含的神格化笃定）。
+
+  has_canon_ending=true（"宁可漏不可错"）：陶亦仁是不可逆终局——
+  (1) 人格层《不详》BX-S10：李鸾识破"你是我"后自我感染、命创世军分食自身、咬舌阻其取消命令，
+      与陶亦仁人格同归于尽（"晕过去的我将不再是我"=确保人格不再接管）；
+  (2) 肉身层《51人》S05：创世军 51 人巅峰崩塌，陶亦仁被感染同伴撕成"米黄色骸骨"，尸周衍生"痛苦型"
+      自毁式感染者；
+  (3) 残骸《黄金国》HJ-S13：仅余脸皮，被感染后老大哥缝在胯下。
+  三线交叉确证人格+肉身双重不可逆毁灭，物理死亡/感染衍生不写入弧光本体，拆入 references/canon-ending.md。
+
+  本系列无 novel-meta.yaml（非 canonical），按 reference 模式跳过 claims.yaml / state.md。

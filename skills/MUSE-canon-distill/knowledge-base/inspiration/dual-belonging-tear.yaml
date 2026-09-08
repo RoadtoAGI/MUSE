@@ -1,0 +1,27 @@
+card_id: dual-belonging-tear
+pattern_name: 归属撕裂
+dramatic_function: 让被两种共同体同时塑形的人在回归时用背叛证明身份，反而失去两边
+applicability: 适合人质、养子、移民、卧底；若外部接纳明确就会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 铁群岛
+- 临冬城
+- 葛雷乔伊家语
+tags:
+- 身份认同
+- 背叛
+- 归乡
+- 双重归属
+source_scenes:
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S04
+  note: 席恩归乡却发现本土身份已无法自然被承认
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S14
+  note: 他夺取养育自己的城堡来表演血缘忠诚
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S24
+  note: 围城绝境中两种身份都不再给他退路
+phase_affinity:
+- 2
+- 3
+- 4

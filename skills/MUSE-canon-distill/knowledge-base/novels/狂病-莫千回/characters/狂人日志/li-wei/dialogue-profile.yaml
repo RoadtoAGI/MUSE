@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:狂人日志--li-wei
+work_id: novel:狂病-莫千回
+display_name: 李伟
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '李伟的话里总浮着一层对未来的憧憬腔。顺境时他不好意思地说出对家庭的渴望——"一直想尝试一下别人嘴里所说的家庭是什么感觉，所以刚到法定年纪便想着结婚，然后再生个孩子"，会自然地把陌生人纳进想象的家："到时候让吴先生当孩子的干爹"。安慰女友时他换成柔声、笃定的口吻反复说"一切都会好起来的"，用乐观替代论证。但当家被毁，这副温柔的嗓子先是失神地只叫得出女友的名字，再瞬间炸成最恶毒的辱骂（"杂种、畜生、一开始就应该踩死这个东西"），最后彻底失语——揭谜后他只剩"哭哭笑笑"，对着尸体断断续续地讲那些再不会发生的"美好计划"。从憧憬到疯语，他的声音是一条被精确剪断的线。
+
+
+    佐证：scenes/scene_KR-S06.md:L17-L17 / scenes/scene_KR-S08.md:L17-L17 / scenes/scene_KR-S09.md:L19-L19'
+  evidence_locators:
+  - scenes/scene_KR-S06.md:L17-L17
+  - scenes/scene_KR-S08.md:L17-L17
+  - scenes/scene_KR-S09.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

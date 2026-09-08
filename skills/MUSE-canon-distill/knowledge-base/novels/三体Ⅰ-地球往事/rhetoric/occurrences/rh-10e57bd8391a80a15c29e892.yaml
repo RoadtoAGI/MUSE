@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-10e57bd8391a80a15c29e892
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1856
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 这种精神上的流浪感残酷地折磨着她，在组成家庭后，她的心灵反而无家可归了
+sensory_mapping: 道路漂泊；陌生地景；寒冷露宿；空屋；无归途
+context_fact: 她曾需把才华奉献给伟大目标，如今认为过去与未来追求都无意义，世界变得陌生。
+image_mechanism: 心灵从身体中独立成一名旅人，理想崩塌让地图和终点同时消失；婚姻搭起物理屋顶，却没有能让这个旅人停下的价值炉火。
+property_alignment: 价值目标对应旅途目的地；社会认同对应熟悉故乡；目标缺失对应无方向流浪；婚姻家庭对应物理房屋；内心无法安顿对应房屋不是家；持续痛苦对应长期露宿
+context_alignment: 她先切断外界联系、又只因报恩成家，精神流浪是这些选择累积后的准确归属危机，而非单纯孤独。
+narrative_function: 把抽象精神危机组织为无家旅程，为她把希望投向外星文明提供心理空位。
+transfer_rule: 用无家流浪写精神危机时，应明确失去的故乡或目标、现有住所为何不能安顿、以及主体持续寻找何种归属。
+failure_boundary: 人物有稳定价值共同体、主动享受游牧自由或家庭确能提供认同时，无家会误写选择与体验。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁失去可奉献的理想和社会归属，即使有婚姻家庭，内心仍找不到价值安顿
+vehicle: 旅人长期漂泊在陌生土地，没有可返回、可容身并确认身份的家
+ground: 缺少价值目标对应旅人没有目的地；不认同周围世界对应异乡陌生；家庭不能提供精神归属对应有房屋却无真正家园

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-25fa3ad584a8ffee6b691a5c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1502
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: analogy
+quote: 这阵列是硬件，而这张纸上写的是软件，硬件和软件，就如同琴和乐谱的关系
+sensory_mapping: 听觉；器物操作；符号读取；时间序列
+context_fact: 秦始皇能看到三千万士兵组成的机器，却难理解纸上密集符号如何在阵列上运行。
+image_mechanism: 陌生计算结构被换到熟悉演奏现场：人列阵列像一件巨琴，旗语动作是发声，纸卷逐行被读便像乐谱驱动同一器物演出不同作品。
+property_alignment: 硬件实体对应琴体；门电路可执行状态对应琴键弦可发音；软件符号对应乐谱音符；同一硬件运行不同程序对应同一琴演奏不同曲目；运行顺序对应演奏节拍
+context_alignment: 面对古代皇帝，琴与乐谱比现代术语更易懂，同时准确保留载体与指令分离这一计算机核心概念。
+narrative_function: 解释软硬件分工，让宏大人列计算机从奇观变成可理解系统。
+transfer_rule: 解释载体与指令关系时，应选同一器物可按不同符号序列产生不同输出的熟悉活动，并对应执行、编码和时序。
+failure_boundary: 乐谱通常需演奏者解释且音乐允许表现偏差，软件执行要求更严格；类比不能推出程序像音乐一样可自由变奏。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人列计算机的实体阵列与纸上操作系统/计算指令的功能关系
+vehicle: 能够发声的琴与规定演奏次序、音高节奏的乐谱
+ground: 硬件提供执行动作的物理能力对应琴提供发声结构；软件规定动作序列对应乐谱规定如何演奏

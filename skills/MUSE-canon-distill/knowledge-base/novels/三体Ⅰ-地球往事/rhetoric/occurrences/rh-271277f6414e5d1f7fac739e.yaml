@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-271277f6414e5d1f7fac739e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L81
+chapter: 第1章 科学边界
+figure_type: metaphor
+quote: 在他的潜意识中，那两个字的色彩与上面几行字是不同的
+sensory_mapping: 视觉；色彩；注意
+context_fact: 汪淼在自杀学者名单末尾看到杨冬。
+image_mechanism: 同色打印字在主观视野里被重新着色，情感显著性因此成为肉眼可见的色差；注意力先于意识把名字从名单中挑出。
+property_alignment: 名字更吸引注意对应异色文字更醒目；私人情感赋予名字特殊性质对应颜色改变中性字形
+context_alignment: 名单是实体文字，情感差异直接借其视觉属性显现。
+narrative_function: 用主观色彩预告名字对汪淼的特殊意义。
+transfer_rule: 表现一个元素的私人分量时，可借用其所在媒介的可变属性，让客观相同、主观不同的冲突留在同一画面。
+failure_boundary: 若对象本来就用异色印刷，或人物对它没有特殊关系，主观着色不再承担情感显著性。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬名字对汪淼具有不同的情感显著性
+vehicle: 同页文字呈不同颜色而从背景凸显
+ground: 名字更吸引注意对应异色文字更醒目；私人情感赋予名字特殊性质对应颜色改变中性字形

@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:wu-xiansheng
+work_id: novel:狂病-莫千回
+display_name: 吴先生
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他说话轻佻、游戏化，永远带着一种俯视猎物的从容。最稳定的标志是把人称作"猪仔/猪崽"，把屠杀说成"招待""自助餐厅""狼人杀/剧本杀"，把残忍的拼接尸体叫"升华"——用一套去人化、审美化的辞令把暴行包装得轻飘飘。自陈无道德感时他用最直白的陈述句兜底（"同情心、愧疚、羞愧、怜悯，这些狗屁，自己从出生起就没有过"），不辩解、不煽情。面对同类（廖振宇）时他冷静比较、自居"更纯粹"；面对受害者时他爱抛反问、爱讲解、爱"贴心"地逼对方看完全程，把折磨当成一场需要观众的表演。但这套腔调全是伪装时的"另一副声音"——一旦扮演可靠救援者，他立刻换上腼腆、谦卑、随大流附和的口吻，几天就能从陌生人混成被信赖的"三当家"。
+
+
+    来源：phase2_character.yaml → antagonists.吴先生.characterization
+
+    佐证：scenes/scene_KR-S09.md:L3-L11 / scenes/scene_EE-S10.md:L9-L9 / scenes/scene_YY-S10.md:L65-L67'
+  evidence_locators:
+  - scenes/scene_KR-S09.md:L3-L11
+  - scenes/scene_EE-S10.md:L9-L9
+  - scenes/scene_YY-S10.md:L65-L67
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

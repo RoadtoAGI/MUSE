@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3632faf93a4b5961052a7a7b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L594
+chapter: 第7章 疯狂年代
+figure_type: analogy
+quote: 只有处于第一阶段的牛鬼蛇神才能对他们那早已过度兴奋的神经产生有效的刺激，如同斗牛士手上的红布
+sensory_mapping: 视觉；颜色；神经兴奋；冲撞动作
+context_fact: 麻木或认罪的对象已令红卫兵乏味，只剩叶哲泰保持反抗。
+image_mechanism: 批判对象被缩成眼前晃动的红布，红卫兵则隐性兽化为只对刺激冲撞的公牛；思想对抗被降格成条件反射。
+property_alignment: 反抗对象醒目稀少对应红布成为焦点；红卫兵受刺激攻击对应公牛被挑动冲撞；施暴需要新目标对应斗牛需要诱引物
+context_alignment: 段落明确写“过度兴奋的神经”和“有效刺激”，斗牛场机制精确承接生理化叙述。
+narrative_function: 揭露批斗已成为寻求刺激的暴力表演，并预告叶哲泰受害。
+transfer_rule: 用诱饵机制写攻击时，应对应刺激物的醒目性、攻击者的既有兴奋状态和由注意到冲撞的触发链。
+failure_boundary: 攻击源于冷静利益计算、对象主动操控局面或双方理性争辩时，红布—公牛模型会抹去策划与能动性。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 仍反抗的批判对象对已过度兴奋的红卫兵所产生的刺激
+vehicle: 斗牛士挥动红布诱发公牛冲撞
+ground: 反抗对象醒目稀少对应红布成为焦点；红卫兵受刺激攻击对应公牛被挑动冲撞；施暴需要新目标对应斗牛需要诱引物

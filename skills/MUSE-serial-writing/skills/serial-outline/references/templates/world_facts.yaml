@@ -1,0 +1,22 @@
+# series/ledgers/world_facts.yaml —— 世界事实台账（只追加的真值源）
+# facts_current.yaml 是脚本重算的当前态视图，不随接管包手工生成。
+# 人物 entity 在所有 kind 下均用角色目录 char_id；relation 对方和 known_by 用同一 ID。
+# 非人物 entity 用作品内稳定名字，并与章卡 recap_inputs.locations/items 对齐。
+schema_version: 1
+facts: []                        # 无已发生的持久事实可为空；有条目时按下列形状填写
+#   - fact_id: F-0001            # 本台账内唯一 ID
+#     entity: "角色目录 char_id 或非人物稳定名字"
+#     kind: state               # item | rule | state | geo | org | ability | secret | relation；可用类型扩展
+#     attribute: "记录的属性"     # relation 时为 relation:<对方 char_id>，关系有方向
+#     value: "原文确立的状态或值"
+#     established_at: C0001     # manifest 章号；已定位场景时用 C0001S01
+#     origin: normal            # normal | errata；errata 只约束未来章
+#     status: active            # active | retracted
+#     supersedes: F-0000        # 可选；状态演化时指向本台账已有旧 fact_id
+#     limitation: "原文支持的代价或边界"  # ability/rule 必填非空；未知写原文未揭示，其余 kind 可省略
+#     note: "来源解释或关系暗层"  # 可选；不补写未经原文支持的心理解释
+#     known_by:                 # 仅 secret 使用；未建立知情者时可为空列表
+#       - char_id: "知情者的角色目录 ID"
+#         learned_at: C0001    # 实际获知的 manifest 章号或已定位场景锚
+#     retracted_by: "decision 或复核事件 ID"  # 仅 retracted 时必填
+#     retraction_reason: "有依据的作废理由"   # 仅 retracted 时必填

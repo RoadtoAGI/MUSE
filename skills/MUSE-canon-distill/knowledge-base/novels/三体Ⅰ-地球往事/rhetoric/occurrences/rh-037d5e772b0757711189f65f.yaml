@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-037d5e772b0757711189f65f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L84
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 乱麻般的超低温制冷剂管道
+sensory_mapping: 视觉；线条；触觉
+context_fact: 汪淼以摄影构图眼光观察未完成安装的加速器。
+image_mechanism: 把密集管道缩成一束可抓取的线，再让线头彼此缠结；读者无需理解管路功能，也能立即看见难以追踪的走向。
+property_alignment: 细长管道彼此交错对应麻线缠结；管路走向难追踪对应乱麻无清晰端头
+context_alignment: 线状实物与麻线形态直接同构。
+narrative_function: 把复杂工程结构压成可见纹理。
+transfer_rule: 描述复杂线性结构时，优先找局部形态和追踪困难都相同的线状物，而非只说数量多。
+failure_boundary: 管道按束平行、走向清楚或呈规则盘绕时，“乱麻”会错误引入无序和无法梳理。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 纠缠在加速器构件上的大量制冷管道
+vehicle: 缠成一团、难辨头绪的乱麻
+ground: 细长管道彼此交错对应麻线缠结；管路走向难追踪对应乱麻无清晰端头

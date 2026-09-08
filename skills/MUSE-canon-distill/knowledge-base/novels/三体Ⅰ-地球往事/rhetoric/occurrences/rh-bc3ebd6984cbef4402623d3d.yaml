@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bc3ebd6984cbef4402623d3d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1013
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 但其中有一个大漏洞
+sensory_mapping: 空间破口；结构完整性；泄漏
+context_fact: 汪淼指出球壳洞孔相对位置应固定，却与太阳相对群星运动的观测事实冲突。
+image_mechanism: 抽象论证被做成一层原本封闭的壳，反例在壳面穿出缺口；此处模型本就布满实体洞孔，“漏洞”又把逻辑破口叠在机械表面。
+property_alignment: 理论自洽对应球壳封闭；观测反例对应壳面破口；模型解释力流失对应容器从洞中泄漏
+context_alignment: 对话正围绕球壳和洞孔展开，惯用的逻辑“漏洞”在此获得现场实物回声，形成精确双关式图像。
+narrative_function: 迅速标出模型致命缺陷，并推动墨子增加第二层球壳。
+transfer_rule: 用物理破口写论证缺陷时，可让周围场景本身出现相同结构，使抽象惯用语重新获得具体材质和后果。
+failure_boundary: 问题只是措辞不清、无损核心解释，或场景没有封闭结构可供呼应时，“大漏洞”容易成为无尺度的套语。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 墨子单层球壳模型无法解释太阳相对群星移动的逻辑缺陷
+vehicle: 封闭结构上足以使整体失效的大洞
+ground: 一个反例让模型不再封闭自洽对应洞口破坏容器完整；问题若不补上理论无法工作对应漏洞令装置泄漏失效

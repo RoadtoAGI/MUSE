@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e68744560dd0a60c70aea389
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L720
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 她知道自己已经掉到陷阱的底部，任何挣扎都是徒劳的
+sensory_mapping: 空间；下坠；深度；触觉；受困动作
+context_fact: 白沐霖把责任推给她，调查者又把禁书和信解释成反革命证据。
+image_mechanism: 此前收紧的口袋在此获得垂直深度：背叛使她突然下坠，既定结论成为高壁；视点落到底部后，所有申辩都只剩无效抓挠。
+property_alignment: 受骗进入险境对应猎物落穴；证据链从四面限制对应陷阱壁围住；权力不接受辩解对应出口不可攀；挣扎加重罪名对应猎物动作徒耗力气
+context_alignment: 白沐霖不是预谋设陷，但政治系统把他的自保与物证组合成实际圈套，人物感受与情势结果相合。
+narrative_function: 结束她的辩解可能性，并把叙述推进到历史后果。
+transfer_rule: 用陷阱写制度困局时，应区分诱入、坠落、壁面来源和挣扎为何无效，不必假定有单一设陷者。
+failure_boundary: 仍有上诉出口、证据可被独立核验或对方愿意听取辩解时，陷阱底部会过早宣告不可逆。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁被物证、伪证与制度结论共同封死的政治处境
+vehicle: 猎物坠入深陷阱底部，四壁封闭且越挣扎越难逃
+ground: 受骗进入险境对应猎物落穴；证据链从四面限制对应陷阱壁围住；权力不接受辩解对应出口不可攀；挣扎加重罪名对应猎物动作徒耗力气

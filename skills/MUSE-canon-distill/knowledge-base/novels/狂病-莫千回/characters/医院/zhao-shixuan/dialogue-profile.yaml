@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--zhao-shixuan
+work_id: novel:狂病-莫千回
+display_name: 赵士轩
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '赵士轩平日说话是机场地勤式的爽利张罗腔——招呼新人、解释情况、组织事务都干脆利落。但一进入对机场往事的口述，他的声音会沉下来、放慢，按时间顺序一幕一幕地推进（弟弟要烟、点烟、抬头看见半个脑袋、飞机撞楼、卡车碾人），细节具体而克制，不渲染情绪却字字带着没散尽的惊恐，是一种"把惨烈压成流水账反而更刺人"的复述。情绪被踩中时（亲人、军人被侮辱）他会瞬间从克制翻成颤抖的怒骂，先动手再说话。
+
+
+    佐证：scenes/scene_YY-S03.md:L51-L63 / scenes/scene_YY-S03.md:L71-L71 / scenes/scene_YY-S02.md:L11-L11'
+  evidence_locators:
+  - scenes/scene_YY-S03.md:L51-L63
+  - scenes/scene_YY-S03.md:L71-L71
+  - scenes/scene_YY-S02.md:L11-L11
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

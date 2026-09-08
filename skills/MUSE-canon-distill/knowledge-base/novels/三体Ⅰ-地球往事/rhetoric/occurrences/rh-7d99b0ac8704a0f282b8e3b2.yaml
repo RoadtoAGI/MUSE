@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7d99b0ac8704a0f282b8e3b2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2607
+chapter: 第34章 智子
+figure_type: analogy
+quote: 改变其中一个质子的自旋方向，另一个的自旋方向也必然立刻做出相应的改变
+sensory_mapping: 成对旋转；远距同步；无形连线；阵列展开；瞬时响应
+context_fact: 科学执政官说明多个智子如何构成可感知所有电磁波的任意尺度系统，并承认说明只是形象比喻。
+image_mechanism: 复杂量子阵列被缩成一对方向相反的旋子，无论拉开多远，二者仍像同一机构的两个齿位同步改向；小模型将不可见关联放大为可追踪动作。
+property_alignment: 智子单元对应质子对；空间分离对应离开原子核；量子联系对应共同自旋规则；一端状态变化对应改变一粒自旋；另一端立刻响应对应远距感应；多智子阵列对应成对模型扩展
+context_alignment: 说话者明确限定为比喻，卡片保留其教学模型价值，不把假设的简化自旋规则当真实完整机制。
+narrative_function: 将宏观感应阵列的量子基础压缩为两粒子同步例子，供元首和读者把握。
+transfer_rule: 用小规模物理示例解释复杂系统时，应逐项映射单元、关联规则、距离不变性、状态传递和扩展方式，并声明被省略机制。
+failure_boundary: 不能据此推断超光速传递可控信息、所有量子态都按相反自旋响应，或把二体示例当成阵列工程的完整证明。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 多个智子远距离分布后借量子关联即时互相感应并组成宏观探测阵列的工作原理
+vehicle: 一对原先同核的质子即使分开极远，自旋仍受共同规则约束，一方改变便由另一方同步响应
+ground: 智子由质子改造对应示例中的质子；远距分布对应拆开后相隔；阵列同步对应自旋关联；单体变化传给整体对应另一质子即时响应

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-995e97da46767e70b555dae6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1656
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 历史就这样划了一个漫长的大圈，回到了最初的地方
+sensory_mapping: 空间轨迹；圆形；时间循环；返回
+context_fact: 汪淼曾在战国时代看见巨摆催眠太阳，如今联合国时代又建起更现代的同类巨摆。
+image_mechanism: 线性进步史被弯成闭合圆线，每次文明和技术升级只是沿圆周走远；现代巨摆出现时，轨迹突然接回最初画面，距离转成循环。
+property_alignment: 多轮文明发展对应长弧行进；科技现代化对应离起点看似遥远；重复巨摆迷信对应回到起点；相同大地场景对应圆轨迹闭合位置
+context_alignment: 同一玩家、同一地点和同一装置提供可核对的首尾画面，圆不是抽象历史宿命，而由具体重复支撑。
+narrative_function: 揭示三体文明虽技术跃进仍未摆脱错误预测循环，为新模型再次失败定调。
+transfer_rule: 用历史画圈时，应明确起点意象、长途中的真实变化和终点怎样具体复现起点。
+failure_boundary: 后来的相似只是表面、功能和信念已根本改变，或没有明确首尾对应时，大圈会抹掉真实进步。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明跨越许多兴亡和科技阶段后重新采用伏羲时代巨摆
+vehicle: 沿圆周远行的轨迹最终闭合并回到起点
+ground: 文明经历长时间与大量阶段对应沿大圆走过长弧；现代仍重复古代做法对应轨迹闭合回到原点

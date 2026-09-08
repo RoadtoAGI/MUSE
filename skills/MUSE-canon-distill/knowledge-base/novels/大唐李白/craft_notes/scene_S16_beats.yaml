@@ -1,0 +1,14 @@
+scene_id: S16
+source_notes: scene_S16_beats.md
+patterns:
+- pattern_id: S16-p1
+  beat: 散财三十万
+  dimension: verb
+  original_move: 用事务动词冷写豪举
+  ai_default_failure: 煽情描写众人感激与主角豪迈
+  transfer_rule: 大义举可用干燥数字增强冲击
+  quote: 付予维扬十友
+overall_traits:
+- 辩论替代散财奇观
+- 事务性动词压住煽情
+- 乐器替人物释放情感

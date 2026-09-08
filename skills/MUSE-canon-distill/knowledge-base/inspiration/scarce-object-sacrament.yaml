@@ -1,0 +1,24 @@
+card_id: scarce-object-sacrament
+pattern_name: 微物圣礼
+dramatic_function: 让稀缺小物承载失落世界和关系深情，避免直接抒情。
+applicability: 适合匮乏世界或亲密关系；若物件不稀缺会显得做作（单书孤证，验证面窄）
+reuse_candidates:
+- 可口可乐
+- 梨罐头
+- 祷词措辞
+tags:
+- 物件叙事
+- 亲密关系
+- 稀缺
+- 仪式
+source_scenes:
+- novel: 长路
+  scene_id: scene_01
+  note: 一罐可乐通过触觉、分享和余味承载旧世界。
+- novel: 长路
+  scene_id: scene_08
+  note: 孩子把食物接受转化为自发感谢仪式。
+phase_affinity:
+- 1
+- 2
+- 5

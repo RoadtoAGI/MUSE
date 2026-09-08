@@ -1,0 +1,28 @@
+scene_id: S11
+source_notes: scene_S11_beats.md
+patterns:
+- pattern_id: S11-p1
+  beat: 私人展示仪式
+  dimension: camera
+  original_move: 用站位和沉默规则建立展厅感
+  ai_default_failure: 会先铺陈灯光墙壁氛围
+  transfer_rule: 展览仪式感来自行为规则
+  quote: 你最好站到那儿。
+- pattern_id: S11-p2
+  beat: 笨拙与力量
+  dimension: omission
+  original_move: 先写技法失败，再写本能被征服
+  ai_default_failure: 会直接赞美画作很美
+  transfer_rule: 让理性否定和本能肯定并存
+  quote: 不由自主地感受到了
+- pattern_id: S11-p3
+  beat: 朝圣者比喻
+  dimension: overall
+  original_move: 通过画作回读画家的追寻
+  ai_default_failure: 会让角色确认理解正确
+  transfer_rule: 被作品改变可写成部分误读
+  quote: 像一个朝圣者
+overall_traits:
+- 看不懂但被打动
+- 破旧空间可被规则仪式化
+- 宗教比喻只在终点使用

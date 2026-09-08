@@ -1,0 +1,28 @@
+# 接管卷纲：回填实际已发生部分；未来卷向由创作侧共创。
+schema_version: 1
+volume_id: V01                  # 与本卷 manifest entries 的实际归属一致
+status: active                 # 已结束卷 closed；当前未完结卷 active
+protagonist_delta:
+  from: null                   # 卷初已有的处境、关系、认识或性格
+  to: null                     # 截止章实际状态，可与卷初一致
+volume_question: null          # 原文确立的本卷核心问题；尚无明确问题可留待定
+tentpoles: []                   # 已发生且承担卷级转折的条目；无适用转折可为空
+#   - beat: "谁作出什么选择或发生什么事，从而改变本卷局面"
+#     value_shift: "该转折前后的实际价值或处境变化"
+#     anchor: C0001            # 本卷 manifest 已有的实际章号；不按原文标题数字猜测
+# unresolved 仅供尚未定位的创作规划；接管回填以已发生转折的实际章锚落位。
+world_reveal_plan: []           # 缺原作者计划资料时为空；已发生的世界揭示进入事实台账
+# 有原作者计划资料时使用以下接口，并区分计划与兑现：
+#   - reveal_id: W-V01-01      # 稳定 ID
+#     reveal: "作者资料中的揭示安排"
+#     from_ceiling: "story_bible.frozen.world_ceiling 中对应的已有锚点"
+#     status: planned          # planned | fulfilled | carried_to_next_volume | dropped_by_decision
+#     planned_at: U01          # 可选；计划单元或章号，不冒充实际兑现章
+chapters: []                    # 按实际发布序列登记；不补造未来章
+#   - chapter_id: C0001        # manifest 章号与卷归属
+#     unit: U01                # 卷内单元分组
+#     logline: "本章谁面对什么情境、采取什么行动及实际后果"
+#     hook_type: 信息投放       # 悬念 | 反转 | 情绪炸弹 | 信息投放；可用类型扩展
+#     opened: []               # 本章实际开启的 thread_id
+#     closed: []               # 本章实际回收的 thread_id
+#     status: published

@@ -1,0 +1,13 @@
+{
+  "_comment": "狂病系列 中文名 → role-slug 登记表。本表只登记【跨篇（≥2 篇登场）人物】——其蒸馏归属为根级 characters/{slug}/。单篇人物留在 characters/{篇名}/_candidates.md，不进本表。本轮交付深度=仅识别（_candidates + 本表 + _cross_part_index.md），未建角色 SKILL 包。",
+  "罗允": "luo-yun",
+  "洪扬": "hong-yang",
+  "吴先生": "wu-xiansheng",
+  "石浩洋": "wu-xiansheng",
+  "林东青": "lin-dongqing",
+  "陶亦仁": "tao-yiren",
+  "李鸾": "li-luan",
+  "陈雨琪": "chen-yuqi",
+  "陆小虎": "lu-xiaohu",
+  "盲女": "mang-nv"
+}

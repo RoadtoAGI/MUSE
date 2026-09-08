@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7f160c85f2782375ad4613d7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1779
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 少女两手同时快速松开，好像那个头颅发烫似的
+sensory_mapping: 热觉；触碰；反射缩手；快速分离
+context_fact: 她刚以双手完成致命扭颈，动作熟练，颈椎断裂后立即让尸体倒下。
+image_mechanism: 并不存在的高温被加到死者头颅上，训练形成的干净撤手因而像皮肤遭烫后的神经反射；冷静杀人显出近乎厌弃的零停留。
+property_alignment: 头颅成为不愿触碰对象对应烫物；两手同时松开对应双手受热反射；动作极速对应痛觉缩手；无后续扶持对应远离热源
+context_alignment: 前句突出她不可能的力量和精巧角度，此处以日常烫手反射写收势，杀人流程显得短促、熟练而非激愤纠缠。
+narrative_function: 为处决动作落下干脆句点，并通过触觉反差表现少女的冷酷专业。
+transfer_rule: 用烫手写快速放开时，应有刚刚接触、近乎反射的撤离速度和对继续持握的明显拒绝。
+failure_boundary: 人物缓慢松手、因疲劳脱力或仍试图扶住对象时，发烫反射不符合动作节奏。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 少女扭断潘寒颈椎后立刻、毫不留恋地撤开双手
+vehicle: 手碰到灼热物体后因痛觉反射瞬间甩开
+ground: 松手速度极快对应触烫反射；不愿多接触尸体对应手本能远离热源

@@ -1,0 +1,37 @@
+card_id: false-victory-trap
+pattern_name: 虚假胜利·反讽陷阱
+dramatic_function: 让角色自认的胜利与上升实为交出控制权的陷阱：读者先知，崩塌前兆持续累积，反讽张力贯穿中段
+applicability: 适用于权谋线、不可靠视角与身份财富幻觉故事；读者须先于角色看见危险；上升真实改变制度即失效
+reuse_candidates:
+- 七神教会
+- 君临摄政权
+- 大麻雀称谓
+- 赃物买卖
+- 新夹袄和搭连
+- 杀头见闻炫耀
+tags:
+- 戏剧反讽
+- 权力反噬
+- 不可靠视角
+- 中点反转
+- 虚假上升
+- 地位幻觉
+- 崩塌前兆
+source_scenes:
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S08
+  note: 瑟曦以为免债换祝福，实际重建了会吞噬她的武装。
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S15
+  note: 瑟曦以为收割玛格丽案，结果证人翻供反咬自己。
+- novel: 阿Q正传
+  scene_id: S06
+  note: 钱和见闻带来短暂尊敬，主角似乎翻身
+- novel: 阿Q正传
+  scene_id: S07
+  note: 权贵暂时客气，只因利益需要而非真正承认
+phase_affinity:
+- 2
+- 3
+- 4
+- 5

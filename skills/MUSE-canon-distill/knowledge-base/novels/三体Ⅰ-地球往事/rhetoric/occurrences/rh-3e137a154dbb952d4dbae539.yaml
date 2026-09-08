@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3e137a154dbb952d4dbae539
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L780
+chapter: 第9章 红岸之一
+figure_type: metaphor
+quote: 你一头钻在技术里，‘红岸’可是与其他国防重点项目不同，它的复杂，是复杂在技术之外的
+sensory_mapping: 动作；空间内外；视觉遮蔽；深度；注意力
+context_fact: 杨卫宁坚持破格招叶文洁，政委提醒项目真正复杂之处在技术之外。
+image_mechanism: 技术领域变成一条可容身体进入的窄洞，杨卫宁用头带动全身向里；越深入专业，洞口外的政治地形越从视野消失。
+property_alignment: 专注单一领域对应身体钻入一处；投入很深对应持续向内推进；忽视外部政治对应钻入后看不见周围；雷志成从外部提醒对应旁观者看见洞外危险
+context_alignment: “一头”符合政委略带责备的口吻，既肯定技术投入，也准确指出视野代价。
+narrative_function: 勾勒杨卫宁的专业型盲点，并预告红岸的政治复杂性。
+transfer_rule: 用钻入写专注时，应同时呈现进入方向、获得的内部深度和失去的外部视野，避免把专业投入只写成赞美。
+failure_boundary: 人物同时掌握外部局势、主动权衡政治或只是短期集中注意时，钻洞会夸大封闭与盲区。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 杨卫宁把注意力全部投入红岸技术问题而忽略政治风险
+vehicle: 人头朝前钻进狭窄深处，只看见内部而失去对外界的视野
+ground: 专注单一领域对应身体钻入一处；投入很深对应持续向内推进；忽视外部政治对应钻入后看不见周围；雷志成从外部提醒对应旁观者看见洞外危险

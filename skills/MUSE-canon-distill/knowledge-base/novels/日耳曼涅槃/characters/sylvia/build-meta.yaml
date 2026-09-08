@@ -1,0 +1,18 @@
+mode: reference
+display_name: 西尔维娅
+role_slug: sylvia
+source_novel: 日耳曼涅槃
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_02.md
+  - scenes/scene_12.md
+  - scenes/scene_28.md
+  - scenes/scene_29.md
+  - scenes/scene_30.md
+built_at: 2026-07-06T04:45:27+08:00
+skill_version: 1
+locator_count: 14
+has_canon_ending: false
+coverage_note: |
+  覆盖 scene_02/12/28/29/30 五场，声音跨 4 场（scene_02 仅外貌无对白）。第57章（飞越阿尔卑斯）、第88章（婚礼）未切片，飞行员身份据 navigation 与 scene_12 侧证，不展开叙述。角色存活，无 canon-ending。

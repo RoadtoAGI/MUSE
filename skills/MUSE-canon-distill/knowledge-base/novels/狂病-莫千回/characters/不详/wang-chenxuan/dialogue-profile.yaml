@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:不详--wang-chenxuan
+work_id: novel:狂病-莫千回
+display_name: 王晨轩
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '王晨轩说话直、带刺、不绕弯，泼辣里透着江湖气——当众怼亦凡"说的好像这里的谁不是从死山血海里走出来的一样"，一个白眼能把场子压住；这是她在社会上摸爬滚打多年练出来的语调。可这层硬壳一旦被真正的悲痛击穿，她就只剩断断续续的哭诉——讲述小队覆灭时哭得说不成句。到了最后，她的语言里浮出全篇最冷的清醒："在这个世界上，我已经分不清到底是感染者可怕还是人类可怕"——把硬核求生者的泼辣，收束成一句对人性的彻底失望。她叫"我"的方式始终带着熟稔与亲近，最后一句话却是茫然的追问"陶亦仁别抱了，陶亦仁在哪啊"——一句看不见幻觉的真话，成了戳穿整篇的引信。
+
+
+    佐证：scenes/scene_BX-S04.md:L55-L55 / scenes/scene_BX-S08.md:L39-L39 / scenes/scene_BX-S09.md:L19-L19'
+  evidence_locators:
+  - scenes/scene_BX-S04.md:L55-L55
+  - scenes/scene_BX-S08.md:L39-L39
+  - scenes/scene_BX-S09.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a79e6b36b974f684ba1a9b9d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L492
+chapter: 第4章 三体、周文王、长夜
+figure_type: analogy
+quote: 大地上的篝火比天上的星星都密
+sensory_mapping: 视觉；密度；天地镜像
+context_fact: 所有脱水人复活并彻夜狂欢。
+image_mechanism: 观察者把视线从星空翻到地表，两个黑色平面都布满光点，地面的人工星群甚至压过天上真星。
+property_alignment: 火点铺满地表对应星点铺满天空；远景火光缩成亮点对应远星点状光；地面密度超过天空形成天地倒置
+context_alignment: 真实夜景同时提供可比的上、下光点平面。
+narrative_function: 放大文明复苏规模并为太阳不再升起蓄反差。
+transfer_rule: 做密度比较时，可选择同场、同视觉单位却分属两个空间层的对象，让数量关系一眼可数。
+failure_boundary: 近景火堆显出大块火焰、天空有云无星或比较重点是亮度而非密度时，星群标尺不准。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 长恒纪元开始后遍地庆祝篝火的密度
+vehicle: 夜空中密布的星群
+ground: 火点铺满地表对应星点铺满天空；远景火光缩成亮点对应远星点状光；地面密度超过天空形成天地倒置

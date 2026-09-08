@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8b73ad9b478706b66262bea8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2470
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 光明灿烂的前景突然变得如此黯淡
+sensory_mapping: 强光熄灭；前方暗下；色彩褪去；视线受阻；会场沉默
+context_fact: 执政官先因地球近邻狂喜，随后得知舰队抵达时或被人类超越并反攻消灭。
+image_mechanism: 未来被摆在视野前方，宜居地球曾像阳光照亮路线；技术爆炸的推演遮住光源，舰队仍朝前，却看见的只剩暗色坟墓。
+property_alignment: 宜居目标对应明亮景物；近距离对应光线清晰；地球加速对应暗云遮光；舰队战败对应前景失色；反攻威胁对应黑暗扩大；会场沉默对应视觉暗化的心理结果
+context_alignment: 上一句舰队航向坟墓，此句把同一死亡判断扩展为整个文明未来的光线变化。
+narrative_function: 总结战略推演造成的情绪逆转，并引出遏制地球科学的计划。
+transfer_rule: 用前景明暗写未来判断时，应明确原光源、新遮蔽因素、可见路径变化和人物行动后果。
+failure_boundary: 风险只是轻微延迟、仍有明确胜利路径，或情绪未改变时，骤暗会过度悲观。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 发现地球近在四光年带来的移民胜利希望，被地球技术加速和未来反攻风险迅速削弱
+vehicle: 原本强光照亮的前方景色突然失去亮度，方向和道路都隐入暗处
+ground: 未来希望对应明亮前景；技术威胁出现对应光源熄灭；不确定和死亡对应黯淡；情绪由喜转忧对应视觉变暗

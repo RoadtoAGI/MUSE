@@ -1,0 +1,23 @@
+mode: reference
+display_name: 陆霞克
+role_slug: lu-xiake
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/地铁/phase3_spine.yaml  # 单篇人物未登记 phase2_character.yaml；结构化依据取 antagonistic_forces.internal.layer_2 + arc_framework.arc_6 + story_climax_design.closing_reversal
+  - pipeline/phase0_conception.yaml  # controlling_idea candidate_b 主题对照（道德/常态拖累生存的反英雄侧）
+  - scenes/scene_DT-S01.md
+  - scenes/scene_DT-S03.md
+  - scenes/scene_DT-S05.md
+  - scenes/scene_DT-S06.md
+  - scenes/scene_DT-S08.md
+  - scenes/scene_DT-S11.md
+built_at: 2026-05-29T17:21:48+08:00
+skill_version: 1
+locator_count: 14
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S03 黑色幽默吓哭刘敏 / S05 反讽补刀 / S11 临终懊恼+弹琴），稳定性充分。
+  边界跨 S05/S06/S11 三场景，每条带 locator；其中"绝不把赴死包装成英雄主义"与"绝不为保命丢下身边人"皆有 S11 极端检验场景直接佐证。
+  弧光起点（S01/S08）+ 转折（S05/S08/S11）+ 终点（S11）三段齐全。
+  陆霞克为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/地铁/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

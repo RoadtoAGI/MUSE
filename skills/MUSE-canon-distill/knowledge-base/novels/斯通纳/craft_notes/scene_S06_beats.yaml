@@ -1,0 +1,28 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 逐步升级
+  dimension: verb
+  original_move: 用装修动词包装夺取行为
+  ai_default_failure: 写格蕾斯委屈或斯通纳愤怒
+  transfer_rule: 写冷暴力时让家务动作替代争吵
+  quote: 搬走，重新倒饬
+- pattern_id: S06-p2
+  beat: 空间侵占
+  dimension: camera
+  original_move: 只给回家后物件被挤压的结果
+  ai_default_failure: 写他握拳或砸墙的爆发
+  transfer_rule: 写失去领地时先罗列物件位置
+  quote: 把他的所有东西都搬出书房
+- pattern_id: S06-p3
+  beat: 诊断而非威胁
+  dimension: overall
+  original_move: 威胁句写成平静诊断
+  ai_default_failure: 把对抗写成歇斯底里的争吵
+  transfer_rule: 写控制关系时让冷静比怒气更可怕
+  quote: 你永远不会离开我
+overall_traits:
+- 家庭战争物件化
+- 冷暴力通过秩序升级
+- 情绪反应被删去

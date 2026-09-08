@@ -1,0 +1,22 @@
+card_id: frame-of-years-later
+pattern_name: 序尾回环·距离框
+dramatic_function: 把高烈度悲剧装进多年后回看的框架，先抛问题再让正剧作答，以距离调出哀静，防止煽情灼伤观众。
+applicability: 适用烈度过高易煽情的题材；正剧不够厚重则框架空转；演出常删框需接受失距离的风险（单书孤证，验证面窄）
+reuse_candidates:
+- 教堂医院与巴赫弥撒的具体环境
+- 姊弟问话机器的具体人物设定
+tags:
+- 框架结构
+- 距离感
+- 序幕尾声
+- 回环收束
+source_scenes:
+- novel: 雷雨
+  scene_id: PROLOGUE
+  note: 空台弥撒开场，姊弟以「你去问她」把问题抛给观众
+- novel: 雷雨
+  scene_id: EPILOGUE
+  note: 续起序幕半句台词，呼名无应后三个无言动作定格离场
+phase_affinity:
+- 3
+- 4

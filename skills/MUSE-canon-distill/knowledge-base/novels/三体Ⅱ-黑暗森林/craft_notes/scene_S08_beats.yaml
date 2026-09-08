@@ -1,0 +1,27 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 制造子弹
+  dimension: verb
+  original_move: 杀人准备写成取粘压推的组装工序，零心理
+  ai_default_failure: 加手微微颤抖、深吸一口气等心理体态
+  transfer_rule: 冷面角色的罪行只给工序，文本温度即人物温度
+  quote: 用钳子依次把这些子弹的弹头取下来
+- pattern_id: S08-p2
+  beat: 太空等待
+  dimension: omission
+  original_move: 情感只在两个技术段缝隙闪现一句即被行动吞没
+  ai_default_failure: 把父亲念头展开成整段回忆与内心独白
+  transfer_rule: 克制型人物的情感按秒配给，露一线立刻收回
+  quote: 父亲的在天之灵可能也是这种感觉
+- pattern_id: S08-p3
+  beat: 开枪后
+  dimension: info_density
+  original_move: 命中不写画面，给初速与飞行时间让读者自算风险
+  ai_default_failure: 屏息瞄准风向调整连串渲染加命中特写
+  transfer_rule: 远距与数据皆可作省略工具，死亡化为数据点
+  quote: 子弹飞完这段距离约需十秒钟
+overall_traits:
+- 谋杀写成技术报告，情感总量近零
+- 不提供道德框架，读者自行裁决行为性质

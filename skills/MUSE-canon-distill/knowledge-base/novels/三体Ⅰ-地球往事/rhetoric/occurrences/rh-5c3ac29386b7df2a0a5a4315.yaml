@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5c3ac29386b7df2a0a5a4315
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L93
+chapter: 第1章 科学边界
+figure_type: metaphor
+quote: 整个画面苏醒过来，仿佛照片中的世界认出了那个身影，仿佛这一切本来就是为她而存在
+sensory_mapping: 视觉；生命动作；情感
+context_fact: 汪淼把刚见到的杨冬依次想象叠印进黑白风景作品。
+image_mechanism: 静态照片先被赋予睡眠状态，再依次获得苏醒、辨认和确认归属三个人类动作；杨冬的加入于是从构图调整升级为世界获得生命与目的。
+property_alignment: 原本乏味画面获得生命感对应沉睡者醒来；人物与景物高度契合对应世界认出本来属于它的人；多幅照片获得统一意义对应世界围绕她获得目的
+context_alignment: 人物作为视觉元素进入照片，苏醒和认领把审美变化写成连续动作。
+narrative_function: 把一见倾心转化为摄影构图变化，揭示投射与迷恋。
+transfer_rule: 写人物改变环境意义时，可让环境依次完成“状态改变—识别人—确认关系”的动作链，使情感从构图关系中长出。
+failure_boundary: 若人物只增添亮色却未与景物构图相合，“世界认出她”就没有识别依据；用于普通修图也会把情感强度写过头。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬身影进入汪淼风景照片后产生的审美变化
+vehicle: 沉睡世界苏醒并认出命定归属者
+ground: 原本乏味画面获得生命感对应沉睡者醒来；人物与景物高度契合对应世界认出本来属于它的人；多幅照片获得统一意义对应世界围绕她获得目的

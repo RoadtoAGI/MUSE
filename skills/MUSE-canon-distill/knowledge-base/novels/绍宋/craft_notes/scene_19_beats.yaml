@@ -1,0 +1,36 @@
+scene_id: '19'
+source_notes: scene_19_beats.md
+patterns:
+- pattern_id: 19-p1
+  beat: 找错了人
+  dimension: omission
+  original_move: 用找中间人的行为暴露主帅焦虑
+  ai_default_failure: 会写将军独自远眺沉思
+  transfer_rule: 写责任重压时让行为先泄露心态
+  quote: 能否请相公再去劝一劝官家
+- pattern_id: 19-p2
+  beat: 看绿色
+  dimension: camera
+  original_move: 不看敌阵而看春绿和无人农田
+  ai_default_failure: 会让主角只分析敌军兵力部署
+  transfer_rule: 写战前远眺时用非军事物显示代价
+  quote: 绿色居然肉眼可见变的浓厚起来
+- pattern_id: 19-p3
+  beat: 是字节奏
+  dimension: omission
+  original_move: 四个是字压缩十五万人生死方略
+  ai_default_failure: 会安排争论献策和主角戏剧拍板
+  transfer_rule: 写将帅默契时删去多余解释
+  quote: 是
+- pattern_id: 19-p4
+  beat: 迁都燕京
+  dimension: info_density
+  original_move: 用战后百年远景加重战前赌注
+  ai_default_failure: 会只谈当前会战胜负
+  transfer_rule: 决战前可抛出胜利后的秩序问题
+  quote: 何妨迁都燕京，重定乾坤
+overall_traits:
+- 等待比战斗更有张力
+- 看绿色等于看代价
+- 是字承载将帅默契
+- 战后远景做战前赌注

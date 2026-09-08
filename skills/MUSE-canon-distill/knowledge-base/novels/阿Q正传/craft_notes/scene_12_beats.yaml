@@ -1,0 +1,28 @@
+scene_id: '12'
+source_notes: scene_12_beats.md
+patterns:
+- pattern_id: 12-p1
+  beat: 被截断的表演
+  dimension: omission
+  original_move: 用选戏文替代临死恐惧描写
+  ai_default_failure: 会写死亡阴影和巨大恐惧
+  transfer_rule: 写终局时让角色误用旧认知框架
+  quote: 于是手执钢鞭也不唱了
+- pattern_id: 12-p2
+  beat: 狼眼与人眼
+  dimension: verb
+  original_move: 从穿透升级到咀嚼，动词递增压迫
+  ai_default_failure: 会解释人比狼更可怕
+  transfer_rule: 写顿悟时并列意象不抽象总结
+  quote: 还要咀嚼他皮肉以外的东西
+- pattern_id: 12-p3
+  beat: 未说出的救命
+  dimension: omission
+  original_move: 让关键呼救出现又被撤回
+  ai_default_failure: 会让角色喊出高潮台词
+  transfer_rule: 写无力感时让动作停在执行前
+  quote: 然而阿Ｑ没有说
+overall_traits:
+- 反高潮式高潮，拒绝升华
+- 未完成动作传递无力感
+- 物理感知替代情感语言

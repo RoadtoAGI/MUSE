@@ -1,0 +1,28 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 檀溪对话
+  dimension: omission
+  original_move: 价值观从典故闲谈中渗透，命题由听者自己总结
+  ai_default_failure: 正襟危坐语重心长讲一番道理
+  transfer_rule: 灌输主题让听者提炼，不给说教篇幅
+  quote: 为国为民，侠之大者
+- pattern_id: S12-p2
+  beat: 三度犹豫
+  dimension: verb
+  original_move: 心理动词全用不确定态，犹豫被外部事件打断
+  ai_default_failure: 每次犹豫展开杀与不杀的理由清单
+  transfer_rule: 道德困境寄生于观察，内外叙事共用节奏
+  quote: 心中也似有两军交战一般
+- pattern_id: S12-p3
+  beat: 飞身相救
+  dimension: omission
+  original_move: 心乱与行动之间只有「突然间」，决定瞬间不存在
+  ai_default_failure: 先完成艰难抉择独白再行动
+  transfer_rule: 关键转折让身体先于大脑，事后也不点破
+  quote: 突然间左手拉住半截绳索，扑下城去
+overall_traits:
+- 说教场景改写成并辔闲谈，镜头向外
+- 行为先于意识：读者比角色早懂转折
+- 连珠三箭替代感谢，战斗惯性吞没情感节点

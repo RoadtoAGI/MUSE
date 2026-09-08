@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d0ab51212583122a18db2c92
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2611
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 智子对空间的性质了如指掌
+sensory_mapping: 手掌近观；掌纹清晰；触觉熟悉；一眼尽知；细节无遗漏
+context_fact: 智子准备飞往地球，可从真空借能并在极短时间进入近光速状态。
+image_mechanism: 浩瀚抽象空间被缩到掌心尺度，真空结构像掌纹一样摊开；智子不是在陌生宇宙中试探，而像使用自身手掌般调用每条路径。
+property_alignment: 空间复杂性质对应掌纹细节；庞大知识库对应长期熟悉；从真空取能对应按掌部位取用；航行精确对应手部动作自如；无需外部探索对应低头即见
+context_alignment: 这一高度常规的成语放在高维智能身上获得字面反差：它掌握的不是小物而是空间本身。
+narrative_function: 简洁标定智子的知识优势，为其近光速机动给出能力来源。
+transfer_rule: 使用了如指掌时，应让主体对对象拥有全面、细密、可立即调用且经得住行动验证的熟悉。
+failure_boundary: 主体只掌握少量理论、仍需大量试错，或对象变化不可预测时，掌纹式确定性会过度承诺。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 智子知识库完整掌握真空和空间结构，可精确利用其中能量与航行规律
+vehicle: 人低头看自己的手掌，掌纹、关节和每处细节都熟悉到无需探查
+ground: 空间规律全面可知对应掌纹一览；调用知识迅速对应熟悉自己的手；细节没有陌生处

@@ -1,0 +1,56 @@
+scene_id: A2
+source_notes: scene_A2_beats.md
+patterns:
+- pattern_id: A2-p1
+  beat: 哨声接场
+  dimension: transition
+  original_move: 以口哨暗号开场承接辞退余波，信号仪式兼作后场伏笔。
+  ai_default_failure: 让两人直接进屋对话，丢掉信号仪式。
+  transfer_rule: 给恋人设可重复的声音暗号，后场反用它。
+  quote: 低低地吹出一种奇怪的哨声
+- pattern_id: A2-p2
+  beat: 蘩漪逼萍
+  dimension: exchange
+  original_move: 对峙弹药递增排布，私生子身世牌甩在对方转身要走时。
+  ai_default_failure: 平均分配火力，开场即高声互撕。
+  transfer_rule: 长对峙以离场企图为节拍器，每次拦截升一级。
+  quote: 你欠了我一笔债
+- pattern_id: A2-p3
+  beat: 物证认亲
+  dimension: exchange
+  original_move: 三十年前史靠物件出土：关窗习惯、绣梅花衬衣、萍字。
+  ai_default_failure: 用大段回忆独白对账往事。
+  transfer_rule: 相认戏让道具说话，用细节逼对方完成指认。
+  quote: 旁边还绣着一个萍字
+- pattern_id: A2-p4
+  beat: 撕支票
+  dimension: blocking
+  original_move: 支票接过道谢再慢慢撕碎，判决全在手部动作，台词仅谢字。
+  ai_default_failure: 写一段拒绝收买的正面控诉台词。
+  transfer_rule: 道德判决落成可演的动作，比控诉词重十倍。
+  quote: 谢谢你。（慢慢撕碎支票）
+- pattern_id: A2-p5
+  beat: 两线相撞
+  dimension: blocking
+  original_move: 罢工线闯进认亲线同台相撞，萍打大海即兄打弟，仅观众知。
+  ai_default_failure: 避开巧合，把两条线分场处理。
+  transfer_rule: 高浓度反讽让两线同台即自动生成，不写进台词。
+  quote: 你打的这个人的妈
+- pattern_id: A2-p6
+  beat: 萍——凭
+  dimension: exchange
+  original_move: 「你是萍——凭什么打我的儿子」一字滑转，认子改口成质问。
+  ai_default_failure: 让母亲当场认子或彻底隐忍。
+  transfer_rule: 不能说的身份让它在口误边缘擦过，观众听见全部。
+  quote: 你是萍，——凭什么打我的儿子？
+- pattern_id: A2-p7
+  beat: 辞退收尾
+  dimension: transition
+  original_move: 风暴后以算工钱的事务口吻收场，风雷声渐起压向下一幕。
+  ai_default_failure: 以情绪高点直接切幕。
+  transfer_rule: 峰值后补一拍冷处理事务戏，余震与预兆同时工作。
+  quote: 多算两个月的工钱
+overall_traits:
+- 揭示对观众先行、对剧中人延迟，反讽差恒在
+- 道具是揭示的发动机，台词只跟随
+- 同一客厅承载两次峰值，空间复用即命运回环

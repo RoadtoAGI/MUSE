@@ -1,0 +1,457 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    Macbeth 角色谱密度极高（25+ named roles in ~18k words）。本表按戏剧功能
+    分组：核心轴心（Macbeth / Lady Macbeth / Witches / Banquo / Macduff / Malcolm /
+    Duncan）→ 功能性配角（Hecate / Lady Macduff / Macduff's Son / Porter / Ross /
+    Lennox / Old Man / Doctor / Gentlewoman / Seyton / Siward / Young Siward）→
+    群体功能位（Murderers / Apparitions / Thanes / Soldiers）。
+    Phase B 角色蒸馏候选 pool 由 dramatic_role 字段筛选——见各 role 的 dramatic_role。
+
+roles:
+  macbeth:
+    dramatic_role: protagonist
+    desire:
+      external: scottish_crown_and_secure_dynasty
+      internal: certainty_that_imagination_will_not_be_punished
+    obstacle: |
+      Internal — his own conscience and pictorial imagination ("strange
+      images of death," dagger of the mind, ghost at banquet) which
+      shows him every cost before he pays it.
+      External — guest-host taboo (A1S7), Banquo as witness + dynastic
+      rival, Fleance's escape, Macduff's defection, English army.
+    voice_function: imagining_avenger_who_keeps_seeing_what_he_does
+    soliloquy_signature: true
+    status_arc: |
+      victorious thane (+) → tempted partner (±) → reluctant murderer (-) →
+      crowned tyrant losing sleep (--) → public_haunted_breakdown (--) →
+      pure decisionist butcher (---) → nihilist exhausted (---) →
+      cornered animal denying yield (-?) → decapitated tyrant (--)
+    relationship_anchors:
+      - lady_macbeth (partner → silent_partner → silent → dead)
+      - duncan (kinsman/king/guest → victim)
+      - banquo (battlefield_brother → threat → ghost)
+      - macduff (peer thane → absent thane → nemesis)
+      - witches (oracle → returning-supplicant → resentful believer)
+    aria_or_soliloquy_locations:
+      - A1S3 "This supernatural soliciting" (aside/proto-soliloquy)
+      - A1S4 "Stars, hide your fires" (aside)
+      - A1S7 "If it were done when 'tis done" (full soliloquy)
+      - A2S1 "Is this a dagger which I see before me" (full soliloquy)
+      - A3S1 "To be thus is nothing" (full soliloquy)
+      - A4S1 "Time, thou anticipat'st my dread exploits" (aside)
+      - A5S3 "My way of life is fall'n into the sear" (proto-soliloquy)
+      - A5S5 "Tomorrow, and tomorrow, and tomorrow" (terminal soliloquy)
+    voice_signature: |
+      Iambic pentameter loaded with abstract nouns (function /
+      surmise / consequence / equivocation), conditional clauses
+      ("if … if … if"), and pictorial nouns made of physical matter
+      (dagger / blood / hand / hair / seas / sleep). Speaks the most
+      lines in the play but is alone or beside one trusted listener
+      for the majority of his most important utterances.
+
+  lady_macbeth:
+    dramatic_role: co-protagonist / engine / collateral_casualty
+    desire:
+      external: see_husband_crowned_under_her_direction
+      internal: be_the_one_who_did_not_flinch
+    obstacle: |
+      Her own pre-action self-disablement ("had he not resembled
+      my father as he slept, I had done't" A2S2). The "unsex me"
+      invocation works in the short term and is paid for in full
+      across A3S2 (excluded) → A5S1 (broken) → A5S5 (offstage suicide).
+    voice_function: |
+      Will-engine that recodes hesitation as cowardice and turns
+      ambition into operation. Switches to broken prose only in A5S1.
+    soliloquy_signature: true
+    status_arc: |
+      ambitious_thane's_wife_unsexing_herself (+) → mistress_of_the_house's_hospitality_lie (+) →
+      manager_of_aftermath_(daggers/grooms) (+) → ascended_queen (+) →
+      partially_excluded_partner (-) → public_cover_for_husband's_breakdown (-) →
+      sleepwalking_confessor (--) → offstage_suicide (---)
+    relationship_anchors:
+      - macbeth (his_engine → his_silent_witness → his_offstage_dead)
+      - duncan (asleep guest → "had he not resembled my father")
+      - duncan's_chamberlains (drugged tools)
+      - doctor + gentlewoman (in A5S1 — clinical observers replacing audience proxies)
+    aria_or_soliloquy_locations:
+      - A1S5 letter-read + "Come, you spirits, that tend on mortal thoughts, unsex me here" (full soliloquy)
+      - A1S5 "The raven himself is hoarse" (proto-soliloquy)
+      - A3S2 "Naught's had, all's spent" (brief soliloquy)
+      - A5S1 "Out, damned spot" (sleepwalking — broken prose monologue, structurally a soliloquy)
+    voice_signature: |
+      Until A5S1: iambic pentameter sharp with imperatives and
+      double-meaning hospitality registers ("look like th'innocent
+      flower"); manhood-rhetoric repeatedly: "when you durst do it,
+      then you were a man." From A5S1: prose fragments, repetitive
+      ("to bed, to bed, to bed"), tactile ("here's the smell of the
+      blood still"), domestic-imperative ("wash your hands, put on
+      your nightgown") — the same register she used to manage her
+      husband, now turned uselessly inward.
+
+  duncan:
+    dramatic_role: victim_king / sacred_authority
+    desire: secure_succession_for_malcolm + reward_his_thanes
+    voice_function: ceremonial_warmth (every line he says becomes ironic in retrospect)
+    status_arc: victorious_king(+) → trusting_guest(+) → murdered_in_sleep(---)
+    relationship_anchors:
+      - macbeth (cousin/thane/host)
+      - malcolm (heir)
+      - banquo (loyal cousin)
+    notable_lines:
+      - A1S4 "There's no art / To find the mind's construction in the face" (immediately before greeting Macbeth)
+      - A1S6 "This castle hath a pleasant seat"
+    voice_signature: |
+      Generous superlatives, plant/harvest metaphors ("I have begun
+      to plant thee"), public formality. The trust is the wound.
+
+  banquo:
+    dramatic_role: shadow_protagonist / dynastic_threat / ghost
+    desire: |
+      Living: navigate the prophecy honorably ("so I lose none /
+      In seeking to augment it"). Dead/ghost: visible witness to
+      Macbeth at the banquet.
+    voice_function: counter-conscience_then_silent_specter
+    status_arc: equal_co-prophesied(+) → suspicious_courtier(±) → murdered_father(--) → returning_ghost(--) → dynastic_promise_in_show_of_kings(+)
+    relationship_anchors:
+      - macbeth (battlefield brother → wary courtier → ghost)
+      - fleance (son → escapee → unseen future)
+      - witches (junior prophesied)
+    aria_or_soliloquy_locations:
+      - A1S3 "If you can look into the seeds of time" (aside-form)
+      - A3S1 "Thou hast it now: king, Cawdor, Glamis, all" (soliloquy)
+    voice_signature: |
+      Sober iambic pentameter; image of seeds, planting, time
+      ("seeds of time", "if there come truth from them"); ethical
+      hedge clauses. As ghost: silent, only stage presence.
+
+  fleance:
+    dramatic_role: dynastic_survivor (functional)
+    desire: survive_to_carry_the_line
+    voice_function: minimal_voice_maximum_structural_freight
+    status_arc: torchbearer_son(+) → escapee_into_darkness(+ open)
+    relationship_anchors:
+      - banquo (father telling him to revenge)
+    notes: "his offstage future = the show of eight kings' promise"
+
+  macduff:
+    dramatic_role: avenger / counter-king-instrument
+    desire: |
+      Initially — preserve scottish order, refuse complicity (A2S4).
+      After A4S2 — kill Macbeth himself ("Tyrant, show thy face"
+      A5S7).
+    voice_function: plain-truth_thane_who_grieves_then_acts
+    status_arc: dutiful_thane(+) → discoverer_of_regicide(+) → refusing_courtier(±) → exiled_seeker_of_help(±) → grieving_father(-) → avenging_executioner(+)
+    relationship_anchors:
+      - lady_macduff (abandoned wife)
+      - son (slaughtered)
+      - malcolm (rightful king he tests/serves)
+      - macbeth (peer thane → nemesis)
+    aria_or_soliloquy_locations:
+      - A4S3 grief speech ("He has no children" / "I must also feel it as a man")
+      - A5S7 challenge ("Turn, hell-hound, turn") + revelation ("from his mother's womb / Untimely ripped")
+    voice_signature: |
+      Direct iambic pentameter, plain diction ("I must also feel it
+      as a man"); when grieving, repetition ("All my pretty ones?
+      Did you say all?"). Refuses elevated formula; the moral
+      center of the second half of the play.
+
+  lady_macduff:
+    dramatic_role: collateral_victim / domestic_witness
+    desire: protect_children + understand_husband's_choice
+    voice_function: pre-slaughter_argument_for_natural_attachment
+    status_arc: argued-with_wife(±) → warned_too_late(-) → slaughtered_offstage(---)
+    relationship_anchors:
+      - macduff (absent husband)
+      - son (companion / second corpse)
+      - ross (cousin / equivocal messenger)
+    notable_lines:
+      - "He loves us not: he wants the natural touch" (A4S2)
+      - "I have done no harm. But I remember now / I am in this earthly world ..." (A4S2)
+    voice_signature: |
+      Clear, conversational, prose-friendly in the riddling
+      exchange with her son, then verse despair. Functions as the
+      play's argument that domestic abandonment is itself a kind
+      of regicide.
+
+  macduffs_son:
+    dramatic_role: innocent_witness / onstage_victim_for_moral_weight
+    desire: defend_father's_honor + outwit_mother's_grief
+    voice_function: child-wit_in_riddling_prose
+    status_arc: live_child(+) → stabbed_onstage(---)
+    notable_lines:
+      - "If he were dead, you'd weep for him: if you would not, it were a good sign that I should quickly have a new father." (A4S2)
+      - "He has killed me, mother. Run away, I pray you!" (A4S2 — his death line is also his only altruistic act)
+    voice_signature: |
+      Prose only; wit beyond his years (a Shakespearean convention
+      that makes the death cost more). One of two onstage child
+      deaths in Shakespeare.
+
+  malcolm:
+    dramatic_role: rightful_heir / political_strategist
+    desire: |
+      Survive father's murder → judge whom to trust → recover the
+      throne with English help → reign without inheriting Macbeth's
+      paranoia.
+    voice_function: testing_intelligence_growing_into_kingly_rhetoric
+    status_arc: protected_son(+) → fleeing_prince(-) → exiled_strategist_in_england(±) → tested_ally(+) → marching_general(+) → hailed_king(+)
+    relationship_anchors:
+      - duncan (father → murdered)
+      - donalbain (brother → separate exile)
+      - macduff (tested ally → general)
+      - edward (sacred host)
+      - siward (uncle / military backer)
+    notable_lines:
+      - A2S3 (aside to Donalbain) "Why do we hold our tongues, / That most may claim this argument for ours?"
+      - A4S3 self-slander speech + reversal ("Macduff, this noble passion, / Child of integrity ...")
+      - A5S7 closing speech naming new earls and coronation at Scone
+    voice_signature: |
+      Iambic pentameter with diplomatic hedging early; ceremonial
+      and inclusive late. Crucially, his closing speech names
+      Macbeth "dead butcher" and Lady Macbeth "fiend-like queen" —
+      no retroactive ennoblement.
+
+  donalbain:
+    dramatic_role: secondary_heir / aside-partner
+    desire: survive
+    voice_function: prudent_younger_brother
+    status_arc: prince(+) → fleeing_to_ireland(±) → absent_for_remainder
+    notable_lines:
+      - "There's daggers in men's smiles; the nea'er in blood, / The nearer bloody." (A2S3)
+    notes: "Functionally important once (A2S3 flight decision); thereafter named as absent."
+
+  three_witches:
+    dramatic_role: ambiguous_oracle / catalyst / chorus_of_inversion
+    medium_grammar_role: supernatural_disturbance_choric_register
+    desire: |
+      Within their own logic — execute Hecate's design to "draw him
+      on to his confusion." But the play deliberately preserves
+      ambiguity: are they fate, temptation, illusion, or something
+      that uses prophecy to corrupt without lying?
+    voice_function: rhymed_trochaic_inversion_of_the_human_world
+    soliloquy_signature: false (always choric / triadic)
+    status_arc: opening_promise(+) → fulfilling_promise(+) → fatal_apparition-delivery(--) → vanish (offstage for the rest)
+    relationship_anchors:
+      - macbeth (chosen target)
+      - banquo (junior prophesied)
+      - hecate (mistress)
+    notable_lines:
+      - A1S1 "Fair is foul, and foul is fair: / Hover through the fog and filthy air"
+      - A4S1 "Double, double, toil and trouble: / Fire burn, and cauldron bubble"
+      - A4S1 (Second Witch) "By the pricking of my thumbs, / Something wicked this way comes"
+    voice_signature: |
+      Trochaic tetrameter, rhymed couplets, triadic structure (three
+      voices, three predictions, three repetitions). Distinct
+      enough that the audience always knows when supernatural
+      register is operating.
+
+  hecate:
+    dramatic_role: chief_witch / explanatory_chorus_for_apparitions
+    desire: control_the_witches'_dealings + ensure_macbeth's_destruction_is_well-designed
+    voice_function: explicit_warning_label_on_a4s1
+    status_arc: arriving_furious(+) → preparing_artificial_sprites(+) → exit (probably to A4S1 cauldron — staging-dependent)
+    notable_lines:
+      - A3S5 "security / Is mortals' chiefest enemy"
+    notes: |
+      Likely Middleton interpolation in A3S5 and parts of A4S1; in
+      pure Shakespearean text the apparitions need no narrator. RSC
+      preserves; her function in performance is to let the audience
+      know in advance that the apparitions are designed traps.
+
+  ross:
+    dramatic_role: messenger / connective_thane / equivocal_observer
+    desire: serve_whoever_holds_legitimate_power + survive_the_transitions
+    voice_function: news-bearer_carrying_play's_information_load
+    status_arc: bringer_of_cawdor_news(+) → bringer_of_omens(±) → bringer_of_warning_to_lady_macduff(±) → bringer_of_fife_news_to_macduff(--) → courtier_at_malcolm's_coronation(+)
+    notable_lines:
+      - A4S3 "Alas, poor country, / Almost afraid to know itself"
+      - A4S3 (delivering fife news to macduff) "Your castle is surprised ..."
+    voice_signature: |
+      Iambic pentameter, polite circumlocution before grim news;
+      hedging modifiers. Structurally the play's connective
+      tissue — every act has a Ross scene or visit.
+
+  lennox:
+    dramatic_role: courtier_observer / chorus
+    voice_function: ironic_loyalty_then_open_opposition
+    status_arc: courteous_courtier(+) → ironic_pretender_loyal_to_macbeth(±, A3S6) → joining_the_avenging_army(+)
+    notable_lines:
+      - A3S6 ironic speech to a fellow lord (pretending to praise Macbeth while exposing his crimes)
+    notes: |
+      Almost every "what's happening politically?" question in the
+      play has Lennox in the room.
+
+  seyton:
+    dramatic_role: macbeth's_personal_servant / death-attendant
+    voice_function: minimal_factual_reports_at_collapse
+    status_arc: armorer-aide(+) → bearer_of_queen's_death(--)
+    notable_lines:
+      - A5S5 "The queen, my lord, is dead."
+    notes: |
+      Name evokes "Satan"; functions as Macbeth's last attendant.
+
+  porter:
+    dramatic_role: comic_chorus / equivocation-namer
+    voice_function: drunken_prose_riff_naming_the_castle_hell
+    status_arc: drunk_doorkeeper(+) → vanishes_after_letting_in_macduff
+    notable_lines:
+      - A2S3 entire opening monologue ("Here's a knocking indeed!")
+    voice_signature: |
+      Prose throughout; double-entendre about drink/sex/equivocation;
+      religious naming ("Beelzebub," "everlasting bonfire"). The only
+      sustained prose comic relief in the play; functionally it gives
+      audience the only laughter that lets the regicide land at full
+      weight.
+
+  old_man:
+    dramatic_role: choric_witness / ancient_memory
+    voice_function: registers_omens_as_unprecedented
+    status_arc: appears_only_in_A2S4
+    notable_lines:
+      - "Threescore and ten I can remember well ... but this sore night / Hath trifled former knowings."
+    notes: pure structural function — gives the unnatural omens the weight of "in my long life, never."
+
+  doctor_of_physic:
+    dramatic_role: clinical_observer / threshold_to_the_divine
+    voice_function: physician_naming_the_limit_of_physic
+    status_arc: appears_A5S1_+_A5S3
+    notable_lines:
+      - A5S1 "More needs she the divine than the physician."
+      - A5S3 (aside) "Were I from Dunsinane away and clear, / Profit again should hardly draw me here."
+    notes: |
+      Distinct from the English Court Doctor (A4S3) who reports
+      Edward's healing touch. The two doctor-scenes form a
+      counter-pair: English doctor witnesses miracles, Scottish
+      doctor witnesses a soul beyond medicine.
+
+  english_court_doctor:
+    dramatic_role: choric_witness_to_sacred_kingship
+    voice_function: brief_factual_report_of_edward's_touching_for_the_evil
+    notes: |
+      Short appearance in A4S3; functionally a counter-image to the
+      diseased Scottish court Macbeth presides over.
+
+  gentlewoman:
+    dramatic_role: discreet_witness / co-observer_in_sleepwalk
+    voice_function: cautious_factual_reporter_who_refuses_to_repeat_words_without_witness
+    notable_lines:
+      - A5S1 "I would not have such a heart in my bosom for / the dignity of the whole body."
+    notes: |
+      Her refusal to repeat Lady Macbeth's words without "witness
+      to confirm" sets up Doctor's caution and the audience's
+      privileged position.
+
+  siward:
+    dramatic_role: english_general / archetype_of_just_warrior
+    voice_function: soldierly_economy_+_stoic_grief
+    status_arc: arriving_general(+) → father_receiving_son's_death_with_resolve(+/--)
+    notable_lines:
+      - A5S7 (on son's death) "Had I as many sons as I have hairs / I would not wish them to a fairer death"
+    notes: |
+      Northumbrian historical figure; functions as the play's icon
+      of warrior virtue without political stake.
+
+  young_siward:
+    dramatic_role: martyr_of_the_lawful_army
+    voice_function: brief_brave_challenge
+    status_arc: enters_A5S7 → killed_by_macbeth → reported_dead_with_wounds_in_front
+    notes: |
+      His death proves Macbeth is still lethal; Siward's stoic
+      reception proves the rightful order can absorb such losses
+      where Macbeth's regime cannot.
+
+  three_murderers:
+    dramatic_role: instruments_of_macbeth's_will
+    voice_function: minimal — recruited and dispatched
+    notes: |
+      The mysterious "third murderer" (A3S3) is one of the play's
+      famous textual cruxes; some readings have Macbeth himself,
+      others a sent observer. In any reading, the function is to
+      keep witch-uncertainty in play even at the level of his own
+      operatives.
+
+  apparitions:
+    dramatic_role: oracle_devices (armed head, bloody child, child crowned with tree)
+    voice_function: each_speaks_a_single_equivocation_designed_to_be_decoded_in_act5
+    notes: |
+      Plus the show of eight kings + Banquo with glass — visual
+      prophecy of Stuart lineage; reading the eighth king's mirror
+      as a flattering nod to James I is a near-universal critical
+      consensus.
+
+  thanes_collective:
+    dramatic_role: chorus_of_political_legitimacy
+    members: [ross, lennox, menteith, caithness, angus]
+    notes: |
+      Acts 1-3 they attend court / report; act 5 they march to
+      Birnam. Their collective shift is the play's quantitative
+      proof of regime collapse.
+
+# 角色对比轴
+contrast_axes:
+  axis_manhood:
+    poles:
+      - macbeth (manhood as defined by capacity for atrocity, A1S7)
+      - macduff (manhood as capacity to "also feel it as a man", A4S3)
+    function: |
+      The two definitions of manhood frame the play's central
+      ethical question. Lady Macbeth's version (A1S7) wins twice
+      and loses everything; Malcolm's version (A4S3) wins once
+      and inherits the throne.
+
+  axis_kingship_legitimacy:
+    poles:
+      - duncan + malcolm + edward (sacred kingship, plant/harvest, healing touch)
+      - macbeth (usurper in a giant's robe on a dwarfish thief)
+    function: |
+      The play does not let the audience entertain Macbeth as a
+      ruler of any other kind — the metaphors are remorseless.
+
+  axis_prophecy_response:
+    poles:
+      - macbeth (acts on prophecy, gets the literal letter false)
+      - banquo (hedges, waits, asks where the truth would lead)
+    function: |
+      The play's most testable thought experiment: same prophecy,
+      two responses, two fates.
+
+  axis_marriage_arc:
+    poles:
+      - a1s5_a1s7 (lady macbeth dominant, partnership operational)
+      - a3s2 (macbeth withholds, partnership strained)
+      - a5s1_a5s5 (offstage suicide reported as one-line cue)
+    function: |
+      The marriage is the play's most carefully tracked
+      relationship; it begins as the engine and ends as a cry-within.
+
+# 关系核心张力
+relationships:
+  key_tensions:
+    - macbeth--lady_macbeth (engine partnership → silence → offstage death)
+    - macbeth--banquo (battlefield brother → murdered → ghost → dynastic show)
+    - macbeth--macduff (peer → absentee → avenger → executioner)
+    - macbeth--witches (suppliant target → returning believer → equivocated victim)
+    - malcolm--macduff (heir to test → tested → general)
+    - duncan--macbeth (cousin/king/host → trusted guest → corpse)
+    - lady_macduff--macduff (abandoned → slaughtered, offstage to him)
+
+# Phase B 角色蒸馏候选 pool
+character_distill_pool:
+  primary_candidates:           # 强证据 / 多场 / 完整声音特征
+    - macbeth                   # 8 soliloquies, presence A1-A5, voice fully developed
+    - lady_macbeth              # 3 soliloquy moments + sleepwalking, voice register-shifts
+    - macduff                   # A2S3 / A2S4 / A4S3 / A5S7 — full arc with both grief and action
+    - malcolm                   # A1-A5 with explicit voice-change from prince to king
+    - banquo                    # A1S3 / A2S1 / A3S1 + ghost — sustained second-voice
+  secondary_candidates:         # 评估有节制
+    - witches_(as_collective)   # 强声音特征但是 collective; 蒸馏需声明 chorus-mode
+    - porter                    # 仅 A2S3 但 voice 极有 signature (prose / equivocation riff)
+    - lady_macduff              # 只 A4S2，但 voice 有清晰 ethical 立场
+  not_distilled:
+    - duncan / hecate / ross / lennox / siward / fleance / etc.
+                                # voice / arc 体量不足以独立 SKILL；保留在 phase2_roles.yaml 作为
+                                # 关系锚定即可

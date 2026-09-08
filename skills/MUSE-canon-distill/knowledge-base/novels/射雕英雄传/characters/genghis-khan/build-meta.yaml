@@ -1,0 +1,20 @@
+mode: reference
+display_name: 成吉思汗
+role_slug: genghis-khan
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_13.md
+  - scenes/scene_15.md
+built_at: 2026-04-14T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 11
+coverage_note: |
+  成吉思汗全书共出场 3 个场景（S13 锦囊密令、S15 英雄论+结局、S21 飞降破城）。本次蒸馏以 S13+S15 为主佐证：
+  - S13 提供他"帝王怒命"的常态与"以母亲要挟"的核心缺陷直接证据
+  - S15 提供他的"临终柔软""英雄论反思""吐血""喃喃"——全篇弧光的收束点
+
+  S21（飞降破城）未引用——该场景主要展示郭靖军事才华，成吉思汗在其中作为"赞赏者"出场，与 S13/S15 中已显影的核心人格无新增维度，故不纳入佐证以保持定位集中。
+
+  未破例读 full_text.md。前期如第7回"铁木真统一蒙古称汗"的内容未单独读入——因为成吉思汗的"统帅"侧面在 S13 "当初我与札木合安答结义起事"的回忆中已浓缩显影。

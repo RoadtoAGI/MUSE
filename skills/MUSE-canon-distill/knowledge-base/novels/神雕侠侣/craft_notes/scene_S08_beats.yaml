@@ -1,0 +1,28 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 杨过戏弄霍都
+  dimension: verb
+  original_move: 纯语言节拍，口头动词硬度差写智力对武力
+  ai_default_failure: 写心生一计或预先盘算的套路
+  transfer_rule: 机智写成天性，省略事前计划
+  quote: 小畜生骂谁？小畜生骂你！
+- pattern_id: S08-p2
+  beat: 移魂大法以美制敌
+  dimension: camera
+  original_move: 打斗镜头锁姿态表情之美，原理留到奇观后再补
+  ai_default_failure: 使用前先解释为什么能奏效
+  transfer_rule: 奇观先行，限制条件后置不削冲击力
+  quote: 在自己头发上一梳，软软的挥了出去
+- pattern_id: S08-p3
+  beat: 飞身接金轮
+  dimension: verb
+  original_move: 「顺手」二字把九死一生写成本能，硬动词骤升
+  ai_default_failure: 写电光石火间的决策心理
+  transfer_rule: 爱驱动的行为不写思考，但代价要真实
+  quote: 虎口迸裂，鲜血长流
+overall_traits:
+- 三段式节奏：喜剧到奇观到惊险递进
+- 动词硬度三段互不重叠，自成情绪曲线
+- 代价是英雄时刻的信用担保，无免费胜利

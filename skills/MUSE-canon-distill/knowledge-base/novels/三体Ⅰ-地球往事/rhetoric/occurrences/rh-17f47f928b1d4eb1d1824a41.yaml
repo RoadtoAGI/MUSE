@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-17f47f928b1d4eb1d1824a41
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1621
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 有一种很特别的韵味，仿佛时时在说明，这是拉给自己听的，而自己也很欣赏
+sensory_mapping: 听觉；语言；交流方向；情绪
+context_fact: 流浪老人独坐联合国大厦台阶，技艺不熟练，脚边礼帽有零钱，却若无其事持续拉琴。
+image_mechanism: 旋律的节奏被翻译成一句不断重复的自我说明，原本面向公众的演出路线折回演奏者自身；不熟练因此不再等于失败。
+property_alignment: 琴声不取悦外人对应话语只说给自己；演奏者持续投入对应自我欣赏；特别韵味对应旋律携带可辨态度；旁人打赏非中心对应交流闭环不依赖观众
+context_alignment: 老人后来是爱因斯坦化身，在模型失败后仍以琴自处，自给自足的声音提前写出他与世界评价断开的状态。
+narrative_function: 先用琴声塑造老人孤独而自洽的气质，再揭示其科学失败。
+transfer_rule: 让音乐“说明”态度时，应从演奏对象、技术缺陷、持续方式和听众关系推导具体句义。
+failure_boundary: 演奏明显为取悦观众、随反馈调整或人物厌恶自己的琴声时，自我聆听闭环不成立。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 老人不熟练却自足、内向而不取悦路人的小提琴演奏
+vehicle: 音乐获得说话能力，反复向听者声明演奏者既是表演者也是唯一听众
+ground: 演奏不顾外界评价对应说话内容只指向自己；琴声带自我陶醉对应声明自己欣赏自己的演奏

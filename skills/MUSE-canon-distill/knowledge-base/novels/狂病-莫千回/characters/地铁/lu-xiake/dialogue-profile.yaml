@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:地铁--lu-xiake
+work_id: novel:狂病-莫千回
+display_name: 陆霞克
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '陆霞克的话像不间断的背景音乐：碎、多、爱接梗，习惯用调侃和黑色幽默稀释恐怖——把街头吃人惨剧讲成段子、把"沙丁鱼罐头里躲不掉丧尸"当安慰话讲到把人吓哭、临死前还在懊恼"早知道就应该唱摇滚结束了"。他爱反讽、爱事后补刀（"之前不是说
+    21 世纪不可能有丧尸吗，咋了，现在信了"），对人称呼随口而亲昵（"兄弟""这小子"）。但这副贫嘴是有开关的：真正下决心的时刻他会突然收声、把话说得极短极硬（"那当然""快走吧"），唯一一次爆粗口也是为了把陈雨琪骂走保命。情感不在抒情里，在他弹响最后一首歌、把吉他抡向扑来的人那一下。
+
+
+    佐证：scenes/scene_DT-S03.md:L9-L11 / scenes/scene_DT-S05.md:L47-L47 / scenes/scene_DT-S11.md:L43-L45'
+  evidence_locators:
+  - scenes/scene_DT-S03.md:L9-L11
+  - scenes/scene_DT-S05.md:L47-L47
+  - scenes/scene_DT-S11.md:L43-L45
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

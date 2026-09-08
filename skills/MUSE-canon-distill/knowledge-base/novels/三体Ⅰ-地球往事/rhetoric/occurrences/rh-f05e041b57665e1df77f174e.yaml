@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f05e041b57665e1df77f174e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1331
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: 我将每一种组合看做一种类似于生物的东西，关键是要确定一个规则：哪种组合的运行趋势是“健康的”和“有利的”，哪种是“不利的”和“有害的”
+sensory_mapping: 生命竞争；种群数量；代际筛选；健康状态
+context_fact: 魏成用进化算法把不可穷尽的三体初始组合转化为海量计算，通过规则反复淘汰错误趋势。
+image_mechanism: 抽象数字组合被放入一片计算生态，每个候选长成一只生物；评价函数变成环境压力，不合适者逐代消失，幸存谱系逼近正确未来。
+property_alignment: 候选组合对应生物个体；评价规则对应生存环境；有利趋势对应高适应度；淘汰错误组合对应不适者死亡；迭代保留正确预测对应优势谱系延续
+context_alignment: 三体解空间巨大且不可直接推导，生物进化恰能解释用数量、随机变化和选择替代单一路径逻辑。
+narrative_function: 把进化算法机制翻译成可演算生态，说明魏成研究为何需要超级计算量。
+transfer_rule: 使用进化类比解释算法时，应逐项对应个体编码、环境/适应度、选择淘汰、代际迭代和停止条件。
+failure_boundary: 算法中的“健康”由人为目标函数定义，并非生物福祉；若没有变异、选择或迭代，单称候选为生物不能解释计算机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体某一时间断面上大量候选运动矢量组合及其筛选迭代
+vehicle: 具有不同适应度的生物种群在环境规则中生存、淘汰和进化
+ground: 每种矢量组合作为独立候选对应种群个体；符合预测目标的组合保留对应适应环境者存活繁殖

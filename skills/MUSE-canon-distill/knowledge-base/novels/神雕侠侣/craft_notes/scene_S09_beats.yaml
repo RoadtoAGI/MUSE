@@ -1,0 +1,28 @@
+scene_id: S09
+source_notes: scene_S09_beats.md
+patterns:
+- pattern_id: S09-p1
+  beat: 小龙女的宣言
+  dimension: omission
+  original_move: 宣言前零心理铺垫，无知者直言胜过反叛宣言
+  ai_default_failure: 写她明知必惹物议仍决意开口
+  transfer_rule: 角色不知规则存在时，删掉反抗姿态
+  quote: 我自己要做过儿的妻子
+- pattern_id: S09-p2
+  beat: 小龙女的天真展开
+  dimension: verb
+  original_move: 用词汇量极有限的日常词表深情，贫乏即纯度
+  ai_default_failure: 插入郭靖变色群雄面面相觑等反应
+  transfer_rule: 程序宕机时刻用集体沉默替代逐个反应
+  quote: 厅上数百人肃静无声
+- pattern_id: S09-p3
+  beat: 杨过的三句话
+  dimension: verb
+  original_move: 以三个「没」否定式抗辩，只做判断不做论证
+  ai_default_failure: 写一段爱情高于礼法的辩护词
+  transfer_rule: 拒绝对方框架时不进入论证，字少则重
+  quote: 我没错！我没做坏事！我没害人！
+overall_traits:
+- 爆炸力来自正常轨道铺垫后的落差
+- 天真与叛逆双声道立体夹击卫道者
+- 情感高潮处字越少越重，排比递增力度

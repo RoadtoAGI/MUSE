@@ -1,0 +1,41 @@
+schema_version: dialogue-character/v1
+character_id: novel:信（东野圭吾）:terao-yusuke
+work_id: novel:信（东野圭吾）
+display_name: 寺尾祐辅
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '寺尾的话语方式以**直接、有时焦急、不绕弯**为底色。
+
+
+    年轻时（ARC-2 期间）他常用爆发式短句——"瞎话！你是认真的？" / "你啊，是哥们儿不是呀？" / "成为公司职员，每天在拥挤的电车里摇晃？你的梦想就是那样？" / "恶心！你们这帮家伙" / "好吧，你们想怎么干就怎么干吧！没有这个乐队了"——情绪到达临界时他不收缩反而上升，把愤怒
+    / 决裂 / 失望直接抛出。他焦急时身体会**摇摆双腿**作为伴随动作。
+
+
+    多年后（S22）他的语调明显变得低沉、更像成熟的"看透"——"干吗露出那副可怜的表情啊？又不是在日本武道馆举行实况转播，放松些干吧，放松！" / "今天的演奏会，不是让他们听好听的歌的。他们需要的是治疗，只要让大家心情好就行了"——他从"想征服世界"变成"想治疗别人"的姿态外化。
+
+
+    他对朋友的关心从不直接说，只通过**最实际的行动** 表达——拉直贵的手不放（卡拉 OK）/ 抓住直贵的手把他拉起来（跪别瞬间）/ 给社长写信救场（虽然这是由实子做的，但寺尾在 S10 末说"以前我从没憎恨过你哥哥，可今天我从心底里生气"
+    是另一种形式的关心证明）/ 多年后主动邀请直贵慰问演出。他从不说"我担心你"或"我想念你"。
+
+
+    最终极的姿态是**多年后的"打断 + 接纳"**——"说到这里，寺尾打断了他的话。''可以，不用再说明了。只要你有这个心思，我就很高兴。好久没在一起办演奏会了，加油干吧！''像是看透了一切的说法"——一句话同时承担了 ARC-2 末决裂的愈合
+    + 对直贵选择的全部理解 + 邀请的肯定。
+
+
+    佐证：scenes/scene_S10.md:L9-L11 （ARC-2 末爆发式"瞎话！你是认真的？"）；scenes/scene_S10.md:L57-L57 （"你啊，是哥们儿不是呀？"——朋友关系的命名）；scenes/scene_S10.md:L127-L127
+    （"以前我从没憎恨过你哥哥，可今天我从心底里生气，要是他在这儿，我肯定要狠狠揍他"——爱憎一体的最锋利宣言）；scenes/scene_S22.md:L9-L9 （多年后"干吗露出那副可怜的表情啊？又不是在日本武道馆举行实况转播，放松些干吧，放松！"——成熟语调）；scenes/scene_S22.md:L51-L51
+    （"今天的演奏会，不是让他们听好听的歌的。他们需要的是治疗，只要让大家心情好就行了"——从征服到治疗的姿态变化）'
+  evidence_locators:
+  - scenes/scene_S10.md:L9-L11
+  - scenes/scene_S10.md:L57-L57
+  - scenes/scene_S10.md:L127-L127
+  - scenes/scene_S22.md:L9-L9
+  - scenes/scene_S22.md:L51-L51
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

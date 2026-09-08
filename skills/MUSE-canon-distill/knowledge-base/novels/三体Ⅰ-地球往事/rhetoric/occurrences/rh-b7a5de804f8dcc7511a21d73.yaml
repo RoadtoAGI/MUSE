@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b7a5de804f8dcc7511a21d73
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1574
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 我却被它吸引
+sensory_mapping: 无形拉力；身体位移；靠近；方向改变
+context_fact: 他的孙子因游戏太深奥很快放弃，他本人却因哲学内涵和诡异美感着迷。
+image_mechanism: 游戏不再被动等待点击，而成为一处有引力的中心；年轻人脱离力场，老者的注意、时间和思想轨迹却向它弯曲。
+property_alignment: 游戏魅力对应引力源；注意转移对应轨迹偏转；反复游玩对应持续靠近；难以放下对应未逃离力场
+context_alignment: 老者列出的深邃内涵、严密设定和细节构成吸力来源，使惯用词获得明确作用机制。
+narrative_function: 概括知识精英为何成为核心玩家，并与孙子的放弃形成选择差异。
+transfer_rule: 用吸引写兴趣时，应点出力源的具体属性、对象原来的方向和被牵引后的持续行为。
+failure_boundary: 参与由工作强迫、社交压力或利益交换造成时，吸引会把外部约束误写为内在兴趣。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 老哲学家因《三体》的思想、审美和设定而持续投入游戏
+vehicle: 物体受到外部引力或磁力牵引，改变原方向并向力源靠近
+ground: 注意力从别处转向游戏对应运动方向受力改变；持续参与对应被拉近并保持在力场中

@@ -1,0 +1,28 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 社长施耐尔
+  dimension: camera
+  original_move: 记录偏见判断但不评价
+  ai_default_failure: 替人物做道德解释
+  transfer_rule: 写知识分子偏见时保留判断瞬间
+  quote: 此公是同性恋
+- pattern_id: S22-p2
+  beat: 两位女主任
+  dimension: camera
+  original_move: 用字母比喻替代有用信息
+  ai_default_failure: 让机构人员提供关键情报
+  transfer_rule: 写缺席者时给无用但难忘细节
+  quote: 字母l就是阿琴波尔迪
+- pattern_id: S22-p3
+  beat: 照片墙
+  dimension: info_density
+  original_move: 机械列举名人合影制造权威
+  ai_default_failure: 概括写满墙名人照片
+  transfer_rule: 写机构合法性时用清单压迫读者
+  quote: 布比斯与托马斯·曼的合影
+overall_traits:
+- 机构层级逐层揭示
+- 名人清单作为权力修辞
+- 偏见反思固守三步完成

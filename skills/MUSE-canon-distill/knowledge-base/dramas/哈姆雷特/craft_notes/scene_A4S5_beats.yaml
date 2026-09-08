@@ -1,0 +1,53 @@
+scene_id: A4S5
+source_notes: scene_A4S5_beats.md
+patterns:
+- pattern_id: A4S5-p1
+  beat: 拒见与转念
+  dimension: exchange
+  original_move: 疯女入场前先由旁人描述其状，预设解读姿势
+  ai_default_failure: 疯女直接上场，观众无解读框架
+  transfer_rule: 异常角色入场前先经一道转述
+  quote: 连拼带凑的作个大概解释
+- pattern_id: A4S5-p2
+  beat: 疯歌首发
+  dimension: exchange
+  original_move: 疯癫用完整歌谣引文，错位只在语境
+  ai_default_failure: 疯话写成破碎呓语，无信息无旋律
+  transfer_rule: 疯者唱成调的歌，疯感来自答非所问
+  quote: 他已死了, 不复还
+- pattern_id: A4S5-p3
+  beat: 国王诊断旁白
+  dimension: monologue
+  original_move: 借安抚场合做局势汇总，暴动先闻其声
+  ai_default_failure: 局势靠新场景逐一展示，节奏散乱
+  transfer_rule: 大事件前用一段台词收拢所有线头
+  quote: 祸真不单行
+- pattern_id: A4S5-p4
+  beat: 暴动闯宫
+  dimension: blocking
+  original_move: 暴力全交场外音效与报信人，台上不见暴民
+  ai_default_failure: 搬演群众打斗场面，焦点散失
+  transfer_rule: 群体暴力可只演权力者的脸色
+  quote: 我们推举雷尔提为王!
+- pattern_id: A4S5-p5
+  beat: 收编复仇者
+  dimension: exchange
+  original_move: 先认同其愤怒，再递一个更准的靶子
+  ai_default_failure: 国王急于辩解自保，丢掉谈判主动
+  transfer_rule: 化解持剑者：先顺毛再转向
+  quote: 只要把他的敌人给我!
+- pattern_id: A4S5-p6
+  beat: 疯女二度上场
+  dimension: blocking
+  original_move: 再入场压在收编进行时，分花即无声审判
+  ai_default_failure: 疯戏与政治戏分场处理，互证丢失
+  transfer_rule: 关键人物的再入场时机即论证
+  quote: 这是迷迭香, 它代表了回忆
+- pattern_id: A4S5-p7
+  beat: 结盟收场
+  dimension: exchange
+  original_move: 以仲裁之名完成收编，复仇方向盘移交国王
+  ai_default_failure: 直接亮出谋杀提案，跳过合法外衣
+  transfer_rule: 收编要披公论外衣分步完成
+  quote: 让惩罚之巨斧劈诛罢
+overall_traits: []

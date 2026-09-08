@@ -1,0 +1,16 @@
+mode: reference
+display_name: 鲁贵
+role_slug: lu-gui
+source_novel: 雷雨
+builder_skill: character-kb-distill
+built_from:
+- pipeline/phase2_roles.yaml
+- scenes/scene_A1.md
+- scenes/scene_A3.md
+- scenes/scene_A4.md
+built_at: '2026-05-24T00:00:00Z'
+skill_version: 1
+locator_count: 11
+has_canon_ending: false
+coverage_note: 覆盖该角色在剧本中所有出场幕场的关键瞬间，共 12 条原文定位，跨 3 个 scene 文件（A1, A3, A4）。剧本由 6 场组成（PROLOGUE
+  / A1-A4 / EPILOGUE）。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-47a61e49e1b16e058a04cb51
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1058
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 夜幕像被一双巨手拉扯的大黑布般遮盖了已化为灰烬的世界
+sensory_mapping: 视觉；空间覆盖；拉扯动作；色彩
+context_fact: 硕大太阳高速西沉，晚霞转瞬消失，燃烧后的世界立即进入夜色。
+image_mechanism: 抽象的光线消退被实体化为布幅移动：两端有巨手拉扯，中间黑面骤然展开，天空的迅速变暗因此成为一次可见的遮盖动作。
+property_alignment: 夜色纯黑对应黑布颜色；黑暗横向扩展对应布幅被拉开；地表细节消失对应物体被布罩住；变化迅速对应巨手用力扯动
+context_alignment: 游戏时间加速且巨日异常巨大，夜幕到来比日常更急，带施力者的巨布准确放大这种突兀。
+narrative_function: 以封盖动作收束烈焰场面，让毁灭后的世界突然闭幕。
+transfer_rule: 写快速降临的黑暗时，可把颜色、扩展方向、覆盖结果和施力速度分配给一块正在展开的遮蔽物。
+failure_boundary: 暮色缓慢渐变、仍保留大量地景层次或光从局部熄灭时，整块黑布的骤然覆盖会失真。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨日落下后迅速铺满天空、吞没废墟的黑夜
+vehicle: 被巨手急速扯开并罩下的一幅巨大黑布
+ground: 夜色从天边快速扩展对应黑布被拉开；黑暗覆盖整个世界对应巨幅布料罩住下方物体

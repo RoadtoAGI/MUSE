@@ -1,0 +1,158 @@
+schema_version: ai-policy-semantic-golden-v1
+frozen_from: pre-manifest-runtime
+cases:
+  zh_dirty_enforced:
+    corpus_fixture: dirty_zh
+    language: zh
+    old_verdict: FAIL
+    expected_verdict: FAIL
+    delta: unchanged
+    hit_family_counts:
+      contrastive_negation_assertion: 30
+      lexical_cliche: 30
+      micro_clause_chain: 30
+      micro_punchline_cadence: 90
+      rhythm_fragmentation: 1
+      silence_pause_cliche: 30
+    alert_decisions:
+      - family: contrastive_negation_assertion
+        severity: high
+        total_count: 30
+        lifecycle: enforced
+        directive_level: S
+      - family: micro_clause_chain
+        severity: high
+        total_count: 30
+        lifecycle: enforced
+        directive_level: S
+      - family: micro_punchline_cadence
+        severity: high
+        total_count: 90
+        lifecycle: enforced
+        directive_level: S
+      - family: silence_pause_cliche
+        severity: high
+        total_count: 30
+        lifecycle: enforced
+        directive_level: S
+  zh_clean:
+    corpus_fixture: clean_zh
+    language: zh
+    old_verdict: PASS
+    expected_verdict: FAIL
+    delta: expected
+    reason: "referential_vagueness promotion (decision_ref pronoun-density-2026-07-17): demonstrative_classifier enforced S + density contract; 20 hits at 16.4/1k exceeds classics baseline 6.11/1k"
+    hit_family_counts:
+      demonstrative_classifier: 20
+    alert_decisions:
+      - family: demonstrative_classifier
+        severity: high
+        total_count: 20
+        lifecycle: enforced
+        directive_level: S
+  en_observe_policy:
+    corpus_fixture: dirty_en
+    language: en
+    old_verdict: FAIL
+    expected_verdict: PASS
+    delta: expected
+    reason: "language policy manifest makes the existing en observe policy visible to wholetext"
+    hit_family_counts:
+      contrastive_negation_assertion: 40
+      dash_overuse: 2
+    alert_decisions: []
+
+# Static pre-migration directive oracle.  These records deliberately include
+# a high-severity M-sovereignty family so high -> S cannot drift to high -> M.
+directive_levels:
+  - family: action_log
+    language: zh
+    severity: high
+    cluster: action_log
+    expected: S
+  - family: action_log
+    language: zh
+    severity: medium
+    cluster: action_log
+    expected: M
+  - family: figurative_debt
+    language: zh
+    severity: medium
+    cluster: figurative_debt
+    expected: M
+  - family: marker_pollution
+    language: zh
+    severity: medium
+    cluster: lexical_cliche
+    expected: S
+  - family: marker_pollution
+    language: zh
+    severity: low
+    cluster: lexical_cliche
+    expected: L
+
+# Every baseline consumed by an enforced policy before the manifest migration.
+# demonstrative_classifier/dummy_pronoun entered via the 2026-07-17 promotion
+# (decision_ref pronoun-density-2026-07-17); values frozen from the 07-12 classics
+# calibration that the promotion consumed.
+consumed_baselines:
+  demonstrative_classifier/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:demonstrative_classifier:p90_positive
+    value: 6.11
+  dummy_pronoun/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:dummy_pronoun:p90_positive
+    value: 1.42
+  abstract_phrase_debt/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:abstract_phrase_debt:p90_positive
+    value: 0.48
+  action_log/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:action_log:p90_positive
+    value: 0.39
+  connector_overuse/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:connector_overuse:p90_positive
+    value: 0.78
+  dash_overuse/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:dash_overuse:p90_positive
+    value: 0.26
+  figurative_debt/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:figurative_debt:p90_positive
+    value: 0.40
+  lexical_cliche/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:lexical_cliche:p90_positive
+    value: 3.75
+  marker_pollution/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:marker_pollution:p90_positive
+    value: 1.72
+  micro_punchline_cadence/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:micro_punchline_cadence:p90_positive
+    value: 7.05
+  repeated_head/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:repeated_head:p90_positive
+    value: 0.70
+  rhythm_fragmentation/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:rhythm_fragmentation:p90_positive
+    value: 4.00
+  silence_pause_cliche/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:silence_pause_cliche:p90_positive
+    value: 0.72
+  social_choreography/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:social_choreography:p90_positive
+    value: 0.69
+  state_persistence_template/zh:
+    metric: p90_positive
+    ref: builtin:v1:zh:state_persistence_template:p90_positive
+    value: 0.38

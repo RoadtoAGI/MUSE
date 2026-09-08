@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-224dbe72b430688dd85f1c2c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1711
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 形成了一望无际的手臂的草原
+sensory_mapping: 视觉；竖直线条；密集覆盖；随群体轻微摆动；地平线
+context_fact: 舰队点火后，全体三体人向天举手欢呼送行。
+image_mechanism: 人海表面突然长出亿万根肢体，手臂抹去个人归属，像草茎以同一方向朝向天空光源；群体情感变成整片地表生长。
+property_alignment: 高举手臂对应竖立草茎；手臂密集对应草丛；几亿人铺展对应草原无际；共同朝天对应草木趋光；欢呼动作对应草原起伏
+context_alignment: 前句把人群写成海，此刻举臂又从海面变为草原，动作改变驱动景观变形而非任意换喻。
+narrative_function: 把全民送行手势合成行星级图案，呈现文明共同希望。
+transfer_rule: 用草原写高举肢体时，应对齐细长竖立、密集重复、广阔覆盖和共同朝向。
+failure_boundary: 人群手臂方向杂乱、数量有限或坐卧遮挡时，草原的连续竖线图景不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 几亿三体人同时向天空高举双手，密集手臂铺满视野
+vehicle: 无数细长草茎从平原竖起，密集连成看不到边际的草原
+ground: 手臂细长竖直对应草茎向上生长；人群密集广布对应草原连续覆盖大地

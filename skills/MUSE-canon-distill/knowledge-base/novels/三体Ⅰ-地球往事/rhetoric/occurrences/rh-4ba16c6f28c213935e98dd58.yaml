@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4ba16c6f28c213935e98dd58
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L429
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 脚下的冻土迅速融化，由坚硬如铁变成泥泞一片
+sensory_mapping: 触觉；硬度；温度
+context_fact: 地表随后在短时间内融成泥。
+image_mechanism: 先用脚底对铁面的阻力建立极硬基线，下一动词“融化”立刻把它撤成泥；相变幅度由同一路面两次触感量出。
+property_alignment: 脚踩不陷对应铁面抗压；低温锁结土粒对应金属整体致密
+context_alignment: 铁只承担融化前硬度，为后续软化服务。
+narrative_function: 量化乱纪元温差和变化速度。
+transfer_rule: 描写状态突变时，可先用材质喻体给初态设触觉标尺，再让终态在同一感官轴上反转。
+failure_boundary: 岩石本身、仍有弹性的冻土或未发生软化时，用铁会过度绝对化硬度。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 大太阳到来前冻土地表的硬度
+vehicle: 致密抗压的铁面
+ground: 脚踩不陷对应铁面抗压；低温锁结土粒对应金属整体致密

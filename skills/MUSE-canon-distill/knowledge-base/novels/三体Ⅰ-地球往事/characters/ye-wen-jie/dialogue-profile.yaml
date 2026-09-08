@@ -1,0 +1,34 @@
+schema_version: dialogue-character/v1
+character_id: novel:三体Ⅰ-地球往事:ye-wen-jie
+work_id: novel:三体Ⅰ-地球往事
+display_name: 叶文洁
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的口语稳定地保持轻、慢、短三个特征——审讯笔录里几乎所有回答都是一个独立短句（"叶文洁。""1947 年 6 月。""谢谢，不用。""我杀死过两个人。"），就算汪淼追问女儿之死也只是沉默几秒后"接下了刚才的话题"，不展开。决断时刻反而用最少的字表达最大决心："我进去。""我不回去。""我可以在这里待一辈子。"
+
+
+    她不为自己的行为辩护，也不寻求理解。审讯者要她讲杀人动机时她从背景讲起、按时间顺序叙述操作细节，不加形容词、不解释心理，最后用"关于这件事，我能说的就这些了"收尾——零辩解是她声音的硬规则。
+
+
+    对同志和汪淼用教师与母亲的称呼系统——"小汪啊""同志们好""孩子"——这套称呼不随情境收紧，即使在宣读处决决定时也保留。极端句子的特征是缓慢节奏被外化为叙述者的形容："说得很慢，一个字一个字地说，像怕她教育的孩子听不懂似的"。
+
+
+    只有一处例外：ETO 集会上以瘦削拳头喊出"消灭人类暴政！"——这是她整本书唯一一次提高音量的瞬间，对应她"叛军最高统帅"这层身份首次公开亮相，过后立刻回到温软缓慢的常态。
+
+
+    佐证：scenes/scene_S22.md:L5-L20（审讯笔录的短句节奏）；scenes/scene_S22.md:L42-L45（讲述杀人过程的零辩解结构 + "关于这件事，我能说的就这些了"）；scenes/scene_S19.md:L32-L36（"我进去""我可以在这里待一辈子"——决断时的最少字）；scenes/scene_S09.md:L34-L34（"温软和缓慢"作为常态声音）；scenes/scene_S09.md:L43-L43（"说得很慢，一个字一个字地说，像怕她教育的孩子听不懂似的"）；scenes/scene_S09.md:L31-L32（"消灭人类暴政！"——唯一的高音例外）'
+  evidence_locators:
+  - scenes/scene_S22.md:L5-L20
+  - scenes/scene_S22.md:L42-L45
+  - scenes/scene_S19.md:L32-L36
+  - scenes/scene_S09.md:L34-L34
+  - scenes/scene_S09.md:L43-L43
+  - scenes/scene_S09.md:L31-L32
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

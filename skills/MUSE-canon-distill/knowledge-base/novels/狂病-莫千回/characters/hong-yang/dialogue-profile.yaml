@@ -1,0 +1,25 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:hong-yang
+work_id: novel:狂病-莫千回
+display_name: 洪扬
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他话少，落点冷而平。别人动情、感慨、追问意义时，他多用一句把场子按住的现实主义短语收口（"正常末日嘛""讨论这个没有意义，现在不是你死就是我亡"），不接情绪、不顺着煽。偶尔开口反而是冷到发黑的玩笑——对拳出征时祝罗允"痛快地死去"，把"一起引爆手雷痛快地死掉"说得像安排一顿饭，这套地狱冷笑话他自承是"跟老爹学的"。一旦话头转到父亲、转到自家那些抠着钱过的旧事（输液港太贵只能选便宜的
+    PICC），他会忽然具体、忽然话长，钝刀子一样把阶级的伤口摊开。多数时候他用最省的字应付（"嗯""都行""别管我"），把脑袋盖进被子里闷声回话；情绪极少直接说出口，更常沉进一个动作——拍拍罗允的肩、默默接过猎枪坐到窗边守夜。
+
+
+    来源：phase2_character.yaml → supporting_cast.洪扬（寡言冷面 + 地狱冷笑话）
+
+    佐证：scenes/scene_SB-S11.md:L23-L27 / scenes/scene_HJ-S04.md:L11-L15 / scenes/scene_HJ-S06.md:L14-L15'
+  evidence_locators:
+  - scenes/scene_SB-S11.md:L23-L27
+  - scenes/scene_HJ-S04.md:L11-L15
+  - scenes/scene_HJ-S06.md:L14-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-22079973f1e8e739de26482f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L569
+chapter: 第6章 宇宙闪烁之一
+figure_type: simile
+quote: 这意味着整个宇宙像一个坏了的日光灯管那样闪烁
+sensory_mapping: 视觉；明暗；节奏；尺度
+context_fact: 沙瑞山说明百分之五的当夜波动违反宇宙时间尺度常识。
+image_mechanism: 不可观测的微波背景先被转成可见明暗，再把无边宇宙压缩成一根可同时亮灭的灯管；“坏了”把宇宙学异常落实为人人见过的电气故障。
+property_alignment: 整体亮度异常起伏对应灯管通断闪动；稳定物理背景失常对应照明器件故障；巨大宇宙被同步控制对应一根灯管整体明灭
+context_alignment: 沙瑞山正用日常故障说明该观测要求何等荒谬，口语化灯管比天体术语更能传达尺度冲击。
+narrative_function: 把违反常识的观测条件变成清晰预演，并伏笔后文宇宙闪烁。
+transfer_rule: 解释全局同步异常时，可选一个平常应持续稳定、故障时会整体周期明灭的单体装置，让异常模式和常态反差同时可见。
+failure_boundary: 局部恒星闪烁、仪器单点噪声或缓慢宇宙演化都没有全局同步与短促明灭，套用灯管会夸大异常范围和速度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 宇宙整体背景辐射在短时间内发生可见幅度的同步波动
+vehicle: 电路故障后忽明忽暗的一根日光灯管
+ground: 整体亮度异常起伏对应灯管通断闪动；稳定物理背景失常对应照明器件故障；巨大宇宙被同步控制对应一根灯管整体明灭

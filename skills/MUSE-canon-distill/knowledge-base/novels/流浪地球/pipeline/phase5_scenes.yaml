@@ -1,0 +1,245 @@
+# Phase 5: 关键场景 —— 《流浪地球》逆向分析
+# 场景嵌套在 Phase 4 的序列结构下
+
+sequence_expansions:
+
+  # ═══════ ARC-1: 认知与启航 ═══════
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 石家庄/太行山——华北794号地球发动机
+        time: 叙述者6岁，刹车时代末期
+        participants: [叙述者, 小星老师, 同学们]
+        pov: 叙述者
+        conflict: 儿童的渺小感vs宇宙工程的宏大
+        value_start: 懵懂（尚未理解世界的可怕）
+        value_end: 觉醒（"死亡"谜语——存在的恐惧萌芽）
+        must_include: "死亡"谜语（墙的谜底），小星老师拥抱叙述者，"上帝的喷灯"视觉
+        handoff: 从物理世界认知过渡到心理恐惧——第一次日出
+        source_chapter: 上篇（第17-26行）
+
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: 太平洋上的船
+        time: 环球旅行途中
+        participants: [叙述者, 灵儿, 小星老师, 同学们]
+        pov: 叙述者
+        conflict: 孩子们的恐惧vs必须面对的现实
+        value_start: 恐惧（拒绝看日出）
+        value_end: 接受（适应了太阳，但恐惧内化为世界观）
+        must_include: 第一次日出的恐惧体验，"死亡之墙应该是雪亮的"，灵儿抓住叙述者的手
+        handoff: 从日出恐惧过渡到飞船派vs地球派辩论
+        source_chapter: 上篇（第27-42行）
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: 太平洋上的船
+        time: 日出后不久
+        participants: [小星老师, 阿东, 叙述者, 同学们]
+        pov: 叙述者
+        conflict: 飞船派（小生态系统可行）vs 地球派（只有地球规模才能持续）
+        value_start: 分裂（两派对立，动手打架）
+        value_end: 暂时统一（小星老师的论证暂时说服飞船派）
+        must_include: 阿东的生态球死亡，"它太小了"，"人类在宇宙间离开了地球，就像婴儿在沙漠里离开了母亲"
+        handoff: 从辩论过渡到星空场景
+        source_chapter: 上篇（第43-67行）
+
+      - scene_id: "S04"
+        arc_id: ARC-1
+        location: 大西洋上的夜航 → 地面
+        time: 环球旅行末段 → 启航日
+        participants: [叙述者, 小星老师, 同学们, 水手船长, 爷爷]
+        pov: 叙述者
+        conflict: 宇宙的浩瀚冷漠vs人类微弱的希望之光
+        value_start: 美丽与感伤（第一次看到星空）
+        value_end: 希望确立+第一次丧失（比邻星/启航/爷爷去世）
+        must_include: 第一次看到星空的震撼，小星老师指向比邻星集体流泪，"心中的太阳"，地球启航，爷爷遗言"啊，地球，我的流浪地球啊"
+        handoff: 进入地下城——第二幕开始
+        beat_direction: 希望↑ → 丧失↓（同一场景内的双向运动）
+        source_chapter: 上篇（第68-73行）
+
+  # ═══════ ARC-2: 逃亡与丧失 ═══════
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S05"
+        arc_id: ARC-2
+        location: 海边（远日点）/ 地下城
+        time: 逃逸时代早期
+        participants: [叙述者, 父亲, 母亲]
+        pov: 叙述者
+        conflict: 个人情感vs生存本能的优先级
+        value_start: 家庭表面完整
+        value_end: 家庭关系空洞化（母亲不在意，后来连情人名字都忘了）
+        must_include: 父亲当面宣布出轨，母亲平静接受，"用余光瞥一下"爱情，父亲"希望"独白
+        handoff: 过渡到灵儿的肥皂泡场景
+        source_chapter: 中篇（第88-110行）
+
+      - scene_id: "S06"
+        arc_id: ARC-2
+        location: 地下城中心广场
+        time: 某次近日点前
+        participants: [灵儿, 叙述者]
+        pov: 叙述者
+        conflict: 灵儿的虚无主义vs叙述者的理性恐惧
+        value_start: 恐惧与焦虑
+        value_end: 灵儿选择拥抱虚无并消失
+        must_include: 肥皂泡意象，"地球就是宇宙中的一个小水泡，啪一下"，灵儿与阿东离去后再未出现
+        handoff: 过渡到岩浆灾难
+        source_chapter: 中篇（第111-126行）
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S07"
+        arc_id: ARC-2
+        location: F112地下城
+        time: 第六次变轨周期后
+        participants: [叙述者, 母亲, 市民, 士兵]
+        pov: 叙述者
+        conflict: 个人情感（想找妈妈）vs 集体规则（按年龄排序）
+        value_start: 生活艰难但家庭尚在
+        value_end: 母亲遇难——"岩浆在500米深的地下吞没了整座城市"
+        must_include: 按年龄排队撤离的细节，"心如刀绞地想像着妈妈最后的时刻"
+        handoff: 时间跳跃到奥运会
+        beat_direction: 紧张→失去（单向下坠）
+        source_chapter: 中篇（第129-138行）
+
+      - scene_id: "S08"
+        arc_id: ARC-2
+        location: 冰封的太平洋
+        time: 第十二次远日点
+        participants: [叙述者, 加代子, 民政官员]
+        pov: 叙述者
+        conflict: 极端孤独感vs两个陌生人的相遇
+        value_start: "雪崩般的孤独感"——宇宙中只有我一个人
+        value_end: 结婚、"点绿"生育权——生命的延续被确认
+        must_include: 冰原上的极端孤独感，加代子"像看到太阳升起一样"，抽签生育权，自由女神像的金辉
+        handoff: 过渡到小行星带
+        source_chapter: 中篇（第139-154行）
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: "S09"
+        arc_id: ARC-2
+        location: 飞机上 → 夏威夷 → 太空舰队基地
+        time: 穿越小行星带期间
+        participants: [叙述者, 加代子, 官员, 将军]
+        pov: 叙述者
+        conflict: 自然力量的压倒性破坏vs人类脆弱的防线
+        value_start: 紧张但有信心（太空舰队在护航）
+        value_end: 父亲牺牲——"飞船座舱瞬间汽化了"
+        must_include: 反物质炸弹闪光致加代子暂时失明，火流星，"浪"一字回答，父亲的勋章
+        handoff: 过渡到飞机上的绝望
+        beat_direction: 恐惧↑ → 灾难↑ → 丧失↓
+        source_chapter: 中篇（第157-199行）
+
+      - scene_id: "S10"
+        arc_id: ARC-2
+        location: 漆黑的飞机舱内
+        time: 穿越小行星带后
+        participants: [叙述者, 加代子, 自杀未遂男人, 他的妻子]
+        pov: 叙述者
+        conflict: 彻底的绝望vs微弱的希望之光
+        value_start: 绝望到窒息——有人试图自杀
+        value_end: 地球发动机的蓝光出现——"如同从深海上浮后看到的海面亮光"
+        must_include: "最黑的黑夜"、男人试图自杀被妻子阻止、蓝光出现、"只要那希望的蓝光还亮着"
+        handoff: 过渡到木星交会
+        source_chapter: 中篇（第187-197行）
+
+      - scene_id: "S11"
+        arc_id: ARC-2
+        location: 地球/木星近距离
+        time: 逃逸时代末期
+        participants: [叙述者, 全人类]
+        pov: 叙述者
+        conflict: 木星巨大引力vs地球脆弱的航线
+        value_start: 恐惧——"木星占满了整个天空"，大红斑如巨眼
+        value_end: 达到逃逸速度——"漫长的流浪时代开始了"
+        must_include: 木星从地平线升起的视觉冲击，大红斑，"浮在木星暗红色云海上的气球"，地球在木星表面拉起液氢巨浪
+        handoff: 儿子出生 → 时间跳跃到叛乱前
+        beat_direction: 恐惧↑ → 奇观 → 解脱↑
+        source_chapter: 中篇（第206-211行）
+
+  # ═══════ ARC-3: 信念审判 ═══════
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-3
+        location: 太平洋上空5000米
+        time: 流浪时代初期
+        participants: [叙述者, 加代子]
+        pov: 叙述者
+        conflict: 观测"事实"vs四百年的科学预测
+        value_start: 焦虑但尚存信任
+        value_end: "太阳没有任何变化"被证实——信念崩溃
+        must_include: 加代子的望远镜观测，"参数完全一样"，叙述者的否认"别自寻烦恼"，空中其他飞行汽车都在观测
+        handoff: 过渡到叛乱爆发
+        source_chapter: 下篇（第217-226行）
+
+      - scene_id: "S13"
+        arc_id: ARC-3
+        location: 地下城广场
+        time: 叛乱爆发日
+        participants: [叙述者, 加代子, 演讲者, 市民]
+        pov: 叙述者
+        conflict: 忠诚/信念vs"证据"/多数人的判断
+        value_start: 夫妻同在
+        value_end: 加代子接过冲锋枪加入叛军，"没有回头"
+        must_include: 叛军演说——"太阳是永恒的象征！"，加代子默默接过枪，叙述者攥着父亲勋章"扎出了血"
+        handoff: 过渡到战争/投降
+        beat_direction: 裂痕→决裂（不可逆）
+        source_chapter: 下篇（第227-232行）
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S14"
+        arc_id: ARC-3
+        location: 地球驾驶室 → 冰面
+        time: 叛乱结束
+        participants: [最高执政官, 5000名地球派, 叛军, 叙述者]
+        pov: 叙述者
+        conflict: 坚守者的信念vs全人类的否定
+        value_start: 绝望至极——信念似乎被彻底击败
+        value_end: 太阳氦闪——宇宙给出终极裁决
+        must_include: >
+          最高执政官演说"永远保持理智确实是一个奢求"；冻刑；《我的太阳》合唱；
+          叙述者的快感——"想像中的感觉变成一种快感"（他此时已倒向叛军心理）；
+          太阳氦闪爆发——合唱戛然而止；5000尊"雕像"在阳光下矗立；太阳死了
+        handoff: 过渡到尾声
+        beat_direction: 绝望↓ → 快感（反向）→ 氦闪（终极反转）↑↑
+        source_chapter: 下篇（第238-260行）
+
+      - scene_id: "S15"
+        arc_id: ARC-3
+        location: 地球表面/地下城
+        time: 50年后
+        participants: [叙述者（老年）, 儿子, 儿媳]
+        pov: 叙述者
+        conflict: 个体生命的终结vs人类旅程的漫长
+        value_start: 苍老、孤独
+        value_end: 在想象中看到第一百代孙辈和加代子——苦涩的希望
+        must_include: 冻结的大气/固态氧氮景观，流浪之歌歌词，想象中的绿色草原和加代子，回响句"地球，我的流浪地球"
+        handoff: 故事结束
+        source_chapter: 流浪时代（第261-281行）
+
+tension_curve:
+  description: >
+    张力呈"双峰+尾峰"结构：
+    ARC-2 的 SEQ3 包含第一个峰（小行星带S09 + 木星交会S11），
+    ARC-3 的 SEQ2 包含最高峰（冻刑+氦闪S14）。
+    两峰之间有一个显著低谷（ARC-3 SEQ1 的观测/质疑阶段S12），
+    这个低谷的"虚假平静"恰好为终极高潮蓄势。
+    S15（流浪之歌）张力回落到安静的余韵。
+  peaks: ["S09", "S11", "S14"]
+  valleys: ["S05", "S08", "S15"]
+
+causal_chain: >
+  S01（认识世界）→ S02（恐惧太阳）→ S03（地球派合理性）→ S04（希望锚定/启航）→
+  S05（情感异化）→ S06（灵儿消失）→ S07（母亲遇难）→ S08（遇见加代子）→
+  S09（父亲牺牲）→ S10（绝望中的蓝光）→ S11（木星弹弓/逃逸成功）→
+  S12（太阳"没变化"）→ S13（夫妻分裂/叛乱）→ S14（冻刑+氦闪）→ S15（流浪继续）

@@ -1,0 +1,26 @@
+card_id: token-sealed-allegiance
+pattern_name: 物证式忠诚
+dramatic_function: 让忠诚、背叛或权力转移落在不可逆物件上。
+applicability: 适合黑帮、佣兵、宫廷权谋；若物件无后果则空洞（单书孤证，验证面窄）
+reuse_candidates:
+- 两颗佣兵头颅
+- 金手项链
+- 龙骨鞭
+tags:
+- 物件
+- 权力转移
+- 背叛
+source_scenes:
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S06
+  note: 锁链与鞭子的交换制造翻盘支点。
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S20
+  note: 金手项链由权力象征转为凶器。
+- novel: 冰与火之歌Ⅲ-冰雨的风暴
+  scene_id: S25
+  note: 达里奥用人头证明已无法回头。
+phase_affinity:
+- 2
+- 4
+- 5

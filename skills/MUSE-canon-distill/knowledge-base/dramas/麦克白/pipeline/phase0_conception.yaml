@@ -1,0 +1,46 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    底本为朱生豪中译本。麦克白与哈姆雷特同属四大悲剧但驱动力相反——
+    哈姆雷特是"延宕的复仇者"，麦克白是"被预言诱导的篡位者"。
+    本剧最大戏剧化特征：超自然预言不是外加装饰，而是结构脊椎——
+    每一应验都同时充当"动力"与"陷阱"，把主角推向不可逆的深渊。
+
+premise: |
+  一位战功显赫的苏格兰将军因接到女巫"王位"预言，
+  在妻子激将下弑君篡位，随后被恐惧与罪恶反噬，
+  在更多杀戮中节节崩塌，终被自己曾"听漏"的预言击败。
+
+genre: court-tragedy
+
+controlling_idea: |
+  当人将超自然许诺奉为命运、用暴力替天意提前兑现时，
+  得到的不是权力而是对权力本身的恐惧；
+  野心一旦动手就再不能停手，最终被自己制造的恐惧吞噬。
+
+core_tension:                         # 戏剧专属：多极矛盾
+  - ambition_vs_conscience            # 野心 vs 良知
+  - prophecy_vs_self_fulfillment      # 预言 vs 自我兑现
+  - manhood_vs_humanity               # "男子汉气概" vs 人性
+  - apparent_security_vs_concealed_doom  # 表面无敌 vs 暗藏致命漏洞
+  - sleep_vs_wakefulness              # 睡眠 / 安宁 vs 失眠 / 罪疚
+
+dramatic_engine:                      # 三段戏剧力学
+  inciting_disturbance: witches_prophesy_kingship       # A1S3 女巫三呼万福，植入"王"念
+  sustaining_pressure: each_kill_breeds_more_kills      # A2-A4 弑君→杀班柯→屠麦克德夫家
+  terminal_pressure: prophecy_loopholes_close_in        # A5 勃南林移动 + 非妇人所生 兑现
+
+theatricality_notes: |
+  本剧的结构脊椎建立在三个"预言矩阵"上：
+  1. A1S3 三呼（考特爵士 / 万福王 / 班柯子孙为王）— 启动
+  2. A4S1 三幽灵（防麦克德夫 / 非妇人所生不可害 / 勃南林不动则永王）— 加固假信心
+  3. A5S5-S8 三应验破解（妻死 / 勃南林移动 / 麦克德夫非足月所生）— 终结
+  独白（soliloquy）是结构骨干：移除"是要干，还是不要干"（A1S7）、
+  "匕首在哪儿"（A2S1）、"明天又明天"（A5S5），脊椎立刻塌陷。
+  超自然元素（女巫 / 鬼魂 / 幽灵 / 梦游）是"内心外化"——把不可见的恐惧具象到舞台可见。
+  幕末 turn 极清晰：A1 王已死念头落定 → A2 弑君完成 → A3 鬼魂当众揭发 →
+  A4 假安全 + 屠杀失控 → A5 全部预言以反讽方式兑现。

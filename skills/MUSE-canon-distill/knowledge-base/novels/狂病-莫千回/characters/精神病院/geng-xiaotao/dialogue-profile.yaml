@@ -1,0 +1,28 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:精神病院--geng-xiaotao
+work_id: novel:狂病-莫千回
+display_name: 耿小桃
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '耿小桃的声音底色是律师式的清晰推理——会有条理地罗列假设、逐条推断（"医疗事故、廉价药、减药量、假药"），用逻辑给恐惧找一个可解释的出口。日常态偏冷静、克制、带分析腔。但当她决意赴死时，语调会变得"有些奇怪"——把残酷的物理死局翻译成武侠语汇（"石中剑""天选之人""让我做一次大侠"），并第一次大吼着争取属于自己的英雄时刻。她不潇洒，赴死时是哭着的、带哭腔的。
+
+
+    - 来源：phase2_character.yaml → voice_traits
+
+    - 佐证：scenes/scene_JB-S03.md:L11-L11（条理化罗列假设的律师式推理腔）
+
+    - 佐证：scenes/scene_JB-S12.md:L19-L19（"够了，好不容易鼓起的勇气已经快散了，不要让她到死，连一次大侠都没有做过"——第一次大吼）
+
+    - 佐证：scenes/scene_JB-S12.md:L21-L21（赴死时哭着擦眼泪、最后说的话带哭腔——不潇洒的真实赴死）'
+  evidence_locators:
+  - scenes/scene_JB-S03.md:L11-L11
+  - scenes/scene_JB-S12.md:L19-L19
+  - scenes/scene_JB-S12.md:L21-L21
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

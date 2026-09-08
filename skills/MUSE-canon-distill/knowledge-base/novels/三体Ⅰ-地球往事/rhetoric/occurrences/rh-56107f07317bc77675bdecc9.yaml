@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-56107f07317bc77675bdecc9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1036
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 湖边的人渐渐多了起来，像春天拥出洞穴的蚁群
+sensory_mapping: 视觉；数量；群体运动；季节温度
+context_fact: 叙述从观星台高处远望，具体浸泡细节看不清，只见湖边人数不断增加。
+image_mechanism: 高位远景先缩小人体，再让无数黑点从藏身处朝水边扩散；春日出巢为密集移动补上共同方向和季节触发。
+property_alignment: 俯瞰下的人体微小对应蚂蚁尺寸感；人群不断涌出对应蚁群拥出洞穴；恒纪元回暖触发复苏对应春温触发蚁群活动
+context_alignment: 远距视角看不清个人，只能感知数量与流向，蚁群恰好服从这一视觉信息限度。
+narrative_function: 用一个群体动作交代大规模浸泡复苏，并暗示个体在文明循环中的微小。
+transfer_rule: 写远景人潮时，喻体应同时匹配观察尺度、聚集密度、移动方向和触发群体行动的环境条件。
+failure_boundary: 近距离可辨个体、队伍秩序井然或人群逆着回暖散去时，出洞蚁群会错误抹平人物与运动方式。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 恒纪元到来后从干仓涌向湖边的复苏人群
+vehicle: 春暖时从洞穴密集拥出的蚁群
+ground: 远看人群个体细小密集对应蚂蚁成群；人从封闭干仓集中外出对应蚁群在回暖后离巢

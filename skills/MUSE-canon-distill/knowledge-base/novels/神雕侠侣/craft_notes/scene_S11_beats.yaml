@@ -1,0 +1,28 @@
+scene_id: S11
+source_notes: scene_S11_beats.md
+patterns:
+- pattern_id: S11-p1
+  beat: 长廊初见
+  dimension: camera
+  original_move: 主观视觉改写光线质感，武学术语写情感休克
+  ai_default_failure: 写她心知杨过在厅强自忍住不看
+  transfer_rule: 重逢镜头先全身后面部，悬念钉住微动作
+  quote: 阳光似乎也变成了月光
+- pattern_id: S11-p2
+  beat: 拒认的表演
+  dimension: verb
+  original_move: 嘴说不识，身体用「避开」与颤袖泼水拆穿伪装
+  ai_default_failure: 否认时配大量内心暗叫的独白
+  transfer_rule: 心口不一戏走双轨：台词一条身体一条
+  quote: 衣袖轻颤，杯中清水泼了出来
+- pattern_id: S11-p3
+  beat: 呕血对呕血
+  dimension: camera
+  original_move: 对称构图双向呕血，浑人不知反衬满厅皆知
+  ai_default_failure: 铺写更多旁观者感慨叹息
+  transfer_rule: 以最极端一人代全场反应，以点代面
+  quote: 一口鲜血吐在胸口，白衣上赤血殷然
+overall_traits:
+- 拒认是反向告白：否认越坚决痛苦越可信
+- 身体是不说谎的叙述者，双轨叙事
+- 呼唤递进靠姿态降低不靠音量

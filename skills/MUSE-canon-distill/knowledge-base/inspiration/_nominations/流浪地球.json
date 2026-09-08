@@ -1,0 +1,159 @@
+{
+  "novel": "流浪地球",
+  "nominations": [
+    {
+      "pattern_name": "家园方舟",
+      "dramatic_function": "把逃亡载体设为故土本身，让生存方案天然带有身份和情感重量。",
+      "applicability": "适合文明迁徙或末日叙事；若载体只是交通工具会失效。",
+      "reuse_candidates": [
+        "行星发动机",
+        "比邻星航程",
+        "地球派飞船派名称"
+      ],
+      "tags": [
+        "家园",
+        "迁徙",
+        "末日方案",
+        "身份绑定"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_03",
+          "note": "生态球死亡论证小系统无法替代母体家园。"
+        },
+        {
+          "scene_id": "scene_04",
+          "note": "启航把家园从地点转为共同命运。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "真理迟判",
+      "dramatic_function": "让正确信念长期不可证实，高潮才由不可辩驳事实裁决。",
+      "applicability": "适合科学、信仰、承诺型故事；若证据可即时验证会失效。",
+      "reuse_candidates": [
+        "太阳氦闪",
+        "冻刑场面",
+        "《我的太阳》反讽"
+      ],
+      "tags": [
+        "信念",
+        "反讽",
+        "延迟证明",
+        "高潮裁决"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_12",
+          "note": "太阳观测动摇四百年预测，信念进入审判。"
+        },
+        {
+          "scene_id": "scene_14",
+          "note": "氦闪在处刑后爆发，事实晚于道德代价。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "私情制度化",
+      "dramatic_function": "让亲密关系被生存制度和灾难压扁，显出时代对心理的改造。",
+      "applicability": "适合高压社会或灾后世界；若仍按现代情感逻辑写会失效。",
+      "reuse_candidates": [
+        "抽签生育权",
+        "地下城危急法",
+        "远日点狂欢"
+      ],
+      "tags": [
+        "亲密关系",
+        "制度压力",
+        "心理异化",
+        "世界观展示"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_05",
+          "note": "出轨和遗忘被当作低权重生活事件。"
+        },
+        {
+          "scene_id": "scene_08",
+          "note": "结婚喜悦立刻被生育权抽签框住。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "沉默决裂",
+      "dramatic_function": "用无对白的连续动作完成关系断裂，让不可逆选择更硬。",
+      "applicability": "适合价值立场分裂；若角色仍需解释动机，效果会减弱。",
+      "reuse_candidates": [
+        "冲锋枪",
+        "地下城迷雾",
+        "父亲勋章"
+      ],
+      "tags": [
+        "人物选择",
+        "动作叙事",
+        "关系断裂",
+        "省略"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_13",
+          "note": "加代子接枪、不回头、消失完成婚姻和阵营决裂。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "希望回流",
+      "dramatic_function": "让同一精神价值反复寄身于可见物象，低谷时自然回到人物身上。",
+      "applicability": "适合长跨度苦难叙事；若意象只出现一次会失去回流感。",
+      "reuse_candidates": [
+        "蓝色发动机光",
+        "比邻星",
+        "流浪之歌歌词"
+      ],
+      "tags": [
+        "希望意象",
+        "回响",
+        "长跨度",
+        "情绪锚点"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_04",
+          "note": "比邻星被确认为远方希望的灯塔。"
+        },
+        {
+          "scene_id": "scene_10",
+          "note": "黑夜中的蓝光让绝望者恢复呼吸。"
+        },
+        {
+          "scene_id": "scene_15",
+          "note": "流浪之歌把未见未来还给老年叙述者。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

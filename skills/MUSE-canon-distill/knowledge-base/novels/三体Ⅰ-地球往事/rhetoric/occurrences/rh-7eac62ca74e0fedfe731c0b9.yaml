@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7eac62ca74e0fedfe731c0b9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L429
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 周围的大地像处于白炽状态般刺眼
+sensory_mapping: 视觉；温度；亮度
+context_fact: 三人躲在不断缩短的岩石阴影中。
+image_mechanism: 地面不再只是被照亮，而像被加热到自己发光；光源和受光面之间的界线消失，视野被整片白热吞没。
+property_alignment: 地表近白亮度对应白炽发光；光热同时急升对应物质升至高温白炽
+context_alignment: 极端辐照同时提供刺眼和热浪，两项共同支撑白炽。
+narrative_function: 把环境危险提升到物质灼热发光等级。
+transfer_rule: 写极端亮热时，选择同时把温度和自发光绑定的物态，而非用单纯颜色形容。
+failure_boundary: 冷白反光、雪地眩光或只有高温没有强光时，不是白炽机制。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 巨型太阳下亮得无法直视的地表
+vehicle: 受热到自身发出白光的白炽物质
+ground: 地表近白亮度对应白炽发光；光热同时急升对应物质升至高温白炽

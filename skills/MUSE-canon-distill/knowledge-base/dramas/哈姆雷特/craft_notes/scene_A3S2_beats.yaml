@@ -1,0 +1,60 @@
+scene_id: A3S2
+source_notes: scene_A3S2_beats.md
+patterns:
+- pattern_id: A3S2-p1
+  beat: 导演课
+  dimension: overall
+  original_move: 开场借教演戏立「何为好表演」的标尺
+  ai_default_failure: 直接进入戏中戏，缺判断框架铺垫
+  transfer_rule: 元话语可为后续的表演场先立标尺
+  quote: 让行动符合台词
+- pattern_id: A3S2-p2
+  beat: 托证赫瑞修
+  dimension: exchange
+  original_move: 预先公布观察协议，双目击者事后比对
+  ai_default_failure: 主角独自盯人，验证无旁证
+  transfer_rule: 验证场先立规则，观众会替主角盯人
+  quote: 你得仔细的观察我的叔父
+- pattern_id: A3S2-p3
+  beat: 入席荤谑
+  dimension: blocking
+  original_move: 拒坐母旁躺欧菲利亚脚边，座位选择即宣言
+  ai_default_failure: 入席只交代位置，不携带态度
+  transfer_rule: 群场的座位选择可作无声台词
+  quote: 这里有更吸引我之磁铁
+- pattern_id: A3S2-p4
+  beat: 哑剧先行
+  dimension: overall
+  original_move: 同一谋杀演两遍，给观众两次盯国王的机会
+  ai_default_failure: 只演一遍正戏，错过预热张力
+  transfer_rule: 关键揭示可先用无词版本预放一遍
+  quote: 倾注一瓶毒液於眠者的耳内
+- pattern_id: A3S2-p5
+  beat: 戏中戏
+  dimension: overall
+  original_move: 嵌套文本改用七言韵文，与台下散语拉开层次
+  ai_default_failure: 戏中戏与主戏同腔同体，嵌套层次塌陷
+  transfer_rule: 嵌套文本必须更换文体才立得住
+  quote: 炎阳绕地三十载
+- pattern_id: A3S2-p6
+  beat: 国王惊起
+  dimension: blocking
+  original_move: 爆点不靠台词靠退场动作，混乱中只留二人结算
+  ai_default_failure: 让国王当场长篇失态自白
+  transfer_rule: 心虚的高潮用动作不用台词
+  quote: 拿火炬来, 走!
+- pattern_id: A3S2-p7
+  beat: 箫之训
+  dimension: exchange
+  original_move: 拿木箫当论证，把套话变成可见的吹不响
+  ai_default_failure: 主角用抽象斥责揭穿探子
+  transfer_rule: 摊牌可借实物道具完成具象论证
+  quote: 你是玩弄不了我的
+- pattern_id: A3S2-p8
+  beat: 赴寝室独白
+  dimension: transition
+  original_move: 转场独白立行为边界，给观众发观察任务
+  ai_default_failure: 直接切下场，丢掉禁忌线的预设
+  transfer_rule: 转场独白可预告下场的禁忌线
+  quote: 我可残酷, 但不可无良心
+overall_traits: []

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e50906063b20108ca03a0bb6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L435
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 就像卷一只放了气的皮球一般
+sensory_mapping: 触觉；动作；形变
+context_fact: 周文王收起脱水追随者携带。
+image_mechanism: “放气”先解释为何完整人体没有骨骼阻力，“卷”再把扁软结果转成手部可完成动作，便携性随之可感。
+property_alignment: 人体失去体积支撑对应皮球放气瘪软；皮层可折叠对应橡胶球皮可压卷
+context_alignment: 它补足熔蜡喻体未说明的中空瘪软和可卷特征。
+narrative_function: 解释脱水人的便携性并制造物化生命感。
+transfer_rule: 连续多喻体解释设定时，后一个应补前一个缺失的结构或操作属性，而非重复“柔软”。
+failure_boundary: 对象仍有硬骨架、会碎裂或只能折叠不能卷时，放气皮球会误写内部结构。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 把脱水后扁软的人体卷起
+vehicle: 把失去气压的软皮球折卷
+ground: 人体失去体积支撑对应皮球放气瘪软；皮层可折叠对应橡胶球皮可压卷

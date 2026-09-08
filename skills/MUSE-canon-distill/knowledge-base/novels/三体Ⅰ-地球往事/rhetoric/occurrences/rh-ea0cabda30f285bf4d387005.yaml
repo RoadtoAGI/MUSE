@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ea0cabda30f285bf4d387005
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1855
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 她自己已心如死灰，很难再燃起爱情的火焰了
+sensory_mapping: 灰色；冷却；余烬；火焰亮度；温度
+context_fact: 她接受婚姻主要为了报恩，认可杨卫宁才华修养，却没有相应爱情冲动。
+image_mechanism: 心被塑成曾经历大火的炉膛，创伤烧尽了可燃材料，只留无温灰层；杨卫宁的善意靠近，却找不到能被点着的部分。
+property_alignment: 心灵对应炉膛；过去创伤对应耗尽燃烧；情感枯竭对应死灰；爱情对应温暖明火；难再爱对应无燃料无法复燃；报恩婚姻对应冷灰中维持结构而非热量
+context_alignment: 上一行记忆被写成复燃火种，但那是痛苦之火；此处爱情之火却不能燃，火的不同燃料准确区分创伤活跃与爱欲枯竭。
+narrative_function: 解释婚姻的低情感温度，并深化创伤对亲密能力的长期损害。
+transfer_rule: 用死灰与爱火写情感耗竭时，应区分曾经烧掉的资源、当前温度、可能点火者和复燃条件。
+failure_boundary: 人物仍表现强烈依恋、只是克制表达，或感情尚未被尝试触发时，死灰会把暂时防御误判为永久枯竭。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁经历长期创伤后情感活力近乎熄灭，难以对杨卫宁产生热烈爱情
+vehicle: 燃料已烧尽只剩冷灰，缺乏余火，无法再次点燃明亮温热的火焰
+ground: 情感热度消失对应火焰熄灭冷却；爱情难以产生对应灰烬没有可燃物再起火

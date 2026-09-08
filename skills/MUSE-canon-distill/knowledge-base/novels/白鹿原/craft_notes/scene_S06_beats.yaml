@@ -1,0 +1,42 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 踹门栽倒
+  dimension: verb
+  original_move: 从听见到一纵栽倒，身体先于思考
+  ai_default_failure: 写脑中轰然或不敢相信
+  transfer_rule: 崩溃时让失控动词替代心理独白
+  quote: 猛然狗似的朝前一纵
+- pattern_id: S06-p2
+  beat: 小娥误判
+  dimension: verb
+  original_move: 轻巧小动词写闹剧式误判
+  ai_default_failure: 写她担心倒下的是熟人
+  transfer_rule: 悲剧可借误判节奏制造反差
+  quote: 瓜蛋儿放心
+- pattern_id: S06-p3
+  beat: 欣赏猎物
+  dimension: camera
+  original_move: 站着看倒地者，权力垂直对位
+  ai_default_failure: 写心中快意或布局见效
+  transfer_rule: 阴谋完成时用姿态代替得意心理
+  quote: 像欣赏被自己射中落地
+- pattern_id: S06-p4
+  beat: 马号认罪
+  dimension: camera
+  original_move: 真相绕开父子，在第三空间泄露
+  ai_default_failure: 安排父子面对面质问认错
+  transfer_rule: 无法对质的冲突可让旁人承接真相
+  quote: 三叔，我要走呀
+- pattern_id: S06-p5
+  beat: 刺刷惩罚
+  dimension: info_density
+  original_move: 点破真打泄恨，族长亲违族规
+  ai_default_failure: 只写惩戒的正当和痛苦
+  transfer_rule: 制度崩裂可写执法者失控越界
+  quote: 忘记了每人只能打一下
+overall_traits:
+- 身体动作替代父子对话
+- 多视角制造信息差
+- 制定规则者亲手违反规则

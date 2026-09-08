@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-35ea9d1b7004d8efeb0d858c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1700
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 马上就要起航远征了
+sensory_mapping: 船队；离港；航向；远方海平线；集体移动
+context_fact: 约一千艘飞船排成方阵，能达到十分之一光速，全体三体人为其送行。
+image_mechanism: 同步轨道成为泊满船只的高空港湾，推进器点火替代扬帆，正方形星阵像舰列整体离岸；宇宙真空因“起航”获得可穿越水域。
+property_alignment: 星际飞船对应远洋舰船；同步轨道对应港口；点火加速对应扬帆启航；四光年航程对应远洋远征；宜居世界对应新大陆
+context_alignment: 前章已称银河为星海，舰队、起航、远征共同维持一个完整航海框架，符合文明逃离母星的历史感。
+narrative_function: 把技术发射写成文明远征仪式，让长期星际迁徙具有共同体叙事。
+transfer_rule: 用起航写太空飞行时，应建立编队、出发港、航域、目的岸和不可轻易返航的长距离。
+failure_boundary: 单器短程试飞、随时返回近轨道或没有共同目的地时，远征起航会拔高任务规模。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三体星际舰队即将启动推进器，离开母星飞向四光年外行星系
+vehicle: 远洋舰队离开港口扬帆启航，驶往遥远未知领土
+ground: 多艘飞船编队离开母星对应船队离港；跨越星际空间对应横渡海洋；寻找新世界对应远征陌生海岸

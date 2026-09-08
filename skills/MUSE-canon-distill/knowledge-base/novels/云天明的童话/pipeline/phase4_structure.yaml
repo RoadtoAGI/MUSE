@@ -1,0 +1,98 @@
+analysis_meta:
+  novel: "云天明的童话"
+  source_text: "source_manifest.yaml 所列三个连续童话"
+  source_form: "嵌套中篇 / 三联童话 / 科幻隐写文本"
+  evidence_note: "三篇童话各承担一个Arc；序列按价值转变划分。"
+
+arc_expansions:
+  - arc_id: "ARC-1"
+    sequences:
+      - seq_id: "ARC1-SEQ1"
+        name: "寿宴名单与无痕清洗"
+        core_conflict: "合法继承决定 vs 冰沙借针眼夺位"
+        escalation_direction: "公开宣布露珠继承 → 针眼逐一看清目标 → 国王、王后和大臣依次消失"
+        sequence_climax: "冰沙命令针眼在天亮前完成露珠画像。"
+        closed: "无故事王国的静止平衡"
+        opened: "露珠能否在画像完成前取得保护"
+      - seq_id: "ARC1-SEQ2"
+        name: "规则交付与黎明逃亡"
+        core_conflict: "针眼作画倒计时 vs 空灵压纸反制与黑伞保护"
+        escalation_direction: "空灵示警 → 黑曜石熨斗只能逐掌压纸 → 时间耗尽 → 空灵交伞并牺牲"
+        sequence_climax: "露珠一行出城；针眼同步完成她的画像。"
+        closed: "王宫作为安全空间的可能"
+        opened: "黑伞能维持多久、墓岛能否抵达"
+    arc_progression_note: "第一序列用重复画杀建立规则；第二序列把同一规则改写成保护操作和逃亡时限。"
+
+  - arc_id: "ARC-2"
+    sequences:
+      - seq_id: "ARC2-SEQ1"
+        name: "第一次看见王国"
+        core_conflict: "宫廷塑造的无知 vs 道路、田野、劳动与人的真实世界"
+        escalation_direction: "黎明绘景 → 路人误认 → 露珠追问统治者为何不了解外界"
+        sequence_climax: "露珠明确说外面比王宫好。"
+        closed: "露珠对宫廷生活的天然认同"
+        opened: "她会怎样理解海与王国边界"
+      - seq_id: "ARC2-SEQ2"
+        name: "海边装配"
+        core_conflict: "必须去墓岛 vs 饕餮鱼使航海成为绝对禁区"
+        escalation_direction: "破船与鱼群演示 → 香皂物性展示 → 长帆讲述封闭史 → 露珠表达远航欲望"
+        sequence_climax: "露珠把自己认作阳光下会消失的露珠，长帆承诺永远为她打伞。"
+        closed: "王国为何无故事的谜"
+        opened: "香皂、海与长帆能否形成实际渡海方案"
+    arc_progression_note: "事件速度放慢，物性、历史、名字与关系密度上升，为第三篇的连续回收蓄力。"
+
+  - arc_id: "ARC-3"
+    sequences:
+      - seq_id: "ARC3-SEQ1"
+        name: "肥皂航道与反透视发现"
+        core_conflict: "饕餮鱼封海 vs 现场事故暴露的泡沫效应"
+        escalation_direction: "木盆入海 → 鱼群在泡沫中瘫软 → 小船试航 → 泡沫彗尾 → 深水由巨人缩回常人"
+        sequence_climax: "滴血认亲完成，长帆通过跑远跑近总结深水的恒定视大小。"
+        closed: "墓岛不可达与深水是巨人的误解"
+        opened: "如何把合法性与异常物理优势带回王宫"
+      - seq_id: "ARC3-SEQ2"
+        name: "合法性回流与篡位崩解"
+        core_conflict: "冰沙的既成王权与画杀武器 vs 深水、露珠的血缘合法性和规则优势"
+        escalation_direction: "禁卫军拒绝追杀 → 针眼无法画深水 → 深水登阶 → 决斗判距失效"
+        sequence_climax: "深水刺死冰沙，禁卫军转而效忠。"
+        closed: "宫廷政变与王位争夺"
+        opened: "露珠画像是否能销毁、露珠将如何使用复得的权位"
+      - seq_id: "ARC3-SEQ3"
+        name: "画、伞与白帆"
+        core_conflict: "被恢复的身份与王位 vs 露珠已形成的远航欲望"
+        escalation_direction: "针眼自画像 → 长帆烧毁露珠画像 → 露珠主动合伞 → 放弃加冕 → 白帆离岸"
+        sequence_climax: "露珠与长帆带走最后的香皂，驶向有故事的地方。"
+        closed: "露珠的魔画死刑与预设王位"
+        opened: "两人的未知旅途，以及王国永久封闭的代价"
+    arc_progression_note: "技术解题、政治复位和人物选择逐层升高；真正的故事高潮落在露珠对未来的自主决定。"
+
+causal_chain: "ARC1-SEQ1宣布继承触发画杀 → ARC1-SEQ2空灵交付黑伞并指向墓岛 → ARC2-SEQ1露珠离宫形成外部世界欲望 → ARC2-SEQ2香皂、封海史和长帆关系完成装配 → ARC3-SEQ1旧材料组合成泡沫航道并接回深水 → ARC3-SEQ2反透视使画杀与决斗判距失效 → ARC3-SEQ3烧画解除死刑，露珠把复得的选择权用于远航"
+
+arc_progression:
+  impact_escalation: "困境从宫廷内的远程追杀，变成王国尺度的地理封锁，再转为获得政治胜利后如何选择生活；外部威胁下降时，人物选择的不可逆性上升。"
+  causal_chain: "继承宣布 → 王室清洗 → 逃向墓岛 → 海边发现知识缺口 → 泡沫打通封锁 → 深水复位 → 露珠离开王位与王国"
+
+narrative_threads:
+  - name: "继承与清洗线"
+    description: "冰沙用针眼消灭合法秩序，深水和露珠以血缘、规则优势与禁卫军承认完成复位。"
+    primary_arcs: ["ARC-1", "ARC-3"]
+  - name: "知识装配线"
+    description: "黑伞、黑曜石、香皂、海况、透视与航海知识从分散物品变成可执行方案。"
+    primary_arcs: ["ARC-1", "ARC-2", "ARC-3"]
+  - name: "露珠成长线"
+    description: "她从被赞美和照料的继承人，变成能观察、决策、冒险并拒绝预设位置的人。"
+    primary_arcs: ["ARC-1", "ARC-2", "ARC-3"]
+  - name: "露珠—长帆关系线"
+    description: "称谓森严的君臣在共同出行、守伞、夜谈、渡海与烧画中形成相互选择。"
+    primary_arcs: ["ARC-2", "ARC-3"]
+  - name: "科技隐写线"
+    description: "物性和动作形成曲率驱动、光速恒定、黑域与降维打击的交叉坐标。"
+    primary_arcs: ["ARC-1", "ARC-2", "ARC-3"]
+
+thread_intersections:
+  - threads: ["知识装配线", "继承与清洗线"]
+    cross_effect: "香皂航道让失落继承人重返政治现场；反透视规则同时废除画杀与削弱冰沙决斗判距。"
+  - threads: ["露珠成长线", "露珠—长帆关系线"]
+    cross_effect: "长帆介绍外部世界并执行渡海，露珠最终以平等邀请回应他的守护。"
+  - threads: ["科技隐写线", "露珠成长线"]
+    cross_effect: "编码道具持续承担人物生存和选择，科技信息因此保持在表层故事的情感因果内。"

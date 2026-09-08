@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5babb0802f1047617a7538e2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L428
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 他们都一脸惊恐，仿佛魔鬼降临
+sensory_mapping: 视觉；威胁；情绪
+context_fact: 汪淼因暖流高兴，原住民却知道大太阳意味着酷热。
+image_mechanism: 同一轮太阳在知识差中瞬间换脸：对汪淼是温暖天体，对二人是有意降灾的恶魔；表情完成意义翻转。
+property_alignment: 巨大太阳预示灼烧死亡对应魔鬼带来灾祸；由期待温暖骤变惊恐对应见邪恶存在突现
+context_alignment: 喻体承担人物知识差和灾难预期，不只泛称害怕。
+narrative_function: 翻转太阳的正面意义并启动逃生。
+transfer_rule: 用怪物表现风险时，应让角色的预知信息赋予普通景物新的危害身份，并借反应差异揭示。
+failure_boundary: 危险尚未明确、人物只是迷信或没有从喜悦到恐惧的反转时，魔鬼会只剩情绪标签。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 周文王和追随者见巨大太阳时的恐惧
+vehicle: 带来毁灭的魔鬼突然现身
+ground: 巨大太阳预示灼烧死亡对应魔鬼带来灾祸；由期待温暖骤变惊恐对应见邪恶存在突现

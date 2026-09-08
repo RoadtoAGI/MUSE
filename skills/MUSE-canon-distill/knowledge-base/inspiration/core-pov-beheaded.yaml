@@ -1,0 +1,22 @@
+card_id: core-pov-beheaded
+pattern_name: 核心POV中途处死
+dramatic_function: 处决承载最多视角章节的道德主角，连同读者安全感一起斩首；类型契约破裂后全员皆可死，叙事张力整体重置
+applicability: 需多POV群像承接叙事重心，且死者的死须点燃后续主线；单主角作品或读者契约为爽文时失效（单书孤证，验证面窄）
+reuse_candidates:
+- 贝勒大圣堂公开斩首的具体场面
+- 御前首相与摄政遗嘱的法理细节
+tags:
+- 主角之死
+- 类型颠覆
+- 群像叙事
+source_scenes:
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_17
+  note: 全书最重POV奈德在高潮被当众处死，借女儿受限视角呈现
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_14
+  note: 处死前先撕碎其全部政治依仗，使死亡成为必然而非意外
+phase_affinity:
+- 2
+- 3
+- 4

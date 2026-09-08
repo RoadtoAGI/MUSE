@@ -1,0 +1,22 @@
+card_id: side-plot-mirror-omen
+pattern_name: 镜像式预言
+dramatic_function: 用旁支关系提前展示主线可能结局，增加选择压力。
+applicability: 适合多关系成长叙事；若旁支不能反照主线则会显得枝蔓（单书孤证，验证面窄）
+reuse_candidates:
+- 永泽初美
+tags:
+- 镜像
+- 预示
+- 关系
+- 等待
+source_scenes:
+- novel: 挪威的森林
+  scene_id: S11
+  note: 初美的等待与自杀预示无尽等待的代价。
+- novel: 挪威的森林
+  scene_id: S09
+  note: 直子的坦白暴露等待与爱无法互救的困境。
+phase_affinity:
+- 2
+- 4
+- 5

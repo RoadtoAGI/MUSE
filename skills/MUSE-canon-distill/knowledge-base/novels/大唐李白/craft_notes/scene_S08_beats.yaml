@@ -1,0 +1,14 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 苏颋不见
+  dimension: camera
+  original_move: 用权力场身体编排冷处理肯定
+  ai_default_failure: 正面写大人物赞赏李白
+  transfer_rule: 外部认可可通过不看不说制造距离
+  quote: 一眼也不看
+overall_traits:
+- 以冷写热
+- 物件锚定圆形结构
+- 评语悬置而非确认

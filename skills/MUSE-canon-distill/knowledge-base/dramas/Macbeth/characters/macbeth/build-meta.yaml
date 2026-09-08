@@ -1,0 +1,31 @@
+mode: reference
+display_name: 麦克白
+role_slug: macbeth
+source_novel: Macbeth
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S2.md
+  - scenes/scene_A1S3.md
+  - scenes/scene_A1S7.md
+  - scenes/scene_A2S1.md
+  - scenes/scene_A2S2.md
+  - scenes/scene_A3S2.md
+  - scenes/scene_A3S4.md
+  - scenes/scene_A4S1.md
+  - scenes/scene_A5S3.md
+  - scenes/scene_A5S5.md
+  - scenes/scene_A5S7.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 17
+has_canon_ending: true
+coverage_note: |
+  覆盖麦克白核心独白与关键转折场（A1S2 战场报告 / A1S3 预言接收 / A1S7 If-it-were-done /
+  A2S1 dagger / A2S2 sleep-no-more / A3S2 marital exclusion / A3S4 banquet ghost /
+  A4S1 firstlings-of-hand / A5S3 my-way-of-life / A5S5 Tomorrow / A5S7 终战）。
+  未单独引用 A1S4（Prince of Cumberland aside）/ A3S1（To be thus is nothing 全独白）/
+  A4S1 全文 ——它们在场景索引中已标注，未来 rebuild 可补 locator。
+  source_novel 字段沿用 'Macbeth' 作为剧名 slot，对应 dramas/Macbeth/ 目录；
+  本 skill 由 character-kb-distill 在 drama-analysis Phase B 流程下产出，
+  drama 与 novel 的差异在产物层吸收（locator 路径相对 dramas/Macbeth/）。

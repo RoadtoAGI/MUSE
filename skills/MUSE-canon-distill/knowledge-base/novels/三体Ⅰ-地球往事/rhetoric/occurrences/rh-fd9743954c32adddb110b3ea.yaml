@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fd9743954c32adddb110b3ea
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1575
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 那二百零三轮文明的兴衰，真是一首首精美的史诗
+sensory_mapping: 吟诵听觉；长卷篇幅；章节序列；悲壮节奏
+context_fact: 女作家从文学角度赞赏游戏，且她经历的文明轮次多于汪淼，说明每名玩家获得独立叙事。
+image_mechanism: 一次次游戏关卡被装订成独立长诗，恒纪元是上升乐章，乱纪元和毁灭是沉重收束；重复循环因此不显机械，而像多声部文明歌集。
+property_alignment: 文明一轮对应一首长诗；兴盛衰亡对应史诗情节起落；族群生存对应宏大共同体命运；灾难美感对应悲壮诗性；多轮并列对应史诗组章
+context_alignment: 评价来自前卫小说家，强调的不是游戏胜负而是文明命运的文学形式，符合她的专业声音。
+narrative_function: 把游戏轮次提升为文明叙事艺术，也显出玩家已对三体文明产生审美认同。
+transfer_rule: 称一段历史为史诗时，应具备长时间尺度、共同体命运、重大转折和能组织悲壮感的叙事形式。
+failure_boundary: 事件短小私密、缺乏群体尺度或只是重复关卡而无命运变化时，史诗会成为空洞拔高。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 《三体》中反复出现、发展并毁灭的二百零三轮文明历程
+vehicle: 篇幅宏阔、叙写族群命运与英雄时代并具有审美结构的多部史诗
+ground: 每轮文明跨越兴亡大事件对应史诗叙写民族长时段命运；毁灭与再生富有悲壮美对应史诗的崇高情调

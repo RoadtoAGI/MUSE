@@ -1,0 +1,14 @@
+scene_id: S04
+source_notes: scene_S04_beats.md
+patterns:
+- pattern_id: S04-p1
+  beat: 群鸟齐鸣
+  dimension: overall
+  original_move: 用群鸟奇观同时展示术与志
+  ai_default_failure: 只把法术写成声光奇观
+  transfer_rule: 奇观应同时服务人物立场论证
+  quote: 千口吹唱，万窍应和
+overall_traits:
+- 奇观与论点同构
+- 拒绝不明说而被看见
+- 热闹后落到深忧

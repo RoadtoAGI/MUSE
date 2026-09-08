@@ -1,0 +1,25 @@
+mode: reference
+display_name: 狗子
+role_slug: gou-zi
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/学校/phase3_spine.yaml   # antagonistic_forces.interpersonal.layer_3 + arc_framework.arc_3
+  - pipeline/phase0_conception.yaml   # 感染者保留所爱扭曲版本 lore（与《燃烧》周全同源）
+  - scenes/scene_XX-S01.md
+  - scenes/scene_XX-S03.md
+  - scenes/scene_XX-S05.md
+  - scenes/scene_XX-S07.md
+  - note: 单篇人物未登记于 pipeline/phase2_character.yaml（该文件仅登跨篇人物）
+built_at: 2026-05-29T17:29:30+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  系列首个被详写的"自己人感染全过程"样本——被咬→绑椅→拽断小臂→撞玻璃爬来→爱/性语言威胁→被亲手割喉。
+  与《燃烧》周全"感染后狂奔"同源，但处理不同：狗子是"被舍友亲手杀"、周全是"自燃"。
+  声音框架跨 2 个场景（S01 感染前听声辨车小声报数 / S07 感染后口齿不清的恶毒占有语言），前后双副嗓子对比鲜明。
+  弧光起点（S01 听声辨车 / S03 担心父母）+ 倾覆埋点（S05 被咬绑椅）+ 显形（S07 拽臂/爬来）+ 核心证据（S07 占有语言）四段齐全。
+  性格真相有感染后压力情境直接佐证（S07 拽断小臂 / 撞玻璃 / 占有威胁）。
+  断指成为「我」自感染工具（scene_XX-S10.md:L27）= 跨场景物件钩，已在 riji-wo canon-ending 收口。
+  单篇人物，phase2_character.yaml 未登记系统级条目；结构化字段依据 pipeline/学校/phase3_spine.yaml 推导。

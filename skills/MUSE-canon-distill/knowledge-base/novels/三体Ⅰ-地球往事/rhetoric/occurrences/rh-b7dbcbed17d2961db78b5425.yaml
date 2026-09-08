@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b7dbcbed17d2961db78b5425
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2218
+chapter: 第31章 两个质子
+figure_type: analogy
+quote: 这比从冥王星上开枪击中这里的一只蚊子都准确
+sensory_mapping: 枪口瞄准；深空长弹道；蚊子微点；移动靶；精准击中
+context_fact: 丁仪从命中精度推断质子绝非普通无控粒子，而是不可思议的射手或探测器。
+image_mechanism: 抽象天文导航缩成一条可看见的枪线，地球在远端继续运动，目标又从行星缩到蚊子；三体制导精度通过双重尺度压缩显出。
+property_alignment: 三体星系发射点对应冥王星枪位；质子航行对应子弹弹道；地球对应远端靶场；目标误差容限对应蚊子体型；星际尘埃对应弹道干扰；两发全中对应神射
+context_alignment: 汪淼曾受射手假说困扰，丁仪无意说出射手一词使他紧张，类比同时推进科学推断和心理回声。
+narrative_function: 给跨星际命中精度建立极端参照，并提示质子具有主动控制能力。
+transfer_rule: 用远距射击类比导航时，应匹配发射距离、目标尺寸与运动、途中扰动、制导修正和命中率。
+failure_boundary: 质子靠大范围散射偶然命中、发射数量巨大只到两颗，或目标是整片太阳系而非地球时，神射模型会夸大精度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从四光年外发射两个质子，穿过星际干扰并双双精确抵达运动中的地球
+vehicle: 射手站在冥王星上瞄准地球上一只极小且移动的蚊子，一枪命中
+ground: 四光年对应冥地超远距离；质子对应子弹；运动地球对应移动靶区；目标尺度对应蚊子微小；双双到达对应极高命中率

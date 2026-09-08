@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4d080f1a9aaa433bacc998a4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L472
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 那咕咚咕咚的声音仿佛黑暗深处有一颗硕大的心脏在跳动
+sensory_mapping: 听觉；节奏；体积
+context_fact: 伏羲跳鼎受刑前沉默喝下调料。
+image_mechanism: 吞咽声被黑暗放大、去掉口腔来源，只保留周期低响；声源随之移到大殿深处并膨胀成巨型器官。
+property_alignment: 咕咚周期对应心跳节律；声音难定位对应看不见器官搏动；低频响度对应硕大体积
+context_alignment: 大殿中视觉信息少，听觉主导行刑前停顿。
+narrative_function: 延长恐怖停顿并让宫殿仿佛活着。
+transfer_rule: 由声音推生物喻体时，应匹配节律、频段、声源方位和想象体积。
+failure_boundary: 高频、无节律或声源清楚可见时，巨心脏会与声学特征冲突。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 伏羲吞咽调味料的连续低沉声
+vehicle: 暗处巨型心脏规律搏动
+ground: 咕咚周期对应心跳节律；声音难定位对应看不见器官搏动；低频响度对应硕大体积

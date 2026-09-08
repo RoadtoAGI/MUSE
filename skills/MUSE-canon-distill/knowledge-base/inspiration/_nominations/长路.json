@@ -1,0 +1,159 @@
+{
+  "novel": "长路",
+  "nominations": [
+    {
+      "pattern_name": "火炬传承",
+      "dramatic_function": "把生存任务转化为价值传递，让结局由继承者的选择回答。",
+      "applicability": "适合导师将死或父母保护叙事；若继承者无独立选择会失效。",
+      "reuse_candidates": [
+        "末世父子",
+        "火炬字面隐喻",
+        "灰色公路"
+      ],
+      "tags": [
+        "传承",
+        "临终",
+        "价值选择",
+        "继承者"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_12",
+          "note": "父亲命名火炬，孩子独自验证陌生人的善。"
+        },
+        {
+          "scene_id": "scene_11",
+          "note": "孩子在窃贼事件中反过来纠正父亲。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "镜像门后",
+      "dramatic_function": "用相同动作流程通向相反发现，放大恐惧与希望的摆幅。",
+      "applicability": "适合资源匮乏与未知空间；若前后流程不押韵会失效。",
+      "reuse_candidates": [
+        "地窖",
+        "食人者",
+        "罐头仓库"
+      ],
+      "tags": [
+        "镜像结构",
+        "逆转",
+        "未知空间",
+        "恐惧希望"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_06",
+          "note": "开锁下楼发现地狱式囚禁与逃亡。"
+        },
+        {
+          "scene_id": "scene_07",
+          "note": "同样开门流程转为食物与清水的奇迹。"
+        }
+      ],
+      "phase_affinity": [
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "微物圣礼",
+      "dramatic_function": "让稀缺小物承载失落世界和关系深情，避免直接抒情。",
+      "applicability": "适合匮乏世界或亲密关系；若物件不稀缺会显得做作。",
+      "reuse_candidates": [
+        "可口可乐",
+        "梨罐头",
+        "祷词措辞"
+      ],
+      "tags": [
+        "物件叙事",
+        "亲密关系",
+        "稀缺",
+        "仪式"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_01",
+          "note": "一罐可乐通过触觉、分享和余味承载旧世界。"
+        },
+        {
+          "scene_id": "scene_08",
+          "note": "孩子把食物接受转化为自发感谢仪式。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "搜索阶梯",
+      "dramatic_function": "把求生搜索写成从落空到救赎的递增弧线。",
+      "applicability": "适合硬生存、侦查、资源任务；若收获平均分布会削弱。",
+      "reuse_candidates": [
+        "苹果园",
+        "隐藏水槽",
+        "葡萄调味粉"
+      ],
+      "tags": [
+        "搜索",
+        "物资",
+        "递增",
+        "行为思维"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_14",
+          "note": "父亲从种子、工具、苹果一路发现到清水。"
+        },
+        {
+          "scene_id": "scene_13",
+          "note": "小镇系统性落空反衬后续发现的重量。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "目的地落空",
+      "dramatic_function": "让地理目标失效，迫使故事转向精神目标的完成。",
+      "applicability": "适合旅程叙事；若没有替代精神答案会显得空转。",
+      "reuse_candidates": [
+        "灰色海岸",
+        "南方会更好",
+        "孩子下海"
+      ],
+      "tags": [
+        "旅程",
+        "目标落空",
+        "精神答案",
+        "终局"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_10",
+          "note": "抵达海岸却发现海不是蓝色也不是救赎。"
+        },
+        {
+          "scene_id": "scene_12",
+          "note": "真正答案转为孩子能否带着火炬继续走。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

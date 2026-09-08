@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-412c7e76433f491fd5425266
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1842
+chapter: 第23章 红岸之五
+figure_type: simile
+quote: 梦总是很快会醒的，就像那轮太阳，虽然还会升起来，已不带有新的希望
+sensory_mapping: 日落与日出；明暗循环；醒来；希望降温；时间重复
+context_fact: 她完成秘密发射却不知道是否有效，暮色中的灰色生活让她预感梦想不会改变现实。
+image_mechanism: 梦的亮度被借给太阳，醒来即日落；次日光盘机械返回，却无法像传统日出象征那样刷新人生，循环因此从希望转成徒劳重复。
+property_alignment: 绚丽梦想对应明亮太阳；梦醒对应太阳落山；生命继续对应太阳再升；现实不变对应日轮重复旧轨；新希望缺失对应光亮失去象征温度
+context_alignment: 她刚把太阳用作信号放大器，天体既承载技术希望又成为希望失效的比喻，科学对象与内心状态紧密扣合。
+narrative_function: 把短暂梦想、日落和预见的灰色后半生连成一条情绪收束线。
+transfer_rule: 用日升日落写梦醒时，应区分物理循环与心理更新，让再次升起为何不能恢复希望得到具体语境支撑。
+failure_boundary: 人物从失败中获得新目标、次日确有转机，或日出在场景中明确象征复苏时，无希望的重复太阳会被后文推翻。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁认为借太阳向宇宙呼喊的绚丽愿望终会破灭，即使生活继续也不会产生新希望
+vehicle: 当日太阳已经落下，次日虽会照常升起，却只是重复天体循环而非全新开端
+ground: 梦想短暂后消散对应白日结束太阳落下；人仍继续生活对应太阳次日重升；重复不改变命运对应同一日轮不带新希望

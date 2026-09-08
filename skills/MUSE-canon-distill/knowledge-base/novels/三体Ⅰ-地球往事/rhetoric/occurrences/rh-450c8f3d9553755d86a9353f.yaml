@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-450c8f3d9553755d86a9353f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L373-L374
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 冷酷地封死了汪淼的一切出路
+sensory_mapping: 空间；封闭；压力
+context_fact: 申玉菲确认整个宇宙会按倒计时闪烁。
+image_mechanism: 对话中每提高一次尺度就关闭一个解释通道，最后宇宙尺度像最后一道门落锁；认知空间被具体压缩到零出口。
+property_alignment: 每种解释被更大尺度证据堵住对应出口封闭；无法退回技术判断对应被困者无路可走
+context_alignment: “更大尺度”挑战本就像不断寻找逃路，封死准确收束辩论。
+narrative_function: 把无可辩解写成物理囚禁。
+transfer_rule: 写论证封闭时，可把候选解释视作多条通道，并让新证据逐条堵塞，最后一击关闭最后出口。
+failure_boundary: 仍有未检验替代解释、证据只降低概率而非排除时，称全部封死会夸大结论。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 宇宙闪烁承诺消除汪淼所有技术解释的处境
+vehicle: 把可逃通道逐一封闭的囚禁者
+ground: 每种解释被更大尺度证据堵住对应出口封闭；无法退回技术判断对应被困者无路可走

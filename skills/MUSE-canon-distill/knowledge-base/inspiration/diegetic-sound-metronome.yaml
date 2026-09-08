@@ -1,0 +1,36 @@
+card_id: diegetic-sound-metronome
+pattern_name: 声响节拍器·天候角色化
+dramatic_function: 让画外声响与天象绑定台词节拍：截停沉思、催逼行动、应和誓言、缝合场次，把心理压强外化并钉回物理时间
+applicability: 适用于心理戏与命运压抑场的节奏控制；声响须有剧情在场感并被角色回应；沦为背景音效或情绪配乐即失效
+reuse_candidates:
+- 敲门人地狱独白
+- 钟声召唤行凶的具体情节
+- 雷劈起誓的具体誓词
+- 蛙鸣、梆子、卖唱春曲的声景组合
+tags:
+- 声音设计
+- 节奏
+- 转场
+- 悬念
+- 环境叙事
+- 命运预兆
+source_scenes:
+- novel: Macbeth
+  scene_id: A2S1
+  note: 约定钟声斩断匕首独白，决断由声音代发
+- novel: Macbeth
+  scene_id: A2S2
+  note: 画外敲门一记紧过一记，给恐慌装节拍器
+- novel: Macbeth
+  scene_id: A2S3
+  note: 敲门声跨场延续，缝合密室与门房两场
+- novel: 雷雨
+  scene_id: A3
+  note: 隐雷三次插入母女问答，跪誓最终绑在天象上
+- novel: 雷雨
+  scene_id: A4
+  note: 闪电、走电电线与雨夜共同构成清算现场
+phase_affinity:
+- 1
+- 4
+- 5

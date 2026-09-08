@@ -1,0 +1,14 @@
+scene_id: '05'
+source_notes: scene_05_beats.md
+patterns:
+- pattern_id: 05-p1
+  beat: 魔法失灵
+  dimension: omission
+  original_move: 只写幻想中断症状不诊断创伤
+  ai_default_failure: 会解释现实残酷击碎童话
+  transfer_rule: 写心理防线崩塌时呈现能力丧失
+  quote: 摄走了她的魔法
+overall_traits:
+- 将外部冲突内化为能力丧失
+- 成人视角与儿童视角交叉剪辑
+- 延迟疼痛被叙事化

@@ -1,0 +1,56 @@
+scene_id: A1
+source_notes: scene_A1_beats.md
+patterns:
+- pattern_id: A1-p1
+  beat: 劳作开场
+  dimension: blocking
+  original_move: 开幕父女各自劳作背向不寒暄，关系靠应答温度自己显形。
+  ai_default_failure: 先写一段相互称呼的寒暄交代人物关系。
+  transfer_rule: 用劳作姿态与应答质感开场，免去关系说明。
+  quote: 四凤……背着观众滤药
+- pattern_id: A1-p2
+  beat: 讨钱回合战
+  dimension: exchange
+  original_move: 勒索分三步：邀功、讨钱、威胁，底牌压到对方要走时才出。
+  ai_default_failure: 让勒索者一次性说破所有底牌。
+  transfer_rule: 市井胁迫戏按牌面递增排布，每步只掀一张。
+  quote: 坐着汽车……的那位是谁呀？
+- pattern_id: A1-p3
+  beat: 闹鬼命名秘密
+  dimension: exchange
+  original_move: 乱伦丑闻由仆人嘴里以「闹鬼」故事先行命名，说出而未说破。
+  ai_default_failure: 让当事人对手戏先揭，或用直白词点破。
+  transfer_rule: 核心丑闻首次入戏经由底层讹传，命名权给仆人。
+  quote: 他同他的后娘就在这屋子里闹鬼
+- pattern_id: A1-p4
+  beat: 大海掐点上场
+  dimension: blocking
+  original_move: 新人物上场卡在四凤被逼说出名字的悬崖瞬间，悬念封存。
+  ai_default_failure: 让她把名字答完再安排人物进门。
+  transfer_rule: 用上场打断保住未出口的关键信息，调度即剪辑。
+  quote: 鲁大海进——四凤的哥哥
+- pattern_id: A1-p5
+  beat: 蘩漪工笔肖像
+  dimension: overall
+  original_move: 登场前插数百字小说化肖像，直写性格欲望，供演员阅读。
+  ai_default_failure: 舞台指示只给年龄服装等可见信息。
+  transfer_rule: 关键人物的指示可承担小说功能，写到欲望层。
+  quote: 她会爱你如一只饿了三天的狗
+- pattern_id: A1-p6
+  beat: 喝药仪式
+  dimension: blocking
+  original_move: 朴园不亲手递药，命令链经四凤端、冲跪劝、萍下跪逐级执行。
+  ai_default_failure: 写成强权者与反抗者的直接对吵。
+  transfer_rule: 写强权写它如何征用在场每个人的身体。
+  quote: 跪下！……我喝，我现在喝
+- pattern_id: A1-p7
+  beat: 错位训子
+  dimension: exchange
+  original_move: 「对不起你的母亲」一句双解：父说名誉，子闻乱伦事发。
+  ai_default_failure: 迅速消除歧义，让两人对准同一所指。
+  transfer_rule: 让同一句话在说者与听者间错位双解，造冷汗戏。
+  quote: 你知道你现在做的事是对不起你的父亲么
+overall_traits:
+- 开幕近半篇幅给仆人，秘密从底层视角入戏
+- 权力不靠宣言靠仪式，命令链越长越可见
+- 工笔肖像与市井口语并置，供阅读与演出双轨

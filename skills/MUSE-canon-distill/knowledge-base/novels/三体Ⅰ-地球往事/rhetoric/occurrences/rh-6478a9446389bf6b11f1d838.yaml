@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6478a9446389bf6b11f1d838
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L498
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 空气仿佛凝固了
+sensory_mapping: 听觉；触觉；时间；空间
+context_fact: 三颗飞星预示漫长严寒，所有人瞬间惊呆。
+image_mechanism: 人和声音一齐被抽走运动，连原本不可见的空气都获得硬度；未来世界冻结提前在一秒沉默中发生。
+property_alignment: 人群停动作对应空间失去流动；声音消失时间似停对应固体固定；严寒将至对应凝固的物态预演
+context_alignment: 群体反应与即将到来的绝寒使用同一物态。
+narrative_function: 在灾难信息与行动之间制造静止停顿。
+transfer_rule: 环境凝固适合动作、声音、时间感同时停摆，并可与场景真实温度或后果形成回声。
+failure_boundary: 只有一人沉默、空气仍喧闹或没有骤停时，凝固会把局部迟疑夸成全场冻结。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 三颗飞星消息后大殿里所有人静止无声的状态
+vehicle: 流动空气突然冻结成固体
+ground: 人群停动作对应空间失去流动；声音消失时间似停对应固体固定；严寒将至对应凝固的物态预演

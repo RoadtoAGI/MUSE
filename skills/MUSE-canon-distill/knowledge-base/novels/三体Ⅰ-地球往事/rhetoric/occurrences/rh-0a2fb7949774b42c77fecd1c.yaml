@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0a2fb7949774b42c77fecd1c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1857
+chapter: 第24章 红岸之六
+figure_type: analogy
+quote: 这条无限长的曲线就是宇宙的抽象，一头连着无限的过去，另一头连着无限的未来，中间只有无规律无生命的随机起伏，一个个高低错落的波峰就像一粒粒大小不等的沙子，整条曲线就像是所有沙粒排成行形成的一堆沙漠
+sensory_mapping: 视觉曲线；脚下沙粒；沙漠广度；行走；干燥荒凉；时间两端
+context_fact: 叶文洁午夜监听宇宙，长期只见无意义噪声，精神上也感到在陌生世界无家可归。
+image_mechanism: 示波细线从屏幕边缘伸出，向左钻入无限过去，向右伸向无限未来；每个波峰掉成一粒沙，密集数据没有长成城市或生命，只铺出可永远行走的沙漠。
+property_alignment: 波形横轴对应时间道路；左端对应无限过去；右端对应无限未来；随机波峰对应大小沙粒；无智能结构对应沙粒无生命；噪声持续对应沙漠无边；无信息回应对应找不到归宿
+context_alignment: 外部宇宙荒凉与叶文洁内心无家相互映照，几行后智能信号让细线“有灵魂”，沙漠中第一次出现可回应者。
+narrative_function: 把技术噪声、宇宙观和人物精神状态合成一幅无尽沙漠，为外星消息制造最大反差。
+transfer_rule: 用沙漠解释噪声序列时，应对应离散颗粒、无结构重复、无限延展、生命缺席和观察者的行走体验。
+failure_boundary: 波形含周期、编码或丰富可辨结构，或人物从随机性中感到丰饶而非荒凉时，沙漠会掩盖信息。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 红岸显示器上无限延展、只有随机噪声起伏而不含智能信息的宇宙电波波形
+vehicle: 一条连接过去未来的无尽道路，由大小沙粒连续排成荒凉沙漠，行者走多久也找不到归宿
+ground: 波形横轴无限延伸对应道路贯穿时间；随机波峰密集无意义对应沙粒高低不一却不构成生命秩序

@@ -1,0 +1,17 @@
+# series/series_state.yaml —— 跨 session 状态机
+schema_version: 1
+work_slug: fengyun-lu             # 工作区目录名（works/<slug>/ 的 slug）
+collaboration_mode: volume        # volume | chapter；session 内可切，默认 volume
+active_session:                   # 单写者 marker；无活跃写者时整段省略
+  session_id: sess-20260706-01
+  started_at: "2026-07-06T10:00:00+08:00"
+cursor:
+  volume: V02
+  working_chapter: C0039          # 在写/在审的章（裸章号）；published_head 不入状态，从 manifest 推导
+  stage: drafting                 # breaking | outlining | drafting | reviewing | publishing | summarizing | volume_closing
+pending: null                     # 非 null 即有待用户决策；示例：
+  # type: volume_direction
+  # question: 本卷主角是否在此处黑化？
+  # options_file: series/decisions/D-0007-candidates.yaml
+buffer:
+  drafted_unpublished: [C0038, C0039]   # published | buffer | outline 三段式缓冲区的中段

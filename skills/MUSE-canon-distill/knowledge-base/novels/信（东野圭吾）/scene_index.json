@@ -1,0 +1,750 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "犯罪现场",
+      "POV-加害者",
+      "意外杀人",
+      "象征-糖炒栗子"
+    ],
+    "characters": [
+      "武岛刚志",
+      "绪方敏江"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛刚志",
+    "word_count": 7020,
+    "source_chapter": "序",
+    "file": "scenes/scene_S01.md",
+    "description": "刚志为筹弟弟学费入室盗窃绪方家，被独居老人撞见，惊慌中用螺丝刀刺死她——案件爆发，全篇激励事件。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身跟随刚志，少直评，多显自辩",
+      "diction": "口语叙述夹生活物件和工种细节",
+      "rhetoric_density": "low",
+      "dialogue_mode": "叙述推进为主，对白短句触发转向",
+      "pacing": "长段铺因，动作处逐拍压慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "案件后",
+      "媒体围攻",
+      "身份被知晓",
+      "反向歧视-早期"
+    ],
+    "characters": [
+      "武岛直贵",
+      "班主任梅村",
+      "媒体记者(电话)"
+    ],
+    "conflict_type": "personal",
+    "pov": "武岛直贵",
+    "word_count": 1440,
+    "source_chapter": "第一章 §1",
+    "file": "scenes/scene_S02.md",
+    "description": "案件后第二天，直贵被警署传唤后回家，电视播放哥哥黑白照片标'嫌疑犯'，班主任电话吞吐示意疏远，电话与门铃响个不停。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身直贵，外界声音层层逼近",
+      "diction": "日常家务词转入媒体制度词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "电话对白碎片化，制造围困感",
+      "pacing": "回忆短缓，电话门铃连续加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "制度性退场",
+      "学校劝退",
+      "房地产逼迁",
+      "放弃大学"
+    ],
+    "characters": [
+      "武岛直贵",
+      "校长",
+      "年级主任",
+      "班主任梅村",
+      "房地产公司人员"
+    ],
+    "conflict_type": "personal",
+    "pov": "武岛直贵",
+    "word_count": 2210,
+    "source_chapter": "第一章 §3",
+    "file": "scenes/scene_S03.md",
+    "description": "校长 + 年级主任 + 梅村以'今后还能不能继续上学'劝直贵转学，他坚持不退学；同日房地产公司登门逼迁——直贵宣告放弃大学。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，冷看学校和租屋压力",
+      "diction": "朴素口语配机构委婉套话",
+      "rhetoric_density": "low",
+      "dialogue_mode": "会议式对白推进，话外压力重",
+      "pacing": "先慢铺环境，后用逼迁收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "首次拘留所面会",
+      "兄弟首次重逢",
+      "谢罪未遂",
+      "POV转换"
+    ],
+    "characters": [
+      "武岛直贵",
+      "武岛刚志",
+      "看守警察",
+      "绪方家儿子与孙女(远景)"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2247,
+    "source_chapter": "第一章 §4",
+    "file": "scenes/scene_S04.md",
+    "description": "深川警察署讯问室——刚志低头不语只能哭泣；事后直贵想去绪方家谢罪，看见死者儿子带女儿出门，慌忙逃走，怨恨自己'像逃兵一样'。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知直贵，观察哥哥身体替代判断",
+      "diction": "身体状态词多，情绪词克制",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短促探视对白，沉默承担重量",
+      "pacing": "室内停滞后，门口擦肩骤停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "同形剥夺-模板建立",
+      "餐厅说破身世",
+      "反向歧视-标本",
+      "失工",
+      "群戏"
+    ],
+    "characters": [
+      "武岛直贵",
+      "6名高中同学",
+      "外国餐厅大胡子店长",
+      "其他客人"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛直贵",
+    "word_count": 2902,
+    "source_chapter": "第一章 §6",
+    "file": "scenes/scene_S05.md",
+    "description": "外国特色餐厅——同班 6 人来店，醉后大声说出'谁叫他哥是杀人犯呢'，全店沉默，店长沉默地擦桌子，常客流失——直贵主动辞职。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，旁观群体尴尬扩散",
+      "diction": "餐厅服务语和学生醉话并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "群体对白刺破秘密，店长委婉",
+      "pacing": "招待细节缓铺，失言后留白变长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "拘留所探视",
+      "兄弟认知裂缝",
+      "象征-糖炒栗子",
+      "对白密集"
+    ],
+    "characters": [
+      "武岛直贵",
+      "武岛刚志",
+      "看守"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2252,
+    "source_chapter": "第一章 §8",
+    "file": "scenes/scene_S06.md",
+    "description": "东京拘留所玻璃隔开的探视室——刚志记得'你最喜欢吃糖炒栗子'，直贵纠正'喜欢吃的是妈妈'，兄弟亲密度的根本不对称首次浮出。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，借玻璃隔离情感",
+      "diction": "探视流程词混入家庭记忆词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "兄弟对白密集，误记推动裂缝",
+      "pacing": "等待慢，谈话断续，结尾情绪外溢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "底层互助",
+      "前科者-启示者",
+      "象征-参考书",
+      "宿舍"
+    ],
+    "characters": [
+      "武岛直贵",
+      "仓田"
+    ],
+    "conflict_type": "personal",
+    "pov": "武岛直贵",
+    "word_count": 4241,
+    "source_chapter": "第二章 §2-3",
+    "file": "scenes/scene_S07.md",
+    "description": "宿舍中曾在千叶监狱服刑的仓田让直贵教他数学，分享自己有妻儿要养的故事，劝直贵别丢梦想；仓田离开后'忘了'留下高中参考书堆中夹着帝都大学函授教育部小册子。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，善意不明说让读者推断",
+      "diction": "宿舍口语和学习材料词并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "试探式对白，人物绕开同情",
+      "pacing": "闲谈松弛，发现小册子时轻提速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "音乐",
+      "首次唱《想象》",
+      "归属感",
+      "象征-列侬",
+      "群戏"
+    ],
+    "characters": [
+      "武岛直贵",
+      "寺尾祐辅",
+      "乐队成员3人",
+      "3名女粉丝"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2200,
+    "source_chapter": "第二章 §6",
+    "file": "scenes/scene_S08.md",
+    "description": "卡拉 OK 店——直贵第一次在人前唱约翰·列侬《想象》，被寺尾发现声音才华，邀加入乐队'宇宙光'；'没有歧视和偏见的世界'成为乐队座右铭。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，音乐体验压过事件阴影",
+      "diction": "青春口语混音乐名词和英文歌名",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "邀约对白明快，舞台反应推进",
+      "pacing": "沉浸段舒展，才华被发现处跳跃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "同形剥夺",
+      "音乐梦失去",
+      "好人也排斥",
+      "宿舍",
+      "群戏"
+    ],
+    "characters": [
+      "武岛直贵",
+      "幸田",
+      "敦志",
+      "健一"
+    ],
+    "conflict_type": "personal",
+    "pov": "武岛直贵",
+    "word_count": 2162,
+    "source_chapter": "第二章 §9",
+    "file": "scenes/scene_S09.md",
+    "description": "乐队三人来直贵宿舍——告知经纪人根津已查到他哥哥的事，要求他主动退出乐队，且不要让寺尾知道实情。直贵接受。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，冷静记录朋友的排斥",
+      "diction": "宿舍日常词转为经纪事务词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "三人轮流说明，客气中切断关系",
+      "pacing": "开场平稳，消息揭露后压低停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "音乐梦终结",
+      "兄弟决裂-朋友",
+      "下跪",
+      "对白密集",
+      "象征-想象"
+    ],
+    "characters": [
+      "武岛直贵",
+      "寺尾祐辅",
+      "远景的幸田/敦志/健一"
+    ],
+    "conflict_type": "personal",
+    "pov": "武岛直贵",
+    "word_count": 2358,
+    "source_chapter": "第二章 §10",
+    "file": "scenes/scene_S10.md",
+    "description": "录音室外街道——直贵编理由退出乐队，寺尾识破并爆发'我从心底里生气，要是他在这儿，我肯定要狠狠揍他'；直贵跪下，转身离开不再回头。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，借寺尾愤怒反照自责",
+      "diction": "街头口语直接，情绪动词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白对撞推进，怒斥后以下跪收束",
+      "pacing": "解释拉扯快，离开时动作放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "上升婚恋-开始",
+      "联谊会",
+      "高冷千金",
+      "偶遇"
+    ],
+    "characters": [
+      "武岛直贵",
+      "中条朝美",
+      "西冈"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 3499,
+    "source_chapter": "第三章 §3-4",
+    "file": "scenes/scene_S11.md",
+    "description": "涩谷餐厅联谊会——直贵被中条朝美的'留过级 / 不去学校'气质吸引，帮她找回钱包，咖啡店交换手机号——上升婚恋线开始。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，观察朝美的疏离姿态",
+      "diction": "联谊口语夹都市消费细节",
+      "rhetoric_density": "low",
+      "dialogue_mode": "搭讪和交换信息推动亲近",
+      "pacing": "群场略写，钱包事件后节奏转柔"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "阶层封锁",
+      "拜访恋人父母",
+      "订婚对象登场",
+      "细节阶层差",
+      "群戏"
+    ],
+    "characters": [
+      "武岛直贵",
+      "中条朝美",
+      "中条父亲",
+      "中条京子(母)",
+      "嘉岛孝文"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛直贵",
+    "word_count": 6143,
+    "source_chapter": "第三章 §6",
+    "file": "scenes/scene_S12.md",
+    "description": "田园调布中条家——朝美父亲冷淡 / 母亲套话 / 被叫来的'订婚对象'表兄孝文登场；孝文开车送直贵到武藏小杉时威胁'对她死心吧'。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，以礼貌表面写阶层压力",
+      "diction": "家庭寒暄语混豪宅物件细节",
+      "rhetoric_density": "low",
+      "dialogue_mode": "长辈套话和孝文威胁形成夹击",
+      "pacing": "拜访缓慢铺陈，车内威胁骤冷"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "道德崩塌",
+      "针孔阴谋",
+      "身份败露-樱花印章",
+      "强暴未遂",
+      "高压对峙"
+    ],
+    "characters": [
+      "武岛直贵",
+      "中条朝美",
+      "嘉岛孝文"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛直贵",
+    "word_count": 4750,
+    "source_chapter": "第三章 §7-8",
+    "file": "scenes/scene_S13.md",
+    "description": "直贵叫朝美来公寓做广岛风味煎饼——已扎好安全套针孔欲让她怀孕；孝文意外造访目击樱花印章明信片识破身份；朝美发现针孔'你太差劲儿'后愤然离开。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，暴露算计不替他辩护",
+      "diction": "家常烹饪词与犯罪操作词并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对峙对白尖锐，揭穿逐层升级",
+      "pacing": "准备细节慢，识破后连续爆裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "上升通道关闭",
+      "用钱断绝",
+      "伏地恳求",
+      "封口契约"
+    ],
+    "characters": [
+      "武岛直贵",
+      "中条父亲"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛直贵",
+    "word_count": 2341,
+    "source_chapter": "第三章 §8",
+    "file": "scenes/scene_S14.md",
+    "description": "中条父亲登门递信封'接受这个'——交易：分手 + 封口；直贵戏弄式回'会四处去散布'，看见对方扭曲表情后说'开玩笑'，接受分手但拒绝钱。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，记录羞辱中的反击冲动",
+      "diction": "交易话术冷硬，内心词克制",
+      "rhetoric_density": "low",
+      "dialogue_mode": "两人对白拉锯，玩笑刺破权力",
+      "pacing": "登门直接，拒钱处短促收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "撒谎被识破",
+      "刑警直觉",
+      "履历审查",
+      "对白密集"
+    ],
+    "characters": [
+      "武岛直贵",
+      "古川刑警",
+      "另一刑警",
+      "总务课长(短暂)"
+    ],
+    "conflict_type": "external",
+    "pov": "武岛直贵",
+    "word_count": 2293,
+    "source_chapter": "第四章 §2-3",
+    "file": "scenes/scene_S15.md",
+    "description": "新星电机五层办公室帷幕隔间——古川刑警通过'特殊直觉'识破直贵'哥哥在美国'的谎言，直贵承认'在监狱里。盗窃杀人罪'。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，刑警视线压迫谎言",
+      "diction": "办公室流程词和侦查术语简洁",
+      "rhetoric_density": "low",
+      "dialogue_mode": "审问式对白密集，问答逼出真相",
+      "pacing": "小隔间封闭，识破后逐句收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "主题宣讲-第一次",
+      "歧视必然论",
+      "蜘蛛网恢复",
+      "社会性死亡",
+      "对白密集"
+    ],
+    "characters": [
+      "武岛直贵",
+      "社长平野"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 3901,
+    "source_chapter": "第四章 §4",
+    "file": "scenes/scene_S16.md",
+    "description": "仓库——社长平野亲自下来与直贵长谈：'有歧视是当然的事情……你哥哥可以说像是自杀一样，他选择了社会性的死亡……但是和真正的死亡不同，社会性的死亡是可以生还的。'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，允许社长承载主题论述",
+      "diction": "仓库实务词接抽象社会判断",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长对白宣讲，少量追问递进",
+      "pacing": "相认轻缓，主题段落稳步展开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "伪装揭穿",
+      "由实子代笔",
+      "父亲赌博破产",
+      "情感结合"
+    ],
+    "characters": [
+      "武岛直贵",
+      "白石由实子"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 4514,
+    "source_chapter": "第四章 §5-6",
+    "file": "scenes/scene_S17.md",
+    "description": "由实子公寓——直贵发现哥哥来信寄到由实子住址，原来她长期用文字处理机代笔；由实子坦白父亲赌博破产的家庭背景'我讨厌逃避'；两人情感性结合。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，借由实子自述互换伤痕",
+      "diction": "通勤日常词转入债务家庭词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "坦白对白绵密，告白不拔高",
+      "pacing": "等待段慢，由实子自述后沉静"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "代际传递",
+      "公园排斥",
+      "女儿受影响",
+      "夫妻信念冲突"
+    ],
+    "characters": [
+      "武岛直贵",
+      "白石由实子",
+      "武岛实纪",
+      "远景的惠美与其母亲"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2701,
+    "source_chapter": "第五章 §2",
+    "file": "scenes/scene_S18.md",
+    "description": "葛西公园——直贵悄悄跟去，亲眼看见实纪的朋友被家长拉走；与由实子讨论是否搬家，由实子坚持'不再逃避，绝不让实纪有自卑感'。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，家庭小事显出社会伤害",
+      "diction": "育儿口语和邻里避让词并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "夫妻对白推进价值选择",
+      "pacing": "公园观察慢，搬家争论节拍清楚"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "主题宣讲-第二次",
+      "否定堂堂正正",
+      "实纪受伤",
+      "突发危机",
+      "理论冲击+现实冲击"
+    ],
+    "characters": [
+      "武岛直贵",
+      "社长平野",
+      "白石由实子",
+      "武岛实纪(医院)",
+      "安藤警官",
+      "医生"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 4474,
+    "source_chapter": "第五章 §4-5",
+    "file": "scenes/scene_S19.md",
+    "description": "社长视察后单独谈话否定'堂堂正正'为'容易选择的路'；紧接物流课长跑来通知妻女被抢包犯撞倒，实纪头部撞伤留疤——理论冲击与现实危机同时降临。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，理论谈话撞上现实事故",
+      "diction": "职场管理词切入医院急救词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "社长论辩后，通知对白骤然打断",
+      "pacing": "视察缓铺，电话事故后急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "镜像-加害者家属",
+      "受害者赔罪",
+      "情感转折点",
+      "断绝信全文"
+    ],
+    "characters": [
+      "武岛直贵",
+      "白石由实子",
+      "武岛实纪(旁边房间)",
+      "前山父",
+      "前山母"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2564,
+    "source_chapter": "第五章 §6",
+    "file": "scenes/scene_S20.md",
+    "description": "抢包犯前山繁和的父母带高级水果上门跪谢；直贵被触动'他们做得到去受害者家里，我从未做到过'；当晚写信宣告与哥哥断绝兄弟关系（全文引用）。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，以镜像家属触发自审",
+      "diction": "赔罪套话和决裂书信语并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "登门道歉对白压低，书信独白收束",
+      "pacing": "会客克制，写信段长句倾泻"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "谢罪未遂-终幕",
+      "隐藏第三线揭示",
+      "受害者拒绝",
+      "哥哥赔罪信束"
+    ],
+    "characters": [
+      "武岛直贵",
+      "绪方先生(绪方敏江之子)"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 3511,
+    "source_chapter": "第五章 §9",
+    "file": "scenes/scene_S21.md",
+    "description": "木场绪方家——绪方先生拒绝直贵烧香'杀我母亲的不是你'，拿出哥哥多年的赔罪信束（隐藏第三线首次揭示），并把刚志的'最后一封信'给直贵。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，受害者语言保持冷静距离",
+      "diction": "拜访礼节语转入长期信件词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "双人对白绵长，拒绝和释放并存",
+      "pacing": "路途慢铺，信束揭示后沉重停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "信",
+    "author": "东野圭吾",
+    "genre": "社会派写实小说",
+    "lang": "zh",
+    "tags": [
+      "全篇高潮",
+      "非动作终结",
+      "失语",
+      "兄弟最后相见",
+      "象征-想象",
+      "悬置结局"
+    ],
+    "characters": [
+      "武岛直贵",
+      "寺尾祐辅",
+      "警官",
+      "武岛刚志(观众席合掌)",
+      "服刑者群体"
+    ],
+    "conflict_type": "internal",
+    "pov": "武岛直贵",
+    "word_count": 2899,
+    "source_chapter": "尾声",
+    "file": "scenes/scene_S22.md",
+    "description": "千叶监狱体育馆舞台——'想象'二人组演出；直贵看见哥哥在观众席合掌颤抖；钢琴前奏开始，直贵张嘴却发不出声音——故事在'怎么也发不出声音'终结。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身直贵，舞台现场收束内心呼喊",
+      "diction": "演出流程词混监狱空间词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "后台对白短，高潮转为内心呼唤",
+      "pacing": "准备缓慢，认出哥哥后凝固失声"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

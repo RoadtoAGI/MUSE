@@ -1,0 +1,27 @@
+mode: reference
+display_name: 崔周平
+role_slug: cui-zhouping
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/他的故事/phase3_spine.yaml
+  - pipeline/他的故事/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TG-S04.md
+  - scenes/scene_TG-S05.md
+  - scenes/scene_TG-S07.md
+  - scenes/scene_TG-S08.md
+  - scenes/scene_TG-S10.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  软建议覆盖情况（注：脚本对 (path,start,end) 去重，本 SKILL.md raw 14 处引用去重后为 9 个唯一 locator；
+  S08:L13-L15 / S10:L11 / S08:L41 / S10:L17 在真相/声音/边界/弧光多段交叉复用——同一行为同时承载"乐观托底"与"裂隙征兆"两义，属同证据多维，非外推）：
+  - 声音框架：跨 S08（口头禅 + 挠头）/ S10（沦陷后安慰）两场景取证。
+  - 弧光：起点（S05 誓言）/ 转折（S10 低声"现在没有理由了"）/ 终点（沉默耗尽，物理终局见 canon-ending）覆盖。
+  - 性格真相（乐观外壳 vs 耗尽裂隙）：S08 乐观解读 + S10 崩前沉默两处不同压力场景佐证。
+  单点 / 较弱支撑项：崔周平为本篇功能性配角（"希望提供者"，二创原型价值），台词量有限；其"主动提议继续拯救世界"
+  与"自缢身亡"分别落在 line 457 / line 289，自缢的物理终局以闪前缺席方式呈现（叙述者先泄露死亡再回填征兆），
+  本 SKILL 弧光本体只描"希望耗尽"内在转变，自缢隔离至 canon-ending.md。

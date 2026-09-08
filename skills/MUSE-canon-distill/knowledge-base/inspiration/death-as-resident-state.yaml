@@ -1,0 +1,24 @@
+card_id: death-as-resident-state
+pattern_name: 死亡内置日常
+dramatic_function: 把死亡从单次事件改写为持续状态，让日常细节不断带出余震。
+applicability: 适合创伤成长或哀悼叙事；若只追求悬疑反转则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 车库自杀
+- 六十年代东京
+- 甲壳虫歌名
+tags:
+- 死亡
+- 日常化
+- 创伤
+- 物件
+source_scenes:
+- novel: 挪威的森林
+  scene_id: S03
+  note: 木月之死被收音机、收据、课桌白花等物件承载。
+- novel: 挪威的森林
+  scene_id: S13
+  note: 直子的死亡由整理衣物、烧信等日常动作逼近。
+phase_affinity:
+- 1
+- 3
+- 5

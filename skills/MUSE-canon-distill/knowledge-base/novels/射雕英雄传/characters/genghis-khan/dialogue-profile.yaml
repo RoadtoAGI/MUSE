@@ -1,0 +1,32 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:genghis-khan
+work_id: novel:射雕英雄传
+display_name: 成吉思汗
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '典型草原帝王的说话方式——短句、祈使句、反问句为主。不解释、不铺陈、不寒暄。常用"靖儿""安答"等具体关系称呼而非官方头衔——他跟郭靖拖雷说话时用的是父子叔侄的语气而非君臣语气。
+
+
+    发怒时动作先于语言——"虎起了脸"/"猛力在案上一拍"/"飞脚踢翻金案"总是出现在话之前；话出口往往只有一两句，如"推出去斩了"、"带他母亲来"、"快拿！"——他的暴怒不是咆哮而是极简的命令。
+
+
+    晚年的语气会突然塌陷为"叹""颤声"——身体衰败的证据先于语言的转变。"颤声道：''起来，起来！我天天在想着你们。''"——这种柔软只对极少数人显露。
+
+
+    标志性的晚年口头禅是反问式追问——"你说古今英雄，有谁及得上我？"+"难道我一生就没做过甚么好事？"——他问郭靖这些不是想要回答，是想要被反驳然后让他有机会反驳反驳者。他输在这里：郭靖的回答不是反驳，是修正定义。
+
+
+    佐证：scenes/scene_13.md:L5-L5 （"推出去斩了"、"带他母亲来"——极简命令）；scenes/scene_15.md:L2-L2 （"起来，起来！我天天在想着你们"+"颤声"——晚年柔软）；scenes/scene_15.md:L6-L7
+    （"那也不过这般大小"——被郭靖"葬地多大"一问后用马鞭打圈儿作答，动作先于语言）'
+  evidence_locators:
+  - scenes/scene_13.md:L5-L5
+  - scenes/scene_15.md:L2-L2
+  - scenes/scene_15.md:L6-L7
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

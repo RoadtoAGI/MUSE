@@ -1,0 +1,28 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 手书乡约
+  dimension: info_density
+  original_move: 一笔不苟楷书同时写功底态度法度
+  ai_default_failure: 铺展灯下研墨提笔凝神
+  transfer_rule: 制度文本可用字体选择传达权威
+  quote: 一笔不苟楷书
+- pattern_id: S22-p2
+  beat: 石匠刻碑
+  dimension: verb
+  original_move: 凿镌刻叮咣把笔墨声放大成公共工程
+  ai_default_failure: 写观看者内心敬畏
+  transfer_rule: 文化落地可写载体升级和重复观看
+  quote: 叮叮咣咣凿石刻字
+- pattern_id: S22-p3
+  beat: 碑文互映
+  dimension: camera
+  original_move: 门侧乡约碑和院中仁义碑构成空间系统
+  ai_default_failure: 补写村民围观和抚摸碑面
+  transfer_rule: 价值宣言可通过空间摆位互相解释
+  quote: 互为映照
+overall_traits:
+- 纸墙石建筑形成载体升级链
+- 安静书写与凿石声对位
+- 旁观者重复行为承载敬畏

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e1952cc3d79ff2805077c5b4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1462
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 整个帝国陷入荒淫无度的泥潭中不可自拔
+sensory_mapping: 黏稠触觉；身体下陷；阻力；污浊颜色
+context_fact: 冯·诺伊曼以罗马贵族暴饮暴食、需担架抬走为证，否定凯撒军队承担长期计算的素质和体力。
+image_mechanism: 宴会的呕吐与污水先提供肮脏液体，继而整座帝国被压进更黏的泥里；纵欲从道德标签变成拖住身体、夺走行军能力的阻力。
+property_alignment: 荒淫环境对应污泥包围；制度腐败加深对应身体持续下陷；缺乏纪律体力对应四肢受阻；难以自我改革对应无法拔出
+context_alignment: 前句的污染河流和呕吐物给泥潭补足具体污秽质感，使熟语与罗马场景直接相连。
+narrative_function: 用可触阻力说明道德腐化为何会转化为计算与军事能力不足。
+transfer_rule: 用泥潭写系统性困境时，应让问题既污染主体又妨碍动作，并呈现继续下陷或自救受阻的过程。
+failure_boundary: 问题能够一次决策迅速纠正、主体行动能力未受影响，或环境虽脏却不黏滞时，泥潭会夸大不可逆程度。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 罗马帝国被统治阶层的纵欲和腐化深度控制，难以自行恢复纪律与行动力
+vehicle: 人跌进黏稠深泥，越挣扎越下沉，双腿无法拔出
+ground: 腐化包围制度和生活对应泥浆裹住身体；帝国难以改革对应陷入者无法拔腿脱身

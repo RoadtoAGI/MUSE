@@ -1,0 +1,15 @@
+# MUSE-writing plugin Python 依赖
+#
+# 主干 pipeline（Phase 0-7、所有 phase skills、agents、hooks、scripts/）
+# 仅依赖 pyyaml。
+#
+# scene-reference 链路（可选，需用户自配语料 + embeddings）需要额外依赖：
+# numpy / openai / python-dotenv —— 不启用 reference 链路时可不装。
+
+pyyaml>=6.0
+jieba>=0.42       # 主干 scripts/lexical_stats.py 中文分词
+
+# scene-reference 链路（按需）
+numpy>=1.24
+openai>=1.0
+python-dotenv>=1.0

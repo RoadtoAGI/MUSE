@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5a29d7fc7d5d4f12bfdcd114
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1732
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 拯救派肯定会倒戈到政府一边
+sensory_mapping: 战场队列；长戈转向；阵营空间；突然背击
+context_fact: 各国进入战争状态并搜捕三体组织，潘寒借预言背叛要求先清除拯救派。
+image_mechanism: 组织内部派系被排成同一战阵，政治压力一来，拯救派的武器在原地旋转一百八十度；尚未发生的立场变化被提前看成背后攻击。
+property_alignment: ETO共同体对应同一军阵；政府对应敌方阵地；拯救派改变立场对应长戈倒转；提供情报或协助搜捕对应攻击旧队伍；清洗主张对应先解除潜在倒戈者武装
+context_alignment: 潘寒用军事确定性包装未经证实的推测，为内部清洗制造紧迫理由，正显示语言的动员功能。
+narrative_function: 把派系不信任升级为战时叛变指控，推动会场讨论走向清洗。
+transfer_rule: 用倒戈写立场转换时，应存在原联盟、明确对手、方向反转和对旧盟友造成的实际威胁。
+failure_boundary: 成员只是批评内部政策、保持中立或退出而未帮助对手时，倒戈会把异议诬作军事背叛。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 潘寒断言政府搜捕开始后，拯救派会背离ETO并转而协助政府
+vehicle: 战阵中的部队突然倒转长戈，把武器指向原盟军并加入敌阵
+ground: 派系改变政治归属对应军队换边；从内部威胁原组织对应武器由向外转为刺向旧同伴

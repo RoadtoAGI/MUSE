@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-722b3a330573e7208ef844a1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L91
+chapter: 第1章 科学边界
+figure_type: analogy
+quote: 别像是钱钟书似的，到死大家也没能在电视上看上一眼
+sensory_mapping: 社会行为；可见性
+context_fact: 工程师惊讶著名理论物理学家杨冬从未在媒体露面。
+image_mechanism: 这里不把人变成物象，而以一位真实知识分子的媒介经历作参照，把“著名却从不在电视出现”压成可核对的人物类比。
+property_alignment: 两人都以学术成就闻名却回避大众媒介；公众能知名字和作品却难从电视获得日常形象
+context_alignment: 以知识分子为参照，符合学术工程现场谈话语境。
+narrative_function: 迅速说明杨冬的低曝光程度并加深疏离感。
+transfer_rule: 使用事实人物类比时，只提取与当前人物同构且听者熟悉的一段公开行为，并让比较点在句内说清。
+failure_boundary: 若读者不了解参照人物，或把钱钟书的性格、成就一并移给杨冬，类比会越出唯一成立的媒介曝光点。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬始终不上媒体、公众不知其面貌的处世方式
+vehicle: 钱钟书避开电视曝光的公众形象
+ground: 两人都以学术成就闻名却回避大众媒介；公众能知名字和作品却难从电视获得日常形象

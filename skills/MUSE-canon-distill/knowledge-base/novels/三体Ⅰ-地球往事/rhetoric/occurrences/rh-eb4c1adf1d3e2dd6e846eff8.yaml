@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eb4c1adf1d3e2dd6e846eff8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1450
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: analogy
+quote: 这是数学的人海战术
+sensory_mapping: 人群密度；队列推进；数量冲击；战场规模
+context_fact: 数学家人数远远不够，冯·诺伊曼决定征用秦始皇三千万军队，让每人只执行举旗规则。
+image_mechanism: 方程的计算障碍被竖成战线，普通人的重复动作组成连续冲锋波次；智力差距不由训练少数精英填补，而由人数从正面淹过。
+property_alignment: 计算难题对应待突破防线；普通劳动力对应低训练士兵；三千万人并行对应密集兵力；数量补能力对应以人力消耗压过障碍
+context_alignment: 喻体中的“人”随后就是秦军，军事术语同时是机制说明和情节预告，数学与帝国动员在一个短语中扣合。
+narrative_function: 解释为何计算机要到秦帝国制造，并把抽象并行计算转成军队调度。
+transfer_rule: 借人海战术解释计算时，应对齐单元能力低、单元数量大、任务可分割并行和以总吞吐量取胜四项。
+failure_boundary: 任务不能拆分、单元间通信代价高于计算，或错误会随人数放大时，增加人手并不能形成有效人海。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 用三千万名只会简单规则的普通人并行完成巨量数学计算
+vehicle: 战场上以大量普通兵力形成密集波次、凭数量压过防线的人海战术
+ground: 大量低技能计算者对应大量普通士兵；总数量弥补个体能力不足对应兵力密度补偿单兵水平

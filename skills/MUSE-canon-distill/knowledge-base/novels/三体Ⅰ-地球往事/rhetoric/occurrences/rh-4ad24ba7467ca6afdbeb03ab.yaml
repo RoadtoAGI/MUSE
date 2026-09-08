@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4ad24ba7467ca6afdbeb03ab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1108
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 到监听部后，才发现这里更像红岸的核心
+sensory_mapping: 空间层级；器官/机械结构；功能中心
+context_fact: 叶文洁原以为发射部是核心，被调往监听部后发现后者设备先进一个层次，并承担更深层任务。
+image_mechanism: 基地的部门层级被画成有外壳与中心的结构，叶文洁的调动从离开中心反转为向更深处进入；“更像”让核心位置随新信息重新定位。
+property_alignment: 监听部技术层级更高对应核心部件最精密；监听信息支撑发射行动对应核心向整体提供决定性输入；权限更深对应核心位于结构内部
+context_alignment: 前文反复把红岸称为系统和机器，核心既符合工程师视角，也准确表现叶文洁逐层接近机密。
+narrative_function: 反转调职含义，提示红岸真实用途仍藏在更深一层。
+transfer_rule: 用核心比拟组织部门时，应明确其不可替代的信息、控制或能量功能，并让人物所处层级变化验证“向内”或“向外”。
+failure_boundary: 部门只是设备更新、没有支配或支撑整体的关键作用时，称核心会把先进程度误作结构重要性。
+quality_assessment: functional
+confidence: 0.96
+review_status: reviewed
+tenor: 技术更先进、作用更关键的红岸监听部
+vehicle: 位于系统内部并支配整体运作的核心部件或器官
+ground: 监听部掌握更先进设备对应核心容纳关键能力；其情报为红岸行动提供依据对应核心决定系统功能

@@ -1,0 +1,325 @@
+# 《绍宋》Phase 5: 关键场景编排（按序列展开）
+# 接收 Phase 4 的 sequence 框架，逐序列展开为具体场景
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 亳州明道宫
+        time: 建炎元年秋
+        participants: [赵玖, 康履, 杨沂中, 刘晏]
+        pov: 赵玖
+        conflict: 穿越者被困在亡国天子身体中，被康履软性控制，连身边人都不认识
+        value_start: 混乱/茫然（不知道自己是谁，想吃雪糕）
+        value_end: 清醒/决心（确认回不去，决定"把这个该死的时代给扳正了"）
+        must_include: 赵玖与赤心队同餐、跳井失败、"朕要抗金"的觉醒
+        handoff: 赵玖开始主动出击——引出杨沂中反水和康履被杀
+        source_chapter: "第一卷第1-4章"
+
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: 明道宫后殿
+        time: 建炎元年秋
+        participants: [赵玖, 张浚, 康履, 杨沂中, 吕好问]
+        pov: 赵玖
+        conflict: 张浚弹劾三人隔绝内外，康履情急说出"妖邪附体"，杨沂中当场拔刀斩杀康履
+        value_start: 被控制/无力
+        value_end: 初步掌权/危险的开局
+        must_include: 张浚的"绝杀"之策（验证截留奏疏）、康履喊出"妖邪附体"、杨沂中拔刀
+        handoff: 权力格局剧变，引出李纲回归和淮河危机
+        beat_direction: "对白交锋主导——张浚的连续追问 vs 赵玖的沉默犹豫 vs 康履的崩溃"
+        source_chapter: "第一卷第7-8章"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: 界沟附近 → 韩世忠中军（斤沟镇）
+        time: 建炎元年冬
+        participants: [赵玖, 韩世忠, 赵鼎, 杨沂中, 张浚, 梁夫人, 李纲]
+        pov: 赵玖
+        conflict: 韩世忠前军哗变，众人劝赵玖逃走，赵玖拒绝并百骑赴叛
+        value_start: 恐惧/犹豫（众人劝渡河逃走）
+        value_end: 信任/奠基（韩世忠连夜平叛，赵玖扶腰系带许以郡王）
+        must_include: "朕的心腹都在哪里"的回响、百骑冒夜驰四十里、韩世忠跪接、扶腰系带
+        handoff: 君臣根本信任建立，为淮上大战奠定基础
+        beat_direction: "行动主导——无声的选择比一切言语更有力"
+        source_chapter: "第一卷第15-19章"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: "S04"
+        arc_id: ARC-1
+        location: 八公山
+        time: 建炎元年冬
+        participants: [赵玖, 杨沂中, 吕好问, 张浚, 张永珍]
+        pov: 赵玖
+        conflict: 三千西军为刘光世鸣不平鼓噪生事，赵玖须在安抚与镇压间抉择
+        value_start: 被欺骗/愤怒
+        value_end: 震慑/铁血权威确立
+        must_include: 逐一问话的开诚布公、穿杨沂中铠甲亲自射箭、掼首传示三军
+        handoff: 打破赵宋不杀大将传统，收编西军，引出雪渡下蔡
+        beat_direction: "先柔后刚——对话安抚 vs 暴力收尾的节奏落差"
+        source_chapter: "第一卷第29-33章"
+
+  - seq_id: ARC1-SEQ4
+    scenes:
+      - scene_id: "S05"
+        arc_id: ARC-1
+        location: 淮河 → 下蔡城
+        time: 建炎元年除夕
+        participants: [赵玖, 张俊, 杨沂中, 张浚, 完颜兀术, 蒲卢浑, 阿里, 田师中]
+        pov: 赵玖/金兀术
+        conflict: 赵玖冒雪渡河入孤城安抚张俊，金兀术同夜渡河侦察
+        value_start: 孤城绝望（张俊被刘光世坑害，困守下蔡）
+        value_end: 死守决心（张俊散尽私财宣布死守）
+        must_include: 雪中渡河、携刘光世首级和咸水鸭、张俊倾白银赏全城、除夕夜河上擦身
+        handoff: 淮北防线稳固，引出淮河水战和最终决战
+        beat_direction: "多视角交叉——宋金主帅的平行叙事制造戏剧反讽"
+        source_chapter: "第一卷第36-41章"
+
+      - scene_id: "S06"
+        arc_id: ARC-1
+        location: 淮河下蔡城外
+        time: 建炎二年正月
+        participants: [赵玖, 韩世忠, 张俊, 王胜, 解元, 蒲卢浑, 完颜兀术, 林景默]
+        pov: 赵玖/多视角
+        conflict: 韩世忠以三段式伏击歼灭金军，赵官家城头观战
+        value_start: 战争胶着（金军最后一搏）
+        value_end: 大捷/战略级转折（靖康以来首胜）
+        must_include: 韩世忠设伏细节、蒲卢浑战死、赵玖掼帽高呼"此战胜了"
+        handoff: 战后定都南阳，开启 Arc 2
+        source_chapter: "第一卷第76-86章"
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S07"
+        arc_id: ARC-2
+        location: 方城山下
+        time: 建炎二年春
+        participants: [赵玖, 吕好问, 韩世忠, 张浚, 胡寅, 刘汲, 汪伯彦, 林景默]
+        pov: 赵玖
+        conflict: 流亡政权如何制度化？各方利益如何平衡？
+        value_start: 流亡散乱（行在文武各怀心思）
+        value_end: 制度重建（四省合一/废三衙/御营体制确立）
+        must_include: 制度改革宣布、握手刘汲、训斥韩世忠"萌儿"、"十年之功"宣言
+        handoff: 进入南阳建政阶段
+        beat_direction: "政治表演——赵玖的每个动作都在收买不同群体的人心"
+        source_chapter: "第二卷第11-12章"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S17"
+        arc_id: ARC-2
+        location: 南阳城
+        time: 建炎二年秋
+        participants: [赵玖, 完颜兀术, 完颜拔离速, 陈规, 阎孝忠, 赤盏晖, 完颜彀英, 张遇]
+        pov: 多视角（金军将台/壕沟个体/宋军望楼）
+        conflict: 金军万人攻城——双壕陷阱 vs 云梯人海
+        value_start: 金军气势汹汹攻城
+        value_end: 双壕陷阱歼敌/金军转为砲战消耗
+        must_include: 一棍汉制度、内外双壕陷阱、完颜彀英死于无名汉儿之手、张遇密谋保存兵力
+        handoff: 金军认识到攻城需集结砲车群，战事进入砲战消耗阶段
+        beat_direction: "系统描写替代情绪标签——一棍汉经济制度比任何形容词都更写透恐惧"
+        source_chapter: "第二卷第46-47章"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: "S18"
+        arc_id: ARC-2
+        location: 长社城外
+        time: 建炎二年冬
+        participants: [赵玖, 韩世忠, 岳飞, 完颜挞懒, 洪涯, 大㚖, 郦琼, 范一泓]
+        pov: 多视角（洪涯/挞懒/赵玖/韩世忠）
+        conflict: 赵官家龙纛渡河，韩世忠岳飞并旗总攻
+        value_start: 宋军主动出击但金军尚在抵抗
+        value_end: 三旗并行总攻/金军全线崩溃
+        must_include: 洪涯穿越战场确认龙纛、赵官家下令拆桥破釜、韩岳并旗扈从龙纛、挞懒被打懵
+        handoff: Arc 2 军事高潮完成，引出河阴大整编
+        beat_direction: "摄像机角色——洪涯的双语求活穿越战场，是万人大战的最佳个体视角"
+        source_chapter: "第二卷第69章"
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S08"
+        arc_id: ARC-3
+        location: 东京宫城
+        time: 建炎三年
+        participants: [赵玖, 韩世忠, 张俊, 岳飞, 曲端, 吕好问, 王渊]
+        pov: 赵玖
+        conflict: 养二十万兵需掏空东南——帅臣吃空饷的潜规则 vs 国家财政现实
+        value_start: 军费无底洞
+        value_end: 君臣正视现实、达成共识（东南加税养兵）
+        must_include: 公开算军账、"吃空饷喝兵血只喝三成"、曲端关西马政提醒
+        handoff: 军事预算问题暂搁，进入恩科殿试
+        source_chapter: "第三卷第13章"
+
+      - scene_id: "S09"
+        arc_id: ARC-3
+        location: 东京集英殿
+        time: 建炎三年八月
+        participants: [赵玖, 岳飞, 曲端, 张荣, 吕好问, 蓝珪]
+        pov: 赵玖
+        conflict: 文武殊途百年传统 vs 穿越者的文武并重理念
+        value_start: 文武殊途
+        value_end: 文武并重制度开端
+        must_include: 岳飞/曲端临场下考、策问五题、曲端抢先应试
+        handoff: 进士入军制度开端，为小吴埽之战埋伏笔
+        source_chapter: "第三卷第32-35章"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S10"
+        arc_id: ARC-3
+        location: 东京城内河 → 黄河小吴埽
+        time: 建炎三年腊月
+        participants: [赵玖, 张荣, 杨沂中, 虞允文, 陈规, 李宝, 萧恩]
+        pov: 赵玖
+        conflict: 金军控制黄河船队——如何以奇策逆转？
+        value_start: 被动防御（金军控制黄河中游船队）
+        value_end: 主动出击（火攻摧毁金军船队，夺取制河权）
+        must_include: 拆桥拆水门的疯狂决策、水军穿城入黄河、火攻大捷
+        handoff: 制河权逆转，引发金军大规模报复性南侵
+        beat_direction: "悬疑节奏——筹备阶段的步步紧逼比战斗本身更有张力"
+        source_chapter: "第三卷第41-46章"
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-4
+        location: 宣德楼前 → 后宫鱼塘
+        time: 建炎五年二月
+        participants: [赵玖, 吕好问, 杨时, 胡安国, 赵鼎, 张浚, 吕本中]
+        pov: 赵玖
+        conflict: 原学（关学+新学缝合体） vs 道学正统——思想控制权之争
+        value_start: 思想混乱（道学/新学/关学相争，无统一指导思想）
+        value_end: 官学确立（原学成为国家意识形态）
+        must_include: 半球实验的戏剧性效果、关学四句+舒王四句、赵玖鱼塘"述欲"
+        handoff: 思想统一为后续制度变革扫清道路
+        beat_direction: "先声夺人（实验）→ 理论攻防（辩经）→ 政治宣告（定官学）"
+        source_chapter: "第四卷第15章"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-4
+        location: 东京岳台
+        time: 建炎五年
+        participants: [赵玖, 曲端, 赵鼎, 翟汝文, 杨沂中]
+        pov: 赵玖
+        conflict: 穿越者的历史包袱（秦桧问题）+ 北伐战马困境
+        value_start: 穿越者忧惧（秦桧是否回归的历史困局）
+        value_end: 如释重负/转向灭夏战略
+        must_include: 秦桧入金让穿越者释然、战马问题论辩、曲端"编史书的都是韩琦的儿子"
+        handoff: 确认灭夏战略方向
+        source_chapter: "第四卷第29章"
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: "S19"
+        arc_id: ARC-6
+        location: 获鹿县城
+        time: 建炎十年正月末-二月初
+        participants: [赵玖, 吴玠, 吕颐浩, 韩世忠, 曲端, 刘錡, 张子盖]
+        pov: 赵玖/吴玠/吕颐浩
+        conflict: 春雨三日迟延决战——曲端请求休整 vs 韩李吴王坚持雨停即战
+        value_start: 战前焦虑（春雨/曲端疲部/吴玠自疑）
+        value_end: 决心已定（五层方案确立/雨停即战）
+        must_include: 吕颐浩点醒吴玠"动摇的是自己"、赵玖看春绿而非敌阵、四个"是"字定方略、迁都燕京
+        handoff: 雨停翌日全军决战，引出龙纛登高地
+        beat_direction: "等待比战斗更有张力——三日春雨中将帅心理的层层拆解"
+        source_chapter: "第六卷第9章"
+
+      - scene_id: "S13"
+        arc_id: ARC-6
+        location: 获鹿县·太平河石桥 → 高地制高点
+        time: 建炎十年二月初三
+        participants: [赵玖, 吴玠, 韩世忠, 李彦仙, 王德, 曲端, 刘晏, 吕颐浩]
+        pov: 赵玖
+        conflict: 决战白热化——龙纛过河是否能打破僵局？
+        value_start: 决战僵持（双方各不相让）
+        value_end: 龙纛立定、宋军压制七成高地
+        must_include: 王德"请官家稍待，容臣擐甲"、韩世忠夺取西侧主坡、龙纛一刻钟压制高地
+        handoff: 金军被迫投入最后骑兵预备队
+        beat_direction: "无声行动——赵玖全程几乎不说话，以存在本身改变战局"
+        source_chapter: "第六卷第14章"
+
+      - scene_id: "S14"
+        arc_id: ARC-6
+        location: 获鹿高地南侧 → 金军大营
+        time: 建炎十年二月初三（下午）
+        participants: [完颜拔离速, 完颜活女, 杨沂中, 王彦, 赵玖, 虞允文, 完颜兀术]
+        pov: 多视角
+        conflict: 金军最后两万四千精锐铁骑出击 vs 宋军长斧重步铁幕
+        value_start: 金军最后一掷（三面出击）
+        value_end: 全线崩溃/压倒性胜利
+        must_include: 拔离速"谁敢说我不是真元帅"、长斧铁幕四列推进、拔离速战死、赵玖"压过去"
+        handoff: 金军全线崩溃引出燕京政变和金国灭亡
+        beat_direction: "交叉剪辑——宋金双方的'最后一掷'同时展开"
+        source_chapter: "第六卷第14-17章"
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: "S15"
+        arc_id: ARC-6
+        location: 潢水南岸 → 黄龙府
+        time: 建炎十年五月
+        participants: [完颜兀术, 完颜希尹, 完颜合剌, 秦桧, 迪古乃, 讹鲁补, 完颜斡本]
+        pov: 金国视角
+        conflict: 金国残部最后的覆灭——国破之时各人的选择
+        value_start: 逃亡/苟延（兀术携残部北逃塞外）
+        value_end: 灭亡/终结（金国彻底覆灭）
+        must_include: 国主合剌自焚殉国、迪古乃弑杀斡本割秦桧首级、希尹黄龙府自刎
+        handoff: 外部对抗力量消亡，引出战后秩序建立
+        beat_direction: "悲剧收束——敌方视角赋予覆灭以尊严"
+        source_chapter: "第六卷第32章"
+
+  - seq_id: ARC6-SEQ3
+    scenes:
+      - scene_id: "S16"
+        arc_id: ARC-6
+        location: 亳州明道宫
+        time: 建炎十年秋
+        participants: [赵玖, 张浚, 赵鼎, 吕好问, 岳飞, 韩世忠, 吴夫人]
+        pov: 赵玖
+        conflict: 赵玖回到十年前穿越的起点，面对"我到底是谁"的终极问题
+        value_start: 胜利后的空虚/惆怅（"终未吟出'换了人间'"）
+        value_end: 通透/和解（"大醉酩酊"——穿越者终于与新身份和解）
+        must_include: 回到明道宫、大封功臣、砍碎道祖塑像、浪淘沙、首尾闭环
+        handoff: 无——全书终
+        beat_direction: "情感收束——用仪式感（封功臣/砍塑像）包裹内在的释然与惆怅"
+        source_chapter: "第六卷第35章"
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: >
+    全书张力呈六次高峰的波浪式递进：每卷一次大战构成一个高峰，
+    战间期（政治/制度/外交）构成低谷，但低谷本身也在逐次升高。
+    最终卷张力曲线最为陡峭：获鹿决战是全书军事张力顶峰，
+    回明道宫是情感张力的柔和收束——强音后接舒缓尾声。
+  peaks: ["S04", "S06", "S13", "S14", "S15"]
+  valleys: ["S08", "S11"]
+
+# ── 因果链 ──
+
+causal_chain: >
+  S01（穿越/觉醒）→ S02（夺权，因为不夺权就被康履控制）→
+  S03（赴叛赢得韩世忠，因为没有大将就无法抗金）→
+  S04（杀刘光世/掼首，因为不杀则军令不行）→
+  S05（雪渡下蔡，因为不安抚张俊则淮北防线崩溃）→
+  S06（淮上大捷，因为前五步积累的信任和兵力终于兑现）→
+  S07（方城大朝会，因为军事胜利后必须制度化）→
+  S17（南阳守城战，因为定都南阳就必须守住）→
+  S18（鄢陵并旗，因为守城只是被动，必须野战反击才能解围）→
+  S08（曲端入京/算军账，因为扩军需要正视财政现实）→
+  S09（殿试，因为需要新型人才填充军政体系）→
+  S10（小吴埽之战，因为必须夺取制河权才能从守转攻）→
+  S11（原学确立，因为没有统一思想就无法推动制度变革）→
+  S12（金国政变/论战马，因为穿越者需处理历史包袱并确认灭夏方向）→
+  S19（获鹿战前，因为十年积累到此必须定下决战方略）→
+  S13（获鹿决战·龙纛登高地，因为方略既定雨停即战）→
+  S14（获鹿·崩摧，因为最后一掷决定胜负）→
+  S15（金国灭亡，因为获鹿一战打碎了金军主力）→
+  S16（回明道宫，因为穿越者必须回到起点才能完成身份认同的闭环）

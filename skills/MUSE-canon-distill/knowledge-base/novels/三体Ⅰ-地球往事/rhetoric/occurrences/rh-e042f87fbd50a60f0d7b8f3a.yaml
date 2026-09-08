@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e042f87fbd50a60f0d7b8f3a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L785
+chapter: 第9章 红岸之一
+figure_type: simile
+quote: 与天线相比，它们像几块精致的积木
+sensory_mapping: 视觉；尺度；几何形态；空间布局
+context_fact: 叶文洁首次走近峰顶基地，天线主宰整个空间尺度。
+image_mechanism: 观察尺度由人转向天线，真实房屋随参照物改变而缩成可拿取的小块；基地因此像被一只更巨大存在搭起的模型。
+property_alignment: 建筑相对天线极小对应积木相对现实建筑缩小；白色房屋轮廓方整对应积木几何块；数栋成组摆放对应若干玩具块组合
+context_alignment: 句子明确以天线作尺度参照，积木承担的是相对缩小而非否认房屋真实功能。
+narrative_function: 用比例突显红岸天线的压倒性体量。
+transfer_rule: 用玩具写尺度时，应先给出场内巨型参照，再匹配对象的简化几何和成组摆放，使缩小来自视点关系。
+failure_boundary: 没有巨大参照、建筑细节繁复凌乱或近距离占满视野时，积木会无端幼稚化场景。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 巨大红岸天线下方的一小群白色建筑物
+vehicle: 摆在巨型玩具旁、尺寸细小且几何规整的精致积木块
+ground: 建筑相对天线极小对应积木相对现实建筑缩小；白色房屋轮廓方整对应积木几何块；数栋成组摆放对应若干玩具块组合

@@ -1,0 +1,56 @@
+scene_id: S17
+source_notes: scene_S17_beats.md
+patterns:
+- pattern_id: S17-p1
+  beat: 混乱登场
+  dimension: verb
+  original_move: 用中性硬动词写巨人暴力，不加情感注释
+  ai_default_failure: 插入人群惊叫或琼恩的恐惧
+  transfer_rule: 写暴力背景时让动词自行承重
+  quote: 死者持剑的手被扯飞
+- pattern_id: S17-p2
+  beat: 指挥调度
+  dimension: omission
+  original_move: 只写命令和判断，建立仍能控局的假象
+  ai_default_failure: 写他努力保持冷静的心理活动
+  transfer_rule: 写突袭前先让受害者忙于公事
+  quote: 排成队
+- pattern_id: S17-p3
+  beat: 第一刀
+  dimension: omission
+  original_move: 用省略号和话卡住模拟意识中断
+  ai_default_failure: 说明他猛然意识到有人要杀他
+  transfer_rule: 写被袭瞬间时省掉理解过程
+  quote: 他的话卡住了
+- pattern_id: S17-p4
+  beat: 短暂还手
+  dimension: info_density
+  original_move: 用极短问答替代背叛辩论
+  ai_default_failure: 安排刺客解释理由并展开道德辩论
+  transfer_rule: 写背叛理由时压缩成一句口号
+  quote: 为了守夜人
+- pattern_id: S17-p5
+  beat: 波文含泪
+  dimension: omission
+  original_move: 让眼泪与刺杀并置，不解释眼泪
+  ai_default_failure: 让波文发表痛苦声明
+  transfer_rule: 写道德复杂刺杀时保留沉默悲恸
+  quote: 泪水流下脸庞
+- pattern_id: S17-p6
+  beat: 琼恩反应
+  dimension: camera
+  original_move: 用拔刀、伤口冒烟和呼唤白灵替代独白
+  ai_default_failure: 回顾人生并谴责背叛者
+  transfer_rule: 写濒死反应时用名字承载联结
+  quote: 白灵
+- pattern_id: S17-p7
+  beat: 第三第四刀
+  dimension: omission
+  original_move: 不交代后两刀来源，只剩递减感知
+  ai_default_failure: 逐一写清每个施暴者
+  transfer_rule: 写意识瓦解时让细节被混乱吞掉
+  quote: 只有冷
+overall_traits:
+- 混乱既是条件也是效果
+- 眼泪承担道德复杂度
+- 用身体感知替代死亡独白

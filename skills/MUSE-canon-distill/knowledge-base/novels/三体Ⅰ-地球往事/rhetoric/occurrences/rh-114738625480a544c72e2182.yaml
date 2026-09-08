@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-114738625480a544c72e2182
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1224
+chapter: 第15章 红岸之四
+figure_type: analogy
+quote: 与外星文明的接触，只是一个符号或开关，不管其内容如何，将产生相同的效应
+sensory_mapping: 机械触发；二元状态；因果链
+context_fact: 马修理论认为，即使接触只证明外星文明存在而不含实质信息，也会放大人类内部差异。
+image_mechanism: 外星接触的复杂内容被剥离，只留下“发生/未发生”的二值按钮；按钮一旦按下，原已潜伏在人类社会内部的机制自行运转。
+property_alignment: 接触有无对应开关通断；内容不影响效应对应开关不携带输入细节；社会连锁反应出现对应电路接通后执行既定功能
+context_alignment: 这段话正在解释“元接触”何以仍具力量，二值开关恰能说明最少信息也足以改变系统状态。
+narrative_function: 将反直觉社会学结论压成清晰因果模型，解释红岸为何被高度保密。
+transfer_rule: 用开关解释事件时，应确认关键变量确为有无状态、触发后机制预先存在，并说明内容细节为何不改变首要效应。
+failure_boundary: 后果随交流内容、强度和对方性质显著变化时，二值开关会抹去决定性的连续变量。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 外星文明存在这一接触事实对人类社会启动的结构性影响
+vehicle: 只区分有无、接通后便触发固定后续过程的符号或开关
+ground: 接触内容差异不改变基本后果对应开关不编码细节只决定通断；接触一发生社会效应即启动对应开关接通后系统开始运行

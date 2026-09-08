@@ -1,0 +1,28 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:精神病院--zheng-yunfan
+work_id: novel:狂病-莫千回
+display_name: 郑云凡
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '郑云凡话不多，开口是浑厚、冷静、带军人指挥腔的短句——危急时直接下达指令（"让你们继续吸引注意力，掩护我"），用动词和命令承担节奏，几乎不解释自己。爆发力只在杀戮的瞬间从喉咙里挤出来（"给我死啊""死啊，为什么还不死"）。退场时语气会转成自嘲式的苦笑和叹息（"行了，那把枪里没子弹""有缘再见吧"），把所有翻涌的委屈和痛苦压成几句平静的告别，绝不诉苦。
+
+
+    - 来源：phase2_character.yaml → voice_traits
+
+    - 佐证：scenes/scene_JB-S10.md:L15-L15（"给我死啊"爆喝 / "死啊，为什么还不死"——杀戮瞬间的爆发）
+
+    - 佐证：scenes/scene_JB-S10.md:L17-L17（"行了，那把枪里没子弹" / "最后一颗子弹，那个条子留给了他自己"——自嘲苦笑的短句）
+
+    - 佐证：scenes/scene_JB-S10.md:L23-L23（"先团队后个人，任何隐患都要重视" / "有缘再见吧"——把痛苦压成平静告别）'
+  evidence_locators:
+  - scenes/scene_JB-S10.md:L15-L15
+  - scenes/scene_JB-S10.md:L17-L17
+  - scenes/scene_JB-S10.md:L23-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

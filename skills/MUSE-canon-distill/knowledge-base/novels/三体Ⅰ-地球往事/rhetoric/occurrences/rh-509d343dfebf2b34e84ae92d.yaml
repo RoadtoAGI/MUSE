@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-509d343dfebf2b34e84ae92d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1052
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 大地似乎正顺着一堵光辉灿烂的大墙缓缓下沉
+sensory_mapping: 视觉；垂直运动；尺度；强光
+context_fact: 硕大太阳从地平线升起一半，已经占据半个天空，汪淼失去日常天体尺度参照。
+image_mechanism: 日轮的巨大弧边被拉直为贴近观察者的发光墙面，太阳上升造成的相对运动随即转嫁给脚下大地，使稳定地面产生坠降感。
+property_alignment: 日轮边缘横贯视野对应墙体占满前方；刺眼明面对应光辉墙面；太阳向上运动对应参照系中大地沿墙向下
+context_alignment: 太阳尺寸异常到破坏天地比例，墙这一近景尺度比普通日轮更能表现压迫，并自然引向下一段上下颠倒。
+narrative_function: 制造世界坐标失稳和大地坠落感，强化巨日压顶。
+transfer_rule: 写相对运动错觉时，可把占满视野的运动对象改造成固定参照面，再让原本稳定的一端承担反向运动。
+failure_boundary: 太阳仍小而远、地平线清晰稳定或视角没有相对位移时，光墙与大地下沉会夸大到失去物理依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨日升起占据半边天空时地平线产生的相对下移错觉
+vehicle: 地面贴着一堵竖直发亮的巨墙向下沉降
+ground: 巨日日缘近乎竖直铺满视野对应高耸光墙；日轮上升使地平线显得下降对应地面沿墙下沉

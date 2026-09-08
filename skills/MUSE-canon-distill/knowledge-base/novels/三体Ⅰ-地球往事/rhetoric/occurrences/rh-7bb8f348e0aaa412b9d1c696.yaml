@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7bb8f348e0aaa412b9d1c696
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L521
+chapter: 第5章 叶文洁
+figure_type: metaphor
+quote: 汪淼放松了思想的缰绳，任其回到《三体》世界
+sensory_mapping: 触觉；动作；控制；心理
+context_fact: 他赶走乱纪元念头失败，承认游戏隐藏信息。
+image_mechanism: 思想先被实体化为有自身趋向的坐骑，意志只需从紧握变松；念头的回返由控制力撤除而非主动命令发生。
+property_alignment: 主动控制思路对应握缰控制方向；停止约束对应松缰；念头自行回返对应坐骑按趋向行走
+context_alignment: “任其”强调非主动移动，缰绳准确提供控制强弱。
+narrative_function: 标记人物由抗拒转为允许解谜。
+transfer_rule: 写注意控制时，可区分意志的牵引工具与念头的自发方向，让松紧变化对应控制程度。
+failure_boundary: 人物主动集中分析、思路没有自发倾向或彻底失控狂奔时，“放松缰绳”分别低估主动性或速度。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 停止压制、让注意力自由返回游戏问题
+vehicle: 骑手松开缰绳让坐骑自行前往
+ground: 主动控制思路对应握缰控制方向；停止约束对应松缰；念头自行回返对应坐骑按趋向行走

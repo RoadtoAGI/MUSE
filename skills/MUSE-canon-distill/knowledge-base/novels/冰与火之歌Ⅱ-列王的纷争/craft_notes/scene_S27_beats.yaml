@@ -1,0 +1,36 @@
+scene_id: S27
+source_notes: scene_S27_beats.md
+patterns:
+- pattern_id: S27-p1
+  beat: 出征家庭化
+  dimension: overall
+  original_move: 把大军出征缩成弟弟求父认同
+  ai_default_failure: 会写旗帜队列全景
+  transfer_rule: 战争可经亲属关系滤镜进入
+  quote: 让父亲骄傲
+- pattern_id: S27-p2
+  beat: 远距攻防
+  dimension: omission
+  original_move: 远观只见旗帜消失和尸体
+  ai_default_failure: 会拉近写个人交锋
+  transfer_rule: 后方视角保留战场模糊性
+  quote: 突然消失
+- pattern_id: S27-p3
+  beat: 夜袭火箭
+  dimension: verb
+  original_move: 用日常跳动词写烧死
+  ai_default_failure: 会写挣扎翻滚惨嚎
+  transfer_rule: 极端暴力可用日常动词反差
+  quote: 跳来跳去
+- pattern_id: S27-p4
+  beat: 指尖铁拳
+  dimension: info_density
+  original_move: 用隐喻压缩多波战术逻辑
+  ai_default_failure: 会展开战术配置说明
+  transfer_rule: 军事分析可用递进隐喻代替
+  quote: 指尖轻弹
+overall_traits:
+- 等待者视角写战争
+- 日常动词写极端暴力
+- 隐喻代替战术说明
+- 多渠道信息分辨率不同

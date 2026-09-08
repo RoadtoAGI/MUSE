@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5bee37cb032b79a8d06d77df
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1675
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 这个气态层以漫长的周期不停地膨胀和收缩，像呼吸一样
+sensory_mapping: 胸腔起伏；气流；节律；体积变化
+context_fact: 三体人已发现恒星气态外围层厚度可增大十多倍，周期性膨胀会提高吞噬行星概率。
+image_mechanism: 恒星外壳被赋予一只极慢的肺，每次吸气把气层鼓向行星轨道，呼气再缩回；百万年尺度因身体节律而能被直觉把握。
+property_alignment: 恒星气层对应肺部；气层膨胀对应吸气鼓起；气层收缩对应呼气回落；长周期重复对应稳定呼吸节律
+context_alignment: 呼吸本应维持生命，在这里每次“吸气”却可能吞掉一两颗行星，熟悉生命动作转成星系级威胁。
+narrative_function: 解释恒星半径周期变化，并为巨掌捕获行星建立动态前提。
+transfer_rule: 用呼吸写周期变化时，应同时对应膨胀、收缩、介质进出或外移和可重复节律。
+failure_boundary: 气层只单向膨胀、变化无周期，或由爆炸瞬时驱动时，呼吸会错误暗示平稳往复。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 恒星外围气态层按长周期反复扩大和缩小体积
+vehicle: 生命体胸腔或肺部吸气鼓起、呼气回缩的循环
+ground: 气层体积周期增减对应肺部吸气膨胀与呼气收缩；循环长期重复对应呼吸节律持续

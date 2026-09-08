@@ -1,0 +1,21 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 三味冰激凌的闲聊
+  dimension: omission
+  original_move: 重大行动前只写无关闲聊
+  ai_default_failure: 安排回顾、告别或内心独白
+  transfer_rule: 写决定前夜时用琐事压住重量
+  quote: 多神秘的遗产啊
+- pattern_id: S18-p2
+  beat: 走出公园
+  dimension: omission
+  original_move: 用两个行为句结束全书
+  ai_default_failure: 暗示抵达后结果或心理总结
+  transfer_rule: 写开放结尾时停在行动起点
+  quote: 第二天去了墨西哥
+overall_traits:
+- 极简收束制造最大缺失
+- 闲聊到行动直接跳切
+- 第二天日常化英雄决定

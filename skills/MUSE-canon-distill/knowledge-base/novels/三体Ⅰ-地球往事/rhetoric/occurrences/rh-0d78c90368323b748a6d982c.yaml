@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0d78c90368323b748a6d982c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1656
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 它在晨曦中晶莹光亮，作为一面变形的镜子反映着周围的一切，仿佛是世界的眸子
+sensory_mapping: 视觉；镜面反射；器官；全景
+context_fact: 现代文明仍建造巨摆，摆锤巨大光滑，悬在联合国大厦后并反射周围一切。
+image_mechanism: 单摆从催眠太阳的工具反转成观看世界的器官，变形镜面像曲面瞳仁吞入全景；世界仿佛借自己造出的摆锤回看自身。
+property_alignment: 光滑反射面对应眼球亮面；映出周围一切对应眸子接收视野；巨大摆锤位于世界景观中心对应器官嵌入整体身体；镜面变形对应眼中影像曲面压缩
+context_alignment: 前文太阳、月亮多次被写成眼睛，此处人造物也成为眸子，显示文明与宇宙互相凝视却仍无法理解规律。
+narrative_function: 赋予巨摆象征中心，使古老迷信装置在现代仍显得庄严又徒劳。
+transfer_rule: 把反射物写成眼睛时，应对应表面光泽、收纳视野、所在整体和观看方向，并利用谁在看谁的关系。
+failure_boundary: 表面漫反射、只能映局部或物体在场景中没有任何观察意味时，世界眸子会成为泛化圆亮物比喻。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨型单摆光滑镜面摆锤映照整个周围世界的外观与功能
+vehicle: 嵌在世界身体上、接收并映入外界全景的巨大眼眸
+ground: 镜面汇入四周景象对应眼睛接收环境影像；摆锤晶亮圆润对应眸子湿亮表面

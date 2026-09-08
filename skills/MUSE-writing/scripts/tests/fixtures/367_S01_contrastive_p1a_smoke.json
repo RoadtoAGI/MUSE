@@ -1,0 +1,603 @@
+{
+  "lint_hits": [
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L5",
+      "snippet": "不是普通骑兵，是他的私兵",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-001",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L7",
+      "snippet": "不是因为屠骨停了，是因为血祭进入了强压最后的临界",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-002",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L7",
+      "snippet": "不是统一的号令，是各部自己吹的",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-003",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是他的战术，是他的威信",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-004",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是瞄准他，是瞄准他的轨迹",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-005",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "parallel_negation",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是要斩他，是要让他不得不拉起来",
+      "confidence": "high",
+      "lint_id": "S01-parallel_negation-006",
+      "family": "lexical_cliche"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是因为X是因为Y",
+      "pattern": "不是因为X是因为Y",
+      "location": "L7",
+      "snippet": "不是因为屠骨停了，是因为血祭进入了强压最后的临界",
+      "span": "不是因为屠骨停了，是因为血祭进入了强压最后的临界",
+      "start": 1900,
+      "end": 1924,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-007"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是A是B",
+      "pattern": "不是A是B",
+      "location": "L5",
+      "snippet": "不是普通骑兵，是他的私兵",
+      "span": "不是普通骑兵，是他的私兵",
+      "start": 1352,
+      "end": 1364,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-008"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是A是B",
+      "pattern": "不是A是B",
+      "location": "L7",
+      "snippet": "不是统一的号令，是各部自己吹的",
+      "span": "不是统一的号令，是各部自己吹的",
+      "start": 2429,
+      "end": 2444,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-009"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是A是B",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是他的战术，是他的威信",
+      "span": "不是他的战术，是他的威信",
+      "start": 2615,
+      "end": 2627,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-010"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是A是B",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是瞄准他，是瞄准他的轨迹",
+      "span": "不是瞄准他，是瞄准他的轨迹",
+      "start": 2768,
+      "end": 2781,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-011"
+    },
+    {
+      "rule": "contrastive_negation_assertion",
+      "family": "contrastive_negation_assertion",
+      "group": "semantic_heuristic",
+      "cluster": "explanatory_detour",
+      "variant": "不是A是B",
+      "pattern": "不是A是B",
+      "location": "L9",
+      "snippet": "不是要斩他，是要让他不得不拉起来",
+      "span": "不是要斩他，是要让他不得不拉起来",
+      "start": 2815,
+      "end": 2831,
+      "confidence": "high",
+      "severity": "medium",
+      "lint_id": "S01-contrastive_negation_assertion-012"
+    },
+    {
+      "rule": "counted_speech_weight",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "counted_speech_weight",
+      "location": "L1",
+      "snippet": "只说了两个字",
+      "span": "只说了两个字",
+      "start": 456,
+      "end": 462,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-counted_speech_weight-013"
+    },
+    {
+      "rule": "counted_speech_weight",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "counted_speech_weight",
+      "location": "L3",
+      "snippet": "只说了一个字",
+      "span": "只说了一个字",
+      "start": 1102,
+      "end": 1108,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-counted_speech_weight-014"
+    },
+    {
+      "rule": "counted_speech_weight",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "counted_speech_weight",
+      "location": "L5",
+      "snippet": "只说了一个字",
+      "span": "只说了一个字",
+      "start": 1868,
+      "end": 1874,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-counted_speech_weight-015"
+    },
+    {
+      "rule": "counted_speech_weight",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "counted_speech_weight",
+      "location": "L7",
+      "snippet": "说了三个字",
+      "span": "说了三个字",
+      "start": 1946,
+      "end": 1951,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-counted_speech_weight-016"
+    },
+    {
+      "rule": "counted_speech_weight",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "counted_speech_weight",
+      "location": "L9",
+      "snippet": "说了七个字",
+      "span": "说了七个字",
+      "start": 3169,
+      "end": 3174,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-counted_speech_weight-017"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L1",
+      "snippet": "这一日",
+      "span": "这一日",
+      "start": 568,
+      "end": 571,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-018"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L5",
+      "snippet": "最后一次",
+      "span": "最后一次",
+      "start": 1691,
+      "end": 1695,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-019"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L5",
+      "snippet": "这一刻",
+      "span": "这一刻",
+      "start": 1715,
+      "end": 1718,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-020"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L7",
+      "snippet": "第一次",
+      "span": "第一次",
+      "start": 1894,
+      "end": 1897,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-021"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L7",
+      "snippet": "这一刻",
+      "span": "这一刻",
+      "start": 2306,
+      "end": 2309,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-022"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L7",
+      "snippet": "第一次",
+      "span": "第一次",
+      "start": 2376,
+      "end": 2379,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-023"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L7",
+      "snippet": "这一次",
+      "span": "这一次",
+      "start": 2423,
+      "end": 2426,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-024"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L7",
+      "snippet": "第一次",
+      "span": "第一次",
+      "start": 2535,
+      "end": 2538,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-025"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L9",
+      "snippet": "第一次",
+      "span": "第一次",
+      "start": 2591,
+      "end": 2594,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-026"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L9",
+      "snippet": "这一击",
+      "span": "这一击",
+      "start": 2723,
+      "end": 2726,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-027"
+    },
+    {
+      "rule": "ordinal_gravity_marker",
+      "family": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "cluster": "micro_punchline_cadence",
+      "pattern": "ordinal_gravity_marker",
+      "location": "L9",
+      "snippet": "今天第一次",
+      "span": "今天第一次",
+      "start": 3403,
+      "end": 3408,
+      "confidence": "medium",
+      "severity": "low",
+      "lint_id": "S01-ordinal_gravity_marker-028"
+    },
+    {
+      "rule": "dash_density",
+      "pattern": "破折号密度×3",
+      "location": "L1",
+      "snippet": "承武十七年某日卯正前八刻，落雕原。北缘丘陵线上，黑压压的东西还没露出轮廓，只有骨号声先到——低沉、粗粝，像什么东西在漠北的风里磨了整夜。姜彻站在中军帐前的高台上",
+      "confidence": "high",
+      "severity": "medium",
+      "group": "heuristic",
+      "details": {
+        "dash_count": 3
+      },
+      "lint_id": "S01-dash_density-029",
+      "family": "dash_overuse"
+    },
+    {
+      "rule": "stock_silence_pause_phrase",
+      "family": "silence_pause_cliche",
+      "group": "semantic_heuristic",
+      "cluster": "silence_pause_cliche",
+      "pattern": "silence_pause",
+      "location": "L3",
+      "snippet": "看了一眼",
+      "confidence": "medium",
+      "severity": "low",
+      "matched_phrase": "看了一眼",
+      "lint_id": "S01-stock_silence_pause_phrase-030"
+    },
+    {
+      "rule": "stock_silence_pause_phrase",
+      "family": "silence_pause_cliche",
+      "group": "semantic_heuristic",
+      "cluster": "silence_pause_cliche",
+      "pattern": "silence_pause",
+      "location": "L9",
+      "snippet": "看了一眼",
+      "confidence": "medium",
+      "severity": "low",
+      "matched_phrase": "看了一眼",
+      "lint_id": "S01-stock_silence_pause_phrase-031"
+    }
+  ],
+  "cluster_alerts": [
+    {
+      "alert_id": "S01-lexical_cliche-1",
+      "scope": "scene",
+      "family": "lexical_cliche",
+      "cluster": "lexical_cliche",
+      "group": "hard",
+      "rule_counts": {
+        "parallel_negation": 6
+      },
+      "total_count": 6,
+      "density_per_1k": 1.74,
+      "hit_ids": [
+        "S01-parallel_negation-001",
+        "S01-parallel_negation-002",
+        "S01-parallel_negation-003",
+        "S01-parallel_negation-004",
+        "S01-parallel_negation-005",
+        "S01-parallel_negation-006"
+      ],
+      "distribution": {
+        "mode": "distributed",
+        "paragraph_count": 3,
+        "contiguous": false
+      },
+      "severity": "high",
+      "governance": {
+        "individual_exemption_allowed": false,
+        "required_triage": "cluster_finding",
+        "required_patch_mode": "rewrite_patch_set",
+        "required_patch_kind_options": [
+          "rewrite_sentence",
+          "rewrite_span"
+        ],
+        "forbidden_patch_kind": [
+          "delete_token",
+          "replace_phrase"
+        ]
+      }
+    },
+    {
+      "alert_id": "S01-contrastive_negation_assertion-2",
+      "scope": "scene",
+      "family": "contrastive_negation_assertion",
+      "cluster": "explanatory_detour",
+      "group": "semantic_heuristic",
+      "rule_counts": {
+        "contrastive_negation_assertion": 6
+      },
+      "total_count": 6,
+      "density_per_1k": 1.74,
+      "hit_ids": [
+        "S01-contrastive_negation_assertion-007",
+        "S01-contrastive_negation_assertion-008",
+        "S01-contrastive_negation_assertion-009",
+        "S01-contrastive_negation_assertion-010",
+        "S01-contrastive_negation_assertion-011",
+        "S01-contrastive_negation_assertion-012"
+      ],
+      "distribution": {
+        "mode": "distributed",
+        "paragraph_count": 3,
+        "contiguous": false
+      },
+      "severity": "high",
+      "governance": {
+        "individual_exemption_allowed": false,
+        "required_triage": "cluster_finding",
+        "required_patch_mode": "rewrite_patch_set",
+        "required_patch_kind_options": [
+          "rewrite_sentence",
+          "rewrite_span"
+        ],
+        "forbidden_patch_kind": [
+          "delete_token",
+          "replace_phrase"
+        ]
+      }
+    },
+    {
+      "alert_id": "S01-micro_punchline_cadence-3",
+      "scope": "scene",
+      "family": "micro_punchline_cadence",
+      "cluster": "micro_punchline_cadence",
+      "group": "semantic_heuristic",
+      "rule_counts": {
+        "counted_speech_weight": 5,
+        "ordinal_gravity_marker": 11
+      },
+      "total_count": 16,
+      "density_per_1k": 4.64,
+      "hit_ids": [
+        "S01-counted_speech_weight-013",
+        "S01-counted_speech_weight-014",
+        "S01-counted_speech_weight-015",
+        "S01-counted_speech_weight-016",
+        "S01-counted_speech_weight-017",
+        "S01-ordinal_gravity_marker-018",
+        "S01-ordinal_gravity_marker-019",
+        "S01-ordinal_gravity_marker-020",
+        "S01-ordinal_gravity_marker-021",
+        "S01-ordinal_gravity_marker-022",
+        "S01-ordinal_gravity_marker-023",
+        "S01-ordinal_gravity_marker-024",
+        "S01-ordinal_gravity_marker-025",
+        "S01-ordinal_gravity_marker-026",
+        "S01-ordinal_gravity_marker-027",
+        "S01-ordinal_gravity_marker-028"
+      ],
+      "distribution": {
+        "mode": "catastrophic",
+        "paragraph_count": 5,
+        "contiguous": false
+      },
+      "severity": "high",
+      "governance": {
+        "individual_exemption_allowed": false,
+        "required_triage": "cluster_finding",
+        "required_patch_mode": "rewrite_patch_set",
+        "required_patch_kind_options": [
+          "rewrite_sentence",
+          "rewrite_span"
+        ],
+        "forbidden_patch_kind": [
+          "delete_token",
+          "replace_phrase"
+        ]
+      }
+    },
+    {
+      "alert_id": "S01-silence_pause_cliche-4",
+      "scope": "scene",
+      "family": "silence_pause_cliche",
+      "cluster": "silence_pause_cliche",
+      "group": "semantic_heuristic",
+      "rule_counts": {
+        "stock_silence_pause_phrase": 2
+      },
+      "total_count": 2,
+      "density_per_1k": 0.58,
+      "hit_ids": [
+        "S01-stock_silence_pause_phrase-030",
+        "S01-stock_silence_pause_phrase-031"
+      ],
+      "distribution": {
+        "mode": "single_span",
+        "paragraph_count": 2,
+        "contiguous": false
+      },
+      "severity": "medium",
+      "governance": {
+        "individual_exemption_allowed": false,
+        "required_triage": "cluster_finding",
+        "required_patch_mode": "rewrite_patch_set",
+        "required_patch_kind_options": [
+          "rewrite_sentence",
+          "rewrite_span"
+        ],
+        "forbidden_patch_kind": [
+          "delete_token",
+          "replace_phrase"
+        ]
+      }
+    }
+  ],
+  "density": {
+    "total_chars": 3446,
+    "hits_per_1k": 9.0
+  }
+}

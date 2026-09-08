@@ -1,0 +1,1987 @@
+{
+  "schema_version": "dialogue-prototype-index/v1",
+  "characters": [
+    {
+      "character_id": "novel:三体Ⅰ-地球往事:ye-wen-jie",
+      "work_id": "novel:三体Ⅰ-地球往事",
+      "display_name": "叶文洁",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的口语稳定地保持轻、慢、短三个特征——审讯笔录里几乎所有回答都是一个独立短句（\"叶文洁。\"\"1947 年 6 月。\"\"谢谢，不用。\"\"我杀死过两个人。\"），就算汪淼追问女儿之死也只是沉默几秒后\"接下了刚才的话题\"，不展开。决断时刻反而用最少的字表达最大决心：\"我进去。\"\"我不回去。\"\"我可以在这里待一辈子。\"\n\n她不为自己的行为辩护，也不寻求理解。审讯者要她讲杀人动机时她从背景讲起、按时间顺序叙述操作细节，不加形容词、不解释心理，最后用\"关于这件事，我能说的就这些了\"收尾——零辩解是她声音的硬规则。\n\n对同志和汪淼用教师与母亲的称呼系统——\"小汪啊\"\"同志们好\"\"孩子\"——这套称呼不随情境收紧，即使在宣读处决决定时也保留。极端句子的特征是缓慢节奏被外化为叙述者的形容：\"说得很慢，一个字一个字地说，像怕她教育的孩子听不懂似的\"。\n\n只有一处例外：ETO 集会上以瘦削拳头喊出\"消灭人类暴政！\"——这是她整本书唯一一次提高音量的瞬间，对应她\"叛军最高统帅\"这层身份首次公开亮相，过后立刻回到温软缓慢的常态。\n\n佐证：scenes/scene_S22.md:L5-L20（审讯笔录的短句节奏）；scenes/scene_S22.md:L42-L45（讲述杀人过程的零辩解结构 + \"关于这件事，我能说的就这些了\"）；scenes/scene_S19.md:L32-L36（\"我进去\"\"我可以在这里待一辈子\"——决断时的最少字）；scenes/scene_S09.md:L34-L34（\"温软和缓慢\"作为常态声音）；scenes/scene_S09.md:L43-L43（\"说得很慢，一个字一个字地说，像怕她教育的孩子听不懂似的\"）；scenes/scene_S09.md:L31-L32（\"消灭人类暴政！\"——唯一的高音例外）",
+        "evidence_locators": [
+          "scenes/scene_S22.md:L5-L20",
+          "scenes/scene_S22.md:L42-L45",
+          "scenes/scene_S19.md:L32-L36",
+          "scenes/scene_S09.md:L34-L34",
+          "scenes/scene_S09.md:L43-L43",
+          "scenes/scene_S09.md:L31-L32"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/三体Ⅰ-地球往事/characters/ye-wen-jie/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:hirano",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "平野",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "平野的话语方式以**散文式长论证段落 + 短句陈述判断 + 引导式问句**为底色。\n\n他不像直贵那样用短句压缩，反而倾向于**用 3-5 句话连成完整论证**——\"大多数人都想置身于远离犯罪的地方。和犯罪者，特别是犯下盗窃杀人这样恶性犯罪的人，哪怕是间接的关系也不想有……\" / \"你们走了一条容易理解、容易选择的道路……大概你们想把自己的一切毫无隐瞒地暴露出来，然后请周围的人接受你们。假设，在那样的情况下，顺利地建立了与别人的交往，心理上负担更大的是谁呢？是你们，还是周围的人呢？\"\n\n但当要下判断时，他会**收缩到一句陈述**——\"有歧视，是当然的事情\" / \"你的话，行！\" / \"没有什么办法，只能这样说\" / \"那要看情况了\"。短句承担最锋利的论点的内核。\n\n他常用**苏格拉底式引导**——把对方推到必须自己说出答案的位置：\"你对自杀怎么看呢？是容忍派吗？\" / \"那么，杀人呢？能容忍吗？\" / \"那么，杀人为什么不能容忍呢？\" / \"心理上负担更大的是谁呢？是你们，还是周围的人呢？\"——这种引导让对方\"主动同意\"自己原本会拒绝的结论。\n\n他用**比喻精准**——\"社会性的死亡\"（与生理死亡对位） / \"蜘蛛网一样的联系\"（增加与他人联系的线） / \"堂堂正正这个旗号\"（直贵夫妇策略的命名）——每个比喻一次成形，不重复使用。\n\n称呼系统稳定：\"武岛君\"恒定。\n对自己的身份不刻意强调，反而引诱对方猜测——\"我在公司的三层上班\" / \"三层有公司管理人员的房间，最里面那间是我的房间\" / \"嗯，我叫平野\"——逐层揭示让信息传达成为戏剧动作。\n\n佐证：scenes/scene_S16.md:L85-L85 （\"大多数人都想置身于远离犯罪的地方……\" 长论证段落范例）；scenes/scene_S16.md:L93-L113 （苏格拉底式引导：自杀→杀人→为什么不能容忍→关联与爱情 → \"你哥哥可以说像是自杀一样\" 的最终判断）；scenes/scene_S16.md:L147-L147 （\"蜘蛛网\" 比喻 + \"社会性的死亡是可以生还的\"）；scenes/scene_S19.md:L95-L95 （\"堂堂正正这个旗号\"的比喻命名）",
+        "evidence_locators": [
+          "scenes/scene_S16.md:L85-L85",
+          "scenes/scene_S16.md:L93-L113",
+          "scenes/scene_S16.md:L147-L147",
+          "scenes/scene_S19.md:L95-L95"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/hirano/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:nakajo-asami",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "中条朝美",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "朝美的话语方式以**直接、短句、不绕弯**为底色。\n\n她不使用客套——初次见面问她\"复读？\" 立刻回答\"不，留级。一年级的时候几乎没去学校\"，不解释、不修饰；问她\"是生病还是怎么了？\" 回答\"嗯，不知怎的，就是不想去学校\"，用\"嗯\" 加最简化的真话填白。\n\n她用**直陈式判断**——\"联谊会本来就很无聊\" / \"今天有一半的女孩子吸烟，只是在男孩面前忍着没抽\" / \"她总是那样，做出和蔼可亲的笑脸，可又在刁难人\" / \"反而让人觉得索性没有爹妈好了……\"——所有判断都不打折扣、不留转圜。\n\n关键时刻她用**爆发性宣言**——\"是我男朋友！\"（在父母面前介绍直贵） / \"我不回去 / 我就是要待在这里！\"（孝文逼她回家） / \"一直待在这儿，再也不回那个家了。回去跟我父母说吧！\" / \"我会跟那样愚蠢的父母断绝关系的\"——这些宣言都带着明确的反抗目标，但在故事中无一兑现。\n\n被欺骗后她的语言**转向冷静的指控**——\"你太过分了！简直像是再也见不到我，要最后一次满足你的性欲似的，这样做，真不像直贵\" / \"你想把我的身体变成某种工具\" / \"为了那样，用怀孕的做法……不觉得卑鄙吗？\" / \"真差劲儿！\"——一改之前的爆发式，进入分析性的拆解。她受打击后第一句话是\"对我……还是希望能告诉我啊\"——这种\"我可以承受真相，但你不该骗我\"的语态贯穿她最后的退场。\n\n最后的姿态是**简短告别**——\"我，回去了\" / \"我再想想。不过，我不会赞同你的想法的\"——离开时不再争辩。\n\n她偶尔会用关西方言以外的口语习惯：吸烟时的\"她朝着直贵的方向吐了一口烟\" + 用嘴角微笑——这些身体动作承担她未说出口的判断。\n\n佐证：scenes/scene_S12.md:L81-L87 （对母亲的抗议\"我说过多少次了，敲门当然好，但我没吭声前别打开门嘛！\" + \"不满意女儿有自己的隐私，做父母的真是怪！\" + \"反而让人觉得索性没有爹妈好了……\" → \"啊，对不起！\"——爆发后的自察）；scenes/scene_S12.md:L205-L205 （\"是我男朋友！\"——宣言式介绍）；scenes/scene_S13.md:L291-L295 （\"我，回去了\" / \"我再想想。不过，我不会赞同你的想法的\"——退场时的简短告别）",
+        "evidence_locators": [
+          "scenes/scene_S12.md:L81-L87",
+          "scenes/scene_S12.md:L205-L205",
+          "scenes/scene_S13.md:L291-L295"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/nakajo-asami/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:shiraishi-yumiko",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "白石由实子",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "由实子的话语方式有两个明显标记——\n\n**关西口音 + 直接句式**。她从第一次出场就被作者标记为\"她的话里夹杂着关西口音\"；日常对白短而直接、不绕弯——\"这个，你吃吗？\" / \"哎！下次一起去看电影行吗？\" / \"怎么不戴手套呢？\" / \"听说在跟有钱人家的千金交往啊\"。情绪上升时她会**滑回更纯的关西方言**——\"什么欸？……结婚时候约好的事又忘了？\" 是她全书最强情绪爆发的瞬间，作者特意标注\"由实子又回到了好久没说过的关西方言\"，让方言成为情绪溢出的语言标记。\n\n**称呼系统极稳定**。她对直贵永远称\"直贵君\"（除了少数温柔的瞬间叫\"直贵\"），对哥哥的事永远说\"你哥哥\"。日常话题宽——苹果 / 手套 / 圣诞 / 巧克力 / 父亲赌博 / 公司女同事的闲话 / 实纪去公园 + 公园里的小朋友——但谈到歧视 / 兄弟 / 父亲这类核心议题时她的话变短、变直、变锋利：\"直贵君真的喜欢那个女孩子吗？是不是想将来和她结婚呢？\" / \"就算你隐瞒着，也不会改变现实的\"。\n\n她不用比喻 / 不用反讽。书面她会模仿直贵的笔迹 + 文体写完整书信——但口头她坚持\"短句 + 直接 + 关西口音\"，从不试图用文采包装。\n\n最终极的姿态是**身体动作替代语言**——代笔被发现时\"跪坐在地上，低下头\" + 父亲赌博的故事讲完后\"故作微笑地接着说\" + 实纪受伤医院里\"低声抽泣\" + 直贵伸手擦她泪水时\"用自己的两个手掌，将他的手包在中间\"。\n\n佐证：scenes/scene_S17.md:L83-L83 （代笔被识破时的\"每次打开你哥哥来信的时候，总是觉得有些过意不去\"——压力下的直接陈述）；scenes/scene_S17.md:L215-L221 （父亲事讲完后\"故作微笑地接着说\" + 直贵伸手擦泪 + \"用自己的两个手掌，将他的手包在中间\"——身体动作替代语言的范例）；scenes/scene_S18.md:L145-L155 （关西方言爆发\"什么欸？……结婚时候约好的事又忘了？\" + \"我来守护着实纪，绝不让她受欺负\"——情绪上升时的方言溢出 + 短直锋利）",
+        "evidence_locators": [
+          "scenes/scene_S17.md:L83-L83",
+          "scenes/scene_S17.md:L215-L221",
+          "scenes/scene_S18.md:L145-L155"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/shiraishi-yumiko/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:takeshima-naoki",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "武岛直贵",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "直贵的对白以**克制、短句、复述式回问**为底色。受到突然信息时常常把对方关键词原样反弹回去——\"啤酒？\"（被点酒时）/ \"试一试？试什么？\"（被朝美质问时）/ \"管理层的最里面那间……\"（平野自报家门时）/ \"三层……是吗？\"——这一复述既是反应迟疑也是争取思考时间的本能。日常话语极少修饰，几乎不使用比喻 / 反讽 / 双关；称呼系统稳定——\"哥哥\"永远是\"哥哥\"，\"由实子\"永远是\"由实子\"，\"社长\"永远是\"社长\"。\n\n情绪到达临界点时他的语言**不会上升到激烈**，而是**反向收缩到陈述句的冷硬**——\"盗窃杀人。\"（向朝美承认哥哥罪名时，无任何修饰）/ \"钱还给您，我不能接受\"（拒绝中条父亲）/ \"今天能不能就到这儿\"（请客人离开餐厅时）。爆发性话语极少，整本书有限的几次都是对哥哥说的——\"哥哥是傻瓜！干了那么傻的事！\"（拘留所首次面会）。\n\n内心独白与对白构成强烈反差——他对自己永远比对别人锋利，常用自我厌恶的句式：\"我逃跑了，像逃兵一样\" / \"放弃，对于自己已经习惯了，今后一定还会继续，如此循环往复，这就是自己的人生\" / \"只是得到了本应得到的结果\"。叙述者描写他的情绪时镜头常锁在**身体反应**而非心理活动——\"嘴里干渴\" / \"牙齿咬紧\" / \"舔了一下嘴唇\" / \"深深地吸了口气\" / \"全身麻木到不能活动，只能勉强地呼吸\"。\n\n唯一例外是**书信文体**——平日的口语短句被替换为完整的论证段落。断绝信中他第一次以完整的、锋利的、组织严密的语言能力说出自己的处境与决定——\"被贴上标签的人，只能被动接受自己应得的人生\" / \"是因为让你了解我们的这些痛苦，也是你应该接受的惩罚。要是不知道这些事情，你的刑期是不会结束的\"——这种语言能力在他平日的口语中从未出现。\n\n最终极的声音状态是**失语**——尾声面对忏悔颤抖的哥哥，他张嘴却\"发不出声音来。怎么也发不出声音\"。所有的语言策略最终归零。\n\n佐证：scenes/scene_S04.md:L43-L43 （\"哥哥是傻瓜！干了那么傻的事！\"——少有的爆发式语言，且只对哥哥）；scenes/scene_S13.md:L173-L173 （\"盗窃杀人。\"——向朝美承认哥哥罪名时的最冷硬陈述）；scenes/scene_S14.md:L147-L147 （\"只是得到了本应得到的结果\"——内心独白的自我厌恶范式）；scenes/scene_S20.md:L85-L101 （断绝信的完整论证语言能力——平日口语从未出现）；scenes/scene_S22.md:L125-L129 （\"直贵终于张开嘴，准备唱。可是，发不出声音来。怎么也发不出声音\"——声音框架的终极归零）",
+        "evidence_locators": [
+          "scenes/scene_S04.md:L43-L43",
+          "scenes/scene_S13.md:L173-L173",
+          "scenes/scene_S14.md:L147-L147",
+          "scenes/scene_S20.md:L85-L101",
+          "scenes/scene_S22.md:L125-L129"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/takeshima-naoki/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:takeshima-tsuyoshi",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "武岛刚志",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "刚志的话语方式有**两个差异极大的声音载体**：\n\n**口头对白**——极简、嘶哑、低头不语、用最少的词汇表达最大的情绪。整本书他实体说话的总词数极少：被老太太撞见时只有沉默 + 杀她后的呆滞；首次面会哥哥时\"直贵……对不住了\" + \"我干了什么！我，干了些什么！\"——这是他唯一的爆发式语言，且立刻\"用尽了全身力气，一下子把头垂了下去\"；拘留所探视时大量短句\"哦！\" / \"唉，不管怎样干着吧\" / \"是吗\" / \"我每天晚上都在这里模仿着做\"，常以\"是吗？\"作回应填白；身体姿态远比语言更承担情绪——\"垂下目光\" / \"搔着脖子后面\" / \"搔着头\" / \"肩膀耷拉了下去\"。\n\n**书信文体**——平日口语的极简被替换为完整的、感情饱满的、文字逐渐流畅的语言。从第一封信\"是个傻瓜，活着还不如死了的傻瓜\"的反复自责，到第二章\"我手比较笨\" / \"有些困了\" / 用字典开始学汉字的成长痕迹，再到第五章末\"最后一封信\"的最完整组织——\"不是因为弟弟要断绝关系受到了刺激，而是被这么多年来，因为我的存在让他们一直在受苦受难的事实所震撼\"——这种\"自我厌恶到了极点\"的最长句段是他全书唯一一次真正的自我审视。书信中他常关心日常细节（弟弟感冒了没 / 实纪长得像谁 / 公园里有没有鳄鱼），少谈狱中实情，多用\"又及\"补一句他最在意的事（\"去绪方家扫墓的事帮我办了没有？\"）。\n\n最终极的姿态是**合掌颤抖**——尾声面对弟弟时不发一言，只把两手合在胸前忏悔/祈祷，\"甚至能感觉到他在微微地颤抖\"。所有的语言策略最终归于身体的姿态。\n\n佐证：scenes/scene_S04.md:L21-L33 （首次面会的极简口头对白\"直贵……对不住了\" → 沉默 → \"我干了什么！我，干了些什么！\" → 用尽全身力气垂头）；scenes/scene_S06.md:L23-L37 （拘留所探视短句\"哦！\" / \"唉，不管怎样干着吧\" / \"是吗？大概是吃饭很注意的缘故\"）；scenes/scene_S06.md:L77-L79 （拜托弟弟去绪方家烧香 + \"我每天晚上都在这里模仿着做\"——少有的内心活动外显）；scenes/scene_S22.md:L67-L83 （写给绪方的\"最后一封信\"完整文本——书信文体的顶峰自我审视）；scenes/scene_S22.md:L111-L113 （合掌颤抖——声音的终极归零）",
+        "evidence_locators": [
+          "scenes/scene_S04.md:L21-L33",
+          "scenes/scene_S06.md:L23-L37",
+          "scenes/scene_S06.md:L77-L79",
+          "scenes/scene_S22.md:L67-L83",
+          "scenes/scene_S22.md:L111-L113"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/takeshima-tsuyoshi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:信（东野圭吾）:terao-yusuke",
+      "work_id": "novel:信（东野圭吾）",
+      "display_name": "寺尾祐辅",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "寺尾的话语方式以**直接、有时焦急、不绕弯**为底色。\n\n年轻时（ARC-2 期间）他常用爆发式短句——\"瞎话！你是认真的？\" / \"你啊，是哥们儿不是呀？\" / \"成为公司职员，每天在拥挤的电车里摇晃？你的梦想就是那样？\" / \"恶心！你们这帮家伙\" / \"好吧，你们想怎么干就怎么干吧！没有这个乐队了\"——情绪到达临界时他不收缩反而上升，把愤怒 / 决裂 / 失望直接抛出。他焦急时身体会**摇摆双腿**作为伴随动作。\n\n多年后（S22）他的语调明显变得低沉、更像成熟的\"看透\"——\"干吗露出那副可怜的表情啊？又不是在日本武道馆举行实况转播，放松些干吧，放松！\" / \"今天的演奏会，不是让他们听好听的歌的。他们需要的是治疗，只要让大家心情好就行了\"——他从\"想征服世界\"变成\"想治疗别人\"的姿态外化。\n\n他对朋友的关心从不直接说，只通过**最实际的行动** 表达——拉直贵的手不放（卡拉 OK）/ 抓住直贵的手把他拉起来（跪别瞬间）/ 给社长写信救场（虽然这是由实子做的，但寺尾在 S10 末说\"以前我从没憎恨过你哥哥，可今天我从心底里生气\" 是另一种形式的关心证明）/ 多年后主动邀请直贵慰问演出。他从不说\"我担心你\"或\"我想念你\"。\n\n最终极的姿态是**多年后的\"打断 + 接纳\"**——\"说到这里，寺尾打断了他的话。'可以，不用再说明了。只要你有这个心思，我就很高兴。好久没在一起办演奏会了，加油干吧！'像是看透了一切的说法\"——一句话同时承担了 ARC-2 末决裂的愈合 + 对直贵选择的全部理解 + 邀请的肯定。\n\n佐证：scenes/scene_S10.md:L9-L11 （ARC-2 末爆发式\"瞎话！你是认真的？\"）；scenes/scene_S10.md:L57-L57 （\"你啊，是哥们儿不是呀？\"——朋友关系的命名）；scenes/scene_S10.md:L127-L127 （\"以前我从没憎恨过你哥哥，可今天我从心底里生气，要是他在这儿，我肯定要狠狠揍他\"——爱憎一体的最锋利宣言）；scenes/scene_S22.md:L9-L9 （多年后\"干吗露出那副可怜的表情啊？又不是在日本武道馆举行实况转播，放松些干吧，放松！\"——成熟语调）；scenes/scene_S22.md:L51-L51 （\"今天的演奏会，不是让他们听好听的歌的。他们需要的是治疗，只要让大家心情好就行了\"——从征服到治疗的姿态变化）",
+        "evidence_locators": [
+          "scenes/scene_S10.md:L9-L11",
+          "scenes/scene_S10.md:L57-L57",
+          "scenes/scene_S10.md:L127-L127",
+          "scenes/scene_S22.md:L9-L9",
+          "scenes/scene_S22.md:L51-L51"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/信（东野圭吾）/characters/terao-yusuke/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:genghis-khan",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "成吉思汗",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "典型草原帝王的说话方式——短句、祈使句、反问句为主。不解释、不铺陈、不寒暄。常用\"靖儿\"\"安答\"等具体关系称呼而非官方头衔——他跟郭靖拖雷说话时用的是父子叔侄的语气而非君臣语气。\n\n发怒时动作先于语言——\"虎起了脸\"/\"猛力在案上一拍\"/\"飞脚踢翻金案\"总是出现在话之前；话出口往往只有一两句，如\"推出去斩了\"、\"带他母亲来\"、\"快拿！\"——他的暴怒不是咆哮而是极简的命令。\n\n晚年的语气会突然塌陷为\"叹\"\"颤声\"——身体衰败的证据先于语言的转变。\"颤声道：'起来，起来！我天天在想着你们。'\"——这种柔软只对极少数人显露。\n\n标志性的晚年口头禅是反问式追问——\"你说古今英雄，有谁及得上我？\"+\"难道我一生就没做过甚么好事？\"——他问郭靖这些不是想要回答，是想要被反驳然后让他有机会反驳反驳者。他输在这里：郭靖的回答不是反驳，是修正定义。\n\n佐证：scenes/scene_13.md:L5-L5 （\"推出去斩了\"、\"带他母亲来\"——极简命令）；scenes/scene_15.md:L2-L2 （\"起来，起来！我天天在想着你们\"+\"颤声\"——晚年柔软）；scenes/scene_15.md:L6-L7 （\"那也不过这般大小\"——被郭靖\"葬地多大\"一问后用马鞭打圈儿作答，动作先于语言）",
+        "evidence_locators": [
+          "scenes/scene_13.md:L5-L5",
+          "scenes/scene_15.md:L2-L2",
+          "scenes/scene_15.md:L6-L7"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/genghis-khan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:guo-jing",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "郭靖",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的语言朴直、少机锋、少反话、少修辞。不使用反讽与双关——听到嘲讽常从字面回应，问他反话他会老实答。称呼系统极少变化：\"大师父\"永远是\"大师父\"，\"蓉儿\"永远是\"蓉儿\"，\"大汗\"永远是\"大汗\"——不因情境调整敬称。\n\n日常他话少，\"通常总是给别人问到，才不得不答上几句\"（朱聪评）。但一旦谈到自己熟悉的事（蒙古大漠、射雕、师父教武），会罕见地滔滔不绝。\n\n情绪表达几乎不靠形容词，靠**身体反应**外化——牙齿咬紧、右手发抖、眼眶泛红、双膝跪倒、额头磕响——叙述者描写他的情绪时镜头总是锁在身体部位上，不锁在心理活动上。\n\n极端场合下语调会不自觉上升一档，切入半文言的宣告式——\"岂能听你号令，攻打自己邦国\"、\"虽受千刀万箭，亦不能奉命\"——不是他平常会用的词汇，是被逼到价值观底线时才浮出来的语言层。\n\n佐证：scenes/scene_22.md:L9-L9 （\"蓉儿……蓉儿可不是小妖女，她是很好很好的姑娘……很好很好的\"——词穷即声音）；scenes/scene_13.md:L5-L5,L7 （\"我是大宋臣民\"、\"虽受千刀万箭，亦不能奉命\"——半文言宣告）；scenes/scene_30.md:L8-L8 （\"郭靖牙齿咬得更紧，持剑的右手微微发抖\"——身体替语言）；scenes/scene_03.md:L4-L4 （初见黄蓉时罕见的健谈——\"此时和这少年边吃边谈，不知如何，竟是感到了生平未有之喜\"）",
+        "evidence_locators": [
+          "scenes/scene_22.md:L9-L9",
+          "scenes/scene_13.md:L5-L5",
+          "scenes/scene_30.md:L8-L8",
+          "scenes/scene_03.md:L4-L4"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/guo-jing/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:hong-qigong",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "洪七公",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音以口语化+精确感并存为特征。\n\n关键特征：\n- **自称\"老叫化\"/\"老头儿\"**——永远给自己降格，不摆宗师架子。对郭靖称\"傻小子\"，对黄蓉称\"鬼丫头\"/\"小妖女\"——昵称带骂意\n- **数字精确**——\"二百三十一人\"\"第二百三十二人\"——宗师级的精确，但用市井口吻说出来\n- **粗口不避**——\"他奶奶的\"\"臭叫化\"等日常出口，但在道德宣讲时立即转入严肃调子\n- **先承认缺点再亮出底牌**——\"老叫化贪饮贪食，可是生平从来没杀过一个好人\"——先把自己放低，再把道德立起来\n- **对食物的语气极富感情**——\"叫化祖宗也整治不出这般了不起的叫化鸡\"（黄蓉做的）——吃到极致时他的措辞比讲武功时还讲究\n\n佐证：scenes/scene_17.md:L2-L2 （\"撕作三份，鸡屁股给我\"——出场第一句话就是市井馋嘴）；scenes/scene_14.md:L2-L2 （\"裘千仞……你铁掌帮上代帮主上官剑南何等英雄……你接你师父当了帮主，却去与金人勾结，通敌卖国，死了有何面目去见上官帮主和你师父？\"——严肃时用武林规矩重话）",
+        "evidence_locators": [
+          "scenes/scene_17.md:L2-L2",
+          "scenes/scene_14.md:L2-L2"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/hong-qigong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:huang-rong",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "黄蓉",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的声音是全书最多变的。\n\n关键特征：\n- **称呼系统极精细**——\"爹爹\"\"靖哥哥\"\"七公\"\"师父\"\"欧阳伯伯\"\"这老贼\"——每种身份对应特定称谓，且随情绪切换\n- **俚语/文雅/激将三种语域自由切换**——对郭靖用俗话\"矮冬瓜\"骂韩宝驹；对状元用诗经对对联；对洪七公用\"玉笛谁家听落梅\"这样的菜名诗意引诱\n- **多层话术/潜台词**——每句话常有表面意思和底层目的：对洪七公点菜是为了骗降龙十八掌；对欧阳锋说话是为了拖延；对父亲撒娇是为了让他承担\n- **情急时反而极短**——\"你待怎地？\"（对柯镇恶扑向自己时）+\"你要杀我，就下手罢\"（对郭靖）——最危急的时刻她的语言最简\n- **哭与笑都是武器**——她能真的哭（骗郭靖送马时），也能真的笑（激欧阳锋时）——情绪本身是她的工具\n\n佐证：scenes/scene_03.md:L5-L5 （哭骗汗血宝马——\"呜呜咽咽的哭了起来\"+\"喜笑颜开\"切换）；scenes/scene_11.md:L13-L16 （极短的绝望宣告：\"你要杀我就下手罢\"）；scenes/scene_12.md （铁枪庙全程控场——哭、笑、激将、推理轮番使用）",
+        "evidence_locators": [
+          "scenes/scene_03.md:L5-L5",
+          "scenes/scene_11.md:L13-L16"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/huang-rong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:huang-yaoshi",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "黄药师",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音以简洁、锐利、带文人气为特征。\n\n关键特征：\n- **极少多说一句话**——他经常用一声\"哼\"、一声冷笑、一句判决式短句完成交流：\"小畜生还有眼光\"（七个字包含轻蔑+赞赏）\n- **称呼等级感强**——对同辈（洪七公、王重阳）直呼外号或兄；对晚辈用\"小子\"\"姑娘\"；对女儿称\"蓉儿\"\"我的好孩子\"——称呼的柔软度反映关系的紧密度\n- **诗文随口而出**——\"桃花影落飞神剑，碧海潮生按玉箫\"是他本人的生活美学\n- **判决式断言替代论证**——\"爽爽快快将黄老邪杀了，以成全真派之名，岂不美哉？\"——用讽刺的反问替代解释\n- **发作时用武功而非语言**——他发怒不吵架，直接出手，招到即止\n\n佐证：scenes/scene_30.md:L19-L19 （\"黄老邪一生独来独往，杀了几个人难道还会赖账？不错，你那些师父通通是我杀的！\"——用最极端的\"承担\"姿态替代解释）；scenes/scene_30.md:L18-L18 （\"好孩子，过来，让爹疼你\"——对女儿的柔软称呼）",
+        "evidence_locators": [
+          "scenes/scene_30.md:L19-L19",
+          "scenes/scene_30.md:L18-L18"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/huang-yaoshi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:ke-zhene",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "柯镇恶",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音极短、极硬、极直。市井屠沽出身，说话时字字钉地。常用粗口（\"贼厮鸟\"\"臭瞎子\"\"死小妖女\"\"他奶奶的\"）——他的粗口不是装腔，是他唯一的语言层。\n\n关键特征：\n- **铁杖顿地就是他的感叹号**——他在发话前或发话后常有\"铁杖一摆\"\"铁杖向桌上一顿\"等动作，杖声替代了情绪词\n- **句式以短到极致的祈使句为主**——\"快说！\"\"放开她！\"\"动手！\"\"拦住他！\"\n- **骂自己时比骂别人更狠**——他一生最忌别人说他是瞎子，但骂自己时\"臭瞎子\"是他能拿出的最重的自我惩罚\n- **目盲带来的\"听觉词汇\"**——他说话时常提\"听\"\"我听得\"\"听他语声\"——耳代目是他的认知通道\n\n佐证：scenes/scene_22.md:L5-L5 （\"柯镇恶喃喃的道：'你想娶梅超风的师妹？'\"——极短的反问，语带震惊但不展开）；scenes/scene_12.md:L4-L4 （旁听时全程心内独白而不出声——表面凶横的他在关键时刻可以绝对安静）",
+        "evidence_locators": [
+          "scenes/scene_22.md:L5-L5",
+          "scenes/scene_12.md:L4-L4"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/ke-zhene/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:li-ping",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "李萍",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的声音极少、极轻，几乎全以\"叹道\"\"低声道\"出现，句子短而具体。不铺陈情绪，不讲大道理，遇事先说细节再归到价值——从\"犁头损啦，明儿叫东村的张木儿加一斤半铁\"（日常丈夫的最后一个话头，在 S01 她只是回\"好\"）到\"咱俩就在牛家村你爹爹的旧居住下\"——她的语言永远贴地。\n\n临终的独白是她唯一\"长段\"的出场——这段话用汉语说给儿子听（成吉思汗与诸将听不懂），结构是：\n（1）起点——\"二十年前，我在临安府牛家村\"重述家族源头\n（2）由物（匕首）引名——\"丘道长给你取名郭靖\"把匕首上的刻字还原成命名的重量\n（3）定义反面教材——\"杨家那孩子认贼作父\"\n（4）反问——\"难道为的是要养大一个卖国奸贼？\"\n（5）价值锚点——\"只要一生行事无愧于心\"\n（6）告别——\"孩子，你好好照顾自己罢\"\n（7）行动终结——转剑自刎\n\n她的声音以这段独白的结构为\"定型模板\"——平时她用短句、关键时刻她用这种层层推进的清晰逻辑，但仍然不煽情。\n\n佐证：scenes/scene_13.md:L9-L10 （整段临终独白——从\"二十年前\"到\"只要一生行事无愧于心\"到\"孩子，你好好照顾自己罢\"再到刺入胸膛）",
+        "evidence_locators": [
+          "scenes/scene_13.md:L9-L10"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/li-ping/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:ouyang-feng",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "欧阳锋",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音以阴冷、克制、精准为特征。\n\n关键特征：\n- **叔叔式/长辈式称呼**——对欧阳克叫\"克儿\"，对杨康叫\"康儿\"——他建立的关系都是\"我收你做徒/侄\"的下位关系\n- **对敌人的戏谑贬称**——\"老叫化\"\"臭小子\"\"臭丫头\"——用降格称呼表达轻蔑\n- **表达杀意时极冷**——不咆哮、不威胁，用\"现下我身上也湿了，咱俩公公平平的决个胜败\"这类体面到阴森的口吻\n- **原则宣言式的名言**——\"容情不下手，下手不容情\"——他的人生观被他自己总结成格言级的短句\n- **被质疑时暴露**——黄蓉激他\"叫你老毒物，难道是白叫的吗？\"他会立刻自曝自夸；假梵语一问他就全盘混乱\n\n佐证：scenes/scene_29.md:L2-L14 （\"老叫化\"\"咱俩公公平平的决个胜败\"——阴冷的礼节）；scenes/scene_31.md:L2-L17 （被黄蓉激\"叫你老毒物，难道是白叫的吗？\"立刻自承罪行——自大的反向可利用性）",
+        "evidence_locators": [
+          "scenes/scene_29.md:L2-L14",
+          "scenes/scene_31.md:L2-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/ouyang-feng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:wanyan-honglie",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "完颜洪烈",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他几乎不直接出手说狠话——所有威胁、命令都外包给下属。他自己的对白永远\"温言软语\"\"正色道\"\"凛然道\"，用恩义话术包装占有欲。\n\n关键标志是称呼系统的精准切换：\n- 在牛家村柴房对包惜弱：低声、谦卑、\"娘子\"——营造被救者的感恩姿态\n- 面对金国武士团体：王爷口吻，但仍客气（\"两位千万不要误会\"）\n- 密谋侵宋时对欧阳锋：平等盟友口气，从不显颐指气使\n- 对养子杨康：永远温言，是刻意塑造的\"慈父\"模板\n\n他的对白中几乎不出现\"杀\"\"害\"\"抢\"这类词，用的是\"办理\"\"拿下\"\"对付\"。承诺时习惯用\"那还不容易？\"的轻佻句式降低对方警惕。顿词（\"顿了一顿\"）是他说服别人时的节奏标志——他用停顿让对方自己填入贪婪或认同。\n\n佐证：scenes/scene_01.md:L17-L17 （包惜弱病中醒来，\"颜烈\"以\"娘子\"称呼并自称\"小人\"——全程谦卑恭敬语调）；scenes/scene_01.md:L19-L19 （\"小人路见不平，出手相救，不料老天爷有眼，所救的竟是我的大恩人\"+\"义愤于色，昂然道：'娘子要报杀夫之仇，这件事着落在小人身上'\"——正色/昂然/义愤的表态是他最常用的三种姿态）",
+        "evidence_locators": [
+          "scenes/scene_01.md:L17-L17",
+          "scenes/scene_01.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/wanyan-honglie/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:yang-kang",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "杨康",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的语言永远得体周全、有文采——不像郭靖那样词穷，他总能找到漂亮的句式。关键特征：\n- 称呼切换精准——对母亲撒娇（\"妈，你又不舒服了吗？\"），对养父恭敬，对穆念慈温情，对郭靖兄长语气\n- 文人气的自谦——\"在下\"\"小弟\"\"罪该万死\"\"全无干系\"\n- 承诺时字字工整——\"从今而后，我是叫杨康的了\"、\"小弟随同大哥，前去报仇\"——句式标准到像是背好的答案\n- 唯一一次停顿是\"我那……那完颜洪烈\"（scene_26）——这是他全书唯一一次声音上显出犹疑\n\n他笑得最多——\"笑嘻嘻\"\"笑道\"\"哈哈大笑\"——笑是他最常用的反应，包括面对最严肃的场合（身世揭秘、养父被指控、拜欧阳锋为师）。笑也是他最大的武器：把严肃的话轻飘飘化掉。\n\n佐证：scenes/scene_26.md:L7-L7 （\"小弟今日才知确是姓杨，'完颜'两字，跟小弟全无干系，从今而后，我是叫杨康的了\"——标准周全的文辞，但内心暗中犹疑）；scenes/scene_26.md:L7-L8 （得知真相后\"一时踌躇不答\"的关键停顿——全书他唯一一次声音上的裂缝）",
+        "evidence_locators": [
+          "scenes/scene_26.md:L7-L7",
+          "scenes/scene_26.md:L7-L8"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/yang-kang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:yideng-dashi",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "一灯大师",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音以\"轻声\"\"慢慢\"\"低低叹了口气\"\"淡淡地\"为主——语速缓慢、音量降低，几乎不会拔高。\n\n关键特征：\n- **称呼柔化**——对黄蓉叫\"乖孩子\"\"孩子\"，对洪七公叫\"七兄\"，对周伯通叫\"周师兄\"——称呼系统永远给对方留面子\n- **自我评价严苛**——对外的词汇是\"孽障\"\"因果\"\"慈悲\"等佛门语；对自己却是\"禽兽不如\"\"卑鄙小人\"这些武林俗语——越贴近自己越重\n- **讲述往事的双层叙述**——讲故事前段用\"我\"\"段皇爷\"交替出现（段皇爷是过去的我），后段情绪越来越投入时人称自动合一——读者和讲述者同步失控（Phase C scene_10 craft_notes 已标注）\n- **关键短句**：决定性时刻说话极短——\"你来刺罢，我等了你很久很久了\"是全书他最简洁也最重的一句\n\n佐证：scenes/scene_10.md:L19-L19 （初见时\"伸手扶起二人，笑道：'七兄收得好弟子，葯兄生得好女儿啊'\"——柔和招呼+给对方面子）；scenes/scene_10.md:L69-L69 （自嘲\"哈哈，那黄老邪聪明机伶，早知我这大半个时辰的犹豫\"）",
+        "evidence_locators": [
+          "scenes/scene_10.md:L19-L19",
+          "scenes/scene_10.md:L69-L69"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/yideng-dashi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:射雕英雄传:zhou-botong",
+      "work_id": "novel:射雕英雄传",
+      "display_name": "周伯通",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音极度碎片化、跳跃、充满打岔。\n\n关键特征：\n- **故事套故事的叙事模式**——讲九阴真经来历时不断插入新故事（黄裳→明教→四十年→等），每个故事里还有更小的故事。郭靖的角色是听——他从来只是\"哦\"\"为什么\"\"后来呢\"\n- **秒级情绪翻转**——从大哭到大笑之间可以只隔半句话（\"'你不肯和我结拜，定是嫌我太老，呜呜呜……'忽地掩面大哭，乱扯自己胡子\"→下一刻\"破涕为笑\"）\n- **口头词**：自称\"老顽童\"、\"我周伯通\"；称郭靖\"兄弟\"/\"傻小子\"；嘲笑自己时用\"老头儿\"\n- **盟誓与认输都用夸张句**：\"教我武功全失，连小狗小猫也打不过\"——最严肃的场合用最戏剧化的语言\n- **反问式推销**——讲故事前必须问听众\"你猜是甚么\"，不给猜就赌气不讲，听众猜不对就得意\n\n佐证：scenes/scene_06.md:L14-L14 （结拜盟誓：\"若是违此盟誓，教我武功全失，连小狗小猫也打不过\"——戏剧化誓词）；scenes/scene_06.md:L18-L18 （讲黄裳故事\"你再猜。郭靖道：'大哥既然七八次都猜不中，那我也不用猜了'\"——逼郭靖猜谜的推销式讲述）",
+        "evidence_locators": [
+          "scenes/scene_06.md:L14-L14",
+          "scenes/scene_06.md:L18-L18"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/射雕英雄传/characters/zhou-botong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:日耳曼涅槃:fang-yan",
+      "work_id": "novel:日耳曼涅槃",
+      "display_name": "方彦/约纳斯·布罗姆",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "对上位者是**论证流**：历史溯源→数据压服→利害收束的三段式，从不诉诸情感，永远给对方一个\"自己想通\"的台阶——对雷德尔从英德矛盾根源讲到\"海军只是手段\"的石破天惊，对希特勒用航拍照片、舢板运力、机场距离的数据轰炸开路，再以\"大国和平只有两种\"的政治哲学收网。他深谙听者心理：对\"最喜欢卖弄繁琐数据记忆力\"的希特勒，就\"用更繁琐的数据去对付他\"。\n\n公开政治场合切**信徒腔**：排比颂词、\"万寿无疆\"式祝颂、把自己的贡献说成\"无上的荣幸\"——修辞华丽到与其私下的冷静形成反讽。对盟友与对手用**机锋外交腔**，绵里藏针、以战绩压人。介绍武器装备时进入**参数流**：航程、穿深、工时如数家珍，用具体数字制造压服感。\n\n内心独白是他唯一卸妆的地方：现代网络语感与军史术语混搭（\"翻白眼\"\"究极大招\"）；对妻子则是卸甲的疲惫短句（\"心好累\"）——公共声音与私人声音存在明确档位差。\n\n佐证：scenes/scene_04.md:L28-L34 （对雷德尔的三段式论证）；scenes/scene_13.md:L12-L26 （数据轰炸与\"用更繁琐的数据对付他\"）；scenes/scene_13.md:L42-L46 （\"大国和平只有两种\"的肃杀论证）；scenes/scene_19.md:L16-L16 （\"万寿无疆\"信徒腔）；scenes/scene_15.md:L8-L8 （机锋外交腔\"重新摁回深海\"）；scenes/scene_12.md:L6-L6 （对妻子的疲惫短句）；scenes/scene_19.md:L28-L30 （武器参数流）",
+        "evidence_locators": [
+          "scenes/scene_04.md:L28-L34",
+          "scenes/scene_13.md:L12-L26",
+          "scenes/scene_13.md:L42-L46",
+          "scenes/scene_19.md:L16-L16",
+          "scenes/scene_15.md:L8-L8",
+          "scenes/scene_12.md:L6-L6",
+          "scenes/scene_19.md:L28-L30"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/日耳曼涅槃/characters/fang-yan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:日耳曼涅槃:hitler",
+      "work_id": "novel:日耳曼涅槃",
+      "display_name": "希特勒",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "公共档是**演说体**：排比、递进、民族叙事的高潮制造——从个人经历起兴（\"这是我的亲身经历\"），控诉时用词极端化（\"肮脏的、卑劣的犹太卖国杂碎\"），情绪曲线从低沉倾诉爬升到握拳咆哮。金句常带格言结构：\"帝国大厦倾，谁家不塌崩？\"\n\n私密档反差极大：对信任者用**老友玩笑腔**（\"去年我可是送了你一只精致的怀表……今天你也应该为我准备了什么礼物吧？\"）；对下属的公开赞誉正式而慷慨（\"我作为德意志的国民和总理，心中只有无限的景仰和感激\"）。做出军事决断时切**宣告体**——短句、无修饰、直接给出行动指令（\"装甲部队应当在条件允许的情况下继续前进\"）。得意时的战略独白带**傲然睥睨**的比喻与反问，谈及宿敌时声线转入压低的狠厉。\n\n佐证：scenes/scene_03.md:L30-L32 （倾诉转咆哮的演说曲线）；scenes/scene_03.md:L22-L22 （\"帝国大厦倾\"格言腔）；scenes/scene_19.md:L16-L16 （老友玩笑腔）；scenes/scene_05.md:L8-L8 （公开赞誉腔）；scenes/scene_13.md:L72-L72 （军事宣告体）；scenes/scene_26.md:L38-L44 （傲然战略独白与狠厉低语）",
+        "evidence_locators": [
+          "scenes/scene_03.md:L30-L32",
+          "scenes/scene_03.md:L22-L22",
+          "scenes/scene_19.md:L16-L16",
+          "scenes/scene_05.md:L8-L8",
+          "scenes/scene_13.md:L72-L72",
+          "scenes/scene_26.md:L38-L44"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/日耳曼涅槃/characters/hitler/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:日耳曼涅槃:lina",
+      "work_id": "novel:日耳曼涅槃",
+      "display_name": "琳娜",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "对方彦有三个音区：**慵懒诱惑腔**（\"小约纳斯。你现在已经是海军中校啦。你可真是了不起\"——把年龄差和宠溺揉进尾音）；**酸妒攻击腔**（醋意直白到锋利：\"这一个月里，你对你的那个清纯娇丽的小妻子播了一百几十次种？\"）；**深情自白腔**——用意象系统说话：花园、金菊、蜜蜂彩蝶、黑白光影，把二十年的情史讲成一座植物园的编年史，收束在几乎耳语的\"我爱你唷，约纳斯\"。\n\n在密谋组织场合切**统领分析腔**：冷数据、利益链、反问句连击——\"根本原因是，这些将军们在希特勒的战争计划中，得到了实实在在的利益\"，从800万陆军的蛋糕算到海军的造舰经费，逻辑锋利不带情绪。两套声音共享同一特征：都不绕弯子。\n\n佐证：scenes/scene_07.md:L28-L28 （慵懒诱惑腔）；scenes/scene_27.md:L10-L10 （酸妒攻击腔）；scenes/scene_27.md:L22-L24 （金菊/蜜蜂的意象自白）；scenes/scene_27.md:L32-L32 （\"我爱你唷\"的耳语收束）；scenes/scene_28.md:L76-L82 （统领分析腔：利益绑定论）",
+        "evidence_locators": [
+          "scenes/scene_07.md:L28-L28",
+          "scenes/scene_27.md:L10-L10",
+          "scenes/scene_27.md:L22-L24",
+          "scenes/scene_27.md:L32-L32",
+          "scenes/scene_28.md:L76-L82"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/日耳曼涅槃/characters/lina/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:日耳曼涅槃:raeder",
+      "work_id": "novel:日耳曼涅槃",
+      "display_name": "雷德尔",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "正式场合是**考问腔与檄文腔**：对后辈用郑重的提问引导（\"我很期待你的这些论点都是因何而来\"），授衔时\"像朗读檄文似的滔滔列举功绩\"。对权力上位者切**兜售腔**——把海军诉求包装进国家安全叙事，一句一个\"为了德意志的国家安全和海洋权利\"。\n\n处置人事时用**铺垫-摊牌的层层官腔**：先扬后抑（\"你在这次行动总体表现得不错……然而\"），把\"功与过从来都是两回事\"这类原则性格言垫在刀前，再经过\"悉心的铺垫\"说出真实打算；说服的收束永远落在制度与荣誉的高地上。私人语气极少外露——他的情绪只在动作里：眉头微蹙、暗自叹气、面部肌肉微不可察地抽动。\n\n佐证：scenes/scene_04.md:L22-L22 （考问腔）；scenes/scene_29.md:L50-L50 （檄文式表彰）；scenes/scene_05.md:L16-L18 （对希特勒的兜售腔）；scenes/scene_29.md:L12-L12 （先扬后抑）；scenes/scene_29.md:L22-L22 （\"功与过从来都是两回事\"的摊牌）；scenes/scene_29.md:L30-L38 （三段式说服的完整样本）",
+        "evidence_locators": [
+          "scenes/scene_04.md:L22-L22",
+          "scenes/scene_29.md:L50-L50",
+          "scenes/scene_05.md:L16-L18",
+          "scenes/scene_29.md:L12-L12",
+          "scenes/scene_29.md:L22-L22",
+          "scenes/scene_29.md:L30-L38"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/日耳曼涅槃/characters/raeder/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:日耳曼涅槃:sylvia",
+      "work_id": "novel:日耳曼涅槃",
+      "display_name": "西尔维娅·齐亚诺",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "日常是**娇嗔亲昵腔**：叠词、语气词、打情骂俏式的收尾（\"笨蛋哒\"），关切时声线\"柔糯\"（\"亲爱的，你准备要离开了么？\"）。情绪浓度高时不加修饰地直给——恳求就是\"答应我，一定一定\"，识破就当面拆穿，不绕弯。\n\n谈及政治与处境时会换到**冷静分析腔**：句子变长、结构变清晰，从力量对比讲到应对策略（\"根本原因还是你的个人力量远远弱于你的上司，以至没有什么反抗能力……你也要努力创造机会，发展自己的势力\"）——豪阀教养的底色只在这个音区显形。两个音区的切换以丈夫的需要为开关：他需要慰藉时她软，他需要参谋时她利。\n\n佐证：scenes/scene_12.md:L24-L24 （\"笨蛋哒\"的娇嗔腔）；scenes/scene_30.md:L32-L32 （柔糯关切）；scenes/scene_29.md:L70-L76 （识破敷衍、涩然劝阻到政治分析的完整换轨）；scenes/scene_28.md:L8-L8 （直给的深情告白）",
+        "evidence_locators": [
+          "scenes/scene_12.md:L24-L24",
+          "scenes/scene_30.md:L32-L32",
+          "scenes/scene_29.md:L70-L76",
+          "scenes/scene_28.md:L8-L8"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/日耳曼涅槃/characters/sylvia/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:海的女儿:hai-de-wu-po",
+      "work_id": "novel:海的女儿",
+      "display_name": "海的巫婆",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的对白是全篇最直接、最不修辞、最少装饰的——\n\n**预判型开场**：见面第一句话直接说出客户来意 + 给出价值判断。\"我知道你是来求什么的。你是一个傻东西！不过，我美丽的公主，我还是会让你达到你的目的\"——预判 + 称呼客户为\"美丽的公主\"（讽刺与认可并存）。\n\n**逐条列价格 + 用感官细节描述痛感**：她不说\"会很难受\"这种抽象描述，她说\"这就好像有一把尖刀砍进你的身体\" / \"你的每一个步子将会使你觉得好像是在尖刀上行走，好像你的血在向外流\"——价格陈述全部用具体身体感官替代抽象形容词。\n\n**没有销售话术**：她的对白中唯一一次接近\"销售话术\"的瞬间是\"你还有美丽的身材呀……有了这些东西，你就很容易迷住一个男人的心了\"——但即使这里她也没有承诺成功（\"很容易\"是程度副词，不是承诺）。\n\n**附赠条款而不强调**：药水可让珊瑚虫\"裂成碎片\"的副功能是她在客户离开前作为附带说明给的——她不把它当作销售点。这是她服务质量的一部分，但她不强调它来塑造形象。\n\n**清洁与煎药仪式语**：煎药前说\"清洁是一件好事\"——单句格言式语言。这与她的形象（白骨屋 + 水蛇爬胸口）构成强烈反讽，但她说得平静、没有情绪化色彩。\n\n佐证：scenes/scene_S03.md:L26-L26（预判型开场 + 感官细节痛感描述：\"这就好像有一把尖刀砍进你的身体\"）；scenes/scene_S03.md:L28-L28（逐条不可逆条款 + 死期条款，没有任何美化）；scenes/scene_S03.md:L30-L30（要价段：\"我必须得到你最好的东西\" + 表演\"我得把我自己的血放进这药里，好使它尖锐得像一柄两面都快的刀子\"——把自己的成本也明示）；scenes/scene_S03.md:L32-L32（不施压回应：\"你还有美丽的身材呀……\" + 终结条款\"你也可以得到这服强烈的药剂了\"）；scenes/scene_S03.md:L34-L34（\"清洁是一件好事\"——煎药仪式语，单句格言）",
+        "evidence_locators": [
+          "scenes/scene_S03.md:L26-L26",
+          "scenes/scene_S03.md:L28-L28",
+          "scenes/scene_S03.md:L30-L30",
+          "scenes/scene_S03.md:L32-L32",
+          "scenes/scene_S03.md:L34-L34"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/海的女儿/characters/hai-de-wu-po/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:海的女儿:hai-wang-zu-mu",
+      "work_id": "novel:海的女儿",
+      "display_name": "海王祖母",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的对白模式有几个稳定特征：\n\n**说理 + 安慰并行**：她在解释规则时清晰、不回避（\"我们没有一个不灭的灵魂\" / \"但是这类的事情是从来不会有的\"），但每段说理后她都会立刻给一个**生活建议**抵消焦虑（\"在我们能活着的这三百年中，让我们跳和舞吧\" / \"今晚我们就在宫里开一个舞会吧\"）。\n\n**为对方而调整词汇**：她对小公主讲人间故事时把\"小鸟\"说成\"鱼儿\"——主动调整词汇以便对方能理解。这种翻译型语言习惯延伸到她整个教育方式：先把事实包装成孙女能消化的形式。\n\n**慈爱中带等级意识**：她对孙女们温和，但对装饰品的等级意识极重——\"她的尾巴上老戴着一打的牡蛎，其余的显贵只能每人戴上半打\"。她为小人鱼第一次浮上海面专门贴八个大牡蛎\"来表示她高贵的地位\"——美与等级是她的生活基础设施。\n\n**金句式陈述**：她的两句最有辨识度的话——\"为了漂亮，一个人是应该吃点苦头的\"与\"在我们能活着的这三百年中，让我们跳和舞吧\"——都是简短的人生格言式陈述。她不长篇辩护，她下结论。\n\n佐证：scenes/scene_S01.md:L9-L9（\"鱼儿\"翻译——为对方调整词汇）；scenes/scene_S01.md:L10-L10（\"等你满了十五岁的时候，我就准许你浮到海面上去\"——规则告知的简短模式）；scenes/scene_S02.md:L7-L7（金句：\"为了漂亮，一个人是应该吃点苦头的\"——把孙女的不适重新框架为美的代价）；scenes/scene_S03.md:L13-L13（清晰的规则陈述）；scenes/scene_S03.md:L19-L19（金句 + 立即转向舞会的语言模式）",
+        "evidence_locators": [
+          "scenes/scene_S01.md:L9-L9",
+          "scenes/scene_S01.md:L10-L10",
+          "scenes/scene_S02.md:L7-L7",
+          "scenes/scene_S03.md:L13-L13",
+          "scenes/scene_S03.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/海的女儿/characters/hai-wang-zu-mu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:海的女儿:wang-zi",
+      "work_id": "novel:海的女儿",
+      "display_name": "王子",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的对白有三种稳定模式：\n\n**类比型**：理解新事物总是通过相似性。\"你很像我某次看到过的……\" / \"你几乎代替了她留在我的灵魂中的印象\" / \"你很像神庙里的那个美丽的姑娘，而她却不像\"——他不通过差异认识人，通过\"像谁\"认识人。这是他认知缺陷的语言形式。\n\n**承诺型**：用绝对化语言表达即时情感。\"让我们永远不要分离吧！\" / \"你是我最亲爱的人！\" / \"我不会爱她的\"——承诺的语调强烈、内容绝对，但这些承诺没有跨过下一个相似性触发就被改写，他自己不察觉这种改写。\n\n**赞美型**：他对小人鱼的舞蹈、心、眼睛都给出明确赞美——\"你在一切人中有一颗最善良的心\" / \"你对我是最亲爱的\"。赞美都是真的，但都不指向\"新娘\"这个位置。\n\n他没有任何质疑性、探究性、怀疑性的对白。他不问\"你是谁\"超过一次、不问\"你怎么来的\"、不问\"你为什么不能说话\"——一旦得到一个解释（哑巴孤女），他就停止追问。他用昵称固定关系：\"我的哑巴孤儿\"、\"亲爱的\"——这种昵称是温柔的，但同时是把对方钉在某个位置上的。\n\n佐证：scenes/scene_S04.md:L13-L13（类比型 + 承诺型集中段：\"你很像我某次看到过的一个年轻女子……让我们永远不要分离吧！\"）；scenes/scene_S05.md:L4-L4（同时使用类比型 + 承诺型 + 昵称型：\"你很像神庙里的那个美丽的姑娘……我亲爱的、有一双能讲话的眼睛的哑巴孤女\"）；scenes/scene_S05.md:L6-L6（\"你不害怕海吗，我的哑巴孤儿？\"——昵称固定关系）；scenes/scene_S05.md:L10-L10（赞美型与反讽并存的极端范例：\"你会为我的幸福而高兴吧\"）",
+        "evidence_locators": [
+          "scenes/scene_S04.md:L13-L13",
+          "scenes/scene_S05.md:L4-L4",
+          "scenes/scene_S05.md:L6-L6",
+          "scenes/scene_S05.md:L10-L10"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/海的女儿/characters/wang-zi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:海的女儿:xiao-ren-yu",
+      "work_id": "novel:海的女儿",
+      "display_name": "小人鱼",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "变成人之前，她的直接对白集中在巫婆签约的几分钟内——四句话：\"我可以忍受\"、\"我不怕\"、\"如果你把我的声音拿去了，那么我还有什么东西剩下呢？\"、\"就这样办吧\"。这是她在原文中能集中听到的所有声音。模式：极短句、不修辞、不解释自己、用\"忍受\"和\"不怕\"接受痛苦、只有一次怀疑（关于声音）随即压下。\n\n变成人之后她完全失声——但叙述者用\"她想\"、\"她的眼睛似乎在说\"、\"小人鱼想\"传达她的内心。这些被引述的内心句子保持与变人前同样的短句节奏（\"啊！只愿他知道……\"），但已经从\"对世界发言\"转为\"对自己发言\"——失声把她的语言从公共领域剥离到内心。\n\n情感几乎不靠形容词外化，而是靠**身体反应**——颤抖的声音、惨白的脸、流血的脚仍然大笑、发抖的手仍然扔刀。叙述视角描写她的痛苦时镜头总是落在身体部位上，不落在心理动态上。\n\n没有反讽、没有狡黠、没有自辩——她从不为自己解释。即使在王子说出\"你很像我看到过的一个年轻女子\"这种致命台词的瞬间，她也没有任何文本可考的反驳冲动。\n\n佐证：scenes/scene_S03.md:L27-L33（变人前全部直接对白：颤抖中接受痛苦的四句话模式）；scenes/scene_S04.md:L5-L5（失声后内心独白：\"啊！只愿他知道，为了要和他在一起，我永远牺牲了我的声音！\"）；scenes/scene_S04.md:L12-L14（眼睛\"似乎在说\" + 长段内心独白替代对白）；scenes/scene_S04.md:L8-L8（身体外化情绪：脚流血但大笑继续）；scenes/scene_S01.md:L23-L23（变人前最早的直接对白：\"啊，我多么希望我已经有十五岁啊！\"——简短的欲望陈述）",
+        "evidence_locators": [
+          "scenes/scene_S03.md:L27-L33",
+          "scenes/scene_S04.md:L5-L5",
+          "scenes/scene_S04.md:L12-L14",
+          "scenes/scene_S04.md:L8-L8",
+          "scenes/scene_S01.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/海的女儿/characters/xiao-ren-yu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:51人--ci-chengyundan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "刺成云丹",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "刺成云丹说普通话又慢又认真，常要请人\"说慢点、自己没听懂\"，听懂了又会\"一字一句地\"把重要的话郑重说出来。他的语言朴素直白、不绕弯子，把最重的承诺说得像陈述事实（\"无论别人怎样，他都会选择张亦川\"）。情绪多靠表情和动作外化——咧嘴憨笑、点头说\"说的对\"，而不是长篇表达。偶尔会蹦出张亦川听不懂的昂语词，背后连着他那套讲七情六欲的宗教文化。\n\n佐证：scenes/scene_51-S02.md:L7-L7\n佐证：scenes/scene_51-S06.md:L15-L17",
+        "evidence_locators": [
+          "scenes/scene_51-S02.md:L7-L7",
+          "scenes/scene_51-S06.md:L15-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/51人/ci-chengyundan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:51人--lao-dage",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "老大哥",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "老大哥说话沉缓、爱用最日常的比喻承载沉重命题——点一支烟、像叹气一样呼出烟雾，说出\"如果活着的目标就是活着，就和结婚的目的只是单纯为了结婚一样\"这类把存在主义命题拉到生活地面的话。他不下武断结论，遇到分歧惯于反问众人（\"大家现在的目标是啥\"），把判断留给对方；谈到自己的局限时坦然苦笑，不掩饰也不辩护（\"慈不掌兵\"）。\n\n佐证：scenes/scene_51-S03.md:L21-L21\n佐证：scenes/scene_51-S03.md:L17-L17",
+        "evidence_locators": [
+          "scenes/scene_51-S03.md:L21-L21",
+          "scenes/scene_51-S03.md:L17-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/51人/lao-dage/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:51人--qin-liangyue",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "秦良岳",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "秦良岳说话有医生的冷静和条理——解释病理、药理时不带情绪，把\"直肠癌晚期、肺转移、头盖骨转移\"\"断药一两天就产生耐药性\"这类残酷事实说得平铺直叙，像在交代病历。他爱用类比把抽象的道理掰开（\"食欲、性欲、暴力欲是生命的三原色，金钱只是介质\"；把张亦川被忽视解释成捕食者略过\"低价值猎物\"）。对自己的痛苦他惯于轻描淡写、苦笑带过；只有在最后的告别独白里才卸下医生的克制，声音哽咽地把\"害怕被遗忘、所做一切没有意义\"一口气说尽。\n\n佐证：scenes/scene_51-S06.md:L9-L9\n佐证：scenes/scene_51-S09.md:L25-L25\n佐证：scenes/scene_51-S08.md:L9-L9",
+        "evidence_locators": [
+          "scenes/scene_51-S06.md:L9-L9",
+          "scenes/scene_51-S09.md:L25-L25",
+          "scenes/scene_51-S08.md:L9-L9"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/51人/qin-liangyue/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:51人--tao-yiren",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陶亦仁",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "陶亦仁说话带着布道者的感召力——惯用对比鲜明、画面强烈的格言式句子把\"赴死\"包装成壮美的选择（\"与其死的时候如同下水道里的厕纸一样被污水撕碎，还不如像天上的烟花一般璀璨爆裂\"）。他下命令时简短、笃定、不容置疑，却总在权威的命令里留一道\"可以离开\"的口子，让人觉得是自己选的。他几乎从不为自己辩白或解释——神格留在传闻里，他本人话不多，更多靠老大哥这类追随者替他转述、神化。\n\n佐证：scenes/scene_51-S03.md:L53-L53\n佐证：scenes/scene_51-S04.md:L11-L15",
+        "evidence_locators": [
+          "scenes/scene_51-S03.md:L53-L53",
+          "scenes/scene_51-S04.md:L11-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/51人/tao-yiren/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:51人--zhang-yichuan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "张亦川",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "张亦川的叙述与对白带着习惯性的自我贬低和黑色幽默——他用\"屎味巧克力\"\"饱汉子不知饿汉子饥\"这类带刺的玩笑把存在感创伤包起来，很少直接喊痛。日常说话偏口语、爱抬杠、爱翻白眼吐槽（嫌医生\"长篇大论一堆\"），但一进高压就切换成极短促的命令句（\"60秒！帐篷不要了，转移！\"\"跨越他\"）。他的内心独白比出口的话坦诚得多，最重的情绪往往压在心里（\"内心嚎叫了上千次我操\"），而不是说出口。对刺成云丹这个唯一\"选择他\"的人，他会从损人立刻转成笨拙的关心和解释。\n\n佐证：scenes/scene_51-S02.md:L5-L5\n佐证：scenes/scene_51-S06.md:L13-L13\n佐证：scenes/scene_51-S07.md:L19-L19\n佐证：scenes/scene_51-S09.md:L27-L27",
+        "evidence_locators": [
+          "scenes/scene_51-S02.md:L5-L5",
+          "scenes/scene_51-S06.md:L13-L13",
+          "scenes/scene_51-S07.md:L19-L19",
+          "scenes/scene_51-S09.md:L27-L27"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/51人/zhang-yichuan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:chen-yuqi",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陈雨琪",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她说话直、带刺，日常里习惯用冷笑和反话怼人——嫌人话多就一句\"谁问你了，怎么唧唧呱啦说那么多废话\"打断，对方说错话就翻个白眼回一句\"到底会不会说话呀\"。句子短、收得快，吐槽里藏着观察（看到\"禁止践踏\"的牌子顺嘴接一句\"有素质，但不多\"）。可一旦压力压到底，她的话会缩成最短的命令式——\"闭嘴\"\"快走\"——把情绪挡在话外，宁可红着眼眶沉默也不解释。她极少主动谈自己的伤口；真正说不出口的事，她用回避代替言语。\n\n来源：phase2_character.yaml → supporting_cast.陈雨琪 + 地铁/_candidates.md\n佐证：scenes/scene_DT-S01.md:L17-L17 / scenes/scene_DT-S03.md:L11-L11 / scenes/scene_DT-S11.md:L11-L11",
+        "evidence_locators": [
+          "scenes/scene_DT-S01.md:L17-L17",
+          "scenes/scene_DT-S03.md:L11-L11",
+          "scenes/scene_DT-S11.md:L11-L11"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/chen-yuqi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:hong-yang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "洪扬",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他话少，落点冷而平。别人动情、感慨、追问意义时，他多用一句把场子按住的现实主义短语收口（\"正常末日嘛\"\"讨论这个没有意义，现在不是你死就是我亡\"），不接情绪、不顺着煽。偶尔开口反而是冷到发黑的玩笑——对拳出征时祝罗允\"痛快地死去\"，把\"一起引爆手雷痛快地死掉\"说得像安排一顿饭，这套地狱冷笑话他自承是\"跟老爹学的\"。一旦话头转到父亲、转到自家那些抠着钱过的旧事（输液港太贵只能选便宜的 PICC），他会忽然具体、忽然话长，钝刀子一样把阶级的伤口摊开。多数时候他用最省的字应付（\"嗯\"\"都行\"\"别管我\"），把脑袋盖进被子里闷声回话；情绪极少直接说出口，更常沉进一个动作——拍拍罗允的肩、默默接过猎枪坐到窗边守夜。\n\n来源：phase2_character.yaml → supporting_cast.洪扬（寡言冷面 + 地狱冷笑话）\n佐证：scenes/scene_SB-S11.md:L23-L27 / scenes/scene_HJ-S04.md:L11-L15 / scenes/scene_HJ-S06.md:L14-L15",
+        "evidence_locators": [
+          "scenes/scene_SB-S11.md:L23-L27",
+          "scenes/scene_HJ-S04.md:L11-L15",
+          "scenes/scene_HJ-S06.md:L14-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/hong-yang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:li-luan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李鸾",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音是回溯性的第一人称自白，带着一个不可靠叙述者的自我审判腔——开口先给自己定性（\"我承认，我向来都不算是一个好人\"\"我好像就是一个风暴的中心\"），把陈述、忏悔、辩解搅在一起。语气阴郁、向内转，反复回到\"灾星/不祥\"\"把身边人卷过来再摧毁\"这一组自我意象上；写恐怖场景时却出奇地平，把最残忍的画面用近乎流水账的克制铺陈出来，情绪压在描写之下。被逼到极处时会滑向自嘲式的疯话（\"我真他妈是个神经病\"）。对人的情感几乎从不直说，最想拥抱安慰的时候，动作也会缩成\"把可乐向她推了推\"——欲望被一次次截断、改写成更小更安全的动作。\n\n来源：phase2_character.yaml → supporting_cast.李鸾（POV 第一人称回溯性自白体 + 不可靠叙述者）\n佐证：scenes/scene_BX-S01.md:L3-L5 / scenes/scene_BX-S10.md:L41-L41 / scenes/scene_BX-S08.md:L37-L37",
+        "evidence_locators": [
+          "scenes/scene_BX-S01.md:L3-L5",
+          "scenes/scene_BX-S10.md:L41-L41",
+          "scenes/scene_BX-S08.md:L37-L37"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/li-luan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:lin-dongqing",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "林东青",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他几乎不说话——沉默本身就是他的\"声音\"。被大人追问时，他用摇头、不回应、自顾自做别的事（蹲在墙角画画）来回避，把判断与同情都留给被他骗的人去脑补。他对外不开口、只和师父交流，这份\"失语\"既是伪装也是本性：真正的表达全沉进动作里——伸手翻背包、把针管插进对方的腿、把碎肉扔进锅、把刀捅进多嘴者的脖子。连\"哭\"都不是情绪而是工具：蔡大妈听见他边哭边敲门、循声找过来落入圈套，可回到房间时这孩子脸上、眼里都没有半点哭过的红血丝。唯一接近\"自我表达\"的，是他留在墙上的那张硕大的大笑人脸——师父的快乐写成了他的涂鸦。\n\n来源：phase2_character.yaml → antagonists.吴先生（工具童的沉默伪装设计）\n佐证：scenes/scene_YY-S05.md:L33-L41 / scenes/scene_EE-S08.md:L21-L23",
+        "evidence_locators": [
+          "scenes/scene_YY-S05.md:L33-L41",
+          "scenes/scene_EE-S08.md:L21-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/lin-dongqing/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:lu-xiaohu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陆小虎",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的声音多半不是台词，而是处境本身——在《地铁》里以一段困惑的内心独白收束全篇：他反复\"不明白\"陈雨琪为何相遇时落泪、为何对自己格外关心、为何回避表白，一连串不解里只攥住一个朴素的判断——这世上这么关心过他的，除了长得和他一模一样的双胞胎哥哥，就只剩陈雨琪了。情绪上来时他不绕弯子：发现饭菜里掺着手指眼球会当场干呕、骂出声、像疯了一样冲出去；撞见惨状时一声带哭腔的\"雨琪\"就是全部。倾向直给而非铺陈，话短、急、糙，情绪几乎都外化进动作与脏话里。\n\n来源：phase2_character.yaml → supporting_cast（陆小虎）.characterization\n佐证：scenes/scene_DT-S11.md:L45-L47 / scenes/scene_YY-S09.md:L3-L11",
+        "evidence_locators": [
+          "scenes/scene_DT-S11.md:L45-L47",
+          "scenes/scene_YY-S09.md:L3-L11"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/lu-xiaohu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:luo-yun",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "罗允",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他说话淡。最重的话——报死讯、转达遗言——他偏用最平的陈述句托住，不加形容词、不煽情、不安慰，把判断与选择留给听者，常以\"……吧\"收口（\"活下去吧\"\"他应该很想让你活下去吧\"）。句子短、收尾克制，情绪很少直接说出口，更多沉进一个动作里：叹一口气，合上手中的笔记本。他几乎不谈自己；可一旦谈起别人——被他救的人、路边死去的陌生人——反而具体起来，会替一个素不相识的死者把故事讲完。和搭档相处时，这份近乎仪式的\"传火\"会被对方一句\"正常末日嘛\"的冷淡校准，他便也只是叹气点头，不争辩。\n\n来源：phase2_character.yaml → voice_traits\n佐证：scenes/scene_RS-S10.md:L19 / scenes/scene_SB-S11.md:L23-L33 / scenes/scene_XX-S11.md:L3",
+        "evidence_locators": [
+          "scenes/scene_RS-S10.md:L19",
+          "scenes/scene_SB-S11.md:L23-L33",
+          "scenes/scene_XX-S11.md:L3"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/luo-yun/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:mang-nv",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "盲女",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她的\"声音\"是一套替代视觉的感知语言——《燃烧》整篇第二人称的\"你…\"就是她本人的感知载体，叙述始终从气味、声音、触觉切进，而非画面：先闻到\"像煮熟的糖浆、外加奇特咸味\"的怪味才认出感染者，靠脚下\"由柔软变得坚硬\"判断进了村子，靠指尖\"坚硬酥脆的质感\"读出周全被烧成了焦壳。这种第二人称 POV + 通感的写法，是作者把\"看不见\"的恐怖直接压到读者身上的实验。她说话不多、句子短而克制，最重的意愿用最平的陈述句托出（\"杀了我吧\"\"我现在闻不到任何感染者的味道，休息一下吧\"）；越往后越沉默，到医院几乎不再主动开口，她最真实的话反而是经王幸子转述出来的——\"总觉得黑暗中伸出手就会有一个熟悉的人回应她\"。情绪很少直接喊出，更多沉进生理反应里：反胃、干呕、控制不住地颤抖、扑上焦尸的哭嚎。\n\n来源：phase2_character.yaml → supporting_cast.盲女.characterization\n佐证：scenes/scene_RS-S03.md:L3-L5 / scenes/scene_RS-S08.md:L13-L13 / scenes/scene_YY-S08.md:L15-L15",
+        "evidence_locators": [
+          "scenes/scene_RS-S03.md:L3-L5",
+          "scenes/scene_RS-S08.md:L13-L13",
+          "scenes/scene_YY-S08.md:L15-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/mang-nv/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:tao-yiren",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陶亦仁",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他说话是感召者的腔调——居高临下、毫不迟疑，惯用一句锋利的譬喻把人钉在选择面前（\"与其死的时候如同下水道里的厕纸一样被污水撕碎，还不如像天上的烟花一般璀璨爆裂\"）。下命令时把冷酷包进仁慈的壳里：看似毋庸置疑的考验，却总在权威之后补一句\"接受不了的人当然也可以离开\"，给人留一道自我选择的门。宣讲理想时则切换成一种近乎布道的笃定，用\"bug/旧时代的产物/新存在\"这类二元化的大词把杀戮与毁灭说成创造与进化，疯狂大笑着把伤疤当作天选的凭证。情绪极少示弱，更多是嘲讽与笃信交替，把听者一步步引向\"向死即是向生\"的结论。\n\n来源：phase2_character.yaml → antagonists.陶亦仁（characterization: 感召者）\n佐证：scenes/scene_51-S03.md:L51-L53 / scenes/scene_51-S04.md:L11-L17 / scenes/scene_BX-S10.md:L31-L37",
+        "evidence_locators": [
+          "scenes/scene_51-S03.md:L51-L53",
+          "scenes/scene_51-S04.md:L11-L17",
+          "scenes/scene_BX-S10.md:L31-L37"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/tao-yiren/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:wu-xiansheng",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "吴先生",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他说话轻佻、游戏化，永远带着一种俯视猎物的从容。最稳定的标志是把人称作\"猪仔/猪崽\"，把屠杀说成\"招待\"\"自助餐厅\"\"狼人杀/剧本杀\"，把残忍的拼接尸体叫\"升华\"——用一套去人化、审美化的辞令把暴行包装得轻飘飘。自陈无道德感时他用最直白的陈述句兜底（\"同情心、愧疚、羞愧、怜悯，这些狗屁，自己从出生起就没有过\"），不辩解、不煽情。面对同类（廖振宇）时他冷静比较、自居\"更纯粹\"；面对受害者时他爱抛反问、爱讲解、爱\"贴心\"地逼对方看完全程，把折磨当成一场需要观众的表演。但这套腔调全是伪装时的\"另一副声音\"——一旦扮演可靠救援者，他立刻换上腼腆、谦卑、随大流附和的口吻，几天就能从陌生人混成被信赖的\"三当家\"。\n\n来源：phase2_character.yaml → antagonists.吴先生.characterization\n佐证：scenes/scene_KR-S09.md:L3-L11 / scenes/scene_EE-S10.md:L9-L9 / scenes/scene_YY-S10.md:L65-L67",
+        "evidence_locators": [
+          "scenes/scene_KR-S09.md:L3-L11",
+          "scenes/scene_EE-S10.md:L9-L9",
+          "scenes/scene_YY-S10.md:L65-L67"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/wu-xiansheng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:不详--shen-zengqi",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "沈曾祺",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "沈曾祺很少谈自己，被问及过去时只是低头摇摇、把话头让给别人——他的\"声音\"主要落在行动指令和生存判断上：低声、克制、几乎不带情绪，越是危险的时刻越压着所有人安静。他偶尔会开个不咸不淡的玩笑（笑亦凡年纪轻轻就生病、要\"学学他这身子骨\"），但谈到部署立刻收起所有闲笔，只说\"该怎么活\"——\"队伍里的人缺一不可\"、\"如果短时间内能被找到，就舍弃这个点位换下一个\"这类把生存逻辑讲透的处置式陈述，是他最稳定的语言形态。对抗生素这种东西，他的原话是\"希望我们永远也用不到，用到了希望真的有用吧\"——一种把最坏可能也算进去、却不渲染恐惧的务实语调。\n\n佐证：scenes/scene_BX-S04.md:L23-L23 / scenes/scene_BX-S04.md:L29-L29 / scenes/scene_BX-S04.md:L41-L41 / scenes/scene_BX-S04.md:L49-L49",
+        "evidence_locators": [
+          "scenes/scene_BX-S04.md:L23-L23",
+          "scenes/scene_BX-S04.md:L29-L29",
+          "scenes/scene_BX-S04.md:L41-L41",
+          "scenes/scene_BX-S04.md:L49-L49"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/不详/shen-zengqi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:不详--wang-chenxuan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "王晨轩",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "王晨轩说话直、带刺、不绕弯，泼辣里透着江湖气——当众怼亦凡\"说的好像这里的谁不是从死山血海里走出来的一样\"，一个白眼能把场子压住；这是她在社会上摸爬滚打多年练出来的语调。可这层硬壳一旦被真正的悲痛击穿，她就只剩断断续续的哭诉——讲述小队覆灭时哭得说不成句。到了最后，她的语言里浮出全篇最冷的清醒：\"在这个世界上，我已经分不清到底是感染者可怕还是人类可怕\"——把硬核求生者的泼辣，收束成一句对人性的彻底失望。她叫\"我\"的方式始终带着熟稔与亲近，最后一句话却是茫然的追问\"陶亦仁别抱了，陶亦仁在哪啊\"——一句看不见幻觉的真话，成了戳穿整篇的引信。\n\n佐证：scenes/scene_BX-S04.md:L55-L55 / scenes/scene_BX-S08.md:L39-L39 / scenes/scene_BX-S09.md:L19-L19",
+        "evidence_locators": [
+          "scenes/scene_BX-S04.md:L55-L55",
+          "scenes/scene_BX-S08.md:L39-L39",
+          "scenes/scene_BX-S09.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/不详/wang-chenxuan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:不详--yifan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "亦凡",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "亦凡的语言带着高三少年的稚气和讨好——被王晨轩怼了只会顺着台阶下\"确实确实，轩姐说的没毛病\"，在成年人面前主动放低姿态。可到了生命最后一刻，他的声音却褪去所有少年气，沉成一句近乎平静的交代：\"没事的，这些都是我一爷们该做的事情。\"——把临终的恐惧全部咽下，只留一句替别人宽心、也替自己正名的话。日常的讨好与终局的担当之间，是他全部的成长落差。\n\n佐证：scenes/scene_BX-S04.md:L57-L57 / scenes/scene_BX-S08.md:L31-L31",
+        "evidence_locators": [
+          "scenes/scene_BX-S04.md:L57-L57",
+          "scenes/scene_BX-S08.md:L31-L31"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/不详/yifan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:他的故事--cui-zhouping",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "崔周平",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他的话几乎都朝同一个方向使力——往光明处兜。坏消息一落地，他接的总是\"没事\"\"没事的\"\"还不错\"\"再往前走说不定就有信号了\"这类托底句，常配一个动作（拍肩、挠头、拄着登山杖爬坡时回头）。讲乐观时他会摆出一套像模像样的推理来支撑（备用电源、信号越近越清晰），哪怕底子很薄。听不懂别人引用的游戏梗时他不装懂，尴尬挠头照直说自己的实在想法。等他开始沉默、把想说的话咽回去，就是这个人快撑不住的信号。\n\n来源：phase3_spine.yaml → theme_hooks（希望提供者）+ mckee 欲望驱动声音\n佐证：scenes/scene_TG-S08.md:L25-L25（口头禅\"再往前走说不定就有信号了\"，成了他每次的结束语）；scenes/scene_TG-S08.md:L41-L41（听不懂兄弟会的梗\"尴尬地挠了挠头\"，照直说自己认为雾大反而方便逃跑）；scenes/scene_TG-S10.md:L11-L11（沦陷后率先出声打破压抑\"没事的……大家当初也得找一些活下去的理由\"）",
+        "evidence_locators": [
+          "scenes/scene_TG-S08.md:L25-L25",
+          "scenes/scene_TG-S08.md:L41-L41",
+          "scenes/scene_TG-S10.md:L11-L11"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/他的故事/cui-zhouping/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:他的故事--lao-zhang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "老张",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他用回溯口吻讲整段故事，语气是事后复盘式的、带自嘲和后见之明。日常对话里他习惯当\"扫兴的现实派\"：汪华依越是把末日浪漫成游戏，他越要补一句\"别忘了随时都会死\"。安慰队友时他切换成务实腔，把坏事往实用处想（安全套能装水防潮、留着也有用处）。内心独白则常常和嘴上说的相反——表面应付、心里翻涌，用\"一切都是命\"\"天命如此\"这类话给自己的犹豫和退让开脱。他不爱抒情，情绪多半压在动作和反问句底下，真正心软的时候选择沉默而不是表态。\n\n来源：phase3_spine.yaml → spine + theme_hooks\n佐证：scenes/scene_TG-S05.md:L17-L21（\"现在全世界都乱了，我们随时都会死\"\"就算像游戏有什么好的，别忘了随时都会死\"）；scenes/scene_TG-S07.md:L25-L25（用务实口吻安慰大家\"这玩意留着也有用处，可以装水，防潮\"）；scenes/scene_TG-S08.md:L37-L37（内心反讽式抱怨\"还不错——要说我们现在袜子湿得都能在靴子里溜冰了，那确实还不错\"）；scenes/scene_TG-S11.md:L27-L27（用\"一切都是命\"安慰死老鼠也给自己台阶下）",
+        "evidence_locators": [
+          "scenes/scene_TG-S05.md:L17-L21",
+          "scenes/scene_TG-S07.md:L25-L25",
+          "scenes/scene_TG-S08.md:L37-L37",
+          "scenes/scene_TG-S11.md:L27-L27"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/他的故事/lao-zhang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:他的故事--wang-huayi",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "汪华依",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她说话像随时在引用游戏——把现实事件翻译成《刺客信条》《寂静岭》《最后生还者》《暗黑破坏神》的台词和设定来理解和安慰人（\"死血亦是牲畜\"\"大无证明咱们还在表世界\"），语气常带刻意拉长的电影主角腔。兴奋时句子密、信息量大、绘声绘色地铺陈她的推断；安慰别人时不直接讲道理，而是套一个游戏术语让你自己会意。她对老张稳定地用\"老张\"\"兄弟\"称呼。真正崩溃时反而失去这套语言——只剩一边笑一边哭、反复说\"对不起\"，或喃喃重复一个词（\"死了……死了……\"）。\n\n来源：phase3_spine.yaml → theme_hooks（游戏即人生）+ mckee 欲望驱动声音\n佐证：scenes/scene_TG-S04.md:L11-L11（拉长声调一字一句\"别担心，'死血亦是牲畜'\"）；scenes/scene_TG-S05.md:L23-L27（绘声绘色铺陈\"游戏即人生\"信念）；scenes/scene_TG-S08.md:L29-L31（用《寂静岭》\"大无证明咱们还在表世界\"安慰老张）",
+        "evidence_locators": [
+          "scenes/scene_TG-S04.md:L11-L11",
+          "scenes/scene_TG-S05.md:L23-L27",
+          "scenes/scene_TG-S08.md:L29-L31"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/他的故事/wang-huayi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--cai-dama",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "蔡大妈",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "蔡大妈的嗓音是居委会式的市井絮叨——挤眉弄眼、双手一抱、挑着眉头炫耀战绩（\"以前还在居委会，跟其他几个老太太成功举报了大明星呢\"）。被质问时立刻转成赌咒式的自我担保和讨好（\"别怪大妈，大妈就是有点心急，但心是好的\"\"放心吧，这种事情她心里还是有数的\"），语速快、句句想撇清，却越描越漏。她对超出认知的事一律用迷信话术兜底（\"灾星\"\"遭报应\"）。整体是一个把分寸感全部让位给表现欲的声音。\n\n佐证：scenes/scene_YY-S06.md:L7-L7 / scenes/scene_YY-S06.md:L13-L13 / scenes/scene_YY-S07.md:L53-L53",
+        "evidence_locators": [
+          "scenes/scene_YY-S06.md:L7-L7",
+          "scenes/scene_YY-S06.md:L13-L13",
+          "scenes/scene_YY-S07.md:L53-L53"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/cai-dama/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--liu-yisheng",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "刘医生「我」",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "\"我\"是第一人称叙述者，嗓音是压抑的、向内卷的独白。对外说话克制、负责、带医生式的安抚（\"没事的，所有人都吓坏了……所有人的压力都已经到极限了\"）；真正的情绪全在不出声的内心吐槽和自我审判里——\"我真的服了，这个世界还能更糟点吗\"\"啊，烦死了\"\"那时的我还不知道，那场晚餐将是我们最后一次所有人齐全地聚在一起吃饭\"。他惯用这种\"事后回望\"的预叙口吻给灾难定调，把最黑的判断（\"人类好像自始至终和感染者都没什么区别\"）用近乎平静的句子说出来。到了终局，面对石浩洋，他的声音第一次从隐忍翻成冷冽的反击与宣告。\n\n佐证：scenes/scene_YY-S08.md:L3-L3 / scenes/scene_YY-S03.md:L77-L77 / scenes/scene_YY-S07.md:L41-L41 / scenes/scene_YY-S10.md:L83-L83",
+        "evidence_locators": [
+          "scenes/scene_YY-S08.md:L3-L3",
+          "scenes/scene_YY-S03.md:L77-L77",
+          "scenes/scene_YY-S07.md:L41-L41",
+          "scenes/scene_YY-S10.md:L83-L83"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/liu-yisheng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--shi-haoyang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "石浩洋",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "石浩洋有两副嗓子。面具期是市井愣头青的粗口与江湖气——吐痰、甩筷子、\"再这样就给你的脸来上两下子\"\"不想待就赶紧滚\"，靠直接动手压场。真身揭晓后翻成把屠杀元叙事化的\"游戏导演\"腔：他把幸存者叫\"猪仔\"\"星星\"，把这场清剿定义成\"狼人杀\"\"剧本杀\"，用炫耀的、居高临下的口吻复盘自己的布局——\"一群大人，被一个小孩玩死了，你们羞不羞呀？\"。他评点对手时带着导演式的惋惜（\"那个罗允心思缜密了一些，但城府太浅了，可惜了\"），威胁时则极尽下流羞辱（要把对方做成马桶喂排泄物）。\n\n佐证：scenes/scene_YY-S03.md:L43-L43 / scenes/scene_YY-S10.md:L65-L65 / scenes/scene_YY-S10.md:L73-L73 / scenes/scene_YY-S10.md:L79-L79",
+        "evidence_locators": [
+          "scenes/scene_YY-S03.md:L43-L43",
+          "scenes/scene_YY-S10.md:L65-L65",
+          "scenes/scene_YY-S10.md:L73-L73",
+          "scenes/scene_YY-S10.md:L79-L79"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/shi-haoyang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--sun-duizhang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "孙队长",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "感染前的孙队长几乎不靠言语，只靠命令与行动：他的\"声音\"是把感染者顶回病房的身体、是\"别开枪让我解脱、带他走、锁门\"这种不容置疑的处置式短令——队长式的、压住恐惧的、只说必须做的事。感染之后，他丧失了人类语言，只剩感染者的癫狂大笑，唯一穿透疯狂残留下来的词是反复嘶喊的\"骗子\"——一个失去了句子、只剩指控核心的声音，连被汽油点燃仍在喊。\n\n佐证：scenes/scene_YY-S03.md:L23-L23 / scenes/scene_YY-S10.md:L9-L9 / scenes/scene_YY-S10.md:L41-L41",
+        "evidence_locators": [
+          "scenes/scene_YY-S03.md:L23-L23",
+          "scenes/scene_YY-S10.md:L9-L9",
+          "scenes/scene_YY-S10.md:L41-L41"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/sun-duizhang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--wang-xingzi",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "王幸子",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "王幸子的声音是医生式的直率与克制——传话报情况干脆利落（\"没吓到吧\"\"那个青年带来一个不太好的消息\"），替人出头时一句话顶到位（信息早知道一天都是珍贵的）。谈到生死她不煽情、不安慰，用诊断的口吻把残酷的真相平静说出（\"精神状态非常糟糕\"\"生命可能快要走到尽头了\"\"也许盲女想要的就是死亡\"）。涉及自己时则更轻、更淡，用\"无所谓了\"\"累了\"这种放下式的短语收住，是一个把专业的清醒和个人的疲惫都压得很低的声音。\n\n佐证：scenes/scene_YY-S04.md:L7-L7 / scenes/scene_YY-S08.md:L23-L23 / scenes/scene_YY-S08.md:L53-L53",
+        "evidence_locators": [
+          "scenes/scene_YY-S04.md:L7-L7",
+          "scenes/scene_YY-S08.md:L23-L23",
+          "scenes/scene_YY-S08.md:L53-L53"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/wang-xingzi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--zhang-hua",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "张华",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "张华的声音是一种永远阴阳怪气、永远在反对的抬杠腔——开口先质疑、先嘲讽、先扣帽子（\"明明都是医生了怎么这么不负责\"\"一群目光短浅的\"\"一群弱智\"），用\"我研究过\"\"用脑子想想\"\"了解一下\"这类伪权威口吻往别人脸上糊。被驳倒就转移话题或人身攻击（\"没文化就多学多积累\"\"别当跳梁小丑让人笑话\"），从不认错。情绪上来会越说越冲、动作要打却又色厉内荏，遇到真敢动手的人立刻怂下来、留一句场面话灰溜溜逃走。\n\n佐证：scenes/scene_YY-S06.md:L41-L45 / scenes/scene_YY-S03.md:L33-L33 / scenes/scene_YY-S02.md:L23-L23",
+        "evidence_locators": [
+          "scenes/scene_YY-S06.md:L41-L45",
+          "scenes/scene_YY-S03.md:L33-L33",
+          "scenes/scene_YY-S02.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/zhang-hua/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:医院--zhao-shixuan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "赵士轩",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "赵士轩平日说话是机场地勤式的爽利张罗腔——招呼新人、解释情况、组织事务都干脆利落。但一进入对机场往事的口述，他的声音会沉下来、放慢，按时间顺序一幕一幕地推进（弟弟要烟、点烟、抬头看见半个脑袋、飞机撞楼、卡车碾人），细节具体而克制，不渲染情绪却字字带着没散尽的惊恐，是一种\"把惨烈压成流水账反而更刺人\"的复述。情绪被踩中时（亲人、军人被侮辱）他会瞬间从克制翻成颤抖的怒骂，先动手再说话。\n\n佐证：scenes/scene_YY-S03.md:L51-L63 / scenes/scene_YY-S03.md:L71-L71 / scenes/scene_YY-S02.md:L11-L11",
+        "evidence_locators": [
+          "scenes/scene_YY-S03.md:L51-L63",
+          "scenes/scene_YY-S03.md:L71-L71",
+          "scenes/scene_YY-S02.md:L11-L11"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/医院/zhao-shixuan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:地铁--liu-min",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "刘敏",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "刘敏的话不多，且几乎都贴着情绪走。日常里是抱怨腔（嫌人多、催陈雨琪快走、好奇地追问街头群殴\"具体什么情况\"）；恐惧时声音发颤、直接哭出来，问的都是没人能答的问题（\"会不会真的是什么丧尸病毒\"\"怎么这么多站台都禁止停靠\"）。到了后段她大多沉默，偶尔的开口反而最重——替杨和修说一句不想让他冒险的话，提一句想去做最后的告别。她不抒情、不分析，情绪藏不住，话越少时越说明事情越重。\n\n佐证：scenes/scene_DT-S01.md:L3-L3 / scenes/scene_DT-S03.md:L7-L7 / scenes/scene_DT-S10.md:L43-L43",
+        "evidence_locators": [
+          "scenes/scene_DT-S01.md:L3-L3",
+          "scenes/scene_DT-S03.md:L7-L7",
+          "scenes/scene_DT-S10.md:L43-L43"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/地铁/liu-min/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:地铁--lu-xiake",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陆霞克",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "陆霞克的话像不间断的背景音乐：碎、多、爱接梗，习惯用调侃和黑色幽默稀释恐怖——把街头吃人惨剧讲成段子、把\"沙丁鱼罐头里躲不掉丧尸\"当安慰话讲到把人吓哭、临死前还在懊恼\"早知道就应该唱摇滚结束了\"。他爱反讽、爱事后补刀（\"之前不是说 21 世纪不可能有丧尸吗，咋了，现在信了\"），对人称呼随口而亲昵（\"兄弟\"\"这小子\"）。但这副贫嘴是有开关的：真正下决心的时刻他会突然收声、把话说得极短极硬（\"那当然\"\"快走吧\"），唯一一次爆粗口也是为了把陈雨琪骂走保命。情感不在抒情里，在他弹响最后一首歌、把吉他抡向扑来的人那一下。\n\n佐证：scenes/scene_DT-S03.md:L9-L11 / scenes/scene_DT-S05.md:L47-L47 / scenes/scene_DT-S11.md:L43-L45",
+        "evidence_locators": [
+          "scenes/scene_DT-S03.md:L9-L11",
+          "scenes/scene_DT-S05.md:L47-L47",
+          "scenes/scene_DT-S11.md:L43-L45"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/地铁/lu-xiake/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:地铁--xu-haishui",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "徐海水",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "徐海水的声音先到、人不到——多数时候只是广播、电梯听筒和群聊里的一个嗓音。他说话条理清楚、像还在执勤的调度员：先确认\"听得到吗，冲左上角摄像头点点头\"，再分条给方案（\"我有几个选择给你们：一……二……还有一个……总之看你们了\"），密码、方位、风险都交代得明明白白。他不打包票、只给概率（\"我不敢保证你们百分之百能活下来，但我会尽我最大的能力\"），坦白自己的处境时是叹气加自嘲式的认命（\"我估计是不可能出去了\"）。越到后面，调度腔越压不住情绪——反复道歉、绝望自问，最后留下的群消息是疲惫却仍要鼓劲的\"再也帮不到，但一切都会好起来的，加油\"。\n\n佐证：scenes/scene_DT-S07.md:L31-L31 / scenes/scene_DT-S10.md:L21-L21 / scenes/scene_DT-S11.md:L23-L23",
+        "evidence_locators": [
+          "scenes/scene_DT-S07.md:L31-L31",
+          "scenes/scene_DT-S10.md:L21-L21",
+          "scenes/scene_DT-S11.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/地铁/xu-haishui/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:地铁--yang-hexiu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "杨和修",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "杨和修的话是医生式的——克制、信息密度高、习惯把恐怖拆成可分析的事实。他叹一口气，然后用平稳的语气讲撕裂同类的生理学（\"避开关节撕裂皮肤\"\"正常人咬合力就能咬开皮肤\"）、讲病毒为什么不空气传播、讲皮肤屏障要完整。他不抒情、少废话，下判断时果断到近乎冷硬（批评两个女生\"只是来送人头\"、骂护吉他的陆霞克\"弱智\"）。这套冷静在父亲那通只响一声就被挂断的电话后第一次裂开——他神经质地摇头、反复推断\"是我的铃声暴露了父亲的位置\"。沦陷之后声音保留智力却转向嗜虐，把医生话术扭成反讽（\"这一次我会慢慢的\"\"我会让你们全身的骨头碎掉之前都是活着的\"\"好好治疗你们\"）。\n\n佐证：scenes/scene_DT-S07.md:L13-L13 / scenes/scene_DT-S05.md:L41-L41 / scenes/scene_DT-S10.md:L71-L71",
+        "evidence_locators": [
+          "scenes/scene_DT-S07.md:L13-L13",
+          "scenes/scene_DT-S05.md:L41-L41",
+          "scenes/scene_DT-S10.md:L71-L71"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/地铁/yang-hexiu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:套中人--duilou-5lou-zhuhu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "对楼5楼住户",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他对人没有正面交流——招手不回、看一眼就转身，开口多是隔空的挑衅与脏话（\"傻瓜\"\"真他妈傻逼\"\"有种他妈来呀\"）。他最\"响\"的声音其实在心里：那套絮絮叨叨为自己开脱的内心独白——\"凭什么自己只能吃以前养的炉火，他们却还能悠闲吃饼干\"\"那个老秃头那么胖一定家里有不少吃的，估计都是偷别人的，去死啊\"——把嫉妒、轻蔑和被害妄想揉成一团，每一句都在论证\"他们该死、我没错\"。这是一种典型的网络反串引战腔调被搬进了现实。\n\n来源：phase2_character.yaml → voice_traits（隔空挑衅脏话 + 自我开脱式内心独白）\n佐证：scenes/scene_TZ-S09.md:L25-L25 / scenes/scene_TZ-S11.md:L79-L83",
+        "evidence_locators": [
+          "scenes/scene_TZ-S09.md:L25-L25",
+          "scenes/scene_TZ-S11.md:L79-L83"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/套中人/duilou-5lou-zhuhu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:套中人--hong-baoshan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "洪宝山",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他说话直、糙、嗓门大，急起来满口脏话——救儿子时是一声\"操你妈\"开路，断后时也是嘴里不停骂着\"操你妈\"挥刀。但在儿子面前，他能把最重的话说得最稳：道歉只一句轻轻的\"对不起\"，临终的嘱托却是一串短促有力、像口号一样的硬话（\"怕事不做事，做事不怕事！我永远都是你的后盾！\"）。他不爱长篇讲道理，安慰人靠的是没心没肺的乐观（看到对楼有人就笑着挥手\"其实也没那么糟糕\"）和黑色幽默式的日常迷信（自己也有踩井盖的规矩），情绪极少直说，更多沉进动作——一把铁锹、一句催儿子\"往家跑呀\"。\n\n来源：phase2_character.yaml → voice_traits（市井直率 + 壮胆脏话 + 口号式嘱托）\n佐证：scenes/scene_TZ-S06.md:L23-L31 / scenes/scene_TZ-S09.md:L3-L3 / scenes/scene_TZ-S10.md:L13-L15",
+        "evidence_locators": [
+          "scenes/scene_TZ-S06.md:L23-L31",
+          "scenes/scene_TZ-S09.md:L3-L3",
+          "scenes/scene_TZ-S10.md:L13-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/套中人/hong-baoshan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:套中人--tang-zhilin",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "唐志林",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "他说话条理清楚、爱做分析，常把眼前的人和事抽象成一套可解释的框架——管感染者叫\"被剥夺了自我和超我、只剩本我的最纯粹的人类\"，把网络暴力说成这种\"轻症\"，把父亲的断后拆解成\"放大音量壮胆、破釜沉舟\"的恐惧反应。但他从不居高临下：解读完别人，他会回头自嘲自己最不理智；面对洪扬的恨与痛，他不忙着说教，更多是安静地陪着、等对方哭出来。讲到自己母亲、那座没坐成的观光船时，他的话会从抽象落回具体，温度也随之上来。临别一句\"弘叔说的没错，他的儿子真的很优秀\"，是他把分析的能力用来缝合别人伤口的方式。\n\n来源：phase2_character.yaml → voice_traits（学说化阐释 + 不说教的陪伴 + 自嘲）\n佐证：scenes/scene_TZ-S11.md:L23-L29 / scenes/scene_TZ-S11.md:L11-L13 / scenes/scene_TZ-S11.md:L71-L71",
+        "evidence_locators": [
+          "scenes/scene_TZ-S11.md:L23-L29",
+          "scenes/scene_TZ-S11.md:L11-L13",
+          "scenes/scene_TZ-S11.md:L71-L71"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/套中人/tang-zhilin/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:套中人--wan-qing",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "婉清",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "她说话是幼童式的天真直白——问奶奶\"今天不是休息吗\"，一听有好吃的就乖乖应下、甩着小手保证帮忙。大人议论灾祸时她听不懂，便不插话，自己蹲在地上无聊地等车。她的\"声音\"更多不在台词，而在那双不带成见、对世界好奇张望的眼睛里：同样面对怪人，大人看到的是\"神经病\"，她看到的是隔绝与孤独。\n\n来源：phase2_character.yaml → voice_traits（幼童天真口吻 + 不设防的好奇）\n佐证：scenes/scene_TZ-S01.md:L5-L5 / scenes/scene_TZ-S01.md:L21-L21",
+        "evidence_locators": [
+          "scenes/scene_TZ-S01.md:L5-L5",
+          "scenes/scene_TZ-S01.md:L21-L21"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/套中人/wan-qing/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:学校--gou-zi",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "狗子",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "狗子有两副截然不同的嗓子。感染前他爱哭、直率、带点小聪明——\"听声辨车\"时小声报数（\"应该是三辆警车和一辆救护车\"），看到惨剧先吐再哭，第一个哽咽着说担心父母。感染后他的语言彻底反转：口齿不清、模糊变形，内容却极尽恶毒占有——把对舍友的旧情绪（\"以前就看不惯秦胜哥到处拈花惹草\"）翻译成\"想尝试驾驭种马\"\"要撬开他的脑子看看一天到晚在想什么\"这类爱 / 性 / 损毁交缠的威胁，边狂笑边说，越说笑得越大声。声音是判断他\"还是不是人\"的第一信号——从能商量、会哭，变成只剩狂笑与恶语。\n\n佐证：scenes/scene_XX-S01.md:L7-L7 / scenes/scene_XX-S07.md:L19-L19",
+        "evidence_locators": [
+          "scenes/scene_XX-S01.md:L7-L7",
+          "scenes/scene_XX-S07.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/学校/gou-zi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:学校--qin-sheng",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "秦胜哥",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "秦胜哥的话是四人里最外放、最带情绪起伏的：平时带着\"想揍他一顿的骄傲\"开玩笑（说自己\"奋战一夜只想回宿舍充电\"），危机里则是直接的催促、提议和争辩——\"快走\"\"快点关门\"\"留在这里弹尽粮绝只能饿死\"，永远在推动一个动作。他崩溃时声音会失控成大骂和哭吼（骂舍友把事都压在他身上、朝狗子吼\"为什么变成这样\"）。最有标志性的是他的\"自我麻痹腔\"：跳楼前反复念叨\"三楼而已，多了一层楼而已，不会出事的，不会出事的\"——同一句重复，分不清是在安慰「我」还是安慰自己。\n\n佐证：scenes/scene_XX-S01.md:L13-L13 / scenes/scene_XX-S07.md:L23-L23 / scenes/scene_XX-S10.md:L15-L15",
+        "evidence_locators": [
+          "scenes/scene_XX-S01.md:L13-L13",
+          "scenes/scene_XX-S07.md:L23-L23",
+          "scenes/scene_XX-S10.md:L15-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/学校/qin-sheng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:学校--riji-wo",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "「我」",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "「我」的叙述是一种\"事后回看的日记腔\"：带日期、带\"现在想一下，如果那个时候不懒就好了\"这种悔之晚矣的回溯标记，把灾难写成已经发生、无法挽回的旧账。情绪上他偏内向、自责、爱反问自己（\"多么可笑，我都想抽自己\"），很少喊口号、很少抒情壮语；真正的崩溃他用克制的短句和省略号兜住，把最痛的部分留白（\"但我现在……我现在，还是下不定决心\")。临到结尾，他用近乎平静甚至自嘲的轻声给自己最惨烈的决定收尾——\"毕竟我真的很怕疼呀\"——把最反人性的动作说得像一句撒娇的解释。\n\n佐证：scenes/scene_XX-S01.md:L15-L15 / scenes/scene_XX-S03.md:L19-L19 / scenes/scene_XX-S10.md:L7-L7 / scenes/scene_XX-S10.md:L29-L29",
+        "evidence_locators": [
+          "scenes/scene_XX-S01.md:L15-L15",
+          "scenes/scene_XX-S03.md:L19-L19",
+          "scenes/scene_XX-S10.md:L7-L7",
+          "scenes/scene_XX-S10.md:L29-L29"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/学校/riji-wo/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:学校--she-zhang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "社长",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "社长是四人里话最少的一个，\"沉默 → 突然发话 / 突然动手\"是他的声音节奏：大段时间一言不发，让别人争论、崩溃、哭嚎，等情势悬住、谁都决断不了时，他才用一两句短话或一个直接的动作把局面定下来。他要说话时往往是简短的提问而非长篇大论——在留下还是逃走拉锯到顶时，他打断争执只问秦胜哥一句\"坐上了车之后，我们该去哪儿\"，用一个问题逼对方把空想落地；附条件答应时也只是认真、平实地把条件说清楚，不带情绪修辞。他的\"声音\"更多藏在动作里：不说要不要杀狗子，直接起身拦人、插刀。\n\n佐证：scenes/scene_XX-S08.md:L17-L17 / scenes/scene_XX-S08.md:L21-L21 / scenes/scene_XX-S07.md:L25-L25",
+        "evidence_locators": [
+          "scenes/scene_XX-S08.md:L17-L17",
+          "scenes/scene_XX-S08.md:L21-L21",
+          "scenes/scene_XX-S07.md:L25-L25"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/学校/she-zhang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--cai-yu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "蔡宇",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "蔡宇说话克制、就事论事，几乎不抬高声调。被叫\"警官\"时他会立刻纠正\"我只是个辅警，没必要这么叫\"，请求搭车、请求帮忙都带着歉意和分寸（\"可以让我搭一下车吗\"\"请问，你们可以帮一下忙吗\"）。他向同伴交代危险时懂得节制——叮嘱知情者别把感染者多可怕全说出去，因为\"过度的恐慌只能弊大于利\"。唯一会让他厉声的，是有人当众扰乱别人的判断（呵斥张潇潇\"不要影响别人的决断\"）。情绪最重的时刻他也只是低头、深吸一口气，把悲伤压下去再开口；向被抛弃的老魏道别时，他反复说的是\"真的很抱歉，但没有别的办法\"。\n\n佐证：scenes/scene_EE-S04.md:L9-L15 / scenes/scene_EE-S05.md:L27-L27 / scenes/scene_EE-S07.md:L17-L17",
+        "evidence_locators": [
+          "scenes/scene_EE-S04.md:L9-L15",
+          "scenes/scene_EE-S05.md:L27-L27",
+          "scenes/scene_EE-S07.md:L17-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/cai-yu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--lao-wei",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "老魏",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "老魏的声音几乎全部是临终时的内心独白，一种被痛觉缺失托起来的、奇异的平静与黑色幽默。他在被分尸时还在想\"该发个朋友圈告诉那些发小——死好像根本就不痛\"，用近乎玩笑的口吻消解眼前的酷刑。回忆往事时他的语气是淡的、带点自嘲的（见到大海只评一句\"不过如此\"，转头却给父母打了十几分钟电话讲海边的感受）。临终顿悟时他不悲不怒，只是叹一句\"看来生活还是不够充实呀\"，然后认出真相。他对自己被抛弃这件事没有怨恨，只有一种\"这个年轻人根本不明白\"的怜悯式清醒。\n\n佐证：scenes/scene_EE-S07.md:L3-L3 / scenes/scene_EE-S07.md:L13-L13 / scenes/scene_EE-S07.md:L21-L21",
+        "evidence_locators": [
+          "scenes/scene_EE-S07.md:L3-L3",
+          "scenes/scene_EE-S07.md:L13-L13",
+          "scenes/scene_EE-S07.md:L21-L21"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/lao-wei/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--li-fang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李芳",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "李芳的声音温和、直接、带着过来人的体贴与一点点叹息。替人打抱不平时她不绕弯子，话说得明白又不刻薄（点张潇潇\"次次转移都是蔡宇他们殿后，也没见你什么时候殿后过\"）。评价蔡宇时她的语气里有真心的肯定，也有一声轻叹里的清醒——\"蔡宇是个很好的人……哎，只是他想拯救每一个人\"，那句\"哎\"里藏着她对好人在末日里下场的预感。安慰人时她的话简短、落地，不讲空道理（\"不要难过，其实这个结果是所有人的选择\"）。她不高声、不争辩到底，但该说的话不憋着。\n\n佐证：scenes/scene_EE-S05.md:L9-L9 / scenes/scene_EE-S05.md:L33-L33 / scenes/scene_EE-S07.md:L23-L23",
+        "evidence_locators": [
+          "scenes/scene_EE-S05.md:L9-L9",
+          "scenes/scene_EE-S05.md:L33-L33",
+          "scenes/scene_EE-S07.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/li-fang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--liao-zhen-yu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "廖振宇",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "廖振宇的声音在\"对镜头\"和\"对自己人\"之间切换。面对摄像机，他是一个亢奋的表演者，用博主式的口吻招呼同伴凑近、解说自己正在做的暴行（\"你看这玩意儿，居然能从他的眼眶插进鼻子里\"），最后一定要喊出自己的大名收尾。私下里他满口脏字、爱用\"怕鸡毛\"\"废物玩意儿\"压人，靠装出来的豪迈给自己壮胆（\"雁过留声，人过留名\"这种话他说得激动发抖）。情绪一旦失控就转成癫狂的嘶吼——砸着方向盘、眼睛通红地反复追问\"他们现在还有什么特别的？\"。他几乎不反省、不抒情，所有的话都绕着同一个轴：够不够特别、能不能被记住。\n\n佐证：scenes/scene_EE-S01.md:L21-L25 / scenes/scene_EE-S02.md:L3-L5 / scenes/scene_EE-S03.md:L49-L49",
+        "evidence_locators": [
+          "scenes/scene_EE-S01.md:L21-L25",
+          "scenes/scene_EE-S02.md:L3-L5",
+          "scenes/scene_EE-S03.md:L49-L49"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/liao-zhen-yu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--liu-jian-bang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "刘建邦",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "刘建邦的声音是个爱搭话、好奇心过剩、还有点没眼色的帮凶腔。他动手时爱\"分享发现\"，把虐杀当成一桩有趣的观察（\"原来人的胳膊断了手指还能动呀，以前死得太快，这样他都没发现\"）。日常里他一根筋地直来直去、爱出主意又想得简单（建议\"回头把那些感染者灭了呗，反正蔡宇有枪\")，常被廖振宇嫌话多、被骂闭嘴。他偶尔会冒出一句不合时宜却异常精准的话——望着窗外说\"太阳好像掉下来了\"，是全篇唯一触及病原的暗示，由他这个最迟钝的人说出。情绪上他比廖振宇松弛得多，灾难当前还能笑着说\"挺爽的\"。\n\n佐证：scenes/scene_EE-S01.md:L23-L23 / scenes/scene_EE-S03.md:L23-L23 / scenes/scene_EE-S05.md:L21-L21",
+        "evidence_locators": [
+          "scenes/scene_EE-S01.md:L23-L23",
+          "scenes/scene_EE-S03.md:L23-L23",
+          "scenes/scene_EE-S05.md:L21-L21"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/liu-jian-bang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--lu-de-fu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "陆德夫",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "陆德夫几乎不说话，是队伍里最沉默的人——他的声音主要是内心独白，而非对外言语。回忆妻子时，他的内心语言细腻、克制、带着无法挽回的痛（水上乐园里\"仿佛回到大学热恋时期\"\"世界中只有彼此\"），但落到现实，他连张潇潇的嘲讽都懒得回，\"面前这些人的争论拉帮结派，对他来说没有任何意义\"。真正要开口时，他只说最低限度的实用话（找蔡宇换班，理由只是\"自己有些难受\"）。他把所有的判断都收进那句反复回响的内心结论里——\"真正遇到事情的时候，每个人想的就只有他们自己\"。\n\n佐证：scenes/scene_EE-S06.md:L7-L7 / scenes/scene_EE-S06.md:L15-L15 / scenes/scene_EE-S09.md:L5-L5",
+        "evidence_locators": [
+          "scenes/scene_EE-S06.md:L7-L7",
+          "scenes/scene_EE-S06.md:L15-L15",
+          "scenes/scene_EE-S09.md:L5-L5"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/lu-de-fu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--zhang-tong",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "张彤",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "张彤的声音是个怯生生、爱担心、总在求确认的少年腔。他说话小心翼翼，开口多是顾虑和不安——\"别警察追查过来\"\"有人报警，要不咱们先撤吧\"。被冤枉时他会委屈地辩解、急着自证清白（指着张潇潇喊自己是去追偷手机的人、搬出蔡警官作证）。他几乎不主导话题，多是被动回应廖振宇的质问、努力回想细节。被麻醉绑住、嘴被堵上后，他的声音只剩下含混的呜咽——那是他最想喊出口的警告，却永远发不出来。\n\n佐证：scenes/scene_EE-S02.md:L3-L3 / scenes/scene_EE-S04.md:L5-L5 / scenes/scene_EE-S08.md:L29-L29",
+        "evidence_locators": [
+          "scenes/scene_EE-S02.md:L3-L3",
+          "scenes/scene_EE-S04.md:L5-L5",
+          "scenes/scene_EE-S08.md:L29-L29"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/zhang-tong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:恶--zhang-xiao-xiao",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "张潇潇",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "张潇潇的声音是一台不停歇的阴阳怪气发生器。他自来熟、爱给自己加戏，开口就是\"咱就是说\"\"哥们早就想到了\"\"我这人别的没有，就是仗义\"。贬损人时他擅长夹枪带棒、拿\"妨碍公务罪\"之类的话挤兑，把对方架在火上烤；煽动人时他凑到耳边压低声音，用一连串看似推理实则诛心的话编织叙事（\"那不是怀疑，那是压根就不想去……蔡宇那玩意儿就是想奴役别人\"）。被顶撞就立刻转成市井骂街（\"娘们叽叽\"\"怂货\"\"人渣\"）。他几乎从不正面承担——一被追问\"那你说怎么躲\"，刚才的高谈阔论立刻变成\"我又不是这个队伍的领头，问我干嘛\"。\n\n佐证：scenes/scene_EE-S04.md:L13-L19 / scenes/scene_EE-S05.md:L23-L23 / scenes/scene_EE-S08.md:L13-L15",
+        "evidence_locators": [
+          "scenes/scene_EE-S04.md:L13-L19",
+          "scenes/scene_EE-S05.md:L23-L23",
+          "scenes/scene_EE-S08.md:L13-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/恶/zhang-xiao-xiao/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:死亡奔赴--li-rong",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李荣",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "李荣说话短、稳、目的明确，几乎不带情绪起伏——下指令时是单向广播式的命令（\"抓住左边的座椅\"\"跑\"），解释残酷决定时则是一条条摆事实讲逻辑的\"生存算法\"陈述（撞死路人后那段\"既然秩序已经崩溃，还在遵守秩序的就是自取灭亡\"，从概率、从代价一层层推给你听）。他不抒情、不安慰、不给空头承诺，连最暖的事也用最干的话裹着——把善意藏进\"我开好车，你拿好枪，很公平吧\"这种轻描淡写的等价交换里。偶尔的人味来自一声叹气、一句自嘲（\"是啊，但没办法，人活着终归要有点奔头\"），以及谈起妻儿时那种突然柔软下来的语气。\n\n佐证：scenes/scene_SB-S09.md:L37-L37 / scenes/scene_SB-S09.md:L49-L49 / scenes/scene_SB-S06.md:L23-L23",
+        "evidence_locators": [
+          "scenes/scene_SB-S09.md:L37-L37",
+          "scenes/scene_SB-S09.md:L49-L49",
+          "scenes/scene_SB-S06.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/死亡奔赴/li-rong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:死亡奔赴--yue-zian",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "岳子安",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "岳子安的\"声音\"主要活在内心独白和手机消息里，而非对外的台词——对外他话很少，紧要关头多是短促的呼喊（\"怎么办，我们好像真的要死了\"）或一句\"我可以下手\"的硬气点头。内心独白则是他真正的嗓子：絮叨、爱用消费品和日常经验给极端恐怖\"降级\"（看着溅满血的平板感叹\"保护壳真好，这都没弯\"），用斗嘴口吻的自我吐槽消化绝望，遇到大事先想到的常是\"要不要发给女友\"\"女友会担心\"。对周书韵，他的语言是黏稠的、患得患失的依赖——平时是撒娇斗嘴，到了诀别关头则退化成最原始的三个字：\"我爱你\"复制粘贴不停发送。他几乎不抒情、不讲大道理，真实的情感藏在\"千万不要取消航班\"这种自私又诚实的祈祷里。\n\n佐证：scenes/scene_SB-S05.md:L13-L13 / scenes/scene_SB-S01.md:L7-L7 / scenes/scene_SB-S08.md:L5-L9",
+        "evidence_locators": [
+          "scenes/scene_SB-S05.md:L13-L13",
+          "scenes/scene_SB-S01.md:L7-L7",
+          "scenes/scene_SB-S08.md:L5-L9"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/死亡奔赴/yue-zian/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:燃烧--li-taitai",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李太太",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "李太太的声音是被情绪牵着走的——高频、外放、控制不住。怕的时候是崩溃的哭诉，怨的时候是尖利的指责和咒骂（\"狗鼻子也没这么灵吧\"\"扫把星\"\"有心机的婊子\"），求命的时候又立刻翻成哀求\"回去救我一下\"。她说话总在替自己找一个受害者位置：把别人的过错放大、把自己的算计藏进\"不应该这样走\"\"谁都自私\"的抱怨里。情绪和立场转得极快——前一刻还在恶毒诅咒，下一秒被感染者扑上就只剩哀嚎。她几乎不为别人着想地说一句话，每一句都朝着\"我\"打转。\n\n佐证：scenes/scene_RS-S03.md:L7-L7 / scenes/scene_RS-S04.md:L7-L7 / scenes/scene_RS-S08.md:L9-L9",
+        "evidence_locators": [
+          "scenes/scene_RS-S03.md:L7-L7",
+          "scenes/scene_RS-S04.md:L7-L7",
+          "scenes/scene_RS-S08.md:L9-L9"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/燃烧/li-taitai/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:燃烧--zhou-quan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "周全",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "周全的话分裂成两副嗓子。对外、对威胁，他短促、爆裂、带脏字，靠音量和狠话压场（怒吼\"操你妈的还来\"、威胁李太太\"这个世界已经没有法律了，再引起内讧就杀了她\"）。对\"你\"，他换成压低的、近乎事务性的平静——交代怎么死、交代去哪找药、交代手机震一下是方向对、震两下是偏了，把最绝望的内容用最克制的句子说出来，越是要做最坏的决定语气越稳。他几乎不抒情、不说漂亮话；真正的情感不在形容词里，而在\"叹一口气\"再继续说下去的那个停顿里。\n\n佐证：scenes/scene_RS-S08.md:L5-L9 / scenes/scene_RS-S06.md:L5-L9 / scenes/scene_RS-S09.md:L3-L5",
+        "evidence_locators": [
+          "scenes/scene_RS-S08.md:L5-L9",
+          "scenes/scene_RS-S06.md:L5-L9",
+          "scenes/scene_RS-S09.md:L3-L5"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/燃烧/zhou-quan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:狂人日志--li-wei",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李伟",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "李伟的话里总浮着一层对未来的憧憬腔。顺境时他不好意思地说出对家庭的渴望——\"一直想尝试一下别人嘴里所说的家庭是什么感觉，所以刚到法定年纪便想着结婚，然后再生个孩子\"，会自然地把陌生人纳进想象的家：\"到时候让吴先生当孩子的干爹\"。安慰女友时他换成柔声、笃定的口吻反复说\"一切都会好起来的\"，用乐观替代论证。但当家被毁，这副温柔的嗓子先是失神地只叫得出女友的名字，再瞬间炸成最恶毒的辱骂（\"杂种、畜生、一开始就应该踩死这个东西\"），最后彻底失语——揭谜后他只剩\"哭哭笑笑\"，对着尸体断断续续地讲那些再不会发生的\"美好计划\"。从憧憬到疯语，他的声音是一条被精确剪断的线。\n\n佐证：scenes/scene_KR-S06.md:L17-L17 / scenes/scene_KR-S08.md:L17-L17 / scenes/scene_KR-S09.md:L19-L19",
+        "evidence_locators": [
+          "scenes/scene_KR-S06.md:L17-L17",
+          "scenes/scene_KR-S08.md:L17-L17",
+          "scenes/scene_KR-S09.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/狂人日志/li-wei/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:狂人日志--zhang-lulu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "张露露",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "张露露的话总是低声的、试探性的、留着退路的。她不会断言\"他是坏人\"，只会说\"实在不行离开这里吧\"\"我一直觉得那个吴先生怪怪的，特别是他的眼神，感觉和死人一样，没有任何的感情\"——把最尖锐的直觉包在\"觉得、怪怪的\"这种不确定的措辞里，所以特别容易被一句反驳劝平。被劝服后她不争辩，只是\"默默地低下了头\"\"不知该如何是好\"，把不安咽回去。她真正的情绪不在断言里，而在被吴先生盯着时那句\"顿感心里发毛\"的生理反应里，以及对李伟那句近乎赌咒的叮嘱里——\"如果你没有活着回来，自己是不会在这个世界上苟活的\"。越是说不出口的恐惧，她越是把全部分量压在对爱人的叮嘱上。\n\n佐证：scenes/scene_KR-S06.md:L7-L7 / scenes/scene_KR-S06.md:L11-L11 / scenes/scene_KR-S06.md:L13-L13",
+        "evidence_locators": [
+          "scenes/scene_KR-S06.md:L7-L7",
+          "scenes/scene_KR-S06.md:L11-L11",
+          "scenes/scene_KR-S06.md:L13-L13"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/狂人日志/zhang-lulu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:狂人日志--zhao-weisheng",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "赵维胜",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "赵维胜说话带着一股自我打气式的、近乎讨好的诚恳。顺境时他爱拍自己的脸、给自己鼓劲——\"为了儿子、为了大家以后能安全的生活，这一次拼了\"，把求生说成对集体负责的承诺；被救后一句接一句地道谢，急于用感激修补人际、换取信任。他主动掏心窝讲身世，逻辑是\"互相知道得越多，越能互相信任\"——把坦诚当成换取归属的货币。但这副温和的嗓子有一个临界点：触到孩子，语气会瞬间从恳切翻成失控的咆哮与最恶毒的诅咒——丧子后他对李伟脱口而出\"克死父母、又出来克死别人\"，被揭穿真相后冲吴先生吼出\"恶人自有天收、不得好死\"。平时越是低声下气，崩溃时越是声嘶力竭，这一高一低之间就是他全部的人。\n\n佐证：scenes/scene_KR-S05.md:L11-L11 / scenes/scene_KR-S08.md:L17-L17 / scenes/scene_KR-S10.md:L5-L5",
+        "evidence_locators": [
+          "scenes/scene_KR-S05.md:L11-L11",
+          "scenes/scene_KR-S08.md:L17-L17",
+          "scenes/scene_KR-S10.md:L5-L5"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/狂人日志/zhao-weisheng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--fu-yuanzhang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "副院长",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "副院长的声音分两副。对外是通过广播单向播出的、略显沧桑的训诫体——温情广告被他亲口反转成冷硬的判词（\"只有这里，才是你们该待的地方\"），逼到极处会直接撕掉伪装爆出\"精神病就该全部去死\"。对内（监控室独白）则是一套自我正当化的话术：把屠杀说成\"社会定时炸弹爆炸\"，把施虐的医护分类成\"被逼的\"或\"潜藏的毒瘤\"，永远在给自己的恶找一个秩序与正义的解释。直到崩溃时，他才第一次用对着相框的、破碎的私语说话。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S02.md:L17-L17（广播\"只有这里，才是你们该待的地方\" + 厌恶感浓稠到快从广播流出来）\n- 佐证：scenes/scene_JB-S11.md:L5-L5（\"精神病就该全部去死\"——撕掉伪装的判词）\n- 佐证：scenes/scene_JB-S05.md:L9-L9（监控独白把施虐医护分类成\"被逼的\"或\"社会毒瘤\"——自我正当化话术）",
+        "evidence_locators": [
+          "scenes/scene_JB-S02.md:L17-L17",
+          "scenes/scene_JB-S11.md:L5-L5",
+          "scenes/scene_JB-S05.md:L9-L9"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/fu-yuanzhang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--geng-xiaotao",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "耿小桃",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "耿小桃的声音底色是律师式的清晰推理——会有条理地罗列假设、逐条推断（\"医疗事故、廉价药、减药量、假药\"），用逻辑给恐惧找一个可解释的出口。日常态偏冷静、克制、带分析腔。但当她决意赴死时，语调会变得\"有些奇怪\"——把残酷的物理死局翻译成武侠语汇（\"石中剑\"\"天选之人\"\"让我做一次大侠\"），并第一次大吼着争取属于自己的英雄时刻。她不潇洒，赴死时是哭着的、带哭腔的。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S03.md:L11-L11（条理化罗列假设的律师式推理腔）\n- 佐证：scenes/scene_JB-S12.md:L19-L19（\"够了，好不容易鼓起的勇气已经快散了，不要让她到死，连一次大侠都没有做过\"——第一次大吼）\n- 佐证：scenes/scene_JB-S12.md:L21-L21（赴死时哭着擦眼泪、最后说的话带哭腔——不潇洒的真实赴死）",
+        "evidence_locators": [
+          "scenes/scene_JB-S03.md:L11-L11",
+          "scenes/scene_JB-S12.md:L19-L19",
+          "scenes/scene_JB-S12.md:L21-L21"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/geng-xiaotao/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--li-yawei",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "李亚伟",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "李亚伟说话又快又冲，自来熟到几乎没有边界感——上来就\"老哥老哥\"地喊，催人时直接爆粗（\"大哥，他妈的都什么时候了，能不能别卖关子\"），对监控、对副院长这种他看不上的权威会毫不掩饰地破口大骂。但他的攻击性里裹着乐观和黑色幽默：能把残酷处境讲成段子，能把别人的愧疚翻译成体面的理由。临终时语气会忽然柔下来、带着戏谑的释然（\"他厉害不，想进来就进来，想出去就出去\"），把最重的遗言用最轻的口吻递出去。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S07.md:L19-L19（\"操他妈，等了这么久，毛的救援都没有\" / \"老哥，现在有没有什么建议\"——又快又冲、自来熟）\n- 佐证：scenes/scene_JB-S11.md:L3-L3（冲监视器怒吼\"脑子你妈的有病吧，回病房，你他妈让我们回病房\"）\n- 佐证：scenes/scene_JB-S13.md:L13-L15（临终戏谑的释然 + \"成年人的世界里不会因为柔软而有人保护他，你要充满刺\"）",
+        "evidence_locators": [
+          "scenes/scene_JB-S07.md:L19-L19",
+          "scenes/scene_JB-S11.md:L3-L3",
+          "scenes/scene_JB-S13.md:L13-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/li-yawei/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--tang-ke",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "唐科",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "唐科清醒后的声音是磕巴起步、越说越流畅的实在话——初见时\"之前有什么得罪，还望兄弟大人有大量\"带着卑微的客气，相处下来会冒出被李亚伟\"传染\"的脏话（\"妈的\"）。他不擅长华丽表达，靠朴素的鼓励和行动说话（\"咱都这么大的人了，既然打算放手去做就做，别退缩\"）。临终前回忆往事时却忽然滔滔不绝，平静地讲遗憾、讲愿望、讲那几个有趣的病友，把一生的话在最后一夜说尽。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S07.md:L9-L9（磕巴的\"之前有什么得罪，还望兄弟大人有大量\"——卑微客气的起步）\n- 佐证：scenes/scene_JB-S07.md:L19-L19（被传染般骂出\"妈的\"、感叹\"留在这儿得死，出去八成也是死\"）\n- 佐证：scenes/scene_JB-S13.md:L19-L19（临终一夜滔滔不绝讲过去、讲遗憾、讲愿望、讲耿小桃和李亚伟\"都是很有趣的人\"）",
+        "evidence_locators": [
+          "scenes/scene_JB-S07.md:L9-L9",
+          "scenes/scene_JB-S07.md:L19-L19",
+          "scenes/scene_JB-S13.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/tang-ke/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--yang-zhongxu",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "杨中旭",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "杨中旭的声音是两副嗓子叠在一起。日常态是退让、含糊、自我贬低的，开口前先道歉、说话留半句、被催促才肯往下讲（\"抱歉，但他没有卖关子\"），对人的友好和亲热会本能躲闪。但一进入逃生模式，他的语言立刻切换成清晰、有条理、带导览口吻的\"讲解体\"——把路线、武器点位、设施原理像导游一样铺开，夹着冷静的数字（撞门次数、喷淋时长、电死人要几秒）。恐惧不靠喊叫外化，而是借动作和默数来承担。倾向把眼前的真实灾难仍用\"丧尸 / 尸变 / 爆发\"这套幻想词汇去命名，是他世界观的底色而非偶发口癖。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S07.md:L17-L23（被催促才讲、先停顿后道歉、随即转成清晰的多关卡路线讲解）\n- 佐证：scenes/scene_JB-S06.md:L7-L7（默数撞门次数\"一下，两下……第十三次裂、第二十次染红\"——用计数承担逼近感）\n- 佐证：scenes/scene_JB-S09.md:L19-L23（\"他数了一下，差不多 10 秒\" / 解释喷淋喷十分钟、火警与电力分开——讲解体 + 冷静数字）",
+        "evidence_locators": [
+          "scenes/scene_JB-S07.md:L17-L23",
+          "scenes/scene_JB-S06.md:L7-L7",
+          "scenes/scene_JB-S09.md:L19-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/yang-zhongxu/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:精神病院--zheng-yunfan",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "郑云凡",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "郑云凡话不多，开口是浑厚、冷静、带军人指挥腔的短句——危急时直接下达指令（\"让你们继续吸引注意力，掩护我\"），用动词和命令承担节奏，几乎不解释自己。爆发力只在杀戮的瞬间从喉咙里挤出来（\"给我死啊\"\"死啊，为什么还不死\"）。退场时语气会转成自嘲式的苦笑和叹息（\"行了，那把枪里没子弹\"\"有缘再见吧\"），把所有翻涌的委屈和痛苦压成几句平静的告别，绝不诉苦。\n\n- 来源：phase2_character.yaml → voice_traits\n- 佐证：scenes/scene_JB-S10.md:L15-L15（\"给我死啊\"爆喝 / \"死啊，为什么还不死\"——杀戮瞬间的爆发）\n- 佐证：scenes/scene_JB-S10.md:L17-L17（\"行了，那把枪里没子弹\" / \"最后一颗子弹，那个条子留给了他自己\"——自嘲苦笑的短句）\n- 佐证：scenes/scene_JB-S10.md:L23-L23（\"先团队后个人，任何隐患都要重视\" / \"有缘再见吧\"——把痛苦压成平静告别）",
+        "evidence_locators": [
+          "scenes/scene_JB-S10.md:L15-L15",
+          "scenes/scene_JB-S10.md:L17-L17",
+          "scenes/scene_JB-S10.md:L23-L23"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/精神病院/zheng-yunfan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:黄金国--lao-zhang",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "老张",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "老张的话分两副腔调。对罗凯伯，他压低声音、谄媚周到，专挑主人爱听的说——\"碎嘴的丫头已经被安排去搜索物资了\"\"一切尽在掌握中，罗先生放心吧\"，报告永远是报喜、揽功、表忠心。对底层和外人，他端着二把手的架子，话里带着居高临下的无奈和敷衍——\"哪能呀\"\"你们可否……\"，遇到棘手事爱用\"有些人就是懒，不听\"\"这玩意儿管不过来的\"这类把责任甩给别人的说辞。一旦惹了主人发怒，那点从容立刻碎掉，变成结结巴巴、带颤音的解释和推诿。他几乎从不正面承担，话术的核心永远是\"不怪我\"。\n\n佐证：scenes/scene_HJ-S07.md:L37-L43 / scenes/scene_HJ-S10.md:L95-L95 / scenes/scene_HJ-S13.md:L75-L75",
+        "evidence_locators": [
+          "scenes/scene_HJ-S07.md:L37-L43",
+          "scenes/scene_HJ-S10.md:L95-L95",
+          "scenes/scene_HJ-S13.md:L75-L75"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/黄金国/lao-zhang/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:黄金国--luo-kaibo",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "罗凯伯",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "罗凯伯的话永远裹着一层温和、说教式的从容，越是残忍的内容说得越平和。他爱用\"孩子\"\"朋友\"称呼、爱讲商业逻辑和人性下限的\"道理\"来给冷酷找台阶——\"大部分人只是数字\"\"人这种东西总会有的，几个人、几十个人的区别没有任何意义\"\"这世界哪有那么多非黑即白\"。被戳穿时他不暴怒而是冷笑、被气笑，用轻蔑的反问把锅推回对方——\"看来你末日前连社会都没真正踏入过\"\"难道这种事也要挂在我头上\"。只有在窒息体验、关门求生这类濒死时刻，他的从容才会碎成不受控制的颤抖与粗喘——那是他唯一卸下面具的瞬间。\n\n佐证：scenes/scene_HJ-S06.md:L63-L65 / scenes/scene_HJ-S11.md:L85-L85 / scenes/scene_HJ-S13.md:L15-L15",
+        "evidence_locators": [
+          "scenes/scene_HJ-S06.md:L63-L65",
+          "scenes/scene_HJ-S11.md:L85-L85",
+          "scenes/scene_HJ-S13.md:L15-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/黄金国/luo-kaibo/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "novel:狂病-莫千回:黄金国--qin-zhengxiao",
+      "work_id": "novel:狂病-莫千回",
+      "display_name": "秦正肖",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "秦正肖说话克制、有分寸，话里有明确的取舍判断。涉及自己受重视的真正原因，她含糊其词、主动设界——\"自己真的很抱歉，但她需要保密\"，并立刻补一句\"和你们没有任何关系，所以放心吧\"，先封口再安抚。讲到自己的决定时，她语气会陡然变硬、变笃定——\"她能做的就是用她的方式拯救倪海鹏\"，这种宣言式的坚定不容商量。她不怕对冲突正面回话：老张抱怨\"给敌人递刀子\"，她当场不屑顶回\"说的好像之前没刀子一样，想好你自己的立场\"。但情感被逼到极限时，那层冷静会让位给哭腔和恳求——\"饶过我们吧，哪怕看在当初我帮过你一点的份上\"。\n\n佐证：scenes/scene_HJ-S09.md:L5-L5 / scenes/scene_HJ-S09.md:L19-L19 / scenes/scene_HJ-S12.md:L15-L15",
+        "evidence_locators": [
+          "scenes/scene_HJ-S09.md:L5-L5",
+          "scenes/scene_HJ-S09.md:L19-L19",
+          "scenes/scene_HJ-S12.md:L15-L15"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "novels/狂病-莫千回/characters/黄金国/qin-zhengxiao/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:Macbeth:banquo",
+      "work_id": "drama:Macbeth",
+      "display_name": "班柯",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "冷静的五步抑扬格 + 偏好\"时间 / 种子 / 树木 / 收获\"这一组农事 - 时间隐喻（\"seeds of time\"，\"if there come truth from them\"，\"thou hast it now\"——以\"现在\"为锚点判断未来）。他几乎没有命令式 / 感叹式句子；他大多用条件从句和反问。在公开场合他比 Macbeth 更短小直接（A1S6 martlet 描述、A3S1 公开应答 Macbeth 的晚宴邀请），从不长篇大论。他的独白与 aside（A1S3 怀疑女巫 / A2S1 cursèd thoughts / A3S1 thou hast it now）都很短——他不是会被语言冲走的人，而是用语言反复检查自己的人。死后作为幽灵他没有台词，但在 A4S1\"show of eight kings\"中作为视觉物再次出现，承担\"被预言确认\"的最终视觉功能。\n\n来源：phase2_roles.yaml → roles.banquo.voice_signature\n佐证：\n- scenes/scene_A1S3.md:L137-L144（seeds of time）\n- scenes/scene_A2S1.md:L25-L36（A2S1 cursèd thoughts — 短独白）\n- scenes/scene_A3S1.md:L9-L20（A3S1 thou hast it now — 短独白）",
+        "evidence_locators": [
+          "scenes/scene_A1S3.md:L137-L144",
+          "scenes/scene_A2S1.md:L25-L36",
+          "scenes/scene_A3S1.md:L9-L20"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/Macbeth/characters/banquo/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:Macbeth:lady-macbeth",
+      "work_id": "drama:Macbeth",
+      "display_name": "麦克白夫人",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "A1-A3 的核心调式：五步抑扬格 + 直接命令式 + 物质 / 仪式意象的极致密度（raven / blood / milk / gall / knife / serpent / flower / candle / spirits）。她偏好把抽象的意志问题翻译成可感官化的身体动作——\"screw your courage to the sticking-place\"，\"a little water clears us of this deed\"，\"give me the daggers\"。她对丈夫的语言压迫几乎总走\"manhood ↔ 动作\"轴：把\"你敢不敢\"重新编码为\"你是不是男人\"。\n\nA5S1 起调式整体翻转：放弃韵文转入散文，句子碎裂为短促命令（\"to bed, to bed, to bed\"），命令的对象从丈夫退回到自己（\"wash your hands, put on your nightgown\"），意象从控场用的隐喻退回到字面的感官（\"here's the smell of the blood still\"）。两种调式都属于她——前者是她想成为的那个声音，后者是她身体一直承担的那个声音。\n\n来源：phase2_roles.yaml → roles.lady_macbeth.voice_signature\n佐证：\n- scenes/scene_A1S5.md:L93-L120（unsex 段——A1-A3 调式的代表）\n- scenes/scene_A1S7.md:L83-L138（manhood ↔ 动作的话术）\n- scenes/scene_A5S1.md:L71-L142（A5S1 调式翻转的代表段）",
+        "evidence_locators": [
+          "scenes/scene_A1S5.md:L93-L120",
+          "scenes/scene_A1S7.md:L83-L138",
+          "scenes/scene_A5S1.md:L71-L142"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/Macbeth/characters/lady-macbeth/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:Macbeth:macbeth",
+      "work_id": "drama:Macbeth",
+      "display_name": "麦克白",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "抽象名词与具象事物混合的五步抑扬格——他几乎所有重要言说都把\"function / surmise / consequence / equivocation / imperial theme\"这样的概念名词与\"dagger / blood / hand / hair / seas / sleep / candle / shadow / player\"这样的物质 / 戏剧形象拼在一起；这是他声音的指纹。条件从句密集（\"if … if … if\"），常以假设开启思维，再被现实打断。在公开场合他能维持典雅的廷臣腔（A1S4 致辞、A3S1 主持），但在独处或与妻独处时立即转入幻象 - 自问 - 自我命名的内省语流。终场（A5S5）他的语流转为短促节拍与重复（tomorrow / and tomorrow / and tomorrow），把内省的句法瓦解为节奏本身——这是他从\"看见后果\"退到\"放弃看见任何意义\"的语言信号。\n\n来源：phase2_roles.yaml → roles.macbeth.voice_signature\n佐证：\n- scenes/scene_A1S7.md:L9-L67（条件从句密集 + 抽象 / 物质混合的代表段）\n- scenes/scene_A2S1.md:L103-L171（\"Is this a dagger which I see before me\" — 物质幻象 + 自问 + 自我命名）\n- scenes/scene_A2S2.md:L101-L122（\"Sleep no more\" 段：他人之声穿入自己的口）\n- scenes/scene_A5S5.md:L53-L72（终场短促节拍 + 重复 + \"signifying nothing\"）",
+        "evidence_locators": [
+          "scenes/scene_A1S7.md:L9-L67",
+          "scenes/scene_A2S1.md:L103-L171",
+          "scenes/scene_A2S2.md:L101-L122",
+          "scenes/scene_A5S5.md:L53-L72"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/Macbeth/characters/macbeth/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:Macbeth:macduff",
+      "work_id": "drama:Macbeth",
+      "display_name": "麦克达夫",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "朴素的五步抑扬格，少抽象名词、少假设从句、少比喻 - 倾向直陈句和重复（\"All my pretty ones? / Did you say all?\"——重复不是修辞，是承受信息的速度）。他几乎从不长篇独白——他的声音在与他人对话时最清楚，在他独自占场时反而最沉默。当他必须做判断时他用最短的判决式句子（\"Fit to govern? No, not to live\"；\"Despair thy charm\"；\"Turn, hell-hound, turn\"），把整段思考压缩到一个动词或者一个否决。他的语言永远低于他承受的情感量级——这与 Macbeth 永远高于他承受的语言量级形成完整对比。\n\n来源：phase2_roles.yaml → roles.macduff.voice_signature\n佐证：\n- scenes/scene_A4S3.md:L237-L249（\"Fit to govern? No, not to live\" — 判决式短句）\n- scenes/scene_A4S3.md:L513-L533（\"All my pretty ones? Did you say all?\" — 重复承载信息）\n- scenes/scene_A5S7.md:L99-L113（\"Turn, hell-hound, turn\" + \"I have no words: / My voice is in my sword\" — 把判决压缩到动词或动作）",
+        "evidence_locators": [
+          "scenes/scene_A4S3.md:L237-L249",
+          "scenes/scene_A4S3.md:L513-L533",
+          "scenes/scene_A5S7.md:L99-L113"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/Macbeth/characters/macduff/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:Macbeth:malcolm",
+      "work_id": "drama:Macbeth",
+      "display_name": "玛尔康",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "A1-A2 的声音很少——他主要在 aside 中说话（A2S3 与 Donalbain 的交换），用最经济的句子分析处境（\"daggers in men's smiles\"）。A4S3 中段他在英国宫廷里掌握了一种新的声音调式：长段的、控制极强的自我描述（自我诋毁测试），他能流畅地说出自己最严重的假想罪行（voluptuousness / stanchless avarice / no king-becoming graces），这是一种刻意为之的政治演练——他在用自己的语言对 Macduff 做一次实地的\"是否会被劝离\"测试。A4S3 后段他能精确地撤销刚才说过的所有自污（\"unspeak mine own detraction\"）——这种\"说出 - 测试 - 撤销\"的能力是他的政治声音的核心。A5 后段他转入军事 / 行政指令调式——简短、协调、分配性（\"Let every soldier hew him down a bough\"；\"henceforth be earls\"）。\n\n来源：phase2_roles.yaml → roles.malcolm.voice_function\n佐证：\n- scenes/scene_A2S3.md:L307-L313 + L361-L378（aside 经济句）\n- scenes/scene_A4S3.md:L117-L228（长段刻意自污）\n- scenes/scene_A4S3.md:L269-L297（撤销自污：\"unspeak mine own detraction\"）\n- scenes/scene_A5S4.md:L18-L33（军事指令调式：\"let every soldier hew him down a bough\"）",
+        "evidence_locators": [
+          "scenes/scene_A2S3.md:L307-L313",
+          "scenes/scene_A4S3.md:L117-L228",
+          "scenes/scene_A4S3.md:L269-L297",
+          "scenes/scene_A5S4.md:L18-L33"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/Macbeth/characters/malcolm/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:claudius",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "克劳地",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "克劳地的公开声音平衡、圆滑、制度化，常把私人欲望藏进国家安全、理智、爱护和秩序的词汇里；私下声音则突然转为罪感独白，直接触及兄弟之血、天堂审判和无法忏悔。操控他人时，他会先承认对方痛苦，再把痛苦导向自己需要的行动，尤其擅长用“你是否真正爱父亲”这类荣誉问题逼迫雷尔提表态。  \n\n来源：phase2_character.yaml → antagonist.primary.voice_traits  \n佐证：scenes/scene_A1S2.md:L5-L8；scenes/scene_A3S3.md:L5-L7；scenes/scene_A4S7.md:L11-L17",
+        "evidence_locators": [
+          "scenes/scene_A1S2.md:L5-L8",
+          "scenes/scene_A3S3.md:L5-L7",
+          "scenes/scene_A4S7.md:L11-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/claudius/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:gertrude",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "葛簇特",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "葛簇特的声音通常短、柔、调停性强，偏向“乖儿”“甜蜜的姑娘”“冷静下来”这类亲密或安抚词。她很少长篇论证，压力越大越转向惊呼、请求、复述和身体性反应；当她不得不叙述死亡时，语言会变得抒情而回避责任，例如用花、水、衣裳和歌声讲欧菲莉亚溺亡。潜台词模式是回避因果：她能描述创伤现场，却常绕开“谁应负责”。  \n\n来源：phase2_character.yaml → supporting_cast.葛簇特.voice_traits  \n佐证：scenes/scene_A3S4.md:L13-L21；scenes/scene_A4S7.md:L21-L23；scenes/scene_A5S2.md:L31-L37",
+        "evidence_locators": [
+          "scenes/scene_A3S4.md:L13-L21",
+          "scenes/scene_A4S7.md:L21-L23",
+          "scenes/scene_A5S2.md:L31-L37"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/gertrude/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:hamlet",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "哈姆雷特",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "哈姆雷特的声音以高速转调为核心：公开场合常从礼貌称谓滑入双关讽刺，独处时转为哲学独白和死亡意象，面对窥探者则把对话改造成陷阱。他偏好用腐败、尸体、性、戏剧、梦和灵魂审判来解释现实；句法上能从连绵铺陈的长独白突然缩成尖锐短句。典型潜台词模式是“表面胡言，实为审问”：他说自己发疯，却常能准确识别谁在探听、谁在被权力使用。  \n\n来源：phase2_character.yaml → protagonist.voice_traits  \n佐证：scenes/scene_A3S1.md:L15-L23；scenes/scene_A3S2.md:L5-L7；scenes/scene_A3S2.md:L137-L141；scenes/scene_A5S2.md:L29-L39",
+        "evidence_locators": [
+          "scenes/scene_A3S1.md:L15-L23",
+          "scenes/scene_A3S2.md:L5-L7",
+          "scenes/scene_A3S2.md:L137-L141",
+          "scenes/scene_A5S2.md:L29-L39"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/hamlet/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:horatio",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "赫瑞修",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "赫瑞修的声音简洁、事实优先，很少修辞扩张；他会先给出观察和判断，再表达担忧。面对鬼魂，他以学者身份问话；面对哈姆雷特，他多用短句回应、校验或劝阻；结尾则转为报告口吻，承诺把淫欲、流血、乱伦、意外戳戮和自食其果讲清楚。典型潜台词是稳定场面：他不争夺解释权，直到哈姆雷特把解释权交给他。  \n\n来源：phase2_character.yaml → supporting_cast.赫瑞修.voice_traits  \n佐证：scenes/scene_A1S1.md:L11-L17；scenes/scene_A3S2.md:L17-L17；scenes/scene_A5S2.md:L39-L41",
+        "evidence_locators": [
+          "scenes/scene_A1S1.md:L11-L17",
+          "scenes/scene_A3S2.md:L17-L17",
+          "scenes/scene_A5S2.md:L39-L41"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/horatio/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:laertes",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "雷尔提",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "雷尔提的声音直接、誓言化、情绪热度高，常以家族名誉、父亲、妹妹、地狱和毁灭做判断尺度。他不像哈姆雷特那样把复仇拆成哲学问题，而是迅速把痛苦压成行动承诺；被克劳地操控时，他的回答也更像决斗誓词而非策略讨论。临终声音变短、变清楚，从复仇者转成揭露者和请求互赦者。  \n\n来源：phase2_character.yaml → supporting_cast.雷尔提.voice_traits  \n佐证：scenes/scene_A4S5.md:L13-L17；scenes/scene_A4S7.md:L13-L19；scenes/scene_A5S2.md:L35-L37",
+        "evidence_locators": [
+          "scenes/scene_A4S5.md:L13-L17",
+          "scenes/scene_A4S7.md:L13-L19",
+          "scenes/scene_A5S2.md:L35-L37"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/laertes/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:ophelia",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "欧菲莉亚",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "欧菲莉亚前期声音短促、顺从、以问句和“我不知道应如何想”呈现不确定；她很少正面抗辩，只偶尔以温和反问提醒雷尔提不要双重标准。后期疯癫声音改用民谣、碎片故事、花语和宗教祝愿，把无法在宫廷里直说的父死、失贞恐惧、被抛弃和腐败暗示拆散发出。潜台词模式从“听命但困惑”转成“失序中泄露真相”。  \n\n来源：phase2_character.yaml → supporting_cast.欧菲莉亚.voice_traits  \n佐证：scenes/scene_A1S3.md:L5-L11；scenes/scene_A3S1.md:L17-L23；scenes/scene_A4S5.md:L9-L17",
+        "evidence_locators": [
+          "scenes/scene_A1S3.md:L5-L11",
+          "scenes/scene_A3S1.md:L17-L23",
+          "scenes/scene_A4S5.md:L9-L17"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/ophelia/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:哈姆雷特:polonius",
+      "work_id": "drama:哈姆雷特",
+      "display_name": "波隆尼尔",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "波隆尼尔的声音格言密集、层层铺垫、常把简单信息拖成自我展示。他爱用“聪明”“线索”“证实”这类判断词，句子经常转弯到自己也忘记起点；面对权力时则迅速附和，面对子女时以经验和名誉压人。典型潜台词是“我比你更懂你的处境”，因此他的父爱、臣忠和窥探欲常混成同一种说话方式。  \n\n来源：phase2_character.yaml → supporting_cast.波隆尼尔.voice_traits  \n佐证：scenes/scene_A1S3.md:L7-L11；scenes/scene_A2S1.md:L15-L21；scenes/scene_A2S2.md:L25-L31；scenes/scene_A3S2.md:L145-L163",
+        "evidence_locators": [
+          "scenes/scene_A1S3.md:L7-L11",
+          "scenes/scene_A2S1.md:L15-L21",
+          "scenes/scene_A2S2.md:L25-L31",
+          "scenes/scene_A3S2.md:L145-L163"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/哈姆雷特/characters/polonius/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:lu-dahai",
+      "work_id": "drama:雷雨",
+      "display_name": "鲁大海",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "大海的台词短促、辛辣、带口吃——曹禺写他\"说话微微有点口吃，但是在他的感情激昂的时候，他词锋是锐利的\"。他几乎不绕弯子；他的语言是雷雨中最接近\"行动语言\"的。他对父亲（鲁贵）一律用粗话：\"你死就死了，你算老几！\"\"你少惹我的火\"\"你这——\"；他对妹妹（四凤）一律命令\"出去\"\"你给妈！\"；他对未知是亲哥的周萍 A2 用\"你这种混账东西\"+\"哼\"，A4 用\"你！\"+\"你是没有血性，只顾自己的一个十足的混蛋\"。他对朴园的台词最长、最有理论——A2 与朴园论战是雷雨中唯一一次\"工人代表用罢工组织语言对抗资本家\"的对白。**他最深的语言习惯：他唯一的成熟时刻是 A4 对萍说\"那大概是你父亲的报应\"**——这是雷雨中\"命运\"被最直白地命名的一句话，由不知道自己是儿子的儿子说出。\n\n佐证：scenes/scene_A2.md:L395-L405（A2 与朴园论战——\"你的见地也不是没有道理\"\"可是你完全错了\"）；scenes/scene_A4.md:L289-L291（\"那大概是你父亲的报应\"）",
+        "evidence_locators": [
+          "scenes/scene_A2.md:L395-L405",
+          "scenes/scene_A4.md:L289-L291"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/lu-dahai/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:lu-gui",
+      "work_id": "drama:雷雨",
+      "display_name": "鲁贵",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "鲁贵的台词大量是市井白话——\"咳\"\"他妈的\"\"你看你这点穷骨头\"\"他妈的，这孩子\"+ 频繁的\"啪\"（吐痰）。他对女儿四凤的台词是\"卑下父亲讨钱\"模式——\"四凤，你别忙，我跟你商量点事\"\"我们家什么时候借钱不还账\"\"你看你这是孩子\"\"你跟你妈\"——他用\"亲生父亲\"的身份压迫四凤。他对妻子鲁侍萍的台词是冷嘲热讽 + 翻旧账——\"你看你这点穷相\"\"你妈嫁给我，我就是他爸爸\"\"我没有在家养私孩子还带着个嫁人\"。他对朴园的台词永远是\"是，老爷\"\"老，老，老爷\"\"客，等，等了好半天啦\"——他在朴园面前永远结巴。他对蘩漪的台词是\"低声\"\"谄笑\"\"鞠躬\"+ 突然挑明——\"我们的侍萍，实在还不知道呢\"（A4 用一句话给蘩漪整个相片密钥）。**他最深的语言习惯：他几乎没有潜台词**——他在剧本里的功能正是\"说出别人不会说的脏话\"，让其他人维持体面。\n\n佐证：scenes/scene_A1.md:L29-L57（与四凤讨钱的市井语 +\"咳\"\"他妈的\"）；scenes/scene_A4.md:L191（用一句\"我们的侍萍，实在还不知道呢\"给蘩漪开侍萍身份的密钥）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L29-L57",
+          "scenes/scene_A4.md:L191"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/lu-gui/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:lu-shiping",
+      "work_id": "drama:雷雨",
+      "display_name": "鲁侍萍",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "侍萍的台词有两层：A2 前段（不知是回到周家时）她的话短、平、带母女的温柔——\"不，不要走，我不热\"\"孩子，让我看看你\"\"不许这样跟爸爸说话\"；A2 中段触发记忆后她的话变得\"低、沉稳、颤\"——\"我怕得很，这屋子有鬼怪\"\"孩子，你别怕，妈不怎么样\"\"不，我的女儿说什么也不能在这儿多呆\"。她对朴园说话时总是慢一拍——朴园说\"也许，也许你弄错了，不过你不妨说说看\"她说\"这个梅姑娘倒是有一天晚上跳的河，可是不是一个，她手里抱着一个刚生下三天的男孩\"——她用第三人称叙述自己，让朴园慢慢走入她的版本。她最深的语言习惯：**把自己的痛归结到\"命\"**——\"命！不公平的命指使我来的\"\"这是我的报应\"\"人犯了一次罪过第二次也就自然地跟着来\"。她对孩子说话时的语调是\"沉痛地\"\"哀痛地\"\"沉静地\"\"慈祥地\"——作者标了十几处她的语气。\n\n佐证：scenes/scene_A2.md:L347-L351（\"命！不公平的命指使我来的\"+\"我没有委屈，我有的是恨\"）；scenes/scene_A2.md:L309-L313（A2 认母的关键递进——\"不是有一件，在右袖襟上有个烧破的窟窿，后来用丝线绣成一朵梅花补上的\"——用旧物的精确描述替代任何感情表达）；scenes/scene_A3.md:L269-L281（A3 逼四凤起誓——\"不，要起誓\"+\"你愿意让妈伤心么\"——慈祥与严厉混合）",
+        "evidence_locators": [
+          "scenes/scene_A2.md:L347-L351",
+          "scenes/scene_A2.md:L309-L313",
+          "scenes/scene_A3.md:L269-L281"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/lu-shiping/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:lu-sifeng",
+      "work_id": "drama:雷雨",
+      "display_name": "鲁四凤",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "四凤的台词大多是简短、直接、生活化的——\"是\"\"不\"\"您说吧\"\"我就来\"——她在所有强者（父亲 / 母亲 / 太太 / 大少爷 / 二少爷）面前都用简短回应。她对鲁贵的反击是雷雨中最早期的\"年轻女性怼父亲\"的对白——\"您说话的神气真叫我心里想吐\"（A1）；\"我现在钱也没有了，还用得着小心干什么\"（A1）；\"我没有钱\"（A1）——她对鲁贵的拒绝是干脆的。她对周萍的话总是\"我\"开头的告白——\"我妈最疼我\"\"我父亲，我哥哥，我母亲，他们也许有一天会不理我，你不能够的\"\"没有你就没有我\"——这种告白是她对自己处境的命名。她对母亲的话总是\"妈\"开头的撒娇——\"妈，您让我替您解开吧\"（A2 解白手巾）\"妈，您不知道\"\"妈呀！\"。**她最深的语言习惯：在最关键的时刻她用最朴素的句子说出最重的事**——\"那——那天上的雷劈了我\"（起誓）；\"大概已经三个月\"（告知怀孕）——她不会修饰、不会铺陈，每一句都是字面意思。\n\n佐证：scenes/scene_A1.md:L209-L213（\"您说话的神气真叫我心里想吐\"——对鲁贵的反击）；scenes/scene_A2.md:L31-L77（A2 偷情场——\"萍，没有你就没有我\"+\"我妈最疼我\"）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L209-L213",
+          "scenes/scene_A2.md:L31-L77"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/lu-sifeng/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:zhou-chong",
+      "work_id": "drama:雷雨",
+      "display_name": "周冲",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "周冲的台词是雷雨中唯一带有\"诗意\"的声音——他对四凤的告白用\"白色的帆\"\"鹰的翅膀\"\"腥的咸的海风\"\"无边的海\"等具体意象；他对母亲的表白用\"您不是一个平常的母亲。您最大胆，最有想象，又最同情我的思想的\"等抽象赞美。他对父亲的反抗用书生论语——\"我以为这些人替自己的一群努力，我们应当同情的\"\"并且我们这样享福，同他们争饭吃，是不对的\"——他用大学生论文体跟父亲讲社会经济。他对鲁大海的尝试用握手姿势——\"你愿意——跟我拉拉手么\"。**他的最深语言习惯：他唯一一次走出抒情幻象是 A4 末段的\"我大概是胡闹\"**——这是他在悲剧时刻里最不悲剧的一刻，也是他第一次也是最后一次成熟。\n\n佐证：scenes/scene_A1.md:L371-L375（A1 对父亲的书生论语——\"我以为这些人替自己的一群努力\"）；scenes/scene_A3.md:L223-L233（\"白帆船向天边飞\"——全剧最长的少年抒情）；scenes/scene_A4.md:L445-L447（\"我，我，我——大概是胡闹\"——三次\"我\"的成熟时刻）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L371-L375",
+          "scenes/scene_A3.md:L223-L233",
+          "scenes/scene_A4.md:L445-L447"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/zhou-chong/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:zhou-fanyi",
+      "work_id": "drama:雷雨",
+      "display_name": "周蘩漪",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "蘩漪的台词在\"忧郁低声\"和\"尖锐爆发\"之间高速切换——同一场内可以从\"我不愿意躺在床上\"的温柔低咳跳到\"你父亲是第一个伪君子\"的当面揭穿。她最常用的句式是\"我不\"——\"我不愿意\"\"我没有病\"\"我不是他的母亲\"\"我不是周朴园的妻子\"——但每个\"我不\"都是一个未说出的\"我要\"的反面。她会突然用\"怪笑\"\"狂笑\"\"冷笑\"\"尖声笑\"打断对话节奏（作者标了二十多处她的\"笑\"），笑是她最常用的进攻武器。她对萍说话时常用第二人称的逼问（\"你忘了\"\"你父亲就……\"\"你欠了我一笔债\"），把萍永远逼到\"被告\"的位置。**她的最深声音特征：在恳求的瞬间她仍能威胁**——A4 对萍说\"如果今天你不走，你父亲那儿我可以替你想法子\"——\"替你想法子\"和\"叫四凤回来\"是同一句话里的两件事：恳求即威胁。\n\n佐证：scenes/scene_A1.md:L385-L399（喝药一场——\"我不想喝\"+\"留着我晚上喝不成么\"+\"我喝，我现在喝\"——从忍到抗到投降的声音斜坡）；scenes/scene_A4.md:L131-L143（A4 长段恳求萍带她走\"我从来不肯对人这样低声下气说话\"——但同段里\"叫她回来还来得及\"是威胁不是恳求）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L385-L399",
+          "scenes/scene_A4.md:L131-L143"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/zhou-fanyi/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:zhou-ping",
+      "work_id": "drama:雷雨",
+      "display_name": "周萍",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "周萍的台词大量是\"半完成\"句——\"是，爸爸\"\"我对不起你\"\"我厌恶\"——他几乎不在一句话里说完一个想法。他用\"是\"\"嗯\"\"哦\"做过渡词，频率比朴园还高。当被逼到极点他会爆发，但爆发短暂——A4 对蘩漪：\"我要你死！再见吧！\"是他全剧最斩钉截铁的一句，紧接着的是仓促\"急走下\"。他对女性的台词常常用第二人称询问（\"你怎么这样？\"\"你为什么害怕不敢见我？\"\"你饶恕我么？\"），把对方变成审判者——这是他借\"恳求被原谅\"逃避自己责任的语法。**他的最深声音特征：他唯一一次把潜台词说出口是 A4 终场前的\"爸，您不该生我\"**——五个字、一句话、一个人物的全部内核。\n\n佐证：scenes/scene_A1.md:L399（被父亲喝令跪下时只说\"哦，爸爸！\"——半句也说不完整）；scenes/scene_A4.md:L165-L169（\"我要你死！再见吧！\"——全剧最直接的一句）；scenes/scene_A4.md:L475（自杀前的\"爸，您不该生我\"）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L399",
+          "scenes/scene_A4.md:L165-L169",
+          "scenes/scene_A4.md:L475"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/zhou-ping/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:雷雨:zhou-puyuan",
+      "work_id": "drama:雷雨",
+      "display_name": "周朴园",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "朴园的台词总是短、慢、带停顿——\"嗯\"\"哼\"\"哦\"作为打断别人话头的工具用得极多。当他要把私密情感说出口时，会包裹在公共修辞里：\"你的生母永远喜欢夏天把窗户关上的\"（实为\"我从未忘记你母亲\"）；\"我们想把她的坟墓修一修\"（实为\"我心里一直有她\"）。他对仆人的话总是命令短句（\"喝了它\"\"不要打人\"\"跟太太说\"），对子女的话总是抽象大词（\"自爱\"\"圆满\"\"秩序\"\"闲话\"），对蘩漪的话总是医学话语（\"克大夫\"\"神经\"\"上楼休息\"）——三种不同的对象有三种不同的语域，但都不传情。**最深的声音特征：他把自己的情感全部留在停顿里**——A2 慢动作认母时，\"哦，三十年前你在无锡？\"和\"姓鲁。你的口音不像北方人\"之间的几次停顿才是他真正的台词。\n\n佐证：scenes/scene_A1.md:L395-L399（\"倒了？哦？(更慢)倒了！\"——三个\"倒了\"的递进停顿）；scenes/scene_A1.md:L423-L431（教训萍\"将近三十的人应当懂得'自爱！'\"+\"我的家庭是我认为最圆满，最有秩序的家庭\"——公共修辞包裹私密焦虑）；scenes/scene_A2.md:L275-L283（\"三十年前在无锡有一件很出名的事情——\"的停顿驱动慢动作认母）",
+        "evidence_locators": [
+          "scenes/scene_A1.md:L395-L399",
+          "scenes/scene_A1.md:L423-L431",
+          "scenes/scene_A2.md:L275-L283"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/雷雨/characters/zhou-puyuan/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:麦克白:banquo",
+      "work_id": "drama:麦克白",
+      "display_name": "班柯",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "班柯是麦克白的反极——同样的诗体，但意象指向截然不同：麦克白的意象向\"血、刀、夜、鬼、蝎子\"集中，班柯的意象向\"神明、祈祷、清白\"集中。他的声音有三个稳定特征：(1) 当面与同僚交流时使用清晰的提问式（\"将军，您为什么这样吃惊\" / \"什么，爵爷！还没有安息吗？\"）——他善于用问句外化自己的怀疑而不直说，把判断留给对方；(2) 关键诊断（A1S3 \"魔鬼说真话\"）一旦出口立即收束，从不重复——典型的\"说一次就够了\"风格；(3) 独自时使用祈祷式（\"慈悲的神明！抑制那些罪恶的思想\"）——他面对内心冲突的标准回应是把它交给神，而不是与自己辩论。整体风格比麦克白少 1-2 倍意象密度、少独白长度、少修辞——这种\"少\"本身是声音特征，提示他是稳态人格。\n\n来源：phase2_roles.yaml → banquo.voice_function + voice_markers\n佐证：\n- scenes/scene_A1S3.md:L61-L61 （提问式 + 形象观察\"形容这样枯瘦，服装这样怪诞\"）\n- scenes/scene_A1S3.md:L119-L119 （单句诊断后立即收口）\n- scenes/scene_A2S1.md:L15-L15 （祈祷式回应内心动摇）\n- scenes/scene_A2S1.md:L31-L31 （短礼仪用语\"悉如尊命\"——与麦克白长独白形成节奏对比）",
+        "evidence_locators": [
+          "scenes/scene_A1S3.md:L61-L61",
+          "scenes/scene_A1S3.md:L119-L119",
+          "scenes/scene_A2S1.md:L15-L15",
+          "scenes/scene_A2S1.md:L31-L31"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/麦克白/characters/banquo/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:麦克白:lady-macbeth",
+      "work_id": "drama:麦克白",
+      "display_name": "麦克白夫人",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "麦克白夫人的声音有两个完全不同的阶段：A1-A3 几乎全用韵文 + 命令式 + 强意象（\"乳水当胆汁\" / \"毒蛇潜伏\" / \"我曾经哺乳过婴孩\"），是莎翁笔下命令密度最高的女性声音之一——她对丈夫的话几乎都是祈使句。A5S1 整场转为散文 + 断句 + 碎片化重复（\"一点、两点\" / \"睡去，睡去，睡去\"）—— 这种语法切换本身是莎翁让\"心智破碎\"通过句法外化的核心机制。在公开场合她极擅于用礼仪用语（A1S6 / A3S4）覆盖暴行——这是\"外表/内核分裂\"被实体化为可听见的声音差异，对续写其他\"心智裂痕\"型角色有直接参考价值。\n\n来源：phase2_roles.yaml → lady_macbeth.voice_function + voice_markers\n佐证：\n- scenes/scene_A1S5.md:L19-L19 （命令式 + 强意象密集\"解除...凝结...不要让怜悯...来\"）\n- scenes/scene_A1S7.md:L25-L25 （激将段意象\"我曾经哺乳过婴孩\"）\n- scenes/scene_A1S6.md:L13-L13 （礼仪用语\"我们的犬马微劳\"）\n- scenes/scene_A3S4.md:L63-L63 （宴会场\"你是一个男子吗？\"——把同样的\"manhood\"质问重用一次）\n- scenes/scene_A5S1.md:L39-L39 （散文 + 断句\"去，该死的血迹！\"）\n- scenes/scene_A5S1.md:L65-L65 （重复式\"睡去，睡去，睡去\"）",
+        "evidence_locators": [
+          "scenes/scene_A1S5.md:L19-L19",
+          "scenes/scene_A1S7.md:L25-L25",
+          "scenes/scene_A1S6.md:L13-L13",
+          "scenes/scene_A3S4.md:L63-L63",
+          "scenes/scene_A5S1.md:L39-L39",
+          "scenes/scene_A5S1.md:L65-L65"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/麦克白/characters/lady-macbeth/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:麦克白:macbeth",
+      "work_id": "drama:麦克白",
+      "display_name": "麦克白",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "麦克白的台词在全剧密度最高——他几乎所有的关键转折都通过独白承担：每个动手前他都会先把动作的全部后果意象化（弑君前的\"赤裸婴儿在风中飘游 / 御气而行的天婴\"、动手时的\"匕首在哪儿\"、动手后的\"麦克白已经杀害了睡眠\"、宴会失态时的\"鸢鸟的胃囊将要变成我们的坟墓\"），后期意象密度逐渐贫化——A5S5\"明天又明天\"用最朴素的语法承担最大的虚无，是莎翁刻意让他的语言\"穷尽\"的设计。倾向：长句叠浪、动词驱动、条件句密集（\"要是…要是…\"前期为良知拷问，后期为预言屏障）；情绪进入崩溃区时句子会变短并堆叠重复（\"瞧那边！瞧！瞧！瞧！\"）；公开场合的礼仪用语极其熟练但与独白形成强反差——这种反差本身是莎翁让他\"潜台词与台词分裂\"的核心声音机制。\n\n来源：phase2_roles.yaml → macbeth.voice_function + voice_markers + soliloquy_signature + subtext_signature\n佐证：\n- scenes/scene_A1S7.md:L7-L7 （独白\"要是干了以后就完了\"——条件句驱动的良知拷问）\n- scenes/scene_A2S1.md:L41-L41 （\"在我面前摇晃着、它的柄对着我的手的，不是一把刀子吗？\"——意象密度峰值）\n- scenes/scene_A2S2.md:L47-L47 （\"那清白的睡眠，把忧虑的乱丝编织起来的睡眠...\"—动词链 + 排比）\n- scenes/scene_A3S1.md:L55-L55 （对刺客的狗类比——熟练操控修辞）\n- scenes/scene_A3S4.md:L69-L69 （崩溃区短促叠句\"瞧那边！瞧！瞧！瞧！\"）\n- scenes/scene_A5S3.md:L23-L23 （\"我已经活得够长久了；我的生命已经日就枯萎\"——意象贫化）\n- scenes/scene_A5S5.md:L19-L19 （\"明天，明天，再一个明天\"——节奏单调即风格信号）",
+        "evidence_locators": [
+          "scenes/scene_A1S7.md:L7-L7",
+          "scenes/scene_A2S1.md:L41-L41",
+          "scenes/scene_A2S2.md:L47-L47",
+          "scenes/scene_A3S1.md:L55-L55",
+          "scenes/scene_A3S4.md:L69-L69",
+          "scenes/scene_A5S3.md:L23-L23",
+          "scenes/scene_A5S5.md:L19-L19"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/麦克白/characters/macbeth/dialogue-profile.yaml"
+    },
+    {
+      "character_id": "drama:麦克白:macduff",
+      "work_id": "drama:麦克白",
+      "display_name": "麦克德夫",
+      "profile_tier": "compact",
+      "prototype_eligible": false,
+      "baseline_voice": {
+        "observed_summary": "麦克德夫的台词在全剧最朴素、最少修辞——他的标志特征是\"用最少的字承担最大的情感重量\"：临听家人死讯的回应不是修辞 / 不是独白 / 不是问神，而是连续四个具体问句（\"我的孩子也都死了吗？\" / \"我的妻子也被杀了吗？\" / \"他们一个也不存吗？\" / \"你说他们一个也不存吗？\"）——他用问句承担震荡。整体倾向：(1) 短句为主，鲜有长独白；(2) 当面冲突时直白不掩饰（\"我没有话说；我的话都在我的剑上\"——A5S7 与麦克白对决的全部回应）；(3) 几乎不用条件句——与麦克白长篇\"要是…要是…\"的独白形成最强反差，麦克德夫不在内心里反复辩论，决定就是决定。\n\n来源：phase2_roles.yaml → macduff.voice_function + voice_markers\n佐证：\n- scenes/scene_A2S3.md:L59-L59 （\"啊，可怕！可怕！可怕！不可言喻、不可想像的恐怖！\"——重复式承担情感）\n- scenes/scene_A2S4.md:L43-L43 （单句决断\"不，大哥，我还是到费辅去\"）\n- scenes/scene_A4S3.md:L119-L123 （连续短问句承担震荡）\n- scenes/scene_A5S7.md:L49-L49 （\"我没有话说；我的话都在我的剑上\"——典型）\n- scenes/scene_A5S7.md:L53-L53 （揭示\"麦克德夫是没有足月就从他母亲的腹中剖出来的\"——最关键一句话是事实陈述而非雄辩）",
+        "evidence_locators": [
+          "scenes/scene_A2S3.md:L59-L59",
+          "scenes/scene_A2S4.md:L43-L43",
+          "scenes/scene_A4S3.md:L119-L123",
+          "scenes/scene_A5S7.md:L49-L49",
+          "scenes/scene_A5S7.md:L53-L53"
+        ]
+      },
+      "prototype_axes": {},
+      "profile_file": "dramas/麦克白/characters/macduff/dialogue-profile.yaml"
+    }
+  ]
+}

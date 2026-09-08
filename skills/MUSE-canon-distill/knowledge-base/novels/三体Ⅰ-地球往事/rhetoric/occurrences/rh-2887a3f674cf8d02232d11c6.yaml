@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2887a3f674cf8d02232d11c6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2493
+chapter: 第34章 智子
+figure_type: analogy
+quote: 他们能把一把小镊子伸进质子，在里面搭建大规模集成电路吗
+sensory_mapping: 细镊尖；微小容器；夹放元件；手工装配；尺度冲突
+context_fact: 农业执政官知道九维可操控，却无法想象如何把质子改造成计算机；科学执政官随后提出宏观二维展开。
+image_mechanism: 未知高维工程先被套入钟表匠手工装配图，镊子越缩越小仍无法进入质子；这个失败图像逼出把工作面放大而非把工具缩小的解法。
+property_alignment: 质子内部对应狭小器件；高维操控对应小镊子；集成电路对应待装零件；三维加工对应手工搭建；微观尺度对应工具进不去；二维展开对应把容器摊大
+context_alignment: 疑问并非正确机制，却精确暴露听者的宏观制造模型，科学执政官的回答由此自然。
+narrative_function: 替读者提出尺度难题，并通过错误类比引出二维展开方案。
+transfer_rule: 用镊子搭建解释微观制造时，应明确工具、工作面、元件和尺度限制，并允许叙事随后纠正模型。
+failure_boundary: 若当作真实工艺而非人物的直觉疑问，会误导高维操控；其适用点只在说明宏观工具不可能缩入质子。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 执政官按宏观制造直觉想象在极小质子内部直接安放和组装计算电路
+vehicle: 工匠把微型镊子伸进狭小容器，逐个夹放元件并搭建完整电路
+ground: 质子对应工作容器；微观操控工具对应镊子；电路构造对应逐件搭建；尺度不可能对应镊子仍太大

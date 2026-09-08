@@ -1,0 +1,29 @@
+card_id: rule-misread-ladder
+pattern_name: 规则假说·试险递进
+dramatic_function: 让未知规则以角色假说、失败试探与局部结果进入行动，保持已证事实与推断的边界。
+applicability: 适合规则未明且结果允许多解的叙事；关键因果必须唯一确认时需补足取证（单书孤证，验证面窄）
+reuse_candidates:
+- 模仿感染者的失败试探
+- 气味识别推论
+- 皮肤屏障检查
+- 涂抹血肉的冒险试验
+- 隔开试验空间的铁门
+tags:
+- 角色假说
+- 冒险试验
+- 知识边界
+- 多解结果
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: XX-S04
+  note: 人物用拟态混入的失败与钝器实战结果更新当下生存判断。
+- novel: 狂病-莫千回
+  scene_id: DT-S05
+  note: 杨和修由工具能力预判屏障失效，随后的碎裂声与停步绕行只更新这一场的行动知识。
+- novel: 狂病-莫千回
+  scene_id: DT-S10
+  note: 杨和修将气味、空气与体液判断组织成试验；其再现时已呈感染状态，假说真伪、感染时点与途径仍无法确认。
+phase_affinity:
+- 1
+- 4
+- 5

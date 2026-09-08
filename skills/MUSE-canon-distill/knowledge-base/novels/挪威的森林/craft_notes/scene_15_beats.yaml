@@ -1,0 +1,28 @@
+scene_id: '15'
+source_notes: scene_15_beats.md
+patterns:
+- pattern_id: 15-p1
+  beat: 表白
+  dimension: omission
+  original_move: 最终表白不用直接引语
+  ai_default_failure: 会设计精致告白台词
+  transfer_rule: 弧光终点可压缩为行动概述
+  quote: 除了她别无他求
+- pattern_id: 15-p2
+  beat: 沉默
+  dimension: overall
+  original_move: 用全世界细雨放大电话沉默
+  ai_default_failure: 会提示对方哽咽或感动
+  transfer_rule: 回应未知时只写沉默质地
+  quote: 全世界所有的细雨
+- pattern_id: 15-p3
+  beat: 迷失
+  dimension: info_density
+  original_move: 让位置问题同时成为存在问题
+  ai_default_failure: 会收束两人是否重逢
+  transfer_rule: 结尾可停在进行中的呼唤
+  quote: 你现在哪里
+overall_traits:
+- 极少字数承载弧光反讽
+- 字面义自然生出隐喻义
+- 断裂式结尾拒绝安慰

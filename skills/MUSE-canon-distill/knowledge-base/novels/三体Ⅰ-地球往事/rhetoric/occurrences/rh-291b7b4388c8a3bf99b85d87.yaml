@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-291b7b4388c8a3bf99b85d87
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1908
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 大厅的一切顿时凝固了，唯一在动的是史强
+sensory_mapping: 瞬间冻结；固体硬度；动作定格；温度骤降；孤立运动
+context_fact: 核弹女孩托球提出放走统帅的条件，任何误动都可能造成核爆。
+image_mechanism: 核威胁像降温波扫过空间，刚才还骚动的人群、枪口和视线全被冻结成一块；大史的拍手动作在固体大厅里格外突兀。
+property_alignment: 人群先有动作对应原先流体；核弹消息对应骤冷触发；全部停住对应整体固化；不能乱动对应固态限制；大史仍动对应未凝部分；紧张寒意对应低温感
+context_alignment: 后文专家笑容也凝固属于同一冻结框架的复指，此卡以首次全厅定格承载延展。
+narrative_function: 把核威慑的即时控制力可视化，并用大史例外动作塑造其镇定。
+transfer_rule: 用凝固写群体震惊时，应先有流动状态，再给出同步停止、触发瞬间和仍能行动的反差点。
+failure_boundary: 人群仍尖叫奔跑、冻结逐渐发生或只是环境本来安静时，凝固的相变结构不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 听见三颗金属球是核弹后，厅内所有人因恐惧瞬间停止动作，只有史强保持行动
+vehicle: 液体或熔融物突然降温凝成固体，内部流动全部冻结
+ground: 人群动作骤停对应物质从流动到固化；全厅同步静止对应整体凝固；大史独动对应固体中唯一未冻结部分

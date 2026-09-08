@@ -1,0 +1,28 @@
+scene_id: S25
+source_notes: scene_S25_beats.md
+patterns:
+- pattern_id: S25-p1
+  beat: 两鬓如霜
+  dimension: omission
+  original_move: 白发作不可伪造物证，借苏词盛放装不下的悲伤
+  ai_default_failure: 写五句泪水滑落的情绪铺排
+  transfer_rule: 时间的重量用身体痕迹呈现，身体不撒谎
+  quote: 三根中倒有两根是白的
+- pattern_id: S25-p2
+  beat: 双足一登跃入深谷
+  dimension: verb
+  original_move: 登、飞、跃纯动作八字，殉情零秒犹豫
+  ai_default_failure: 加崖边犹豫、回忆闪回与遗言
+  transfer_rule: 等待已尽的决定不再写犹豫，否则否定等待
+  quote: 双足一登，身子飞起，跃入了深谷
+- pattern_id: S25-p3
+  beat: 甚么事不痛快了
+  dimension: omission
+  original_move: 重逢第一句是日常哄孩话，假装什么都没发生
+  ai_default_failure: 写确认身份对白与十六年的痛哭宣泄
+  transfer_rule: 越大的情感用越小的词装，轻轻一碰即可
+  quote: 过儿，甚么事不痛快了？
+overall_traits:
+- 让身体沉默日常说话，不让情感直说
+- 情绪硬度弧线：中到极硬再到极柔
+- 真正的深情消解戏剧性而非制造它

@@ -1,0 +1,26 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:51人--qin-liangyue
+work_id: novel:狂病-莫千回
+display_name: 秦良岳
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '秦良岳说话有医生的冷静和条理——解释病理、药理时不带情绪，把"直肠癌晚期、肺转移、头盖骨转移""断药一两天就产生耐药性"这类残酷事实说得平铺直叙，像在交代病历。他爱用类比把抽象的道理掰开（"食欲、性欲、暴力欲是生命的三原色，金钱只是介质"；把张亦川被忽视解释成捕食者略过"低价值猎物"）。对自己的痛苦他惯于轻描淡写、苦笑带过；只有在最后的告别独白里才卸下医生的克制，声音哽咽地把"害怕被遗忘、所做一切没有意义"一口气说尽。
+
+
+    佐证：scenes/scene_51-S06.md:L9-L9
+
+    佐证：scenes/scene_51-S09.md:L25-L25
+
+    佐证：scenes/scene_51-S08.md:L9-L9'
+  evidence_locators:
+  - scenes/scene_51-S06.md:L9-L9
+  - scenes/scene_51-S09.md:L25-L25
+  - scenes/scene_51-S08.md:L9-L9
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

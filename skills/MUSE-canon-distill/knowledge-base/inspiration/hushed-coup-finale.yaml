@@ -1,0 +1,21 @@
+card_id: hushed-coup-finale
+pattern_name: 安静终章
+dramatic_function: 把决定时代走向的暴力降噪为私室低语，制造冷酷余震。
+applicability: 适合阴谋、政变、终章揭示；若缺少前史积累会显平淡（单书孤证，验证面窄）
+reuse_candidates:
+- 白鸦
+- 瓦里斯小小鸟
+- 兰尼斯特摄政
+tags:
+- 终章
+- 阴谋
+- 反高潮
+- 权力真空
+source_scenes:
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S20
+  note: 季节宣告、阴谋告白与暗杀都被处理成低声室内场。
+phase_affinity:
+- 3
+- 4
+- 5

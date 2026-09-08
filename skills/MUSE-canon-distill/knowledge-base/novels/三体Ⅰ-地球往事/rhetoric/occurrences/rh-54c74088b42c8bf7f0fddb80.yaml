@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-54c74088b42c8bf7f0fddb80
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L589
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 他们的旗帜在大楼周围躁动地飘扬着，仿佛渴望干柴的火种
+sensory_mapping: 视觉；运动；温度；危险
+context_fact: 两派武斗已持续两天，进攻方仍围楼寻求突破。
+image_mechanism: 旗帜的红色和抖动先收缩成跳跃火星，“渴望”再给火种赋予主动觅食性；大楼和守军由此成为只待引燃的干柴。
+property_alignment: 红旗颜色对应火种红亮；躁动飘扬对应火星跳动；寻找冲突对象对应火种等待干柴；攻击升级对应点燃蔓延
+context_alignment: 武斗本就处于可爆炸升级的边缘，火种将视觉旗帜与局势危险合成同一图景。
+narrative_function: 以开篇动态图像预告暴力即将吞噬个体。
+transfer_rule: 用点火意象写群体冲突时，应同时找到可见的红亮载体、尚未接触的燃料和一触即发的扩散路径。
+failure_boundary: 和平集会、旗帜静止或冲突正在熄灭时，觅柴火种会虚构主动攻击欲和升级趋势。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 围攻大楼的红色旗帜及其所代表的进攻者
+vehicle: 寻找干柴、随时要把火势扩大的火种
+ground: 红旗颜色对应火种红亮；躁动飘扬对应火星跳动；寻找冲突对象对应火种等待干柴；攻击升级对应点燃蔓延

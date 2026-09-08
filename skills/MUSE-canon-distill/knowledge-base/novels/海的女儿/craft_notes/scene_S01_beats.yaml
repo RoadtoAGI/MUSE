@@ -1,0 +1,48 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 建筑丈量深度
+  dimension: overall
+  original_move: 用连续教堂尖塔把海深换成可搭建的尺度
+  ai_default_failure: 只报巨大或深不可测，读者没有可视量尺
+  transfer_rule: 抽象尺度超出经验时，用熟悉物连续叠加换算
+  quote: 许多许多教堂尖塔一个接着一个地联起来
+- pattern_id: S01-p2
+  beat: 异质认知翻译
+  dimension: overall
+  original_move: 按海底儿童的分类把小鸟先讲成会唱歌的鱼
+  ai_default_failure: 用百科口吻介绍陌生世界，角色认知被抹平
+  transfer_rule: 跨文化或跨物种视角中，用角色已知物翻译未知物
+  quote: 老祖母所说的“鱼儿”事实上就是小鸟
+- pattern_id: S01-p3
+  beat: 花坛先写欲望
+  dimension: omission
+  original_move: 让太阳花坛和男子石像代替越界愿望宣言
+  ai_default_failure: 提前直说人物梦想，后续选择失去发现感
+  transfer_rule: 长线欲望尚未自觉时，先写持续偏爱的物件
+  quote: 把自己的花坛布置得圆圆的，像一轮太陽
+- pattern_id: S01-p4
+  beat: 五年等待蒙太奇
+  dimension: info_density
+  original_move: 以五位姐姐各一次见闻压缩五年并扩张人间
+  ai_default_failure: 逐年写等待日常，时间很长而欲望没有增量
+  transfer_rule: 跨年等待可用不同信使各带回一组新诱因
+  quote: 她恰恰要等待得最久
+- pattern_id: S01-p5
+  beat: 无泪规则伏笔
+  dimension: overall
+  original_move: 用想哭而不能哭同时呈现身体规则与孤独
+  ai_default_failure: 只写她悲伤孤独，设定与情绪各走一条线
+  transfer_rule: 让奇异生理限制先承担情绪，终局再解除回收
+  quote: 不过人鱼是没有眼泪的
+overall_traits:
+- 规则随物象、错名与家庭讲述进入
+- 欲望先由选择和身体限制显形
+narrative_organization:
+  presentation: 全知说书从海底全景收焦到小人鱼，以姐姐见闻跨越五年
+  transition_anchor: 年龄递进与每位姐姐首次浮上海面构成时间锚
+  knowledge_change: 小人鱼从想象人间变为积累城市、自然、儿童和风暴的间接经验
+  cross_thread_effect: 姐姐们逐渐厌倦人间，反向凸显她持续增长的越界欲望
+  effect: 等待成为蓄力，读者先理解离开的根，再见她真正跨界
+  source_anchor: scene_S01.md:L3-L23；不过人鱼是没有眼泪的

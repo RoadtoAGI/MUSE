@@ -1,0 +1,21 @@
+mode: reference
+display_name: 李芳
+role_slug: li-fang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # antagonistic_forces + arc_4（老魏离场旁的李芳）+ 结局裁判段
+  - pipeline/phase0_conception.yaml  # controlling_idea.candidate_b 反面（善良但不殉道得以幸存）
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S07.md
+  - scenes/scene_EE-S11.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 4
+has_canon_ending: false
+coverage_note: |
+  李芳为本篇唯一逃脱存活者，人格完整活到篇末 → 按"宁可漏不可错"不产 canon-ending.md（has_canon_ending: false）。
+  信息密度低-中（4 个 locator），声音框架跨 3 个场景（S05 顶撞张潇潇 / S05 评蔡宇的叹息 / S07 安慰蔡宇），稳定性可。
+  弧光起点（善意陪伴蔡宇）+ 终点（不殉道而逃生）两段齐全；转折由 S05:L33（对好人结局的预感）+ S11:L9（逃跑被默许）承载，依赖结局段单点（S11:L9）支撑"逃脱选择"，属角色信息量本身有限所致，已如实记录。
+  跨篇存疑：李芳作为"逃出吴先生诱杀的幸存者"理论上可在其他篇章再现，本篇未明示，留意但不强主张。

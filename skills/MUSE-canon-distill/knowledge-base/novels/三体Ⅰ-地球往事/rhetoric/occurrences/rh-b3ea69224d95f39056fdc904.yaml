@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b3ea69224d95f39056fdc904
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2560
+chapter: 第34章 智子
+figure_type: simile
+quote: 那个球体呈褐色，正在像一个速度很慢的显示屏上的图像一样被扫描出来
+sensory_mapping: 扫描线推进；褐色像素；慢速刷新；球形图像；屏幕平面
+context_fact: 二维质子正在展开，先映出南半球星空，随后把三体行星自身的完整镜像投到天幕。
+image_mechanism: 宇宙景象取得早期显示器的刷新过程，展开边缘成为扫描线，经过之处才点亮行星像素；几何增长因此可按图像生成顺序观察。
+property_alignment: 二维质子面对应显示屏；展开边缘对应扫描线；行星镜像对应屏幕图像；缓慢显现对应低刷新率；细节逐步增加对应像素逐行写入
+context_alignment: 三体工程最终要在质子平面蚀刻计算机，显示屏比照让二维材料提前显出信息载体属性。
+narrative_function: 解释行星镜像为何分阶段出现，并用技术物象维持高维工程的可理解性。
+transfer_rule: 用扫描显示写渐显图像时，应匹配清晰推进边、固定刷新方向、逐行细节完成、载图平面和可察觉速度。
+failure_boundary: 画面从中心均匀淡入、随机闪现或瞬间整体出现时，扫描线的方向和序列不成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三体行星的镜像沿二维展开边缘逐行显现，球体画面随平面扩张逐步完成
+vehicle: 刷新率很低的显示屏由扫描线逐行点亮像素，图像缓慢从一边生成
+ground: 球体画面按边缘推进显现对应屏幕扫描；逐步完成而非整体出现对应低速刷新；二维平面承载影像对应显示屏

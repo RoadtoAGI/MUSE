@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-474fd35cbfebd61a9e81f20d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1469
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 他们都很年轻，与秦国的其他士兵一样，一举一动像听从命令的机器
+sensory_mapping: 视觉；机械动作；节奏；控制信号
+context_fact: 冯·诺伊曼正要用普通士兵演示逻辑门，随后让三人按黑白旗组合输出固定结果。
+image_mechanism: 军纪先抹去个体犹豫，让身体成为有输入、规则和输出的执行器；喻体下一刻被真正落实为人列计算机部件。
+property_alignment: 军令对应机器输入；固定旗语反应对应逻辑规则；同步整齐动作对应机械重复精度；个人不需理解整体对应部件无需知道系统目标
+context_alignment: 秦军本就以大规模纪律见长，机器比喻既贴合动作，也直接为用人造计算机的概念转换搭桥。
+narrative_function: 在演示前让读者接受士兵可充当门电路，连接独裁军队与计算结构。
+transfer_rule: 把人群写成机器时，应明确指令输入、固定响应、重复精度和个体对整体目标的无知。
+failure_boundary: 士兵会自主判断、故意违令或任务需要创造性协同时，机器会错误抹掉人的决策作用。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 纪律严密、接令后按固定动作执行的秦军士兵
+vehicle: 接收指令便以预设步骤运转、不自行改变规则的机器
+ground: 士兵听号令立即动作对应机器接收控制信号；动作整齐可重复对应机械部件按固定程序运行

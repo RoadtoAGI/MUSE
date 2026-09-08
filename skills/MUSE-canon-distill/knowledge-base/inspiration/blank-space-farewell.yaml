@@ -1,0 +1,54 @@
+card_id: blank-space-farewell
+pattern_name: 情感节点留白
+dramatic_function: 把告白与告别等最高情感节点交给省略：短音节、未说出口、隔墙帘幕、停顿与事后空场，重量由读者补完
+applicability: 适用于已被前文充分铺垫的关系节点；铺垫不足会显得空洞或故弄玄虚；类型需要即时情绪宣泄则失效
+reuse_candidates:
+- 雪地一声嗯
+- To be continued
+- 画得真丑
+- 三重锦幛
+- 虎与吼啸
+- 琼花楼具体场面
+- 婚外恋离别
+- 连夜离开哥伦比亚
+tags:
+- 情感留白
+- 少年恋爱
+- 短对白
+- 离别结构
+- 省略
+- 空缺
+- 读者补完
+- 告别
+- 减法叙事
+- 主动放弃
+source_scenes:
+- novel: 你好，旧时光
+  scene_id: scene_08
+  note: 一声嗯以环境静止承载告白重量。
+- novel: 你好，旧时光
+  scene_id: scene_17
+  note: 废话和空白页完成关系确认。
+- novel: 你好，旧时光
+  scene_id: scene_15
+  note: 最深情的话留在没有说出口处。
+- novel: 大唐李白
+  scene_id: S11
+  note: 最重要的告别隔墙发生，死亡时刻被省略。
+- novel: 大唐李白
+  scene_id: S21
+  note: 层层帘幕后没有重逢，空缺成为告别本身。
+- novel: 大唐李白
+  scene_id: S17
+  note: 不赴长安的重大转向只落在补题小动作上。
+- novel: 斯通纳
+  scene_id: S10
+  note: 最深的爱用否定排比、拥抱和离场完成。
+- novel: 斯通纳
+  scene_id: S12
+  note: 二十年敌意最终压成致辞后不转身的动作。
+phase_affinity:
+- 2
+- 3
+- 4
+- 5

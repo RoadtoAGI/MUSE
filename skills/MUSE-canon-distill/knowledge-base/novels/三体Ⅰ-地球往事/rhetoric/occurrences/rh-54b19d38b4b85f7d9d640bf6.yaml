@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-54b19d38b4b85f7d9d640bf6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L314
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 像黑天鹅绒上发亮的水银
+sensory_mapping: 视觉；材质；明暗
+context_fact: 倒计时从照片进入直接视野，闭眼也不消失。
+image_mechanism: 把无内容的闭眼黑场变成吸光织物，再把细数字液化成金属亮痕；黑、亮、滑三种材质对比同时成像。
+property_alignment: 全黑视野对应吸光黑天鹅绒；银白细亮数字对应水银金属反光；清晰边缘从暗面突显对应水银高光
+context_alignment: 极端黑白是汪淼当下真实视野，水银的亮与流动潜势又延续数字的异物感。
+narrative_function: 固定倒计时的视觉质感并强化无法遮蔽。
+transfer_rule: 描写暗背景上的微亮物时，可分别为背景和亮体选材质，让吸光性、反射性与边缘形态逐项对应。
+failure_boundary: 彩色背景、漫射光团或边缘毛糙的对象不具备黑天鹅绒与水银的高对比和金属光泽。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 闭眼后仍悬在黑暗视野中的细亮倒计时
+vehicle: 铺在黑天鹅绒上的明亮水银
+ground: 全黑视野对应吸光黑天鹅绒；银白细亮数字对应水银金属反光；清晰边缘从暗面突显对应水银高光

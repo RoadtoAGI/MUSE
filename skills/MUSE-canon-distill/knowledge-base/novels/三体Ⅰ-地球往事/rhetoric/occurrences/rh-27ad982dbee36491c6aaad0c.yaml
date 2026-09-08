@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-27ad982dbee36491c6aaad0c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1959
+chapter: 第26章 雷志成、杨卫宁之死
+figure_type: metaphor
+quote: 阶级斗争这根弦绷得很紧
+sensory_mapping: 绷紧弦线；高张力；尖锐颤音；触发振动；断裂风险
+context_fact: 雷志成以隐藏程序持续监控红岸通信，把外星联系立刻纳入阶级敌人和政治功绩框架。
+image_mechanism: 阶级斗争被拉成贯穿干部心智的一根弦，日常工作不断上紧弦轴；外星信号轻轻一拨，整套政治反应立刻发声。
+property_alignment: 阶级观念对应弦；长期教育对应持续上紧；雷志成戒备对应高张力；外星信息对应拨弦刺激；审问叶文洁对应弦声响起；偏执风险对应绷断可能
+context_alignment: 神经比喻说明感知，弦比喻说明持续紧张和触发，两者相邻却各自承担不同机制。
+narrative_function: 刻画政治人格的紧张结构，并让其发现秘密显得既专业又危险。
+transfer_rule: 用绷弦写意识状态时，应确定上紧来源、张力持续、触发信号和可能产生的激烈反应。
+failure_boundary: 人物判断松弛、多次错过信号，或弦意象没有任何触发和反应后果时，会沦为政治套话。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 雷志成长期维持高度阶级斗争意识，判断和行动始终处于紧张戒备状态
+vehicle: 琴弦或弓弦被拉到高张力，轻触即振、继续加力便可能断裂
+ground: 意识持续紧张对应弦受拉；微小政治信号引发反应对应轻触即响；高度戒备难放松对应张力不卸

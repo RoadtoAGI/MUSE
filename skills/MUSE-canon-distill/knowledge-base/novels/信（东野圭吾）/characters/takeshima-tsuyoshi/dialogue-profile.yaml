@@ -1,0 +1,37 @@
+schema_version: dialogue-character/v1
+character_id: novel:信（东野圭吾）:takeshima-tsuyoshi
+work_id: novel:信（东野圭吾）
+display_name: 武岛刚志
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '刚志的话语方式有**两个差异极大的声音载体**：
+
+
+    **口头对白**——极简、嘶哑、低头不语、用最少的词汇表达最大的情绪。整本书他实体说话的总词数极少：被老太太撞见时只有沉默 + 杀她后的呆滞；首次面会哥哥时"直贵……对不住了" + "我干了什么！我，干了些什么！"——这是他唯一的爆发式语言，且立刻"用尽了全身力气，一下子把头垂了下去"；拘留所探视时大量短句"哦！"
+    / "唉，不管怎样干着吧" / "是吗" / "我每天晚上都在这里模仿着做"，常以"是吗？"作回应填白；身体姿态远比语言更承担情绪——"垂下目光" / "搔着脖子后面" / "搔着头" / "肩膀耷拉了下去"。
+
+
+    **书信文体**——平日口语的极简被替换为完整的、感情饱满的、文字逐渐流畅的语言。从第一封信"是个傻瓜，活着还不如死了的傻瓜"的反复自责，到第二章"我手比较笨" / "有些困了" / 用字典开始学汉字的成长痕迹，再到第五章末"最后一封信"的最完整组织——"不是因为弟弟要断绝关系受到了刺激，而是被这么多年来，因为我的存在让他们一直在受苦受难的事实所震撼"——这种"自我厌恶到了极点"的最长句段是他全书唯一一次真正的自我审视。书信中他常关心日常细节（弟弟感冒了没
+    / 实纪长得像谁 / 公园里有没有鳄鱼），少谈狱中实情，多用"又及"补一句他最在意的事（"去绪方家扫墓的事帮我办了没有？"）。
+
+
+    最终极的姿态是**合掌颤抖**——尾声面对弟弟时不发一言，只把两手合在胸前忏悔/祈祷，"甚至能感觉到他在微微地颤抖"。所有的语言策略最终归于身体的姿态。
+
+
+    佐证：scenes/scene_S04.md:L21-L33 （首次面会的极简口头对白"直贵……对不住了" → 沉默 → "我干了什么！我，干了些什么！" → 用尽全身力气垂头）；scenes/scene_S06.md:L23-L37
+    （拘留所探视短句"哦！" / "唉，不管怎样干着吧" / "是吗？大概是吃饭很注意的缘故"）；scenes/scene_S06.md:L77-L79 （拜托弟弟去绪方家烧香 + "我每天晚上都在这里模仿着做"——少有的内心活动外显）；scenes/scene_S22.md:L67-L83
+    （写给绪方的"最后一封信"完整文本——书信文体的顶峰自我审视）；scenes/scene_S22.md:L111-L113 （合掌颤抖——声音的终极归零）'
+  evidence_locators:
+  - scenes/scene_S04.md:L21-L33
+  - scenes/scene_S06.md:L23-L37
+  - scenes/scene_S06.md:L77-L79
+  - scenes/scene_S22.md:L67-L83
+  - scenes/scene_S22.md:L111-L113
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

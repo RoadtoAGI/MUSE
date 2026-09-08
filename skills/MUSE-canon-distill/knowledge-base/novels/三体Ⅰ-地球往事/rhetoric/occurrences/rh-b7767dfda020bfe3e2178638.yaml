@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b7767dfda020bfe3e2178638
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L477
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 目光仿佛穿透了厚厚的金字塔看到了星空
+sensory_mapping: 视觉；空间；方向
+context_fact: 周文王坐阴阳图中央推演太阳。
+image_mechanism: 实际视线撞上石顶，叙述却让它保持方向继续穿墙，直到抵达预测对象；内在计算变成一条超越遮挡的视觉射线。
+property_alignment: 目光固定不可见上方对应注视星空；心算获取天体规律对应视线越过阻隔；厚墙隔绝现实观测对应意志假想穿透
+context_alignment: 星空确在金字塔外，穿透动作外化其自信。
+narrative_function: 增强占卜仪式感并暗示脱离实证。
+transfer_rule: 外化专注时，可延长真实目光方向直至思想对象，但要让途中障碍和目标都在场景中可定位。
+failure_boundary: 人物低头计算、目标不在目光方向或不存在物理遮挡时，穿透视线会成为无依据神化。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 周文王占算时仰头专注、仿佛直接观测天象的神态
+vehicle: 视线穿过石壁直达外部星空
+ground: 目光固定不可见上方对应注视星空；心算获取天体规律对应视线越过阻隔；厚墙隔绝现实观测对应意志假想穿透

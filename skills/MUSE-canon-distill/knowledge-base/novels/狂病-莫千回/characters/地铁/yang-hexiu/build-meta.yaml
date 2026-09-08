@@ -1,0 +1,24 @@
+mode: reference
+display_name: 杨和修
+role_slug: yang-hexiu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/地铁/phase3_spine.yaml  # 单篇人物未登记 phase2_character.yaml；结构化依据取 antagonistic_forces.interpersonal.layer_3 + arc_framework.arc_5 + story_climax_design.primary_climax
+  - pipeline/phase0_conception.yaml  # 主题型人设依据 controlling_idea candidate_b（道德/理性/常态拖累生存），杨和修为该机制核心载体
+  - scenes/scene_DT-S01.md
+  - scenes/scene_DT-S05.md
+  - scenes/scene_DT-S06.md
+  - scenes/scene_DT-S07.md
+  - scenes/scene_DT-S08.md
+  - scenes/scene_DT-S10.md
+built_at: 2026-05-29T17:21:48+08:00
+skill_version: 1
+locator_count: 15
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S07 医生式生理学拆解 / S05 冷硬骂人 / S10 沦陷后嗜虐反讽），覆盖理性期与沦陷期两副嗓子，稳定性充分。
+  边界跨 S06/S10 两场景，每条带 locator；其中"沦陷前只许自己冒最高险""沦陷后绝不再以救人者面目出现"皆有 S10 极端检验场景直接佐证。
+  弧光起点（S01/S06）+ 转折（S06/S08/S10）+ 终点（S10）三段齐全。
+  杨和修为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/地铁/phase3_spine.yaml + phase0 controlling_idea candidate_b 推导，所有断言均有篇内 scene locator 佐证。
+  注：候选清单标杨和修跨篇归属（yang-hexiu / 待累积其他篇章证据统一蒸馏）；本包是其完整沦陷弧光的唯一深度载体（《地铁》），作为单篇 reference 蒸馏，与未来根级跨篇包由 地铁 子目录 + per-part map 隔离。

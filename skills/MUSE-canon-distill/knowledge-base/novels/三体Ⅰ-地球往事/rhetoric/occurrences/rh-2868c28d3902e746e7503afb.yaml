@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2868c28d3902e746e7503afb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2518
+chapter: 第34章 智子
+figure_type: analogy
+quote: 七维视角的基本粒子，其复杂程度可能已经与三维空间中的三体星系相当；八维视角下，粒子是一个与银河系一样宏大浩渺的存在；当视角达到九维后，一个基本粒子内部结构的数量和复杂程度，已经相当于整个宇宙
+sensory_mapping: 尺度逐级放大；星系群光点；银河旋臂；宇宙无边；微宏折叠
+context_fact: 质子三维展开出现疑似眼睛的复杂结构，科学执政官用明确声明不准确的类比向元首解释高维内部。
+image_mechanism: 视角每升一维，粒子外壳像套娃般向内打开一重宇宙：先容下一座星系，再容下银河，最终微点内部与全部宇宙等量；微观尺度被复杂度而非直径翻转。
+property_alignment: 七维结构数对应三体星系构件；八维浩渺对应银河恒星数量；九维复杂度对应宇宙整体；维度递增对应天文层级逐级扩张；粒子外观微小对应宏观系统被折叠；类比限于复杂度对应不声称物理尺寸相等
+context_alignment: 说话者主动标注类比不准确，边界清楚；它服务陌生高维概念的数量级直觉，不把天文系统当成粒子真实内部图。
+narrative_function: 给高维复杂度建立三级尺度阶梯，解释展开为何可能出现貌似智能的宏大结构。
+transfer_rule: 用天文层级标定抽象复杂度时，应限定比较维度，按明确层级递增，并说明尺度对应的是结构数量或关系而非物理直径。
+failure_boundary: 若据此断言粒子内部真实存在恒星银河、或复杂度增长并无逐维跃迁证据，类比会从量级辅助滑向本体误认。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 基本粒子随观察维度升高而急剧增加的内部结构数量、关系复杂度和可容纳信息规模
+vehicle: 三维世界中从一个恒星系统扩展到银河系再扩展到整个宇宙的三级天文复杂度
+ground: 七维粒子结构对应星系层级；八维对应银河级浩瀚；九维对应宇宙级结构数量；每增一维都发生远超线性的复杂度跃迁

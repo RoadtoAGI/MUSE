@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-811c9921dbbbdb402cbda005
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2697
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 她在毫不怜惜地消耗着自己已不可再生的生命力
+sensory_mapping: 见底燃料；持续燃烧；下降刻度；无补给；机器停转
+context_fact: 众人不相信叶文洁还有体力登峰，她拒绝搀扶，只在废弃岗亭休息两次便继续前行。
+image_mechanism: 生命被压进一只只剩末格的燃料表，登山每一步都让指针下落；她知道没有下一次补充，仍把最后储量全部送往红岸遗址。
+property_alignment: 生命力对应能源；身体对应耗能机器；登山动作对应燃烧输出；休息对应暂缓耗用；衰老濒死对应资源不可再生；抵达遗址对应最后用途；死亡对应耗尽停机
+context_alignment: 红岸曾把太阳能量放大向宇宙发射，结尾叶文洁则把自身最后能量集中用于回到发射起点，形成尺度收缩。
+narrative_function: 给最后登山标出不可逆代价，并预告她将在峰顶耗尽生命。
+transfer_rule: 用不可再生能源写濒死体力时，应交代固定余量、持续耗用、无补给、主体选择的最后用途和耗尽后果。
+failure_boundary: 人物只是短暂疲劳、休息或治疗即可完全恢复，或行动不影响生命期限时，不可再生资源会过早宣判死亡。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 濒死叶文洁凭有限体力坚持独自登上雷达峰，每一步都缩短她所剩无几的生命时间
+vehicle: 储量固定且不能补充的能源被持续燃烧使用，表盘随消耗下降，耗尽后机器永久停转
+ground: 残余体力对应能源储量；登山用力对应燃料消耗；无法恢复对应不可再生；死亡对应能源归零；主动坚持对应不惜成本使用

@@ -1,0 +1,28 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 艾塔的誓言
+  dimension: verb
+  original_move: 用生死动词替代爱情解释
+  ai_default_failure: 会解释她为什么忠诚
+  transfer_rule: 写原始忠诚时删去心理辩护
+  quote: 我就立刻吊死在屋后的树上
+- pattern_id: S14-p2
+  beat: 唯一一次流泪
+  dimension: camera
+  original_move: 极近特写拍两滴泪外流
+  ai_default_failure: 会解释他为何被感动
+  transfer_rule: 重大软化时只给可见裂缝
+  quote: 一边一滴慢慢地
+- pattern_id: S14-p3
+  beat: 讥诮覆盖
+  dimension: omission
+  original_move: 泪水到讥笑硬切无过渡
+  ai_default_failure: 会写羞愧和擦泪过渡
+  transfer_rule: 角色复原面具时用断裂转场
+  quote: 转眼他的脸上又露出了
+overall_traits:
+- 深情时刻用最少文字
+- 硬切比过渡更诚实
+- 语言暴露真实情感距离

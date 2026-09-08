@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:死亡奔赴--li-rong
+work_id: novel:狂病-莫千回
+display_name: 李荣
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '李荣说话短、稳、目的明确，几乎不带情绪起伏——下指令时是单向广播式的命令（"抓住左边的座椅""跑"），解释残酷决定时则是一条条摆事实讲逻辑的"生存算法"陈述（撞死路人后那段"既然秩序已经崩溃，还在遵守秩序的就是自取灭亡"，从概率、从代价一层层推给你听）。他不抒情、不安慰、不给空头承诺，连最暖的事也用最干的话裹着——把善意藏进"我开好车，你拿好枪，很公平吧"这种轻描淡写的等价交换里。偶尔的人味来自一声叹气、一句自嘲（"是啊，但没办法，人活着终归要有点奔头"），以及谈起妻儿时那种突然柔软下来的语气。
+
+
+    佐证：scenes/scene_SB-S09.md:L37-L37 / scenes/scene_SB-S09.md:L49-L49 / scenes/scene_SB-S06.md:L23-L23'
+  evidence_locators:
+  - scenes/scene_SB-S09.md:L37-L37
+  - scenes/scene_SB-S09.md:L49-L49
+  - scenes/scene_SB-S06.md:L23-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

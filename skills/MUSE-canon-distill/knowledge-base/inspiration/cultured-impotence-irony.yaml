@@ -1,0 +1,25 @@
+card_id: cultured-impotence-irony
+pattern_name: 知识失能
+dramatic_function: 让高文化角色在真实暴力前失去行动力，形成文明反讽。
+applicability: 适用于知识分子、专家、官僚群像；若角色必须英雄破局则慎用（单书孤证，验证面窄）
+reuse_candidates:
+- 德国文学会议
+- 阿琴波尔迪论文争斗
+tags:
+- 知识分子
+- 行动失能
+- 文明反讽
+source_scenes:
+- novel: '2666'
+  scene_id: S03
+  note: 文化注脚反而包装街头暴力。
+- novel: '2666'
+  scene_id: S04
+  note: 曼努埃尔用修辞学否认恐怖事实。
+- novel: '2666'
+  scene_id: S05
+  note: 放弃寻找被包装成顿悟。
+phase_affinity:
+- 2
+- 3
+- 5

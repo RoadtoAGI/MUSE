@@ -1,0 +1,29 @@
+scene_id: S30
+source_notes: scene_S30_beats.md
+patterns:
+- pattern_id: S30-p1
+  beat: 心惊肉跳
+  dimension: camera
+  original_move: 从受招者感知写招式，施招者浑如不觉
+  ai_default_failure: 写暗运内力凝聚于胸腹的内功说明
+  transfer_rule: 非自觉的武功从被打者视角呈现
+  quote: 小腹肌肉颤动，胸口向内一吸
+- pattern_id: S30-p2
+  beat: 无中生有
+  dimension: info_density
+  original_move: 列举法制造信息过载，故意模糊才是力量
+  ai_default_failure: 写周伯通逐一化解的拆招回合
+  transfer_rule: 看不清的招式不要写清，省略护设定
+  quote: 左掌右袖、双足头锤尽皆有招式
+- pattern_id: S30-p3
+  beat: 口述十三招
+  dimension: omission
+  original_move: 当事人平静念名，情感出口交给旁观者凄恻
+  ai_default_failure: 写语声渐低目光望向远方的感伤
+  transfer_rule: 命名替代描写，当事人的平静即感伤
+  quote: 郭襄心下凄恻，再也笑不出来了
+overall_traits:
+- 不参战的旁观者是最好的节奏调节器
+- 招式命名即叙事：名字自己讲故事
+- 技巧可教，驱动武功的情感不可复制
+- 反向节奏：战斗越来越慢，高潮在念名

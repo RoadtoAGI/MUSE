@@ -1,0 +1,26 @@
+card_id: treasured-object-terminal-expenditure
+pattern_name: 珍物弧光·终局耗尽
+dramatic_function: 让角色对珍物的保护、携带与耗尽具象化其最终选择。
+applicability: 适合物件已建立私人价值与移动代价的角色线；终局才突然出现会失去弧光。（单书孤证，验证面窄）
+reuse_candidates:
+- 限量款吉他
+- 舍不得消耗珍物的对话
+- 逃生中的携带负担
+- 最后一首歌
+- 乐器改作迎敌武器
+tags:
+- 道具弧光
+- 珍物耗尽
+- 最终选择
+- 无言遗言
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: DT-S05
+  note: 陆霞克宁肯临时改用扩音器和皮带也不愿用限量吉他迎敌，先建立珍物的优先级。
+- novel: 狂病-莫千回
+  scene_id: DT-S11
+  note: 吉他在翻墙时成为负担，最终又承担末次演奏与迎击，完成从保护物到终局耗尽物的变化。
+phase_affinity:
+- 2
+- 3
+- 5

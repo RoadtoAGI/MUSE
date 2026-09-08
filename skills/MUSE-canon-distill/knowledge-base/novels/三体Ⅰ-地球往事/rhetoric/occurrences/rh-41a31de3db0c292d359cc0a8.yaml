@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-41a31de3db0c292d359cc0a8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L470
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 那张苍白的脸仿佛是浮在虚空中
+sensory_mapping: 视觉；明暗；空间
+context_fact: 大殿火光微弱，伏羲黑衣融入阴影。
+image_mechanism: 黑暗先抹除颈、肩和躯干，只留下高反差脸面；视觉系统找不到承重点，面孔便获得悬浮感。
+property_alignment: 黑衣与背景融合使身体消失对应面孔无支撑；苍白面孔突显对应物体悬在虚空
+context_alignment: 错觉由现场明暗真实生成。
+narrative_function: 塑造伏羲幽魅出场。
+transfer_rule: 写局部悬浮错觉时，应交代支撑结构如何被背景吞没，以及保留部分为何高对比显出。
+failure_boundary: 身体轮廓可见、背景明亮或脸色不突出时，虚空悬浮没有视知觉依据。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 黑衣伏羲在阴影中唯一可见的脸
+vehicle: 脱离身体悬浮在黑暗空无中的面孔
+ground: 黑衣与背景融合使身体消失对应面孔无支撑；苍白面孔突显对应物体悬在虚空

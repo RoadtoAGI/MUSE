@@ -1,0 +1,22 @@
+card_id: banal-anticlimax-ending
+pattern_name: 琐事结尾
+dramatic_function: 在最大叙事期待处用日常闲谈和短行动收束，留下行动后的空白。
+applicability: 适用于开放式结局；若读者需要结果闭环会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 三味冰激凌
+- 去墨西哥
+tags:
+- 开放结尾
+- 极简行动
+- 留白
+source_scenes:
+- novel: '2666'
+  scene_id: S18
+  note: 冰激凌闲谈后只用两句写出最终行动。
+- novel: '2666'
+  scene_id: S15
+  note: 身份重生也嵌入租赁登记的小程序。
+phase_affinity:
+- 3
+- 4
+- 5

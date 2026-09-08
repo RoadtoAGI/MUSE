@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-364cead9a505795506602919
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2157
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 游戏通过一层貌似人类社会和历史的外壳，演绎三体世界的历史和文化
+sensory_mapping: 硬壳表面；内部核心；逐层剥开；伪装纹理；深度进入
+context_fact: 年轻玩家往往停留在看似平常表层，只有知识背景足够者才发现震撼内幕并被组织联系。
+image_mechanism: 游戏把外星文明装入人类历史形状的壳，初玩者只沿熟悉纹理滑行；持续推理才会打破壳面，看见内部真实世界。
+property_alignment: 人类历史皮肤对应外壳；三体真史对应内核；熟悉感对应壳面可识别；游戏层次对应壳层厚度；深入玩家对应破壳者；内幕震撼对应内部异质物显露
+context_alignment: 同段触角负责接触玩家，外壳负责伪装内容，两种生物结构分别解释传播渠道和信息包装。
+narrative_function: 说明游戏如何降低陌生感又保持筛选难度，并解释其大众传播失败。
+transfer_rule: 用外壳写内容包装时，应明确表层材料、内部异质核心、穿透条件和表层对接触者判断的影响。
+failure_boundary: 表层与内核主题完全一致、玩家一开始就获知真实背景，或包装不承担遮蔽功能时，外壳结构不成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 《三体》用人类熟悉的视觉、人物和历史表象包裹陌生三体文明内核以降低进入门槛
+vehicle: 生物或器物的外壳遮住并保护内部结构，接触者先摸到表面，深入后才见内里
+ground: 人类历史表象对应外壳；三体文化对应内部；降低陌生感对应壳面熟悉；玩家深入对应穿透壳层

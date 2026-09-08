@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7189b1fe9de36573b2fa13fc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L220
+chapter: 第3章 射手和农场主
+figure_type: analogy
+quote: 感恩节早晨向火鸡们公布了这个定律，但这天上午十一点食物没有降临，农场主进来把它们都捉去杀了
+sensory_mapping: 时间；动作；生存威胁
+context_fact: 农场主假说与射手假说共同构成SF怀疑。
+image_mechanism: 同一主体、同一十一点和同一次开门动作先被反复编码为喂食，最后在感恩节翻转为捕杀；规律崩塌与生存灾难发生在同一节拍。
+property_alignment: 一年无例外喂食对应大量稳定样本；火鸡不知农场主目的对应观察者缺少系统外信息；关键日规律反转且致命对应外部目的取消旧模式
+context_alignment: 重复基线、隐藏目的和反转节点齐全，适合解释归纳风险。
+narrative_function: 给认识论问题附上致命代价。
+transfer_rule: 设计反转类比时，保持时间、执行者和表面动作不变，只替换隐藏目的与结果，让旧归纳为何失败清楚可见。
+failure_boundary: 若主体没有隐藏目标、环境是封闭可控实验，或反例只是随机误差，感恩节屠杀的蓄意反转会夸大问题。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 长期重复观察归纳出的规律可能因系统外目的突然失效
+vehicle: 火鸡把每日喂食当定律，却在感恩节同刻被宰杀
+ground: 一年无例外喂食对应大量稳定样本；火鸡不知农场主目的对应观察者缺少系统外信息；关键日规律反转且致命对应外部目的取消旧模式

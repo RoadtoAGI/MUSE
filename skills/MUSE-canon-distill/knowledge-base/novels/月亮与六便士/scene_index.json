@@ -1,0 +1,448 @@
+[
+  {
+    "scene_id": "S03",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "confrontation",
+      "revelation",
+      "identity"
+    ],
+    "characters": [
+      "叙述者",
+      "查尔斯·史特利克兰"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 6801,
+    "source_chapter": "第11-12章",
+    "file": "scenes/scene_S03.md",
+    "description": "叙述者在巴黎破旧旅馆对质史特利克兰，所有道德规劝被一句'我要画画'彻底瓦解",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称旁观，先自嘲再冷剖动机",
+      "diction": "译文白话夹议论，形容克制而带讽刺",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叙述铺垫多，对白短促揭示落差",
+      "pacing": "长段心理推理后接细节推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "betrayal",
+      "worldly-values",
+      "irony"
+    ],
+    "characters": [
+      "叙述者",
+      "艾美·史特利克兰",
+      "麦克安德鲁上校夫妇"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 4169,
+    "source_chapter": "第15章",
+    "file": "scenes/scene_S04.md",
+    "description": "艾美得知丈夫出走真相后的关键反转：'他要是为了女人我能原谅，为了理想我不能原谅'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "旁观者冷眼入室，随时插入社会判断",
+      "diction": "家庭口语混社交讽刺，语气平直",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "多人轮番质询，对白推动误判升级",
+      "pacing": "客厅静态争辩中逐层反转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "genius-recognition",
+      "comedy",
+      "art-judgment"
+    ],
+    "characters": [
+      "叙述者",
+      "德尔克·施特洛夫",
+      "勃朗什·施特洛夫"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 4045,
+    "source_chapter": "第19章",
+    "file": "scenes/scene_S05.md",
+    "description": "施特洛夫在众人嘲笑中宣称史特利克兰是伟大画家：'如果一百年后还有人记得你和我'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称观察，温和表面下暗作评判",
+      "diction": "日常白话带画论词，人物外貌细密",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "寒暄密集，叙述补足人物关系",
+      "pacing": "热闹动作后放慢为肖像凝视"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "prophecy",
+      "moral-coercion",
+      "fear"
+    ],
+    "characters": [
+      "德尔克·施特洛夫",
+      "勃朗什·施特洛夫",
+      "叙述者"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 3073,
+    "source_chapter": "第25章",
+    "file": "scenes/scene_S07.md",
+    "description": "施特洛夫用道德绑架迫使妻子同意收留史特利克兰：'他身上有一种东西让我很害怕'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "旁观调停视角，夹带尴尬与道德旁白",
+      "diction": "家常争执白话，关键处用抽象伦理词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "夫妻对峙密集，少量叙述标注动作",
+      "pacing": "问答逼近，情绪台阶清晰"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "betrayal",
+      "destruction",
+      "self-sacrifice"
+    ],
+    "characters": [
+      "德尔克·施特洛夫",
+      "勃朗什·施特洛夫",
+      "查尔斯·史特利克兰",
+      "叙述者"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 6034,
+    "source_chapter": "第28章",
+    "file": "scenes/scene_S08.md",
+    "description": "三角关系爆发：勃朗什宣布离去，施特洛夫跪地哀求后做出惊人决定——自己离开",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称见证崩塌，克制追问事实",
+      "diction": "平实叙事掺压抑情绪，少用华饰",
+      "rhetoric_density": "low",
+      "dialogue_mode": "独白式倾诉为主，对白承接噩耗",
+      "pacing": "夜访开场急，回述处压低放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "death",
+      "suicide",
+      "rejection"
+    ],
+    "characters": [
+      "叙述者",
+      "德尔克·施特洛夫",
+      "勃朗什·施特洛夫"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 4542,
+    "source_chapter": "第34-35章",
+    "file": "scenes/scene_S09.md",
+    "description": "勃朗什服草酸自杀，至死拒绝见施特洛夫：'不要，不要，不要'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷静旁观死亡，审视同情与好奇",
+      "diction": "医学细节与心理判断并置，白话凝重",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀疏，叙述承担情绪推进",
+      "pacing": "事件后果缓慢展开，留白多"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "art-vs-hatred",
+      "beauty",
+      "forgiveness"
+    ],
+    "characters": [
+      "德尔克·施特洛夫",
+      "叙述者"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 4385,
+    "source_chapter": "第39章",
+    "file": "scenes/scene_S10.md",
+    "description": "施特洛夫发现史特利克兰画的妻子裸体画，举刀要毁却被画作的伟大震慑放下手",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "旁观者带讥诮，拆解善人与庸常",
+      "diction": "讽刺白话混艺术术语，句式从容",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量对白点破羞辱，叙述评议居多",
+      "pacing": "先概括处境，再推进冲突余波"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "loyalty",
+      "disease",
+      "tears"
+    ],
+    "characters": [
+      "库特拉斯医生",
+      "查尔斯·史特利克兰",
+      "艾塔"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 5593,
+    "source_chapter": "第55章",
+    "file": "scenes/scene_S14.md",
+    "description": "确诊麻风病后艾塔发誓不离：'你是我的男人'。史特利克兰全书唯一一次流泪",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "旅行见闻式叙述，借他人口述补史",
+      "diction": "海岛白话含异域名物，语感舒缓",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答嵌长叙述，口述带地方气息",
+      "pacing": "景物铺陈慢，信息在谈话中递进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "masterpiece",
+      "blindness",
+      "death"
+    ],
+    "characters": [
+      "库特拉斯医生",
+      "艾塔"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 1555,
+    "source_chapter": "第56章",
+    "file": "scenes/scene_S15.md",
+    "description": "库特拉斯医生走进黑暗恶臭的房间，发现四壁覆满旷世壁画：'我的上帝，这是个天才'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "转述见证为主，保持外部距离",
+      "diction": "简洁白话，动作和状态词直接",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白很少，叙述压缩生死过程",
+      "pacing": "关键事实快速落下，余味留空"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16a",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "destruction",
+      "legacy",
+      "painting-description"
+    ],
+    "characters": [
+      "库特拉斯医生",
+      "叙述者"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 3654,
+    "source_chapter": "第57章",
+    "file": "scenes/scene_S16a.md",
+    "description": "壁画被烧毁，库特拉斯展示留存的水果静物画——文字无法描述的色彩冲击",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "回顾式第一人称，凝视遗作与恐惧",
+      "diction": "视觉词密集，抽象感受逐步升高",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白退后，描述承担全部张力",
+      "pacing": "由细看转入精神震动，层层加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16b",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "irony",
+      "worldly-values",
+      "freedom"
+    ],
+    "characters": [
+      "叙述者",
+      "艾美·史特利克兰",
+      "罗伯特",
+      "凡·毕希·泰勒"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 3578,
+    "source_chapter": "第58章",
+    "file": "scenes/scene_S16b.md",
+    "description": "尾声：艾美以'天才的妻子'自居，客厅挂满复制画。太平洋上自由的水手是真正的继承者",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "归来后冷讽回望，照见名声变形",
+      "diction": "社交白话夹艺术名词，讽刺细节多",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "客厅寒暄与叙述反讽交替",
+      "pacing": "离岛抒情短促，伦敦段细密铺排"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03b",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "creative-urge",
+      "artistic-calling",
+      "inner-struggle"
+    ],
+    "characters": [
+      "叙述者",
+      "查尔斯·史特利克兰"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 4000,
+    "source_chapter": "第13-14章",
+    "file": "scenes/scene_S03b.md",
+    "description": "叙述者试图理解史特利克兰的创作驱动力：癌细胞比喻、涂油摔跤手比喻——创作欲望如何像疾病一样在体内生长",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第一人称近距离试探，坦白自身软弱",
+      "diction": "口语对白粗粝，议论带讥刺比喻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短句拒绝强硬，叙述翻译心理差",
+      "pacing": "闲谈铺开后突然以羞辱收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "art-viewing",
+      "artistic-struggle",
+      "pilgrimage",
+      "technique-vs-power"
+    ],
+    "characters": [
+      "叙述者",
+      "查尔斯·史特利克兰"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 8549,
+    "source_chapter": "第41-42章",
+    "file": "scenes/scene_S11.md",
+    "description": "叙述者最后一次见史特利克兰：对质后观看三十幅画——技法笨拙却有不可名状的力量。'朝圣者永远在寻找一座可以朝拜的神庙'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "作家自剖式旁观，重理解轻审判",
+      "diction": "哲理议论较多，白话中有抽象长句",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "审问式对白，冷答制造道德震动",
+      "pacing": "长段议论后进入锋利问答"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "月亮与六便士",
+    "author": "毛姆",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "epiphany",
+      "life-change",
+      "calling",
+      "career-sacrifice"
+    ],
+    "characters": [
+      "叙述者",
+      "亚伯拉罕",
+      "阿列克·卡迈克尔"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 3138,
+    "source_chapter": "第50章",
+    "file": "scenes/scene_S12.md",
+    "description": "亚伯拉罕的顿悟——天才外科医生看到亚历山大港的一刻就知道此生将在此度过。'做自己最想做的事，这就是糟蹋生活吗？'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "插叙寓言式旁观，用他人命运作镜",
+      "diction": "抒情白话偏抽象，地名名物清晰",
+      "rhetoric_density": "high",
+      "dialogue_mode": "少量对白镶嵌，主体是讲述故事",
+      "pacing": "开篇哲思慢铺，经历压缩成转折"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

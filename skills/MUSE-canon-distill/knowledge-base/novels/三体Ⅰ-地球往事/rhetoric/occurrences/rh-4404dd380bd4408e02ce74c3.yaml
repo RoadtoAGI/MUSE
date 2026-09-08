@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4404dd380bd4408e02ce74c3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L706
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 她顿时感到周围的世界像一个口袋般收紧，一切都向她挤压过来
+sensory_mapping: 触觉；空间；挤压；呼吸感；心理
+context_fact: 连长、指导员和政治部调查者把她叫回，并摆出她抄写的信和禁书。
+image_mechanism: 原本展开的世界瞬间缩成包裹身体的柔性容器，袋口先关闭，四壁再同步贴近；政治敏感被转成空间余量快速消失的窒息感。
+property_alignment: 行动空间骤减对应袋口收束；压力来自周围所有人事对应袋壁四面贴近；难以逃脱对应物体被封在袋内
+context_alignment: 她尚未受审却已从物证和人员站位感到包围，口袋能呈现无形制度压力的全向性和封闭性。
+narrative_function: 在讯问开始前让读者先体验陷阱合拢。
+transfer_rule: 写包围感时，可选边界能动态缩小的容器，并把入口关闭、壁面逼近和剩余空间三个阶段对应情势变化。
+failure_boundary: 压力只有单一来源、仍有清楚退路或人物主动进入保护空间时，收紧口袋会误写全向封闭和被动性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁看见信件与禁书后感到政治处境突然封闭并从四周逼迫
+vehicle: 袋口被抽紧、袋壁从各方向压住内部物体的口袋
+ground: 行动空间骤减对应袋口收束；压力来自周围所有人事对应袋壁四面贴近；难以逃脱对应物体被封在袋内

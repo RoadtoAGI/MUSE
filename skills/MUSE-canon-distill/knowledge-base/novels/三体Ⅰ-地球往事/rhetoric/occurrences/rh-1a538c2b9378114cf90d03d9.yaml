@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1a538c2b9378114cf90d03d9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L595-L596
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 让我背负的十字架更沉重一些吧
+sensory_mapping: 重量；身体负担；行进；宗教图像；道德情感
+context_fact: 叶哲泰始终不认罪、不自杀也不麻木，随后被迫戴钢筋高帽和铁门牌。
+image_mechanism: 人物神情被译成一句受难者宣言，抽象迫害获得压在身体上的十字架重量；下一句又以真实钢铁否定字面十字架，形成意象与刑具的残酷重合。
+property_alignment: 公开羞辱对应受难示众；沉重刑具对应实际铁高帽与铁牌；坚持信念对应拒绝背弃真理；预期死亡对应背十字架走向处刑
+context_alignment: 叶哲泰的拒绝屈服和即将死亡符合受难结构，而叙述随即用非宗教钢铁校正其历史现场。
+narrative_function: 赋予叶哲泰道德尊严，并让精神承担与肉体负重互相照亮。
+transfer_rule: 使用受难典故时，应对应公开羞辱、身体负担、不可撤回的信念与终局代价，并允许现实细节反拨典故的庄严。
+failure_boundary: 普通劳累、寻求赞美的自我牺牲或没有信念冲突的受苦不足以构成背十字架；典故也不证明人物宗教身份。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶哲泰拒绝认罪并准备承受更重公开迫害的姿态
+vehicle: 基督背负十字架走向受难与死亡
+ground: 公开羞辱对应受难示众；沉重刑具对应实际铁高帽与铁牌；坚持信念对应拒绝背弃真理；预期死亡对应背十字架走向处刑

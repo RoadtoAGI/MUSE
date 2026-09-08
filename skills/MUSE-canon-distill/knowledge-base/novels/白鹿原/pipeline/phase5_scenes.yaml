@@ -1,0 +1,361 @@
+# 《白鹿原》Phase 5: 关键场景编排
+# 逆向分析 — 从 Phase 4 序列中提取结构转折点与高潮场景
+
+sequence_expansions:
+
+  # ═══ ARC-1: 秩序的建立 ═══
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 白鹿原慢坡地（雪地）
+        time: 冬日清晨
+        participants: [白嘉轩]
+        pov: 白嘉轩
+        conflict: 白嘉轩发现白鹿精灵幻象，决定以欺骗手段获取风水地
+        value_start: 绝望（六妻皆死，命运似乎不可逆转）
+        value_end: 野心/谋算（确信白鹿精灵择中此地，决心不惜代价获得）
+        must_include: 白鹿幻象的神秘感；白嘉轩从被动到主动的心理转变
+        handoff: 白嘉轩开始谋划换地方案
+        source_chapter: 第2章
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 白鹿村祠堂 → 白鹿镇
+        time: 辛亥反正后
+        participants: [白嘉轩, 朱先生, 冷先生, 鹿子霖]
+        pov: 白嘉轩
+        conflict: 白鹿两家因李家寡妇卖地打架，朱先生设局调解
+        value_start: 对立/暴力（两家族人互殴）
+        value_end: 和解/仁义（"仁义白鹿村"碑赐下）
+        must_include: 朱先生写同一首诗给双方的巧妙设计；冷先生居中斡旋
+        handoff: 白嘉轩权威达到顶峰，朱先生交付《乡约》
+        beat_direction: 从暴力冲突→道德和解——全书"仁义"主题的正面确立
+        source_chapter: 第5章
+
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 清军大营（乾州）
+        time: 辛亥年
+        participants: [朱先生, 方升（方巡抚）]
+        pov: 朱先生
+        conflict: 朱先生孤身入敌营，以私交劝退二十万清军
+        value_start: 危机（清军兵临西安，关中将陷战火）
+        value_end: 化解（方升率军退去，西安免遭兵祸）
+        must_include: 朱先生只身赴险的勇气；以文人之力阻止战争的传奇性
+        handoff: 朱先生精神权威确立——回来后将《乡约》交给白嘉轩
+        beat_direction: 从绝境到传奇——朱先生作为"白鹿原精神"的化身正式登场
+        source_chapter: 第6章
+
+      - scene_id: S22
+        arc_id: ARC-1
+        location: 白鹿村祠堂
+        time: 辛亥反正后
+        participants: [白嘉轩, 朱先生（手书）, 徐先生, 石匠]
+        pov: 白嘉轩
+        conflict: 将朱先生手书乡约转化为永久石碑——文字权威的物质化
+        value_start: 纸上文字（个人书写，可毁可失）
+        value_end: 石碑铭刻（公共器物，不可磨灭）
+        must_include: >
+          朱先生"一笔不苟楷书"的手书；
+          石匠"叮叮咣咣"凿碑多日的声音；
+          白嘉轩每天来观看的行为
+        handoff: 碑文与"仁义白鹿村"竖碑互映——白鹿原秩序的物质基础落成
+        beat_direction: >
+          从手书到石碑——传统文化载体升级链（纸→黄纸→青石→建筑），
+          每次升级都是道德权威的递增
+        source_chapter: 第6章
+
+  # ═══ ARC-2: 革命的冲击 ═══
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-2
+        location: 白嘉轩家 → 村墙外
+        time: 农协兴起时期
+        participants: [白灵, 白嘉轩, 白赵氏]
+        pov: 白灵
+        conflict: 白灵被父亲锁禁强迫婚嫁，凿墙出逃
+        value_start: 束缚/压迫（父权对女儿的绝对控制）
+        value_end: 决裂/自由（白灵出走，白嘉轩宣布"当她死了"）
+        must_include: 白灵在墙上刻字的细节；父女关系的永久断裂
+        handoff: 白灵进入革命世界，白嘉轩失去女儿
+        beat_direction: 从囚禁到出逃——传统秩序内部最深的裂缝
+        source_chapter: 第13章
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 白鹿镇小学校戏楼
+        time: 四一二清党后
+        participants: [田福贤, 贺老大, 白嘉轩, 鹿子霖, 农协骨干]
+        pov: 全知（切换白嘉轩/贺老大）
+        conflict: 田福贤回原清党，在戏楼上"蹾杀"农协骨干
+        value_start: 革命秩序短暂确立
+        value_end: 恐怖/暴力（农协覆灭，贺老大殉道）
+        must_include: 贺老大咬断舌头吐出的细节；白嘉轩在祠堂关门跪保族人
+        handoff: 白鹿原从革命回到恐怖统治
+        beat_direction: 从审判到殉道——暴力的冲击力从此改变了白鹿原
+        source_chapter: 第14章
+
+  # ═══ ARC-3: 传统秩序的反扑与代价 ═══
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-3
+        location: 田小娥窑洞 → 白嘉轩家门口
+        time: 冬夜
+        participants: [白嘉轩, 白孝文, 田小娥]
+        pov: 白嘉轩
+        conflict: 白嘉轩雪夜发现孝文与田小娥私通
+        value_start: 蒙蔽/信任（族长不知继承人已堕落）
+        value_end: 崩塌/羞辱（族长亲眼目睹，气绝晕倒）
+        must_include: 雪夜的寂静氛围；白嘉轩晕倒在窑门口的冲击
+        handoff: 祠堂惩罚 → 分家
+        beat_direction: 从信任到目击——全书最痛的父子场景
+        source_chapter: 第17章
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-3
+        location: 白鹿原（旱灾中）
+        time: 大旱期间
+        participants: [白嘉轩, 村民]
+        pov: 全知
+        conflict: 白嘉轩"发马角"——神灵附体穿钢钎取龙潭水求雨
+        value_start: 绝望（旱灾、饥荒、秩序崩溃）
+        value_end: 精神重挺（即使肉身残破，精神再次站立）
+        must_include: 穿脸颊钢钎的骇人细节；驼背族长在极端仪式中重获权威
+        handoff: 白嘉轩精神重振，但世界已经不同
+        source_chapter: 第18章
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 田小娥窑洞
+        time: 深夜
+        participants: [鹿三, 田小娥]
+        pov: 鹿三
+        conflict: 鹿三以传统道德的名义用梭镖刺杀"淫妇"田小娥
+        value_start: 道德愤怒（长工以族规审判媳妇）
+        value_end: 精神崩溃（杀人后开始噩梦与分裂）
+        must_include: 梭镖刺入的物理细节；鹿三随后的精神崩溃
+        handoff: 黑娃追查凶手 → 父子断绝
+        beat_direction: 从审判到自毁——传统秩序的暴力维护者被自己的行为摧毁
+        source_chapter: 第19-20章
+
+  # ═══ ARC-4: 历史的碾压 ═══
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-4
+        location: 白鹿原/白鹿书院
+        time: 瘟疫期间
+        participants: [白嘉轩, 仙草, 鹿三（被附身）, 村民]
+        pov: 全知
+        conflict: 田小娥鬼魂借鹿三之口作祟，全村恐慌；仙草在瘟疫中病逝
+        value_start: 恐惧/混乱（鬼魂附身，瘟疫蔓延）
+        value_end: 悲痛/坚忍（仙草死，白嘉轩焚骨建塔镇妖）
+        must_include: 鹿三口吐田小娥话语的诡异场面；仙草临终的朴素
+        handoff: 白嘉轩失去一生伴侣，白鹿原进入衰败期
+        source_chapter: 第25章
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: S23
+        arc_id: ARC-4
+        location: 白鹿书院 → 渭河渡口
+        time: 抗战时期
+        participants: [朱先生, 鹿兆海, 茹师长, 八君子]
+        pov: 朱先生
+        conflict: >
+          朱先生为鹿兆海壮行时冰水镇手落笔咬指血印——文人以书法宣誓；
+          后砸砚烧笔投笔从戎——主动毁弃文房以明志
+        value_start: 书写（文人以笔墨表达壮志）
+        value_end: 毁弃（砸砚烧笔，告别书斋走向战场）
+        must_include: >
+          研墨时手抖控制不住→冰水镇手→一气连笔的身体链条；
+          咬破中指按血印替代印章；
+          "砚台砸了，毛笔也烧了"的决绝宣告
+        handoff: 出发后发现十七师被调去打内战，壮志落空
+        beat_direction: >
+          书写仪式与文房毁弃的镜像弧光——同一双手先创造后毁灭，
+          是全书传统文化与历史碾压冲突的最具象表达
+        source_chapter: 第29章
+
+      - scene_id: S10
+        arc_id: ARC-4
+        location: 南梁根据地
+        time: 肃反时期
+        participants: [白灵, 廖军长, 毕政委]
+        pov: 白灵（推测，原文含蓄处理）
+        conflict: 白灵在根据地肃反扩大化中被自己的同志活埋
+        value_start: 信仰/忠诚（白灵全心投入革命）
+        value_end: 湮灭（革命吞噬自己的儿女）
+        must_include: 白灵之死的省略写法——原文以梦境和白鹿意象间接呈现
+        handoff: 朱先生与白嘉轩同夜梦见白鹿哭泣
+        beat_direction: 从信仰到被信仰所杀——全书最沉重的反讽
+        source_chapter: 第28章
+
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 中条山 → 白鹿书院
+        time: 抗战期间
+        participants: [朱先生, 茹师长, 鹿兆海（遗体）]
+        pov: 朱先生
+        conflict: 朱先生发现鹿兆海实死于内战而非抗日，抗日壮志落空
+        value_start: 壮志（投笔从戎，抗日报国）
+        value_end: 幻灭（国民党将抗日部队调去打内战）
+        must_include: 茹师长夜间密告的压抑氛围；朱先生黯然返回的沉默
+        handoff: 朱先生开始走向人生终点
+        source_chapter: 第29章
+
+  # ═══ ARC-5: 精神灯塔的熄灭 ═══
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S21
+        arc_id: ARC-5
+        location: 白鹿书院
+        time: 1940年代
+        participants: [黑娃, 朱先生]
+        pov: 全知
+        conflict: >
+          前土匪跪求拜师——朱先生泡开干涸笔头、磨墨、
+          题写"学为好人"四字，完成全书最重要的师承仪式
+        value_start: 粗莽（闯荡半生、混账半生的土匪胚子）
+        value_end: 归学（每日晨起舞剑、太极、诵读《论语》——技艺内化为身体习惯）
+        must_include: >
+          笔头干涸→经水泡开→磨墨→落字的物理链条；
+          "你是我最后一个弟子，这是我最后一幅题字"的终结感；
+          日课序列：舞剑→太极→诵读
+        handoff: 黑娃"学为好人"后回原祭祖
+        beat_direction: >
+          从干涸到润泽——笔的物理状态即师道传承的隐喻。
+          器具的复苏 = 精神的传续
+        source_chapter: 第30章
+
+      - scene_id: S12
+        arc_id: ARC-5
+        location: 白鹿村祠堂
+        time: 1940年代
+        participants: [黑娃, 白嘉轩, 高玉凤, 朱先生]
+        pov: 黑娃/白嘉轩
+        conflict: 浪子回头——黑娃回原祭祖，白嘉轩亲迎
+        value_start: 流浪/疏离（黑娃半生漂泊，从未被原上接纳）
+        value_end: 回归/接纳（白嘉轩在祠堂门口披红迎接）
+        must_include: 白嘉轩在祠堂门口等候的仪式感；黑娃祭祖的庄重
+        handoff: 鹿三与黑娃和解；鹿三当夜安然辞世
+        source_chapter: 第30章
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 白鹿书院
+        time: 解放前夕
+        participants: [朱先生, 朱白氏, 怀仁, 怀义, 儿媳]
+        pov: 全知（侧重朱白氏）
+        conflict: 朱先生预知死期，安排身后事，安然辞世
+        value_start: 完成（县志交付，人事安排妥当）
+        value_end: 归去（坐化于藤椅，面对白鹿原坡）
+        must_include: >
+          朱白氏给丈夫剃头、寻找最后一根黑发的温柔细节；
+          "剃完了我就该走了"的双关语；
+          朱白氏看见白鹿掠过屋脊的瞬间
+        handoff: 白鹿原精神灯塔熄灭；黑娃挽联"自信平生无愧事，死后方敢对青天"
+        beat_direction: >
+          从日常到永别——全书最温柔也最震撼的场景，
+          死亡被写成一次"剃完头就出门"的日常动作
+        source_chapter: 第32章
+
+  # ═══ ARC-6: 终局 ═══
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: S14
+        arc_id: ARC-6
+        location: 保安团团部
+        time: 1949年5月20日零时
+        participants: [鹿兆鹏, 黑娃, 白孝文, 岳维山, 张团长]
+        pov: 鹿兆鹏/黑娃
+        conflict: 起义前夜——白孝文枪杀张团长，独占首功
+        value_start: 合作（三营共同起义）
+        value_end: 背叛（白孝文补枪夺功，向贺龙只报一营）
+        must_include: 白孝文迎面射击已不抵抗的张团长；鹿兆鹏的沉默反应
+        handoff: 白孝文成为县长，黑娃的命运被埋伏
+        source_chapter: 第34章
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-6
+        location: 白鹿镇南空场（处决大会）
+        time: 农历二月二（龙抬头）
+        participants: [黑娃, 白孝文, 白嘉轩, 鹿子霖, 岳维山, 田福贤]
+        pov: 全知（白嘉轩/黑娃切换）
+        conflict: 黑娃被以旧罪处决，白嘉轩亲眼目睹
+        value_start: 最后希望（白嘉轩曾试图担保）
+        value_end: 彻底崩塌（枪声响起，白嘉轩失去左眼）
+        must_include: >
+          黑娃请求单独执行被拒；
+          黑娃与白嘉轩的最后对视——黑娃垂头落泪；
+          白嘉轩转身离开，听到枪声栽倒
+        handoff: 鹿子霖当场失禁精神崩溃
+        beat_direction: >
+          从对视到枪声——全书终极高潮。
+          投机者（白孝文）坐在台上主持，
+          坚守者（白嘉轩）在台下失去左眼，
+          好人（黑娃）被冤杀
+        source_chapter: 第34章
+
+  - seq_id: ARC6-SEQ3
+    scenes:
+      - scene_id: S16
+        arc_id: ARC-6
+        location: 白鹿原坡（麦田塄坎边）
+        time: 处决后数月
+        participants: [白嘉轩, 鹿子霖]
+        pov: 白嘉轩
+        conflict: 白嘉轩向痴呆的鹿子霖坦白一生原罪
+        value_start: 未偿的债（换地之事压了一辈子）
+        value_end: 认罪/消散（认罪说出口，但对方已无法理解）
+        must_include: >
+          鹿子霖在塄坎挖羊奶奶的卑微姿态；
+          白嘉轩的告白："我对不住你，我一辈子就做下这一件见不得人的事"；
+          鹿子霖递过羊奶奶："给你吃，咱俩好！"
+          白嘉轩转身落泪
+        handoff: 鹿子霖于初冬僵死于柴房。全书终。
+        beat_direction: >
+          从认罪到无回应——全书最后一个场景。
+          百年恩怨在一方痴呆、一方残破的时刻消散，
+          是和解也是最深的苍凉
+        source_chapter: 第34章
+
+# ── 张力曲线 ──
+tension_curve:
+  description: >
+    全书张力曲线呈"多峰递增"形态——
+    每个 Arc 的高潮都比前一个更有冲击力，
+    ARC-5 是刻意的"暴风雨前的平静"（朱先生辞世的温柔反而加深了 ARC-6 的残酷），
+    最终在 S15（处决大会）达到绝对顶峰，
+    S16（认罪）是余波中的精神高峰
+  peaks: [S05, S08, S10, S23, S13, S15]
+  valleys: [S02, S22, S07, S21, S12]
+
+# ── 因果链 ──
+causal_chain: >
+  S01（换地原罪）→ S02（以仁义掩盖原罪）→ S03（朱先生确立精神权威）→
+  S22（乡约碑刻，秩序物质化落地）→
+  S04（白灵出逃，秩序内部裂缝）→ S05（清党屠杀，外部暴力冲击）→
+  S06（鹿子霖报复，孝文堕落暴露）→ S07（白嘉轩精神重挺但世界已变）→
+  S08（鹿三杀小娥，传统暴力自毁）→ S09（瘟疫/仙草死，衰败加速）→
+  S10（白灵被活埋，革命反噬）→
+  S23（砸砚投戎/血印书写，文人最后的抵抗）→ S20（兆海死于内战，理想幻灭）→
+  S21（黑娃拜师学书，传承的重启）→ S12（黑娃回归，短暂和解）→
+  S13（朱先生辞世，精神灯塔熄灭）→
+  S14（起义与背叛，白孝文篡功）→ S15（黑娃冤死，白嘉轩失目）→
+  S16（向痴呆对手认罪，百年恩怨消散）

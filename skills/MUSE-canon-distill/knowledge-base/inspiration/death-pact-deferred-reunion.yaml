@@ -1,0 +1,23 @@
+card_id: death-pact-deferred-reunion
+pattern_name: 死亡约定·延迟重逢
+dramatic_function: 一方以自尽换对方活下去，用遥远约期把死亡悬置成等待；时间成为深情的度量，又为主线腾出成长与行侠空间。
+applicability: 适合爱情线需悬置而主线继续的长篇；约期须长到近乎残忍才有重量；读者过早确知对方存活即泄力（单书孤证，验证面窄）
+reuse_candidates:
+- 十六年这一具体年限
+- 断肠崖刻字与南海神尼谎言
+- 谷底寒潭玉蜂的生还机制
+tags:
+- 生死之约
+- 时间跳跃
+- 善意谎言
+- 殉情
+source_scenes:
+- novel: 神雕侠侣
+  scene_id: S20
+  note: 刻字立十六年之约加黄蓉编神尼谎言，双重缓冲绝望
+- novel: 神雕侠侣
+  scene_id: S25
+  note: 赴约不遇而跳崖，殉情的形式恰是重逢的入口
+phase_affinity:
+- 3
+- 4

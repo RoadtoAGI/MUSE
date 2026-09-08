@@ -1,0 +1,27 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 粮票
+  dimension: info_density
+  original_move: 三代人对一张粮票的不同反应展示社会变迁
+  ai_default_failure: 加配给制度恢复的宏观背景解说段
+  transfer_rule: 大时代落到一个物件在几代人手中传递
+  quote: 回来了，又回来了
+- pattern_id: S18-p2
+  beat: 太空葬对矿井
+  dimension: omission
+  original_move: 灭绝后安葬谈得像退休旅游，拌嘴消解恐惧
+  ai_default_failure: 加令人窒息的沉默与话题沉重的注解
+  transfer_rule: 末日恐惧可由日常斗嘴托底，荒诞即缓冲
+  quote: 你，老张，傻了不是？
+- pattern_id: S18-p3
+  beat: 没有人了
+  dimension: overall
+  original_move: 笑着说出灭绝七字，坍缩后直接跳切不收束
+  ai_default_failure: 三人陷入沉思加夜色更深的环境烘托
+  transfer_rule: 重锤句后跳切留白，重量交读者自行承受
+  quote: 墓碑是给人看的，那时已经没有人了
+overall_traits:
+- 最重命题交给最没资格的人闲聊完成
+- 情绪曲线日常日常骤然坍缩，无铺垫无收束

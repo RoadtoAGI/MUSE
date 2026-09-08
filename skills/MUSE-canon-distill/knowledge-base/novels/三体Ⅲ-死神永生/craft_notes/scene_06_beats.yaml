@@ -1,0 +1,42 @@
+scene_id: '06'
+source_notes: scene_06_beats.md
+patterns:
+- pattern_id: 06-p1
+  beat: 三盏灯节拍器
+  dimension: info_density
+  original_move: 三盏灯取代风险叙述，黄灯每亮一次让读者校准一条越界规则
+  ai_default_failure: AI 写监控场景忍不住给监控者反应镜头，靠形象渲染压迫感
+  transfer_rule: 监视戏让博弈规则对读者透明、赌注悬置，监视者不出场
+  quote: 绿灯熄灭，黄灯亮起
+- pattern_id: 06-p2
+  beat: 含糊试探
+  dimension: info_density
+  original_move: 多义问句与多义回答互相咬合，元信息的传递先于信息
+  ai_default_failure: AI 默认写可被解开的加密暗语，监听者面对的是谜而非多义
+  transfer_rule: 密语用多义句而非加密句，让监听者无法证明哪个义项是真
+  quote: 她故意问出这样一个含糊的问题
+- pattern_id: 06-p3
+  beat: 虚构的童年
+  dimension: omission
+  original_move: 著作权当场转移给程心，用意省略给读者推断，零预谋实时共谋
+  ai_default_failure: AI 会写事先约定或让人物解释方案，共谋失去实时性
+  transfer_rule: 让对手对载体来源建立错误归因，比让其读不懂内容更安全
+  quote: 你编的故事都署你的名
+- pattern_id: 06-p4
+  beat: 讲述的省略
+  dimension: omission
+  original_move: 一小时讲述全程虚写，只给声音质感与程心的状态变化
+  ai_default_failure: AI 几乎必然在此处至少摘要故事内容，破坏视角与呈现时机
+  transfer_rule: 信息的呈现时机跟随谁需要解读它，而非它何时发生
+  quote: 时间就在云天明的童话中流逝
+- pattern_id: 06-p5
+  beat: 返航复述机器
+  dimension: info_density
+  original_move: 五遍复述加倒序催眠的流程细节，为解码戏购买传递可信度
+  ai_default_failure: AI 默认略过传递环节直写解码，按字拆解失去工程前提
+  transfer_rule: 链条每环的可靠性要在场景内购买，解码戏地基在传递戏里打
+  quote: 大脑里的记忆机器才关上
+overall_traits:
+- 监控装置节拍器化，紧张感不需监视者出场
+- 双频道台词，情话与密码共用一套修辞
+- 共谋当场发明领会执行，智力信任全由操作呈现

@@ -1,0 +1,76 @@
+role_slug: ke-zhene
+claims:
+  - id: C001
+    text: "柯镇恶是江南七怪之首"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/江南七怪
+        quote: "大哥「飛天蝙蝠」柯鎮惡"
+      - url: https://baike.baidu.com/item/柯镇恶
+        quote: "江南七怪之首，绰号'飞天蝙蝠'"
+    resolution_note: null
+
+  - id: C002
+    text: "柯镇恶绰号'飞天蝙蝠'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/江南七怪
+        quote: "「飛天蝙蝠」柯鎮惡"
+      - url: https://baike.baidu.com/item/柯镇恶
+        quote: "绰号'飞天蝙蝠'"
+    resolution_note: null
+
+  - id: C003
+    text: "柯镇恶双目失明"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/江南七怪
+        quote: "「飛天蝙蝠」柯鎮惡，是失明人士"
+      - url: https://baike.baidu.com/item/柯镇恶
+        quote: "他双目失明，但擅长伏魔杖法与铁菱暗器"
+    resolution_note: null
+
+  - id: C004
+    text: "柯镇恶随江南七怪赴蒙古授艺郭靖"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/江南七怪
+        quote: "為此更在蒙古國住了十二年而未返江南"
+      - url: https://baike.baidu.com/item/柯镇恶
+        quote: "七怪远赴大漠，苦寻六年终于找到郭靖；六怪在大漠留居十二年"
+    resolution_note: null
+
+  - id: C005
+    text: "柯镇恶是江南七怪中唯一活到《射雕》结局的"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/江南七怪
+        quote: "在续篇《神雕侠侣》之中继续活动（其他六人在桃花岛被杀害或自刎）"
+      - url: https://baike.baidu.com/item/柯镇恶
+        quote: "朱聪、韩宝驹、南希仁、全金发、韩小莹尽数遇害，仅柯镇恶侥幸逃生"
+    resolution_note: null

@@ -1,0 +1,23 @@
+card_id: one-room-one-day-reckoning
+pattern_name: 一厅一日·旧债总爆
+dramatic_function: 把三十年因果压进一日一厅，空间复用使每次相遇自带前史回声，巧合密度升格为命运感。
+applicability: 需人物间多重隐藏关系的家族恩怨题材；关系网稀薄则同台无反讽差，压缩只剩刻意（单书孤证，验证面窄）
+reuse_candidates:
+- 周公馆客厅与三十年不变的旧家具陈设
+- 雨衣、绣花衬衣等具体相认道具
+tags:
+- 三一律
+- 空间复用
+- 命运感
+- 前史
+source_scenes:
+- novel: 雷雨
+  scene_id: A2
+  note: 认母与骨肉相残在同一客厅骤然同框
+- novel: 雷雨
+  scene_id: A4
+  note: 所有秘密一次曝光，命运三十秒内清算三个孩子
+phase_affinity:
+- 1
+- 4
+- 5

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d8ee2b4bb9da5b13ac06bdda
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1052
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 日冕像金色的长袖懒洋洋地舒展着
+sensory_mapping: 视觉；色彩；柔性材质；缓慢动作
+context_fact: 巨日正在焚毁地表，汪淼却能近看日冕在日缘外延伸。
+image_mechanism: 放射状光带被织成柔软布料，向外扩张的物理过程变成手臂懒散伸展；太阳因而显得从容，而地面正在急迫毁灭。
+property_alignment: 日冕金色对应金色衣料；细长光束对应长袖；缓慢外张对应懒洋洋舒展
+context_alignment: 灾变速度对人类致命，对天体却只是缓慢伸展，悠闲衣袖准确制造尺度悬殊下的冷酷反差。
+narrative_function: 以优雅慢动作反衬地表惨烈，赋予巨日漠然的压迫感。
+transfer_rule: 写巨大力量的从容时，可让柔性喻体同时匹配颜色、轮廓和速度，并让其缓慢与受害者的急迫形成现场反差。
+failure_boundary: 日冕若短促爆发、色彩非金或运动呈刚性直射，长袖的柔软与慵懒会削弱真实力度。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从巨日日缘向外缓慢伸展的金色日冕
+vehicle: 人物松缓展开、拖曳在身侧的金色长袖
+ground: 日冕细长外延对应衣袖修长下垂；光带缓慢向外展开对应长袖被舒展的动作

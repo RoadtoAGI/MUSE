@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9de138d2ac05dec106aee68f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1852
+chapter: 第24章 红岸之六
+figure_type: simile
+quote: 仿佛是大兴安岭被剥去皮肤的部分
+sensory_mapping: 视觉裸露；皮肤触痛；颜色反差；创面扩张；身体尺度
+context_fact: 叶文洁昔日战友每日疯狂砍伐山林，荒地逐渐连片，幸存树林反而显得异常。
+image_mechanism: 大兴安岭被赋予一具铺满绿色皮肤的身体，伐木不是取走材料，而是一片片撕下保护层；连片荒地成为扩大且无法遮掩的伤口。
+property_alignment: 森林覆盖对应皮肤；山体对应身体；砍伐树木对应剥皮；裸露荒地对应创面；荒地连片对应伤口扩大；残存林木对应未剥皮肤孤岛
+context_alignment: 叶文洁由环境破坏推及人类疯狂，皮肤创伤把生态损失转换成对有生命大地的直接暴力。
+narrative_function: 让长期伐木的面积变化具备身体痛感，强化她对人类破坏性的厌恶。
+transfer_rule: 把毁林写成剥皮时，应对应原覆盖层、去除动作、裸露后脆弱性、颜色边界和创面扩张。
+failure_boundary: 植被本来稀疏、砍伐后迅速自然恢复，或只是季节性落叶时，剥皮会误写永久伤害。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 森林被砍光后裸露、不断扩大的荒地斑块
+vehicle: 活体皮肤被强行剥下，露出疼痛、脆弱且颜色异常的内部组织
+ground: 树木覆盖层被移除对应皮肤从身体表面剥离；裸地与周围森林色差对应创面在完整皮肤上显眼

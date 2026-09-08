@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:li-luan
+work_id: novel:狂病-莫千回
+display_name: 李鸾
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的声音是回溯性的第一人称自白，带着一个不可靠叙述者的自我审判腔——开口先给自己定性（"我承认，我向来都不算是一个好人""我好像就是一个风暴的中心"），把陈述、忏悔、辩解搅在一起。语气阴郁、向内转，反复回到"灾星/不祥""把身边人卷过来再摧毁"这一组自我意象上；写恐怖场景时却出奇地平，把最残忍的画面用近乎流水账的克制铺陈出来，情绪压在描写之下。被逼到极处时会滑向自嘲式的疯话（"我真他妈是个神经病"）。对人的情感几乎从不直说，最想拥抱安慰的时候，动作也会缩成"把可乐向她推了推"——欲望被一次次截断、改写成更小更安全的动作。
+
+
+    来源：phase2_character.yaml → supporting_cast.李鸾（POV 第一人称回溯性自白体 + 不可靠叙述者）
+
+    佐证：scenes/scene_BX-S01.md:L3-L5 / scenes/scene_BX-S10.md:L41-L41 / scenes/scene_BX-S08.md:L37-L37'
+  evidence_locators:
+  - scenes/scene_BX-S01.md:L3-L5
+  - scenes/scene_BX-S10.md:L41-L41
+  - scenes/scene_BX-S08.md:L37-L37
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,35 @@
+scene_id: '25'
+source_notes: scene_25_beats.md
+patterns:
+- pattern_id: 25-p1
+  beat: 礼仪开局
+  dimension: camera
+  original_move: 武力差一跃确立后镜头直切社交语法，敌人自行脑补尊贵身份
+  ai_default_failure: 弱者遇群敌写心跳冷汗与强自镇定的内心挣扎
+  transfer_rule: 打不过压成一个判断句，篇幅全留给换赛道的对策
+  quote: 你折一枝给我好不好？
+- pattern_id: 25-p2
+  beat: 斗酒立规则
+  dimension: info_density
+  original_move: 内心独白明示胡闹脱身策略，读者知敌人不知，俏皮话全是算计
+  ai_default_failure: 让弱者硬拼接招或狼狈逃窜，悬念押在打不打得赢
+  transfer_rule: 弱者自立比试规则改写胜负标准，赛道换到自己占优维度
+  quote: 谁的酒先泼出来，谁就输了
+- pattern_id: 25-p3
+  beat: 言语契约
+  dimension: omission
+  original_move: 硬闯三次一笔带过且声东击西失败，镜头停在契约兑现与对手窘态
+  ai_default_failure: 智斗脱身写成声东击西成功的惊险动作戏
+  transfer_rule: 把对手的身份与诺言变成枷锁，胜负在他的价值观内兑现
+  quote: 我一到门外，你就认输
+- pattern_id: 25-p4
+  beat: 十招认师承
+  dimension: overall
+  original_move: 杂烩现学武功隐藏门派，真实落败后战斗终结于名号揭示，镜头锁敌人颤抖敛手
+  ai_default_failure: 高潮写隐藏绝招翻盘或强援赶到救场
+  transfer_rule: 终极威慑调用世界既存的恐惧坐标，不在场的名号比新招式更重
+  quote: 语声竟是微微颤抖
+overall_traits:
+- 礼仪、游戏、契约、谜题连续换赛道，规则明说
+- 威慑来自不在场的人：黑风双煞从未出场，名号让千手人屠敛手跃开
+- 五种敌人各有忌惮，反应差异即人物速写

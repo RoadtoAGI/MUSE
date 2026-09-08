@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c16a65ad3aca7f925a4335d1
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L3580
+chapter: 【掩体纪元66年，太阳系外围】
+figure_type: analogy
+quote: 在这场伟大的盛宴中。永远他妈的有一桌没人动过的菜
+sensory_mapping: 宇宙像铺满长桌的盛宴，高等文明已尝过、改过许多菜，丁仪只盼角落还剩一桌原封不动。
+context_fact: 他怀疑智子之外的宇宙规律也可能被高等文明制造假象，却靠这一想法维持研究信念。
+image_mechanism: 盛宴把物理规律转成可被文明接触和改变的菜肴，没人动过成为科学实在性的通俗判据。
+property_alignment: 宇宙规律对应菜品；高等文明对应先到宾客；篡改对应动菜；未污染规律对应 untouched 桌；科学家对应后来取食者。
+context_alignment: 下一段处女纯真比喻与无人动过的菜共享未被接触框架，丁仪的粗鄙语言暴露其绝望。
+narrative_function: 把深层认识论危机压成可重复咒语，并为噩梦中没有未动宴席的结论设置核心符号。
+transfer_rule: 知识真实性借宴席表达时，应明确资源、先到者、介入痕迹、未动部分和说话者为何需要相信。
+failure_boundary: 规律不是会被消费的有限菜肴，文明影响也未必覆盖宇宙；丁仪明确将其作为自我安慰。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 丁仪自我安慰宇宙中总存在一部分未被文明改造或伪造、仍可供物理学发现的真实规律
+vehicle: 一场宾客众多的巨大宴席虽大部分菜已被取食，总会留有一桌无人碰过、保持原样的菜
+ground: 整体资源丰富；参与者可能提前介入； untouched 部分被假定存在；后来者希望从中获得原始内容；保证只是愿望

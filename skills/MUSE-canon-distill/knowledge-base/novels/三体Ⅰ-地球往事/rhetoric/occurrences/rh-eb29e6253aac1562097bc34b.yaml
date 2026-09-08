@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eb29e6253aac1562097bc34b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1622
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 他的银发在太阳的光芒中像燃烧起来似的
+sensory_mapping: 视觉；亮度；细丝动态；热感反差
+context_fact: 异常巨大的“太阳”从黑暗方向升起，老人仍坐着拉琴，银发被强光照透。
+image_mechanism: 每根发丝变成一条细火舌，风把发梢和火苗以相同节奏拨动；老人身体仍安静，只有头顶像被天体点燃。
+property_alignment: 银发强反光对应白亮火焰；发丝蓬松对应分叉火舌；风中飘动对应火苗摇曳；巨日照射对应点燃来源
+context_alignment: 汪淼预期巨日将毁灭世界，燃烧头发把灾难预感投到老人身上；随后揭示那只是反光巨月，热感又被反转。
+narrative_function: 将异常天光与老人形象绑定，制造美丽而危险的第一印象。
+transfer_rule: 把被照亮的毛发写成火焰时，应同时匹配高光、分叉细丝、风中运动，并利用热感与现场真实温度的关系。
+failure_boundary: 头发贴伏不动、光线柔暗或场景不允许任何燃烧联想时，火焰会夸大亮度和危险。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 老人被巨日强光照亮、边缘耀眼飘动的银白头发
+vehicle: 沿细丝跳动、发出强光并随风摇曳的白色火焰
+ground: 发丝高亮发白对应火焰明亮；蓬松银发随风飘动对应火苗摇摆

@@ -1,0 +1,32 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:yang-kang
+work_id: novel:射雕英雄传
+display_name: 杨康
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的语言永远得体周全、有文采——不像郭靖那样词穷，他总能找到漂亮的句式。关键特征：
+
+    - 称呼切换精准——对母亲撒娇（"妈，你又不舒服了吗？"），对养父恭敬，对穆念慈温情，对郭靖兄长语气
+
+    - 文人气的自谦——"在下""小弟""罪该万死""全无干系"
+
+    - 承诺时字字工整——"从今而后，我是叫杨康的了"、"小弟随同大哥，前去报仇"——句式标准到像是背好的答案
+
+    - 唯一一次停顿是"我那……那完颜洪烈"（scene_26）——这是他全书唯一一次声音上显出犹疑
+
+
+    他笑得最多——"笑嘻嘻""笑道""哈哈大笑"——笑是他最常用的反应，包括面对最严肃的场合（身世揭秘、养父被指控、拜欧阳锋为师）。笑也是他最大的武器：把严肃的话轻飘飘化掉。
+
+
+    佐证：scenes/scene_26.md:L7-L7 （"小弟今日才知确是姓杨，''完颜''两字，跟小弟全无干系，从今而后，我是叫杨康的了"——标准周全的文辞，但内心暗中犹疑）；scenes/scene_26.md:L7-L8 （得知真相后"一时踌躇不答"的关键停顿——全书他唯一一次声音上的裂缝）'
+  evidence_locators:
+  - scenes/scene_26.md:L7-L7
+  - scenes/scene_26.md:L7-L8
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,12 @@
+# 接管交付状态：进入现有开卷共创，不带活跃写者或未发布草稿。
+schema_version: 1
+work_slug: <目标作品slug>
+collaboration_mode: volume
+active_session: null
+cursor:
+  volume: V01                    # 实际衔接卷
+  working_chapter: null
+  stage: breaking
+pending: null
+buffer:
+  drafted_unpublished: []

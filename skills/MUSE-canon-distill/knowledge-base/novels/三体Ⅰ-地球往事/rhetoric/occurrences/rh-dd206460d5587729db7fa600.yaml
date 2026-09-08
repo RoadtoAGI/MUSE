@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dd206460d5587729db7fa600
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2567
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 三体世界的映像在太空中的宇宙哈哈镜里已变得面目全非
+sensory_mapping: 弧形镜面；脸形扭曲；巨大宇宙镜；熟悉物失真；滑稽转恐怖
+context_fact: 二维质子从平面弯成包裹行星的球壳，仍承载着行星和星空的镜像。
+image_mechanism: 质子天幕成为环绕行星的镜厅，三体世界同时是照镜者和镜中对象；曲面闭合时，整颗行星的脸被拉长压扁，直到无法认出自己。
+property_alignment: 质子反射面对应镜子；球面弯曲对应哈哈镜曲率；行星映像对应镜中人像；群星拉伸对应面部变形；面目全非对应失真强烈；太空尺度对应宇宙哈哈镜
+context_alignment: 此前平面映出清晰行星自画像，如今弯曲使同一画像失真，哈哈镜准确标出工程阶段和曲率后果。
+narrative_function: 以熟悉光学体验呈现球壳闭合时的全景畸变，并加深自我被技术改写的诡异。
+transfer_rule: 用哈哈镜写大尺度映像畸变时，应有反射载体、可识别原像、曲率变化、方向性拉伸和逐渐不可辨的结果。
+failure_boundary: 图像模糊源自低分辨率、遮挡或信号噪声而非几何曲率时，哈哈镜会误指成像机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 映在弯曲质子平面上的三体行星图像因曲率变化被严重拉伸扭曲
+vehicle: 游乐场弯曲哈哈镜把人的脸和身体夸张变形，使熟悉形象面目全非
+ground: 质子曲面对应弯曲镜面；行星自我映像对应照镜者；曲率造成非线性变形对应哈哈镜拉扁拉长

@@ -1,0 +1,61 @@
+role_slug: li-ping
+claims:
+  - id: C001
+    text: "李萍是郭啸天之妻"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/李萍_(射雕英雄传)
+        quote: "郭嘯天之妻"
+      - url: https://baike.baidu.com/item/%E6%9D%8E%E8%90%8D/3849789
+        quote: "郭啸天的妻子"
+    resolution_note: null
+
+  - id: C002
+    text: "李萍是郭靖的母亲"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/李萍_(射雕英雄传)
+        quote: "郭靖之母"
+      - url: https://baike.baidu.com/item/%E6%9D%8E%E8%90%8D/3849789
+        quote: "郭靖的母亲"
+    resolution_note: null
+
+  - id: C003
+    text: "李萍在蒙古大漠产下郭靖"
+    type: birthplace_or_origin
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/李萍_(射雕英雄传)
+        quote: "自此於蒙古居住二十多年…產下郭靖"
+      - url: https://baike.baidu.com/item/%E6%9D%8E%E8%90%8D/3849789
+        quote: "在逃亡途中于蒙古雪地产下遗腹子郭靖"
+    resolution_note: null
+
+  - id: C004
+    text: "李萍在成吉思汗以亲情要挟郭靖时自刎而死"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/李萍_(射雕英雄传)
+        quote: "郭靖不從，李萍遂自殺令郭靖可以輕裝逃離蒙古返回中原"
+      - url: https://baike.baidu.com/item/%E6%9D%8E%E8%90%8D/3849789
+        quote: "成吉思汗以李萍性命胁迫郭靖率军攻宋，李萍为成全儿子忠义气节，以匕首自尽身亡；而后用郭靖匕首自刺而死"
+    resolution_note: null

@@ -1,0 +1,243 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+
+acts:
+  - act: 1
+    function: implant_prophecy_and_contract_the_deed
+    sequences:
+      - seq_id: 1.A
+        scenes: [A1S1, A1S2]
+        function: world_state_under_siege_and_supernatural_register_established
+        note: |
+          A1S1 (12 lines, witches' choric trochaic verse) + A1S2
+          (bleeding Captain's report of Macbeth's battlefield valor) =
+          before Macbeth speaks, we know he is both the kingdom's
+          savior and the witches' target. The two scenes' contrast in
+          meter / tone teaches the audience the two registers in play.
+      - seq_id: 1.B
+        scenes: [A1S3, A1S4]
+        function: prophecy_delivered_and_publicly_pre-empted_by_Malcolm_succession
+        note: |
+          A1S3 prophecy → A1S4 Duncan names Malcolm Prince of Cumberland
+          → Macbeth's first explicit conspiratorial soliloquy ("Stars,
+          hide your fires"). The succession announcement is the
+          political accelerant.
+      - seq_id: 1.C
+        scenes: [A1S5, A1S6, A1S7]
+        function: lady_macbeth_takes_command_then_re-conscripts_a_wavering_husband
+        note: |
+          A1S5 (letter + "unsex me" + arrival of Macbeth) → A1S6
+          (Duncan enters the trap singing "pleasant seat") → A1S7
+          (Macbeth's "If it were done" → wife's manhood-shaming → "I
+          am settled"). Sequence climax is the contract.
+    turn: |
+      Private temptation becomes a contracted plan to murder the king
+      under one's own roof — sealed by Lady Macbeth's manhood-attack.
+    end_state: |
+      Duncan asleep in Inverness; daggers prepared; chamberlains
+      drugged; Macbeth committed.
+
+  - act: 2
+    function: execute_regicide_and_witness_its_metaphysical_aftermath
+    sequences:
+      - seq_id: 2.A
+        scenes: [A2S1, A2S2]
+        function: dagger_hallucination_then_offstage_murder_then_bloody_return
+        note: |
+          A2S1 (Banquo's brief uneasy exchange + Macbeth's dagger
+          soliloquy + bell) flows continuously into A2S2 (the act
+          itself — done offstage between scenes — and Lady Macbeth's
+          attempt to manage Macbeth's collapse). Knocking-within begins
+          at A2S2 end and connects across scene break to A2S3.
+      - seq_id: 2.B
+        scenes: [A2S3]
+        function: porter_hell_gate_then_discovery_then_macbeth's_double_cover_murder
+        note: |
+          Porter's drunken hell-gate routine (A2S3 prose) is the play's
+          single sustained comic relief — and the only scene that
+          names the castle hell. After he opens, Macduff finds the
+          body; Macbeth kills the grooms ("Th'expedition of my violent
+          love / Outrun the pauser, reason"); Malcolm + Donalbain flee.
+      - seq_id: 2.C
+        scenes: [A2S4]
+        function: choric_witness_of_unnatural_signs_+_macduff_refuses_scone
+        note: |
+          Old Man + Ross + Macduff. Pure scenic function: report
+          omens (horses eat each other, owl kills falcon, darkness at
+          noon), confirm Macbeth crowned, and plant Macduff's refusal
+          to attend the coronation — the seed of A3S6 / A4S2 / A5S7.
+    turn: |
+      The deed is done and uncoverable; Macbeth wears the crown but
+      has murdered sleep; Macduff has begun to absent himself.
+    end_state: |
+      Macbeth at Scone for coronation; Malcolm in England, Donalbain
+      in Ireland; nature itself signals corruption.
+
+  - act: 3
+    function: consolidate_tyranny_then_expose_the_mask
+    sequences:
+      - seq_id: 3.A
+        scenes: [A3S1, A3S2]
+        function: banquo_targeted_then_lady_macbeth_partially_excluded
+        note: |
+          A3S1 = Macbeth's solitary soliloquy ("To be thus is nothing")
+          + transactional recruitment of murderers (parallels A1S7's
+          wife-recruitment of Macbeth). A3S2 reverses A1S5/A1S7:
+          Macbeth now withholds the plan from Lady Macbeth ("Be
+          innocent of the knowledge, dearest chuck"). The marriage
+          partnership has begun to dissolve.
+      - seq_id: 3.B
+        scenes: [A3S3, A3S4]
+        function: banquo_killed_fleance_escapes_then_ghost_breaks_the_banquet
+        note: |
+          A3S3 (short, dark, third murderer enters anomalously — a
+          spectral functional analog to the witches). A3S4 banquet is
+          the play's first major public scene of regicide-aftermath:
+          ghost takes Macbeth's seat, public mask cracks, Lady
+          Macbeth's cover holds only briefly. Marks the political
+          point-of-no-return: Macbeth is now seen as ill / haunted /
+          dangerous by his own thanes.
+      - seq_id: 3.C
+        scenes: [A3S5, A3S6]
+        function: hecate_interlude_+_lennox_political_report
+        note: |
+          A3S5 (Hecate scene, likely Middleton interpolation) re-keys
+          the supernatural register before A4S1's apparitions. A3S6
+          (Lennox + a Lord, almost choric) tells the audience that
+          Macduff has fled to England, that Malcolm is welcomed by
+          Edward, that an English army is gathering — the opposition
+          arc is now visible.
+    turn: |
+      The public mask breaks at the banquet; Macbeth's grip on the
+      thanes loosens; the opposition coalesces in England.
+    end_state: |
+      Banquo dead but Fleance escaped (dynastic threat unkilled);
+      Macduff in England; English forces stirring; Hecate prepares
+      Macbeth's next visit.
+
+  - act: 4
+    function: false_oracle_then_moral_nadir_then_alliance_forged
+    sequences:
+      - seq_id: 4.A
+        scenes: [A4S1]
+        function: cauldron_apparitions_deliver_three_equivocations
+        note: |
+          Three apparitions (armed head / bloody child / crowned child
+          with tree) + show of eight kings. The three equivocations
+          (beware Macduff, none of woman born, safe till Birnam Wood
+          moves) become the structural booby-traps Acts 5.4–5.7 will
+          decode. Macbeth resolves to "crown my thoughts with acts"
+          — pure decisionism replacing earlier hesitation.
+      - seq_id: 4.B
+        scenes: [A4S2]
+        function: domestic_slaughter_at_fife_with_no_strategic_purpose
+        note: |
+          Lady Macduff + Son scene — the play's moral nadir. The Son
+          is given wit and presence solely so his stabbing onstage
+          ("What, you egg? Young fry of treachery!") registers as
+          murder of innocence, not merely political collateral.
+          Functionally: makes Macduff's revenge personal beyond
+          politics; certifies Macbeth as butcher not king.
+      - seq_id: 4.C
+        scenes: [A4S3]
+        function: malcolm_tests_macduff_then_ross_brings_fife_news
+        note: |
+          The play's longest scene. Three sub-beats:
+            (i) Malcolm slanders himself to test Macduff's loyalty;
+                Macduff's despair ("Fit to govern? No, not to live")
+                proves him true.
+            (ii) Doctor describes Edward's healing touch — explicit
+                 contrast to Macbeth's diseased Scotland.
+            (iii) Ross reports the Fife slaughter; Macduff insists on
+                  grieving as a man ("I must also feel it as a man");
+                  Malcolm converts grief to "whetstone." The avenging
+                  army is now spiritually as well as militarily ready.
+    turn: |
+      Macbeth, falsely assured by oracles, descends to butchering
+      noncombatants; the opposition becomes an avenging coalition
+      backed by holy English kingship.
+    end_state: |
+      Macduff bound to revenge; Malcolm legitimated as rightful heir;
+      English army of ten thousand marching for Scotland.
+
+  - act: 5
+    function: bring_each_charm_to_literal_collapse_and_decapitate_the_tyrant
+    sequences:
+      - seq_id: 5.A
+        scenes: [A5S1]
+        function: lady_macbeth_sleepwalk_confesses_the_three_murders
+        note: |
+          The play's third great soliloquy register (after Macbeth's
+          dagger and "Tomorrow"). Lady Macbeth, no longer able to
+          control her own speech, sequentially confesses Duncan
+          ("the old man"), Banquo (the buried man who cannot come out
+          of his grave), and Lady Macduff ("the Thane of Fife had a
+          wife"). The Doctor's verdict ("more needs she the divine
+          than the physician") is the play's diagnosis.
+      - seq_id: 5.B
+        scenes: [A5S2, A5S3, A5S4]
+        function: external_army_advances_internal_regime_disintegrates
+        note: |
+          A5S2 (Scottish thanes en route to join the English: the
+          regime has lost its own peers) ↔ A5S3 (Macbeth in armor at
+          Dunsinane: false bravado swinging into nihilist exhaustion
+          "I have lived long enough") ↔ A5S4 (Birnam: each soldier
+          cuts a bough — equivocation made stage-physical). Three
+          short scenes cross-cut for tension.
+      - seq_id: 5.C
+        scenes: [A5S5, A5S6, A5S7]
+        function: tomorrow_soliloquy_then_assault_then_decapitation_then_hailing
+        note: |
+          A5S5 (the cry of women → "she should have died hereafter" →
+          "Tomorrow" soliloquy → messenger reports the moving wood).
+          A5S6 (boughs thrown down, trumpets sound). A5S7 (final
+          duel: Young Siward / Macduff's revelation / Macbeth's
+          refusal to yield / offstage slaying / Macduff returns with
+          head / Malcolm hailed). The terminal sequence pays off
+          every spine node introduced in A1.
+    turn: |
+      Both equivocations literalized; tyrant beheaded; rightful
+      kingship restored — but only by re-spilling the play's
+      governing image (blood).
+    end_state: |
+      Macduff: "Hail, King of Scotland!" + Malcolm's announcement of
+      coronation at Scone. The closing line names the queen "fiend-
+      like" and Macbeth a "dead butcher" — the play resists
+      retroactive ennoblement.
+
+# 跨幕编织
+inter_act_weaving:
+  parallel_arcs:
+    - macbeth_ascent ↔ banquo_dynastic_threat ↔ malcolm_legitimate_succession
+    - lady_macbeth_command_arc (A1 dominant → A3 partially excluded → A5 broken)
+    - macduff_arc (A2 discovery → A3 absence → A4 family slaughtered → A5 avenger)
+    - witches_arc (A1 prophecy → A4 apparitions → A5 charms literalized)
+
+  motif_recurrence:
+    - blood (Captain's report A1S2; "multitudinous seas incarnadine" A2S2;
+             ghost at banquet A3S4; "I am in blood stepped in so far" A3S4 end;
+             "out damned spot" A5S1; final head A5S7)
+    - sleep (A1S6 air-delicacy; "Sleep no more" A2S2; "season of all natures"
+             A3S4; sleepwalking A5S1; "Tomorrow ... creeps" A5S5)
+    - hand (Macbeth's bloody hand A2S2; Lady Macbeth's rubbed hand A5S1;
+            Macduff's sword-hand A5S7; Edward's healing hand A4S3 — counterpoint)
+    - clothing/borrowed-robes (A1S3 "borrowed robes"; A1S7 "golden opinions
+                                worn in their newest gloss"; A5S2 "his title
+                                hang loose about him like a giant's robe")
+    - equivocation (witches A1S3/A4S1; Porter A2S3; Macbeth's late "juggling
+                    fiends ... that palter with us in a double sense" A5S7)
+    - knocking (A2S2 → A2S3 sustained as guilt's metronome)
+    - light/dark inversion (Lady Macbeth "Come, thick night" A1S5; Macbeth
+                            "Stars, hide your fires" A1S4; "Light thickens" A3S2;
+                             A2S4 darkness at noon)
+
+  three_test_scenes_of_manhood:
+    - A1S7 Lady Macbeth → Macbeth (private; rhetoric works; deed follows)
+    - A3S4 Lady Macbeth → Macbeth at banquet (public; rhetoric fails;
+            mask cracks visibly)
+    - A4S3 Malcolm → Macduff (political; rhetoric tested by self-slander;
+            Macduff's grief redeems manhood from violence)

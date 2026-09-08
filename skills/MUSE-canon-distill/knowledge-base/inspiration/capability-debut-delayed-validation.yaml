@@ -1,0 +1,25 @@
+card_id: capability-debut-delayed-validation
+pattern_name: 武器登场验证闭环
+dramatic_function: 新能力拆成亮相立预期与实战验金两场戏，间隔数十章，参数悬念转成跨弧结构张力
+applicability: 适用引入新装备新技能的类型叙事；验证若写成必胜炫技或紧贴亮相则闭环失效（单书孤证，验证面窄）
+reuse_candidates:
+- 坦克军舰参数体系
+- 下水典礼阅兵场面
+tags:
+- 装备亮相
+- 延迟验证
+- 预期管理
+- 军事技术流
+source_scenes:
+- novel: 日耳曼涅槃
+  scene_id: scene_16
+  note: 山猫样车测试立预期，成色留待法兰西战场裁决
+- novel: 日耳曼涅槃
+  scene_id: scene_24
+  note: 实战首秀以期待反转验金，代差优势不写成碾压
+- novel: 日耳曼涅槃
+  scene_id: scene_18
+  note: 俾斯麦以参数盛典登场，坚盾成色悬至单舰防空战
+phase_affinity:
+- 4
+- 5

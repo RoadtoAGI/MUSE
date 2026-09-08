@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4b98c26e2f198be138c13171
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L204
+chapter: 第2章 台球
+figure_type: metaphor
+quote: 需要一种宗教般的执着，这很容易把人引向深渊
+sensory_mapping: 空间；坠落；信仰；心理
+context_fact: 丁仪解释实验失序为何令理论物理学家自杀。
+image_mechanism: “宗教”先提升信念强度，“引向”再给执着一条运动路径，“深渊”把最终精神后果放在路径尽头。
+property_alignment: 把理论秩序当生命支柱对应信徒依赖信仰；信念失效导致自毁对应道路通向坠落深渊
+context_alignment: 说话者本人正受同一危机折磨，宗教与深渊同时写投入价值和危险。
+narrative_function: 把职业信念与自毁风险连成可见路线。
+transfer_rule: 写某种投入的双刃性时，可让喻体依次说明动力来源、前进方式和不可逆终点，避免只用“深”形容严重。
+failure_boundary: 普通兴趣、可随时退出的工作或短期失望没有宗教式绝对投入，也不足以通向深渊。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 理论物理研究者的绝对投入及信念崩塌风险
+vehicle: 宗教信仰驱动的人沿路走向不可返回的深渊
+ground: 把理论秩序当生命支柱对应信徒依赖信仰；信念失效导致自毁对应道路通向坠落深渊

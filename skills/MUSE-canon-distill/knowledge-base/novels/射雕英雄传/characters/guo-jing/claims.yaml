@@ -1,0 +1,225 @@
+role_slug: guo-jing
+
+# 原子化原则（codex Finding 2）：
+# 一个 claim 只表达一个可核 canonical fact。
+# 数字细节（"十二年"/"两年"）若仅单源覆盖，剥离回 SKILL.md 不单独抽 claim。
+# 复合断言拆分成多条以避免"verified 信号被稀释"。
+
+claims:
+  - id: C001
+    text: "周伯通传授郭靖空明拳"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md L29
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "與義兄周伯通結拜為兄弟，並習得《九陰真經》、「空明拳」及「雙手互搏」三套上乘武學"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "学会周伯通的'空明拳'、'左右互搏'"
+    resolution_note: null
+
+  - id: C002
+    text: "周伯通传授郭靖左右互搏术"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md L29
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "並習得《九陰真經》、「空明拳」及「雙手互搏」三套上乘武學"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "学会周伯通的'空明拳'、'左右互搏'"
+    resolution_note: null
+
+  - id: C003
+    text: "郭靖在桃花岛习得周伯通所授武功"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md L29
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "郭靖在桃花島時與「老頑童」周伯通結拜為兄弟，並習得《九陰真經》、「空明拳」及「雙手互搏」"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "在岛上遇到已经被黄药师囚禁十五年的老顽童周伯通…学会周伯通的'空明拳'、'左右互搏'"
+    resolution_note: null
+
+  - id: C004
+    text: "江南六怪（江南七怪）北上蒙古寻得郭靖授其武艺"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "江南七怪北上蒙古尋得郭靖授其武藝"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "江南七怪因与长春子丘处机赌约而北上蒙古，最终机缘巧合之下寻得郭靖"
+    resolution_note: |
+      "授艺共十二年"在 wiki 中未明字（仅 baike 与原著《射雕》第 6 回明字
+      "江南六怪在大漠之中共住了十二年"）。年数细节剥离回 SKILL.md，
+      不单独抽 claim——避免 verified 信号被稀释。
+
+  - id: C005
+    text: "马钰传授郭靖全真派内功"
+    type: mentor_of_skill
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "並巧遇全真派掌門「丹陽子」馬鈺授其全真派內功"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "全真派掌门丹阳子马钰…在悬崖绝顶教授郭靖全真派内功"
+    resolution_note: |
+      "授艺两年"仅 baike 明字（wiki 在该位置混淆为洪七公"教了郭靖兩月有餘"），
+      细节剥离回 SKILL.md。
+
+  - id: C006
+    text: "郭靖出生时其父郭啸天已遇难（即郭靖为遗腹子）"
+    type: lineage
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "郭嘯天…死於臨安牛家村；李萍逃難至蒙古大漠，於風雪中產下郭靖"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "郭靖在母亲逃难途中出生，父亲郭啸天已先行去世"
+    resolution_note: null
+
+  - id: C007
+    text: "郭啸天被完颜洪烈勾结段天德陷害"
+    type: lineage
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "郭靖之父郭嘯天因被段天德與金國六王爺完顏洪烈陷害"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "郭啸天…因被完颜洪烈勾结段天德陷害，遇难"
+    resolution_note: null
+
+  - id: C008
+    text: "郭啸天遇难地点为临安牛家村"
+    type: lineage
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "死於臨安牛家村"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "因被完颜洪烈勾结段天德陷害，遇难于临安牛家村"
+    resolution_note: null
+
+  - id: C009
+    text: "郭靖被成吉思汗封为金刀驸马"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "得鐵木真垂青，並與鐵木真之女華箏訂婚，成為金刀駙馬"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "成为蒙古的'金刀驸马'"
+    resolution_note: null
+
+  - id: C010
+    text: "郭靖与铁木真之女华筝订立婚约"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "與鐵木真之女華箏訂婚"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "奉命与铁木真之女华筝订立婚约"
+    resolution_note: null
+
+  - id: C011
+    text: "郭靖出生于蒙古大漠"
+    type: birthplace_or_origin
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "母親李萍逃難至蒙古大漠，於風雪中產下郭靖"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "出生地：蒙古大漠"
+    resolution_note: null
+
+  - id: C012
+    text: "郭靖在母亲李萍逃难途中出生"
+    type: birthplace_or_origin
+    source_locators:
+      - SKILL.md L12
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "母親李萍逃難至蒙古大漠，於風雪中產下郭靖"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "李萍被挟持逃难至蒙古大漠，在乱军中产下郭靖"
+    resolution_note: null
+
+  - id: C013
+    text: "郭靖随成吉思汗西征花剌子模"
+    type: historical_participation
+    source_locators:
+      - scenes/scene_13.md:L2-L2
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "郭靖隨成吉思汗及蒙古大軍西征花剌子模"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "随成吉思汗西征花剌子模"
+    resolution_note: null
+
+  - id: C014
+    text: "郭靖参与攻陷花剌子模都城撒麻尔罕"
+    type: historical_participation
+    source_locators:
+      - scenes/scene_13.md:L2-L2
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/郭靖
+        quote: "攻陷花剌子模都城撒馬爾罕城"
+      - url: https://baike.baidu.com/item/郭靖
+        quote: "三擒西毒欧阳锋、攻陷撒马尔罕"
+    resolution_note: |
+      "攻而不攻，不攻而攻"之策出自《射雕》原著（locator 指向
+      scenes/scene_13.md:L2，已通过 Layer 1 结构 gate），属原著独有细节，
+      非二手百科覆盖范围；战役本身已两源 verified。

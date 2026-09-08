@@ -1,0 +1,42 @@
+scene_id: A2S1
+source_notes: scene_A2S1_beats.md
+patterns:
+- pattern_id: A2S1-p1
+  beat: 对白造夜
+  dimension: exchange
+  original_move: 黑夜由父子报时对话宣告，火炬道具作旁证，不靠指示渲染
+  ai_default_failure: 用舞台指示文字描写夜色深沉
+  transfer_rule: 环境信息让角色说出来，道具作旁证
+  quote: The moon is down
+- pattern_id: A2S1-p2
+  beat: 交剑动作外化不安
+  dimension: blocking
+  original_move: 班柯交剑给儿子又闻声急索回，不安全感物化为道具往返
+  ai_default_failure: 让角色直说我心绪不宁
+  transfer_rule: 给心理状态找一件可递可收的道具
+  quote: Hold, take my sword
+- pattern_id: A2S1-p3
+  beat: 半截话试探
+  dimension: exchange
+  original_move: 提巫与谎称未想各说半截，互探即止，同盟可能性悬置
+  ai_default_failure: 让两人摊牌结盟或当场决裂
+  transfer_rule: 让试探停在半途，未完成的对话本身是张力
+  quote: I think not of them
+- pattern_id: A2S1-p4
+  beat: 与幻象对话互动
+  dimension: monologue
+  original_move: 对悬空匕首第二人称逼问并伸手抓握，真假由身体悬置
+  ai_default_failure: 细描幻觉的视觉细节
+  transfer_rule: 幻觉场给角色动作任务，由动作证伪
+  quote: Is this a dagger which I see
+- pattern_id: A2S1-p5
+  beat: 钟声斩断独白
+  dimension: transition
+  original_move: 约定钟声截停独白，押韵对句出门行凶，决断由声音代发
+  ai_default_failure: 让独白自然收束再缓慢转场
+  transfer_rule: 给独白设外部截停信号，心理时间切回行动
+  quote: the bell invites me
+overall_traits:
+- 剑火炬匕首钟串起全场，每件道具有心理负载
+- 班柯线与麦克白线并置两种对待预言的姿态
+- 独白终点不是结论而是动作，被声音推着完成

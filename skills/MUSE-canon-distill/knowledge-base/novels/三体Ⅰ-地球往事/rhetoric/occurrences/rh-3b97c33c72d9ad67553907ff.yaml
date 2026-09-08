@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3b97c33c72d9ad67553907ff
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2383
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 二百轮文明爬行在漆黑的隧道中，现在终于在前方看到了一线光亮
+sensory_mapping: 黑暗隧道；膝手爬行；远端细光；封闭压迫；出口希望
+context_fact: 几千监听站同时收到地球消息，确认单太阳恒纪元世界真实存在。
+image_mechanism: 文明史被拉直成地下通道，每轮重建只向前挪一小段却仍看不见出口；地球电波在尽头凿开第一条光缝，迁徙希望随之出现。
+property_alignment: 二百轮重建对应长途爬行；乱纪元对应隧道黑暗；三日束缚对应封闭墙壁；监听等待对应寻找出口；地球坐标对应前方光源；一线光对应尚未定位的微弱希望
+context_alignment: 光线仍只有一线，既表现巨大希望，也保留距离未知、未能定位的限制。
+narrative_function: 从监听员个人惊喜提升到文明历史转折，并说明地球为何成为生存执念。
+transfer_rule: 用黑隧道与出口光写历史希望时，应有长期封闭、艰难推进、可辨出口信号和尚未真正脱困的距离。
+failure_boundary: 文明已有多个宜居选择、行动自由，或新信息并不提供出路时，一线出口会制造虚假唯一性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明历经两百多次毁灭重生，在无稳定家园和出路的历史中艰难延续，终于发现宜居地球
+vehicle: 受困者在漫长黑隧道中匍匐前行，远方一线出口光预示可以离开黑暗
+ground: 文明艰难轮回对应爬行；不可预测灾变对应黑隧道；地球信息对应出口光；两百轮对应长距离

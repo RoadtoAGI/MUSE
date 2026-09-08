@@ -1,0 +1,28 @@
+scene_id: DT-S05
+source_notes: scene_DT-S05_beats.md
+patterns:
+  - pattern_id: DT-S05-p1
+    beat: 破门结果后置
+    dimension: omission
+    original_move: 先给专业工具与推断，再以碎裂声交付破门结果
+    ai_default_failure: 补写挥锤、裂纹扩大和玻璃破碎的完整动作
+    transfer_rule: 关键破坏可由预警与后果相接，动作过程留白
+    quote: 听到身后传来了一阵玻璃破碎的声音
+  - pattern_id: DT-S05-p2
+    beat: 电轨战术过期
+    dimension: info_density
+    original_move: 首批敌人触电后，余者停步并尝试绕开
+    ai_default_failure: 让同一陷阱反复奏效，靠敌人连续送死
+    transfer_rule: 对手能观察时，让一次成功改变下一轮博弈
+    quote: 居然停在铁轨边，没有冲上来
+overall_traits:
+  - 预警与后果连接未呈现的破门动作
+  - 对手从伤亡中调整行动
+  - 潜行追逐陷阱依次接管压力
+narrative_organization:
+  presentation: 隔墙观察与蹲行潜过在前，合金锤预警和碎裂声把潜行切成追逐，僵直尸体与带电铁轨再把追逐切成环境博弈
+  transition_anchor: 逃生锤、玻璃破碎声、僵直尸体和“小心点，有电”
+  knowledge_change: 人物从相信玻璃能够隔离徒手攻击，转为确认专业工具可以破坏屏障；电轨奏效后又确认余下感染者会观察伤亡并调整行动
+  cross_thread_effect: 感染者行为认知线连续改变小队的逃生战术
+  effect: 每个解法先提供短暂生路，随后缩短自身有效期
+  source_anchor: 地铁.md:109-147

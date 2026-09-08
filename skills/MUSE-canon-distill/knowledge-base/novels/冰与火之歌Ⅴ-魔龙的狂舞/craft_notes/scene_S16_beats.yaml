@@ -1,0 +1,49 @@
+scene_id: S16
+source_notes: scene_S16_beats.md
+patterns:
+- pattern_id: S16-p1
+  beat: 两只眼睛
+  dimension: camera
+  original_move: 只给黑暗中的眼睛、青烟和热度
+  ai_default_failure: 立刻写手抖、心跳等恐惧反应
+  transfer_rule: 写巨物逼近时先限制可见范围
+  quote: 两只眼睛在面前升起
+- pattern_id: S16-p2
+  beat: 青蛙时刻
+  dimension: omission
+  original_move: 用一个自我意象诊断幼稚，不解释来源
+  ai_default_failure: 解释外号来源或改成英雄自励
+  transfer_rule: 写自卑复发时用短名词闪回
+  quote: 我又变成青蛙
+- pattern_id: S16-p3
+  beat: 鞭子破空
+  dimension: verb
+  original_move: 复现驯龙流程，却让鞭子成为绝望加速
+  ai_default_failure: 给龙一个似乎回应的希望信号
+  transfer_rule: 写镜像失败时让同动作生成反结果
+  quote: 坐下，坐下，坐下
+- pattern_id: S16-p4
+  beat: 危险来自背后
+  dimension: camera
+  original_move: 让叫喊先于视觉，致命源来自未监控背后
+  ai_default_failure: 设计正面对决和攻击预警
+  transfer_rule: 写事故型死亡时避开正面戏剧准备
+  quote: 背后，你背后
+- pattern_id: S16-p5
+  beat: 鞭子烧着
+  dimension: verb
+  original_move: 用发现而非感到写休克中的解离
+  ai_default_failure: 展开烧灼气味和皮肤熔化
+  transfer_rule: 写重创时先写认知拒绝理解
+  quote: 鞭子烧着了
+- pattern_id: S16-p6
+  beat: 噢
+  dimension: omission
+  original_move: 用单字认知截断死亡前独白
+  ai_default_failure: 临死回收父亲、家乡和遗憾
+  transfer_rule: 写猝死时让痛苦快过意义
+  quote: 噢，他心想
+overall_traits:
+- 镜像结构点对点反转
+- 灾难来自战术盲点
+- 单字认知截断死亡独白

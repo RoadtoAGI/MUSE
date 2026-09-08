@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fc7ecbe992f9c71294e0019b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2156
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 人马座三星成了太空中的奥林匹斯山，那是神的住所
+sensory_mapping: 仰望高处；遥远星光；神山峰顶；空间圣化；宗教敬畏
+context_fact: 拯救派对三体文明的想象发展成宗教感情，三体教随之诞生。
+image_mechanism: 天文坐标被垂直化成神山，四光年距离成为凡人与神域的高度差；一颗可定位的恒星系统由此取得圣地中心性。
+property_alignment: 高等文明对应神祇；人马座三星对应神山位置；四光年遥远对应高不可攀；真实天体可定位对应神居有明确方位；拯救派崇拜对应凡人仰望祭奉
+context_alignment: 三体教不同于传统宗教之处正是对象真实存在，把星系命名为神山连接了天文事实与宗教结构。
+narrative_function: 一句完成外星文明从想象对象到宗教神祇的位阶跃迁。
+transfer_rule: 把地点圣化为神山时，应同时建立居住者的超越地位、空间距离、信徒朝向和可识别圣地中心。
+failure_boundary: 对象被群体视为平等伙伴、地点频繁往来且不具崇拜仪式时，神山会错误抬高权力关系。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 被拯救派视为更高存在居所、承载敬畏和朝向的三体母星系统
+vehicle: 希腊神话中高踞人间之上、众神居住且凡人仰望的奥林匹斯山
+ground: 三体文明技术高于人类对应神高于凡人；遥远星系对应高不可攀的神山；信徒精神朝向该处对应人间仰望神居

@@ -1,0 +1,27 @@
+card_id: muted-savior-miscredit
+pattern_name: 失声真相错位
+dramatic_function: 让主角拥有关键功绩却失去解释权，使亲密关系越近误认越深。
+applicability: 适合爱情、谍战、职场功绩线；若主角可轻易举证则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 人鱼变成人
+- 救王子沉船
+- 神庙女子
+tags:
+- 误认
+- 失语
+- 功绩错配
+- 信息不对称
+source_scenes:
+- novel: 海的女儿
+  scene_id: S02
+  note: 小人鱼救王子后退到泡沫后，另一个女子承接受救位置。
+- novel: 海的女儿
+  scene_id: S04
+  note: 王子亲近她却把救命记忆归给神庙女子。
+- novel: 海的女儿
+  scene_id: S05
+  note: 邻国公主出现后，误认被王子当成幸福真相确认。
+phase_affinity:
+- 2
+- 3
+- 4

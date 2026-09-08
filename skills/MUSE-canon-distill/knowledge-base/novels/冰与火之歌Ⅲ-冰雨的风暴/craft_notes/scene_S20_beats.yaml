@@ -1,0 +1,35 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 连锁发现
+  dimension: info_density
+  original_move: 每次发现都推向下一步暴力。
+  ai_default_failure: 会让复仇动机先行解释。
+  transfer_rule: 不可逆因果由发现串联。
+  quote: 父亲在哪儿
+- pattern_id: S20-p2
+  beat: 铁环攀爬
+  dimension: verb
+  original_move: 用机械攀爬替代复仇心理。
+  ai_default_failure: 会直写心中只有复仇。
+  transfer_rule: 杀意可让身体重复动作生成。
+  quote: 二百三十个
+- pattern_id: S20-p3
+  beat: 金链杀人
+  dimension: camera
+  original_move: 权力项链变成勒杀工具。
+  ai_default_failure: 会详写挣扎和死亡表情。
+  transfer_rule: 象征物可在高潮转为凶器。
+  quote: 金手触摸
+- pattern_id: S20-p4
+  beat: 厕所弑父
+  dimension: omission
+  original_move: 不写恐惧，只写手指一紧。
+  ai_default_failure: 会安排长段父子诀别。
+  transfer_rule: 终极决断可压缩到微动作。
+  quote: 你不敢
+overall_traits:
+- 发现链形成不可逆因果
+- 身体替代心理
+- 物件系统终极收束

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f4dbd13ec9ff0ee89eb12d3d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L833
+chapter: 第10章 宇宙闪烁之二
+figure_type: simile
+quote: 直线变成了曲线，出现了间隔不一的尖尖的波峰，颜色也变红了，如同一条冬眠后的蛇开始充血蠕动了
+sensory_mapping: 视觉；颜色；形态；生命运动；温度想象
+context_fact: 凌晨一点，三个卫星终端上的宇宙背景辐射波动如期出现。
+image_mechanism: 图表的一条线先获得细长动物身体，颜色变化让血液灌入，随后每个波峰成为肌肉收缩形成的弯曲；数据异常被完整演成从休眠到苏醒。
+property_alignment: 绿直线静止对应蛇体僵直冬眠；曲线变红对应复苏后血液充盈；波峰连续变化对应蛇身弯曲蠕动；长期无波动后突现信号对应休眠结束
+context_alignment: 终端确有直转曲、绿转红和动态刷新三项连续变化，蛇喻逐帧贴合界面而非只取曲线外形。
+narrative_function: 让抽象数据像危险生命苏醒，瞬间提升异常的威胁感。
+transfer_rule: 用生物写数据曲线时，应让基线状态、颜色切换、形状变化和时间转折分别对应生理过程的连续阶段。
+failure_boundary: 静态单张曲线、颜色不变或规则正弦波没有充血复苏和不规则蠕动过程，蛇喻只剩外形套用。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 原本平直绿色的背景辐射曲线突然变红并出现不规则波峰
+vehicle: 僵直冬眠的蛇恢复血流、变红并开始曲折蠕动
+ground: 绿直线静止对应蛇体僵直冬眠；曲线变红对应复苏后血液充盈；波峰连续变化对应蛇身弯曲蠕动；长期无波动后突现信号对应休眠结束

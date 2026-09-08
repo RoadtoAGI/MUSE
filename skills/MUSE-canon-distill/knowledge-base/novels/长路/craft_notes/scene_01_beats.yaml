@@ -1,0 +1,28 @@
+scene_id: '01'
+source_notes: scene_01_beats.md
+patterns:
+- pattern_id: 01-p1
+  beat: 发现
+  dimension: camera
+  original_move: 手指先触到可乐，视觉后到
+  ai_default_failure: 先写惊喜和心跳再写物件
+  transfer_rule: 奇迹物件出现时先给触觉
+  quote: 触到了冰凉的金属柱体
+- pattern_id: 01-p2
+  beat: 分享
+  dimension: omission
+  original_move: 父亲不解释可乐，只说给你
+  ai_default_failure: 补充旧世界背景解释
+  transfer_rule: 珍贵赠予用行为替代说明
+  quote: 好东西，给你的
+- pattern_id: 01-p3
+  beat: 余味
+  dimension: omission
+  original_move: 用孩子的好吧直接收束
+  ai_default_failure: 追加沉默和内心收束
+  transfer_rule: 对白已完成情绪时立即切断
+  quote: 好吧，孩子说
+overall_traits:
+- 物件物理存在自行叙事
+- 对白承担主要情感推进
+- 用唯一赠予替代爱的宣言

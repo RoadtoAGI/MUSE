@@ -1,0 +1,16 @@
+mode: reference
+display_name: 琳娜
+role_slug: lina
+source_novel: 日耳曼涅槃
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_07.md
+  - scenes/scene_27.md
+  - scenes/scene_28.md
+built_at: 2026-07-06T04:45:27+08:00
+skill_version: 1
+locator_count: 19
+has_canon_ending: false
+coverage_note: |
+  覆盖 scene_07/27/28 三场（1938 重逢摊牌 / 1929 倾诉真相 / 1939 平安夜密谈），跨要挟-真爱-同志三段变奏；统领腔与诱惑腔双音区均有锚定。前史（第36-39章设局、第82章要挟）未切片，相关断言以 scene_27 的回溯自白为据，不做跨场景因果推断。角色存活且暗线未收束，无 canon-ending。

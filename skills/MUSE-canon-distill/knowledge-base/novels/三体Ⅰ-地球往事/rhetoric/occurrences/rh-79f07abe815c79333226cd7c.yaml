@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-79f07abe815c79333226cd7c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2036
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 瘦小女人的脸上有一种老鼠的表情
+sensory_mapping: 尖小面孔；游移眼神；缩身；缝隙逃窜；持续警觉
+context_fact: 她失业贫困、声音总带来源不明的惊恐，却仍以挑衅掩饰，不肯给叶文洁忏悔。
+image_mechanism: 人的脸被压缩成在墙角生存的小动物，表情每一处都在测量出口；当年进攻性的政治姿态退化为躲避现实和责任的鼠性警觉。
+property_alignment: 身材瘦小对应鼠体；背弯对应缩身；惊恐音色对应受惊鼠叫；目光防备对应寻找逃路；失业边缘处境对应缝隙生存；面对质问挑衅对应困兽自卫
+context_alignment: 粗壮女人是麻木、独臂女人望天，老鼠表情把第三种创伤形态区分为持续惶恐。
+narrative_function: 以动物性面部速写建立人物声音和防御方式，为后续拒绝忏悔作准备。
+transfer_rule: 用鼠类写表情时，应从体态、目光、警觉、逃避路径和边缘生存环境中建立具体对应。
+failure_boundary: 人物姿态舒展、目光稳定主动承担责任，或只是外貌尖小而无畏缩行为时，老鼠会沦为侮辱标签。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 瘦小老红卫兵因长期惊恐、困顿和面对受害者女儿而显出的畏缩警觉神情
+vehicle: 老鼠在危险环境中缩身、眼神游移并随时准备逃窜的表情
+ground: 女人瘦小蜷曲对应鼠类体态；眼神惊恐警觉对应老鼠避险；社会边缘处境对应鼠在缝隙求生

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6533d73bddf92182fcc97330
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2512
+chapter: 第34章 智子
+figure_type: simile
+quote: 所有的几何体开始变形，渐渐失去了规则的形状，像受热融化似的
+sensory_mapping: 边缘下垂；热软化；几何轮廓流动；形状塌陷；渐进变化
+context_fact: 宏观几何体并非稳定物件，而是质子高维结构在三维中的暂时展开，随后持续变形。
+image_mechanism: 积木般硬直的空间结构仿佛被无形温度加热，棱角先钝化再流走；虽然没有真实火焰，观察者借熟悉相变读懂几何秩序正在崩解。
+property_alignment: 直边曲化对应固体软化；规则体塌陷对应融化失形；变化由缓到烈对应持续升温；多个物体同步对应整体受热；形态流动对应熔体可塑
+context_alignment: 上一喻体把它们当积木，此句沿用积木材质直觉再让其融化，连续而不重复地推进状态变化。
+narrative_function: 把稳定奇观转入失控阶段，为随后肢体内脏般的恐怖形态过渡。
+transfer_rule: 用融化写形态失稳时，应呈现棱角消失、边界流动、渐进加速和由规则到不规则的方向。
+failure_boundary: 物体以爆裂方式瞬间碎开、尺寸不变只作刚体旋转，或有明确机械折叠关节时，受热融化的连续软化不贴切。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 天空中原本规则的高维投影结构逐步软化、边界流动并失去几何定形
+vehicle: 固体积木受到持续加热后软化熔融，直边塌陷并流成不规则形状
+ground: 规则边界消失对应固体熔化；变形逐渐加剧对应受热过程；形态开始流动对应融物软化

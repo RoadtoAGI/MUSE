@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1ee302fb11aac0c46e4eb516
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2712
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 正在云海中下沉的夕阳仿佛被融化了，太阳的血在云海和天空中弥散开来
+sensory_mapping: 熔融圆日；血液红色；云海扩散；夕光降温；生命终止
+context_fact: 濒死叶文洁回到红岸遗址观看最后一次日落，她的一生和红岸历史同时收束。
+image_mechanism: 夕阳不再完整落下，而在云海中失去边界，红光被物质化成血；天空像承接伤口的水体，让一颗恒星的死亡与一颗人心的断裂同帧发生。
+property_alignment: 圆日边缘模糊对应身体熔解；霞光血红对应鲜血颜色；红色向云海扩散对应血液入水；太阳下沉对应生命衰落；大片血红对应流血规模；叶文洁濒死对应天体受伤
+context_alignment: 太阳曾是叶文洁向宇宙发信的能量镜面，结尾它以流血熔化的形态陪伴她死亡，科技天体回到肉身意象。
+narrative_function: 把人物死亡、红岸终结和太阳意象合并成最终视觉高潮。
+transfer_rule: 用融化流血写夕阳时，应同时出现轮廓消失、红色介质扩散、下沉时间方向和人物或事件的死亡语境。
+failure_boundary: 日落色调金黄清淡、轮廓清晰且场景情绪喜庆新生时，血液和熔解会强加悲剧。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 夕阳沉入云海时圆形轮廓在红光扩散中消失，大片天空和云层被染成血红
+vehicle: 炽热生命体在下沉中熔解并流血，血液从破开的身体向周围液体和空气大面积扩散
+ground: 太阳轮廓消融对应身体熔化；红色霞光扩散对应血液弥散；下沉过程对应生命流失；血红覆盖云天

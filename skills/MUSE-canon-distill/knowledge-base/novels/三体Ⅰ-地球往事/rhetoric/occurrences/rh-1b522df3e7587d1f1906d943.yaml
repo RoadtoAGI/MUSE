@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1b522df3e7587d1f1906d943
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2232
+chapter: 第31章 两个质子
+figure_type: simile
+quote: 我最多也只能感到像被针扎了一下
+sensory_mapping: 指尖触觉；尖锐刺点；短瞬疼痛；极小面积；轻微缩手
+context_fact: 汪淼无法理解两个质子如何锁死科学，先以宏观能量效应估算其微不足道。
+image_mechanism: 不可感知的粒子能量被汇聚到最敏感的指尖，再换算成人人熟悉的一次针刺；即便采用最有利于感知的集中方式，效果仍小得可怜。
+property_alignment: 能量集中一点对应针尖接触；指尖敏感对应针刺易感；能量总量微小对应痛感轻；作用瞬间对应扎一下；无持续伤害对应针离即止
+context_alignment: 此比照代表人类按能量和宏观伤害理解质子的直觉，下一步高维展开将彻底推翻这一直觉。
+narrative_function: 建立质子表面威力的低基线，使智子工程带来的尺度逆转更震撼。
+transfer_rule: 用针刺标定微小作用时，应明确受力集中点、持续时间、身体敏感部位和无扩散后果。
+failure_boundary: 效应遍及全身、持续灼烧或真正造成组织破坏时，单次针扎会严重低估作用方式。
+quality_assessment: functional
+confidence: 0.99
+review_status: reviewed
+tenor: 两个质子即使在汪淼指尖全部转成能量，也只会造成极其微弱、局部而短暂的身体感觉
+vehicle: 细针尖瞬间刺入指尖，产生一点尖锐但范围很小的痛感
+ground: 能量作用集中于指尖对应针尖局部接触；总能量极少对应刺痛短促轻微

@@ -1,0 +1,35 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 宇宙噪声存在主义
+  dimension: camera
+  original_move: 不看脸看波形曲线，用噪声术语写尽八年孤独
+  ai_default_failure: 插入回忆闪回与「她感到孤独」的直接陈述
+  transfer_rule: 写长期心境可借人物注视的技术对象作情感容器
+  quote: 无规律无生命的随机起伏
+- pattern_id: S10-p2
+  beat: AAAAA识别度
+  dimension: info_density
+  original_move: 第一次接触只给识别度从C跳到AAAAA的数据与机制
+  ai_default_failure: 整段铺角色颤抖落泪的情感反应描写
+  transfer_rule: 重大发现可用一个数据跃迁替代情绪段，数据即情感
+  quote: 发现识别度是 AAAAA ！！
+- pattern_id: S10-p3
+  beat: 发射主控室
+  dimension: omission
+  original_move: 抉择零挣扎，按手册语言写扳开关重设频率的操作流
+  ai_default_failure: 手悬按钮上回忆闪回泪水滑落的挣扎长段
+  transfer_rule: 命运级动作可程序化执行，用一词决绝替代全部心理
+  quote: 毫不犹豫地，叶文洁按下了发射键
+- pattern_id: S10-p4
+  beat: 按键后反高潮
+  dimension: overall
+  original_move: 宇宙尺度直坠值班员哈欠与一个微笑，并置怀孕不评论
+  ai_default_failure: 按键后加「宇宙从此改变」的感悟回响段
+  transfer_rule: 巨变后用旁观者的日常反应收束，落差即意义
+  quote: 叶文洁冲他笑了笑，没有说话
+overall_traits:
+- 用技术手册语言写存在主义时刻
+- 「毫不犹豫」是指向前文因果的超链接
+- 反高潮日常细节把宇宙事件锚定人类尺度

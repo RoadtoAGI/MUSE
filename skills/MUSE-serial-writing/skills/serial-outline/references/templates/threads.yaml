@@ -1,0 +1,16 @@
+# series/ledgers/threads.yaml —— 伏笔/悬线台账（append-only）
+schema_version: 1
+threads:
+  - thread_id: T-017
+    kind: 伏笔                    # 伏笔 | 悬线 | 承诺 | 谜团（+ 类型档案扩展值）
+    tier: 长线                    # 短线 | 中线 | 长线；可省略（回收周期 review 信号按层分档）
+    opened_at: C0003
+    statement: 主角腰间玉佩刻有非本门的符文
+    intended_payoff:             # 意图区，可改
+      horizon: V03                # 预期回收卷（防烂尾扫描锚点）
+      planned_close: null         # 可选章级预期回收锚（裸章号）；缺省用 horizon
+      note: 揭示玉佩是失散多年的师门信物
+    status: open                  # open | advanced | paid | abandoned
+    events:                       # append-only
+      - {at: C0009, kind: advance, note: 主角发现玉佩符文会随月相发光}
+      - {at: C0071, kind: payoff, note: 玉佩符文对应的师门被证实尚存于世}

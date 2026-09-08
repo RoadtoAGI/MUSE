@@ -1,0 +1,28 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 铺垫
+  dimension: omission
+  original_move: 从日常问答自然长出演说
+  ai_default_failure: 提前用严肃表情预告重要信息
+  transfer_rule: 主题独白前先保持闲聊表面
+  quote: 残人就是逃兵吗？
+- pattern_id: S06-p2
+  beat: 演说核心
+  dimension: verb
+  original_move: 动词从柔和出发升级到暴力崩溃
+  ai_default_failure: 用具体案例削弱普遍命运覆盖面
+  transfer_rule: 写群体创伤时用匿名复数推进
+  quote: 他们尝到了战争的滋味
+- pattern_id: S06-p3
+  beat: 演说收尾
+  dimension: omission
+  original_move: 用沉默替代角色反思和流泪
+  ai_default_failure: 让角色评论或解释自己被触动
+  transfer_rule: 强主题落点后留沉默给读者
+  quote: 深邃的沉默笼罩
+overall_traits:
+- 独白足够强时可替代冲突场景
+- 先匿名复数再落到讲述者自身
+- 沉默是最佳反应

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8a78dab58f47dc2c7f3f2fab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2615
+chapter: 第34章 智子
+figure_type: analogy
+quote: 就像你切断一根磁铁，却得到了两根磁铁一样
+sensory_mapping: 条磁铁切口；两段分开；磁极重现；吸引靠拢；整体复原
+context_fact: 元首问加速器能否毁掉智子，科学执政官说明碰撞只会产生多个低功能碎片，随后自动修复。
+image_mechanism: 击碎被从毁灭动作改写成复制性质的切割，刀口每出现一次，原有能力便在两个新端面重新闭合；智子越打越多的反直觉由磁铁经验托住。
+property_alignment: 完整智子对应整根磁铁；高能击碎对应切断；智子碎片对应两段磁铁；各片仍有功能对应各段仍具两极；量子联系对应磁性关联意象；重新靠拢对应磁体相吸
+context_alignment: 磁铁例子是常见课堂模型，能快速纠正把质子碎裂等同宏观物体消失的直觉。
+narrative_function: 解释智子抗毁性，并消除人类用加速器反击它的希望。
+transfer_rule: 用切磁铁解释分割保性时，应匹配整体属性在每个碎片重现、碎片数增加和切断不消灭功能；另行说明复原机制。
+failure_boundary: 磁铁切割不能证明智子量子修复的全部物理机制，也不适用于属性依赖完整结构、碎后即失效的系统。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 一个智子被高能碰撞击碎后，各碎片仍保留智子性质和量子联系，可分别运作并重新组合
+vehicle: 条形磁铁从中切断不会得到孤立磁极，而会成为两根各自拥有两极的完整小磁铁
+ground: 整体分割后功能性质仍在各片重现；碎片之间源自同一整体；切断不等于消灭基本属性

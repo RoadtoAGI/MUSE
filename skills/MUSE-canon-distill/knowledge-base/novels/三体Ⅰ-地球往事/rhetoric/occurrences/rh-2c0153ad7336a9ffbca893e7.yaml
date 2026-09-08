@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2c0153ad7336a9ffbca893e7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L504
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 像无数飞舞的云母片
+sensory_mapping: 视觉；材质；运动
+context_fact: 温度更低，大气主要成分也凝固下落。
+image_mechanism: 陌生固态气体被赋予云母的可剥薄度与片状反光，每次翻转都在火炬下闪出冷蓝面。
+property_alignment: 雪花薄且半透明对应云母可剥薄片；火炬下淡蓝闪光对应云母转动反光；片状飘飞对应轻薄矿片翻转
+context_alignment: 矿物薄片同时匹配透明度、形态和动态光泽。
+narrative_function: 让固态大气呈现可识别材质。
+transfer_rule: 描写陌生材料时，至少统一厚度、透明度、反光方式和运动姿态，材质名才不只是颜色标签。
+failure_boundary: 针状晶体、粉末雪或不透明颗粒不具备云母的片状与转面闪光。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 淡蓝、薄透明的固态氧氮雪花
+vehicle: 空气中翻飞的透明云母薄片
+ground: 雪花薄且半透明对应云母可剥薄片；火炬下淡蓝闪光对应云母转动反光；片状飘飞对应轻薄矿片翻转

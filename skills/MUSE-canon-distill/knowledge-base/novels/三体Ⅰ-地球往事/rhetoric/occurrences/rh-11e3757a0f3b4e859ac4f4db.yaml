@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-11e3757a0f3b4e859ac4f4db
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1545
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 连绵的透明山脉在缓缓上升
+sensory_mapping: 视觉；巨大尺度；透明光泽；垂直上升；峰谷轮廓
+context_fact: 三日连珠使行星表面物质被吸向太空，汪淼从高处看见整个海洋脱离地面。
+image_mechanism: 通常铺平低处的海被重力反向掀成立体地形，液体浪峰放大到山岳尺度；透明与变形又让这座山脉保持水的材质和流动。
+property_alignment: 海面广阔对应山脉绵延；受力形成巨浪对应峰谷起伏；海水透明对应晶莹山体；整体离地对应山脉升空；水流变形对应山形持续变化
+context_alignment: 前景的人和巨石已失重，远景把同一引力扩大到海洋尺度，透明山脉使不可思议的全球剥离仍具可见形态。
+narrative_function: 把天体灾变从人群提升到行星水体，以壮美奇观完成尺度升级。
+transfer_rule: 将巨浪或升空水体写成山脉时，应同时匹配峰谷尺度、横向绵延、材质光泽和缓慢巨量运动。
+failure_boundary: 水面只有细浪、体量不足以形成高差，或水混浊不呈透明山体时，山脉会无依据放大景象。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 海洋整体受叠加引力拉离地表时形成的巨大、起伏、透明水体
+vehicle: 一列峰谷相接、绵延地平线并缓慢隆起的晶莹山脉
+ground: 海水被拉成巨大起伏轮廓对应群峰连绵；水体透明反光对应晶体山峰闪耀

@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--shi-haoyang
+work_id: novel:狂病-莫千回
+display_name: 石浩洋
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '石浩洋有两副嗓子。面具期是市井愣头青的粗口与江湖气——吐痰、甩筷子、"再这样就给你的脸来上两下子""不想待就赶紧滚"，靠直接动手压场。真身揭晓后翻成把屠杀元叙事化的"游戏导演"腔：他把幸存者叫"猪仔""星星"，把这场清剿定义成"狼人杀""剧本杀"，用炫耀的、居高临下的口吻复盘自己的布局——"一群大人，被一个小孩玩死了，你们羞不羞呀？"。他评点对手时带着导演式的惋惜（"那个罗允心思缜密了一些，但城府太浅了，可惜了"），威胁时则极尽下流羞辱（要把对方做成马桶喂排泄物）。
+
+
+    佐证：scenes/scene_YY-S03.md:L43-L43 / scenes/scene_YY-S10.md:L65-L65 / scenes/scene_YY-S10.md:L73-L73 / scenes/scene_YY-S10.md:L79-L79'
+  evidence_locators:
+  - scenes/scene_YY-S03.md:L43-L43
+  - scenes/scene_YY-S10.md:L65-L65
+  - scenes/scene_YY-S10.md:L73-L73
+  - scenes/scene_YY-S10.md:L79-L79
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

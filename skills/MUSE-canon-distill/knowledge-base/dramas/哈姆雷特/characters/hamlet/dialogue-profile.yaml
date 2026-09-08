@@ -1,0 +1,21 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:hamlet
+work_id: drama:哈姆雷特
+display_name: 哈姆雷特
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "哈姆雷特的声音以高速转调为核心：公开场合常从礼貌称谓滑入双关讽刺，独处时转为哲学独白和死亡意象，面对窥探者则把对话改造成陷阱。他偏好用腐败、尸体、性、戏剧、梦和灵魂审判来解释现实；句法上能从连绵铺陈的长独白突然缩成尖锐短句。典型潜台词模式是“表面胡言，实为审问”：他说自己发疯，却常能准确识别谁在探听、谁在被权力使用。\
+    \  \n\n来源：phase2_character.yaml → protagonist.voice_traits  \n佐证：scenes/scene_A3S1.md:L15-L23；scenes/scene_A3S2.md:L5-L7；scenes/scene_A3S2.md:L137-L141；scenes/scene_A5S2.md:L29-L39"
+  evidence_locators:
+  - scenes/scene_A3S1.md:L15-L23
+  - scenes/scene_A3S2.md:L5-L7
+  - scenes/scene_A3S2.md:L137-L141
+  - scenes/scene_A5S2.md:L29-L39
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

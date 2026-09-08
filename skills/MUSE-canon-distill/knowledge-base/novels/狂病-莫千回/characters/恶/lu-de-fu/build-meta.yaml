@@ -1,0 +1,22 @@
+mode: reference
+display_name: 陆德夫
+role_slug: lu-de-fu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # arc_4（受害者 POV 离场）+ arc_5（换班悲剧）
+  - pipeline/phase0_conception.yaml  # controlling_idea.candidate_b/c
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S06.md
+  - scenes/scene_EE-S09.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 6
+has_canon_ending: true
+coverage_note: |
+  声音框架以内心独白为载体（陆德夫近乎全篇沉默），跨 S06（丧妻回忆内心语言 + 对争论的漠然）+ S09（换班最低限度实用话）两场。
+  弧光起点（S06 丧妻固化"人人只为自己"信念）+ 转折（S09 换班无意助恶）两段齐全；终点即助恶后被同批诱杀。
+  性格真相有压力情境直接佐证（S09 被告知"只是抢枪"即相信配合 + S06 对拉帮结派的漠然）。
+  核心欲望跨 S05（率先举手赞成去避难所）+ S09（配合换班）两场。
+  陆德夫为受害者兼无意识共犯双重身份，所有助恶断言均强调"无意识/被创伤逻辑推动"，未拔高为主动作恶（与廖振宇/张潇潇区分）。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-76d53e0fa4f102fe30a91db8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2566
+chapter: 第34章 智子
+figure_type: simile
+quote: 电磁辐射仍将持续发射，像许多根辐条一样维持住这个大球面的稳定
+sensory_mapping: 中心放射线；轮圈圆周；辐条张力；球壳支撑；结构稳定
+context_fact: 引力会继续使二维质子面变形，工程系统用地面电磁辐射把它稳定成同步轨道尺度球壳。
+image_mechanism: 不可见电磁场被画成从行星中心伸出的硬线，每束线都顶住球壳一处；车轮的平面辐条被扩展到三维全方向，组成看不见的支撑骨架。
+property_alignment: 行星中心对应轮毂；球壳对应轮圈；径向辐射对应辐条；多束均布对应轮辐环列；持续发射对应持续张力；抵抗变形对应保持车轮圆形
+context_alignment: 该类比直接解释工程控制机制，使读者理解球面为何不会在引力下继续塌陷。
+narrative_function: 将场强平衡转成结构力学图，清楚说明二维工作平台的维稳方式。
+transfer_rule: 用辐条解释场束支撑时，应明确中心、外壳、径向分布、持续受力和各束共同维持曲率。
+failure_boundary: 辐射沿切向传播、只在单点施力或球壳靠自身刚性稳定时，辐条结构会错误描述受力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从行星表面向质子球壳多方向持续施加、用于平衡引力并固定壳面形状的电磁辐射束
+vehicle: 车轮中心通向轮圈的多根辐条以放射结构共同支撑圆周，保持整体不变形
+ground: 行星居球心对应轮轴；质子球面对应轮圈；多束径向辐射对应辐条；持续张力维稳功能相同

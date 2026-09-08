@@ -1,0 +1,25 @@
+card_id: duty-coded-sleeper-line
+pattern_name: 责任暗线执行者
+dramatic_function: 为长时间跨度叙事提供贯穿暗线：人物按责任而非结果行动，真实意图延迟两百年揭晓，回读时每个动作细节皆成伏笔
+applicability: 适合多时代跳跃结构；须早期埋设可回读的具体动作，人物动机过早外露或缺乏「沉默塑形」则暗线塌陷（单书孤证，验证面窄）
+reuse_candidates:
+- 太空军与冬眠增援未来的制度设定
+- 陨石子弹暗杀的具体手法
+- 军人世家父子关系细节
+tags:
+- 暗线人物
+- 延迟揭晓
+- 伏笔回收
+source_scenes:
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S08b
+  note: 「要多想」三字埋下贯穿两百年的行动纲领
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S08
+  note: 暗杀写成技术流程，动机藏于责任逻辑
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S09
+  note: 前进四一令揭晓暗线，全部前文细节反转为伏笔
+phase_affinity:
+- 2
+- 3

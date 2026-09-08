@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:不详--shen-zengqi
+work_id: novel:狂病-莫千回
+display_name: 沈曾祺
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '沈曾祺很少谈自己，被问及过去时只是低头摇摇、把话头让给别人——他的"声音"主要落在行动指令和生存判断上：低声、克制、几乎不带情绪，越是危险的时刻越压着所有人安静。他偶尔会开个不咸不淡的玩笑（笑亦凡年纪轻轻就生病、要"学学他这身子骨"），但谈到部署立刻收起所有闲笔，只说"该怎么活"——"队伍里的人缺一不可"、"如果短时间内能被找到，就舍弃这个点位换下一个"这类把生存逻辑讲透的处置式陈述，是他最稳定的语言形态。对抗生素这种东西，他的原话是"希望我们永远也用不到，用到了希望真的有用吧"——一种把最坏可能也算进去、却不渲染恐惧的务实语调。
+
+
+    佐证：scenes/scene_BX-S04.md:L23-L23 / scenes/scene_BX-S04.md:L29-L29 / scenes/scene_BX-S04.md:L41-L41 / scenes/scene_BX-S04.md:L49-L49'
+  evidence_locators:
+  - scenes/scene_BX-S04.md:L23-L23
+  - scenes/scene_BX-S04.md:L29-L29
+  - scenes/scene_BX-S04.md:L41-L41
+  - scenes/scene_BX-S04.md:L49-L49
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

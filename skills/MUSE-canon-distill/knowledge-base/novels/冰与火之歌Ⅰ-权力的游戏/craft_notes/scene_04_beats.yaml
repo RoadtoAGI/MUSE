@@ -1,0 +1,28 @@
+scene_id: '04'
+source_notes: scene_04_beats.md
+patterns:
+- pattern_id: 04-p1
+  beat: 攀爬的喜悦
+  dimension: omission
+  original_move: 长段身体快感铺陈攀爬能力与安全史，全无叙述者不祥预兆
+  ai_default_failure: 提前植入「他不知道这将是最后一次攀爬」式预告
+  transfer_rule: 重大转折前建立能力与安全基线，铺垫只许事后回读发现
+  quote: 「我不是泥做的，而且我绝对不会摔下去」
+- pattern_id: 04-p2
+  beat: 挤牙膏式信息释放
+  dimension: info_density
+  original_move: 内容、情境、身份三层信息分开释放，制造三次递进震惊
+  ai_default_failure: 尽早揭示说话者身份以「帮助」读者理解对话
+  transfer_rule: 偷听场景延迟身份揭示，让POV认知错位维持悬念
+  quote: 「布兰这才会意，他们谈论的正是父亲」
+- pattern_id: 04-p3
+  beat: 坠落
+  dimension: omission
+  original_move: 一个「推」字完成转折，场景在半空硬切，不写落地与反应
+  ai_default_failure: 写落地冲击、围观者惊呼、失去意识前的最后念头
+  transfer_rule: 在最高张力点戛然而止，结果留给下一个POV章节揭示
+  quote: 「好好想一想，我为爱情做了些什么」
+overall_traits:
+- 童年认知延迟作悬念装置，读者自行翻译孩童报告
+- 坠落无预兆且纯外力，写权力对无辜的碾压
+- 一句台词同担角色、主题、情节三重功能

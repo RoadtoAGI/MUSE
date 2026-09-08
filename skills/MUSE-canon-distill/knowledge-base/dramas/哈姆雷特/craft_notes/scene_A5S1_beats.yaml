@@ -1,0 +1,53 @@
+scene_id: A5S1
+source_notes: scene_A5S1_beats.md
+patterns:
+- pattern_id: A5S1-p1
+  beat: 法理抬杠
+  dimension: exchange
+  original_move: 丑角歪理法学先把死亡与阶级主题说粗
+  ai_default_failure: 悲剧深处不敢插喜剧，调性单一
+  transfer_rule: 大悲场前用俗语把主题过一遍
+  quote: 想做、要做、与去做
+- pattern_id: A5S1-p2
+  beat: 歌声与掷骨
+  dimension: blocking
+  original_move: 边唱情歌边掷骷髅，歌词与动作互为注脚
+  ai_default_failure: 加旁白解释掘坟人的麻木
+  transfer_rule: 歌词与动作的反差无需评论
+  quote: 把我带回泥土中
+- pattern_id: A5S1-p3
+  beat: 骷髅职业阶梯
+  dimension: monologue
+  original_move: 同一道具反复赋名，讽刺用职业行话堆出
+  ai_default_failure: 空对空沉思死亡，无实物扶手
+  transfer_rule: 哲思场给思考者一个道具扶手
+  quote: 这不会是个律师的头颅吧?
+- pattern_id: A5S1-p4
+  beat: 丑角赢王子
+  dimension: exchange
+  original_move: 全剧唯一在嘴上胜过主角的是掘坟工
+  ai_default_failure: 主角在斗嘴中永远占上风
+  transfer_rule: 让主角输给底层一次，主题与谦卑同到账
+  quote: 您躺在它外头, 所以它不是您的
+- pattern_id: A5S1-p5
+  beat: 约利克
+  dimension: monologue
+  original_move: 三轮无名骷髅后才出有名骷髅，距离一拍归零
+  ai_default_failure: 一上来就挖出熟人头骨，递进全无
+  transfer_rule: 同类道具按匿名到具名排递进梯
+  quote: 唉呀, 可怜的约利克
+- pattern_id: A5S1-p6
+  beat: 亚历山大推演
+  dimension: monologue
+  original_move: 哲思到顶点立即用打油诗泄压
+  ai_default_failure: 沉重收尾不解压，拖坏下一拍
+  transfer_rule: 悲怆不过夜，用韵脚泄压
+  quote: 凯撒死後化为土
+- pattern_id: A5S1-p7
+  beat: 葬礼撞见
+  dimension: blocking
+  original_move: 主角以旁观者身份逐步辨认爱人葬礼，当众爆裂
+  ai_default_failure: 提前告知死讯，撞见变成寒暄
+  transfer_rule: 噩耗可让当事人最后并公开知道
+  quote: 什么! 美丽的欧菲莉亚!
+overall_traits: []

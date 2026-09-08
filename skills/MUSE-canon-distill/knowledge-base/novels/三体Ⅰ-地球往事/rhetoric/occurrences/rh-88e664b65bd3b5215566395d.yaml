@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-88e664b65bd3b5215566395d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2347
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 发出一阵尖利的怪音，像无数只巨指在划玻璃
+sensory_mapping: 高频尖声；玻璃振颤；指甲触感联想；耳膜刺痛；群体刮擦
+context_fact: 飞刃切开的船片在惯性下相互错开，巨大切面正在直接摩擦。
+image_mechanism: 看不见的摩擦面被具象成覆盖船体的巨手，每道钢片接触线都是一根手指压上玻璃；数量放大后，触觉厌恶沿声音直接传进读者牙根。
+property_alignment: 钢片平面对应玻璃平面；边缘滑动对应手指刮划；高频摩擦对应玻璃尖鸣；四十多层接触对应无数手指；巨轮尺度对应巨指尺度；难以忍受对应身体性排斥
+context_alignment: 前句把船缩成扑克牌，此处又放大施力者为巨指，尺度摇摆符合目睹不可思议解体时的感官失真。
+narrative_function: 把机械摩擦转为强烈身体不适，让视觉奇观同时具有听觉暴力。
+transfer_rule: 用刮玻璃写尖声时，应匹配接触材质、持续滑动、频率、数量和听者明确的生理不适。
+failure_boundary: 声音低沉、间歇爆裂或来自空气轰鸣，没有连续表面摩擦时，划玻璃的尖细音色不对。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 四十多个巨大钢铁薄片相互摩擦滑动时叠加成的高频尖锐噪声
+vehicle: 许多异常巨大的手指同时刮划玻璃表面，制造持续刺耳摩擦声
+ground: 金属切片滑擦对应手指与玻璃摩擦；声音高尖难忍相同；多片同时摩擦对应无数手指

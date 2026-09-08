@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-348c2f7f401850296c551711
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1133
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 叶文洁走出雷达峰的最后一线希望也将不复存在
+sensory_mapping: 视觉；细度；明暗；断裂
+context_fact: 她原本仍可能在审查后离开，知晓最高机密则意味着终身留在基地。
+image_mechanism: 未来出口被缩到只剩一条纤细可见的连接，选择真相像剪断它；从此她与山外生活之间没有任何通路。
+property_alignment: 离开概率微小对应线/光极细；希望维系她与外界对应细线连接两端；同意后永远留守对应最后连接消失
+context_alignment: 基地在偏远山峰且限制森严，希望同时像通向山外的窄路和黑暗中的微光，贴合实际空间封闭。
+narrative_function: 把知情代价视觉化，强调她的同意是一生不可逆转折。
+transfer_rule: 用一线写最后可能时，应确定它连接的两端、为何已细弱，以及哪个动作会使其彻底断绝。
+failure_boundary: 仍有多条现实退路、可能性稳定或选择可随时撤销时，“最后一线”会制造虚假绝境。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 叶文洁未来获准离开红岸基地、恢复普通生活的极微小可能
+vehicle: 黑暗中仅剩的一缕细光或即将断裂的细线
+ground: 可能性已极低对应光/线细到近乎消失；接受机密后可能性彻底归零对应最后细线被切断

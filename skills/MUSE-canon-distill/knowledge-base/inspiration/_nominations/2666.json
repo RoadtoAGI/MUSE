@@ -1,0 +1,162 @@
+{
+  "novel": "2666",
+  "nominations": [
+    {
+      "pattern_name": "缺席轴心",
+      "dramatic_function": "用一个长期缺席的人物聚拢多线叙事，让寻找本身暴露世界真相。",
+      "applicability": "适用于群像和谜团结构；若缺席者无实际引力会失效。",
+      "reuse_candidates": [
+        "隐居德国作家",
+        "阿琴波尔迪研究圈"
+      ],
+      "tags": [
+        "缺席人物",
+        "多线汇聚",
+        "追寻结构"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S01",
+          "note": "评论家共同体因缺席作家而形成。"
+        },
+        {
+          "scene_id": "S22",
+          "note": "出版社层级只提供碎片证词，强化缺席引力。"
+        },
+        {
+          "scene_id": "S18",
+          "note": "缺席轴心最终转为行动者。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "零度累积",
+      "dramatic_function": "用冷档案和重复格式制造系统性暴力的压迫，而非靠单案悬念。",
+      "applicability": "适用于制度性伤害；若案件需侦探解谜则不宜全程零度。",
+      "reuse_candidates": [
+        "圣特莱莎女尸",
+        "法医伤害清单"
+      ],
+      "tags": [
+        "档案体",
+        "系统暴力",
+        "重复压迫"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S11",
+          "note": "第一具女尸以程序和医学术语进入叙事。"
+        },
+        {
+          "scene_id": "S04",
+          "note": "两百多人的数字先以传闻撕裂现实。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "知识失能",
+      "dramatic_function": "让高文化角色在真实暴力前失去行动力，形成文明反讽。",
+      "applicability": "适用于知识分子、专家、官僚群像；若角色必须英雄破局则慎用。",
+      "reuse_candidates": [
+        "德国文学会议",
+        "阿琴波尔迪论文争斗"
+      ],
+      "tags": [
+        "知识分子",
+        "行动失能",
+        "文明反讽"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "文化注脚反而包装街头暴力。"
+        },
+        {
+          "scene_id": "S04",
+          "note": "曼努埃尔用修辞学否认恐怖事实。"
+        },
+        {
+          "scene_id": "S05",
+          "note": "放弃寻找被包装成顿悟。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "琐事结尾",
+      "dramatic_function": "在最大叙事期待处用日常闲谈和短行动收束，留下行动后的空白。",
+      "applicability": "适用于开放式结局；若读者需要结果闭环会失效。",
+      "reuse_candidates": [
+        "三味冰激凌",
+        "去墨西哥"
+      ],
+      "tags": [
+        "开放结尾",
+        "极简行动",
+        "留白"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S18",
+          "note": "冰激凌闲谈后只用两句写出最终行动。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "身份重生也嵌入租赁登记的小程序。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "权力饭局",
+      "dramatic_function": "用社交空间展示多方欲望，让沉默、座位和转场暴露权力。",
+      "applicability": "适用于文艺圈、职场、政治社交；若只靠台词交锋会削弱。",
+      "reuse_candidates": [
+        "出版商和评论家",
+        "诺贝尔提名"
+      ],
+      "tags": [
+        "社交权力",
+        "沉默信息",
+        "空间转场"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S20",
+          "note": "饭局、花园、橡树边依次切换权力模式。"
+        },
+        {
+          "scene_id": "S19",
+          "note": "和解辞令立即落到期刊互不封杀。"
+        },
+        {
+          "scene_id": "S21",
+          "note": "销量和礼物揭示出版信任的真实机制。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    }
+  ]
+}

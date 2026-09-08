@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b0232893c11ef85733fa2110
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1297
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 大殿里的人都奔向洞门，蜂拥而出
+sensory_mapping: 群体运动；密度；方向；速度
+context_fact: 三日凌空警报和热浪进入大殿，刚才准备处刑的人群立即停止活动、抢门逃离。
+image_mechanism: 个体身份被压成一团密集小点，洞门变成巢口；危险像扰巢外力，使整群沿唯一方向突然喷出。
+property_alignment: 众人数量多对应蜂群；洞门狭窄对应蜂巢出口；同时奔逃对应受惊群蜂；拥挤无序对应蜂团相互推挤
+context_alignment: 高温与火光天然接近熏巢驱蜂的感官经验，群体此前的权威姿态在灾难中迅速降为本能逃生。
+narrative_function: 加速场面并取消学者、教皇身份，显示三日面前人人同样渺小。
+transfer_rule: 用蜂拥写出口人潮时，应具备群体密度、单一狭口、共同惊扰源和无序速度。
+failure_boundary: 人群列队撤离、出口宽阔多向或行动缓慢时，蜂群会错误抹去组织性。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 殿内众人同时挤向狭窄洞门逃生
+vehicle: 蜂群受惊后密集、无序地从巢口涌出
+ground: 多人集中穿过一个出口对应蜂群穿越巢口；逃跑拥挤而急促对应受惊蜂群无序涌动

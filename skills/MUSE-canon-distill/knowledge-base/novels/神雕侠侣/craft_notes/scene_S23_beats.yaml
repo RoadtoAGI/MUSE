@@ -1,0 +1,28 @@
+scene_id: S23
+source_notes: scene_S23_beats.md
+patterns:
+- pattern_id: S23-p1
+  beat: 黯然销魂掌招名
+  dimension: verb
+  original_move: 招名全用内向消耗性动词，武功命名即心理文本
+  ai_default_failure: 写念招名时眼眶微红的表演辅助
+  transfer_rule: 让名词序列自带情感，不加表情注释
+  quote: 废寝忘食，孤形只影，饮恨吞声
+- pattern_id: S23-p2
+  beat: 周伯通问旋儿
+  dimension: omission
+  original_move: 数十年恩怨重逢不写拥抱道歉，只问孩子旋儿
+  ai_default_failure: 写愧疚表白哭诉控诉与和解拥抱
+  transfer_rule: 和解写最具体的小问题，展示错过了一切
+  quote: 头顶是一个旋儿呢？还是两个旋儿？
+- pattern_id: S23-p3
+  beat: 瑛姑的宽恕
+  dimension: verb
+  original_move: 终极动词是「忘」，恨被当下喜悦挤出而非压制
+  ai_default_failure: 写闪回天人交战后艰难放下
+  transfer_rule: 宽恕是状态的突然到来，不是决策过程
+  quote: 昔年怨苦，都忘了他罢
+overall_traits:
+- 武功作为情感文本：练不会的条件即主题
+- 行为替代言语，和解不可预测才真实
+- 两条相思线靠郭襄类比完成情感统一

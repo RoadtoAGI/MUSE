@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-393b66dc3677ddd47b0d38a4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L948
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 同时，还要在社会上把科学搞臭
+sensory_mapping: 嗅觉；污染；空气扩散；身体回避；社会评价
+context_fact: 大史列举反科技影片、征文和邪教活动，判断它们共同损害科学形象。
+image_mechanism: 抽象声誉获得可闻气味，宣传不必逐条反驳科学，只需在其表面涂上会扩散的污物；公众的价值判断被转成下意识掩鼻。
+property_alignment: 负面宣传制造厌恶对应污染产生臭味；名声影响跨人群传播对应气味在空气扩散；公众远离科学对应闻臭者后退；主动操作舆论对应有人故意弄脏物体
+context_alignment: 大史用市井嗅觉词概括文化舆论战，符合其直肠子语言，也突出攻击目标是情感反应而非论证。
+narrative_function: 补全敌方从扰乱科学家到疏远公众的双层计划。
+transfer_rule: 用气味写名誉攻击时，应对应污染源、扩散媒介、受众生理反应和被污名对象，说明操作者如何制造联想。
+failure_boundary: 有证据的科学批评不等于搞臭；将一切公众疑虑视为污染会取消必要监督和真实责任。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 有组织地破坏科学在公众中的声誉，使人厌恶和远离它
+vehicle: 把原本可接近的物体污染到散发恶臭，迫使周围人掩鼻避开
+ground: 负面宣传制造厌恶对应污染产生臭味；名声影响跨人群传播对应气味在空气扩散；公众远离科学对应闻臭者后退；主动操作舆论对应有人故意弄脏物体

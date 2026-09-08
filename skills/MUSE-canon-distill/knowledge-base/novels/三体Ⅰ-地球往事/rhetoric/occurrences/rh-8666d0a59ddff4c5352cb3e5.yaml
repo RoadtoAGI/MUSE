@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8666d0a59ddff4c5352cb3e5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2395
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 他就有了使自己这卑微的生命燃烧一次的机会
+sensory_mapping: 火焰点起；亮光；热量释放；短暂燃烧；灰烬代价
+context_fact: 若政府尚未发诱骗信息，他能抢先警告地球，代价将是被处死。
+image_mechanism: 六十万时灰暗生命被压成一小块燃料，红色发射键是点火器；按下一次便把余生全部转成跨越一千二百光年的光。
+property_alignment: 卑微一生对应暗燃料；警告决定对应点火；电波发射对应火光远射；拯救地球对应照亮他者；获罪处刑对应自我耗尽；一次机会对应燃烧不可重复
+context_alignment: 外部大地冷硬、社会压抑情感，主动燃烧成为对三体冷静麻木价值的直接反叛。
+narrative_function: 把一次按键提升为生命自我实现，解释他为何毫不犹豫。
+transfer_rule: 用生命燃烧写关键行动时，应有长期暗淡背景、一次性释放、外部照亮、能量耗尽和真实代价。
+failure_boundary: 行动可反复、风险很小且对他人无影响，或人物还有长期实现意义的稳定路径时，一次燃烧会夸大决绝。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 监听员可用一次违令警告地球的行动，让平庸孤独的一生短暂产生强烈意义和影响
+vehicle: 微弱燃料被点燃，短时间释放全部光热，照亮周围后耗尽自身
+ground: 一次决定对应点火；生命意义显现对应发光；影响文明命运对应热量外传；行动可能致死对应燃料耗尽

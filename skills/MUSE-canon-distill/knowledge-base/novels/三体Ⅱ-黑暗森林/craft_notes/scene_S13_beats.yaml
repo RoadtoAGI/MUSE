@@ -1,0 +1,27 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 蚂蚁开场
+  dimension: camera
+  original_move: 高潮首镜给一只蚂蚁，与序章褐蚁精确呼应
+  ai_default_failure: 写他不禁想起两百年前的百感交集
+  transfer_rule: 文明级事件配微小生命旁观，尺度反讽即主题
+  quote: 它在碑上攀爬着
+- pattern_id: S13-p2
+  beat: 威慑机制说明
+  dimension: info_density
+  original_move: 高潮核心是产品手册式技术说明，数字精确到个位
+  ai_default_failure: 技术说明间穿插心中翻涌的内心独白
+  transfer_rule: 精确数字本身即威慑与可信度，不加形容词
+  quote: 三千六百一十四枚核弹
+- pattern_id: S13-p3
+  beat: 极简谈判
+  dimension: omission
+  original_move: 条件回应裸对白交替，紧张只用回应延时传递
+  ai_default_failure: 每个条件间加心提到嗓子眼的渲染
+  transfer_rule: 极度紧张中人变机器，响应延时即潜台词
+  quote: 已经按你说的做了
+overall_traits:
+- 去英雄化极致：救世主是发烧扶碑的病人
+- 谈判语言是工程师条件清单，收尾只说要回家

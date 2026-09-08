@@ -1,0 +1,22 @@
+[
+  {"scene_id": "A1S1", "start": 9, "end": 24, "chapter": "第一幕第一景：城墙上"},
+  {"scene_id": "A1S2", "start": 25, "end": 66, "chapter": "第一幕第二景：城堡中一厅"},
+  {"scene_id": "A1S3", "start": 67, "end": 76, "chapter": "第一幕第三景：波隆尼尔屋内"},
+  {"scene_id": "A1S4", "start": 77, "end": 98, "chapter": "第一幕第四景：城墙一平台上"},
+  {"scene_id": "A1S5", "start": 99, "end": 162, "chapter": "第一幕第五景：城墙上"},
+  {"scene_id": "A2S1", "start": 165, "end": 184, "chapter": "第二幕第一景：波隆尼尔家中"},
+  {"scene_id": "A2S2", "start": 185, "end": 352, "chapter": "第二幕第二景：宫中"},
+  {"scene_id": "A3S1", "start": 355, "end": 376, "chapter": "第三幕第一景：宫庭内一室"},
+  {"scene_id": "A3S2", "start": 377, "end": 550, "chapter": "第三幕第二景：城堡中一室"},
+  {"scene_id": "A3S3", "start": 551, "end": 564, "chapter": "第三幕第三景：宫中"},
+  {"scene_id": "A3S4", "start": 565, "end": 616, "chapter": "第三幕第四景：皇后寝室"},
+  {"scene_id": "A4S1", "start": 619, "end": 624, "chapter": "第四幕第一景：皇后寝室"},
+  {"scene_id": "A4S2", "start": 625, "end": 632, "chapter": "第四幕第二景"},
+  {"scene_id": "A4S3", "start": 633, "end": 642, "chapter": "第四幕第三景：宫中"},
+  {"scene_id": "A4S4", "start": 643, "end": 648, "chapter": "第四幕第四景：丹麦原野"},
+  {"scene_id": "A4S5", "start": 649, "end": 670, "chapter": "第四幕第五景：艾辛诺尔堡中一室"},
+  {"scene_id": "A4S6", "start": 671, "end": 680, "chapter": "第四幕第六景：城堡中之另一室"},
+  {"scene_id": "A4S7", "start": 681, "end": 716, "chapter": "第四幕第七景：宫中"},
+  {"scene_id": "A5S1", "start": 719, "end": 748, "chapter": "第五幕第一景：墓园里"},
+  {"scene_id": "A5S2", "start": 749, "end": 795, "chapter": "第五幕第二景：城堡中一厅"}
+]

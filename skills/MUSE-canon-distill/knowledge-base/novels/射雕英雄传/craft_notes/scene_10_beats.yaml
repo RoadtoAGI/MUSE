@@ -1,0 +1,27 @@
+scene_id: '10'
+source_notes: scene_10_beats.md
+patterns:
+- pattern_id: 10-p1
+  beat: 人称滑落
+  dimension: overall
+  original_move: 让讲述者从「他」滑入「我」，人称失控即情感失控
+  ai_default_failure: 切出来写「他声音微微颤抖」等外部描写
+  transfer_rule: 嵌入回忆时用人称滑落代替闪回与表情注解
+  quote: 我想到这里，不禁怒火填膺
+- pattern_id: 10-p2
+  beat: 目光替代对白
+  dimension: omission
+  original_move: 删去控诉台词，让一个眼神承载全部怨毒
+  ai_default_failure: 安排一段控诉台词把怨恨说出来
+  transfer_rule: 决裂场景让眼神替代台词，由对方评注其分量
+  quote: 这一眼我到死也忘不了
+- pattern_id: 10-p3
+  beat: 物件时间胶囊
+  dimension: camera
+  original_move: 零动词纯物件描写，三个物理状态叙完十几年
+  ai_default_failure: 让角色看物生情发感慨或插回忆解说
+  transfer_rule: 跨年代恩怨用一件多次易主的物件承载意义位移
+  quote: 鸳鸯却灿然如新…一滩黑色血迹
+overall_traits:
+- 嵌入回忆用人称滑落，读者与讲述者同步失控
+- 物件作时间胶囊，物理状态自己叙事不解释

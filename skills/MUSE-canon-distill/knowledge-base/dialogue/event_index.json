@@ -1,0 +1,535 @@
+{
+  "schema_version": "dialogue-event-index/v1",
+  "events": [
+    {
+      "event_id": "novel:射雕英雄传:S03:e01",
+      "event_type": "interaction",
+      "context": {
+        "relationship": "new_friends",
+        "power": "symmetric",
+        "intimacy": "becoming_familiar",
+        "face_condition": "private",
+        "pressure": "vulnerable_disclosure",
+        "shared_context": "郭靖已询问黄蓉为何不回家",
+        "immediate_stakes": "黄蓉试探郭靖是否会否定她被父亲抛弃的判断"
+      },
+      "participants": [
+        {
+          "character_id": "novel:射雕英雄传:huang-rong",
+          "display_name": "黄蓉",
+          "position": "testing_speaker",
+          "knowledge_boundary": "她知道自己负气离家，不知道父亲是否在寻找她"
+        },
+        {
+          "character_id": "novel:射雕英雄传:guo-jing",
+          "display_name": "郭靖",
+          "position": "reassuring_listener",
+          "knowledge_boundary": "他只听到黄蓉对离家经过的叙述"
+        }
+      ],
+      "turns": [
+        {
+          "turn_id": "t01",
+          "speaker_id": "novel:射雕英雄传:huang-rong",
+          "speaker_label": "黄蓉",
+          "addressee_ids": [
+            "novel:射雕英雄传:guo-jing"
+          ],
+          "response_to": null,
+          "source_locator": "scenes/scene_03.md:L5",
+          "text": "爹爹不要我啦。",
+          "speech_action": "solicit_reassurance",
+          "cooperation": "indirect",
+          "oral_forms": [
+            "topic_omission",
+            "colloquial_particle"
+          ],
+          "capacity": "strained"
+        },
+        {
+          "turn_id": "t02",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:huang-rong"
+          ],
+          "response_to": "t01",
+          "source_locator": "scenes/scene_03.md:L5",
+          "text": "不会的。",
+          "speech_action": "reassure",
+          "cooperation": "direct",
+          "oral_forms": [
+            "subject_omission",
+            "predicate_omission"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t03",
+          "speaker_id": "novel:射雕英雄传:huang-rong",
+          "speaker_label": "黄蓉",
+          "addressee_ids": [
+            "novel:射雕英雄传:guo-jing"
+          ],
+          "response_to": "t02",
+          "source_locator": "scenes/scene_03.md:L5",
+          "text": "那么他干么不来找我？",
+          "speech_action": "challenge_reassurance",
+          "cooperation": "demanding_evidence",
+          "oral_forms": [
+            "pronoun_dependency",
+            "colloquial_question"
+          ],
+          "capacity": "strained"
+        },
+        {
+          "turn_id": "t04",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:huang-rong"
+          ],
+          "response_to": "t03",
+          "source_locator": "scenes/scene_03.md:L5",
+          "text": "或许他是找的，不过没找着。",
+          "speech_action": "offer_alternative",
+          "cooperation": "supportive",
+          "oral_forms": [
+            "subject_ellipsis",
+            "self_contained_short_turn"
+          ],
+          "capacity": "full"
+        }
+      ],
+      "outcome": {
+        "control_shift": "reassurance_accepted",
+        "relationship_cost": "low",
+        "visible_result": "黄蓉破涕为笑并接受郭靖的解释"
+      },
+      "transferable_mechanism": "共享语境让安慰只需两个字；质疑出现后再补一条朴素可能性，回应上一轮而不完整复述前因。",
+      "annotation": {
+        "extractor": "dialogue-kb-distill",
+        "confidence": 0.99,
+        "review_status": "source_checked",
+        "source_file": "scenes/scene_03.md",
+        "source_sha256": "a005991f86da355b4b627823f61400f120a821abb45441f0a8345acacc6a093d"
+      },
+      "work_id": "novel:射雕英雄传",
+      "medium": "novel",
+      "scene_id": "S03",
+      "scene_file": "scenes/scene_03.md",
+      "event_file": "novels/射雕英雄传/dialogue/events/scene_S03.yaml"
+    },
+    {
+      "event_id": "novel:射雕英雄传:S13:e01",
+      "event_type": "group_exchange",
+      "context": {
+        "relationship": "ruler_subject_and_mother_son",
+        "power": "ruler_over_captive_family",
+        "intimacy": "mixed",
+        "face_condition": "public",
+        "pressure": "mortal_coercion",
+        "shared_context": "众人都知道郭靖必须在服从军令与母亲性命之间选择",
+        "immediate_stakes": "李萍要把公开逼答改成母子私下谈话"
+      },
+      "participants": [
+        {
+          "character_id": "novel:射雕英雄传:guo-jing",
+          "display_name": "郭靖",
+          "position": "coerced_decider",
+          "knowledge_boundary": "他知道拒令会令母亲当场被杀"
+        },
+        {
+          "character_id": "novel:射雕英雄传:li-ping",
+          "display_name": "李萍",
+          "position": "intervening_mother",
+          "knowledge_boundary": "她理解儿子的伦理困境并准备劝他守义"
+        },
+        {
+          "character_id": "novel:射雕英雄传:genghis-khan",
+          "display_name": "成吉思汗",
+          "position": "coercive_ruler",
+          "knowledge_boundary": "他以李萍性命逼郭靖接受军令"
+        }
+      ],
+      "turns": [
+        {
+          "turn_id": "t01",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:genghis-khan"
+          ],
+          "response_to": null,
+          "source_locator": "scenes/scene_13.md:L8",
+          "text": "我……",
+          "speech_action": "attempt_answer",
+          "cooperation": "blocked",
+          "oral_forms": [
+            "cutoff",
+            "abandoned_turn"
+          ],
+          "capacity": "collapsed"
+        },
+        {
+          "turn_id": "t02",
+          "speaker_id": "novel:射雕英雄传:li-ping",
+          "speaker_label": "李萍",
+          "addressee_ids": [
+            "novel:射雕英雄传:genghis-khan"
+          ],
+          "response_to": "t01",
+          "source_locator": "scenes/scene_13.md:L9",
+          "text": "大汗，只怕这孩子一时想不明白，待我劝劝他如何？",
+          "speech_action": "seize_turn_and_request_access",
+          "cooperation": "strategic_deference",
+          "oral_forms": [
+            "address_fronting",
+            "euphemistic_reframe"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t03",
+          "speaker_id": "novel:射雕英雄传:genghis-khan",
+          "speaker_label": "成吉思汗",
+          "addressee_ids": [
+            "novel:射雕英雄传:li-ping"
+          ],
+          "response_to": "t02",
+          "source_locator": "scenes/scene_13.md:L9",
+          "text": "好，你快劝他。",
+          "speech_action": "grant_and_command",
+          "cooperation": "instrumental",
+          "oral_forms": [
+            "short_imperative"
+          ],
+          "capacity": "full"
+        }
+      ],
+      "outcome": {
+        "control_shift": "mother_temporarily_controls_access",
+        "relationship_cost": "low",
+        "visible_result": "李萍获得与郭靖私下谈话的机会"
+      },
+      "transferable_mechanism": "高压先令被逼者失去成句能力；第三人用顺从称呼和委婉归因接管回合，换取行动空间。",
+      "annotation": {
+        "extractor": "dialogue-kb-distill",
+        "confidence": 0.99,
+        "review_status": "source_checked",
+        "source_file": "scenes/scene_13.md",
+        "source_sha256": "5652831cc87a0aaccb3e0f25ba67e023bb408d02027306c981a80c12241e2374"
+      },
+      "work_id": "novel:射雕英雄传",
+      "medium": "novel",
+      "scene_id": "S13",
+      "scene_file": "scenes/scene_13.md",
+      "event_file": "novels/射雕英雄传/dialogue/events/scene_S13.yaml"
+    },
+    {
+      "event_id": "novel:射雕英雄传:S15:e01",
+      "event_type": "interaction",
+      "context": {
+        "relationship": "former_ruler_and_subject",
+        "power": "ruler_over_subject_with_moral_reversal",
+        "intimacy": "long_shared_history",
+        "face_condition": "private",
+        "pressure": "final_confrontation",
+        "shared_context": "两人都知道征战功业及李萍之死",
+        "immediate_stakes": "郭靖要迫使成吉思汗重新判断一生功业"
+      },
+      "participants": [
+        {
+          "character_id": "novel:射雕英雄传:genghis-khan",
+          "display_name": "成吉思汗",
+          "position": "challenged_ruler",
+          "knowledge_boundary": "他以疆域和战功定义英雄"
+        },
+        {
+          "character_id": "novel:射雕英雄传:guo-jing",
+          "display_name": "郭靖",
+          "position": "moral_challenger",
+          "knowledge_boundary": "他亲历蒙古征服后的伤亡，也承认对方的养育之恩"
+        }
+      ],
+      "turns": [
+        {
+          "turn_id": "t01",
+          "speaker_id": "novel:射雕英雄传:genghis-khan",
+          "speaker_label": "成吉思汗",
+          "addressee_ids": [
+            "novel:射雕英雄传:guo-jing"
+          ],
+          "response_to": null,
+          "source_locator": "scenes/scene_15.md:L6",
+          "text": "你说甚么？",
+          "speech_action": "challenge",
+          "cooperation": "hostile",
+          "oral_forms": [
+            "short_question"
+          ],
+          "capacity": "agitated"
+        },
+        {
+          "turn_id": "t02",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:genghis-khan"
+          ],
+          "response_to": "t01",
+          "source_locator": "scenes/scene_15.md:L6",
+          "text": "大汗，你养我教我，逼死我母，这些私人恩怨，此刻也不必说了。我只想问你一句：人死之后，葬在地下，占得多少土地？",
+          "speech_action": "bracket_debt_and_cross_examine",
+          "cooperation": "confrontational",
+          "oral_forms": [
+            "address_fronting",
+            "question_reframe"
+          ],
+          "capacity": "deliberate"
+        },
+        {
+          "turn_id": "t03",
+          "speaker_id": "novel:射雕英雄传:genghis-khan",
+          "speaker_label": "成吉思汗",
+          "addressee_ids": [
+            "novel:射雕英雄传:guo-jing"
+          ],
+          "response_to": "t02",
+          "source_locator": "scenes/scene_15.md:L6",
+          "text": "那也不过这般大小。",
+          "speech_action": "answer_under_frame",
+          "cooperation": "constrained",
+          "oral_forms": [
+            "deictic_reference",
+            "omitted_measure"
+          ],
+          "capacity": "unsettled"
+        },
+        {
+          "turn_id": "t04",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:genghis-khan"
+          ],
+          "response_to": "t03",
+          "source_locator": "scenes/scene_15.md:L6",
+          "text": "是啊，那你杀这么多人，流这么多血，占了这么多国土，到头来又有何用？",
+          "speech_action": "expose_contradiction",
+          "cooperation": "adversarial",
+          "oral_forms": [
+            "answer_pickup",
+            "parallel_accumulation"
+          ],
+          "capacity": "deliberate"
+        },
+        {
+          "turn_id": "t05",
+          "speaker_id": "novel:射雕英雄传:genghis-khan",
+          "speaker_label": "成吉思汗",
+          "addressee_ids": [
+            "novel:射雕英雄传:guo-jing"
+          ],
+          "response_to": "t04",
+          "source_locator": "scenes/scene_15.md:L7",
+          "text": "难道我一生就没做过甚么好事？",
+          "speech_action": "seek_moral_exception",
+          "cooperation": "defensive",
+          "oral_forms": [
+            "rhetorical_question"
+          ],
+          "capacity": "destabilized"
+        },
+        {
+          "turn_id": "t06",
+          "speaker_id": "novel:射雕英雄传:guo-jing",
+          "speaker_label": "郭靖",
+          "addressee_ids": [
+            "novel:射雕英雄传:genghis-khan"
+          ],
+          "response_to": "t05",
+          "source_locator": "scenes/scene_15.md:L7",
+          "text": "好事自然是有，而且也很大，只是你南征西伐，积尸如山，那功罪是非，可就难说得很了。",
+          "speech_action": "concede_then_condemn",
+          "cooperation": "limited_concession",
+          "oral_forms": [
+            "concession_turn",
+            "delayed_judgment"
+          ],
+          "capacity": "deliberate"
+        }
+      ],
+      "outcome": {
+        "control_shift": "subject_controls_moral_frame",
+        "relationship_cost": "extreme",
+        "visible_result": "成吉思汗无法反驳并重新审视一生功业"
+      },
+      "transferable_mechanism": "弱势者先承认私人债务，再用对方亲口承认的短答案反转评价尺度；长句因有现场攻防功能而成立。",
+      "annotation": {
+        "extractor": "dialogue-kb-distill",
+        "confidence": 0.99,
+        "review_status": "source_checked",
+        "source_file": "scenes/scene_15.md",
+        "source_sha256": "0311f3ad4e003db0d02ed31fd402a798d4aab12a8f04b1e568337a1d677fb72d"
+      },
+      "work_id": "novel:射雕英雄传",
+      "medium": "novel",
+      "scene_id": "S15",
+      "scene_file": "scenes/scene_15.md",
+      "event_file": "novels/射雕英雄传/dialogue/events/scene_S15.yaml"
+    },
+    {
+      "event_id": "drama:哈姆雷特:A1S3:e01",
+      "event_type": "interaction",
+      "context": {
+        "relationship": "parent_child",
+        "power": "parent_over_child",
+        "intimacy": "family",
+        "face_condition": "private",
+        "pressure": "family_honor",
+        "shared_context": "父女都知道哈姆雷特正在追求欧菲利亚",
+        "immediate_stakes": "波洛涅斯要求女儿停止与哈姆雷特来往"
+      },
+      "participants": [
+        {
+          "character_id": "drama:哈姆雷特:ophelia",
+          "display_name": "欧菲利亚",
+          "position": "resisting_recipient",
+          "knowledge_boundary": "她只知道哈姆雷特曾表达爱意并发誓"
+        },
+        {
+          "character_id": "drama:哈姆雷特:polonius",
+          "display_name": "波洛涅斯",
+          "position": "controlling_parent",
+          "knowledge_boundary": "他以父权和名誉风险解释哈姆雷特的追求"
+        }
+      ],
+      "turns": [
+        {
+          "turn_id": "t01",
+          "speaker_id": "drama:哈姆雷特:ophelia",
+          "speaker_label": "欧菲利亚",
+          "addressee_ids": [
+            "drama:哈姆雷特:polonius"
+          ],
+          "response_to": null,
+          "source_locator": "scenes/scene_A1S3.md:L9",
+          "text": "我不知应如何去想, 父亲。",
+          "speech_action": "admit_uncertainty",
+          "cooperation": "deferential",
+          "oral_forms": [
+            "direct_address"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t02",
+          "speaker_id": "drama:哈姆雷特:polonius",
+          "speaker_label": "波洛涅斯",
+          "addressee_ids": [
+            "drama:哈姆雷特:ophelia"
+          ],
+          "response_to": "t01",
+          "source_locator": "scenes/scene_A1S3.md:L9",
+          "text": "好, 让我告诉你: 你就好似个天真的婴儿, 把他给你的这些爱情伪币当作真钱。",
+          "speech_action": "belittle_and_reframe",
+          "cooperation": "controlling",
+          "oral_forms": [
+            "topic_takeover",
+            "metaphor"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t03",
+          "speaker_id": "drama:哈姆雷特:ophelia",
+          "speaker_label": "欧菲利亚",
+          "addressee_ids": [
+            "drama:哈姆雷特:polonius"
+          ],
+          "response_to": "t02",
+          "source_locator": "scenes/scene_A1S3.md:L9",
+          "text": "但是, 父亲呀, 他是有诚意的在追求我。",
+          "speech_action": "defend_claim",
+          "cooperation": "restrained_resistance",
+          "oral_forms": [
+            "adversative_opening",
+            "direct_address"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t04",
+          "speaker_id": "drama:哈姆雷特:polonius",
+          "speaker_label": "波洛涅斯",
+          "addressee_ids": [
+            "drama:哈姆雷特:ophelia"
+          ],
+          "response_to": "t03",
+          "source_locator": "scenes/scene_A1S3.md:L9",
+          "text": "你所谓之诚意, 算了罢, 算了。",
+          "speech_action": "dismiss",
+          "cooperation": "refusing_premise",
+          "oral_forms": [
+            "keyword_repetition",
+            "repetition"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t05",
+          "speaker_id": "drama:哈姆雷特:polonius",
+          "speaker_label": "波洛涅斯",
+          "addressee_ids": [
+            "drama:哈姆雷特:ophelia"
+          ],
+          "response_to": "t04",
+          "source_locator": "scenes/scene_A1S3.md:L11",
+          "text": "从今天开始, 你应与他疏远, 切勿一呼即至。",
+          "speech_action": "command",
+          "cooperation": "coercive",
+          "oral_forms": [
+            "imperative"
+          ],
+          "capacity": "full"
+        },
+        {
+          "turn_id": "t06",
+          "speaker_id": "drama:哈姆雷特:ophelia",
+          "speaker_label": "欧菲利亚",
+          "addressee_ids": [
+            "drama:哈姆雷特:polonius"
+          ],
+          "response_to": "t05",
+          "source_locator": "scenes/scene_A1S3.md:L11",
+          "text": "我将听从您的旨示。",
+          "speech_action": "submit",
+          "cooperation": "compliant",
+          "oral_forms": [
+            "formal_register"
+          ],
+          "capacity": "full"
+        }
+      ],
+      "outcome": {
+        "control_shift": "controlling_parent_secures_compliance",
+        "relationship_cost": "medium",
+        "visible_result": "欧菲利亚停止争辩并接受父亲的命令"
+      },
+      "transferable_mechanism": "强势一方复述并贬低对方关键词，再把争论压缩为命令；正式完整句在父权控制场景中承担服从功能。",
+      "annotation": {
+        "extractor": "dialogue-kb-distill",
+        "confidence": 0.98,
+        "review_status": "source_checked",
+        "source_file": "scenes/scene_A1S3.md",
+        "source_sha256": "c55f5640e9efa811d833a839d61832472807dc6ab511f221e77158cb6adebdcf"
+      },
+      "work_id": "drama:哈姆雷特",
+      "medium": "drama",
+      "scene_id": "A1S3",
+      "scene_file": "scenes/scene_A1S3.md",
+      "event_file": "dramas/哈姆雷特/dialogue/events/scene_A1S3.yaml"
+    }
+  ]
+}

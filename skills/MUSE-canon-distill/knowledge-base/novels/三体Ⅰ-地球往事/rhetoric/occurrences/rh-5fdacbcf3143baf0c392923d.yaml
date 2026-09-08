@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5fdacbcf3143baf0c392923d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1552
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 生命和文明将重新启动
+sensory_mapping: 开关；机器停转；通电；运转声
+context_fact: 第184号文明已被三日连珠彻底毁灭，游戏提示未来仍会出现生命与下一轮文明。
+image_mechanism: 生命史被写成可反复开关的系统，灾变按下停止键，行星没有永久死亡，只在黑屏后等待条件让进化程序再次运行。
+property_alignment: 文明毁灭对应系统关机；幸存潜能对应机器仍可重启；环境恢复对应重新供电；再次进化对应程序从头运行
+context_alignment: 刚结束的人列计算机情节把启动、锁死、热启动写得具体，此处用同一机器动词统摄整个生命文明循环。
+narrative_function: 把末日转成循环节点，邀请玩家进入下一轮并延续三体问题。
+transfer_rule: 用启动写生命或制度复苏时，应有明确停机状态、保留的重启条件和重新开始的过程。
+failure_boundary: 旧文明成员、制度和记忆全部消失时，新文明并非同一机器简单重启；喻体只能指过程再现，不能指身份连续。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 灾难后幸存的生命将再次演化，并发展出新一轮文明
+vehicle: 停机的机器在条件恢复后重新接通电源并开始运行
+ground: 文明活动被毁灭中断对应机器停机；漫长时间后演化再开始对应系统重新上电运行

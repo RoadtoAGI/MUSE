@@ -1,0 +1,28 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 声音的自我定位
+  dimension: overall
+  original_move: 幻听先提出礼貌假设再发问
+  ai_default_failure: 先写恐惧或发疯自疑
+  transfer_rule: 写幻听时让声音有社交逻辑
+  quote: 假设我是你的爷爷
+- pattern_id: S07-p2
+  beat: 背叛的清单
+  dimension: verb
+  original_move: 重复背叛扩大虚无范围
+  ai_default_failure: 展开哲学论证和例子
+  transfer_rule: 写抽象压迫时用重复替代论证
+  quote: 一切、一切都会背叛我们
+- pattern_id: S07-p3
+  beat: 小心
+  dimension: camera
+  original_move: 从概念坠入地质暴力景观
+  ai_default_failure: 说明危险具体是什么
+  transfer_rule: 写预警时只给命令和意象
+  quote: 那声音说：小心！
+overall_traits:
+- 幻听作为哲学对话
+- 抽象突然坠入具象暴力
+- 对话承载全部叙事信息

@@ -1,0 +1,230 @@
+# Phase 5: 关键场景 — 《长路》(The Road)
+# 逆向分析：只提取结构转折点、高潮、关键建置场景
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: "山间大路，加油站附近"
+        time: "故事开篇不久"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "在废弃加油站搜索——几乎一无所获，但回头捡到半夸脱机油"
+        value_start: "匮乏中的平静"
+        value_end: "微小的收获——'你可以念故事给我听了'"
+        must_include: "建立父子日常：机油→灯光→念故事的因果链，展示末世中维持文明的努力"
+        handoff: "引出持续南行的旅程"
+        source_chapter: "开篇第2-3段（行18-35）"
+
+      - scene_id: S02
+        arc_id: ARC-1
+        location: "超市废墟"
+        time: "继续南行途中"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "在废弃超市的贩卖机残骸中摸索——发现一罐可口可乐"
+        value_start: "持续的匮乏"
+        value_end: "末世中震撼性的美好——'因为我以后永远喝不到了，对不对？'"
+        must_include: "可乐场景是全书最著名的段落之一——用极微小的物件承载极巨大的情感"
+        handoff: "进城，开始面对更密集的人类痕迹"
+        source_chapter: "约行160-194"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: "父亲童年故居"
+        time: "南行途中经过旧家"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "父亲被记忆牵引进入旧居，孩子恐惧抗拒——'我们该走了，爸爸'"
+        value_start: "父亲的怀旧渴望"
+        value_end: "孩子的恐惧胜利——'不要紧。我们不该进来的。'"
+        must_include: "角色张力首次显性化：孩子的直觉（恐惧）比父亲的情感（怀旧）更正确"
+        handoff: "三晚后的地震——世界仍在瓦解"
+        source_chapter: "约行198-246"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-1
+        location: "大路旁的林地与旧车道"
+        time: "午后惊醒"
+        participants: [父亲, 孩子, 卡车团伙, 持刀恶棍]
+        pov: 父亲
+        conflict: "卡车团伙逼近，一人劫持孩子——父亲六英尺外开枪射杀"
+        value_start: "隐蔽中的紧张"
+        value_end: "恶棍死亡，孩子覆满鲜血——安全恢复但创伤深重"
+        must_include: "全书第一次致命暴力——用掉倒数第二发子弹，孩子的脑浆沾在父亲手上需要清洗"
+        handoff: "枪只剩一发→此后每次冲突都无法动武"
+        beat_direction: "从隐蔽→发现→劫持→射杀→逃亡→洗净孩子——密集节拍"
+        source_chapter: "约行710-884"
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: "大路上"
+        time: "继续南行"
+        participants: [父亲, 孩子, 被雷击者]
+        pov: 父亲
+        conflict: "孩子要帮助被雷击的陌人——父亲拒绝——孩子长时间沉默抗议"
+        value_start: "父子间默契的行进"
+        value_end: "'我想在妈妈身边'——孩子说出想死的话"
+        must_include: "道德分歧的首次爆发：孩子的善良 vs 父亲的生存逻辑"
+        handoff: "引出母亲的回忆段落"
+        source_chapter: "约行510-598"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: "回忆中的营地/废屋"
+        time: "灾难后的前几年（回忆）"
+        participants: [父亲, 母亲]
+        pov: 父亲
+        conflict: "母亲决定自杀离去——'死神就是情夫'——父亲无力阻止"
+        value_start: "夫妻尚在一起的脆弱平衡"
+        value_end: "'她走了，遗下的淡漠是最后的赠礼'——父亲独自承担一切"
+        must_include: "母亲的完整论证：'你就是不肯面对现实''那帮人迟早会赶上来杀了我们'——这不是疯狂，而是另一种理性"
+        handoff: "回到现在时——父子继续南行，但母亲的话始终回响"
+        beat_direction: "全段以对白推进，灯焰两侧的辩论——每一轮交锋都更绝望"
+        source_chapter: "约行606-677"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: "大路旁的宏伟大屋"
+        time: "连续五天无食后"
+        participants: [父亲, 孩子, 地窖囚徒, 食人团伙]
+        pov: 父亲
+        conflict: "打开地窖——发现活人被囚禁截肢食用——食人团伙返回——夜间逃亡"
+        value_start: "饥饿的绝望——'已经别无选择了'"
+        value_end: "逃脱后的极度恐惧——教孩子用枪自杀的方法"
+        must_include: "与 ARC-3 地窖场景的镜像对照——同样是带锁的地下空间，这次是地狱"
+        handoff: "'我们还是好人吗？'——全书核心问题的首次明确提出"
+        beat_direction: "孩子预感→撬锁→下楼→发现→逃跑→大屋主人返回→林中躲藏→教孩子自杀→整夜逃亡"
+        source_chapter: "约行1356-1506"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: "田野中的大屋，草皮下的地窖"
+        time: "连续多日无食后"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "又一个带锁的地下入口——孩子恐惧重现（'爸爸别开门'）——父亲坚持——发现是天堂"
+        value_start: "濒死的绝望——'距离死亡还有几天？十天？'"
+        value_end: "'哦我的上帝'——罐头、清水、毛毯——完整的地下庇护所"
+        must_include: "与S07的精确镜像：同样的抗拒→同样的撬锁→截然相反的发现。关键台词：'好人锲而不舍，不轻言放弃'"
+        handoff: "孩子的祷词——信仰从恐惧转为感恩"
+        beat_direction: "发现草皮异样→挖掘→孩子恐惧→'好人锲而不舍'→打开→震惊→'下来看看'"
+        source_chapter: "约行1684-1798"
+
+      - scene_id: S09
+        arc_id: ARC-3
+        location: "地窖庇护所"
+        time: "发现地窖后的第一餐"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "孩子提出要感谢留下食物的人——说出震撼父亲的祷词"
+        value_start: "物质的丰足——吃到梨罐头"
+        value_end: "精神的丰足——'亲爱的人，感谢你们留下食物……若你们在场，不论多饿，我们绝不会争食'"
+        must_include: "孩子的祷词完全自发——证明善良在他心中已经是主动的信仰，而非被动的天真"
+        handoff: "在地窖中短暂栖息——洗澡、理发、下棋——末世中的正常生活"
+        source_chapter: "约行1858-1876"
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-4
+        location: "大路旁的营火"
+        time: "继续南行途中"
+        participants: [父亲, 孩子, 老人艾利]
+        pov: 父亲
+        conflict: "孩子坚持帮助路遇的老人——父子间的道德拉锯再次上演——与艾利的哲学对话"
+        value_start: "父亲不想给——'我什么也不想给'"
+        value_end: "'与末世真神同路是很可怕的'——艾利暗示孩子可能是某种超越存在"
+        must_include: "艾利是全书唯一有名字的角色（虽是假名）——他提供了外部视角：'见到那孩子我还以为自己死了'"
+        handoff: "艾利消失——'像故事书里的远古裨贩'——再不复返"
+        source_chapter: "约行2180-2606"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: "海岸"
+        time: "抵达海岸之日"
+        participants: [父亲, 孩子]
+        pov: 父亲
+        conflict: "整个旅程的目的地到了——但海是灰色的，海岸荒凉"
+        value_start: "走了数月，终于看到大海"
+        value_end: "'抱歉不是蓝色'——'没关系'——'我不懂我们在做什么'"
+        must_include: "地理目标的落空——海不是蓝色的，这三个字击碎了整个'南方会好一些'的信念"
+        handoff: "孩子下海游泳——出水后默默哭泣（不说原因）"
+        source_chapter: "约行3260-3340"
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-5
+        location: "海岸营地→大路"
+        time: "沿海逗留期间"
+        participants: [父亲, 孩子, 窃贼]
+        pov: 父亲
+        conflict: "窃贼偷走全部物资——父亲追上后剥光他——孩子崩溃抗议"
+        value_start: "发现物资被盗的愤怒"
+        value_end: "孩子说'就是我的事，我一定要管'——道德权威从父亲转移到孩子"
+        must_include: "父亲的报复（剥光窃贼）与孩子的抗议——全书最明确的道德反转：孩子成为善良的守护者"
+        handoff: "孩子的沉默——'但我们还是杀了他呀'"
+        beat_direction: "发现被盗→追踪→对峙→剥衣→孩子崩溃→父亲让步→返回留衣→找不到人"
+        source_chapter: "约行3896-4058"
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-5
+        location: "渡河后的岔路旁"
+        time: "最后的日子"
+        participants: [父亲, 孩子]
+        pov: 父亲/孩子
+        conflict: "父亲倒下——必须完成最后的传承：让孩子接受独自前行"
+        value_start: "父亲还在——虽然垂死"
+        value_end: "'火炬在你心里，它一直在那里。我能看见。'"
+        must_include: "临终对话的每一句都是对全书主题的最终回答——不是关于生存，而是关于传递"
+        handoff: "父亲死去→孩子独处三天"
+        beat_direction: "倒地→'你得自己走下去'→'带我走'→'我不能让自己的儿子死在我怀里'→'火炬在你心里'→孩子练习与父亲对话"
+        source_chapter: "约行4291-4358"
+
+      - scene_id: S14
+        arc_id: ARC-5
+        location: "大路上"
+        time: "父亲死后第三天"
+        participants: [孩子, 带枪的陌生男人]
+        pov: 孩子
+        conflict: "孤身一人的孩子遇到带枪的陌生人——信任还是恐惧？"
+        value_start: "孤独、恐惧、即将死去"
+        value_end: "'你有火炬吗？''有。''那好吧。'——火炬传递完成"
+        must_include: "全书真正的高潮——不是父亲的死（必然），而是孩子的选择（自由）。'你有火炬吗'证明传承成功"
+        handoff: "女人拥抱孩子→与父亲的持续对话→河鳟的尾声"
+        beat_direction: "等待三天→陌生人出现→盘问（'你是好人吗？''你有火炬吗？'）→'那好吧'→道别父亲→加入新家庭"
+        source_chapter: "约行4383-4539"
+
+tension_curve:
+  description: >
+    全书张力呈现「波浪式递增」——不是线性上升，而是在极度黑暗（地窖、饥饿）
+    与短暂光明（可乐、地窖宝藏、闪光弹庆典）之间大幅摆荡，每次摆荡的振幅
+    都更大，直到最后一次——父亲的死与孩子的选择——振幅达到极致。
+  peaks: [S04, S07, S08, S12, S13, S14]
+  valleys: [S01, S02, S03, S09, S10]
+
+causal_chain: >
+  S01（建立日常）→ S02（可乐：微小的美好）→ S03（旧居：记忆的诱惑）
+  → S04（射杀恶棍：暴力的代价）→ S05（被雷击者：道德分歧爆发）
+  → S06（母亲离去：存在主义质疑）→ S07（地窖地狱：人性的深渊）
+  →（因为绝境中的奇迹）→ S08（地窖天堂：善良的奖赏）→ S09（祷词：信仰的诞生）
+  → S10（艾利：哲学对话）→ S11（灰色海岸：目标落空）
+  → S12（窃贼：道德权威转移）→ S13（临终传承）→ S14（孩子的选择：火炬传递）

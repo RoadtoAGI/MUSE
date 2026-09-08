@@ -1,0 +1,5 @@
+{
+  "name": "muse-writing",
+  "version": "2.17.0",
+  "description": "MUSE 原创小说与剧本创作：story-writing 负责中篇及篇幅未明的完整小说，short-story-writing 负责短篇成稿，screenplay-writing 负责原创与改编剧本。prototype-research 由 screenplay-writing 在改编、历史或戏曲题材下内部调用。衍生小说与连载创作由 MUSE-serial-writing 承接。"
+}

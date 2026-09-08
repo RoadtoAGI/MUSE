@@ -1,0 +1,28 @@
+scene_id: S11
+source_notes: scene_S11_beats.md
+patterns:
+- pattern_id: S11-p1
+  beat: 第一具女尸的发现
+  dimension: camera
+  original_move: 锁定发现流程和警察分工
+  ai_default_failure: 把尸体写成感官冲击
+  transfer_rule: 写系统性暴力时用程序动作降温
+  quote: 用手势招呼警察下车
+- pattern_id: S11-p2
+  beat: 尸检报告
+  dimension: info_density
+  original_move: 医学术语列举伤害，不加评论
+  ai_default_failure: 加震惊、悲悯或警探反应
+  transfer_rule: 写残酷事实时让术语和年龄并置
+  quote: 下巴有血肿
+- pattern_id: S11-p3
+  beat: 磨刀人的愤怒
+  dimension: verb
+  original_move: 用硬动词制造零度中的裂缝
+  ai_default_failure: 解释愤怒来龙去脉
+  transfer_rule: 冷叙中只留少量短促情感爆发
+  quote: 抽出一把大切菜刀
+overall_traits:
+- 法医报告水平的零度写作
+- 年龄伤害并置不评论
+- 磨刀人是情感裂缝

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c4daa7abbded27b52592586a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2079
+chapter: 第28章 伊文斯
+figure_type: simile
+quote: 它们在油污中挣扎着，一个个像是用沥青做成的黑色雕塑，只有那一双双眼睛还能证明自己是活物
+sensory_mapping: 乌黑油光；黏稠包裹；僵硬轮廓；微动眼睛；窒息感
+context_fact: 十二岁的伊文斯在父亲公司油轮泄漏后的海岸参与抢救海鸟，多数鸟最终死亡。
+image_mechanism: 流动原油在鸟身上仿佛骤然凝固成铸模，把羽翼和关节封进黑壳；一双仍转动的眼睛刺破静物分类，让观者看见雕塑内部尚未熄灭的生命。
+property_alignment: 原油黑色对应沥青黑色；油浆黏结对应浇铸凝固；羽翼不能展开对应雕塑姿势固定；鸟体成统一黑块对应单一雕塑材质；眼睛仍动对应静物中残存生命；成排海鸟对应雕塑群
+context_alignment: 父亲把泄漏称作文明代价，沥青雕塑把石油产品直接变成受害生命的外壳，因果关系嵌在喻体材质中。
+narrative_function: 把生态灾难凝成伊文斯终身难忘的视觉创伤，并解释其物种平等信念的来源。
+transfer_rule: 把受困生物写成雕塑时，应让覆盖材料、动作冻结、外形完整和一个残存生命信号形成冲突；材质最好与致害物同源。
+failure_boundary: 鸟羽仍轻盈洁净、能够自由飞动，或黑色只来自自然羽色时，沥青浇铸的窒息因果会失效。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 羽毛被黏稠原油裹死、身体近乎僵住而仅眼睛仍活动的受污染海鸟
+vehicle: 以黑色沥青浇铸、表面凝固而没有生命动作的鸟形雕塑
+ground: 黑油完整包覆对应沥青材质；鸟体难以运动对应雕塑僵固；仅眼睛活动反衬雕塑外壳下残存生命

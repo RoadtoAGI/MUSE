@@ -1,0 +1,28 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 希望的建置
+  dimension: camera
+  original_move: 内视镜头锁穴位气脉，「嗒」声三响作空间桥梁
+  ai_default_failure: 切李莫愁视角写她如何潜入盘算
+  transfer_rule: 入侵者还原为纯声音威胁，恐惧强于实写
+  quote: 又是「嗒」的一声，却已近了三尺
+- pattern_id: S19-p2
+  beat: 多谢师姊信息翻转
+  dimension: verb
+  original_move: 「吸住」把攻击变馈赠，倒立姿态荒诞中含力学
+  ai_default_failure: 详写李莫愁逐步意识被利用的心理
+  transfer_rule: 翻转只写执行不写谋划，保留灵光一闪
+  quote: 好啦，多谢师姊！
+- pattern_id: S19-p3
+  beat: 郭芙误射
+  dimension: omission
+  original_move: 「料定」定义轻率非恶意，动机剖析两边都不给
+  ai_default_failure: 写隐藏嫉妒或写完全无辜，替读者裁判
+  transfer_rule: 过失行为只给行为链，裁判权留给读者
+  quote: 料定必是李莫愁躲着
+overall_traits:
+- 四段反转链：希望绝望交替如拳击密集
+- 受害者声音替代攻击画面
+- 辩解快于内疚即性格刻画

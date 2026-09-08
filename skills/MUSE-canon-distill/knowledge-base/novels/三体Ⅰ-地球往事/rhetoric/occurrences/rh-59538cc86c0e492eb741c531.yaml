@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-59538cc86c0e492eb741c531
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1052
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 火焰的海洋上布满涌浪和旋涡
+sensory_mapping: 视觉；流体运动；广度；温度
+context_fact: 巨日逼近到肉眼可见表面细节，火焰在整个日面形成涌动纹理。
+image_mechanism: 火焰不再是一簇簇向上的舌状物，而被横向铺成无边液面；涌浪与旋涡让日面具有可追踪的流体尺度和动势。
+property_alignment: 整片日面被火焰覆盖对应海面连绵；火焰起伏对应涌浪；局部旋转结构对应海中旋涡
+context_alignment: 观察距离在游戏中被巨日异常缩短，海洋提供足以覆盖半个天空的面状尺度，也保留太阳表面的流动。
+narrative_function: 把天体表面变成近在眼前的灾难地貌，为随后坠入火焰大地铺垫。
+transfer_rule: 将大面积动态表面写成海时，要分别落实连续覆盖、局部波动和旋转流，而非只借“浩大”。
+failure_boundary: 孤立喷焰、笔直射流或静止光斑没有海面的连续性与流体回旋，用海洋会模糊真实运动。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 巨日表面翻腾、回旋的火焰纹理
+vehicle: 具有浪峰和旋涡的炽烈海洋
+ground: 连续火焰覆盖日面对应海水铺成广阔表面；局部翻腾回旋对应海浪与涡流运动

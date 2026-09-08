@@ -1,0 +1,42 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 复沓短句当战鼓
+  dimension: overall
+  original_move: 「格龙得缓缓前进」反复开段，动词不换修饰语升级成鼓点
+  ai_default_failure: 回避重复用词，切守军擦汗特写加距离倒数
+  transfer_rule: 写不可阻挡的逼近，用同句复沓代替描写压迫读者
+  quote: 格龙得缓缓前进
+- pattern_id: S13-p2
+  beat: 恐惧写成集体静止
+  dimension: omission
+  original_move: 不取样单兵恐慌，全场手垂落弓弦哑掉，一次同步停机
+  ai_default_failure: 靠个体样本累加，写一名年轻士兵吓瘫的特写
+  transfer_rule: 写压倒性威慑让战争机器整体熄火，恐惧剥离阵营
+  quote: 有那么片刻，一切都静止了
+- pattern_id: S13-p3
+  beat: 破门写成咒语程序
+  dimension: omission
+  original_move: 三声呼喝对三次撞击，咒语不翻译，破门因果留白
+  ai_default_failure: 给咒文原文、光效轨迹和城门逐层碎裂的慢镜头
+  transfer_rule: 写高位魔法保持规则未知，用数字仪式代替机制说明
+  quote: 他喊了三声。巨大的攻城槌撞了三次
+- pattern_id: S13-p4
+  beat: 静止对静止的构图
+  dimension: camera
+  original_move: 整段溃逃给段首短句蓄力，王冠下的头颅直接取消
+  ai_default_failure: 写白光罩体法杖高举的迎战准备，给可怖面孔特写
+  transfer_rule: 写以弱抗强的对峙，用不动与负空间代替武力展示
+  quote: 只有一人没逃
+- pattern_id: S13-p5
+  beat: 对决悬置不判
+  dimension: omission
+  original_move: 剑落之前切到远处鸡鸣与号角，对决双方再无下一动作
+  ai_default_failure: 让巫师爆发或让魔王暂退，并补一个退场理由
+  transfer_rule: 双雄对峙不想折损任一方，用场外事件取消回合
+  quote: 一只公鸡开始喔喔啼叫
+overall_traits:
+- 复沓短句承担鼓点逼近感与史诗腔调
+- 静止是力量的计量单位，全场无一次兵刃相交
+- 收束交给场外声音，悬置即张力

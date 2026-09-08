@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2b83c0d732703436003ec132
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1382
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 外面花园的灯光照到她脸上，看上去像鬼似的
+sensory_mapping: 视觉；明暗；面部失真；寒意
+context_fact: 魏成半夜醒来，看见妻子用从未有过的眼神盯他，并以枪口蹭脸强迫他继续研究。
+image_mechanism: 熟悉妻子的脸被侧面灯光切散，日常身份从阴影中撤走，只留下苍白轮廓和枪的冷触；认不出的熟人因此跨入鬼域。
+property_alignment: 异常灯光对应鬼影阴森明暗；熟人神态完全陌生对应亡灵失去日常人格；半夜无声出现对应鬼在暗处显形；持枪威胁对应死亡逼近
+context_alignment: 恐怖不只来自光线，而来自亲密关系突然变成生死胁迫，鬼形准确承载熟悉与非人的叠加。
+narrative_function: 把婚姻裂变压成惊悚瞬间，证明申玉菲对三体问题的使命高于丈夫生命。
+transfer_rule: 把熟人写得像鬼时，应让照明失真、身份陌生化和死亡关联共同成立，避免只以苍白外貌套用。
+failure_boundary: 普通低光肖像、人物仍温和可辨或没有死亡威胁时，鬼喻会无端妖魔化。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 深夜持枪威胁魏成、被花园灯从异常角度照亮的申玉菲面孔
+vehicle: 在暗处显现、脸色失真且带死亡威胁的鬼影
+ground: 夜灯使脸部明暗失常对应鬼脸脱离日常肤色；她用陌生目光持枪逼近对应鬼影具有非人威胁

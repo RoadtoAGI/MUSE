@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:燃烧--zhou-quan
+work_id: novel:狂病-莫千回
+display_name: 周全
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '周全的话分裂成两副嗓子。对外、对威胁，他短促、爆裂、带脏字，靠音量和狠话压场（怒吼"操你妈的还来"、威胁李太太"这个世界已经没有法律了，再引起内讧就杀了她"）。对"你"，他换成压低的、近乎事务性的平静——交代怎么死、交代去哪找药、交代手机震一下是方向对、震两下是偏了，把最绝望的内容用最克制的句子说出来，越是要做最坏的决定语气越稳。他几乎不抒情、不说漂亮话；真正的情感不在形容词里，而在"叹一口气"再继续说下去的那个停顿里。
+
+
+    佐证：scenes/scene_RS-S08.md:L5-L9 / scenes/scene_RS-S06.md:L5-L9 / scenes/scene_RS-S09.md:L3-L5'
+  evidence_locators:
+  - scenes/scene_RS-S08.md:L5-L9
+  - scenes/scene_RS-S06.md:L5-L9
+  - scenes/scene_RS-S09.md:L3-L5
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

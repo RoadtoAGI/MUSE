@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-11ada2c7ef183be911cc4add
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L509
+chapter: 第4章 三体、周文王、长夜
+figure_type: metaphor
+quote: 在太空深渊中跳着某种诡异的舞蹈
+sensory_mapping: 视觉；运动；节奏；空间
+context_fact: 汪淼退出前最后看见三个相互围绕的太阳。
+image_mechanism: 三个光点被赋予身体和步法，万有引力造成的相互牵引转成舞伴不断换位；深空则下沉为无底舞台。
+property_alignment: 天体互绕对应舞者换位旋转；轨迹复杂有节律对应舞步有规则难预测；黑暗太空对应深暗舞台
+context_alignment: 舞蹈同时呈现多体连续互动和旁观者不懂规律的诡异。
+narrative_function: 留下三体问题关键动态线索。
+transfer_rule: 多体运动可借舞蹈时，应对应参与者数量、相互响应、轨迹节奏和共同空间。
+failure_boundary: 单体直线飞行、随机碰撞或没有相互牵引时，舞蹈会虚构协调关系。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 三颗飞星彼此绕转的轨道运动
+vehicle: 三名舞者在深暗舞台上按复杂步法互绕
+ground: 天体互绕对应舞者换位旋转；轨迹复杂有节律对应舞步有规则难预测；黑暗太空对应深暗舞台

@@ -1,0 +1,195 @@
+# Phase 4: 结构（序列展开）— 《冰与火之歌Ⅰ·权力的游戏》
+
+arc_expansions:
+
+  # ═══════ ARC-1: 临冬城的崩裂 (第1-15章) ═══════
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "寒冬序曲"
+        core_conflict: 超自然威胁的首次显现 vs 人类世界的集体无视
+        escalation_direction: 从"传说中的恐怖"升级为"亲眼目睹的不可解释事件"
+        sequence_climax: 异鬼杀死威玛·罗伊斯，尸鬼复活扼死威尔（第1章）
+        closed: 巡逻队覆灭，异鬼威胁被证实（对读者而言）
+        opened: 这个威胁何时会被人类主流社会正视？
+
+      - seq_id: ARC1-SEQ2
+        name: "临冬城的和平"
+        core_conflict: 来自南方的政治邀请 vs 北方安宁生活的惯性
+        escalation_direction: 从"国王来访的喜悦"递进到"密信揭露的阴谋"
+        sequence_climax: 莱莎密信指控兰尼斯特谋杀前首相，奈德被迫接受首相之职（第7章）
+        closed: 奈德的决定——南下
+        opened: 兰尼斯特的阴谋到底有多深？临冬城分离后谁来守护？
+
+      - seq_id: ARC1-SEQ3
+        name: "坠落与追杀"
+        core_conflict: 兰尼斯特的秘密 vs 意外的目击者
+        escalation_direction: 从布兰坠楼的"意外" → 刺客行刺的"蓄意谋杀"
+        sequence_climax: 刺客持瓦雷利亚钢匕首行刺布兰，冰原狼咬杀刺客，凯特琳决定南下（第15章）
+        closed: 凯特琳确认布兰坠楼是谋杀，不是意外
+        opened: 匕首的主人是谁？凯特琳能否赶上奈德示警？
+
+    arc_progression_note: "三个序列呈逐层揭示结构：S1揭示世界级威胁（异鬼），S2揭示政治级威胁（兰尼斯特阴谋），S3揭示家族级威胁（布兰被推/刺杀）。威胁从远到近、从抽象到具体。"
+
+  # ═══════ ARC-2: 暗流涌动 (第16-34章) ═══════
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "三叉戟河的裂痕"
+        core_conflict: 史塔克与兰尼斯特子女间的仇恨萌芽
+        escalation_direction: 从孩子间的冲突 → 国王审判 → 冰原狼被杀/屠夫学徒被杀
+        sequence_climax: 瑟曦借机处死珊莎的冰原狼淑女，猎狗杀死米凯（第17章）
+        closed: 两家少年一代的仇恨种子已种下
+        opened: 这种仇恨将如何传导到成人层面？
+
+      - seq_id: ARC2-SEQ2
+        name: "匕首的追踪"
+        core_conflict: 匕首线索的追查 vs 宫廷中的信息迷宫
+        escalation_direction: 凯特琳到君临 → 小指头指认匕首属于提利昂 → 奈德开始秘密调查
+        sequence_climax: 奈德在钢铁街发现劳勃的黑发私生子詹德利，意识到"种性强韧"的含义（第28章）
+        closed: 琼恩·艾林追查的核心秘密被奈德触及——乔佛里的血统
+        opened: 这个发现将如何改变权力格局？
+
+      - seq_id: ARC2-SEQ3
+        name: "旅店的爆发"
+        core_conflict: 凯特琳的复仇冲动 vs 政治审慎的要求
+        escalation_direction: 从"小心翼翼的暗中调查" → "意外遭遇提利昂" → "当众逮捕"
+        sequence_climax: 凯特琳在旅店当众逮捕提利昂·兰尼斯特（第29章）
+        closed: 史塔克-兰尼斯特冲突从暗线走向明线
+        opened: 兰尼斯特家将如何报复？这会引发战争吗？
+
+    arc_progression_note: "三个序列呈冲击力递增：S1是孩子层面的冲突（但后果已见血），S2是信息层面的追查（智识较量），S3是行动层面的爆发（直接对抗）。从微小裂痕递进到公开决裂。"
+
+  # ═══════ ARC-3: 真相与代价 (第31-50章) ═══════
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "毒药与真相"
+        core_conflict: 奈德在信息迷宫中逼近真相 vs 敌人的反击加速
+        escalation_direction: 瓦里斯揭露"里斯之泪" → 奈德与劳勃因丹妮之事决裂 → 詹姆截杀奈德护卫
+        sequence_climax: 詹姆当街率兵截杀奈德护卫队，乔里惨死，奈德断腿（第36章）
+        closed: 冲突从政治升级为流血
+        opened: 奈德伤残后能否继续调查？兰尼斯特的下一步是什么？
+
+      - seq_id: ARC3-SEQ2
+        name: "秘密的揭晓"
+        core_conflict: 奈德掌握乔佛里血统真相 vs 如何使用这个信息的两难
+        escalation_direction: 格雷果屠村 → 奈德宣判其死刑 → 珊莎无意间的"乔佛里不像劳勃"触发顿悟 → 奈德当面告知瑟曦
+        sequence_climax: 奈德当面向瑟曦揭穿乔佛里身世，给她最后通牒（第46章）
+        closed: 真相已被揭示和传达
+        opened: 奈德给了瑟曦逃跑时间——她会逃还是反击？
+
+      - seq_id: ARC3-SEQ3
+        name: "政变之夜"
+        core_conflict: 奈德的法理正义 vs 瑟曦的武力现实
+        escalation_direction: 劳勃狩猎被杀 → 奈德获遗嘱成为摄政 → 拒绝蓝礼夺权建议 → 信任小指头 → 被背叛
+        sequence_climax: 小指头背叛，都城守备队屠杀奈德卫士，奈德被捕（第50章）
+        closed: 奈德的权力彻底归零，政变成功
+        opened: 奈德的命运如何？战争将如何展开？
+
+    arc_progression_note: "三个序列展示了一个经典的悲剧递进：S1证明暴力已经开始（流血），S2让主角获得了最关键的信息（真相），S3展示了信息在没有力量支撑时毫无价值（政变）。知道真相≠掌握权力——这是本Arc的核心教训。"
+
+  # ═══════ ARC-4: 战火与处刑 (第51-66章) ═══════
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "逃亡与集结"
+        core_conflict: 各方在新格局下的生存选择
+        escalation_direction: 艾莉亚逃出红堡 → 珊莎沦为人质 → 尸鬼袭击黑城堡 → 罗柏率军南下
+        sequence_climax: 罗柏收服北方诸侯率军南下，布兰代理临冬城，欧莎警告"应该往北"（第54章）
+        closed: 各方力量完成重新部署
+        opened: 北方大军能否在战场上扭转局势？
+
+      - seq_id: ARC4-SEQ2
+        name: "战争的天平"
+        core_conflict: 兰尼斯特的军事优势 vs 罗柏的战术天才
+        escalation_direction: 佛雷谈判 → 兵分两路 → 绿叉河声东击西 → 呓语森林伏击
+        sequence_climax: 罗柏在呓语森林伏击并俘获詹姆·兰尼斯特（第64章）
+        closed: 罗柏取得决定性军事胜利
+        opened: 军事胜利能否挽救奈德的命？（答案是：来不及了）
+
+      - seq_id: ARC4-SEQ3
+        name: "贝勒大圣堂"
+        core_conflict: 奈德在荣誉与女儿之间的终极抉择
+        escalation_direction: 地牢中瓦里斯的劝说 → 奈德被迫认罪 → 乔佛里违约下令斩首
+        sequence_climax: 奈德在贝勒大圣堂被斩首，艾莉亚在人群中目睹（第66章）
+        closed: 奈德之死——全书的核心戏剧问题（荣誉能否存活）得到回答：不能
+        opened: 奈德的死将如何改变所有存活角色的命运轨迹？
+
+    arc_progression_note: "三个序列在时间上近乎同步推进（多线并行），冲击力递增：S1是散乱的逃亡与集结（混乱），S2是战场上的胜利（希望），S3是处刑台上的毁灭（绝望）。马丁刻意让军事胜利（第64章）和政治毁灭（第66章）几乎同时发生，制造出最残酷的反讽——战场上赢了，权力场上输了。"
+
+  # ═══════ ARC-5: 灰烬中的新秩序 (第67-73章) ═══════
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "余震与抉择"
+        core_conflict: 奈德之死后每个角色面临的身份重建
+        escalation_direction: 布兰和瑞肯梦见父亲 → 珊莎被乔佛里虐待 → 琼恩逃营被追回 → 泰温部署新棋局
+        sequence_climax: 琼恩被兄弟追回长城后选择留下，莫尔蒙宣布大举越墙北进（第71章）
+        closed: 琼恩的身份抉择——在誓约与亲情间选择了誓约和更大的使命
+        opened: 长城以北的真正威胁是什么？
+
+      - seq_id: ARC5-SEQ2
+        name: "称王与诞龙"
+        core_conflict: 旧秩序崩溃后的权力真空如何填充
+        escalation_direction: 丹妮闷死卓戈 → 北方诸侯拥立罗柏为北境之王 → 丹妮走入火中，龙破壳而出
+        sequence_climax: 丹妮莉丝走入火葬台，三条龙从蛋中孵化，龙族重生（第73章）
+        closed: 三个新力量诞生——北境之王、龙母、守夜人的北征
+        opened: 整个系列的核心悬念：这三股力量将如何碰撞？
+
+    arc_progression_note: "最终Arc只有两个序列，节奏加快，快速建立'新平衡'。S1处理'旧世界的余震'，S2建立'新世界的框架'。龙的诞生作为最后的高潮，将故事从政治权谋推入真正的史诗奇幻领域。"
+
+# ── 全篇因果链 ──
+
+causal_chain: >
+  ARC1（布兰坠楼/刺客行刺 → 凯特琳决定南下）
+  →（因为凯特琳获得匕首线索并在旅店偶遇提利昂）
+  ARC2（暗中调查升级为公开逮捕）
+  →（因为逮捕提利昂引爆兰尼斯特报复，同时奈德逼近乔佛里血统真相）
+  ARC3（詹姆截杀→奈德发现真相→劳勃死→政变）
+  →（因为奈德被捕、各方重新集结）
+  ARC4（战争爆发→军事胜利与政治毁灭同步→奈德被斩首）
+  →（因为旧秩序彻底崩塌）
+  ARC5（罗柏称王→丹妮诞龙→新世界格局形成）
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: |
+    ARC1高潮：个人级（布兰差点被杀）
+    ARC2高潮：家族级（两大家族公开对抗）
+    ARC3高潮：政治级（首相被推翻，宫廷政变）
+    ARC4高潮：存在级（核心角色死亡，类型契约被打破）
+    ARC5高潮：世界级（龙的回归，魔法重生）
+    冲击力从个人→家族→政治→存在→世界，逐级递增。
+  causal_chain: >
+    ARC1高潮（刺杀）→ 触发ARC2（凯特琳南下追查）
+    → ARC2高潮（逮捕提利昂）→ 触发ARC3（兰尼斯特报复+奈德加速调查）
+    → ARC3高潮（政变）→ 触发ARC4（战争+奈德的生死悬念）
+    → ARC4高潮（奈德之死）→ 触发ARC5（各方在灰烬中重建）
+    → ARC5高潮（龙的诞生）→ 开启整个系列的核心冲突
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "君临权力线"
+    description: "奈德在宫廷中追查真相，对抗兰尼斯特阴谋，最终被碾碎"
+    primary_arcs: [ARC-2, ARC-3, ARC-4]
+
+  - name: "北境战争线"
+    description: "凯特琳和罗柏从调查到军事行动，北境独立"
+    primary_arcs: [ARC-2, ARC-4, ARC-5]
+
+  - name: "海外觉醒线"
+    description: "丹妮莉丝从政治筹码蜕变为龙母"
+    primary_arcs: [ARC-1, ARC-3, ARC-5]
+    # 丹妮线在ARC-1（婚姻）、ARC-3（韦赛里斯之死/卓戈发誓西征）、ARC-5（龙的诞生）有高潮
+
+  - name: "长城线"
+    description: "琼恩在守夜人中成长，超自然威胁逐渐逼近"
+    primary_arcs: [ARC-1, ARC-4, ARC-5]
+    # 琼恩线在ARC-1（加入守夜人）、ARC-4（尸鬼袭击）、ARC-5（选择留下/北征）有高潮
+
+  - name: "暗线：异鬼的回归"
+    description: "从序幕的第一次现身到尸鬼袭击黑城堡，超自然威胁缓慢但确定地逼近"
+    presence: "间歇——第1章（序幕）、第18章（三眼乌鸦）、第49章（断手）、第53章（尸鬼）、第73章（龙的回应）"

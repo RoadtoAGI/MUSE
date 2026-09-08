@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-84765cd367207b5eb7510903
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1790
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 她把与外界精神上的联系也斩断了
+sensory_mapping: 刀刃；拉紧连线；切断声；两端分离；疼痛
+context_fact: 她认为自己不会离开绝密基地，得知工程目的后只投入工作，不再想象外部生活。
+image_mechanism: 外界与内心之间原有的情感、信息和希望被束成一根绳，叶文洁亲手一刀切开；基地的物理封闭因此延伸为主动心理截肢。
+property_alignment: 精神归属对应连接绳；外界与叶文洁对应绳索两端；接受终身留基地对应举刀；停止交流期待对应切断；长期隔绝对应断端无法自动复合
+context_alignment: 此前政治力量已把她与社会隔离，此处“她把”强调从被动禁锢到主动自绝，为后来只向宇宙寻找对象埋因。
+narrative_function: 刻画叶文洁心理封闭的决绝，并缩小她的价值世界到红岸和宇宙。
+transfer_rule: 用斩断写关系终止时，应明确连接两端、传递内容、主动切断动作和断后难以恢复的后果。
+failure_boundary: 关系只是暂时减少联系、双方仍保持情感通道或主体并非主动选择时，“斩断”会夸大决绝与责任。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁进入红岸后主动停止对外部社会的情感归属、思想交流和未来期待
+vehicle: 用利刃切断连接两端的绳索或肢体，使双方无法再传递力量
+ground: 精神交流和归属对应连接线；主动隔绝对应挥刀切开；此后难以恢复往来对应断端分离

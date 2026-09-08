@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4ef3fa3a09b69621cfa1a43d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1842
+chapter: 第23章 红岸之五
+figure_type: simile
+quote: 大兴安岭看上去是灰蒙蒙的一片，就像叶文洁的生活
+sensory_mapping: 视觉灰度；雾气；远景模糊；空间无际；情绪冷暗
+context_fact: 她秘密发射后没有得到任何即时结果，独自在峰顶吃凉馒头，回望长期受压抑的人生。
+image_mechanism: 眼前山林成为人生底片，晚光抽走景物颜色也抽走生活可能；岭脊在灰雾中找不到出口，正像她无法看见后半生的转折。
+property_alignment: 灰蒙山色对应生活黯淡；雾中低可见度对应未来不清；山岭延伸无际对应困境看不到尽头；落日后失色对应希望退去
+context_alignment: 发射本是她唯一绚丽梦想的行动，结果现场却平淡无奇，外景灰度准确承接希望尚未得到回应的空落。
+narrative_function: 把人生判断投射到大兴安岭暮色，为梦醒与未来灰色的延展意象建立底色。
+transfer_rule: 用灰雾景观写生活时，应对齐色彩匮乏、方向受遮、视野边界和人物当下无法看清的未来。
+failure_boundary: 人物生活虽艰难却目标明确、关系丰富，或景物色彩鲜明通透时，整片灰雾会抹去真实层次。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁经历父死、背叛和政治禁锢后感到自己的生活黯淡、单调且看不到方向
+vehicle: 落日后被灰雾覆盖、边界模糊并延伸到远方的大兴安岭
+ground: 生活缺乏希望和色彩对应山林只剩灰色；未来不可辨对应雾中地形轮廓模糊

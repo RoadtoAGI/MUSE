@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f2a04588e2ad6546569313b0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L641
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 发出有节奏的“哒哒”声，像渐行渐远的脚步
+sensory_mapping: 听觉；节奏；距离；运动想象
+context_fact: 叶哲泰静卧不动，血迹爬到台沿后开始滴落。
+image_mechanism: 看不见的离去被装进每一滴血的敲击：空箱把液滴放大成脚步，连续声点在想象中排成一条远离现场的路径。
+property_alignment: 血滴逐次撞击对应脚步逐步落地；哒哒节奏对应步伐节拍；声音走向寂静对应行人离现场越来越远
+context_alignment: 人物已经死亡却无法自行离开，脚步声替生命完成告别，与上一层红蛇爬行连续。
+narrative_function: 以听觉意象完成叶哲泰生命离场，并加深死寂。
+transfer_rule: 用脚步表现消逝时，应让离散声响具有可辨节拍、空间方向和由近至远的衰减，而非只取“哒哒”音似。
+failure_boundary: 滴声越来越响、节奏完全随机或声源持续停在近处时，“渐行渐远”会强加不存在的空间运动。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 血从台沿逐滴落在空箱上的节奏声
+vehicle: 一个人逐步走远、音量随距离淡去的脚步声
+ground: 血滴逐次撞击对应脚步逐步落地；哒哒节奏对应步伐节拍；声音走向寂静对应行人离现场越来越远

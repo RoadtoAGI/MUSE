@@ -1,0 +1,28 @@
+scene_id: '11'
+source_notes: scene_11_beats.md
+patterns:
+- pattern_id: 11-p1
+  beat: 肥皂船提问
+  dimension: info_density
+  original_move: 宇宙级真相用浴缸小船一问揭出，三层信息齐爆
+  ai_default_failure: 用空间扭矩数学模型做技术推导讲解
+  transfer_rule: 重大揭示可回扣早期小实验，让读者同步推导
+  quote: 有没有把它拿回来，放到浴盆里再试一次？
+- pattern_id: 11-p2
+  beat: 最后的人声
+  dimension: camera
+  original_move: 灭日只给碎片化音频，多普勒把人声变形成吟唱
+  ai_default_failure: 用全景画面史诗式描写文明灭绝
+  transfer_rule: 数十亿人的终结可由几句无名对白碎片承载
+  quote: 是的，宝贝，会变得很薄
+- pattern_id: 11-p3
+  beat: 认知崩塌
+  dimension: omission
+  original_move: 最痛认知只给八字判断句，零情感词
+  ai_default_failure: 写浑身颤抖泪水夺眶世界崩塌
+  transfer_rule: 悲剧顶点用叙述者判断替代情感，判断更冷更重
+  quote: 她终于还是犯了第二次错误
+overall_traits:
+- 苏格拉底式提问替代讲解，读者同步推导
+- 碎片人声替代史诗全景
+- 判断替代情感，宿命感藏在「终于还是」里

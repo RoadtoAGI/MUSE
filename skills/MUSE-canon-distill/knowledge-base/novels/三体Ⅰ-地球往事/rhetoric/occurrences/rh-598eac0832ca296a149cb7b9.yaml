@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-598eac0832ca296a149cb7b9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L719
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 你从这本书中找到了向社会主义进攻的思想武器
+sensory_mapping: 战斗；工具；瞄准；伤害；概念
+context_fact: 调查者把环境批评信定性为向社会主义进攻。
+image_mechanism: 阅读动作被改写成武装过程，书页成为存放兵器的库房，观点被抽出、握持并朝制度瞄准；讨论环境的写信者由此被制造成敌军。
+property_alignment: 书提供论点对应武器库提供装备；写信表达批评对应持械发动攻击；制度被设为敌我一方对应武器有瞄准目标；思想被指造成政治伤害对应兵器具有杀伤力
+context_alignment: 审讯需要把思想问题升级成敌我冲突，武器隐喻正是完成刑事化的政治话语工具。
+narrative_function: 揭露定罪语言怎样把阅读和批评重新编码为战争行为。
+transfer_rule: 分析“思想武器”时，应追踪知识来源如何变成装备、表达如何变成攻击、对象如何被敌化，并保留说话者立场。
+failure_boundary: 观点能影响人不等于具有物理杀伤或战争意图；用于讨论、修正政策的文本不能仅凭武器框架定罪。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 调查者声称叶文洁从书中取得了攻击政治制度的观念
+vehicle: 从武器库领取并朝敌方使用的攻击性兵器
+ground: 书提供论点对应武器库提供装备；写信表达批评对应持械发动攻击；制度被设为敌我一方对应武器有瞄准目标；思想被指造成政治伤害对应兵器具有杀伤力

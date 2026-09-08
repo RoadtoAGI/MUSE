@@ -1,0 +1,27 @@
+mode: reference
+display_name: 老张
+role_slug: lao-zhang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/黄金国/phase3_spine.yaml  # antagonistic_forces.interpersonal.layer_1（老张谋私/选炮灰）+ key_reversals（手套论）
+  - pipeline/phase0_conception.yaml  # human_antagonist_typology.luo_kaibo_type.anchors（门卫老张 = 罗凯伯的手套）
+  - scenes/scene_HJ-S05.md
+  - scenes/scene_HJ-S07.md
+  - scenes/scene_HJ-S09.md
+  - scenes/scene_HJ-S10.md
+  - scenes/scene_HJ-S12.md
+  - scenes/scene_HJ-S13.md
+built_at: 2026-05-29T19:30:00+08:00
+skill_version: 1
+locator_count: 10
+has_canon_ending: false
+coverage_note: |
+  中层反派功能型样本，证据密度中。
+  locator_count=10（按 build/verify 去重口径）。
+  声音框架跨 3 场景（S07 谄媚报告 + 对外敷衍 / S10 卸责话术 / S13 小声抱怨妥协），对上谄媚 + 对下敷衍的双腔调有篇内佐证。
+  边界 4 条分布 S09/S10/S12/S13，跨 4 场景：绝不承担过错（S10 卸责）/ 绝不放过谋私（S09 豪言）/ 绝不真正违逆罗凯伯（S13 小声抱怨）/ 绝不对底层放下身段（S12 被秦正肖顶回只会瞪眼），均有 scene locator 直接佐证。
+  弧光为"认知未发生转变的反讽"：老张始终没看清自己只是替罪手套——起点（S09 翻身亲信）+ 转折（S10 闯祸卸责 / S13 手套论被罗凯伯点破）+ 终点（S13 被下放全权仍不自知）三段齐全；终点的"看清"发生在读者与罗凯伯视角，非老张本人，已在弧光段标注。
+  has_canon_ending: false —— 回 scene 原文核对：老张活到篇末（S13:L21-L23 罗凯伯"下放全权给老张，以后这里就是老张的天下"；S13:L75 仍在大厦与罗凯伯对话），无死亡 / 不可逆终局，不产 canon-ending.md。
+  老张为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；archetype（底层翻身的谄上欺下型中层打手 / 替罪手套）取自 phase0 human_antagonist_typology.luo_kaibo_type.anchors + phase3 key_reversals'手套论'，结构化字段依据 spine antagonistic_forces 推导，所有断言均有篇内 scene locator 佐证。
+  注：本篇'老张'与《他的故事》录音笔遗书主人'老张'非同一人（phase0 line 231 已澄清勿合并）；本篇 slug 走 per-part map，prefix HJ 已物理隔离。

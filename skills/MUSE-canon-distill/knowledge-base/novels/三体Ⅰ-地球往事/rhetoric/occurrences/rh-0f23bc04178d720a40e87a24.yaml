@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0f23bc04178d720a40e87a24
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1835
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 埋藏了多少年的感情又涌上心头
+sensory_mapping: 地下深度；水流上涌；胸口压力；表面突破；温度
+context_fact: 两人安静等待二十分钟，他清楚听见她的呼吸心跳，却必须控制自己。
+image_mechanism: 多年感情先被压进心底土层，静室中的呼吸和心跳像地下压力上升，情绪终于化为水流顶到意识表面；他又强行筑堤不让其外泄。
+property_alignment: 长期克制对应深埋；爱情仍存在对应地下水源未干；近距离等待对应触发压力；感情变强对应向上涌流；继续自控对应阻止水溢出
+context_alignment: 叶文洁只关心实验，杨卫宁的情感上涌却不被表达，单向水流突出两人心理不同步。
+narrative_function: 在科学悬念间插入克制爱情，并为后来的婚姻关系增加情感底层。
+transfer_rule: 用埋藏后涌出写情感时，应有长期压抑、未消失的内在储量、明确触发和向意识表面的强度变化。
+failure_boundary: 感情此前已消失、此刻只是新生好感，或人物直接持续表达从未压抑时，埋藏再涌不成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 杨卫宁多年压抑的爱情在与叶文洁静候实验结果时重新强烈出现
+vehicle: 被埋在地下或深处的水源破土而出，向上涌到表面
+ground: 感情长期不表露对应物体被深埋；现场亲近触发情绪对应压力使埋藏物向上涌出

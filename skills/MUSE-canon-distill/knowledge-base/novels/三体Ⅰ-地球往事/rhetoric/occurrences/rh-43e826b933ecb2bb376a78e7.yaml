@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-43e826b933ecb2bb376a78e7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L993
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 大地在他们下面伸展开来，像一块沧桑的旧皮革
+sensory_mapping: 视觉；触觉纹理；俯瞰空间
+context_fact: 汪淼重返游戏，金字塔和地貌已被漫长岁月风化，他与墨子站在高处俯视荒原。
+image_mechanism: 俯视角先把辽阔地面压平成一张可摊开的材料，再以皮革的皱、暗、干把无形岁月留成表面磨损。
+property_alignment: 大地从高处呈连续平面对应一整块铺开的皮革；土地干裂风化对应旧皮革失水起皱；文明反复兴灭留下痕迹对应材料长期使用后的沧桑斑痕
+context_alignment: 此地刚经历数十万年和多轮文明，旧皮革既贴合荒原颜色质地，也让时间损耗进入眼前景物。
+narrative_function: 在孔子骷髅出现前建立苍老、荒凉的世界底色。
+transfer_rule: 写俯瞰荒地时，可选既能铺展成面、又会随年月留下裂纹和色差的材料，让尺度与时间痕迹落在同一表面。
+failure_boundary: 湿润葱郁、地势尖峭或仍有鲜明新生色彩的地貌缺少皮革的干、平、旧，用此喻会抹掉场景物性。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 从观星台俯瞰的干旱、久经灾变的大地
+vehicle: 摊开的、起皱变色的陈旧皮革
+ground: 地表绵延铺展对应皮革摊开成片；风化土地的暗沉纹理对应旧皮革的皱褶与斑驳

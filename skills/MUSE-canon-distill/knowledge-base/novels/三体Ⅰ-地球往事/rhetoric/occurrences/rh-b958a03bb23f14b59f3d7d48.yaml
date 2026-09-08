@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b958a03bb23f14b59f3d7d48
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2479
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 简直是玩火
+sensory_mapping: 掌边火苗；热力诱惑；失控蔓延；灼伤；危险游戏
+context_fact: 神迹计划考虑向ETO提供技术，军事执政官担心最终落到人类文明手中。
+image_mechanism: 技术被缩成可传递火种，三体想用它点亮假神迹，却必须把火交到潜在敌人手里；火一旦离手便不再服从使用边界。
+property_alignment: 三体技术对应火种；制造神迹对应借火表演；交给ETO对应递火；地球学习对应火势复制；技术外泄对应蔓延；未来反攻对应火烧三体
+context_alignment: 人类文明此前孕育ETO如燎原，三体再次考虑送火，玩火警告准确连接传播失控主题。
+narrative_function: 用常识危险迅速反驳技术输入方案，并推动选择不传技术的智子路线。
+transfer_rule: 用玩火写高风险授权时，应有可复制力量、短期收益、控制边界、失控传播和反噬路径。
+failure_boundary: 技术不可复制、权限可随时撤销且对方无法理解使用时，火的自主蔓延性会夸大风险。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 向地球异己力量输入高于现有水平的技术可能反被人类掌握，增强未来敌人
+vehicle: 人在身边把玩可蔓延火焰，短期取用其力量却可能失控烧伤自己
+ground: 先进技术力量对应火；向敌方投放对应在身边点玩；扩散失控对应火势蔓延；反噬三体对应玩火者被烧

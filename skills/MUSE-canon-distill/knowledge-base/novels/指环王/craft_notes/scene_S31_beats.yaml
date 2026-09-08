@@ -1,0 +1,35 @@
+scene_id: S31
+source_notes: scene_S31_beats.md
+patterns:
+- pattern_id: S31-p1
+  beat: 等待
+  dimension: omission
+  original_move: 大战前夜只写岩石品质与瞌睡的闲聊，全是静态日常动词
+  ai_default_failure: 写战前恐惧内心、这可能是最后一夜
+  transfer_rule: 老兵的镇定用日常话题侧写，恐惧一字不提
+  quote: 这片大地有坚硬不屈的骨架
+- pattern_id: S31-p2
+  beat: 第一波攻击
+  dimension: camera
+  original_move: 闪电作闪光灯，敌情以脉冲式瞬间照亮，不给总数
+  ai_default_failure: 给出「五万大军」式的精确计数
+  transfer_rule: 大军压境用自然光瞬照代替数据，天气当节拍器
+  quote: 全被电光照得雪亮
+- pattern_id: S31-p3
+  beat: 中场喘息
+  dimension: info_density
+  original_move: 宏观战场骤切计分斗嘴，喘息点与友谊质感一段双修
+  ai_default_failure: 先写战斗暂时平息的过渡，再用宣言式台词写友谊
+  transfer_rule: 长战斗中部插私人竞赛梗，给读者喘息又立关系
+  quote: 我最起码也赚了二十个
+- pattern_id: S31-p4
+  beat: 城墙被炸
+  dimension: omission
+  original_move: 爆炸只给巨响与大洞，因果直连，过程压缩为零
+  ai_default_failure: 用大量拟声词和慢镜头写爆炸
+  transfer_rule: 转折性破坏放在对话间隙引爆，只写因与果
+  quote: 石墙被炸出了一个大洞
+overall_traits:
+- 战斗呼吸：每次高潮后必设低谷防疲劳
+- 自然元素是结构性的叙事节拍器
+- 私人视角锚定万人战场，无全景战报

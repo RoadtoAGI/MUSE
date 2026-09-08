@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-caa95407513514ce12c16443
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L84
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 仿佛一堆大工业时代的垃圾
+sensory_mapping: 视觉；材质；尺度
+context_fact: 装置处在施工阴影中，汪淼从审美而非工程功能取景。
+image_mechanism: 视角暂时拿掉设备的科学用途，只保留阴影中的铁块、裸管和无序堆叠，使先进装置在视觉上退化成废料堆。
+property_alignment: 金属块和管线杂乱堆叠对应工业废料无序形态；尚未显出功能的设备对应废物失去用途后的冷硬外观
+context_alignment: 垃圾意象剥去先进装置的崇高感，与后面娇柔身影形成材质反差。
+narrative_function: 建立冷酷工业体量，为杨冬的花朵意象蓄势。
+transfer_rule: 需要表现功能尚未显现的复杂物时，可有意识切换到陌生观察者，只比较可见材质、秩序和是否像被使用。
+failure_boundary: 运转完善、结构清晰或被精心展示的设备不具备弃置感；把任何重工业都叫垃圾会偷换价值判断。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 未完工、管线裸露的超导线圈装置
+vehicle: 被弃置的大工业废料堆
+ground: 金属块和管线杂乱堆叠对应工业废料无序形态；尚未显出功能的设备对应废物失去用途后的冷硬外观

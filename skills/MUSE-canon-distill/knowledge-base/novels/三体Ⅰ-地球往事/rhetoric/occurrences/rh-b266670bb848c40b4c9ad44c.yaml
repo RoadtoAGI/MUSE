@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b266670bb848c40b4c9ad44c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1240
+chapter: 第15章 红岸之四
+figure_type: simile
+quote: 这噪声隐隐约约的，好像比那些星星还永恒
+sensory_mapping: 听觉；时间长度；微弱连续性
+context_fact: 叶文洁多年夜间监听，始终只听到没有生命信息的隐约噪声，未收到任何外星回应。
+image_mechanism: 极弱声流被沿时间轴无限拉长，视觉上古老的群星反而成为可被它超越的短暂标尺；微弱不再等于短促，而成了磨人的恒常。
+property_alignment: 噪声多年不间断对应恒星长久存在；听不到开端终点对应永恒无边界；信号微弱却始终在场对应远星黯淡而持续可见
+context_alignment: 监听者以星空作职业背景，拿星寿命衡量声音持续性符合她的天文学经验，也把长期无回应写成时间压迫。
+narrative_function: 让背景噪声获得超越个体生命的时间尺度，深化外星沉默的孤独。
+transfer_rule: 写微弱却持久的感受时，可选角色熟悉的长时标作比较，并同时对齐持续、无起止和个体寿命差。
+failure_boundary: 噪声间歇明显、有确定来源和周期，或人物只听过一次时，“比星星永恒”会失去长期经验依据。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 耳机中无生命、似乎从不停止的宇宙背景噪声
+vehicle: 比恒星寿命和星光存在还更持久的恒常之物
+ground: 噪声每次监听都持续存在对应星星跨越人类一生仍在；噪声没有可辨起止对应永恒缺少时间边界

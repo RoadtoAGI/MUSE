@@ -1,0 +1,38 @@
+work_id: macbeth
+title: Macbeth
+title_zh: 麦克白
+author: William Shakespeare
+translator: 朱生豪
+source_medium: stage_play
+dramatic_form: tragedy
+language: zh                          # 中文译本（朱生豪通行译）；原文为 early modern English
+country: en-GB
+period: early_modern                  # 1606 年首演，剧情取材于 11 世纪苏格兰史
+rights_status: copyrighted_translation
+                                      # 莎翁原文 public domain；朱译可能仍受译者权利约束
+length_estimate: 5_acts_27_scenes_~35k_zh_chars
+verse_or_prose: mixed                 # 多为韵文（女巫咒诀、独白），市井 / 门房段落散文
+notes: |
+  朱生豪译本（青苹果数据中心 2014 电子版）。麦克白是莎翁四大悲剧中最短最紧凑的一部，
+  超自然介入（女巫、班柯鬼魂、幽灵）与心理崩溃（独白、梦游）双线驱动；
+  五幕结构方正，幕末皆有清晰 turn；女巫"三应验"为典型预言机制。
+
+reference_lanes:
+  allowed:
+    - canon_facts
+    - story_design
+    - scene_function
+    - medium_grammar
+    - dramatic_surface_style
+  forbidden:
+    - prose_surface_style             # 戏剧不贡献 prose 文风
+
+default_consumption:
+  novel_writing:
+    phase0_to_4: allowed_as_story_design
+    phase5: allowed_as_scene_function_transform
+    phase6: forbidden_as_prose_style
+  screenplay_writing:
+    phase0_to_4: allowed_as_story_design
+    phase5: allowed_as_dramatic_scene_function
+    phase6: allowed_if_target_medium_matches    # 同 stage_play 可直接 fewshot

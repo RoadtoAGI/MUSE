@@ -1,0 +1,19 @@
+# series/ledgers/characters/<char_id>/biography.yaml —— 已发生经历的追加账本
+schema_version: 1
+char_id: null                    # 填所在角色目录名；与章卡、人物事实的 char_id 相同
+growth_track: []                 # 有来源支持的弧段才填写；稳定角色或尚无转变可为空
+# 非空条目形状：
+#   - segment: 1                 # 本角色弧段序号
+#     mode: "有依据的弧类型"
+#     from: "段首已建立的状态"
+#     to: "覆盖截止时已建立的状态"  # 未完结段取当前状态
+#     spans: [V01]               # 实际覆盖的卷 ID
+milestones: []                   # 无持续变化时为空；有条目时以下五个字段齐备
+#   - at: C0001                  # manifest 已有章号；已定位场景时用 C0001S01
+#     kind: 认知转变              # 认知转变 | 能力获得 | 关系变化 | 创伤 | 誓言 | 退场；可用类型扩展
+#     before: "事件发生前的状态"
+#     after: "事件造成的实际变化"
+#     evidence: "足以定位并支持该变化的正文原句，保留必要上下文"
+# kind 由来源事件决定：普通目标只在原文发生誓言行为时记为誓言。
+# 仅有日常互动、持续目标或分析者期待时保留空列表，不补造成长。
+last_seen: null                  # 填写原文中最近出场的 manifest 章号

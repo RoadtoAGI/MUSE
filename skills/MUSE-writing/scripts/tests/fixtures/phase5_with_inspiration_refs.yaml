@@ -1,0 +1,7 @@
+scenes:
+  - scene_id: S07
+    inspiration_refs:
+      - INS-001
+  - scene_id: S08
+    inspiration_refs: []
+  - scene_id: S09

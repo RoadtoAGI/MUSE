@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ba49a8fc03269996886708d3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L783
+chapter: 第9章 红岸之一
+figure_type: metaphor
+quote: 叶文洁的人生在这一个月里转了一个大圈又回来了
+sensory_mapping: 空间；圆周运动；时间；返回；人生轨迹
+context_fact: 一个月前她仍在雷达峰下兵团伐木，此刻被送到峰顶基地。
+image_mechanism: 线性苦难旅程被弯成圆，监室与飞机成为圆弧中不可见路段；落地时空间坐标接近原点，人生身份却随绕行完成改变。
+property_alignment: 经历多个地点与事件对应沿圆周远行；最终地理回归对应轨迹闭合；人物处境已改变对应回到同点却完成一圈；一个月构成周期对应圆周有完整时段
+context_alignment: 雷达峰作为明确起点与终点支撑“回到”，而由兵团犯人变为最高机密候选说明返回不是原地重复。
+narrative_function: 压缩一个月转折，并将红岸入口写成人生轨道闭合点。
+transfer_rule: 用圆写人生回返时，应给出可辨起点、弧上变化、返回坐标和身份差异，使闭合包含增量。
+failure_boundary: 终点与起点无地理或主题联系、过程只是原地停滞时，转圈会误写结构；完全恢复原状也缺少轨道变化。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 叶文洁离开伐木场、经审讯濒死后又回到雷达峰所在的大兴安岭
+vehicle: 运动轨迹沿大圆绕行后返回接近起点
+ground: 经历多个地点与事件对应沿圆周远行；最终地理回归对应轨迹闭合；人物处境已改变对应回到同点却完成一圈；一个月构成周期对应圆周有完整时段

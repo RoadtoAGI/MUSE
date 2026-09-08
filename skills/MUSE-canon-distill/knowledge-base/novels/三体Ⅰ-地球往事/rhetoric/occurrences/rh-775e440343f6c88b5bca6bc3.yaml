@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-775e440343f6c88b5bca6bc3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1214
+chapter: 第14章 红岸之三
+figure_type: analogy
+quote: 百忙之中下一步闲棋是很有必要的
+sensory_mapping: 棋盘空间；落子动作；长期时序；战略布局
+context_fact: 决策者认可红岸能促使人类从新尺度思考，此时项目与冷战日常事务相比边缘且高度不确定。
+image_mechanism: 国家战略被铺成一盘尚未结束的棋，紧急事务占据主战区，红岸则被安静落在远处；价值来自未来可能与全局连线，而非当前吃子。
+property_alignment: 国政繁忙对应棋局主战激烈；红岸短期边缘对应闲棋暂不交锋；提前立项对应预先落子；未来可能改变格局对应闲子在后盘发挥作用
+context_alignment: 批示者以战略眼光评价不确定项目，棋局比喻兼有克制投入和长远布局，符合决策口吻。
+narrative_function: 解释为何国家在资源紧张时仍批准红岸，也为这步闲棋后来改变人类命运制造反讽。
+transfer_rule: 用闲棋写前瞻项目时，应说明当前主战、项目暂时边缘、预占位置和未来触发价值。
+failure_boundary: 项目立即决定胜负、资源投入极重或没有任何未来连线机制时，称闲棋会低估成本或虚构战略远见。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 在紧迫国政之外提前布局短期未必见效的外星文明探索工程
+vehicle: 棋局中暂不直接争夺要点、为未来局势预留可能的一手闲棋
+ground: 工程当下收益不明确对应棋步眼前不参与主战；提前投入可能在未来发挥作用对应棋子预先占位等待局势变化

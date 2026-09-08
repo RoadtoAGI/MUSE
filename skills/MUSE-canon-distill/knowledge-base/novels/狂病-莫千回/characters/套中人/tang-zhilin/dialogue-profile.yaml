@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:套中人--tang-zhilin
+work_id: novel:狂病-莫千回
+display_name: 唐志林
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他说话条理清楚、爱做分析，常把眼前的人和事抽象成一套可解释的框架——管感染者叫"被剥夺了自我和超我、只剩本我的最纯粹的人类"，把网络暴力说成这种"轻症"，把父亲的断后拆解成"放大音量壮胆、破釜沉舟"的恐惧反应。但他从不居高临下：解读完别人，他会回头自嘲自己最不理智；面对洪扬的恨与痛，他不忙着说教，更多是安静地陪着、等对方哭出来。讲到自己母亲、那座没坐成的观光船时，他的话会从抽象落回具体，温度也随之上来。临别一句"弘叔说的没错，他的儿子真的很优秀"，是他把分析的能力用来缝合别人伤口的方式。
+
+
+    来源：phase2_character.yaml → voice_traits（学说化阐释 + 不说教的陪伴 + 自嘲）
+
+    佐证：scenes/scene_TZ-S11.md:L23-L29 / scenes/scene_TZ-S11.md:L11-L13 / scenes/scene_TZ-S11.md:L71-L71'
+  evidence_locators:
+  - scenes/scene_TZ-S11.md:L23-L29
+  - scenes/scene_TZ-S11.md:L11-L13
+  - scenes/scene_TZ-S11.md:L71-L71
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,11 @@
+# published/manifest.yaml —— 发布序真值（全序真值 + revision 勘误记录）
+schema_version: 1
+entries:
+  - chapter_id: C0001
+    file: V01C0001.md              # published/ 下展示态文件名（带卷前缀，仅展示态）
+    published_seq: 1                 # 发布全序（唯一真值）
+    ts: "2026-07-06T12:00:00+08:00"
+revisions:
+  - chapter_id: C0001
+    reason: 修正错字"渡劫"误写为"渡却"，不动设计事实
+    ts: "2026-07-08T09:00:00+08:00"

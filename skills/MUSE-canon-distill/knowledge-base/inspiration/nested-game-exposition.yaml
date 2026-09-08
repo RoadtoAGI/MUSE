@@ -1,0 +1,25 @@
+card_id: nested-game-exposition
+pattern_name: 游戏嵌套释设定
+dramatic_function: 把海量异世界设定从说明书变成嵌套虚拟世界的解谜剧情，读者随玩家闯关逐级建立认知，同时完成剧情内筛选招募
+applicability: 适用于设定密度高的科幻奇幻；嵌套世界须与主线有因果钩连（招募/真相），否则沦为可删插曲（单书孤证，验证面窄）
+reuse_candidates:
+- 三体问题与脱水设定本身
+- 历史名人NPC阵容
+- V装具沉浸装置
+tags:
+- 嵌套叙事
+- 世界观披露
+- 解谜结构
+source_scenes:
+- novel: 三体Ⅰ-地球往事
+  scene_id: S17
+  note: 初入游戏：乱纪元恒纪元规则用生存体验教会
+- novel: 三体Ⅰ-地球往事
+  scene_id: S20
+  note: 人列计算机把抽象概念变成可视奇观关卡
+- novel: 三体Ⅰ-地球往事
+  scene_id: S07
+  note: 游戏成绩成为现实组织筛选成员的门槛
+phase_affinity:
+- 1
+- 4

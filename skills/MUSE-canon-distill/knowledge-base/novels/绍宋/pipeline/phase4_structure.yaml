@@ -1,0 +1,233 @@
+# 《绍宋》Phase 4: 结构逆向分析（逐 Arc 展开为序列）
+# 接收 Phase 3 的 arcs[] 框架，对每个 Arc 识别其内部递进场景群（序列）
+
+arc_expansions:
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "夺权序列"
+        core_conflict: "穿越者 vs 康履/黄潜善的内侍-宰执联盟对禁中的隔绝控制"
+        escalation_direction: "从试探（与赤心队结交）→ 联合外臣（召见吕好问/张浚）→ 武力清除（杨沂中斩康履）"
+        sequence_climax: "张浚弹劾引出'妖邪附体'，杨沂中当场拔刀斩康履（第8章）"
+        closed: "禁中隔绝——穿越者获得对行在的基本控制权"
+        opened: "如何控制外镇武将？如何应对即将南下的金军？"
+
+      - seq_id: ARC1-SEQ2
+        name: "单骑赴叛序列"
+        core_conflict: "韩世忠前军哗变——穿越者是逃还是以身涉险？"
+        escalation_direction: "从赵鼎遇险→众臣劝官家渡河逃走→赵玖拒绝反向百骑赴叛→韩世忠平叛→扶腰系带建立信任"
+        sequence_climax: "赵玖为韩世忠亲手系上玉腰带：'我能直起腰来，向来是韩卿为我扶腰做胆'（第19章）"
+        closed: "君臣根本信任——韩世忠从此为赵玖腰胆"
+        opened: "信任只是开始，还需要军事胜利来证明"
+
+      - seq_id: ARC1-SEQ3
+        name: "杀刘光世/收编西军序列"
+        core_conflict: "刘光世谎报军情烧毁渡口致张俊成孤军——法度 vs 军中潜规则"
+        escalation_direction: "从发现真相→当众揭穿→亲手杀刘光世→安抚鼓噪乱兵→穿甲射杀不服者→掼首收编全军"
+        sequence_climax: "赵玖亲手杀刘光世后穿甲入帐射杀拒服者，掼首于地（第30-33章）"
+        closed: "铁血权威确立——打破赵宋不杀大将传统"
+        opened: "三千西军只是暂时服从，还需经济手段（赏赐）和长期机制来稳定"
+
+      - seq_id: ARC1-SEQ4
+        name: "雪渡下蔡/淮上决战序列"
+        core_conflict: "金军围困下蔡张俊部——穿越者如何在绝境中以情义凝聚人心、赢得首胜？"
+        escalation_direction: "从下蔡绝望→赵玖除夕雪渡送鸭/首级/葡萄→张俊死守→金军搭浮桥→淮河水战→韩世忠三段式伏击"
+        sequence_climax: "韩世忠设伏歼灭蒲卢浑部，赵玖城头掼帽高呼'此战胜了'（第78-82章）"
+        closed: "靖康以来首次战略级胜利——穿越者的军事领导合法性确立"
+        opened: "胜了又如何？定都何处？如何从军事胜利转化为政治建设？"
+    arc_progression_note: "四个序列的递进逻辑：夺政治权→建君臣信任→立军事威信→赢首胜。每步都是下一步的前提。"
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "方城建政/制度改革序列"
+        core_conflict: "流亡政权如何制度化？帅臣私兵化 vs 国家正规军"
+        escalation_direction: "从丁进降服→方城大朝会→四省合一/废三衙→握手刘汲→定南阳为陪都"
+        sequence_climax: "方城山下大朝会宣布制度改革，'十年之功'战略宣言（卷二第11-12章）"
+        closed: "朝廷制度从流亡状态正式转为战时体制"
+        opened: "后方襄阳仍在叛将范琼手中，南阳安全依赖军事胜利"
+
+      - seq_id: ARC2-SEQ2
+        name: "南阳守城战序列"
+        core_conflict: "金军十万围攻南阳孤城——技术优势 vs 兵力劣势"
+        escalation_direction: "从平范琼打通后方→金兀术率军围城→配重投石车首次运用→砲战碾压→金军围城失败"
+        sequence_climax: "砲击摧毁金军将台杀万户赤盏晖，吴夫人戎装协战（卷二第46-51章）"
+        closed: "配重投石车证明技术可以弥补兵力差距"
+        opened: "围城虽解但金军主力尚在，需要野战胜利"
+
+      - seq_id: ARC2-SEQ3
+        name: "鄢陵大捷/河阴大整编序列"
+        core_conflict: "如何从守城转为野战？如何将私兵化的十统制'化私为公'？"
+        escalation_direction: "从岳飞声东击西→鄢陵-长社大捷→韩世忠内外夹击解围→河阴大整编→御营四方面军确立"
+        sequence_climax: "河阴大整编，全军将领'化私为公'，御营四方面军体制确立（卷二第76-80章）"
+        closed: "军队从私兵联盟变为制度化国家武装"
+        opened: "还都东京的战略目标浮出水面"
+    arc_progression_note: "制度建设→技术验证→野战胜利→军队整编。从'有政权'到'有军队'的完整过程。"
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "还都东京/帅臣归心序列"
+        core_conflict: "东京近乎空城，外镇帅臣各怀心思——如何凝聚人心？"
+        escalation_direction: "从还都空城→皇嗣夭折/李纲去位→曲端入京受鞭→帅臣大宴算军账→恩科殿试/岳飞获进士"
+        sequence_climax: "殿试中岳飞、曲端下场考试，文武并重制度开端（卷三第32-35章）"
+        closed: "外镇帅臣全部归心，文武制度融合"
+        opened: "伪齐主动挑衅，金军控制黄河水道威胁东京"
+
+      - seq_id: ARC3-SEQ2
+        name: "小吴埽之战序列"
+        core_conflict: "金军控制黄河船队——如何在无水军的情况下夺取制河权？"
+        escalation_direction: "从虞允文献策→赵玖下令挖河/拆桥/拆水门→梁山泊水军穿城入黄河→火攻小吴埽"
+        sequence_climax: "张荣率水军顺流火攻小吴埽金军船队，一战夺取制河权（卷三第41-46章）"
+        closed: "黄河中游制河权逆转，南岸后方安全"
+        opened: "金军必然报复，大规模南侵在即"
+
+      - seq_id: ARC3-SEQ3
+        name: "东京保卫战序列"
+        core_conflict: "金军东西两路全面南侵——能否守住？"
+        escalation_direction: "从金军大举来攻→东线杨沂中死守→西线吴玠阻击娄室→岳飞回援→全线击退"
+        sequence_climax: "击退金军大侵攻，攻守形势逆转（卷三第66-76章）"
+        closed: "金军此后再无力发动大规模南侵，主动权转向宋方"
+        opened: "如何从被动防御转入主动进攻？内政改革势在必行"
+    arc_progression_note: "人心凝聚→奇策破局→正面抗衡。从'人和'到'地利'到'天时'的三重突破。"
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "原学确立序列"
+        core_conflict: "道学 vs 新学——穿越者需要什么意识形态支撑变法？"
+        escalation_direction: "从宰执换血→胡安国入觐→半球实验成功→鱼塘茶话会辩经→原学定为官学"
+        sequence_climax: "宣德楼前半球实验成功，原学确立为官学（卷四第15章）"
+        closed: "国家意识形态统一，为后续制度变革扫清思想障碍"
+        opened: "金国政变改变了对手格局"
+
+      - seq_id: ARC4-SEQ2
+        name: "金国政变/灭伪齐序列"
+        core_conflict: "金国内部权力重组——如何利用对手裂变？"
+        escalation_direction: "从兀术杀粘罕→金国权力彻底重组→秦桧成为金国高官→宋改年号绍兴→拒绝议和→收复京东→伪齐覆灭"
+        sequence_climax: "收复京东，伪齐覆灭（卷四第38-48章）"
+        closed: "黄河以南再无敌对政权，统一后方"
+        opened: "西夏尚在侧翼威胁"
+
+      - seq_id: ARC4-SEQ3
+        name: "灭西夏序列"
+        core_conflict: "能否在金国援助前扫除西翼？如何获取战马来源？"
+        escalation_direction: "从对西夏反攻→连续攻克州县→岳飞长驱直入→兴庆府陷落→金河泊会盟"
+        sequence_climax: "岳飞攻克兴庆府，百年夏国灭亡（卷四第73章）"
+        closed: "西翼威胁消除，获得战马来源，灭国级胜利"
+        opened: "北伐条件趋于成熟——但军费和兵力尚不足"
+    arc_progression_note: "思想统一→对手内乱→扫清侧翼。三个层面的'清场'为北伐创造条件。"
+
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "建财扩军序列"
+        core_conflict: "北伐需三十万兵和巨额军费——钱从哪来？"
+        escalation_direction: "从确认'非三十万兵不可'→八项开源措施→秘密建储→清理旧权贵→御营逐步扩军"
+        sequence_climax: "御营扩军至三十万满额（卷五第37章）"
+        closed: "军事力量准备就绪"
+        opened: "何时出兵？需要政治和外交上的最后准备"
+
+      - seq_id: ARC5-SEQ2
+        name: "南巡改革/北伐爆发序列"
+        core_conflict: "和平时期人心松懈——如何维持战争意志？"
+        escalation_direction: "从南巡推动赋税改革→与李纲和解→讹里朵暴死→赵官家判断时机已至→全军出击→铁岭关突破→兵临太原"
+        sequence_climax: "北伐全面爆发，宋军突破铁岭关打通雀鼠谷（卷五第42-70章）"
+        closed: "和平期结束，全面战争开始"
+        opened: "太原之后金军主力何在？决战在何处？"
+    arc_progression_note: "物质积累→政治整合→军事出击。从最'慢'的Arc到最'急'的转折。"
+
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: "获鹿决战序列"
+        core_conflict: "宋军十七八万 vs 金军十三四万——以长斧重步对铁骑冲锋的终极对决"
+        escalation_direction: "从太原城破→金军北撤求战→赵官家忧惧→临阵封七王→呼延通战死→赵玖龙纛登高地→拔离速三面出击→长斧铁幕碾压→金军全线崩溃"
+        sequence_climax: "赵玖挥刀下令'压过去'，两万四千长斧重步如铁幕扫荡金军，拔离速战死（卷六第14-17章）"
+        closed: "金军野战主力被摧毁，军事对抗结束"
+        opened: "金国残余北逃，战后秩序如何建立？"
+
+      - seq_id: ARC6-SEQ2
+        name: "金国灭亡序列"
+        core_conflict: "金国残余北逃——如何追击并建立战后秩序？"
+        escalation_direction: "从议和八条→燕京政变→兀术北逃→潢水夜袭→国主自焚→希尹自刎→秦桧死于乱军→菊花岛敕约"
+        sequence_climax: "金国残部在潢水崩溃，希尹黄龙府自刎——金国灭亡（卷六第32章）"
+        closed: "外部对抗力量彻底消亡，秦桧暗线收束"
+        opened: "穿越者的终极问题——'我到底是谁？'——尚未回答"
+
+      - seq_id: ARC6-SEQ3
+        name: "回明道宫序列"
+        core_conflict: "穿越者十年弧光的终极回答——身份认同"
+        escalation_direction: "从菊花岛观海'终未吟出换了人间'→大封功臣→回到明道宫起点→砍碎道祖塑像→大醉酩酊"
+        sequence_climax: "赵玖回到明道宫大醉酩酊——穿越者终于与新身份和解（卷六第35章）"
+        closed: "全书脊椎回答完成：他不是圣人，只是一个做了正确事的普通人"
+        opened: "无——全书终"
+    arc_progression_note: "军事终战→政治收束→身份闭环。三层高潮依次落幕。"
+
+# ── 序列级因果链 ──
+
+causal_chain: >
+  ARC1-SEQ1（夺权）→ 掌权后才能调度资源
+  → ARC1-SEQ2（赴叛/扶腰）→ 有了韩世忠的信任才有军事依仗
+  → ARC1-SEQ3（杀刘光世）→ 铁血威信让军令可行
+  → ARC1-SEQ4（雪渡/淮上大捷）→ 首胜证明路线正确
+  → ARC2-SEQ1（方城建政）→ 制度化后才能扩张
+  → ARC2-SEQ2（南阳守城）→ 守住才有资格谈进攻
+  → ARC2-SEQ3（鄢陵/整编）→ 正规军才能执行战略
+  → ARC3-SEQ1（还都/帅臣归心）→ 人心凝聚才能出奇
+  → ARC3-SEQ2（小吴埽）→ 制河权逆转才能守住东京
+  → ARC3-SEQ3（东京保卫战）→ 攻守逆转才能改革
+  → ARC4-SEQ1（原学）→ 思想统一才能变法
+  → ARC4-SEQ2（灭伪齐）→ 统一后方才能扫翼
+  → ARC4-SEQ3（灭西夏）→ 扫除侧翼才能北伐
+  → ARC5-SEQ1（建财扩军）→ 物质准备才能开战
+  → ARC5-SEQ2（北伐爆发）→ 打到家门口才能决战
+  → ARC6-SEQ1（获鹿决战）→ 军事终结才能政治收束
+  → ARC6-SEQ2（金国灭亡）→ 外敌消亡才能面对自我
+  → ARC6-SEQ3（回明道宫）→ 全书终
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: >
+    六个 Arc 的高潮冲击力严格递增：
+    Arc 1（淮上大捷）：歼敌数千，首次证明宋军能打 →
+    Arc 2（鄢陵大捷）：首次大规模野战胜利，金军南阳围城失败 →
+    Arc 3（东京保卫战）：击退金军全面南侵，攻守逆转 →
+    Arc 4（灭西夏）：灭国级胜利，从守势彻底转为攻势 →
+    Arc 5（兵临太原）：北伐全面展开，突入金国腹地 →
+    Arc 6（获鹿决战/金国灭亡）：最终决战，金国彻底覆灭。
+  causal_chain: >
+    淮上大捷（Arc1）→ 定都南阳（触发Arc2）→
+    鄢陵大捷+御营整编（Arc2）→ 还都东京（触发Arc3）→
+    击退大侵攻+夺制河权（Arc3）→ 宰执换血+原学（触发Arc4）→
+    灭伪齐+灭西夏（Arc4）→ 建财扩军（触发Arc5）→
+    北伐爆发（Arc5）→ 太原城破（触发Arc6）→
+    获鹿决战+金国灭亡+回明道宫（Arc6/全书终）
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "军事线"
+    description: "六次大战为叙事骨架：淮上→南阳→东京→尧山→灭夏→获鹿"
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-6]
+
+  - name: "政治制度线"
+    description: "从夺权到建政到变法：杀康履→废三衙→四省合一→原学→恩科→秘密建储→赋税改革"
+    primary_arcs: [ARC-2, ARC-3, ARC-4, ARC-5]
+
+  - name: "外交线"
+    description: "多层博弈：对金→对伪齐→对西夏→对蒙古/契丹/高丽→战后体系"
+    primary_arcs: [ARC-4, ARC-5, ARC-6]
+
+  - name: "穿越者身份认同线（暗线）"
+    description: >
+      从"想回家吃雪糕"到"挥刀'压过去'"再到"回明道宫大醉酩酊"——
+      始终作为情感暗流贯穿全书，从未独立成 Arc。
+    presence: "贯穿全书"
+
+  - name: "秦桧/金国内部线"
+    description: >
+      秦桧从挞懒幕下降人到金国枢密副使再到死于乱军的完整弧光，
+      以及金国内部的权力斗争。
+    presence: "间歇出现，在 ARC-4 和 ARC-6 中集中爆发"

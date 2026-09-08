@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7e2f35007bd0b2101dbc6e40
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1752
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 她的声音仍很柔和，像是面对一个做错了事的孩子
+sensory_mapping: 听觉柔度；亲子距离；低声教育；权力高低
+context_fact: 潘寒公开承认杀死申玉菲，仍要求立即清除拯救派；会场激烈争吵，叶文洁始终没有看他。
+image_mechanism: 成年政治杀手被缩回顽童尺度，统帅的柔声成为不容争辩的家长训诫；音量越低，双方权力差反而越清晰。
+property_alignment: 潘寒违反纪律对应孩子犯错；叶文洁掌握裁决权对应家长教育权；柔和声音对应耐心训诫；不与其争吵对应成年人不进入孩子的情绪
+context_alignment: 杀人和派系斗争极其严重，儿童框架制造冷峻反差，也表现叶文洁无需用愤怒证明权威。
+narrative_function: 以温柔语气压住会场冲突，确立统帅绝对权威并预告潘寒已失去申辩地位。
+transfer_rule: 把受处分者写成犯错孩子时，应匹配权力不对等、教育式语气、对方的冲动行为和裁决者的情绪控制。
+failure_boundary: 双方权力对等、说话者畏惧退让，或对象理性提出正当异议时，儿童化会成为轻蔑而非贴切说明。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁对擅自杀人并挑动派系清洗的潘寒宣读纪律处分时异常柔和、克制的语气
+vehicle: 长辈面对犯错孩子，以平静而有权威的声音进行教育和纠正
+ground: 叶文洁不提高音量对应长辈避免惊吓孩子；她居高临下判定错误对应成年人掌握教育与处分权

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8674f60628288d9ce4f7f5c4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L216
+chapter: 第3章 射手和农场主
+figure_type: analogy
+quote: 只是混乱的湍流中一个短命的旋涡？
+sensory_mapping: 视觉；流动；时间；尺度
+context_fact: 丁仪实验信息使汪淼怀疑普适规律。
+image_mechanism: 无边混乱流体成为宇宙底色，短暂旋涡在其中自组织成局部秩序又消散；稳定与不稳定因此可在同一流场共存。
+property_alignment: 局部规律对应湍流中的局部有序旋转；稳定期有限对应旋涡短暂形成后消失；更大背景无规律对应周围仍是混乱流体
+context_alignment: 动态平衡和湍流是材料科学家熟悉的物理机制，符合汪淼思维。
+narrative_function: 把认识危机扩展为宇宙动力学模型。
+transfer_rule: 解释局部有序时，选择能在同一介质内由混乱暂时生成结构的过程，并明确局部尺度、寿命和背景状态。
+failure_boundary: 若秩序由稳定外部约束长期维持，或没有更大混乱背景，短命旋涡会错误暗示必然消散。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 人类所见规律可能只是局部短暂状态
+vehicle: 混乱湍流中暂时保持形状、很快消散的旋涡
+ground: 局部规律对应湍流中的局部有序旋转；稳定期有限对应旋涡短暂形成后消失；更大背景无规律对应周围仍是混乱流体

@@ -1,0 +1,28 @@
+mode: reference
+display_name: 王晨轩
+role_slug: wang-chenxuan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/不详/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces.interpersonal.layer_3（带信任来投奔被"我"亲手捅死）+ arc_5（《搏击俱乐部》女主角对位 / 唯一情感锚）
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_c（他者善意比恶意更危险）
+  - scenes/scene_BX-S04.md
+  - scenes/scene_BX-S05.md
+  - scenes/scene_BX-S08.md
+  - scenes/scene_BX-S09.md
+built_at: 2026-05-29T20:05:00+08:00
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  信息密度中-高，跨 4 场景取证（S04 身世 + 泼辣做派 / S05 被疏远时的脆弱 / S08 投奔 + 人性失望 / S09 终局）。
+  身份与处境跨 S04 三处（导购员 + 逆人流逃生 + 供养弟弟），信息充分非单点。
+  声音框架跨 S04（泼辣怼人）/ S08（人性失望的冷清醒）/ S09（看不见幻觉的真话）三场，呈"硬壳被击穿"的演变形态。
+  核心欲望 / 性格真相均有 ≥2 场佐证：自觉欲望（逆人流救弟 S04:L81）+ 不自觉欲望（代入小林 / 留路给"我" S08:L19 + S05:L17）；
+  性格真相的"裂隙"由泼辣外壳（S04:L55）与被疏远时端食物退回（S05:L17）+ 泥泞投奔哭（S08:L5）对照支撑——压力情境下暴露真相齐全。
+  边界 4 条各带 locator（危急不围观逆人流 S04:L81 / 不放弃守护重要之人 S04:L81 / 不容轻看任何幸存者 S04:L55 / 在认定的人面前不藏牵挂 S05:L17），
+  其中两条共用 S04:L81——单点支撑：S04:L81 同时承载"危急不围观"与"凭记忆开皮卡赶去弟弟学校"两条边界，二者来自同一段口述但语义指向不同的否定空间。
+  弧光起点 + 转折齐全（硬核信任者 → 人性幻灭者，转折点 = 目睹假罗允预谋摧毁全队 S08:L19）；终点内在状态在 S08:L39 收束。
+  has_canon_ending: true —— 王晨轩走投无路投奔创世军后，在陶亦仁"拥抱"中被"我"（李鸾，分裂人格主导下不自知地）从后背一刀穿胸刺穿心脏而死（S09:L21），
+    属不可逆物理终局，已回 scene 原文核对；其内在弧光（对人性彻底失望）在 S08 已收束，物理死亡隔离到 references/canon-ending.md，不进人格本体。
+  王晨轩为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/不详/phase3_spine.yaml 推导。

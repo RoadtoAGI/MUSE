@@ -1,0 +1,28 @@
+scene_id: 08
+source_notes: scene_08_beats.md
+patterns:
+- pattern_id: 08-p1
+  beat: 赵太爷的老Q
+  dimension: camera
+  original_move: 用称呼和声调标记权力短暂倒转
+  ai_default_failure: 会解释赵太爷害怕革命的原因
+  transfer_rule: 写权势动摇时只呈现声学姿态
+  quote: 怯怯的迎着低声的叫
+- pattern_id: 08-p2
+  beat: 物化清单
+  dimension: omission
+  original_move: 叙述者沉默，让清单自身完成讽刺
+  ai_default_failure: 会加框架评论说明荒谬
+  transfer_rule: 写荒谬独白时撤掉道德旁白
+  quote: 赵司晨的妹子真丑
+- pattern_id: 08-p3
+  beat: 烛光与张开的嘴
+  dimension: camera
+  original_move: 从意识流跳切到静止外部画面
+  ai_default_failure: 会写好梦或未来暗示
+  transfer_rule: 写幻想破灭时用物理现场收尾
+  quote: 光照着他张开的嘴
+overall_traits:
+- 无评论讽刺
+- 物理度量替代情感描写
+- 视角跳切强制读者观看

@@ -1,0 +1,14 @@
+scene_id: S06
+source_notes: scene_S06_beats.md
+patterns:
+- pattern_id: S06-p1
+  beat: 醉语点破
+  dimension: verb
+  original_move: 以身体颤抖替代情绪标签
+  ai_default_failure: 直写李白受伤或卢焕激动
+  transfer_rule: 羞辱场景用动作承载情绪强度
+  quote: 浑身颤抖
+overall_traits:
+- 同一对话者完成扬抑反转
+- 身体反应替代情绪标签
+- 命名身份即形成杀伤

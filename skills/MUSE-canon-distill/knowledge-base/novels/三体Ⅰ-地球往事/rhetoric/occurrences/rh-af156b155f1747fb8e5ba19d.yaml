@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-af156b155f1747fb8e5ba19d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L166
+chapter: 第2章 台球
+figure_type: simile
+quote: 丁仪一挥手，像要赶走什么，将自己从这哀婉的思绪中解脱出来
+sensory_mapping: 动作；空间；心理
+context_fact: 星星比喻后丁仪主动结束沉默并改谈调查。
+image_mechanism: 内在哀思被空间化为停留身边的纠缠物，真实挥手则成为驱逐它的动作；心理转题因此在身体上先发生。
+property_alignment: 思绪持续侵入对应物体停留纠缠；挥手转题对应把实体赶离身边
+context_alignment: 可见手势和内在转念同步，使心理动作外化。
+narrative_function: 用短动作完成情绪切场。
+transfer_rule: 写人物强行中止念头时，可寻找现场真实动作，让动作的方向、力度和随后话题变化共同外化心理。
+failure_boundary: 若人物只是随手示意、没有紧接着摆脱思绪或改变话题，“赶走”会误读普通手势。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 丁仪试图中断关于杨冬的哀伤思绪
+vehicle: 挥手驱赶一个纠缠身边的实体
+ground: 思绪持续侵入对应物体停留纠缠；挥手转题对应把实体赶离身边

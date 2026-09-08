@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-04d9d5a945205e40cf465531
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1595
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 《三体》只是借用人类的背景来模拟三体世界的发展
+sensory_mapping: 舞台背景；搬用；熟悉景物；表里分离
+context_fact: 潘寒承认真实三体人与游戏形象差别很大，只有三颗太阳和人列计算机等结构具有事实依据。
+image_mechanism: 秦始皇、金字塔和牛顿被降为可搬动的舞台板景，板景前演的动力学属于三体，板景本身仍属于人类；熟悉外壳帮助玩家靠近陌生内核。
+property_alignment: 人类历史元素对应借来布景；三体演化对应布景前真实剧情；玩家熟悉感对应现成场景易识别；真实差异对应布景不等于实地
+context_alignment: 前一关历史错乱至极，此句把错乱解释为界面翻译策略，并把游戏从纯虚构推进到有现实原型的模拟。
+narrative_function: 划清表现媒介与外星事实，使玩家接受画面虚构而核心世界真实。
+transfer_rule: 用借景解释陌生对象时，应区分被借的外观、要表达的结构、选择该外观的认知便利和不可沿用的属性。
+failure_boundary: 若人类历史细节被当作外星事实，或借来的背景会改变核心机制，布景类比会掩盖模拟失真。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 游戏暂时采用人类历史人物、建筑和技术外观来表现陌生的三体文明演化
+vehicle: 创作者从他处借来一套现成布景，用完后仍须区分布景与真正场所
+ground: 人类历史元素被移用于外星故事对应借用他人物品；外观熟悉但本质不同对应借来的布景不等于真实环境

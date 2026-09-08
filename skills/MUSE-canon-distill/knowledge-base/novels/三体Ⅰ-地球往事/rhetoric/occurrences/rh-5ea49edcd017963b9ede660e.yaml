@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5ea49edcd017963b9ede660e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1661
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 仿佛摆锤和巨月两者之间产生了神秘的心灵感应
+sensory_mapping: 视觉反射；同步蠕动；无形交流；远近空间
+context_fact: 银色巨月升上夜空，其像映在巨摆光滑的变形镜面上，随曲率呈现光怪陆离的运动。
+image_mechanism: 反射的光学联动被赋予双向意识：天上的月与地上的摆锤像隔空交换念头，月像每次扭曲都成了摆锤读到信息后的表情。
+property_alignment: 巨月与摆锤相隔遥远对应感应双方空间分离；镜面反射建立关联对应无形精神通道；摆锤运动引起月像变化对应同步回应；图像蠕动对应有生命的表情
+context_alignment: 巨摆本为向太阳表达文明意志的纪念碑，心灵感应又让它仿佛真能与天体沟通，强化三体人以人造物回应宇宙的执念。
+narrative_function: 把光学反射转为天体与文明的神秘对话，为巨摆的象征性呐喊蓄势。
+transfer_rule: 用心灵感应写同步景物时，应有两个明确主体、无形连接、近乎即时的对应变化和可被读作回应的动作。
+failure_boundary: 变化彼此无关、存在明显机械连杆，或只有一方静态映照而无同步反应时，心灵感应会强加主体意识。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨月倒影随摆锤曲面和运动同步蠕动变形的视觉现象
+vehicle: 两个有意识生命不经言语便彼此感知、同步回应的心灵感应
+ground: 摆锤一动月像便即时变化对应一方心念引起另一方同步反应；两者没有可见连接对应感应越过物理间隔

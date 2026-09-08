@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-032027bb4cf1dbd0e5c4c589
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1879
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 人类文明的命运，就系于这纤细的两指之上
+sensory_mapping: 手指触觉；细绳张力；巨大悬重；两厘米距离；临界下落
+context_fact: 红色发射键已就绪，叶文洁手指悬在上方两厘米，回复会暴露太阳系位置。
+image_mechanism: 全人类的未来被压成看不见的巨重，从历史高处垂下一根细线，末端绕在两指；手指看似纤弱，却成为唯一受力点和切换点。
+property_alignment: 人类文明未来对应巨大悬重；因果链对应系绳；两根手指对应细小支点；按键决定入侵对应松动或拉紧绳结；两厘米间隔对应临界张力
+context_alignment: 天线、太阳、四光年与文明尺度极大，决定却浓缩到无旁人注意的手指动作，尺度悬殊制造历史瞬间的重量。
+narrative_function: 冻结按键前一秒，把私人选择明确提升为整个人类文明的分岔点。
+transfer_rule: 用命运系于小动作时，应建立清楚、近乎不可逆的因果链，并突出结果规模与触发动作尺度的反差。
+failure_boundary: 结果还需许多独立条件、动作可轻易撤销或个人并无决定权时，系于两指会过度归因单点。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁是否用两根手指按下发射键，将决定地球被三体定位、入侵的未来
+vehicle: 巨大重物或珍贵物件由一根细绳悬挂，而绳结只拴在两根纤细手指上
+ground: 文明未来取决于极小动作对应巨大重量由细小支点承担；手指一落即可改变结局对应松紧绳结决定悬物存亡

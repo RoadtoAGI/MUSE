@@ -1,0 +1,27 @@
+scene_id: '14'
+source_notes: scene_14_beats.md
+patterns:
+- pattern_id: 14-p1
+  beat: 叙述者快感
+  dimension: omission
+  original_move: 不标记道德问题，让快感自然出现
+  ai_default_failure: 补一句自我质疑或隐约不安
+  transfer_rule: 写不可靠叙述时，不替读者报警
+  quote: 变成一种快感
+- pattern_id: 14-p2
+  beat: 合唱停止
+  dimension: verb
+  original_move: 用停止、呆住、冻成写高潮冲击
+  ai_default_failure: 详写爆发场面和醒悟独白
+  transfer_rule: 宇宙级反转可落在群体静止上
+  quote: 合唱戛然而止
+- pattern_id: 14-p3
+  beat: 雕像姿态
+  dimension: camera
+  original_move: 用阳光下站立尸体完成结论
+  ai_default_failure: 插入悼词或我终于明白
+  transfer_rule: 价值答案可由画面对称给出
+  quote: 仿佛五千多尊雕像
+overall_traits:
+- 不可靠叙述不加标记
+- 高潮用停止而非爆发

@@ -1,0 +1,28 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 伊奥温身份揭示
+  dimension: info_density
+  original_move: 身份经梅里昏乱听觉三步释放：异样—想起—报名
+  ai_default_failure: 用全知视角直写摘盔亮明身份，一步到位
+  transfer_rule: 重大揭示可借在场弱位角色的认知延迟分步放出
+  quote: 但我不是活着的男人！你面对的是个女人
+- pattern_id: S14-p2
+  beat: 梅里背后刺击
+  dimension: omission
+  original_move: 从恐惧瘫痪直接到刺击，无转折句，部位精确到膝后肌腱
+  ai_default_failure: 写他想起誓言、克服了恐惧的大段心理转折
+  transfer_rule: 怯者行动时砍掉勇气酝酿段，行动本身就是克服
+  quote: 梅里从他背后刺了他一剑
+- pattern_id: S14-p3
+  beat: 消亡
+  dimension: omission
+  original_move: 不写倒下，只写空斗篷与声音蹿升—衰减—飘散
+  ai_default_failure: 写一个具体的死亡时刻
+  transfer_rule: 非实体之物的终结用空缺与声音消散呈现，比倒地更不安
+  quote: 斗篷和锁子甲底下空无一物
+overall_traits:
+- 信息延迟揭示：拉长识别过程放大惊奇
+- 弱者联手力学：正面对抗与侧翼突袭互补
+- 空缺即死亡：消亡写成空无一物

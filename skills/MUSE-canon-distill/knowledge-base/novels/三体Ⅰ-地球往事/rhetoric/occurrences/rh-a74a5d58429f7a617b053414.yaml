@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a74a5d58429f7a617b053414
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2282
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 所有人像石化般一动不动
+sensory_mapping: 视觉定格；石材硬度；呼吸消失；会场死寂；群像
+context_fact: 史强刚提出用飞刃把审判日号连人带船横切成薄片，举手说完便离场。
+image_mechanism: 一句方案像无形矿化波扫过会场，众人的血肉姿态同时凝成石像；时间继续流逝，人体却被定格在理解杀戮规模的那一刻。
+property_alignment: 动作停止对应雕像固定；肌肉僵住对应石质坚硬；全员同步对应成排石像；长久无人说话对应无生命沉默；震惊难以反应对应石化过程完成
+context_alignment: 古筝方案的可怕之处在于安静地一次杀尽全船，听众也先被它安静地夺去动作，效果与方案机制呼应。
+narrative_function: 用集体定格标定方案的心理冲击，并延长揭晓后的悬停时间。
+transfer_rule: 用石化写震惊时，应给出明确冲击源、全身动作骤停、持续沉默和群体同步等可见结果。
+failure_boundary: 人物仍争论、走动或情绪外放，或静止只是等待礼仪时，石化会误判心理强度。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 与会者听懂纳米丝切船方案后因震惊和恐惧集体停止动作
+vehicle: 活人瞬间变成坚硬石像，姿势固定且失去呼吸般的微动
+ground: 全体静止对应石像固定；震惊使身体僵硬对应血肉石化；沉默持续对应石材无生命

@@ -1,0 +1,24 @@
+card_id: pre-battle-pressure-hold
+pattern_name: 等待压过战斗
+dramatic_function: 把决战前的等待写成心理、后勤、远景赌注同时升压的场景。
+applicability: 适合大战、审判、发布会、手术等不可逆事件前；若无真实代价则空转（单书孤证，验证面窄）
+reuse_candidates:
+- 获鹿春雨
+- 迁都燕京
+- 十五万宋军
+tags:
+- 战前准备
+- 慢节奏
+- 赌注升级
+- 将帅默契
+source_scenes:
+- novel: 绍宋
+  scene_id: scene_19
+  note: 三日春雨中完成主帅心理、方略和远景加压。
+- novel: 绍宋
+  scene_id: scene_05
+  note: 雪夜渡河前用劝阻和沉默积蓄风险。
+phase_affinity:
+- 3
+- 4
+- 5

@@ -1,0 +1,29 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:精神病院--yang-zhongxu
+work_id: novel:狂病-莫千回
+display_name: 杨中旭
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '杨中旭的声音是两副嗓子叠在一起。日常态是退让、含糊、自我贬低的，开口前先道歉、说话留半句、被催促才肯往下讲（"抱歉，但他没有卖关子"），对人的友好和亲热会本能躲闪。但一进入逃生模式，他的语言立刻切换成清晰、有条理、带导览口吻的"讲解体"——把路线、武器点位、设施原理像导游一样铺开，夹着冷静的数字（撞门次数、喷淋时长、电死人要几秒）。恐惧不靠喊叫外化，而是借动作和默数来承担。倾向把眼前的真实灾难仍用"丧尸
+    / 尸变 / 爆发"这套幻想词汇去命名，是他世界观的底色而非偶发口癖。
+
+
+    - 来源：phase2_character.yaml → voice_traits
+
+    - 佐证：scenes/scene_JB-S07.md:L17-L23（被催促才讲、先停顿后道歉、随即转成清晰的多关卡路线讲解）
+
+    - 佐证：scenes/scene_JB-S06.md:L7-L7（默数撞门次数"一下，两下……第十三次裂、第二十次染红"——用计数承担逼近感）
+
+    - 佐证：scenes/scene_JB-S09.md:L19-L23（"他数了一下，差不多 10 秒" / 解释喷淋喷十分钟、火警与电力分开——讲解体 + 冷静数字）'
+  evidence_locators:
+  - scenes/scene_JB-S07.md:L17-L23
+  - scenes/scene_JB-S06.md:L7-L7
+  - scenes/scene_JB-S09.md:L19-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

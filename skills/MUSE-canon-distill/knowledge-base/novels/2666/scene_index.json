@@ -1,0 +1,731 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "学术讽刺",
+      "群像",
+      "结盟",
+      "知识分子"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "丽兹",
+      "莫里尼"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 3256,
+    "source_chapter": "第一部分（文学评论家），行67-90",
+    "file": "scenes/scene_S01.md",
+    "description": "四位阿琴波尔迪研究者在不来梅大会上结盟，击败对手学派，形成学术共同体",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知编年，夹带讽刺性直评",
+      "diction": "学术名词混入口语转折",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "叙述推进为主，对白作节点",
+      "pacing": "长句铺履历，末端突然收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "对话",
+      "艺术辩论",
+      "主观性",
+      "知识分子"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "布比斯夫人"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 2135,
+    "source_chapter": "第一部分（文学评论家），行181-217",
+    "file": "scenes/scene_S02.md",
+    "description": "两位教授拜访出版商遗孀，布比斯夫人以格罗兹画作辩论消解了追寻的意义",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "旁观限知，跟随拜访者困惑",
+      "diction": "艺术术语配冷淡口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "独白辩题推进，高密对白",
+      "pacing": "假设层层递进，尾部留空"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "暴力",
+      "讽刺",
+      "知识分子暴力",
+      "性与暴力"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "丽兹",
+      "巴基斯坦司机"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 2932,
+    "source_chapter": "第一部分（文学评论家），行765-804",
+    "file": "scenes/scene_S03.md",
+    "description": "三位评论家殴打辱骂丽兹的巴基斯坦出租车司机——知识分子的暴力爆发被比喻为性高潮",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "冷静旁观，暴力处不降温",
+      "diction": "粗口与学术典故并置",
+      "rhetoric_density": "high",
+      "dialogue_mode": "辱骂触发，对白让位动作",
+      "pacing": "动作连打后插入幻觉停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "转折",
+      "恐惧",
+      "否认",
+      "圣特莱莎"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "阿玛尔菲塔诺",
+      "大学生"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 2933,
+    "source_chapter": "第一部分（文学评论家），行1576-1619",
+    "file": "scenes/scene_S04.md",
+    "description": "评论家们从大学生口中得知'两百多妇女被害'——曼努埃尔呕吐，让-克劳德读报纸，恐惧与否认交织",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴身，跟随否认破裂",
+      "diction": "日常消费词混入屠宰意象",
+      "rhetoric_density": "high",
+      "dialogue_mode": "转述多于对白，数字反复施压",
+      "pacing": "游荡长段后以呕吐断裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "放弃",
+      "顿悟",
+      "自欺",
+      "结尾"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 998,
+    "source_chapter": "第一部分（文学评论家），行1920-1957",
+    "file": "scenes/scene_S05.md",
+    "description": "两人坐在旅馆墙头，让-克劳德宣称'阿琴波尔迪就在这里'——把放弃包装成顿悟",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知旁观，把顿悟写成自欺",
+      "diction": "旅馆物象和哲学短句交替",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短句对白承载放弃决定",
+      "pacing": "静景慢铺，宣告骤停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "荒诞",
+      "杜尚",
+      "知识",
+      "疯狂前兆"
+    ],
+    "characters": [
+      "阿玛尔菲塔诺",
+      "罗莎"
+    ],
+    "conflict_type": "internal",
+    "pov": "阿玛尔菲塔诺",
+    "word_count": 5092,
+    "source_chapter": "第二部分（阿玛尔菲塔诺），行2004-2017",
+    "file": "scenes/scene_S06.md",
+    "description": "阿玛尔菲塔诺将来历不明的《几何学遗嘱》挂在晾衣绳上——致敬杜尚，理性对非理性的投降仪式",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身限知，理性解释逐步失效",
+      "diction": "几何术语与家居物件并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少对白，内心推理主导",
+      "pacing": "细节慢转，荒诞动作悬置"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "幻听",
+      "哲学对话",
+      "超现实",
+      "恐惧"
+    ],
+    "characters": [
+      "阿玛尔菲塔诺",
+      "声音"
+    ],
+    "conflict_type": "internal",
+    "pov": "阿玛尔菲塔诺",
+    "word_count": 2348,
+    "source_chapter": "第二部分（阿玛尔菲塔诺），行2092-2099",
+    "file": "scenes/scene_S07.md",
+    "description": "阿玛尔菲塔诺与自称其祖先的'声音'展开哲学对话——关于背叛、平静、勇气和疯狂",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "幻听贴身，真假不作裁决",
+      "diction": "哲学抽象词压住恐惧",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答推进，声音无稳定归属",
+      "pacing": "短促追问，概念回旋"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "丧亲",
+      "空虚",
+      "硬汉叙事",
+      "开篇"
+    ],
+    "characters": [
+      "法特/昆西·威廉",
+      "姑娘",
+      "劳伦斯"
+    ],
+    "conflict_type": "internal",
+    "pov": "法特",
+    "word_count": 2309,
+    "source_chapter": "第三部分（法特），行2148-2210",
+    "file": "scenes/scene_S08.md",
+    "description": "法特处理母亲丧事——'简朴而私密'的葬仪，梦中的电影底版，职业与悲伤的交织",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知冷记，悲伤被流程压住",
+      "diction": "殡葬细节配记者口吻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低密对白，叙述承载情绪",
+      "pacing": "程序化推进，梦境插入减速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "揭露",
+      "新闻",
+      "恐惧",
+      "女性暴力"
+    ],
+    "characters": [
+      "法特",
+      "瓜达卢佩·龙卡尔"
+    ],
+    "conflict_type": "external",
+    "pov": "法特",
+    "word_count": 2478,
+    "source_chapter": "第三部分（法特），行3153-3197",
+    "file": "scenes/scene_S09.md",
+    "description": "女记者龙卡尔向法特揭露圣特莱莎妇女谋杀案的规模——她的前任因报道此案被杀",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身旁观，新闻事实逼近",
+      "diction": "调查词汇混入街头恐惧",
+      "rhetoric_density": "low",
+      "dialogue_mode": "采访式对白揭示案件",
+      "pacing": "信息递增，危险感后置"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "逃离",
+      "父爱",
+      "绝望",
+      "行动"
+    ],
+    "characters": [
+      "法特",
+      "罗莎",
+      "阿玛尔菲塔诺"
+    ],
+    "conflict_type": "external",
+    "pov": "法特",
+    "word_count": 1540,
+    "source_chapter": "第三部分（法特），行3950-3979",
+    "file": "scenes/scene_S10.md",
+    "description": "阿玛尔菲塔诺恳求法特带女儿逃离——'人人都卷进去了！'全书最绝望也最有行动力的场景",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "紧贴危机，父亲恐惧外溢",
+      "diction": "口语祈求夹绝望断言",
+      "rhetoric_density": "low",
+      "dialogue_mode": "急促对白直接推动逃离",
+      "pacing": "短句压迫，行动迅速落点"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "零度叙事",
+      "档案体",
+      "女性暴力",
+      "起点"
+    ],
+    "characters": [
+      "爱丝贝兰萨",
+      "警察"
+    ],
+    "conflict_type": "external",
+    "pov": "全知/档案式",
+    "word_count": 3229,
+    "source_chapter": "第四部分（罪行），行4065-4079",
+    "file": "scenes/scene_S11.md",
+    "description": "1993年1月第一具女尸的发现——冷峻的编年体记录开启罪行之章",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "档案冷感，只记录尸体事实",
+      "diction": "法医地点年龄等硬名词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎无对白，档案条目推进",
+      "pacing": "并列记录，重复制造麻木"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "童年",
+      "海洋",
+      "家族",
+      "天真",
+      "独白"
+    ],
+    "characters": [
+      "汉斯·赖特尔",
+      "独眼妈",
+      "瘸子爸"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 3547,
+    "source_chapter": "第五部分（阿琴波尔迪），行4598-4622",
+    "file": "scenes/scene_S12.md",
+    "description": "海藻少年赖特尔的普鲁士童年——海底沉迷、瘸子爸关于各国都是蠢猪的著名独白",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "童年全知，温和中含怪诞",
+      "diction": "海洋词与家族绰号混用",
+      "rhetoric_density": "high",
+      "dialogue_mode": "父亲独白塑造世界观",
+      "pacing": "童年细节铺展，独白加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "救赎",
+      "误认",
+      "海藻与孩子",
+      "幽默"
+    ],
+    "characters": [
+      "汉斯·赖特尔",
+      "福格尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 2036,
+    "source_chapter": "第五部分（阿琴波尔迪），行4634-4658",
+    "file": "scenes/scene_S13.md",
+    "description": "柏林游客福格尔救了溺水的小汉斯——他把孩子看成了海藻，这个错误整夜折磨着他",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知旁观，误认被反复咀嚼",
+      "diction": "海滨日常词带荒谬感",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少对白，心理回放推进",
+      "pacing": "救援短促，后悔延宕"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "战争",
+      "文学觉醒",
+      "犹太人",
+      "手稿"
+    ],
+    "characters": [
+      "汉斯·赖特尔",
+      "安斯基（缺席）"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 1565,
+    "source_chapter": "第五部分（阿琴波尔迪），行5236-5248",
+    "file": "scenes/scene_S14.md",
+    "description": "赖特尔在克里米亚废墟壁炉后发现犹太作家安斯基的秘密手稿——文学使命的激活时刻",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "战地冷叙，发现被低声处理",
+      "diction": "军事废墟词接文学手稿",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "无对白，物件发现推进",
+      "pacing": "废墟慢搜，手稿成为停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "身份重生",
+      "独白",
+      "纯洁与意志",
+      "思想高潮"
+    ],
+    "characters": [
+      "汉斯·赖特尔/阿琴波尔迪",
+      "出租打字机的老人"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 2686,
+    "source_chapter": "第五部分（阿琴波尔迪），行6140-6168",
+    "file": "scenes/scene_S15.md",
+    "description": "'我叫本诺·冯·阿琴波尔迪'——身份重生 + 老人关于纯洁、意志和德国罪孽的独白（全书思想高潮）",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "见证式旁观，身份更名克制",
+      "diction": "伦理抽象词压住历史罪感",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "老人独白承载思想高潮",
+      "pacing": "命名极短，独白缓慢扩张"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "识别",
+      "阅读",
+      "家族",
+      "发现"
+    ],
+    "characters": [
+      "洛特"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 955,
+    "source_chapter": "第五部分（阿琴波尔迪），行7527-7543",
+    "file": "scenes/scene_S16.md",
+    "description": "洛特在飞机上读《林中王》——从小说中认出童年记忆，确认作者就是失散的哥哥",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，阅读触发识认",
+      "diction": "家庭记忆词与书名并列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "无对白，内在识别推进",
+      "pacing": "阅读细节缓慢，确认骤然清晰"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "重逢",
+      "家族",
+      "衰老",
+      "和解"
+    ],
+    "characters": [
+      "阿琴波尔迪",
+      "洛特"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 785,
+    "source_chapter": "第五部分（阿琴波尔迪），行7597-7625",
+    "file": "scenes/scene_S17.md",
+    "description": "年迈的阿琴波尔迪出现在妹妹洛特家中——兄妹彻夜长谈，两个老人的重逢",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "克制旁观，让重逢自我发声",
+      "diction": "家常称呼混入衰老记忆",
+      "rhetoric_density": "low",
+      "dialogue_mode": "兄妹短句对话揭开往事",
+      "pacing": "夜谈绵长，天亮自然收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "结尾",
+      "行动",
+      "极简",
+      "开放式"
+    ],
+    "characters": [
+      "阿琴波尔迪"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 185,
+    "source_chapter": "第五部分（阿琴波尔迪），行7655-7665",
+    "file": "scenes/scene_S18.md",
+    "description": "'很快，他就走出了公园。第二天去了墨西哥。'——全书最后一句，极简收束完成价值逆转",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "极简旁观，不解释最终行动",
+      "diction": "日常味觉词接命运地名",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "闲谈对白衬托行动省略",
+      "pacing": "短句断开，结尾留巨大空白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "诺贝尔提名",
+      "学派和解",
+      "学术政治",
+      "文学奖",
+      "期刊权力"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "丽兹",
+      "莫里尼",
+      "博希迈尔",
+      "施瓦茨"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 3309,
+    "source_chapter": "第一部分（文学评论家），行302-326",
+    "file": "scenes/scene_S19.md",
+    "description": "萨尔茨堡会议上阿琴波尔迪获诺贝尔提名，两大学派在红牛啤酒店握手言和——和解的实质是期刊互不封杀",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "讽刺全知，拆穿学术和解",
+      "diction": "奖项出版术语带社交酸味",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "转述为主，群体话语合唱",
+      "pacing": "长句累积名单，讽刺处落锤"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "饭局",
+      "权力博弈",
+      "出版商",
+      "评论家",
+      "社交"
+    ],
+    "characters": [
+      "布比斯",
+      "冯·聪佩女男爵",
+      "荣格",
+      "年轻作家夫妇",
+      "威利"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 3305,
+    "source_chapter": "第五部分（阿琴波尔迪），行6581-6609",
+    "file": "scenes/scene_S20.md",
+    "description": "出版商布比斯偕夫人拜访评论家荣格——饭局中的文学权力拓扑：出版商要书评、评论家要出书、作家妻子用面部表情控诉体制",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知社交观察，表情被解码",
+      "diction": "餐桌礼仪词混文学权力词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "寒暄对白掩盖权力交换",
+      "pacing": "饭局细节密铺，花园谈判转窄"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "销量",
+      "文学失败",
+      "出版商信仰",
+      "读书会",
+      "Olivetti打字机"
+    ],
+    "characters": [
+      "阿琴波尔迪",
+      "布比斯",
+      "英格博格"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 1409,
+    "source_chapter": "第五部分（阿琴波尔迪），行6569-6581",
+    "file": "scenes/scene_S21.md",
+    "description": "350→205→96册的递减曲线，15→9→3人的读书会——布比斯赠送Olivetti打字机逆转绝望",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "编年旁观，把失败写成曲线",
+      "diction": "销量数字与信任词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少对白，出版数据推进",
+      "pacing": "数字递减后以礼物逆转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "2666",
+    "author": "罗贝托·波拉尼奥",
+    "genre": "后现代主义",
+    "lang": "zh",
+    "tags": [
+      "出版社",
+      "机构拜访",
+      "权力层级",
+      "名人合影",
+      "文学体制"
+    ],
+    "characters": [
+      "让-克劳德",
+      "曼努埃尔",
+      "施耐尔",
+      "新闻部女主任",
+      "校对部女主任",
+      "布比斯夫人"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 2023,
+    "source_chapter": "第一部分（文学评论家），行140-170",
+    "file": "scenes/scene_S22.md",
+    "description": "两位教授拜访汉堡出版社——社长/女主任/照片墙/布比斯夫人，文学机构的权力层级逐层揭示",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "讽刺旁观，机构层级逐层揭开",
+      "diction": "出版机构词夹身体比喻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "拜访对白收集缺席证词",
+      "pacing": "办公室逐间推进，尾部转伤感"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

@@ -1,0 +1,23 @@
+card_id: spy-post-self-devour
+pattern_name: 窥探系统自噬
+dramatic_function: 让权力的每个窥探装置都积累反噬，中间人死于自己的窥探位置，配角命运由依附方式决定
+applicability: 适用于宫廷或组织政治剧；需多个依附权力的中间人分层设伏；窥探若无成本与暴露风险则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 帐幕后偷听的具体场所
+- 海绵吸恩宠的讽喻
+- 国书掉包的信使细节
+tags:
+- 监视
+- 反噬
+- 宫廷政治
+- 工具人
+source_scenes:
+- novel: 哈姆雷特
+  scene_id: A3S4
+  note: 波隆尼尔死于他自设的偷听位
+- novel: 哈姆雷特
+  scene_id: A5S2
+  note: 罗盖二人被掉包国书送上死路
+phase_affinity:
+- 2
+- 4

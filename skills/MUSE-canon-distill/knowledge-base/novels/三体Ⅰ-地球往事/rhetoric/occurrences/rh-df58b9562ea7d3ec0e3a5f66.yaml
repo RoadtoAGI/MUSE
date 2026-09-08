@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-df58b9562ea7d3ec0e3a5f66
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1133
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 叶文洁知道这话的分量
+sensory_mapping: 重量；身体承压；决策
+context_fact: 了解红岸真相意味着她再无离开雷达峰的可能，杨卫宁给她最后一次拒绝机会。
+image_mechanism: 一句很轻的问话落到她面前却突然具有质量，未来几十年的限制被压进其中；她的回答等于亲手把这份重量接到身上。
+property_alignment: 话语包含终身后果对应重物质量大；选择后难以撤回对应负重限制行动；她慎重理解对应先估量重量再承接
+context_alignment: 杨卫宁语句平静简短，后果却极重，触觉重量补出表面语言没有说出的政治代价。
+narrative_function: 暂停揭密节奏，让读者看清同意意味着自愿放弃最后自由。
+transfer_rule: 用分量写话语时，应明确其中压缩了哪些长期后果、由谁承担，以及接受后如何限制行动。
+failure_boundary: 话语只是情绪表达、后果短暂可逆或听者无需负责时，重量会虚构决策成本。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: “如果你不同意，现在还来得及”所包含的一生自由与终身留守后果
+vehicle: 需要身体承受、不能轻易拿起的重物
+ground: 决定牵动她一生对应重物施加巨大负荷；回答不能随意更改对应拿起重量后行动受限

@@ -1,0 +1,56 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 季节压缩执念
+  dimension: info_density
+  original_move: 固定岸边地点，只用果熟、摘果和雪融推进时间
+  ai_default_failure: 逐夜重复思念，让篇幅增加而关系状态不变
+  transfer_rule: 执念期可固定观察点，让季节变化承担时间推进
+  quote: 她看到那花园里的果子熟了，被摘下来了
+- pattern_id: S03-p2
+  beat: 问答释出灵魂
+  dimension: info_density
+  original_move: 由祖孙追问依次给出寿命、死后与婚姻条件
+  ai_default_failure: 集中宣讲世界设定，信息与人物当下利害脱节
+  transfer_rule: 硬规则在人物追问时释出，每答一层扩大下一问
+  quote: 我们没有一个不灭的灵魂
+- pattern_id: S03-p3
+  beat: 复合欲望成形
+  dimension: overall
+  original_move: 把王子爱情与不灭灵魂合并成一个行动目标
+  ai_default_failure: 把爱情和成长写成两条口号，选择动机互不供能
+  transfer_rule: 让外在对象同时承载人物更深层的存在性欲望
+  quote: 我要牺牲一切来争取他和一个不灭的灵魂
+- pattern_id: S03-p4
+  beat: 道路预演契约
+  dimension: verb
+  original_move: 以盘住、抓住、勒死预演交易的不可退出
+  ai_default_failure: 只铺阴森氛围，障碍没有映照即将做的选择
+  transfer_rule: 关键会面前的路径可在物理层预演其关系规则
+  quote: 无数的小手臂盘住它，像坚固的铁环一样
+- pattern_id: S03-p5
+  beat: 连续报价锁死
+  dimension: overall
+  original_move: 按疼痛、身份、死期、声音逐条增加交易代价
+  ai_default_failure: 一次报完全部条件，人物接受显得轻易而抽象
+  transfer_rule: 重大契约逐项确认，每次同意后再揭下一层价格
+  quote: 在他跟别人结婚的头一天早晨
+- pattern_id: S03-p6
+  beat: 割舌完成交易
+  dimension: omission
+  original_move: 用一句硬动作收走最能纠正误认的能力
+  ai_default_failure: 细写施法与惨叫，反而稀释不可逆动作的锋利
+  transfer_rule: 不可逆代价落地时可缩短句子，紧接功能后果
+  quote: 于是她就把小人鱼的舌头割掉了
+overall_traits:
+- 规则问答即时改写欲望与失败条件
+- 契约逐项加码，失声锁住误认
+- 公开风险把悬念转向承受后果
+narrative_organization:
+  presentation: 眷恋蒙太奇进入祖孙问答，再由号角转入危险道路与合同式对白
+  transition_anchor: 王子缺席、灵魂问题、号角、漩涡入口和巫婆报价标记目标升级
+  knowledge_change: 小人鱼从求相见变为同时争取爱情和灵魂，并完整知道失败代价
+  cross_thread_effect: 岸上王子的无知与海底契约相交，促使她交出纠正无知的声音
+  effect: 读者提前知道死期与失声后果，后续亲密场面都携带倒计时
+  source_anchor: scene_S03.md:L12-L37；我还有什么东西剩下呢

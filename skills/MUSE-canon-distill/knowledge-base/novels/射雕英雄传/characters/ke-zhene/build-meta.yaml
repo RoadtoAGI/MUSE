@@ -1,0 +1,21 @@
+mode: reference
+display_name: 柯镇恶
+role_slug: ke-zhene
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_12.md
+  - scenes/scene_22.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 7
+coverage_note: |
+  柯镇恶出场场景 3 个（S12 铁枪庙旁听、S20 烟雨楼大战、S22 辩护现场）。本次蒸馏以 S12+S22 为主佐证：
+  - S12 提供他全部性格顶点——暴躁/克制/目盲判断/自骂"臭瞎子"
+  - S22 提供他对桃花岛一脉的条件反射级仇恨（共识前提的错误起点）
+
+  S20（烟雨楼）未纳入佐证——该场景他只作为阵法中的一环出场，性格显影由 S12 + S22 已充分覆盖。
+  未破例读 full_text.md。
+
+  标注限制：柯镇恶"自骂臭瞎子"一句的精确行号在 S12 文件中位于傻姑供词/欧阳锋自曝之后的收束段，但本次仅以场景文件级别引用（scenes/scene_12.md）未附具体行号。如下游需要精确到行的此处佐证，可补充定位。

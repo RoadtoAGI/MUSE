@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b08a1677ae6c4d7c20f69d89
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2555
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 地球文明在三体世界是很有杀伤力的，对我们的人民来说，那是来自天堂的圣乐
+sensory_mapping: 天国乐声；远方传来；精神穿透；陶醉；防线破裂
+context_fact: ETO开始持续发送地球文化信息，三体社会中出现越来越多1379号式和平主义者。
+image_mechanism: 四光年电波变成从天堂飘来的乐声，三体人无需亲临地球便被其旋律触及；对专制社会而言，美本身像武器，听见即产生裂缝。
+property_alignment: 地球对应天堂；文化信息对应圣乐；电波传播对应远方乐声；三体民众对应听众；人文吸引对应音乐感染；和平主义对应精神中弹；信息管制对应堵住声音
+context_alignment: 三体曾把地球当温室天堂，此处天堂意象由个体向往升级为社会传播威胁，也反转武力意义。
+narrative_function: 说明文化为何具有战略力量，并解释元首限制信息流入的决定。
+transfer_rule: 用圣乐写文化影响时，应有远方理想来源、可传播感官形式、听众情绪改变和既有秩序受损。
+failure_boundary: 受众普遍厌恶内容、信息无法理解，或思想变化由物质利益而非审美感染造成时，圣乐杀伤会浪漫化文化作用。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 地球自由、人文、艺术和美的信息会强烈动摇三体人对冷静麻木社会的认同并引发和平主义
+vehicle: 天堂传来的神圣音乐穿透听者精神，既带来美与救赎，也能击伤既有防线
+ground: 文化感染对应音乐入耳；地球美好对应天堂来源；思想动摇对应杀伤；和平主义增长对应听众被改变

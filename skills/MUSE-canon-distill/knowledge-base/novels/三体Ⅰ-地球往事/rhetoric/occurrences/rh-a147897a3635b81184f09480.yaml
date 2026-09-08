@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a147897a3635b81184f09480
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L748
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 你这个案子，弹性很大的，往低的说，知识青年受反动书籍蒙蔽，没什么大事，都不用走司法程序，参加一次学习班好好写几份检查，你就可以回兵团了；往高说嘛，小叶啊，你心里也清楚，判现行反革命是完全可以的。
+sensory_mapping: 触觉；拉伸；压缩；高度；尺度
+context_fact: 程丽华以可以放回兵团或判现行反革命的巨大差距逼叶文洁签字。
+image_mechanism: 法律判断失去固定刻度，成为握在军代表手里的软材料；她只需改变施力方向，案件就可从低处拉到高处，所谓弹性本身变成勒索空间。
+property_alignment: 同一事实可获不同定性对应材料长度可变；掌权者施加解释对应外力拉压；低判与高判形成幅度对应材料有伸缩范围；撤力后未必固定对应结论缺乏稳定尺度
+context_alignment: 说话者随即列出“往低”“往高”两端，材料形变与判罚区间直接配对，也暴露裁量受政治操控。
+narrative_function: 把威逼利诱的可操作区间说透，显示制度不确定性如何成为刑具。
+transfer_rule: 用弹性写裁量空间时，应标出两端结果、施力者、改变幅度和缺少固定尺度的原因。
+failure_boundary: 有明确量刑规则、证据变化真实导致结果变化或裁量范围很窄时，弹性材料会夸大任意性。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 权力方可在轻微教育处分与现行反革命重判之间任意伸缩的案件定性
+vehicle: 一件可被外力向上下两个方向大幅拉伸或压缩的弹性材料
+ground: 同一事实可获不同定性对应材料长度可变；掌权者施加解释对应外力拉压；低判与高判形成幅度对应材料有伸缩范围；撤力后未必固定对应结论缺乏稳定尺度

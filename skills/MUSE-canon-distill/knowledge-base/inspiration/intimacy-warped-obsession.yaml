@@ -1,0 +1,26 @@
+card_id: intimacy-warped-obsession
+pattern_name: 亲密执念异化
+dramatic_function: 把爱、守护或依赖变成恐怖欲望，扩大情感伤害。
+applicability: 适合情感关系强的惊悚线；关系铺垫不足会显得猎奇（单书孤证，验证面窄）
+reuse_candidates:
+- 感染后占有台词
+- 本书情侣配置
+- 具体虐杀图像
+tags:
+- 亲密关系
+- 欲望扭曲
+- 情感恐怖
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: XX-S07
+  note: 感染后的熟人保留亲密称呼却转为占有威胁。
+- novel: 狂病-莫千回
+  scene_id: BX-S08
+  note: 王晨轩的哭诉把重逢转化为复仇目标。
+- novel: 狂病-莫千回
+  scene_id: BX-S10
+  note: 人格解释把拯救与新人类计划扭成同一欲望。
+phase_affinity:
+- 2
+- 3
+- 5

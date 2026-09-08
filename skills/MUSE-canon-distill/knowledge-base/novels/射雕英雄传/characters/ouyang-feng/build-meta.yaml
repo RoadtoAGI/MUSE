@@ -1,0 +1,25 @@
+mode: reference
+display_name: 欧阳锋
+role_slug: ouyang-feng
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_07.md
+  - scenes/scene_12.md
+  - scenes/scene_29.md
+  - scenes/scene_31.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 4
+coverage_note: |
+  欧阳锋出场 9 个场景（S07/S08/S12/S18/S19/S20/S21/S29/S31）。本次蒸馏以 S07、S12、S29、S31 为核心佐证：
+  - S07 提供他在桃花岛三道试题中与洪七公、黄药师的对手姿态
+  - S12 提供铁枪庙自曝+赞美黄蓉的阴冷礼节+对杨康"康儿"下位称呼
+  - S29 提供花船恩将仇报的核心原则"容情不下手，下手不容情"
+  - S31 提供逆练九阴真经疯癫的终局
+
+  S08、S18、S19、S20、S21 作为次要场景未单独引用——他在这些场景中的行为模式已被上述四场景充分显影。
+  未破例读 full_text.md。
+
+  覆盖要点：他的"执念反噬"贯穿全书——从 S29 恩将仇报到 S31 疯癫，是连续升级的链条。

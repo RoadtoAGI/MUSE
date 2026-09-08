@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-64a477837c3deb81085d7d71
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1671
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 生命的种子居然又在这里发芽了
+sensory_mapping: 植物种子；破土；绿色新芽；微小到生长；时间延展
+context_fact: 伴星生命灭绝，母星也几乎死寂，但九千万年后第192号文明再次出现。
+image_mechanism: 全球生态毁灭被压成焦土，幸存生命缩为看不见的小籽；地质稳定像水和温度回归，一点新绿从行星废墟中顶出。
+property_alignment: 幸存生命单元对应种子；遗传潜能对应种内胚芽；恶劣时代休眠对应种子耐受环境；地质稳定对应萌发条件；生态与文明重建对应植株成长
+context_alignment: 前文行星如地狱般破碎，种子意象以极小生命对抗天体灾难，支撑三体文明前赴后继的顽强主题。
+narrative_function: 在彻底毁灭图景中植入复生起点，把九千万年演化压缩成萌芽动作。
+transfer_rule: 用种子写幸存潜能时，应说明何物保存核心信息、如何休眠、触发萌发的条件和后续扩展。
+failure_boundary: 生命已完全灭绝且只能由外来重新播种，或恢复没有任何连续遗传载体时，原地发芽会虚构延续。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 大撕裂后残存的微小生命潜能重新繁衍，恢复生态并最终演化出新文明
+vehicle: 休眠种子在毁坏土壤中保存胚芽，条件恢复后破壳萌发
+ground: 少量幸存生命携带未来可能对应种子保存胚体；环境稳定后重新繁殖对应种子遇到条件发芽

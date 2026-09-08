@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:地铁--yang-hexiu
+work_id: novel:狂病-莫千回
+display_name: 杨和修
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '杨和修的话是医生式的——克制、信息密度高、习惯把恐怖拆成可分析的事实。他叹一口气，然后用平稳的语气讲撕裂同类的生理学（"避开关节撕裂皮肤""正常人咬合力就能咬开皮肤"）、讲病毒为什么不空气传播、讲皮肤屏障要完整。他不抒情、少废话，下判断时果断到近乎冷硬（批评两个女生"只是来送人头"、骂护吉他的陆霞克"弱智"）。这套冷静在父亲那通只响一声就被挂断的电话后第一次裂开——他神经质地摇头、反复推断"是我的铃声暴露了父亲的位置"。沦陷之后声音保留智力却转向嗜虐，把医生话术扭成反讽（"这一次我会慢慢的""我会让你们全身的骨头碎掉之前都是活着的""好好治疗你们"）。
+
+
+    佐证：scenes/scene_DT-S07.md:L13-L13 / scenes/scene_DT-S05.md:L41-L41 / scenes/scene_DT-S10.md:L71-L71'
+  evidence_locators:
+  - scenes/scene_DT-S07.md:L13-L13
+  - scenes/scene_DT-S05.md:L41-L41
+  - scenes/scene_DT-S10.md:L71-L71
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

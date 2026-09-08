@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8eb7632ca7f525f90e6877c5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L315
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 倒计时就在这广阔的背景前显现着，像电影画面上的字幕
+sensory_mapping: 视觉；媒介层次；空间
+context_fact: 汪淼由卧室转向窗外城市，倒计时仍覆盖背景。
+image_mechanism: 现实景物被降成不断换镜的底层画面，倒计时被提到独立字幕层；两个图层不同步运动解释了异常锁屏感。
+property_alignment: 数字相对视野固定对应字幕固定在银幕坐标；城市景物在后方变化对应电影镜头变而字幕保持；信息覆盖现实对应文字覆盖影像
+context_alignment: 数字、视野和背景正具备屏幕叠层关系，电影媒介比悬浮物更精确。
+narrative_function: 解释视野锁定机制并暗示现实被外力当作画面操纵。
+transfer_rule: 写与观察者视野绑定的现象时，应区分前景信息层与后景世界层，并选能说明二者独立运动的媒介结构。
+failure_boundary: 数字固定在真实墙面、随视线移出，或本来就是设备抬头显示时，电影字幕不再表现超常锁定。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 无论转头看哪里都固定在视野中央的倒计时
+vehicle: 叠在电影画面上、背景变换也不离屏的字幕
+ground: 数字相对视野固定对应字幕固定在银幕坐标；城市景物在后方变化对应电影镜头变而字幕保持；信息覆盖现实对应文字覆盖影像

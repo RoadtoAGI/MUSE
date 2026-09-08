@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0f9dee9cbc3251b0134024f9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1548
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 这星云形成巨大的旋涡，流向最终的归宿——太阳
+sensory_mapping: 旋转流动；方向汇聚；旅途终点；灼热亮点
+context_fact: 大气散失后，人体、冰晶、尘石在阳光下形成星云，全部受引力加速向太阳运动。
+image_mechanism: 无数被撕离行星的残骸先汇成灿烂河流，旋臂像道路把它们送往同一终点；温暖安居的“归宿”却被替换为焚毁万物的太阳。
+property_alignment: 物质漂离故土对应离家旅程；旋涡轨迹对应汇聚道路；太阳是唯一吸引中心对应目的地；坠入毁灭对应旅程不可逆终结
+context_alignment: 文明刚以为长恒纪元会带来复活，归宿一词把太阳从生命来源反转成所有生命和物质的终点。
+narrative_function: 为纷乱升空残骸赋予统一方向，并以温暖词汇的反讽完成毁灭收束。
+transfer_rule: 用归宿写物质终点时，应有持续定向运动、不可逆汇聚和对主体意义的反讽或安顿含义。
+failure_boundary: 物质可能绕行、逃逸或在多个吸引中心间分流时，称太阳为最终归宿会过早取消不确定性。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 被三日引力剥离的物质沿旋涡轨迹最终坠入太阳并毁灭
+vehicle: 漂泊者或河流经过漫长迁移，最终抵达其注定安顿的归宿
+ground: 万物运动路径收束到太阳对应旅程抵达唯一终点；坠入后不再返回对应在归宿处结束漂泊

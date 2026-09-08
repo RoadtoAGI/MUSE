@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e99732558cae7ceea6ef3e2a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1488
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 方阵凝固了似的纹丝不动，仿佛一张由三千万个兵马俑构成的巨毯
+sensory_mapping: 视觉；平面几何；静止；数量密度
+context_fact: 三个月训练后，三千万秦军等待组成计算机，方阵边长六公里，鸟群也被下方杀气惊散。
+image_mechanism: 俯瞰先把独立人体压成重复纹样，再把六公里方阵整体织成一张平面；绝对静止使活兵暂时陶俑化，毯面却潜藏即将流动的计算。
+property_alignment: 单兵静止对应兵马俑；三千万人密排对应毯面细密纹样；正方形边界对应铺开的方毯；地面全覆盖对应巨毯贴地
+context_alignment: 秦军与兵马俑有直接历史关联，巨毯又精确对应主板的二维阵列；鸟群惊乱提醒读者这不是无害装饰。
+narrative_function: 用静态全景交代人列计算机规模，并在启动前积蓄由凝固到流动的反差。
+transfer_rule: 写超大静止阵列时，可让个体成为重复纹样、整体成为可铺展平面，并用文化上贴合的静态人形强化秩序。
+failure_boundary: 队列稀疏、边界不规则、士兵持续走动或个体差异需被看见时，毯面和兵马俑会误报形态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三千万秦军组成、铺满六公里正方形且绝对静止的人列方阵
+vehicle: 以无数兵马俑为纹理、平铺大地并凝固定形的巨大毯面
+ground: 士兵纹丝不动对应兵马俑静止；密集人列铺成正方平面对应毯子连续覆盖地面

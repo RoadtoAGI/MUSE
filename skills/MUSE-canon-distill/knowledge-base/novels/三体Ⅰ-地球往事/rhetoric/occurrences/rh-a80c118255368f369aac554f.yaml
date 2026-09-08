@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a80c118255368f369aac554f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L765
+chapter: 第9章 红岸之一
+figure_type: simile
+quote: 咽下一口唾沫感觉像咽下一块火炭
+sensory_mapping: 温度；痛觉；触觉；口腔；下行动作
+context_fact: 她在直升机上从失温昏迷中醒来，正在发高烧且关节疼痛。
+image_mechanism: 无形炎症凝成一块有体积的炽热固体，每次吞咽都必须把它从口腔推过狭窄喉道；热与刮擦两种痛同时出现。
+property_alignment: 咽喉发烫对应火炭高温；吞咽摩擦疼痛对应硬块刮过；痛点随吞咽移动对应炭块沿食道下行
+context_alignment: 高烧提供热源，吞咽动作提供固体移动路径，火炭比泛称火焰更能表现硬痛。
+narrative_function: 以口腔触感确认她仍活着，也具体呈现获救后的身体代价。
+transfer_rule: 写吞咽疼痛时，可选择同时具温度、硬度和明确下行轨迹的物体，让痛觉不只停在形容词。
+failure_boundary: 喉咙发痒、钝胀或冷痛没有高温与硬物刮擦，火炭会误诊感受类型。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁高烧后吞咽时喉咙产生的灼热剧痛
+vehicle: 把坚硬、粗糙且炽热的燃烧煤块强行吞过咽喉
+ground: 咽喉发烫对应火炭高温；吞咽摩擦疼痛对应硬块刮过；痛点随吞咽移动对应炭块沿食道下行

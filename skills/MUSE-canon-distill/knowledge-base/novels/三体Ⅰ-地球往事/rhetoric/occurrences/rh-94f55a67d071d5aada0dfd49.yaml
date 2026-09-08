@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-94f55a67d071d5aada0dfd49
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1623
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 宇宙中壮丽的景象仿佛就是那音乐的物化
+sensory_mapping: 听觉到视觉；节奏；光泽；空间运动
+context_fact: 老人持续拉琴，反光巨月快速掠空并从满月融缺成月牙，汪淼同时聆听和观看。
+image_mechanism: 琴声从空气中被冷凝到天空，音符拉长成月体轨迹，旋律起伏变成月相盈亏；两个同步感官事件看似同一物质在不同通道显现。
+property_alignment: 旋律时间推进对应巨月运动；音调舒缓变化对应月相渐变；音乐美感对应银光壮丽；无形声波对应被物化的可见天体
+context_alignment: 音乐和天象同步发生，老人又像只拉给自己听，宇宙仿佛成为唯一真正理解并呈现琴声的听众。
+narrative_function: 把科学奇观提升为审美震慑，并暂时消解汪淼对毁灭的恐惧。
+transfer_rule: 做跨感官物化时，应让节奏、强弱、形态变化和情绪色调至少两两同步，避免只说景物像音乐般美。
+failure_boundary: 音乐节奏与景象运动冲突、二者不同步或画面缺少可变形态时，物化会成为无依据通感。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨月由满到缺掠过天空的壮丽视觉运动与舒缓琴声之间的契合
+vehicle: 不可见音乐凝结成有形、有光、有轨迹的宇宙实体景象
+ground: 月相变化节奏对应旋律舒缓推进；银光与曲调美感一致对应声音获得可见色泽和形态

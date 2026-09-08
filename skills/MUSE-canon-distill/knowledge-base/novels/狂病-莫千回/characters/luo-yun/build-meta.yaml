@@ -1,0 +1,31 @@
+mode: reference
+display_name: 罗允
+role_slug: luo-yun
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_XX-S11.md
+  - scenes/scene_RS-S10.md
+  - scenes/scene_SB-S11.md
+  - scenes/scene_YY-S08.md
+  - scenes/scene_HJ-S13.md
+  - scenes/scene_EE-S05.md
+  - scenes/scene_BX-S08.md
+built_at: "2026-05-29T15:58:07+08:00"
+skill_version: 1
+locator_count: 13
+has_canon_ending: false
+coverage_note: |
+  覆盖罗允跨篇出场的代表性场景：学校（首登场，装备系统成形）、燃烧（救盲女、转达周全遗言——
+  介入原则成形）、死亡奔赴（来晚只能读遗书塞进笔记本 + 与洪扬"正常末日嘛"的温差校准）、
+  医院（救助盲女失败 + 决定去找李教授／西北科考站 + 厌恶冒充救助者的石浩洋）、黄金国（主 POV，
+  尾部 HJ-S13 袒露"救人是支撑奔向死亡之理由"的核心动机）。
+  黄金国 13 个场景按需精读关键四场：HJ-S01（开篇，与洪扬守夜 + "我现在不想死所以得继续下去"）、
+  HJ-S13（line 825 奔死动机 + 结尾再启程）；HJ-S05/S10（西北科考站目标地、洪扬关系）已读作背景对齐，
+  未直接取 locator；HJ-S02~S04/S06~S09/S11~S12（大厦内部情节推进）跳过精读。
+  声音框架跨 3 场取证（RS-S10 / SB-S11 / XX-S11），弧光跨起点（XX-S11）/ 转折（RS-S10、SB-S11）/
+  终点（HJ-S13）四个 locator，均非单点外推。
+  真假罗允严格区分：真罗允声音/欲望/性格真相/弧光仅用 XX/RS/KR/SB/YY/HJ/TZ 篇真罗允证据；
+  EE-S05 与 BX-S08 的"罗允"是吴先生／石浩洋盗用其名的假罗允，仅用作"不冒充他人 / 不以正义感为伪装诱杀"
+  两条边界的反向对位佐证，未用于刻画真罗允人格。

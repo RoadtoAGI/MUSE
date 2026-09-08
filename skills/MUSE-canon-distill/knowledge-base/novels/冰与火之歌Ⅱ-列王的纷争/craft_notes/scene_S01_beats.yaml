@@ -1,0 +1,28 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 弄臣歌谣预言
+  dimension: omission
+  original_move: 把关键预言藏进疯子歌谣
+  ai_default_failure: 会让POV角色感到不安来提示
+  transfer_rule: 重大伏笔可交给不可信声音
+  quote: 影子来跳舞啊
+- pattern_id: S01-p2
+  beat: 毒酒交换
+  dimension: camera
+  original_move: 用滚烫触觉替代咒术说明
+  ai_default_failure: 会补最后机会式内心戏
+  transfer_rule: 决断时用感官接触压住解释
+  quote: 皮肤滚烫，像在发烧
+- pattern_id: S01-p3
+  beat: 牛铃中的死亡
+  dimension: verb
+  original_move: 用摇头跪下倒下保留尊严
+  ai_default_failure: 会详写窒息的生理痛苦
+  transfer_rule: 象征性死亡少写生理过程
+  quote: 否认她的力量
+overall_traits:
+- 段落同时承担多重功能
+- 预言藏在不可信声音中
+- 姿态动词代替死亡生理

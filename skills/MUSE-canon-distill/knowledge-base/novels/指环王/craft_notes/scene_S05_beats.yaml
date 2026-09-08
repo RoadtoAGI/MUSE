@@ -1,0 +1,28 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 炎魔现身
+  dimension: omission
+  original_move: 不写怪物外形，只写三个强者被击碎的反应，意象仅阴影火焰鞭子
+  ai_default_failure: 花两百字描写炎魔翅膀、角与身高，越具体越不可怕
+  transfer_rule: 恐怖源于不可名状时，砍正面描写，用旁观者反应代写
+  quote: 手一松斧头落地，抬手掩住了脸
+- pattern_id: S05-p2
+  beat: 桥上对峙
+  dimension: omission
+  original_move: 甘道夫无身体动作无内心戏，纯以仪式化言语对抗，宣告三复
+  ai_default_failure: 插入内心独白，写他知道自己可能会死、鼓起最后的勇气
+  transfer_rule: 立场极坚定的对峙，让行为与咒语式宣告自证，不进内心
+  quote: 我乃秘火的仆人，驾驭阿诺尔之火
+- pattern_id: S05-p3
+  beat: 坠落
+  dimension: omission
+  original_move: 五个动词一句话从站立到消失，不跟随坠落过程，瞬间完成
+  ai_default_failure: 用慢镜头写坠落，身影越来越小、消失在黑暗中
+  transfer_rule: 重大死亡可用瞬间缺席替代慢镜头，冲击来自戛然而止
+  quote: 「快跑，你们这些傻瓜！」然后便不见了
+overall_traits:
+- 反应优先于描述，恐怖由旁观者惧态建立
+- 速度即力量：重大时刻不加长反而压缩
+- 语言的仪式感：「你休想过」三复如咒语

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-93e205dad86214f248cdeaba
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L591
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 疯狂如同无形的洪水，将城市淹没其中，并渗透到每一个细微的角落和缝隙
+sensory_mapping: 视觉；流动；压迫；空间
+context_fact: 无数武斗热点已把整座城市联成疯狂整体。
+image_mechanism: 不可见的群体情绪获得水位、流向和渗透性：先从上方漫过城市，再沿最小缝隙进入日常生活，留下无处干燥的空间感。
+property_alignment: 狂热覆盖广域对应洪水淹没；个体难以阻挡对应水势压倒屏障；意识形态进入细部对应水从孔隙渗透
+context_alignment: 前句的离散热点在此被连续流体连接，完成由点到面的尺度扩张。
+narrative_function: 概括时代环境对随后批斗现场的全面包围。
+transfer_rule: 用洪水写扩散时，应交代水位如何越界、介质如何连成面、又通过哪些缝隙侵入微观层级。
+failure_boundary: 影响只限少数机构、靠明确命令逐级传递或可轻易退出时，洪水的连续覆盖与不可抗性会失真。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 文革狂热席卷城市并侵入所有社会空间
+vehicle: 水位漫过城市并从缝隙持续渗入的无形洪水
+ground: 狂热覆盖广域对应洪水淹没；个体难以阻挡对应水势压倒屏障；意识形态进入细部对应水从孔隙渗透

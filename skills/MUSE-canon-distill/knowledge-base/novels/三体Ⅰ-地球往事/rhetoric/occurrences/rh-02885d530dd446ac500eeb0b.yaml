@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-02885d530dd446ac500eeb0b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2491
+chapter: 第34章 智子
+figure_type: simile
+quote: 我也知道，但感觉那像个神话
+sensory_mapping: 神话奇观；不可思议尺度；古老叙事；超自然力量；认知眩晕
+context_fact: 科学执政官解释质子十一维结构可展开后，文教执政官承认理论却无法在感觉上接受。
+image_mechanism: 严密物理方案抵达直觉边界后被推入神话语域，公式仍在，人的尺度感却只能把质子变天幕理解为神力故事。
+property_alignment: 质子宏观展开对应神物变形；维度操控超常对应神力；理论可讲述对应神话有完整叙事；缺少经验验证对应传说难证；听者惊异对应面对奇迹
+context_alignment: 三体人正计划用神迹摧毁地球科学信念，自己面对高维工程也感到像神话，形成微妙对照。
+narrative_function: 替读者表达尺度不适，并为随后的展开奇观建立心理阈值。
+transfer_rule: 用神话评价技术时，应落在理论虽可陈述、效果却跨越经验尺度与因果直觉的节点，并保留说话者主观性。
+failure_boundary: 技术已日常化、可由熟悉机械过程直观演示，或说话者完全拒绝其理论可能性时，神话既不贴近惊异也不贴近认知状态。
+quality_assessment: functional
+confidence: 0.96
+review_status: reviewed
+tenor: 把一个质子展开成宏观二维平面并在其上制造智能计算机的工程设想
+vehicle: 超越日常因果、由神力完成奇迹且只能在古老传说中成立的神话事件
+ground: 工程尺度反常对应神迹超自然；虽有理论仍难直觉相信对应听神话时的悬疑；实现方式远超常识

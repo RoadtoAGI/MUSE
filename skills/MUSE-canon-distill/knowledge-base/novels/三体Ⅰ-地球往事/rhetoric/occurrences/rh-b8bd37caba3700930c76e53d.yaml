@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b8bd37caba3700930c76e53d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2452
+chapter: 第34章 智子
+figure_type: simile
+quote: 天边的小太阳把它的影子长长地投射到大地上，像一个顶天立地的巨人在行走
+sensory_mapping: 长影扫地；巨人步伐；天地贯通；寒冷斜阳；周期摆动
+context_fact: 乱纪元小太阳低悬，元首在巨摆下召开会议并即将关闭象征催眠上帝的装置。
+image_mechanism: 低角度太阳把摆锤纵向放大成跨越天地的人形，来回摆动被地面影子翻译成步伐；纪念碑仿佛从静物变为即将退出历史的巨神。
+property_alignment: 摆锤巨大对应巨人体格；影子细长对应巨人长身；上接装置下落大地对应顶天立地；周期摆动对应左右迈步；影子移动对应行走轨迹；纪念象征对应巨神形象
+context_alignment: 元首宣布上帝开始保佑三体并关闭巨摆，行走巨人让旧宗教象征像有生命般完成最后几步。
+narrative_function: 赋予会址庄严动态尺度，为改变文明命运的消息制造仪式感。
+transfer_rule: 把机械影子写成行走巨人时，应匹配垂直尺度、周期运动、地面位移、光源角度和场景仪式性。
+failure_boundary: 正午短影、摆幅极小或装置低矮无垂直贯通感时，顶天立地与行走均缺视觉依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨摆纪念碑摆锤投在三体大地上、随摆动大幅来回移动的超长影子
+vehicle: 身体贯通天地的巨人迈步行走，长腿与躯干交替扫过地面
+ground: 影子极长对应巨人顶天立地；摆锤周期移动对应巨人迈步；金属摆巨大对应巨人体量

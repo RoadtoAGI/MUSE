@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0f548643262d6869e0b41731
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L552
+chapter: 第5章 叶文洁
+figure_type: simile
+quote: 他那颗两天来绷得紧紧的心脏像被放到了柔软的天鹅绒上
+sensory_mapping: 触觉；承重；松弛；心理
+context_fact: 叶文洁送他木盒并接受他再来探望，汪淼双眼湿润。
+image_mechanism: 紧张先让心脏成为悬着且绷硬的物体，叶文洁的善意再化成有绒面的承托；“放到”完成由悬空到落稳的瞬间卸力。
+property_alignment: 持续戒备对应物体绷紧悬置；获得安慰对应被稳稳放下；温柔接纳对应天鹅绒柔软包承
+context_alignment: 两天的超常压力需要明确的卸载动作，年长者的温和气质又与天鹅绒的柔软触感相合。
+narrative_function: 以触觉落差收束来访，并建立汪淼对叶文洁的信任。
+transfer_rule: 写骤然安心时，可让长期悬置的心理负荷落到一种具体承托面上，并让表面质地对应安慰者的气质。
+failure_boundary: 若情绪只是兴奋、麻木或问题已真正解决，柔软承托会分别误写成平静、恢复感觉或消除风险。
+quality_assessment: exemplary
+confidence: 0.97
+review_status: reviewed
+tenor: 汪淼长期紧张后因叶文洁的温情而突然松弛的内心
+vehicle: 绷紧的重物被轻放到柔软天鹅绒表面
+ground: 持续戒备对应物体绷紧悬置；获得安慰对应被稳稳放下；温柔接纳对应天鹅绒柔软包承

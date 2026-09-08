@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4701e80ffb39af05f9debb6e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L470
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 其实这里并不大，很像一个山洞
+sensory_mapping: 空间；视觉；材质
+context_fact: 汪淼穿长隧道进入宫殿内部。
+image_mechanism: 外部黑山的巨大体量在内部收缩为被岩体挖出的一小块暗腔，读者从宏伟宫殿预期落到原始洞穴触感。
+property_alignment: 厚石包围对应洞穴被山体包裹；火炬照明对应洞内无自然光；空间小而粗糙对应天然洞室
+context_alignment: 山洞延续前句黑山意象并准确说明生存性空间。
+narrative_function: 消解宫殿华丽预期。
+transfer_rule: 空间内外反差可复用同一地质框架，让外部体量与内部空腔形成连续剖面。
+failure_boundary: 内部开阔、装饰华丽或有大量自然光时，山洞会误写尺度和材质。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 金字塔中心狭小昏暗的大殿
+vehicle: 深处封闭、缺少自然光的山洞
+ground: 厚石包围对应洞穴被山体包裹；火炬照明对应洞内无自然光；空间小而粗糙对应天然洞室

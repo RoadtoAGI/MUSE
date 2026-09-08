@@ -1,0 +1,14 @@
+scene_id: '07'
+source_notes: scene_07_beats.md
+patterns:
+- pattern_id: 07-p1
+  beat: 延迟哭泣
+  dimension: camera
+  original_move: 用门声落空触发迟到眼泪
+  ai_default_failure: 会写排练室幻影和回忆闪回
+  transfer_rule: 写丧失时让声音触发未完成期待
+  quote: 她伸手一抹，是眼泪
+overall_traits:
+- 喜剧插曲暗藏核心欲望
+- 否定廉价爆发反应
+- 触觉发现真实情绪

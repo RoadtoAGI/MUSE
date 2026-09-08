@@ -1,0 +1,24 @@
+card_id: torch-passed-to-heir
+pattern_name: 火炬传承
+dramatic_function: 把生存任务转化为价值传递，让结局由继承者的选择回答。
+applicability: 适合导师将死或父母保护叙事；若继承者无独立选择会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 末世父子
+- 火炬字面隐喻
+- 灰色公路
+tags:
+- 传承
+- 临终
+- 价值选择
+- 继承者
+source_scenes:
+- novel: 长路
+  scene_id: scene_12
+  note: 父亲命名火炬，孩子独自验证陌生人的善。
+- novel: 长路
+  scene_id: scene_11
+  note: 孩子在窃贼事件中反过来纠正父亲。
+phase_affinity:
+- 2
+- 3
+- 5

@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9f8257ca7ba2f85bd71c3f56
+work_id: novel:三体Ⅱ-黑暗森林
+edition_id: three-body-2-local-md-25283d83
+source_file: full_text.md
+source_sha256: 25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a
+source_locator: full_text.md:L2557-L2558
+chapter: 正文
+figure_type: metaphor
+quote: '把那些精神失落、灵魂在流浪的人都送来：
+
+  在这金色的信念旁，我要为他们把灯举起。'
+sensory_mapping: 灵魂夜行、金色地标、灯被举起、迷途者循光靠近
+context_fact: 自由女神像基座诗被改写，为只允许太空军使用的信念中心招徕绝望、迷茫和畏惧者。
+image_mechanism: 思想控制设施借移民庇护诗获得港口图景，失败主义成为黑夜流浪，技术植入则被美化为温暖灯塔。
+property_alignment: 1）迷茫军人对应无家旅人；2）战争前景对应黑夜道路；3）胜利命题对应灯火；4）信念碑对应金色门旁标志；5）中心操作者对应举灯人；6）接受钢印对应循光入门。
+context_alignment: 改写故意借自由女神的历史声望冲淡控制色彩，因此流浪与灯火既动人，也带制度宣传的反讽张力。
+narrative_function: 为信念中心制造完整公共意象，显示思想钢印如何从可怕技术被包装成救济与归宿。
+transfer_rule: 机构借灯塔救助框架自我叙述时，应对齐迷途者、黑暗、光源、归宿和引路者，并检查包装遮住了何种权力。
+failure_boundary: 被植入信念者并未获得事实保证，灯光可能把人引向错误方向；自愿接近也不消除技术不可逆性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 失败主义者失去精神归属与前路，信念中心承诺用必胜信念为他们提供确定方向和安顿
+vehicle: 无家可归的旅人在黑暗中漂泊，一座金色地标旁有人高举灯火，引导其抵达庇护处
+ground: 1）失败主义者对应流浪者；2）精神迷茫对应无家；3）未来不确定对应黑暗；4）胜利信念对应金色灯光；5）信念中心对应庇护地标；6）思想钢印对应举灯引路。

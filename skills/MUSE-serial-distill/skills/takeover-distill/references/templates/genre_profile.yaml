@@ -1,0 +1,12 @@
+# series/genre_profile.yaml —— 类型档案（大纲 S1 判定后冻结；写作期只读）
+# 修改唯一通道：frozen_amendment 决策且 consumed_by 含 profile:genre
+schema_version: 1
+substrate: null            # 世界底座，唯一；值域 = genre-packs 名（history | xianxia | infinite）或 generic
+engine:
+  primary: null                # 爽点引擎主槽
+  secondary: null              # 副槽，可空
+mainline_type: null          # 事业线 | 关系线 | 双线——声明位：仅记录坐标，不驱动机制
+tags: []             # 声明位：对标反查/参考检索过滤 key
+pacing_contract: null      # 免费快节奏 | 付费标准 | 慢热精品
+benchmark: []        # 对标作品（三轴反查 + 灵感检索）
+substrate_config: {} #              # 底座专属配置；键由对应 genre-pack 的 substrate_config_keys 声明

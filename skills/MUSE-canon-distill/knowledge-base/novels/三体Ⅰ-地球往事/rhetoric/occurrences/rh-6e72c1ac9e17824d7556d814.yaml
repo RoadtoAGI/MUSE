@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6e72c1ac9e17824d7556d814
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2512
+chapter: 第34章 智子
+figure_type: simile
+quote: 更像是一个巨人被肢解后的肢体和内脏
+sensory_mapping: 断肢轮廓；内脏柔软；血肉色彩；天空尸块；惊骇厌恶
+context_fact: 几何体融化后复杂度进一步增加，观察者不再联想到玩具积木。
+image_mechanism: 同一巨人孩子的尺度被黑暗翻转：撒出的玩具像来自巨人自身被拆开的身体，天空从游戏桌变成解剖场；无机空间结构因此取得血肉恐怖。
+property_alignment: 巨大投影对应巨人体量；结构分块对应肢解部位；长条弯曲物对应四肢；团块褶皱物对应内脏；色彩怪异对应血肉表面；散布半空对应尸块四散
+context_alignment: 积木的童真比照已不足以容纳变形复杂度，转为肢解巨人既跟随可见形态，也把失败实验的危险情绪推高。
+narrative_function: 将科学奇观转为宇宙身体恐怖，提示质子内部可能含有难以理解的复杂世界。
+transfer_rule: 用肢解身体写复杂散块时，应从肢状与器官状轮廓、柔软度、色泽、分离方式和尺度恐怖中建立对应。
+failure_boundary: 结构仍保持干净规则几何、色彩单一金属化或各块有明确机器功能时，内脏意象会徒增血腥而缺视觉支点。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 规则几何彻底崩解后铺满天空、形状纷乱有机且色彩怪异的质子高维结构投影
+vehicle: 巨大身体遭肢解，断开的四肢与湿软内脏散布在视野中
+ground: 形态由规则转为有机紊乱对应肢体器官；大片结构分离对应尸体被肢解；怪异变幻色彩对应内脏肉色和湿润表面

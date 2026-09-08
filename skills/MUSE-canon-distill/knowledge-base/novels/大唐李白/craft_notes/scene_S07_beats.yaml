@@ -1,0 +1,14 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 追而不及
+  dimension: overall
+  original_move: 把物理追赶写成精神隐喻
+  ai_default_failure: 解释主角追求不可得理想
+  transfer_rule: 抽象困境可压进可见动作
+  quote: 相望不能相及
+overall_traits:
+- 声音驱动全场转折
+- 追赶动作映射精神处境
+- 停步动作完成顿悟

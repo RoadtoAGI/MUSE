@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d2efafaed45ded0f11c67fd8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1295
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 马的躯体在熊熊燃烧，已成了一团火球，奔跑时火焰呼呼作响
+sensory_mapping: 视觉；听觉；运动；热量
+context_fact: 三日强光热浪从门洞涌入，一名红热骑士骑着燃烧坐骑前来报警。
+image_mechanism: 马的头、腿和躯干被连续火焰熔成一个亮团，蹄步只通过呼呼风火声留下；生物运动被简化为滚动热体。
+property_alignment: 火焰包裹全身对应火球外壳；马身细节消失对应球体无可辨肢体；高速奔跑对应火球飞驰；呼呼声对应火团切开空气
+context_alignment: 从昏暗大殿望向强光门洞，观察者只能先见移动火团，喻体严格服从逆光和灾变条件。
+narrative_function: 以高速火体打断处刑，瞬间把大殿与外界灾难连通。
+transfer_rule: 把燃烧运动体写成火球时，应让火焰遮蔽原轮廓、整体移动和气流声音同时成立。
+failure_boundary: 火只在局部、肢体轮廓清晰或对象静止时，火球会抹掉关键形态与动作。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 全身被火包裹、仍高速奔入大殿的坐骑
+vehicle: 向前滚动或飞行、只见圆团火焰而不见内部形体的火球
+ground: 火焰完全遮住马身轮廓对应球状火团无内部细节；奔跑使火焰整体移动对应火球高速掠行

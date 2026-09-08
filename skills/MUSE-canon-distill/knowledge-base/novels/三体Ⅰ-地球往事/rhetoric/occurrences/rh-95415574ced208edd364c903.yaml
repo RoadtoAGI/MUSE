@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-95415574ced208edd364c903
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L469
+chapter: 第4章 三体、周文王、长夜
+figure_type: analogy
+quote: 几乎像住在地下，才能避开严寒和酷热
+sensory_mapping: 空间；温度；触觉
+context_fact: 周文王解释纣王为何乱纪元仍醒着。
+image_mechanism: 地上极端冷热被厚墙层层推远，居住者仿佛向地表以下移动；地下的热迟滞经验直接转成建筑防护原理。
+property_alignment: 厚墙隔温对应土层热惯性；少开口远离表面对应地下封闭；温变滞后对应地下温度稳定
+context_alignment: 喻体承担工程解释而非氛围装饰。
+narrative_function: 说明三体文明适应温差的建筑策略。
+transfer_rule: 建筑功能类比应匹配围护厚度、开口、换热速度和居住结果，而非只比较昏暗。
+failure_boundary: 薄墙通风建筑、主要防辐射而非温变，或真实地下室温度同样剧烈时，这个机制不适用。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 乱纪元中居住在厚墙金字塔内部
+vehicle: 住进与外界换热缓慢的地下空间
+ground: 厚墙隔温对应土层热惯性；少开口远离表面对应地下封闭；温变滞后对应地下温度稳定

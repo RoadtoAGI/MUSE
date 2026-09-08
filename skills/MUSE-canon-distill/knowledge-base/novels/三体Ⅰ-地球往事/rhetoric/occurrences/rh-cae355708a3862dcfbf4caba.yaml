@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cae355708a3862dcfbf4caba
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2081
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 那些濒死的海鸟眼睛一直在背后盯着我，决定了我的人生
+sensory_mapping: 背后视线；黑油眼眸；无法回避；跟随脚步；梦中重现
+context_fact: 伊文斯童年目睹海鸟死亡，后来学习生物学并立志拯救任一濒危物种。
+image_mechanism: 死鸟身体留在海滩，眼睛却从油污中脱离，附着到少年背后；每当他可能走向父亲安排的人生，那些目光便把他转回拯救物种的道路。
+property_alignment: 临死眼神对应记忆核心；多年噩梦对应视线持续；背后位置对应无法正面摆脱；负罪感对应被监督；选择生物学对应目光导向；拒绝父业对应凝视阻止偏航
+context_alignment: 海鸟雕塑卡以眼睛证明尚活，此处身体死后眼睛继续存活于记忆，形成有因果推进的意象延展。
+narrative_function: 把一次观看转化为终身伦理命令，解释人物理想的情感强度。
+transfer_rule: 用背后凝视写创伤驱动时，应有具体目光来源、反复回返、道德压力和可验证的人生选择后果。
+failure_boundary: 人物很快遗忘事件、选择主要由外部利益决定，或并未感到被受害者审视时，持续凝视会虚构动机。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 油污海鸟的临死目光成为伊文斯长期无法摆脱的创伤记忆和职业伦理驱动力
+vehicle: 一双双真实眼睛始终跟在身后凝视、监督并逼迫被注视者沿某条道路行动
+ground: 记忆持续存在对应目光一路跟随；负罪和责任感对应背后监督；人生选择受影响对应目光决定方向

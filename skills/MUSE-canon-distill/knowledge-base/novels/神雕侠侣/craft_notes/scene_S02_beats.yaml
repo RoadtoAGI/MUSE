@@ -1,0 +1,28 @@
+scene_id: S02
+source_notes: scene_S02_beats.md
+patterns:
+- pattern_id: S02-p1
+  beat: 三只麻雀与小石室
+  dimension: omission
+  original_move: 教什么一句带过，笔墨全给体感与空间距离
+  ai_default_failure: 铺陈功法名称与运气细节
+  transfer_rule: 写修炼时以可感效果替代技术说明
+  quote: 别说捉到，连羽毛也碰不到一根
+- pattern_id: S02-p2
+  beat: 递进蒙太奇
+  dimension: info_density
+  original_move: 以石室大小乘麻雀数的数字递进替代三月时光
+  ai_default_failure: 设置卡关、顿悟、突破的三拍升级结构
+  transfer_rule: 升级流用可量化进度轴替代情绪曲线
+  quote: 八十一只麻雀杨过已能手到擒来
+- pattern_id: S02-p3
+  beat: 墓外放飞
+  dimension: camera
+  original_move: 终极形态留给师父压轴，借徒弟眼光观看放大冲击
+  ai_default_failure: 开头即亮相师父实力，铺垫尽失
+  transfer_rule: 实力展示延后到读者吃透差距基准之后
+  quote: 两只手掌宛似化成了千手千掌
+overall_traits:
+- 数字替代情绪：量化进度轴即叙事节奏
+- 详略杠杆：详起点略终点，中段留读者脑补
+- 示范延迟：师父实力在训练完成后才展示

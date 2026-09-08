@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9ba94264f31c94e9699f6cff
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1850
+chapter: 第24章 红岸之六
+figure_type: simile
+quote: 噩梦般的记忆像一处处死灰复燃的火种，越烧越旺，灼烧着她的心灵
+sensory_mapping: 热觉；灰暗到火光；多点复燃；蔓延；皮肤与内脏灼痛
+context_fact: 秘密发射完成后，她从持续紧张恐惧中平静下来，父亲惨死、背叛和监禁等旧伤才真正开始反扑。
+image_mechanism: 压抑没有把创伤扑灭，只在每段记忆上覆了一层冷灰；平静像风揭开灰面，多处余烬同时见氧，最终在心灵内部连成无法隔绝的火场。
+property_alignment: 被压抑的旧记忆对应灰下余烬；平静后回想对应灰层被揭；多段创伤苏醒对应多处火种复燃；痛苦递增对应火势蔓延；精神伤害对应内里被灼烧
+context_alignment: 叶文洁拒绝忘却并以理性直视创伤，记忆之火既伤害她，也持续提供后来审判人类的情绪能量。
+narrative_function: 把创伤后延迟反应写成动态复燃过程，开启她从受害经历走向文明绝望的心理链。
+transfer_rule: 用死灰复燃写创伤时，应呈现曾被覆盖的残余、重新获得触发条件、多点蔓延和强度递增。
+failure_boundary: 记忆此前已真正整合、重现时情绪平稳，或痛苦随时间持续减弱时，复燃旺火会夸大创伤反扑。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁在紧张消退后重新体验文革创伤，记忆接连复苏并造成日益强烈的精神痛苦
+vehicle: 表面冷却熄灭的灰烬中残存火星，重新引燃多处火头并蔓延成旺火灼伤内部
+ground: 被压抑记忆看似平息对应火被灰覆盖；回忆重新出现对应余火复燃；痛苦加剧对应火势越烧越旺并灼伤

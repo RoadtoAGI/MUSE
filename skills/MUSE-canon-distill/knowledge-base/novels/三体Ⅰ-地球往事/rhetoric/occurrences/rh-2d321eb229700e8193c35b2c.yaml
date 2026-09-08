@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2d321eb229700e8193c35b2c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1959
+chapter: 第26章 雷志成、杨卫宁之死
+figure_type: metaphor
+quote: 政治神经很敏感
+sensory_mapping: 神经刺痛；微刺激；快速传导；身体警觉
+context_fact: 雷志成暗中部署监听程序，第一时间发现叶文洁删除的外星信息并盘算上报。
+image_mechanism: 抽象政治环境变成贴在皮肤上的刺激网，任何阶级和权力信号轻触雷志成便沿神经直达行动；其程序监控正是这套身体警觉的技术延伸。
+property_alignment: 政治线索对应外部刺激；雷志成警觉对应低阈值神经；隐藏程序对应感受器延伸；迅速发现对应传导快速；立即审问对应反射动作
+context_alignment: 该干部的敏感并非泛称，后台监控和秘密备份提供了可验证的感知器官。
+narrative_function: 用身体反应概括雷志成的干部类型，并解释他为何成为唯一同时获知秘密的人。
+transfer_rule: 用神经敏感写政治警觉时，应给出微弱信号、低反应阈值、监测方式和迅速行动。
+failure_boundary: 人物长期忽略风险、事后才被告知，或反应主要来自偶然利益而非持续警觉时，敏感神经会美化其能力。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 雷志成能迅速察觉政治风险、阶级信号和可转化为个人功绩的事件
+vehicle: 身体神经末梢阈值极低，轻微刺激也会立即传入中枢并触发反应
+ground: 细小政治变化被捕捉对应神经感受微刺激；反应迅速对应神经传导快；过度警觉对应敏感阈值低

@@ -1,0 +1,28 @@
+scene_id: S11
+source_notes: scene_S11_beats.md
+patterns:
+- pattern_id: S11-p1
+  beat: 「伟大的故事」讨论
+  dimension: omission
+  original_move: 地狱门前只谈「掉到哪种故事里」，全段无一字环境渲染
+  ai_default_failure: 在对话间穿插黑暗恐惧寒冷的环境渲染
+  transfer_rule: 人物沉浸于彼此陪伴时，外界可整段消失，错位话题自带情感
+  quote: 我很好奇我们这是掉到哪种故事里了？
+- pattern_id: S11-p2
+  beat: 咕噜的温情一触
+  dimension: camera
+  original_move: 镜头锁定一只颤抖的手，触摸被拆成三层递进慢动作
+  ai_default_failure: 写出咕噜的内心回忆，替读者填满情感
+  transfer_rule: 角色仅有的反常温柔给全书最慢镜头，情感留读者自行填充
+  quote: 那种轻触几乎称得上是抚摸了
+- pattern_id: S11-p3
+  beat: 山姆的喝斥
+  dimension: info_density
+  original_move: 喝—缩两个动词完成不可逆转折，山姆永不知打断了什么
+  ai_default_failure: 花大段落解释山姆为什么误判
+  transfer_rule: 悲剧转折让读者知而角色不知，行为链短到不可逆
+  quote: 咕噜缩了回去……就像一只蜘蛛
+overall_traits:
+- 行为即命运：一只手一声喝斥定世界走向
+- 信息不对称制造悲剧：读者知山姆不知
+- 慢镜头战略用在最珍贵脆弱的一刻

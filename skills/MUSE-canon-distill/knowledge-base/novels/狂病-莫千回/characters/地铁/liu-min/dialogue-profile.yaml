@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:地铁--liu-min
+work_id: novel:狂病-莫千回
+display_name: 刘敏
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '刘敏的话不多，且几乎都贴着情绪走。日常里是抱怨腔（嫌人多、催陈雨琪快走、好奇地追问街头群殴"具体什么情况"）；恐惧时声音发颤、直接哭出来，问的都是没人能答的问题（"会不会真的是什么丧尸病毒""怎么这么多站台都禁止停靠"）。到了后段她大多沉默，偶尔的开口反而最重——替杨和修说一句不想让他冒险的话，提一句想去做最后的告别。她不抒情、不分析，情绪藏不住，话越少时越说明事情越重。
+
+
+    佐证：scenes/scene_DT-S01.md:L3-L3 / scenes/scene_DT-S03.md:L7-L7 / scenes/scene_DT-S10.md:L43-L43'
+  evidence_locators:
+  - scenes/scene_DT-S01.md:L3-L3
+  - scenes/scene_DT-S03.md:L7-L7
+  - scenes/scene_DT-S10.md:L43-L43
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

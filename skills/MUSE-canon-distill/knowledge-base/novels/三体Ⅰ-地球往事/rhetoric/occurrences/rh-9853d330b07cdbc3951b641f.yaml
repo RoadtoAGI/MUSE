@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9853d330b07cdbc3951b641f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L734
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 咱们再好好谈谈，解开你的思想疙瘩
+sensory_mapping: 触觉；形态；手部动作；阻塞；思维
+context_fact: 她要求叶文洁先在陷害父亲的材料上签字，再承诺谈心。
+image_mechanism: 人物基于事实的拒绝被缩成一枚可由干部动手处理的小结，政治分歧由此失去内容，只剩需要揉松的心理阻塞。
+property_alignment: 多项疑虑互相缠绕对应线股打结；态度阻碍服从对应疙瘩卡住绳索；谈话被说成能解决问题对应手指逐步解结
+context_alignment: 思想教育套语符合军代表身份，却与要求伪证的真实目的冲突，凸显语言操控。
+narrative_function: 显示权力如何把道德拒绝病理化为待处理的思想问题。
+transfer_rule: 用结扣写思想困境时，应说明哪些线索相互纠缠、阻住何种行动、由谁以何种步骤解开，并留意命名权。
+failure_boundary: 分歧来自明确价值选择而非认知纠结时，称疙瘩会抹去理由；外力强迫也不等于真正解结。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 程丽华声称要消除叶文洁的政治疑虑与抵触
+vehicle: 把纠结绳线形成的硬结逐股松开
+ground: 多项疑虑互相缠绕对应线股打结；态度阻碍服从对应疙瘩卡住绳索；谈话被说成能解决问题对应手指逐步解结

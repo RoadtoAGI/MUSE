@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6f9a4a01ecc486a63e06cec5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1325
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 它悬在那里，永远不会做丝毫的运动，永远不会有丝毫的变化，真是对死亡最到位的诠释
+sensory_mapping: 视觉静止；时间冻结；生命状态
+context_fact: 空宇宙只有一个有质量球体，没有别物对它施力，它也不能对别物作用。
+image_mechanism: 物理学的零作用状态被放进一具没有脉搏的身体，永恒时间不再带来任何新姿态；静止因无限延长而从安宁翻成死亡。
+property_alignment: 无外力运动对应身体无动作；无相互作用对应生命与环境断联；永远不变对应死亡后不再发展；单一存在对应死寂孤绝
+context_alignment: 魏成本想借空获得宁静，却发现绝对静止等同死亡，准确开启他从一体、二体到三体寻找“活”变化的过程。
+narrative_function: 定义魏成所厌恶的简单确定性，并为三体复杂运动赋予生命价值。
+transfer_rule: 将静态系统比作死亡时，应同时落实动作停止、关系断绝和未来变化归零，而非只因画面安静。
+failure_boundary: 系统静止却内部活跃、正在休眠等待触发或静态本身有生长意义时，死亡会错误取消潜能。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 没有任何相互作用、永恒静止不变的单球宇宙状态
+vehicle: 生命活动全部停止、未来不再产生变化的死亡
+ground: 球体无运动对应死亡身体不再行动；状态永不变化对应生命过程和时间意义终止

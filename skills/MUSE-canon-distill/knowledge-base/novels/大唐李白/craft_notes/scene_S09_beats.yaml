@@ -1,0 +1,14 @@
+scene_id: S09
+source_notes: scene_S09_beats.md
+patterns:
+- pattern_id: S09-p1
+  beat: 最后通牒
+  dimension: omission
+  original_move: 把暴力改写成选择权让渡
+  ai_default_failure: 写复仇打斗或血腥处决
+  transfer_rule: 复仇戏可用信息和时间制造压力
+  quote: 取何人首级以荐神明
+overall_traits:
+- 不动手也能形成暴力
+- 传奇复仇嵌入舒缓叙事
+- 身份到末句才揭晓

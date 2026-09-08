@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-87b309a4651bbe99ce6670af
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L644
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 那没有哭出和喊出的东西在她的血液中弥漫、溶解，将伴她一生
+sensory_mapping: 流体；身体内部；溶解；循环；时间
+context_fact: 她被人按住，亲眼看父亲被打死，哭喊耗尽后失声。
+image_mechanism: 本应经声音离开身体的痛苦被截回体内，获得可溶物质形态；它不再停在记忆一点，而是进入血流，随每次循环抵达全身和未来。
+property_alignment: 情绪未能哭喊释放对应物质未排出体外；创伤进入人格对应溶质进入血液；影响遍及生活对应血液循环全身；长期不消退对应溶液持续存在
+context_alignment: 父亲的血迹刚从台上流走，女儿未发出的声音却反向溶入自己的血，外部死亡与内部传承形成镜像。
+narrative_function: 说明此刻如何成为叶文洁终身选择的身体化根源。
+transfer_rule: 写无法表达的创伤时，可设计本应外排的通道被堵塞，再让残余物进入一种会循环、扩散和长期保存的身体介质。
+failure_boundary: 情绪当场充分表达、后来被新经验消化或只造成短期震动时，终身血液溶质会过度固定人物。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁无法表达的悲恸、愤怒与创伤长期进入其身心
+vehicle: 一种未排出的物质溶进血液、随循环遍布全身并终身留存
+ground: 情绪未能哭喊释放对应物质未排出体外；创伤进入人格对应溶质进入血液；影响遍及生活对应血液循环全身；长期不消退对应溶液持续存在

@@ -1,0 +1,14 @@
+scene_id: '14'
+source_notes: scene_14_beats.md
+patterns:
+- pattern_id: 14-p1
+  beat: 午夜月光
+  dimension: info_density
+  original_move: 用碎片让读者拼出车祸因果
+  ai_default_failure: 会完整交代因为A所以B
+  transfer_rule: 写重大丧失时让真相从缝隙渗出
+  quote: 真正的巧合，是幸福
+overall_traits:
+- 延迟揭示形成结构暴力
+- 身体触感替代情感命名
+- 碎片化因果复制心理

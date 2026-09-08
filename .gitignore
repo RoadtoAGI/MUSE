@@ -1,0 +1,41 @@
+# Public repository entry points. Local research and workspace files stay private.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/requirements-dev.txt
+!/pytest.ini
+!/config.example.yaml
+!/skills/
+!/src/
+!/tests/
+
+# Standalone runtime.
+/src/*
+!/src/__init__.py
+!/src/open_muse/
+/src/**/CLAUDE.md
+/src/**/AGENTS.md
+
+# Tests for the included runtime. Historical experiments remain local.
+/tests/*
+!/tests/__init__.py
+!/tests/open_muse/
+!/tests/ai_pattern/
+/tests/**/CLAUDE.md
+/tests/**/AGENTS.md
+
+# Credentials and generated files, including nested copies.
+.env
+.env.*
+api_keys.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+skills/MUSE-writing/evals/
+
+# Runtime Agent dispatch logs may contain request excerpts and local paths.
+**/pipeline/audit/subagent_dispatches.jsonl

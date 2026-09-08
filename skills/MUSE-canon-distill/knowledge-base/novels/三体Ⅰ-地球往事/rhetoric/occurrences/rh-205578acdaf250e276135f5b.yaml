@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-205578acdaf250e276135f5b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L173-L195
+chapter: 第2章 台球
+figure_type: analogy
+quote: 我和她很喜欢打，因为这让我们想到了加速器中的粒子碰撞
+sensory_mapping: 视觉；动作；因果；空间
+context_fact: 丁仪让汪淼搬动球桌并重复五次撞球。
+image_mechanism: 读者先亲手看白球撞黑球并重复进洞，再搬动球桌复现实验条件，最后想象球乱飞；抽象的时空均匀性由动作重复到反事实破坏逐层显形。
+property_alignment: 白球黑球对应碰撞粒子；球桌位置与击球参数对应实验时空和初始条件；稳定进洞对应物理规律均匀和结果可重复；球乱飞的反事实对应相同条件却无规律结果
+context_alignment: 宏观碰撞保留条件、动量交换和结果三项结构。
+narrative_function: 用动作教学建立规律均匀性的直觉，再以反事实破坏它。
+transfer_rule: 解释科学规律时，选择能保留对象、初始条件、相互作用和结果四个槽位的日常系统，并允许只改变目标变量做反事实。
+failure_boundary: 台球属于经典宏观碰撞，无法承载量子概率、粒子种类和探测器效应；用它推导具体高能实验结果会越界。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 高能加速器粒子在相同初始条件下碰撞并应产生可重复结果的实验
+vehicle: 台球桌上白球撞黑球、在相同位置和速度下重复进洞
+ground: 白球黑球对应碰撞粒子；球桌位置与击球参数对应实验时空和初始条件；稳定进洞对应物理规律均匀和结果可重复；球乱飞的反事实对应相同条件却无规律结果

@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-11665bf27fabb18acbae4290
+work_id: novel:三体Ⅱ-黑暗森林
+edition_id: three-body-2-local-md-25283d83
+source_file: full_text.md
+source_sha256: 25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a
+source_locator: full_text.md:L4124-L4126
+chapter: 正文
+figure_type: metaphor
+quote: '我们变成魔鬼了！
+
+  我们变成魔鬼了！'
+sensory_mapping: 三人从白色空间里看见自己长出魔鬼轮廓、杀人方案像黑影覆面、同一句恐惧在三颗心中回响
+context_fact: 他们无声推演出燃料只够一舰，并想到隐形导弹与次声波氢弹可杀人而保留设施。
+image_mechanism: 尚未执行的选择先改写身份，伦理越界从行动评价变为整个人格物种的骤变。
+property_alignment: 1）杀死同胞对应恶行；2）资源欲望对应诱惑；3）预谋武器对应魔鬼手段；4）旧道德失效对应从人变魔。
+context_alignment: ‘新人’是否‘非人’的争论在此获得最恐惧答案，符合三人仍保留旧道德、因而痛苦自责的阶段。
+narrative_function: 把技术方案转成身份危机，迫使三人继续处理彼此猜疑而非轻易接受功利结论。
+transfer_rule: 人物自称魔鬼时，应落实具体越界行为、旧身份标准和自我判断时点，使强烈称谓承担伦理冲突。
+failure_boundary: 思考极端方案不等于已实施恶行，魔鬼二分也会遮蔽资源死局和集体责任的复杂性。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三名舰长意识到自己正考虑用次声波氢弹先杀死其他四舰人员、夺取资源，因此自认突破旧人类道德底线
+vehicle: 魔鬼主动诱惑、伤害和夺取无辜生命，与善良人类相对，接受邪恶目的和手段
+ground: 1）三名军官对应魔鬼；2）先发杀人对应作恶；3）夺取燃料对应掠夺；4）道德转变对应变形；5）自我厌恶对应畏惧魔鬼身份。

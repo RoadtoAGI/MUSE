@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-81466b94dbcdfa54e5eeb7de
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1042
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 太阳看上去确实像一个通向无边火海的孔洞，是一个更大存在的一小部分
+sensory_mapping: 视觉；空间纵深；亮度
+context_fact: 汪淼正借滤镜细看太阳，发现它与现实经验中的太阳结构不同，也暂时贴近墨子的双壳模型。
+image_mechanism: 圆形日轮不再被看成独立球体，而被掏空为前景壳面的一处开口；刺眼光芒由洞后更广大火海涌来，使可见太阳只成庞大存在的截面。
+property_alignment: 太阳圆轮对应圆形孔口；强光来自可见面之后对应孔洞泄出背后火海；可见日面只占局部对应更大存在被壳遮住的其余部分
+context_alignment: 眼前确有墨子制造的空心球模型，望远镜观察提供圆面与层次，孔洞意象兼具角色知识和场景物证。
+narrative_function: 让错误模型在视觉上短暂成立，同时引出汪淼对日核结构的关键发现。
+transfer_rule: 把发光天体写成开口时，应让圆形边界、光源前后关系和被遮蔽的更大空间同时成立。
+failure_boundary: 光源表面细节明确来自自身、周围没有遮挡层或叙事不需要暗示背后整体时，孔洞会扭曲空间结构。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 望远镜中核心明亮、外层飘忽的三体太阳
+vehicle: 球壳上开向无边火海、只泄露背后整体一角的孔洞
+ground: 日轮呈圆形高亮区域对应壳面洞口；太阳外层飘忽而内部极亮对应洞后火光穿越边缘

@@ -1,0 +1,21 @@
+mode: reference
+display_name: 周伯通
+role_slug: zhou-botong
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_06.md
+  - scenes/scene_14.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 6
+coverage_note: |
+  周伯通出场 3 个场景（S06 桃花岛传艺、S14 度化+裘千仞之问、S20 烟雨楼及时赶到）。本次蒸馏以 S06+S14 为主佐证：
+  - S06 提供他"老顽童"出场+讲故事叙事结构+逼人结拜的童式勒索
+  - S14 提供他面对瑛姑的屎尿齐流+面对"是非善恶"之问时的内心愧疚
+
+  S20（烟雨楼）作为武戏片段未纳入佐证——周伯通在其中主要作为"及时赶到的援军"出场，未新增性格维度。
+  未破例读 full_text.md。
+
+  未覆盖维度：与瑛姑的过往情事（第31回一灯讲述为主）——但这部分已在 S10 一灯独白中被转述，读者可通过 scene_10.md 的一灯叙述间接了解。若下游续写周伯通心理戏需深度他与瑛姑情感，建议补读原文第31回。

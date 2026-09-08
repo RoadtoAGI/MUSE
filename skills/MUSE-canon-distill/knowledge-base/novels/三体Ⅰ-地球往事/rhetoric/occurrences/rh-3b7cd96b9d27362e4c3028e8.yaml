@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3b7cd96b9d27362e4c3028e8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1153
+chapter: 第14章 红岸之三
+figure_type: metaphor
+quote: 文章的观点可能不合一些人的胃口，但不要扣帽子
+sensory_mapping: 味觉；消化；视觉穿戴；外力按压
+context_fact: 批示者预见有关基础科学和外星探索的观点会挑战当时惯常判断，要求组织讨论且不得政治定性。
+image_mechanism: 思想争论先被移入身体成为难以下咽的食物，再被移到头顶成为可强扣的标签物；一个写生理排斥，一个写制度性压制。
+property_alignment: 不愿接受观点对应食物不合口味；排斥源自主观习惯对应胃口因人而异；给作者政治定性对应把帽子扣上；标签遮蔽论证内容对应帽子覆盖真实头面
+context_alignment: 文革文件语体常以生活俗语谈政治风险，两种身体喻体使批示既口语化又明确划出讨论边界。
+narrative_function: 展示超前观点在政治环境中的阻力，同时暗示最高层保护使红岸得以立项。
+transfer_rule: 写观点受排斥时，可分别用摄入感和外部标签区分“听者不适”与“权力定性”，避免把两种阻力混为一谈。
+failure_boundary: 争论基于充分证据反驳而非偏好，或分类是中性准确术语时，胃口和扣帽子会把合理批评误写成压制。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 部分干部对文章观点感到不适并可能给作者贴政治标签
+vehicle: 食物不合消化口味，以及从外部把帽子强行扣到人头上
+ground: 观念引起排斥对应食物入口造成反感；政治定性覆盖个人真实观点对应帽子从外面遮住头部身份

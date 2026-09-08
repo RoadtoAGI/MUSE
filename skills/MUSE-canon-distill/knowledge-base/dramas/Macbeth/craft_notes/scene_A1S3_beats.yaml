@@ -1,0 +1,49 @@
+scene_id: A1S3
+source_notes: scene_A1S3_beats.md
+patterns:
+- pattern_id: A1S3-p1
+  beat: 恶作剧闲谈垫场
+  dimension: exchange
+  original_move: 预言大场前先用杀猪咒船的琐碎恶毒闲谈铺垫巫的日常质地
+  ai_default_failure: 直接进预言正戏
+  transfer_rule: 重头戏前垫一段低烈度闲谈，落差即权重
+  quote: Where hast thou been, sister?
+- pattern_id: A1S3-p2
+  beat: 主角首句回声咒语
+  dimension: overall
+  original_move: 麦克白未见巫先说出巫的倒装句式，暗示已被笼罩
+  ai_default_failure: 让主角直接评论战事或天气
+  transfer_rule: 让主角首句与母题词汇撞合，污染先于接触
+  quote: So foul and fair a day
+- pattern_id: A1S3-p3
+  beat: 三声致敬阶梯递进
+  dimension: exchange
+  original_move: 预言切成现称、新封、未来王三级，每级留独立反应拍
+  ai_default_failure: 一次性说完全部预言
+  transfer_rule: 重大信息分级释放，已验部分为未验部分作保
+  quote: that shalt be king hereafter
+- pattern_id: A1S3-p4
+  beat: 震动由旁观者外读
+  dimension: exchange
+  original_move: 主角闻佳音却沉默惊惧，反常反应由班柯指认并替观众发问
+  ai_default_failure: 立即给主角独白直陈内心
+  transfer_rule: 关键心理先经他者外读，独白延迟到位更重
+  quote: why do you start
+- pattern_id: A1S3-p5
+  beat: 旁白切出私密信道
+  dimension: monologue
+  original_move: 谋杀念头只在旁白层生长，公开层维持礼节，两层交替推进
+  ai_default_failure: 把心理活动写进对话或干脆省略
+  transfer_rule: 群戏中用旁白开心理专线，公私两层互相反衬
+  quote: Two truths are told
+- pattern_id: A1S3-p6
+  beat: 半个预言当场到账
+  dimension: overall
+  original_move: 考多封号即场兑现，疑问当场升级为诱惑，剩余预言自动增信
+  ai_default_failure: 把应验推到后场制造巧合
+  transfer_rule: 兑现一部分承诺是最强的钩子，留半张支票悬置
+  quote: call thee Thane of Cawdor
+overall_traits:
+- 预言结构=已验+将验+悬置，三段各设反应拍
+- 班柯全程作对照组：同闻预言不同反应
+- 公开对话与私密旁白交替，张力来自两层落差

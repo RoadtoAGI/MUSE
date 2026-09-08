@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-be4dd086c2e8949e0d39f162
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1463
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 但想对了路子
+sensory_mapping: 道路；方向；岔路；向前移动
+context_fact: 秦始皇认为东西方智力并无高下，差别在西方已找到观察太阳和建立定律的科学思路。
+image_mechanism: 不可见的推理方式被摊成岔路图，聪明程度不决定位置，关键是脚落在哪条道上；发现成为沿正确方向走出的里程。
+property_alignment: 研究目标对应道路终点；方法选择对应岔口择路；科学发现对应沿路抵达；东方暂时做不到对应尚未找到入口
+context_alignment: 道路喻体精确承载秦始皇的判断：能力相当而路线不同，避免把差异简单归为民族天赋。
+narrative_function: 用空间选择概括科学方法论差异，并衔接东方帝国采用西方科学。
+transfer_rule: 用路子写方法时，应明确共同目的地、可选路径及结果为何证明某条路径有效。
+failure_boundary: 目标本身不确定、存在多条同样有效路径或结果主要靠偶然时，单一正确道路会把开放探索写成线性。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 西方人选择了能产生科学发现的正确思维方法
+vehicle: 行路者从岔口选中通往目的地的道路
+ground: 选择研究方法对应选择行进路线；产生三太阳与三定律发现对应道路抵达目标

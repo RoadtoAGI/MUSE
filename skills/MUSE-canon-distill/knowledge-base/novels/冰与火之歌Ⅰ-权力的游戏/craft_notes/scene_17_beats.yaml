@@ -1,0 +1,28 @@
+scene_id: '17'
+source_notes: scene_17_beats.md
+patterns:
+- pattern_id: 17-p1
+  beat: POV的物理限制
+  dimension: camera
+  original_move: 镜头锁死九岁身高，人墙切割视野，长段挣扎后才看到父亲
+  ai_default_failure: 切入被处刑者POV写走马灯回忆或最后的尊严
+  transfer_rule: 重大死亡选感知受限的旁观POV，最大程度剥夺读者感知
+  quote: 「她只能看到别人的手脚和肚子」
+- pattern_id: 17-p2
+  beat: 认罪的声音
+  dimension: omission
+  original_move: 认罪词如法庭记录般以纯台词呈现，零内心挣扎注释
+  ai_default_failure: 台词间插入「每个字都像刀割」式大量心理描写
+  transfer_rule: 人物说违心话时只录原话，那份痛苦留给读者填充
+  quote: 「他越说越响亮，声音在广场里回荡」
+- pattern_id: 17-p3
+  beat: 一声叹息
+  dimension: omission
+  original_move: 行刑瞬间视觉被强制遮蔽，死亡浓缩为人群一声集体叹息
+  ai_default_failure: 全感官轰炸：剑刃闪光、血花飞溅、头颅滚落、尖叫哗然
+  transfer_rule: 高潮前写得越具体，高潮本身的省略就越有力
+  quote: 「好似几百万人同时舒了一口气」
+overall_traits:
+- POV选择即手艺：三重限制构成感知过滤器
+- 前半琐碎求生对照死亡的突然，以慢衬快
+- 写满处建立期待，留白处释放冲击

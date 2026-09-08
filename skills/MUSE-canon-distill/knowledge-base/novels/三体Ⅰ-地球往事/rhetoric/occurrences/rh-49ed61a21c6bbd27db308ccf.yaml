@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-49ed61a21c6bbd27db308ccf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L956
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 我和你一样，开始以为他们是在说梦话。可他们真没开玩笑，现在部队确实处于临战状态
+sensory_mapping: 听觉；睡眠；清醒边界；语言逻辑；现实感
+context_fact: 各国军官交叉进驻、全球作战中心建立，而敌人身份仍无人说明。
+image_mechanism: 军事命令先被放进睡眠场景，严肃官员的嘴仍在动，话语却像梦境碎片无法拼合；真实临战状态随后把听者而非说话者留在失真感中。
+property_alignment: 战争说法违反常识对应梦话逻辑失序；听者最初不信对应旁人不把梦话当真；说话者身份本应清醒对应醒人却像睡者；临战事实确认对应后来发现话语来自清醒现实
+context_alignment: 大史惯于识破邪乎事仍把它判为梦话，反向证明现实异常程度，也承接他此前噩梦感受。
+narrative_function: 把秘密战争的离奇程度推高，同时由事实否定自我安慰。
+transfer_rule: 用梦话写不可信陈述时，应呈现听者依据、语言失序点和后来现实验证如何倒置清醒者位置。
+failure_boundary: 单纯谎言、玩笑或术语难懂不等于梦话；若说话者有意欺骗，睡眠的无意识机制会误判动机。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 军方所称全球战争因极端离奇而最初被大史当作无意识胡言
+vehicle: 睡眠中的人脱离清醒逻辑、说出无法当真的梦中话语
+ground: 战争说法违反常识对应梦话逻辑失序；听者最初不信对应旁人不把梦话当真；说话者身份本应清醒对应醒人却像睡者；临战事实确认对应后来发现话语来自清醒现实

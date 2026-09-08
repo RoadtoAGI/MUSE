@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d4fbfcbcf07a35137bc756ca
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L938
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 还有其他一些看上去是鸡毛蒜皮的事儿
+sensory_mapping: 视觉；轻重；触觉；日常杂物；价值判断
+context_fact: 大史把电影投资、征文和邪教活动等边缘现象也列入共同模式。
+image_mechanism: 新闻重要性被换算成可扫除的重量，事件缩成地面上的毛和薄皮；侦查动作则是弯腰把别人扫掉的碎屑重新捡回证据桌。
+property_alignment: 事件单件规模小对应残屑微小；看似价值低对应厨余杂物被丢弃；数量零散对应毛皮四处分布；纳入调查后可能有用对应被忽略残物重新收集
+context_alignment: 大史的生活化粗口把抽象情报分级落到厨房尺度，也强调他专看专家忽略的小事。
+narrative_function: 拓宽调查证据面，显示微小异常也可能属于整体行动。
+transfer_rule: 用生活残屑写琐事时，应交代谁按何标准丢弃、残屑怎样分散、重新收集后能提供什么关系证据。
+failure_boundary: 小事件仍可能伤害具体个体，不能因“鸡毛蒜皮”否认其价值；若它与主线无可验证联系，捡回也不会成为证据。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 表面琐碎、单独看不值得重视的异常社会事件
+vehicle: 鸡毛和蒜皮这类轻小、零散、通常被清扫丢弃的生活残屑
+ground: 事件单件规模小对应残屑微小；看似价值低对应厨余杂物被丢弃；数量零散对应毛皮四处分布；纳入调查后可能有用对应被忽略残物重新收集

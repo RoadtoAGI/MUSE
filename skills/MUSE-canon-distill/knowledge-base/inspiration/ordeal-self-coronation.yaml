@@ -1,0 +1,25 @@
+card_id: ordeal-self-coronation
+pattern_name: 走入火中的加冕
+dramatic_function: 被交易的弱者以自毁式公开仪式完成权力自授；不可逆微步骤递进使极端行动可信，奇迹替代说服让臣服一步到位
+applicability: 需前置铺垫主角与奇迹媒介的亲缘信号，拒绝与跪拜须同人同序对位；无铺垫即沦为天降神力（单书孤证，验证面窄）
+reuse_candidates:
+- 龙蛋孵化与火免疫的具体设定
+- 多斯拉克火葬与血盟卫习俗
+tags:
+- 成长弧光
+- 仪式
+- 权力确立
+source_scenes:
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_05
+  note: 婚礼上获龙蛋与银马，被交易者首次尝到自主
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_12
+  note: 吃马心仪式当众通过考验，赢得部族承认
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_20
+  note: 火葬台自加冕，三次拒绝在奇迹后翻转为三次跪拜
+phase_affinity:
+- 2
+- 3
+- 4

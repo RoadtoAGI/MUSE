@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-092fdecd20c5f4b7f209626b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1858
+chapter: 第24章 红岸之六
+figure_type: simile
+quote: 这条起伏的细线像是有了灵魂
+sensory_mapping: 视觉细线；生命苏醒；内在光亮；有意运动；不可见精神
+context_fact: 她极熟悉宇宙噪声，肉眼察觉异常后，计算机给出连续五个A级识别度，证明使用红岸语言。
+image_mechanism: 沙漠般曲线原只机械起伏，某一刻内部仿佛点亮不可见意识，每次波峰开始像有意选择而非风吹沙粒；生命以结构而非外形现身。
+property_alignment: 噪声曲线对应无生命身体；智能编码对应灵魂；波形规律变化对应有意动作；肉眼难说明对应灵魂不可直接见；五个A对应生命迹象被仪器确认
+context_alignment: 紧接“无规律无生命”的宇宙抽象，同一条线获得灵魂，完成从宇宙荒凉到发现邻居的瞬间翻转。
+narrative_function: 在仪器判别前先让专家直觉捕捉智能，使技术发现具有生命降临感。
+transfer_rule: 让数据“有灵魂”时，应呈现从随机到有目的结构的可验证差异，并让后续证据确认直觉。
+failure_boundary: 异常来自噪声偶然波动、设备故障或观察者投射，且没有统计验证时，灵魂意象会过早人格化数据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 原本随机的电波曲线出现细微但可感的智能调制和目的性结构
+vehicle: 无生命躯体突然获得灵魂，从机械运动转为有意志、有意义的生命表现
+ground: 波形由随机变为携带信息对应身体从无意识到有思想；叶文洁感到不可言说差异对应灵魂不能直接看见却能从行为辨认

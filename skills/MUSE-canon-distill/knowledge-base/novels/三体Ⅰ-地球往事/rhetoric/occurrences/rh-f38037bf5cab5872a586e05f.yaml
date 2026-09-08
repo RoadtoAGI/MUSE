@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f38037bf5cab5872a586e05f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1322
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 在复杂的人际关系中处于半睡眠状态
+sensory_mapping: 意识清醒度；身体迟缓；感知模糊
+context_fact: 魏成数学直觉极强，却除了数学什么都不会，在学校教学和社会关系中不断失败。
+image_mechanism: 社会场景正常运转，而他的意识灯只亮一半；别人清楚读取暗示并行动，他像刚醒者隔着困意迟到地回应。
+property_alignment: 社交投入低对应清醒程度低；反应慢对应半睡动作迟缓；无法理解复杂关系对应困倦感知模糊；仍能勉强混日子对应并未完全睡死
+context_alignment: 与他处理数学时“全功率转动”形成准确功率反差，显示能力不是普遍低下而是选择性唤醒。
+narrative_function: 具象化魏成的社会失能，并解释他为何愿意躲进寺庙和研究。
+transfer_rule: 用睡眠程度写参与度时，应标出哪些感知和行动仍工作、哪些变迟缓，并用另一种完全清醒状态作对照。
+failure_boundary: 人物社交判断准确但选择沉默，或因外部压制无法行动时，半睡眠会误写能力与主观状态。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 魏成面对社会交往时反应迟缓、投入极低且难以主动处理关系
+vehicle: 人尚未完全清醒，感知和行动系统只部分工作
+ground: 对社交信号反应迟钝对应半睡者感知模糊；能勉强生活却不主动经营对应身体醒一半仍低效行动

@@ -1,0 +1,32 @@
+card_id: safety-systems-turned-cage
+pattern_name: 安全设施反牢笼
+dramatic_function: 让隔离、防火与门禁设施的失效条件或控制权转移改变阵营，把保护能力变成困境。
+applicability: 适合出入权、远程控制与空间分割已建立的封闭场景；开放地形缺乏机制支撑（单书孤证，验证面窄）
+reuse_candidates:
+- 高抗压玻璃屏障
+- 可远程开启的门禁
+- 自动闭合的防火门
+- 下降封路的黑钢板
+- 被漏关的防护门
+tags:
+- 空间反转
+- 门禁控制
+- 设施反噬
+- 封闭逃生
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: DT-S05
+  note: 高抗压玻璃先隔绝徒手攻击，感染者获取合金锤后即把屏障转成压缩逃跑时间的倒计时。
+- novel: 狂病-莫千回
+  scene_id: JB-S11
+  note: 副院长远程打开安保拼死关上的隔离门，原有保护权被改造成危险投放权。
+- novel: 狂病-莫千回
+  scene_id: JB-S12
+  note: 防火门与下降钢板先后切断返路，逼出一人留在对侧破坏控制面板的必死选择。
+- novel: 狂病-莫千回
+  scene_id: HJ-S11
+  note: 王家乐开启多层防护门，将大厦的分区隔离系统反用为感染者攻入通道。
+phase_affinity:
+- 1
+- 4
+- 5

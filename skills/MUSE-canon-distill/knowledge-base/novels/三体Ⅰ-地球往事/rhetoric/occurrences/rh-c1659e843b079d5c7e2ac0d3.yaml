@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c1659e843b079d5c7e2ac0d3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L59
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 鱼冻硬后，背上的那排刺就跟一把快刀似的
+sensory_mapping: 触觉；动作；视觉
+context_fact: 史强以经办案件说明普通物件也可成为凶器。
+image_mechanism: 冻结这一状态变化先把柔软鱼体转成硬质工具，再以刀刃补足背刺的锐度和划切后果，让怪异凶器可被触觉预演。
+property_alignment: 冻结背刺的坚硬尖锐对应刀刃硬度和锐度；背刺划过人体造成切伤对应快刀接触后的破坏
+context_alignment: 刀具喻体来自刑警处理伤口和凶器的经验，符合史强口吻。
+narrative_function: 把话题从高科技拉回犯罪现场，刻画职业直觉。
+transfer_rule: 写物件临时变成工具时，应把造成性能变化的条件、接触部位和实际后果一并对应，而不只比较轮廓。
+failure_boundary: 鱼未冻结、背刺只用于刺穿或没有发生划切时，快刀的连续刃口和切割机制便不成立。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 冻硬罗非鱼背鳍的切割能力
+vehicle: 一把锋利的刀
+ground: 冻结背刺的坚硬尖锐对应刀刃硬度和锐度；背刺划过人体造成切伤对应快刀接触后的破坏

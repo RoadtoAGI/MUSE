@@ -1,0 +1,28 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:精神病院--tang-ke
+work_id: novel:狂病-莫千回
+display_name: 唐科
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '唐科清醒后的声音是磕巴起步、越说越流畅的实在话——初见时"之前有什么得罪，还望兄弟大人有大量"带着卑微的客气，相处下来会冒出被李亚伟"传染"的脏话（"妈的"）。他不擅长华丽表达，靠朴素的鼓励和行动说话（"咱都这么大的人了，既然打算放手去做就做，别退缩"）。临终前回忆往事时却忽然滔滔不绝，平静地讲遗憾、讲愿望、讲那几个有趣的病友，把一生的话在最后一夜说尽。
+
+
+    - 来源：phase2_character.yaml → voice_traits
+
+    - 佐证：scenes/scene_JB-S07.md:L9-L9（磕巴的"之前有什么得罪，还望兄弟大人有大量"——卑微客气的起步）
+
+    - 佐证：scenes/scene_JB-S07.md:L19-L19（被传染般骂出"妈的"、感叹"留在这儿得死，出去八成也是死"）
+
+    - 佐证：scenes/scene_JB-S13.md:L19-L19（临终一夜滔滔不绝讲过去、讲遗憾、讲愿望、讲耿小桃和李亚伟"都是很有趣的人"）'
+  evidence_locators:
+  - scenes/scene_JB-S07.md:L9-L9
+  - scenes/scene_JB-S07.md:L19-L19
+  - scenes/scene_JB-S13.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

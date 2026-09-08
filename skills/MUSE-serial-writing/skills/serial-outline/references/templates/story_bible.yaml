@@ -1,0 +1,18 @@
+# series/story_bible.yaml —— 总纲；新工作区先留空，按本作已确认设计填入
+schema_version: 1
+frozen:                                    # 确认后的修改走 frozen_amendment
+  premise: null                            # 人物在何种情境中追求什么
+  protagonist_want_need: null               # 已定自觉追求；有依据且确有冲突时补不自觉欲望
+  world_ceiling: null                       # 已确认的世界范围、基本规则与上限；未揭示部分不补造
+  power_system_pyramid: null                # 题材确有力量/地位分级时填写
+  spine_direction: null                     # 已定主线方向与终点意象，具体结局可待展开
+  creative_anchors:
+    title: null
+    core_value: null                        # 本作关注的价值及其变化
+    primary_drive: null                     # desire | information | motif | mix；项目设计选项
+    controlling_idea: null                  # 已确认的表达方向；价值如何及因何变化
+    unique_angle: null                      # mix 时说明组成驱动及关系
+    style_directives: null
+intent:                                    # 当前方向与未决问题，随创作推进更新
+  current_thrust: null                      # 作者给定或授权自决的近期方向
+  open_questions: []                        # 未定主控思想、未来方向与待补来源分别保留问题

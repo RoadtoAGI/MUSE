@@ -1,0 +1,25 @@
+card_id: body-as-deadman-switch
+pattern_name: 以身为锁的威慑
+dramatic_function: 解决弱方与碾压级强敌如何谈判：把不可对抗的力量差转化为单点同归于尽机制，文明级高潮浓缩为一人一念一开关
+applicability: 须先让双方共同认可一条法则（如暴露即死）并经叙事论证；强敌能瞬时夺取开关或法则未提前铺设则崩塌（单书孤证，验证面窄）
+reuse_candidates:
+- 核弹链与太阳灯塔的具体机制
+- 墓地谈判场景
+- 生命体征监测仪道具
+tags:
+- 威慑
+- 高潮设计
+- 恐怖平衡
+source_scenes:
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S12
+  note: 黑暗森林法则在烟头问答中完成全部论证
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S13
+  note: 病人扶碑以条件清单完成文明级谈判
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S07
+  note: 冰湖顿悟埋下法则认知，威慑由此可信
+phase_affinity:
+- 3
+- 4

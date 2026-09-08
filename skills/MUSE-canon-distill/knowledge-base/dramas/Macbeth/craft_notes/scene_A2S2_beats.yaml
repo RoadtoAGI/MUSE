@@ -1,0 +1,49 @@
+scene_id: A2S2
+source_notes: scene_A2S2_beats.md
+patterns:
+- pattern_id: A2S2-p1
+  beat: 台上听声同步幕后
+  dimension: blocking
+  original_move: 弑君全程幕后，台上妻子靠枭啼谵语开门声推断行凶进度
+  ai_default_failure: 正面描写谋杀过程
+  transfer_rule: 核心暴力可全程画外，给台上人一双耳朵即可
+  quote: It was the owl that shrieked
+- pattern_id: A2S2-p2
+  beat: 单字接力恐慌对答
+  dimension: exchange
+  original_move: 对白拆到半行一换，单字接力，共享诗行等于共享心跳
+  ai_default_failure: 写成完整句子的对答
+  transfer_rule: 恐慌密度用台词长度写：越碎越快越怕
+  quote: Did not you speak? When? Now
+- pattern_id: A2S2-p3
+  beat: 罪行翻译成诅咒
+  dimension: monologue
+  original_move: 幻听宣判弑杀睡眠，罪的代价具体化为夜夜可感的剥夺
+  ai_default_failure: 写长段道德忏悔
+  transfer_rule: 罪感落在一件日常事物上，代价可被反复兑现
+  quote: Macbeth does murder sleep
+- pattern_id: A2S2-p4
+  beat: 夺刀完成权力对调
+  dimension: blocking
+  original_move: 他拒送匕首回凶房，她夺刀亲赴，勇怯当场换位不点破
+  ai_default_failure: 维持男强女弱的默认配置
+  transfer_rule: 设计双方都可执行的动作任务，由谁执行写关系
+  quote: Give me the daggers
+- pattern_id: A2S2-p5
+  beat: 血手两种语义
+  dimension: exchange
+  original_move: 同一血手他读成大海洗不净，她读成一点水了账
+  ai_default_failure: 让夫妻同调忏悔或同调冷酷
+  transfer_rule: 用同物异读测量两人灵魂距离，预埋各自结局
+  quote: A little water clears us
+- pattern_id: A2S2-p6
+  beat: 敲门声钉进公共时间
+  dimension: transition
+  original_move: 画外敲门一记紧过一记，跨场延续到看门人戏缝合两场
+  ai_default_failure: 让夫妻从容收场再接下场
+  transfer_rule: 用画外声制造跨场连续性，恐慌获得物理节拍
+  quote: Wake Duncan with thy knocking!
+overall_traits:
+- 全场建立在听觉上：枭啼谵语敲门构成声音蒙太奇
+- 诗行切分即心理节奏，碎句段是全剧最快拍子
+- 匕首一来一回完成罪的交接与权力对调

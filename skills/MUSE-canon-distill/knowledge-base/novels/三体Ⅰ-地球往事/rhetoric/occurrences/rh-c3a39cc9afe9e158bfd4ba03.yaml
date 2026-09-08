@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c3a39cc9afe9e158bfd4ba03
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2213
+chapter: 第31章 两个质子
+figure_type: metaphor
+quote: 在三体文明眼中，我们可能连野蛮人都算不上，只是一堆虫子
+sensory_mapping: 地面虫群；微小身体；俯视；随手碾压；密集蠕动
+context_fact: 叶文洁不知道质子如何锁死科学，只知道三体人对人类的等级判断极端低下。
+image_mechanism: 文明尺度被上下翻转，地球社会缩到三体视野脚下成为虫堆；人类自豪的科学在更高维控制前只相当于虫群行为。
+property_alignment: 人类个体对应小虫；七十亿人口对应虫堆；低维技术对应简单行为；三体俯视对应人类俯看虫群；不沟通对应物种隔绝；入侵消灭对应灭虫
+context_alignment: 本章首次提出虫子命名，结尾麦田将用真实虫灾反转该贬称，必须保留此处起点。
+narrative_function: 建立文明等级羞辱和全书末段核心意象，为人类绝望与反击同时埋伏。
+transfer_rule: 用虫子写文明差距时，应对应观察尺度、技术能力、沟通不对等和消灭关系，并警惕数量韧性可能反转评价。
+failure_boundary: 双方技术接近、能平等谈判，或低等一方已有伤及高等方的可靠能力时，虫子不能概括全部关系。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明认为人类技术层级、认知能力和可对话地位极低，可被随意观察和清除
+vehicle: 数量众多却个体微小、认知简单、在人看来不具平等沟通资格的一堆虫子
+ground: 技术差距对应人虫能力差；人类群体对应虫群；三体蔑视对应人不与虫平等；可被消灭对应灭虫行动

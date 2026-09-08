@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-29668a4311d43e1bd3c89455
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2645
+chapter: 第35章 虫子
+figure_type: metaphor
+quote: 宏原子的发现能给物理学带来突破
+sensory_mapping: 坚硬壁垒；冲击点；裂口；穿越阻挡；墙后新空间
+context_fact: 丁仪随后否定这一期待，因为低维展开丢失高级结构信息，基础研究仍离不开被智子控制的加速器。
+image_mechanism: 物理学前沿被竖成挡路墙面，宏原子一度像能在墙上撞开入口；可逆信息已经丢失，实际留下的只是不能通行的碎痕。
+property_alignment: 知识边界对应墙体；理论难题对应阻挡；宏原子发现对应撞击工具；可用结构信息对应破口；新理论领域对应墙后空间；信息丢失对应未能穿透
+context_alignment: ‘曾以为能突破’在本章立即被反证，壁垒图既表现旧希望，也让不可逆展开的局限清楚可见。
+narrative_function: 概括宏原子研究从希望到死路的变化，衔接加速器不可替代的解释。
+transfer_rule: 用突破写知识进展时，应明确当前壁垒、产生冲击的新证据、真正形成的通道和进入的新问题域。
+failure_boundary: 发现只增加同一框架内的数据、没有越过关键限制，或新证据本身不可解释时，称突破会把局部增量夸成穿墙。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 丁仪曾期待宏原子研究能越过既有理论限制，让基础物理进入新的知识层级
+vehicle: 受阻者蓄力冲破封闭墙面或敌方防线，从狭小一侧进入尚未抵达的开阔区域
+ground: 既有理论限制对应壁垒；新发现对应冲击力量；理解新结构对应破口；学科进入新阶段对应穿越防线

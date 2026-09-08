@@ -1,0 +1,56 @@
+scene_id: A3S4
+source_notes: scene_A3S4_beats.md
+patterns:
+- pattern_id: A3S4-p1
+  beat: 座次仪式立基线
+  dimension: blocking
+  original_move: 按爵位就座的开场与场末乱序散席形成精确对称
+  ai_default_failure: 直接进鬼魂戏省略宴仪
+  transfer_rule: 要写崩坏先立基线，仪式是最便宜的基线
+  quote: You know your own degrees
+- pattern_id: A3S4-p2
+  beat: 席间门口两点往返
+  dimension: blocking
+  original_move: 主人在王座与门口刺客间往返，国王腔与雇凶腔数步切换
+  ai_default_failure: 切成宴会、密报两场戏
+  transfer_rule: 一个角色两副声口，给两个舞台点位轮流触发
+  quote: There's blood upon thy face
+- pattern_id: A3S4-p3
+  beat: 沉默鬼魂占座
+  dimension: blocking
+  original_move: 鬼魂不语只占王位，仅一人可见，威胁纯空间化
+  ai_default_failure: 让鬼魂开口控诉索命
+  transfer_rule: 幽灵的威胁可以纯空间化：坐错位置即宣判
+  quote: The table's full
+- pattern_id: A3S4-p4
+  beat: 妻子双线找补
+  dimension: exchange
+  original_move: 一边低声斥夫一边向宾客谎称旧疾，双线不同步生张力
+  ai_default_failure: 让妻子同样见鬼惊慌
+  transfer_rule: 失控场配一个打理表象的角色，崩塌有参照系
+  quote: my lord is often thus
+- pattern_id: A3S4-p5
+  beat: 亲手召回恐怖
+  dimension: exchange
+  original_move: 敬酒点名怀念班柯，鬼应声再现，伪装台词引爆自己
+  ai_default_failure: 鬼魂只出现一次
+  transfer_rule: 重复恐怖须升级触发方式：由外加变为自招
+  quote: to our dear friend Banquo
+- pattern_id: A3S4-p6
+  beat: 乱序散席
+  dimension: transition
+  original_move: 免礼速退反转开场座次，全场弧光由两句仪式台词钉死
+  ai_default_failure: 以宾客窃窃私语淡出收场
+  transfer_rule: 用同一仪式的正反两用丈量崩坏，结构即意义
+  quote: Stand not upon the order
+- pattern_id: A3S4-p7
+  beat: 收在变硬不变软
+  dimension: overall
+  original_move: 崩溃后宣布血路过半唯有前行，恐惧折算成继续杀人的理由
+  ai_default_failure: 以悔恨或相拥而泣收场
+  transfer_rule: 恐怖之后让人物变得更狠，下行弧才不可逆
+  quote: in blood stepped in so far
+overall_traits:
+- 全场是双频广播：宴会频道与谋杀频道实时切换
+- 恐怖全长在公开场合，无私密空间可退
+- 仪式台词首尾对称，秩序立与塌同用一套词汇

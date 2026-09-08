@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a4d11044c89901b2010488ab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2149
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 人类文明，终于在自己的内部孕育出了强大的异化力量
+sensory_mapping: 母体内部；胚胎发育；分娩；异形后代；反噬
+context_fact: 知识精英能站在人类之外思考，三体组织主要由高级知识和权力阶层成员组成。
+image_mechanism: 文明缺陷不再只造成外伤，而在体内提供养分，让反人类力量像胎儿逐渐成形；出生之物携带母体资源，却把母体视为对象。
+property_alignment: 人类社会对应母体；文明缺陷对应孕育环境；精英思想对应胚胎细胞；组织扩张对应发育；ETO独立行动对应出生；帮助毁灭人类对应异化反噬
+context_alignment: 上一章称运动有诞生日，此处倒推其真正母体是人类文明自身，强调敌人并非单由外星输入。
+narrative_function: 把叛军成因从个体邪恶转为文明内部生成机制，突出自我毁灭主题。
+transfer_rule: 用孕育写内部威胁时，应说明母体、养分、发育时间、出生断点和后代为何异化反噬。
+failure_boundary: 组织完全由外部强制植入、成员与人类制度无关，或没有长期内部成长过程时，孕育会错误归因。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类制度缺陷和精英绝望在社会内部产生了背叛本物种、帮助外星入侵的ETO力量
+vehicle: 母体在体内长期孕育一个胚胎，成熟后生出具有独立力量甚至可能伤害母体的新生命
+ground: ETO来自人类社会内部对应胎儿源于母体；思想长期积累对应孕育；组织壮大对应胚胎成长；反噬人类对应异化后代伤母

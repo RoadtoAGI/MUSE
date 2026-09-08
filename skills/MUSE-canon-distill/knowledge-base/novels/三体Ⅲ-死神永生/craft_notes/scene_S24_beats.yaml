@@ -1,0 +1,28 @@
+scene_id: S24
+source_notes: scene_S24_beats.md
+patterns:
+- pattern_id: S24-p1
+  beat: 纸条
+  dimension: info_density
+  original_move: 期待巨舰得一纸条，尺寸精确到毫米制造荒诞
+  ai_default_failure: 一开始就渲染危险并写众人哗然
+  transfer_rule: 威胁可先给安全感再摧毁，精确度即荒诞感
+  quote: 一张小纸条。
+- pattern_id: S24-p2
+  beat: 丁仪沙漠噩梦
+  dimension: overall
+  original_move: 梦境无标记滑入，疯喊的概念在现实被冷答兑现
+  ai_default_failure: 用「他做了个梦」明确标记梦境边界
+  transfer_rule: 梦可作结构伏笔预演核心概念，声调对位现实
+  quote: 你怎么不算算逃逸速度？
+- pattern_id: S24-p3
+  beat: 光速
+  dimension: omission
+  original_move: 重复提问与拖延蓄满悬念，判决一词释放零反应
+  ai_default_failure: 答后写控制室死寂与众人绝望
+  transfer_rule: 信息爆炸点配最短回答，反应换成技术事实
+  quote: 光速。
+overall_traits:
+- 三次期望颠覆，在最安心处制造最大恐惧
+- 梦境是伏笔不是气氛，预演核心概念
+- 一个词的死刑宣判，悬念靠拖延建立

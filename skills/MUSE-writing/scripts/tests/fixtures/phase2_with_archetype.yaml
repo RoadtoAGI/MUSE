@@ -1,0 +1,18 @@
+# Rn+3 P4 测试夹具：含 canon_archetype 字段的 phase2
+protagonist:
+  display_name: "主角"
+  desire_system:
+    conscious_desire: "..."
+    unconscious_need: "..."
+  canon_archetype:
+    - id: INS-A01
+      weight: dominant
+
+deuteragonist:
+  display_name: "守护者"
+  canon_archetype:
+    - id: INS-A02
+      weight: dominant
+    - id: INS-A03
+      weight: secondary
+      merge_boundary: "只学语言节奏，不学人生轨迹"

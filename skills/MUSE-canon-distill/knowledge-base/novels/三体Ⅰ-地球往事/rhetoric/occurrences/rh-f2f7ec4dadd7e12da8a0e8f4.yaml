@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f2f7ec4dadd7e12da8a0e8f4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L552
+chapter: 第5章 叶文洁
+figure_type: metaphor
+quote: 汪淼的心中涌起一股暖流
+sensory_mapping: 温度；触觉；流动；身体内部；心理
+context_fact: 叶文洁把保存多年的木盒交给汪淼，他双眼湿润并承诺再来。
+image_mechanism: 无形感动先获得体温，再从胸腔内部形成向上向外的流动；“涌”让情绪不是静态温暖，而是超过控制阈值的一次扩散。
+property_alignment: 情绪突然出现对应水流涌起；安慰带来身体暖感对应水温温热；感动遍及身心对应流体向周围扩散
+context_alignment: 双眼湿润为流体意象提供身体结果，紧接的天鹅绒又把同一舒缓转为承托触感。
+narrative_function: 标出人物从戒备到感动的生理化转折。
+transfer_rule: 用暖流写情感时，应指定温度来源、涌起位置和扩散速度，让情绪变化在身体内有可追踪路径。
+failure_boundary: 冷静认可、短促兴奋或仅有礼貌回应没有持续暖感与内部扩散，使用暖流会预设亲密感。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 叶文洁的温情使汪淼突然产生的感动与安慰
+vehicle: 一股有温度的水流从身体内部涌起并扩散
+ground: 情绪突然出现对应水流涌起；安慰带来身体暖感对应水温温热；感动遍及身心对应流体向周围扩散

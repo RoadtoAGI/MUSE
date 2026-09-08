@@ -1,0 +1,30 @@
+mode: reference
+display_name: 陶亦仁
+role_slug: tao-yiren
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/51人/phase3_spine.yaml
+  - pipeline/51人/phase5_scenes.yaml
+  - scenes/scene_51-S03.md
+  - scenes/scene_51-S04.md
+  - scenes/scene_51-S05.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 11
+has_canon_ending: true
+canonical_package: characters/tao-yiren/   # 同一人物的跨篇主包（18 locator，跨 51人/不详/黄金国，含李鸾第二人格真相）。本包为 51人 篇内特化原型。
+reconciliation_note: |
+  撞包说明：陶亦仁是跨篇人物，根级 characters/tao-yiren/ 已有完整跨篇主包（经 identity_link 关联李鸾 li-luan 的"第二人格"真相）。
+  本包（51人/tao-yiren）按用户 shi-haoyang 先例保留为【51人 篇内特化原型】——只取读者在 51人 现场看到的"死亡奔赴邪教感召者领袖"facet，
+  刻意不并入李鸾第二人格设定，供二创单独复用"末日死亡崇拜教主"原型，构成 two-package + identity_link 关系。
+  取用规则：要全人格/双人格统一体研究用根级 tao-yiren（+ li-luan）；只要 51人 现场"教主"切面原型用本包。两包描述同一人，不得在同一作品里当两个角色并存。
+coverage_note: |
+  "陶亦仁型"死亡奔赴邪教感召者原型（human_antagonist_typology），系列跨篇组织资产（创世军）的源头领袖：
+  - 声音框架：跨 S03 / S04，覆盖"格言式赴死感召（天上烟花）+ 留选择口的命令 + 本人寡言靠追随者神化转述"。
+  - 性格真相：S04 神明传闻 + 考验拿捏冷酷与仁慈的平衡，S05 被撕食时"惨叫/大叫/笑"，裂隙有压力情境佐证。
+  - 弧光：起点（S03 风暴式登场）+ 终点（S04 被神化到 51 人顶点）+ 转折（S05 神格祛魅）三段齐全。
+  - 边界：S03 否定"活着只为活着"、S04 无名编号制、S04 主动山林围歼均为信念兑现的检验场景。
+  取证纪律说明：本篇陶亦仁几乎不直接出场，神格（一人杀七八感染者沾血不染 / 吓跑感染者群）全为传闻态，已按原文标"据说 / 有人说"承担，未当作既成事实外推（S04 L21-L23）；其感召话术与建制细节有直接 locator。
+  跨篇说明：phase0 human_antagonist_typology 记陶亦仁 = 李鸾第二人格（《不详》人格起源），本篇仅以"陶亦仁"在场身份蒸馏，不并入第二人格设定；创世军组织 + "追杀罗允"命令为系列跨篇钩。
+  has_canon_ending=true：已回 scene 原文（scene_51-S05.md L3-L7）核对——陶亦仁被感染的创世军同伴撕成米黄色骸骨，属不可逆物理终局；另遗留"追杀罗允"命令（S07 L9）。弧光本体仅描内在感召-神化-祛魅轨迹，物理终局隔离到 references/canon-ending.md。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-42f65e73cb1992835864fdab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L654
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 在这寒冷无际的草原和森林间，燃烧是无意义的，一腔热血喷出来，比一堆牛粪凉得更快，还不如后者有使用价值。但燃烧是他们的命运，他们是燃烧的一代。
+sensory_mapping: 温度；火焰；血液；冷却；消耗；时间
+context_fact: 战争并未到来，知青只能在寒冷草原森林中垦荒、放牧和砍伐。
+image_mechanism: 青春先作为热血喷出，在无际寒冷中瞬间失温，连牛粪燃料都不如；叙述随后仍把整代人判定为火源，热量无法照亮目标，只沿油锯路径烧空林海。
+property_alignment: 政治激情对应燃烧放热；青春与生命被消耗对应燃料烧尽；宏大环境吸走热量对应严寒使热血速冷；持续投身运动对应一代人无法停止燃烧；砍伐垦荒对应火势吞噬周围
+context_alignment: 草原真实低温、革命“热血”套语和随后生态毁坏共同支撑火的温度、燃料与破坏三层。
+narrative_function: 反转革命青春的自我神话，写出热情无目标时对自身与自然的双重消耗。
+transfer_rule: 延展燃烧写一代人时，应追踪燃料来自哪里、环境如何吸热、热量有无做功、余火又烧到什么对象。
+failure_boundary: 激情形成长期建设成果、环境能保存并转化能量或个体可自由退出时，徒然燃尽的模型会抹除有效行动与差异。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 兵团知青被革命激情驱动、迅速耗尽青春并转而破坏环境的代际命运
+vehicle: 一团在严寒中迅速散热、燃料白白耗尽却仍被迫继续燃烧的火
+ground: 政治激情对应燃烧放热；青春与生命被消耗对应燃料烧尽；宏大环境吸走热量对应严寒使热血速冷；持续投身运动对应一代人无法停止燃烧；砍伐垦荒对应火势吞噬周围

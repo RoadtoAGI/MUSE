@@ -1,0 +1,67 @@
+# Rn+3 P1 smoke fixture — 手工写的 ledger 测试夹具
+# 用于 P1 batch acceptance：证明 INS-* 能从 phase2/3/5 走到 phase6 和 review
+inspirations:
+  - id: INS-001
+    type: pattern
+    status: bound
+    source:
+      work: "三体Ⅲ-死神永生"
+      kb_id: "novel:three-body-3"
+      pattern_name: "scale_shrink"
+      learned_mechanism: "宇宙级命题最终落到小物件 / 小动作"
+      verified_by: "design-doc-reference@0.3.0"
+    abstraction:
+      what_to_learn: "尺度收缩"
+    fit_signal:
+      - "末世题材 + 文明级危机"
+    project_encoding:
+      - phase: 1
+        field_path: "world_rules[2]"
+        adoption_kind: "world_rule"
+        design_value: "宏大灾变的局部后果必须能落到家庭器物"
+      - phase: 5
+        field_path: "scenes[S12].inspiration_refs"
+        adoption_kind: "scene_carrier"
+        scene_id: "S12"
+    disclosure_ladder:
+      - layer: early_signal
+        scene_id: "S03"
+        carrier: "儿童夜灯"
+        reader_inference: "物件与家庭安全感有关，价值未解释"
+        do_not_explain:
+          - "不说它象征文明"
+      - layer: mid_reframe
+        scene_id: "S08"
+        carrier: "夜灯电池"
+        reader_inference: "物件进入资源稀缺逻辑"
+        do_not_explain:
+          - "不把主题总结出来"
+      - layer: final_confirmation
+        scene_id: "S12"
+        carrier: "是否点亮夜灯的动作"
+        reader_inference: "宏大危机被压缩为家庭选择"
+        do_not_explain:
+          - "不扩张到星河 / 黎明 / 全人类"
+
+  - id: INS-A01
+    type: archetype
+    status: bound
+    archetype_role: protagonist
+    archetype_target_slug: "main"
+    weight: dominant
+    source:
+      work: "斯通纳"
+      kb_id: "novel:stoner"
+      character: "威廉·斯通纳"
+      canon_path: "characters/威廉·斯通纳.md"
+      register: "表达力弱但感受力强的主角"
+      verified_by: "design-doc-reference@0.3.0"
+    abstraction:
+      what_to_learn: "极简对白 + 内心独白缺失 + 外部行为推断内心"
+    fit_signal:
+      - "register: 表达力弱但感受力强"
+    project_encoding:
+      - phase: 2
+        field_path: "protagonist.voice_traits"
+        adoption_kind: "voice_anchor"
+        design_value: "极简短句 + 沉默承载情感"

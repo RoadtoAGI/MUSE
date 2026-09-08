@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a3d635945ca6452adf766cb8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L362-L364
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 那是因为我还没有绕到那个可耻魔术师的背后
+sensory_mapping: 视觉；空间；表演；认知
+context_fact: 汪淼拒绝超自然解释并挑战对方扩大显示尺度。
+image_mechanism: 世界被临时划成观众席、表演面和后台；汪淼把无法解释重新定位为尚未走到机关所在位置，从而恢复理性行动方向。
+property_alignment: 现象看似超自然但被假定有技术机制对应魔术靠机关；寻找机制对应绕到舞台背后观察操作；对方控制呈现尺度对应魔术师控制观众所见
+context_alignment: 倒计时专向观察者展示，舞台结构准确承载被设计的视觉效果。
+narrative_function: 表现技术理性抵抗恐惧，也引出宇宙级演示。
+transfer_rule: 写“看似超常但相信有机制”时，应提供表象、操作者、隐藏装置和揭示路径四个位置，让怀疑变成可行动模型。
+failure_boundary: 若现象没有面向观察者的展示性，或证据已排除隐藏操作者，魔术后台会把未知强行解释成骗局。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 制造倒计时和大尺度异象的未知主体及隐藏机制
+vehicle: 用障眼法欺骗观众、机关藏在舞台背后的魔术师
+ground: 现象看似超自然但被假定有技术机制对应魔术靠机关；寻找机制对应绕到舞台背后观察操作；对方控制呈现尺度对应魔术师控制观众所见

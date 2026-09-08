@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-854611bf6dc4a6d2278bfd5e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L938
+chapter: 第11章 大史
+figure_type: analogy
+quote: 干我们这行的，其实就是把好多看上去不相关的事串联起来，串对了，真相就出来了
+sensory_mapping: 视觉；手部动作；线性结构；排列；推理
+context_fact: 大史准备把科研犯罪、学者自杀、环保活动、电影和邪教等异类现象放在一起解释。
+image_mechanism: 事件从抽象新闻变成散落桌面的硬件，侦查关系则是一根能穿孔的线；每次选择连接都改变排列，正确闭合时“真相”以整体轮廓出现。
+property_alignment: 孤立案件对应散落单件；寻找共同关系对应用线穿连；关系判断有对错对应穿法可正确或错误；整体模式显现对应串成后看见成品；遗漏事件对应珠件未上线
+context_alignment: 大史接下来逐项报事件，口语“串”提供一种不依赖抽象理论的操作型推理模型，符合警察身份。
+narrative_function: 交代大史的方法论，并为隐藏共同敌人的结论组织证据。
+transfer_rule: 用穿线解释归因时，应明确单件、可验证的连接孔、排列对错和成品形状，同时允许错串被证据拆除。
+failure_boundary: 共现不等于因果；若事件由多个独立机制产生或连接只靠主题相似，串线会制造虚假单一真相。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 刑侦人员从分散事件中找出真实关系并形成整体解释
+vehicle: 把散落物件按正确次序穿到同一根线上，完整形状随连接显现
+ground: 孤立案件对应散落单件；寻找共同关系对应用线穿连；关系判断有对错对应穿法可正确或错误；整体模式显现对应串成后看见成品；遗漏事件对应珠件未上线

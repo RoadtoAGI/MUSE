@@ -1,0 +1,28 @@
+scene_id: DT-S10
+source_notes: scene_DT-S10_beats.md
+patterns:
+  - pattern_id: DT-S10-p1
+    beat: 观察推出试验
+    dimension: info_density
+    original_move: 把既有遭遇组织成气味、空气与体液假说
+    ai_default_failure: 由旁白直接宣布感染规则和正确方案
+    transfer_rule: 生存知识由角色观察形成，并保留验证边界
+    quote: 用来分辨同类的就是气味
+  - pattern_id: DT-S10-p2
+    beat: 结果反证试验
+    dimension: omission
+    original_move: 省略试验与转化，以群聊、笑声和人头交付结果
+    ai_default_failure: 连续写完涂血、感染发作和杀人全过程
+    transfer_rule: 关键转化可用信息断面与完成态后果揭示
+    quote: 你们同伴把另外一个给杀了
+overall_traits:
+  - 世界规则由观察和冒险试验进入剧情
+  - 铁门建立可见与未知空间边界
+  - 完成态物证从结果交付反转
+narrative_organization:
+  presentation: 风井口出口先失效，连续观察和推理建立涂血方案；关门后省略试验、感染发生和刘敏遇害，由群消息、笑声、人头和医生式威胁交付结果
+  transition_anchor: 铁门、联系人“老爹”、群聊震动、楼梯背影和滚落人头
+  knowledge_change: 小队把气味、空气与体液判断视为可试验假说；结果只确认杨和修再次出现时已呈感染状态，假说真伪、感染时点与途径仍未知
+  cross_thread_effect: 父亲暗线增加杨和修独自承担试验的动机；试验后的刘敏死亡、陆霞克伤残和杨和修追猎重写逃生线的人员、移动能力与安全关系
+  effect: 压力从出口破灭转入理性希望，再由门后未知坠为内部猎杀；人物与读者从后果倒推未呈现的变化
+  source_anchor: 地铁.md:267-347

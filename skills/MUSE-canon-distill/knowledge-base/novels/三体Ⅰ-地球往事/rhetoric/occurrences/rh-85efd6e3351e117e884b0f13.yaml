@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-85efd6e3351e117e884b0f13
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2513
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 一阵巨大的恐怖感席卷整个三体世界
+sensory_mapping: 巨浪横扫；强风压境；全球覆盖；身体失稳；瞬时推进
+context_fact: 高维质子三维展开失控，肢体内脏般结构中出现大量正凝视行星的眼睛。
+image_mechanism: 认出眼睛的一刻像风暴中心生成，恐怖不需语言解释便沿共同视觉横扫各处；个体镇静被卷走，只剩元首等少数站稳。
+property_alignment: 眼睛辨认对应风暴起点；大众视觉同步对应传播介质；恐惧强烈对应巨浪高度；全球观看对应席卷范围；多数失镇定对应被卷走；元首镇静对应少数抗风站立
+context_alignment: 前句天空如肢解巨人已制造不适，眼睛赋予其主动凝视，恐怖浪潮标记从怪异到存在威胁的升级。
+narrative_function: 把个体识别瞬间放大成行星级情绪事件，并推动元首询问微观智慧。
+transfer_rule: 用席卷写情绪传播时，应有共同触发、快速扩散、广阔覆盖、压倒原状态和少数例外。
+failure_boundary: 恐惧只限现场少数、传播缓慢依赖谣言，或多数人保持平静时，全球风浪会夸大同步性。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 三体人认出天空杂乱结构全是眼睛后，恐惧迅速从观察者扩散到全行星人群
+vehicle: 巨大风暴或海浪横扫广阔地表，短时间覆盖所经区域并裹走原有状态
+ground: 恐惧快速传播对应风浪推进；覆盖全世界对应席卷范围；情绪压倒镇静对应浪潮吞没；突发辨认对应风暴骤起

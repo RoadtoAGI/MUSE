@@ -1,0 +1,14 @@
+scene_id: '06'
+source_notes: scene_06_beats.md
+patterns:
+- pattern_id: 06-p1
+  beat: 镜前假笑
+  dimension: camera
+  original_move: 用镜子让角色看见自己的面具
+  ai_default_failure: 会写假装坚强后崩溃流泪
+  transfer_rule: 写反击后遗症时让表情停不下来
+  quote: 笑出了后遗症
+overall_traits:
+- 平行蒙太奇揭示两面
+- 同一句话在语境中变义
+- 反套路处理情感出口

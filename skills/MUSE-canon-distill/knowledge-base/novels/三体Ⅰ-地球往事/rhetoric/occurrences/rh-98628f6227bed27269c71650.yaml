@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-98628f6227bed27269c71650
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1283
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 那时，行星地表会在瞬间变成冶炼炉，高温能够熔化岩石
+sensory_mapping: 高温；封闭炉腔；物态变化；火光
+context_fact: 三颗正常大小太阳同时出现时，见证者只能再活几秒，文明和记录全部被毁。
+image_mechanism: 承载生命的开放地面被封进工业炉腔，山石从环境背景变成待熔原料；“瞬间”又把常规冶炼过程压缩成天体级闪烧。
+property_alignment: 三日辐射对应炉火供热；整片地表对应炉腔；岩石对应冶炼原料；固体熔化对应达到冶炼温度；生命无法逃脱对应炉内对象被热包围
+context_alignment: 上一轮巨日只把地面比成红铁板，本轮三日使地表本身成为炉，准确升级灾变强度。
+narrative_function: 解释为何三日凌空无人留下记录，并预告数行后实际熔毁画面。
+transfer_rule: 用冶炼炉写极端环境时，应落实热源包围、材料物态变化、作用范围和时间强度。
+failure_boundary: 只有表面晒热、岩石不熔或存在明显低温逃生区时，冶炼炉会夸大温度与封闭性。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 三日凌空时被全域强辐射加热、足以熔岩的行星地表
+vehicle: 以极高温度熔化矿石和金属的冶炼炉
+ground: 地表整体达到熔岩温度对应炉腔持续高热；岩石被熔化对应矿料在冶炼炉中转为液体

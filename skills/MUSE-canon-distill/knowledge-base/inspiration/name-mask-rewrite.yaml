@@ -1,0 +1,36 @@
+card_id: name-mask-rewrite
+pattern_name: 假名内化·真名夺回
+dramatic_function: 用名字与假身份的强加、内化与夺回外化人格的控制与复原：伪装从外部要求变成生存工具，真名回返即自我恢复
+applicability: 适用于创伤、洗脑、卧底与身份危机弧线；伪装须有真实收益与代价；只当称谓梗即失效
+reuse_candidates:
+- 阿莲姓名
+- 谷地贵族
+- 月门堡封邑
+- 臭佬口诀
+- 波顿剥皮
+- 临冬城婚礼
+tags:
+- 身份弧光
+- 伪装
+- 成长
+- 身份
+- 创伤
+- 名字
+- 救赎
+source_scenes:
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S04
+  note: 珊莎配合谎言后主动以阿莲自称，伪装开始内化。
+- novel: 冰与火之歌Ⅳ-群鸦的盛宴
+  scene_id: S07
+  note: 艾莉亚在成为无人训练中因保留自我而付出失明代价。
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S04
+  note: 席恩被迫用新名字获取安全感，旧我被压碎。
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S11
+  note: 逃亡行动与真名回返绑定，救人即恢复自我。
+phase_affinity:
+- 2
+- 4
+- 5

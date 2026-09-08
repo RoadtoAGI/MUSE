@@ -1,0 +1,28 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 道德攻势瓦解
+  dimension: omission
+  original_move: 只让对话裸露，不写对方心理
+  ai_default_failure: 会插入眼神和思考解释
+  transfer_rule: 写无效规劝时让短答吞掉长论证
+  quote: 我觉得也是。
+- pattern_id: S03-p2
+  beat: 核心揭示
+  dimension: info_density
+  original_move: 五字揭示同时推翻全部假设
+  ai_default_failure: 会追加动机独白或回忆
+  transfer_rule: 核心动机用极短句独自承重
+  quote: 我要画画。
+- pattern_id: S03-p3
+  beat: 落水者比喻
+  dimension: verb
+  original_move: 用生死动词替代艺术词汇
+  ai_default_failure: 会堆叠灵感式抒情比喻
+  transfer_rule: 把创作冲动写成生存本能
+  quote: 不然就得淹死。
+overall_traits:
+- 不对称对话让少言者获胜
+- 延迟揭示放大答案冲击
+- 单一比喻承担认知转框

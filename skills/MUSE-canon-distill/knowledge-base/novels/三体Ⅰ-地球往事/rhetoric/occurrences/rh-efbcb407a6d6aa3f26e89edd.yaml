@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-efbcb407a6d6aa3f26e89edd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2347
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 这艘巨轮像一叠被向前推开的扑克牌
+sensory_mapping: 平行薄片；阶梯错位；手掌推牌；整叠滑散；尺度骤缩
+context_fact: 五十根水平飞刃把船体从下到上分层，上部薄片保留更大前冲速度并与下层逐级错开。
+image_mechanism: 六万吨钢铁山被视觉缩成掌中牌叠，纳米切口使每半米厚船层获得纸牌般独立滑面；惯性像一只手从上方推过，完整船形展开为阶梯。
+property_alignment: 等距水平切割对应纸牌等厚层叠；四十多船片对应一叠牌；切面光滑对应牌面滑动；上层速度更快对应推力沿牌叠错开；原船完整外形对应未推开的牌叠
+context_alignment: 飞刃以头发丝尺度战胜巨轮，扑克牌把宏大灾难降成日常手势，强化技术的轻易与冷酷。
+narrative_function: 清晰解释复杂的分层错位运动，并制造巨物被随手推散的震撼。
+transfer_rule: 用牌叠说明层状解体时，应匹配层厚均一、平行切面、低摩擦滑移、递增位移和解体前的整体轮廓。
+failure_boundary: 碎片大小杂乱、沿四周爆炸飞散，或层片互相垂直扭结时，扑克牌的规则滑移会误导。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 被等距纳米丝横切成四十多片、上层切片因惯性前冲更远而逐级错开的审判日号
+vehicle: 原本整齐重叠的一叠扑克牌受侧向推力后，每张沿同一方向滑出并呈阶梯状错位
+ground: 船体等厚切片对应牌叠；薄片平行重合对应纸牌；上层前移更多对应牌被推开成扇列

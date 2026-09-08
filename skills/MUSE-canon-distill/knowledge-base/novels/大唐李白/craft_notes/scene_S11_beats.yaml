@@ -1,0 +1,14 @@
+scene_id: S11
+source_notes: scene_S11_beats.md
+patterns:
+- pattern_id: S11-p1
+  beat: 临终裂痕
+  dimension: omission
+  original_move: 先争吵再让死亡瞬间弥合
+  ai_default_failure: 临终只写温情和泪别
+  transfer_rule: 告别戏可先推开再猛然拉近
+  quote: 某将死，汝勿欺瞒
+overall_traits:
+- 先裂后合建造情感
+- 隔墙告别更有力量
+- 省略死亡时刻保留尊严

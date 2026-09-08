@@ -1,0 +1,14 @@
+scene_id: '16'
+source_notes: scene_16_beats.md
+patterns:
+- pattern_id: 16-p1
+  beat: 喜乐告别
+  dimension: omission
+  original_move: 取回童年物件后直接离开
+  ai_default_failure: 会分析父女关系和原谅问题
+  transfer_rule: 写关系了结时让象征物完成动作
+  quote: 门口已经没有了余周周的身影
+overall_traits:
+- 用物件完成关系了结
+- 镜像结构制造对称正义
+- 准确比温柔更慈悲

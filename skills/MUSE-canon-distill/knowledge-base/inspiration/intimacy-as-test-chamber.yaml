@@ -1,0 +1,27 @@
+card_id: intimacy-as-test-chamber
+pattern_name: 亲密测谎
+dramatic_function: 把久违亲密关系设计成测试场，让渴望与怀疑互相摧毁。
+applicability: 适合幸存者、间谍、卧底关系；若双方无真实需求会只剩机关（单书孤证，验证面窄）
+reuse_candidates:
+- 大蒜测试
+- 血液显微镜
+- Ruth的间谍身份
+tags:
+- 亲密
+- 测谎
+- 背叛
+- 信任
+source_scenes:
+- novel: I Am Legend
+  scene_id: S08
+  note: 首次接触同时是救援、暴力、测试和恐惧。
+- novel: I Am Legend
+  scene_id: S09
+  note: 创伤倾诉后立刻进入血检，亲密被证据摧毁。
+- novel: I Am Legend
+  scene_id: S10
+  note: 信件承认欺骗，同时保留真实爱意和逃生建议。
+phase_affinity:
+- 2
+- 3
+- 5

@@ -1,0 +1,14 @@
+scene_id: S23
+source_notes: scene_S23_beats.md
+patterns:
+- pattern_id: S23-p1
+  beat: 一字纵深
+  dimension: info_density
+  original_move: 把炼字差异嵌入千年友谊典故
+  ai_default_failure: 只解释改字更贴切
+  transfer_rule: 论诗场景可让一字牵出历史层
+  quote: 耽志书传
+overall_traits:
+- 炼字成为戏剧事件
+- 多声部反应不平均分配
+- 雅集表层下藏干谒策略

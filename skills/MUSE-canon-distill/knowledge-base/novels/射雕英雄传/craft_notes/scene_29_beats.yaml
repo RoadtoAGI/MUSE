@@ -1,0 +1,28 @@
+scene_id: '29'
+source_notes: scene_29_beats.md
+patterns:
+- pattern_id: 29-p1
+  beat: 战术解说嵌入
+  dimension: overall
+  original_move: 叙述者以评书人口吻直接插讲兵器武理
+  ai_default_failure: 要么纯动作不解说，要么借角色内心解说
+  transfer_rule: 武戏插叙述者评点，为奇招铺认知基线
+  quote: 使上这兵器却是刚中有柔
+- pattern_id: 29-p2
+  beat: 灵蛇拳奇招
+  dimension: verb
+  original_move: 不编招名，用不该弯处弯曲的物理违和写新招
+  ai_default_failure: 给创新招式编华丽招名堆排场
+  transfer_rule: 创招写运动原理的反直觉，不靠名号
+  quote: 似乎能于无法弯曲处弯曲
+- pattern_id: 29-p3
+  beat: 蛮力肉搏
+  dimension: camera
+  original_move: 解剖级部位与力向写缠斗，危急处插冷幽默
+  ai_default_failure: 渲染壮烈紧张氛围而动作模糊
+  transfer_rule: 越危急越冷静写动作本身，旁白可带嘲讽
+  quote: 哪有这般胡扭瞎缠之理？
+overall_traits:
+- 三层节奏切换：器械对攻、奇招突发、肉搏缠斗
+- 评书式旁白是节奏调节器，暂停为加速蓄力
+- 写宗师狼狈比写胜利更有力

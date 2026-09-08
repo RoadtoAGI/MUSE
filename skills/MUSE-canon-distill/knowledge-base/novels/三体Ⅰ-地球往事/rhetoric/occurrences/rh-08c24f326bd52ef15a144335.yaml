@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-08c24f326bd52ef15a144335
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L627
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 这给上帝的存在留下了位置
+sensory_mapping: 空间；空缺；放置；概念结构
+context_fact: 小红卫兵无法接受奇点以前什么都没有，绍琳用宗教指控提示她。
+image_mechanism: 知识边界被画成已经摆满解释的平面，奇点之前却留有一块空白；“上帝”由命题变成可被放进缺口的对象。
+property_alignment: 科学未解释部分对应空间空缺；上帝假说可被提出对应对象可放入空位；新证据可能封闭假说对应位置可被后来对象占据
+context_alignment: 批斗话语需要把“未知”迅速改写成政治罪证，位置隐喻让逻辑跳跃显得像填空一样直接。
+narrative_function: 暴露绍琳如何把科学未知转成宗教指控。
+transfer_rule: 用空位写解释空间时，应指出哪项知识缺失形成边界、哪个假说被放入、以及新证据如何改变空位。
+failure_boundary: 未知只表示证据不足，并不自动支持任何特定假说；把可提出误作已证实会越过类比边界。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 宇宙起点之前的未知使上帝假说仍有解释机会
+vehicle: 一个尚未被占据、可让对象进入安放的空位置
+ground: 科学未解释部分对应空间空缺；上帝假说可被提出对应对象可放入空位；新证据可能封闭假说对应位置可被后来对象占据

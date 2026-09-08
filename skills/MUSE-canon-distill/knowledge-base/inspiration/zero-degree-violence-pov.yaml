@@ -1,0 +1,43 @@
+card_id: zero-degree-violence-pov
+pattern_name: 暴力零度叙述
+dramatic_function: 让承载暴行的视角与语调不识其重量：孩童当物理事件、照料话术推进伤害、灭世写成工作日志；恐怖来自温度差而非渲染
+applicability: 适用于写意外、熟人互害与异文明视角；视角的价值体系须自洽；旁白解释道德或切入受害者反应即破功
+reuse_candidates:
+- 歌者与二向箔设定
+- 膜/时间颗粒等术语
+- 古歌谣文本
+- 四岁孩子
+- 摔死堂弟
+- 蚂蚁爬进伤口
+- 肉骨头
+- 狗舔脚底
+- 树下捆绑
+tags:
+- 反派视角
+- 零张力
+- 异文明
+- 儿童视角
+- 零度叙事
+- 死亡延迟
+- 语调反转
+- 熟人暴力
+- 酷刑设计
+source_scenes:
+- novel: 三体Ⅲ-死神永生
+  scene_id: S09
+  note: 歌声中漫不经心掷出灭世武器
+- novel: 三体Ⅲ-死神永生
+  scene_id: S24
+  note: 受害方视角镜像：纸条的轻与判决的重
+- novel: 三体Ⅲ-死神永生
+  scene_id: S10
+  note: 毁灭后果以审美化观测呈现，不渲染惨烈
+- novel: 现实一种
+  scene_id: S03
+  note: 皮皮把死亡当作物理事件和日常间隔处理
+- novel: 现实一种
+  scene_id: S09
+  note: 山岗用按摩、清凉油、休息等照料话术完成杀弟
+phase_affinity:
+- 2
+- 5

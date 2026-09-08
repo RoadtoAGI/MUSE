@@ -1,0 +1,18 @@
+# 接管总纲：用已发布原文填写；未来方向在 intent，待作者共创。
+schema_version: 1
+frozen:
+  premise: null                     # 已确立的起始情境与主线问题
+  protagonist_want_need: null        # 已支持的欲望；不要求潜意识或健康需要
+  world_ceiling: null                # 仅原文明示的上限；最高已见层级不自动成为上限
+  power_system_pyramid: null         # 原文已确立的层级，非升级题材可空
+  spine_direction: null              # 已确立的追求或明确作者决定；不预测终局
+  creative_anchors:
+    title: null
+    core_value: null
+    primary_drive: null              # 已有证据时填 desire / information / motif / mix
+    controlling_idea: null           # 未来解释假设归 intent.open_questions
+    unique_angle: null
+    style_directives: null
+intent:
+  current_thrust: null               # 作者已表达的续写方向；分析者猜想放问题区
+  open_questions: []                 # 续写需要的未知/方向假设，附来源章及待决定事项

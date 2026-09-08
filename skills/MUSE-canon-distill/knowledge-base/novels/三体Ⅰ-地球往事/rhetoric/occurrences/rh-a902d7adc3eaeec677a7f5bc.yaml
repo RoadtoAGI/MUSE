@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a902d7adc3eaeec677a7f5bc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2132
+chapter: 第29章 第二红岸基地
+figure_type: simile
+quote: 这艘巨轮是由一艘六万吨级的油轮改建的，像一座浮动的钢铁小岛
+sensory_mapping: 巨大水平体量；钢铁硬度；海面漂浮；岛岸边界；孤立聚落
+context_fact: 审判日号由大型油轮改造，甲板聚集近两千名三体组织成员并容纳完整通讯基地。
+image_mechanism: 船的可移动性与岛的稳定体量叠在一起，钢板成为地面，船舷成为海岸；它既能脱离国家领土漂移，又能供一个政治共同体聚居。
+property_alignment: 六万吨体量对应小岛尺度；钢甲板对应坚硬地面；船舷边界对应岛岸；基地设施对应岛上聚落；四面环海对应孤岛隔绝；航行能力对应岛屿浮动
+context_alignment: 三体组织需要躲避陆地管辖并维持完整基地，浮动钢岛同时表达物理规模、政治隔绝和机动性。
+narrative_function: 建立巨轮尺度与自治感，为两千人集会及后续古筝行动的目标体量预作说明。
+transfer_rule: 用岛屿写巨型载具时，应让载具具备可居住面积、清晰边界、环境隔绝和相对自足；材质形容应保留载具本性。
+failure_boundary: 小艇、短暂停靠的平台或内部空间狭窄无法形成共同体时，称岛会夸大承载能力。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 体量六万吨、设施和人员密集且可在海上独立运作的审判日号
+vehicle: 由坚硬钢铁构成、托载完整聚落并在海面漂移的一座小岛
+ground: 船体庞大宽阔对应岛屿陆地；钢制结构对应坚硬地质；海上独立承载基地对应孤岛自成空间

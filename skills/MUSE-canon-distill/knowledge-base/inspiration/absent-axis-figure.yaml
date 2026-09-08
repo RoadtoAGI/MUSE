@@ -1,0 +1,25 @@
+card_id: absent-axis-figure
+pattern_name: 缺席轴心
+dramatic_function: 用一个长期缺席的人物聚拢多线叙事，让寻找本身暴露世界真相。
+applicability: 适用于群像和谜团结构；若缺席者无实际引力会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 隐居德国作家
+- 阿琴波尔迪研究圈
+tags:
+- 缺席人物
+- 多线汇聚
+- 追寻结构
+source_scenes:
+- novel: '2666'
+  scene_id: S01
+  note: 评论家共同体因缺席作家而形成。
+- novel: '2666'
+  scene_id: S22
+  note: 出版社层级只提供碎片证词，强化缺席引力。
+- novel: '2666'
+  scene_id: S18
+  note: 缺席轴心最终转为行动者。
+phase_affinity:
+- 2
+- 3
+- 4

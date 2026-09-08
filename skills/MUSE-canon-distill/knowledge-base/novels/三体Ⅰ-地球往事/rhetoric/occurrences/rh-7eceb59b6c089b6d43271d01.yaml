@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7eceb59b6c089b6d43271d01
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1326
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 那旋转最后都会固定下来，永远不变，死亡的舞蹈
+sensory_mapping: 视觉；节奏；旋转；生命状态
+context_fact: 魏成在空宇宙中加入两个等质量球，无论如何初始化，最终都形成固定静止或周期运动。
+image_mechanism: 轨道力学先被赋予双人舞的围绕和节拍，再从舞中抽走变化与意志；身体在动却永不产生新姿态，运动反而成为死亡证据。
+property_alignment: 两球互绕对应舞伴环转；固定周期对应重复舞步；没有新状态对应舞蹈失去创造；永远持续对应尸体般无法结束的机械动作
+context_alignment: 一球宇宙以静止诠释死亡，二球虽运动仍被称死亡，舞蹈准确说明魏成追求的是复杂新变化而非动作本身。
+narrative_function: 建立二体确定性的乏味，为第三球带来的混沌生命感蓄势。
+transfer_rule: 用舞蹈写周期系统时，应对应参与者关系、轨迹节拍和变化空间；若强调死亡，要说明何种重复抽走了生命性。
+failure_boundary: 轨迹不断产生新组合、舞者可自主改变节奏或系统虽周期却承载成长时，死亡舞蹈会误判重复的意义。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 两个球在相互引力下进入永远重复、没有新状态的稳定旋转
+vehicle: 舞步仍在循环而变化、意志与生命已死去的舞蹈
+ground: 球体彼此绕转对应舞者围绕配合；轨迹固定永不创新对应舞步机械重复失去生命

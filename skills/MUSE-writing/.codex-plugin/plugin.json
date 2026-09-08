@@ -1,0 +1,43 @@
+{
+  "name": "muse-writing",
+  "version": "2.6.0",
+  "description": "基于麦基故事理论的原创小说与剧本创作",
+  "author": {
+    "name": "RoadToAGI",
+    "url": "https://github.com/RoadtoAGI"
+  },
+  "homepage": "https://github.com/RoadtoAGI/MUSE-writing",
+  "repository": "https://github.com/RoadtoAGI/MUSE-writing",
+  "license": "MIT",
+  "keywords": [
+    "creative-writing",
+    "fiction",
+    "story",
+    "mckee",
+    "narrative",
+    "novel",
+    "screenplay",
+    "muse"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/",
+  "interface": {
+    "displayName": "MUSE Writing",
+    "shortDescription": "原创短篇、中篇与剧本创作",
+    "longDescription": "MUSE 原创小说与剧本创作：story-writing 负责中篇及篇幅未明的完整小说，short-story-writing 负责短篇成稿，screenplay-writing 负责原创与改编剧本。prototype-research 由 screenplay-writing 在改编、历史或戏曲题材下内部调用。衍生小说与连载创作由 MUSE-serial-writing 承接。",
+    "developerName": "RoadToAGI",
+    "category": "Writing",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "帮我写一个 8000 字的悬疑短篇",
+      "把这个点子写成完整的中篇小说",
+      "把《牡丹亭》改编成京剧剧本"
+    ],
+    "websiteURL": "https://github.com/RoadtoAGI/MUSE-writing"
+  }
+}

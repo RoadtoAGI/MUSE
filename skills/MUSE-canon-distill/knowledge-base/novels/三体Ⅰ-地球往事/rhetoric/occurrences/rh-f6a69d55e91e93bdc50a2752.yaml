@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f6a69d55e91e93bdc50a2752
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L84
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 看上去就像一场狂暴的雷雨后，巨大的金属废墟上开出了一朵娇柔的花
+sensory_mapping: 视觉；色温；尺度；质感
+context_fact: 摄影爱好者汪淼在施工现场第一次看见杨冬。
+image_mechanism: 阴影、冷金属和乱管先构成雷雨后的废墟，夕阳再把纤细杨冬单点照亮成花；画面从大片冷暗粗硬收束到一处暖亮柔软。
+property_alignment: 冷暗粗糙金属背景对应暴雨后的废墟；暖光中纤细女性对应废墟中娇柔花朵；单点生命与庞大死硬材料形成尺度质感反差
+context_alignment: 喻体同时服从现场光线、材质和汪淼的摄影视角。
+narrative_function: 以构图完成杨冬亮相并确立她的审美位置。
+transfer_rule: 设计人物亮相时，让环境先形成一种材质和灾后状态，再用局部光线、尺度与质感完全相反的生命喻体落到人物。
+failure_boundary: 背景若非粗硬阴暗、人物未被单独照亮，或人物气质强悍外放，废墟与娇花的三重反差会成为强行美化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 阴影中庞大加速器前被夕阳照亮的纤细杨冬
+vehicle: 暴雨后的废墟上新开的一朵柔弱花
+ground: 冷暗粗糙金属背景对应暴雨后的废墟；暖光中纤细女性对应废墟中娇柔花朵；单点生命与庞大死硬材料形成尺度质感反差

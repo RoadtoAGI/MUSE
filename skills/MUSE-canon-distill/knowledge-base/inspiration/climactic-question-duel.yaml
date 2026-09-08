@@ -1,0 +1,22 @@
+card_id: climactic-question-duel
+pattern_name: 终极对决·以问收束
+dramatic_function: 把全书主控思想压到一场无武力的对话：以最朴素的问题对位最庞大的权力，对方以身体反应作答，结局不给答案。
+applicability: 适用于主题型史诗收尾；主角须先以行动积累道德资本，否则质问沦为说教（单书孤证，验证面窄）
+reuse_candidates:
+- 马鞭划圈与射雕不中的具体意象
+- 「英雄英雄」喃喃而崩的台词
+- 帝王临终的草原场景
+tags:
+- 主题收束
+- 对话高潮
+- 开放结局
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S15
+  note: 「占得多少土地」一问令大汗吐血，胜负在精神层
+- novel: 射雕英雄传
+  scene_id: S14
+  note: 是非善恶辩论先行铺垫，洪七公诛心立道德标尺
+phase_affinity:
+- 3
+- 5

@@ -1,0 +1,19 @@
+{
+  "name": "muse-canon-distill",
+  "owner": {
+    "name": "RoadToAGI"
+  },
+  "metadata": {
+    "description": "MUSE 姊妹扩展包 — 名著场景检索 + 来源可核验的对白知识库与角色级 few-shot + 角色蒸馏 + 小说与戏剧结构分析。配合 muse-writing 使用",
+    "version": "0.8.0"
+  },
+  "plugins": [
+    {
+      "name": "muse-canon-distill",
+      "source": "./",
+      "description": "7 个 skill（scene-reference / dialogue-reference / dialogue-kb-distill / character-kb-distill / novel-analysis / design-doc-reference / drama-analysis）+ knowledge-base。装载后 muse-writing Phase 6 可检索场景参考与角色级连续对白 few-shot；Phase 1-5 可按需读取名著设计摘要；小说和戏剧分析同步产出对白事件与人物对白画像",
+      "version": "0.8.0",
+      "strict": false
+    }
+  ]
+}

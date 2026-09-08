@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-217fa293210ab0287cc1417d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L274
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: “科学边界”的一些人戏称她为“女海明威”
+sensory_mapping: 语言节奏；文化联想
+context_fact: 申玉菲接电话只说“来吧”便挂断。
+image_mechanism: 人物姓名被作家姓名替换，听者从文化记忆中调取“删去多余字”的文风，再把这一节奏贴回她的口语。
+property_alignment: 她句子短促省略对应海明威式简练；只留必要信息对应克制文风；稳定绰号对应特征足以由作家名代称
+context_alignment: 比较点限定在表达简练，正接续她的实际一句话。
+narrative_function: 用文化速记固定人物声音。
+transfer_rule: 借名人命名人物时，必须在邻近语境给出可核对的单一比较点，并把其他生平与价值判断留在边界外。
+failure_boundary: 不了解海明威文风的读者无法完成联想；也不能把其性格、经历或文学成就移给申玉菲。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 说话极端精简的申玉菲
+vehicle: 以简练文风著称的女性版海明威
+ground: 她句子短促省略对应海明威式简练；只留必要信息对应克制文风；稳定绰号对应特征足以由作家名代称

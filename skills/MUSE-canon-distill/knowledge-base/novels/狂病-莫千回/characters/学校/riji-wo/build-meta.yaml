@@ -1,0 +1,26 @@
+mode: reference
+display_name: 「我」
+role_slug: riji-wo
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/学校/phase3_spine.yaml   # spine.shadow_desire / conscious_vs_unconscious + antagonistic_forces.internal + arc_framework + story_climax_design
+  - pipeline/phase0_conception.yaml   # controlling_idea candidate_b（道德/怕疼拖累生存）
+  - scenes/scene_XX-S01.md
+  - scenes/scene_XX-S03.md
+  - scenes/scene_XX-S04.md
+  - scenes/scene_XX-S08.md
+  - scenes/scene_XX-S09.md
+  - scenes/scene_XX-S10.md
+  - note: 单篇人物未登记于 pipeline/phase2_character.yaml（该文件仅登跨篇人物）
+built_at: 2026-05-29T17:24:00+08:00
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  「我」是《学校》篇日记体第一人称 POV，信息密度极高，所有断言均有篇内 scene locator 佐证。
+  声音框架跨 4 个场景（S01 回溯日记腔 / S03 自责反问 / S10 省略号留白 + 怕疼自嘲收尾），稳定性充分。
+  弧光起点（S03 拦阻 / S08 主张躲）+ 拐点（S08 被集体裹挟）+ 延宕（S10 下不定决心）+ 终点（S10 吞断指自感染）四段齐全。
+  性格真相有压力情境直接佐证（S04 难下杀手本能 / S09 没给被绑幸存者痛快）。
+  「拦阻者 / 不决断者」反英雄原型 = controlling_idea candidate_b（道德感 / 怕疼拖累生存）最锋利载体。
+  单篇人物，phase2_character.yaml 未登记系统级条目；结构化字段依据 pipeline/学校/phase3_spine.yaml 推导。

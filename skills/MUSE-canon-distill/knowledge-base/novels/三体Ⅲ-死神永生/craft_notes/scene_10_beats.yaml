@@ -1,0 +1,35 @@
+scene_id: '10'
+source_notes: scene_10_beats.md
+patterns:
+- pattern_id: 10-p1
+  beat: 光速两字段落
+  dimension: omission
+  original_move: 判决前动词全减速，答案名词独段，宣判后反应镜头全省
+  ai_default_failure: AI 在「光速」之后必写一段群体崩溃，打断读者自己的寒意
+  transfer_rule: 末日级信息让读者自行换算后果，独立成段释放蓄满的压强
+  quote: 「光速。」
+- pattern_id: 10-p2
+  beat: 人体成图纸
+  dimension: verb
+  original_move: 全套制图几何动词写死亡，无一个暴力动词，定性为几何变换
+  ai_default_failure: AI 必写坠入者视角的最后一秒与恐怖渲染
+  transfer_rule: 死亡的恐怖可来自不可逆的信息展开，而非血腥与痛感
+  quote: 太空艇和监视员的厚度都为零
+- pattern_id: 10-p3
+  beat: 手拉手坠入巨画
+  dimension: verb
+  original_move: 死亡动词与艺术动词合一发明「画入」，告别只两句工作语言
+  ai_default_failure: AI 需一整段才写完的诀别，这里被一句过去时态完成
+  transfer_rule: 为全局毁灭发明统一修辞框架，群体死亡只给一个定格镜头
+  quote: 成为毁灭巨画中最先被画入的人
+- pattern_id: 10-p4
+  beat: 雪花海洋
+  dimension: omission
+  original_move: 不给地面灾难实况，五十天文单位外只看年轮与雪花花环
+  ai_default_failure: AI 写地球毁灭必给地面灾难蒙太奇与挽歌式抒情
+  transfer_rule: 距离即节制；悲伤配给到一句一人，惊叹与冷数据分声道
+  quote: 只有地球才配得上这样的花环
+overall_traits:
+- 恐怖交给物理推演，哀悼交给审美意象，两线不混
+- 尺度速度数据化，读者自行换算尺度眩晕
+- 设定投资学：每个概念至少兑现两次，第二次免费

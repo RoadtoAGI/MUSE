@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eabbcaed8137e8368bba2324
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1327
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 描述方程如暴雨般涌现，无休无止
+sensory_mapping: 视觉；听觉密度；流动；数量
+context_fact: 第三球使系统运动复杂且似乎永不重复，魏成意识中需要无数方程描述。
+image_mechanism: 每条方程变成一滴从上方落下的水，寥寥落叶的空背景瞬间被密集线条填满；数学数量获得暴雨的速度和压迫。
+property_alignment: 方程海量对应雨滴密集；出现迅速对应骤雨倾泻；无休无止对应持续降水；意识被占满对应雨幕遮蔽空间
+context_alignment: 与同句晚秋落叶构成由疏到密、由枯到激烈的天气转场，精确放大第三体带来的复杂度。
+narrative_function: 让计算复杂度变成感官洪流，表现魏成既被压倒又被吸引。
+transfer_rule: 用暴雨写信息涌现时，应同时匹配单位数量、到达速率、持续性和观察者被占据的程度。
+failure_boundary: 信息少而间歇、出现有序可控或主体轻松筛选时，暴雨会夸大密度和压力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三球系统引发的大量、快速且持续出现的描述方程
+vehicle: 密集雨滴突然倾泻、连续涌来的暴雨
+ground: 方程数量陡增对应雨滴密度极高；新方程持续产生对应暴雨连续落下无间隙

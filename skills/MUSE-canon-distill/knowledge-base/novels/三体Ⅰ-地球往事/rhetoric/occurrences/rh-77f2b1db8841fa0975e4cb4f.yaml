@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-77f2b1db8841fa0975e4cb4f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2347
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 那些薄片看上去像布片般柔软，很快变形，形成了一堆复杂的形状
+sensory_mapping: 布料下垂；褶皱；柔软触觉；乱堆形状；钢铁尺度反差
+context_fact: 切片虽厚达半米，但面积极大，完整船体提供的结构强度消失后迅速变形。
+image_mechanism: 纳米丝不仅分开钢船，还抽走了结构赋予钢铁的刚性；每片因长宽远大于厚度而在自重下垂，坚硬船壳呈现布料的褶皱语言。
+property_alignment: 大面积薄片对应布幅；失去框架对应布料无支撑；自重弯折对应布片下垂；多处变形对应褶皱；残骸乱堆对应布团；钢材本应坚硬对应柔软反差
+context_alignment: 审判日号先如大山，最终如布片，连续尺度和材质反转完整展示飞刃破坏结构而非简单爆炸的独特效果。
+narrative_function: 给解体过程收束，以钢铁变布的反常触感确认巨轮已不可辨认。
+transfer_rule: 把硬质巨构写成布时，应说明长宽厚比例、支撑丧失、自重弯折和多重褶皱，使柔软有力学依据。
+failure_boundary: 碎片短厚仍保持刚性、仅边缘破裂，或变形来自高温熔化而非结构失撑时，布片触感会混淆机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 失去整体支撑后在自重和碰撞下弯折扭曲的半米厚船体钢铁切片
+vehicle: 柔软布片落地后随受力折叠起皱，堆成没有固定几何形状的一团
+ground: 巨大薄钢片弯曲对应布料柔软；残骸折叠复杂对应布片堆皱；原有刚性外形消失

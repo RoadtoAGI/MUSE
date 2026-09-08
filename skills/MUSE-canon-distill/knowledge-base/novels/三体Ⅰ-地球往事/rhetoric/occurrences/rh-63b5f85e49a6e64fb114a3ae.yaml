@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-63b5f85e49a6e64fb114a3ae
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1338
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 把三体问题的难度转化为巨大的计算量
+sensory_mapping: 物态转换；数量堆积；加工动作
+context_fact: 申玉菲一眼看出进化算法思路的价值，同时指出需要远超现有条件的大计算机。
+image_mechanism: “难”从不可抓取的性质被倒进机器，出来后变成可数却巨大的一堆运算；问题没有消失，而是换成硬件可以逐项消耗的负荷。
+property_alignment: 逻辑难题对应难加工原料；算法重写对应转换工序；海量步骤对应成堆可计量产物；计算机执行对应逐件搬运处理
+context_alignment: 这正是蒙特卡洛和进化算法的策略核心，转换喻体同时说明方法优势与算力代价。
+narrative_function: 一句概括研究创新，并把申玉菲提供计算资源的必要性接入因果链。
+transfer_rule: 用转化写问题重构时，应说明原难点、转换操作、新负担的计量方式和承担新负担的工具。
+failure_boundary: 新表示没有降低任何难点、计算量也不可执行，或只是换术语未换机制时，“转化”会掩饰问题未解。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 以可执行的海量枚举筛选替代难以获得的闭式逻辑解
+vehicle: 将一种形态的障碍加工成另一种可搬运、可计量的材料
+ground: 不可直接推导的理论困难对应原形障碍难处理；拆成大量计算步骤对应把障碍换成可累计数量

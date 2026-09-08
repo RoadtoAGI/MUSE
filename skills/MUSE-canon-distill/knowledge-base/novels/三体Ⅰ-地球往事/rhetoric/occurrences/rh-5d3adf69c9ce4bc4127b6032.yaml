@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5d3adf69c9ce4bc4127b6032
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2636
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 这感觉将缠绕他们一生，连他们的子孙后代也无法逃脱
+sensory_mapping: 绳索绕身；藤蔓蔓延；勒紧皮肤；拖行负重；跨代缠结
+context_fact: 与会者刚意识到智子监视无处不在，叙述指出人类需许多年才能在精神上适应。
+image_mechanism: 一瞬间产生的感受长出实体藤条，从会议室里绕上每个人的身体；生命走到终点时藤条仍不枯，继续攀到尚未出生的后代身上。
+property_alignment: 监视意识对应藤蔓绳索；心理重量对应勒束；一生时间对应持续缠绕；后代继承处境对应蔓延新枝；缺乏逃离空间对应挣脱失败
+context_alignment: 前半句的巨眼提供外部压力，本句把视线内化为身体束缚，说明监控即使看不见仍会自我延续。
+narrative_function: 将一次会议上的震惊拉长为文明世代的精神后果。
+transfer_rule: 用缠绕写长期心理负担时，应对应附着起点、持续勒束、随时间蔓延、主体挣脱失败和关系或代际扩张。
+failure_boundary: 感受随事件结束迅速消散、主体可离开监控环境，或下一代不再处于同一条件时，跨代缠绕会把暂时焦虑写成宿命。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 被智子监视的意识会成为与个体和后代长期相随、无法摆脱的心理负担
+vehicle: 藤蔓或绳索绕住身体并随时间越缠越久，束缚还会延伸到下一代，使人逃不开
+ground: 监视感对应缠绕物；终身持续对应绳蔓不松；心理压迫对应身体束缚；代际延续对应缠蔓继续生长；无法适应对应不能逃脱

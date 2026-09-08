@@ -1,0 +1,61 @@
+role_slug: yideng-dashi
+claims:
+  - id: C001
+    text: "一灯大师俗家身份是大理国国王段智兴"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/一灯大师
+        quote: "原名段智興…原為大理國皇帝、大理段氏掌門人，後出家為僧"
+      - url: https://baike.baidu.com/item/一灯大师
+        quote: "南帝段智兴…段智兴原本是大理皇帝"
+    resolution_note: null
+
+  - id: C002
+    text: "一灯大师为天下五绝之一'南帝'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/一灯大师
+        quote: "同時亦為天下五絕之一的「南帝」"
+      - url: https://baike.baidu.com/item/一灯大师
+        quote: "南帝段智兴…天下五绝之一"
+    resolution_note: null
+
+  - id: C003
+    text: "一灯大师出家后法号'一灯'"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/一灯大师
+        quote: "出家為僧，法名「一燈」"
+      - url: https://baike.baidu.com/item/一灯大师
+        quote: "佛号一灯大师"
+    resolution_note: null
+
+  - id: C004
+    text: "一灯大师的成名绝技是大理段氏一阳指"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/一灯大师
+        quote: "身兼「先天功」、「一陽指」兩大神功武學"
+      - url: https://baike.baidu.com/item/一灯大师
+        quote: "修习大理段氏绝学一阳指"
+    resolution_note: null

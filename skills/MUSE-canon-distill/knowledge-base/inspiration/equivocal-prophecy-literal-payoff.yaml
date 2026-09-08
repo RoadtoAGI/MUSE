@@ -1,0 +1,36 @@
+card_id: equivocal-prophecy-literal-payoff
+pattern_name: 双关预言·字面兑现
+dramatic_function: 让可双解的预言给持有者虚假安全并埋雷；终局按字面由被忽视者兑现，反转惊奇而回看全然公平，宿命感一次完成
+applicability: 适用于有预言、神谕、合同等可双解文本的故事；歧义须在原文自然成立并早播，须先当众验真一次取信；临时补设歧义或预言单义即失效
+reuse_candidates:
+- 女巫与大锅的具体意象
+- 妇人所生与树林移动的具体谜面
+- 苏格兰王权背景
+- 「没有活人能阻止我」原句
+- 女扮男装随军的具体桥段
+tags:
+- 预言
+- 双关
+- 反转
+- 宿命
+- 伏笔回收
+source_scenes:
+- novel: Macbeth
+  scene_id: A4S1
+  note: 三谕示一真两双关，字面安抚结构埋雷
+- novel: Macbeth
+  scene_id: A5S5
+  note: 树林移动由信使作证，谕示开始按字面收网
+- novel: Macbeth
+  scene_id: A5S7
+  note: 剖腹而生一行短句拆毁全部护身咒
+- novel: 指环王
+  scene_id: S29
+  note: 应验者匿名随军，恐惧与动机提前铺设
+- novel: 指环王
+  scene_id: S14
+  note: 女人加霍比特人以两重歧义同时破解预言
+phase_affinity:
+- 1
+- 3
+- 4

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1d04cb78e5aca996fb6b429b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2622
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 地球的科学已被彻底锁死，这个锁是如此牢固，凭人类自身的力量是永远无法挣脱出来的
+sensory_mapping: 金属锁扣；闭合声；身体束缚；无钥匙；长期囚禁
+context_fact: 少量智子可覆盖所有加速器，且三体世界能持续增造，使人类无法窥见更深微观维度。
+image_mechanism: 科学进步被画成通向物质深层的门，智子不必摧毁文明，只需在门上扣锁；每次虚假实验都让锁芯失去可解读纹路，人类在门前耗费无限时间。
+property_alignment: 基础物理入口对应门；智子干扰对应锁具；错误数据对应锁舌卡住；高维知识对应钥匙；研究者无法突破对应挣脱失败；持续增造智子对应锁的冗余加固
+context_alignment: 叶文洁此前称两个质子是一把锁，此处给出锁闭机制并完成延展框架，不另建复指卡。
+narrative_function: 把漫长技术封锁压缩成牢固物件，明确智子战略目标和人类绝望来源。
+transfer_rule: 用锁写知识封堵时，应指出被封入口、施锁机制、钥匙缺失、持续加固和受困者不能绕行的条件。
+failure_boundary: 存在不依赖被锁实验的替代研究路线、外部文明可提供钥匙，或干扰可被统计识别排除时，永远锁死的断言需收窄。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 智子持续污染高能物理实验，使人类无法突破基础理论并长期停留在低维技术层级
+vehicle: 坚固锁具扣住行动者，锁舌闭合且没有可用钥匙，受困者靠自身力量无法挣脱
+ground: 智子封堵研究路径对应锁闭出口；实验结果持续错误对应锁舌反复扣紧；人类缺乏高维技术对应没有钥匙；技术停滞对应被固定原地

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2e47cc424c3caed0f692cedd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L597
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 这些穿着军装扎着武装带的小战士挟带着逼人的青春活力，像四团绿色的火焰包围着叶哲泰
+sensory_mapping: 视觉；颜色；温度；运动；空间
+context_fact: 四名初二女生作为押送者围着即将受批斗的教授上台。
+image_mechanism: 军装颜色被点燃，少女身体失去固定轮廓，化为四团不断跃动、向内灼逼的绿火；青春生命力与毁灭性在同一火焰中并存。
+property_alignment: 绿军装对应绿色火光；青春亢奋对应火焰旺盛跳动；四人围住目标对应火团合围；暴力威胁对应火焰灼伤
+context_alignment: 人数、衣色、活力和包围位置都在句中可见，绿色火焰不是泛泛热情。
+narrative_function: 制造青春与杀戮的刺目矛盾，聚焦叶哲泰的受围困处境。
+transfer_rule: 以火焰写人群时，可让服饰给火焰定色、身体动作给火焰定形、空间站位决定燃烧方向。
+failure_boundary: 人物安静站立、没有逼迫性或颜色线索缺失时，彩色火焰会成为装饰性炫技。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 四名身穿绿军装、亢奋而逼近叶哲泰的少女红卫兵
+vehicle: 四团绿色火焰从四周包围并灼逼目标
+ground: 绿军装对应绿色火光；青春亢奋对应火焰旺盛跳动；四人围住目标对应火团合围；暴力威胁对应火焰灼伤

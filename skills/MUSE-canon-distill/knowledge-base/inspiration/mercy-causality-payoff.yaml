@@ -1,0 +1,26 @@
+card_id: mercy-causality-payoff
+pattern_name: 怜悯因果链终局兑现
+dramatic_function: 解决「高潮靠主角意志开挂」的失真：主角在终点真实失败，由早期对敌人的仁慈所埋因果意外完成使命，兼得肯定与反讽
+applicability: 需全程多次可信播种饶恕且每次代价真实；若仁慈只出现一次、或被饶者无独立欲望驱动，兑现就沦为机械降神（单书孤证，验证面窄）
+reuse_candidates:
+- 咬断手指坠入火山的具体桥段
+- 魔戒、咕噜等专名与设定
+tags:
+- 怜悯
+- 高潮设计
+- 因果链
+- 反讽
+source_scenes:
+- novel: 指环王
+  scene_id: S01
+  note: 导师早期传授怜悯教诲，因果链起点
+- novel: 指环王
+  scene_id: S28
+  note: 主角饶恕并收服敌人为向导，反复续约
+- novel: 指环王
+  scene_id: S18
+  note: 主角被征服的瞬间，被饶者的贪婪完成销毁
+phase_affinity:
+- 2
+- 3
+- 5

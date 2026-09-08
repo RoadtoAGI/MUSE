@@ -1,0 +1,469 @@
+# Phase 5: 场景编排（sequence_expansions）—— 《神雕侠侣》逆向分析
+# 将 Phase 4 的 18 个序列展开为 27 个具体场景
+
+sequence_expansions:
+
+  # ══ ARC-1: 孤儿入墓 ══
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 嘉兴南湖 / 陆家庄
+        time: 故事开端
+        participants: [李莫愁, 武三通, 武三娘, 程英, 陆无双]
+        pov: 全知（以程英/陆无双的儿童视角引入）
+        conflict: 李莫愁对陆展元的恨转化为对满门的屠杀
+        value_start: 表面平静（十年之约尚在）
+        value_end: 血腥杀戮（约期到，爱变恨）
+        must_include: "李莫愁墙上印九个血手印；武三通掘坟；'问世间情为何物'曲子"
+        handoff: "李莫愁追踪引出郭靖夫妇 → S03（跳过数回）"
+        source_chapter: "第1回"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: 活死人墓石室
+        time: 古墓修炼期
+        participants: [杨过, 小龙女]
+        pov: 杨过
+        conflict: 无外在冲突——纯粹的亲密感建置
+        value_start: 生疏（初入古墓）
+        value_end: 默契（师徒日常的亲密）
+        must_include: "石室捉麻雀练天罗地网势；从三只到八十一只；花丛为屏障修炼玉女心经"
+        handoff: "日常修炼深化感情 → S03"
+        source_chapter: "第6回"
+
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: 活死人墓
+        time: 杨过少年期
+        participants: [杨过, 小龙女, 孙婆婆, 全真教弟子]
+        pov: 杨过
+        conflict: 全真教vs古墓派的门派对立；孙婆婆以命换取小龙女收留杨过
+        value_start: 孤绝（被全真教虐待）
+        value_end: 归属（获师父、家园、情感纽带）
+        must_include: "孙婆婆临终请托'照顾他一生一世'；小龙女答应收留"
+        handoff: "师徒关系确立 → 古墓修炼 → S04"
+        source_chapter: "第5回"
+
+      - scene_id: "S04"
+        arc_id: ARC-1
+        location: 活死人墓石棺室
+        time: 古墓修炼末期
+        participants: [杨过, 小龙女]
+        pov: 杨过
+        conflict: 生存本能 vs. 不愿独活的深情
+        value_start: 师徒之情（亲密但未越界）
+        value_end: 生死与共（情感从师徒转化为生死伴侣）
+        must_include: "杨过咬破手腕以鲜血救小龙女；放下断龙石后又钻回墓中"
+        handoff: "情感确立 → 发现九阴真经 → 踏入江湖"
+        beat_direction: "杨过第一次做出'不顾一切'的选择——此后每一个关键时刻都会回响"
+        source_chapter: "第6-7回"
+
+  # ══ ARC-2: 江湖扬名 ══
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S05"
+        arc_id: ARC-2
+        location: 乡野/客栈/路途
+        time: 杨过独闯江湖期
+        participants: [杨过, 陆无双, 李莫愁]
+        pov: 杨过
+        conflict: 李莫愁追杀 vs. 杨过以机智化解
+        value_start: 危险（被李莫愁追杀）
+        value_end: 脱险（机智化解）
+        must_include: "假扮牧童傻蛋；暗中三次化解暗杀；牯牛计；假扮新郎骗李莫愁"
+        handoff: "脱险 → 华山遇洪七公 → S06"
+        source_chapter: "第8-9回"
+
+      - scene_id: "S06"
+        arc_id: ARC-2
+        location: 华山绝顶
+        time: 杨过流浪期
+        participants: [洪七公, 欧阳锋, 杨过]
+        pov: 杨过（旁观者）
+        conflict: 洪七公与欧阳锋毕生宿命对决
+        value_start: 旧五绝仍在
+        value_end: 旧五绝退场（双双归天）
+        must_include: "二人相抱大笑而逝；杨过独自安葬二老"
+        handoff: "旧时代结束 → 英雄大宴 → S07"
+        source_chapter: "第11回"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S07"
+        arc_id: ARC-2
+        location: 大胜关密室
+        time: 英雄大宴期间
+        participants: [黄蓉, 鲁有脚, 杨过（暗处）]
+        pov: 杨过
+        conflict: 无直接冲突——信息差/偷学场景
+        value_start: 武功不全（只有招式无口诀）
+        value_end: 武功完整（偷听补齐打狗棒法）
+        must_include: "黄蓉传授鲁有脚口诀心法；杨过天资百倍三遍全记；黄蓉未察觉"
+        handoff: "武功完整 → 三场比武 → S08"
+        source_chapter: "第12回"
+
+      - scene_id: "S08"
+        arc_id: ARC-2
+        location: 大胜关英雄宴
+        time: 抗蒙备战期
+        participants: [杨过, 小龙女, 金轮法王, 郭靖, 黄蓉, 群雄]
+        pov: 全知
+        conflict: 中原武林 vs. 金轮法王争盟主
+        value_start: 无名少年
+        value_end: 江湖新星
+        must_include: "打狗棒法战霍都；玉女素心剑法逼退法王；小龙女重逢"
+        handoff: "扬名 → 恋情暴露 → S09"
+        source_chapter: "第13回"
+
+  # ══ ARC-3: 礼教逐客 ══
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S09"
+        arc_id: ARC-3
+        location: 大胜关/郭靖营帐
+        time: 英雄宴后
+        participants: [杨过, 小龙女, 郭靖, 黄蓉, 赵志敬, 群雄]
+        pov: 杨过
+        conflict: 杨过与小龙女的爱情 vs. 礼教/师门规矩
+        value_start: 隐秘的幸福
+        value_end: 公开的放逐
+        must_include: "小龙女宣言'我要做过儿的妻子'；杨过'我没错！我没做坏事！'；郭靖举掌欲杀而不忍；小龙女留书出走"
+        handoff: "被逐 → 受伤/探父仇 → S10"
+        beat_direction: "全书中点反转——从此杨过成为秩序外的人"
+        source_chapter: "第14回"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S10"
+        arc_id: ARC-3
+        location: 乡野路边
+        time: 杨过被逐后流浪期
+        participants: [杨过, 傻姑]
+        pov: 杨过
+        conflict: 求知真相的执念 vs. 碎片信息的不可靠性
+        value_start: 不知父仇
+        value_end: 认定黄蓉为杀父仇人
+        must_include: "傻姑毒性发作断续揭秘；杨过悲愤立誓'不报此仇，杨过誓不为人'"
+        handoff: "认定父仇 → 赴襄阳 → S11"
+        source_chapter: "第16回"
+
+  # ══ ARC-4: 绝情谷与襄阳 ══
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-4
+        location: 绝情谷大厅
+        time: 绝情谷历险期
+        participants: [杨过, 小龙女, 公孙止, 公孙绿萼]
+        pov: 杨过
+        conflict: 小龙女忍痛拒认 vs. 杨过的声声呼唤
+        value_start: 拒认（'我与阁下素不相识'）
+        value_end: 相认（'我自然是你的妻子'）
+        must_include: "小龙女化名柳姑娘；杨过声声呼唤；生死威胁下终于相认"
+        handoff: "相认 → 联剑对战 → S28"
+        source_chapter: "第17-18回"
+
+      - scene_id: "S28"
+        arc_id: ARC-4
+        location: 绝情谷剑室/大厅
+        time: 绝情谷历险期
+        participants: [杨过, 小龙女, 公孙止, 金轮法王]
+        pov: 全知（杨过/小龙女交替）
+        conflict: 杨过与小龙女联手 vs. 公孙止的阴阳倒乱刃法
+        value_start: 联手抗敌（玉女素心剑法初显威力）
+        value_end: 情花毒发战局逆转（杨过被擒）
+        must_include: "君子淑女双剑磁力相吸；玉女素心剑法搭档战斗；情花毒发导致联剑功亏一篑"
+        handoff: "杨过被擒 → 求药困局 → S12"
+        beat_direction: "搭档战斗的范本——两人配合的招式如何描写、战斗中的心理交流"
+        source_chapter: "第18回"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-4
+        location: 襄阳城头/蒙古军营
+        time: 蒙古首次攻襄阳
+        participants: [杨过, 郭靖, 黄蓉, 金轮法王]
+        pov: 杨过
+        conflict: 私仇执念 vs. 公义感召
+        value_start: 仇恨（三度欲刺郭靖）
+        value_end: 觉醒（背负郭靖杀出重围）
+        must_include: "郭靖'为国为民，侠之大者'；杨过飞身救郭靖；'是我害了你'"
+        handoff: "道德觉醒 → 小龙女误会 → S13"
+        beat_direction: "全书主题句确立——'为国为民，侠之大者'"
+        source_chapter: "第21-22回"
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: "S13"
+        arc_id: ARC-4
+        location: 襄阳城花园
+        time: 杨过断臂前夕
+        participants: [小龙女, 尹志平, 赵志敬]
+        pov: 小龙女
+        conflict: 蒙昧中的安宁 vs. 真相的毁灭性
+        value_start: 蒙昧（误以为初夜对象是杨过）
+        value_end: 崩溃（发现是尹志平）
+        must_include: "尹志平对赵志敬说出真相；小龙女'难道不是我心爱的过儿？'"
+        handoff: "真相导致连锁崩溃 → S14"
+        source_chapter: "第24回（真相揭露段）"
+
+      - scene_id: "S14"
+        arc_id: ARC-4
+        location: 山中/竹林
+        time: 襄阳战后
+        participants: [杨过, 郭芙]
+        pov: 杨过
+        conflict: 郭芙的嫉妒冲动 vs. 杨过的愤怒
+        value_start: 完整（身体健全）
+        value_end: 残缺（永久失去右臂）
+        must_include: "郭芙转述小龙女之言；杨过掌掴郭芙；郭芙拔淑女剑断臂——'无声无息'"
+        handoff: "断臂 → 遇神雕 → S15"
+        beat_direction: "不可逆转折——终结旧杨过，为新杨过创造条件"
+        source_chapter: "第24回"
+
+  # ══ ARC-5: 蜕变与成婚 ══
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: "S29"
+        arc_id: ARC-5
+        location: 终南山重阳宫大殿
+        time: 杨过断臂同期
+        participants: [小龙女, 金轮法王, 潇湘子, 尼摩星, 尹克西, 全真五子]
+        pov: 小龙女
+        conflict: 小龙女独力面对多方势力围攻
+        value_start: 独力横扫（左右互搏双剑、天罗地网势）
+        value_end: 分心失利（想到杨过导致二用失效，被九大高手围攻重伤）
+        must_include: "左右互搏双剑首秀；天罗地网势抛掷数十柄长剑；想到杨过分心导致败局"
+        handoff: "小龙女重伤 → 杨过现身 → S15（重剑修炼）"
+        beat_direction: "小龙女独立战斗的唯一完整展示——一对多的视角管理和战局逆转"
+        source_chapter: "第25回"
+
+      - scene_id: "S15"
+        arc_id: ARC-5
+        location: 神雕谷 / 独孤求败剑冢
+        time: 断臂后
+        participants: [杨过, 神雕]
+        pov: 杨过
+        conflict: 身体残缺 vs. 武学突破
+        value_start: 绝望（独臂无依）
+        value_end: 重生（领悟'重剑无锋，大巧不工'）
+        must_include: "独孤求败墓碑'剑学四境'；山洪中苦练重剑"
+        handoff: "武功大成 → 返回襄阳 → S16"
+        source_chapter: "第26回"
+
+      - scene_id: "S16"
+        arc_id: ARC-5
+        location: 襄阳城花树下
+        time: 杨过独臂归来
+        participants: [杨过, 郭靖, 黄蓉, 郭芙]
+        pov: 杨过（旁观者）
+        conflict: 复仇之念 vs. 目睹郭靖公正后的宽恕
+        value_start: 复仇之念
+        value_end: 以德报怨
+        must_include: "杨过伏于花树；郭靖'斩断你一臂'；黄蓉飞身救女；杨过不忍下手"
+        handoff: "以德报怨 → 重阳宫 → S17"
+        source_chapter: "第26-27回"
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: "S17"
+        arc_id: ARC-5
+        location: 棘藤阵
+        time: 杨过返回期间
+        participants: [黄蓉, 李莫愁, 郭襄]
+        pov: 黄蓉
+        conflict: 李莫愁武力优势 vs. 黄蓉智谋
+        value_start: 李莫愁占上风
+        value_end: 被智谋反制
+        must_include: "棘藤九宫阵布局；似左实右可望不可即；苹果藏针反噬"
+        handoff: "杨过空中掠走郭襄 → 重阳宫 → S18"
+        source_chapter: "第27回"
+
+      - scene_id: "S18"
+        arc_id: ARC-5
+        location: 重阳宫大殿
+        time: 杨过重剑修炼后
+        participants: [杨过, 小龙女, 全真六子]
+        pov: 杨过
+        conflict: 师徒婚姻的禁忌 vs. 杨过的决绝
+        value_start: 禁忌之恋
+        value_end: 公开婚姻
+        must_include: "小龙女坦言被尹志平玷污；杨过'情义更增十倍'；王重阳像前拜堂"
+        handoff: "成婚 → 退入古墓疗伤 → S19"
+        beat_direction: "全书情感宣言——杨过以行动回应禁忌"
+        source_chapter: "第28回"
+
+  # ══ ARC-6: 阶梯式劫难 ══
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: "S19"
+        arc_id: ARC-6
+        location: 活死人墓石棺
+        time: 古墓疗伤期
+        participants: [杨过, 小龙女, 李莫愁, 郭芙]
+        pov: 杨过
+        conflict: 即将痊愈 vs. 连续意外毁灭
+        value_start: 即将痊愈
+        value_end: 彻底无救（毒质倒灌内脏）
+        must_include: "借李莫愁掌力冲通膻中穴；郭芙误射冰魄银针入棺；杨过伏棺大哭"
+        handoff: "毒入内脏 → 求药之旅 → S20"
+        beat_direction: "'给予希望再剥夺'的最残酷执行"
+        source_chapter: "第29回"
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: "S20"
+        arc_id: ARC-6
+        location: 绝情谷
+        time: 求药之旅末期
+        participants: [杨过, 小龙女, 公孙绿萼, 天竺僧, 李莫愁]
+        pov: 杨过
+        conflict: 解药争夺（多方势力）
+        value_start: 最后的希望
+        value_end: 绝望深渊
+        must_include: "公孙绿萼撞剑殉情换药；天竺僧被冰魄银针射杀"
+        handoff: "解药封死 → S21 → 小龙女跳崖"
+        source_chapter: "第31-32回"
+
+      - scene_id: "S21"
+        arc_id: ARC-6
+        location: 绝情谷情花丛
+        time: 绝情谷大混战末尾
+        participants: [李莫愁, 杨过, 小龙女, 黄蓉]
+        pov: 全知
+        conflict: 情花毒 vs. 至死不灭的痴情
+        value_start: 杀人者
+        value_end: 殉情者（烈火中唱情歌而死）
+        must_include: "烈火中高唱'问世间情为何物'直至声绝；黄蓉抱郭襄向火中拜谢"
+        handoff: "李莫愁退场 → 小龙女跳崖（S20续）→ 十六年时间跳跃"
+        beat_direction: "'问世间情为何物'主题曲闭环——贯穿全书的词在此终结"
+        source_chapter: "第32回"
+
+  # ══ ARC-7: 神雕大侠与谷底重逢 ══
+
+  - seq_id: ARC7-SEQ1
+    scenes:
+      - scene_id: "S22"
+        arc_id: ARC-7
+        location: 风陵渡口
+        time: 十六年后
+        participants: [郭襄, 杨过（大头鬼）]
+        pov: 郭襄
+        conflict: 郭襄对神秘神雕侠的好奇
+        value_start: 传说
+        value_end: 邂逅
+        must_include: "风陵渡口众人讲述神雕侠事迹；三枚金针之约；杨过摘面具"
+        handoff: "郭襄视角确立 → S23 → S24"
+        source_chapter: "第33-35回"
+
+  - seq_id: ARC7-SEQ2
+    scenes:
+      - scene_id: "S23"
+        arc_id: ARC-7
+        location: 百花谷 / 瑛姑居处
+        time: 十六年后
+        participants: [杨过, 周伯通, 一灯, 瑛姑, 慈恩]
+        pov: 全知
+        conflict: 数十年三角恩怨能否化解；黯然销魂掌的"有情vs无情"
+        value_start: 数十年恩怨未解
+        value_end: 化解与安息；黯然销魂掌完整亮相
+        must_include: "三角和解；慈恩安然辞世；黯然销魂掌十七招展示；周伯通因无情无法领悟"
+        handoff: "旧怨化解 → 比武展示 → S30"
+        source_chapter: "第34回"
+
+      - scene_id: "S30"
+        arc_id: ARC-7
+        location: 百花谷
+        time: 十六年后
+        participants: [杨过, 周伯通, 郭襄]
+        pov: 全知（郭襄为旁观/评论视角）
+        conflict: 杨过黯然销魂掌 vs. 周伯通左右互搏——有情武学vs无情武学
+        value_start: 试探比武
+        value_end: 全套十七招展示，周伯通心服
+        must_include: "心惊肉跳（胸肌伤人）；杞人忧天（掌力似穹庐）；无中生有（十余招同出）；拖泥带水（一轻一重）；郭襄插嘴制造喜剧缓冲"
+        handoff: "掌法展示完毕 → 郭襄生日 → S24"
+        beat_direction: "黯然销魂掌逐招展示——招式名如何通过具体身体动作诠释，快慢节奏的完整示范"
+        source_chapter: "第34回"
+
+      - scene_id: "S24"
+        arc_id: ARC-7
+        location: 襄阳城
+        time: 郭襄十六岁生日
+        participants: [杨过, 郭襄, 郭靖, 黄蓉, 群雄, 达尔巴, 霍都]
+        pov: 全知（郭襄为情感视角）
+        conflict: 蒙古军事压力 + 丐帮帮主被害悬案
+        value_start: 庆典
+        value_end: 侠义巅峰
+        must_include: "歼灭蒙古两千人队；火烧南阳粮草；擒达尔巴揭穿霍都夺回打狗棒"
+        handoff: "三件大礼 → '南海神尼'真相揭露 → S25"
+        source_chapter: "第36-37回"
+
+  - seq_id: ARC7-SEQ3
+    scenes:
+      - scene_id: "S25"
+        arc_id: ARC-7
+        location: 断肠崖 / 谷底花谷
+        time: 十六年之约到期日
+        participants: [杨过, 小龙女]
+        pov: 杨过
+        conflict: 杨过与命运的终极对决
+        value_start: 绝望赴死
+        value_end: 至情重逢
+        must_include: "一夜白发；吟悼亡词；'双足一登跃入深谷'；谷底花谷重逢；'精诚所至金石为开'"
+        handoff: "重逢 → 携手出谷 → S26"
+        beat_direction: "全篇情感高潮——全书最安静的高潮，没有犹豫没有独白，只有一个动作"
+        source_chapter: "第38回"
+
+  # ══ ARC-8: 襄阳大战与新五绝 ══
+
+  - seq_id: ARC8-SEQ1
+    scenes:
+      - scene_id: "S26"
+        arc_id: ARC-8
+        location: 襄阳城 / 高台 / 蒙古军阵
+        time: 蒙古第二次大举攻襄阳
+        participants: [杨过, 小龙女, 郭靖, 黄蓉, 金轮法王, 蒙哥]
+        pov: 全知（杨过为中心）
+        conflict: 家国存亡 + 杨过vs金轮法王终极对决
+        value_start: 家国危亡
+        value_end: 天下太平
+        must_include: "黯然销魂掌因'龙儿别了'恢复威力；踢翻法王；飞石击中蒙哥后心"
+        handoff: "襄阳保全 → S27"
+        beat_direction: "全篇军事高潮——情感化为力量的终极证明"
+        source_chapter: "第39回"
+
+  - seq_id: ARC8-SEQ2
+    scenes:
+      - scene_id: "S27"
+        arc_id: ARC-8
+        location: 襄阳城→华山
+        time: 大战翌日
+        participants: [杨过, 郭靖, 黄蓉, 黄药师, 一灯, 周伯通, 群雄]
+        pov: 杨过
+        conflict: 无外在冲突，内在张力在于杨过的自省
+        value_start: 胜利的欢欣
+        value_end: 敬畏的沉静
+        must_include: "杨过说出感恩之言；'汗流浃背暗自心惊'；新五绝册封；'大醉而散'"
+        handoff: "全书收束"
+        source_chapter: "第40回"
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: "多峰结构：S09（礼教放逐）、S12-S14（觉醒→断臂）、S13-S11（真相/拒认相认）为前中段高峰；S20+S21（希望断绝+李莫愁自焚）为最深谷底；S25-S26（重逢→击杀蒙哥）为终极双峰；S24（三件大礼）为终幕高燃；S27为舒缓余韵"
+  peaks: ["S09", "S12", "S14", "S20", "S25", "S26", "S13", "S11", "S21", "S24"]
+  valleys: ["S15", "S22", "S27", "S02"]
+
+# ── 场景级因果链 ──
+
+causal_chain: "S01（爱恨建置）→ S02（师徒日常）→ S03（师徒绑定）→ S04（情感确立）→ S05（江湖历险）→ S06（旧时代终结）→ S07（偷听口诀）→ S08（扬名）→ S09（恋情曝光被逐）→ S10（傻姑揭秘父仇）→ S11（绝情谷拒认→相认）→ S12（道德觉醒）→ S13（真相大白）→ S14（断臂）→ S15（重剑蜕变）→ S16（以德报怨）→ S17（棘藤智斗）→ S18（拜堂成亲）→ S19（毒针逆转）→ S20（绿萼殉情/希望断绝）→ S21（李莫愁自焚）→ S22（十六年后郭襄视角）→ S23（旧怨化解/黯然销魂掌）→ S24（三件大礼）→ S25（跳崖重逢）→ S26（击杀蒙哥）→ S27（新五绝/大醉而散）"

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-324ab921cf4229b77da34219
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1049
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 仿佛即将升起的太阳要弥补失去的时间
+sensory_mapping: 视觉亮度；时间节奏；加速动作
+context_fact: 恒纪元第十七天，太阳比预定日出晚了五小时，随后曙光以异常速度覆盖半天。
+image_mechanism: 五小时空缺先被记成一笔时间欠账，骤然加快的光亮便像迟到者压缩后续步骤偿还欠时；速度异常获得可理解的意图。
+property_alignment: 晚于日出时间对应失去时段；曙光超常扩展对应加速补做；很快照亮半天对应把正常渐亮过程压缩完成
+context_alignment: 人物刚因太阳迟到而恐惧，补时解释只短暂提供秩序感，紧接巨日灾变又将这份拟人化安慰反转。
+narrative_function: 把异常日出的速度写成带意图的急迫，为灾变爆发蓄势。
+transfer_rule: 写延迟后骤然加速时，可用补时框架对应原定节点、缺失时长和压缩后的动作节奏。
+failure_boundary: 若过程没有明确迟到基线，或后续速度并未超过常态，“弥补时间”便缺少可核对的欠账和偿还。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 迟到五小时后异常迅速扩展、变亮的曙光
+vehicle: 迟到者为补回耽误时间而加速赶工
+ground: 太阳超过正常日出时刻才出现对应迟到者耽搁；曙光以超常速度增亮对应迟到后加快进程补偿

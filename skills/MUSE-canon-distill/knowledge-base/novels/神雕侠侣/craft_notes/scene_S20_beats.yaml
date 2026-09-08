@@ -1,0 +1,28 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 绿萼的不孝
+  dimension: info_density
+  original_move: 偷换药全程不写，「不孝」双关成延迟爆炸装置
+  ai_default_failure: 提前安插她悄悄藏药的心理活动
+  transfer_rule: 关键牺牲压在水下，靠一词双关延迟揭底
+  quote: 我是个不孝的女儿
+- pattern_id: S20-p2
+  beat: 撞剑殉情
+  dimension: verb
+  original_move: 「撞」是自己发力的动词，死亡方式时机皆自选
+  ai_default_failure: 插入此生无憾愿来生再见的独白
+  transfer_rule: 殉情保持行动纯度，一个称呼即一生总结
+  quote: 低声叫道：「杨郎，杨郎！」
+- pattern_id: S20-p3
+  beat: 天竺僧之死
+  dimension: omission
+  original_move: 最重要医者之死只给一行，无遗言无英雄化
+  ai_default_failure: 写他指向草药或留下未完成药方
+  transfer_rule: 希望熄灭需要速度与残酷感，不给缓冲
+  quote: 银针透胸而入，登时毙命
+overall_traits:
+- 死亡篇幅不对称写命运不讲道理
+- 认知翻转锚定：信息与人物认知同步
+- 安静的极端行为拒绝仪式感

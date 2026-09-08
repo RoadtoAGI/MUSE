@@ -1,0 +1,155 @@
+{
+  "novel": "你好，旧时光",
+  "nominations": [
+    {
+      "pattern_name": "喧闹写孤独",
+      "dramatic_function": "用角色的高密度表演或游戏暴露缺席的陪伴，避免直说孤独。",
+      "applicability": "适合内向儿童或创作者型角色；若只堆热闹无现实反衬会失效。",
+      "reuse_candidates": [
+        "魔神英雄传",
+        "输液瓶圣水",
+        "余周周的角色名"
+      ],
+      "tags": [
+        "幻想防御",
+        "反向渲染",
+        "童年孤独"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_01",
+          "note": "独角戏越热闹，母亲门外落泪越显孤独。"
+        },
+        {
+          "scene_id": "scene_04",
+          "note": "舞台故事把童年离别伪装成童话。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "延迟真相渗出",
+      "dramatic_function": "重大创伤不正面公布，让日常碎片迫使读者自行拼出因果。",
+      "applicability": "适合角色处在麻木期；若前文缺少碎片锚点会变成故弄玄虚。",
+      "reuse_candidates": [
+        "旅行团日期",
+        "烧纸流程",
+        "公交车抱猴记忆"
+      ],
+      "tags": [
+        "延迟揭示",
+        "创伤叙事",
+        "因果留白"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_14",
+          "note": "母亲去世由公交、烧纸、月光碎片逐步显形。"
+        },
+        {
+          "scene_id": "scene_13",
+          "note": "幸福过载先埋下后来崩塌的情感伏笔。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "物件了结关系",
+      "dramatic_function": "让象征物完成动作，替代和解、控诉或告别长谈。",
+      "applicability": "适合关系有长期物质锚点；没有历史负载的物件无效。",
+      "reuse_candidates": [
+        "喜乐零食",
+        "美香食杂店牌匾",
+        "自制连环画"
+      ],
+      "tags": [
+        "关系了结",
+        "物件叙事",
+        "象征动作"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_16",
+          "note": "买回喜乐后离开，父女关系不再需要解释。"
+        },
+        {
+          "scene_id": "scene_17",
+          "note": "连环画把共同记忆变成未完待续。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "荒诞仪式同盟",
+      "dramatic_function": "让角色共同完成一件傻事，快速建立信任和阵营归属。",
+      "applicability": "适合青春群像和临场压力；若角色不愿暴露丑态会失效。",
+      "reuse_candidates": [
+        "台下的都是猪",
+        "推墙",
+        "主持比赛设定"
+      ],
+      "tags": [
+        "群像破冰",
+        "仪式动作",
+        "共享荒诞"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_12",
+          "note": "说猪和推墙把陌生同伴变成同盟。"
+        },
+        {
+          "scene_id": "scene_11",
+          "note": "群体下跪的荒诞外壳反衬真实恐惧。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "留白式告白",
+      "dramatic_function": "用短音节、废话或未说出口的话，让读者补完关系确认。",
+      "applicability": "适合已充分铺垫的暧昧关系；铺垫不足时会显得空洞。",
+      "reuse_candidates": [
+        "雪地一声嗯",
+        "To be continued",
+        "画得真丑"
+      ],
+      "tags": [
+        "情感留白",
+        "少年恋爱",
+        "短对白"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "scene_08",
+          "note": "一声嗯以环境静止承载告白重量。"
+        },
+        {
+          "scene_id": "scene_17",
+          "note": "废话和空白页完成关系确认。"
+        },
+        {
+          "scene_id": "scene_15",
+          "note": "最深情的话留在没有说出口处。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        5
+      ]
+    }
+  ]
+}

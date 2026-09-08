@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5748dd5ce83d679ff1ca4633
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2094
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 说不定，基地会成了这儿的唐僧肉
+sensory_mapping: 珍贵肉食；群体围抢；撕咬分食；护送困难；利益诱惑
+context_fact: 负责人认为该地虽电磁环境最佳，但贫穷会使基地长期陷入复杂地方关系。
+image_mechanism: 科研设施被缩成一块可食利益，周围组织从合作对象变为循味而来的争夺者；选址从技术问题转成护送猎物穿越险地。
+property_alignment: 基地资金物资对应唐僧肉；贫困地方对应资源饥饿环境；各部门村民索取对应妖怪争食；长期纠纷对应一路劫难；基地难保护对应唐僧需护送
+context_alignment: 说话者以人文环境否决技术最优点，民间典故符合其务实、带偏见的地方治理判断。
+narrative_function: 一句解释负责人预期的利益冲突，也暴露其将贫困群众妖魔化的视角。
+transfer_rule: 用唐僧肉写利益目标时，应有稀缺价值、多方觊觎、可被分割消耗和保护成本。
+failure_boundary: 周边主体没有索取动机、资源不可分配，或基地能通过透明制度互利时，唐僧肉会把合作误写成掠夺。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 未来射电基地的预算、物资和设施可能被贫困地方各方反复索取和争夺
+vehicle: 《西游记》中能令食者长生、沿途妖怪人人想抢夺吞食的唐僧肉
+ground: 基地资源稀缺诱人对应长生肉珍贵；地方多方觊觎对应群妖争抢；基地被消耗对应肉被分食

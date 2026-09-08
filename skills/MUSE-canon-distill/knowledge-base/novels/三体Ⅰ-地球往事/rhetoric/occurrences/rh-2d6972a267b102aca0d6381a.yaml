@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2d6972a267b102aca0d6381a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2612
+chapter: 第34章 智子
+figure_type: simile
+quote: 这种试验就像是从夏天的一场大暴雨中，找出颜色稍有不同的一个雨点
+sensory_mapping: 暴雨密集；雨滴高速；微小色差；视线筛查；瞬时消失
+context_fact: 智子将潜伏于加速器，在罕见真实撞击发生时插入错误结果，破坏人类对物质深层结构的分析。
+image_mechanism: 粒子束的统计洪流变成眼前暴雨，每个事件短暂落下又消失；研究者必须在来不及逐个凝视的滴群中辨认一个近乎同色的异常点。
+property_alignment: 粒子束数量大对应暴雨密度；单次碰撞对应单滴雨；成功碰撞罕见对应唯一异滴；信号差别小对应轻微色差；记录短促对应雨滴瞬逝；长期实验对应持续冒雨寻找
+context_alignment: 智子只需在关键稀有点制造假象便能污染结论，暴雨异滴准确说明小干预为何能毁掉整个实验。
+narrative_function: 把罕见事件检出难度和智子欺骗成本同时形象化。
+transfer_rule: 用暴雨找异滴写数据筛选时，应匹配样本海量、事件短促、目标稀少、特征差微和漏检误检风险。
+failure_boundary: 有效事件比例高、特征鲜明可自动分离，或数据可无限重复静态检查时，暴雨中肉眼找滴会夸大困难。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 在海量高能粒子撞击记录中捕捉极少数真正击中靶核且结果有细微差异的有效事件
+vehicle: 密集夏日暴雨中逐滴分辨，并从无数相似雨点找出唯一颜色略异的一滴
+ground: 大量碰撞数据对应暴雨雨点；有效事件极少对应唯一异色雨点；差异细微对应颜色只稍有不同；筛选困难

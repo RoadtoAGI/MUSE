@@ -1,0 +1,21 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 选择的理由
+  dimension: info_density
+  original_move: 用否定排比剥离常见理由
+  ai_default_failure: 写漫长权衡和痛苦抉择
+  transfer_rule: 写主动放弃时用排除法逼近核心
+  quote: 不是因为伊迪丝
+- pattern_id: S10-p2
+  beat: 告别
+  dimension: omission
+  original_move: 让拥抱和做爱替代告别台词
+  ai_default_failure: 安排深情告白或回忆往昔
+  transfer_rule: 写爱到尽头时让身体替语言说话
+  quote: 这样就用不着说话
+overall_traits:
+- 高情感场景低声处理
+- 抽象理由精确落点
+- 身体接触替代台词

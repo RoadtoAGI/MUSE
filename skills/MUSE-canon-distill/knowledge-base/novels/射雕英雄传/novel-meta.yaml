@@ -1,0 +1,11 @@
+title: 射雕英雄传
+author: 金庸
+canonical: true
+search_hints:
+  - "金庸 射雕英雄传"
+  - "射雕英雄传 维基百科"
+notes: |
+  canonical: true 表示本书已进入"名著"范畴——
+  character-kb-distill Step 2f 会生成 claims.yaml，
+  Step 2g 触发联网核对（WebSearch + WebFetch 多源比对）。
+  非名著（用户自带素材、原创小说）应设为 false 跳过事实层。

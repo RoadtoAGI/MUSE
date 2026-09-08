@@ -1,0 +1,14 @@
+skills_dir: "skills/MUSE-writing/skills"
+output_dir: "output"
+
+providers:
+  compatible:
+    base_url: "https://your-provider.example/v1"
+    api_key_ref: "env:MUSE_API_KEY"
+    models: ["*"]
+
+routing:
+  default_model: "your-model-name"
+  retry:
+    max_retries: 3
+    retry_on: [500, 502, 503]

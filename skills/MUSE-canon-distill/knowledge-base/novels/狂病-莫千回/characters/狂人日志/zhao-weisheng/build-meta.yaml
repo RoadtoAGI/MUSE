@@ -1,0 +1,26 @@
+mode: reference
+display_name: 赵维胜
+role_slug: zhao-weisheng
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/狂人日志/phase3_spine.yaml  # 结构化依据：antagonistic_forces.interpersonal/internal + arc_framework
+  - pipeline/phase0_conception.yaml      # human_antagonist_typology / controlling_idea（受害者侧对照）
+  - scenes/scene_KR-S04.md
+  - scenes/scene_KR-S05.md
+  - scenes/scene_KR-S08.md
+  - scenes/scene_KR-S09.md
+  - scenes/scene_KR-S10.md
+built_at: 2026-05-29T17:35:35+08:00
+skill_version: 1
+locator_count: 11
+has_canon_ending: true
+coverage_note: |
+  本系列单篇人物，phase2_character.yaml 仅登记跨篇人物，未登记赵维胜的系统级条目；
+  结构化字段（欲望/真相/弧光）依据 pipeline/狂人日志/phase3_spine.yaml 的 antagonistic_forces + arc_framework
+  及 phase0_conception.yaml 受害者侧推导，所有断言均有篇内 scene locator 佐证。
+  身世独白集中于 S05:L51-L53（父亡/暴力母亲/无归属→妻子孩子给归属→亲手砸死感染妻子），是欲望系统"归属"的核心单点。
+  声音框架跨 3 个场景（S05 自我打气+道谢 / S08 丧子辱骂 / S10 临终诅咒），覆盖顺境讨好与崩溃失控两极。
+  弧光起点（S05 身世）+ 转折（S05 放弃救人 / S08 互殴）+ 终点（S09 揭谜）三段齐全。
+  性格真相有压力情境直接佐证（S05 被"你儿子谁照顾"压制放弃救人 / S08 丧子翻面）。
+  边界第 4/5 条（拒绝侮辱孩子 / 维持善恶信念）依赖揭谜场 S09-S10 单点，属极端检验场景而非日常观察，可接受。

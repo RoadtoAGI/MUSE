@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4b261a91677495c992fea838
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1744
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 世界在他的眼中变成了黑白两色，唯一拥有色彩的是刚刚出现的那个人
+sensory_mapping: 视觉去色；色彩饱和；焦点；眩晕；前景背景
+context_fact: 人群喊统帅到来，汪淼看到熟悉的杨冬母亲在护卫中走来，身份反转令他眩晕。
+image_mechanism: 震惊像瞬间关闭世界的色彩通道，三百多人和破食堂退成旧照片，叶文洁却保持鲜活颜色；心理聚焦被直接投到视网膜画面。
+property_alignment: 周围人群对应黑白背景；注意力丧失对应色彩被抽走；叶文洁身份冲击对应唯一高饱和主体；眩晕对应视觉系统突变；她稳步走近对应彩色焦点扩大
+context_alignment: 汪淼此前把她当温和长者，统帅身份让熟悉人物从日常背景跃为核心威胁，色彩独占准确表现认知重排。
+narrative_function: 用主观视觉突变完成统帅揭面，锁定全章权力中心。
+transfer_rule: 用去色突出人物时，应有强烈注意转移、原背景信息退场和唯一主体的情感或认知冲击。
+failure_boundary: 场景本身色彩变化真实发生、注意仍分散或被突出者并非情绪核心时，该画面会沦为滤镜效果。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼认出叶文洁竟是ETO统帅时，震惊使周围人事退去存在感，注意力全部集中到她身上
+vehicle: 整幅画面被抽去颜色，只给唯一主体保留鲜明彩色，使其从背景强烈凸出
+ground: 周围信息失去注意价值对应背景褪成黑白；叶文洁占据全部意识对应唯一彩色主体最醒目

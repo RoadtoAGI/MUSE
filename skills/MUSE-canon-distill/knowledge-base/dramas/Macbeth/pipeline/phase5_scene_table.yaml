@@ -1,0 +1,554 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    全部 27 场逐场填写（RSC 5 幕：A1×7 / A2×4 / A3×6 / A4×3 / A5×7）。
+    key_scene_flag 标注 9 场（A1S1 / A1S3 / A1S5 / A1S7 / A2S2 / A2S3 / A3S4 /
+    A4S1 / A4S2 / A4S3 / A5S1 / A5S5 / A5S7 — 实际 13 场，是 Macbeth 的"密度
+    极高"标志）。所有场均含 reference_lanes / 防污染元数据由 dramatic_scene_index.jsonl
+    统一携带（本表不重复）。
+
+scenes:
+  - scene_id: A1S1
+    act: 1
+    scene: 1
+    location: blasted_heath
+    time: storm (open-air, indeterminate day)
+    characters_on_stage: [First Witch, Second Witch, Third Witch]
+    entrances: [Three Witches]
+    exits: [Three Witches]
+    dramatic_purpose: open_in_supernatural_register_and_announce_macbeth_as_target
+    scene_turn: from_meta-cosmic_storm → naming_the_human_target
+    subtext: [moral_inversion_as_world_premise ("fair is foul, foul is fair"), prophecy_will_choose_him]
+    stageable_actions: [thunder, choric_chant, vanish]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse (trochaic tetrameter, rhymed)
+    dialogue_density: low
+    key_scene_flag: true
+    notes: |
+      Only 12 lines, but does enormous metric / register work: trains
+      the audience that supernatural speech is rhyming trochaic short
+      lines, distinct from the iambic verse of the human court.
+
+  - scene_id: A1S2
+    act: 1
+    scene: 2
+    location: duncan's_camp_near_forres
+    time: post-battle, day
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Lennox, Captain, Ross, Angus, Attendants]
+    entrances: [bleeding Captain, Ross, Angus]
+    exits: [Captain (assisted), all]
+    dramatic_purpose: establish_macbeth_offstage_as_battlefield_savior_and_promote_him_to_cawdor
+    scene_turn: rebellion_threat → loyalist_victory + new_title_for_macbeth
+    subtext: [thane_of_cawdor_falls_so_macbeth_rises, what_duncan_loses_macbeth_wins (literal Duncan line)]
+    stageable_actions: [bleeding_captain_report, royal_council, swift_proclamation]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    notes: |
+      Functional scene — sets up the audience to hear Macbeth's name
+      already loaded with both heroism and the ironic title that will
+      be the witches' first proof.
+
+  - scene_id: A1S3
+    act: 1
+    scene: 3
+    location: blasted_heath
+    time: same day, later
+    characters_on_stage: [Three Witches, Macbeth, Banquo, Ross, Angus]
+    entrances: [Witches first, then Macbeth & Banquo, then Ross & Angus]
+    exits: [Witches vanish; others toward Duncan]
+    dramatic_purpose: prophecy_planted_then_partially_proved_within_the_scene
+    scene_turn: skepticism → empirical_confirmation_of_cawdor → soliloquy_of_supernatural_soliciting
+    subtext: [equivocation_already_named, banquo's_dynastic_prophecy_will_become_motive_for_act3, "my thought, whose murder yet is but fantastical"]
+    stageable_actions: [witches_vanish_into_air, ross_brings_cawdor_news, macbeth_aside_in_growing_isolation]
+    monologue_or_soliloquy: partial (Macbeth's "Two truths are told" aside)
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+
+  - scene_id: A1S4
+    act: 1
+    scene: 4
+    location: forres_palace
+    time: same day, later
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Lennox, Macbeth, Banquo, Ross, Angus, Attendants]
+    entrances: [Macbeth & co. enter to Duncan]
+    exits: [Macbeth (to ride home ahead); then court]
+    dramatic_purpose: succession_announcement_creates_political_motive_and_pulls_duncan_toward_inverness
+    scene_turn: thanks → naming_malcolm_prince_of_cumberland → macbeth's_first_explicit_murder_soliloquy
+    subtext: ["the Prince of Cumberland: that is a step / On which I must fall down or else o'erleap", duncan_walks_into_his_killer's_house_voluntarily]
+    stageable_actions: [public_embraces, naming_of_heir, macbeth_aside_then_exit]
+    monologue_or_soliloquy: partial (Macbeth's "Stars, hide your fires" aside)
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    notes: |
+      Often underrated. This is where the political motive (Malcolm's
+      elevation) crystallizes. Without A1S4 the murder would be pure
+      prophecy-chasing.
+
+  - scene_id: A1S5
+    act: 1
+    scene: 5
+    location: inverness_castle
+    time: that evening
+    characters_on_stage: [Lady Macbeth (alone, then Messenger, then Macbeth)]
+    entrances: [Messenger, Macbeth]
+    exits: [Messenger]
+    dramatic_purpose: lady_macbeth_takes_command_through_letter_and_unsex_invocation
+    scene_turn: private_reading → ritual_self-unsexing → installing_the_plan_in_a_returning_husband
+    subtext: [she_is_more_committed_than_he_is, the_letter_is_the_proof_he_has_already_chosen_to_tell_her, "look like th'innocent flower, but be the serpent under't"]
+    stageable_actions: [reading_letter_aloud, invocation_to_spirits, hostess_command]
+    monologue_or_soliloquy: true
+    soliloquy_id: come-you-spirits-unsex-me
+    verse_or_prose: verse
+    dialogue_density: low (one big soliloquy + arrival exchanges)
+    key_scene_flag: true
+    notes: |
+      Pair with A5S1: the "unsex" invocation is the exact rhetorical
+      inverse of the sleepwalking confession. The play binds them
+      across four acts.
+
+  - scene_id: A1S6
+    act: 1
+    scene: 6
+    location: outside_inverness_castle
+    time: that evening, arrival
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Banquo, Lennox, Macduff, Ross, Angus, Lady Macbeth, Attendants]
+    entrances: [royal party arrives; Lady Macbeth comes out as hostess]
+    exits: [all enter the castle together]
+    dramatic_purpose: trap_set_with_ironically_beautiful_arrival_speech
+    scene_turn: praise_of_air_and_martlet → kingly_thanks → hostess_extends_hospitality_into_the_trap
+    subtext: [audience_knows_every_courtesy_is_a_lie, banquo's_martlet_speech_is_dramatic_irony_at_concentrated_strength]
+    stageable_actions: [hautboys_torches, hostess_curtsey, conducting_king_inward]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    notes: |
+      The scene's ironic beauty (sweet air, pleasant seat, temple-
+      haunting martlet) is the play's most concentrated audience-
+      vs-character knowledge asymmetry.
+
+  - scene_id: A1S7
+    act: 1
+    scene: 7
+    location: inverness_castle (chamber off banquet)
+    time: that evening, during supper
+    characters_on_stage: [Macbeth (alone, then Lady Macbeth)]
+    entrances: [servants pass with dishes; Lady Macbeth enters]
+    exits: [both exit toward chamber]
+    dramatic_purpose: macbeth_retreats_then_is_argued_back_into_the_deed
+    scene_turn: "if-it-were-done_soliloquy_of_doubt → wife's_manhood-shaming → contracted_resolution"
+    subtext: ["I have no spur to prick the sides of my intent but only vaulting ambition", "I have given suck and know how tender 'tis to love the babe", manhood_redefined_as_capacity_for_atrocity]
+    stageable_actions: [solitary_pacing, marital_confrontation, plan_specification (drugged grooms, smeared daggers)]
+    monologue_or_soliloquy: true
+    soliloquy_id: if-it-were-done-when-tis-done
+    verse_or_prose: verse
+    dialogue_density: high (after soliloquy, dense duologue)
+    key_scene_flag: true
+    notes: |
+      The play's first great manhood-rhetoric scene; pair with A3S4
+      (manhood at banquet) and A4S3 (manhood at England court). The
+      tactic is unstable: it works once, fails once, is redeemed once.
+
+  - scene_id: A2S1
+    act: 2
+    scene: 1
+    location: inverness_castle_courtyard
+    time: after_midnight (continuous with A1S7)
+    characters_on_stage: [Banquo, Fleance, Macbeth, Servant]
+    entrances: [Macbeth + Servant; Servant exits; Banquo & Fleance exit; bell rings within]
+    exits: [Macbeth toward Duncan's chamber]
+    dramatic_purpose: dagger_soliloquy_and_the_bell_that_summons_the_murder
+    scene_turn: courteous_late-night_exchange_with_banquo → solitary_hallucination → bell-cue → exit_to_kill
+    subtext: [banquo's_dream_already_circles_the_witches, "the bell invites me ... a knell / That summons thee to heaven or to hell"]
+    stageable_actions: [transfer_of_diamond, sword_taken_by_fleance_then_returned, bell_within]
+    monologue_or_soliloquy: true
+    soliloquy_id: is-this-a-dagger-which-i-see-before-me
+    verse_or_prose: verse
+    dialogue_density: medium (with one extended soliloquy)
+    key_scene_flag: true
+    notes: |
+      The "running scene 8" annotation in the RSC text shows A2S1+S2+S3
+      are one continuous arc of stage time; the act-scene break is
+      editorial rather than dramatic.
+
+  - scene_id: A2S2
+    act: 2
+    scene: 2
+    location: inverness_castle (just outside Duncan's chamber)
+    time: continuous
+    characters_on_stage: [Lady Macbeth, Macbeth]
+    entrances: [Lady Macbeth alone, then Macbeth with bloody daggers]
+    exits: [Lady Macbeth to smear grooms then returns; both exit to wash]
+    dramatic_purpose: the_offstage_regicide_made_visible_through_aftermath
+    scene_turn: tense_waiting → bloody_return → conscience_overload_("sleep no more") → wife_takes_back_control_(daggers) → first_knock
+    subtext: [the_play_refuses_to_show_the_killing_so_the_audience_must_construct_it_from_macbeth's_disordered_speech, "had he not resembled my father as he slept I had done't" (Lady Macbeth's only flicker of pre-action conscience), "will all great Neptune's ocean wash this blood clean from my hand?"]
+    stageable_actions: [knocking_within (offstage instrument), bloody_daggers_carried_then_taken_back, hand-rubbing_anticipated_in_dialogue]
+    monologue_or_soliloquy: false (but soliloquy-density speech from both)
+    verse_or_prose: verse
+    dialogue_density: very_high (short urgent exchanges)
+    key_scene_flag: true
+
+  - scene_id: A2S3
+    act: 2
+    scene: 3
+    location: inverness_castle (south entry, then internal)
+    time: continuous → dawn
+    characters_on_stage: [Porter, Macduff, Lennox, Macbeth, Lady Macbeth, Banquo, Malcolm, Donalbain, Ross]
+    entrances: [Porter alone; Macduff & Lennox; Macbeth; Macduff returns shouting; Lady Macbeth; Banquo; Malcolm & Donalbain]
+    exits: [Macbeth + Lennox to chamber; Lady Macbeth helped off; all but Malcolm & Donalbain; finally those two to England/Ireland]
+    dramatic_purpose: porter_hell-gate_then_discovery_then_macbeth's_double-cover_killing_then_princes_flee
+    scene_turn: comic_relief_(equivocator_named) → horror_announcement → macbeth_kills_grooms_under_pretext_of_fury → succession_collapses_(princes_flee)
+    subtext: [the_castle_is_explicitly_named_hell_by_a_drunk_porter, "had I but died an hour before this chance / I had lived a blessed time" — the truth Macbeth says ironically is the play's verdict, malcolm/donalbain's_flight_creates_the_appearance_of_guilt_that_paves_the_way_for_macbeth]
+    stageable_actions: [porter_routine, knocking_continuing, bell_alarum, faint_(Lady Macbeth feigns/real), grooms_killed_offstage_and_reported]
+    monologue_or_soliloquy: true (Porter's prose monologue is functionally a soliloquy)
+    soliloquy_id: porter-hell-gate
+    verse_or_prose: prose_for_porter_then_verse
+    dialogue_density: very_high
+    key_scene_flag: true
+
+  - scene_id: A2S4
+    act: 2
+    scene: 4
+    location: outside_macbeth's_castle
+    time: morning after
+    characters_on_stage: [Ross, Old Man, Macduff]
+    entrances: [Macduff joins later]
+    exits: [Macduff to Fife, Ross to Scone]
+    dramatic_purpose: choric_scene_signaling_cosmic_disorder_and_macduff's_refusal
+    scene_turn: cataloguing_unnatural_omens → confirming_macbeth_at_scone → macduff_publicly_chooses_fife_over_court
+    subtext: [a_world_whose_horses_eat_each_other_signals_the_audience_that_the_metaphysical_order_has_inverted, "lest our old robes sit easier than our new" — macduff's verdict on the new reign]
+    stageable_actions: [two_men_talking_in_daylight_that_is_dark, brief_macduff_visit]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    notes: |
+      A "chorus + protagonist" scene — Old Man functions as ancient
+      memory; Ross is the play's persistent news-bearer; Macduff's
+      refusal is the political seed of acts 3–5.
+
+  - scene_id: A3S1
+    act: 3
+    scene: 1
+    location: forres_palace (Macbeth's court)
+    time: day, after coronation
+    characters_on_stage: [Banquo (alone, then court), Macbeth (as King), Lady Macbeth (as Queen), Lennox, Ross, Lords, Attendants, Servant, Two Murderers]
+    entrances: [Banquo soliloquy; sennet; court enters; court exits; murderers enter]
+    exits: [Banquo to ride; court; murderers]
+    dramatic_purpose: macbeth_targets_banquo_and_recruits_killers
+    scene_turn: banquo's_suspicion → public_invitation_to_supper → solitary_decision_("to be thus is nothing") → recruitment
+    subtext: [banquo_knows_("I fear thou playedst most foully for't") but does not act, macbeth_treats_murderers_with_the_same_manhood-rhetoric_lady_macbeth_used_on_him_in_A1S7, fleance_also_named_for_killing_("his absence is no less material")]
+    stageable_actions: [court_ceremony_then_emptying_the_room, transactional_persuasion]
+    monologue_or_soliloquy: true (Macbeth's "To be thus is nothing")
+    soliloquy_id: to-be-thus-is-nothing
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: false
+    notes: |
+      Important structural mirror of A1S7 — Macbeth now plays the
+      Lady Macbeth role to the murderers.
+
+  - scene_id: A3S2
+    act: 3
+    scene: 2
+    location: forres_palace
+    time: same day, later
+    characters_on_stage: [Lady Macbeth, Servant, Macbeth]
+    entrances: [Lady Macbeth and Servant; Macbeth]
+    exits: [Servant; both to supper]
+    dramatic_purpose: marital_partnership_dissolves_macbeth_now_withholds_plans
+    scene_turn: "lady_macbeth's_anxious_(but excluded)_inquiry → macbeth's_torment_("full of scorpions is my mind") → his_refusal_to_share_("be innocent of the knowledge, dearest chuck")"
+    subtext: [the_a1s5-a1s7_partnership_is_inverted, "we have scorched the snake not killed it", invocation_of_night_now_macbeth's_voice_not_hers]
+    stageable_actions: [intimate_two-hander, the_evening_thickening_outside]
+    monologue_or_soliloquy: partial (Lady Macbeth's brief "naught's had, all's spent")
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: false
+
+  - scene_id: A3S3
+    act: 3
+    scene: 3
+    location: park_outside_palace
+    time: dusk
+    characters_on_stage: [Three Murderers, Banquo, Fleance, Torchbearer]
+    entrances: [murderers; Banquo & Fleance with torch]
+    exits: [Banquo dies; Fleance flees; murderers]
+    dramatic_purpose: banquo_killed_but_fleance_escapes
+    scene_turn: ambush_set → torch_struck_out_(symbolic) → banquo_dies_telling_fleance_to_revenge → escape
+    subtext: [the_third_murderer's_unexplained_appearance_keeps_witch-uncertainty_in_play, killing_the_father_while_the_son_runs_is_the_play's_dynastic_failure_made_visible]
+    stageable_actions: [torch_extinguished, swift_attack, exit_of_fleance_into_the_dark]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: high (short turns)
+    key_scene_flag: false
+
+  - scene_id: A3S4
+    act: 3
+    scene: 4
+    location: forres_palace (banquet hall)
+    time: that evening
+    characters_on_stage: [Macbeth, Lady Macbeth, Ross, Lennox, Lords, Attendants, First Murderer (at door), Ghost of Banquo]
+    entrances: [court takes seats; Murderer at door reports; Ghost takes Macbeth's seat (twice)]
+    exits: [Murderer; Lords dismissed in disorder]
+    dramatic_purpose: public_mask_breaks_macbeth_seen_to_be_haunted
+    scene_turn: hosting_the_court → murderer's_report_(banquo_dead/fleance_escaped) → ghost_appears → cover_breaks → second_appearance → lords_dismissed → resolve_to_visit_witches
+    subtext: [lady_macbeth's_manhood-shaming_tactic_fails_in_public_("are you a man?" — yes but the wrong way), "I am in blood / Stepped in so far, that, should I wade no more, / Returning were as tedious as go o'er" — the play's mid-arc verdict, "we are yet but young in deed" — premise of the descent ahead]
+    stageable_actions: [banquet_seating, ghost_takes_throne-chair, lords_starting_to_rise_held_down_by_lady_macbeth, abrupt_dismissal]
+    monologue_or_soliloquy: false (densely public)
+    verse_or_prose: verse
+    dialogue_density: very_high
+    key_scene_flag: true
+    notes: |
+      The play's first major public eruption of the supernatural.
+      Whatever the staging tradition (visible ghost / empty seat /
+      doubled actor), the structural function is identical: the
+      audience verifies that the haunting is real, the court verifies
+      only that the king is dangerously ill.
+
+  - scene_id: A3S5
+    act: 3
+    scene: 5
+    location: blasted_heath
+    time: night
+    characters_on_stage: [Three Witches, Hecate]
+    entrances: [Hecate to Witches]
+    exits: [Hecate; Witches]
+    dramatic_purpose: hecate_interlude_resets_supernatural_register_before_apparitions
+    scene_turn: rebuke_for_acting_without_her → preparation_of_artificial_sprites → song_(probably middleton)
+    subtext: [the_audience_is_warned_that_a4s1's_apparitions_will_be_deliberately_designed_to_"draw him on to his confusion"]
+    stageable_actions: [music_song, departure_for_acheron_pit]
+    monologue_or_soliloquy: true (Hecate's set-piece is functionally a soliloquy-aria)
+    soliloquy_id: hecate-security-is-mortals-chiefest-enemy
+    verse_or_prose: verse (rhymed iambic tetrameter)
+    dialogue_density: low
+    key_scene_flag: false
+    notes: |
+      Widely judged Middleton interpolation (with cross-quotes from
+      The Witch); the RSC text preserves it. Functionally provides
+      the audience an explicit "warning label" on the apparitions.
+
+  - scene_id: A3S6
+    act: 3
+    scene: 6
+    location: forres_(somewhere_outside_court)
+    time: indeterminate
+    characters_on_stage: [Lennox, another Lord]
+    entrances: [both already on]
+    exits: [both]
+    dramatic_purpose: political_report_to_the_audience_about_opposition_consolidating
+    scene_turn: lennox's_ironic_recital_of_official_story → lord's_factual_correction_(macduff_in_england_seeking_aid)
+    subtext: [the_official_narrative_is_now_openly_disbelieved_by_thanes, holy_english_king_edward_as_explicit_legitimate_counterpart, war_is_being_prepared]
+    stageable_actions: [two_men_talking_carefully]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    notes: |
+      Almost pure exposition / chorus; the audience now knows
+      Macduff is in England with Malcolm and Edward, an army is
+      forming, and Macbeth's regime is named "the tyrant."
+
+  - scene_id: A4S1
+    act: 4
+    scene: 1
+    location: cauldron_cave
+    time: storm
+    characters_on_stage: [Three Witches, Hecate, Three Apparitions, Show of Eight Kings (Banquo last with glass), Macbeth, Lennox]
+    entrances: [Witches; Hecate (then exit); Macbeth; apparitions one by one; show of kings; Lennox]
+    exits: [Hecate; apparitions descend; Witches dance and vanish]
+    dramatic_purpose: false_oracular_assurance_loaded_with_three_time-bombs
+    scene_turn: ritual_cauldron → demand_for_answer → three_equivocal_apparitions → show_of_kings_(banquo_lineage_confirmed) → decision_to_butcher_macduffs
+    subtext: [the_apparitions_each_literally_predict_their_undoing_(armed head = own decapitated head; bloody child = Macduff born by C-section; crowned child with tree = Birnam Wood), "the very firstlings of my heart shall be / the firstlings of my hand" — pure decisionism replacing earlier conscience]
+    stageable_actions: [cauldron_with_ingredients_recited, apparitions_rise_speak_descend, show_of_kings_with_mirror, witches_dance]
+    monologue_or_soliloquy: false (but Macbeth's "Time, thou anticipat'st" aside)
+    verse_or_prose: verse (witches in tetrameter, Macbeth in pentameter)
+    dialogue_density: very_high
+    key_scene_flag: true
+
+  - scene_id: A4S2
+    act: 4
+    scene: 2
+    location: fife_castle
+    time: day
+    characters_on_stage: [Lady Macduff, Son, Ross, Messenger, First Murderer (and others)]
+    entrances: [Ross departs; Messenger; Murderers]
+    exits: [Ross; Messenger; Lady Macduff pursued]
+    dramatic_purpose: domestic_slaughter_as_play's_moral_nadir
+    scene_turn: argument_about_husband's_flight → child's_witty_resistance → messenger's_warning_arrives_too_late → murderers_enter → son_stabbed_onstage → mother_flees_screaming
+    subtext: ["he loves us not: he wants the natural touch" — the play's most devastating short verdict on macduff's choice, "i am in this earthly world where to do harm / is often laudable, to do good sometime / accounted dangerous folly", the_son_is_quick-witted_specifically_so_his_death_costs_more]
+    stageable_actions: [child_questioning, messenger_short_visit, stabbing_onstage]
+    monologue_or_soliloquy: false
+    verse_or_prose: prose_for_the_mother-son_riddles_then_verse
+    dialogue_density: high
+    key_scene_flag: true
+
+  - scene_id: A4S3
+    act: 4
+    scene: 3
+    location: english_court (before Edward the Confessor)
+    time: indeterminate (well after Fife)
+    characters_on_stage: [Malcolm, Macduff, Doctor, Ross]
+    entrances: [Doctor briefly; Ross]
+    exits: [Doctor; all]
+    dramatic_purpose: alliance_forged_through_testing_then_news_of_fife_redirects_grief_into_war
+    scene_turn: malcolm's_self-slander_test → macduff_passes_("fit to govern? no, not to live") → doctor_describes_edward's_healing_touch_(political_counter-image) → ross_arrives → fife_news_revealed → grief_converted_to_whetstone
+    subtext: [malcolm_is_a_political_actor_now_too_(he_tests_macduff_because_he_must), the_macbethian_question_("be a man") is_re-tested_and_redeemed_when_macduff_insists_"i must also feel it as a man", english_king_heals_what_scottish_king_diseases]
+    stageable_actions: [long_two-handed_political_argument, doctor's_brief_choric_visit, ross's_slow_news-delivery]
+    monologue_or_soliloquy: false (sustained dialogue)
+    verse_or_prose: verse
+    dialogue_density: very_high (longest scene in play)
+    key_scene_flag: true
+
+  - scene_id: A5S1
+    act: 5
+    scene: 1
+    location: dunsinane (Lady Macbeth's chamber)
+    time: night
+    characters_on_stage: [Doctor, Gentlewoman, Lady Macbeth]
+    entrances: [Lady Macbeth with taper]
+    exits: [Lady Macbeth back to bed]
+    dramatic_purpose: lady_macbeth_offstage_collapse_made_audible_through_sleepwalking_confession
+    scene_turn: clinical_observation → patient_enters → fragments_of_the_three_murders_in_sequence → doctor's_diagnosis_("more needs she the divine")
+    subtext: [she_who_invoked_"thick night" now_carries_continual_light, the_"unsex me" had_a_price_paid_now, "what's done cannot be undone" reverses_"what's done is done" (her own a3s2 line)]
+    stageable_actions: [taper, hand-rubbing, exit, two_observers_standing_close]
+    monologue_or_soliloquy: true (Lady Macbeth's fragmented confession functions as broken soliloquy)
+    soliloquy_id: out-damned-spot
+    verse_or_prose: prose
+    dialogue_density: medium (sleepwalker plus observers)
+    key_scene_flag: true
+    notes: |
+      Pair with A1S5. The two scenes form the play's two pillars of
+      her arc. Note the medium shift: A1S5 was verse soliloquy of
+      will; A5S1 is prose fragmentation of broken will.
+
+  - scene_id: A5S2
+    act: 5
+    scene: 2
+    location: country_near_dunsinane
+    time: day
+    characters_on_stage: [Menteith, Caithness, Angus, Lennox, Soldiers]
+    entrances: [marching]
+    exits: [marching toward Birnam]
+    dramatic_purpose: scottish_thanes_marching_to_join_english_army_regime_loses_its_own_peers
+    scene_turn: pre-battle_report → diagnosis_of_macbeth_as_diseased_garment → resolve_to_meet_at_birnam
+    subtext: ["his title hang loose about him, like a giant's robe / upon a dwarfish thief" — the play's most condensed image of usurped power, "those he commands move only in command, nothing in love"]
+    stageable_actions: [drum_and_colours, march]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+
+  - scene_id: A5S3
+    act: 5
+    scene: 3
+    location: dunsinane_castle
+    time: day
+    characters_on_stage: [Macbeth, Doctor, Servant, Seyton, Attendants]
+    entrances: [Servant briefly; Seyton with armor]
+    exits: [Servant; Macbeth half-armored]
+    dramatic_purpose: macbeth_oscillates_between_charm-based_bravado_and_nihilist_exhaustion
+    scene_turn: bravado_quoting_apparitions → servant's_report_of_english_force → outburst → "my way of life is fall'n into the sear" lament → arming → questioning_doctor → exit_swearing_at_medicine
+    subtext: [the_apparitions' charm is the_only_thing_holding_him_together, "honour, love, obedience, troops of friends, I must not look to have" — pre-tomorrow_diagnosis_of_loss]
+    stageable_actions: [arming_onstage_with_attendants, doctor's_terrified_aside]
+    monologue_or_soliloquy: true (Macbeth's "I have lived long enough" speech)
+    soliloquy_id: my-way-of-life-is-fallen-into-the-sear
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: false
+
+  - scene_id: A5S4
+    act: 5
+    scene: 4
+    location: country_near_birnam_wood
+    time: day
+    characters_on_stage: [Malcolm, Siward, Macduff, Siward's Son, Menteith, Caithness, Angus, Soldiers]
+    entrances: [marching]
+    exits: [marching]
+    dramatic_purpose: equivocation_made_stage-physical_(each_soldier_cuts_a_bough)
+    scene_turn: arrival_at_birnam → malcolm's_order_to_cut_boughs → march
+    subtext: [the_charm_that_promised_security_is_being_literally_executed_against_him, "thoughts speculative their unsure hopes relate, / but certain issue strokes must arbitrate" — siward's_rejection_of_oracle]
+    stageable_actions: [cutting_branches_visible_or_implied, drum_colours, march]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+
+  - scene_id: A5S5
+    act: 5
+    scene: 5
+    location: dunsinane_castle
+    time: day
+    characters_on_stage: [Macbeth, Seyton, Soldiers, Messenger]
+    entrances: [Seyton briefly off then back with news; Messenger]
+    exits: [all]
+    dramatic_purpose: tomorrow_soliloquy_and_charm_beginning_to_break
+    scene_turn: bravado_about_castle_strength → cry_of_women → news_of_queen's_death → tomorrow_soliloquy → messenger_reports_wood_moves → equivocation_recognized → "ring the alarum bell"
+    subtext: [lady_macbeth's_offstage_suicide_arrives_as_a_one-line_cue, "she should have died hereafter" admits_both_inevitability_and_inadequacy_of_grief, "I 'gin to be aweary of the sun" inverts_the_play's_dawn_imagery]
+    stageable_actions: [cry_within_(female), messenger_arriving_breathless]
+    monologue_or_soliloquy: true (the "Tomorrow" speech is the play's terminal soliloquy)
+    soliloquy_id: tomorrow-and-tomorrow-and-tomorrow
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+
+  - scene_id: A5S6
+    act: 5
+    scene: 6
+    location: outside_dunsinane
+    time: continuous
+    characters_on_stage: [Malcolm, Siward, Macduff, Army]
+    entrances: [marching with boughs]
+    exits: [marching to assault]
+    dramatic_purpose: assault_signal_with_boughs_thrown_down
+    scene_turn: throw_down_screens → battle_orders → trumpets_sound_assault
+    subtext: [the_play's_shortest_scene_(11 lines)_serves_as_purely_temporal_punctuation_between_tomorrow_(a5s5)_and_the_duels_(a5s7)]
+    stageable_actions: [throwing_boughs_down, trumpets]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: low
+    key_scene_flag: false
+
+  - scene_id: A5S7
+    act: 5
+    scene: 7
+    location: dunsinane_battlefield_(continuous)
+    time: continuous
+    characters_on_stage: [Macbeth, Young Siward, Macduff, Malcolm, Siward, Ross, Thanes, Soldiers (head as prop at end)]
+    entrances: [Macbeth; Young Siward; Macduff; Malcolm & Siward; Macbeth again; Macduff again; Malcolm & company; Macduff returning with head]
+    exits: [Young Siward dead; Macbeth offstage with Macduff; Macduff returning with head]
+    dramatic_purpose: terminal_duels_charm_literalized_(of_no_woman_born)_decapitation_hailing_coronation_announcement
+    scene_turn: bear-baited_resolve → kills_young_siward → meets_macduff → "of no woman born" charm_invoked → macduff_reveals_c-section_birth → "lay on macduff" → offstage_killing → head_returned → "hail king of scotland" → reckoning_speech_announcing_earls_and_coronation_at_scone
+    subtext: ["these juggling fiends ... that palter with us in a double sense" — late recognition of equivocation, "I will not yield" — protagonist's last claim to agency, malcolm_closes_the_play_naming_macbeth_"dead butcher" and_lady_macbeth_"fiend-like queen" — the play refuses retroactive ennoblement]
+    stageable_actions: [duel_young_siward_killed_onstage, duel_macbeth_v_macduff_exits_fighting, head_returned_as_prop, hailing, flourish_exeunt]
+    monologue_or_soliloquy: false (densely public)
+    verse_or_prose: verse
+    dialogue_density: very_high
+    key_scene_flag: true
+    notes: |
+      RSC version runs A5S6 + A5S7 as one continuous action ("running
+      scene 23"); the act-scene break is editorial. Other editions
+      (Riverside, Norton) split this segment into more scenes.
+
+# 节奏速查表（key_scene_flag 命中位置 = 13 场密度热力点）
+density_hotspots:
+  - A1S3 (prophecy delivery + first soliloquy seed)
+  - A1S5 (Lady Macbeth's command soliloquy)
+  - A1S7 (manhood test #1 succeeds)
+  - A2S2 (offstage regicide aftermath)
+  - A2S3 (porter + discovery + cover-killing + princes flee)
+  - A3S4 (banquet ghost — manhood test #2 fails in public)
+  - A4S1 (cauldron apparitions — false oracle)
+  - A4S2 (Fife slaughter — moral nadir)
+  - A4S3 (England — manhood test #3 redeemed; alliance forged)
+  - A5S1 (sleepwalking — Lady Macbeth's offstage collapse)
+  - A5S5 (Tomorrow soliloquy + Birnam moves)
+  - A5S7 (terminal — charm broken, decapitation, hailing)
+  - A1S1 (registered as opening for medium grammar — choric register baseline)

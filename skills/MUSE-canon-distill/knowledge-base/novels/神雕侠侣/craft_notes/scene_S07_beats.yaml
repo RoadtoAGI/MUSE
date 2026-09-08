@@ -1,0 +1,28 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 鲁有脚的笨拙
+  dimension: omission
+  original_move: 偷听者零台词零动作零心理，读者也暂时忘了他在场
+  ai_default_failure: 插入偷听者的暗喜或赞叹独白
+  transfer_rule: 埋伏笔时让关键人物在场景中彻底隐身
+  quote: 黄蓉反来覆去说了一遍又一遍
+- pattern_id: S07-p2
+  beat: 一句话天赋建置
+  dimension: verb
+  original_move: 只用一个「记住」，动词越简单天赋感越强
+  ai_default_failure: 写暗自窃喜并铺陈记诵过程
+  transfer_rule: 写天才用不自知状态呈现而非炫耀
+  quote: 只听到第三遍，早已一字不漏的记住
+- pattern_id: S07-p3
+  beat: 黄蓉叫破偷听
+  dimension: omission
+  original_move: 不写追问与疑虑，让最聪明者犯合理假设之错
+  ai_default_failure: 让黄蓉心中微动产生一丝疑虑
+  transfer_rule: 反讽要让聪明角色彻底安心而非半信半疑
+  quote: 一起都给我滚下来罢
+overall_traits:
+- 信息差建置靠不写：在场者隐身则伏笔无痕
+- 天赋靠篇幅不对称表达而非正面描写
+- 一景三用：授艺、定位天赋、埋伏笔零冗余

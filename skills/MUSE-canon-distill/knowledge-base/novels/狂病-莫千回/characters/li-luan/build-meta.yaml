@@ -1,0 +1,34 @@
+mode: reference
+display_name: 李鸾
+role_slug: li-luan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - characters/不详/_candidates.md
+  - scenes/scene_BX-S01.md
+  - scenes/scene_BX-S03.md
+  - scenes/scene_BX-S06.md
+  - scenes/scene_BX-S07.md
+  - scenes/scene_BX-S08.md
+  - scenes/scene_BX-S09.md
+  - scenes/scene_BX-S10.md
+built_at: "2026-05-29T16:40:00+08:00"
+skill_version: 1
+locator_count: 16
+has_canon_ending: true
+identity_link: tao-yiren
+identity_relationship: "同一人的两个人格（裂脑术后衍生，共用一具身体）：李鸾=本体人格（《不详》POV，灰暗自毁的'灾星'自我认知）；陶亦仁=第二人格（创世军'死亡奔赴'教主）。佐证 BX-S10:L13-L21'你是我'。两包并行独立蒸馏，不可在同一作品里当两个无关角色并存。"
+coverage_note: |
+  李鸾仅在《不详》单篇出场（场景前缀 BX，BX-S01~S10），取证全部来自该篇内不同场景，
+  无跨篇证据——这是本角色的固有约束，软建议中"跨 ≥2 场景"靠 BX 内不同场满足，
+  而非跨小说篇章。
+  identity_link：陶亦仁（role_slug tao-yiren）= 李鸾裂脑术后衍生的第二人格（《搏击俱乐部》式
+  "你是我"，BX-S10:L13-L15），创世军教主。两者共用一具身体，互标 identity_link；
+  tao-yiren 另有独立参考包并行蒸馏。性格真相段已显式写出该 link 并带 BX-S10:L13-L15 佐证。
+  声音框架跨 3 场取证（BX-S01 回溯自白 / BX-S10 自嘲疯话 / BX-S08 动作截断情感），非单点。
+  弧光跨起点（BX-S01）/ 转折（BX-S06、BX-S10）/ 终点（BX-S10）四个 locator，非单点外推。
+  弧光仅描内在转变（"灾星"自我认知 + 双人格觉察 + 承担"bug"认知）；物理层的自我感染 /
+  双人格肉搏毁灭不写进弧光，拆到 references/canon-ending.md。
+  真假身份严格区分：BX-S08 中"自称罗允"的反派（带孩子小林系统性诱杀沈曾祺队，转述入场）
+  是假罗允（吴先生/wu-xiansheng 型），不用于刻画李鸾人格，仅作《不详》篇内反派背景，未取 locator。

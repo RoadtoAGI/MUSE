@@ -1,0 +1,31 @@
+# series/volumes/V0N.yaml —— 开卷共创中的卷纲，随实际章节推进落位
+schema_version: 1
+volume_id: V01
+status: active                 # planned | active | closed；closed 即冻结
+protagonist_delta:
+  from: null                   # 卷初处境、关系、认识或性格
+  to: null                     # 作者决定的卷末变化，可保持稳定；接管只填已发生状态
+volume_question: null          # 共创确认的本卷核心问题
+tentpoles: []                   # 承担卷级转折的节拍；无适用条目时可为空，不固定条数
+#   - beat: "谁作出什么选择或发生什么事，从而改变本卷局面"
+#     value_shift: "该转折前后的价值或处境变化"
+#     anchor: unresolved       # 规划尚未定位时用 unresolved；对应章物化后填实际 chapter_id
+# 接管回填已发布转折时，anchor 直接用该卷 manifest 已有章号；原文标题号不能代替章 ID。
+world_reveal_plan: []           # 本卷需要的世界揭示安排；无安排时为空
+#   - reveal_id: W-V01-01      # 稳定标识，供 fact_delta 回指与卷收束核查
+#     reveal: "准备向读者揭示的设定内容"
+#     from_ceiling: "story_bible.frozen.world_ceiling 中对应的已有锚点"
+#     status: planned          # planned | fulfilled | carried_to_next_volume | dropped_by_decision
+#     planned_at: U01          # 可选；预期单元或章号，兑现前保持铺垫与揭示的区别
+narrative_lines: []             # 可选；多线且章编排需要区分时填写
+#   - line_id: LINE-01
+#     description: "由谁或什么问题推动的持续剧情线"
+#     active_at: [U01]         # U## 覆盖单元；C#### 只对应实际章
+chapters: []                    # 滚动编排当前卷，开卷时可尚无章条目
+#   - chapter_id: C0001
+#     unit: U01                # 卷内单元 ID
+#     logline: "本章人物、情境、行动与后果"  # 物化前必填；outline 阶段可待编排
+#     hook_type: 信息投放       # 物化前必填；悬念 | 反转 | 情绪炸弹 | 信息投放；可用类型扩展
+#     opened: []               # 本章开启的 thread_id
+#     closed: []               # 本章回收的 thread_id
+#     status: outline          # outline | drafted | published

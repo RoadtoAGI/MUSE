@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5baa045f8aac0a4889e8d3f1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1463
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 但凯撒正在清醒过来，在重整军备
+sensory_mapping: 睁眼；意识明亮；身体苏醒；动作恢复
+context_fact: 牛顿刚断言罗马沉入荒淫泥潭，秦始皇承认其腐化，却警惕西方正在重整军备。
+image_mechanism: 帝国被赋予一具从宴饮昏睡中抬头的身体，眼睛先重新聚焦东方，随后手脚整理武器；政治复苏因此具有突然逼近的威胁感。
+property_alignment: 罗马先前涣散对应昏睡；重新认识局势对应睁眼恢复感知；重整军备对应醒后控制肢体；对秦国威胁回升对应醒者开始行动
+context_alignment: 它直接反拨“不可自拔”的绝对判断，体现秦始皇比奉承者更清楚敌国仍有恢复能力。
+narrative_function: 为凯撒阵营保留威胁，并刻画秦始皇的政治警觉。
+transfer_rule: 以清醒写组织复苏时，应对应此前的迟钝、重新感知风险和随后出现的可验证行动。
+failure_boundary: 组织只是口头表态、军备并未改变，或此前一直高度警觉时，清醒会捏造睡眠—复苏转折。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 凯撒及其帝国开始摆脱纵欲涣散状态，重新恢复战略警觉和军事组织
+vehicle: 沉睡或昏沉者睁眼恢复感知，重新控制身体行动
+ground: 先前政治军事迟钝对应睡眠时感知关闭；开始整军对应醒者恢复有目的动作

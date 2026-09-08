@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-df058512e8fc0dd634006549
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L993
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 一只手抬到颚下，似乎在抚摸着那已不存在的胡须，它的头微仰，仿佛在向天地发问
+sensory_mapping: 视觉；身体姿态；动作想象
+context_fact: 孔子因错误预测而冻死，骷髅仍保持生前思索宇宙礼法的姿势。
+image_mechanism: 静止骨架的两处关节姿态被补全为连续动作：手仿佛仍在捋须，抬头仿佛仍在发问，死亡遗骸因而保留生前思维。
+property_alignment: 颚下抬手对应思想者抚须；微仰头骨对应向天空询问；姿态长期凝固对应问题在死亡后仍未得到回答
+context_alignment: 角色正是试图以礼法解答天象的孔子，问天地的动作准确延续其失败理论，而非任意赋予骷髅情绪。
+narrative_function: 以带讽刺的庄严姿态凝结孔子的理论执迷和文明失败。
+transfer_rule: 让遗留姿势指向人物生前行为时，应从可见关节和朝向还原具体动作，并让该动作继续人物尚未解决的核心问题。
+failure_boundary: 姿势若没有托颚、仰首等可核对线索，或死者生前并非追问天地，发问形象会成为旁白强加。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 孔子骷髅抬手托颚、仰头凝止的姿势
+vehicle: 抚须仰首、向天地追问的思想者
+ground: 手停在颚下对应抚须沉思的手势；头部微仰对应把问题投向高处天地的朝向

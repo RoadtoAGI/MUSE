@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4dd713bb60eeb60f9bbfc5cc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2054
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 对社会刚刚出现的一点希望像烈日下的露水般蒸发了
+sensory_mapping: 透明水珠；烈日热量；汽化；瞬间消失；干燥
+context_fact: 她原只求听见一点忏悔，却得知施暴者同样受时代摧残且拒绝承担个人责任，最后一句仍是无人会记得。
+image_mechanism: 社会新生的希望被缩成叶尖一滴水，三个女人的回答像正午烈日直照，水珠没有流走或破碎，而是连痕迹都化进空气。
+property_alignment: 微弱希望对应一点露水；社会复苏初现对应清晨凝露；拒绝忏悔对应烈日灼照；信心快速消失对应汽化；不再怀疑背叛对应地表彻底干燥
+context_alignment: 前文把改革写成科学春天和曙光，此处同一光热不再滋养而蒸干希望，完成象征反转。
+narrative_function: 封死叶文洁最后的人性期待，使引入外星文明从疑虑变为坚定理想。
+transfer_rule: 用烈日蒸露写希望消失时，应让希望先足够微小、外部打击强烈且消失迅速无残留。
+failure_boundary: 人物仍保留持续行动信念、打击只是暂时挫折或希望有坚实制度支撑时，露水会夸大脆弱。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁因老红卫兵没有忏悔而彻底失去对社会复苏和人性改善的微弱希望
+vehicle: 清晨叶片上一点露水在强烈日照下迅速汽化，消失得不留痕迹
+ground: 希望本来微小脆弱对应露珠体量少；残酷会面迅速摧毁希望对应烈日使露水蒸发

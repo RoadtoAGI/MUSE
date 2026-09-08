@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9299344fb816c95fb0cea634
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1533
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 现在出现了亘古罕有的‘三日连珠’
+sensory_mapping: 圆形；光泽；直线排列；前后遮叠
+context_fact: 肉眼只见一轮太阳，天文台发现另两颗正藏在其后，三太阳与行星始终共线。
+image_mechanism: 天体尺度被缩成掌中珠串，遥远太阳的三维轨道压到一根细线；看似单颗的亮盘因此能被想象为前后叠藏的三珠。
+property_alignment: 三颗太阳对应三颗珠子；太阳圆亮对应珠面圆而有光；天体共线对应穿珠直线；视线遮挡对应珠子前后重合
+context_alignment: “连珠”准确补足肉眼无法分辨的深度关系，也以吉祥天象旧名反衬实际毁灭性引力叠加。
+narrative_function: 将复杂轨道构型压成一眼可懂的几何图，并命名本轮文明灾难。
+transfer_rule: 用珠串写天体共线时，应对齐圆形、线性次序和视角遮叠，区分真正接触与仅在观测方向重合。
+failure_boundary: 天体只近似成弧、间距方向持续变化，或读者会误以为物理相连时，连珠需补充观测视角。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 三颗太阳在观察方向上排列成一条直线并同角速度运行的天象
+vehicle: 三颗圆珠被线穿起，前后紧密排成一串
+ground: 三个圆形太阳对应三颗圆珠；共线且互相遮挡对应珠子沿一根线串联

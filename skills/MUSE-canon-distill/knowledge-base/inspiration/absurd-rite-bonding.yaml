@@ -1,0 +1,22 @@
+card_id: absurd-rite-bonding
+pattern_name: 荒诞仪式同盟
+dramatic_function: 让角色共同完成一件傻事，快速建立信任和阵营归属。
+applicability: 适合青春群像和临场压力；若角色不愿暴露丑态会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 台下的都是猪
+- 推墙
+- 主持比赛设定
+tags:
+- 群像破冰
+- 仪式动作
+- 共享荒诞
+source_scenes:
+- novel: 你好，旧时光
+  scene_id: scene_12
+  note: 说猪和推墙把陌生同伴变成同盟。
+- novel: 你好，旧时光
+  scene_id: scene_11
+  note: 群体下跪的荒诞外壳反衬真实恐惧。
+phase_affinity:
+- 2
+- 5

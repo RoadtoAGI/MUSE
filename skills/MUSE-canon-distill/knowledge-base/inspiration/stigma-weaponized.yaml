@@ -1,0 +1,27 @@
+card_id: stigma-weaponized
+pattern_name: 缺陷反制
+dramatic_function: 让角色把长期羞辱过的缺陷转化为压服他人的行动杠杆
+applicability: 适合反英雄、弱势领导、临阵动员；若缺陷未被前文压迫会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 侏儒身份
+- 君临守城
+- 兰尼斯特家族
+tags:
+- 反英雄
+- 动员
+- 身份羞辱
+- 弱点武器化
+source_scenes:
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S02
+  note: 提利昂初入权力中心时以被轻视身份反压会议
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S20
+  note: 他用半人羞辱反向激起士兵自尊
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S21
+  note: 身体弱势者亲自冲锋使动员代价兑现
+phase_affinity:
+- 2
+- 3
+- 5

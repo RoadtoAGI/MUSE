@@ -1,0 +1,56 @@
+scene_id: S17
+source_notes: scene_S17_beats.md
+patterns:
+- pattern_id: S17-p1
+  beat: 常识被嘲笑即设定被建立
+  dimension: omission
+  original_move: 零旁白解说，NPC 重复「这是乱纪元」嘲笑玩家常识以建立规则
+  ai_default_failure: 让 NPC 做设定演讲逐条解释世界机制
+  transfer_rule: 反常识世界建置时，把说明书转译成主角犯错被嘲笑
+  quote: 「太阳？看太阳怎么能知道时间？」
+- pattern_id: S17-p2
+  beat: 常识被嘲笑即设定被建立
+  dimension: overall
+  original_move: NPC 宣称与环境应验形成段落配对，世界本身充当最终裁决者
+  ai_default_failure: 把应验并入对话段，靠人物口头确认规则
+  transfer_rule: 规则住对话行，紧随的叙述段立即兑现，天象不可怀疑
+  quote: 「果然，天边的晨光开始暗下去」
+- pattern_id: S17-p3
+  beat: 追随者脱水——骇人奇观的厨房化
+  dimension: verb
+  original_move: 拎拍卷夹等家务动词处理人体，比喻全取厨房日用物性
+  ai_default_failure: 写主角惊恐后退、胃里翻腾的恐怖反应
+  transfer_rule: 骇人奇观锚定在读者最熟的日常物性上，删情绪反应
+  quote: 「就像卷一只放了气的皮球一般」
+- pattern_id: S17-p4
+  beat: 大太阳——用阴影几何写温度
+  dimension: camera
+  original_move: 不拍太阳本体，拍阴影缩短、冻土化泥与人的求生走位
+  ai_default_failure: 堆「酷热难耐」式形容词或报温度数字
+  transfer_rule: 写极端环境只拍受热物状态变化与应激行为
+  quote: 「岩石的阴影在渐渐缩短」
+- pattern_id: S17-p5
+  beat: 三种雪——末日的物态分层
+  dimension: info_density
+  original_move: 降温靠凝结物化学成分逐级显影，物理链条自带恐惧推演
+  ai_default_failure: 用温度计数字与恐慌群像写降温
+  transfer_rule: 末世奇观由科学常识推演生成，读者自己走完恐惧
+  quote: 「这雪花已经是凝固的氧、氮了」
+- pattern_id: S17-p6
+  beat: 三种雪——末日的物态分层
+  dimension: omission
+  original_move: 文明死亡交给系统字幕公文体宣告，零情感修辞
+  ai_default_failure: 为文明灭亡写悲怆排比与宏大咏叹
+  transfer_rule: 例行公事式的毁灭用冷漠语体宣告更显恐怖
+  quote: 「第137号文明在严寒中毁灭了」
+- pattern_id: S17-p7
+  beat: 三种雪——末日的物态分层
+  dimension: overall
+  original_move: 九字句独立成段作悬崖剪切，由盛转灭不给任何过渡
+  ai_default_failure: 用过渡段铺垫情绪转折
+  transfer_rule: 重大转折可用极短独立段实现悬崖式剪切
+  quote: 「但太阳再也没有升起来。」
+overall_traits:
+- 设定教学外包给玩家犯错，全场景无一段说明书
+- 奇观由物理推论生成，以日常物性呈现
+- 灾难叙述零度化，文明死亡用公文体字幕宣告

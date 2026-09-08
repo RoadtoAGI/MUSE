@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cef8a3ddae6ee144d61b0231
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1522
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 朕倾大秦之国力来维持计算机的运行
+sensory_mapping: 容器倾斜；液体倾注；单向流动；见底
+context_fact: 计算持续一年多，全国储备已耗尽，供给道路从各地辐射到主板，死亡人数不计其数。
+image_mechanism: 秦国疆域被塑成盛满国力的巨器，几十条运输道路成为向主板汇流的液柱；皇帝一倾，边地储备便持续流到中央直至见底。
+property_alignment: 秦国资源总量对应容器内容物；全国动员对应倾斜动作；供给道路汇向主板对应液流汇入一点；储备耗尽对应容器倒空
+context_alignment: 远景中运输道路确实像白线从全国流向主板，空间画面给“倾”提供可见流向。
+narrative_function: 把分散的全国成本汇成单向耗竭图，校正计算奇观背后的代价。
+transfer_rule: 用倾注写资源投入时，应明确储备容器、集中流向、接收项目和投入后余量变化。
+failure_boundary: 资源可循环回收、投入分散且保有充分余量，或国家并未统一动员时，“倾国力”会夸大集中与耗尽。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 秦始皇把全国几乎全部资源和人力投入人列计算机
+vehicle: 将容器倾斜，把其中液体全部倒向一个接收处
+ground: 国家资源集中转移对应液体从容器流出；投入接近耗尽对应容器被倾空

@@ -1,0 +1,28 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 失败清单
+  dimension: info_density
+  original_move: 人生维度压成均匀排比清单
+  ai_default_failure: 展开多段具体闪回画面
+  transfer_rule: 写临终回顾时可用清单替代画廊
+  quote: 冷酷无情地看着自己的生活
+- pattern_id: S13-p2
+  beat: 太不重要了
+  dimension: camera
+  original_move: 从失败清单切到窗外年轻人远景
+  ai_default_failure: 加一句想起自己年轻时的感慨
+  transfer_rule: 写超越时让注意力自然转移
+  quote: 这些想法太平庸了
+- pattern_id: S13-p3
+  beat: 书滑落
+  dimension: verb
+  original_move: 最后动作由手指松软被动完成
+  ai_default_failure: 写成主角主动放下并领悟人生
+  transfer_rule: 写死亡收束时让身体自行完成动作
+  quote: 手指开始松软
+overall_traits:
+- 临终不煽情
+- 首尾用手部动作呼应
+- 最后动作保持被动

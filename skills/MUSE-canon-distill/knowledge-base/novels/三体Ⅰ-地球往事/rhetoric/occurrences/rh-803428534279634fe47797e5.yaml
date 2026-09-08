@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-803428534279634fe47797e5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1052
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 黑子如幽灵般沿着无规则的路线漂浮
+sensory_mapping: 视觉；明暗；漂浮运动；诡异气氛
+context_fact: 汪淼在巨日表面的火焰涌浪间看见黑子游移。
+image_mechanism: 高亮火海中的黑斑被剥去物质重量，只留下暗影沿不可预测路线滑行；陌生天体现象因此获得幽灵般的无根运动。
+property_alignment: 黑子颜色阴暗对应幽灵暗影；无规则路线对应幽灵不可预测的游荡；在火海表面漂浮对应无实体支点的悬行
+context_alignment: 文明正被巨日吞噬，死亡关联使幽灵兼顾黑子外观和灾变氛围。
+narrative_function: 在火海壮观中加入死亡预兆和不可控运动。
+transfer_rule: 用幽灵写移动斑影时，应同时对齐低实体感、暗色轮廓和缺乏可预测轨道的漂浮方式。
+failure_boundary: 边界清晰、轨迹规则或有明确机械支撑的黑色物体不具幽灵的无根与飘忽。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 在明亮日面上无规则移动的黑色太阳黑子
+vehicle: 没有实体支撑、行迹飘忽的暗色幽灵
+ground: 黑子暗淡却悬在发光背景上对应幽灵阴影显现；轨迹无规则且似无支撑对应幽灵飘浮

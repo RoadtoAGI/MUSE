@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-86420916e74d0446259cbf62
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L937
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 天已经黑了下来，身后是车灯的河流
+sensory_mapping: 视觉；光线；流动；带状空间；夜色
+context_fact: 汪淼与大史坐在护城河沿，背后道路入夜而车辆持续经过。
+image_mechanism: 黑暗抹去车身，只保留一颗颗灯光；移动亮点在视网膜上连成发光水面，道路边界则成为看不见的河岸。
+property_alignment: 车辆沿道路同向移动对应水沿河道流动；车灯密集相接对应水面连续亮带；车流不断经过对应河水持续补入；道路带状延伸对应狭长河道
+context_alignment: 人物就坐在真实护城河旁，身后灯河与面前水河形成双重流动空间，夜色使转化自然。
+narrative_function: 为大史串联线索的谈话提供持续流动背景，并稳定场景方位。
+transfer_rule: 把交通写成河流时，应让夜色或远视隐藏单车边界，再匹配流向、密度、通道和持续补给。
+failure_boundary: 堵死不动、车辆稀疏逆向混行或白昼车体清楚时，连续灯河的视觉条件不足。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 夜间道路上连续移动、密集相接的车辆灯光
+vehicle: 沿固定河道连续流动、表面闪着亮光的河水
+ground: 车辆沿道路同向移动对应水沿河道流动；车灯密集相接对应水面连续亮带；车流不断经过对应河水持续补入；道路带状延伸对应狭长河道

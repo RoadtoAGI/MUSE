@@ -1,0 +1,21 @@
+card_id: private-countdown-terror
+pattern_name: 私人倒计时压迫
+dramatic_function: 把无形高维威胁转为只有主角可见的量化钟表，抽象威慑变成贴身恐怖，持续驱动行动并供章节级张力
+applicability: 适合威胁方技术压倒性领先的科幻/惊悚；倒计时须排除常规解释，一旦可被科学归因压迫感即崩塌（单书孤证，验证面窄）
+reuse_candidates:
+- 视网膜倒计时与3K眼镜装置
+- 纳米材料研究的目标绑定
+tags:
+- 倒计时
+- 压迫感
+- 悬念装置
+source_scenes:
+- novel: 三体Ⅰ-地球往事
+  scene_id: S02
+  note: 胶片倒计时入侵私人生活，恐惧从可控转失控
+- novel: 三体Ⅰ-地球往事
+  scene_id: S04
+  note: 宇宙闪烁把私人恐怖升格为宇宙级证明
+phase_affinity:
+- 3
+- 5

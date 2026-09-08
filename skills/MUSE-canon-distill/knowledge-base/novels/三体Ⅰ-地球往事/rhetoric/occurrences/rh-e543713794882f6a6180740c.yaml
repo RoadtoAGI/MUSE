@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e543713794882f6a6180740c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L677
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 人类恶的一面已经在她年轻的心灵上刻下不可愈合的巨创
+sensory_mapping: 触觉；痛觉；视觉；切割；身体创伤
+context_fact: 她亲历父亲被打死、母亲崩溃并遭白沐霖出卖。
+image_mechanism: “恶”获得刀刃，在尚年轻柔软的心灵表面向下刻入；伤口既有固定形状又持续开放，使过去事件在后来每次判断中仍会疼。
+property_alignment: 暴力经历强行留下记忆对应刀刃刻痕；心理持续疼痛对应伤口疼痛；影响无法消退对应创口不愈合；伤害程度深广对应巨大创面
+context_alignment: 前文反复出现父亲肉体伤痕和树木伤口，此处把同一伤体框架收进叶文洁内心。
+narrative_function: 连接个人创伤与她随后对整个人类之恶的理性推演。
+transfer_rule: 用伤口写心理后果时，应对应施伤动作、创面位置、持续疼痛和愈合条件，并让前文物理伤痕提供记忆回声。
+failure_boundary: 可经短期安慰消退的失望、没有强制伤害的分歧或已完成修复的经历不宜称不可愈合巨创。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 文革暴力与丧父经历给年轻叶文洁造成的永久心理创伤
+vehicle: 利器在柔软身体上刻出巨大且无法愈合的伤口
+ground: 暴力经历强行留下记忆对应刀刃刻痕；心理持续疼痛对应伤口疼痛；影响无法消退对应创口不愈合；伤害程度深广对应巨大创面

@@ -1,0 +1,21 @@
+card_id: lowly-image-reframe
+pattern_name: 卑微意象翻盘
+dramatic_function: 用一个在场可感的低位意象作类比，把压倒性技术差距相对化，不靠新信息靠重新框定完成绝望到希望的价值反转
+applicability: 适用于强敌碾压下的故事低谷反弹；意象须实地在场且类比逻辑不可反驳，强者口头说教则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 蝗灾与华北平原场景
+- 大史的京味刑警口吻
+tags:
+- 价值反转
+- 意象论证
+- 低谷反弹
+source_scenes:
+- novel: 三体Ⅰ-地球往事
+  scene_id: S14
+  note: 蝗虫一问击碎技术决定论，高潮收于回去工作
+- novel: 三体Ⅰ-地球往事
+  scene_id: S05
+  note: 「邪乎到家必有鬼」预演低位智慧破高位恐惧
+phase_affinity:
+- 3
+- 5

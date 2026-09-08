@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4f1face2c782bd6843dce8ab
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1249
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 这两天的遭遇和红岸的故事，这两件不相干的事纠结在一起
+sensory_mapping: 触觉；线状结构；缠绕；认知阻力
+context_fact: 他刚听完红岸往事，又正受倒计时和《三体》游戏困扰，尚无证据证明两者相连。
+image_mechanism: 两条各自有起点的叙事线被放进脑中，疑问像扭力让它们交叉、收紧成结；越想分辨，触点越多，世界因而失去原有清楚分类。
+property_alignment: 两件事原不相干对应两根独立线；反复联想对应线条交叉；无法理清因果对应结扣难解；心绪不平对应缠结产生拉扯
+context_alignment: 本章即将让游戏天体模型与红岸工程继续靠近，结绳意象准确处在证据尚未闭合、直觉已纠缠的过渡点。
+narrative_function: 将两条剧情线在人物意识中首次并置，并推动他带着使命重入游戏。
+transfer_rule: 用纠结写线索关系时，应明确各线原先独立、交叉点从何而来、结扣为何暂时无法拆解。
+failure_boundary: 两件事已有明确单向因果或只是同时发生却未进入同一思考时，缠结会误报复杂度。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 汪淼无法分开现实危机与红岸历史，在意识中反复寻找两者关系
+vehicle: 两股线、根或肢体彼此缠绕打结，难以拆开
+ground: 两组事件在思考中不断交叉对应线条互相缠绕；原本各自独立却难再分离对应不同线头结成一团

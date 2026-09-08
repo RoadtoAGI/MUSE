@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:医院--cai-dama
+work_id: novel:狂病-莫千回
+display_name: 蔡大妈
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '蔡大妈的嗓音是居委会式的市井絮叨——挤眉弄眼、双手一抱、挑着眉头炫耀战绩（"以前还在居委会，跟其他几个老太太成功举报了大明星呢"）。被质问时立刻转成赌咒式的自我担保和讨好（"别怪大妈，大妈就是有点心急，但心是好的""放心吧，这种事情她心里还是有数的"），语速快、句句想撇清，却越描越漏。她对超出认知的事一律用迷信话术兜底（"灾星""遭报应"）。整体是一个把分寸感全部让位给表现欲的声音。
+
+
+    佐证：scenes/scene_YY-S06.md:L7-L7 / scenes/scene_YY-S06.md:L13-L13 / scenes/scene_YY-S07.md:L53-L53'
+  evidence_locators:
+  - scenes/scene_YY-S06.md:L7-L7
+  - scenes/scene_YY-S06.md:L13-L13
+  - scenes/scene_YY-S07.md:L53-L53
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

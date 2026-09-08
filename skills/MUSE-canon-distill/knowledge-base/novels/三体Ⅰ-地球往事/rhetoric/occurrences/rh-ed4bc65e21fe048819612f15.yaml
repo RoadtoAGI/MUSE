@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ed4bc65e21fe048819612f15
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1362
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: 对我来说，以后的几年可以用一天来形容，日子在平静中就过去了
+sensory_mapping: 时间压缩；日常节奏；记忆密度
+context_fact: 申玉菲提供住房、照料和计算资源，两人少有交流，魏成多年只专注同一研究。
+image_mechanism: 日历页之间的差异被全部擦除，几年相同生活像同一页从晨翻到晚；事件稀少使记忆没有节点可把时间撑开。
+property_alignment: 每日重复对应一天内部同一节奏；几年少有重大变化对应单日缺少转折；回望感觉短促对应一天迅速结束
+context_alignment: 他追求的正是清静省心，这种压缩既表现愿望实现，也暗示婚姻和生活缺乏生命变化。
+narrative_function: 快速跨越数年并刻画研究生活的安稳、单调和隔绝。
+transfer_rule: 用一天压缩多年时，应交代重复作息、低事件密度和记忆节点缺失，说明主观时间为何收缩。
+failure_boundary: 几年间事件繁多、关系剧变或人物对每段记忆清晰时，一天会抹掉真实时间层次。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 魏成在单调、舒适且只研究三体问题的数年生活中几乎感不到时间差异
+vehicle: 内容和节奏高度一致、从早到晚平顺滑过的一天
+ground: 多年每日模式重复对应一天各时段缺少可区分事件；回忆被压缩对应单日很快过去

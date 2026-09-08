@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-73a16907c407cc79c6c84a36
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1300
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 三轮巨大的太阳在天空中围绕着一个看不见的原点缓缓地转动着，像一轮巨大的风扇将死亡之风吹向大地
+sensory_mapping: 视觉；旋转；热风触觉；机械几何
+context_fact: 三日几乎占满天空并共同西移，部分轮流沉到地平线下，造成一次次短促日出和日落，地表已熔毁。
+image_mechanism: 不可见质心成为风扇轴，三个圆日拉成长叶片；每次叶片划过便把光和热当风压向地面，轨道几何、周期闪烁与死亡后果进入同一机器动作。
+property_alignment: 共同旋转中心对应风扇轮轴；三颗太阳对应三片叶片；轮流越过地平线对应扇叶周期扫过；强光热浪反复袭地对应风扇连续送出死亡热风
+context_alignment: 汪淼刚以三体运动解释三日，本图像把数学轨道变成肉眼可追踪的机械旋转，同时将模型正确性与文明死亡直接相连。
+narrative_function: 直观展示三日几何运动，统摄短促昼夜和热毁灭，并把理论验证推到视觉高潮。
+transfer_rule: 用旋转机械解释天体群时，应对应成员数量、共同轴心、扫掠周期和每次经过造成的物理输出。
+failure_boundary: 天体不共面、不围绕同一视觉中心或热量连续均匀而非周期扫过时，风扇会简化甚至歪曲轨道。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三颗太阳围绕共同质心旋转并周期性以强光、热量扫过地表的景象
+vehicle: 三片灿亮扇叶围绕轮轴转动、不断把致命热风吹向下方的巨型风扇
+ground: 三日围绕不可见原点对应扇叶绕轴心；每颗太阳依次划过地平线对应扇叶周期扫过同一区域

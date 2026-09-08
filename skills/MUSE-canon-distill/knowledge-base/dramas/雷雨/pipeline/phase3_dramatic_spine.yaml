@@ -1,0 +1,157 @@
+analysis_meta:
+  source: 雷雨
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.4.1
+  completed_at: 2026-05-24
+  analyst_notes: |
+    雷雨是典型的"回溯结构"（易卜生式）——激励事件在剧本时间之前 30 年已发生，
+    剧情本身是"过去如何在一日内压垮现在"的展示。
+    spine 节点用"揭示节奏"组织，而非"行动决断"。
+
+inciting_incident: |
+  剧本时间之前 30 年：周朴园（时为周家少爷）引诱并迫使女佣侍萍生下两个儿子（萍、未取名的次子），
+  然后为了娶门当户对的小姐，在年三十夜把侍萍连同三天大的婴儿赶出周家；侍萍投河（未死）。
+  这是"宇宙的扰动"——它在剧本时间内是已经写定的、无法挽回的过去。
+
+dramatic_question: |
+  当所有未结清的伦理债务（弃妇、私生子、乱伦、骨肉相残）在同一天回到同一客厅时，
+  谁——以及多少无辜——会被命运清算？
+
+objects_of_desire:
+  external:
+    - 朴园：维持"圆满 / 体面 / 有秩序"的家庭表象；让萍接班矿上事业
+    - 蘩漪：把周萍从离开自己的路上拖回来；不让他与四凤逃走
+    - 周萍：摆脱与继母的乱伦旧债 + 带四凤逃离这个家
+    - 四凤：与心爱的萍走，又不忍背叛母亲的誓言
+    - 侍萍：让女儿四凤"永远不见周家的人"
+    - 大海：率工人对资本家讨公道
+    - 周冲：与四凤共建一个"白帆船向天边飞"的乌托邦
+  internal:
+    - 朴园：埋葬罪债却又借旧物（关窗户、镜台柜、相片）持续供养自己的悔愧
+    - 蘩漪：被"母亲不像母亲、情妇不像情妇"的位置撕裂；要被真爱的人承认
+    - 周萍：从乱伦的过去中"洗"出一个新的自己
+    - 侍萍：让自己的孩子不再走自己的旧路
+
+spine:                                     # 戏剧节点序列
+  - id: disturbance
+    event: 周公馆三十年旧物 + 侍萍因女儿四凤被周家辞退而被请来谈话
+    act_scene: A1-A2
+    value_change: 体面表象稳定(+) → 旧债开始浮出(-)
+
+  - id: charge
+    event: 喝药一场——朴园强制蘩漪当众喝药 + 召周冲、周萍跪劝
+    act_scene: A1
+    value_change: 父权稳定 → 蘩漪被公开羞辱 → 复仇动机被点燃
+
+  - id: investigation
+    event: 蘩漪向周萍揭"你是父亲的私生子 / 你父亲引诱过梅家姑娘"+ 暗示"风暴要来"
+    act_scene: A2
+    value_change: 过去 + 现在的乱伦在同一对话里被命名
+
+  - id: recognition_act1
+    event: 朴园 ↔ 侍萍认母场——"无锡 / 姓梅 / 投河 / 绣梅花的衬衣 / 萍字"
+    act_scene: A2
+    value_change: 三十年前的死人复活 → 朴园秘密的根基崩塌
+    notes: |
+      这是雷雨第一个不可逆的揭示峰；它压在朴园身上后，朴园做出"给钱 5000 块清账"的反应，
+      被侍萍当面撕碎——金钱无法清偿伦理债务。
+
+  - id: recognition_act2
+    event: 周萍当面打鲁大海耳光 → 侍萍喊出"你是萍，凭什么打我的儿子"
+    act_scene: A2
+    value_change: 萍/大海骨肉相残（不知）被命名 → 第二个揭示峰
+
+  - id: oath_under_thunder
+    event: 第三幕鲁家——侍萍逼四凤跪下起誓"以后永远不见周家的人"；雷声轰然滚过
+    act_scene: A3
+    value_change: 命运起誓被天意盖章
+    notes: |
+      "天上的雷劈了我"——这是终场触电死亡的预先宣判，由四凤自己说出。
+
+  - id: invasion_and_seal
+    event: 周萍翻窗进入四凤卧室；蘩漪从外面把窗关上——把萍与四凤封死在退路之外
+    act_scene: A3
+    value_change: 三角关系收紧 → 没有人能再走出去
+
+  - id: rupture
+    event: 第四幕半夜——蘩漪召大海与周冲入场、强迫朴园下楼、当众拆穿
+    act_scene: A4
+    value_change: 所有秘密在同一客厅同时曝光（萍-蘩漪乱伦 / 萍-四凤兄妹 / 侍萍身份 / 萍-大海是兄弟）
+
+  - id: terminal
+    event: |
+      四凤奔出周公馆 → 触藤萝架走电的电线倒地 → 周冲扑救同时触电 →
+      周萍取大海留下的手枪进书房自杀 → 蘩漪发疯 → 侍萍痴呆
+    act_scene: A4
+    value_change: 年青一代全数毁灭 → 旧人苟活
+    notes: |
+      触电与开枪都是 offstage：四凤、周冲只闻惨叫，周萍只闻一声枪响。
+
+  - id: coda_ten_years_later
+    event: 序幕 / 尾声框架——十年后的朴园对着两个疯了的"前妻 / 旧情人"
+    act_scene: PROLOGUE / EPILOGUE
+    value_change: 苟活的痛苦 → "距离化"的哀静（曹禺自陈"chorus 功能"）
+
+obstacles:
+  - 朴园对家庭体面的执念（让秘密无法被自然清算）
+  - 蘩漪被禁锢的位置（"母亲不像母亲、情妇不像情妇"）
+  - 周萍的怯弱（无法干净地与蘩漪分手，又无法干净地承担与四凤的关系）
+  - 侍萍的旧誓（怕四凤重蹈自己的覆辙 → 反而把四凤逼向逃亡）
+  - 雷雨之夜的物理封闭（道路泥泞、车厂房塌、藤萝架电线走电）
+  - 雷雨之夜的伦理封闭（所有秘密人物同时在场）
+
+# 幕 / Arc 框架——雷雨是单一巨型 Arc，序幕 / 尾声是 chorus 框
+arcs:
+  - arc_id: 0
+    name: prologue_chorus_frame
+    bounds: PROLOGUE
+    value_arc: distance_setup
+    climax: 鲁妈倒下 / 姊弟问"你去问她"
+    notes: |
+      序幕本身没有故事进展；功能是为后四幕的"过去"装上一个"十年后看"的镜头框。
+
+  - arc_id: 1
+    name: surfacing
+    bounds: A1-A2
+    value_arc: 体面假象(+) → 旧债浮出 + 两次认母峰(-)
+    climax: A2_recognition_act2_萍打大海被侍萍认出
+    notes: |
+      arc 1 完成两件事：把所有人物聚到周公馆、把朴园的旧债公开命名。
+      这是"过去回到现在"的第一波塌缩。
+
+  - arc_id: 2
+    name: sealing
+    bounds: A3
+    value_arc: 四凤的避免(-) → 起誓被天意盖章 → 蘩漪从外面关窗
+    climax: A3_invasion_and_seal_萍翻窗进入 + 蘩漪关窗
+    notes: |
+      arc 2 把所有"可能逃走"的人物路径物理与象征地封住。
+
+  - arc_id: 3
+    name: terminal_collapse
+    bounds: A4
+    value_arc: 摊牌(-) → 大揭示(-) → 三死 → 苟活
+    climax: A4_rupture_朴园被迫承认侍萍身份
+    notes: |
+      arc 3 的高潮是"知道"而不是"死"——
+      四凤 / 周冲 / 周萍三死是高潮揭示的物理后果。
+
+  - arc_id: 4
+    name: epilogue_chorus_frame
+    bounds: EPILOGUE
+    value_arc: distance_payoff
+    climax: 老人（朴园）低唤"侍萍"无应
+    notes: |
+      尾声完成 chorus 框的合拢——"哀静的心情"压过"惨痛如钳子的恐怖"。
+
+story_climax_design:
+  crisis: A4_蘩漪决定召周冲、召大海、召朴园三人入场（把一切锁死）
+  climax: A4_rupture_朴园承认侍萍身份 → 全员认知崩塌
+  resolution: 三死 + 两疯 + 朴园在十年后的医院里孤独等死
+  controlling_idea_payoff: |
+    "宇宙间一种残忍"被验证——
+    朴园犯的罪由四凤、周冲、周萍（未犯罪的孩子）替他承担；
+    侍萍三十年的恨没有得到清算的快感，只换来"她的女儿走了她的旧路"；
+    蘩漪的反抗换来"自己的儿子先走"——
+    没有一个人在道德 / 阶级 / 命运的任一维度上真正"胜利"。

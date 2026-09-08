@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4561f0f878351cdcaa9483c0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L467
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 一种不间断的类似于雷声的轰鸣
+sensory_mapping: 听觉；震动；持续性
+context_fact: 汪淼接近朝歌，尚未看清发声装置。
+image_mechanism: 视野尚空时先放入覆盖大地的低频震动，雷声为未知机械预设体量；随后巨摆出现，听觉尺度转接到视觉尺度。
+property_alignment: 低沉震动对应雷声低频冲击；多摆叠加连续轰响对应雷声连绵
+context_alignment: 先声后景叙述需要熟悉巨响作尺度标尺。
+narrative_function: 为巨摆群出场蓄势。
+transfer_rule: 让庞然物先以声音登场时，应选择频率、持续长度和空间覆盖都相近的自然声。
+failure_boundary: 清脆撞击、间歇单响或可精确定位的小声源不具有连雷的低频铺陈。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 大量巨摆同步运动的持续低沉声响
+vehicle: 远处连绵雷鸣
+ground: 低沉震动对应雷声低频冲击；多摆叠加连续轰响对应雷声连绵

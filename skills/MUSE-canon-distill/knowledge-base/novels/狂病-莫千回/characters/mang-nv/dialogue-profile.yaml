@@ -1,0 +1,25 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:mang-nv
+work_id: novel:狂病-莫千回
+display_name: 盲女
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的"声音"是一套替代视觉的感知语言——《燃烧》整篇第二人称的"你…"就是她本人的感知载体，叙述始终从气味、声音、触觉切进，而非画面：先闻到"像煮熟的糖浆、外加奇特咸味"的怪味才认出感染者，靠脚下"由柔软变得坚硬"判断进了村子，靠指尖"坚硬酥脆的质感"读出周全被烧成了焦壳。这种第二人称
+    POV + 通感的写法，是作者把"看不见"的恐怖直接压到读者身上的实验。她说话不多、句子短而克制，最重的意愿用最平的陈述句托出（"杀了我吧""我现在闻不到任何感染者的味道，休息一下吧"）；越往后越沉默，到医院几乎不再主动开口，她最真实的话反而是经王幸子转述出来的——"总觉得黑暗中伸出手就会有一个熟悉的人回应她"。情绪很少直接喊出，更多沉进生理反应里：反胃、干呕、控制不住地颤抖、扑上焦尸的哭嚎。
+
+
+    来源：phase2_character.yaml → supporting_cast.盲女.characterization
+
+    佐证：scenes/scene_RS-S03.md:L3-L5 / scenes/scene_RS-S08.md:L13-L13 / scenes/scene_YY-S08.md:L15-L15'
+  evidence_locators:
+  - scenes/scene_RS-S03.md:L3-L5
+  - scenes/scene_RS-S08.md:L13-L13
+  - scenes/scene_YY-S08.md:L15-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

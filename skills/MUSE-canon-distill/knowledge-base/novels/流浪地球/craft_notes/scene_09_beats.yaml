@@ -1,0 +1,27 @@
+scene_id: 09
+source_notes: scene_09_beats.md
+patterns:
+- pattern_id: 09-p1
+  beat: 一字回答
+  dimension: omission
+  original_move: 远景设悬念后用一个字揭示真相
+  ai_default_failure: 解释海啸成因和百米规模
+  transfer_rule: 极端危险时，让角色少说到极限
+  quote: 浪。
+- pattern_id: 09-p2
+  beat: 数据替代感叹
+  dimension: info_density
+  original_move: 用速度和汽化描述牺牲，不写悼词
+  ai_default_failure: 写泪水模糊和壮烈牺牲
+  transfer_rule: 硬科幻丧亲可用冷数据制造痛感
+  quote: 每秒一百公里
+- pattern_id: 09-p3
+  beat: 灾难声音
+  dimension: camera
+  original_move: 从可见火流星切到地下震动
+  ai_default_failure: 堆哭泣、祈祷和人群表情
+  transfer_rule: 视野被封闭时，用触觉续写灾难
+  quote: 直达我们灵魂深处
+overall_traits:
+- 数据即修辞
+- 克制对白表达极端恐惧

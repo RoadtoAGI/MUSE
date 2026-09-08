@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c6b6a93a30de405a8912117a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2158
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 《三体》游戏是拯救派的摇篮
+sensory_mapping: 摇篮包裹；婴儿初生；轻摇哺育；成长起点；安全小空间
+context_fact: 拯救派后来成员多经游戏认识三体文明、发展宗教感情并投身组织。
+image_mechanism: 玩家进入游戏时仍是信仰上的婴儿，剧情和组织引导像摇篮的包裹与晃动，逐步把陌生好奇养成稳定宗教归属。
+property_alignment: 初入玩家对应新生儿；游戏环境对应摇篮；三体文化叙事对应养育；反复体验对应轻摇；形成宗教感情对应成长；加入拯救派对应离开摇篮进入群体
+context_alignment: 组织本身先被写成孕育出的生命，游戏再成为派别成员的摇篮，生命生成框架在不同层级递归。
+narrative_function: 概括游戏对拯救派的成员生产功能，而非仅把它当宣传品。
+transfer_rule: 用摇篮写平台时，应证明对象在此完成早期生成、持续受养育并从中进入更成熟组织阶段。
+failure_boundary: 成员加入前已有完整信仰、游戏只提供一次信息，或主要成员来自其他渠道时，摇篮会夸大生成作用。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 三体游戏孕育、启蒙并持续提供拯救派的大多数后加入成员
+vehicle: 摇篮承托新生婴儿，在早期阶段哺育、安抚并帮助其长大
+ground: 新成员信念形成对应婴儿成长；游戏提供三体知识对应摇篮养育环境；多数成员从中产生对应摇篮孕育群体

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b5a59015f519d27dbad78266
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L591
+chapter: 第7章 疯狂年代
+figure_type: analogy
+quote: 这样的热点遍布整座城市，像无数并行运算的CPU，将“文革大革命”联为一个整体
+sensory_mapping: 空间网络；并行运动；系统结构
+context_fact: 叙述从一座大楼的武斗拉远到整座城市。
+image_mechanism: 城市地图被改造成并行计算架构，每处冲突既是局部热源也是处理节点；“联为整体”把同时发生的暴力从散点变成系统运行。
+property_alignment: 分散热点对应独立处理器；事件同时推进对应并行运算；局部暴力共同生成整体运动对应子任务汇成系统输出
+context_alignment: “热点”本带热与节点双义，CPU让空间分布、同步性和整体效应同时成立。
+narrative_function: 从个案跃迁到城市尺度，显示疯狂具有系统性。
+transfer_rule: 以计算系统类比社会网络时，应逐项对应节点、同步方式、局部任务和整体输出，避免只借“高科技”气氛。
+failure_boundary: 事件彼此隔绝、先后串行或没有共同结构时，并行CPU会虚构协调与整体性；也不能推定存在中央程序员。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 城市各处同时发生并共同构成文革运动的武斗热点
+vehicle: 多枚处理器同时执行子任务并汇成一个计算系统
+ground: 分散热点对应独立处理器；事件同时推进对应并行运算；局部暴力共同生成整体运动对应子任务汇成系统输出

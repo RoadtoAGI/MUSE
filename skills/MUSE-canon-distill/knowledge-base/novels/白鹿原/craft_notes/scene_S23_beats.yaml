@@ -1,0 +1,35 @@
+scene_id: S23
+source_notes: scene_S23_beats.md
+patterns:
+- pattern_id: S23-p1
+  beat: 研墨
+  dimension: verb
+  original_move: 滴研颤写出朱先生罕见失控
+  ai_default_failure: 写心情难平或悲愤手抖
+  transfer_rule: 情绪失控可从手部工序反推
+  quote: 裁纸刀在手中啪啪颤着
+- pattern_id: S23-p2
+  beat: 冰水镇手
+  dimension: overall
+  original_move: 赤臂入冰水后控制恢复，一气落字
+  ai_default_failure: 堆砌笔锋如剑墨痕苍劲
+  transfer_rule: 写技艺先写身体如何恢复可控
+  quote: 果然不再颤抖
+- pattern_id: S23-p3
+  beat: 咬指血印
+  dimension: verb
+  original_move: 咬破重按，用身体代替文人印章
+  ai_default_failure: 解释印章不足表达心情
+  transfer_rule: 誓言升级时让身体侵入文化器物
+  quote: 重重地按上了血印
+- pattern_id: S23-p4
+  beat: 毁弃宣誓
+  dimension: omission
+  original_move: 只说已砸已烧，不渲染毁弃过程
+  ai_default_failure: 写墨汁溅墙和砸砚动作
+  transfer_rule: 转折行动可先完成再宣告
+  quote: 砚台砸了，毛笔也烧了
+overall_traits:
+- 创造和毁弃镜像对称
+- 身体替代技术描写
+- 书法转折写身体状态和器物毁弃

@@ -1,0 +1,28 @@
+scene_id: S04
+source_notes: scene_S04_beats.md
+patterns:
+- pattern_id: S04-p1
+  beat: 曼努埃尔的否认链
+  dimension: omission
+  original_move: 用修辞分析替代震惊反应
+  ai_default_failure: 写表情、身体或惊愕反应
+  transfer_rule: 写否认时呈现思维逃逸路径
+  quote: 夸张是一种有礼貌地表示惊奇
+- pattern_id: S04-p2
+  beat: 呕吐——身体的诚实
+  dimension: verb
+  original_move: 让呕吐直接打断理性否认
+  ai_default_failure: 先解释恶心再安排呕吐
+  transfer_rule: 写身体知情时省略心理中介
+  quote: 去卫生间呕吐起来
+- pattern_id: S04-p3
+  beat: 让-克劳德的反应
+  dimension: camera
+  original_move: 用词典读报表现知识逃避
+  ai_default_failure: 直接描写他的恐惧或同情
+  transfer_rule: 写无力理解时展示笨拙工具
+  quote: 手里拿着词典
+overall_traits:
+- 让读者经历否认链
+- 身体与大脑分裂
+- 并列两种逃避模式

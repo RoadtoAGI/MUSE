@@ -1,0 +1,21 @@
+card_id: mentor-fall-transfigured-return
+pattern_name: 导师退场变容归来
+dramatic_function: 中途移除最强庇护者，逼群体在真实缺席代价中自立；再以更高形态归来重新洗牌力量格局，绝望与希望各得其重
+applicability: 缺席期须足够长且团队确实受损；归来需付出可见代价并换形态。若速回或无代价，牺牲与惊喜都被稀释（单书孤证，验证面窄）
+reuse_candidates:
+- 炎魔与桥的具体场面
+- 灰袍变白袍的颜色符号
+tags:
+- 导师之死
+- 归来
+- 结构逆转
+source_scenes:
+- novel: 指环王
+  scene_id: S05
+  note: 守桥牺牲瞬间完成，命令式遗言不告别
+- novel: 指环王
+  scene_id: S08
+  note: 延迟揭名归来，自述穿过火与深水的代价
+phase_affinity:
+- 3
+- 4

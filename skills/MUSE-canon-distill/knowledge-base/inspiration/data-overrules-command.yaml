@@ -1,0 +1,22 @@
+card_id: data-overrules-command
+pattern_name: 数据压服权力
+dramatic_function: 把重大转折压进一场说服戏：证物、数据与价值论证逐层破防，将权力者的直觉决策改写为可见的新行动。
+applicability: 适用于技术流、政军会议与理性权威型决策者；数据须可核验并真正改变选择；立场先决的听者还需利益、关系或程序杠杆。（单书孤证，验证面窄）
+reuse_candidates:
+- 敦刻尔克停止令史实
+- 航拍照片与舰船运力细节
+tags:
+- 说服戏
+- 数据论证
+- 决策场景
+- 防线递进
+source_scenes:
+- novel: 日耳曼涅槃
+  scene_id: scene_13
+  note: 航拍证物加清单轮廓加两种和平论，三段破防取消停止令
+- novel: 日耳曼涅槃
+  scene_id: scene_09
+  note: 战略推断说服舰队司令率队南下，判断先于战果验证
+phase_affinity:
+- 3
+- 5

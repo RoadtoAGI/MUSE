@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-879f30644c46a6a408a25635
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1741
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 我们是顽强的种子，野火烧不尽的
+sensory_mapping: 火焰；焦土；坚硬种壳；萌芽；绿色复生
+context_fact: 各国政府开始搜捕ETO，会场有人仍鼓吹公开全球起义。
+image_mechanism: 成员从可被逐个逮捕的人变成埋藏土层的种子，政府镇压化为掠过地表的野火；只要留下一粒，组织便能在灰烬中重新长出。
+property_alignment: 分散成员对应种子；秘密网络对应埋入土中；全球镇压对应野火；部分幸存对应种壳耐火；组织重建对应火后萌发；思想传播对应繁衍成片
+context_alignment: 口号借古诗文化记忆强化不灭信念，却忽略公开起义可能让种子全部暴露，带有激进者自我鼓舞色彩。
+narrative_function: 为起义主张提供复生神话，表现派系在危机中的狂热韧性想象。
+transfer_rule: 用耐火种子写地下力量时，应说明分散保存、镇压覆盖边界、幸存机制和重建传播方式。
+failure_boundary: 组织高度集中、成员一旦暴露便无备份，或思想无法在镇压后复制时，野火烧不尽只是口号。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 主张全球起义者相信ETO成员即使遭政府大搜捕仍能幸存、扩散并重建组织
+vehicle: 埋在土中的耐火种子或草根熬过野火，火后重新萌芽铺开
+ground: 地下组织成员分散保存对应种子散落土中；镇压无法清除全部对应野火烧不到所有生命核心

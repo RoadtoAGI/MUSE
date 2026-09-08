@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4d26614d79ccb6e0939f349a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1675
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 最后像一颗流星，拖着长长的火尾坠入太阳的火海
+sensory_mapping: 强光；高热；长尾轨迹；高速下坠；火焰海面
+context_fact: 恒星膨胀气层曾先后吞噬十一颗行星，近掠天体会在气体阻力中失去轨道能量。
+image_mechanism: 整颗行星被缩成天空中可见的燃烧流星，轨道衰减画成向下坠落的弧线；太阳表面则铺开为接住它的火焰海。
+property_alignment: 行星高速进入气层对应流星入大气；摩擦升温对应流星燃烧；剥蚀尾迹对应长火尾；轨道能量丧失对应坠落；恒星高温巨大对应火海
+context_alignment: 尺度由人眼熟悉的流星扩大到整颗行星，既解释发光尾迹，又让恒星吞噬具备清晰终场图像。
+narrative_function: 把抽象轨道衰减写成可连续观看的燃烧坠毁过程。
+transfer_rule: 用流星写大型天体坠落时，应对齐高速介质摩擦、发光尾迹、轨迹下沉和终点灼热环境。
+failure_boundary: 天体缓慢螺旋且不发光、没有物质尾迹，或最终稳定入轨而非坠毁时，流星火尾会误报速度与结局。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 行星进入恒星气层后因摩擦灼热发光、快速减速并最终落入恒星
+vehicle: 流星穿过大气拖出明亮尾迹，最终坠向一片无边火焰海洋
+ground: 行星高速摩擦发热对应流星烧亮；受热物质形成长尾对应流星火尾；落入恒星对应坠入火海

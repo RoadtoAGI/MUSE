@@ -1,0 +1,46 @@
+scene_id: A1S2
+source_notes: scene_A1S2_beats.md
+patterns:
+- pattern_id: A1S2-p1
+  beat: 朝会双轨演说
+  dimension: overall
+  original_move: 议程顺序做权力展示，哈姆雷特被排到最末，贬抑不靠台词直说
+  ai_default_failure: 用台词直说新王对王子的打压与各人心思
+  transfer_rule: 朝会群场可把权力关系编码进「谁先被处理」的顺序
+  quote: 一目哀戚, 一目欢欣
+- pattern_id: A1S2-p2
+  beat: 双关开口
+  dimension: exchange
+  original_move: 主角首句是私下旁白加双关，答非所问立对抗位置
+  ai_default_failure: 让主角入场即正面顶撞，情绪一次泄完
+  transfer_rule: 强权压制下的入场白用双关保势能，不直接冲突
+  quote: 虽是血亲, 但非同类
+- pattern_id: A1S2-p3
+  beat: 母与王的双重劝慰
+  dimension: exchange
+  original_move: 只对母亲让步，服从对象的选择本身就是台词
+  ai_default_failure: 对双亲一并应付，丢掉亲疏与权力的差分
+  transfer_rule: 双劝慰场用让步对象区分人物关系远近
+  quote: 我将尽力的去听从您, 娘
+- pattern_id: A1S2-p4
+  beat: 独白窗口
+  dimension: monologue
+  original_move: 独白置于全体退场后的真空，且情绪未尽即自我打断
+  ai_default_failure: 独白说尽说满，第三人称式心理回溯一泻到底
+  transfer_rule: 公开克制后的独白宜留刹车，自我打断更显压抑
+  quote: 我心将碎, 因我不能多言
+- pattern_id: A1S2-p5
+  beat: 鬼魂消息的盘问
+  dimension: exchange
+  original_move: 连环短问一拍一挤信息，接收方不发感想
+  ai_default_failure: 每问之间插入大段心理感叹，冲断紧迫感
+  transfer_rule: 重大信息接收用短问链，人越急句越短
+  quote: 由首至足?
+- pattern_id: A1S2-p6
+  beat: 收场钩子
+  dimension: monologue
+  original_move: 场末两行半微型独白只立悬念不抒情
+  ai_default_failure: 结尾再加长篇抒情，冲淡悬念钩子
+  transfer_rule: 场末独白与场中长独白做长短配重
+  quote: 此非善事
+overall_traits: []

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8aa7f7859b1455f456d21d57
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L48
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 有好几个投影仪的大屏幕，在大厅的角落里呈不同角度随意立着，像吉普赛人的帐篷
+sensory_mapping: 视觉；空间布局
+context_fact: 作战中心被危机逼成临时办公场，设备来不及规范安装。
+image_mechanism: 先把各块屏幕压成斜立的三角/矩形篷面，再把朝向不一的设备群组装成临时营地；读者由单件外形一路看到空间的仓促布局。
+property_alignment: 屏幕斜立杂乱对应临时帐篷不按固定阵列搭设；设备仓促塞入大厅对应迁徙营地的临时落脚
+context_alignment: 帐篷的临时性和大厅的仓促布置贴合汪淼入场时的整体扫视。
+narrative_function: 用营地图景交代空间混乱和战争临场感。
+transfer_rule: 写杂乱空间时，选一个本身由多件单元临时组合成群的喻体，同时对应单件姿态、群体排列和使用期限。
+failure_boundary: 整齐嵌墙、长期固定或只有一块屏幕的场景不具备营地式群组和临时性，用帐篷会误报空间性质。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 大厅中斜立且朝向杂乱的投影屏幕
+vehicle: 临时扎下、方向不一的吉普赛人帐篷
+ground: 屏幕斜立杂乱对应临时帐篷不按固定阵列搭设；设备仓促塞入大厅对应迁徙营地的临时落脚

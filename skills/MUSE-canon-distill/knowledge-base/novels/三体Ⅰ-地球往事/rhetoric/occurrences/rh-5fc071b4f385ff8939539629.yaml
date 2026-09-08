@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5fc071b4f385ff8939539629
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1051
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 它们的身上都带着火焰，在大地上织成一张移动的火毯
+sensory_mapping: 视觉；编织动作；平面覆盖；群体运动
+context_fact: 巨日升起，报信快马之后成群牛马等动物带火奔向人群。
+image_mechanism: 每只奔跑动物的火迹先被抽成一根亮线，密集路线互相穿插后织成平面；整张毯又随群体前移，静态织物获得灾变速度。
+property_alignment: 单只动物火迹对应一根织线；群体路线交错对应经纬交织；火群贴地成片对应毯子铺地；奔跑前移对应整张火毯移动
+context_alignment: 叙述从高处俯瞰，只能看见群体在地面形成的整体图案，平面织物贴合这一观察尺度。
+narrative_function: 把分散逃亡汇成一幅席卷大地的火灾图案，预告人群也将被点燃。
+transfer_rule: 将群体轨迹写成织物时，应让个体对应线、交错路线对应编织、整体密度对应连续面，并保留群体运动方向。
+failure_boundary: 个体稀疏、路线平行不交错或火焰离地呈柱状时，毯面的连续覆盖不会成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 大群着火动物奔跑形成的连续移动火焰带
+vehicle: 由许多亮线交织成片并在地面铺展的火色毯子
+ground: 众多动物各自拖带火焰对应线束交织；群体密集铺满地面对应毯面连续覆盖

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f4ff36fe1df4ae78189d48f4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1545
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 组成主板的三千万人正在飘离地面，飞快上升，像一大片被吸尘器吸起的蚂蚁群
+sensory_mapping: 视觉；尺度；吸力；群体上升
+context_fact: 三颗太阳在同一直线叠加引力，地面一切包括人列计算机、海洋和山石都被吸向太空。
+image_mechanism: 六公里主板缩成待清扫平面，士兵降成无数黑点；太阳引力变成巨大吸口，越过个体意志一次性把整群抽离。
+property_alignment: 远处士兵对应细小蚂蚁；密集方阵对应蚁群铺面；三日引力对应吸尘器负压；同步快速上升对应颗粒被气流吸走；地面留电路印痕对应清扫后留下原排列痕迹
+context_alignment: 曾作为伟大机器部件的三千万人在天体力量前骤缩为尘虫，日常清扫的轻易感准确表现力量差。
+narrative_function: 以极端尺度落差摧毁人列计算机奇观，显示文明工程的脆弱。
+transfer_rule: 写压倒性吸力作用群体时，应对齐相对尺度、统一方向、加速度和原表面被清空后的痕迹。
+failure_boundary: 个体能抵抗、上升方向分散或只有少数对象移动时，吸尘器会夸大统一控制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三千万士兵同时被三日引力从地表吸起并升向天空
+vehicle: 吸尘器气流从平面卷起的大量微小蚂蚁
+ground: 远观士兵微小密集对应蚁群；所有个体朝同一上方加速对应吸尘气流统一卷起

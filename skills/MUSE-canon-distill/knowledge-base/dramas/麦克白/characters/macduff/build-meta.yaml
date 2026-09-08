@@ -1,0 +1,24 @@
+mode: reference
+display_name: 麦克德夫
+role_slug: macduff
+source_novel: 麦克白
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A2S3.md
+  - scenes/scene_A2S4.md
+  - scenes/scene_A3S4.md
+  - scenes/scene_A4S3.md
+  - scenes/scene_A5S7.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 14
+has_canon_ending: false
+coverage_note: |
+  覆盖 macduff 全部主要在场场景：A2S3 (发现尸体) / A2S4 (拒赴加冕) /
+  A3S4 (缺席 — 通过 macbeth 台词 L109 单点提及) / A4S3 (英格兰试探 + 噩耗 + 立誓) /
+  A5S4 (集体集结，未单引) / A5S6 (集体冲锋，未单引) / A5S7 (终战 + 携首级).
+  跳过 A1-A2 早期集体出场场景（A1S4/A1S6——并列受礼无独立台词）。
+  本角色剧终活态承担 kingmaker 角色，不生成 canon-ending.md
+  （遵循 reference-skill-template §canon-ending.md 触发原则——
+  "宁可漏不可错；活态角色不生成"）。

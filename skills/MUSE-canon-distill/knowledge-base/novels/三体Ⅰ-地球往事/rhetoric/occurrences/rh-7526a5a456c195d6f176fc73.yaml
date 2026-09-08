@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7526a5a456c195d6f176fc73
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2688
+chapter: 第35章 虫子
+figure_type: analogy
+quote: 它们的技术与我们的差距，远大于我们与三体文明的差距
+sensory_mapping: 麦田虫海；飞机喷药；火烧水淹；灭害工具；灾后仍繁衍的虫群
+context_fact: 三体用‘虫子’羞辱人类后，大史让两位科学家面对蝗灾，列举人类长期灭虫仍未获胜的事实。
+image_mechanism: 文明战争被搬到脚下麦田：三体占据拿药剂和飞机的高位，人类降为被扑杀虫群；视角一换，技术差不再只指向碾压，还显出弱小生命从缝隙反复归来的韧性。
+property_alignment: 三体文明对应人类灭虫者；地球文明对应蝗虫；舰队武器对应毒剂飞机火水；技术差距对应人虫差距；四百年战争对应漫长灭害史；人类存续对应虫群繁殖恢复；胜负未定对应未能根除
+context_alignment: 喻体不是抽象昆虫印象，而是眼前真实蝗灾和可核对的灭虫史，直接反转三体早先的贬称。
+narrative_function: 把‘虫子’从羞辱改造成生存论据，完成全章由绝望到重新工作的价值转变。
+transfer_rule: 用弱小生物反驳技术决定论时，应比较双方差距、强者真实手段、长期清除结果、弱者繁殖适应机制和仍未决的胜负。
+failure_boundary: 目标种群数量极少、繁殖慢、生态无避难处，或强者已有经验证的彻底灭绝手段时，害虫韧性不能直接担保文明存续。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 技术远弱于三体文明的人类仍可能凭数量、适应力和长期生存使灭绝战争难以由强者取胜
+vehicle: 蝗虫等害虫技术远低于人类，却承受毒剂、火烧、水淹、天敌和绝育等持续攻击而从未被彻底消灭
+ground: 人类对应虫群中的弱方；三体对应灭虫的人类；技术鸿沟对应人虫能力差；入侵清除对应灭害战争；文明存续对应虫群未灭

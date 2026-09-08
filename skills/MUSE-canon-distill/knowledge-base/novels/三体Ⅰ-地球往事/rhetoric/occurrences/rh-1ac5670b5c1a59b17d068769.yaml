@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1ac5670b5c1a59b17d068769
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L754-L761
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 在这内蒙古的严冬，寒冷通过湿透的衣服，像一个巨掌将叶文洁攥在其中，她听到自己牙齿打颤的“咯咯”声，后来这声音也消失了。深入骨髓的寒冷使她眼中的现实世界变成一片乳白色，她感到整个宇宙就是一块大冰，自己是这块冰中唯一的生命体。
+sensory_mapping: 低温；触觉；挤压；视觉乳白；硬度；声音；空间尺度
+context_fact: 程丽华把水泼湿叶文洁和被褥，严冬监室无火；她昏迷后由直升机救走。
+image_mechanism: 寒冷先具象成手，从湿衣这一接触面向内攥紧；意识进一步失温时，手势扩张成宇宙冰块，把她固定在中心。复苏时直升机轰鸣又被听成钻锯冰层，完整走完封入—凿开的动态过程。
+property_alignment: 寒冷全向收缩身体对应巨掌合拢；湿衣贴身导冷对应掌面紧贴；视觉乳白与麻木对应冰体包裹；孤立濒死对应冰中唯一生命；后来轰鸣救援对应机械钻开冰块
+context_alignment: 真实低温、湿衣、失温视觉和救援机械声逐段支撑意象，冰并非抽象孤独的装饰。
+narrative_function: 从身体感受内部呈现濒死，并把进入红岸写成从旧世界冰封中被凿出。
+transfer_rule: 延展环境压迫意象时，应让接触介质先决定局部动作，再随意识变化扩张尺度，并让后续声音或行动真正改变该物质状态。
+failure_boundary: 干燥寒冷但可自由活动、单纯心理孤独或救援无破封过程时，巨掌—冰块—钻开链会夸大身体机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 湿衣严寒从四周压迫、封冻叶文洁并使她濒死的整体感受
+vehicle: 巨掌把微小生命攥紧，再将其封进占满宇宙的巨大冰块，外部机器最终钻开冰层
+ground: 寒冷全向收缩身体对应巨掌合拢；湿衣贴身导冷对应掌面紧贴；视觉乳白与麻木对应冰体包裹；孤立濒死对应冰中唯一生命；后来轰鸣救援对应机械钻开冰块

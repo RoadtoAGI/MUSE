@@ -1,0 +1,24 @@
+card_id: copied-feat-missing-premise
+pattern_name: 镜像失败
+dramatic_function: 让后继者复刻成功者动作，却因缺少隐性前提而失败。
+applicability: 适合英雄试炼或继承线；若只换结果不换前提会显机械（单书孤证，验证面窄）
+reuse_candidates:
+- 龙穴
+- 鞭子驯龙
+- 坦格利安血统
+tags:
+- 镜像
+- 失败
+- 英雄解构
+- 前提缺失
+source_scenes:
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S12
+  note: 丹妮凭本能和身体行动驯服卓耿。
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S16
+  note: 昆廷复刻驯龙流程，却被未纳入计划的雷哥烧毁。
+phase_affinity:
+- 3
+- 4
+- 5

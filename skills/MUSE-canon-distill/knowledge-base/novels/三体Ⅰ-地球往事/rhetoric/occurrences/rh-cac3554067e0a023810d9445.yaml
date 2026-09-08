@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cac3554067e0a023810d9445
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L471
+chapter: 第4章 三体、周文王、长夜
+figure_type: analogy
+quote: 太阳是脾气乖戾的大神，他醒着的时候喜怒无常，是乱纪元；睡着时呼吸均匀，是恒纪元
+sensory_mapping: 人格；睡眠；节奏；声音
+context_fact: 伏羲建议驱动巨摆催眠太阳，模型失败后被煮。
+image_mechanism: 两类天象被分配给一个人格的醒/睡状态，周期稳定再被听成呼吸；模型还能推出“用摆声催眠”的干预方案。
+property_alignment: 乱纪元变化无常对应大神醒时喜怒不定；恒纪元周期稳定对应睡眠呼吸均匀；巨摆试图改状态对应声音催眠神灵
+context_alignment: 它能生成可检验行动，属于完整失败模型。
+narrative_function: 展示文明以神话人格拟合天象的阶段。
+transfer_rule: 评估延展类比时，不只看描述相似，还要看它能否从映射推出预测或干预，并用结果检验。
+failure_boundary: 神的情绪和睡眠没有解释三恒星轨道；类比呈现伏羲假说，不能当真实天体机制。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 伏羲解释太阳无规律与有规律阶段的模型
+vehicle: 醒时暴躁、睡时呼吸匀称且可催眠的大神
+ground: 乱纪元变化无常对应大神醒时喜怒不定；恒纪元周期稳定对应睡眠呼吸均匀；巨摆试图改状态对应声音催眠神灵

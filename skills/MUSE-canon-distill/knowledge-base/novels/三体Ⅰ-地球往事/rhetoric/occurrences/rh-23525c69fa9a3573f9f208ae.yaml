@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-23525c69fa9a3573f9f208ae
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1061
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 眼前的真实世界，倒像一幅看似繁复庞杂实则单薄表浅的《清明上河图》
+sensory_mapping: 视觉；二维/纵深；信息密度
+context_fact: 汪淼刚经历游戏中极具真实感和巨大纵深的文明毁灭，摘下装具后反而怀疑现实的厚度。
+image_mechanism: 熟悉世界被整体压进一幅横向铺陈的长卷：局部仍人事繁多，视线却无法穿透纸面；繁复与单薄因此在同一视觉物上共存。
+property_alignment: 现实事件众多对应长卷人物景物密集；游戏的纵深使现实显薄对应绘画被限制在二维纸面；日常世界可观看却难触及背后真相对应观者只能看画面表层
+context_alignment: 《三体》刚以“伪装成虚假却真实”震动汪淼，著名写实长卷正适合承载逼真表象与物理薄度的反转。
+narrative_function: 颠倒游戏与现实的真假层级，显示汪淼认知已被游戏改写。
+transfer_rule: 写繁复却缺乏纵深的对象时，可选局部信息极密、媒介厚度却极薄的具体作品，让两项看似冲突的判断共存。
+failure_boundary: 若只借名画表示壮丽或古老，未建立二维表层与信息繁密的双重对应，引用会退化为文化装饰。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 汪淼退出《三体》后重新感到的日常现实
+vehicle: 细节繁多却被压在二维画面上的《清明上河图》
+ground: 现实表面人物事物繁杂对应长卷场景密集；现实被游戏反衬得缺少纵深对应画中万象终究停在薄平面

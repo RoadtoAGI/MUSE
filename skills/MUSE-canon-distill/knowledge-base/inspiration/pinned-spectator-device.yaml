@@ -1,0 +1,23 @@
+card_id: pinned-spectator-device
+pattern_name: 被困观众席·目击难言
+dramatic_function: 把主角钉死在不可中断的物理约束里旁观要事：看得见不能动，目击却无法证言，一次性铺设多线信息差与持续误会。
+applicability: 适用于中段多线索交汇的铺设节点；被困理由必须硬，过客巧合过密则显造作（单书孤证，验证面窄）
+reuse_candidates:
+- 密室疗伤七日掌心相抵的设定
+- 牛家村旧宅密室的地理装置
+- 对灶神说话的具体迂回桥段
+tags:
+- 信息差
+- 空间装置
+- 旁观者
+- 误会铺设
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S19
+  note: 疗伤不可中断，外部每个转折都加剧观众席焦灼
+- novel: 射雕英雄传
+  scene_id: S08
+  note: 隔壁阁子偷听承载机密推进，同型的旁听装置
+phase_affinity:
+- 4
+- 5

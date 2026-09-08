@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-117476560c36a68e9ec824d5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1549
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 三只叠加的太阳构成了宇宙中一只明亮的眼睛
+sensory_mapping: 视觉；圆形叠层；强光；凝视；宇宙尺度
+context_fact: 三颗太阳从第一颗背后分别露出一部分，行星万物正被吸向它们，天空已因大气消失而漆黑。
+image_mechanism: 三个天体圆盘合成一枚非人的瞳孔，黑色宇宙提供眼眶，直射光把毁灭性引力转成不可回避的凝视；受害世界仿佛正被宇宙看着吞没。
+property_alignment: 太阳圆盘对应眼球轮廓；三盘错叠对应虹膜瞳孔层次；强光对应发亮眼神；正对行星对应凝视目标；引力吸取万物对应目光背后的捕获力量
+context_alignment: 灾难由看似单一的太阳显露真实三体结构，眼睛既总结几何形态，也让无意志天象呈现冷酷观看感。
+narrative_function: 以标志性图像为三日连珠定格，随后字幕像在巨眼前宣读文明死亡报告。
+transfer_rule: 把叠加天体写成眼睛时，应利用圆形层次、背景眼眶、光线方向和观察关系，而非只凭一个圆。
+failure_boundary: 天体排列不形成瞳孔层次、光线柔和且人物没有被注视感时，宇宙之眼会成为空泛宏大标签。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从行星方向看到的三颗部分错开的太阳形成的复合亮斑
+vehicle: 黑暗中睁开、具有多层轮廓并发出强光的巨大眼睛
+ground: 叠加圆形日面对应眼球与虹膜层次；太阳光集中射来对应眼睛亮起并朝观察者凝视

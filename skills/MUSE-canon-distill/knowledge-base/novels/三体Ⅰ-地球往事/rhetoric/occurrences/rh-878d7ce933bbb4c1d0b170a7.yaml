@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-878d7ce933bbb4c1d0b170a7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1010
+chapter: 第12章 三体、墨子、烈焰
+figure_type: analogy
+quote: 首先，你知道宇宙是什么吗？是一部机器
+sensory_mapping: 机械结构；旋转运动；因果传动；空间层级
+context_fact: 墨子依据长期观测制作了可膨胀收缩的铜球，以内外壳、洞孔和齿轮模拟天空、太阳与群星。
+image_mechanism: 无边宇宙被收进一件可拆解装置：天空成为壳，星与日成为孔和光斑，外部力量经齿轮传入；每个天象都获得一个可触摸部件和传动路径。
+property_alignment: 天空层次对应内外球壳；星与太阳的可见位置对应洞孔及投射光斑；天体不规则变化对应齿轮受变化外力驱动；模型预测对应机器按设定继续运转
+context_alignment: 墨子以实践制造反对玄想，机械类比能被他亲手造出的铜球验证，既符合人物自信也保留古代宇宙观局限。
+narrative_function: 把一套错误但可操作的宇宙学完整具象化，让汪淼能够通过观测拆穿它。
+transfer_rule: 用机器解释复杂系统时，应为结构层、可见输出、驱动力和预测过程分别安排部件与传动关系，使模型可以被检验。
+failure_boundary: 宇宙并无墨子设想的实体球壳和外部火海；机械同构只能呈现其模型逻辑，不能把可制造性当成自然事实。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 墨子试图解释的宇宙结构、天体位置与不规则运行
+vehicle: 由双层球壳、洞孔、光源和传动机构构成并受外力驱动的机器
+ground: 天体位置和光照由部件关系产生对应机器功能由零件装配实现；天空变化受外部火海规律驱动对应机械运动由输入力量传动

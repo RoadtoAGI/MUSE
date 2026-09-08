@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ae83116e9e0d6bb6ee40fb4d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L832
+chapter: 第10章 宇宙闪烁之二
+figure_type: simile
+quote: 天线在夜空下变成了简明的黑色二维图案，仿佛是一排抽象的符号
+sensory_mapping: 视觉；黑白；二维轮廓；排列；符号认知
+context_fact: 聚光灯熄灭后，汪淼看见所有天线齐齐仰望宇宙并想到三体巨摆。
+image_mechanism: 光线撤走材质和纵深，只留下可辨笔画；二十八个设备从物体压平成一行字形，统一仰角则像它们共享同一个尚未译出的语法。
+property_alignment: 立体细节消失对应符号二维化；黑色剪影对应墨色笔画；单元同角排列对应字符按序排布；用途令人不安对应符号像在传达未知信息
+context_alignment: 夜空提供空白底面，熄灯制造平面剪影，倒计时即将出现又让“符号”带有信息预兆。
+narrative_function: 把熟悉设施陌生化为等待解码的宇宙文字，蓄势波动出现。
+transfer_rule: 把物体群写成符号时，应先通过光线或视角消除纵深，再利用重复轮廓、基线排列和未明功能生成可读感。
+failure_boundary: 日光下材质细节丰富、设备角度杂乱或单体孤立时，没有二维字行结构，抽象符号会显得生硬。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 熄灯后以同一仰角排列、只剩黑色轮廓的天线阵列
+vehicle: 写在同一基线上的一排重复而含义未明的抽象符号
+ground: 立体细节消失对应符号二维化；黑色剪影对应墨色笔画；单元同角排列对应字符按序排布；用途令人不安对应符号像在传达未知信息

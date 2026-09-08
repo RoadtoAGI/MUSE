@@ -1,0 +1,87 @@
+analysis_meta:
+  novel: "云天明的童话"
+  source_text: "source_manifest.yaml 所列三个连续童话"
+  source_form: "嵌套中篇 / 三联童话 / 科幻隐写文本"
+  evidence_note: "从白帆远航与王国重新封闭的双结局回溯故事脊椎。"
+
+inciting_incident:
+  description: "国王在寿宴上宣布由露珠继承王位，冰沙随即献上针眼画师，并借庆典让画师记住清洗对象。"
+  type: "decision"
+  timing: "第一篇开端，约全文10%"
+  balance_before: "王国长期无变化；继承秩序尚未公开触发冲突。"
+  balance_after: "冰沙启动远程清洗，王室与大臣体系在一夜间瓦解。"
+  impact_on_protagonist: "露珠从宫廷继承人变成靠黑伞维生的逃亡者，被迫接触王国之外。"
+  evidence: "sources/01_王国的新画师.md:L5-L35"
+
+spine_mode: "desire"
+
+desire_object:
+  conscious: "活下来，找到深水王子，烧毁自己的画像并制止冰沙。"
+  unconscious: "理解宫墙外的世界，取得对王位、关系与生活方式的选择权。"
+  tension: "恢复王位能够修复公共秩序，却会把她重新固定在无故事王国；远航实现个人成长，也让王国失去最后的通海材料。"
+
+spine_statement: "露珠在魔画追杀下离开宫廷，和宽姨、长帆用失传器物突破饕餮海，借深水之力结束篡位，随后放弃王位、驶向有故事的世界。"
+spine_type: "conscious"
+
+reader_spine:
+  reader_waits_to_know: "露珠能否在画像完成后继续存在，众人能否越过饕餮海，以及深水为何无法被针眼画出。"
+  recognition_object: "被烧毁的露珠画像、主动合拢的黑伞与驶向远方的白帆"
+  withheld_answer: "黑伞、香皂、深水和雪浪纸的规则如何共同构成生路"
+  reveal_ladder_seed:
+    early_signals:
+      - "针眼必须先看清对象，且只能在雪浪纸上作画"
+      - "黑伞转速有上下限"
+      - "赫尔辛根默斯肯物品被反复点名"
+    mid_reframes:
+      - "香皂泡沫使饕餮鱼失去攻击性"
+      - "深水的巨人外观随靠近而缩小"
+      - "露珠发现自己更向往宫墙外"
+    final_confirmation:
+      - "深水因不符合透视原理使针眼的画技失效"
+      - "烧画后合伞，露珠存活"
+      - "香皂既打通海路，也随白帆离开王国"
+
+dramatic_question:
+  question: "露珠能否把封闭世界中的零散知识组合成生路，并在获救后选择自己的人生？"
+  obligatory_scene: "她在烧毁画像后主动合伞验证自由，又拒绝加冕，邀请长帆共同远航。"
+
+opposing_forces:
+  internal: "宫廷依赖、对王位责任的预设、对海与风险的无知"
+  personal: "冰沙的篡位意志、针眼的远程画杀、禁卫军对既成王权的犹疑"
+  external: "饕餮海封锁、画像已完成、黑伞需持续运转、关键器物稀缺"
+
+arcs:
+  - arc_id: "ARC-1"
+    name: "故事降临"
+    value_at_start: "无变化的宫廷秩序"
+    value_at_end: "王室被清洗，露珠带着死亡倒计时逃亡"
+    climax_event: "空灵让出黑伞、化为画像；露珠一行驶出王宫时，针眼完成她的画像。"
+    function_note: "把童话世界的稳定价值翻转为生存危机，并交付全部核心规则。"
+  - arc_id: "ARC-2"
+    name: "走到世界边缘"
+    value_at_start: "露珠活着，却仍是被照料、缺乏外部知识的公主"
+    value_at_end: "她理解王国的封闭史、看见海与远方，也确认自己可能像露珠般消失"
+    climax_event: "长帆承诺若无法抵达墓岛，就永远为她打伞。"
+    function_note: "降低外部事件密度，集中安装渡海材料、世界史、成长和情感动机。"
+  - arc_id: "ARC-3"
+    name: "越海、复位与远航"
+    value_at_start: "海路不通，解救力量可望而不可及"
+    value_at_end: "篡位被终结；露珠放弃王位，与长帆驶入开放世界"
+    climax_event: "画像焚毁后露珠合伞存活，随即选择带香皂远航。"
+    function_note: "回收三篇全部道具和人物能力，以私人开放与公共封闭的双结果收束。"
+
+story_climax_design:
+  crisis:
+    dilemma: "露珠在恢复继承秩序后，是留任女王，还是把王位交给深水并航向未知？"
+    option_a: "加冕，承担王国稳定，却回到宫廷和无故事秩序。"
+    option_b: "让深水治理，带着最后的香皂与长帆出海，承担风险。"
+    character_revelation: "她已经从被世界保护和定义的公主，成长为主动选择世界的人。"
+  climax:
+    action: "露珠拒绝加冕，邀请长帆同行，白帆带着泡沫尾迹离岸。"
+    value_change:
+      from: "获救后被重新安排的安全与权位"
+      to: "自选的危险、流动与故事"
+    controlling_idea_expression: "自由通过理解、行动和承担风险实现；白帆驶离把这一价值落实为不可逆行动。"
+  resolution:
+    new_balance: "深水可治理王国；露珠与长帆持续远行；王国因香皂离去重新封闭。"
+    lingering_feeling: "浪漫与反讽并存：两个人进入无限故事，整个王国则永远无故事。"

@@ -1,0 +1,313 @@
+analysis_meta:
+  novel: 穿越东汉末年
+  source_text: navigation.md
+  source_form: 中篇连载历史穿越演义
+  evidence_note: "人物系统以期数标注来源；个体声音和弧光仅作 Phase B 候选提示，不替代后续角色 Skill 蒸馏"
+
+cast_overview:
+  protagonist: 刘官章
+  antagonist: "东汉末年旧秩序：饥荒、兵灾、世家兼并、交通后勤限制、汉室名分和军阀均势共同构成主对抗力量"
+  supporting_cast:
+    - name: 刘登
+      first_appearance: 第4期
+      function: 继承线核心；把刘官章的战时秩序转化为下一代可执行能力的试金石。
+      phase_b_candidate: true
+      voice_traits: "回答问题直接、算账清楚、偏务实；独领军后能听取诸葛亮、庞统、陆议意见。"
+      character_arc: "从被父亲考校的嫡长子，到壶关、河北战役中可独当一面的世子，结尾被立为太子。"
+      evidence_chapters: [第10期, 第21期, 第24期, 第26期]
+    - name: 刘基
+      first_appearance: 第5期
+      function: 次子与继承风险镜像；展示政治敏感、藏拙和潜在杨广式危险。
+      phase_b_candidate: true
+      voice_traits: "表面顺从笨拙，私下能精准解释藏拙逻辑；善用亲情姿态触碰父亲偏好。"
+      character_arc: "从看似算术不明的次子，到显露政治敏感和处理江东事务能力，最终被安排与孙权妹妹联姻、削弱外戚风险。"
+      evidence_chapters: [第10期, 第21期, 第22期, 第26期]
+    - name: 郑氏
+      first_appearance: 第2期
+      function: 早期家庭线与主角人性锚点；她的死亡推动继承线和旧身份的沉没。
+      phase_b_candidate: false
+      voice_traits: "原文着墨较少，更多作为生活处境和家庭代价存在。"
+      character_arc: "从大巴山逃亡伴侣，到生下刘登、刘基后早逝，结尾追封元皇后。"
+      evidence_chapters: [第2期, 第3期, 第10期, 第26期]
+    - name: 甘宁
+      first_appearance: 第4期
+      function: 水军核心和南方扩张尖刀；从游侠水匪转化为国家水军支柱。
+      phase_b_candidate: true
+      voice_traits: "豪侠、重义、情绪外露；在被赤诚礼遇后以忠诚和进攻性回应。"
+      character_arc: "从劫船游侠、带三百部曲来投，到荆州、江东攻略主将，结尾为中央军政体系大将军。"
+      evidence_chapters: [第4期, 第5期, 第12期, 第20期, 第26期]
+    - name: 严颜
+      first_appearance: 第4期
+      function: 巴郡豪强与老资历官僚代表；连接地方士族、益州秩序和新朝中枢。
+      phase_b_candidate: true
+      voice_traits: "起初端着巴郡大族架子，后期稳重老练，能在权力高位承担监察和中书角色。"
+      character_arc: "从看不上平民军阀的巴郡从事，到被刘官章威慑、合作、归附，最终成为中书令和御史大夫级核心。"
+      evidence_chapters: [第4期, 第5期, 第6期, 第23期, 第26期]
+    - name: 洪新甲
+      first_appearance: 第4期
+      function: 早期亲兵军事支柱；大雪营和中央八营中的创业嫡系代表。
+      phase_b_candidate: false
+      voice_traits: "个人声音弱于功能定位，主要体现为可靠、猛进、创业老兵。"
+      character_arc: "从剿匪提拔出的心腹，到大雪营和卫将军位置，代表最早追随者的军功兑现。"
+      evidence_chapters: [第4期, 第6期, 第13期, 第26期]
+    - name: 辛银马
+      first_appearance: 第4期
+      function: 汉山营统帅和主角亲兵体系代表；在南阳防曹中证明亲军威慑。
+      phase_b_candidate: false
+      voice_traits: "执行命令干脆，少解释，体现亲兵统帅的纪律性。"
+      character_arc: "从心腹五将之一，到汉山营主将、骠骑将军，持续守住最核心武力。"
+      evidence_chapters: [第4期, 第6期, 第23期, 第24期, 第26期]
+    - name: 黄权
+      first_appearance: 第6期
+      function: 行政、后勤、守成路线代表；长期做萧何型物资转运与政务中枢。
+      phase_b_candidate: true
+      voice_traits: "稳、审慎、重后勤边界；常以不可轻动、先固根本的方式制衡冒进。"
+      character_arc: "从阆中世家子弟被征辟，到荆益物资转运核心，结尾为尚书右/左仆射级宰相。"
+      evidence_chapters: [第6期, 第10期, 第12期, 第23期, 第26期]
+    - name: 法正
+      first_appearance: 第9期
+      function: 冷峻执行和钱粮治理核心；承担主角不便亲自背负的清算与策略。
+      phase_b_candidate: true
+      voice_traits: "尖锐、敢担骂名、善抓痛点；常以现实利益和私仇正当化执行。"
+      character_arc: "从被益州本土士族轻视的投靠者，到清查蜀郡属国粮仓、主政荆州/尚书省的核心谋臣。"
+      evidence_chapters: [第10期, 第11期, 第12期, 第20期, 第26期]
+    - name: 贾诩
+      first_appearance: 第10期
+      function: 安全优先的谋国之才；用最低风险策略为主角处理关中、荆州和中枢分权。
+      phase_b_candidate: true
+      voice_traits: "极稳、先退让、少表态；真正开口时直指要害并规避责任风险。"
+      character_arc: "从张绣军中自保谋士，到被刘官章反复争取，最终成为门下省侍中和制度审核核心。"
+      evidence_chapters: [第10期, 第11期, 第12期, 第23期, 第26期]
+    - name: 马超
+      first_appearance: 第9期
+      function: 失控代理人、义子和西北骑兵翼；体现“被扶植者也会反噬”的权力现实。
+      phase_b_candidate: true
+      voice_traits: "勇烈、直接、重名声和武力利益；在政治上不笨，但更像骑兵领袖。"
+      character_arc: "从被马腾质押入蜀的庶子，到坐大反堵刘官章，再因内乱崩盘归附，最终成为中央军政体系右车骑将军。"
+      evidence_chapters: [第9期, 第11期, 第13期, 第14期, 第24期, 第26期]
+    - name: 马岱
+      first_appearance: 第24期
+      function: 马超系的可控延伸；幽州与司法中枢中的可信执行者。
+      phase_b_candidate: false
+      voice_traits: "务实、按授权执行，能就地判断幽州分地条件。"
+      character_arc: "从马超族弟和偏将，到幽州战役执行者、大理寺少卿。"
+      evidence_chapters: [第24期, 第26期]
+    - name: 张绣
+      first_appearance: 第10期
+      function: 百战外来军头；提供荆州、上庸和新朝司法军功合法性。
+      phase_b_candidate: true
+      voice_traits: "原文声音不如贾诩突出，主要以无远志、重亲信、能打硬仗呈现。"
+      character_arc: "从宛城孤军，到携贾诩入汉中、坐镇上庸、参与荆州江东，结尾为廷尉。"
+      evidence_chapters: [第10期, 第11期, 第12期, 第20期, 第26期]
+    - name: 陈文锤
+      first_appearance: 第7期
+      function: 荆襄代价的情感锚点；用战死证明扩张不是无成本爽点。
+      phase_b_candidate: false
+      voice_traits: "粗粝忠勇，临死对白集中体现报恩与效死。"
+      character_arc: "从賨兵将领，到竟陵守城战死，成为刘官章荆州线的创伤记忆。"
+      evidence_chapters: [第7期, 第12期]
+    - name: 刘备
+      first_appearance: 第10期
+      function: 另一个汉室宗亲和“仁德路线”镜像；被收容、拆兵权、保留身份功能。
+      phase_b_candidate: true
+      voice_traits: "谦退、会自处、能明哲保身；评价刘官章时能看见保境安民和根基弱点。"
+      character_arc: "从曹操、袁绍之间流离的客将，到博望保安、被拆分集团，最终任宗正而无兵权。"
+      evidence_chapters: [第10期, 第12期, 第21期, 第22期, 第26期]
+    - name: 诸葛亮
+      first_appearance: 第12期
+      function: 新一代制度和后勤人才；与刘官章“百姓不流离”的价值同频。
+      phase_b_candidate: true
+      voice_traits: "自谦而志大，表达愿景时完整、端正、理想化。"
+      character_arc: "从被提亲婉拒的隐士少年，到入安汉大学、辅佐刘登、进入尚书左/右省。"
+      evidence_chapters: [第12期, 第16期, 第21期, 第24期, 第26期]
+    - name: 庞统
+      first_appearance: 第16期
+      function: 新一代奇谋和战场参谋；与诸葛亮形成更冒险、更直接的谋略对照。
+      phase_b_candidate: true
+      voice_traits: "简捷、敢拍板、偏战术奇袭；不如诸葛亮理想化，更像实战参谋。"
+      character_arc: "从荆州庞家旁支、招之即来，到随刘登打壶关和河北，进入尚书左/右省。"
+      evidence_chapters: [第16期, 第21期, 第24期, 第26期]
+    - name: 陆议
+      first_appearance: 第20期
+      function: 江东士族新生代与刘登班底；连接降附士族和继承线。
+      phase_b_candidate: true
+      voice_traits: "冷静、细密、善从器械和全局判断战术；比庞统更耐心。"
+      character_arc: "从江东陆氏青年归附，到入长安随刘登作战、壶关火攻献策，成为中书侍郎。"
+      evidence_chapters: [第20期, 第21期, 第24期, 第26期]
+    - name: 周瑜
+      first_appearance: 第14期
+      function: 江东/淮泗派水军与士族整合核心；强敌转为制度内司法和军政角色。
+      phase_b_candidate: true
+      voice_traits: "自尊、能谈条件、守住淮泗派利益；投降后仍保有强者姿态。"
+      character_arc: "从孙权水军核心和刘官章南方对手，到淮泗派谈判者、安北将军、大理寺卿。"
+      evidence_chapters: [第14期, 第17期, 第20期, 第24期, 第26期]
+    - name: 孙权
+      first_appearance: 第11期
+      function: 江东对手与海贸/造船路线镜像；代表人多地少、士族掣肘的南方政权。
+      phase_b_candidate: true
+      voice_traits: "精明、会做小动作、善平衡内部；被击败后仍保留可用能力。"
+      character_arc: "从接手江东、试图海贸破局和假船坑刘官章，到江东饥荒中失势，被安置后转向造船余用。"
+      evidence_chapters: [第11期, 第15期, 第17期, 第20期, 第26期]
+    - name: 曹操
+      first_appearance: 第9期
+      function: 中原最强对手兼必要盟友；逼出刘官章的均势战略和最终权力交接。
+      phase_b_candidate: true
+      voice_traits: "极能扛压，话术反复试探，绝境敢拼命；谈判时能看穿对方底线。"
+      character_arc: "从挟天子中原霸主，到与刘官章互相输血抗袁、让关中、最终主动退场保宗族。"
+      evidence_chapters: [第9期, 第11期, 第17期, 第24期, 第25期]
+    - name: 刘协
+      first_appearance: 第17期
+      function: 汉室名分的人格化；既是被挟持者，也是会主动利用诏令求生的政治玩家。
+      phase_b_candidate: true
+      voice_traits: "求生欲强，能借天子身份反制；后期带有半自嘲式退位语气。"
+      character_arc: "从曹操手中的天子，到御驾亲征积累威望、用诏令架刘官章，最终入长安并退位为陈留王。"
+      evidence_chapters: [第17期, 第22期, 第25期]
+    - name: 袁绍
+      first_appearance: 第9期
+      function: 华北平原和士族利益的代表；迫使曹操、刘官章长期互相需要。
+      phase_b_candidate: true
+      voice_traits: "大势资源雄厚但决断摇摆；谋臣意见多而难裁断。"
+      character_arc: "从河北强权和曹操最大压力，到另立刘和、称魏公，败后以托孤布局延缓内乱。"
+      evidence_chapters: [第13期, 第17期, 第19期]
+    - name: 袁尚
+      first_appearance: 第19期
+      function: 河北后继者和士族清洗者；把袁绍死后的结构压力具体化。
+      phase_b_candidate: true
+      voice_traits: "狠、急、强压内部，能杀但难服众。"
+      character_arc: "从袁绍托孤继承人，到屠杀反对世家、守邺城，最终被内部杀死请降。"
+      evidence_chapters: [第19期, 第21期, 第24期]
+    - name: 刘表
+      first_appearance: 第9期
+      function: 荆州旧秩序代表；水军强、陆军弱，给刘官章提供水陆短板考题。
+      phase_b_candidate: false
+      voice_traits: "以坐谈和守成形象为主，个人声音弱于势力功能。"
+      character_arc: "从荆州州牧和刘官章南下阻力，到江陵投降，被安置于蜀郡属国。"
+      evidence_chapters: [第10期, 第12期, 第13期, 第21期]
+    - name: 赵韪
+      first_appearance: 第8期
+      function: 益州旧部和被剥夺兵权的老资历代表；展示旧势力被制度化消化。
+      phase_b_candidate: false
+      voice_traits: "不满、求战功、守旧资历意识强。"
+      character_arc: "从刘璋集团重要人物，到投降保留资历，后因调不动兵而暴露失权现实，结尾任工部尚书。"
+      evidence_chapters: [第8期, 第21期, 第26期]
+    - name: 蔡琰
+      first_appearance: 第25期
+      function: 汉家文化恢复和正统修复的象征；让胜利从军事转向文章、礼乐和记忆。
+      phase_b_candidate: true
+      voice_traits: "悲怆、庄重、带文化使命感；从个人创伤转向为先圣续命。"
+      character_arc: "从被掳匈奴十二年的汉家女，到归汉作《归汉行》、入兰台校书正音律。"
+      evidence_chapters: [第25期]
+    - name: 乞伏龙关
+      first_appearance: 第21期
+      function: 以胡制胡体系的极端执行者；代表边疆代理人政策的有效与危险。
+      phase_b_candidate: true
+      voice_traits: "受恩后极端表忠，执行暴烈，能把命令推到残酷边界。"
+      character_arc: "从被挤压的小鲜卑首领，到受赐姓和军械、兼并部落、进击南匈奴并设留州。"
+      evidence_chapters: [第21期, 第23期, 第25期, 第26期]
+    - name: 马谡
+      first_appearance: 第14期
+      function: 被改写的历史失败者；在本作中承担使者、后勤和政务试炼。
+      phase_b_candidate: false
+      voice_traits: "诚恳、心气不浮、能出使险地；被主角刻意限制不掌兵。"
+      character_arc: "从主角身边学习的年轻人，到江东取证、郿县后勤县令、户部侍郎。"
+      evidence_chapters: [第14期, 第20期, 第21期, 第26期]
+
+contrast_axes:
+  - axis: "救民秩序 vs 家族/士族利益"
+    responses:
+      刘官章: "以分地、限税、赈济和基层组织换民心，但必要时直接灭门或按族谱清算。"
+      江东士族: "愿意割一部分地换未来军功和家族前途，但仍会试探税率底线。"
+      河北士族: "土地和隐户根基更深，只有在袁尚清洗、刘官章军压和分地条件之间重新计算。"
+      曹操: "更重保住中原军政结构和宗族退路，能谈利益但不以救民作为核心表达。"
+  - axis: "个人威望 vs 制度下限"
+    responses:
+      刘官章: "最终意识到自己死后才是真问题，因此废三公九卿并拆分决策、审核、执行和军权。"
+      刘登: "代表可继承的务实治理和军事能力，但仍需要制度护栏。"
+      刘基: "代表聪明但危险的继承变量，需要婚姻、位置和权力边界约束。"
+      刘协: "拥有制度名分却无治理能力，反衬名义权威不足以维持国家。"
+  - axis: "正统名分 vs 实际治理"
+    responses:
+      刘协: "能用天子身份让军阵迟疑、让诏令成为难题，但无法独立恢复民生。"
+      刘官章: "先以实际治理积累民心和军力，再用九鼎、周公、汉中王和退位完成解释。"
+      袁绍: "另立刘和称帝解决曹操天子牌，却进一步撕裂天下合法性。"
+      曹操: "挟天子获得政治工具，也被天子和名分反向束缚。"
+  - axis: "奇谋突击 vs 后勤制度"
+    responses:
+      甘宁: "在水战和江东突击中体现进攻锋芒，但依赖上游粮船、火药罐和船政。"
+      马超: "骑兵天才和西北锋刃，但长期受粮草、马政和名分约束。"
+      周瑜: "水军强者，能守住淮泗派谈判筹码，但在江东饥荒和民心崩塌中失去全局。"
+      黄权: "以谨慎后勤限制冒进，是主角势力能持续打仗的底盘。"
+      法正: "能抓住利益痛点和清算窗口，为后勤制度扫除阻碍。"
+  - axis: "理想主义表达 vs 冷酷现实执行"
+    responses:
+      诸葛亮: "明确说出天下太平、百姓不流离的愿景。"
+      贾诩: "几乎不讲理想，只讲如何活、如何少冒险、如何让对手互耗。"
+      乞伏龙关: "受恩后把边疆政策执行到残酷边界，暴露理想秩序的阴影。"
+      蔡琰: "把现实恢复转化为文化和文章层面的意义。"
+  - axis: "创业嫡系 vs 降附精英"
+    responses:
+      洪新甲: "早期亲兵功劳代表，要求功劳排序不能被后来者冲掉。"
+      辛银马: "亲兵纪律和主角核心安全感。"
+      张绣: "外来降将有战功但需通过位置和规矩纳入体系。"
+      周瑜: "强敌归降后仍需保留前途，否则淮泗派不会稳定。"
+      张郃: "降将需蛰伏，不能让晚来者压过创业者。"
+
+relationships:
+  power_dynamics:
+    - "刘官章处在所有关系中心：早期靠亲兵和民望，后期靠粮食、道路、制度和官职重新分配所有人的前途。"
+    - "创业嫡系洪新甲、辛银马、甘宁构成最早军事信用；严颜、黄权、法正、贾诩构成中后期行政和决策信用。"
+    - "马超、张绣、周瑜、刘备、曹操旧将等降附力量必须被保留前途，但永远不能直接触碰主权核心。"
+    - "刘登、刘基构成继承压力：一个需要刷战功和熟悉政务，一个需要被识别、安置和限制。"
+    - "刘协、曹操、袁绍、袁尚、孙权不是单纯反派，而是分别占据名分、中原、华北、继承危机、江东水军/士族结构的位置。"
+  key_tensions:
+    - "刘官章 vs 东汉末年旧秩序：个人从求生者变成制度重构者。"
+    - "刘官章 vs 世家系统：必须用分地、保留前途、军事威慑和定向清洗同时推进。"
+    - "刘官章 vs 曹操：互相需要、互相防备；曹操不能太早死，也不能最终保留中原主导权。"
+    - "刘官章 vs 刘协：一个有实际治理，一个有旧汉名分；两者最终通过退位完成权威转移。"
+    - "刘官章 vs 马超：扶植出的骑兵棋子一度反堵主角，后又成为义子和骑兵翼。"
+    - "刘官章 vs 孙权/周瑜：江东水军、造船和饥荒名分决定南方吞并方式。"
+    - "刘登 vs 刘基：嫡长子的公开治理才能与次子的藏拙政治敏感形成继承镜像。"
+    - "诸葛亮 vs 贾诩：一个表达理想目标，一个提供低风险生存策略，共同支撑主角中后期。"
+    - "甘宁 vs 周瑜：水军进攻者与水军防守/谈判者，分别代表刘官章体系和江东淮泗体系的转化。"
+    - "乞伏龙关 vs 王化秩序：以胡制胡能解决边疆和世家问题，也不断威胁主角的道德边界。"
+  potential_shifts:
+    - "若刘官章早死，刘登能否压住刘基、降将、士族和胡部，是全篇结尾制度焦虑的核心。"
+    - "周瑜、张绣、张郃、曹操外姓将领等降附精英的上升通道若被堵，会破坏新朝整合。"
+    - "江东、河北、颍川士族暂时合作，但其长期再生会成为下一代制度挑战。"
+    - "以胡制胡体系短期有效，长期必须被军区、户籍、教育和人质机制约束。"
+    - "刘协退位后保命成功，但旧汉名分和文化修复仍需蔡琰、兰台、礼制和州郡重划继续消化。"
+
+candidate_pool_hints:
+  strong_phase_b_candidates:
+    - 刘官章
+    - 刘登
+    - 刘基
+    - 甘宁
+    - 严颜
+    - 黄权
+    - 法正
+    - 贾诩
+    - 马超
+    - 刘备
+    - 诸葛亮
+    - 庞统
+    - 陆议
+    - 周瑜
+    - 孙权
+    - 曹操
+    - 刘协
+    - 袁绍
+    - 袁尚
+    - 蔡琰
+    - 乞伏龙关
+  conditional_candidates:
+    - 张绣
+    - 陈文锤
+    - 洪新甲
+    - 辛银马
+    - 马谡
+    - 赵韪
+    - 刘表
+  non_person_antagonist_note: "主对抗力量是旧秩序系统，Phase B 蒸馏时不要为‘旧秩序’本身建角色包；只从具体人物候选中判断信息是否足够。"
+
+system_design_note: "本作的人物系统不是传统单一反派结构，而是‘主角组织能力’与多个旧秩序节点的连续对照：底层百姓证明价值目标，亲兵证明创业信用，谋臣证明制度能力，降将证明整合能力，儿子证明继承风险，天子和诸侯证明合法性压力。"

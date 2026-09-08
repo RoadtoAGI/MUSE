@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a8d8d299f7c7b184e5e2d4bd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1855
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 将自己带进这个与世隔绝的避风港
+sensory_mapping: 狂风海浪；船体颠簸；港湾屏障；平静水面；靠岸
+context_fact: 杨卫宁在她最危难时将她带进基地，后来还因娶她失去总工程师职位。
+image_mechanism: 叶文洁的人生被放在政治风暴中的孤船上，红岸山体弯成挡浪堤，杨卫宁承担领航者，把她从可能沉没的外海带进相对平静水域。
+property_alignment: 文革迫害对应风暴；叶文洁对应遇险船只；杨卫宁援救对应引航；红岸封闭对应防波堤；获得生存工作对应安全靠港；外界联系减少对应港内与海隔开
+context_alignment: 雷达峰也是鸟的避难所和近似桃源，多重安全空间共同说明她接受婚姻主要出于报恩而非爱情。
+narrative_function: 概括杨卫宁的救命意义，并解释婚姻形成的情感基础。
+transfer_rule: 用避风港写保护关系时，应有外部持续风暴、明确受险主体、屏障机制和带入港湾的人或路径。
+failure_boundary: 场所内部同样迫害主体、保护只是偶然短暂，或主体可独立安全离开时，港湾会过度美化援助。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 杨卫宁把遭政治迫害、可能死亡的叶文洁调入封闭红岸基地，使她暂时获得安全和生存
+vehicle: 船只逃离风暴海面驶入有屏障的港湾，免受巨浪摧毁
+ground: 外部文革迫害对应海上风暴；基地封闭保护对应港湾挡住风浪；叶文洁被调入对应船驶进港内

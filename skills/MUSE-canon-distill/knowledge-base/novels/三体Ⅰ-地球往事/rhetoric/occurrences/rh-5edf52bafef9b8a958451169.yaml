@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5edf52bafef9b8a958451169
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L610
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 在中国，任何超脱飞扬的思想都会砰然坠地的，现实的引力太沉重了
+sensory_mapping: 视觉；运动；重量；撞击声；空间高低
+context_fact: 爱因斯坦在上海看到衣衫破烂的小工一天只挣五分钱后久久沉默。
+image_mechanism: 抽象理论获得轻盈身体向高处飞，砸石小工的贫困则改变为覆盖社会的重力场；一旦进入该场，思想加速下落并以“砰然”撞上地面。
+property_alignment: 思想追求超越对应物体向上飞扬；现实贫困构成限制对应引力持续下拉；理想与现实相撞对应物体砰然坠地；重力过强对应生存负担压倒抽象讨论
+context_alignment: 叙述由世界级物理学家转向路边小工，重力既是物理学术语又是现实重量，人物身份与事件结构双重贴合。
+narrative_function: 把短暂相遇提炼为叶哲泰坚持的现实判断，并深化理论与苦难的张力。
+transfer_rule: 用重力写理想受限时，应给出理想的上升姿态、现实的具体重量、作用范围和最终碰撞，而非只说“落地”。
+failure_boundary: 思想经实践修正后成功落实、现实提供助力或限制仅来自个人懒惰时，沉重引力会把互动误写成单向压垮。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 宏大抽象思想在贫困而沉重的社会现实面前无法保持超越姿态
+vehicle: 试图升空的轻盈物体被过强重力猛然拉回地面
+ground: 思想追求超越对应物体向上飞扬；现实贫困构成限制对应引力持续下拉；理想与现实相撞对应物体砰然坠地；重力过强对应生存负担压倒抽象讨论

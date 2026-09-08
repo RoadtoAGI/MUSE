@@ -1,0 +1,28 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 疲病身体
+  dimension: camera
+  original_move: 用麻木发烧口渴呈现守城。
+  ai_default_failure: 会写壮观攻防镜头。
+  transfer_rule: 消耗战先写身体损耗。
+  quote: 口渴
+- pattern_id: S18-p2
+  beat: 隧道省略
+  dimension: omission
+  original_move: 诺伊与巨人的壮烈战只留尸体。
+  ai_default_failure: 会展示英雄同归于尽。
+  transfer_rule: 最壮烈处可留给结果想象。
+  quote: 巨人
+- pattern_id: S18-p3
+  beat: 空洞命令
+  dimension: overall
+  original_move: 琼恩知道话空洞仍必须说。
+  ai_default_failure: 会让领袖演说有奇效。
+  transfer_rule: 领导力可写成害怕中站前面。
+  quote: 空洞
+overall_traits:
+- 战争写疲惫不写爽感
+- 省略胜于展示
+- 脆弱中显出领导力

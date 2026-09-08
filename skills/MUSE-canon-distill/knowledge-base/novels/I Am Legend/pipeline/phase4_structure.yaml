@@ -1,0 +1,302 @@
+# Phase 4: Structure (Sequence Expansion) — I Am Legend (Richard Matheson, 1954)
+
+arc_expansions:
+
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "The Daily Routine"
+        core_conflict: >
+          Neville vs. entropy — the house, supplies, and his own
+          sanity are constantly degrading under nightly assault.
+        escalation_direction: >
+          From mechanical routine (garlic, stakes, body disposal)
+          to the cracks showing: sexual frustration, heavy drinking,
+          the women outside, the crumbling mirror.
+        sequence_climax: >
+          Chapter 3: Neville, drunk, nearly opens the door to the
+          vampires. He catches himself, punches the wall, and goes
+          to bed in defeat. The routine is no longer sufficient.
+        closed: >
+          The illusion that routine alone can sustain survival.
+        opened: >
+          Neville needs something beyond survival — a purpose,
+          a reason, or an end.
+
+      - seq_id: ARC1-SEQ2
+        name: "Virginia's Grave"
+        core_conflict: >
+          Neville vs. grief — the past pulls him out of his fortress
+          and nearly kills him.
+        escalation_direction: >
+          From restless hangover to impulsive drive to the cemetery,
+          to the discovery of sunlight's lethal effect on vampires,
+          to the catastrophic realization that his watch has stopped.
+        sequence_climax: >
+          Chapter 5: The desperate race home. Neville crashes through
+          the vampire line, fights his way to the front door, empties
+          two pistols into the horde, then collapses. They destroy his
+          car and generator. "Everything was gone, everything."
+          He sobs Virginia's name.
+        closed: >
+          Neville's belief that he can afford carelessness or
+          emotional indulgence.
+        opened: >
+          A new scientific lead (sunlight kills the germ) and
+          the urgent need for a more systematic approach.
+
+    arc_progression_note: >
+      ARC-1 moves from numb routine → emotional breakdown → near-death
+      crisis. Each sequence strips away a layer of Neville's defenses.
+      The arc ends at his lowest point, which becomes the launchpad
+      for the scientific quest.
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "Remembering the Plague"
+        core_conflict: >
+          Neville vs. the past — he must revisit traumatic memories
+          to understand the present.
+        escalation_direction: >
+          Chapter 6 flashback: Virginia's illness, the mosquitoes,
+          the dust storms, Ben Cortman as a normal neighbor. Everyday
+          domesticity disintegrating into plague.
+        sequence_climax: >
+          The flashback ends with the devastating casual reveal:
+          "'Good morning,' said Ben Cortman." — the last normal
+          moment before Cortman becomes a vampire.
+        closed: >
+          The pre-plague world — it's gone and Neville must stop
+          living in it.
+        opened: >
+          The scientific question: what actually causes vampirism?
+
+      - seq_id: ARC2-SEQ2
+        name: "Experiments and Dead Ends"
+        core_conflict: >
+          Neville vs. ignorance — his amateur experiments on garlic,
+          the cross, running water, and stakes yield contradictions.
+        escalation_direction: >
+          Garlic: allyl sulphide injection does nothing. The cross:
+          only works on those who feared it in life (the Muslim/Jewish
+          vampire question). Running water: Cortman jumps over the
+          trough, laughing. Each failed experiment deepens frustration.
+        sequence_climax: >
+          Chapter 8: Neville finds a staked woman who dissolves
+          instantly into "salt and pepper" — proving she was ancient
+          dead. This is not hemorrhage. He spirals into days of
+          drinking, haunted by the image and by thoughts of Virginia
+          in her coffin.
+        closed: >
+          Simple mechanical explanations (hemorrhage, chemical agents).
+        opened: >
+          The need for a fundamentally different framework — germs.
+
+      - seq_id: ARC2-SEQ3
+        name: "Virginia's Return"
+        core_conflict: >
+          Neville vs. love and duty — his wife returns as a vampire
+          and he must destroy her.
+        escalation_direction: >
+          Chapter 9: Virginia dies. Neville refuses to burn her body
+          (against the law), buries her secretly. Two nights later,
+          she comes to the door. He keeps her, tries to hold on.
+          But she is no longer his wife.
+        sequence_climax: >
+          Neville must stake Virginia — his own wife. "A stake. I had
+          to put a stake in her. It was the only thing I knew to do."
+          This is the emotional nadir of the entire novel.
+        closed: >
+          Any remaining attachment to the past as something recoverable.
+        opened: >
+          The full weight of what it means to survive: you must
+          destroy even what you love most.
+
+      - seq_id: ARC2-SEQ4
+        name: "The Bacteriological Breakthrough"
+        core_conflict: >
+          Neville vs. the scientific establishment's failure — he
+          must build knowledge from scratch with no training.
+        escalation_direction: >
+          Library research → learning microscopy (breaking 13 slides) →
+          connecting bacteria to the lymphatic system → the dust-storm
+          vector insight → finally seeing the bacillus on the slide.
+        sequence_climax: >
+          Chapter 11: "I dub thee vampiris." Neville sees the
+          cylindrical bacterium under the microscope. All the
+          centuries of superstition fall. But: "To have the answer
+          now when it was too late was a crushing blow."
+        closed: >
+          The mystery of what causes vampirism.
+        opened: >
+          A deeper question: can this knowledge save anyone? And the
+          scientific framework that will later explain why the new
+          society can survive.
+
+    arc_progression_note: >
+      ARC-2 interleaves past and present, flashback and experiment.
+      Each sequence deepens understanding while deepening loss. The
+      arc's irony: knowledge is the consolation prize for a man who
+      has already lost everything knowledge could have saved.
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "The Dog (Prelude)"
+        core_conflict: >
+          Neville vs. his own damaged capacity for trust — he tries
+          to befriend a stray dog and fails.
+        escalation_direction: >
+          Neville spots a living dog, spends days trying to lure it
+          with food. The dog finally enters the house. Within a week,
+          it dies of the infection. (Chapter 14)
+        sequence_climax: >
+          The dog's death. Neville buries it and goes back to the
+          old routine. "It's dead, he thought. Dead."
+        closed: >
+          The hope that non-human companionship could ease isolation.
+        opened: >
+          The desperate longing that makes him vulnerable when Ruth
+          appears.
+
+      - seq_id: ARC3-SEQ2
+        name: "Ruth"
+        core_conflict: >
+          Neville vs. trust — a living woman appears in daylight,
+          but years of isolation have destroyed his ability to believe.
+        escalation_direction: >
+          He chases her across a field, drags her home. She's terrified
+          of him. He shoves garlic in her face; she vomits. He suspects
+          infection. She tells her story (dead husband, wandering).
+          They share wine and music. He begins to thaw — but cannot
+          fully trust.
+        sequence_climax: >
+          Chapter 18: In the dark, Neville wakes crying "Virge!" —
+          mistaking Ruth for his dead wife. The emotional dam breaks.
+          They embrace. He offers to check her blood and cure her.
+          "I'll save you, Ruth. I will. Or I'll die myself."
+        closed: >
+          Neville's emotional isolation — for one night, he connects.
+        opened: >
+          The blood test that will reveal the truth.
+
+      - seq_id: ARC3-SEQ3
+        name: "The Betrayal"
+        core_conflict: >
+          Truth vs. the wish to believe — Neville looks into the
+          microscope and sees infection.
+        escalation_direction: >
+          Ruth consents to the blood test. As Neville prepares the
+          slide, she begs him not to look. He sees the bacillus.
+          Before he can react, she strikes him with the mallet.
+        sequence_climax: >
+          Chapter 18–19: The mallet blow. Neville wakes to Ruth's
+          letter: she was a spy, her people are coming, he must flee.
+          "When we were together in the darkness, close to each other,
+          I wasn't spying on you. I was loving you." He finds the
+          pill. And: "Bacteria can mutate."
+        closed: >
+          The possibility that Neville is not alone in his humanity.
+          He is alone — but the infected are not monsters either.
+        opened: >
+          The final question: what is Neville's place in this new
+          world? The answer: he has none.
+
+    arc_progression_note: >
+      ARC-3 mirrors Neville's emotional trajectory: hope (dog) →
+      deeper hope (Ruth) → devastating reversal. Each sequence
+      raises the stakes of trust and the cost of its betrayal.
+      Ruth's letter reframes the entire novel.
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "The Assault"
+        core_conflict: >
+          Neville vs. the new society — they come with cars,
+          spotlights, guns, and pikes.
+        escalation_direction: >
+          Chapter 20: Neville watches from the peephole as the dark
+          men systematically exterminate the old vampires. He sees
+          Cortman killed — machine-gunned on a rooftop — and weeps.
+          "He felt more deeply toward the vampires than he did toward
+          their executioners."
+        sequence_climax: >
+          They smash in his door. He grabs a gun. Firefight. He's
+          shot in the chest. They drag his lifeless body from the
+          house "into the world that was theirs and no longer his."
+        closed: >
+          Neville's life as a free man.
+        opened: >
+          His death — and its meaning.
+
+      - seq_id: ARC4-SEQ2
+        name: "I Am Legend"
+        core_conflict: >
+          Neville vs. his own understanding — he must see himself
+          through the new world's eyes.
+        escalation_direction: >
+          Chapter 21: Neville wakes in a cell, mortally wounded.
+          Ruth visits, explains: they meant to bring him in alive,
+          but he fought. She gives him pills for a painless death.
+          He stands at the window and sees the crowd's faces.
+        sequence_climax: >
+          The epiphany: "I'm the abnormal one now. Normalcy was a
+          majority concept, the standard of many and not the standard
+          of just one man." He swallows the pills. "Full circle...
+          A new terror born in death, a new superstition entering
+          the unassailable fortress of forever. I am legend."
+        closed: >
+          Robert Neville's life. The old human race.
+        opened: >
+          The legend — a myth that will shape the new society's
+          understanding of itself, just as Dracula shaped the old.
+
+    arc_progression_note: >
+      ARC-4 is deliberately compressed — two chapters, maximum
+      velocity. The violence of Chapter 20 gives way to the
+      stillness of Chapter 21. The novel's entire thematic weight
+      lands in the final paragraph.
+
+# ── Full-Novel Progression ──
+
+arc_progression:
+  impact_escalation: >
+    ARC-1 threatens Neville's body (near-death).
+    ARC-2 threatens his mind (the crushing weight of useless knowledge).
+    ARC-3 threatens his heart (love revealed as betrayal).
+    ARC-4 threatens his identity (he is the monster).
+    Each arc attacks a deeper layer of selfhood.
+  causal_chain: >
+    ARC-1 crisis (near-death, despair) → triggers ARC-2 (scientific
+    investigation as purpose) → ARC-2's knowledge creates the framework
+    that ARC-3 shatters (bacteria can mutate; the infected are evolving) →
+    ARC-3's revelation (new society exists) makes ARC-4 inevitable
+    (they come for him) → ARC-4 delivers the controlling idea.
+
+# ── Narrative Threads ──
+
+narrative_threads:
+  - name: "The Scientific Thread"
+    description: >
+      Neville's self-taught investigation of vampirism. Runs from
+      Chapter 6 through Chapter 17, providing the novel's intellectual
+      backbone and the scientific framework for the final reversal.
+    primary_arcs: [ARC-2, ARC-3]
+  - name: "The Virginia Thread"
+    description: >
+      The memory of Neville's wife — flashbacks, the cemetery visits,
+      her return as a vampire. Provides the emotional core and the
+      wound that never heals. Her name is the last word Neville speaks
+      before losing consciousness in Chapter 20.
+    primary_arcs: [ARC-1, ARC-2]
+    presence: "Intermittent throughout, surfacing in moments of crisis"
+  - name: "The Ben Cortman Thread"
+    description: >
+      From normal neighbor to nightly caller to machine-gunned corpse.
+      Cortman is the face of the old world's transformation. Neville's
+      grief at Cortman's death reveals how much his allegiance has
+      shifted — he mourns the vampire, not the human executioners.
+    primary_arcs: [ARC-1, ARC-4]
+    presence: "'Come out, Neville!' — recurring throughout, eliminated in Chapter 20"

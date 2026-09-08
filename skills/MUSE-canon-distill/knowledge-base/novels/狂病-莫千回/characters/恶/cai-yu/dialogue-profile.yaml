@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--cai-yu
+work_id: novel:狂病-莫千回
+display_name: 蔡宇
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '蔡宇说话克制、就事论事，几乎不抬高声调。被叫"警官"时他会立刻纠正"我只是个辅警，没必要这么叫"，请求搭车、请求帮忙都带着歉意和分寸（"可以让我搭一下车吗""请问，你们可以帮一下忙吗"）。他向同伴交代危险时懂得节制——叮嘱知情者别把感染者多可怕全说出去，因为"过度的恐慌只能弊大于利"。唯一会让他厉声的，是有人当众扰乱别人的判断（呵斥张潇潇"不要影响别人的决断"）。情绪最重的时刻他也只是低头、深吸一口气，把悲伤压下去再开口；向被抛弃的老魏道别时，他反复说的是"真的很抱歉，但没有别的办法"。
+
+
+    佐证：scenes/scene_EE-S04.md:L9-L15 / scenes/scene_EE-S05.md:L27-L27 / scenes/scene_EE-S07.md:L17-L17'
+  evidence_locators:
+  - scenes/scene_EE-S04.md:L9-L15
+  - scenes/scene_EE-S05.md:L27-L27
+  - scenes/scene_EE-S07.md:L17-L17
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

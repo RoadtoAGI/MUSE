@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2f59a576fbd7ba9ea8547072
+work_id: novel:三体Ⅱ-黑暗森林
+edition_id: three-body-2-local-md-25283d83
+source_file: full_text.md
+source_sha256: 25283d838f4eef23ed49ffee304bf27e1483a20ae4cb2867aa47961af21fb24a
+source_locator: full_text.md:L2848
+chapter: 正文
+figure_type: analogy
+quote: 这是天使的声音，他觉得自己倒是变成了一个从噩梦中醒来的孩子
+sensory_mapping: 温柔声音降临、孩子睁眼、噩梦退后、朝阳升起、枯地开花
+context_fact: 熊文和护士告诉罗辑人类舰队已压倒三体，护士服同时显示朝阳、绿地和盛开花朵。
+image_mechanism: 两个世纪的恐怖被缩成儿童睡梦，年轻护士反而占据成熟保护者位置；声音与衣服画面共同完成一次醒梦仪式。
+property_alignment: 1）护士对应天使/大人；2）罗辑对应孩子；3）面壁经历对应噩梦；4）冬眠苏醒对应醒来；5）未来人轻松态度对应付之一笑；6）朝阳花开对应安全晨景。
+context_alignment: 年龄与权力关系倒置正体现时间跨越：旧时代救世主在未来护士面前成为孩子，符合罗辑此刻强烈的卸负愿望。
+narrative_function: 让罗辑暂时接受胜利叙事并放下警惕，为后来发现技术泡沫和咒语真相制造更大落差。
+transfer_rule: 创伤结束作醒梦时，应设置安抚者、受惊者、梦境内容、醒来证据和安全环境，并保留安全可能只是误判。
+failure_boundary: 三体危机并非梦，护士也不了解完整威胁；安慰带来的儿童安全感不能替代战略判断。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 护士轻松保证局势并不严重，使背负面壁恐惧苏醒的罗辑忽然感到自己获救、被温柔安抚
+vehicle: 天使或可靠大人以温柔声音安慰刚从可怕梦境醒来的孩子，告诉他恐惧并非现实
+ground: 1）护士对应天使与大人；2）罗辑对应受惊孩子；3）旧时代危机对应噩梦；4）苏醒对应从梦中醒来；5） reassurance 对应成人安抚；6）未来繁荣对应安全现实；7）护士服朝阳对应天使光景。

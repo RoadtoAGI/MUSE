@@ -1,0 +1,22 @@
+card_id: cold-archive-accumulation
+pattern_name: 零度累积
+dramatic_function: 用冷档案和重复格式制造系统性暴力的压迫，而非靠单案悬念。
+applicability: 适用于制度性伤害；若案件需侦探解谜则不宜全程零度（单书孤证，验证面窄）
+reuse_candidates:
+- 圣特莱莎女尸
+- 法医伤害清单
+tags:
+- 档案体
+- 系统暴力
+- 重复压迫
+source_scenes:
+- novel: '2666'
+  scene_id: S11
+  note: 第一具女尸以程序和医学术语进入叙事。
+- novel: '2666'
+  scene_id: S04
+  note: 两百多人的数字先以传闻撕裂现实。
+phase_affinity:
+- 1
+- 4
+- 5

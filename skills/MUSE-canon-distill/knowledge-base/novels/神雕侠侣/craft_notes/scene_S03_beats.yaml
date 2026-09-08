@@ -1,0 +1,28 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 郝大通的失手
+  dimension: verb
+  original_move: 致命一击用防御性动词「推」，墙壁碎裂声替代人体痛苦
+  ai_default_failure: 给施害者展开长篇内疚独白
+  transfer_rule: 写无人想杀的悲剧，选低恶意动词加物件声响
+  quote: 掌上使足了劲力，将孙婆婆推了出去
+- pattern_id: S03-p2
+  beat: 临终请托
+  dimension: omission
+  original_move: 遗言被生理极限截断，未完成语义成永远的猜想
+  ai_default_failure: 让临终遗言完整说完收束煽情
+  transfer_rule: 临终戏让生理终点先于语义终点到来
+  quote: 你龙姑姑无依无靠，你……你……也……
+- pattern_id: S03-p3
+  beat: 小龙女的不动声色
+  dimension: verb
+  original_move: 用「一闪即过」写情感无着力点，是荒漠化不是克制
+  ai_default_failure: 补温馨回忆片段渲染悲伤深度
+  transfer_rule: 写情感钝化人设，砍掉主动克制类动词
+  quote: 哀戚之感在心头一闪即过
+overall_traits:
+- 临终遗言一拍三用：种子、人设测试、情节法理
+- 未完成的遗言比完整遗言更有力量
+- 悲伤非对称呈现即人设表达

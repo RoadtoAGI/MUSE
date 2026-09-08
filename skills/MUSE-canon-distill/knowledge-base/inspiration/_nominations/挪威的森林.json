@@ -1,0 +1,157 @@
+{
+  "novel": "挪威的森林",
+  "nominations": [
+    {
+      "pattern_name": "死亡内置日常",
+      "dramatic_function": "把死亡从单次事件改写为持续状态，让日常细节不断带出余震。",
+      "applicability": "适合创伤成长或哀悼叙事；若只追求悬疑反转则失效。",
+      "reuse_candidates": [
+        "车库自杀",
+        "六十年代东京",
+        "甲壳虫歌名"
+      ],
+      "tags": [
+        "死亡",
+        "日常化",
+        "创伤",
+        "物件"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S03",
+          "note": "木月之死被收音机、收据、课桌白花等物件承载。"
+        },
+        {
+          "scene_id": "S13",
+          "note": "直子的死亡由整理衣物、烧信等日常动作逼近。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "双世界牵引",
+      "dramatic_function": "让主角的选择不是两个人之间，而是两种生存方式之间。",
+      "applicability": "适合人物内在价值撕裂；若两端只是外在利益竞争则失效。",
+      "reuse_candidates": [
+        "直子与绿子",
+        "疗养院和书店"
+      ],
+      "tags": [
+        "选择",
+        "价值对照",
+        "人物系统",
+        "成长"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S08",
+          "note": "阿美寮把死亡和内省的世界具象化。"
+        },
+        {
+          "scene_id": "S12",
+          "note": "雨中表白把生的召唤推到渡边面前。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "最终电话表明他选择生却仍然迷失。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "pattern_name": "不翻译象征",
+      "dramatic_function": "让象征物只按自身逻辑行动，意义由读者投射生成。",
+      "applicability": "适合抒情现实主义；若文本需要明确寓言说明则失效。",
+      "reuse_candidates": [
+        "萤火虫"
+      ],
+      "tags": [
+        "象征",
+        "留白",
+        "物件",
+        "抒情"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S05",
+          "note": "萤火虫飞走后只留下不可触及的光点。"
+        },
+        {
+          "scene_id": "S02",
+          "note": "水井作为黑暗深处存在，但叙述不强行释义。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        5
+      ]
+    },
+    {
+      "pattern_name": "镜像式预言",
+      "dramatic_function": "用旁支关系提前展示主线可能结局，增加选择压力。",
+      "applicability": "适合多关系成长叙事；若旁支不能反照主线则会显得枝蔓。",
+      "reuse_candidates": [
+        "永泽初美"
+      ],
+      "tags": [
+        "镜像",
+        "预示",
+        "关系",
+        "等待"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S11",
+          "note": "初美的等待与自杀预示无尽等待的代价。"
+        },
+        {
+          "scene_id": "S09",
+          "note": "直子的坦白暴露等待与爱无法互救的困境。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "替代性葬礼",
+      "dramatic_function": "用私人仪式替代正式告别，让人物主动重写哀悼方式。",
+      "applicability": "适合失去后需要行动收束的故事；若角色无共同符号则失效。",
+      "reuse_candidates": [
+        "五十一首曲子",
+        "吉他和火柴"
+      ],
+      "tags": [
+        "仪式",
+        "告别",
+        "音乐",
+        "哀悼"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S14",
+          "note": "玲子用曲目和火柴为直子办不凄凉的葬礼。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "仪式之后渡边才拨通通向生者的电话。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

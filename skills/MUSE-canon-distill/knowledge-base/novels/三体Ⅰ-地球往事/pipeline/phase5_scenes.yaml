@@ -1,0 +1,457 @@
+# Phase 5: 关键场景（23个节点）— 《三体Ⅰ·地球往事》逆向分析
+# 按序列分组，每个场景标注价值转变和因果链
+
+sequence_expansions:
+
+  # ════════════ ARC-1: 科学恐吓 ════════════
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 作战中心会议室
+        time: 当代，故事开始
+        participants: [汪淼, 史强, 常伟思, 丁仪]
+        pov: 汪淼
+        conflict: 汪淼的日常生活 vs 军方对他的需求；物理学家集体自杀的谜团
+        value_start: 正常/安全
+        value_end: 不安/好奇
+        must_include: 物理学家自杀名单的震撼；史强的粗鲁激将法；汪淼同意渗透"科学边界"
+        handoff: 汪淼夜访丁仪 → 物理学危机的深层揭示
+        source_chapter: "第1章"
+
+      - scene_id: "S16"
+        arc_id: ARC-1
+        location: 丁仪家客厅（台球桌旁）
+        time: 当代，S01之后
+        participants: [汪淼, 丁仪]
+        pov: 汪淼
+        conflict: 科学信念 vs 实验事实——相同条件下台球每次结果不同
+        value_start: 科学规律可信
+        value_end: 物理学根基动摇（"射手假说"和"农场主假说"）
+        must_include: >
+          丁仪用台球实验演示物理规律失效；
+          射手假说：宇宙规律可能只是局部巧合；
+          农场主假说：规律可能随时被打破
+        handoff: 汪淼被两个假说震动 → 进入三体游戏寻找线索
+        source_chapter: "第2章"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: 汪淼家暗室 → 申玉菲家
+        time: 翌日
+        participants: [汪淼, 妻子, 儿子, 申玉菲]
+        pov: 汪淼
+        conflict: 科学理性 vs 不可解释的现象；幽灵倒计时仅针对汪淼本人
+        value_start: 不安但仍可控
+        value_end: 恐惧/失控
+        must_include: >
+          照片上的倒计时数字（1200:00:00起）；
+          妻子/儿子拍摄则不出现（超越物理解释）；
+          申玉菲："把纳米研究停下来试试"→停机后消失；
+          "整个宇宙将为你闪烁"的预言
+        handoff: 预言引出宇宙闪烁验证 → 汪淼前往密云基地
+        source_chapter: "第3章"
+
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: 大学批斗会场
+        time: 1967年（闪回）
+        participants: [叶文洁, 叶哲泰, 绍琳, 红卫兵]
+        pov: 叶文洁
+        conflict: 知识分子的坚守 vs 政治运动的暴力；母亲被迫揭发父亲
+        value_start: 家庭完整（虽已岌岌可危）
+        value_end: 父亲死亡，信任彻底崩塌
+        must_include: >
+          叶哲泰坚拒认罪；四名女红卫兵用铜扣皮带打死叶哲泰；
+          绍琳被迫上台揭发丈夫；
+          叶文洁将烟斗放入父亲手中后默默离去
+        handoff: 时间跳跃 → 兵团被迫害 → 《寂静的春天》催生核心信念
+        beat_direction: "深层脊椎的激励事件——叶文洁创伤链起点，跨线插入 Arc 1"
+        source_chapter: "第7章"
+
+      - scene_id: "S17"
+        arc_id: ARC-1
+        location: 三体游戏 · 商朝/周朝副本
+        time: 当代（游戏内为虚拟历史）
+        participants: [汪淼（海人）, "周文王追随者", 周文王(NPC), 纣王(NPC)]
+        pov: 汪淼
+        conflict: 三体世界的生存规律——恒纪元/乱纪元的不可预测切换
+        value_start: 对三体游戏一无所知
+        value_end: 理解脱水/浸泡机制和恒纪元/乱纪元概念
+        must_include: >
+          "周文王追随者"以ID自我介绍（首个真人玩家标志）；
+          脱水机制演示——人体可脱水保存、浸泡复活；
+          恒纪元 vs 乱纪元——三体世界的基本生存条件；
+          第137号文明毁灭（绝对零度降临）
+        handoff: 汪淼对三体世界产生好奇 → 继续深入游戏
+        source_chapter: "第4章"
+
+      - scene_id: "S18"
+        arc_id: ARC-1
+        location: 大兴安岭兵团连队
+        time: 1969年（闪回）
+        participants: [叶文洁, 白沐霖, 程丽华]
+        pov: 叶文洁
+        conflict: 叶文洁的残存信任 vs 又一次被出卖
+        value_start: 叶文洁第一次在创伤后感到温暖（与白沐霖的交流）
+        value_end: 信任再次被摧毁——白沐霖将写信的罪名嫁祸于她
+        must_include: >
+          《寂静的春天》对叶文洁世界观的塑造（"人类和邪恶的关系，就是大洋与冰山"）；
+          叶文洁替白沐霖抄信——"自父亲惨死后，她第一次有一种温暖的感觉"；
+          白沐霖出卖叶文洁，将写信的责任推到她身上
+        handoff: 叶文洁被调查 → 命运走向红岸基地
+        beat_direction: "叶文洁创伤链第二环——唯一的温暖时刻恰恰是下一次出卖的设局"
+        source_chapter: "第8章"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: "S04"
+        arc_id: ARC-1
+        location: 密云射电天文基地
+        time: 当代，凌晨
+        participants: [汪淼, 沙瑞山]
+        pov: 汪淼
+        conflict: 科学预期（宇宙背景辐射不可能闪烁） vs 观测事实
+        value_start: 尚存"可能是幻觉"的希望
+        value_end: 宇宙级力量在针对人类，汪淼精神濒临崩溃
+        must_include: >
+          三颗卫星+地面设备同时证实辐射闪烁；
+          3K眼镜下汪淼亲眼目睹宇宙闪烁；
+          闪烁中隐含莫尔斯电码与倒计时同步
+        handoff: 崩溃 → 大史介入 → "邪乎到家必有鬼"
+        source_chapter: "第10章"
+
+  - seq_id: ARC1-SEQ4
+    scenes:
+      - scene_id: "S05"
+        arc_id: ARC-1
+        location: 街边小馆
+        time: 宇宙闪烁后次日
+        participants: [汪淼, 史强]
+        pov: 汪淼
+        conflict: 汪淼的绝望 vs 大史的直觉乐观
+        value_start: 精神崩溃边缘
+        value_end: 恐惧转化为可行动的认知
+        must_include: >
+          大史的"终极定理"："邪乎到家必有鬼"；
+          判断有且仅有一个后台在系统性破坏科学研究；
+          "这个敌人最怕的就是基础科学"
+        handoff: 汪淼重新振作 → 继续深入三体游戏和调查
+        source_chapter: "第11章"
+
+  # ════════════ ARC-2: 三体世界揭示 ════════════
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S06"
+        arc_id: ARC-2
+        location: 三体游戏 · 欧洲中世纪副本
+        time: 当代（游戏内为虚拟历史）
+        participants: [汪淼（哥白尼）, "教皇格里高利", "伽利略", "亚里士多德", "达·芬奇"]
+        pov: 汪淼
+        conflict: 哥白尼的日心说 vs 教廷权威；三颗太阳的真相 vs 三体居民的认知
+        value_start: 三体世界运行规律不明
+        value_end: 三星系统的三体运动被揭示
+        must_include: >
+          "飞星"实为远距离太阳的大气光学效应；
+          三日凌空毁灭第183号文明；
+          游戏宣布进入第二级——三体世界核心秘密被破解
+        handoff: 认知升级 → 三体问题是否可解的探索
+        source_chapter: "第16章"
+
+      - scene_id: "S20"
+        arc_id: ARC-2
+        location: 三体游戏 · 秦朝副本
+        time: 当代（游戏内为虚拟历史）
+        participants: [汪淼, "冯·诺伊曼", "牛顿", 秦始皇(NPC)]
+        pov: 汪淼
+        conflict: 三体问题的计算量 vs 人列计算机的宏大方案；科学乐观 vs 三日连珠的突然毁灭
+        value_start: 试图用经典力学预测太阳运行
+        value_end: 计算成功但三日连珠引力叠加摧毁了一切
+        must_include: >
+          冯·诺伊曼用三名士兵演示逻辑门电路（与门/或门/非门）；
+          三千万人组成的冯·诺伊曼结构计算机——"边长六公里的正方形"；
+          "秦一号"运行、计算成功、太阳准时升起；
+          三日连珠引力叠加——三千万人飘离地面，文明毁灭
+        handoff: 游戏宣布"第184号文明毁灭" → 三体问题是否可解的终极追问
+        beat_direction: "字面化隐喻——将计算机原理具象为三千万人的阵列，壮美到恐怖直切"
+        source_chapter: "第18章"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S19"
+        arc_id: ARC-2
+        location: 红岸基地（大兴安岭雷达峰）
+        time: 约1970年（闪回）
+        participants: [叶文洁, 杨卫宁, 雷志成]
+        pov: 叶文洁
+        conflict: 叶文洁的困境——入狱或进入军事基地；自由 vs 生存
+        value_start: 面临死路一条（被程丽华构陷）
+        value_end: 进入红岸——获得与世隔绝的避风港和向宇宙发信的能力
+        must_include: >
+          杨卫宁将叶文洁带入红岸基地；
+          雷达峰的神秘天线和诡异现象；
+          叶文洁："我可以在这里待一辈子"
+        handoff: 叶文洁在红岸安定 → 发现太阳能量镜面放大效应
+        source_chapter: "第9章"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: "S07"
+        arc_id: ARC-2
+        location: 某私人会所
+        time: 当代
+        participants: [汪淼, 潘寒, 老哲学家, 女作家等]
+        pov: 汪淼
+        conflict: 理性怀疑 vs 信仰式接受；对外星文明的态度分歧
+        value_start: "三体只是游戏"
+        value_end: "三体世界真实存在，且有人愿意为其效力"
+        must_include: >
+          潘寒宣布"三体世界真实存在"；
+          态度测试——筛选愿意接纳外星文明的"同志"；
+          IT副总裁和国电领导被驱逐
+        handoff: 汪淼成为"同志" → 被邀请参加更大规模的聚会
+        source_chapter: "第19章"
+
+      - scene_id: "S08"
+        arc_id: ARC-2
+        location: 三体游戏 · 最终场景
+        time: 当代（游戏内）
+        participants: [汪淼, 三体世界全体人口]
+        pov: 汪淼
+        conflict: 游戏内的虚拟感 vs "这是真实的"的冲击
+        value_start: 游戏中的寓言世界
+        value_end: 真实的星际入侵正在发生
+        must_include: >
+          一千艘飞船的正方形舰队阵列在太空中启航；
+          三体全部人口仰望远征；
+          目标为四光年外的恒星（太阳系）；
+          游戏结束，邀请加入"地球三体组织"
+        handoff: 从游戏到现实 → ETO大聚会
+        source_chapter: "第21章"
+
+  # ════════════ ARC-3: 叶文洁的真相 ════════════
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S09"
+        arc_id: ARC-3
+        location: ETO地下聚会场所
+        time: 当代
+        participants: [汪淼, 叶文洁, 潘寒, 三百余名ETO成员]
+        pov: 汪淼
+        conflict: 降临派 vs 拯救派的内斗；叶文洁的权威 vs 潘寒的极端
+        value_start: "谁是幕后黑手？"
+        value_end: "幕后统帅是受人尊敬的老科学家叶文洁"
+        must_include: >
+          叶文洁以最高统帅身份出现；
+          当场下令处死潘寒；
+          揭露降临派截留篡改三体通讯的背叛；
+          开始讲述红岸往事
+        handoff: 叶文洁的回忆 → 红岸之五/六
+        source_chapter: "第22章"
+
+      - scene_id: "S21"
+        arc_id: ARC-3
+        location: ETO地下聚会场所（续）
+        time: 当代，S09之后
+        participants: [史强, 汪淼, 叶文洁, ETO成员]
+        pov: 汪淼
+        conflict: 军方突袭的执行 vs 降临派的核弹威胁
+        value_start: ETO内斗暴露
+        value_end: 叛军被控制，叶文洁被捕
+        must_include: >
+          军方突袭ETO聚会；
+          降临派成员引爆核弹的威胁；
+          大史的现场处置
+        handoff: 叶文洁被审讯 → 开始全面供述
+        source_chapter: "第25章"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S10"
+        arc_id: ARC-3
+        location: 红岸基地发射主控室
+        time: 约1978年（闪回）
+        participants: [叶文洁, 值班员]
+        pov: 叶文洁
+        conflict: "不要回答"的警告 vs 叶文洁对人类的绝望
+        value_start: 人类文明坐标未暴露
+        value_end: 人类文明的命运被不可逆地改写
+        must_include: >
+          监听到三体世界"不要回答！不要回答！！不要回答！！！"的警告；
+          叶文洁隐藏信息、输入回复；
+          凌晨走进发射主控室，重设频率、对准太阳；
+          "人类文明的命运，就系于这纤细的两指之上"；
+          毫不犹豫按下发射键；
+          回复内容："到这里来吧，我将帮助你们获得这个世界"
+        handoff: 信号以光速飞向太阳 → 叶文洁发现自己怀孕
+        beat_direction: "全书情感冲击的绝对顶点——一个人的两根手指改写文明命运"
+        source_chapter: "第24章"
+
+      - scene_id: "S22"
+        arc_id: ARC-3
+        location: 审讯室（当代）/ 红岸基地悬崖（闪回）
+        time: 当代审讯 + 1979年闪回
+        participants: [叶文洁, 审问者, 雷志成, 杨卫宁]
+        pov: 叶文洁（第一人称供述）
+        conflict: 秘密暴露的危机 vs 叶文洁保护"事业"的决心
+        value_start: 雷志成发现外星信息，威胁叶文洁
+        value_end: 叶文洁用工程知识设局，锯断绳索杀死雷志成和丈夫
+        must_include: >
+          全场景采用审讯笔录体（纯问答，零叙事描写）；
+          叶文洁用接地电阻故障引诱雷志成到悬崖；
+          "真的不会再有机会了，我掏出那叠钢锯，锯断了绳索"；
+          "我看到从崖底流出的那条小溪变红了"
+        handoff: 叶文洁掩盖谋杀 → 继续在红岸工作
+        beat_direction: "文体选择即人物塑造——审讯笔录体承载全书最冷血的段落"
+        source_chapter: "第26章"
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-3
+        location: 叶文洁家（当代）
+        time: 红岸撤销后数年（闪回叙述）
+        participants: [叶文洁, 三名老红卫兵]
+        pov: 叶文洁
+        conflict: 叶文洁残存的对人类的希望 vs 老红卫兵的不忏悔
+        value_start: 尚存一丝"也许人类能自我纠正"的微光
+        value_end: 最后一丝希望破灭，背叛决心彻底坚定
+        must_include: >
+          三名老红卫兵来见叶文洁；
+          无人忏悔——只诉说自己的苦难并以"这是历史"推卸责任；
+          叶文洁对人类社会刚萌生的希望彻底破灭
+        handoff: 叶文洁结识伊文斯 → ETO成立
+        source_chapter: "第27章"
+
+      - scene_id: "S23"
+        arc_id: ARC-3
+        location: 中国北方某乡村 → 西北黄土高原
+        time: 1980年代（闪回）
+        participants: [伊文斯, 叶文洁]
+        pov: 全知
+        conflict: 伊文斯的物种平等理想 vs 人类的物种沙文主义
+        value_start: 一个致力于物种保护的理想主义富翁
+        value_end: 伊文斯与叶文洁结盟，ETO的物质基础建立
+        must_include: >
+          伊文斯为拯救一种燕子来到中国，融入乡村生活；
+          "物种共产主义"——地球所有生命物种生来平等；
+          与叶文洁的结盟——共享对人类文明的绝望；
+          伊文斯用家族财富建立"第二红岸基地"
+        handoff: ETO组织成型 → 降临派/拯救派分裂
+        source_chapter: "第28章"
+
+  # ════════════ ARC-4: 人类的困境 ════════════
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-4
+        location: 巴拿马运河
+        time: 当代
+        participants: [史强, 汪淼, 常伟思, 斯坦顿上校]
+        pov: 汪淼（远程观察）
+        conflict: 夺取三体信息的需要 vs "审判日"号降临派的信息"人质"
+        value_start: 三体信息被降临派垄断
+        value_end: 信息被完整夺取，伊文斯死亡
+        must_include: >
+          大史提出用纳米飞刃切割船体的方案；
+          "审判日"号通过运河时被切成四十余片；
+          28G三体信息完整获取
+        handoff: 信息解读 → 三体视角揭示
+        source_chapter: "第32章"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: "S13"
+        arc_id: ARC-4
+        location: 三体世界（首次直接描写）
+        time: 三体纪年（回溯叙述）
+        participants: [三体元首, 科学执政官, 1379号监听员]
+        pov: 全知（三体世界）
+        conflict: 三体文明的技术野心 vs 质子展开的危险；监听员的善意 vs 元首的冷酷
+        value_start: 智子是个谜（"两个质子能做什么？"）
+        value_end: 智子的全部真相：锁死人类基础科学 + 全面监控
+        must_include: >
+          1379号监听员发出"不要回答"的警告（与第24章呼应）；
+          质子二维展开→蚀刻智能电路；
+          三维展开时微观智慧体形成巨大反射镜攻击三体首都（意外）；
+          智子发射至地球，干扰所有加速器实验；
+          在所有人眼中显示"你们是虫子"
+        handoff: "你们是虫子" → 汪淼和丁仪的绝望
+        beat_direction: "叙事维度跃迁——首次从敌方视角展示事件全貌"
+        source_chapter: "第33-34章"
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: "S14"
+        arc_id: ARC-4
+        location: 丁仪家 → 华北平原麦田
+        time: 当代
+        participants: [汪淼, 丁仪, 史强]
+        pov: 汪淼
+        conflict: 科学被锁死的绝望 vs 生命的本能韧性
+        value_start: "一切都完了，我们是即将灭绝的虫子"
+        value_end: "虫子从未被真正战胜过——我们继续工作"
+        must_include: >
+          汪淼和丁仪酗酒自暴自弃（"末日万岁！虫子万岁！"）；
+          大史开车带他们到华北平原蝗灾现场；
+          "是地球人与三体人的技术水平差距大，还是蝗虫与人的差距大？"；
+          "虫子从未被真正战胜过"；
+          两人将酒洒在大地上——"这是敬虫子的"；
+          "我们快回去吧，有好多工作要做呢"
+        handoff: 希望重生 → 尾声
+        beat_direction: "全书终极高潮——不靠更高张力而靠视角转换完成价值反转"
+        source_chapter: "第35章"
+
+      - scene_id: "S15"
+        arc_id: ARC-4
+        location: 大兴安岭雷达峰 / 红岸基地遗址
+        time: 当代
+        participants: [叶文洁]
+        pov: 叶文洁
+        conflict: 叶文洁得知三体文明真相后的最终感悟
+        value_start: 叶文洁沉默面对三体真相
+        value_end: "这是人类的落日"——生命与信念同时终结
+        must_include: >
+          叶文洁不顾体力登上雷达峰（"毫不怜惜地消耗不可再生的生命力"）；
+          发现天线基座和几乎被野草埋没的石碑；
+          在悬崖边望向齐家屯方向；
+          西天壮丽的血红夕阳；
+          "这是人类的落日……"
+        handoff: 全书终结。箭已在弦上，人类尚未射出——留给《黑暗森林》
+        source_chapter: "第36章"
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: >
+    整体张力呈阶梯式递增，每个 Arc 各有一个波峰，
+    Arc 间有短暂低谷（大史安慰/过渡叙述），但每次回升都更高。
+    三体游戏章节（S06/S08）提供节奏变奏——寓言式张力，比正文低但推进认知。
+    最高峰出现在 S10（叶文洁按下发射键）和 S13（智子真相），
+    S14（虫子）在较低张力位置实现价值反转——
+    不靠更高张力而靠视角转换完成希望注入。
+  peaks: ["S04", "S10", "S12", "S13", "S14"]
+  valleys: ["S05", "S07", "S11"]
+
+# ── 场景级因果链 ──
+
+causal_chain: >
+  S01（汪淼被拉入调查）→ S16（台球实验——物理规律失效的第一次揭示）
+  → S02（幽灵倒计时——被直接针对）→ S17（三体游戏初体验——异世界的第一印象）
+  → S03（叶哲泰之死——创伤链起点）→ S18（寂静的春天——被出卖，创伤链第二环）
+  → S04（宇宙闪烁证实——恐惧升级到宇宙尺度）
+  → S05（大史终极定理——"有一个敌人"）
+  → S06（哥白尼破解三星系统）→ S20（人列计算机——三体游戏的壮观高潮）
+  → S19（叶文洁进入红岸——获得向宇宙发信的能力）
+  → S07（三体世界被宣布为真实）→ S08（三体舰队启航——虚构变现实）
+  → S09（叶文洁现身）→ S21（军方突袭——叛军被控制）
+  → S10（叶文洁按下发射键——一切的因）→ S22（杀人灭口——用工程知识掩盖秘密）
+  → S11（无人忏悔——解释为什么她不后悔）→ S23（伊文斯——ETO的物质基础）
+  → S12（古筝行动夺取信息）→ S13（智子真相——科学被锁死）
+  → S14（虫子——从绝望中重生希望）→ S15（人类的落日——悲剧闭环）

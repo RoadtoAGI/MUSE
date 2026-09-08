@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9d222fe8de694042817208e3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1768
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 我还是试图弥合裂痕，使地球三体组织成为一个整体
+sensory_mapping: 视觉裂缝；边缘分离；修补动作；结构完整；受力风险
+context_fact: 她后来才知道伊文斯的毁灭纲领，仍尝试让两个派系共存，但降临派截留通讯使努力失败。
+image_mechanism: 组织被塑成承重整体，派系秘密在内部张开裂缝；统帅试图把两侧拉回、填实接口，但持续背叛像外力让裂缝再次扩展。
+property_alignment: ETO共同纲领对应完整结构；派系分歧对应裂痕；统帅调解对应弥合修补；秘密纲领与截留信息对应持续张力；统一失败对应裂缝无法闭合
+context_alignment: 会场刚在争论清洗，叶文洁用修补而非切除描述自己过去策略，显示其权威并非起初就选择派系暴力。
+narrative_function: 概括组织分裂史，说明降临派背叛为何使清算成为最终结论。
+transfer_rule: 用裂痕写联盟分裂时，应指出原整体、裂口位置、造成张力的具体分歧和修补是否能承重。
+failure_boundary: 双方从未形成共同整体、目标自始互斥时，弥合会误以为只需修补表面而非重建关系。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁曾努力调解降临派与拯救派的目标分歧，维持ETO统一
+vehicle: 修补开裂物体，把分离边缘重新接合成完整结构
+ground: 派系价值冲突对应整体表面裂开；协调共同纲领对应填补并连接裂口；恢复统一对应物体重新完整

@@ -1,0 +1,35 @@
+work:
+  title: "云天明的童话"
+  author: "刘慈欣"
+  source_container: "《三体Ⅲ·死神永生》"
+  form: "三个连续童话组成的嵌套中篇"
+  analysis_scope: "仅分析《王国的新画师》《饕餮海》《深水王子》的内部叙事；主线会面与IDC解码作为外部验证证据。"
+
+source_units:
+  - order: 1
+    title: "王国的新画师"
+    word_count: 7959
+    local_file: "sources/01_王国的新画师.md"
+    canonical_source: "../三体Ⅲ-死神永生/scenes/scene_S26.md"
+    parent_locator: "《死神永生》广播纪元7年，原切片 L2153-L2280"
+  - order: 2
+    title: "饕餮海"
+    word_count: 5541
+    local_file: "sources/02_饕餮海.md"
+    canonical_source: "../三体Ⅲ-死神永生/scenes/scene_S27.md"
+    parent_locator: "《死神永生》广播纪元7年，原切片 L2281-L2400"
+  - order: 3
+    title: "深水王子"
+    word_count: 8739
+    local_file: "sources/03_深水王子.md"
+    canonical_source: "../三体Ⅲ-死神永生/scenes/scene_S28.md"
+    parent_locator: "《死神永生》广播纪元7年，原切片 L2401-L2534"
+
+external_validation:
+  - purpose: "IDC对曲率驱动、光速恒定与黑域的文本内解码"
+    source: "../三体Ⅲ-死神永生/scenes/scene_07.md:L6-L189"
+  - purpose: "针眼画师与二向箔的后续回收"
+    source: "../三体Ⅲ-死神永生/scenes/scene_10.md:L8-L40"
+
+total_word_count: 22239
+provenance_note: "sources/ 下文件为指向母作品权威场景切片的符号链接；字数采用母作品 scene_index.json 记录，证据行号以母作品场景文件为准。"

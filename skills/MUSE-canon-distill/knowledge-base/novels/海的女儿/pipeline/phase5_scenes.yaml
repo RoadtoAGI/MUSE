@@ -1,0 +1,201 @@
+analysis_meta:
+  novel: "海的女儿"
+  source_text: "full_text.md"
+  source_form: "单篇童话，无章节标题"
+  evidence_note: "原文为一整行，来源以情节段落描述标注；本轮只做关键场景设计，不执行场景切分。"
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: "海王宫殿与小人鱼花园"
+        time: "故事开端，小人鱼十五岁前"
+        participants: ["小人鱼", "海王祖母", "姐姐们"]
+        pov: "小人鱼"
+        conflict: "海底生活足够美丽，但小人鱼的审美对象始终指向太阳、人类石像和上方世界。"
+        value_start: "安全富足"
+        value_end: "安全开始显得不够"
+        scene_tasks: "建立海底世界、十五岁规则、小人鱼的沉默性格和人间欲望。"
+        handoff: "姐姐们陆续满十五岁，成为她获取人间信息的代理人。"
+        beat_direction: "用环境奇观先诱导读者相信海底足够好，再让主角的小花园暴露她与世界不匹配。"
+        source_chapter: "单篇原文：开场海底宫殿至祖母讲十五岁规则"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: "海面及姐姐们讲述的城市、河流、冰山"
+        time: "五位姐姐各自十五岁后"
+        participants: ["姐姐们", "小人鱼"]
+        pov: "小人鱼"
+        conflict: "姐姐们把人间当短暂奇观，小人鱼把每个见闻都转化为更深的渴望。"
+        value_start: "等待"
+        value_end: "渴望被反复加温"
+        scene_tasks: "用五段见闻压缩时间，形成小人鱼与姐姐们的欲望差异。"
+        handoff: "最小的公主终于十五岁，可以亲自浮上海面。"
+        beat_direction: "每个姐姐见闻都提供一种人间可能性，但结尾都回到海底舒适，反衬主角不会回头。"
+        source_chapter: "单篇原文：大姐到五姐陆续浮上海面"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: "王子生日船宴与风暴海面"
+        time: "小人鱼十五岁生日黄昏至夜晚"
+        participants: ["小人鱼", "王子", "水手们"]
+        pov: "小人鱼"
+        conflict: "她初见人间华丽与王子之美，却立刻被迫在旁观和救人之间选择。"
+        value_start: "迷恋与惊奇"
+        value_end: "爱被救命行动绑定"
+        scene_tasks: "让王子成为具体欲望对象，并让小人鱼第一次主动违背旁观位置。"
+        handoff: "风暴过后她必须把王子送到陆地，进入误认结构。"
+        beat_direction: "船宴的光亮越盛，风暴黑暗越有冲击；外部风暴同步主角内在失衡。"
+        source_chapter: "单篇原文：小人鱼十五岁初次浮上海面至沉船救王子"
+
+      - scene_id: S04
+        arc_id: ARC-1
+        location: "神庙海岸"
+        time: "风暴后清晨"
+        participants: ["小人鱼", "王子", "神庙女子"]
+        pov: "小人鱼"
+        conflict: "小人鱼救了王子却不能留在他身边，被迫看着另一个女子接受他的苏醒微笑。"
+        value_start: "救援成功"
+        value_end: "功劳与爱情可能被误认夺走"
+        scene_tasks: "种下王子终局误认的核心因果。"
+        handoff: "她回到海底后沉默更深，开始反复寻找王子。"
+        beat_direction: "让主角退到泡沫和石头后面观看，把她从行动者降为无声见证者。"
+        source_chapter: "单篇原文：王子被送上岸至神庙女子出现"
+
+  - seq_id: ARC1-SEQ4
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-1
+        location: "海底宫殿与小人鱼花园"
+        time: "救王子之后"
+        participants: ["小人鱼", "海王祖母", "姐姐们"]
+        pov: "小人鱼"
+        conflict: "她不只想见王子，还想知道人类为什么拥有死后生命。"
+        value_start: "爱情痛苦"
+        value_end: "灵魂焦虑"
+        scene_tasks: "通过祖母说明人鱼无灵魂、三百年寿命和婚姻获得灵魂的规则。"
+        handoff: "舞会中的快乐无法覆盖目标，她决定去找巫婆。"
+        beat_direction: "把童话爱情突然抬高到存在论层面，令后续牺牲不只是为恋爱。"
+        source_chapter: "单篇原文：小人鱼偷看王子至祖母解释灵魂规则"
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: "通往海巫婆住处的漩涡、珊瑚虫森林和白骨屋"
+        time: "海底舞会当晚"
+        participants: ["小人鱼", "海巫婆"]
+        pov: "小人鱼"
+        conflict: "她必须穿过恐怖空间并接受巫婆明确说出的悲惨代价。"
+        value_start: "仍可回头"
+        value_end: "选择不可逆交易"
+        scene_tasks: "规定失声、疼痛、无法回海底、王子另娶即死等硬规则。"
+        handoff: "小人鱼带着药剂告别家园。"
+        beat_direction: "让恐怖地貌先测试她的决心，再让契约条款测试她的理解。"
+        source_chapter: "单篇原文：小人鱼离开花园至巫婆割下舌头"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: "王子宫殿海边台阶与宫廷"
+        time: "黎明前后"
+        participants: ["小人鱼", "王子", "宫廷众人"]
+        pov: "小人鱼"
+        conflict: "她获得人形和近身机会，却失去说出身份和救命真相的能力。"
+        value_start: "跨界希望"
+        value_end: "无声依附"
+        scene_tasks: "完成变人、入宫、痛苦行走和以舞蹈替代表达的设置。"
+        handoff: "王子把她作为亲密孤儿留在身边。"
+        beat_direction: "身体越美、步伐越轻，代价越重；场面赞叹与主角痛感形成反差。"
+        source_chapter: "单篇原文：喝药变人至宫廷舞蹈"
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: "王子宫殿、树林、高山、夜晚海边台阶"
+        time: "入宫后的若干日夜"
+        participants: ["小人鱼", "王子", "姐姐们", "海王祖母", "海王"]
+        pov: "小人鱼"
+        conflict: "王子亲近她却不把她当新娘，家人靠近却无法带她回家。"
+        value_start: "陪伴带来希望"
+        value_end: "亲密无法转化为爱情承诺"
+        scene_tasks: "展示她每日疼痛、家庭切断和王子误认神庙女子的情感牢笼。"
+        handoff: "王子将赴邻国看公主，婚姻威胁具体化。"
+        beat_direction: "让王子说出温柔话语而非冷酷拒绝，使伤害来自认知盲点而不是恶意。"
+        source_chapter: "单篇原文：入宫生活至王子谈神庙女子"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-3
+        location: "赴邻国的船、邻国皇城与宫廷"
+        time: "王子出访邻国期间"
+        participants: ["小人鱼", "王子", "邻国公主", "随员"]
+        pov: "小人鱼"
+        conflict: "小人鱼以为神庙女子不会回来，却亲眼看见她以邻国公主身份出现。"
+        value_start: "残余希望"
+        value_end: "爱情路径彻底失败"
+        scene_tasks: "让王子误认闭合，并启动婚礼与死亡倒计时。"
+        handoff: "婚礼和返航船夜把故事推入最终危机。"
+        beat_direction: "先让王子承诺若选择会选小人鱼，再立刻让真正误认对象出现，提高反转刺痛。"
+        source_chapter: "单篇原文：王子赴邻国至认出公主"
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-4
+        location: "教堂、婚船甲板、皇家帐篷外"
+        time: "王子婚礼当天至午夜"
+        participants: ["小人鱼", "王子", "邻国公主", "水手们"]
+        pov: "小人鱼"
+        conflict: "所有人的欢乐与她的死亡倒计时同时发生，她必须在最后一夜维持祝福姿态。"
+        value_start: "社会性圆满"
+        value_end: "个人性灭亡逼近"
+        scene_tasks: "用婚礼、舞蹈和夜航复现初见船宴，但意义反转为告别。"
+        handoff: "姐姐们在黎明前带来刀，提供唯一自救路径。"
+        beat_direction: "重复开端的灯光、舞蹈和船，只把主角心理从迷恋换成死亡意识。"
+        source_chapter: "单篇原文：订婚婚礼至婚船夜半"
+
+      - scene_id: S11
+        arc_id: ARC-4
+        location: "婚船甲板与王子帐篷"
+        time: "黎明前几分钟"
+        participants: ["小人鱼", "姐姐们", "王子", "邻国公主"]
+        pov: "小人鱼"
+        conflict: "姐姐们用剪发换来的刀要求她杀王子自救，她面对爱、亲情与生存本能的最终冲突。"
+        value_start: "可通过杀人自救"
+        value_end: "拒绝杀人，选择自我消散"
+        scene_tasks: "完成故事危机和高潮动作：看见新娘、确认王子梦中所爱、扔刀、跃海。"
+        handoff: "她化为泡沫，进入结局的天空女儿段落。"
+        beat_direction: "不写长篇辩论，只让刀发抖、目光转向王子和新娘，最后用扔刀替代宣言。"
+        source_chapter: "单篇原文：姐姐递刀至小人鱼跳海"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-4
+        location: "海面上空与婚船上方"
+        time: "日出之后"
+        participants: ["小人鱼", "天空的女儿", "王子", "邻国公主"]
+        pov: "小人鱼"
+        conflict: "她没有如预期彻底灭亡，却也没有立刻获得灵魂，只得到以善行创造灵魂的长期考验。"
+        value_start: "泡沫化死亡"
+        value_end: "精神升华的可能"
+        scene_tasks: "解释新的存在形态、三百年善行规则和开放式救赎。"
+        handoff: "故事以她祝福新人并升入天空结束。"
+        beat_direction: "结尾不撤销牺牲，而是把牺牲转为更长期、更抽象的道德任务。"
+        source_chapter: "单篇原文：泡沫升起至天空女儿说明考验"
+
+tension_curve:
+  description: "张力从奇观式低压开场逐步升高：S03 风暴首次外部高峰，S06 契约成为身体代价高峰，S09 爱情路径断裂，S11 道德危机达到最高峰，S12 转入悲伤后的精神缓释。S08 虽然 pacing 偏静态，但情感刺痛极重（王子温柔承认却把她错位为'像神庙女子'），不算低谷。"
+  peaks: [S03, S06, S08, S09, S11]
+  valleys: [S01, S02, S05, S12]
+
+causal_chain: "S01 建立向上欲望 -> S02 姐姐见闻加深等待 -> S03 初见王子并救命 -> S04 救命被误认 -> S05 灵魂规则升级目标 -> S06 巫婆交易夺走声音 -> S07 入宫后无声表达 -> S08 王子误把她当亲密孤儿 -> S09 邻国公主闭合误认 -> S10 婚礼夜进入死亡倒计时 -> S11 扔刀拒绝谋杀 -> S12 升为空中精灵并获得善行路径。"

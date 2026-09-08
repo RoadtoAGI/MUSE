@@ -1,0 +1,28 @@
+mode: reference
+display_name: 秦胜哥
+role_slug: qin-sheng
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/学校/phase3_spine.yaml   # antagonistic_forces.interpersonal.layer_2 + arc_framework.arc_4/arc_5
+  - pipeline/phase0_conception.yaml   # 希望物件 / 绝境自欺（candidate_c 旁触）
+  - scenes/scene_XX-S01.md
+  - scenes/scene_XX-S03.md
+  - scenes/scene_XX-S07.md
+  - scenes/scene_XX-S08.md
+  - scenes/scene_XX-S10.md
+  - note: 单篇人物未登记于 pipeline/phase2_character.yaml（该文件仅登跨篇人物）
+built_at: 2026-05-29T17:32:00+08:00
+skill_version: 1
+locator_count: 8
+has_canon_ending: false
+coverage_note: |
+  「行动派 / 求生驱动者」原型——与日记记录者「我」（拦阻者 / 不决断者）功能正好对位。
+  也是"围墙外加满油的车"这一希望物件的提供者（该车被罗允翻墙后证伪 scene_XX-S11，是跨篇钩）。
+  声音框架跨 3 个场景（S01 骄傲玩笑腔 / S07 崩溃大骂哭吼 / S10 重复"不会出事的"自我麻痹腔），情绪起伏鲜明。
+  弧光起点（S03 想冲出去找女友）+ 恐惧暴露（S07 崩溃大骂）+ 希望物件设定（S08 加满油的车）+ 终点（S10 跳楼自我麻痹）四段齐全。
+  性格真相有压力情境直接佐证（S07 当众崩溃 / S10 自欺乐观）。
+  has_canon_ending: false —— 秦胜哥三楼跳楼后小腿扭曲变形、与「我」一同瘫痪在感染者群中（scene_XX-S10.md:L25），
+  但日记在「我」自感染处戛然中止，秦胜哥最终命运未被明确写死（大概率已死但未坐实）。
+  按"宁可漏不可错"，不产 canon-ending.md；其瘫痪终态已写入 SKILL 弧光终点本体之外的转折描述，不作不可逆死亡断言。
+  单篇人物，phase2_character.yaml 未登记系统级条目；结构化字段依据 pipeline/学校/phase3_spine.yaml 推导。

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-96431a08c7857d05f570ca4f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2530
+chapter: 第34章 智子
+figure_type: simile
+quote: 人们一时间觉得一切像月夜般昏暗
+sensory_mapping: 瞳孔适应；月夜灰暗；强光熄灭；短暂失色；视觉反差
+context_fact: 巨型质子反射镜曾将太阳光聚成死亡光锥，核弹炸碎镜面后世界恢复正常亮度。
+image_mechanism: 真实太阳没有变暗，人的视觉标尺却被死亡强光抬高；镜面一碎，普通白昼从过曝峰值跌落，主观上像瞬间进入月夜。
+property_alignment: 强光后正常亮度对应白昼与月夜亮差；短时昏暗感对应瞳孔尚未调整；色彩降低对应月光视觉；光锥消失对应主光源骤减；一时间对应适应期短暂
+context_alignment: 此比照严格依赖前一刻超常亮度，既写生理后像，也标记致命奇观终于结束。
+narrative_function: 以相对亮度表现光锥强度，并让灾难结束有可感的视觉余震。
+transfer_rule: 用月夜写亮度骤降时，应交代此前强光、观察者视觉适应、相对而非客观变暗及恢复时长。
+failure_boundary: 场景本来就是夜晚、亮度缓慢变化或人物未直视强光时，月夜感不能由视觉适应解释。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 反射镜聚焦产生的极端强光骤然消失后，恢复正常日光的三体世界在视觉适应中显得异常暗
+vehicle: 只有月光照明、物体亮度和色彩都明显降低的夜晚
+ground: 眼睛刚适应强光后感到日光变暗对应月夜低照度；死亡光锥消失造成亮度骤降对应昼转夜的主观跳变

@@ -1,0 +1,28 @@
+scene_id: '12'
+source_notes: scene_12_beats.md
+patterns:
+- pattern_id: 12-p1
+  beat: 浴池家常絮语
+  dimension: camera
+  original_move: 政治困局锁进肢体亲昵与情绪微表情，家庭质感承重压
+  ai_default_failure: 决战前夜直写焦虑内耗，丢掉刻意松弛的温差设计
+  transfer_rule: 高压决策前插家常松弛段，靠温差垫高后续紧张
+  quote: 被他们牵着鼻子各走一边
+- pattern_id: 12-p2
+  beat: 说服学推演
+  dimension: omission
+  original_move: 省略道德犹豫，选择先于推演完成，只推演成败规则
+  ai_default_failure: 铺一段该不该去的良心挣扎独白
+  transfer_rule: 主角信念已定的抉择戏只写方法推演不写内心拉扯
+  quote: 只要有人带着更精准确切的数据去对付他
+- pattern_id: 12-p3
+  beat: 省略的风暴长廊独白
+  dimension: omission
+  original_move: 整场直谏对话转述化，只拾四个外部动作写反应温度
+  ai_default_failure: 铺陈主角与独裁者你来我往的正面交锋大戏
+  transfer_rule: 论点已预铺的对峙戏只写结果温度，篇幅让给事后结算
+  quote: 便径自转过身去研究起了西欧作战地图
+overall_traits:
+- 减压舱结构松紧松，最紧处不写，张力靠结构不靠嗓门
+- 高潮省略术：必然场面转述化，篇幅让给推演与结算
+- 政治戏钉在浴池妻女的生活质感上，代价可感选择有重量

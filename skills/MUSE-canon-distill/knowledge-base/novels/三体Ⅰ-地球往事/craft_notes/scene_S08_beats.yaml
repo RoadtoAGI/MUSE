@@ -1,0 +1,42 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 石块→人头——尺度由错觉制造
+  dimension: camera
+  original_move: 先给小石块错觉再纠正为亿级人头，尺度由误读制造
+  ai_default_failure: 用数字轰炸与沸腾声浪写亿级人群
+  transfer_rule: 写超常规模先让视点看错，再以纠正交付尺度
+  quote: 「密密麻麻的小石块，竟都是人头！」
+- pattern_id: S08-p2
+  beat: 石块→人头——尺度由错觉制造
+  dimension: omission
+  original_move: 省略个体面孔与声浪，人群矿物化后静音，寂静写在场重量
+  ai_default_failure: 沸腾声浪加个体特写蒙太奇
+  transfer_rule: 写全文明在场的重量用寂静而非喧嚣
+  quote: 「寂静有一种令人窒息的诡异」
+- pattern_id: S08-p3
+  beat: 最重的信息给最轻的句子
+  dimension: info_density
+  original_move: 舰队目标即地球用两个名词对答投放，再被天文统计岔开
+  ai_default_failure: 在重磅信息处写心理独白与惊呼强调
+  transfer_rule: 最重揭示用最轻句式，戏剧反讽留白给读者自己连线
+  quote: 「你们？」「地球。」
+- pattern_id: S08-p4
+  beat: 启航——宏大以衰减收束
+  dimension: overall
+  original_move: 千日辉煌一路降到一颗星消失，情绪以衰减曲线收束
+  ai_default_failure: 持续轰鸣的渐强高潮与主角热泪
+  transfer_rule: 宏大场面以变小直至消失收束，而非以爆发收束
+  quote: 「直到这颗星消失在西方的夜空中」
+- pattern_id: S08-p5
+  beat: 启航——宏大以衰减收束
+  dimension: omission
+  original_move: 整场出征大典无一具名角色，省略演说英雄与舰队内部
+  ai_default_failure: 写登舰英雄特写与胜利演说
+  transfer_rule: 集体史诗可让个体全程缺席，群像作植被处理
+  quote: 「一望无际的手臂的草原」
+overall_traits:
+- 宏大三件套全反着用：错觉造尺度、衰减收束、个体缺席
+- 信息投放轻重倒挂，重磅处零标注，读者自行连线
+- 双重叙事身份：戏内文明史诗，戏外招募广告

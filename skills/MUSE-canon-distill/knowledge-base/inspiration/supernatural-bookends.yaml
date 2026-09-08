@@ -1,0 +1,21 @@
+card_id: supernatural-bookends
+pattern_name: 魔法守边框
+dramatic_function: 超自然只在首尾现身，中段全是人性博弈；史诗威胁压顶而局中人浑然不觉，权谋因此获得反讽性的渺小感
+applicability: 适合权谋为主体的奇幻或科幻长篇；首尾超自然须同源呼应；中段频繁显魔法则权谋失重（单书孤证，验证面窄）
+reuse_candidates:
+- 异鬼与龙的具体形象
+- 绝境长城的地理设定
+tags:
+- 世界观
+- 类型混合
+- 反讽结构
+source_scenes:
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_01
+  note: 序章即证实超自然威胁，随后整卷退入背景
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_20
+  note: 终章龙的诞生与序章异鬼形成首尾魔法边框
+phase_affinity:
+- 1
+- 3

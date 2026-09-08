@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0f52062a57296d54091a57bf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1843
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 地球文明向太空发出的第一声能够被听到的啼鸣
+sensory_mapping: 听觉哭声；新生身体；第一次呼吸；声音向外传播；脆弱暴露
+context_fact: 叶文洁以太阳放大红岸信息，信号已达到恒星级功率并越过木星轨道，她本人却以为实验失败。
+image_mechanism: 地球文明被缩成宇宙中的新生儿，长期无线电泄漏只是听不见的胎动，太阳放大的信号则像第一口气后突然哭响；被听见也意味着暴露位置。
+property_alignment: 地球文明对应新生婴儿；宇宙对应外部世界；首次可探测信号对应第一声哭；恒星级功率对应哭声响亮；外星接收可能对应旁人听见并定位婴儿
+context_alignment: 啼鸣兼具诞生喜悦和无防御暴露，精确预示这次技术突破将把人类带入宇宙社会也招来入侵。
+narrative_function: 把无形信号提升为文明出生事件，并为三体回复建立听觉因果。
+transfer_rule: 以初啼写首次对外信号时，应对应首次可感知、存在宣告、接收者、脆弱性和由此开始的新阶段。
+failure_boundary: 此前已有可被接收的强信号、此次仅是常规重复，或信息完全隐蔽不可定位时，第一声啼鸣会夸大开端与暴露。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类第一次发出功率足以被外星文明接收和辨认的宇宙无线电信息
+vehicle: 新生婴儿来到世界后第一次发出响亮啼哭，让外界知道其存在
+ground: 文明首次被宇宙他者听见对应婴儿第一声宣告出生；信号内容简单重复对应啼鸣先表达存在而非复杂语言

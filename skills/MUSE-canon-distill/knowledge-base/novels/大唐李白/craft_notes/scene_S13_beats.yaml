@@ -1,0 +1,14 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 匕首作诗
+  dimension: omission
+  original_move: 用金铁声替代李白的诗
+  ai_default_failure: 让李白也作一首压轴诗
+  transfer_rule: 语言耗尽后可用非语言完成高潮
+  quote: 金铁鸣击之声
+overall_traits:
+- 酒令竞技暴露身份焦虑
+- 非语言替代语言更有爆发
+- 诗句泄漏难堪心事

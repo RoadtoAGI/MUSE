@@ -1,0 +1,28 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 猎狗崩溃
+  dimension: camera
+  original_move: 用惨白眼睛写最强者恐惧
+  ai_default_failure: 会插入童年火伤闪回
+  transfer_rule: 旧创伤复发时只写身体状态
+  quote: 惨白
+- pattern_id: S20-p2
+  beat: 半人演说
+  dimension: verb
+  original_move: 用羞辱代替鼓舞士气
+  ai_default_failure: 会写排比式战斗演说
+  transfer_rule: 反英雄动员可瞄准自尊
+  quote: 你们说我是个半人
+- pattern_id: S20-p3
+  beat: 不敢回头
+  dimension: omission
+  original_move: 冲锋开始即硬切章节
+  ai_default_failure: 会展开完整冲锋动作
+  transfer_rule: 情绪峰值可切走留想象
+  quote: 却始终不敢回头
+overall_traits:
+- 羞辱比鼓舞更贴合角色
+- 不确定性定义真实勇气
+- 章节在冲锋开始处硬切

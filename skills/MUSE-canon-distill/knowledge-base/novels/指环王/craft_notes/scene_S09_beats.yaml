@@ -1,0 +1,42 @@
+scene_id: S09
+source_notes: scene_S09_beats.md
+patterns:
+- pattern_id: S09-p1
+  beat: 转折先交给怀疑
+  dimension: omission
+  original_move: 黎明先被论证无用，希望压到最低价，兑现时才有全额冲击
+  ai_default_failure: 提前写他们知道曙光就是转机，情绪铺垫泄光转折
+  transfer_rule: 希望意象兑现前，先让角色在对话中质疑压价
+  quote: 恐怕黎明也帮不了我们
+- pattern_id: S09-p2
+  beat: 冲锋提前一场定案
+  dimension: info_density
+  original_move: 完整冲锋计划先在安静房间给出，号角响起时无需再解释
+  ai_default_failure: 让老王临阵起意，冲锋时边打边补动机与计划
+  transfer_rule: 高潮动作提前一场在对话中预演，兑现时全速直写
+  quote: 或许我们可以杀出一条血路
+- pattern_id: S09-p3
+  beat: 威势物化为视线方向
+  dimension: info_density
+  original_move: 野人慑住后回望山谷仰望天空，恰指向将至的两个终结者
+  ai_default_failure: 让主角谈判前想清动机并让读者知情，预言变成计划书
+  transfer_rule: 用敌方身体反应替读者完成伏笔的空间定位
+  quote: 不自觉地顿住，回头去看背后的山谷
+- pattern_id: S09-p4
+  beat: 转折前奏全交听觉
+  dimension: camera
+  original_move: 低语号角回声走在亮相之前，杀伤力由敌人捂耳扑倒计量
+  ai_default_failure: 直接切国王亮相画面，再补地形或魔法解释回声
+  transfer_rule: 大转折先用声音预告，视觉只负责确认
+  quote: 仿佛每座悬崖和山岭上都站了一个强大的传令官
+- pattern_id: S09-p5
+  beat: 奇迹只写既成事实
+  dimension: omission
+  original_move: 森林迁移全程跳过，歼灭压缩成一个「从此再没出来」
+  ai_default_failure: 写树根拔起连夜行军的过程，歼灭写成杀戮场面
+  transfer_rule: 超自然与暴力靠省略保持体量，只给前后两眼的落差
+  quote: 冲进群树底下那片等候的阴影中
+overall_traits:
+- 每个希望意象先在对话中压价，再以加倍规格兑现
+- 奇迹与暴力只给结果，过程交给省略
+- 每次转折先用声音预告，视觉只负责确认

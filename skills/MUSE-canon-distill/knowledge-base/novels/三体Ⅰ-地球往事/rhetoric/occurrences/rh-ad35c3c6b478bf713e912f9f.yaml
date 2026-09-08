@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ad35c3c6b478bf713e912f9f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1142-L1144
+chapter: 第14章 红岸之三
+figure_type: analogy
+quote: 科学基础理论研究成果转化为实用技术有两种模式：渐进型和突变型
+sensory_mapping: 生命演化；时间速度；形态跨度
+context_fact: 内部文章用宇航技术代表渐进积累，用核武器从“不可能”到短期出现代表技术突变。
+image_mechanism: 无形知识转化获得生物时间：一条路线逐代累积小差异，另一条路线在一个节点突然换形；速度与跨度因而可被并排观察。
+property_alignment: 长期技术积累对应渐进演化；短期巨大突破对应突然变异；应用形态与原理论跨度大对应新性状明显改变；两类过程后果不同对应两种演化路径
+context_alignment: 报告目的是让战略规划关注难预测的非线性变化，生物“突变”比普通加速更能突出形态跃迁和提前预警困难。
+narrative_function: 给红岸工程的超前立项提供概念模型，把外星接触列为可能的最大突变。
+transfer_rule: 借演化描述技术变化时，应分别标出累积单位、时间尺度、形态跨度和触发节点，避免把所有快速增长都称突变。
+failure_boundary: 技术突破由长期可见积累直接兑现、没有结构跃迁时，突变标签会隐藏真实连续因果；生物随机机制也不能照搬为技术机制。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 基础科学成果进入应用技术时速度、跨度不同的两类发展过程
+vehicle: 生命性状逐代缓慢演化与在短时发生显著突变的两种变化模式
+ground: 技术逐步积累后突破对应性状经连续小变化形成；理论迅速跨越到应用对应生物结构突然变异

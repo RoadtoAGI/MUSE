@@ -1,0 +1,35 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 剃头
+  dimension: omission
+  original_move: 老夫妻拌嘴中埋入诀别信号
+  ai_default_failure: 写心中酸楚或知道最后一次
+  transfer_rule: 死亡序幕可藏进日常口角
+  quote: 你再给我剃一回头
+- pattern_id: S13-p2
+  beat: 找黑发
+  dimension: camera
+  original_move: 用额头贴腿和拨发根写回归母体
+  ai_default_failure: 写生命终结的孤独心理过渡
+  transfer_rule: 亲密告别用触觉细节承载孤独
+  quote: 我想叫你一声妈
+- pattern_id: S13-p3
+  beat: 坐化
+  dimension: omission
+  original_move: 死者过程缺席，只给白鹿和活人惊觉
+  ai_default_failure: 写死者最后感受和闭眼过程
+  transfer_rule: 高位人物死亡可让象征先于遗体出现
+  quote: 前院里腾起一只白鹿
+- pattern_id: S13-p4
+  beat: 送灵
+  dimension: camera
+  original_move: 锁定雪地木轮烛光，不写悲字
+  ai_default_failure: 写无数人泪如雨下
+  transfer_rule: 群体哀悼用物质细节替代情绪词
+  quote: 没有乐器鸣奏，也没有炮声
+overall_traits:
+- 以日常动作承载生死大事
+- 关键信息延迟解码
+- 死亡本身保持缺席

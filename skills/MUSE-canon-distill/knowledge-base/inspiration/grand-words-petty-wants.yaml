@@ -1,0 +1,24 @@
+card_id: grand-words-petty-wants
+pattern_name: 大词私欲化
+dramatic_function: 让宏大观念进入小人物欲望清单，生成反讽和人物暴露
+applicability: 适合政治、宗教、理想被误读的叙事；若角色真懂理念则慎用（单书孤证，验证面窄）
+reuse_candidates:
+- 白盔白甲革命党
+- 搬宁式床
+- 土谷祠独白
+tags:
+- 误读
+- 宏大叙事
+- 私欲清单
+- 无评论讽刺
+source_scenes:
+- novel: 阿Q正传
+  scene_id: S08
+  note: 革命被想象成分财物、选女人和报私仇
+- novel: 阿Q正传
+  scene_id: S09
+  note: 真正的权力入口拒绝主角参与，幻想无法兑现
+phase_affinity:
+- 1
+- 2
+- 3

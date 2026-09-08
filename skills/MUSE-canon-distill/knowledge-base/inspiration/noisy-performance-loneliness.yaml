@@ -1,0 +1,22 @@
+card_id: noisy-performance-loneliness
+pattern_name: 喧闹写孤独
+dramatic_function: 用角色的高密度表演或游戏暴露缺席的陪伴，避免直说孤独。
+applicability: 适合内向儿童或创作者型角色；若只堆热闹无现实反衬会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 魔神英雄传
+- 输液瓶圣水
+- 余周周的角色名
+tags:
+- 幻想防御
+- 反向渲染
+- 童年孤独
+source_scenes:
+- novel: 你好，旧时光
+  scene_id: scene_01
+  note: 独角戏越热闹，母亲门外落泪越显孤独。
+- novel: 你好，旧时光
+  scene_id: scene_04
+  note: 舞台故事把童年离别伪装成童话。
+phase_affinity:
+- 2
+- 5

@@ -1,0 +1,201 @@
+# ============================================================
+# Phase 4: 结构（序列展开）— 《射雕英雄传》逆向分析
+# ============================================================
+# 接收 Phase 3 的 6 个 Arc，逐 Arc 展开为序列
+
+arc_expansions:
+
+  # ── ARC-1 大漠成长 ──
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "牛家村惨变与十八年之约"
+        core_conflict: "金国势力入侵 vs 郭杨两家的平静生活"
+        escalation_direction: "从偶遇丘处机的热闹酒宴→到官兵围村杀人→到两家彻底家破人亡"
+        sequence_climax: "丘处机取名'靖''康'赠剑，与七怪立下十八年比武之约"
+        closed: "郭杨两家的前世——牛家村线永久终结"
+        opened: "两个遗孤的命运被绑定到十八年之约上"
+      - seq_id: ARC1-SEQ2
+        name: "大漠苦练与暗线师承"
+        core_conflict: "郭靖天资鲁钝 vs 六怪拼命传授"
+        escalation_direction: "从六怪苦教无果→马钰暗授内功两年带来质变→铁木真统一蒙古"
+        sequence_climax: "郭靖一箭双雕获金刀，被封千夫长、许配华筝"
+        closed: "蒙古线第一阶段——郭靖立身草原"
+        opened: "必须南下践十八年之约，离开蒙古"
+      - seq_id: ARC1-SEQ3
+        name: "南下遇黄蓉"
+        core_conflict: "郭靖孤身南行 vs 黄蓉的试探与依附"
+        escalation_direction: "从张家口偶遇乞丐少年→慷慨赠裘赠金赠马→黄蓉换回女装真容重逢"
+        sequence_climax: "黄蓉以真容重逢郭靖，二人定情"
+        closed: "郭靖的孤独——找到灵魂伴侣"
+        opened: "黄药师之女的身份将带来巨大阻力"
+    arc_progression_note: "从家破人亡→苦练立身→遇见伴侣，完成郭靖的角色建置"
+
+  # ── ARC-2 江湖激荡 ──
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "赵王府风波与身世揭秘"
+        core_conflict: "杨铁心/包惜弱十八年离散 vs 完颜康的身份认同"
+        escalation_direction: "从夜闯赵王府→杨铁心认出包惜弱→包惜弱揭露完颜康身世→杨铁心夫妇殉情"
+        sequence_climax: "杨铁心夫妇双双殉情，丘处机甘拜下风——'品行心术居首，武功乃是末节'"
+        closed: "十八年之约正式了结"
+        opened: "杨康拒认生父——镜像线从此不可逆地分野"
+      - seq_id: ARC2-SEQ2
+        name: "拜师洪七公"
+        core_conflict: "郭靖武功不足 vs 即将面对的桃花岛死局"
+        escalation_direction: "从黄蓉以厨艺换招式→洪七公被美食征服→降龙十八掌十五掌传毕"
+        sequence_climax: "郭靖获降龙十八掌，跻身一流高手"
+        closed: "郭靖武功'二流'的困境"
+        opened: "黄药师设限：一月内赴桃花岛，否则处死"
+      - seq_id: ARC2-SEQ3
+        name: "桃花岛囚禁与周伯通"
+        core_conflict: "郭靖被困桃花岛 vs 武学升维的机缘"
+        escalation_direction: "从结识周伯通→学空明拳+双手互搏→不知情中背会全部九阴真经→华山论剑始末揭示'不练'的最高境界"
+        sequence_climax: "郭靖不自知地背会九阴真经全文"
+        closed: "武学传承——降龙十八掌+双手互搏+九阴真经三合一"
+        opened: "欧阳锋到岛求亲，三道试题即将开始"
+    arc_progression_note: "三个序列递进：命运对比确立→武功跃升→武学哲学升维"
+
+  # ── ARC-3 海上风波 ──
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "三道试题与许婚"
+        core_conflict: "黄药师对女婿的考验 vs 欧阳锋叔侄的竞争"
+        escalation_direction: "从松树比武→箫声品题→背诵九阴真经，每题郭靖都在劣势中反转"
+        sequence_climax: "郭靖背出全部九阴真经，黄药师许婚"
+        closed: "爱情障碍——黄药师认可郭靖"
+        opened: "欧阳锋记恨，海上冲突即将爆发"
+      - seq_id: ARC3-SEQ2
+        name: "海上遭难与洪七公重伤"
+        core_conflict: "洪七公的善良 vs 欧阳锋的阴毒"
+        escalation_direction: "从花船散裂落海→洪七公冒死救欧阳锋于火海→欧阳锋恩将仇报偷袭→漂至荒岛"
+        sequence_climax: "欧阳锋以毒蛇+蛤蟆功偷袭重伤洪七公——全书最沉重的'好人代价'"
+        closed: "五绝均衡格局——洪七公退出主舞台"
+        opened: "郭靖失去最强保护者；洪七公传位黄蓉为帮主"
+      - seq_id: ARC3-SEQ3
+        name: "临安禁宫与密室疗伤"
+        core_conflict: "个人江湖恩怨 vs 家国危机浮现"
+        escalation_direction: "从临安寻药误入禁宫→撞破金国侵宋密谋→牛家村密室疗伤→目睹谭处端被杀、梅超风替师而死"
+        sequence_climax: "梅超风替师挡掌而死——叛徒以命换得师父的一声'超风'"
+        closed: "梅超风的救赎弧"
+        opened: "黄药师误信女儿已死，誓杀六怪——更大的误会即将到来"
+    arc_progression_note: "从胜利（许婚）→灾难（洪七公重伤）→更大的灾难伏笔（黄药师误信女儿已死），典型的先扬后抑"
+
+  # ── ARC-4 寻书问道 ──
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "丐帮帮主之争与杨康覆灭"
+        core_conflict: "杨康冒任丐帮帮主 vs 黄蓉的正统地位"
+        escalation_direction: "从杨康冒名→黄蓉以打狗棒法三夺竹杖→揭穿阴谋正式就任"
+        sequence_climax: "黄蓉以打狗棒法三夺竹杖，正式就任丐帮第十九代帮主"
+        closed: "杨康在丐帮的冒名行为"
+        opened: "残画线索指向武穆遗书"
+      - seq_id: ARC4-SEQ2
+        name: "铁掌峰寻书与一灯疗伤"
+        core_conflict: "武穆遗书的生死冒险 + 黄蓉重伤求医"
+        escalation_direction: "从残画线索→铁掌峰禁地发现武穆遗书→双雕背负脱险→渔樵耕读四关→一灯疗伤"
+        sequence_climax: "铁掌峰发现《武穆遗书》——从个人武功升维至家国兵略"
+        closed: "黄蓉的伤——一灯以五年功力疗愈"
+        opened: "瑛姑三角恩怨揭示+武穆遗书的运用悬念"
+    arc_progression_note: "两个序列完成双重升维：黄蓉从少女到帮主，郭靖从侠客到兵法继承者"
+
+  # ── ARC-5 真相与抉择 ──
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: "五怪惨案与决裂"
+        core_conflict: "栽赃嫁祸 vs 靖蓉信任"
+        escalation_direction: "从桃花岛发现五怪惨死→所有物证指向黄药师→郭靖与黄蓉决裂离岛"
+        sequence_climax: "郭靖'眼光茫然，竟似没见到她'——决裂离岛"
+        closed: "靖蓉的安宁——全书最深的误会撕裂了两人"
+        opened: "必须找到真凶才能修复一切"
+      - seq_id: ARC5-SEQ2
+        name: "烟雨楼大战与铁枪庙推理"
+        core_conflict: "真凶隐藏 vs 黄蓉舍身揭露"
+        escalation_direction: "从嘉兴各方汇集→烟雨楼多方混战→铁枪庙黄蓉层层推理→揭露欧阳锋与杨康为真凶"
+        sequence_climax: "黄蓉铁枪庙舍命揭露真凶——杨康触软猬甲中毒身亡"
+        closed: "五怪惨案的真相+杨康线永久终结"
+        opened: "靖蓉冤解，但郭靖随成吉思汗西征"
+      - seq_id: ARC5-SEQ3
+        name: "西征与母亲殉节"
+        core_conflict: "成吉思汗的帝国利益 vs 郭靖的国族忠诚"
+        escalation_direction: "从随军西征→飞降破城→锦囊密令南攻大宋→李萍自刎殉节"
+        sequence_climax: "李萍自刎——'只要一生行事无愧于心'"
+        closed: "郭靖与蒙古的一切羁绊（养育之恩、华筝婚约、安答之义）"
+        opened: "郭靖南归，陷入'武功善恶'的精神危机"
+    arc_progression_note: "三个序列形成'崩溃→真相→代价'的三级打击，李萍自刎是全书情感最高潮"
+
+  # ── ARC-6 华山论剑 ──
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: "是非善恶辩论与觉醒"
+        core_conflict: "武功善恶的迷惘 vs 洪七公的道德定音锤"
+        escalation_direction: "从郭靖精神危机→裘千仞'是非善恶'之问震慑群雄→洪七公'二百三十一人'回应→一灯度化裘千仞"
+        sequence_climax: "洪七公'一生杀过二百三十一人，个个都是恶徒'——武功无善恶，端在人之为用"
+        closed: "郭靖的精神迷惘——价值观建构完成"
+        opened: "华山论剑即将开始"
+      - seq_id: ARC6-SEQ2
+        name: "华山论剑与英雄论"
+        core_conflict: "征服者式的英雄观 vs 守护者式的英雄观"
+        escalation_direction: "从欧阳锋逆练经脉疯癫→靖蓉婚事定局→成吉思汗临终对话→南归守襄阳"
+        sequence_climax: "'杀得人多却未必算是英雄'——成吉思汗口念'英雄'而崩"
+        closed: "全书主控思想的终极表达——英雄不是征服者，是守护者"
+        opened: "靖蓉南归襄阳，故事延续至《神雕侠侣》"
+    arc_progression_note: "先解决内在迷惘（精神觉醒），再解决外在使命（南归守土）"
+
+# ── 序列级因果链 ──
+
+causal_chain: >
+  ARC1-SEQ1（牛家村惨变）→ 因十八年之约 → ARC1-SEQ2（大漠苦练）
+  → 因必须南下践约 → ARC1-SEQ3（遇黄蓉）
+  → 因黄蓉引入江湖 → ARC2-SEQ1（赵王府身世揭秘）
+  → 因杨康拒认+郭靖武功不足 → ARC2-SEQ2（拜师洪七公）
+  → 因黄药师限期赴岛 → ARC2-SEQ3（桃花岛周伯通）
+  → 因欧阳锋到岛求亲 → ARC3-SEQ1（三道试题）
+  → 因欧阳锋记恨 → ARC3-SEQ2（洪七公重伤）
+  → 因寻药误入禁宫 → ARC3-SEQ3（临安+密室疗伤）
+  → 因杨康冒任帮主 → ARC4-SEQ1（丐帮帮主之争）
+  → 因残画线索 → ARC4-SEQ2（铁掌峰+一灯疗伤）
+  → 因欧阳锋杨康栽赃 → ARC5-SEQ1（五怪惨案）
+  → 因必须揭露真相 → ARC5-SEQ2（烟雨楼+铁枪庙）
+  → 因西征归途密令 → ARC5-SEQ3（李萍殉节）
+  → 因精神危机 → ARC6-SEQ1（是非善恶觉醒）
+  → 因觉醒后面对终极命题 → ARC6-SEQ2（华山论剑+英雄论）
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: >
+    ARC-1（个人成长）→ ARC-2（江湖恩怨+身世对比）→ ARC-3（生死考验+领袖交接）
+    → ARC-4（国仇兵略+道德疗愈）→ ARC-5（最大误会+身份认同+至亲牺牲）
+    → ARC-6（精神觉醒+英雄定义）。
+    每个Arc的赌注层层递增：从个人安危→师徒情分→爱情→家国→生死→灵魂。
+  causal_chain: >
+    ARC-1 高潮（遇黄蓉）→ 触发 ARC-2（杨康身世+武功跃升）
+    → 触发 ARC-3（海上遭难+洪七公重伤）
+    → 触发 ARC-4（寻武穆遗书+疗伤）
+    → 触发 ARC-5（五怪栽赃→真相→母亲殉节）
+    → 触发 ARC-6（精神觉醒→华山论剑→南归守土）
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "郭靖成长线（主线）"
+    description: "从大漠遗孤到侠之大者的完整成长弧"
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-5, ARC-6]
+  - name: "杨康堕落线（镜像线）"
+    description: "与郭靖形成对比——同为遗孤却认贼作父，一步步走向毁灭"
+    primary_arcs: [ARC-2, ARC-4, ARC-5]
+  - name: "九阴真经争夺线"
+    description: "黑风双煞偷经→周伯通被困→欧阳锋抢经→窜改经文→逆练疯癫"
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-6]
+  - name: "蒙古/家国线"
+    description: "铁木真统一→西征花剌子模→密令南攻→李萍殉节→英雄论"
+    primary_arcs: [ARC-1, ARC-5, ARC-6]
+  - name: "五绝恩怨线（暗线）"
+    description: "华山论剑→五绝各自的道德瑕疵→二十年后的价值重估"
+    presence: "贯穿全书但从未独立成Arc——通过周伯通叙述（第16回）、一灯故事（第31回）、裘千仞之问（第39回）逐步揭示"

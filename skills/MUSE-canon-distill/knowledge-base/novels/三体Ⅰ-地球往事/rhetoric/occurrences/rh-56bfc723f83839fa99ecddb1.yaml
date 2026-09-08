@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-56bfc723f83839fa99ecddb1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L477
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 仿佛煮在汤中的巫师在梦呓
+sensory_mapping: 听觉；液体；死亡荒诞
+context_fact: 周文王计算时，大殿只剩鼎中声。
+image_mechanism: 气泡声保留人物所在位置，却把沸腾的物理来源改听成口中梦话；死刑现场因此出现荒诞的“仍在说话”。
+property_alignment: 断续气泡对应含混梦呓；声音来自伏羲所在大鼎对应似由本人发出；低响持续对应睡中无意识发声
+context_alignment: 声源与人物命运重合，黑色幽默来自同场声响。
+narrative_function: 反衬伪科学仪式与残酷刑罚。
+transfer_rule: 黑色听觉比喻应利用真实声源位置和人物处境制造双重解释，不靠额外笑话。
+failure_boundary: 鼎中无人、声响尖锐爆裂或人物清醒喊叫时，梦呓的低弱无意识特征不成立。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 大鼎汤水持续咕嘟的声响
+vehicle: 被煮的伏羲仍含混说梦话
+ground: 断续气泡对应含混梦呓；声音来自伏羲所在大鼎对应似由本人发出；低响持续对应睡中无意识发声

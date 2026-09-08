@@ -1,0 +1,42 @@
+scene_id: S26
+source_notes: scene_S26_beats.md
+patterns:
+- pattern_id: S26-p1
+  beat: 先让对手赢一回合
+  dimension: omission
+  original_move: 佞舌接过分类框架反杀，叙述者不裁判，主角当场落下风
+  ai_default_failure: 让反派台词一听即假，主角立刻占上风
+  transfer_rule: 写话术反派让其逻辑自身成立，读者独自抵抗说服力
+  quote: 还有第三种：啄食尸骨
+- pattern_id: S26-p2
+  beat: 变身只拍姿态音色
+  dimension: camera
+  original_move: 气势骤变的全部证据是甩斗篷、挺腰、声线转清晰冰冷
+  ai_default_failure: 一次性开大，写白光狂风衣袍鼓动的力量涌动
+  transfer_rule: 强者摊牌分级释放，先只给姿态与音色一级的量
+  quote: 挺起身来，开口用清晰冰冷的声音
+- pattern_id: S26-p3
+  beat: 打击本体缺席
+  dimension: omission
+  original_move: 只写阳光被遮与闪电劈屋顶，命中瞬间抠掉只余沉寂趴地
+  ai_default_failure: 写白光击中反派、惨叫着摔出数丈的命中镜头
+  transfer_rule: 高阶法术出手只给因果两端，过程交给一片沉寂
+  quote: 一道光亮闪过，仿佛闪电劈开了屋顶
+- pattern_id: S26-p4
+  beat: 解咒写成身体力学
+  dimension: camera
+  original_move: 杖落挺腰天放晴，环境段落就是法术效果的正文
+  ai_default_failure: 写脑内黑雾散开的主观镜头，醒来立即振奋
+  transfer_rule: 精神控制解除全部外化为道具身体与天气变化
+  quote: 哐啷一声，国王手中的黑杖跌落
+- pattern_id: S26-p5
+  beat: 复原靠外物验证
+  dimension: info_density
+  original_move: 跪献之剑一个动作结算和解忠诚与力量，复原由观者裁定
+  ai_default_failure: 让老王热泪盈眶立即握剑，配一段感怀独白
+  transfer_rule: 角色状态回归用道具测试与旁观验收，不用自我陈述
+  quote: 观者觉得他枯瘦的手臂重新充满了坚定
+overall_traits:
+- 力量分修辞姿态天气三级释放，每级只兑现一级的量
+- 打击与解咒都省略本体，因果保留过程归零
+- 弧光靠道具闭环验证，裁定权在旁观者眼中

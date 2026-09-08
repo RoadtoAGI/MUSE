@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-51ce9daa4e738921d5d2a39a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2184
+chapter: 第31章 两个质子
+figure_type: analogy
+quote: 对于拯救派而言，信息的丢失如同基督教丢失了圣经、伊斯兰教丢失了古兰经
+sensory_mapping: 文本载体；神圣话语；档案被抹除；信徒失据；共同体震动
+context_fact: 降临派把截留信息存于审判日号并可随时删除，拯救派因此不敢武力夺船。
+image_mechanism: 计算机文件被赋予经典地位，删除硬盘数据等同从宗教历史中抽走神言；数字信息的技术脆弱性瞬间转化为信仰根基坍塌。
+property_alignment: 三体原始信息对应神圣启示；信息文件对应宗教经典；拯救派对应信徒共同体；三体世界被称主对应经典来源神圣；永久删除对应经典失传；不敢攻击对应信徒保护经书
+context_alignment: 拯救派已经形成三体教，经典类比准确解释他们为何宁肯容忍敌对降临派也不冒险毁坏信息。
+narrative_function: 用跨宗教共同机制说明信息的不可替代价值和审判日号的人质效应。
+transfer_rule: 把信息库类比宗教经典时，应确认信息被视为最高权威原话、组织解释与仪式依赖它、且毁损无法由其他副本替代。
+failure_boundary: 信息只是可更新技术资料、另有完整备份，或群体信仰不依赖文本权威时，丢失经典的后果会被夸大。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 拯救派若永久失去三体世界发来的原始信息，将失去信仰文本和组织依据
+vehicle: 基督教遗失《圣经》或伊斯兰教遗失《古兰经》，宗教共同体失去核心经典
+ground: 三体信息承载主的言语对应经典记录神圣启示；拯救派依据信息建构信仰对应宗教围绕经典维系；不可替代的丢失会动摇共同体

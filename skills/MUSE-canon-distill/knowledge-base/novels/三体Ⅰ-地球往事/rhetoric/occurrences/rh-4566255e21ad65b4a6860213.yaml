@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4566255e21ad65b4a6860213
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2382
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 信息仍源源不断地从太空涌进天线
+sensory_mapping: 水流涌入；源头不断；入口汇集；信息充盈；流速
+context_fact: 监听员第一次收到智慧文明消息，自译解系统使他在两个三体时内了解地球世界。
+image_mechanism: 长期只有干燥噪声的一维沙漠忽然出现水源，信息由太空向天线形成连续流；监听室和他的意识迅速被地球细节灌满。
+property_alignment: 地球发射源对应水源；电波序列对应水流；源源不断对应持续供给；天线对应汇入口；解译文件对应蓄水池；知识快速增加对应容器充满
+context_alignment: 前文噪声是一维沙漠，信息以水流涌入正好解除干旱，形成从荒凉到生命的感官逆转。
+narrative_function: 表现首遇信息的数量、连续性和心理冲击，并加快知识展开节奏。
+transfer_rule: 用涌流写数据接收时，应有明确源、连续序列、接收入口、流量增长和承载端快速充盈。
+failure_boundary: 信息只有单个短脉冲、断续稀疏或接收端主动抓取而非被大量灌入时，涌流会夸大规模。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 地球发来的长篇自译解电波被监听站连续大量接收并实时显示
+vehicle: 水源不断供给，水流从外部大量涌入狭窄入口，短时间内充满容器
+ground: 连续信号对应持续水流；数据量大对应涌入水量；天线接收口对应入口；实时翻译对应容器立即承接

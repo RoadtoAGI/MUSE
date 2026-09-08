@@ -1,0 +1,48 @@
+scene_id: S05
+source_notes: scene_S05_beats.md
+patterns:
+- pattern_id: S05-p1
+  beat: 承诺含隐藏条件
+  dimension: overall
+  original_move: 让真诚求婚承诺建立在神庙女子不会出现上
+  ai_default_failure: 用虚伪承诺准备反转，人物关系迅速扁平化
+  transfer_rule: 希望可来自真诚判断，反转由其隐藏前提失效触发
+  quote: 那未我就要先选你
+- pattern_id: S05-p2
+  beat: 谈海制造反讽
+  dimension: omission
+  original_move: 让王子向真正的海底来客讲海，而她只能微笑
+  ai_default_failure: 为亲密感让她轻易透露身份，提前拆除失声结构
+  transfer_rule: 知识反讽可让最懂的人因身份约束保持沉默
+  quote: 关于海底的事儿她比谁都知道得清楚
+- pattern_id: S05-p3
+  beat: 一句闭合误认
+  dimension: info_density
+  original_move: 公主出现后用一句就是你完成救命者认定
+  ai_default_failure: 增加调查和三角争辩，削弱旧信息差的因果力
+  transfer_rule: 前文机关充分时，终局闭合宜短于人物反应
+  quote: 救活我的就是你
+- pattern_id: S05-p4
+  beat: 喜庆造成感官隔绝
+  dimension: camera
+  original_move: 先铺钟、灯、香炉，再内收至她失效的耳目
+  ai_default_failure: 让角色当众崩溃，牺牲礼仪动作中的克制张力
+  transfer_rule: 公共仪式可照常完成，贴身感官选择呈现私人灾难
+  quote: 她的耳朵听不见这欢乐的音乐
+- pattern_id: S05-p5
+  beat: 复演船宴倒计时
+  dimension: overall
+  original_move: 复用初见彩灯与舞蹈，把爱情开端翻成终局
+  ai_default_failure: 另造全新悲景，前后场景缺乏结构性回声
+  transfer_rule: 终局复演开端物象，只改变人物知识与时间意义
+  quote: 她从来没有跳得这么美丽
+overall_traits:
+- 旧信息差用一句辨认自行闭合
+- 喜庆礼仪持续制造死亡倒计时
+narrative_organization:
+  presentation: 相亲传闻、航海承诺、公主出现、婚礼与婚船舞会依次推进
+  transition_anchor: 公主出现转关系，钟声转婚礼，暮色与午夜转终局倒计时
+  knowledge_change: 王子确信公主是救命者，小人鱼确认爱情与灵魂路径同时失败
+  cross_thread_effect: 海底契约的婚后晨光接管岸上婚礼，把联姻转为生命期限
+  effect: 全体人物幸福时读者独享死亡信息，甜蜜持续产生反讽压力
+  source_anchor: scene_S05.md:L3-L16；最后一晚

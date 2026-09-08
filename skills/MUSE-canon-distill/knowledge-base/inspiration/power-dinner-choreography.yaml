@@ -1,0 +1,25 @@
+card_id: power-dinner-choreography
+pattern_name: 权力饭局
+dramatic_function: 用社交空间展示多方欲望，让沉默、座位和转场暴露权力。
+applicability: 适用于文艺圈、职场、政治社交；若只靠台词交锋会削弱（单书孤证，验证面窄）
+reuse_candidates:
+- 出版商和评论家
+- 诺贝尔提名
+tags:
+- 社交权力
+- 沉默信息
+- 空间转场
+source_scenes:
+- novel: '2666'
+  scene_id: S20
+  note: 饭局、花园、橡树边依次切换权力模式。
+- novel: '2666'
+  scene_id: S19
+  note: 和解辞令立即落到期刊互不封杀。
+- novel: '2666'
+  scene_id: S21
+  note: 销量和礼物揭示出版信任的真实机制。
+phase_affinity:
+- 1
+- 2
+- 5

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9ff8178ff8fa74ad1bfcb0ee
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L686
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 每棵树都挂起了大冰挂子，森林成了水晶宫
+sensory_mapping: 视觉；透明度；光泽；建筑空间；寒冷
+context_fact: 当地传说雷达天线使大雪变雨，雨在严寒中冻结并压断树枝。
+image_mechanism: 树木的有机表面被冰层统一封装，枝干依次转为透明柱、梁和垂饰；林间空隙因此从自然通道变成一座可步入的华丽室内。
+property_alignment: 冰挂透明反光对应水晶材质；树干枝条形成高大空间对应宫殿柱廊穹架；整片森林被冰统一覆盖对应建筑材料一致；进入其间对应置身宫殿内部
+context_alignment: 冰挂的真实光泽和森林的围合尺度支撑宫殿外观，紧随的断枝巨响又打破美景，保留危险。
+narrative_function: 把红岸传说写得瑰丽而不祥，强化设施改变自然的神秘力量。
+transfer_rule: 将自然景观建筑化时，应让材质、承重轮廓、围合空间和进入视角分别找到对应，并保留场景实际风险。
+failure_boundary: 稀疏薄霜、无透明光泽或开阔无遮蔽的树林没有水晶材质与宫殿围合感。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 严寒雨水冻结后被巨大冰挂覆盖的整片森林
+vehicle: 由透明闪亮水晶构件围合而成的宫殿
+ground: 冰挂透明反光对应水晶材质；树干枝条形成高大空间对应宫殿柱廊穹架；整片森林被冰统一覆盖对应建筑材料一致；进入其间对应置身宫殿内部

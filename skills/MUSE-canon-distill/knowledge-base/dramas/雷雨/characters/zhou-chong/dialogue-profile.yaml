@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:zhou-chong
+work_id: drama:雷雨
+display_name: 周冲
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '周冲的台词是雷雨中唯一带有"诗意"的声音——他对四凤的告白用"白色的帆""鹰的翅膀""腥的咸的海风""无边的海"等具体意象；他对母亲的表白用"您不是一个平常的母亲。您最大胆，最有想象，又最同情我的思想的"等抽象赞美。他对父亲的反抗用书生论语——"我以为这些人替自己的一群努力，我们应当同情的""并且我们这样享福，同他们争饭吃，是不对的"——他用大学生论文体跟父亲讲社会经济。他对鲁大海的尝试用握手姿势——"你愿意——跟我拉拉手么"。**他的最深语言习惯：他唯一一次走出抒情幻象是
+    A4 末段的"我大概是胡闹"**——这是他在悲剧时刻里最不悲剧的一刻，也是他第一次也是最后一次成熟。
+
+
+    佐证：scenes/scene_A1.md:L371-L375（A1 对父亲的书生论语——"我以为这些人替自己的一群努力"）；scenes/scene_A3.md:L223-L233（"白帆船向天边飞"——全剧最长的少年抒情）；scenes/scene_A4.md:L445-L447（"我，我，我——大概是胡闹"——三次"我"的成熟时刻）'
+  evidence_locators:
+  - scenes/scene_A1.md:L371-L375
+  - scenes/scene_A3.md:L223-L233
+  - scenes/scene_A4.md:L445-L447
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,162 @@
+analysis_meta:
+  novel: 穿越东汉末年
+  source_text: navigation.md
+  source_form: 中篇连载历史穿越演义
+  evidence_note: "以期数和导航锚点标注来源；第一轮未做逐场景行号切分"
+
+arc_expansions:
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: 贫民开局与知识变现
+        core_conflict: 现代意识被困在贫弱平民身体中，必须在三天口粮和世家秩序下活下来。
+        escalation_direction: 从投靠世家做佃客，到用识字成为文书，再到用农技和账本积累民望。
+        sequence_climax: 第1期末，刘官章成为乡佐，但黄巾和张修乱局将至。
+        closed: 个人饥饿危机和最初身份跃迁。
+        opened: 基层小吏身份能否抵御真正乱世。
+      - seq_id: ARC1-SEQ2
+        name: 坞堡失败与共同体诞生
+        core_conflict: 乡佐、家丁和坞堡能否保护一家人在汉末兵灾中活下去。
+        escalation_direction: 从筑坞堡到逃入大巴山，再到回乡看见无政府废墟。
+        sequence_climax: 第3期，刘官章演讲召集 600 青壮，宣布乡人自保。
+        closed: 对世家和官府保护幻想的破灭。
+        opened: 一支自保武装如何供养、约束和合法化。
+    arc_progression_note: ARC-1 先把主角压到最底层，再用一次真实灾变迫使他从个人进步转向公共责任。
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: 万安军事化
+        core_conflict: 灾后乡民有粮有人，但缺武器、纪律和外部承认。
+        escalation_direction: 从灌钢长矛、纸甲、马镫到清剿小地主、训练常备军和重骑。
+        sequence_climax: 第4期，四大家族五千兵来攻，被刘官章重骑击破。
+        closed: 万安乡不再是可被地方豪强随意吞并的村社。
+        opened: 地方武力如何取得官方身份和区域扩张空间。
+      - seq_id: ARC2-SEQ2
+        name: 安汉与巴郡锁定
+        core_conflict: 刘官章需要在刘焉、严家、张鲁和本土四大家族之间活成第三方。
+        escalation_direction: 从献兵刘焉换行安汉令，到甘宁投效、安汉阅兵、夺荡渠阆中汉昌。
+        sequence_climax: 第6期，严颜归附，巴郡北部门户被刘官章锁住。
+        closed: 安汉身份和巴郡支点。
+        opened: 益州州级格局中的扩张机会。
+    arc_progression_note: ARC-2 把“乡里活路”扩成“区域军事财政体系”，但仍处于益州旧框架之内。
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: 安汉制度化
+        core_conflict: 单靠早期亲兵无法治理更大地盘，必须复制干部、军官和生产力。
+        escalation_direction: 从安汉大学、军学院、梯田和贸易，到利用刘焉张鲁相持主动出兵。
+        sequence_climax: 第7期，刘官章趁张鲁求援主动打犍为，介入州级战争。
+        closed: 安汉不再只是战时寨堡，而是能培养人的制度原型。
+        opened: 刘焉死后益州归属问题。
+      - seq_id: ARC3-SEQ2
+        name: 夺益州与取汉中
+        core_conflict: 刘璋、赵韪、张鲁和益州旧部阻挡刘官章进入全国棋局。
+        escalation_direction: 从讨刘璋檄文、安汉会战、剑门涪县突破，到攻灭张鲁、迁成都、修路。
+        sequence_climax: 第9期，汉中归刘官章，成都、益州、南中整合启动。
+        closed: 州级割据资本。
+        opened: 关中、荆州、中原和马超的天下级博弈。
+    arc_progression_note: ARC-3 通过益州和汉中让主角第一次拥有“钱粮多、路难走”的战略个性。
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: 关中计划破产
+        core_conflict: 刘官章想出汉中取关中，但曹操、马腾、韩遂和马超都不是可随意摆布的棋子。
+        escalation_direction: 从修栈道屯兵，到曹操焚长安、贾诩离间马韩、马超坐大堵门。
+        sequence_climax: 第11期，马超献武都并要求刘官章勿出关中。
+        closed: 直取关中的窗口。
+        opened: 转向荆州和长期均势策略。
+      - seq_id: ARC4-SEQ2
+        name: 荆北血战与火炮威慑
+        core_conflict: 刘官章陆军强、水军弱，必须突破刘表的水陆防线。
+        escalation_direction: 从南阳、秭归、江夏、樊城胶着，到陈文锤战死、战船改装、铜炮问世。
+        sequence_climax: 第13期，铜炮夺襄阳、迫江陵投降，荆州基本归刘官章。
+        closed: 荆州北部和长江上游格局。
+        opened: 南方消化、马超收编、工业和财政竞争。
+    arc_progression_note: ARC-4 的关键不是一路成功，而是主角战略失败后换方向，并付出陈文锤之死等代价。
+
+  - arc_id: ARC-5
+    sequences:
+      - seq_id: ARC5-SEQ1
+        name: 国力工程与西北缓冲
+        core_conflict: 领土扩大后，主角必须靠产业、货币、防疫、船政和西北代理人维持长期竞争。
+        escalation_direction: 从收马超、保曹制袁，到盐糖玻璃、五铢钱、造船、南海和小冰期判断。
+        sequence_climax: 第17期，刘官章以粮食换曹操让出关中。
+        closed: 关中入口和战略纵深。
+        opened: 江东和河北合法性问题。
+      - seq_id: ARC5-SEQ2
+        name: 江东救饥与周公合法性
+        core_conflict: 刘官章缺乏直接打孙权的名分，江东饥荒和山越循环提供救民名义。
+        escalation_direction: 从马谡取证，到长安哭饥民、甘宁破柴桑、江东士族谈判、周瑜归附。
+        sequence_climax: 第20期，江东归附后九鼎出现，刘官章封周公、假节、九锡。
+        closed: 南方整合和公开政治位格。
+        opened: 河北、中原和天子归属的最终问题。
+    arc_progression_note: ARC-5 把武力扩张包装成救民和正统恢复，使主角进入“可替代旧汉室”的位置。
+
+  - arc_id: ARC-6
+    sequences:
+      - seq_id: ARC6-SEQ1
+        name: 壶关与河北门户
+        core_conflict: 袁尚仍握河北，壶关是地理与补给上的第一雄关。
+        escalation_direction: 从扶植胡部、调刘登带新一代班底，到石油火罐破壶关、张郃投降。
+        sequence_climax: 第21期，壶关陷落，河北门户大开。
+        closed: 袁尚对山西门户的封锁。
+        opened: 多线攻略河北和中原谈判。
+      - seq_id: ARC6-SEQ2
+        name: 内部韧性测试
+        core_conflict: 主角势力过大后，刘官章一旦病倒，降将、士族、儿子和地方集团是否会裂开。
+        escalation_direction: 从“天子病了”破解诏令，到假病测试、荆扬隐患浮出、病愈清算。
+        sequence_climax: 第23期，刘官章病愈后赏罚并定，证明体系暂能承受个人缺位。
+        closed: 内部忠诚与既得利益结构的一轮压力测试。
+        opened: 刘登正式承担大规模战争的空间。
+      - seq_id: ARC6-SEQ3
+        name: 河北三线与曹操退场
+        core_conflict: 河北、幽州、青州和南阳同时牵动，曹操仍可能拼死破局。
+        escalation_direction: 从刘登围邯郸、周瑜青州登陆、马岱取幽州，到辛银马马超挡曹操、马超斩淳于琼、邺城内乱。
+        sequence_climax: 第25期，曹操交出外姓将领和天子，刘协入长安。
+        closed: 汉末主要旧诸侯格局。
+        opened: 天子退位和新制度安排。
+    arc_progression_note: ARC-6 用多线战争证明刘官章势力已经不是单点主角光环，而是能同时动员继承人、水军、胡部、降将和内政体系的国家机器。
+
+  - arc_id: ARC-7
+    sequences:
+      - seq_id: ARC7-SEQ1
+        name: 退位与文化恢复
+        core_conflict: 曹操退场后，刘协、曹氏、颍川士族和汉家文化必须被安置，否则胜利会变成新一轮报复。
+        escalation_direction: 从迎刘协、安置曹操，到蔡琰归汉、兰台校书、南匈奴征伐。
+        sequence_climax: 第25期，刘协退位，刘官章称帝。
+        closed: 汉室名分悬置。
+        opened: 新朝如何防止权臣和继承崩塌。
+      - seq_id: ARC7-SEQ2
+        name: 新朝制度化
+        core_conflict: 刘官章必须把个人威望转成继承人可用、庸君也不至于崩盘的制度。
+        escalation_direction: 从废三公九卿，到三省六部、三司司法监察、中央枢密军政院、十二军区、州郡重划、基层识字和太子册立。
+        sequence_climax: 第26期，刘登立太子，国家进入长期建设状态。
+        closed: 争霸主线。
+        opened: 新制度未来的长期风险：士族再生、边疆小冰期、继承人能力和技术继续推进。
+    arc_progression_note: ARC-7 把结局重心放在制度下限，而不是称帝爽点。
+
+causal_chain: "ARC1-SEQ1 因贫弱求生打开识字路线 -> ARC1-SEQ2 因乱世摧毁官府保护而诞生自保共同体 -> ARC2-SEQ1 因共同体需要武力和粮食而军事化 -> ARC2-SEQ2 因地方势力必须合法化而进入巴郡均势 -> ARC3-SEQ1 因扩张需要复制干部而建设安汉制度 -> ARC3-SEQ2 因益州内乱窗口而夺益州汉中 -> ARC4-SEQ1 因关中计划被曹操马超破坏而转向荆州 -> ARC4-SEQ2 因荆州水陆短板而推动火炮和水军升级 -> ARC5-SEQ1 因长期竞争需要国力工程而拿关中 -> ARC5-SEQ2 因江东饥荒提供救民名分而吞江东封周公 -> ARC6-SEQ1 因要进河北必须破壶关 -> ARC6-SEQ2 因势力过大必须测试内部韧性 -> ARC6-SEQ3 因河北曹操同时崩解而旧秩序退场 -> ARC7-SEQ1 因天子入长安必须处理名分 -> ARC7-SEQ2 因个人统治不可继承而制度化。"
+
+arc_progression:
+  impact_escalation: "冲击力从个人饥饿、乡里自保、县郡争夺、州级统一、荆州和江东吞并、河北中原决战，最终上升到改朝换代和国家制度重构。"
+  causal_chain: "乡佐求生 -> 万安自保 -> 安汉巴郡 -> 益州汉中 -> 荆州 -> 关中江东周公 -> 河北中原汉中王 -> 刘协退位 -> 新朝制度化。"
+
+narrative_threads:
+  - name: 基层生存线
+    description: 从三天口粮、喝开水、堆肥、分地、税率、户籍到基层识字，持续证明政治必须落到百姓能否活下去。
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-5, ARC-7]
+  - name: 军事后勤线
+    description: 甲率、骑兵、水军、道路、粮仓、海运、火炮、石油火罐和军校体系决定扩张边界。
+    primary_arcs: [ARC-2, ARC-3, ARC-4, ARC-5, ARC-6]
+  - name: 合法性线
+    description: 汉室宗亲身份、诏书、天子、九鼎、周公、汉中王、蔡琰归汉和刘协退位构成主角从地方豪强到新皇帝的解释框架。
+    primary_arcs: [ARC-3, ARC-5, ARC-6, ARC-7]
+  - name: 世家整合线
+    description: 益州、荆州、江东、河北、颍川的世家被分别用分地、保留前途、武力清洗、代理人和既得利益体系处理。
+    primary_arcs: [ARC-2, ARC-3, ARC-5, ARC-6, ARC-7]
+  - name: 技术产业线
+    description: 现代知识从农具仓储逐步走到钢铁、盐糖、玻璃、火药、海船、电报设想，但始终受材料和组织能力约束。
+    primary_arcs: [ARC-1, ARC-2, ARC-4, ARC-5, ARC-7]

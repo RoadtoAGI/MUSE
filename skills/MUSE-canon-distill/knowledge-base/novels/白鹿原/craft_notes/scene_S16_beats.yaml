@@ -1,0 +1,28 @@
+scene_id: S16
+source_notes: scene_S16_beats.md
+patterns:
+- pattern_id: S16-p1
+  beat: 白嘉轩重出
+  dimension: omission
+  original_move: 只写绷紧消失，不展开反思过程
+  ai_default_failure: 展开他的心路历程
+  transfer_rule: 人物转变可由外表松弛证明
+  quote: 不再绷紧
+- pattern_id: S16-p2
+  beat: 鹿子霖崩溃
+  dimension: camera
+  original_move: 从棉衣到手逐段扫描人格瓦解
+  ai_default_failure: 加入昔日精明的回忆对比
+  transfer_rule: 精神崩坏用当下身体物件写足
+  quote: 两只手完全变成乌鸦爪子
+- pattern_id: S16-p3
+  beat: 认罪
+  dimension: omission
+  original_move: 庄重忏悔撞上痴呆分享，不解释泪因
+  ai_default_failure: 写泪水包含太多百年恩怨
+  transfer_rule: 终局和解可用不同频道对白制造苍凉
+  quote: 给你吃，你吃吧，咱俩好
+overall_traits:
+- 用物质性写精神性
+- 对话不对称制造苍凉
+- 结尾用一个转身克制收束

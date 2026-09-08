@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b327a2e742308150e9cd51d4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2021
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 那件事越来越像自己的幻觉，像一场梦
+sensory_mapping: 梦醒；画面虚化；私人视野；时间褪色；现实触感减弱
+context_fact: 她离开红岸后无法再收外星回信，秘密发射、三体警告和悬崖谋杀都只有她掌握完整真相。
+image_mechanism: 宇宙级事件因无人验证被收回一人脑内，太阳、绿字和血色清晨像梦片逐年失焦；事实规模越大，日常平静反而越像醒后的现实。
+property_alignment: 秘密事件对应私人梦境；无共同见证对应无人能确认；多年无回信对应醒后无痕；记忆虚化对应梦画面褪色；自我怀疑对应分不清梦与现实
+context_alignment: 读者知道信号和三体回复真实存在，梦感来自证据隔绝而非事件虚构，形成悬念性的主观失真。
+narrative_function: 表现秘密重负如何被日常生活稀释，也为三体再次联系保留突然性。
+transfer_rule: 用梦写真实事件失真时，应有私密性、证据缺失、时间间隔和记忆可信度下降。
+failure_boundary: 事件有持续公开后果、多名证人反复确认或人物记忆始终清晰时，梦感无法成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁独自完成星际回复和谋杀后，因多年无外部证据而逐渐怀疑这些重大事件是否真实发生
+vehicle: 只存在于个人感知、醒后缺少公共证据并逐渐失真的幻觉或梦境
+ground: 事件无人共同见证对应梦只属做梦者；时间越久细节越不真实对应醒后梦境渐远

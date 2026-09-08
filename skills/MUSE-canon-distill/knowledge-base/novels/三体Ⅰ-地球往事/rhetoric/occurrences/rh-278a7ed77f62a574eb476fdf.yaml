@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-278a7ed77f62a574eb476fdf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1926
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 这双眼睛真的通向她的心灵
+sensory_mapping: 目光通道；入口开启；内外贯穿；神采黯淡；情感裸露
+context_fact: 大史谎称找到她母亲，女孩注意力被分散，随后给他抽枪射核弹的机会。
+image_mechanism: 一贯作为魅惑面具的眼睛忽然变成透明走廊，母亲二字打开尽头的心门；大史从目光变化直接看见并利用她的真实牵挂。
+property_alignment: 眼睛外露对应通道入口；心灵隐蔽对应通道深处；神采骤变对应门被打开；真实牵挂传出对应内物流向外；大史识破对应沿通道看入；注意分散对应内外防线贯通
+context_alignment: 女孩此前把危机当舞台表演，此刻眼睛首次脱离表演，通道意象准确区分假笑与真情。
+narrative_function: 揭示人物唯一软肋，并给大史制胜动作提供心理因果。
+transfer_rule: 用眼睛通心写情感暴露时，应建立此前遮蔽、具体触发、可见眼神变化和旁人据此采取的行动。
+failure_boundary: 眼神变化是生理疲劳、旁人误读且后续行为不受情感影响时，通向心灵会把猜测写成事实。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 核弹女孩听见母亲消息后，眼神由表演性神采转为直接泄露真实情感和软弱
+vehicle: 眼睛成为从外表进入内心的开放通道，旁观者可沿其直达隐蔽心灵
+ground: 眼神暴露情绪对应通道传递内部；平时表演遮蔽内心对应道路曾封闭；母亲话题打开弱点对应入口突然贯通

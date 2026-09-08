@@ -1,0 +1,21 @@
+card_id: revenge-with-taboo-clause
+pattern_name: 复仇附带禁令
+dramatic_function: 委托复仇时同步立一条不可越的禁线，此后每次逼近禁线自带张力，并守住复仇者的道德底色
+applicability: 适用于复仇或任务委托型故事；禁线对象须反复与主角同场受试；禁令若从不被逼近则形同虚设（单书孤证，验证面窄）
+reuse_candidates:
+- 鬼魂显灵的超自然委托形式
+- 「把她留给天堂裁判」的神学措辞
+tags:
+- 复仇
+- 禁令
+- 道德边界
+source_scenes:
+- novel: 哈姆雷特
+  scene_id: A1S5
+  note: 鬼魂委托复仇同时严令勿害其母
+- novel: 哈姆雷特
+  scene_id: A3S4
+  note: 寝室对质逼近禁线时鬼魂再现勒缰
+phase_affinity:
+- 2
+- 3

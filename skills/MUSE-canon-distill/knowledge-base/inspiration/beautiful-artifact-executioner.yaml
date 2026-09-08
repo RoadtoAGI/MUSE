@@ -1,0 +1,22 @@
+card_id: beautiful-artifact-executioner
+pattern_name: 唯美造物即屠刀
+dramatic_function: 把认知失败做成灾难前奏：敌方造物以极致美学呈现，全社会误读为善意，唯一直觉者失语，毁灭来临时震撼加倍
+applicability: 适合文明或技术代差极大的对抗；需铺足审美细节并压制分析话语，若提前给出技术解读则反转尽失（单书孤证，验证面窄）
+reuse_candidates:
+- 水滴外形与强互作用力设定
+- 舰队矩形检阅阵型
+- 丁仪角色履历
+tags:
+- 认知反转
+- 灾难前奏
+- 审美麻痹
+source_scenes:
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S19
+  note: 「像艺术品所以感觉不好」：审美判断替代技术判断
+- novel: 三体Ⅱ-黑暗森林
+  scene_id: S10
+  note: 唯美铺陈后无过渡直切屠戮，落差即恐怖
+phase_affinity:
+- 3
+- 5

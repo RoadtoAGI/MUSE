@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-138ac5fd898f6d19abd667ce
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L964
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 你们研究的东西越是没有实际用处，越是天马行空不着边际，像杨冬那号的，它就越怕
+sensory_mapping: 视觉；飞行；空间开放；速度；地面距离；思想
+context_fact: 大史推断敌人最害怕杨冬式基础科学，因此优先扰乱这类科学家。
+image_mechanism: 研究从实验室升空，长出一匹不受道路牵引的马；“不着边际”同时撤掉地面接触和天空边界，使探索范围开放，也保留旁观者认为不实用的距离感。
+property_alignment: 研究不受实用任务约束对应马离开地面道路；理论探索方向开放对应天马可任意转向；问题触及远端边界对应天空无明显边际；成果暂不落地对应马蹄不接触地面
+context_alignment: 同一熟语早先由汪淼描述纯理论，此处进入大史粗粝口吻，并被敌人的恐惧反向证明有战略价值，语境功能发生改变。
+narrative_function: 重估“无用”基础研究的价值，并把敌方行动目标聚焦到科学思想。
+transfer_rule: 复用飞马熟语时，应由新说话者或新因果关系改变其评价方向，同时具体说明摆脱哪些道路、为何开放空间有价值。
+failure_boundary: 基础研究仍受数学、证据和可检验性约束；天马行空不能替无根据臆想背书，也不能证明所有暂时无用研究都重要。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 不受即时应用目标限制、探索自然最基础边界的理论研究
+vehicle: 天马脱离地面道路在无边天空自由驰骋，既不落地也看不见疆界
+ground: 研究不受实用任务约束对应马离开地面道路；理论探索方向开放对应天马可任意转向；问题触及远端边界对应天空无明显边际；成果暂不落地对应马蹄不接触地面

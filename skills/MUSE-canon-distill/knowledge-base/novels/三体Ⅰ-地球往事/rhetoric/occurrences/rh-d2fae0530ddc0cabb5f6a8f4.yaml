@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d2fae0530ddc0cabb5f6a8f4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2311
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 你真是个魔鬼
+sensory_mapping: 非人面孔；地狱刑具；寒意；道德边界；恐惧注视
+context_fact: 女官员在大史解释为何白天切船更有效后直接评价他，汪淼稍后重复这一称呼。
+image_mechanism: 大史的市井警察外形被一句话剥去，露出能把人当几何截面计算的魔鬼面孔；标签承担旁人无法承受的残酷。
+property_alignment: 古筝邪招对应魔鬼刑具；按坐卧计算对应冷酷无情；全船死亡对应地狱规模；女官员震惊对应见魔判断；大史神态平常对应非人反差；汪淼后续复述对应标签成立
+context_alignment: 这里是魔鬼框架首现，L2342汪淼引用属于复指，已从 explicit 纳入改为排除。
+narrative_function: 给方案的伦理越界命名，同时把大史塑成令人畏惧却必要的执行者。
+transfer_rule: 用魔鬼称人时，应依托具体越界行为、他人的恐惧、非人化判断及角色是否仍保留复杂人性。
+failure_boundary: 人物只说冒犯笑话、没有造成严重伤害的能力，或评价来自纯私人仇恨时，魔鬼会扁平化而不解释行为。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 史强能冷静设计按人体姿势优化、将整船人无声切碎的极端方案
+vehicle: 以残酷刑罚为能力、跨越人类同情边界且令人恐惧的魔鬼
+ground: 方案残忍对应魔鬼酷刑；冷静计算死亡对应非人冷硬；旁观者恐惧排斥对应见魔反应

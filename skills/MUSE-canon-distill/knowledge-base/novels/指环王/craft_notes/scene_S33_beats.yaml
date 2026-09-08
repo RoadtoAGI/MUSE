@@ -1,0 +1,28 @@
+scene_id: S33
+source_notes: scene_S33_beats.md
+patterns:
+- pattern_id: S33-p1
+  beat: 甘道夫的推理链
+  dimension: info_density
+  original_move: 先完整摆出合理却必败的方案，再以一句话翻转讨论框架
+  ai_default_failure: 策略讨论流于「我们需要一个计划」式抽象
+  transfer_rule: 战略戏先立绝望逻辑再翻转，推理连贯不插反应镜头
+  quote: 胜利不能靠武力取得
+- pattern_id: S33-p2
+  beat: 「以自己作饵」
+  dimension: omission
+  original_move: 代入敌人视角替他说话，整个计划压成「作饵」一个图像
+  ai_default_failure: 堆行军路线、阵型、后勤等战术细节
+  transfer_rule: 冒险计划的可信度来自敌方心理判断与直说最坏结果
+  quote: 我们必须以自己作饵
+- pattern_id: S33-p3
+  beat: 伊姆拉希尔的笑声
+  dimension: info_density
+  original_move: 以大笑接住疯狂计划，蚊虻之喻把弱小翻成诱饵优势
+  ai_default_failure: 让众人逐一长篇论证是否同意，削弱决断感
+  transfer_rule: 疯狂决策后用黑色幽默与一句表态收束，忠诚代替分析
+  quote: 这是刚铎有史以来最大的玩笑
+overall_traits:
+- 策略讨论即戏剧，每句都推进论证链
+- 心理洞察优于战术细节
+- 具体数字锚定送死赌博的现实感

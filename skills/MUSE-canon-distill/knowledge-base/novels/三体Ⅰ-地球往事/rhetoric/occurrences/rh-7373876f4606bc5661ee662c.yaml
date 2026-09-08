@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7373876f4606bc5661ee662c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2412
+chapter: 第33章 监听员
+figure_type: analogy
+quote: 三体文明也是一个处于生存危机中的群体，它对生存空间的占有欲与我当时对食物的欲望一样强烈而无止境
+sensory_mapping: 饥饿绞痛；食物堆积；抢夺动作；生存恐慌；空间吞占
+context_fact: 和平主义监听员以自己的断粮经历向元首解释三体舰队为何必然毁灭而非共享地球文明。
+image_mechanism: 文明被缩成一具饿过头的身体，星系成为供给车上的食物；恒星灾难留下的集体饥饿记忆让每颗可居行星都触发囤积和杀戮冲动。
+property_alignment: 三体灾变风险对应监听员断粮；可居星系对应车上食物；占领太阳系对应占有全部食品；毁灭地球人对应仇恨并想杀进食者；欲望无止境对应康复后仍记得强迫占有；无法共享对应拒绝他人分食
+context_alignment: 说话者不是以抽象邪恶指控母文明，而用亲历创伤推导群体机制，使侵略动机既可理解又不可调和。
+narrative_function: 以个体饥饿模型揭示三体扩张的生存心理，并预判和平共处失败。
+transfer_rule: 用饥饿类比资源扩张时，应对应危机来源、稀缺对象、占有失控、排他行为和危机后持续效应。
+failure_boundary: 文明资源充裕、扩张由荣誉或意识形态驱动，或存在可信共享制度时，饥饿创伤不足以解释侵略。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体文明在恒星灾变威胁下对太阳系生存空间产生排他、无上限并会驱使灭绝战争的占有欲
+vehicle: 监听员濒临饿死后无法满足地囤积食物、仇视进食者甚至产生杀意的病态饥饿
+ground: 文明生存危机对应个体濒饿；行星空间对应食物资源；排他占领对应囤积全部食品；危机解除后欲望仍持续对应创伤性无止境占有

@@ -1,0 +1,53 @@
+analysis_meta:
+  novel: "云天明的童话"
+  source_text: "source_manifest.yaml 所列三个连续童话"
+  source_form: "嵌套中篇 / 三联童话 / 科幻隐写文本"
+  evidence_note: "内部证据锚定三篇童话场景行号；科技含义另以母作品IDC解码及二向箔回收场景验证。"
+
+premise: "如果一个与外界隔绝、以无故事为幸福的王国发生宫廷篡位，一位被魔画追杀的公主能否借旧知识、边缘人物和失传器物逃出封闭秩序？"
+
+core_value:
+  positive: "流动、选择与有故事的人生"
+  negative: "封闭、遗忘与无故事的静止"
+  spectrum:
+    contradictory: "以稳定维持的贫乏生活"
+    contrary: "对变化、远方和风险失去欲望"
+    negation_of_negation: "以安全和幸福为名主动封闭世界"
+
+controlling_idea:
+  value: "自由选择"
+  cause: "露珠公主在危机中学习外部世界，长帆把旧物知识转成行动，两人最终选择航向未知。"
+  full_statement: "人因理解世界、重组旧知识并承担远行风险而获得有故事的人生；共同体若把唯一通道交给少数离去者，仍会回到安全而停滞的封闭。"
+  type: "ironic"
+
+genre:
+  primary: "童话冒险"
+  secondary: "宫廷政变 / 浪漫成长 / 科幻密码"
+  conventions:
+    - setting: "孤立王国、远方异域、魔法器物"
+    - characters: "善良公主、暴虐王子、忠诚卫士、危险画师、失落王子"
+    - events: "篡位、逃亡、渡海、复位、远航"
+    - values: "善恶、忠诚、自由、成长"
+
+originality_statement:
+  unique_angle: "三篇首先构成规则严密的连续童话；道具性质、人物命名和场面动作同时承担三体科技情报的多坐标编码。"
+  cliches_to_avoid:
+    - "把隐喻写成逐项可猜的谜语，削弱表层故事"
+    - "在解决问题时临时引入新魔法"
+    - "让公主复位登基成为唯一圆满结局"
+
+style_directives:
+  - "全知说书体与程式化童话句式"
+  - "优雅、明亮的语言包裹冷酷死亡"
+  - "以重复、操作规则和物性细节承载悬念"
+  - "自然奇观兼作科技意象"
+  - "解释停在现象层，让机制留在故事外"
+
+word_count: 22239
+
+ending_backtrace:
+  final_action: "露珠公主放弃王位，与长帆带着最后的香皂扬帆远去。"
+  public_outcome: "无故事王国失去突破饕餮海的工具，再次永久封闭。"
+  private_outcome: "两位主角进入持续发生故事的开放世界。"
+  evidence:
+    - "sources/03_深水王子.md:L124-L135"

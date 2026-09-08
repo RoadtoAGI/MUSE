@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-64ad821ec369e4e907057763
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1634
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 对牛顿或其他的人来说是一道不可逾越的鸿沟
+sensory_mapping: 视觉深度；空间断裂；跨越动作；坠落危险
+context_fact: 牛顿模型只差很小的引力摄动，但误差在混沌系统中被放大，最终使所有预测致命失准。
+image_mechanism: 数值上很窄的差异被混沌放大成深谷，理论路线在谷边突然中断；“一点点”与“鸿沟”的尺度冲突正显示误差后果。
+property_alignment: 理论路线对应行路；缺少摄动修正对应道路断口；误差被无限放大对应小裂缝张成鸿沟；牛顿无法补足对应行者不能跨越；广义相对论对应跨沟所需桥梁
+context_alignment: 三体问题的核心正是微扰放大，鸿沟把“差得少却错得彻底”的悖论准确变成空间尺度。
+narrative_function: 说明经典模型失败不是算力问题，而是关键理论差距。
+transfer_rule: 用鸿沟写知识差距时，应明确两岸各是什么、差距为何阻断进展及需要何种桥梁。
+failure_boundary: 差距可通过普通增量训练跨过、并未阻断结果，或两者不在同一进路上时，鸿沟会夸大不可达性。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 经典力学模型与正确预测之间那一点引力摄动修正，对牛顿等人构成无法克服的理论差距
+vehicle: 横在路前、宽深到无法跨越的巨大沟壑
+ground: 微小理论缺口阻断正确结果对应沟壑切断道路；缺少广义相对论无法前进对应行者到沟边无路可过

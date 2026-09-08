@@ -1,0 +1,5 @@
+# 卷收束时生成
+schema_version: 1
+volume_id: null
+one_liner: null                # 本卷核心进展与结果
+paragraph: null                # 保留跨卷承接所需的关系、事实和未决问题

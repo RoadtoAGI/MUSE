@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-63c9ae689bb5184f2f91faae
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L538
+chapter: 第5章 叶文洁
+figure_type: analogy
+quote: 那神情就像她看到一朵漂亮的野花一样
+sensory_mapping: 视觉；表情；审美
+context_fact: 叶文洁说明杨冬从小把抽象公式感成可见美物。
+image_mechanism: 公式从黑板符号转入野外视野，抽象结构被赋予花的色形；真正比较的落点则是孩子脸上无需解释的欣喜。
+property_alignment: 公式结构引发美感对应野花形色引发美感；反应无功利目的对应见花的直接欣喜；神情可见对应同一种审美表情
+context_alignment: 野花是儿童熟悉审美对象，突出杨冬异常地把公式等同可见美。
+narrative_function: 展示人物独特认知方式。
+transfer_rule: 跨域审美类比要保留相同的主体反应，并分别说明两类对象各自通过什么结构触发它。
+failure_boundary: 若人物只是理解公式、赞叹实用或机械背诵，没有见花式直接美感，类比会把智力反应美化成审美。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 幼年杨冬见优美公式时的审美惊喜
+vehicle: 孩子看到漂亮野花时直接明亮的喜爱
+ground: 公式结构引发美感对应野花形色引发美感；反应无功利目的对应见花的直接欣喜；神情可见对应同一种审美表情

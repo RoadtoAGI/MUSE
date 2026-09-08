@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-acb38183b1a3bc366130a267
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1153
+chapter: 第14章 红岸之三
+figure_type: metaphor
+quote: 一些同志现在是一叶障目，有大环境的原因，也有很多人是自以为是。这样不好，战略视野的盲区是危险的
+sensory_mapping: 视觉；遮挡；远近透视；视域缺口
+context_fact: 当时战略重点集中在渐进技术和冷战现实，对基础理论突变及SETI影响考虑极少。
+image_mechanism: 庞大未来景观本可被看见，却因一片贴眼近物完全遮住；被忽略领域再被画成视野地图上的空白块，风险便能从盲区接近。
+property_alignment: 眼前政治环境对应贴近眼睛的叶片；长期风险对应被遮住的远景；决策遗漏对应视觉盲区；威胁无法预警对应危险从看不见处进入
+context_alignment: 同一批示连续使用目光、长远思考、视野，形成完整观察框架，适合战略规划需要提前看见远方。
+narrative_function: 把红岸工程定义为填补战略盲区的行动，赋予其高层正当性。
+transfer_rule: 用视野写决策局限时，应指明近处遮挡物、被遮住的远期对象和盲区带来的具体预警失败。
+failure_boundary: 信息本就不可获得、遗漏与注意偏向无关，或所谓远景只是事后臆测时，遮叶会把认知边界误写成主观短视。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 决策者因眼前政治环境和自负忽略外星探索等长期战略风险
+vehicle: 眼前被一片叶遮住，视野因此留下一块看不见的区域
+ground: 局部现实占满注意对应近处小叶遮挡远景；遗漏关键领域对应视觉系统存在盲区

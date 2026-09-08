@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c0f5712d51de9f819e978682
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1478
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: analogy
+quote: 这三个人组成了一个计算系统的部件，是门部件的一种，叫‘与门’
+sensory_mapping: 黑白颜色；三角阵列；旗帜升降；回路空间；信号流动
+context_fact: 冯·诺伊曼只训练文盲士兵执行简单真值表，再把一千万个门部件组合为解微分方程的人列计算机。
+image_mechanism: 电子开关被放大成人体尺度：电位差变成黑白旗，导线变成目光与传令路线，瞬时门控变成士兵举臂；看似神秘的计算机因而能在大地上逐件搭出。
+property_alignment: 两名输入兵对应两个输入端；输出兵对应输出端；旗色0/1对应低高电平；固定举旗规则对应布尔真值表；门组互联对应回路；千万组协作对应整机计算
+context_alignment: 秦代军队的绝对服从和巨大人数恰好提供低自主、可复制的计算单元，历史错位因此成为严密的机制类比。
+narrative_function: 把数字计算原理演成可观看的队列戏剧，同时展示简单规则如何涌现出复杂运算。
+transfer_rule: 构造人机类比时，应逐项落实信号编码、局部规则、输入输出、连接拓扑和全局任务，且让人的反应速度与误差成为模型限制。
+failure_boundary: 参与者会自行解释命令、旗语延迟和错误无法控制，或系统需要连续精密数值而非离散规则时，人列与门无法保持电路等价。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三名按黑白旗输入规则协同行动的士兵，以及由千万组士兵扩展成的并行计算系统
+vehicle: 接收二进制输入、执行固定布尔规则并输出信号的逻辑门和由逻辑门组装的计算机
+ground: 士兵观察旗色并举旗对应门电路读取输入并输出电平；众多三人组按线路协作对应逻辑门连接成处理器和存储器

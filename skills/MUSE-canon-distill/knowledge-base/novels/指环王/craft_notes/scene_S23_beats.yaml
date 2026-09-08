@@ -1,0 +1,28 @@
+scene_id: S23
+source_notes: scene_S23_beats.md
+patterns:
+- pattern_id: S23-p1
+  beat: 弗罗多的告别
+  dimension: omission
+  original_move: 告别语平静说理，全用完成态动词为一生画句号，不写悲伤
+  ai_default_failure: 让弗罗多流泪或声音颤抖
+  transfer_rule: 超越悲伤的告别用交代后事的平静语，泪一字不写
+  quote: 你必须一心一意，做个完整的人
+- pattern_id: S23-p2
+  beat: 白船离去
+  dimension: camera
+  original_move: 同一事件双镜头：弗罗多见白滩青野，山姆只见一个影子
+  ai_default_failure: 补写回望与最后表情，用单一视角收束离别
+  transfer_rule: 离别收束可双视角同时为真：去者见光，留者见暗
+  quote: 他只看见水上有个影子
+- pattern_id: S23-p3
+  beat: 山姆回家
+  dimension: info_density
+  original_move: 海港直切家门，全用日常动词，三字收束全书
+  ai_default_failure: 写回程中山姆的伤感回忆
+  transfer_rule: 史诗落幕降到椅子炉火与一句家常话，零修辞承重
+  quote: 啊，我回来了
+overall_traits:
+- 从史诗到日常的精确降落
+- 双视角对称收束，光与暗同时为真
+- 末句零修辞却承载全书重量

@@ -1,0 +1,24 @@
+mode: reference
+display_name: 张潇潇
+role_slug: zhang-xiao-xiao
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # antagonistic_forces.interpersonal.layer_2 + arc_5_assassinate_cai_yu
+  - pipeline/phase0_conception.yaml  # controlling_idea.candidate_c（他者言语比刀危险）
+  - scenes/scene_EE-S04.md
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S08.md
+  - scenes/scene_EE-S11.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S04 自来熟+阴阳挤兑 / S05 煽动投票+被问就缩 / S08 耳边编织蛊惑叙事），稳定性充分。
+  弧光起点（被无视的边缘人）+ 转折（S08 从抱怨者变蛊惑者）两段齐全；终点为内在恶意被吴先生定性（S11）。
+  性格真相有压力情境直接佐证（S05 被点破从不殿后即翻脸骂街 + S11 吴先生定性"无意识纯粹恶意"）。
+  核心欲望跨 S08（蛊惑叙事）+ S11（恶意本质定性）两场，非单点。
+  原作"恨蔡宇只因第一次见面没理我"（原文 line 325）落在未切片的场景间隙，未作 locator；其在场证据由 S04:L19（初见被蔡宇无视即阴阳报复）on-page 承载。
+  zhang-xiao-xiao 在 phase0 登记为跨篇 slug，但本篇是其实质性出场；本目录按《恶》子目录 + per-part map 隔离独立蒸馏。

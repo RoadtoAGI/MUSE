@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-be6f9ebe28c6c55bea6c9a1f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2566
+chapter: 第34章 智子
+figure_type: simile
+quote: 就像有人用晃动的手电照着洞窟的顶
+sensory_mapping: 黑暗穹顶；圆形光斑；手电摆动；从下向上照射；洞穴包围感
+context_fact: 三体行星正被二维质子球面包围，地面发出的电磁束调节其引力弯曲。
+image_mechanism: 整个行星内部缩成洞窟，弯曲质子面成为头顶石壁，工程电磁束则像工人手中的手电在顶上寻找支点；宏大包裹过程获得室内方位感。
+property_alignment: 质子弧面对应洞顶曲面；暗夜对应洞窟黑暗；地面辐射源对应持灯者位置；光晕对应手电光斑；光斑晃动对应动态调节；球面包围对应洞穴封闭
+context_alignment: 三体人即将被自己制造的质子壳完全罩住，洞窟比照准确传达由开放星空转为封闭内部的空间变化。
+narrative_function: 给远距离电磁调节提供日常可视参照，并强化球壳正在闭合的包围感。
+transfer_rule: 以洞顶手电写穹顶光斑时，应匹配上下方位、弧面承载、局部光晕移动、暗环境和操作者调节动作。
+failure_boundary: 光源固定不动、从外部向下照射或承载面平坦开放时，洞窟顶的方位模型会错误。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 地面多束电磁辐射在弯曲质子平面上形成的移动光晕
+vehicle: 黑暗洞窟中有人摇晃手电，光斑沿弧形洞顶游移不定
+ground: 质子曲面对应洞窟顶；地面向上发射对应人在下方照顶；光晕移动对应手电摇晃

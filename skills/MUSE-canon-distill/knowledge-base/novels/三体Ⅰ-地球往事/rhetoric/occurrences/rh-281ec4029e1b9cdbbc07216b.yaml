@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-281ec4029e1b9cdbbc07216b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2565
+chapter: 第34章 智子
+figure_type: simile
+quote: 群星的图像被拉长扭曲，像融化后流动一般
+sensory_mapping: 星光长痕；液体流动；边缘软化；地平线环绕；渐进扭曲
+context_fact: 质子平面已覆盖天空，工程方开始利用引力将其从平面弯成包裹行星的球壳。
+image_mechanism: 坚固天象被处理成印在软质薄膜上的可熔图案，引力像热源从四周加温，星点先拉丝再流走；平面弯曲于是通过影像的相变被看见。
+property_alignment: 点状恒星对应固态图案；星点拉长对应熔体拖丝；图像扭曲对应流体变形；周边先变对应融化前沿；持续向上发展对应液流蔓延；二维面可弯对应软化薄膜
+context_alignment: 此前三维几何体也曾如受热融化，此处相同相变词作用于星图，形成维度实验中规则形态失稳的视觉母题。
+narrative_function: 把不可直接看见的平面曲率变化转译为星图流动，并显示包裹进度。
+transfer_rule: 用融化流动写图像畸变时，应有轮廓软化、拉长方向、连续位移、渐进前沿和承载面正在变形的原因。
+failure_boundary: 星点仅闪烁、整体刚性旋转或因镜头抖动短暂拖影时，融化的持续形变机制不对。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 二维质子平面受行星引力弯折时，原本固定的星点影像沿地平线被拉成长条并连续变形
+vehicle: 固态图案受热熔化成黏稠液体，轮廓被流动拖长并向一处滑移
+ground: 星点轮廓失稳对应固体融化；图像拉长对应液体流淌；变形从周边推进对应热融前沿扩展

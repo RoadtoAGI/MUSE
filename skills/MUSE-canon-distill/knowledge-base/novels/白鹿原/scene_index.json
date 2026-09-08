@@ -1,0 +1,772 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "家族谋算",
+      "风水",
+      "白鹿意象",
+      "原罪"
+    ],
+    "characters": [
+      "白嘉轩",
+      "朱先生"
+    ],
+    "conflict_type": "internal",
+    "pov": "白嘉轩",
+    "word_count": 2990,
+    "source_chapter": "第2章",
+    "file": "scenes/scene_S01.md",
+    "description": "白嘉轩雪地偶见白鹿精灵，与朱先生商量后决心以欺骗换取鹿家风水地",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴近白嘉轩，行动中夹因果直评",
+      "diction": "关中口语混文言判断，物象词扎实",
+      "rhetoric_density": "high",
+      "dialogue_mode": "叙述推进为主，对话用于谋划落槌",
+      "pacing": "雪地细描放慢，换地决断骤然收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "和解",
+      "仁义",
+      "族长权威",
+      "朱先生智慧"
+    ],
+    "characters": [
+      "白嘉轩",
+      "鹿子霖",
+      "朱先生",
+      "冷先生"
+    ],
+    "conflict_type": "personal",
+    "pov": "白嘉轩",
+    "word_count": 2706,
+    "source_chapter": "第5章",
+    "file": "scenes/scene_S02.md",
+    "description": "白鹿两家因卖地打架，朱先生写同诗给双方设局和解，县令赐碑「仁义白鹿村」",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知说书统摄村社，常点明公议",
+      "diction": "礼义文词嵌乡土口语，账目词具体",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长段议论对白树立人物声望",
+      "pacing": "工程铺陈宽缓，碑与学堂形成台阶"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "劝退",
+      "孤胆",
+      "知识分子",
+      "辛亥革命"
+    ],
+    "characters": [
+      "朱先生",
+      "方升"
+    ],
+    "conflict_type": "external",
+    "pov": "朱先生",
+    "word_count": 3843,
+    "source_chapter": "第6章",
+    "file": "scenes/scene_S03.md",
+    "description": "朱先生孤身入清军大营，以私交和大势劝退方升二十万清军",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知敬述朱先生，夹幽默反讽官场",
+      "diction": "儒雅文气压住军政俗语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "问答交锋密集，以短句显胆识",
+      "pacing": "晨诵慢开，入营后步步加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "父女决裂",
+      "女性反叛",
+      "出逃",
+      "革命"
+    ],
+    "characters": [
+      "白灵",
+      "白嘉轩"
+    ],
+    "conflict_type": "personal",
+    "pov": "白灵",
+    "word_count": 1114,
+    "source_chapter": "第13章",
+    "file": "scenes/scene_S04.md",
+    "description": "白灵被锁禁后凿墙出逃，白嘉轩宣布「从今往后全当她死了「",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴近父女冲突，结尾后跳追述",
+      "diction": "革命口号撞家常土语，硬词多",
+      "rhetoric_density": "low",
+      "dialogue_mode": "隔门喊话推进，句句顶撞",
+      "pacing": "禁闭压缩时间，出逃后多年一笔带过"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "清党",
+      "酷刑",
+      "殉道",
+      "跪保",
+      "政治暴力"
+    ],
+    "characters": [
+      "田福贤",
+      "贺老大",
+      "白嘉轩",
+      "鹿子霖"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 4459,
+    "source_chapter": "第14章",
+    "file": "scenes/scene_S05.md",
+    "description": "田福贤回原清党「耍猴「蹾杀农协骨干，贺老大咬断舌头殉道，白嘉轩跪保族人",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知冷看公审，细数暴力仪式",
+      "diction": "政治词与粗鄙咒骂并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "台上宣讲和逼供主导场面",
+      "pacing": "群众场面缓铺，酷刑节点强停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "父子冲突",
+      "祠堂惩罚",
+      "羞辱",
+      "分家"
+    ],
+    "characters": [
+      "白嘉轩",
+      "白孝文",
+      "田小娥"
+    ],
+    "conflict_type": "personal",
+    "pov": "白嘉轩",
+    "word_count": 4610,
+    "source_chapter": "第17章",
+    "file": "scenes/scene_S06.md",
+    "description": "白嘉轩雪夜撞破孝文与小娥私通，祠堂刺刷惩罚后强令分家",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知压近家法现场，少解释多呈现",
+      "diction": "祠堂家法词混羞辱性土话",
+      "rhetoric_density": "low",
+      "dialogue_mode": "怒斥短句和沉默动作交替",
+      "pacing": "夜撞急促，惩罚段落重锤式推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "民间信仰",
+      "发马角",
+      "求雨",
+      "族长权威重建"
+    ],
+    "characters": [
+      "白嘉轩"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 2705,
+    "source_chapter": "第18章",
+    "file": "scenes/scene_S07.md",
+    "description": "大旱中白嘉轩「发马角「穿钢钎求雨，驼背族长在极端仪式中重获精神权威",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知民俗叙述，神秘与现实并放",
+      "diction": "仪式术语密集，关中俗称不解释",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀少，仪式动作替代言说",
+      "pacing": "准备层层蓄势，穿钎瞬间拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "弑杀",
+      "传统道德",
+      "父子断绝",
+      "精神崩溃"
+    ],
+    "characters": [
+      "鹿三",
+      "田小娥",
+      "黑娃",
+      "白嘉轩"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 4692,
+    "source_chapter": "第19-20章",
+    "file": "scenes/scene_S08.md",
+    "description": "鹿三以梭镖刺杀田小娥，黑娃追查真凶后与父断绝关系",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知冷述弑杀，贴近鹿三心理裂缝",
+      "diction": "血肉细节与伦理判断词相缠",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白少而硬，断绝关系作结",
+      "pacing": "刺杀骤快，追凶和父子决裂放慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "瘟疫",
+      "鬼魂",
+      "死亡",
+      "贤妻"
+    ],
+    "characters": [
+      "白嘉轩",
+      "吴仙草",
+      "鹿三"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 4179,
+    "source_chapter": "第25章",
+    "file": "scenes/scene_S09.md",
+    "description": "田小娥鬼魂借鹿三之口作祟，瘟疫中仙草自知必死镇静裁制寿衣后病逝",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知兼容鬼祟与病灾，不判真伪",
+      "diction": "阴魂病疫词贴近日用物件",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "附体话语突出，家常对白压低",
+      "pacing": "瘟疫漫延缓慢，寿衣裁制静态收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "肃反",
+      "活埋",
+      "白鹿意象",
+      "革命悲剧"
+    ],
+    "characters": [
+      "白灵",
+      "朱先生",
+      "白嘉轩"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 4550,
+    "source_chapter": "第28章",
+    "file": "scenes/scene_S10.md",
+    "description": "白灵在根据地肃反中被活埋，朱先生与白嘉轩同夜梦见白鹿哭泣",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知跨地叙述，以梦象回望死亡",
+      "diction": "革命组织词连着白鹿神话词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白让位于处置命令和梦境",
+      "pacing": "肃反叙述克制，梦见白鹿忽然放大"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "偷情",
+      "私奔",
+      "欲望",
+      "底层反抗"
+    ],
+    "characters": [
+      "黑娃",
+      "田小娥",
+      "郭举人"
+    ],
+    "conflict_type": "personal",
+    "pov": "黑娃",
+    "word_count": 4830,
+    "source_chapter": "第9章",
+    "file": "scenes/scene_S11.md",
+    "description": "黑娃在郭举人家偷情田小娥，被逐后辗转求娶，抱头痛哭出村私奔",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴近黑娃欲望和窘迫",
+      "diction": "粗口、农活词和身体词直接",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "私语和哭诉推动私奔决定",
+      "pacing": "偷情紧促，求娶受阻后情绪外泄"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "浪子回头",
+      "拜师",
+      "祭祖",
+      "父子和解",
+      "辞世"
+    ],
+    "characters": [
+      "黑娃",
+      "朱先生",
+      "白嘉轩",
+      "鹿三"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 3623,
+    "source_chapter": "第30章",
+    "file": "scenes/scene_S12.md",
+    "description": "黑娃拜朱先生为师得「学为好人「，回原祭祖白嘉轩亲迎，鹿三当夜安然辞世",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知带仪式感，写黑娃归正归宗",
+      "diction": "修身文词和乡族称谓并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "拜师誓言少而郑重",
+      "pacing": "拜师缓慢，归原祭祖与辞世连缀"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "辞世",
+      "剃头",
+      "白鹿",
+      "预言",
+      "墓砖"
+    ],
+    "characters": [
+      "朱先生",
+      "朱白氏",
+      "黑娃"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 4386,
+    "source_chapter": "第32章",
+    "file": "scenes/scene_S13.md",
+    "description": "朱先生完成县志后安然辞世——剃头找黑发、坐化藤椅、雪野移灵、墓砖「折腾到何日为止「",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知庄重叙终老，兼留预言余味",
+      "diction": "丧仪、书斋、雪野词清冷",
+      "rhetoric_density": "high",
+      "dialogue_mode": "临终对白简短，遗言像谶语",
+      "pacing": "剃头坐化逐格慢写，移灵开阔"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "起义",
+      "背叛",
+      "枪杀",
+      "投机"
+    ],
+    "characters": [
+      "鹿兆鹏",
+      "黑娃",
+      "白孝文",
+      "张团长",
+      "岳维山"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 4024,
+    "source_chapter": "第34章",
+    "file": "scenes/scene_S14.md",
+    "description": "1949年起义前夜，白孝文枪杀已愿解甲的张团长，独占首功架空黑娃",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知冷写权力置换，少情绪介入",
+      "diction": "军事政务词与阴狠动作词并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "密谈和命令式对白推动背叛",
+      "pacing": "起义局势快切，枪杀后权势定型"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "处决",
+      "冤杀",
+      "失明",
+      "高潮"
+    ],
+    "characters": [
+      "黑娃",
+      "白孝文",
+      "白嘉轩",
+      "鹿子霖"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 2366,
+    "source_chapter": "第34章",
+    "file": "scenes/scene_S15.md",
+    "description": "处决大会上黑娃被冤杀，白嘉轩闻枪声昏厥失去左眼，鹿子霖当场失禁精神崩溃",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知俯瞰处决场，聚焦身体崩塌",
+      "diction": "法场词、枪声词、失禁失明词粗粝",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "公审话语压倒私人申诉",
+      "pacing": "宣判蓄压，枪声后连发身体反应"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "认罪",
+      "忏悔",
+      "痴呆",
+      "结局",
+      "苍凉"
+    ],
+    "characters": [
+      "白嘉轩",
+      "鹿子霖"
+    ],
+    "conflict_type": "internal",
+    "pov": "白嘉轩",
+    "word_count": 1669,
+    "source_chapter": "第34章",
+    "file": "scenes/scene_S16.md",
+    "description": "白嘉轩独眼面对痴呆的鹿子霖，坦白换地原罪「我对不住你「，鹿子霖冻死柴房",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知苍凉收尾，贴近白嘉轩忏悔",
+      "diction": "忏悔白话配冻死柴房细节",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "独白式坦白，对方痴呆不接话",
+      "pacing": "对坐缓慢，死亡以冷静旁白落下"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "权谋",
+      "报复",
+      "占有",
+      "操控"
+    ],
+    "characters": [
+      "鹿子霖",
+      "田小娥"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 3291,
+    "source_chapter": "第15章",
+    "file": "scenes/scene_S17.md",
+    "description": "鹿子霖趁小娥求助之机占有她，事后授意「把白孝文的裤子抹下来「实施对白家报复",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知贴近鹿子霖算计，语气冷硬",
+      "diction": "欲望词、报复词和市侩口语交杂",
+      "rhetoric_density": "low",
+      "dialogue_mode": "诱导式对白操控对方行动",
+      "pacing": "求助开场缓，授计报复骤然收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "拒绝",
+      "知识分子风骨",
+      "幽默反制"
+    ],
+    "characters": [
+      "朱先生",
+      "白孝文",
+      "岳维山"
+    ],
+    "conflict_type": "personal",
+    "pov": "朱先生",
+    "word_count": 2865,
+    "source_chapter": "第32章",
+    "file": "scenes/scene_S18.md",
+    "description": "朱先生以游戏口吻应对岳维山五百大洋买反共声明，最终说「你把我绑给岳维山「",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知含笑写拒绝，风骨藏在玩笑里",
+      "diction": "官场交易词被游戏口吻拆解",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "机锋对白密集，反问和转折多",
+      "pacing": "报价层层加码，拒绝轻轻落槌"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "冤案",
+      "法庭",
+      "申辩",
+      "探监",
+      "最后对视"
+    ],
+    "characters": [
+      "黑娃",
+      "高玉凤",
+      "白嘉轩",
+      "白孝文"
+    ],
+    "conflict_type": "external",
+    "pov": "黑娃",
+    "word_count": 3154,
+    "source_chapter": "第34章",
+    "file": "scenes/scene_S19.md",
+    "description": "黑娃被以三条罪名审判，法庭申辩无效，妻儿探监后被处死刑",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知冷述冤案程序，贴近临刑亲情",
+      "diction": "法庭套语与探监家常话对照",
+      "rhetoric_density": "low",
+      "dialogue_mode": "申辩被制度话语截断",
+      "pacing": "审判条列化，探监段放慢留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "投笔从戎",
+      "理想幻灭",
+      "内战真相",
+      "知识分子"
+    ],
+    "characters": [
+      "朱先生",
+      "鹿兆海",
+      "茹师长",
+      "朱白氏"
+    ],
+    "conflict_type": "internal",
+    "pov": "朱先生",
+    "word_count": 6790,
+    "source_chapter": "第29章",
+    "file": "scenes/scene_S20.md",
+    "description": "朱先生联八君子投笔从戎抗日，茹师长密告鹿兆海实死于内战，壮志落空黯然返回",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知写壮志落空，夹历史反讽",
+      "diction": "抗日豪语被内战真相词冲淡",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "密告式对白改变行动方向",
+      "pacing": "投戎热烈展开，真相揭露后骤冷"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "拜师",
+      "书法",
+      "传承",
+      "日课",
+      "修身",
+      "文房器具"
+    ],
+    "characters": [
+      "黑娃",
+      "朱先生"
+    ],
+    "conflict_type": "internal",
+    "pov": "全知",
+    "word_count": 1347,
+    "source_chapter": "第30章",
+    "file": "scenes/scene_S21.md",
+    "description": "黑娃跪求拜师，朱先生泡开干涸笔头磨墨题写「学为好人」；黑娃日课舞剑太极诵读",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知细写师承，重物件和日课",
+      "diction": "文房器具词与修身格言居中",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "跪求和题字构成仪式对白",
+      "pacing": "磨墨题字慢写，日课用排比推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "碑刻",
+      "书法",
+      "乡约",
+      "文化事件",
+      "社区转折"
+    ],
+    "characters": [
+      "白嘉轩",
+      "朱先生",
+      "鹿子霖",
+      "徐先生"
+    ],
+    "conflict_type": "external",
+    "pov": "白嘉轩",
+    "word_count": 1072,
+    "source_chapter": "第6章",
+    "file": "scenes/scene_S22.md",
+    "description": "朱先生一笔不苟楷书乡约，石匠叮叮咣咣凿碑多日，白嘉轩每天观看",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知记录文化事件，视角稳在村社",
+      "diction": "碑刻书法词连着祠堂乡约词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白少，书写和凿碑声代替争辩",
+      "pacing": "一笔一凿反复延宕，观看形成仪式"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "白鹿原",
+    "author": "陈忠实",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "书法",
+      "文房毁弃",
+      "投笔从戎",
+      "研墨",
+      "血印",
+      "砸砚"
+    ],
+    "characters": [
+      "朱先生",
+      "鹿兆海",
+      "茹师长"
+    ],
+    "conflict_type": "internal",
+    "pov": "朱先生",
+    "word_count": 2130,
+    "source_chapter": "第29章",
+    "file": "scenes/scene_S23.md",
+    "description": "朱先生为兆海冰水镇手落笔咬指血印，后砸砚烧笔投戎——书写仪式与文房毁弃的镜像",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知写书写毁弃，预设镜像意味",
+      "diction": "冰水、血印、砚笔等器物词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白少，动作链承载誓愿",
+      "pacing": "镇手落笔细慢，砸砚烧笔骤烈"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

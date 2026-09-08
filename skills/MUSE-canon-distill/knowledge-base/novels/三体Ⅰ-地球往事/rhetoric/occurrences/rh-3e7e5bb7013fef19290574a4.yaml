@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3e7e5bb7013fef19290574a4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1300
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 天空在燃烧，呈现出一种令人疯狂的地狱之美
+sensory_mapping: 视觉；色彩；高温；空间包围；审美反差
+context_fact: 三日刚熔毁文明并落到地平线下，水汽浓云仍反射光，地面地狱之火把云层染成血红。
+image_mechanism: 火从地表越过地平线继续占领天空，红光不再只是照明而变成穹顶自身燃烧；美丽颜色与文明死亡被锁进同一地狱景观。
+property_alignment: 云层灿红对应火焰颜色；高温余光覆盖天空对应火场包围；文明全灭对应地狱死亡空间；景象绚丽却致命对应地狱之美的矛盾
+context_alignment: 太阳已落却天仍红，使“燃烧”比普通晚霞更准确；前文火网和火柱从地面延伸，此处完成天地全域着火。
+narrative_function: 把三日灾变定格为壮美与疯狂并存的终场画面。
+transfer_rule: 把天空写成燃烧时，应以云层颜色、热源延续和地面后果支撑，并让美感与危险共同进入判断。
+failure_boundary: 普通无害晚霞、低温红云或场景只强调宁静美时，地狱燃烧会把颜色相似夸成灾难。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三日落下后仍被高温水汽散射照亮、通红如火的整片天空
+vehicle: 火焰充满穹顶、绚丽而致命的地狱火场
+ground: 浓云散射强光呈火色对应天空被火焰填满；地表已经毁灭且高热持续对应地狱以永恒火惩罚生命

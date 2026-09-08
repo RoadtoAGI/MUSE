@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9623281d3907ba13d7106f15
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L783
+chapter: 第9章 红岸之一
+figure_type: metaphor
+quote: 只有到了跟前，才能真正感受到这张天网的巨大
+sensory_mapping: 视觉；网格；覆盖；尺度；捕捉动作
+context_fact: 叶文洁听见天线低沉嗡鸣，走近后才真正看清其体量。
+image_mechanism: 支架和反射面被抽成纵横网线，近距离视野成为被网覆盖的天空；原本不可见的电波也在想象中变成会被网面拦住的飞行物。
+property_alignment: 天线反射面呈网格对应网线交织；抛物面大幅展开对应巨网张开；设备占据视野对应网罩住天空；接收或作用电波对应网截取穿过空间的对象
+context_alignment: 照片中天空早已呈网格状，此刻近观补足尺寸和声响，“天网”回收视觉记忆。
+narrative_function: 让红岸设施形成覆盖天空的控制感，增强叶文洁入门前的压迫。
+transfer_rule: 用网写大型阵列时，应匹配真实网格、张开面积、覆盖视角和截取功能，并由远近变化显出尺度。
+failure_boundary: 实心无网格、面积很小或只沿单线作用的设备不具张网结构；“天网”也不能自动推出监控意义。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 近距离仰视时覆盖大片天空的红岸抛物面天线
+vehicle: 由巨大网面和支架张开、横跨天空并能截获来物的网
+ground: 天线反射面呈网格对应网线交织；抛物面大幅展开对应巨网张开；设备占据视野对应网罩住天空；接收或作用电波对应网截取穿过空间的对象

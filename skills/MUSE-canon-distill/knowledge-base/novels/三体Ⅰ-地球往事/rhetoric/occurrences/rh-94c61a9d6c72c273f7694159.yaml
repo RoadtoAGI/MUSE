@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-94c61a9d6c72c273f7694159
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2010
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 油灯是一位卓越的画家，创作了这幅凝重色调中又带着明快的古典油画
+sensory_mapping: 暖黄灯光；红色颜料；明暗法；人物构图；黑暗画布
+context_fact: 齐家屯无电，大凤在油灯旁做针线并问星星为何不掉，叶文洁凝视她。
+image_mechanism: 无意识光源获得画家的取舍能力，灯芯每投一束光都像画笔落色；黑暗不是缺光，而是画家主动留出的深背景。
+property_alignment: 油灯光束对应画笔；红肚兜亮色对应醒目颜料；胳膊圆润对应人物主体；其他部位暗去对应背景省略；凝重明快并存对应古典明暗构图；静坐姿态对应肖像画
+context_alignment: 前文齐家屯记忆已被浓缩为欧洲古典油画，此处灯光具体担任画家，属于同一记忆框架的深化而非复指。
+narrative_function: 把乡村夜晚定格为温暖肖像，保存叶文洁短暂接近普通生命的审美经验。
+transfer_rule: 把光源写成画家时，应具体对应选择性照明、色彩强调、背景处理和主体构图。
+failure_boundary: 光线均匀照亮所有细节、人物持续快速运动或场景无明确明暗焦点时，画家选择感会消失。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 油灯以局部暖光照亮大凤的红肚兜和胳膊，同时把背景和其他部位隐入暗处形成画面
+vehicle: 古典画家主动选择明暗、构图和色彩，把人物最美部位提亮并让背景退隐
+ground: 灯光选择性照亮对应画家布光；红暖色突出对应上色；暗处隐藏对应画家省略背景；整体静态构图对应油画

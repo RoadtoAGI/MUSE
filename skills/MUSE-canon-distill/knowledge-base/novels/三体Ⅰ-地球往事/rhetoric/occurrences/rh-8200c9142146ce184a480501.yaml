@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8200c9142146ce184a480501
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2310
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 重压下的人们感到了一丝带着血腥味的轻松
+sensory_mapping: 血腥铁锈味；微弱笑声；重物压身；呼吸短松；味觉污染
+context_fact: 讨论纳米丝间距时，大史说应让船白天通过，以免躺着的人从五十厘米空隙逃过。
+image_mechanism: 笑声本应减轻压力，却被即将流出的血污染成可闻气味；人们只吸到一小口轻松，鼻腔已先感到行动后果。
+property_alignment: 重大战争责任对应重压；零星笑声对应一丝轻松；方案杀人对应血液来源；黑色幽默对应轻松混味；伦理不安对应气味挥之不去；短暂缓解对应只一丝
+context_alignment: 会议计算身体姿势与切割高度，幽默和屠杀来自同一句话，通感精确保留二者不可分离。
+narrative_function: 释放讨论张力却拒绝让读者无负担地发笑，维持伦理重量。
+transfer_rule: 让情绪带气味时，应由同一事件同时触发两种感受，并用气味说明情绪受污染的具体来源。
+failure_boundary: 轻松来自无害插曲、人物已不在乎伤亡，或场景无任何血与死亡预期时，血腥味会成为廉价阴森装饰。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 与会者因大史关于白天人员姿势的黑色幽默短暂放松，却清楚方案将造成大规模肢解死亡
+vehicle: 少量轻松如可嗅介质混入血液气味，入口或吸入时始终携带杀戮痕迹
+ground: 笑意微弱对应一丝；杀人前提对应血腥味；放松无法纯净对应气味附着；心理压力对应上方重压

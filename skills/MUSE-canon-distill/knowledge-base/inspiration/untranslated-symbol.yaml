@@ -1,0 +1,51 @@
+card_id: untranslated-symbol
+pattern_name: 象征不释义
+dramatic_function: 让象征物与神异意象只按自身逻辑行动，不证明真假不补主题解释；意义由读者投射生成，命运感与抒情浓度同增
+applicability: 适用于抒情现实主义与有民间信仰底色的叙事；解释成设定规则或寓言说明即变窄失效
+reuse_candidates:
+- 萤火虫
+- 白鹿精灵
+- 田小娥鬼魂
+- 白鹿哭泣
+tags:
+- 象征
+- 留白
+- 物件
+- 抒情
+- 神异意象
+- 民间信仰
+- 命运回声
+- 现实主义
+source_scenes:
+- novel: 挪威的森林
+  scene_id: S05
+  note: 萤火虫飞走后只留下不可触及的光点。
+  line_start: 5
+  line_end: 43
+- novel: 挪威的森林
+  scene_id: S02
+  note: 水井作为黑暗深处存在，但叙述不强行释义。
+  line_start: 5
+  line_end: 13
+- novel: 白鹿原
+  scene_id: S01
+  note: 白鹿幻象不被解释，却推动原罪选择。
+- novel: 白鹿原
+  scene_id: S09
+  note: 鬼魂作祟与瘟疫并置，真假悬置。
+- novel: 白鹿原
+  scene_id: S10
+  note: 白鹿哭泣把革命悲剧转成象征回声。
+mechanism: 具体意象在感知、记忆与关系之间形成联系，读者经历这些联系而保留解释空间。
+source_analyses:
+- novel: 挪威的森林
+  creative_move: 萤火虫从瓶中飞走，留下脑际光迹与伸手无法触及的感受；关于直子的记忆也与一口未曾亲见的井和草地纠缠。
+  narrative_reason: 当下微弱的光与记忆中的明亮相对照，等待、飞离和事后伸手把距离变成经验。另一段中，面影渐难唤回，景物却反复浮现；井的实际存在未被确定，但已进入叙述者的记忆。两段的联系支持对记忆与不可触及之物的理解，无需唯一符号答案。
+  transfer_conditions: 意象需要处于人物具体感知、记忆或关系中，并由前后经验获得分量；若新作品需要传递精确情报，应另外提供相应依据，不能把开放象征当作已完成的解码。
+  source_scene_ids:
+  - S05
+  - S02
+phase_affinity:
+- 0
+- 1
+- 5

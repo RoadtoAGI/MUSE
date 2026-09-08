@@ -1,0 +1,26 @@
+card_id: two-worlds-tug
+pattern_name: 双世界牵引
+dramatic_function: 让主角的选择不是两个人之间，而是两种生存方式之间。
+applicability: 适合人物内在价值撕裂；若两端只是外在利益竞争则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 直子与绿子
+- 疗养院和书店
+tags:
+- 选择
+- 价值对照
+- 人物系统
+- 成长
+source_scenes:
+- novel: 挪威的森林
+  scene_id: S08
+  note: 阿美寮把死亡和内省的世界具象化。
+- novel: 挪威的森林
+  scene_id: S12
+  note: 雨中表白把生的召唤推到渡边面前。
+- novel: 挪威的森林
+  scene_id: S15
+  note: 最终电话表明他选择生却仍然迷失。
+phase_affinity:
+- 2
+- 3
+- 4

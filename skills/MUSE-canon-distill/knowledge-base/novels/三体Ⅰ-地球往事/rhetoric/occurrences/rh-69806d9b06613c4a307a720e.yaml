@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-69806d9b06613c4a307a720e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2644
+chapter: 第35章 虫子
+figure_type: metaphor
+quote: 那可是你最辉煌的时代
+sensory_mapping: 明亮时段；耀眼光芒；高处受光；前后阴影；光泽消退
+context_fact: 汪淼提起丁仪三年前凭宏原子研究获得的最高成就，此刻两人却因科学被锁死而消沉。
+image_mechanism: 职业生涯被排成一条明暗时间带，宏原子成果把三年前的一段照到最亮；眼下智子阴影覆盖未来，那束旧光因而更突出也更遥远。
+property_alignment: 丁仪生涯对应明暗时间带；宏原子成果对应光源；学术声望对应可见度；最高成就对应最强亮度；当前绝望对应转暗背景
+context_alignment: 这一称赞紧接全书最大科学封锁，过去的亮度与今日的失去前路形成同一人物内的光差。
+narrative_function: 快速召回丁仪的事业峰值，为他随后断言基础研究无路可走增加落差。
+transfer_rule: 用辉煌写人生高峰时，应有可识别成果、公共可见度、相邻时期的亮度差和正在回望的时间距离。
+failure_boundary: 时期只有私人愉悦而无成就或认可，或事业仍持续同等上升时，最辉煌的亮度峰值缺少比较基线。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 丁仪因球状闪电研究发现宏原子、学术成就和个人声望达到高峰的时期
+vehicle: 一段被强光照亮、亮度超过前后岁月的时段，成果在其中耀眼可见
+ground: 重大成就对应强光；社会认可对应被看见；事业高峰对应亮度最高；前后低谷对应光线转暗

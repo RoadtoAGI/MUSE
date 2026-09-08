@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dd9add86c2de3fcde79ec0cc
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L1498-L1499
+chapter: 【威慑后第一年，澳大利亚】
+figure_type: metaphor
+quote: '走出非洲，走了七万年，最后走进澳大利亚。
+
+  人类在澳大利亚又回到了起点，但再次起程已不可能，旅行结束了'
+sensory_mapping: 人类脚印从非洲铺满大陆与星空，七万年后所有路线收束进澳洲，路牌在身后倒下，前方再无出口。
+context_fact: 四十多亿人被迫移入澳大利亚，断电断粮将淘汰绝大多数，幸存者是否仍为人也不重要。
+image_mechanism: 把物种史压成一条可追踪路线，走出与走进只差一个介词，却分别表示开放扩散和封闭终结。
+property_alignment: 非洲迁出对应启程；全球扩散对应长途旅行；澳洲集中对应回到起点；概念消失对应旅程终止。
+context_alignment: 智子把移民赞作再次走出非洲，程心以同一旅行框架反转宣传：这次不是开端，而是走入终点。
+narrative_function: 用一句话概括人类历史并完成占领叙事的终极讽刺。
+transfer_rule: 文明史写成旅程时，应固定地理起点、行进方向、回返机制和能否再出发的条件。
+failure_boundary: 人类史没有单一路线或预设终点，澳洲也非真正物种起点；判断来自程心绝望时刻。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 智人扩散、建立全球文明后被集中澳大利亚并面临概念性灭绝的整段人类史
+vehicle: 一次历时七万年的徒步旅行，从起点出发绕行世界，最终回到封闭终点且再不能启程
+ground: 历史有明确地理起点；文明扩散对应持续行进；集中退化形成圆形回返；灭绝切断下一程

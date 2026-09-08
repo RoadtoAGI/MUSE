@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7058f2e44b929f01b6572800
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L880
+chapter: 第10章 宇宙闪烁之二
+figure_type: simile
+quote: 对尽头的猜测将像恶魔那样残酷地折磨他，最后在精神上彻底摧毁他
+sensory_mapping: 痛觉想象；时间；施暴动作；心理；人格化
+context_fact: 汪淼依次猜测死亡、海啸式灾难和世界毁灭，却得不到答案。
+image_mechanism: 抽象猜测从头脑内容走出，长成一个掌握刑具的主动施暴者；每出现一种结局就换一次刑罚，倒计时提供恶魔不会离开的刑期。
+property_alignment: 猜测反复主动闯入对应施刑者持续折磨；未知答案制造多种恐怖对应恶魔变换刑罚；痛苦贯穿倒计时对应施刑有漫长时限；最终精神崩溃对应受害者被摧毁
+context_alignment: 真正威胁仍未知，当前可确认的伤害恰来自猜测本身，恶魔人格化了这种自我增殖的心理作用。
+narrative_function: 把悬念的心理成本推到极限，促使汪淼崩溃求助。
+transfer_rule: 把念头写成施暴者时，应明确它如何反复出现、使用何种变化刺激、持续多久以及毁坏哪层心理结构。
+failure_boundary: 可通过一次验证消除的疑问、激发解决行动的好奇或短暂担忧没有恶魔式持续与毁灭意图。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 对倒计时终点的反复猜测将在剩余千余小时持续侵蚀汪淼精神
+vehicle: 有意延长痛苦、反复施刑直到受害者崩溃的恶魔
+ground: 猜测反复主动闯入对应施刑者持续折磨；未知答案制造多种恐怖对应恶魔变换刑罚；痛苦贯穿倒计时对应施刑有漫长时限；最终精神崩溃对应受害者被摧毁

@@ -1,0 +1,28 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 玫瑰触发偷听
+  dimension: camera
+  original_move: 嗅觉切听觉，读者被锁在偷听者感知半径内
+  ai_default_failure: 补内心闪回那夜记忆如潮水涌来
+  transfer_rule: 揭秘前保护信息差，让回忆维持错误版本
+  quote: 一大丛玫瑰发出淡淡幽香
+- pattern_id: S13-p2
+  beat: 尹志平自白
+  dimension: verb
+  original_move: 施害者自我美化措辞，受害者只给身体下坠动词
+  ai_default_failure: 写怒火中烧恨不得碎尸万段
+  transfer_rule: 毁灭性信息的第一反应是否认而非暴怒
+  quote: 终于让我偿了心愿
+- pattern_id: S13-p3
+  beat: 溪边临水照影
+  dimension: verb
+  original_move: 毁灭打击后写「掬」「摘」「插」等微小美化动作
+  ai_default_failure: 给角色明确动机如决意亲手了断
+  transfer_rule: 写被击穿的人，恨未成形只剩本能跟随
+  quote: 顺手在溪边摘了一朵小花插在鬓边
+overall_traits:
+- 间接揭秘：真相经第三方对话被偷听接收
+- 双重视角限制：读者与受害者同步获知
+- 美与痛同框叠加写意识脱节

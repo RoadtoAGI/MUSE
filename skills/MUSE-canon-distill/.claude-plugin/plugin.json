@@ -1,0 +1,18 @@
+{
+  "name": "muse-canon-distill",
+  "version": "0.8.0",
+  "description": "MUSE 姊妹包：从经典文学作品反向蒸馏 AI 写作可用素材——名著场景检索、来源可核验的对白知识库与角色级 few-shot、角色蒸馏、小说与戏剧结构分析。配合 MUSE-writing 使用，扩展 Phase 6 写作参考能力与同人续写场景",
+  "author": {
+    "name": "MUSE"
+  },
+  "keywords": [
+    "literary-distillation",
+    "canon",
+    "few-shot-reference",
+    "dialogue-knowledge-base",
+    "character-distillation",
+    "fanfiction",
+    "novel-analysis",
+    "creative-writing"
+  ]
+}

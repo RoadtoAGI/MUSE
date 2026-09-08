@@ -1,0 +1,243 @@
+# Phase 5: 关键场景（按序列分组）
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 赵太爷家
+        time: 赵太爷儿子进秀才的那天（故事前史）
+        participants: [阿Q, 赵太爷, 地保]
+        pov: 叙述者（全知反讽视角）
+        conflict: 阿Q声称与赵太爷本家 vs 赵太爷暴力否认
+        value_start: 阿Q自以为有身份（"比秀才长三辈"）
+        value_end: 被打嘴巴、被剥夺姓氏、付酒钱
+        must_include: "你怎么会姓赵！——你那里配姓赵！"
+        handoff: 从姓名被剥夺过渡到精神胜利法的系统展示
+        source_chapter: 第一章
+
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: 未庄街头、土谷祠
+        time: 日常（多次重复的模式）
+        participants: [阿Q, 闲人们]
+        pov: 叙述者
+        conflict: 闲人挑衅/打阿Q vs 阿Q用精神胜利法转化失败
+        value_start: 被打（失败）
+        value_end: "心满意足的得胜的走了"
+        must_include: |
+          "我总算被儿子打了"；"我是虫豸——还不放么？"；
+          打自己嘴巴"转败为胜"——三种层层递进的精神胜利法形态
+        handoff: 精神胜利法的裂缝（赌场丢钱时"有些感到失败的苦痛"）过渡到第三章的连续失败
+        source_chapter: 第二章
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: 未庄街头、酒店门口
+        time: 某年春天某日
+        participants: [阿Q, 王胡, 假洋鬼子, 小尼姑]
+        pov: 叙述者
+        conflict: 阿Q试图通过战胜更弱者来恢复尊严
+        value_start: 被王胡打（"生平第一件屈辱"）、被假洋鬼子打（"第二件屈辱"）
+        value_end: 摸小尼姑头皮、拧脸颊——"十分得意的笑"
+        must_include: |
+          "这断子绝孙的阿Ｑ！"——小尼姑的哭骂成为第四章的心理导火索；
+          酒店里的人"九分得意的笑"——看客与施暴者的共谋
+        handoff: 摸小尼姑脸的触感残留→第四章的性冲动
+        beat_direction: "从连续失败（负→负→负）到对最弱者的施暴'胜利'（伪正）——但'飘飘然'暗含危险的种子"
+        source_chapter: 第三章
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S04"
+        arc_id: ARC-2
+        location: 赵太爷家厨房
+        time: 某晚（阿Q做短工的夜晚）
+        participants: [阿Q, 吴妈, 赵秀才, 地保]
+        pov: 叙述者
+        conflict: 阿Q的人性需求 vs 社会对底层的全面剥夺
+        value_start: 阿Q在赵府做工，有基本生存保障
+        value_end: 被打、被罚、被永久禁入赵府、失去衣物和工钱
+        must_include: |
+          "我和你困觉！我和你困觉！"——跪下的动作同时表达欲望和卑微；
+          五条赔罪条件——系统性的经济剥夺
+        handoff: 经济和社会关系全面断裂→第五章的饥饿
+        beat_direction: "激励事件——从低质平衡急剧下坠到全面断裂"
+        source_chapter: 第四章
+
+      - scene_id: "S05"
+        arc_id: ARC-2
+        location: 未庄街头、静修庵后园
+        time: 春末夏初
+        participants: [阿Q, 小D, 老尼姑]
+        pov: 叙述者
+        conflict: 饥饿（生存本能）vs 社会排斥（无人雇用）
+        value_start: 无工可做、酒店不赊、肚子饿
+        value_end: 偷了三个萝卜，决定进城
+        must_include: |
+          与小D的"龙虎斗"——四只手拔两颗头的荒诞画面；
+          "他求的是什么东西，他自己不知道"——叙述者点出不自觉欲望
+        handoff: 决定进城→第六章的"中兴"
+        source_chapter: 第五章
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S06"
+        arc_id: ARC-2
+        location: 未庄酒店
+        time: 中秋过后
+        participants: [阿Q, 酒店众人, 王胡]
+        pov: 叙述者
+        conflict: 金钱带来的暂时尊敬 vs 底层身份的不可更改
+        value_start: 阿Q穿新夹袄满把银铜，"现钱！打酒来！"
+        value_end: 众人"凛然"，王胡"瘟头瘟脑"，阿Q"差不多"赵太爷
+        must_include: |
+          "嚓！"——劈王胡后颈模仿杀头动作；
+          "你们可看见过杀头么？"——城里见闻作为社会资本
+        handoff: 短暂的"中兴"→赵家想买赃物→贼行暴露
+        beat_direction: "中点反转——从最低点急剧上升到虚假的最高点"
+        source_chapter: 第六章
+
+      - scene_id: "S07"
+        arc_id: ARC-2
+        location: 赵太爷家
+        time: 中兴后不久的某晚
+        participants: [阿Q, 赵太爷, 赵秀才, 赵太太, 邹七嫂]
+        pov: 叙述者
+        conflict: 赵家想买廉价赃物 vs 阿Q已无存货
+        value_start: 赵太爷主动请阿Q来（第三种"例外"——点油灯）
+        value_end: "阿Ｑ虽然答应着，却懒洋洋的出去了"
+        must_include: |
+          "价钱决不会比别家出得少！"——秀才的讨好；
+          赵太爷的判断"老鹰不吃窝下食"——已察觉做贼但出于利益沉默
+        handoff: 邹七嫂传播可疑之点→"中兴"崩塌
+        source_chapter: 第六章
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S08"
+        arc_id: ARC-3
+        location: 土谷祠（阿Q的小屋）
+        time: 宣统三年九月十四日（辛亥革命爆发日）当晚
+        participants: [阿Q]
+        pov: 叙述者（直接展示阿Q的意识流）
+        conflict: 革命作为翻身机会的幻想 vs 阿Q完全不理解革命的本质
+        value_start: 喊"造反了"获得未庄人惊惧的目光
+        value_end: 在独白中分配财产、选女人——幻觉中的完全胜利
+        must_include: |
+          赵太爷叫他"老Ｑ"——阿Q"料不到他的名字会和'老'字联结起来"；
+          独白中的分赃幻想——"秀才娘子的一张宁式床先搬到土谷祠"；
+          "四两烛还只点去了小半寸，红焰焰的光照着他张开的嘴"——视觉定格
+        handoff: 幻想后去静修庵→发现已被秀才和假洋鬼子捷足先登
+        beat_direction: "精神胜利法的巅峰——从现实中的惊惧目光飞升到幻觉中的绝对权力"
+        source_chapter: 第七章
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S09"
+        arc_id: ARC-3
+        location: 钱府院子
+        time: 革命后数日
+        participants: [阿Q, 假洋鬼子, 赵白眼]
+        pov: 叙述者
+        conflict: 阿Q试图"投降革命党" vs 假洋鬼子拒绝让他参与
+        value_start: 阿Q鼓起"十二分的勇气"试图加入革命
+        value_end: "所有的抱负，志向，希望，前程，全被一笔勾销了"
+        must_include: |
+          "我要投——""滚出去！"——对话被截断，连完整表达意愿的机会都没有；
+          "他似乎从来没有经验过这样的无聊"——比任何一次被打都更深的绝望
+        handoff: 被拒绝后→赵家被抢→被当作替罪羊
+        beat_direction: "从鼓起勇气的正面行动急转为彻底的封杀——最后一条上升通道关闭"
+        source_chapter: 第八章
+
+      - scene_id: "S10"
+        arc_id: ARC-3
+        location: 赵家附近、土谷祠
+        time: 某夜（革命后不久）
+        participants: [阿Q, 小D]
+        pov: 叙述者
+        conflict: 阿Q想参与"革命"（抢劫）vs 连这个机会也没有
+        value_start: 阿Q在黑暗中看到"白盔白甲的人"搬东西
+        value_end: 回到土谷祠，愤怒地想"告一状"
+        must_include: |
+          "两只脚却没有动"——无法将幻想转化为行动；
+          "不准我造反，只准你造反？"——愤怒仍在等级思维框架内
+        handoff: 想告官→四天后被当作替罪羊逮捕
+        source_chapter: 第八章
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-3
+        location: 县城大堂
+        time: 被捕后（三次审讯）
+        participants: [阿Q, 光头老头子, 长衫人物]
+        pov: 叙述者
+        conflict: 审讯者要求"从实招来" vs 阿Q根本不理解自己为什么被抓
+        value_start: 被推进栅栏，但"并不很苦闷"
+        value_end: 画了一个不圆的圆圈——签下自己的死刑判决
+        must_include: |
+          "膝关节立刻自然而然的宽松，便跪了下去了"——"奴隶性"；
+          画圆圈——"立志要画得圆"但"画成瓜子模样"；
+          "孙子才画得很圆的圆圈呢"——精神胜利法在死亡前夜的最后一次运作
+        handoff: 画押完成→第二天游街→枪毙
+        source_chapter: 第九章
+
+      - scene_id: "S12"
+        arc_id: ARC-3
+        location: 城里街道→法场
+        time: 第三天上午
+        participants: [阿Q, 围观群众, 吴妈]
+        pov: 叙述者（深入阿Q的内心）
+        conflict: 死亡的绝对力量 vs 精神胜利法的最后挣扎
+        value_start: "人生天地间，大约本来有时也未免要杀头的"
+        value_end: "救命"→"微尘似的迸散了"
+        must_include: |
+          看到吴妈——"似乎伊一向并没有见他"——激励事件女性角色最后一次出现，完全无视；
+          "又钝又锋利"的群众眼睛——与山上遇狼的回忆交叉；
+          "救命"——全篇唯一一次放弃精神胜利法的真实呼喊；
+          "全身彷佛微尘似的迸散了"——死亡
+        handoff: 阿Q死后→叙述者收尾
+        beat_direction: "故事高潮——精神胜利法从'人生天地间大约本来有时也未免要杀头的'逐步崩溃到'救命'的赤裸呼喊"
+        source_chapter: 第九章
+
+      - scene_id: "S13"
+        arc_id: ARC-3
+        location: 未庄/城里（概述）
+        time: 阿Q死后
+        participants: [未庄人, 城里人, 举人老爷, 赵府]
+        pov: 叙述者（恢复冷峻的讽刺距离）
+        conflict: 无（冲突已结束，秩序恢复）
+        value_start: 阿Q被枪毙
+        value_end: "他们白跟一趟了"
+        must_include: |
+          "自然都说阿Ｑ坏，被枪毙便是他的坏的证据"——循环论证的社会逻辑；
+          "渐渐的都发生了遗老的气味"——革命消化为保守秩序；
+          "竟没有唱一句戏：他们白跟一趟了"——最终反讽
+        handoff: 故事结束
+        source_chapter: 第九章
+
+tension_curve:
+  description: |
+    整体张力曲线呈"锯齿形上升"——每一次精神胜利法"解决"了危机，张力暂时下降；
+    但下一次危机比上一次更严重，底线在不断抬高。
+    ARC-2 中的"中兴"（S06）是一个虚假的张力高峰（正面），随即崩塌。
+    ARC-3 中的革命独白（S08）是精神层面的最高点，之后急剧下坠。
+    真正的张力高峰在 S12（游街枪毙）——精神胜利法的最后防线被死亡击穿。
+  peaks: ["S04", "S08", "S09", "S12"]
+  valleys: ["S02", "S06", "S13"]
+
+causal_chain: |
+  S01（被剥夺姓氏）→ S02（精神胜利法循环建立）
+  → S03（因连续失败转向小尼姑——触感伏笔）
+  → S04（因触感残留而调戏吴妈——激励事件）
+  → S05（因被全面排斥而生计断裂→偷萝卜→决定进城）
+  → S06（因进城做贼而"中兴"归来）→ S07（因有赃物而被赵家邀请→贼行暴露）
+  → S08（因革命消息传来而产生革命幻想→独白巅峰）
+  → S09（因想参加革命而被假洋鬼子拒绝——希望封杀）
+  → S10（因被排斥而旁观赵家被抢→想告官）
+  → S11（因赵家需要替罪羊而被捕→审讯→画押）
+  → S12（游街→精神胜利法崩溃→"救命"→枪毙）
+  → S13（阿Q的死没有改变任何东西——结局）

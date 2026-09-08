@@ -1,0 +1,247 @@
+# Phase 5: 关键场景 — 《2666》逆向分析
+# 只提取结构转折点、高潮、关键建置场景
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: "不来梅（德国）"
+        time: "1994年"
+        participants: [让-克劳德, 曼努埃尔, 莫里尼, 丽兹]
+        pov: 全知
+        conflict: "四位学者在学术大会上联手击败对手学派"
+        value_start: "各自孤立的研究者"
+        value_end: "结盟的团体——学术权威确立"
+        must_include: "丽兹的'登场'——用流利德语击溃博希迈尔"
+        handoff: "四人进入私人领域——酒吧中的自我介绍开启情感纠葛"
+        source_chapter: "行67-83"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S22"
+        arc_id: ARC-1
+        location: "汉堡，布比斯出版社"
+        time: "约1995年"
+        participants: [让-克劳德, 曼努埃尔, 施耐尔, 新闻部女主任, 校对部女主任]
+        pov: 全知
+        conflict: "两位教授拜访出版社寻找阿琴波尔迪线索——机构层级逐层揭示，信息逐层封锁"
+        value_start: "追踪者的主动出击"
+        value_end: "机构的层级壁垒——社长不知、女主任只记得字母le、校对部直接回避"
+        must_include: "照片墙上布比斯与十四位作家的合影——文学体制的'圣像壁'；字母le的身高比喻"
+        handoff: "社长转告布比斯夫人→夫人同意接见——从机构层级进入权力核心"
+        source_chapter: "行140-170"
+
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: "汉堡，布比斯夫人家"
+        time: "约1995年"
+        participants: [让-克劳德, 曼努埃尔, 布比斯夫人]
+        pov: 全知
+        conflict: "两位教授试图从出版商遗孀口中获取阿琴波尔迪的线索"
+        value_start: "追踪者的期待"
+        value_end: "追踪的虚无——布比斯夫人用格罗兹画作的辩论暗示：你们并不真正理解你们在追寻的东西"
+        must_include: "格罗兹画作辩论——'我看了格罗兹的画就笑；他看了就沮丧。可谁真正了解格罗兹呢？'"
+        handoff: "两人在圣保利大街意识到'要做爱，不要战争'——追寻的动力从学术转向个人"
+        beat_direction: "讽刺→启示：知识的傲慢在艺术的主观性面前被消解"
+        source_chapter: "行181-215"
+
+      - scene_id: "S19"
+        arc_id: ARC-1
+        location: "萨尔茨堡（奥地利）"
+        time: "1996年"
+        participants: [让-克劳德, 曼努埃尔, 丽兹, 莫里尼, 博希迈尔, 施瓦茨]
+        pov: 全知
+        conflict: "诺贝尔提名引发学术派系的权力重组——对立两派在红牛啤酒店握手言和"
+        value_start: "学术派系的敌对——互相在期刊上封杀对方文章"
+        value_end: "表面和解——实质是期刊发表权的互不封杀协议"
+        must_include: "诺贝尔提名'像颗原子弹爆炸'；和解的实质：让-克劳德不再'枪毙'施瓦茨的文章，施瓦茨不再'封杀'让-克劳德的论文；莫里尼的冷水：阿琴波尔迪没得过德国任何重要奖项"
+        handoff: "那一年阿琴波尔迪没有获得诺贝尔文学奖——从狂欢到落空"
+        beat_direction: "学术竞争→权力交换式和解→奖项落空——文学奖政治的完整弧线被压缩进几天"
+        source_chapter: "行302-326"
+
+      - scene_id: "S03"
+        arc_id: ARC-1
+        location: "圣特莱莎（墨西哥）"
+        time: "约1997年"
+        participants: [让-克劳德, 曼努埃尔, 丽兹, 阿玛尔菲塔诺]
+        pov: 全知
+        conflict: "评论家们在圣特莱莎得知妇女谋杀案的存在"
+        value_start: "追踪者的最后希望"
+        value_end: "震惊与逃避——'两百多人！两百多人！两百多人！'"
+        must_include: "大学生告知妇女被害事件——曼努埃尔呕吐；让-克劳德沉默"
+        handoff: "丽兹离开，曼努埃尔和让-克劳德留下但精神已溃败"
+        beat_direction: "从轻快的旅行叙事骤变为存在性恐惧——叙事调性的转折点"
+        source_chapter: "行1580-1600"
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: "S04"
+        arc_id: ARC-1
+        location: "圣特莱莎旅馆网球场"
+        time: "约1997年"
+        participants: [让-克劳德, 曼努埃尔]
+        pov: 全知
+        conflict: "两人坐在墙头上，决定放弃寻找阿琴波尔迪"
+        value_start: "寻找的惯性"
+        value_end: "悖论性的顿悟——'阿琴波尔迪就在这里，咱们也在这里，这样我们永远和他的距离最近'"
+        must_include: "让-克劳德指向桑拿浴室、旅馆、黑暗中的枯枝败叶——'重要的是他就在这里！'"
+        handoff: "丽兹的信件——叙事转向她与莫里尼的相恋，Part 1 结束"
+        beat_direction: "从追寻到放弃——但放弃本身成为一种更深的理解"
+        source_chapter: "行1924-1957"
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S05"
+        arc_id: ARC-2
+        location: "阿玛尔菲塔诺的家，圣特莱莎"
+        time: "不确定"
+        participants: [阿玛尔菲塔诺]
+        pov: 阿玛尔菲塔诺
+        conflict: "阿玛尔菲塔诺回忆妻子劳拉的出走——个人历史的伤痛与当下处境的重叠"
+        value_start: "勉强维持的日常"
+        value_end: "过去的创伤被唤醒——流亡者的根本性孤独"
+        must_include: "劳拉凌晨的出走——因玛的到来、矮小的女人、背囊'轻得像胎儿'"
+        handoff: "从回忆转向当下——幻听开始出现"
+        source_chapter: "行1972-1976"
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: "S06"
+        arc_id: ARC-3
+        location: "圣特莱莎监狱"
+        time: "约1997年"
+        participants: [法特, 罗莎·阿玛尔菲塔诺, 龙卡尔, 金发巨人]
+        pov: 法特
+        conflict: "法特在监狱中面对杀人嫌疑犯——一个用德语唱歌的金发巨人"
+        value_start: "记者的好奇心"
+        value_end: "恐惧——'我是一个迷失在烧焦的森林里的巨人'"
+        must_include: "巨人的出场——弯着腰、用德语唱着樵夫之歌、微笑的嘲讽。金发巨人暗指阿琴波尔迪的外甥"
+        handoff: "警察追踪法特→连夜逃离"
+        beat_direction: "全书各条叙事线在此隐性交汇——第三部分的金发巨人与第五部分的家族线相连"
+        source_chapter: "行4040-4059"
+
+      - scene_id: "S07"
+        arc_id: ARC-3
+        location: "阿玛尔菲塔诺家→公路"
+        time: "黎明"
+        participants: [法特, 罗莎·阿玛尔菲塔诺, 阿玛尔菲塔诺]
+        pov: 法特
+        conflict: "阿玛尔菲塔诺恳求法特带女儿逃离圣特莱莎"
+        value_start: "迟疑"
+        value_end: "行动——法特带罗莎驶向美国"
+        must_include: "'请把我的女儿从这座城市救走吧！以后，忘掉这里的一切！'+'人人都卷进去了！'"
+        handoff: "Part 3 结束，Part 4 开始——从个体命运转向集体灾难"
+        beat_direction: "阿玛尔菲塔诺的绝望是Part 2精神崩塌的延续——他最后的清醒行动是把女儿交给陌生人"
+        source_chapter: "行3955-3979"
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: "S08"
+        arc_id: ARC-4
+        location: "圣特莱莎花卉区"
+        time: "1993年1月"
+        participants: [爱丝贝兰萨（受害者）, 警察, 孩子们, 祈祷妇女]
+        pov: 全知/档案式
+        conflict: "第一具女尸的发现——罪行编年的起点"
+        value_start: "日常的平静"
+        value_end: "死亡的侵入——'此事发生在1993年。从此，以这具女尸开始，计算后来妇女被杀的人数'"
+        must_include: "空地上的孩子、祈祷的妇女、'这孩子不是这里的人'"
+        handoff: "第一个案件开启了无尽的编年体叙述"
+        beat_direction: "叙事声音骤变——从前三部分的小说叙事转为法医报告式的冷峻记录"
+        source_chapter: "行4065-4069"
+
+      - scene_id: "S09"
+        arc_id: ARC-4
+        location: "圣特莱莎"
+        time: "约1996年"
+        participants: [磨刀的, 卖冰棍的, 受害女性, 护理员]
+        pov: 全知/档案式
+        conflict: "一个普通人（磨刀的）对受害者之死的愤怒——Part 4中罕见的情感爆发"
+        value_start: "又一个案件"
+        value_end: "磨刀的挥舞菜刀追赶护理员——底层民众对体制冷漠的愤怒"
+        must_include: "'混账王八蛋！这都怪你！'——磨刀的追赶护理员的场景"
+        handoff: "愤怒消散，磨刀的推着小车消失在街道尽头——一切恢复平静，罪行继续"
+        beat_direction: "在冷峻的编年体中突然插入一个愤怒的个体——像冰面上的裂缝，转瞬即逝"
+        source_chapter: "行4079"
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: "S10"
+        arc_id: ARC-5
+        location: "普鲁士海边村庄"
+        time: "约1926年"
+        participants: [小汉斯·赖特尔, 独眼妈, 瘸子爸]
+        pov: 全知
+        conflict: "小汉斯在海底世界与陆地世界之间——天真与暴力世界的对照"
+        value_start: "海藻般的纯真"
+        value_end: "对海底世界的沉迷——一种对陆地暴力世界的本能拒绝"
+        must_include: "独眼妈洗澡时小汉斯沉入盆底、瘸子爸关于各国人都是'蠢猪'的独白、只有普鲁士人'消失了'"
+        handoff: "少年离开海边→进入陆地的暴力世界"
+        source_chapter: "行4600-4630"
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-5
+        location: "科隆，一位老人的书房"
+        time: "战后1940年代末"
+        participants: [汉斯·赖特尔, 出租打字机的老人]
+        pov: 全知
+        conflict: "赖特尔租打字机时被要求报出姓名——他说出了'本诺·冯·阿琴波尔迪'"
+        value_start: "无名的退伍士兵/看门人"
+        value_end: "作家身份的诞生——'我叫本诺·冯·阿琴波尔迪'"
+        must_include: "老人关于纯洁和意志的独白——'纯洁和意志是地地道道的阴阳怪气'；'杀人犯本质上也是善良的'"
+        handoff: "从身份重生到文学生涯的开端——出版第一部小说"
+        beat_direction: "全书的思想高潮——老人的独白压缩了整个德国二战经验的道德含义"
+        source_chapter: "行6140-6159"
+
+      - scene_id: "S21"
+        arc_id: ARC-5
+        location: "科隆及周边"
+        time: "战后1950年代初"
+        participants: [阿琴波尔迪, 布比斯, 英格博格]
+        pov: 全知
+        conflict: "阿琴波尔迪的文学事业面对市场的残酷现实——350→205→96册的递减销量"
+        value_start: "身份重生后的期待——第一部小说出版"
+        value_end: "商业惨败但精神不灭——布比斯赠送Olivetti打字机，出版商的信仰超越市场逻辑"
+        must_include: "三部小说的精确销量：350/205/96册；读书会从15人→9人→3人；'空间小，减少了对作者自尊心的伤害'；Olivetti打字机——'出版社的人信任我啊'"
+        handoff: "出版社的无条件支持开启布比斯为阿琴波尔迪在文学界争取认可的行动"
+        source_chapter: "行6569-6581"
+
+      - scene_id: "S20"
+        arc_id: ARC-5
+        location: "美因茨，评论家荣格的住宅"
+        time: "战后1950年代"
+        participants: [布比斯, 冯·聪佩女男爵, 洛塔尔·荣格, 年轻作家夫妇, 威利]
+        pov: 全知
+        conflict: "出版商布比斯为阿琴波尔迪争取评论界认可——评论家荣格在出版机会与独立判断之间左右为难"
+        value_start: "出版商主动出击——'极力装成偶然的样子'提问"
+        value_end: "评论家无法回答——脸色从'落日晚霞'变成'万年青'"
+        must_include: "荣格'如履薄冰，像拆弹专家'；作家妻子的面部表情'变成一篇演说或者备忘录'；花园中的权力对话——橡树边界"
+        handoff: "布比斯的文学游说为阿琴波尔迪日后的声誉奠基"
+        beat_direction: "饭局→花园的空间转换映射公开社交→私密权力谈判的模式切换"
+        source_chapter: "行6581-6609"
+
+  - seq_id: ARC5-SEQ4
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-5
+        location: "某个公园"
+        time: "约1990年代末"
+        participants: [阿琴波尔迪]
+        pov: 全知
+        conflict: "阿琴波尔迪得知外甥的嫌疑后，做出前往墨西哥的决定"
+        value_start: "隐居的安宁"
+        value_end: "行动——走向恶的深渊"
+        must_include: "'很快，他就走出了公园。第二天去了墨西哥。'——全书最后一句叙事"
+        handoff: "无——这是终点。小说在行动的起点而非结局结束"
+        beat_direction: "极简的收束——用一个句子完成全书的价值逆转：从逃避到面对"
+        source_chapter: "行7663-7665"
+
+tension_curve:
+  description: "全书的张力曲线并非简单递增，而是呈现'波浪-阶梯'形态。每个部分内部有各自的张力弧线（Part 1讽刺→沉重、Part 3冷静→紧张→逃亡），但部分之间的张力在Part 4达到绝对顶点（通过累积而非单一高潮）。Part 5则以时间的纵深回应前四部分的横向张力——不是更紧张，而是更深沉"
+  peaks: [S03, S06, S07, S08, S11, S12]
+  valleys: [S05, S10, S21]
+
+causal_chain: "S01（学术联盟形成）→ S22（出版社拜访——机构层级的壁垒）→ S02（布比斯夫人的启示——追寻的虚无）→ S19（诺贝尔提名——学派和解的权力交换→落选）→ S03（发现恶的存在）→ S04（放弃追寻）→ S05（恶对旁观者的侵蚀）→ S06（直面嫌疑犯）→ S07（逃离）→ S08（恶的系统性呈现）→ S09（个体的愤怒被淹没）→ S10（天真的起源）→ S11（身份重生）→ S21（文学的残酷现实——350/205/96册）→ S20（布比斯的权力游说——饭局博弈）→ S12（最终行动——走向深渊）"

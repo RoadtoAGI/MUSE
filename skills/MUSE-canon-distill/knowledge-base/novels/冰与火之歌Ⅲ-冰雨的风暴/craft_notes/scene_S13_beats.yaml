@@ -1,0 +1,28 @@
+scene_id: S13
+source_notes: scene_S13_beats.md
+patterns:
+- pattern_id: S13-p1
+  beat: 鼓声加速
+  dimension: camera
+  original_move: 用鼓点和乐曲标记屠杀启动。
+  ai_default_failure: 会直接写敌人拔刀。
+  transfer_rule: 灾难可先从感官异常进入。
+  quote: 卡斯特梅的雨季
+- pattern_id: S13-p2
+  beat: 铁甲触感
+  dimension: info_density
+  original_move: 丝袖下铁甲让真相由触觉揭示。
+  ai_default_failure: 会让角色目睹全局阴谋。
+  transfer_rule: 关键信息可交给触觉而非视觉。
+  quote: 丝袖下的铁甲
+- pattern_id: S13-p3
+  beat: 行动降级
+  dimension: verb
+  original_move: 凯特琳从谈判坠为抓脸尖叫。
+  ai_default_failure: 会用抽象词写崩溃。
+  transfer_rule: 情绪崩塌用动作能力退化写。
+  quote: 她抓自己的脸
+overall_traits:
+- 感官通道驱动叙事
+- 不用抽象情绪词
+- 身体反应替代心理解释

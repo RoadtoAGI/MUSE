@@ -1,0 +1,20 @@
+mode: reference
+display_name: 一灯大师
+role_slug: yideng-dashi
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_10.md
+  - scenes/scene_14.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 10
+coverage_note: |
+  一灯大师出场 2 个场景（S10 疗伤+三角恩怨、S14 度化裘千仞）。本次蒸馏两场景全部覆盖：
+  - S10 提供他全部的自我审判+袒胸受刃+与瑛姑/周伯通的三角恩怨自白——他声音与弧光的最大显影
+  - S14 提供他慈悲的公共化（"苦海无边，回头是岸"度化裘千仞）
+
+  两场景信号互补充分：S10 是对"我"的解剖，S14 是对"他人"的度化——两者合起来显影他"自己的罪导致他的慈悲"这一核心弧光。
+
+  未破例读 full_text.md。

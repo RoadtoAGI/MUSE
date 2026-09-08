@@ -1,0 +1,24 @@
+card_id: siege-inner-erosion
+pattern_name: 围城内耗
+dramatic_function: 把外部威胁转化为主角身体欲望、羞耻和自责的持续内耗。
+applicability: 适合封闭空间生存题材；若只写怪物攻击而无内在诱因会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 吸血鬼夜袭
+- 女性挑逗围屋
+- Cortman喊门
+tags:
+- 围城
+- 孤独
+- 内耗
+- 诱惑
+source_scenes:
+- novel: I Am Legend
+  scene_id: S01
+  note: 夜间围困通过声音和欲望逼近，主角几乎主动开门。
+- novel: I Am Legend
+  scene_id: S02
+  note: 一次时间失误把日常防线变成濒死突破。
+phase_affinity:
+- 1
+- 2
+- 5

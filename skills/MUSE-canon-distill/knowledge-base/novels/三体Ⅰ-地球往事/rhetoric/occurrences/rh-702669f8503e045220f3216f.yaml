@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-702669f8503e045220f3216f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1891
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 大厅陷入一片静默
+sensory_mapping: 向下坠落；空间包围；声音抽离；群体停顿
+context_fact: 许多ETO成员第一次听到统帅完整讲述，人群同时消化文明背叛的起源。
+image_mechanism: 静默从缺少声音变成大厅地面下陷形成的区域，众人的话语和动作一同落进去，历史重量因此获得垂直方向。
+property_alignment: 群体不语对应落入静区；大厅整体安静对应区域包围；讲述造成震动对应下陷触发；停顿延长对应暂时无法爬出
+context_alignment: 讲述刚把所有人带回红岸往事，陷落感让听众从眼前叛乱现场短暂离席，进入共同回忆。
+narrative_function: 为汪淼追问组织发展留出吸收间隙，并标出讲述的群体冲击。
+transfer_rule: 用陷入写沉默时，应有明确触发、群体声音骤停、空间性覆盖和非瞬时停顿。
+failure_boundary: 只是礼貌停顿、仍有局部交谈或安静由隔音设备造成时，陷落会夸大心理重量。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 叶文洁讲完红岸历史后，全厅人员停止交谈并沉入持续安静
+vehicle: 一处空间或身体向下落入有厚度、能包围人的静默区域
+ground: 声音消失对应进入静区；沉默覆盖全厅对应落入物包围；状态持续对应陷下后难立即脱离

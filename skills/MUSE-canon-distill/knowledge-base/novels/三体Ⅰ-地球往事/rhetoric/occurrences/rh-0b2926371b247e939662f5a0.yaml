@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0b2926371b247e939662f5a0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2596
+chapter: 第34章 智子
+figure_type: analogy
+quote: 我们能轻易从上方进入平面上的一个圆，而平面上的二维生物永远不可能，除非它打破那个圆
+sensory_mapping: 纸上圆圈；手从上方落入；闭合边界；破圈；维外绕行
+context_fact: 智子要进入地下控制室，元首误以为它必须穿透地层。
+image_mechanism: 地下墙壁被压成纸上圆线，对三维居民它封闭全部方向，对高维智子却漏出整片上方；所谓穿墙被改写为绕过边界维度。
+property_alignment: 控制室对应圆内区域；墙和地层对应圆周；三维人对应二维生物；智子对应三维观察者；高维路径对应从上方进入；破墙对应二维生物打破圆
+context_alignment: 显式卡L2593解释高维为何能看见内部，本卡进一步解释为何能进入内部，功能不同。
+narrative_function: 纠正穿透材料的错误直觉，说明智子无视任何三维封闭设施的能力。
+transfer_rule: 用高一维进入封闭区时，应对应低维边界的闭合、额外方向、高维绕行和低维主体只能破边进入。
+failure_boundary: 边界限制来自加密、场相互作用而非几何封闭，或高维实体仍受材料耦合阻挡时，纸圆模型不能保证进入。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 高维智子无需穿破三维墙壁，可沿额外维度直接进入任意三维封闭空间
+vehicle: 三维人从纸面上方把手放进一个二维闭合圆内，而纸上生物只能破坏圆周才能进入
+ground: 三维房间对应二维圆；墙壁对应圆周；额外维入口对应纸面上方；低维居民受困对应只能沿平面穿边界

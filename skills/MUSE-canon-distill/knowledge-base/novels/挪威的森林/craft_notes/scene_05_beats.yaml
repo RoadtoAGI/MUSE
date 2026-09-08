@@ -1,0 +1,28 @@
+scene_id: '05'
+source_notes: scene_05_beats.md
+patterns:
+- pattern_id: 05-p1
+  beat: 环境建置
+  dimension: camera
+  original_move: 近中远推镜定位孤独空间
+  ai_default_failure: 会直说我很孤独
+  transfer_rule: 孤独先落实为空间坐标
+  quote: 天台上空无人影
+- pattern_id: 05-p2
+  beat: 萤火虫行为
+  dimension: verb
+  original_move: 连续微动作替代人的心理
+  ai_default_failure: 会把萤火虫解释成主角
+  transfer_rule: 象征物只写行为不翻译意义
+  quote: 一摇一晃地绕着螺栓
+- pattern_id: 05-p3
+  beat: 飞去与消失
+  dimension: overall
+  original_move: 用光的残像收束不可触及感
+  ai_default_failure: 会给出希望或决定
+  transfer_rule: 象征结尾保留触觉空缺
+  quote: 指尖毫无所触
+overall_traits:
+- 拒绝翻译象征
+- 微观观察替代抽象抒情
+- 静慢快静复制真实等待

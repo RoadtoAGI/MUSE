@@ -1,0 +1,44 @@
+work_id: macbeth
+title: Macbeth
+title_zh: 麦克白
+author: William Shakespeare
+editor: Jonathan Bate and Eric Rasmussen (RSC Shakespeare)
+source_medium: stage_play
+dramatic_form: tragedy
+language: en
+period: early_modern
+country: en-GB
+rights_status: public_domain_original_text
+length_estimate: 5_acts_27_scenes_approx_18k_words
+verse_or_prose: mixed                          # 韵文为主 + Porter A2S3 / Lady Macbeth A5S1 等散文段
+notes: |
+  以 RSC Shakespeare（Modern Library 2009 edn., ed. Bate & Rasmussen）为底本，
+  收录 Folio 文本及 RSC 编辑断行。RSC 版 Act 5 切为 7 场（与传统 Riverside / Norton
+  的 8 场切法略异——RSC 把 Dunsinane 内/外某些短场合并 / 重编），本分析严格按 RSC
+  断场命名（A5S1...A5S7）。
+  Hecate 戏份（A3S5 + A4S1 部分）一般认为是 Middleton 后期插入（与 The Witch 共享文本），
+  RSC 仍保留，本分析不剔除——按 Folio 既有文本结构分析。
+  Songs（"Black spirits" / "Come away" 见原文 5735 行起）一般认为出自 Middleton，
+  作为附录在 phase5 标记，不进 dramatic_scene_index 主体。
+  Macbeth 是莎翁最短最快的悲剧（"shortest, quickest tragedy" — Bate intro），
+  五幕 27 场即收束，结构密度极高，每场都承重——非常适合 medium_grammar 学习。
+
+reference_lanes:
+  allowed:
+    - canon_facts
+    - story_design
+    - scene_function
+    - medium_grammar
+    - dramatic_surface_style
+  forbidden:
+    - prose_surface_style                       # 戏剧不能贡献 prose 文风
+
+default_consumption:
+  novel_writing:
+    phase0_to_4: allowed_as_story_design        # 跨媒介学结构 OK（弑君驱动 / 良知崩解力学）
+    phase5: allowed_as_scene_function_transform # 场景功能可借鉴（如 banquet ghost scene），但需 transform
+    phase6: forbidden_as_prose_style            # 韵白节奏不可作 prose few-shot
+  screenplay_writing:
+    phase0_to_4: allowed_as_story_design
+    phase5: allowed_as_dramatic_scene_function
+    phase6: allowed_if_target_medium_matches    # 同 stage_play 才能直接 fewshot

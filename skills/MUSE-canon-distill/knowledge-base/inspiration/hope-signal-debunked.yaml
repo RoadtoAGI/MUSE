@@ -1,0 +1,29 @@
+card_id: hope-signal-debunked
+pattern_name: 远程信号·希望收窄
+dramatic_function: 用不完整电话、广播或迟到消息改写希望判断，并压缩人物可选行动。
+applicability: 适合威胁难以直见且信息不完整的场景；通信可即时核验时悬念会迅速消散（单书孤证，验证面窄）
+reuse_candidates:
+- 坠地的水瓶
+- 只响一声的电话
+- 全队停止发信息
+- 重复播放的广播
+- 恢复信号后才到达的消息
+tags:
+- 场外威胁
+- 异常信号
+- 通信风险
+- 信息压力
+source_scenes:
+- novel: 狂病-莫千回
+  scene_id: DT-S08
+  note: 水瓶坠地先暴露失态；一声挂断促使杨和修推断铃声可能暴露父亲，全队因此停止联系，父亲实况仍未知。
+- novel: 狂病-莫千回
+  scene_id: TG-S08
+  note: 官方广播先带来狂喜，重复播放与缺失的警告信息又将清晰信号改成负担。
+- novel: 狂病-莫千回
+  scene_id: DT-S11
+  note: 半小时前的群消息在走出隧道后才抵达，其迟到本身完成远程援助线的告别。
+phase_affinity:
+- 3
+- 4
+- 5

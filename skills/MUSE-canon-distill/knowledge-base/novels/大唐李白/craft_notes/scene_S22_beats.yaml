@@ -1,0 +1,14 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 酒壶
+  dimension: overall
+  original_move: 极实婚仪后骤然落入超自然破局
+  ai_default_failure: 按现实冲突解决障车骚乱
+  transfer_rule: 长篇终章可让旧物奇迹化回返
+  quote: 从天穹之中落下
+overall_traits:
+- 考据即叙事
+- 极实之后骤转极虚
+- 以邀饮替代感伤收束

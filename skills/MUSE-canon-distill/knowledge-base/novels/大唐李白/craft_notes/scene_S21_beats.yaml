@@ -1,0 +1,14 @@
+scene_id: S21
+source_notes: scene_S21_beats.md
+patterns:
+- pattern_id: S21-p1
+  beat: 曲终人散
+  dimension: camera
+  original_move: 设置三重锦幛却不给真相揭示
+  ai_default_failure: 揭开帘幕后安排重逢或告白
+  transfer_rule: 寻找戏可用空无反转期待
+  quote: 揭开一重又一重的锦幛
+overall_traits:
+- 声音是唯一存在证明
+- 帘幕后没有传统真相
+- 续词完成情感闭环

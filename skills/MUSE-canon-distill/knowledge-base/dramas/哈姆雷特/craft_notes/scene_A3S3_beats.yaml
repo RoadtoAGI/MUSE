@@ -1,0 +1,39 @@
+scene_id: A3S3
+source_notes: scene_A3S3_beats.md
+patterns:
+- pattern_id: A3S3-p1
+  beat: 流放令与巨轮论
+  dimension: exchange
+  original_move: 帮凶用堂皇政治哲学为私人谋杀垫场
+  ai_default_failure: 走狗台词写成露骨谄媚
+  transfer_rule: 谄媚以正论形态出现更阴冷
+  quote: 它却好似个庞大的旋涡
+- pattern_id: A3S3-p2
+  beat: 报备偷听
+  dimension: transition
+  original_move: 下一场的死亡装置在本场口头预装
+  ai_default_failure: 装置到用时才出现，悬念缺位
+  transfer_rule: 关键道具与位置提前一场交代
+  quote: 我可躲在帐幕後偷听
+- pattern_id: A3S3-p3
+  beat: 国王忏悔独白
+  dimension: monologue
+  original_move: 反派以两难推理自审，是论证不是抒情
+  ai_default_failure: 反派忏悔写成空泛悔恨抒情
+  transfer_rule: 给反派一段诚实独白，罪责才有重量
+  quote: 我的罪行之恶臭, 已贯冲云霄
+- pattern_id: A3S3-p4
+  beat: 举剑与收剑
+  dimension: blocking
+  original_move: 跪祷与持剑同台异层互不知觉，观众全知
+  ai_default_failure: 让国王察觉杀机，提前进入对峙
+  transfer_rule: 杀机与忏悔可并置而不接触
+  quote: 现在容易动手了
+- pattern_id: A3S3-p5
+  beat: 祷告失效对句
+  dimension: overall
+  original_move: 收手理由当场被证伪，延宕变成命运玩笑
+  ai_default_failure: 不揭穿祷告无效，双重反讽丢失
+  transfer_rule: 让阻止行动的前提在观众眼前失效
+  quote: 我的心志仍留滞於地
+overall_traits: []

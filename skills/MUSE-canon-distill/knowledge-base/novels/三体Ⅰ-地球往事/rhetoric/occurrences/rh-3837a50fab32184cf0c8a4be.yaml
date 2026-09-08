@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3837a50fab32184cf0c8a4be
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1321
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 来回走着，好像我是个很棘手的东西，不知道如何处理似的
+sensory_mapping: 触觉尖刺；手部处置；踱步犹豫
+context_fact: 老师既确认魏成有数学天分，又判断他不会珍惜，无法用普通辅导方法管理。
+image_mechanism: 复杂学生被缩成一件必须拿起却处处扎手的实体，老师的踱步像围着物件找握点；教育难题由抽象变成触觉风险。
+property_alignment: 天赋值得培养对应物件不能丢弃；性格懒散对应表面有刺难操作；老师不知道辅导或放弃对应找不到安全处置方式
+context_alignment: 由魏成自嘲叙述，把自己的不可管理物化为“东西”，符合他疏离、懒散的自我评价。
+narrative_function: 用老师的身体反应刻画魏成天分与性格的矛盾。
+transfer_rule: 写难处理的人时，应说明其何处有价值、何处制造触觉式风险，以及处理者为何不能简单放下。
+failure_boundary: 对象只是任务繁重、没有性格反作用或处理者已有清晰办法时，棘手物会把普通困难人格化。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 老师面对天赋极高却懒散、不肯展示推导的魏成时的为难
+vehicle: 带刺、难以下手且找不到合适处置方式的棘手物件
+ground: 魏成价值高却不配合常规教育对应物件重要但难握持；老师来回思索办法对应处理者寻找不扎手的下手位置

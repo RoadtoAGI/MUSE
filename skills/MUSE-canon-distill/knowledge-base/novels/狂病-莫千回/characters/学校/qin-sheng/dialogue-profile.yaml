@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:学校--qin-sheng
+work_id: novel:狂病-莫千回
+display_name: 秦胜哥
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '秦胜哥的话是四人里最外放、最带情绪起伏的：平时带着"想揍他一顿的骄傲"开玩笑（说自己"奋战一夜只想回宿舍充电"），危机里则是直接的催促、提议和争辩——"快走""快点关门""留在这里弹尽粮绝只能饿死"，永远在推动一个动作。他崩溃时声音会失控成大骂和哭吼（骂舍友把事都压在他身上、朝狗子吼"为什么变成这样"）。最有标志性的是他的"自我麻痹腔"：跳楼前反复念叨"三楼而已，多了一层楼而已，不会出事的，不会出事的"——同一句重复，分不清是在安慰「我」还是安慰自己。
+
+
+    佐证：scenes/scene_XX-S01.md:L13-L13 / scenes/scene_XX-S07.md:L23-L23 / scenes/scene_XX-S10.md:L15-L15'
+  evidence_locators:
+  - scenes/scene_XX-S01.md:L13-L13
+  - scenes/scene_XX-S07.md:L23-L23
+  - scenes/scene_XX-S10.md:L15-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

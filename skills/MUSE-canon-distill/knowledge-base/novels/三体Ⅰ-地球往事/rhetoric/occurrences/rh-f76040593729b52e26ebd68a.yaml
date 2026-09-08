@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f76040593729b52e26ebd68a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1796
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 研究到了山穷水尽的地步
+sensory_mapping: 山路封堵；河流断尽；空间尽头；停步；孤立
+context_fact: 太阳表面无活动却出现辐射突变，短波又不可能来自核心，她准备提交无能为力的报告。
+image_mechanism: 研究路线被画成穿山沿水的旅途，每项数据分析是一段路，半年后所有出口同时在崖壁和枯水处结束；放弃成为不得不停步。
+property_alignment: 研究目标对应旅程终点；理论与数据方法对应山水道路；反复失败对应道路逐条封闭；无新证据对应水源耗尽；提交失败报告对应在绝路停下
+context_alignment: 她随后因偶然翻阅木星论文发现新路，绝境后的转向使熟语获得清晰叙事结构。
+narrative_function: 压缩半年失败并把偶然突破安排成绝路之后突然出现的岔道。
+transfer_rule: 用山穷水尽写研究时，应列明已耗尽的路线、封堵原因和当时确实缺少下一步。
+failure_boundary: 仍有明显实验未做、放弃主要因资源或意愿不足时，绝路会把未探索误写成不可探索。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁半年研究仍无法解释太阳窄频辐射突变，现有数据和理论路径均已用尽
+vehicle: 行路者走到群山和水路都终止的绝境，前方再无可通道路
+ground: 可尝试方法全部失败对应山路水路都到尽头；决定放弃对应行者无法继续前进

@@ -1,0 +1,28 @@
+scene_id: '20'
+source_notes: scene_20_beats.md
+patterns:
+- pattern_id: 20-p1
+  beat: 三次拒绝与任命
+  dimension: verb
+  original_move: 关键动词「不理会」复现，三次赐礼三次拒绝构成仪式韵律
+  ai_default_failure: 每次拒绝后插入主角内心波动与强自镇定的描写
+  transfer_rule: 单行道式决意用动作复沓表达，把拒绝当背景噪音
+  quote: 「如果我回头，一切就都完了」
+- pattern_id: 20-p2
+  beat: 走入火焰
+  dimension: verb
+  original_move: 火用舞者式软动词写成迎接，破壳骤转「咔啦」硬声响
+  ai_default_failure: 加「深吸一口气」「最后回望」「心跳如鼓」的过渡
+  transfer_rule: 用动词硬度切换承载隐喻，恐惧的缺席即人物笃信
+  quote: 「咔啦，声音好似顽石挣裂」
+- pattern_id: 20-p3
+  beat: 龙吸乳众人跪
+  dimension: camera
+  original_move: 从主观视角跳切到乔拉外部视角，以圣像构图重新看见她
+  ai_default_failure: 填满火中经历的空白，并让主角开口宣告胜利
+  transfer_rule: 奇迹时刻切旁观者之眼呈现，主角沉默、机制不解释
+  quote: 「在一片灰烬之中找到了她」
+overall_traits:
+- 仪式递进把不可信行动拆为不可逆微步骤
+- 信息不对称悬念：乔拉的恐惧作读者情绪代理
+- 多组「三」的回响结构，与斩首场景死生对位

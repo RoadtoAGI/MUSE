@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f0bffc0c49ab84e78c6d6c0b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1005
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 墨子说的这件事将他所想的全推翻了
+sensory_mapping: 空间结构；施力；倒塌动作
+context_fact: 汪淼本来已形成一个模糊理论，太阳突然熄灭且飞星随即出现与其预测冲突。
+image_mechanism: 尚未说出的理论被立成一座有支撑的构造，新事实撞上关键支点，整套思路由站立状态变为倒地废件。
+property_alignment: 理论前提对应结构支撑；反例冲击前提对应推力作用支点；解释整体失效对应构造全部倒下
+context_alignment: 汪淼的理论仍模糊而脆弱，一个明确反例足以整体否定，“全”准确表现未留局部可用空间。
+narrative_function: 展示新天象信息的破坏力，迫使汪淼从头寻找模型。
+transfer_rule: 用推倒写观点失效时，应指出新证据击中了哪类支撑，以及为何局部冲突足以牵连整体结构。
+failure_boundary: 证据只需小幅修正参数、理论仍保留主体时，“全推翻”会夸大反驳范围。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 飞星事实使汪淼原先关于三体世界的理论失去成立基础
+vehicle: 外力把已搭起的结构整体推倒
+ground: 新事实反驳关键前提对应力量击倒支撑点；原有解释无法继续使用对应结构倒塌后失去功能

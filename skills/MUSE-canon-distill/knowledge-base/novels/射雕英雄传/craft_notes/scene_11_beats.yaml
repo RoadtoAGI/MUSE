@@ -1,0 +1,27 @@
+scene_id: '11'
+source_notes: scene_11_beats.md
+patterns:
+- pattern_id: 11-p1
+  beat: 微笑的尸体
+  dimension: omission
+  original_move: 只给微笑与冰凉的物理反差，不解释临终心理
+  ai_default_failure: 猜测死者临终心理替读者定调
+  transfer_rule: 尸体留谜面时只写物理反差，解释延后数章兑现
+  quote: 嘴角仍留微笑，身上却早已冰凉
+- pattern_id: 11-p2
+  beat: 语法碎裂
+  dimension: verb
+  original_move: 用自问自答的碎裂语法呈现精神崩溃
+  ai_default_failure: 写血丝紧拳被掏空等外部惨状描写
+  transfer_rule: 写崩溃时让句法先碎，省去身体惨状形容
+  quote: 是吗？是要先葬了师父吗？
+- pattern_id: 11-p3
+  beat: 茫然替代愤怒
+  dimension: camera
+  original_move: 镜头从站坐二人推远到月亮轨迹，时间盛放情绪
+  ai_default_failure: 填充大量内心独白写挣扎与委屈
+  transfer_rule: 决裂长夜用天体运动替代心理描写制造距离感
+  quote: 一个站，一个坐
+overall_traits:
+- 沉默与机械动作表达崩溃，毁灭性远超怒吼
+- 天体运动替代情绪叙述，冷静到残忍的距离感

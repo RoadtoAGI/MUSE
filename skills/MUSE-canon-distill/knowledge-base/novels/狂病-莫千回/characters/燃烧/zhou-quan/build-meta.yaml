@@ -1,0 +1,25 @@
+mode: reference
+display_name: 周全
+role_slug: zhou-quan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml  # 仅登记跨篇人物，单篇人物 周全 取结构化依据于下列篇内 spine
+  - pipeline/燃烧/phase3_spine.yaml
+  - scenes/scene_RS-S01.md
+  - scenes/scene_RS-S04.md
+  - scenes/scene_RS-S05.md
+  - scenes/scene_RS-S06.md
+  - scenes/scene_RS-S08.md
+  - scenes/scene_RS-S09.md
+  - scenes/scene_RS-S10.md
+built_at: 2026-05-29T17:14:55+08:00
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S08 对外爆裂 / S06 对盲女平静交代 / S09 赴死交代），稳定性充分。
+  弧光起点（S01）+ 转折（S06/S09）+ 终点（S10）三段齐全。
+  性格真相有压力情境直接佐证（S05 关门舍老刘 / S08 "我不算好人"自白）。
+  边界第 4 条（绝不为顾全和气拿"你"安全冒险）依赖 S04:L7 单点（威胁李太太），属威胁场景而非纯日常观察，可接受但仅单点支撑。
+  周全为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段（欲望/真相/弧光）依据 pipeline/燃烧/phase3_spine.yaml 的 antagonistic_forces.interpersonal + arc_framework 推导，所有断言均有篇内 scene locator 佐证。

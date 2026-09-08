@@ -1,0 +1,28 @@
+scene_id: S27
+source_notes: scene_S27_beats.md
+patterns:
+- pattern_id: S27-p1
+  beat: 藏了二十年的话
+  dimension: verb
+  original_move: 「藏」字压缩二十年，回应不用语言用对饮三杯
+  ai_default_failure: 写郭靖含泪回应并相拥
+  transfer_rule: 感恩告白匹配关系模式，酒杯替代言辞
+  quote: 藏在心中二十余年始终未说
+- pattern_id: S27-p2
+  beat: 汗流浃背暗自心惊
+  dimension: overall
+  original_move: 凯旋顶点写冷汗与心惊，外热内冷叠加
+  ai_default_failure: 插入对过往险路的回顾蒙太奇
+  transfer_rule: 在最该骄傲处写敬畏，恐惧无需列举证据
+  quote: 不由得汗流浃背，暗自心惊
+- pattern_id: S27-p3
+  beat: 大醉而散
+  dimension: omission
+  original_move: 终章四字收束，不交代任何人去向不升华
+  ai_default_failure: 给主要角色归宿交代或抒情升华
+  transfer_rule: 全书已为结尾供足情感，拒绝再加码
+  quote: 群雄直饮至深夜，大醉而散
+overall_traits:
+- 反差即深度：辉煌处写脆弱
+- 极端压缩：千字内收束全书信任读者
+- 角色自己发现对称比叙述者建构有力

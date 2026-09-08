@@ -1,0 +1,45 @@
+card_id: label-cage-expulsion
+pattern_name: 标签即无形对手
+dramatic_function: 让出身标签成为无形对手：压进每次社交与求名，主角每获得位置即被同一标签逐出；重复结构价值递进，制度压力可感
+applicability: 适用于身份规则严密的社会题材；每次退场须价值递进而非换表层事故；主角可轻易改换身份则失效
+reuse_candidates:
+- 杀人犯哥哥
+- 乐队出道
+- 餐厅同学醉话
+- 李白商人之子设定
+- 唐代科举门第制度
+- 西域胡商身世
+tags:
+- 重复变奏
+- 社会排斥
+- 退场机制
+- 结构递进
+- 身份困境
+- 无形对手
+- 制度压力
+- 自我建构
+source_scenes:
+- novel: 信（东野圭吾）
+  scene_id: S05
+  note: 餐厅身份说破后，工作空间气氛变质。
+- novel: 信（东野圭吾）
+  scene_id: S09
+  note: 乐队梦想临近兑现时，被商业理性排除。
+- novel: 信（东野圭吾）
+  scene_id: S12
+  note: 婚恋上升线进入家庭审查后被阶层封锁。
+- novel: 大唐李白
+  scene_id: S06
+  note: 一句「一介白身」把既有身份变成真正困境。
+- novel: 大唐李白
+  scene_id: S08
+  note: 外部肯定被权力场冷处理，位置仍未落实。
+- novel: 大唐李白
+  scene_id: S22
+  note: 婚仪细节把主角正在被制度收编具象化。
+phase_affinity:
+- 1
+- 2
+- 3
+- 4
+- 5

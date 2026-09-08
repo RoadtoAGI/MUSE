@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d4220ded3a32ecfd843af0c1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1107
+chapter: 第13章 红岸之二
+figure_type: metaphor
+quote: 对于她，信任无疑是一种不敢奢望的奢侈品
+sensory_mapping: 物品占有；稀缺性；价格；社会地位
+context_fact: 父亲被杀、母亲背叛、白沐霖嫁祸后，叶文洁在基地仍受监视；雷政委表面上首次给予个人信任。
+image_mechanism: 关系中的基本需要被摆上只有特权者能购买的柜台，叶文洁既看见它又因自身身份不敢伸手；情感匮乏因此有了社会价格。
+property_alignment: 被信任机会罕见对应奢侈品稀缺；政治污点抬高获得门槛对应高价；不敢期待长期拥有对应穷困者不敢奢望购买；雷政委给予信任对应短暂获得贵重物
+context_alignment: 文革语境本应强调平等、反奢侈，信任却成奢侈品，反讽地揭示政治制度制造的情感贫困。
+narrative_function: 解释她为何对雷志成产生强烈感激，也为下一场欺骗加深伤害。
+transfer_rule: 把情感需要写成奢侈品时，应交代稀缺由何种制度或经历制造、主体为何无力取得，以及短暂拥有的风险。
+failure_boundary: 信任在关系中稳定充足、人物只是贪求更多或获得门槛很低时，奢侈品会夸大匮乏。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 在政治审查和长期背叛后，叶文洁极少获得的他人信任
+vehicle: 价格高昂、日常无法取得也不敢期待拥有的奢侈品
+ground: 信任在她生活中极度稀缺对应奢侈品供给少；她的政治身份使获得代价极高对应昂贵物品超出承受能力

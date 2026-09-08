@@ -1,0 +1,24 @@
+card_id: homeland-as-ark
+pattern_name: 家园方舟
+dramatic_function: 把逃亡载体设为故土本身，让生存方案天然带有身份和情感重量。
+applicability: 适合文明迁徙或末日叙事；若载体只是交通工具会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 行星发动机
+- 比邻星航程
+- 地球派飞船派名称
+tags:
+- 家园
+- 迁徙
+- 末日方案
+- 身份绑定
+source_scenes:
+- novel: 流浪地球
+  scene_id: scene_03
+  note: 生态球死亡论证小系统无法替代母体家园。
+- novel: 流浪地球
+  scene_id: scene_04
+  note: 启航把家园从地点转为共同命运。
+phase_affinity:
+- 1
+- 3
+- 4

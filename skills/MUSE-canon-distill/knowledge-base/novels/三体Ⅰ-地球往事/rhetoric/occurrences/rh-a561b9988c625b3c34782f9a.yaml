@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a561b9988c625b3c34782f9a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1223
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 以前天真的理想主义愿望破灭了
+sensory_mapping: 视觉；脆裂声；冲击；不可逆
+context_fact: 研究发现外星接触更可能割裂人类文化、加剧不同文明间冲突。
+image_mechanism: 柔软愿望被铸成一件看似完整的脆物，灾难性研究结论撞入后产生裂纹并崩散；抽象失望获得不可复原的断裂时刻。
+property_alignment: 乐观愿景结构完整对应未碎物体；反证造成认知冲击对应撞击力；愿景不再可信对应碎片无法继续承担原功能
+context_alignment: 紧随“结论令人震惊”，破裂动作把研究从温度上升推进到旧世界观被击碎。
+narrative_function: 标志SETI想象由理想主义转向冲突模型。
+transfer_rule: 用破灭写信念变化时，应指出原信念的完整结构、击中它的证据和为何无法局部修补。
+failure_boundary: 愿望只是暂缓、仍有关键前提保留或证据很弱时，破灭会夸大结论不可逆性。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 外星接触会促成人类团结的乐观预期被新研究否定
+vehicle: 原本完整承压的物体突然碎裂，无法恢复原状
+ground: 新结论击穿愿望前提对应外力超过材料承受；原有整体想象不能继续维持对应物体碎成不可用残片

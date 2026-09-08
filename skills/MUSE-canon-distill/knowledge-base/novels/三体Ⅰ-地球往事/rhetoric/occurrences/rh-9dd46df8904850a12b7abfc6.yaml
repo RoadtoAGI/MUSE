@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9dd46df8904850a12b7abfc6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1068
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 杨母轻轻摆摆手，像拂去面前的一根蛛丝
+sensory_mapping: 视觉；手部动作；触觉轻重
+context_fact: 汪淼提到叶文洁在文革中受苦，她以“过去了”带过，没有展开自己的创伤。
+image_mechanism: 一句沉重历史被压缩成脸前几乎无重量的细丝，手一摆便离开视野；动作的轻与往事的重形成克制反差。
+property_alignment: 轻摆手对应拂丝的小动作；回避苦难话题对应清除眼前干扰；“过去了”对应蛛丝被拂后不再停留
+context_alignment: 年老叶文洁此刻平静淡泊，微小家常动作符合她的克制，也掩住读者已知的巨大创伤。
+narrative_function: 以轻动作表现长期创伤后的压抑和平静，并自然引入红岸回忆。
+transfer_rule: 写人物淡化重负时，可让实际手势对应清除一个极轻小障碍，用动作轻重与事件分量的反差刻画克制。
+failure_boundary: 人物正在激烈控诉、动作粗重或事件确实无足轻重时，蛛丝的轻会失去反差，甚至误判情绪。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁以轻微摆手淡化自己在文革中吃苦的话题
+vehicle: 随手拂掉面前一根细小、轻飘的蛛丝
+ground: 摆手幅度轻微对应拂蛛丝无需用力；把沉重往事说成过去了对应将眼前细微阻碍随手除去

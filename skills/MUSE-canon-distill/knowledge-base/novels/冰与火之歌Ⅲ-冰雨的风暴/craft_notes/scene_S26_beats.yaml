@@ -1,0 +1,35 @@
+scene_id: S26
+source_notes: scene_S26_beats.md
+patterns:
+- pattern_id: S26-p1
+  beat: 隔帐号声
+  dimension: camera
+  original_move: 威胁先以模糊声音进入。
+  ai_default_failure: 会立刻揭示援军身份。
+  transfer_rule: 援军出场先制造信息黑洞。
+  quote: 什么东西过来了
+- pattern_id: S26-p2
+  beat: 三路构图
+  dimension: info_density
+  original_move: 先标方向再展开骑兵冲击。
+  ai_default_failure: 会直接进入冲锋动作。
+  transfer_rule: 万人战先给棋盘再给画面。
+  quote: 正东、东北和正北
+- pattern_id: S26-p3
+  beat: 被困旁观
+  dimension: camera
+  original_move: 琼恩无法行动，只能看战局崩溃。
+  ai_default_failure: 会把POV放进战斗核心。
+  transfer_rule: 无法参与比参与更焦虑。
+  quote: 罗柏回来了
+- pattern_id: S26-p4
+  beat: 鹰燃烧
+  dimension: omission
+  original_move: 只写燃烧结果，不解释魔法原因。
+  ai_default_failure: 会补充法术机制说明。
+  transfer_rule: 魔法介入可先呈现异常结果。
+  quote: 那只鹰燃烧起来
+overall_traits:
+- 被钉住的观察者
+- 战术构图先于动作
+- 错误猜测承载认知差

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-63e97dac856a92565a623b26
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2018
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 无数人在默默地舔着自己的伤口
+sensory_mapping: 伤口疼痛；舌头舔舐；血迹；独处；缓慢愈合
+context_fact: 社会表面进入科学春天，但文革造成的伤害和责任问题尚未真正处理。
+image_mechanism: 人群被还原成一只只带伤动物，没有医院和公共语言，只能低头处理自己的创口；复苏景象下仍布满未结痂的肉身。
+property_alignment: 文革创伤对应开放伤口；个人沉默处理对应独自舔舐；缺乏制度修复对应没有治疗者；时间缓慢恢复对应伤口结痂；无数受害者对应遍地伤兽
+context_alignment: 季节复苏容易显得宏观乐观，舔伤细节把视角拉回个体代价，保持春天之下的残破。
+narrative_function: 限制时代乐观叙述，解释叶文洁为何仍要寻找施害者忏悔。
+transfer_rule: 用舔伤写创伤恢复时，应呈现伤害来源、沉默自助、治疗资源缺失和恢复不彻底。
+failure_boundary: 社会已有公开审判、专业救助和集体修复，或人物积极互助发声时，孤兽舔伤会遮蔽真实行动。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 浩劫后大量受害者各自处理身体、精神、家庭与事业创伤，缺少公开修复和共同清算
+vehicle: 受伤动物独自舔舐开放伤口，缓慢止血清洁却无法彻底治疗
+ground: 个人创伤对应身体伤口；沉默自救对应动物舔伤；修复有限缓慢对应舔舐疗效有限；受害者分散对应各自独处

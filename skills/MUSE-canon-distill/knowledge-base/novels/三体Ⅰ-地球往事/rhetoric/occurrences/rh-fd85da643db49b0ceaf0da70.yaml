@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fd85da643db49b0ceaf0da70
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1267
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: analogy
+quote: 这是一场宇宙橄榄球赛，运动员是三颗太阳，我们的世界就是球
+sensory_mapping: 视觉；竞技运动；牵拉碰撞；空间转移
+context_fact: 行星被某一太阳稳定捕获时为恒纪元，另两日接近会将其夺走并使之游移，之后又可能被另一日捕获。
+image_mechanism: 不可见引力被分配给三双抢球的手，行星从天体主体降为被动球体；每次捕获、夺走和游移都成为赛场上可连续预演的动作。
+property_alignment: 三颗太阳对应三名运动员；引力作用范围对应抢球控制距离；行星对应被争夺的球；稳定轨道对应一人持球；乱纪元游移对应球在争抢中失去稳定归属
+context_alignment: 听众不需掌握方程便能理解“夺走—捕获”的动力过程，激烈球赛也贴合三体世界文明被动承受的残酷。
+narrative_function: 用一句动态类比解释恒乱纪元机制，构成汪淼揭示世界结构的核心论证。
+transfer_rule: 把多体动力系统写成球赛时，应一一分配施力者、被动对象、控制权转换和轨迹后果，使比喻能推演状态变化。
+failure_boundary: 太阳没有意志和比赛规则，引力转移也不等于手持传球；该类比解释控制关系，不能取代三体方程或精确轨道。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三颗太阳以引力轮流捕获、夺取并抛移三体行星的动力学关系
+vehicle: 三名运动员在赛场上争抢、控制并传移一只橄榄球
+ground: 太阳以引力争夺行星对应运动员争抢球权；行星在不同引力区间转移对应球被夺走并传向另一人

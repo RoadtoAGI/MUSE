@@ -1,0 +1,26 @@
+mode: reference
+display_name: 秦正肖
+role_slug: qin-zhengxiao
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/黄金国/phase3_spine.yaml  # antagonistic_forces.interpersonal.layer_3（秦正肖代陆思静混入救男友 = 内部反抗自救线）
+  - pipeline/黄金国/phase5_scenes.yaml  # 秦正肖顶替陆思静混入 + 揭大厦内幕 scene_card
+  - scenes/scene_HJ-S08.md
+  - scenes/scene_HJ-S09.md
+  - scenes/scene_HJ-S11.md
+  - scenes/scene_HJ-S12.md
+  - scenes/scene_HJ-S13.md
+built_at: 2026-05-29T19:35:00+08:00
+skill_version: 1
+locator_count: 10
+has_canon_ending: false
+coverage_note: |
+  大厦内部反抗/自救线代表，证据密度中-高。
+  locator_count=10（按 build/verify 去重口径）。
+  声音框架跨 3 场景（S09 含糊设界保密 / S09 坚定宣言 / S12 不屑顶老张），克制有分寸 + 笃定宣言 + 高压下哭腔三档变化有佐证。
+  边界 4 条分布 S09/S11/S12，跨 3 场景：绝不坐视男友被牺牲（S09 代人外出）/ 绝不在老张面前矮一头（S12 顶回）/ 绝不交出底牌（S09 保密）/ 绝不丢下男友独自求生（S11 坚持留下），均有 scene locator 直接佐证。
+  弧光起点（被拿捏的高层）+ 转折（S09 冷静决定代人外出 / S08 担保稳局）+ 终点（S09 和盘托出内幕 + 宣告"用她的方式拯救倪海鹏"）三段齐全。
+  has_canon_ending: false —— 回 scene 原文核对：秦正肖活到篇末（S11:L31 坚持与男友留下；S13 中罗凯伯仍以"秦正肖会修直升机"为其受重视真因转述，篇末她仍在大厦），无死亡 / 不可逆终局，不产 canon-ending.md。
+  秦正肖为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；archetype（凭稀缺技能换反抗资本的高层女性 / 为爱主动涉险的自救者）取自 phase3 interpersonal.layer_3 内部反抗自救线 + phase5 scene_card，结构化字段依据 spine 推导，所有断言均有篇内 scene locator 佐证。
+  单点支撑维度说明：性格真相"裂隙"中"高压下哭腔求饶"仅 S12:L35 单场佐证（其余冷静自持/不屑顶回为多场）；核心欲望"不自觉欲望"主要靠 S09:L15 的内心盘算单段支撑——属软建议未满项，按"宁可漏不可错"已限定在该具体情境内表述，未外推全称。

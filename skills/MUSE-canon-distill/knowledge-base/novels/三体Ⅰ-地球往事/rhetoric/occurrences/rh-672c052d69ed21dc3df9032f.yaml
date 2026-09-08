@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-672c052d69ed21dc3df9032f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L514
+chapter: 第5章 叶文洁
+figure_type: simile
+quote: 很像是从一场寒冷的噩梦中醒来
+sensory_mapping: 温度；触觉；心理
+context_fact: 第137号文明在绝寒中毁灭后，汪淼退出V装具。
+image_mechanism: V装具画面被重划为梦境，摘头盔成为睁眼，内衣冷汗则把虚拟严寒带过梦/醒边界。
+property_alignment: 感应服严寒对应梦中身体冷感；摘装具回实验室对应从梦返回现实；冷汗惊惧残留对应噩梦醒后生理反应
+context_alignment: 体验介于梦与现实，生理证据使“寒冷”并非空泛形容。
+narrative_function: 连接游戏灾难与现实焦虑。
+transfer_rule: 把沉浸媒介比作梦时，应对应进入/退出边界、感官残留和现实校验三项。
+failure_boundary: 旁观式游戏、没有身体反馈或退出后情绪立即清零时，不具备噩梦醒后的残留。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 退出游戏后冷汗湿透、惊惧未消的汪淼
+vehicle: 从具有真实寒感的噩梦中惊醒的人
+ground: 感应服严寒对应梦中身体冷感；摘装具回实验室对应从梦返回现实；冷汗惊惧残留对应噩梦醒后生理反应

@@ -1,0 +1,28 @@
+scene_id: S28
+source_notes: scene_S28_beats.md
+patterns:
+- pattern_id: S28-p1
+  beat: 选剑
+  dimension: info_density
+  original_move: 磁力设定压到最后释放，先推情节终成情感符号
+  ai_default_failure: 开头就补铸剑来历的设定说明
+  transfer_rule: 隐喻在叙事终点自然浮现，不提前点破
+  quote: 剑犹如此，人岂不若？
+- pattern_id: S28-p2
+  beat: 分而复合
+  dimension: verb
+  original_move: 接过、拚着、护住——动词都带「为对方」方向
+  ai_default_failure: 写你一招我一招的乒乓交替
+  transfer_rule: 搭档战斗用关系状态驱动而非招式序列
+  quote: 小龙女当即回剑护住杨过顶心
+- pattern_id: S28-p3
+  beat: 情花毒发
+  dimension: omission
+  original_move: 不解释毒理只写因果：动情即痛，人人都懂
+  ai_default_failure: 补毒素侵入心脉的机制说明
+  transfer_rule: 设定上升为存在隐喻时，机制不必解释
+  quote: 回首凝视杨过……右手手指剧痛
+overall_traits:
+- 快慢锚点是情感浓度：越深情越慢
+- 战斗内心只许关注对方，战术全外化
+- 心与剑同构：配合质量即情感质量

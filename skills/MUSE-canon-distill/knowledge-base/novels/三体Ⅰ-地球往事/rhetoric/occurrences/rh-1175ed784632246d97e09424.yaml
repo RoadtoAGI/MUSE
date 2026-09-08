@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1175ed784632246d97e09424
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1042
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 如果将太阳看成一只眸子，这个日核就像瞳孔
+sensory_mapping: 视觉；同心几何；明暗密度
+context_fact: 汪淼透过滤镜辨认出太阳由飘忽外层和小而致密的核心构成。
+image_mechanism: 先把整个太阳圆面改造成一只凝视者的眼睛，再把内部同心小圆锁定为瞳孔；陌生天体结构因此变成一眼能分层的面部器官。
+property_alignment: 外层大圆包围日核对应眼眸包围瞳孔；日核位居中心对应瞳孔同心位置；日核明亮致密与外层飘忽的反差对应瞳孔与周围眼面材质差
+context_alignment: 上一处大地刚睁开无数眼睛，太阳之眸延续观看意象，也服务汪淼正在望远镜中反向凝视太阳。
+narrative_function: 清楚标出日核并强化天体仿佛回望观察者的异样感。
+transfer_rule: 描写同心结构时，可借读者熟悉的器官分层，但必须对齐中心位置、尺寸比例和内外材质差。
+failure_boundary: 核心偏离中心、边界不成圆或内外没有视觉反差时，瞳孔关系会提供错误结构信息。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 太阳飘忽外层中央那颗小而明亮致密的日核
+vehicle: 眼眸中央边界清楚、颜色和质地集中的瞳孔
+ground: 小日核位于较大圆面中央对应瞳孔居于眼球中央；日核致密醒目对应瞳孔比周围眼白/虹膜更集中

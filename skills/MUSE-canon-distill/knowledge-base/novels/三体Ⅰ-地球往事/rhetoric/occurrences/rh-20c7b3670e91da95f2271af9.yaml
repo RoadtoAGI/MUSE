@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-20c7b3670e91da95f2271af9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1796
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 社会上疯狂的浪潮渐渐平息
+sensory_mapping: 海浪；轰鸣；起伏；水面平息；余波
+context_fact: 雷志成判断政治成熟兼有学术造诣的人将更受重视，因此谋取叶文洁的论文和成果。
+image_mechanism: 社会被铺成受风暴驱动的海，政治口号和清洗是一层层高浪；浪头虽开始落下，水中权力流向仍让投机者调整航向。
+property_alignment: 政治运动对应海上风暴；群众狂热对应高浪；运动波及全社会对应浪潮广布；政策要求变化对应水流转向；强度减弱对应浪面渐平
+context_alignment: “渐渐”保留过渡期余波，雷志成仍以政治图解阻止实验，说明海面未真正平静。
+narrative_function: 交代政治环境微变及雷志成争夺学术资本的机会判断。
+transfer_rule: 用浪潮写社会运动时，应对应推动力量、传播范围、强度起伏和退潮后仍在的余流。
+failure_boundary: 变化局部静态、没有大规模传播或突然一刀切结束时，渐平浪潮会误写机制与速度。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 文革时期高强度政治运动开始减弱，社会评价干部的标准出现变化
+vehicle: 风暴激起的巨大海浪逐渐降低，水面从汹涌恢复平稳
+ground: 群众运动强度和覆盖面巨大对应浪潮席卷海面；政治狂热衰减对应波高逐步下降

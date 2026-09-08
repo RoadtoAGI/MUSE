@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8a8162aacc5fd720f7efdf68
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1347
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 好像在看着她的祈求随着香烟袅袅升到佛祖那里
+sensory_mapping: 视觉；向上运动；烟气；语言传递
+context_fact: 她在佛像前烧香，反复祈求佛祖保佑另一位“主”脱离苦海，完全不理会魏成。
+image_mechanism: 无形话语被缠在一缕有形烟上，每个音节随烟弯曲上升；闭着的眼睛仿佛仍能沿这条路线看见祷告抵达超越者。
+property_alignment: 祈求发出对应香烟从香头生起；目标在神圣高处对应烟向上升；传递过程不可触对应烟轻而袅袅；虔诚信念对应视线追随直至抵达
+context_alignment: 香烟本就是宗教仪式中连接人神的感官媒介，异教之主的内容又令常见上升图像产生怪异偏转。
+narrative_function: 把申玉菲的信念强度视觉化，同时加深“佛祖救我主”的宗教谜团。
+transfer_rule: 把祷告写成随烟传递时，应对齐发源点、上升方向、目标位置和信者的观看/等待动作。
+failure_boundary: 没有焚香、祈祷对象不在超越高处或人物只机械念词而无信念时，烟路会成为通用宗教装饰。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 申玉菲闭眼合什时确信自己的无声祈求能够抵达佛祖的虔诚姿态
+vehicle: 祈祷化成附着香烟、沿可见烟路上升的轻质物
+ground: 话语从人间指向神明对应烟由下向上；祈求不可见却似被她注视对应烟迹让传递路径显形

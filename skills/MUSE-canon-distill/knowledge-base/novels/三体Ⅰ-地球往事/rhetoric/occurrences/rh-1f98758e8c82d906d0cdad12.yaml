@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1f98758e8c82d906d0cdad12
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1620
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 在晨光中像大地上生长的巨型水晶植物
+sensory_mapping: 视觉；材质；垂直生长；光泽
+context_fact: 本轮三体文明已进入现代，干仓采用全反射镜面以适应恶劣日照，分散在联合国大厦远处。
+image_mechanism: 硬质工业建筑沿地表获得生物生长方向，镜面又把金属冷感转成晶体透明感；文明设施像适应环境而演化出的本土物种。
+property_alignment: 干仓从地面耸立对应植物扎根生长；多个建筑散布对应植群；全反射表面对应水晶光泽；高大分枝轮廓对应巨型植株
+context_alignment: 三体人外表也被推测有镜面，水晶植物让建筑技术看似环境进化产物，同时保持陌生非人美感。
+narrative_function: 用一幅景观交代文明技术升级，并建立冷晶、现代的世界风格。
+transfer_rule: 把建筑群写成植物时，应对应扎根位置、竖向轮廓、群落分布和材质如何模拟枝叶。
+failure_boundary: 建筑低矮封闭、表面吸光粗糙或规则网格与生长形态无关时，水晶植物会只剩漂亮标签。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 散布地表、表面全反射且高耸的现代干仓建筑
+vehicle: 从土中长起、枝体透明闪亮的巨大水晶植物
+ground: 建筑高耸扎根地面对应植物从土中生长；镜面反射晨光对应水晶枝叶折射闪耀

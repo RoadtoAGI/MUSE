@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4e737777b46b8867b4d19074
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2700
+chapter: 第36章 尾声·遗址
+figure_type: analogy
+quote: 云海在阳光下一片银白，那起伏的形状，仿佛是云下的大兴安岭某种形而上的抽象再现
+sensory_mapping: 银白云浪；山脊节律；上下叠影；材质抽空；形态模型
+context_fact: 登峰者已越过云层，真实大兴安岭藏在云下，只能看见其上方云海的起伏。
+image_mechanism: 云层像一张柔软的拓印纸覆在群山上，接收山势却抹去森林和岩土；观者看到的是地貌关系脱离实体后的白色思想图。
+property_alignment: 云海波峰对应山脊；云谷对应山谷；覆盖关系对应拓印来源；银白同质对应抽去地物颜色；无固体重量对应形而上抽象；整体延展对应大兴安岭尺度
+context_alignment: 红岸实体设施已消失，云海以抽象形态保留山岭，和记忆保留事件结构而失去现场痕迹互相映照。
+narrative_function: 使结尾景观同时容纳可见云海与不可见故地，为历史消失主题建立空间模型。
+transfer_rule: 用抽象再现写自然叠影时，应指出原物、被保留的形式关系、被删除的具体材质及两者空间因果。
+failure_boundary: 云面平坦不随山势、下方并非对应地貌，或比照只因二者都起伏而无覆盖关系时，形而上再现会显玄虚。
+quality_assessment: exemplary
+confidence: 0.98
+review_status: reviewed
+tenor: 峰顶俯看的银白云海，其波状起伏在形态上复现被遮住的大兴安岭山岭
+vehicle: 把具体山林抽去树木、岩石、颜色和重量后，只保留高低节律与整体关系的抽象模型
+ground: 云浪起伏对应山岭起伏；云层覆盖在山上却保留其形势对应抽象再现；银白统一材质对应去除具体物性

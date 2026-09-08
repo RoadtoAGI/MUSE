@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ed8889b02ada93a81e3cffbf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2006
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 仿佛是某片从别的人生中飘落的片断，像一片羽毛般飞入自己的生活
+sensory_mapping: 羽毛轻触；空气漂浮；缓慢落下；人生边界；偶然飞入
+context_fact: 她在农家被多人照料、共同哺育杨冬，体验到浓烈温热而宁静的乡村生活。
+image_mechanism: 人生被分成各自完整的长卷，齐家屯半年从另一卷边缘脱落，减重成一片羽毛，越过创伤主线轻轻落入她的生活，却没有牢固缝合。
+property_alignment: 叶文洁原有人生对应主卷；齐家屯生活对应外来片断；体验不似自身对应来自别的人生；到来偶然对应羽毛随风；时段短暂对应羽毛轻停；记忆柔软对应羽毛触感
+context_alignment: 前后人生充满政治暴力和宇宙背叛，齐家屯的温热确像异质材料，轻盈感准确表现她不敢认领幸福。
+narrative_function: 标出这一段生活在人物传记中的异质性，同时保存其短暂疗愈作用。
+transfer_rule: 用外来羽毛写人生片段时，应有明显风格断层、偶然进入、轻柔体验和未完全归属的感觉。
+failure_boundary: 时段由人物长期规划、与其生活主线连续且影响稳固时，飘来羽毛会误写主体性和因果。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 齐家屯半年温暖安宁的记忆与叶文洁其余冷硬人生脱节，显得偶然、轻盈而不真实
+vehicle: 属于另一只鸟或另一段天空的羽毛脱落后随风飘来，短暂落入陌生人的空间
+ground: 这段生活风格与其余经历不同对应片断原属别的人生；偶然进入且轻柔短暂对应羽毛随风飘落

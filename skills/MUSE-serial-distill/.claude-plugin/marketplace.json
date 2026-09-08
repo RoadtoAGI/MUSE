@@ -1,0 +1,19 @@
+{
+  "name": "muse-serial-distill",
+  "owner": {
+    "name": "RoadToAGI"
+  },
+  "metadata": {
+    "description": "MUSE 连载拆解姊妹包 — 长篇连载小说 → 结构化设计资产（参考语料 / 接管续写基线）",
+    "version": "0.3.0"
+  },
+  "plugins": [
+    {
+      "name": "muse-serial-distill",
+      "source": "./",
+      "description": "长篇连载拆解：名著/成熟长篇蒸馏为连载范式参考语料；用户在连作品拆解为接管续写基线（大纲树 + 伏笔/世界事实/角色传记台账）",
+      "version": "0.3.0",
+      "strict": false
+    }
+  ]
+}

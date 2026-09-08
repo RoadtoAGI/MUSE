@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-303d4d209e1cba628efe005c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2628
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 这些‘神迹’将制造一种足以将人类科学思想引上歧途的氛围
+sensory_mapping: 道路分岔；弥漫雾气；假路标；被牵引转向；远离正途
+context_fact: 三体计划让二维展开的智子包住地球并调节背景辐射等观测，以遏制物理学以外的科学。
+image_mechanism: 看似无形的思想环境凝成罩住道路的雾，连续神迹像一块块假路牌；研究者依观测转弯后，会在自洽却错误的路线中继续前进。
+property_alignment: 科学发展对应旅行；科学方法对应正路；神迹现象对应假路标；恐惧迷惑对应雾气；非科学解释对应岔路；长期认知偏移对应越走越偏
+context_alignment: 智子能直接篡改胶片、视网膜和宇宙背景，所谓氛围具有遍布感官的物理材料，足以真正改变判断方向。
+narrative_function: 说明神迹计划的目标不止制造惊吓，而是系统改变知识生产的方向。
+transfer_rule: 用歧途写认知操纵时，应给出原有判断路线、诱导信号、转向节点、错误路径的持续性和回到正途的困难。
+failure_boundary: 假象只出现一次、研究者有可靠校准源，或不同证据迅速暴露路标矛盾时，氛围不足以把整个科学思想引偏。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 智子反复制造无法用现有科学解释的现象，使人类研究和社会认知转向非科学解释体系
+vehicle: 人为布置的迷雾包围行路者，并把他从正确道路诱导到错误岔路，越走越远
+ground: 科学推理对应行路；正确方法对应正途；神迹假象对应诱导标记和迷雾；非科学思维对应歧途；持续误判对应沿错路深入

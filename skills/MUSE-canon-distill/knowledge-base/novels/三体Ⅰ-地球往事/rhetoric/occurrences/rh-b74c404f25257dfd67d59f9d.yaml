@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b74c404f25257dfd67d59f9d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1395
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 感觉自己和这个穿警服的女孩的距离一下子拉近了
+sensory_mapping: 空间距离；拉动；关系亲近；瞬时变化
+context_fact: 两人刚认识且身份一警一民，徐冰冰主动说汪淼在《三体》中威望很高。
+image_mechanism: 警服、年龄和陌生感先构成两人之间的空隙，《三体》像一根突然收紧的绳，把两端拖近到可低声交换情报的位置。
+property_alignment: 彼此陌生对应空间间隔；共享游戏知识对应连接绳；信任增加对应距离缩短；变化突然对应拉力瞬时作用
+context_alignment: 《三体》正把全球陌生人聚成网络，同一机制在警车后排缩演为两个人因秘密共同体接近。
+narrative_function: 迅速建立汪淼向徐冰冰追问信息的心理许可。
+transfer_rule: 用拉近写关系时，应明确初始隔阂、产生吸引或连接的共同点和随后的交流变化。
+failure_boundary: 共同话题没有增加信任、双方利益仍冲突或只是物理坐近时，关系拉近会把礼貌误作亲密。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 徐冰冰也了解《三体》后，汪淼对她的陌生和戒备迅速减少
+vehicle: 相隔两处的人被外力瞬间拉到更近的空间位置
+ground: 共享秘密话题增加亲近感对应两点间隔缩短；身份差异被共同经验跨越对应拉力克服原有距离

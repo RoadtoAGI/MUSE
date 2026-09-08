@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c29fdd1e4a45fa9535f23409
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2153
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 地球三体叛军并非铁板一块
+sensory_mapping: 坚硬铁板；连续表面；裂缝；分块；受力分离
+context_fact: 组织主要分为降临派、拯救派，随后又出现幸存派，两大派武装已兵戎相见。
+image_mechanism: 庞大组织表面像一面钢板，章节视线转到内部后看到接缝和不同金属块；共同口号无法把裂处焊成整体。
+property_alignment: 统一名称对应铁板表面；共同敌人对应共同受力；派别理念对应不同板块；武装冲突对应裂缝扩张；叶文洁调和对应尝试焊接；效果不大对应焊缝失败
+context_alignment: 后文明确使用弥合裂痕，铁板与裂缝形成一套结构框架，此处为首卡。
+narrative_function: 从组织规模转向内部结构，预告派系矛盾将限制整体行动。
+transfer_rule: 用铁板一块写组织团结时，应对应材质均一、无缝协同和共同受力；否定式则需随后展示实际接缝。
+failure_boundary: 差异只属正常分工、决策仍高度统一且无冲突时，说非铁板一块会夸大分裂。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: ETO内部存在目标、信仰和阶层来源不同且相互冲突的多个派别
+vehicle: 一整块坚硬铁板材质均一、无接缝、受力时共同运动且不从内部裂开
+ground: 组织统一对应铁板整体；派别差异对应材质接缝；内部冲突对应铁板裂分；力量不能完全合一

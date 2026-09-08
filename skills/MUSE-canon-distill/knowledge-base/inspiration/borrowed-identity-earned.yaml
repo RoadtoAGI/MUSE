@@ -1,0 +1,24 @@
+card_id: borrowed-identity-earned
+pattern_name: 身份借壳承担
+dramatic_function: 把主角的身份合法性问题转化为一次次公开承担责任的行动证明。
+applicability: 适合继承、穿越、冒名等身份不稳故事；若主角天然被信服则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 赵构身体
+- 靖康南宋
+- 明道宫坠井
+tags:
+- 身份困境
+- 责任承担
+- 合法性
+- 成长弧
+source_scenes:
+- novel: 绍宋
+  scene_id: scene_01
+  note: 穿越初醒后从逃避转向抗金决心。
+- novel: 绍宋
+  scene_id: scene_16
+  note: 回到起点完成与新身份的和解。
+phase_affinity:
+- 2
+- 3
+- 4

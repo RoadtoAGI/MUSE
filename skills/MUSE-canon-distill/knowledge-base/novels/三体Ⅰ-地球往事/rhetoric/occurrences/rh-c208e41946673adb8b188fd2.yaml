@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c208e41946673adb8b188fd2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L215-L221
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 这座正在晨曦中苏醒的城市似乎建立在流沙上，它的稳定是虚幻的
+sensory_mapping: 平衡；触觉；视觉
+context_fact: 台球实验危机使汪淼无法再相信眼前城市与大楼的稳定。
+image_mechanism: 坚固城市先被抽去静止地基，再让路面在脚下滑动、大厦在眼前摇晃；认识论危机沿脚掌和平衡感进入身体。
+property_alignment: 日常秩序表面稳固对应建筑外观完整；基础规律可能变化对应地基持续流动；世界可突然崩塌对应建筑失去承重后倾覆
+context_alignment: 他正骑车经过坚固建筑，现场道路和A字大厦为流沙地基提供即时视觉支点。
+narrative_function: 把物理信念崩塌转换为失去立足点的眩晕。
+transfer_rule: 写基础信念动摇时，选一个承担整体稳定的隐蔽结构，并让其失效后果落实到视角人物当下接触的地面或支撑物。
+failure_boundary: 对象只是表面杂乱、局部损坏或人物单纯头晕时，流沙地基会误把局部不适升级为整个基础不可靠。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 物理规律可能失效后汪淼所感到的城市秩序
+vehicle: 建在流沙上、外观完整却随时会下陷的建筑
+ground: 日常秩序表面稳固对应建筑外观完整；基础规律可能变化对应地基持续流动；世界可突然崩塌对应建筑失去承重后倾覆

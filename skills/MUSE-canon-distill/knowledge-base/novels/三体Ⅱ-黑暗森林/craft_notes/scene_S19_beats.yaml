@@ -1,0 +1,27 @@
+scene_id: S19
+source_notes: scene_S19_beats.md
+patterns:
+- pattern_id: S19-p1
+  beat: 闲聊掩护
+  dimension: omission
+  original_move: 飞向灭世武器途中写老人与女军官谈爱情
+  ai_default_failure: 写机舱气氛随距离缩短越来越凝重
+  transfer_rule: 灾难前夜用闲聊压住不安，对称句埋镜像预言
+  quote: 我爱你，与你有何相干？
+- pattern_id: S19-p2
+  beat: 感觉不好
+  dimension: omission
+  original_move: 物理学家弃推理只说感觉不好，审美判断替技术
+  ai_default_failure: 用推理链支撑直觉，从物理角度逐条分析
+  transfer_rule: 认知边界处让专家失语，直觉比分析更可信
+  quote: 所以我感觉不好
+- pattern_id: S19-p3
+  beat: 请求深海状态
+  dimension: verb
+  original_move: 先知不坚持，恳求语气加两手乱舞的身体焦虑
+  ai_default_failure: 让先知拿出权威反复争辩说服众人
+  transfer_rule: 不确定的预言者写退让，身体焦虑溢出语言
+  quote: 反正这样做也没什么大的损失
+overall_traits:
+- 用不被理解的直觉替代被验证的分析
+- 闲聊是灾难的镜像预言，爱与毁灭句式对称

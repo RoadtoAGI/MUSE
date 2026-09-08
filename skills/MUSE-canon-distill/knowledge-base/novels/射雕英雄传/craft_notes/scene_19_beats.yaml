@@ -1,0 +1,27 @@
+scene_id: '19'
+source_notes: scene_19_beats.md
+patterns:
+- pattern_id: 19-p1
+  beat: 对灶神说话
+  dimension: omission
+  original_move: 跳过内心斗争，直接呈现对灶神说话的迂回方案
+  ai_default_failure: 先写左右为难内心戏再慢慢想出办法
+  transfer_rule: 道德两难的解法直接亮结果，省略求解过程
+  quote: 灶王爷，小人有一番心事
+- pattern_id: 19-p2
+  beat: 临终吟诗
+  dimension: omission
+  original_move: 临终不指凶不嘱后事只吟道家诗，清净对照阴毒
+  ai_default_failure: 让临终者说出凶手名字或托付报仇
+  transfer_rule: 角色之死按其信仰收束，删除戏剧价值遗言
+  quote: 手握灵珠常奋笔，心开天籁不吹箫
+- pattern_id: 19-p3
+  beat: 沉默的替师
+  dimension: verb
+  original_move: 梅超风无台词扑挡致命掌，沉默完成最后忠诚
+  ai_default_failure: 安排「师父让弟子来」之类挡击台词
+  transfer_rule: 赎罪性牺牲保持无言，呼应其当年无言之罪
+  quote: 黄葯师叫了一声「超风」
+overall_traits:
+- 被困观众席：剥夺主角行动力的极端张力装置
+- 信息层差制造多重张力，目击却无法证言

@@ -1,0 +1,32 @@
+mode: reference
+display_name: 唐志林
+role_slug: tang-zhilin
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/套中人/phase3_spine.yaml
+  - pipeline/套中人/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TZ-S11.md
+built_at: "2026-05-29T20:20:00+08:00"
+skill_version: 1
+locator_count: 13
+has_canon_ending: false
+coverage_note: |
+  唐志林 = "罗允式转达者/代偿"+ 末日本我/超我哲学阐释者 + 镜像父母结构的典型样本。
+  本篇唯一具名的世界观解读者，承担最大段 lore 阐释（感染者=被剥夺自我超我只剩本我的纯粹人类、
+  网络暴力是其轻症），并在 closing reversal 中把洪扬父亲遗言转达出口、助洪扬复仇。
+
+  取证集中度说明：
+  - 唐志林的全部实质性戏份集中在 TZ-S11（倒叙框架对话场，几天对谈占近百行 line 595-695），
+    故所有 locator 都落在 scene_TZ-S11.md。这是角色在原著中出场分布的真实反映，非取证偷懒——
+    该角色在 TZ-S01~S10 均未具名登场（仅 702 不开门作背景）。
+  - 软建议"声音框架最好跨≥2 场""性格真相最好有压力暴露场"在本篇无法满足跨场，
+    因唐志林只在 S11 出场；但在 S11 内部覆盖了多个不同情境（lore 阐释 / 自我袒露 / 陪伴沉默 /
+    临别转达 / 助攻复仇），声音与真相均有 ≥2 处不同情境支撑，非单点外推。
+  - 弧光跨起点（见死不救的旁观者背景）/ 转折（L61 开门）/ 终点（L89 助复仇 + 南下圆梦）三段，
+    转折点带 locator。
+
+  has_canon_ending: false —— 已回 scene 原文核对（scene_TZ-S11.md:L65 / L75-L77）：
+  唐志林结局开放，骑摩托南下"继续向南走，走到不能走的那天"，原文中并未死亡/疯癫/失踪，
+  是活态离场，未进入"不会再以原人格出现"的不可逆终局，故不生成 canon-ending.md。

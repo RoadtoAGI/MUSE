@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ad1395b295387e5287d10a94
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L230
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 看上去仿佛是附着在枯树上的一条细蛇
+sensory_mapping: 视觉；线条；运动潜势
+context_fact: 倒计时为避开斑驳墙面而竖起并沿树身显示。
+image_mechanism: 数字先从横向排版脱离，竖起、弯身、贴树，三个连续变形动作把静态符号活化为爬行动物。
+property_alignment: 细长数字曲线对应蛇身；数字主动改变方向贴合树身对应蛇攀附路径；智能适配背景对应活物主动寻找可见位置
+context_alignment: 枯树提供真实攀附表面，蛇的曲线和主动性同时解释数字形态与诡异智能。
+narrative_function: 首次让倒计时呈现有意志生命感。
+transfer_rule: 让静态符号显得活时，应匹配它实际发生的方向改变、贴附路径和主动适应，而不只借一个动物名称。
+failure_boundary: 数字仍笔直固定、没有沿实体表面弯曲或只是普通蛇形字体时，攀附细蛇的动作链不成立。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 沿枯树弯曲并变白的倒计时数字
+vehicle: 贴着树干蜿蜒攀附的细蛇
+ground: 细长数字曲线对应蛇身；数字主动改变方向贴合树身对应蛇攀附路径；智能适配背景对应活物主动寻找可见位置

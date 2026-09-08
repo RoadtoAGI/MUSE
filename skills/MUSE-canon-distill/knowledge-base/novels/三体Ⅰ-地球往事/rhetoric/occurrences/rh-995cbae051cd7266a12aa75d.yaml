@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-995cbae051cd7266a12aa75d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L771
+chapter: 第9章 红岸之一
+figure_type: metaphor
+quote: 理论是应用的基础
+sensory_mapping: 建筑；承重；上下空间；施工顺序；概念结构
+context_fact: 叶哲泰反驳杨卫宁为避政治风险而远离基础理论、转向应用研究。
+image_mechanism: 知识链条竖成一座建筑，理论下沉到地面以下承担承重，应用则在其上成为可见结构；“实际贡献”因此不能切断底层。
+property_alignment: 理论先于应用建立对应地基先施工；应用依赖规律对应上层重量由基础承托；基础不显眼却不可缺对应地基埋藏但决定稳定；理论错误影响应用对应基础偏移使建筑失稳
+context_alignment: 师生正争论基础与应用的距离，承重关系比时间先后更能说明叶哲泰的立场。
+narrative_function: 概括叶哲泰的科学价值观，并反衬杨卫宁的政治避险。
+transfer_rule: 用地基解释知识依赖时，应对应建设顺序、承重关系、可见性差异和底层失效如何传导。
+failure_boundary: 应用也会反向提出理论问题，知识发展不是单向楼层；不能由基础隐喻推断所有理论都必有直接应用。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 基础理论在技术应用形成之前提供不可缺少的规律与概念支持
+vehicle: 建筑最下层承受重量并决定上部能否稳定建起的地基
+ground: 理论先于应用建立对应地基先施工；应用依赖规律对应上层重量由基础承托；基础不显眼却不可缺对应地基埋藏但决定稳定；理论错误影响应用对应基础偏移使建筑失稳

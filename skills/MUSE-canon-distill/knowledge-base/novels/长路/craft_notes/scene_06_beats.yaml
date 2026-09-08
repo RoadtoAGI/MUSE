@@ -1,0 +1,35 @@
+scene_id: '06'
+source_notes: scene_06_beats.md
+patterns:
+- pattern_id: 06-p1
+  beat: 预感
+  dimension: omission
+  original_move: 孩子说不饿来阻止开门
+  ai_default_failure: 描写脸色苍白和抓衣袖
+  transfer_rule: 恐惧可让角色否认需求
+  quote: 我不饿了
+- pattern_id: 06-p2
+  beat: 发现
+  dimension: info_density
+  original_move: 两句扫出系统化人类畜牧
+  ai_default_failure: 解释他们被抓被食用
+  transfer_rule: 恐怖用后果细节让读者推导
+  quote: 双腿尽失
+- pattern_id: 06-p3
+  beat: 逃脱后
+  dimension: verb
+  original_move: 用指令动词教孩子自杀
+  ai_default_failure: 插入父亲长段内心挣扎
+  transfer_rule: 极端选择可写成步骤指令
+  quote: 放进嘴里往上指
+- pattern_id: 06-p4
+  beat: 收回
+  dimension: omission
+  original_move: 收回枪揭示父亲做不到
+  ai_default_failure: 把教自杀当场景高潮
+  transfer_rule: 给出后的撤回可成真正高潮
+  quote: 不对，你根本不懂
+overall_traits:
+- 少描写让读者补足恐怖
+- 孩子预感比父亲理性准确
+- 收回动作重于给出动作

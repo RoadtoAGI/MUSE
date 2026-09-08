@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2219cb1716ffdc45f50b137e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1523
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 秦国将飞速发展
+sensory_mapping: 飞行；速度；向前位移；离地
+context_fact: 冯·诺伊曼承诺准确预测恒纪元会补偿秦国为计算耗尽的储备。
+image_mechanism: 经济变化被放到一条向前轨道，普通增长像步行，预测能力则让国家离地飞驰，把未来收益迅速拉近。
+property_alignment: 国力增长对应空间前进；增长率高对应飞行速度；利用恒纪元对应推动力；超越旧水平对应跨过原位置
+context_alignment: 它是工程师向皇帝兑现成本的乐观承诺，紧接三日连珠毁灭，飞速前景被灾变反讽切断。
+narrative_function: 强化成功幻觉，为下一刻计算失误和文明毁灭制造落差。
+transfer_rule: 以飞速写发展时，应有明确增长指标、推动条件和短时间跨越的基线。
+failure_boundary: 发展只有局部改善、增长率无证据或随即因结构风险中断时，飞速只是推销性预言；本段结局证明其盲区。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 掌握太阳规律后秦国经济与国力将以极高速度增长
+vehicle: 物体脱离地面高速飞行，迅速跨过长距离
+ground: 短时间取得大量进步对应飞行高速越过空间；发展方向被设为向前对应飞行有目标轨迹

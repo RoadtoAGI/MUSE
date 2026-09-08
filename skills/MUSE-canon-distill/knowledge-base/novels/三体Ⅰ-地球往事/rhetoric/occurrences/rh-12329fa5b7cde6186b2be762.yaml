@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-12329fa5b7cde6186b2be762
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L484
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 张开双臂，仿佛要拥抱整个世界
+sensory_mapping: 动作；空间；尺度
+context_fact: 周文王预测暂时应验，文明将复活。
+image_mechanism: 两臂间的有限空间随号令被想象放大，直至容纳国家和世界；行政权力通过身体动作占据全景。
+property_alignment: 双臂展开对应拥抱前姿势；号令唤醒全国对应把世界召入范围；统治者自我膨胀对应身体尺度扩到世界
+context_alignment: 夸张姿态符合纣王的仪式化王权。
+narrative_function: 把行政命令演成文明重生仪式。
+transfer_rule: 写权力姿态时，可让身体动作的空间范围与命令影响范围同向放大。
+failure_boundary: 私密安慰、谦逊动作或命令影响很小的场景不适合世界级拥抱。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 纣王宣布全国浸泡前的宏大姿态
+vehicle: 把世界纳入怀抱的拥抱动作
+ground: 双臂展开对应拥抱前姿势；号令唤醒全国对应把世界召入范围；统治者自我膨胀对应身体尺度扩到世界

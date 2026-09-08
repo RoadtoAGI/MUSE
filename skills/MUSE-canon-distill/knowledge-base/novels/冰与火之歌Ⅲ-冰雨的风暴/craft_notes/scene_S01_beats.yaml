@@ -1,0 +1,28 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 底层视角
+  dimension: camera
+  original_move: 用卑微反派怨声进入史诗危机。
+  ai_default_failure: 会选英雄或神秘人开场。
+  transfer_rule: 宏大威胁可先交给小人物误读。
+  quote: 狗闻不到气味。
+- pattern_id: S01-p2
+  beat: 杀人清单
+  dimension: info_density
+  original_move: 用目标功能标签交代组织结构。
+  ai_default_failure: 会旁白说明守夜人层级。
+  transfer_rule: 组织信息塞进实用对话。
+  quote: 他们懂绘图
+- pattern_id: S01-p3
+  beat: 三声号角
+  dimension: omission
+  original_move: 只写号声与尿湿，不展示异鬼。
+  ai_default_failure: 会立刻描写怪物现身。
+  transfer_rule: 未知威胁先用声音压倒人物。
+  quote: 这是三声
+overall_traits:
+- 底层反派视角开局
+- 巨大危机经小私欲降维
+- 号角拟声侵入页面

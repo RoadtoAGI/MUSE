@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fbd155cb2f1b10a771d51777
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L419
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 是一颗蓝色的小太阳，很像增强了亮度的月亮
+sensory_mapping: 视觉；亮度；色彩；温度
+context_fact: 太阳从异常方向升起，汪淼第一次看清其外观。
+image_mechanism: 先保留月亮熟悉的蓝白圆盘，再只向上调亮度和微弱热感；陌生太阳由一个可控参数变换生成。
+property_alignment: 蓝白圆盘对应月面形态；光强高于月亮而低于炽烈太阳对应月光被增强；仍只带来一丝温暖对应有限辐照
+context_alignment: 天体圆盘、颜色、亮度均可直接比较，适合校准异常太阳。
+narrative_function: 建立三体世界太阳外观的第一档尺度。
+transfer_rule: 描写陌生天体时，可选同类可见参照并明确只改变一两个参数，如亮度、颜色或视直径。
+failure_boundary: 若太阳巨大、红热或运动方式是比较重点，单纯“亮月”会隐藏关键差异。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 三体游戏中蓝色小太阳的视直径和光感
+vehicle: 被增强亮度的圆盘月亮
+ground: 蓝白圆盘对应月面形态；光强高于月亮而低于炽烈太阳对应月光被增强；仍只带来一丝温暖对应有限辐照

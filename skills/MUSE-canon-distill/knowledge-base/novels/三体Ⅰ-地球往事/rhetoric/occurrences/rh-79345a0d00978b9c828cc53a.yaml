@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-79345a0d00978b9c828cc53a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1805
+chapter: 第23章 红岸之五
+figure_type: analogy
+quote: 太阳是一个电波放大器
+sensory_mapping: 输入端；内部增益；输出端；波形；设备功率
+context_fact: 木星辐射先直达地球，后经太阳延迟十六分四十二秒到达且强度增加近亿倍。
+image_mechanism: 恒星被装入电子设备外壳，宇宙电波从输入端进入辐射层，在能量镜面获得恒星级供能后从输出端喷出；太阳尺度能量转成电路增益。
+property_alignment: 外来电波对应输入信号；对流层阈值对应触发门限；能量镜面对应增益级；恒星能量对应电源；近亿倍增强对应放大倍数；再辐射对应输出信号
+context_alignment: 延迟、频率选择和强度差提供逐项工程证据，类比又自然扩展为“超级天线”，使秘密发射方案可操作。
+narrative_function: 一句概括理论突破，把太阳从研究对象转为可调用的通信基础设施。
+transfer_rule: 用放大器类比自然系统时，应对应输入、阈值、能量来源、增益机制、输出及波形是否保真。
+failure_boundary: 系统只反射而不补充能量、输出频率失真到无法携带信息，或没有阈值机制时，电子放大器类比不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 太阳能量镜面在入射电波超过阈值时选择频率、将其增强近亿倍并重新辐射
+vehicle: 接收弱电信号、从电源补充能量并输出更强同类信号的电子放大器
+ground: 太阳接收外来辐射对应放大器输入；利用恒星能量增强幅度对应电路从电源提供增益；反射出去对应强信号输出

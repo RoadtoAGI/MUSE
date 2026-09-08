@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-42bc94c8831f73fd7dc8bdd9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2346
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 那声音听起来像一台大马达的转子中被扔进去一个扳手，不，是很多个扳手
+sensory_mapping: 金属撞击；高速旋转；卡死震动；杂乱巨响；零件飞出
+context_fact: 船尾刚穿过飞刃，外观暂时无异，发动机声先暴露内部已被切割，随后曲轴撞破船壳飞出。
+image_mechanism: 不可见切口通过声音显形：听者把密闭机舱想成马达外壳，每根断裂部件都变成被甩动的扳手，数量从一个纠正为很多个，响声遂获得破坏过程。
+property_alignment: 船机转子对应大马达转子；切断金属件对应落入扳手；转动失衡对应硬物卡阻；连续杂响对应多个扳手碰撞；曲轴飞出对应内部零件被甩脱
+context_alignment: 飞刃肉眼不可见且切割无声，机械的二次崩坏必须靠听觉说明，扳手参照让普通读者立即理解。
+narrative_function: 把隐藏在船壳内的切割后果转译成可听机械事故，并引出曲轴破舱。
+transfer_rule: 用异物入转子解释机械噪声时，应匹配旋转结构、金属硬碰、数量节奏、失衡方式和随后可见故障。
+failure_boundary: 声音是平稳低鸣、故障来自燃烧或电路，或设备没有旋转部件时，扳手入马达会误诊机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 审判日号发动机转动部件被多道纳米丝同时切断后发出的扭曲杂乱巨响
+vehicle: 高速旋转的大马达里落入许多金属扳手，连续碰撞、卡阻并打碎转子
+ground: 旋转机械内部受硬物破坏相同；多部件连续撞击对应很多扳手；杂乱金属巨响和骤然失衡一致

@@ -1,0 +1,27 @@
+card_id: normality-changes-hands
+pattern_name: 常态易主
+dramatic_function: 让主角在终局发现自己不是幸存标准，而是新秩序的怪物。
+applicability: 适合价值翻转型结局；若新秩序没有合理性会沦为反派胜利（单书孤证，验证面窄）
+reuse_candidates:
+- 新吸血鬼社会
+- 处决药片
+- I am legend标题句
+tags:
+- 价值翻转
+- 新秩序
+- 怪物视角
+- 终局认知
+source_scenes:
+- novel: I Am Legend
+  scene_id: S10
+  note: 新社会的存在首次迫使主角重估自己位置。
+- novel: I Am Legend
+  scene_id: S11
+  note: 主角对旧怪物产生同情，对新执法者产生恐惧。
+- novel: I Am Legend
+  scene_id: S12
+  note: 临终从人群恐惧中确认自己已成为传说中的异常。
+phase_affinity:
+- 3
+- 4
+- 5

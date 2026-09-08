@@ -1,0 +1,32 @@
+schema_version: dialogue-character/v1
+character_id: drama:Macbeth:macduff
+work_id: drama:Macbeth
+display_name: 麦克达夫
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '朴素的五步抑扬格，少抽象名词、少假设从句、少比喻 - 倾向直陈句和重复（"All my pretty ones? / Did you say all?"——重复不是修辞，是承受信息的速度）。他几乎从不长篇独白——他的声音在与他人对话时最清楚，在他独自占场时反而最沉默。当他必须做判断时他用最短的判决式句子（"Fit
+    to govern? No, not to live"；"Despair thy charm"；"Turn, hell-hound, turn"），把整段思考压缩到一个动词或者一个否决。他的语言永远低于他承受的情感量级——这与 Macbeth
+    永远高于他承受的语言量级形成完整对比。
+
+
+    来源：phase2_roles.yaml → roles.macduff.voice_signature
+
+    佐证：
+
+    - scenes/scene_A4S3.md:L237-L249（"Fit to govern? No, not to live" — 判决式短句）
+
+    - scenes/scene_A4S3.md:L513-L533（"All my pretty ones? Did you say all?" — 重复承载信息）
+
+    - scenes/scene_A5S7.md:L99-L113（"Turn, hell-hound, turn" + "I have no words: / My voice is in my sword" — 把判决压缩到动词或动作）'
+  evidence_locators:
+  - scenes/scene_A4S3.md:L237-L249
+  - scenes/scene_A4S3.md:L513-L533
+  - scenes/scene_A5S7.md:L99-L113
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

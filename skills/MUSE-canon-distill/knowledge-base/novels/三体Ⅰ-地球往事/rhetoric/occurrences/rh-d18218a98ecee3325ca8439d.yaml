@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d18218a98ecee3325ca8439d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L374
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 整个宇宙将为你闪烁
+sensory_mapping: 视觉；节奏；人际指向
+context_fact: 申玉菲预告凌晨一点至五点的验证。
+image_mechanism: 客观宇宙背景获得一个面向对象的动作，“为你”把全域光变成私密通信；尺度越大，交流距离反而越贴脸。
+property_alignment: 明暗变化对应主动闪光；与倒计时同步对应定向信息；为你对应发送者选择接收者
+context_alignment: 恐惧核心正是宇宙事件具有私人指向。
+narrative_function: 把私人幻象升级成宇宙级定向事件。
+transfer_rule: 人格化自然现象时，应找到能证明指向性的时间同步、编码或接收者选择，避免只因变化就称交流。
+failure_boundary: 若闪烁对所有人无差别、没有编码或与人物行为无关，“为你”只是主观中心化。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 背景辐射将只针对汪淼显示倒计时
+vehicle: 有意志的巨大存在向一人发闪光信号
+ground: 明暗变化对应主动闪光；与倒计时同步对应定向信息；为你对应发送者选择接收者

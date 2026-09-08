@@ -1,0 +1,34 @@
+card_id: goal-void-spirit-reroute
+pattern_name: 目标落空·意义改道
+dramatic_function: 不撤销外部目标的失败：地理终点与愿望尽头都空掉，把故事的回答改道到更长线的精神完成与继承者选择
+applicability: 适用于旅程叙事与悲剧缓释结尾；须有可承接的精神答案或后续任务；直接补偿主角会削弱牺牲
+reuse_candidates:
+- 天空的女儿
+- 三百年考验
+- 孩子善恶加减年
+- 灰色海岸
+- 南方会更好
+- 孩子下海
+tags:
+- 升华
+- 开放结局
+- 善行
+- 悲剧缓释
+- 旅程
+- 目标落空
+- 精神答案
+- 终局
+source_scenes:
+- novel: 海的女儿
+  scene_id: S06
+  note: 她没有获得爱情也没有复生，而被引向长期善行考验。
+- novel: 长路
+  scene_id: scene_10
+  note: 抵达海岸却发现海不是蓝色也不是救赎。
+- novel: 长路
+  scene_id: scene_12
+  note: 真正答案转为孩子能否带着火炬继续走。
+phase_affinity:
+- 3
+- 4
+- 5

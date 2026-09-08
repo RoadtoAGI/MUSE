@@ -1,0 +1,27 @@
+card_id: hope-image-refluence
+pattern_name: 希望回流
+dramatic_function: 让同一精神价值反复寄身于可见物象，低谷时自然回到人物身上。
+applicability: 适合长跨度苦难叙事；若意象只出现一次会失去回流感（单书孤证，验证面窄）
+reuse_candidates:
+- 蓝色发动机光
+- 比邻星
+- 流浪之歌歌词
+tags:
+- 希望意象
+- 回响
+- 长跨度
+- 情绪锚点
+source_scenes:
+- novel: 流浪地球
+  scene_id: scene_04
+  note: 比邻星被确认为远方希望的灯塔。
+- novel: 流浪地球
+  scene_id: scene_10
+  note: 黑夜中的蓝光让绝望者恢复呼吸。
+- novel: 流浪地球
+  scene_id: scene_15
+  note: 流浪之歌把未见未来还给老年叙述者。
+phase_affinity:
+- 3
+- 4
+- 5

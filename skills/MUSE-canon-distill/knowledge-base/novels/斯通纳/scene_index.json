@@ -1,0 +1,554 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "觉醒",
+      "文学唤醒",
+      "感知转变",
+      "教师与学生"
+    ],
+    "characters": [
+      "斯通纳",
+      "斯隆"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 1814,
+    "source_chapter": "第1章",
+    "file": "scenes/scene_S01.md",
+    "description": "斯隆朗读莎士比亚十四行诗，斯通纳被文学唤醒——纯感知驱动的灵魂觉醒",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴身，感官突变替代直评",
+      "diction": "译文长句，课堂术语混朴素触觉",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问答引爆，后段叙述接管",
+      "pacing": "朗读顿挫后放慢到身体感知"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "身份确认",
+      "导师命名",
+      "因为爱"
+    ],
+    "characters": [
+      "斯通纳",
+      "斯隆"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 2364,
+    "source_chapter": "第1章",
+    "file": "scenes/scene_S02.md",
+    "description": "斯隆告诉斯通纳'你想当老师——因为爱，你置身于爱中'，完成身份命名",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，外景灰冷映内心命名",
+      "diction": "正式学院词混中西部冷湿质感",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "师生问答推进，句尾温柔转折",
+      "pacing": "环境铺垫慢，命名瞬间悬浮"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "告别",
+      "沉默",
+      "父母",
+      "断裂",
+      "身体语言"
+    ],
+    "characters": [
+      "斯通纳",
+      "父亲",
+      "母亲"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 1853,
+    "source_chapter": "第1章",
+    "file": "scenes/scene_S03.md",
+    "description": "斯通纳告诉父母不回农场——全场景几乎无对白修辞，情感通过沉默和身体承载",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知冷静，沉默动作承载愧疚",
+      "diction": "农家器物词朴硬，情绪词克制",
+      "rhetoric_density": "low",
+      "dialogue_mode": "稀疏对白，误解与停顿推进",
+      "pacing": "仪式压缩，夜谈以长沉默延宕"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "初遇",
+      "笨拙接近",
+      "突然倾诉",
+      "恐惧与渴望"
+    ],
+    "characters": [
+      "斯通纳",
+      "伊迪丝"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 5113,
+    "source_chapter": "第3章",
+    "file": "scenes/scene_S04.md",
+    "description": "斯通纳笨拙地接近伊迪丝，她在恐惧与渴望间挣扎，临走时突然不停倾诉童年",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身双向，笨拙凝视切入身世",
+      "diction": "社交礼仪词与脆弱身体描写并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "寒暄外壳，倾诉突然泛滥",
+      "pacing": "相遇迟疑后转入回溯长段"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "婚姻困境",
+      "孩子作为武器",
+      "母亲角色缺失"
+    ],
+    "characters": [
+      "斯通纳",
+      "伊迪丝",
+      "格蕾斯"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 3161,
+    "source_chapter": "第5章",
+    "file": "scenes/scene_S05.md",
+    "description": "伊迪丝突然要孩子后完全退出母亲角色，斯通纳被迫独自抚养格蕾斯",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知游移，婚姻裂缝由家务显形",
+      "diction": "日常家居词压住病态身体词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "早餐短句冷硬，叙述扩写后果",
+      "pacing": "决定突兀，后果以年表缓慢累积"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "冷暴力",
+      "空间侵占",
+      "诊断式宣判",
+      "婚姻战争"
+    ],
+    "characters": [
+      "斯通纳",
+      "伊迪丝"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 4614,
+    "source_chapter": "第8章",
+    "file": "scenes/scene_S06.md",
+    "description": "伊迪丝系统性夺走格蕾斯、侵占书房，说出'你永远不会离开我'——以物代情的冷暴力升级",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知旁观，物件迁移显示支配",
+      "diction": "家居秩序词冷硬，暴力不命名",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白少而锋利，宣判式收束",
+      "pacing": "侵占分步推进，情绪留在空白里"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "学术对抗",
+      "预答辩",
+      "坚持原则",
+      "操控与反操控"
+    ],
+    "characters": [
+      "斯通纳",
+      "沃尔克",
+      "劳曼克思",
+      "霍兰"
+    ],
+    "conflict_type": "external",
+    "pov": "斯通纳",
+    "word_count": 7899,
+    "source_chapter": "第10章",
+    "file": "scenes/scene_S07.md",
+    "description": "沃尔克预答辩中劳曼克思操控提问，斯通纳用基础问题暴露无能，投不通过票",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知审讯式，程序细节放大权力",
+      "diction": "学术术语密集，讽刺词带冷光",
+      "rhetoric_density": "low",
+      "dialogue_mode": "问答主导，基础问题逐层逼迫",
+      "pacing": "规则铺陈慢，失控处突然加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "决裂",
+      "存在危机",
+      "沉默",
+      "虚无"
+    ],
+    "characters": [
+      "斯通纳",
+      "劳曼克思"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 2808,
+    "source_chapter": "第11章",
+    "file": "scenes/scene_S08.md",
+    "description": "劳曼克思宣告'我们从来就不是朋友'，斯通纳在冬夜办公室独坐——叙事放慢到近乎静止",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知静观，敌意落入冬夜静止",
+      "diction": "冷、暗、空的物理词反复压低",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "决裂对白短促，随后几乎无声",
+      "pacing": "冲突后骤慢，独坐拖成长停顿"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "坦白",
+      "极度不开心",
+      "拥抱",
+      "沉默的爱"
+    ],
+    "characters": [
+      "斯通纳",
+      "凯瑟琳"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 1665,
+    "source_chapter": "第12章",
+    "file": "scenes/scene_S09.md",
+    "description": "凯瑟琳说出'我是极度、极度不开心'，两人以拥抱而非对白表达爱",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴身，爱意经身体迟疑显露",
+      "diction": "朴素心理词配细密触觉词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量坦白，拥抱替代解释",
+      "pacing": "对白短，情感在停顿中展开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "主动放弃",
+      "爱的代价",
+      "告别",
+      "双重缺席"
+    ],
+    "characters": [
+      "斯通纳",
+      "凯瑟琳"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 3437,
+    "source_chapter": "第13章",
+    "file": "scenes/scene_S10.md",
+    "description": "斯通纳为保护爱而放弃爱，凯瑟琳连夜离开——最深的爱以最安静的方式结束",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知克制，放弃爱不作抒情辩护",
+      "diction": "日常动作词承受抽象牺牲词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "低声协商，未说出口更重",
+      "pacing": "决定缓慢压下，离别快速留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "父女",
+      "酗酒",
+      "深夜对谈",
+      "苦涩理解"
+    ],
+    "characters": [
+      "斯通纳",
+      "格蕾斯"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 1288,
+    "source_chapter": "第16章",
+    "file": "scenes/scene_S11.md",
+    "description": "斯通纳与酗酒的格蕾斯深夜厨房对谈，苦涩地理解女儿被毁坏的人生",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知父亲视角，理解迟到且苦涩",
+      "diction": "厨房日常词混酒意和衰败词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "深夜低密对白，回答常绕开问题",
+      "pacing": "谈话缓行，认知在间隙沉下去"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "退休",
+      "癌症",
+      "无言和解",
+      "极简感言",
+      "不转身"
+    ],
+    "characters": [
+      "斯通纳",
+      "费奇",
+      "劳曼克思"
+    ],
+    "conflict_type": "external",
+    "pov": "斯通纳",
+    "word_count": 9280,
+    "source_chapter": "第16章",
+    "file": "scenes/scene_S12.md",
+    "description": "退休博弈→确诊癌症→退休晚宴极简感言→劳曼克思致辞后不转身——二十年无言和解",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知回望，制度事件被压成余波",
+      "diction": "行政词、病名和礼仪词冷静并列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "公开致辞极简，私情靠不转身表达",
+      "pacing": "多年压缩，关键动作放慢定格"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "临终",
+      "自我确认",
+      "首尾呼应",
+      "书滑落",
+      "被动动作"
+    ],
+    "characters": [
+      "斯通纳"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 2389,
+    "source_chapter": "第17章",
+    "file": "scenes/scene_S13.md",
+    "description": "临终回顾一生'失败'→三次追问→手握著作→书滑落——与第一章手指松开完美呼应",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "临终限知，意识碎片自问自答",
+      "diction": "抽象人生词回落到手指和书页",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，内心追问成节拍",
+      "pacing": "回顾跳切，末尾动作极慢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "事业反击",
+      "手艺即反抗",
+      "教学",
+      "以静制动"
+    ],
+    "characters": [
+      "斯通纳",
+      "恩哈特",
+      "劳曼克思",
+      "费奇"
+    ],
+    "conflict_type": "external",
+    "pov": "斯通纳",
+    "word_count": 4619,
+    "source_chapter": "第14章",
+    "file": "scenes/scene_S14.md",
+    "description": "斯通纳用中世纪英语教大一写作课——通过手艺本身而非话语进行事业反击",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知含讽，反击只嵌入教学动作",
+      "diction": "教学术语与暗火、无聊等克制词并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "课堂讲述主导，争执转为转述",
+      "pacing": "备课决断快，课堂实施稳步推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "家族事件",
+      "父母去世",
+      "农场消亡",
+      "土地",
+      "物件承载悲痛"
+    ],
+    "characters": [
+      "斯通纳",
+      "母亲",
+      "父亲"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 3357,
+    "source_chapter": "第7章",
+    "file": "scenes/scene_S15.md",
+    "description": "父亲田间去世→母亲衰竭→卖掉农场——旧世界以安静不可逆的方式终结",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知哀悼，土地吞没人的一生",
+      "diction": "农事、尸体、土地词质地干硬",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "电话和丧事对白机械短促",
+      "pacing": "消息骤停，葬礼后以慢镜延展"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "精神交融",
+      "脆弱暴露",
+      "同路人",
+      "醉后真言"
+    ],
+    "characters": [
+      "斯通纳",
+      "劳曼克思"
+    ],
+    "conflict_type": "personal",
+    "pov": "斯通纳",
+    "word_count": 1585,
+    "source_chapter": "第6章",
+    "file": "scenes/scene_S16.md",
+    "description": "暖房深夜劳曼克思醉酒倾诉残疾童年——两人发现通过不同路径达到同一觉醒",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知旁听，醉意剥去讽刺面具",
+      "diction": "宴会食物词转向孤独童年词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "倾诉长段，社交对白退成背景",
+      "pacing": "聚会散场后谈话逐渐镇定"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "斯通纳",
+    "author": "约翰·威廉斯",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "手艺",
+      "空间营造",
+      "自我定义",
+      "书房"
+    ],
+    "characters": [
+      "斯通纳"
+    ],
+    "conflict_type": "internal",
+    "pov": "斯通纳",
+    "word_count": 1386,
+    "source_chapter": "第6章",
+    "file": "scenes/scene_S17.md",
+    "description": "斯通纳打造书房——打磨旧木板时他打造的是自己，手艺即自我定义",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知自省，书房建造等同自我成形",
+      "diction": "木工、书本、家计词承载精神词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少对白，叙述推进生活秩序",
+      "pacing": "修整动作累积，幸福被平稳铺开"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

@@ -1,0 +1,28 @@
+scene_id: '21'
+source_notes: scene_21_beats.md
+patterns:
+- pattern_id: 21-p1
+  beat: 电报三段递升
+  dimension: omission
+  original_move: 只写截获频次不切德方，读者与守方共享无知
+  ai_default_failure: 提前双线并行，把包围态势泄给读者
+  transfer_rule: 蓄悬念时封锁加害方画面，只给信号涨落
+  quote: 短短半小时内，己方通讯员就又截获了4份电文
+- pattern_id: 21-p2
+  beat: 潜望镜跳切揭底
+  dimension: camera
+  original_move: 以空间坐标开段跳切，潜望镜杆特写垂降到艇长
+  ai_default_failure: 用与此同时式过渡句软化视角切换
+  transfer_rule: 双线切换可用地点坐标开段替代过渡词
+  quote: 距离英国船队后方6km的海面上
+- pattern_id: 21-p3
+  beat: 首雷爆点乌龙
+  dimension: info_density
+  original_move: 沉船不抒情，镜头即转肇事艇自我暴露的乌龙
+  ai_default_failure: 在沉船处停留渲染死亡悲情
+  transfer_rule: 让首个爆点兼带己方战术缺陷，胜方不完美
+  quote: 竟然被自己发射的鱼雷的爆炸火光给照亮了
+overall_traits:
+- 信息差是唯一张力引擎，严管谁知道什么
+- 科普插在两波攻击间，知识兼作节奏缓冲
+- 爆点以拟声起段以战果收段，死亡记账化

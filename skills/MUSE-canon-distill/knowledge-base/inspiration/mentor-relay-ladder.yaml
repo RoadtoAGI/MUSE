@@ -1,0 +1,25 @@
+card_id: mentor-relay-ladder
+pattern_name: 导师接力·阶梯传功
+dramatic_function: 让天资平庸的主角成长可信：多位导师各授一层能力与一种价值观，每次升级都有代价与机缘，避免一次性金手指。
+applicability: 适用于长篇成长线；若导师功能重叠、传功无代价或无人格差异则退化为发装备（单书孤证，验证面窄）
+reuse_candidates:
+- 降龙十八掌、九阴真经等具体武学名目
+- 华山五绝的武林格局
+- 崖顶夜授内功的具体场景
+tags:
+- 成长弧线
+- 导师群像
+- 能力升级
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S05
+  note: 洪七公以食换武授绝技，导师有欲望有交换
+- novel: 射雕英雄传
+  scene_id: S06
+  note: 周伯通授双手互搏与真经，玩伴型导师补哲学层
+- novel: 射雕英雄传
+  scene_id: S24
+  note: 马钰只授内功不授招，纠偏而非替代启蒙导师
+phase_affinity:
+- 2
+- 4

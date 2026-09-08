@@ -1,0 +1,53 @@
+scene_id: A3S4
+source_notes: scene_A3S4_beats.md
+patterns:
+- pattern_id: A3S4-p1
+  beat: 帐幕就位
+  dimension: transition
+  original_move: 前场预告的装置两拍内物理就位，不再解释
+  ai_default_failure: 重复交代偷听计划，拖慢入戏
+  transfer_rule: 已预告的装置上场要快
+  quote: 我就匿声的躲在此後
+- pattern_id: A3S4-p2
+  beat: 对句互掷
+  dimension: exchange
+  original_move: 同一句式换词反掷，训诫权一拍被缴械
+  ai_default_failure: 母子各自长篇陈情，攻防散掉
+  transfer_rule: 对峙开场可用句式镜像宣告话术无效
+  quote: 娘, 你深深的触犯了我的父亲
+- pattern_id: A3S4-p3
+  beat: 误杀
+  dimension: blocking
+  original_move: 最大爆点三句台词完成，刺后才问身份
+  ai_default_failure: 刺杀前加犹豫独白与慢镜渲染
+  transfer_rule: 蓄怨者的第一次杀人写成条件反射
+  quote: 有老鼠? 一块钱便偿命
+- pattern_id: A3S4-p4
+  beat: 双像斥责
+  dimension: blocking
+  original_move: 指控锚定在两幅肖像道具上，台词带指向动作
+  ai_default_failure: 纯台词数落，比较无实物可指
+  transfer_rule: 抽象比较交给实体道具承载
+  quote: 你看这幅画像, 也看这幅
+- pattern_id: A3S4-p5
+  beat: 鬼魂二现
+  dimension: blocking
+  original_move: 鬼魂改可见性规则，仅复仇者可见
+  ai_default_failure: 沿用首幕全员可见，制造不出新信息差
+  transfer_rule: 超自然可见性是可变参数，每变产新误判
+  quote: 唉, 他疯了
+- pattern_id: A3S4-p6
+  beat: 劝忏悔降温
+  dimension: exchange
+  original_move: 暴风后走完长降温段，怒吼渐转叮咛再放人
+  ai_default_failure: 高潮后直接收场，情绪曲线断崖
+  transfer_rule: 对峙场要走完降温段才下场
+  quote: 向天忏悔罢
+- pattern_id: A3S4-p7
+  beat: 拖尸退场
+  dimension: blocking
+  original_move: 尸体由角色亲手拖离，黑色玩笑收场
+  ai_default_failure: 尸体被舞台忽略或幕后默默处理
+  transfer_rule: 台上尸体的处理方式就是性格陈述
+  quote: 现在他却变得多么的安静
+overall_traits: []

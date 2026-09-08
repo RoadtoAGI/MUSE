@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3de6199768029135fd56a31a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L989
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 文明又重新启动了四次
+sensory_mapping: 机械开关；时间过程；运行状态
+context_fact: 汪淼离开游戏的三十六万余年中，乱纪元和恒纪元交替，文明已毁灭并重建四次。
+image_mechanism: 跨越数十万年的社会兴亡被压成开关动作：一整套人口与制度熄灭，再由幸存种子接通，重复进入运行状态。
+property_alignment: 文明毁灭对应机器停转；幸存者重新组织对应系统重启；每次从低技术阶段发展对应重启后重新执行进程
+context_alignment: 事件发生在可反复登录的模拟游戏中，机械启动既说明文明周期，也与程序重开形成双层呼应。
+narrative_function: 用简短动作跨越漫长年代，确立三体文明可反复归零的基本节奏。
+transfer_rule: 用重启写群体恢复时，应分别对应停机原因、保留下来的启动条件和重新运行后的进程，而非只指一次普通变化。
+failure_boundary: 文明连续发展未曾中断、没有幸存载体或重建直接承接原有成熟结构时，“重启”会错误制造归零感。
+quality_assessment: functional
+confidence: 0.97
+review_status: reviewed
+tenor: 毁灭后由幸存者反复恢复人口、社会和技术的三体文明
+vehicle: 停机后可再次接通并从初始状态运行的系统
+ground: 文明毁灭后活动中止对应系统停机；环境适宜后重新发展对应设备再次启动运行

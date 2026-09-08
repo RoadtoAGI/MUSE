@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-72242bdd70c3eadd8ee7910c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L678
+chapter: 第8章 寂静的春天
+figure_type: analogy
+quote: 人类真正的道德自觉是不可能的，就像他们不可能拔着自己的头发离开大地
+sensory_mapping: 动作；牵引；重量；力学结构；概念
+context_fact: 叶文洁由人类与邪恶同源的推论转向寻求人类之外的力量。
+image_mechanism: 道德超越被改写为一个可当场试验的力学动作：手向上拉、身体却同时向下反作用，所有力封闭在自身内部，脚仍贴地。
+property_alignment: 人类既是施力者又是受力对象对应手与身体同属一体；内部反省缺少外部支点对应拉发没有外力支撑；无法整体超越自身对应身体不能靠内力升空
+context_alignment: 紧接“只有借助人类之外的力量”，自举悖论为外部支点的必要性提供直观机械模型。
+narrative_function: 把悲观判断转成行动逻辑，预示叶文洁向外星文明求助。
+transfer_rule: 用自举动作论证系统局限时，应明确系统边界、内力成对抵消的部位、所缺外部支点以及目标位移。
+failure_boundary: 人类内部存在相互独立的制度制衡、代际学习和环境反馈，未必等同单一刚体的内力；类比可表达叶文洁判断，不能证明道德进步绝对不可能。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类仅凭自身力量彻底超越其固有邪恶的不可行性
+vehicle: 人抓住自己的头发向上拉，却因力量全在同一系统内部而无法离地
+ground: 人类既是施力者又是受力对象对应手与身体同属一体；内部反省缺少外部支点对应拉发没有外力支撑；无法整体超越自身对应身体不能靠内力升空

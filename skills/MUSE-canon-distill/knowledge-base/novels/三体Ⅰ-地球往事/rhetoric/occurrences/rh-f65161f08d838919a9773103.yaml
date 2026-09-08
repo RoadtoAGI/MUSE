@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f65161f08d838919a9773103
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1570
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 其层次之高，内容之深
+sensory_mapping: 垂直高度；向下深度；攀登；探底
+context_fact: 潘寒称参与者都是精英，宣称游戏专为具有高知识能力的阶层准备。
+image_mechanism: 知识空间被拉成上下两向：进入门槛竖成高台，进入后内容又沉为深井；玩家的优越感来自既能登高又能下潜。
+property_alignment: 知识门槛对应高处；学习能力对应攀登能力；隐含信息对应深层结构；理解难度对应难以探底
+context_alignment: 潘寒用空间尺度抬高游戏和玩家身份，话语同时执行招募中的精英确认与排他。
+narrative_function: 以高度和深度制造知识等级感，迎合并筛选在场玩家。
+transfer_rule: 用高深评价知识时，应分别说明进入门槛和内部复杂度，并给出支撑二者的具体内容。
+failure_boundary: 材料只是术语繁多、实质浅薄，或无需专门知识即可理解时，高深会沦为精英姿态。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 理解《三体》所需知识复杂度高，游戏内涵包含大量不易直接把握的信息
+vehicle: 对象占据高处并向地下或水下延伸，普通人难以攀登也难以探底
+ground: 知识门槛超出常人对应位置高而难攀；内容隐含且复杂对应纵深大而难触底

@@ -1,0 +1,43 @@
+work_id: leiyu
+title: 雷雨
+title_en: Thunderstorm
+author: 曹禺
+author_en: Cao Yu
+translator: null                    # 中文原作，无译者
+source_medium: stage_play
+dramatic_form: tragedy
+language: zh
+period: modern                      # 1933 年创作；中国现代戏剧（话剧）
+country: zh-CN
+rights_status: copyrighted_translation   # 中国大陆 70 年保护期（曹禺 1996 卒，2066 公版）；本分析使用文本作研究目的
+length_estimate: 4_acts_plus_prologue_and_epilogue_about_100k_chars   # 含序幕 + 尾声共 6 场，演出约 4 小时
+verse_or_prose: prose               # 现代话剧白话对白；无韵文
+notes: |
+  曹禺四幕悲剧，1933 年清华大学毕业作；中国话剧奠基之作。
+  本分析以收录于巴金参与校对的通行版（含序幕 + 尾声）为底本。
+  序幕、尾声常被演出本删除，但作者明确陈述其"距离化 chorus 功能"——
+  本分析保留 6 场完整结构。
+  关键媒介事实：
+  - 易卜生 / 古希腊悲剧双重血脉（作者自陈受 Hippolytus / Phèdre 影响，但否认刻意模仿）
+  - 时间单元：第一幕至第四幕仅一天（古典三一律影响）
+  - 序幕 + 尾声框架在十年后（1925→1935），与第一至四幕（1925）形成时间嵌套
+
+reference_lanes:
+  allowed:
+    - canon_facts
+    - story_design
+    - scene_function
+    - medium_grammar
+    - dramatic_surface_style
+  forbidden:
+    - prose_surface_style          # 戏剧绝不贡献小说文风
+
+default_consumption:
+  novel_writing:
+    phase0_to_4: allowed_as_story_design       # 跨媒介学结构 OK（如学三一律压缩 / 命运悲剧三段力学）
+    phase5: allowed_as_scene_function_transform # 场景功能（认母 / 喝药 / 暴露血缘）可借鉴但需 transform
+    phase6: forbidden_as_prose_style           # 绝不作为 prose few-shot——话剧对白节奏与小说叙述不通约
+  screenplay_writing:
+    phase0_to_4: allowed_as_story_design
+    phase5: allowed_as_dramatic_scene_function
+    phase6: allowed_if_target_medium_matches   # 同为戏剧 / 影视改编时可直接 fewshot

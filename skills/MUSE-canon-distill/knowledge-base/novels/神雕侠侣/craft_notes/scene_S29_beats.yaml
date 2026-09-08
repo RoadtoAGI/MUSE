@@ -1,0 +1,28 @@
+scene_id: S29
+source_notes: scene_S29_beats.md
+patterns:
+- pattern_id: S29-p1
+  beat: 皓腕玉镯清场
+  dimension: camera
+  original_move: 敌群压缩成集体音效，镜头只锁她的速度
+  ai_default_failure: 给每个对手分配格挡闪避镜头
+  transfer_rule: 一对多清场让杂兵退化为声音
+  quote: 双剑便似两条银蛇般四下游走
+- pattern_id: S29-p2
+  beat: 天罗地网势
+  dimension: camera
+  original_move: 剑作弹射物在三面光幕间反弹，读者视线追剑
+  ai_default_failure: 给三个对手各配内心独白
+  transfer_rule: 以物理弹球逻辑写群战，敌人简化为反射面
+  quote: 每一刻都有兵刃，也是每一刻都无兵刃
+- pattern_id: S29-p3
+  beat: 分心二用失效
+  dimension: camera
+  original_move: 杀局中镜头跳向玫瑰，注意力离开敌人即崩溃
+  ai_default_failure: 写左手剑慢半拍的具体失误
+  transfer_rule: 心理崩溃用系统性降级，不写单招失误
+  quote: 一株青松旁生着一丛玫瑰
+overall_traits:
+- 杂鱼成音效，精英成方位光色
+- 设定、演示、意外三拍法保持即兴感
+- 外部逆转是量变，心中有人才是质变

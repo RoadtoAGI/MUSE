@@ -1,0 +1,28 @@
+mode: reference
+display_name: 海王祖母
+role_slug: hai-wang-zu-mu
+source_novel: 海的女儿
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S01.md
+  - scenes/scene_S02.md
+  - scenes/scene_S03.md
+  - scenes/scene_S04.md
+built_at: 2026-05-23T00:00:00Z
+skill_version: 1
+locator_count: 10
+has_canon_ending: false
+coverage_note: |
+  海王祖母在 6 个切分场景中出场 4 场（S01 海底铺陈 / S02 打扮孙女 / S03 解释灵魂规则 / S04 远观人间）— 全部覆盖于 SKILL.md 佐证。她未出场的 2 场是 scene_S05（婚船）和 scene_S06（升华），这两场她以隔空意象出现（婚船梦中影像 + 姐姐转述"白发落光"），未做独立 locator——这些是她痛苦的外部目击描述，不在角色画像核心。
+
+  软建议覆盖度自检：
+  - 声音框架跨 ≥2 场景：✓（S01 / S02 / S03 共 3 场金句模式 + 翻译型词汇模式）
+  - 弧光覆盖：本角色无内在 character arc——稳态人格，已在弧光段说明
+  - 性格真相有压力情境佐证：✓（scene_S03 小人鱼明确表达存在论焦虑时她的回应）
+  - 边界为"极端检验场景"而非日常观察：✓（5 条边界全部锚定到规则告知 / 仪式执行 / 远观距离等结构性时刻）
+
+  关于"无 character arc"：她代表本作中"知道事实但选择平静过完一生"的存在论立场——与小人鱼的越界形成结构性对照。她的稳态本身是叙事功能：让小人鱼的越界看起来不是普遍化的人鱼行为，而是个体异质选择。下游若续写需要她"识破并追悔"，需明确这是与原作的偏离。
+
+  canonical 状态：novel-meta.yaml 不存在，跳过 Step 2f-2g。
+  has_canon_ending：她在原作结尾继续存在于海底，非终局状态。

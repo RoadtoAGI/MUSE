@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5cc861cee38cf7a3ddeb0bf2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1008
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 只是沉浸于自己的玄想中
+sensory_mapping: 身体包围；深度；内外隔绝
+context_fact: 墨子贬斥只做玄想而缺乏观测、实验和制造能力的同行，并强调自己能做实际仪器。
+image_mechanism: 抽象思绪变成可包围身体的介质，思想者越向内投入便越深地没入其中，外部现实和动手劳动随之隔在液面之外。
+property_alignment: 专注玄想对应身体浸入介质；自我封闭对应液体包围；脱离实践对应沉入后远离陆地活动
+context_alignment: 由强调实际动手的墨子说出，浸没意象把他眼中的思想封闭转成身体失去接触现实。
+narrative_function: 强化墨子实践主义的自我定位，并为其机械宇宙模型出场蓄势。
+transfer_rule: 用沉浸表达专注时，应交代包围注意的内容、与外界隔开的程度，以及这种投入如何改变行动。
+failure_boundary: 人物同时保持敏锐观察和实践反馈时，沉浸仍可表专注，却不能再推断与现实隔绝。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 巫师、玄学家和道学家全神贯注于脱离观测的思辨
+vehicle: 身体没入包围自己的液体而与外界隔开
+ground: 注意力完全被玄想占据对应身体被液体包围；忽视实际观察和动手对应浸没后与外界环境隔离

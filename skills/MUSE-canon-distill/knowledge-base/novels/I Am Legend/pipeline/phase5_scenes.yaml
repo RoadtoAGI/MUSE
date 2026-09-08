@@ -1,0 +1,340 @@
+# Phase 5: Key Scenes — I Am Legend (Richard Matheson, 1954)
+#
+# Not a chapter-by-chapter enumeration. Only structural turning points,
+# climaxes, and key setup scenes. 12 scenes for a ~50K-word novel.
+
+sequence_expansions:
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: "Neville's house, Cimarron Street"
+        time: "Late afternoon → night, January 1976"
+        participants: [Robert Neville, vampires (exterior), Ben Cortman (voice)]
+        pov: Robert Neville
+        conflict: >
+          The daily routine of survival vs. the erosion of will. The
+          women outside trigger sexual frustration; the sounds penetrate
+          his defenses; alcohol is insufficient.
+        value_start: "Numb endurance — functional survival"
+        value_end: "Cracking — he nearly opens the door"
+        must_include: >
+          The garlic necklaces, the stake-making, the women posing,
+          Cortman's "Come out, Neville!", the drunk monologue about
+          vampire civil rights, and the moment he actually lifts
+          the crossbar before catching himself.
+        handoff: >
+          Morning hangover leads to the impulsive drive that begins
+          ARC1-SEQ2.
+        beat_direction: >
+          Start in mechanical routine, escalate through sexual
+          torment, climax at the crossbar, collapse into bed.
+          The "civil rights" monologue provides dark comic relief
+          before the final surge.
+        source_chapter: "Chapters 1–3"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: "Virginia's crypt → residential streets → Cimarron Street"
+        time: "Morning → sunset, a cloudy day"
+        participants: [Robert Neville, vampires, Ben Cortman]
+        pov: Robert Neville
+        conflict: >
+          Grief pulls Neville to the cemetery; scientific curiosity
+          detains him; carelessness nearly kills him.
+        value_start: "Hopelessness — visiting his wife's sealed casket"
+        value_end: "Desperate survival — barely making it home alive"
+        must_include: >
+          The crypt visit ("Virginia. Take me where you are."), the
+          discovery that sunlight kills vampires, the stopped watch,
+          the 89 mph race home, crashing through the vampire line,
+          emptying two pistols, the destroyed station wagon, the dead
+          generator. Final image: sobbing "Virginia" in the dark.
+        handoff: >
+          Part II opens with the house repaired and Neville beginning
+          his investigation — the despair transmuted into purpose.
+        beat_direction: >
+          Elegiac stillness at the crypt → scientific excitement →
+          mounting panic → full action climax → emotional collapse.
+          The longest sustained tension sequence in the novel.
+        source_chapter: "Chapters 4–5"
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-2
+        location: "Neville's house (flashback: the old neighborhood)"
+        time: "Part II, March 1976 — flashback to pre-plague"
+        participants: [Robert Neville, Virginia, Kathy, Ben Cortman]
+        pov: Robert Neville
+        conflict: >
+          The past vs. the present. Neville forces himself to remember
+          in order to understand, but memory is agony.
+        value_start: "Willful forgetting — 'the past was as dead as Cortman'"
+        value_end: "The past breaks through — 'Good morning, said Ben Cortman'"
+        must_include: >
+          Virginia's illness, the dust storms, the mosquitoes, the
+          breakfast conversation about the plague ("Nobody won it. /
+          The mosquitoes won it."), Kathy under the shelter half,
+          the normalcy of carpooling. The devastating last line.
+        handoff: >
+          The memory of the plague's mundane spread triggers Neville's
+          scientific investigation.
+        source_chapter: "Chapter 6"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S04
+        arc_id: ARC-2
+        location: "Neville's house, various houses in the cleared zone"
+        time: "Part II, weeks of experimentation"
+        participants: [Robert Neville, female vampire test subject]
+        pov: Robert Neville
+        conflict: >
+          Neville vs. his own ignorance and the limits of empirical
+          method without training.
+        value_start: "Determined investigation — 'either he found the answer or he ditched the whole mess, life included'"
+        value_end: "Frustrated rage — every answer raises more questions"
+        must_include: >
+          The allyl sulphide injection (no effect), the cross
+          experiment (the bound woman, her terror, her escape), the
+          Muslim-vampire question ("What would a Mohammedan vampire
+          do if faced with a cross?"), Cortman jumping over the
+          running-water trough and laughing.
+        handoff: >
+          The failed experiments drive Neville to the library —
+          he needs real science, not trial and error.
+        source_chapter: "Chapters 7–8"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: "Neville's house → Ben Cortman's house → the empty lot"
+        time: "A morning in the plague era (flashback)"
+        participants: [Robert Neville, Virginia (dead), Ben Cortman (comatose), Freda Cortman (comatose), a neighbor]
+        pov: Robert Neville
+        conflict: >
+          Love vs. law. Neville refuses to burn Virginia's body despite
+          the legal mandate. Then she returns as a vampire.
+        value_start: "Petrified grief — 'Something had happened to his brain'"
+        value_end: "Ultimate horror — his dead wife at the door"
+        must_include: >
+          Virginia's heart stopping. Neville sitting motionless for
+          over an hour. Sewing her into the blanket. Refusing the
+          burning pit. "I'm not going there!" Burying her secretly
+          in the lot. Two nights later: the doorknob turning, the
+          shadow on the porch. "Rob...ert." The single most horrifying
+          moment in the novel.
+        handoff: >
+          Having staked Virginia (implied, told later), Neville's grief
+          calcifies into his killing routine. The wound drives the
+          entire scientific quest.
+        beat_direction: >
+          Sustained grief → desperate defiance of the law → the burial
+          as an act of love → the return as the cruelest betrayal.
+          The emotional heart of the novel.
+        source_chapter: "Chapter 9"
+
+  - seq_id: ARC2-SEQ4
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: "LA Public Library → Neville's house/workshop"
+        time: "April 1976 onward — weeks of study"
+        participants: [Robert Neville]
+        pov: Robert Neville
+        conflict: >
+          A blue-collar man vs. the entire body of bacteriological
+          science he must teach himself.
+        value_start: "Determined but untrained — 'the first step was to get a microscope'"
+        value_end: "Triumph and despair — 'I dub thee vampiris'"
+        must_include: >
+          The library scene (dead clock, the maiden librarian, "Policeman!
+          Oh, policeman!"), learning microscopy (13 broken slides),
+          the lymph system insight, the dust-storm vector connection
+          (waking at 3 AM), finally seeing the bacillus. The bacillus
+          as both answer and defeat: knowledge without community is
+          impotent.
+        handoff: >
+          Neville now understands the disease but cannot cure it.
+          Scientific mastery without purpose leads to emotional stasis
+          — broken by the dog, then by Ruth.
+        source_chapter: "Chapters 10–14"
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-3
+        location: "Neville's house"
+        time: "Part III, a week-long sequence"
+        participants: [Robert Neville, the dog]
+        pov: Robert Neville
+        conflict: >
+          Neville's desperate need for any living companion vs. the
+          impossibility of connection in this world.
+        value_start: "Electrified hope — a living dog in daylight"
+        value_end: "Flat despair — the dog is dead within a week"
+        must_include: >
+          Days of patient luring with food. The dog finally entering.
+          Its rapid deterioration. Neville's brief, desperate tenderness.
+          The dog's death as a dry run for the Ruth encounter — same
+          emotional arc compressed.
+        handoff: >
+          The dog's death makes Ruth's appearance even more devastating
+          in its promise.
+        source_chapter: "Chapter 14"
+
+      - scene_id: S08
+        arc_id: ARC-3
+        location: "Open field → Neville's house"
+        time: "Part III, afternoon → evening"
+        participants: [Robert Neville, Ruth]
+        pov: Robert Neville
+        conflict: >
+          A man who has forgotten how to be human meets a woman who
+          is not what she seems.
+        value_start: "Shock — a living woman in sunlight"
+        value_end: "Uneasy coexistence — hope contaminated by suspicion"
+        must_include: >
+          The chase across the field, his violence (slap, dragging),
+          her terror. "He didn't realize that his voice was devoid of
+          warmth, that it was the harsh, sterile voice of a man who
+          had lost all touch with humanity." The garlic test — her
+          vomiting. His guilt. Wine and Schubert. His inability to
+          trust. "You've been alone too long. You've lost the talent
+          for deceit."
+        handoff: >
+          The blood test, deferred to morning, becomes the ticking bomb.
+        beat_direction: >
+          Violence → fragile domesticity → suspicion → interrogation →
+          fragile truce. Every moment of warmth is undercut by doubt.
+        source_chapter: "Chapters 15–17"
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-3
+        location: "Neville's house — dark living room → bedroom"
+        time: "Part III, deep night"
+        participants: [Robert Neville, Ruth]
+        pov: Robert Neville
+        conflict: >
+          Emotional surrender vs. self-preservation. Neville must
+          choose between connection and safety.
+        value_start: "Isolation within intimacy — distrust despite closeness"
+        value_end: "Total vulnerability — 'I'll save you, Ruth. I will. Or I'll die myself'"
+        must_include: >
+          Waking in the dark, crying "Virge!" Finding Ruth dressed by
+          the peephole. His confession about Virginia's return ("My own
+          wife, coming back to drink my blood!"). The embrace. "Two
+          people holding each other tightly in the lost measure of
+          night." The blood test agreement. His trembling hands on
+          the microscope.
+        handoff: >
+          He looks into the eyepiece. The mallet falls.
+        beat_direction: >
+          Nightmare → confrontation → raw confession → embrace →
+          hope → betrayal. The fastest emotional reversal in the novel.
+        source_chapter: "Chapter 18"
+
+      - scene_id: S10
+        arc_id: ARC-3
+        location: "Neville's bedroom → the house, alone"
+        time: "Part III, early morning"
+        participants: [Robert Neville, Ruth (via letter)]
+        pov: Robert Neville
+        conflict: >
+          The old worldview vs. the new reality. Everything Neville
+          believed about his situation is wrong.
+        value_start: "Physical pain, confusion — waking after the mallet blow"
+        value_end: "Paradigm collapse — 'Bacteria can mutate'"
+        must_include: >
+          The overturned microscope. Ruth's letter in full. "You killed
+          him." "I was loving you." The amber pill. The tan rubbing off
+          her leg. And the final phrase that restructures everything:
+          "Bacteria can mutate." Neville looks into the microscope
+          and sees the mutated bacillus — proof that the infected are
+          evolving, that a new species of humanity is being born.
+        handoff: >
+          Three-year gap to Part IV. Neville stays, unable to leave
+          the house. The new society organizes.
+        source_chapter: "Chapter 19"
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: "Cimarron Street — viewed from Neville's peephole"
+        time: "January 1979, night"
+        participants: [Robert Neville, the new society's armed squad, vampires, Ben Cortman]
+        pov: Robert Neville
+        conflict: >
+          The new order vs. the old — both the old vampires and
+          the old human. Neville watches his world end from behind
+          the peephole.
+        value_start: "Resigned waiting — 'he would not fight'"
+        value_end: "Wounded, dragged from the house — 'into the world that was theirs'"
+        must_include: >
+          The spotlights, the systematic slaughter of vampires with
+          pikes. Cortman on the roof — machine-gunned, still climbing,
+          "a look of berserk defiance." Neville weeping for Cortman.
+          "He felt more deeply toward the vampires than he did toward
+          their executioners." Then: the axe on his door, the gunfire,
+          his decision to fight, the bullet in his chest.
+        handoff: >
+          Neville loses consciousness. He wakes in a cell.
+        beat_direction: >
+          Observation → horror → grief (Cortman's death) → panic →
+          violence → defeat. The action climax of the novel.
+        source_chapter: "Chapter 20"
+
+      - scene_id: S12
+        arc_id: ARC-4
+        location: "A cell in the new society's building"
+        time: "January 1979, dawn"
+        participants: [Robert Neville, Ruth]
+        pov: Robert Neville
+        conflict: >
+          Neville vs. his own identity — he must understand what he
+          has become.
+        value_start: "Dying — 'I'm going to die'"
+        value_end: "Ironic transcendence — 'I am legend'"
+        must_include: >
+          The cell, the bandage, the growing red spot. Ruth entering —
+          changed, official, but compassionate beneath. "Did you ever
+          see your face when you killed?" "Don't let it get too
+          brutal." The pills hidden in her brassiere. Standing at the
+          window. The crowd's faces: "awe, fear, shrinking horror."
+          The epiphany: "I'm the abnormal one now. Normalcy was a
+          majority concept." The pills. "Full circle... I am legend."
+        handoff: "None. The novel ends."
+        beat_direction: >
+          Pain → Ruth's visit (debate scene) → the pills (farewell) →
+          the window (epiphany) → the swallow (acceptance). The
+          quietest climax possible after the violence of Chapter 20.
+          The title earns its meaning.
+        source_chapter: "Chapter 21"
+
+tension_curve:
+  description: >
+    The novel's tension follows a distinctive pattern: sustained low-level
+    dread (daily routine) punctuated by violent spikes (the race home,
+    Virginia's return, the mallet blow, the assault). The overall arc
+    is a slow compression toward the final reversal. Emotional peaks
+    are higher than action peaks — Virginia's "Rob...ert" is more
+    devastating than any firefight.
+  peaks: [S02, S05, S09, S11, S12]
+  valleys: [S03, S06, S07]
+
+causal_chain: >
+  S01 (routine crumbles) → S02 (near-death triggers scientific purpose) →
+  S03 (memory provides clues) → S04 (experiments fail, need real science) →
+  S05 (Virginia's death/return = emotional engine) → S06 (breakthrough:
+  vampiris bacillus) → S07 (dog dies, need deepens) → S08 (Ruth appears,
+  hope + suspicion) → S09 (emotional surrender) → S10 (betrayal + paradigm
+  shift: bacteria can mutate) → S11 (new society attacks, Cortman dies,
+  Neville captured) → S12 (the epiphany: I am legend)

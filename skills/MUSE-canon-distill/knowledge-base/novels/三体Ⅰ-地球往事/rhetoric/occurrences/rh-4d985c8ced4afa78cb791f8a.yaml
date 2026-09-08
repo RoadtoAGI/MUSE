@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4d985c8ced4afa78cb791f8a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L645
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 身体和四肢仍保持着老校工抓着她时的姿态，一动不动，像石化了一般
+sensory_mapping: 视觉；触觉；硬度；静止；时间
+context_fact: 她被人强行按住，哭喊耗尽后只能凝视父亲遗体。
+image_mechanism: 外力松开后姿势仍未解除，身体仿佛在创伤发生的一刻由肉转石；时间继续流动，她却被浇铸在被抓住的姿态里。
+property_alignment: 身体完全不动对应石像凝固；姿势长久保持对应石材不能自行改变；情感被创伤封住对应活体生命性消失
+context_alignment: 句中明确给出固定姿态和长时间不动，石化把休克式僵直与心理封冻统一起来。
+narrative_function: 延长父亲死亡后的创伤停顿，并刻下叶文洁人生转折。
+transfer_rule: 用石化写创伤反应时，应抓住一个被事件截断的具体姿势，让姿态固定、感官迟滞和时间停顿彼此对应。
+failure_boundary: 人物主动站岗、镇定不动或短暂屏息时，石化会把意志控制误写成创伤性失能。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 叶文洁目睹父亲惨死后长时间保持原姿势僵立
+vehicle: 活体瞬间变成坚硬石像并固定姿态
+ground: 身体完全不动对应石像凝固；姿势长久保持对应石材不能自行改变；情感被创伤封住对应活体生命性消失

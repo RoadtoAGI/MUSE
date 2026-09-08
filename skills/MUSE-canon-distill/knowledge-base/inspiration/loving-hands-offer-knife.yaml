@@ -1,0 +1,21 @@
+card_id: loving-hands-offer-knife
+pattern_name: 亲情递刀危机
+dramatic_function: 让最终诱惑来自爱而非恶意，迫使主角拒绝最合理的自救。
+applicability: 适合道德高潮；若诱惑者可恨，选择重量会变轻（单书孤证，验证面窄）
+reuse_candidates:
+- 姐姐剪发
+- 刺杀新郎
+- 恢复鱼尾
+tags:
+- 终局危机
+- 亲情诱惑
+- 自救代价
+- 道德选择
+source_scenes:
+- novel: 海的女儿
+  scene_id: S06
+  note: 姐姐们牺牲头发换刀，要求她在日出前杀王子自救。
+phase_affinity:
+- 2
+- 3
+- 4

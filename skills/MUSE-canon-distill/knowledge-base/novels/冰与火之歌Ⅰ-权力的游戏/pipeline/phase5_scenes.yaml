@@ -1,0 +1,283 @@
+# Phase 5: 关键场景 — 《冰与火之歌Ⅰ·权力的游戏》
+# 注：逆向分析只提取结构转折点和关键场景，不逐章列举
+
+sequence_expansions:
+
+  # ═══════ ARC-1 ═══════
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 鬼影森林（长城以北）
+        time: 故事开始前（序幕）
+        participants: [威尔, 威玛·罗伊斯, 盖瑞, 异鬼]
+        pov: 威尔
+        conflict: 守夜人巡逻队遭遇未知的超自然敌人
+        value_start: "对长城以北威胁的轻视（罗伊斯的傲慢）"
+        value_end: "恐怖——异鬼真实存在，死者可以复活"
+        must_include: 异鬼的首次视觉呈现（半透明冰剑、变色盔甲、蓝色眼睛）；尸鬼复活
+        handoff: 逃兵威尔在第2章被奈德处决，但无人相信他关于异鬼的证词
+        beat_direction: "从类型上建立'这不是传统奇幻'的期望——序幕中的恐怖感与后续的政治叙事形成张力"
+        source_chapter: 1
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 临冬城墓窖
+        time: 劳勃抵达后第一天
+        participants: [奈德, 劳勃]
+        pov: 艾德
+        conflict: 劳勃请求奈德出任首相并联姻——召唤与抗拒
+        value_start: "奈德作为安宁的北境守护"
+        value_end: "奈德被迫考虑进入权力游戏"
+        must_include: 劳勃在莱安娜墓前的痛苦；首相邀请和联姻提议；奈德的犹豫
+        handoff: 凯特琳的密信到来打破犹豫
+        source_chapter: 5
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 临冬城残塔
+        time: 王室离开前最后一天
+        participants: [布兰, 詹姆, 瑟曦]
+        pov: 布兰
+        conflict: 好奇心与致命秘密的碰撞
+        value_start: "童年最后的无忧攀爬"
+        value_end: "坠落——天真被暴力终结"
+        must_include: 布兰偷听到乱伦和阴谋；詹姆"好好想一想，我为爱情做了些什么"；坠落
+        handoff: 布兰昏迷，引发刺杀事件
+        beat_direction: "激励事件——用一个孩子的坠落启动全书因果链，将'政治暗斗'升级为'生死威胁'"
+        source_chapter: 9
+
+      - scene_id: S04
+        arc_id: ARC-1
+        location: 布兰病房
+        time: 奈德离开后第十八天
+        participants: [凯特琳, 刺客, 冰原狼"夏天"]
+        pov: 凯特琳
+        conflict: 母亲以血肉之躯对抗刺客
+        value_start: "布兰在昏迷中相对安全"
+        value_end: "坠楼被证实为谋杀——凯特琳决定南下追查"
+        must_include: 藏书塔纵火做掩护；凯特琳徒手夺刀；冰原狼咬杀刺客；瓦雷利亚钢匕首
+        handoff: 凯特琳携匕首乘船赴君临
+        source_chapter: 15
+
+  # ═══════ ARC-2 ═══════
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 三叉戟河畔 / 达里城营地
+        time: 南行途中
+        participants: [珊莎, 艾莉亚, 乔佛里, 奈德, 瑟曦, 劳勃]
+        pov: 珊莎（第16章）/ 艾德（第17章）
+        conflict: 孩子间的冲突被权力放大为家族裂痕
+        value_start: "珊莎对王子婚约的美好幻想"
+        value_end: "幻想碎裂——冰原狼淑女被处死，屠夫学徒被杀"
+        must_include: 乔佛里的暴行；珊莎拒绝作证；瑟曦要求处死淑女；奈德亲手执行
+        handoff: 奈德与瑟曦的仇恨种子生根
+        beat_direction: "用一个'小事件'（孩子打架）揭示系统性暴力——权力可以让一只无辜的狼代替另一只受罚"
+        source_chapter: 16-17
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 钢铁街武器铺
+        time: 奈德就任首相后
+        participants: [奈德, 詹德利]
+        pov: 艾德
+        conflict: 奈德追踪琼恩·艾林的调查路径
+        value_start: "'种性强韧'含义不明"
+        value_end: "发现劳勃的黑发私生子——接近乔佛里血统真相"
+        must_include: 詹德利的黑发蓝眼（劳勃的标志）；奈德的顿悟——这就是艾林在追查的
+        handoff: 珊莎无意间的话将在第45章触发最终揭示
+        source_chapter: 28
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: 十字路口旅店
+        time: 凯特琳北归途中
+        participants: [凯特琳, 提利昂, 河间贵族]
+        pov: 凯特琳
+        conflict: 意外遭遇 + 瞬间决策——逮捕还是放过？
+        value_start: "凯特琳隐匿身份、低调北返"
+        value_end: "公开身份逮捕提利昂——暗斗变为明争"
+        must_include: 提利昂认出凯特琳的瞬间；凯特琳逐一点名河间封臣；提利昂被擒
+        handoff: 兰尼斯特的报复（詹姆截杀奈德，泰温出兵河间地）
+        beat_direction: "临界事件——从此刻起冲突不可逆。用'没有时间仔细思量'展示决策的偶然性如何改变历史"
+        source_chapter: 29
+
+  # ═══════ ARC-3 ═══════
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 君临街头 → 妓院外
+        time: 凯特琳逮捕提利昂后不久
+        participants: [奈德, 詹姆, 乔里·凯索, 兰尼斯特士兵]
+        pov: 艾德
+        conflict: 詹姆以武力报复凯特琳逮捕提利昂之举
+        value_start: "奈德在君临有首相权威的保护"
+        value_end: "乔里惨死、奈德断腿——权威被暴力撕碎"
+        must_include: 詹姆率二十人截杀；乔里之死；奈德被马压碎小腿
+        handoff: 奈德卧床期间调查加速
+        source_chapter: 36
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-3
+        location: 红堡 / 神木林
+        time: 劳勃狩猎前
+        participants: [奈德, 瑟曦]
+        pov: 艾德
+        conflict: 奈德手握真相但选择"正当程序"而非先下手为强
+        value_start: "奈德掌握乔佛里血统真相，拥有主动权"
+        value_end: "给了瑟曦最后通牒——但实际是给了她反击的时间"
+        must_include: 奈德明确说出"你的三个孩子都是詹姆的"；警告瑟曦趁劳勃打猎时逃走
+        handoff: 劳勃被"意外"杀死（蓝赛尔灌酒），瑟曦未逃反攻
+        beat_direction: "奈德悲剧的核心节拍——他的荣誉使他给敌人开了一扇逃生之门，而敌人用这扇门反杀了他"
+        source_chapter: 46
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-3
+        location: 铁王座大殿
+        time: 劳勃驾崩之日
+        participants: [奈德, 瑟曦, 乔佛里, 小指头, 杰诺斯·史林特, 巴利斯坦]
+        pov: 艾德
+        conflict: 法理正义 vs 武力现实
+        value_start: "奈德手握国王遗嘱，自认有法律和武力双重保障"
+        value_end: "遗嘱被撕毁，小指头背叛，部下被屠，奈德成为阶下囚"
+        must_include: 瑟曦撕毁遗嘱；"权力来自刀剑"；小指头匕首抵下巴；"我不是警告你别信任我的嘛"
+        handoff: 奈德入狱，各方重新集结
+        beat_direction: "全书中点/灾变——单场景内完成权力的180度翻转。用'纸vs剑'的物理动作（撕毁遗嘱）具象化主控思想"
+        source_chapter: 50
+
+  # ═══════ ARC-4 ═══════
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 红堡 / 君临街巷
+        time: 政变之后
+        participants: [艾莉亚, 西利欧·佛瑞尔, 兰尼斯特士兵]
+        pov: 艾莉亚
+        conflict: 逃亡——武装追捕中的少女求生
+        value_start: "艾莉亚尚在红堡中，有师父保护"
+        value_end: "西利欧以木剑抗甲兵为她争取时间；艾莉亚第一次杀人后逃入城市"
+        must_include: 西利欧的最后一课（"什么也不说"）；艾莉亚用缝衣针刺死马僮
+        handoff: 艾莉亚沦为街头流浪儿
+        source_chapter: 51
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-4
+        location: 呓语森林
+        time: 绿叉河之战同期
+        participants: [罗柏, 詹姆·兰尼斯特, 北方诸侯]
+        pov: 凯特琳
+        conflict: 罗柏以智取胜——声东击西的军事博弈
+        value_start: "詹姆围困奔流城，兰尼斯特军事优势明显"
+        value_end: "罗柏伏击俘获詹姆，解除奔流城之围"
+        must_include: 利用詹姆的急躁性格设陷阱；詹姆剑下杀死多人后被擒；卡史塔克两子战死的代价
+        handoff: 军事胜利无法阻止奈德被杀——时间线的残酷错位
+        source_chapter: 64
+
+  - seq_id: ARC4-SEQ3
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-4
+        location: 贝勒大圣堂
+        time: 奈德被捕后约两周
+        participants: [奈德, 乔佛里, 瑟曦, 珊莎, 艾莉亚, 伊林·派恩, 尤伦]
+        pov: 艾莉亚
+        conflict: 奈德的终极牺牲——放弃荣誉认罪，但乔佛里违约斩首
+        value_start: "奈德已同意认罪，换取穿黑衣去长城的承诺"
+        value_end: "乔佛里违约下令斩首——荣誉无法救他，放弃荣誉同样无法救他"
+        must_include: 奈德的认罪台词；乔佛里的违约斩首令；艾莉亚在人群中的视角；尤伦抓住她割去长发；那声"集体叹息"
+        handoff: 所有存活角色的命运被永久改变
+        beat_direction: "全书高潮——通过限制POV（艾莉亚被遮住视线，只听到'一声叹息'）制造比直接描写更强的毁灭感。核心手法：不让读者'看到'死亡，而是让他们'推断'死亡"
+        source_chapter: 66
+
+  # ═══════ ARC-5 ═══════
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 临冬城墓窖
+        time: 奈德死后不久
+        participants: [布兰, 瑞肯, 鲁温, 冰原狼]
+        pov: 布兰
+        conflict: 超自然预感 vs 理性否认
+        value_start: "布兰和瑞肯各自梦见父亲在墓窖中"
+        value_end: "预感成真——冰原狼齐声哀嚎，噩耗传来"
+        must_include: 两兄弟独立做了同一个梦；鲁温的理性解释被现实击碎
+        handoff: 北方的悲痛转化为政治行动
+        source_chapter: 67
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-5
+        location: 奔流城大厅
+        time: 战后会议
+        participants: [罗柏, 凯特琳, 大琼恩, 北境/河间诸侯]
+        pov: 凯特琳
+        conflict: 议和理性 vs 复仇激情——北境的命运抉择
+        value_start: "凯特琳差一点说服诸侯议和"
+        value_end: "大琼恩拔剑高呼'北境之王'，罗柏被裹挟称王"
+        must_include: 凯特琳的议和论证；大琼恩的转折拔剑；群起响应；凯特琳"他真正的新娘是那把剑"
+        handoff: 北境独立，五王之战格局形成
+        beat_direction: "用凯特琳的'就差那么一点'展示另一种可能性的消失——比没有希望更残忍的是'希望曾经存在过'"
+        source_chapter: 72
+
+      - scene_id: S16
+        arc_id: ARC-5
+        location: 多斯拉克草原 / 卓戈火葬台
+        time: 丹妮失去一切之后
+        participants: [丹妮莉丝, 乔拉, 弥丽·马兹·笃尔, 三条龙]
+        pov: 丹妮莉丝
+        conflict: 在绝境中赌上一切——走入火中还是接受失败
+        value_start: "一无所有的流亡遗孤——丈夫死、儿子死、部众散"
+        value_end: "龙母——三条龙破壳而出，所有人跪伏"
+        must_include: 将弥丽绑上火葬台；龙蛋放在卓戈身边；"如果我回头，一切就都完了"；走入火中；安然无恙；三龙吸吮乳汁的终章画面
+        handoff: 整个系列的核心力量登场——魔法回归世界
+        beat_direction: "全书终曲——与奈德之死形成对位：奈德的妥协带来毁灭，丹妮的'不回头'带来重生。死亡→诞生的循环结构"
+        source_chapter: 73
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: |
+    整体呈"多峰递增"型——每个Arc的高潮峰值高于前一个，最终在ARC-4达到情感巅峰（奈德之死），
+    ARC-5则以"重生"的方式将悲伤转化为新的可能性。
+    多线并行使得张力不是线性递增，而是像交响乐一样有多条旋律交织——
+    君临线（奈德）的张力持续上升直到断裂，丹妮线独立积累到最后爆发，
+    长城线作为低频持续的bass在首尾制造不安。
+  peaks: [S03, S07, S10, S13, S16]  # 布兰坠楼、旅店逮捕、政变、奈德之死、龙的诞生
+  valleys: [S02, S06, S14]  # 墓窖对话、钢铁街调查、布兰梦境——相对安静但暗藏信息
+
+# ── 因果链 ──
+
+causal_chain: >
+  S01（异鬼现身）→ S02（劳勃请奈德南下，因琼恩·艾林之死）
+  → S03（布兰坠楼，因目睹乱伦）→ S04（刺客行刺，因兰尼斯特灭口）
+  → S05（三叉戟河冲突，因两家少年仇恨）→ S06（奈德追查血统，因匕首线索）
+  → S07（凯特琳逮捕提利昂，因匕首指认）→ S08（詹姆截杀奈德护卫，因提利昂被捕）
+  → S09（奈德揭穿瑟曦并给通牒，因发现乔佛里血统）→ S10（政变，因瑟曦反击+小指头背叛）
+  → S11（艾莉亚逃亡，因政变波及）→ S12（罗柏俘获詹姆，因北方集结反击）
+  → S13（奈德被斩首，因乔佛里违约）→ S14（北方的悲痛，因奈德之死传来）
+  → S15（罗柏称王，因诸侯拒绝任何南方国王）→ S16（龙的诞生，因丹妮在失去一切后走入火中）

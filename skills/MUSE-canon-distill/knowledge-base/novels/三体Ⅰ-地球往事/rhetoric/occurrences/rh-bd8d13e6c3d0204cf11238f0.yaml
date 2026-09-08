@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-bd8d13e6c3d0204cf11238f0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2526
+chapter: 第34章 智子
+figure_type: simile
+quote: 在广阔的眼睑上，缤纷的色彩如洪水般滚滚而过
+sensory_mapping: 彩色洪流；滚动波峰；宽阔眼睑；连续冲刷；视觉充盈
+context_fact: 眼状高维结构表面全反射三体行星和太阳，细节在合并后仍高速变化。
+image_mechanism: 颜色从静态表皮脱离为有体积的流体，巨眼睑成为河床；地表影像被高维形变卷成一波波彩洪，显示结构内部仍剧烈重组。
+property_alignment: 色彩成片对应洪水水面；快速变化对应水流速度；连续滚过对应波浪推进；眼睑宽广对应洪泛河床；缤纷反光对应洪流卷带多种物质；不可停驻对应水势失控
+context_alignment: 巨眼本已令宇宙人格化，洪水则让其表面保持非生物高维运动，防止眼睛只成静态雕像。
+narrative_function: 为巨眼增加动态规模和不稳定感，过渡到细节消失与盲眼变形。
+transfer_rule: 把色彩变化写成洪水时，应匹配覆盖面积、统一流向、连续波动、速度和压倒静态表面的力量。
+failure_boundary: 色彩只是零星闪烁、缓慢渐变或固定斑点时，洪水的连续体量和方向性不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨眼表面大量反射色彩连续、快速且成片流过眼睑区域
+vehicle: 水量巨大的洪流铺满河道，波峰相接并滚滚向前推进
+ground: 色彩大面积连续移动对应洪水漫卷；变化量和速度巨大对应洪流；色带起伏对应滚滚水浪

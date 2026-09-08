@@ -1,0 +1,40 @@
+schema_version: dialogue-character/v1
+character_id: novel:海的女儿:hai-de-wu-po
+work_id: novel:海的女儿
+display_name: 海的巫婆
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的对白是全篇最直接、最不修辞、最少装饰的——
+
+
+    **预判型开场**：见面第一句话直接说出客户来意 + 给出价值判断。"我知道你是来求什么的。你是一个傻东西！不过，我美丽的公主，我还是会让你达到你的目的"——预判 + 称呼客户为"美丽的公主"（讽刺与认可并存）。
+
+
+    **逐条列价格 + 用感官细节描述痛感**：她不说"会很难受"这种抽象描述，她说"这就好像有一把尖刀砍进你的身体" / "你的每一个步子将会使你觉得好像是在尖刀上行走，好像你的血在向外流"——价格陈述全部用具体身体感官替代抽象形容词。
+
+
+    **没有销售话术**：她的对白中唯一一次接近"销售话术"的瞬间是"你还有美丽的身材呀……有了这些东西，你就很容易迷住一个男人的心了"——但即使这里她也没有承诺成功（"很容易"是程度副词，不是承诺）。
+
+
+    **附赠条款而不强调**：药水可让珊瑚虫"裂成碎片"的副功能是她在客户离开前作为附带说明给的——她不把它当作销售点。这是她服务质量的一部分，但她不强调它来塑造形象。
+
+
+    **清洁与煎药仪式语**：煎药前说"清洁是一件好事"——单句格言式语言。这与她的形象（白骨屋 + 水蛇爬胸口）构成强烈反讽，但她说得平静、没有情绪化色彩。
+
+
+    佐证：scenes/scene_S03.md:L26-L26（预判型开场 + 感官细节痛感描述："这就好像有一把尖刀砍进你的身体"）；scenes/scene_S03.md:L28-L28（逐条不可逆条款 + 死期条款，没有任何美化）；scenes/scene_S03.md:L30-L30（要价段："我必须得到你最好的东西"
+    + 表演"我得把我自己的血放进这药里，好使它尖锐得像一柄两面都快的刀子"——把自己的成本也明示）；scenes/scene_S03.md:L32-L32（不施压回应："你还有美丽的身材呀……" + 终结条款"你也可以得到这服强烈的药剂了"）；scenes/scene_S03.md:L34-L34（"清洁是一件好事"——煎药仪式语，单句格言）'
+  evidence_locators:
+  - scenes/scene_S03.md:L26-L26
+  - scenes/scene_S03.md:L28-L28
+  - scenes/scene_S03.md:L30-L30
+  - scenes/scene_S03.md:L32-L32
+  - scenes/scene_S03.md:L34-L34
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

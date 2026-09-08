@@ -1,0 +1,34 @@
+mode: reference
+display_name: 陈雨琪
+role_slug: chen-yuqi
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_DT-S01.md
+  - scenes/scene_DT-S03.md
+  - scenes/scene_DT-S08.md
+  - scenes/scene_DT-S10.md
+  - scenes/scene_DT-S11.md
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S05.md
+  - scenes/scene_YY-S09.md
+built_at: "2026-05-29T16:30:00+08:00"
+skill_version: 1
+locator_count: 12
+has_canon_ending: true
+coverage_note: |
+  覆盖陈雨琪跨两篇出场：《地铁》（主 POV，证据最富）+《医院》（群像配角并死亡）。
+  《地铁》取九条 locator——身份/家人线（DT-S01 初遇陆霞克、DT-S08 父母打不通+陆小虎线）、
+  声音（DT-S01 打断废话、DT-S03 白眼吐槽、DT-S11 压力下命令式"闭嘴"）、性格真相与关键选择
+  （DT-S10 拽出陆霞克+推门锁杨和修）、弧光起点→转折→终点（DT-S03 目睹虐杀跌坐、DT-S10 救人决断、
+  DT-S11 接受陆霞克断后、DT-S11 末段遇陆小虎守口如瓶的 POV 转交）。
+  《医院》取两条 locator——YY-S05 外部观察（中性打扮/强壮/被纳入嫌疑）作身份/声音跨篇佐证、
+  YY-S03 骂张华侮辱军队作"不冷眼旁观对死者侮辱"边界佐证；YY-S09 是其虐杀终局，拆入 references/canon-ending.md。
+  声音框架跨 3 场取证（DT-S01 / DT-S03 / DT-S11），弧光覆盖起点（DT-S01 身份段隐含）/ 转折
+  （DT-S03、DT-S10、DT-S11 三处）/ 终点（DT-S11:L47）四个 locator，均非单点外推。
+  软建议中"核心欲望/性格真相多场佐证"满足；身份段中性外貌特征同时有 YY-S05 第三方观察与
+  地铁 POV 行为佐证，未做单点全称外推。
+  has_canon_ending=true：《医院》YY-S09 明确陈雨琪被感染者侯楚霖虐杀致死（灶台上四肢砍断、
+  开膛、五脏六腑流出，原文确证"正是陈雨琪"且尸体随后被当作凶器使用），为不可逆物理终局，
+  按"宁可漏不可错"判定生成 canon-ending.md，物理死亡不写入弧光本体。

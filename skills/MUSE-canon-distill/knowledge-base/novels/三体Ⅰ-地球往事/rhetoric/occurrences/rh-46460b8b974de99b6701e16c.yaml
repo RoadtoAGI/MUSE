@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-46460b8b974de99b6701e16c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L506
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 群星像一片银色的火焰
+sensory_mapping: 视觉；亮度；运动；温度反差
+context_fact: 水、二氧化碳、氧氮分层冻结，大气近乎消失。
+image_mechanism: 离散星点因密度和闪烁被视觉连成火面，颜色却被降到银冷；火焰的动与极寒的色互相冲突。
+property_alignment: 群星密集连片对应火焰成片；星光闪烁对应火舌跳动；冷银亮点对应被抽去暖色的火光
+context_alignment: 大气清空解释星光密集，绝寒语境反转火焰温暖。
+narrative_function: 在文明冻结时制造冷艳宇宙景观。
+transfer_rule: 反常材质比喻可保留喻体的形态与运动、反转其温度或颜色，但反转项必须由场景事实支撑。
+failure_boundary: 星点稀疏稳定、天空有暖色霞光或火焰温度是主要含义时，“银色火焰”的冷反差失效。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 大气消失后异常清晰密集的星空
+vehicle: 铺满视野、银白跳动的一片火焰
+ground: 群星密集连片对应火焰成片；星光闪烁对应火舌跳动；冷银亮点对应被抽去暖色的火光

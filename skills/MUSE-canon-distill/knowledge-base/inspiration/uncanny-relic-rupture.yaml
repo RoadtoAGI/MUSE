@@ -1,0 +1,27 @@
+card_id: uncanny-relic-rupture
+pattern_name: 神异破局
+dramatic_function: 在写实秩序压到极紧时，用无法解释的旧物或异象打断现实闭环。
+applicability: 适合现实规则强、但主题需要命运裂缝的故事；滥用奇迹会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 吴指南酒壶
+- 薛稷鬼魂
+- 钱塘龙君
+tags:
+- 神异介入
+- 旧物回返
+- 现实裂缝
+- 命运破局
+source_scenes:
+- novel: 大唐李白
+  scene_id: S05
+  note: 鬼魂饮酒论诗，承担帝王权柄的预警。
+- novel: 大唐李白
+  scene_id: S15
+  note: 龙君嵌入现实空间，以论辩点破天真之病。
+- novel: 大唐李白
+  scene_id: S22
+  note: 酒壶从天而降，打断极实婚仪收束。
+phase_affinity:
+- 1
+- 3
+- 4

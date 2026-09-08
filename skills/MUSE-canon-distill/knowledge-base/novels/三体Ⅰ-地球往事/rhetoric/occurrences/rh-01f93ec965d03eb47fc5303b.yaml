@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-01f93ec965d03eb47fc5303b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L970
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 研究下去，这就是对它最大的打击
+sensory_mapping: 身体冲击；战争动作；力量
+context_fact: 大史判断敌方正用倒计时扰乱科学家思想，因此劝汪淼恢复工作。
+image_mechanism: 坐在实验室里的知识生产被瞬间改写成战场出手，研究每向前一步就成为落在看不见敌人身上的冲击力。
+property_alignment: 继续研究阻断敌方干扰目的对应反击破坏攻击者计划；研究对象令敌方恐惧对应打击命中其弱点；不中止工作对应保持作战能力
+context_alignment: 前文军方已宣布战争爆发，大史沿用战场语汇把科学家的日常职责接入同一场战争，符合他的军警口吻。
+narrative_function: 把消极承受倒计时的汪淼重新定位为能够反击的参战者。
+transfer_rule: 将非暴力行动写成打击时，要说明它如何改变对手目标、为何触及弱点，以及行动者怎样保持施力。
+failure_boundary: 若研究与敌方利益没有可证关联，或只是让自己分心而不改变对局，称最大打击会把心理安慰夸成战略效果。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 汪淼继续纳米研究对未知敌方计划造成的阻碍
+vehicle: 在交战中直接击中敌人并造成重创
+ground: 持续研究会破坏敌方目标对应攻击削弱对手；基础进展越关键威胁越大对应命中要害造成最大伤害

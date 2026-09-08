@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ab72453e5449cf9688041176
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L567
+chapter: 第6章 宇宙闪烁之一
+figure_type: metaphor
+quote: 形成被称为微波背景辐射的‘余烬’
+sensory_mapping: 温度；视觉；时间；残留物
+context_fact: 汪淼向沙瑞山复述宇宙背景辐射的起源知识。
+image_mechanism: 一百四十亿年的热演化被压缩成火灾后的现场：极热宇宙成为大火，今天的低温微波则成为尚可测出的暗弱余热。
+property_alignment: 大爆炸高温对应猛烈燃烧；宇宙冷却对应火势熄退；低温残余辐射对应火后余烬；残留信号可追溯起源对应余烬证明曾有大火
+context_alignment: 辐射本就记录早期热状态，余烬同时说明低温、残留和历史证据，比泛称遗迹多出热学连续性。
+narrative_function: 用日常热经验解释背景辐射，并为后文“创世纪余温”铺路。
+transfer_rule: 解释长期残余信号时，可选能保留原事件同类能量并随时间衰减的遗留物，让起源、冷却和可追溯性对应。
+failure_boundary: 背景辐射不是局部燃烧残渣，也不会像煤块继续燃烧；涉及空间分布、黑体谱或宇宙膨胀时需回到物理描述。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 宇宙大爆炸冷却后仍弥漫全宇宙的微波背景辐射
+vehicle: 大火熄灭并冷却后仍残留、保存原先热量信息的余烬
+ground: 大爆炸高温对应猛烈燃烧；宇宙冷却对应火势熄退；低温残余辐射对应火后余烬；残留信号可追溯起源对应余烬证明曾有大火

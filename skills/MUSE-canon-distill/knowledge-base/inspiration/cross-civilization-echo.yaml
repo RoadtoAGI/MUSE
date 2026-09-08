@@ -1,0 +1,21 @@
+card_id: cross-civilization-echo
+pattern_name: 跨文明镜像章节
+dramatic_function: 同一句式与情节结构在两个文明各写一遍，靠结构复现宣告同构性，孤独与背叛的主题不经议论自动浮现
+applicability: 适用于双线或多文明叙事；要求读者刚读过原段落，间隔过远或改写过度则镜像识别失败（单书孤证，验证面窄）
+reuse_candidates:
+- 「不要回答」三连警告原文
+- 监听站与元首问答的具体设定
+tags:
+- 镜像结构
+- 双线叙事
+- 主题呼应
+source_scenes:
+- novel: 三体Ⅰ-地球往事
+  scene_id: S13
+  note: 1379号监听员段落逐句复现叶文洁红岸段落
+- novel: 三体Ⅰ-地球往事
+  scene_id: S10
+  note: 被镜像的原段落：波形曲线与按键三连
+phase_affinity:
+- 4
+- 5

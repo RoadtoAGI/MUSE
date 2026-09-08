@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6621ecc325cb8d776d98be74
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1507
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 这静止向各个方向飞快扩散开来，像快速封冻的海面
+sensory_mapping: 视觉；温度；物态变化；径向传播
+context_fact: CPU门电路出错导致系统锁死，主板大部分最终静止，只剩少量死循环闪动。
+image_mechanism: 刚才的河流和浪潮被保留为同一片水面，故障则化为寒潮从CPU圆心向外冻结；每经过一区，旗浪立即凝住。
+property_alignment: 运行时旗动对应流动海面；CPU故障中心对应冻结起点；停机范围扩大对应冰层前沿推进；最终大部静止对应海面封冻
+context_alignment: 它不是另起意象，而是把前文液化、河流、浪潮完整反转为冰封，延展框架承担系统从运行到锁死。
+narrative_function: 直观呈现故障传播和全局停机，并完成水意象的动态闭环。
+transfer_rule: 延展流体意象写停机时，可让故障变成冻结前沿，逐项对应起点、传播方向和流动消失。
+failure_boundary: 各模块独立随机停机、故障不从中心传播或系统仍整体运行时，快速封海会虚构统一前沿。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: CPU锁死后停止活动的状态从中央迅速传播到人列计算机各区
+vehicle: 低温从一点扩展，流动海水沿前沿快速结冰凝固
+ground: 静止边界由中心向外推进对应冰面冻结前沿扩散；原先旗浪逐区停下对应流动水面变固态

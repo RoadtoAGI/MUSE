@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-02a8788a06480f88f145c0fd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2004
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 她们嘴里悠然吐出的烟浸满了阳光，同她们那丰满肌肤上的汗毛一样，发出银亮的柔光
+sensory_mapping: 视觉银光；细丝；暖阳；皮肤触感；缓慢漂浮
+context_fact: 叶文洁在齐家屯院中与女人、孩子和狗共享晴日，烟锅吐出的烟被温暖阳光包围。
+image_mechanism: 烟不再悬离人体，而被阳光梳成附着皮肤的细毛，银光把空气中的烟与女人健康丰润的身体连成同一温热表面。
+property_alignment: 烟缕细丝对应汗毛；烟雾蓬松对应体毛密度；阳光反射对应银亮边光；缓慢吐烟对应汗毛静静随气流动；温暖院落对应肌肤温度
+context_alignment: 叶文洁久处冷硬基地，乡村女人的身体、烟和阳光共同提供丰饶生命感，使这一细微比照格外温暖。
+narrative_function: 以近距离光感保存齐家屯日常的肉身温度和安宁。
+transfer_rule: 把烟写成体毛时，应匹配纤维尺度、逆光光泽、柔软度和烟与人物身体的空间邻近。
+failure_boundary: 烟浓黑成团、光线昏暗或人物身体不在同一画面时，汗毛的细亮质感不会成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 屯中女人吐出的细烟在暖阳中呈现银亮、柔软而贴近身体的质感
+vehicle: 丰满皮肤上细密汗毛被斜阳照亮，沿轮廓发出柔和银光
+ground: 烟丝纤细蓬松对应汗毛细密；烟在阳光中银亮对应汗毛边缘反光

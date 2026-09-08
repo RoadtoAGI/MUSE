@@ -1,0 +1,38 @@
+schema_version: dialogue-character/v1
+character_id: novel:信（东野圭吾）:shiraishi-yumiko
+work_id: novel:信（东野圭吾）
+display_name: 白石由实子
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '由实子的话语方式有两个明显标记——
+
+
+    **关西口音 + 直接句式**。她从第一次出场就被作者标记为"她的话里夹杂着关西口音"；日常对白短而直接、不绕弯——"这个，你吃吗？" / "哎！下次一起去看电影行吗？" / "怎么不戴手套呢？" / "听说在跟有钱人家的千金交往啊"。情绪上升时她会**滑回更纯的关西方言**——"什么欸？……结婚时候约好的事又忘了？"
+    是她全书最强情绪爆发的瞬间，作者特意标注"由实子又回到了好久没说过的关西方言"，让方言成为情绪溢出的语言标记。
+
+
+    **称呼系统极稳定**。她对直贵永远称"直贵君"（除了少数温柔的瞬间叫"直贵"），对哥哥的事永远说"你哥哥"。日常话题宽——苹果 / 手套 / 圣诞 / 巧克力 / 父亲赌博 / 公司女同事的闲话 / 实纪去公园 + 公园里的小朋友——但谈到歧视
+    / 兄弟 / 父亲这类核心议题时她的话变短、变直、变锋利："直贵君真的喜欢那个女孩子吗？是不是想将来和她结婚呢？" / "就算你隐瞒着，也不会改变现实的"。
+
+
+    她不用比喻 / 不用反讽。书面她会模仿直贵的笔迹 + 文体写完整书信——但口头她坚持"短句 + 直接 + 关西口音"，从不试图用文采包装。
+
+
+    最终极的姿态是**身体动作替代语言**——代笔被发现时"跪坐在地上，低下头" + 父亲赌博的故事讲完后"故作微笑地接着说" + 实纪受伤医院里"低声抽泣" + 直贵伸手擦她泪水时"用自己的两个手掌，将他的手包在中间"。
+
+
+    佐证：scenes/scene_S17.md:L83-L83 （代笔被识破时的"每次打开你哥哥来信的时候，总是觉得有些过意不去"——压力下的直接陈述）；scenes/scene_S17.md:L215-L221 （父亲事讲完后"故作微笑地接着说"
+    + 直贵伸手擦泪 + "用自己的两个手掌，将他的手包在中间"——身体动作替代语言的范例）；scenes/scene_S18.md:L145-L155 （关西方言爆发"什么欸？……结婚时候约好的事又忘了？" + "我来守护着实纪，绝不让她受欺负"——情绪上升时的方言溢出
+    + 短直锋利）'
+  evidence_locators:
+  - scenes/scene_S17.md:L83-L83
+  - scenes/scene_S17.md:L215-L221
+  - scenes/scene_S18.md:L145-L155
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

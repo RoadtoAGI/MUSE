@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4d3acabafde814165f2919a1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1519
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 时光飞逝
+sensory_mapping: 高速运动；掠过视野；空气感；远离
+context_fact: 游戏跳过一年零四个月，只保留两次气候中断和最终计算完成。
+image_mechanism: 一整年被压成从眼前呼啸掠过的物体，漫长计算的重复细节留在身后，叙事镜头随即落到完成时刻。
+property_alignment: 时间经过对应物体位移；叙事压缩对应高速飞行；过去不可返回对应飞离视野
+context_alignment: 现实计算极慢，游戏叙事却能加速，飞逝让系统的漫长劳动和玩家的瞬时观看形成尺度反差。
+narrative_function: 完成大幅时间跳切，保持计算段的推进速度。
+transfer_rule: 用飞逝压缩时间时，应让中间事件重复或稀少，并把叙事重心放在时间前后的状态差。
+failure_boundary: 时段内转折密集、人物感觉煎熬漫长或需逐日呈现因果时，飞逝会不当抹平过程。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 人列计算机持续运行的一年多在叙事中迅速过去
+vehicle: 物体高速飞越视野并立即远离
+ground: 时间主观上经过很快对应飞行物快速掠过；过去时段无法追回对应物体飞远离开

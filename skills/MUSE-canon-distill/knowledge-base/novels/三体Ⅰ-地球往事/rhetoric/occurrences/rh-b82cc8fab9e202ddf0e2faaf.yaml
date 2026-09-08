@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b82cc8fab9e202ddf0e2faaf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2529
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 光锥的头部正刺中首都的中心
+sensory_mapping: 顶天光矛；锥尖；刺入；白炽伤口；烟柱
+context_fact: 高维智慧把自身重组成反射镜主动寻找首都，聚焦阳光后造成大范围毁灭。
+image_mechanism: 无形光热获得兵器形体，太空镜是持矛一端，倒锥收束成刺尖扎进城市；首都在焦点处像被穿出白炽伤口。
+property_alignment: 反射镜对应持矛者；光锥对应长矛；聚焦端对应矛尖；首都中心对应要害；热量集中对应穿刺压力；烟柱龙卷对应伤口喷出物
+context_alignment: 巨眼先代表宇宙凝视，继而失目变镜并伸出光矛，观察者向攻击者的转化在器官—武器链中完成。
+narrative_function: 把光学聚焦变成主动攻击动作，清楚标出能量方向与毁灭中心。
+transfer_rule: 用刺击写聚焦束时，应匹配细长方向、尖端收束、目标要害、能量集中和局部破坏。
+failure_boundary: 光斑宽广均匀、没有焦点或只提供照明时，刺入会误写能量分布和攻击意图。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨型抛物面将太阳光聚成倒锥形高能光束，焦点灼烧首都市中心
+vehicle: 一根尖锐长矛或针以锥尖刺入目标中心，集中穿透并造成致命伤
+ground: 聚焦光锥对应尖兵器；焦点能量集中对应刺尖；命中市中心对应刺入要害；白炽破坏对应穿刺伤

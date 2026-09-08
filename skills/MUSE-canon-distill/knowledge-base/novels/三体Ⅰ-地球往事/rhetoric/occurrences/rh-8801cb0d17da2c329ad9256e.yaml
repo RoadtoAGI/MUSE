@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8801cb0d17da2c329ad9256e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1572
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 《三体》已成为你们生活中的一部分
+sensory_mapping: 整体轮廓；部件嵌合；身体归属；占据空间
+context_fact: 到场者成绩最好、投入很深，博士生还把“生活”进一步改成“生命”。
+image_mechanism: 日常生活被画成由时间、习惯和信念拼成的实体，游戏从外部娱乐卡入其中一格，并开始与原有部分共同承重。
+property_alignment: 日常生活对应完整结构；游戏投入对应嵌入部件；持续影响对应部件固定；难以割舍对应移除会留下缺口
+context_alignment: 潘寒借此测试依附程度，博士生的升级回答证明游戏已触及身份和生命意义，正合招募需要。
+narrative_function: 将玩家投入从兴趣提升为生活依附，为接受真实三体世界铺垫。
+transfer_rule: 把活动写成生活一部分时，应说明它占据的时间、关系或价值功能，以及移除后会出现的具体缺口。
+failure_boundary: 对象只是偶尔消遣、可随时替代且不改变日常结构时，称为生活部分会夸大依赖。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 玩家已把《三体》稳定纳入日常时间、情绪和价值判断
+vehicle: 一个较小构件嵌入完整物体或身体，成为不可忽略的组成部分
+ground: 游戏持续参与日常安排对应部件固定嵌入整体；移除会改变生活体验对应缺少构件会损害整体完整

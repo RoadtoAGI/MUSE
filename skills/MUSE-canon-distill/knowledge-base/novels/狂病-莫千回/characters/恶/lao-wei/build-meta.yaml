@@ -1,0 +1,20 @@
+mode: reference
+display_name: 老魏
+role_slug: lao-wei
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # arc_4_attrition_lao_wei_abandoned + theme_hooks（受害者 POV 离场）
+  - pipeline/phase0_conception.yaml  # controlling_idea.candidate_b（不是每个人都值得被拯救）
+  - scenes/scene_EE-S05.md
+  - scenes/scene_EE-S07.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  老魏全篇集中在 S07 走马灯专章（仅 S05 一处投票背景点名），声音/欲望/真相/弧光的多数 locator 落在 S07 同一场景——
+  属角色出场本身高度集中于单一离场专章所致，非外推；S07 内含多个互不重叠的内在状态片段（临终黑色幽默 L3 / 冒险回忆 L9 / 顿悟 L13 / 自杀未遂 L19 / 对蔡宇的怜悯 L21）。
+  弧光起点（冒险探索者→中年怕了）+ 核心翻转顿悟（L13）两段齐全，终点即顿悟后意识消散。
+  声音框架为临终内心独白载体（无外部对白），跨 S07 内 3 个片段。

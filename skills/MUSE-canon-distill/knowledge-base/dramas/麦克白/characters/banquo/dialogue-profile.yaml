@@ -1,0 +1,35 @@
+schema_version: dialogue-character/v1
+character_id: drama:麦克白:banquo
+work_id: drama:麦克白
+display_name: 班柯
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '班柯是麦克白的反极——同样的诗体，但意象指向截然不同：麦克白的意象向"血、刀、夜、鬼、蝎子"集中，班柯的意象向"神明、祈祷、清白"集中。他的声音有三个稳定特征：(1) 当面与同僚交流时使用清晰的提问式（"将军，您为什么这样吃惊"
+    / "什么，爵爷！还没有安息吗？"）——他善于用问句外化自己的怀疑而不直说，把判断留给对方；(2) 关键诊断（A1S3 "魔鬼说真话"）一旦出口立即收束，从不重复——典型的"说一次就够了"风格；(3) 独自时使用祈祷式（"慈悲的神明！抑制那些罪恶的思想"）——他面对内心冲突的标准回应是把它交给神，而不是与自己辩论。整体风格比麦克白少
+    1-2 倍意象密度、少独白长度、少修辞——这种"少"本身是声音特征，提示他是稳态人格。
+
+
+    来源：phase2_roles.yaml → banquo.voice_function + voice_markers
+
+    佐证：
+
+    - scenes/scene_A1S3.md:L61-L61 （提问式 + 形象观察"形容这样枯瘦，服装这样怪诞"）
+
+    - scenes/scene_A1S3.md:L119-L119 （单句诊断后立即收口）
+
+    - scenes/scene_A2S1.md:L15-L15 （祈祷式回应内心动摇）
+
+    - scenes/scene_A2S1.md:L31-L31 （短礼仪用语"悉如尊命"——与麦克白长独白形成节奏对比）'
+  evidence_locators:
+  - scenes/scene_A1S3.md:L61-L61
+  - scenes/scene_A1S3.md:L119-L119
+  - scenes/scene_A2S1.md:L15-L15
+  - scenes/scene_A2S1.md:L31-L31
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

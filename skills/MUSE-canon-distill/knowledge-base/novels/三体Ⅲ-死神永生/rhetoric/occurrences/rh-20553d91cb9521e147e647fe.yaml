@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-20553d91cb9521e147e647fe
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L1420-L1421
+chapter: 【威慑后第一年，澳大利亚】
+figure_type: metaphor
+quote: '那眼神在说：
+
+  当初我们为什么选择了你？'
+sensory_mapping: 军官没有张嘴，目光却像一条声音越过警戒线，把质问整句送到程心面前。
+context_fact: 军官扫描身份证确认她是第二任执剑人，随后以特殊眼神看她。
+image_mechanism: 眼神发声将社会责难压进一次短暂相遇，不需公开冲突便让程心听见共同控诉。
+property_alignment: 注视方向对应说话指向；失望表情对应质问语气；程心理解对应信息被听见。
+context_alignment: 程心一路承受公众怨恨，官员仍保持礼貌和职责，无声语言适合压住却无法消失的指责。
+narrative_function: 把外部审判带入她求救路径，并重复人类选择她这一核心反事实。
+transfer_rule: 目光说话时，应给出可从现场关系推导的具体句意，并保留人物不出声的社会原因。
+failure_boundary: 句子是程心解释，不可当军官真实思想逐字记录；表情证据不足时不能过度读心。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 军官认出程心后以目光传递的责问、失望和群体怨恨
+vehicle: 无需开口便清楚说出完整质问句的声音或语言
+ground: 接收者准确理解信息；内容有明确对象和语气；沟通通过表情持续作用

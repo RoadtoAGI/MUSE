@@ -1,0 +1,509 @@
+# Phase 5: 关键场景（嵌套于序列下）—— 《三体Ⅲ·死神永生》
+# 25 个场景，从 Phase 4 序列展开推导
+
+sequence_expansions:
+
+  # ═══ ARC-1 阶梯 ═══
+
+  - seq_id: ARC1-SEQ0
+    scenes:
+      - scene_id: "S14"
+        arc_id: ARC-1
+        location: 君士坦丁堡城墙
+        time: 公元1453年5月
+        participants: [狄奥伦娜, 康斯坦丁十一世]
+        pov: 狄奥伦娜
+        conflict: 宗教使命 vs 不可知的高维力量
+        value_start: 中世纪世界观的稳定
+        value_end: 高维碎块离开地球——物理规律可被操控的伏笔埋下
+        must_include: >
+          高维碎块的"魔法"效果（L70-L90）。
+          狄奥伦娜受命刺杀苏丹的使命。
+          碎块离开地球——全书宇宙规律武器化主题的历史先例
+        handoff: 时间跳跃至危机纪元——"没有不散的宴席"
+        source_chapter: "【公元1453年5月，魔法师之死】L50-L140"
+
+      - scene_id: "S15"
+        arc_id: ARC-1
+        location: 大学校园 / 研究所
+        time: 危机纪元元年
+        participants: [杨冬, 丁仪]
+        pov: 杨冬
+        conflict: 对宇宙本质的信仰 vs 宇宙可能已被生命改变的发现
+        value_start: 物理学家对自然规律的信念
+        value_end: "大自然真是自然的吗？"——绝望自杀
+        must_include: >
+          杨冬的遗言信（L178-L192）。
+          "宇宙去掉生命选项会怎样"——贯穿全书的哲学种子
+        handoff: 过渡到云天明的故事
+        source_chapter: "【危机纪元元年，生命选项】L141-L192"
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: "S16"
+        arc_id: ARC-1
+        location: 医院 / 星空下 / 安乐死中心
+        time: 危机纪元4年
+        participants: [云天明, 程心, 胡文]
+        pov: 云天明
+        conflict: 对生命的绝望 vs 对程心的暗恋
+        value_start: 癌症晚期的绝望——已决定安乐死
+        value_end: 买星赠程心，安乐死被程心阻止——从赴死到接受使命
+        must_include: >
+          云天明用全部积蓄买星（L280-L320区域）。
+          安乐死最后时刻被程心电话打断（L480-L522区域）。
+          爱与绝望的并置——他买的星星她不知道，他赴死的决心她也不知道
+        handoff: 过渡到"只送大脑"提案
+        source_chapter: "【危机纪元4年，云天明】L193-L522"
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: "S17"
+        arc_id: ARC-1
+        location: PIA会议室
+        time: 危机纪元4年
+        participants: [维德, 程心, 云天明]
+        pov: 程心
+        conflict: 阶梯计划的技术可行性 vs 将活人大脑切除的伦理底线
+        value_start: 阶梯计划还只是技术讨论
+        value_end: "只送大脑"——计划推入伦理深渊
+        must_include: >
+          维德的提案："只送大脑。"（L523-L530区域）。
+          维德的冷酷本质初次完整暴露
+        handoff: 直接过渡到程心推荐云天明
+        source_chapter: "L523-L581"
+
+      - scene_id: "S01"
+        arc_id: ARC-1
+        location: 医院病房 / PIA总部
+        time: 危机纪元4年
+        participants: [程心, 云天明, 于维民]
+        pov: 云天明
+        conflict: 程心的职业理性 vs 她未意识到的情感后果
+        value_start: 程心作为旁观者的日常平衡
+        value_end: 程心成为"有责任的人"，云天明从赴死到接受使命
+        must_include: >
+          云天明的歇斯底里狂笑（L586-593）——
+          他意识到程心不是来救他而是来让他"死得更惨"。
+          "好的，我接受。"（L598）——一句最轻的话承载最重的选择
+        handoff: 直接过渡到阶梯计划执行，节奏加速
+        source_chapter: "【危机纪元4年，云天明】L582-L598"
+
+      - scene_id: "S02"
+        arc_id: ARC-1
+        location: PIA手术室 / 发射控制中心
+        time: 危机纪元5-7年
+        participants: [程心, 维德, 云天明（已脑切除）]
+        pov: 程心
+        conflict: 真相的打击 vs 已无法挽回的事实
+        value_start: 任务即将完成的希望
+        value_end: 双重失去——云天明失踪 + 愧疚债确立
+        must_include: >
+          维德在最残酷的时刻揭露真相（L656）。
+          帆索断裂，飞行器偏离航线（L696）。
+          程心冲入手术室但一切已结束。
+        handoff: 程心进入冬眠——时间跳跃264年到威慑纪元
+        source_chapter: "【危机纪元5-7年，阶梯计划】L599-L701"
+
+  # ═══ ARC-2 威慑 ═══
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: "S03"
+        arc_id: ARC-2
+        location: 联合国大厦前 / 废弃居住区
+        time: 威慑纪元61年
+        participants: [程心, 维德, AA, 公众]
+        pov: 程心
+        conflict: 维德的"不择手段" vs 程心的善良形象
+        value_start: 程心对威慑制度尚无认知
+        value_end: 维德枪击程心反而推动她当选
+        must_include: >
+          维德枪击程心（L885-L893）——"只能前进，不择手段地前进"。
+          AA对程心的灵魂拷问："你会按动按钮毁灭两个世界吗？"（L874）
+        handoff: 时间跳跃1年到威慑交接
+        source_chapter: "【威慑纪元61年，执剑人】L837-L1001"
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: "S04"
+        arc_id: ARC-2
+        location: 地下45千米威慑控制中心
+        time: 威慑纪元62年11月28日16:17-16:27
+        participants: [程心, 水滴（间接）]
+        pov: 程心
+        conflict: 35亿年生命进化的重压 vs 毁灭两个世界的道德代价
+        value_start: 脆弱的安全（威慑刚交接）
+        value_end: 灾难——三个引力波发射台全部被摧毁
+        must_include: >
+          程心将开关扔出（L1188-L1235）。
+          "做为一个物种的人类，今天，最终选出了自己的执剑人"——
+          这不是程心个人的失败，而是人类集体选择的后果
+        handoff: 对比切换——智子现身，揭示威慑度10%
+        beat_direction: >
+          十分钟倒计时结构：每分钟压力递增，程心的内心独白逐渐从
+          理性分析→情感崩溃→放弃→扔出开关
+        source_chapter: "【威慑纪元最后十分钟…威慑控制中心】L1188-L1235"
+
+      - scene_id: "S18"
+        arc_id: ARC-2
+        location: 威慑控制中心 / 地面
+        time: 威慑后一小时
+        participants: [程心, 智子, 弗雷斯]
+        pov: 程心
+        conflict: 崩溃后的真空 vs 新秩序的降临
+        value_start: 威慑刚终止，一切悬而未决
+        value_end: "威慑度约百分之十"——后果开始显现，大迁徙令下达
+        must_include: >
+          智子现身，公布威慑度数据（L1236-L1260区域）。
+          "全人类向澳大利亚的移民开始了"（L1313）
+        handoff: 直接过渡到澳大利亚大迁徙
+        source_chapter: "【威慑后一小时，失落的世界】L1236-L1313"
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: "S19"
+        arc_id: ARC-2
+        location: 澳大利亚内陆移民区
+        time: 威慑后第一年
+        participants: [程心, AA, 弗雷斯, 智子, 42亿人类]
+        pov: 程心
+        conflict: 人类的生存意志 vs 三体文明的系统性灭绝计划
+        value_start: 42亿人被驱入保留地
+        value_end: 灭绝计划揭晓——"都是粮食，活生生的粮食"
+        must_include: >
+          弗雷斯的毛利战舞——"你没有盯住敌人的眼睛"（L1383-L1398区域）。
+          智子砍人后说"排队"（L1434-L1456区域）。
+          "粮食？都是粮食，活生生的粮食"——灭绝计划揭晓。
+          程心失明——物理失明对位精神失明
+        handoff: 视角切换到奥尔特星云外
+        beat_direction: >
+          三质感并置：弗雷斯段（历史回声/诗歌）→ 智子段（暴力/秩序）→ 统计段（数据/新闻报道体）
+        source_chapter: "【威慑后第一年，澳大利亚】L1314-L1500"
+
+      - scene_id: "S05"
+        arc_id: ARC-2
+        location: 澳大利亚保留地
+        time: 威慑后第一年
+        participants: [程心, AA, 智子, 弗雷斯, 42亿人类]
+        pov: 程心（失明状态）
+        conflict: 人类的生存意志 vs 三体文明的灭绝计划
+        value_start: 失去技术文明，被驱往保留地
+        value_end: 引力波广播启动，三体舰队撤离，人类获救
+        must_include: >
+          引力波广播的消息传来——拯救来自另一群人（褚岩），而非程心
+        handoff: 时间跳跃到广播纪元
+        source_chapter: "【威慑后第一年，澳大利亚】L1314-L1609"
+
+  - seq_id: ARC2-SEQ4
+    scenes:
+      - scene_id: "S20"
+        arc_id: ARC-2
+        location: 奥尔特星云外 / 四维空间碎块
+        time: 威慑后第一天至第五天
+        participants: [关一帆, 莫沃维奇, 魔戒]
+        pov: 关一帆
+        conflict: 人类对宇宙的有限认知 vs 四维空间揭示的深层秘密
+        value_start: 追击任务中的意外发现
+        value_end: "海干了"——宇宙高维空间被人为降维
+        must_include: >
+          进入四维碎块——"无限细节"的奇观（L1650-L1710区域）。
+          与"魔戒"的对话（L1730-L1806区域）。
+          "海干了"——宇宙高维空间被战争降维（L1729）
+        handoff: 时间跳跃到广播纪元
+        source_chapter: "【威慑后第一天至第五天，奥尔特星云外】L1628-L1806"
+
+  # ═══ ARC-3 童话 ═══
+
+  - seq_id: ARC3-SEQ1
+    scenes:
+      - scene_id: "S06"
+        arc_id: ARC-3
+        location: 地日拉格朗日点 / 智子球体
+        time: 广播纪元7年
+        participants: [程心, 云天明, 智子]
+        pov: 程心
+        conflict: 智子的实时监控 vs 云天明的编码智慧
+        value_start: 程心与云天明重逢的希望
+        value_end: 情报以童话形式成功传递
+        must_include: >
+          云天明三次触发黄灯后转用童话（L2087-L2101）。
+          三个童话：《国王的新画师》《饕餮海》《深水王子》。
+          "针眼画师"——被人类错失的关键隐喻（指向二维化打击）
+        handoff: 过渡到IDC解读会议
+        source_chapter: "【广播纪元7年，云天明】L1960-L2125"
+
+      - scene_id: "S07"
+        arc_id: ARC-3
+        location: 智子屏蔽室 / 挪威默斯肯岛
+        time: 广播纪元7年
+        participants: [程心, AA, 毕云峰, 曹彬, 巴勒莫]
+        pov: 程心
+        conflict: 隐喻的多义性 vs 确定性情报的需求
+        value_start: 无法解读的童话
+        value_end: 成功解码曲率驱动和黑域，但遗漏"针眼画师"
+        must_include: >
+          AA的肥皂船实验→曲率驱动（L2623-L2634）。
+          默斯肯大旋涡→低光速黑洞=黑域=安全声明（L2769-L2800）。
+          "赫尔辛根默斯肯"被拆解为挪威地名（L2709-L2722）
+        handoff: 过渡到三条生路的政治抉择
+        source_chapter: "【广播纪元7年，云天明的童话】L2126-L2806"
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: "S21"
+        arc_id: ARC-3
+        location: 地球各大城市 / 穿梭机停放场
+        time: 广播纪元8年
+        participants: [程心, AA, 平民]
+        pov: 程心
+        conflict: 光速飞船的战略价值 vs 暴露风险导致的立法禁止
+        value_start: 三条生路浮现
+        value_end: 光速飞船被禁，假警报恐慌暴露人类的脆弱
+        must_include: >
+          曲率驱动航迹暴露位置→立法禁止（L2830-L2860区域）。
+          假警报大恐慌（L2870-L2930区域）。
+          AA射穿八架穿梭机尾翼——"碎片论"道德拷问
+        handoff: 过渡到维德接管
+        source_chapter: "【广播纪元8年，命运的抉择】L2807-L2949"
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: "S22"
+        arc_id: ARC-3
+        location: 地日拉格朗日点 / 智子屏蔽室
+        time: 广播纪元8年
+        participants: [程心, 维德]
+        pov: 程心
+        conflict: 程心的道德底线 vs 维德的不择手段
+        value_start: 程心考虑是否让维德接管星环公司
+        value_end: 交出控制权但保留"最终决定权"——定时炸弹埋下
+        must_include: >
+          掩体计划试验成功（L3035-L3045区域）。
+          维德出狱，接管星环公司（L3050-L3080区域）。
+          程心保留最终决定权——为 Arc 4 埋下核心冲突
+        handoff: 程心进入冬眠——时间跳跃到掩体纪元
+        source_chapter: "【广播纪元8年，维德接管星环】L3029-L3110"
+
+  # ═══ ARC-4 投降 ═══
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: "S23"
+        arc_id: ARC-4
+        location: 木星背后太空城群 / 光速二号科学城
+        time: 掩体纪元11年
+        participants: [程心, 曹彬, 高Way]
+        pov: 程心
+        conflict: 掩体方案的表面安全 vs 其战略脆弱性
+        value_start: 程心苏醒，掩体世界一片繁荣
+        value_end: 光速二号的疯狂暗示掩体方案远非安全
+        must_include: >
+          64座太空城、9亿人口的掩体世界全景（L3113-L3180区域）。
+          光速二号——科学家高Way坠入黑洞的悲壮（L3243-L3288区域）。
+          "我们去星环城吧"——过渡到核心对峙
+        handoff: 直接过渡到星环城
+        source_chapter: "【掩体纪元11年，掩体世界】L3113-L3288"
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: "S08"
+        arc_id: ARC-4
+        location: 星环城
+        time: 掩体纪元11年
+        participants: [程心, 维德, 毕云峰, 布莱尔]
+        pov: 程心
+        conflict: 维德的"前进"（武力+技术突破）vs 程心的"人性"
+        value_start: 曲率驱动在技术上可行（最后希望）
+        value_end: 维德投降被处决，活路被封
+        must_include: >
+          维德展示曲率驱动原型——头发移动两厘米（L3327-L3340）。
+          一万五千发反物质弹头（L3345-L3348）。
+          程心："我选择人性。"（L3361）
+          维德临死前："失去人性失去很多，失去兽性失去一切。"
+        handoff: 时间跳跃56年到二向箔打击
+        beat_direction: >
+          三阶段节奏：技术展示（希望）→ 武力亮出（恐惧）→ 程心选择（悲剧）
+        source_chapter: "【掩体纪元11年，星环城】L3289-L3405"
+
+  # ═══ ARC-5 降维 ═══
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: "S09"
+        arc_id: ARC-5
+        location: 银河系猎户旋臂（外星文明内部）
+        time: 掩体纪元67年
+        participants: [歌者, 长老]
+        pov: 歌者
+        conflict: 无——灭世如同丢垃圾
+        value_start: 太阳系在歌者眼中只是一个待清理的坐标
+        value_end: 二向箔被投向太阳系方向
+        must_include: >
+          歌者翻阅坐标数据的日常感（L3407-L3459）。
+          向长老申请一块二向箔的随意态度。
+          "清理"不是战争——只是卫生工作
+        handoff: 视角切回程心被唤醒
+        source_chapter: "【掩体纪元67年，银河系猎户旋臂】L3407-L3482"
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: "S24"
+        arc_id: ARC-5
+        location: 太阳系外围 / "启示"号飞船
+        time: 掩体纪元66年
+        participants: [白Ice, 瓦西里]
+        pov: 白Ice
+        conflict: 人类对未知的恐惧 vs 对自身判断力的傲慢
+        value_start: 发现外星飞行物的紧张
+        value_end: 逃逸速度=光速——太阳系死刑宣判
+        must_include: >
+          "一张小纸条"——期望颠覆（L3580-L3590区域）。
+          丁仪的沙漠噩梦——"逃逸速度！"（L3597-L3635区域）。
+          "逃逸速度是多少？"→"光速。"（L3636-L3663区域）。
+          "弱小和无知不是生存的障碍，傲慢才是"
+        handoff: 过渡到太阳系二维化的实际过程
+        beat_direction: >
+          三次期望颠覆：纸条无害→纸条消失→纸条展开为二维空间。
+          每次安心时制造更大恐惧
+        source_chapter: "【掩体纪元66年，太阳系外围】L3510-L3668"
+
+      - scene_id: "S10"
+        arc_id: ARC-5
+        location: 太阳系（地球、太阳相继二维化的过程）
+        time: 掩体纪元67年
+        participants: [程心, AA]
+        pov: 程心
+        conflict: 人类文明的一切 vs 降维打击的不可抗力
+        value_start: 掩体世界的虚假安全
+        value_end: 地球、太阳坠入二维平面——文明毁灭
+        must_include: >
+          二维地球外围出现巨型雪花冰环——曾经的海洋。
+          凡·高《星空》的联想——"因为星空是二维的"
+        handoff: 过渡到冥王星与罗辑
+        source_chapter: "【掩体纪元67年，二维太阳系】L3669-L3876"
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: "S11"
+        arc_id: ARC-5
+        location: 冥王星 / "星环"号
+        time: 掩体纪元67年
+        participants: [程心, AA, 罗辑]
+        pov: 程心
+        conflict: 已无法改变的过去 vs 仅存的一丝逃离可能
+        value_start: 绝望——太阳系正在毁灭
+        value_end: 真相+悔恨+最后逃离
+        must_include: >
+          罗辑揭示"星环"号装有曲率引擎——维德的遗产（L3939-L3945）。
+          曲率驱动航迹=降低光速=黑域=安全声明（L3977-L3999）。
+          罗辑拒绝登船，留在冥王星守墓。
+          "星环"号进入光速——太阳系传出最后一个人声
+        handoff: 光速飞行→DX3906恒星系
+        source_chapter: "【掩体纪元67年，冥王星】至【二维太阳系】L3669-L4044"
+
+  # ═══ ARC-6 归还 ═══
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: "S25"
+        arc_id: ARC-6
+        location: DX3906恒星系蓝星
+        time: 银河纪元409年
+        participants: [程心, 关一帆]
+        pov: 程心
+        conflict: 人类对宇宙的最后幻想 vs 宇宙的终极真相
+        value_start: 抵达蓝星，遇到关一帆
+        value_end: 十维田园时代被战争拍扁——"你太善良了"
+        must_include: >
+          关一帆自我介绍和宇宙礼节（L4105区域）。
+          维度武器化揭示——"攻击者首先改造自己"（L4199-L4203区域）。
+          "我什么也没说"（L4234）——说完即收
+        handoff: 过渡到灰星死线扩散
+        source_chapter: "【银河纪元409年，我们的星星】L4090-L4243"
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: "S12"
+        arc_id: ARC-6
+        location: DX3906恒星系蓝星
+        time: 银河纪元409年 → +1890万年
+        participants: [程心, 关一帆, AA（通信）, 云天明（石刻遗言）]
+        pov: 程心
+        conflict: 时间的不可逆 vs 跨纪元的情感纽带
+        value_start: 即将与云天明重逢
+        value_end: 1890万年已过，仅余石刻遗言和小宇宙之门
+        must_include: >
+          AA通报云天明到达蓝星（L4296）——希望的顶点。
+          死线扩散，穿梭机陷入低光速（L4317-L4336）——即刻坠落。
+          石刻遗言："我们度过了幸福的一生"（L4448-L4458）。
+          小宇宙之门出现
+        handoff: 进入647号小宇宙
+        source_chapter: "【银河纪元409年】至【约170亿年】L4046-L4484"
+
+  - seq_id: ARC6-SEQ3
+    scenes:
+      - scene_id: "S13"
+        arc_id: ARC-6
+        location: 647号小宇宙
+        time: 时间之外
+        participants: [程心, 关一帆, 智子]
+        pov: 程心
+        conflict: 个体的永生 vs 宇宙的存续
+        value_start: 安全的庇护所（但宇宙面临死亡）
+        value_end: 放弃一切，只留漂流瓶和生态球
+        must_include: >
+          回归运动超膜广播——157万种语言，含三体语和地球语（L4590-L4610）。
+          "如果所有小宇宙中的人都这么想，那大宇宙肯定死了"（L4619）。
+          智子："你还是在为责任活着"（L4621）。
+          程心的生态球——"还可以再留下五公斤吗？"（L4660）。
+          "但愿大宇宙能够忽略这个误差"（L4662）。
+          飞船穿过宇宙之门（L4665）
+        handoff: 无——全书终结
+        beat_direction: >
+          「广播→讨论→决定→执行→余韵」五段式收束，
+          节奏从宏大（宇宙级广播）逐渐收拢到微小（一个生态球）
+        source_chapter: "【时间之外，我们的宇宙】L4485-L4666"
+
+# ── 张力曲线 ──
+
+tension_curve:
+  description: >
+    全书张力曲线呈"前史蓄势→双峰→终极峰"结构：
+    蓄势：S14-S17（前史/买星/只送大脑）——低张力铺垫，累积情感债务
+    第一峰：S04（威慑崩溃）——第一次致命选择
+    谷底展开：S18-S19（智子现身→大迁徙）——后果完整展示
+    恢复段：S05-S07（引力波拯救→童话解读）——从灾难中获取情报
+    转折段：S21-S22（假警报→维德接管）——活路逐一受限
+    第二峰：S08（维德投降）——第二次致命选择
+    蓄势平台：S09+S23-S24（歌者→掩体世界→白Ice）——诡异低张力+末日揭示
+    第三峰（最高）：S10-S11（太阳系二维化+罗辑揭示真相）——后果完整兑现
+    尾声上扬：S25+S12-S13（宇宙真相→错过→归还）——从认知崩塌到超越
+  peaks: ["S04", "S08", "S10", "S11", "S13"]
+  valleys: ["S14", "S15", "S07", "S09", "S23"]
+
+# ── 因果链 ──
+
+causal_chain: >
+  S14（高维碎块伏笔）→ S15（宇宙被生命改变的哲学种子）
+  → S16（云天明买星/安乐死）→ S17（只送大脑提案）
+  → S01（程心推荐云天明）→ S02（飞行器失踪，愧疚确立）
+  → S03（因DX3906被唤醒，维德枪击，当选执剑人）
+  → S04（威慑崩溃——因为人类选了威慑度10%的程心）
+  → S18（智子现身，威慑度揭晓，大迁徙令下达）
+  → S19（澳大利亚大迁徙——灭绝计划揭晓）
+  → S05（引力波广播拯救——来自另一群人）
+  → S20（四维碎块——"海干了"——降维可能性揭示）
+  → S06（云天明传递情报——因为阶梯计划让他到达三体世界）
+  → S07（情报解读——获得曲率驱动和黑域知识）
+  → S21（假警报——三条生路被逐一限制）
+  → S22（维德接管星环，程心保留最终决定权）
+  → S23（掩体世界的虚假安全——错误方案的繁荣）
+  → S08（程心阻止维德——第二次致命选择）
+  → S09（歌者投出二向箔——因太阳系无黑域保护）
+  → S24（白Ice揭示——逃逸速度=光速）
+  → S10（太阳系二维化——两次选择的终极后果）
+  → S11（罗辑揭示真相——维德遗产仅够一艘船逃离）
+  → S25（关一帆揭示宇宙终极真相——十维田园时代被战争摧毁）
+  → S12（抵达DX3906但与云天明错过——因死线扩散）
+  → S13（归还小宇宙——责任的最终完成）

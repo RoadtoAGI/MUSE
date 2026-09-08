@@ -1,0 +1,27 @@
+schema_version: dialogue-character/v1
+character_id: novel:日耳曼涅槃:sylvia
+work_id: novel:日耳曼涅槃
+display_name: 西尔维娅·齐亚诺
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '日常是**娇嗔亲昵腔**：叠词、语气词、打情骂俏式的收尾（"笨蛋哒"），关切时声线"柔糯"（"亲爱的，你准备要离开了么？"）。情绪浓度高时不加修饰地直给——恳求就是"答应我，一定一定"，识破就当面拆穿，不绕弯。
+
+
+    谈及政治与处境时会换到**冷静分析腔**：句子变长、结构变清晰，从力量对比讲到应对策略（"根本原因还是你的个人力量远远弱于你的上司，以至没有什么反抗能力……你也要努力创造机会，发展自己的势力"）——豪阀教养的底色只在这个音区显形。两个音区的切换以丈夫的需要为开关：他需要慰藉时她软，他需要参谋时她利。
+
+
+    佐证：scenes/scene_12.md:L24-L24 （"笨蛋哒"的娇嗔腔）；scenes/scene_30.md:L32-L32 （柔糯关切）；scenes/scene_29.md:L70-L76 （识破敷衍、涩然劝阻到政治分析的完整换轨）；scenes/scene_28.md:L8-L8
+    （直给的深情告白）'
+  evidence_locators:
+  - scenes/scene_12.md:L24-L24
+  - scenes/scene_30.md:L32-L32
+  - scenes/scene_29.md:L70-L76
+  - scenes/scene_28.md:L8-L8
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

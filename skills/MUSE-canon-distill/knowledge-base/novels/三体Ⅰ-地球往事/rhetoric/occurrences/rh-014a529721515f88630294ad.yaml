@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-014a529721515f88630294ad
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2512
+chapter: 第34章 智子
+figure_type: simile
+quote: 这些几何体布满了大半个天空，像是一个巨人孩子在苍穹中撒了一盒积木
+sensory_mapping: 彩光几何块；盒子倾倒；孩童巨手；天空散落；玩具尺度
+context_fact: 第二次二维展开产生多种宏观三维结构，表面映出行星扭曲图像并迅速布满天空。
+image_mechanism: 行星天空缩成儿童游戏桌，复杂高维结构被降格为盒中几何玩具；看不见的巨手一撒，天体工程显出既壮观又失控的随意排列。
+property_alignment: 球体立方体锥体对应不同积木形状；规则几何对应玩具加工面；数量众多对应一整盒；飘离加速器对应从盒口撒出；铺满天空对应巨人游戏尺度；镜面彩色反光对应积木视觉丰富
+context_alignment: 科学家尚未识别这是微观高维结构，积木比喻准确表现观察者先以简单宏观类别理解陌生物。
+narrative_function: 快速组织繁多几何形态，并用儿童游戏感反衬工程尺度和未知危险。
+transfer_rule: 用撒积木写大量规则物体时，应匹配几何种类、成盒数量、离散分布、无序投放和观察尺度。
+failure_boundary: 物体形状有机不规则、按严格阵列排列或运动由精确编队控制时，随手撒积木会误写秩序。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 质子错误展开后大量规则球体、立方体、锥体和扭环在天空散开铺满视野
+vehicle: 体型覆盖天地的孩子把一整盒形状各异的玩具积木随手撒在空中
+ground: 规则多样几何体对应积木块；大量散布对应整盒倾撒；天空为承载面对应巨人孩子的游戏空间

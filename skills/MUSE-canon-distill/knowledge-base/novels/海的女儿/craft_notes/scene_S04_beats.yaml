@@ -1,0 +1,48 @@
+scene_id: S04
+source_notes: scene_S04_beats.md
+patterns:
+- pattern_id: S04-p1
+  beat: 预言变身体经验
+  dimension: verb
+  original_move: 以劈开、昏倒和利刃步行兑现契约预言
+  ai_default_failure: 专写变身外观，条款代价只停在先前对白里
+  transfer_rule: 规则承诺的代价要在人物重复动作中持续兑现
+  quote: 每一步都好像是在锥子和利刃上行走
+- pattern_id: S04-p2
+  beat: 他人歌声显缺口
+  dimension: omission
+  original_move: 让奴隶歌唱和王子鼓掌映出她无法出口的真相
+  ai_default_failure: 反复说明她失声悲伤，缺少现场触发物
+  transfer_rule: 角色失去某能力时，让替代者现场使用该能力
+  quote: 我永远牺牲了我的声音
+- pattern_id: S04-p3
+  beat: 身体接替声音
+  dimension: camera
+  original_move: 镜头沿手、脚尖、眼睛，让舞蹈接替歌声表达
+  ai_default_failure: 把舞蹈只写成美貌展示，未承接失声后的功能
+  transfer_rule: 表达渠道受阻时，把同一意图转移到身体与物件
+  quote: 她的眼珠比奴隶们的歌声更能打动人的心坎
+- pattern_id: S04-p4
+  beat: 夜海带回亲情
+  dimension: overall
+  original_move: 用冷却流血双脚的动作自然引出家人的夜访
+  ai_default_failure: 另插思乡独白，身体代价与家庭代价彼此分离
+  transfer_rule: 让一个补救身体的动作同时接通被舍弃的关系
+  quote: 使她那双发烧的脚可以感到一点清凉
+- pattern_id: S04-p5
+  beat: 眼神遭错误解读
+  dimension: info_density
+  original_move: 无声问题引出长回答，回答却把她归为替身
+  ai_default_failure: 让眼神传递复杂事实，轻易消解失语障碍
+  transfer_rule: 非语言表达可传情绪，事实信息仍保留边界
+  quote: 你很像她，你几乎代替了她留在我的灵魂中的印象
+overall_traits:
+- 契约疼痛在日常动作中反复兑现
+- 舞蹈能传情，失声继续阻断身份事实
+narrative_organization:
+  presentation: 宫廷日常以表演、同行、夜海与拥抱四个片段压缩
+  transition_anchor: 歌舞、男子衣服、夜间台阶与王子询问切换关系形态
+  knowledge_change: 她确认王子亲爱自己，也确认这种亲爱属于孩子与替身
+  cross_thread_effect: 海底家人的夜访让宫廷亲近持续携带离家损失
+  effect: 已经很近与永远差一项事实同步成立，错位压过公开冲突
+  source_anchor: scene_S04.md:L3-L14；啊，他却不知道我救了他的生命

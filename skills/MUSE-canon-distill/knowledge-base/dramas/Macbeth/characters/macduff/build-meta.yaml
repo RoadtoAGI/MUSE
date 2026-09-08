@@ -1,0 +1,22 @@
+mode: reference
+display_name: 麦克达夫
+role_slug: macduff
+source_novel: Macbeth
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A2S3.md
+  - scenes/scene_A2S4.md
+  - scenes/scene_A3S6.md
+  - scenes/scene_A4S2.md
+  - scenes/scene_A4S3.md
+  - scenes/scene_A5S7.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 18
+has_canon_ending: false
+coverage_note: |
+  覆盖 Macduff 全弧线：A2S3 发现 / A2S4 拒绝赴 Scone / A3S6 缺席被报告 /
+  A4S2 妻儿被屠（虽 Macduff 不在场，但作为弧光的转折前提）/ A4S3 测试与悲恸 / A5S7 终战与持首。
+  未单独引用 A1S6（A1S6 默剧式出场，无独立台词分量）。
+  Macduff 活到加冕场景，无终局参考附件。

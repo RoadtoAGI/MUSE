@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6312b709b072c8275581582e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L739
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 文雪揭发父亲的材料文笔激烈，读那一行行字就像听着一挂挂炸响的鞭炮
+sensory_mapping: 视觉转听觉；爆裂声；节奏；冲击
+context_fact: 叶文洁熟悉妹妹以激进红卫兵口吻写过的大量揭发材料。
+image_mechanism: 安静纸行被点燃为一串引信，目光每扫过一行，就触发一枚爆响；修辞强度由词义转成耳膜承受的连续冲击。
+property_alignment: 文字逐行推进对应鞭炮逐枚连爆；措辞激烈对应爆声尖锐；政治口号密集对应炸点连续；阅读受到强刺激对应耳朵被响声冲击
+context_alignment: “一行行”与“一挂挂”在数量和顺序上严密配对，且文雪的公开激进风格适合喧响而非暗伏。
+narrative_function: 通过通感区分妹妹的表面激烈与眼前材料的冷静杀机。
+transfer_rule: 把文字转成声响时，应让阅读单位对应发声单位，句法节奏对应爆点次序，语气强度对应声压。
+failure_boundary: 缓慢含蓄、低声压或只在结尾突然转折的文字没有连珠爆响结构，鞭炮会误写其节奏。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文雪检举材料中连续、激烈且喧闹的政治措辞
+vehicle: 成串鞭炮依次爆炸，制造密集尖锐巨响
+ground: 文字逐行推进对应鞭炮逐枚连爆；措辞激烈对应爆声尖锐；政治口号密集对应炸点连续；阅读受到强刺激对应耳朵被响声冲击

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7d2ab033399fdec027953a3c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1241
+chapter: 第15章 红岸之四
+figure_type: metaphor
+quote: 宇宙是个空荡荡的大宫殿，人类是这宫殿中唯一的一只小蚂蚁
+sensory_mapping: 建筑空间；尺度；声音空寂；生命数量
+context_fact: 红岸二十多年未听到任何外星文明信号，叶文洁从感觉上接受智慧生命或许只有地球存在。
+image_mechanism: 宇宙先被围合成一座可测量的空建筑，恒星变成没有住客的陈设；人类再缩成地面一点活动的小生命，宏伟空间反而加倍显示居住者的孤绝。
+property_alignment: 宇宙巨大对应宫殿宏阔；无外星回应对应房间空荡无住客；人类尺度微小对应蚂蚁；唯一智慧生命假设对应宫殿中只有一只活物
+context_alignment: 宫殿通常因居住者而有意义，此处空置让宇宙的宏伟失去庆典感；蚂蚁又承接她对生命珍贵与不值一提的矛盾。
+narrative_function: 同时表达宇宙壮阔、人类孤独和价值尺度矛盾。
+transfer_rule: 用建筑容纳宏观系统时，应为体量、空置程度和主体相对尺寸分别安排对应，并利用建筑通常用途与实际空无的反差。
+failure_boundary: 已有多个文明交流证据、空间边界并非可围合，或叙事强调人类掌控宇宙时，空宫独蚁会失去事实和力量关系。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 可能只含地球智慧生命的巨大宇宙，以及其中极其微小的人类文明
+vehicle: 空无一人的宏大宫殿里唯一爬行的一只蚂蚁
+ground: 宇宙结构宏大而沉默对应宫殿尺度巨大却空荡；人类文明相对微小孤单对应蚂蚁弱小且没有同类

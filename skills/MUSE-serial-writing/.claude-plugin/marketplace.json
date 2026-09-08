@@ -1,0 +1,19 @@
+{
+  "name": "muse-serial-writing",
+  "owner": {
+    "name": "RoadToAGI"
+  },
+  "metadata": {
+    "description": "MUSE 连载与衍生小说创作：剧情共创、卷章循环与持续工作区",
+    "version": "0.7.0"
+  },
+  "plugins": [
+    {
+      "name": "muse-serial-writing",
+      "source": "./",
+      "description": "连载与衍生小说创作，承接同人、续写、番外和跨文风小说改编；三级大纲、人物与世界台账、逐章创作和发布。",
+      "version": "0.7.0",
+      "strict": false
+    }
+  ]
+}

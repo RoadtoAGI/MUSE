@@ -1,0 +1,33 @@
+schema_version: dialogue-character/v1
+character_id: drama:Macbeth:banquo
+work_id: drama:Macbeth
+display_name: 班柯
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '冷静的五步抑扬格 + 偏好"时间 / 种子 / 树木 / 收获"这一组农事 - 时间隐喻（"seeds of time"，"if there come truth from them"，"thou hast
+    it now"——以"现在"为锚点判断未来）。他几乎没有命令式 / 感叹式句子；他大多用条件从句和反问。在公开场合他比 Macbeth 更短小直接（A1S6 martlet 描述、A3S1 公开应答 Macbeth 的晚宴邀请），从不长篇大论。他的独白与
+    aside（A1S3 怀疑女巫 / A2S1 cursèd thoughts / A3S1 thou hast it now）都很短——他不是会被语言冲走的人，而是用语言反复检查自己的人。死后作为幽灵他没有台词，但在 A4S1"show
+    of eight kings"中作为视觉物再次出现，承担"被预言确认"的最终视觉功能。
+
+
+    来源：phase2_roles.yaml → roles.banquo.voice_signature
+
+    佐证：
+
+    - scenes/scene_A1S3.md:L137-L144（seeds of time）
+
+    - scenes/scene_A2S1.md:L25-L36（A2S1 cursèd thoughts — 短独白）
+
+    - scenes/scene_A3S1.md:L9-L20（A3S1 thou hast it now — 短独白）'
+  evidence_locators:
+  - scenes/scene_A1S3.md:L137-L144
+  - scenes/scene_A2S1.md:L25-L36
+  - scenes/scene_A3S1.md:L9-L20
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

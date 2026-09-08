@@ -1,0 +1,20 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:laertes
+work_id: drama:哈姆雷特
+display_name: 雷尔提
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "雷尔提的声音直接、誓言化、情绪热度高，常以家族名誉、父亲、妹妹、地狱和毁灭做判断尺度。他不像哈姆雷特那样把复仇拆成哲学问题，而是迅速把痛苦压成行动承诺；被克劳地操控时，他的回答也更像决斗誓词而非策略讨论。临终声音变短、变清楚，从复仇者转成揭露者和请求互赦者。\
+    \  \n\n来源：phase2_character.yaml → supporting_cast.雷尔提.voice_traits  \n佐证：scenes/scene_A4S5.md:L13-L17；scenes/scene_A4S7.md:L13-L19；scenes/scene_A5S2.md:L35-L37"
+  evidence_locators:
+  - scenes/scene_A4S5.md:L13-L17
+  - scenes/scene_A4S7.md:L13-L19
+  - scenes/scene_A5S2.md:L35-L37
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

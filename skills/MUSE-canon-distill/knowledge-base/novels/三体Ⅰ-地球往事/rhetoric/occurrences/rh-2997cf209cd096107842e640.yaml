@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2997cf209cd096107842e640
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L557
+chapter: 第6章 宇宙闪烁之一
+figure_type: simile
+quote: 二十八面直径为九米的抛物面天线在暮色中一字排开，像一排壮观的钢铁植物
+sensory_mapping: 视觉；形态；空间；材质
+context_fact: 汪淼抵达密云射电观测基地，首先远望天线阵列。
+image_mechanism: 抛物面被看成朝天展开的叶冠，细长支架成为茎干；“钢铁”保留设备材质，“植物”则让接收宇宙信号的静物获得朝向天空的生长姿态。
+property_alignment: 支架立地对应植物茎干扎根；抛物面向上展开对应叶冠承接光能；阵列成排对应人工林整齐生长
+context_alignment: 暮色压低机械细节，轮廓和成排姿态成为主要视觉信息，适合由植物群落统摄。
+narrative_function: 建立天文基地的宏阔景观，并把技术装置接入自然意象。
+transfer_rule: 以植物写大型装置时，应匹配根茎冠的轮廓层级、共同朝向和群体排列，同时保留材质差异。
+failure_boundary: 天线收拢、平躺、无支架或杂乱堆放时，植物的向上生长与成林秩序不成立。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 暮色中整齐竖立的二十八面射电天线
+vehicle: 成排扎根、向天空展开冠叶的巨型植物
+ground: 支架立地对应植物茎干扎根；抛物面向上展开对应叶冠承接光能；阵列成排对应人工林整齐生长

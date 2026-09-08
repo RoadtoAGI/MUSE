@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3dbc2ee64f54865f5c140868
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1823
+chapter: 第23章 红岸之五
+figure_type: simile
+quote: 红岸天线像一棵巨大的向日葵，面对着下落中的太阳缓缓转动
+sensory_mapping: 视觉；圆盘形；植物向光运动；巨大尺度；缓慢转动
+context_fact: 叶文洁秘密将天线对准太阳，用最大功率验证太阳增益反射；定位系统为此过热，她必须手动跟踪落日。
+image_mechanism: 钢铁抛物面先长成花冠，机械轴承则变为植物向光性；天线不再只是瞄准目标，而像依赖阳光的生命持续把脸转向太阳。
+property_alignment: 抛物面天线对应圆形花盘；大型设备对应巨型植株；手动跟踪落日对应向日葵逐光转向；天线朝向太阳对应花冠正对光源
+context_alignment: 这一平静自然图景承载人类第一次借太阳向宇宙放大呼喊，温和的花朵动作遮住了历史转折的巨大后果。
+narrative_function: 使复杂跟踪操作一眼可见，并以宁静意象反衬秘密发射的宇宙尺度。
+transfer_rule: 把定向圆盘设备写成向日葵时，应同时利用圆盘轮廓、单一光源、持续追踪和缓慢转向。
+failure_boundary: 设备固定不动、追踪对象不是光源，或反射面形状狭长时，向日葵会只剩装饰性圆形相似。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 红岸大型抛物面天线为持续瞄准落日而缓慢转向的形态和动作
+vehicle: 硕大圆盘花朵随太阳位置转动花冠的向日葵
+ground: 天线圆形反射面对应向日葵大花盘；设备跟踪太阳转向对应花冠追随日光

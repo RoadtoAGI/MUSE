@@ -1,0 +1,5 @@
+v1_anchor_text: "这不是他的战术，是他的威信。"
+v2_anchor_text: "真正支撑他的，是七部眼里的威信。"
+family: contrastive_negation_assertion
+expected_detected: true
+expected_pattern: true_actual_template

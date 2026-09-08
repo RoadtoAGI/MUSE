@@ -1,0 +1,20 @@
+card_id: servants-name-the-scandal
+pattern_name: 丑闻·底层先命名
+dramatic_function: 核心丑闻先经仆人讹传以民间话术命名，观众先知；当事人对手戏成为第二次揭示，反讽差全程在线。
+applicability: 需主仆等社会层级的世界；观众须晚知情的悬疑结构不适用；讹传外壳要贴合世界观（单书孤证，验证面窄）
+reuse_candidates:
+- 「闹鬼」鬼故事外壳与半夜咳嗽窥视细节
+tags:
+- 信息差
+- 仆人视角
+- 秘密管理
+source_scenes:
+- novel: 雷雨
+  scene_id: A1
+  note: 蘩漪周萍乱伦由鲁贵以闹鬼故事讲给四凤先行命名
+- novel: 雷雨
+  scene_id: PROLOGUE
+  note: 十年前惨案由两位尼姑家常闲谈碎片化抛出
+phase_affinity:
+- 2
+- 5

@@ -1,0 +1,36 @@
+scene_id: '18'
+source_notes: scene_18_beats.md
+patterns:
+- pattern_id: 18-p1
+  beat: 洪涯视角
+  dimension: camera
+  original_move: 用无足轻重降人穿越战场作导游
+  ai_default_failure: 会用上帝视角或主将间频繁切换
+  transfer_rule: 写大会战全景时设置可信移动眼睛
+  quote: 一步一回头的向着战场最激烈
+- pattern_id: 18-p2
+  beat: 挞懒的懵
+  dimension: omission
+  original_move: 用连续不信回溯信念崩塌
+  ai_default_failure: 会直接写指挥官震惊了
+  transfer_rule: 写心理崩溃可写被现实逐层否定
+  quote: 挞懒依然不信自己这仗会失了把握
+- pattern_id: 18-p3
+  beat: 拆桥
+  dimension: verb
+  original_move: 用后方拆桥动作表达全军决心
+  ai_default_failure: 会让主角英明神武地下令
+  transfer_rule: 写决心时把抽象意志物理化
+  quote: 自断浮桥，与金人决战
+- pattern_id: 18-p4
+  beat: 并旗
+  dimension: camera
+  original_move: 用三面旗帜移动取代命令链
+  ai_default_failure: 会写传令兵飞报各部接令
+  transfer_rule: 混战总攻可用可视符号统一行动
+  quote: 韩字大旗与一面岳字大旗的扈从下
+overall_traits:
+- 摄像机角色承载战场全貌
+- 不作为也是关键决策
+- 旗帜运动承担叙事命令
+- 小人物求生解释万人大战

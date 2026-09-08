@@ -1,0 +1,14 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 神仙自处
+  dimension: info_density
+  original_move: 用帝王求贤倒置科举逻辑
+  ai_default_failure: 直接喊出不屑科举的态度
+  transfer_rule: 论辩场景用制度反置显人物志向
+  quote: 不过神仙自为
+overall_traits:
+- 叙述冷注脚形成反讽
+- 两首诗用动词方向对照
+- 被说服者完成反讽

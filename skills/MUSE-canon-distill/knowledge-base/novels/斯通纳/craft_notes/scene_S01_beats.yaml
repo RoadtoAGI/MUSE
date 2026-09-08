@@ -1,0 +1,21 @@
+scene_id: S01
+source_notes: scene_S01_beats.md
+patterns:
+- pattern_id: S01-p1
+  beat: 诗歌朗读
+  dimension: omission
+  original_move: 只写声音质地，不写斯通纳反应
+  ai_default_failure: 立刻插入主角被震撼的内心独白
+  transfer_rule: 写觉醒时先让外部感官入侵身体
+  quote: 他的声音变得更加低沉、柔和
+- pattern_id: S01-p2
+  beat: 身体觉醒
+  dimension: camera
+  original_move: 从教室全景收缩到手指微距
+  ai_default_failure: 写成一扇门在心中打开的总结
+  transfer_rule: 写灵魂变化时落到具体身体部位
+  quote: 紧紧攥住的手指松开了
+overall_traits:
+- 觉醒全部身体化
+- 省略认知性总结
+- 声音先于思想进入人物

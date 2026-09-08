@@ -1,0 +1,42 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 恐惧先于敌人到场
+  dimension: omission
+  original_move: 恐惧只以冰冷与缩近到场，全程不给敌人画面，感觉先于感官
+  ai_default_failure: 先给远景黑影或一声怪叫来正当化恐惧，威胁过早获得形体
+  transfer_rule: 写精神性压迫的敌人，让恐惧先于一切感官证据到场
+  quote: 我什么也没看见，但我也没停下来去看
+- pattern_id: S03-p2
+  beat: 负空间写敌影
+  dimension: camera
+  original_move: 人影写成暗影上戳出的黑洞，有效感官只剩嘶声与寒冷
+  ai_default_failure: 立即清点五个黑袍骑士猩红眼睛，威胁边界一览无余
+  transfer_rule: 恐怖对象现身只写视觉失效，面孔数目保持不确定
+  quote: 像是在浓重暗影中戳出的黑洞
+- pattern_id: S03-p3
+  beat: 诱惑写成单向压力
+  dimension: omission
+  original_move: 强迫写成无理由的必须加身体锚点，主动动作只剩战败的戴上
+  ai_default_failure: 写成天人交战的对话体独白，两个声音拉锯并闪回警告
+  transfer_rule: 写精神控制去掉理由与辩论，用被动动词和肢体刻度增压
+  quote: 他就是一味感觉，自己必须拿出戒指
+- pattern_id: S03-p4
+  beat: 视界切换选择性对焦
+  dimension: camera
+  original_move: 黑暗依旧，只有戒灵获得清晰度，超自然限定为镜头参数调整
+  ai_default_failure: 铺陈泛蓝光的平行空间，再补一句幽灵国度的设定说明
+  transfer_rule: 写异界视觉只改目标可见度，世界不整体变亮不解释
+  quote: 别的东西全都跟之前一样昏暗漆黑
+- pattern_id: S03-p5
+  beat: 一剑一痛即收束
+  dimension: verb
+  original_move: 交锋只消耗三个动词，最后一点力气写给脱戒指而非挥剑
+  ai_default_failure: 写三五回合攻防加援军力挽狂澜，高潮拉长成武戏
+  transfer_rule: 真正对决是内在拉锯时，外部打斗压缩到一个回合
+  quote: 用最后一点力气将戒指从手指上脱下来
+overall_traits:
+- 正面描写当稀缺资源扣押，等待越长一眼冲击越大
+- 心理配额只给魔戒强迫，不写情绪陈述
+- 动作高潮与主题动作重合，打斗只是外壳

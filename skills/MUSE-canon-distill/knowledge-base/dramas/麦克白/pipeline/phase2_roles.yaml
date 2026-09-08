@@ -1,0 +1,301 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    本剧角色系统的核心特征：
+    1. 主角与反角合一——麦克白既是 protagonist 也是 villain，
+       视角驱动 + 道德下坠同时进行，悲剧张力源自这一重合。
+    2. 夫妻系统是双驱主角——A1-A2 夫人是 charge 引擎，
+       A3-A5 麦克白单独驱动，夫人退场到梦游与自杀。
+    3. 超自然角色（女巫/赫卡忒/幽灵/鬼魂）是结构功能位而非完整人物，
+       存在 = 把内心力学外化为可见舞台。
+    4. 班柯 / 麦克德夫 / 马尔康构成"如果不堕落"的三个反极：
+       班柯被诱不动 / 麦克德夫舍家殉道 / 马尔康以自污试人。
+
+roles:
+
+  macbeth:
+    dramatic_role: protagonist_and_tragic_villain
+    desire: become_king_and_keep_the_crown_securely
+    obstacle: own_conscience + prophecy_loopholes + remaining_loyalty_in_others
+    tactic: prophecy_literalism → regicide → cover_up → preemptive_murder → reliance_on_oracles
+    voice_function: introspective_imagery_dense_blank_verse
+                    # 全剧最高密度独白者：A1S3 旁白 / A1S4 旁白 / A1S7 / A2S1 / A2S2 /
+                    # A3S1 / A3S2 / A3S4 / A5S3 / A5S5
+    soliloquy_signature: true
+    status_arc: |
+      decorated_general(战功臣) → cawdor_thane(应验考特) →
+      regicide_husband(弑君夫) → crowned_king(加冕) → paranoid_tyrant(暴君) →
+      reckless_butcher(屠夫) → isolated_armored_skeptic(战甲怀疑者) →
+      nihilist(虚无独白) → bear-baited_villain(被围斗熊) → beheaded_traitor(首级示众)
+    relationship_anchors:
+      - lady_macbeth (spouse + initial co-conspirator → estranged → dead wife)
+      - banquo (mirror_pole_friend → murdered → ghost)
+      - duncan (king + cousin → murdered)
+      - macduff (court_thane → personal_nemesis)
+      - witches (oracle → trap)
+    aria_or_soliloquy_locations:
+      - A1S3 旁白 "想像中的恐怖远过于实际上的恐怖"
+      - A1S4 旁白 "星星啊，收起你们的火焰"
+      - A1S7 独白 "要是干了以后就完了" (If it were done when 'tis done)
+      - A2S1 独白 "在我面前摇晃着...的，不是一把刀子吗" (Is this a dagger)
+      - A3S1 独白 "单单做到了这一步还不算什么"
+      - A3S2 独白 "我们不过刺伤了蛇身"
+      - A3S4 散述 "流血是免不了的；他们说，流血必须引起流血"
+      - A5S3 独白 "我已经活得够长久了；我的生命已经日就枯萎"
+      - A5S5 独白 "明天，明天，再一个明天" (Tomorrow and tomorrow)
+    voice_markers:
+      - 密集意象链（dagger / blood / sleep / shadow / stars / scorpion）
+      - 反复用条件句"要是…要是…"——前期是良知拷问，后期是预言屏障
+      - 后期句法变短促，意象贫化（"明天又明天"节奏单调即风格信号）
+    subtext_signature: |
+      麦克白几乎所有公开台词都有"言此意彼"——
+      对邓肯说效忠时已在算阶石，对班柯说宴会时已雇刺客，
+      对宴会群臣说"为不在的朋友干杯"时鬼魂已坐在他位置上。
+      声音的真实层往往只在独白中显形——这是莎翁让"内心可见"的核心机制。
+
+  lady_macbeth:
+    dramatic_role: co-protagonist_charge_engine_then_collateral_collapse
+    desire: secure_husband's_kingship_through_decisive_action
+    obstacle: husband's_"人情的乳臭" + own_imagined_feminine_softness
+    tactic: invoke_unsexing → shame-based_manhood_attack → frame_the_grooms →
+            damage_control_at_banquet → repression → sleepwalk_break → suicide(offstage)
+    voice_function: imperative_will_and_repressed_imagination
+                    # A1S5 / A1S7 高强度命令式；
+                    # A3S2 "蝎子"用同样意象但已被反噬；
+                    # A5S1 散文碎句 = 全程压抑回潮
+    soliloquy_signature: true
+    status_arc: |
+      mistress_of_the_castle → unsexed_invoker(A1S5) → co-conspirator_director(A1S7-A2S2) →
+      queen(A3) → damage_control_hostess(A3S4) → sidelined_wife(A3S2 起独行人不再咨询她) →
+      sleepwalker(A5S1) → suicide(reported_A5S7)
+    relationship_anchors:
+      - macbeth (initial driver → estranged → predeceased)
+      - duncan (guest → victim, A1S6 礼仪场反讽峰值)
+      - lady_macduff (无直接接触，但 A5S1"费辅爵士从前有一个妻子"碎句把她写进了心理)
+    aria_or_soliloquy_locations:
+      - A1S5 独白 "解除我的女性的柔弱" (Unsex me here)
+      - A1S5 独白 "你本是葛莱密斯爵士，现在又做了考特爵士" (读信后)
+      - A1S7 激将段 "我曾经哺乳过婴孩"
+      - A3S2 独白 "费尽了一切，结果还是一无所得"
+      - A5S1 梦游碎句"去，该死的血迹！"
+    voice_markers:
+      - 韵文 → 散文的转变（A1-A3 多为韵文，A5S1 完全转散文）
+        是精神崩溃的语法信号——可作为后续戏剧人物"心智破碎"
+        如何用句法外化的范例
+      - 性别意象与暴力意象高度耦合（"女性的柔弱"/"乳水当胆汁"/"摘下乳头")
+      - 命令式频率高于全剧任何角色，A5S1 退化为破碎短句
+    subtext_signature: |
+      她比麦克白更早决定动手——
+      A1S5 还没见到他就完成了"unsex"独白；
+      但她假设自己能不被反噬，而麦克白预感会被反噬。
+      这一倒置预言了 A1-A2 由她推动、A3-A5 由她崩溃的弧光。
+
+  banquo:
+    dramatic_role: mirror_pole_to_macbeth (could-have-resisted) + posthumous_oracle
+    desire: honor_and_loyal_service + clear_conscience
+    obstacle: same_prophecy_offered_him_a_lineage
+    tactic: name_the_temptation_then_pray_against_it
+    voice_function: clear-eyed_caution
+    soliloquy_signature: true (A3S1 仅一段，但结构关键)
+    status_arc: |
+      co-general(A1S2) → co-prophesied(A1S3) → suspicious_friend(A2S1) →
+      moral_threat(A3S1) → murdered(A3S3) → ghost(A3S4) → posthumous_oracle(A4S1 八王末)
+    relationship_anchors:
+      - macbeth (battle-brother → suspect → victim → judge)
+      - fleance (son who escapes — the prophecy's living seed)
+    aria_or_soliloquy_locations:
+      - A2S1 短独白 "慈悲的神明！抑制那些罪恶的思想"
+      - A3S1 独白 "你现在已经如愿以偿了"
+    voice_markers:
+      - 与麦克白同样的诗体，但意象指向不同（神明 / 祈祷 / 怀疑）
+      - 直接提及预言（"魔鬼为了要陷害我们...故意向我们说真话"）
+        = 全剧最关键的"预言诠释"台词
+    subtext_signature: |
+      班柯的潜台词比麦克白少——他几乎是"言行一致"的反极。
+      他知道自己怀疑麦克白，但他选择不为之"反向行动"，
+      只祈祷 + 守口。最后这种被动让他被杀，
+      但也让他的预言（子孙为王）独立兑现。
+
+  duncan:
+    dramatic_role: sacred_king_as_sacrificial_victim
+    desire: just_governance_and_secured_succession
+    obstacle: cannot_read_faces (A1S4 自承)
+    tactic: reward_loyalty_openly / designate_successor
+    voice_function: gracious_royal_diction
+    soliloquy_signature: false
+    status_arc: |
+      victorious_king(A1S2) → host_in_naivety(A1S6) → murdered_offstage(A2S2)
+    relationship_anchors:
+      - macbeth (kinsman + protector → host → victim)
+      - malcolm (son and designated heir)
+    voice_markers:
+      - 高度礼仪化用语 + 农艺意象（"我已经开始把你栽培"）
+      - 一句"世上还没有一种方法可以从一个人的脸上探察他的居心"
+        被随后整剧无情重演
+
+  malcolm:
+    dramatic_role: legitimate_heir_to_be_restored
+    desire: restore_lawful_kingship_to_scotland
+    obstacle: must_distinguish_himself_from_tyrants + must_test_allies
+    tactic: flee → exile → self-slander_test → ally_with_english → boughs_disguise → coronation
+    voice_function: rhetorical_set-speeches_and_political_calculation
+    soliloquy_signature: false (no formal soliloquy; long set speeches in A4S3)
+    status_arc: |
+      heir-designate(A1S4) → suspect_fugitive(A2S3) → exile(A2-A4) →
+      tester(A4S3) → commander(A5S4) → king_proclaimed(A5S7)
+    relationship_anchors:
+      - duncan (father → murdered)
+      - donalbain (brother → splits to Ireland)
+      - macduff (initial distrust → bond)
+      - siward (English ally)
+
+  macduff:
+    dramatic_role: avenger_and_legitimate_nemesis
+    desire: rid_scotland_of_the_tyrant + (after_A4S2) personal_revenge
+    obstacle: family_left_unprotected + macbeth's_prophecy_armor
+    tactic: discover_corpse → boycott_coronation → exile_to_england → return_with_army → claim_kill
+    voice_function: blunt_loyal_grief
+    soliloquy_signature: false
+    status_arc: |
+      loyal_thane(A1-A2) → suspicious_truth-finder(A2S3-S4) →
+      defector_to_england(A4S1 reported) → tested_by_malcolm(A4S3) →
+      grieving_father(A4S3) → executioner(A5S7) → kingmaker(A5S7)
+    relationship_anchors:
+      - lady_macduff (wife — murdered)
+      - macduff_son (slain onstage)
+      - macbeth (court superior → personal nemesis)
+      - malcolm (test_subject → liege)
+    voice_markers:
+      - "我没有话说；我的话都在我的剑上"——
+        与麦克白的诗体独白形成最强反差
+      - "他也是个人"（"He has no children"）一句解读上的暧昧
+        是莎翁刻意保留的潜台词点
+
+  three_witches:
+    dramatic_role: catalyst_and_ambiguous_oracle
+    medium_grammar_role: supernatural_disturbance_externalizing_ambition
+    desire: stir_human_evil_for_its_own_sake (no clear desire — they enjoy the game)
+    voice_function: trochaic_tetrameter_rhymed_chant
+                    # 与全剧 iambic 五音步显著反差——
+                    # 节奏即超自然身份的舞台标记
+    soliloquy_signature: false (collective chant, not individual soliloquy)
+    aria_or_soliloquy_locations:
+      - A1S1 短场（仅 9 行）"美即丑恶丑即美"
+      - A1S3 三呼 + 给班柯三谜
+      - A3S5 与赫卡忒（中段过渡）
+      - A4S1 沸釜咒诀 + 三幽灵 + 八王列队
+    voice_markers:
+      - 四音步 + 押韵 + 高度形象化意象（毒肝腐脏 / 沼蛇 / 山羊胆汁）
+      - "Double, double, toil and trouble" 类型重复句式
+        是"陷阱仪式"语法的极致样本
+    subtext_signature: |
+      女巫的话**字面**总是真的，**意图**总是设陷阱——
+      这是全剧 equivocation 主题最纯粹的载体。
+      她们从不直接说谎，但选择性披露 + 模糊语法
+      足以让有野心的人自己走进陷阱。
+
+  hecate:
+    dramatic_role: supernatural_lead_coordinator
+    voice_function: rhymed_couplets (distinct from witches' trochaic)
+    soliloquy_signature: true (A3S5)
+    notes: 多被认为是 Middleton 插补段；结构上为 A4S1 二轮预言提供"陷阱故意"的元说明。
+
+  banquo_ghost:
+    dramatic_role: psychic_externalization
+    medium_grammar_role: only_macbeth_sees_it_but_court_sees_macbeth_crack
+    voice_function: silent (no lines — pure visual presence)
+    aria_or_soliloquy_locations:
+      - A3S4 两次现身（坐麦克白位 / 在群臣面前再现）
+      - A4S1 末"血污的班柯在向我微笑，用手指点着他们"（八王列队中）
+
+  three_apparitions:
+    dramatic_role: oracular_traps_disguised_as_oracular_protection
+    medium_grammar_role: trapdoor_mounted_spectacle (戴盔之头 / 流血之小儿 / 戴王冠之小儿)
+    voice_function: brief_oracular_imperatives
+    notes: |
+      三段话各对应预言陷阱：
+      第一（戴盔头）= "留心麦克德夫" → 真但只是冰山一角
+      第二（流血小儿）= "没有妇人所生下的人可以伤害" → 字面=剖腹产例外
+      第三（戴冠小儿持枝）= "勃南林不动则永王" → 字面=树枝伪装
+
+  fleance:
+    dramatic_role: prophecy_seed_carrier (escapes A3S3)
+    notes: 仅一句"啊，奴才"——但 phase3 "班柯子孙为王"完全押在他身上。
+
+  porter:
+    dramatic_role: comic_meta_chorus
+    voice_function: prose_hell-gate_monologue (A2S3)
+    notes: |
+      唯一以散文承担结构功能的角色——
+      他的"地狱看门人"自白同时评论刚发生的弑君，
+      是莎翁让悲剧节奏"喘一口气"的关键设计。
+
+  lady_macduff_and_son:
+    dramatic_role: onstage_innocent_victims (a moral pole)
+    voice_function: domestic_banter_then_terror (A4S2)
+    notes: |
+      母子机锋"鸟儿—网—反贼—正人君子"对话
+      把 phase3 false_security 节点的暴行钉到具体面孔。
+      "他杀死我了，妈妈；您快逃吧"——
+      4 字结构承担 phase3 moral_collapse 节点的全部情感重量。
+
+  ross / lennox / angus / caithness / menteith / siward / young_siward / seyton / doctor / gentlewoman:
+    dramatic_role: court_chorus_and_messengers
+    voice_function: witness / news_carrier / loyalty_oscillation
+    notes: |
+      洛斯是全剧最重要的"信使"——多次承担信息中转：
+      A1S2 战报 / A1S3 考特封号 / A2S4 加冕通告 / A4S2-A4S3 失家噩耗。
+      列诺克斯：A3S6 反讽对话主导者；后期归马尔康。
+      西登：A5S3-S5 见证麦克白战甲与失妻——沉默见证人功能。
+      医生：A5S1 旁观夫人梦游 / A5S3 旁白"我能远离邓西嫩就好"——
+      他是普通人对邪恶环境的反应样本。
+      Gentlewoman 是夫人最后的人证。
+
+contrast_axes:
+
+  axis_ambition_reaction:
+    poles:
+      - macbeth (acts on prophecy)
+      - banquo (knows the prophecy but waits / prays)
+    function: 凸显 macbeth 是"自己兑现预言"，因此承担 cosmic 反噬
+
+  axis_gendered_will:
+    poles:
+      - lady_macbeth (unsexes_to_act, then breaks)
+      - lady_macduff (acts within domestic role, killed)
+    function: 把"女性如何与暴力世界相处"做了两极对比
+
+  axis_kingship:
+    poles:
+      - duncan (sacred giver, naive)
+      - macbeth (paranoid usurper)
+      - edward_of_england (off-stage sacred healer)
+      - malcolm (tested restoration)
+    function: 王权四极——A4S3 爱德华王段是为麦克白政体设立的"反极镜"
+
+  axis_revenge_calculus:
+    poles:
+      - macbeth (preemptive_murder, drives the spiral)
+      - macduff (reactive_revenge, kills the tyrant)
+      - malcolm (political_calculation, becomes king)
+      - donalbain (flight only, exits the play)
+    function: 复仇/政治的四种回应方式
+
+relationships:
+  key_tensions:
+    - macbeth ⇔ lady_macbeth (co-charge → estrangement → posthumous tomorrow speech)
+    - macbeth ⇔ banquo (battle-brother → mirror → murdered → ghost)
+    - macbeth ⇔ macduff (court_thane → personal_nemesis → executioner)
+    - macbeth ⇔ witches (oracle → trap)
+    - malcolm ⇔ macduff (distrust → test → bond)
+    - duncan ⇔ his_sons (designated_succession → flight → restored_through_macduff)
+
+  mirror_pairs:
+    - macbeth's_castle_hosting_duncan (A1S6) ↔ macbeth_besieged_in_dunsinane (A5S5)
+    - lady_macbeth_invokes_dark (A1S5) ↔ lady_macbeth_demands_light_then_sleepwalks (A5S1)
+    - cawdor_executed_for_treason (A1S2-S4) ↔ macbeth_beheaded_as_traitor (A5S7)
+    - banquo's_father_murdered_son_flees (A3S3) ↔ macduff's_family_murdered_father_avenges (A4S2-A5S7)

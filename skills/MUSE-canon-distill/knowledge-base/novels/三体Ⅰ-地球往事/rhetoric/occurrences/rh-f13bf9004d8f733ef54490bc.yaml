@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f13bf9004d8f733ef54490bc
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L335
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 他似乎在跟着它走，跟着一个死死缠着他的鬼魂
+sensory_mapping: 视觉；运动；追随；恐惧
+context_fact: 眼科检查正常，现有技术无法解释精确数字。
+image_mechanism: 倒计时从屏幕状视觉层获得移动主导权：不是它随汪淼，而是汪淼跟着它走；主客关系倒置使“缠身”成为持续动作。
+property_alignment: 闭眼转头无法摆脱对应鬼魂无视阻隔；行动被数字牵引对应被缠身者随鬼魂移动；医学查不出实体对应鬼魂无身体
+context_alignment: 前文已命名幽灵倒计时，医学排除让鬼魂框架获得新的跟随关系而非重复标签。
+narrative_function: 把异常升级为控制人物路线的迫害者。
+transfer_rule: 延展既有喻体时，应增加新动作或关系变化，例如从显形推进到跟随和反向牵引，避免只重复名称。
+failure_boundary: 数字会随设备关闭、留在固定地点或不影响人物行为时，“缠身鬼魂”的持续追随与控制不成立。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 固定视野并支配汪淼行动的倒计时
+vehicle: 走到哪里都跟随并缠身的鬼魂
+ground: 闭眼转头无法摆脱对应鬼魂无视阻隔；行动被数字牵引对应被缠身者随鬼魂移动；医学查不出实体对应鬼魂无身体

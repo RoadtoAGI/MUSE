@@ -1,0 +1,37 @@
+schema_version: dialogue-character/v1
+character_id: drama:麦克白:macduff
+work_id: drama:麦克白
+display_name: 麦克德夫
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '麦克德夫的台词在全剧最朴素、最少修辞——他的标志特征是"用最少的字承担最大的情感重量"：临听家人死讯的回应不是修辞 / 不是独白 / 不是问神，而是连续四个具体问句（"我的孩子也都死了吗？" / "我的妻子也被杀了吗？"
+    / "他们一个也不存吗？" / "你说他们一个也不存吗？"）——他用问句承担震荡。整体倾向：(1) 短句为主，鲜有长独白；(2) 当面冲突时直白不掩饰（"我没有话说；我的话都在我的剑上"——A5S7 与麦克白对决的全部回应）；(3) 几乎不用条件句——与麦克白长篇"要是…要是…"的独白形成最强反差，麦克德夫不在内心里反复辩论，决定就是决定。
+
+
+    来源：phase2_roles.yaml → macduff.voice_function + voice_markers
+
+    佐证：
+
+    - scenes/scene_A2S3.md:L59-L59 （"啊，可怕！可怕！可怕！不可言喻、不可想像的恐怖！"——重复式承担情感）
+
+    - scenes/scene_A2S4.md:L43-L43 （单句决断"不，大哥，我还是到费辅去"）
+
+    - scenes/scene_A4S3.md:L119-L123 （连续短问句承担震荡）
+
+    - scenes/scene_A5S7.md:L49-L49 （"我没有话说；我的话都在我的剑上"——典型）
+
+    - scenes/scene_A5S7.md:L53-L53 （揭示"麦克德夫是没有足月就从他母亲的腹中剖出来的"——最关键一句话是事实陈述而非雄辩）'
+  evidence_locators:
+  - scenes/scene_A2S3.md:L59-L59
+  - scenes/scene_A2S4.md:L43-L43
+  - scenes/scene_A4S3.md:L119-L123
+  - scenes/scene_A5S7.md:L49-L49
+  - scenes/scene_A5S7.md:L53-L53
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

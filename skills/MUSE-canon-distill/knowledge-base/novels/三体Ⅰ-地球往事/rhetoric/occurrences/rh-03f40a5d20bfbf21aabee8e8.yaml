@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-03f40a5d20bfbf21aabee8e8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1058
+chapter: 第12章 三体、墨子、烈焰
+figure_type: simile
+quote: 刚刚被烧灼过的大地在夜色下发着暗红色的光，像一块从炉中夹出来不久的炭块
+sensory_mapping: 视觉；色温；余热；时间
+context_fact: 巨日刚把人群和湖泊烧尽便快速落下，黑夜中的土地仍处在红炽状态。
+image_mechanism: 天体尺度的地表被缩成钳口间一块可夹取的燃料，夜色抹掉四周后只剩内部透出的暗红余火，“不久”把刚发生的焚烧保留在颜色里。
+property_alignment: 大地暗红对应炭块红炽；巨日灼烧对应炭在炉内受热；日落后仍发光对应出炉后余热未散
+context_alignment: 前一句已把夜幕写成黑布，黑背景恰使炭红更显；炉火意象也承接人如柴火的同场灾变。
+narrative_function: 在太阳退场后保留灾难余温，以一块余炭概括整个被焚世界。
+transfer_rule: 写热源离开后的余热时，选喻体需同时显示残存颜色、先前加热方式和冷却尚未完成的时间状态。
+failure_boundary: 地表只被照红而未受热、颜色明黄白炽或已经冷却时，离炉炭块会虚构错误温度与时间。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 巨日灼烧后仍在夜中暗红发亮的整片大地
+vehicle: 刚从炉中夹出、表面尚存红热的炭块
+ground: 地表暗红发光对应余炭红炽；太阳刚落而热量未散对应炭块离炉不久仍有余温

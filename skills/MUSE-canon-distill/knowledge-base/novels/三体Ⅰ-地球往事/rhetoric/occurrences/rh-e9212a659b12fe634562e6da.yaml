@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e9212a659b12fe634562e6da
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1324
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 有一种落水者想随便抓住些什么东西的欲望
+sensory_mapping: 身体失重；水触觉；抓握；窒息焦虑
+context_fact: 他按长老要求想象无边、无光、无物的太空，却没有宁静，反而立即创造一个球体。
+image_mechanism: 抽象的无参照感转成身体沉入深水，空不再轻盈而是四面包围；创造球体则成为手在黑暗中抓到第一件实体。
+property_alignment: 无限空无对应无边水域；缺乏参照和作用对应脚下无底；焦躁求物对应溺者急抓；第一个球体对应可供抓握的漂浮物
+context_alignment: 长老说要用空填满自己，魏成却先体验到被空淹没，落水图像准确显示他尚不能承受“空”。
+narrative_function: 为逐个加入球体提供心理动力，让思想实验从身体焦虑自然生成。
+transfer_rule: 用落水抓物写认知焦虑时，应让人物同时缺少支点、方向和呼吸式安全，并让后续选择成为具体抓取物。
+failure_boundary: 人物享受空旷、拥有稳定内在参照或有明确选择标准时，落水者的无差别抓取会误判动机。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 魏成置身绝对空无宇宙想象时急于创造某个存在来解除焦躁
+vehicle: 落水者在无支撑水中本能抓取任何可浮靠物
+ground: 空无使意识失去参照对应水中身体没有立足点；急需添加任意对象对应溺水者不择物地抓取

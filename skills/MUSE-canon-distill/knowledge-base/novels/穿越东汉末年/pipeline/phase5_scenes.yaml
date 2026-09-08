@@ -1,0 +1,328 @@
+analysis_meta:
+  novel: 穿越东汉末年
+  source_text: navigation.md
+  source_form: 中篇连载历史穿越演义
+  evidence_note: "关键场景按期数定位；第三轮场景切分时再补起止行号和 scene_index"
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 益州乡里，刘官章破屋及世家庄园
+        time: 黄巾前夕，刘官章魂穿初期
+        participants: [刘官章, 世家主子爷, 佃户, 乡民]
+        pov: 刘官章
+        conflict: 现代意识落到只剩三天口粮的贫弱平民身上，必须在身份、语言、疾病和世家秩序中求生。
+        value_start: 无粮、无亲、无力、随时死亡
+        value_end: 投靠世家成为佃客，获得最低限度的饭食与保护
+        scene_tasks: 建立“活下去优先于所有宏图”的开局规则，并否定开局炫技和英雄化。
+        handoff: 主角发现仅靠体力会耗死，转向识字和账本路线。
+        beat_direction: 从现代优越感坠入古代生存账本。
+        source_chapter: 第1期
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 万安乡泥墙、乡里账册现场
+        time: 刘官章当佃客一年后
+        participants: [刘官章, 巡查人员, 乡民, 里长]
+        pov: 刘官章
+        conflict: 刘官章不能显摆现代知识，只能用合法且低风险的识字能力争取上升。
+        value_start: 被当作普通劳动力消耗
+        value_end: 成为文书并进入基层权力系统
+        scene_tasks: 把“知识改变命运”落成可执行的古代低阶吏治入口。
+        handoff: 文书工作带来民望和账本能力，为里正、乡佐路线铺垫。
+        beat_direction: 从被支配者到记录和分配资源的人。
+        source_chapter: 第1期
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 万安乡坞堡、大巴山山洞
+        time: 184年张修乱前后
+        participants: [刘官章, 刘官章夫人, 家丁, 四大家族, 流民]
+        pov: 刘官章
+        conflict: 刘官章试图用坞堡、家丁和粮食自保，却判断这些都挡不住真正乱世。
+        value_start: 乡佐有身份、有家、有积粮
+        value_end: 带妻弃堡逃入山中，身份保护彻底失效
+        scene_tasks: 让主角和读者确认旧秩序不可依赖，乱世会吞掉任何中层安全感。
+        handoff: 回乡后的废墟将迫使主角选择是否带人。
+        beat_direction: 从“我能准备好”到“准备也可能毫无意义”。
+        source_chapter: 第2期
+      - scene_id: S04
+        arc_id: ARC-1
+        location: 张修乱后的万安乡废墟
+        time: 184年乱后
+        participants: [刘官章, 刘官章夫人, 本地百姓, 佃客, 流民]
+        pov: 刘官章
+        conflict: 幸存百姓有粮但没有组织和安全，下一波流民到来就会再次被吞没。
+        value_start: 废墟、恐惧、各家自保
+        value_end: 600 青壮被组织成自保队伍
+        scene_tasks: 将主角欲望从个人活命升级为带乡人找活路。
+        handoff: 有人之后，问题转为粮食、武器和纪律。
+        beat_direction: 从恐惧求援到共同体誓约。
+        source_chapter: 第3期
+
+  - seq_id: ARC2-SEQ1
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 万安乡周边山寨和小地主寨堡
+        time: 184年乱后恢复期
+        participants: [刘官章, 乡勇, 小地主, 家丁, 铁匠]
+        pov: 刘官章
+        conflict: 乡民没有足够粮食，刘官章必须决定是否对小地主使用暴力夺粮。
+        value_start: 有队伍但缺粮，秩序随时崩溃
+        value_end: 抢得粮食、金属和马匹，建立奖惩与分粮秩序
+        scene_tasks: 暴露本作的道德灰度：救民秩序从一开始就伴随定向杀伐。
+        handoff: 粮和金属支持纸甲、骑兵、屯田兵和自治格局。
+        beat_direction: 从防守求生到主动夺取资源。
+        source_chapter: 第3期
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 安汉县战场
+        time: 马相乱前后
+        participants: [刘官章, 洪新甲, 辛银马, 四大家族, 刘焉部属]
+        pov: 刘官章
+        conflict: 四大家族联合进攻，试图趁乱抹掉刘官章势力。
+        value_start: 刘官章只是地方强豪，合法性和地盘都不稳
+        value_end: 重骑定局，刘官章获得行安汉令和事实县域控制权
+        scene_tasks: 把万安自保武装提升为有官方背书的区域力量。
+        handoff: 安汉成为向巴郡、益州扩张的制度基地。
+        beat_direction: 从地方冲突到官方身份确认。
+        source_chapter: 第4期
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-2
+        location: 安汉阅兵场、巴郡交通与水路节点
+        time: 189-190年前后
+        participants: [刘官章, 甘宁, 严颜, 四大家族, 刘焉]
+        pov: 刘官章
+        conflict: 刘官章需要水军、巴郡承认和四大家族站队，才能突破安汉上限。
+        value_start: 安汉虽强但仍被巴郡豪强和水路短板限制
+        value_end: 甘宁投效，严颜被逼退，巴郡都尉与安汉路线成形
+        scene_tasks: 把水军、巴郡豪强和官面身份纳入主线。
+        handoff: 后续夺荡渠、阆中、汉昌和严颜归附有了前置。
+        beat_direction: 从单县经营到郡域博弈。
+        source_chapter: 第5期
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 涪县、剑门、益州州治周边
+        time: 刘焉死后益州内乱
+        participants: [刘官章, 刘璋, 赵韪, 庞羲, 严颜, 甘宁, 黄权]
+        pov: 刘官章
+        conflict: 刘官章必须在刘璋、赵韪和益州旧部未彻底团结前完成州级夺权。
+        value_start: 刘官章是益州内一支强军
+        value_end: 刘璋、赵韪投降，益州归刘官章
+        scene_tasks: 完成从区域豪强到州级统治者的跃迁。
+        handoff: 取得益州后，汉中和全国外交成为下一目标。
+        beat_direction: 从内战窗口到州权落定。
+        source_chapter: 第8期
+      - scene_id: S09
+        arc_id: ARC-3
+        location: 阳平关、南郑、汉中
+        time: 刘官章整合益州后
+        participants: [刘官章, 张鲁, 曹操, 袁绍, 甘宁, 黄权, 周康]
+        pov: 刘官章
+        conflict: 汉中是益州北门，取之会使刘官章进入曹袁都必须计算的天下格局。
+        value_start: 益州富庶但被道路困住
+        value_end: 汉中到手，金牛道和马超布局启动
+        scene_tasks: 把地理门户、道路和外交压力推上主线。
+        handoff: 关中计划和贾诩张绣线随之展开。
+        beat_direction: 从守益州到望关中。
+        source_chapter: 第9期
+
+  - seq_id: ARC4-SEQ1
+    scenes:
+      - scene_id: S10
+        arc_id: ARC-4
+        location: 汉中、关中、长安、郿县
+        time: 199-200年前后
+        participants: [刘官章, 曹操, 钟繇, 法正, 贾诩, 马腾, 韩遂, 马超]
+        pov: 刘官章
+        conflict: 刘官章修栈道准备取关中，曹操焚长安并让马腾韩遂入关，马超最终坐大。
+        value_start: 关中似乎是可预判的北出路径
+        value_end: 关中成焦土和骑兵泥潭，刘官章被迫止步武都
+        scene_tasks: 制造战略挫败，证明历史知识不能完全控制其他枭雄。
+        handoff: 主角转向荆州，并更依赖贾诩式间接策略。
+        beat_direction: 从胸有成竹到被高手破局。
+        source_chapter: 第11期
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-4
+        location: 江夏、竟陵、樊城
+        time: 刘官章转攻荆州期间
+        participants: [刘官章, 甘宁, 陈文锤, 张绣, 刘表, 法正, 贾诩]
+        pov: 刘官章
+        conflict: 刘官章陆军能打，但水军不足，荆州战事陷入胶着并付出老将战死代价。
+        value_start: 转攻荆州获得窗口
+        value_end: 陈文锤战死，刘官章意识到水军和战船必须升级
+        scene_tasks: 给扩张加上真实代价，并把水军短板具体化。
+        handoff: 铜炮和改装战船成为破局工具。
+        beat_direction: 从顺利偷袭到代价逼迫升级。
+        source_chapter: 第12期
+      - scene_id: S12
+        arc_id: ARC-4
+        location: 襄阳、江陵
+        time: 201年二三月
+        participants: [刘官章, 甘宁, 刘表, 蔡瑁, 文聘, 黄忠, 魏延]
+        pov: 刘官章
+        conflict: 襄阳和江陵仍依靠水军和坚城维持抵抗，刘官章释放铜炮威慑。
+        value_start: 荆州核心仍不稳
+        value_end: 襄阳入手、江陵投降、荆南传檄而定
+        scene_tasks: 展示技术威慑如何服务政治投降，而非只服务杀伤。
+        handoff: 荆州入手后，主角转入消化、工业和货币建设。
+        beat_direction: 从城防僵持到心理崩塌。
+        source_chapter: 第13期
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 雍凉、汉中、成都
+        time: 马超崩盘至归附
+        participants: [刘官章, 马超, 马腾, 马休, 马铁, 曹操, 袁绍]
+        pov: 刘官章
+        conflict: 马超曾是被扶植后反堵刘官章的风险，如今内乱崩盘，需要被转化为可用骑兵翼。
+        value_start: 马超是失控代理人和关中阻力
+        value_end: 马超归附并成为西北骑兵体系核心
+        scene_tasks: 把早期战略失败的产物重新纳入主角体系。
+        handoff: 西北缓冲稳定后，刘官章可以争取关中和江东。
+        beat_direction: 从养虎为患到收虎为翼。
+        source_chapter: 第13-14期
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 官渡前线、平顶山会盟、关中
+        time: 袁绍另立刘和后
+        participants: [刘官章, 曹操, 刘协, 袁绍, 郭嘉, 贾诩]
+        pov: 刘官章
+        conflict: 袁绍另立刘和后，曹操与刘官章必须合作；关中成为共同抗袁和分担压力的交易品。
+        value_start: 刘官章仍被关中卡住，曹操也被袁绍压迫
+        value_end: 刘官章以粮食换关中，获得长安战略纵深
+        scene_tasks: 展示敌我关系基于生存压力反复重组。
+        handoff: 关中建设和江东攻略并行。
+        beat_direction: 从互相防范到利益交换。
+        source_chapter: 第17期
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-5
+        location: 长安、柴桑、江东沿江
+        time: 204年前后江东饥荒
+        participants: [刘官章, 马谡, 甘宁, 孙权, 周瑜, 江东百姓]
+        pov: 刘官章
+        conflict: 刘官章缺乏直接攻孙权名分，江东饥荒和人相食让“救民”成为不可阻挡的政治理由。
+        value_start: 打江东师出无名
+        value_end: 甘宁破柴桑，江东百姓带路，孙权合法性崩塌
+        scene_tasks: 把主控价值“救百姓活命”转化为战役发动机。
+        handoff: 江东士族谈判和周瑜归附随之发生。
+        beat_direction: 从外交施压到道义压倒名分阻碍。
+        source_chapter: 第20期
+      - scene_id: S16
+        arc_id: ARC-5
+        location: 长安、九鼎鉴定现场、许县政治空间
+        time: 江东归附后
+        participants: [刘官章, 刘协, 曹操, 贾诩, 甘宁, 严颜, 周瑜, 群臣]
+        pov: 刘官章
+        conflict: 九鼎出现后，刘官章的实力和正统象征逼迫刘协、曹操承认其周公地位。
+        value_start: 刘官章是强大权臣和地方霸主
+        value_end: 刘官章受封周公、假节、九锡，政治位格跃迁
+        scene_tasks: 把南方整合后的实力转成公开合法性。
+        handoff: 刘官章与天子、曹操、袁尚的终局关系进入倒计时。
+        beat_direction: 从战功封赏到正统符号压迫。
+        source_chapter: 第20期
+
+  - seq_id: ARC6-SEQ1
+    scenes:
+      - scene_id: S17
+        arc_id: ARC-6
+        location: 壶关山地
+        time: 204年冬
+        participants: [刘登, 魏延, 陆议, 庞统, 诸葛亮, 袁谭, 张郃, 高览, 高干]
+        pov: 刘登
+        conflict: 刘登初次承担关键战役，必须在险关、补给困难和敌军优势中打开河北门户。
+        value_start: 河北门户由袁尚体系掌控，刘登仍未证明继承能力
+        value_end: 壶关陷落、张郃投降、河北门户大开
+        scene_tasks: 让继承人线和河北主战场合流。
+        handoff: 刘登可以挂帅河北，多线攻势准备启动。
+        beat_direction: 从试炼到继承人获得战功。
+        source_chapter: 第21期
+
+  - seq_id: ARC6-SEQ2
+    scenes:
+      - scene_id: S18
+        arc_id: ARC-6
+        location: 长安、荆州、扬州、凉州、各军镇
+        time: 刘官章假病期间
+        participants: [刘官章, 刘登, 刘基, 贾诩, 甘宁, 张绣, 黄权, 辛银马, 严颜, 马超, 乞伏龙关]
+        pov: 刘官章
+        conflict: 刘官章病倒的消息测试六州忠诚，降将、士族、儿子和地方集团都可能异动。
+        value_start: 势力看似稳固但高度依赖刘官章本人
+        value_end: 大多数核心力量稳住，隐患被暴露并清理
+        scene_tasks: 检验国家机器雏形能否承受主角暂时缺位。
+        handoff: 病愈后的赏罚让河北决战更安全。
+        beat_direction: 从权力真空恐惧到组织韧性确认。
+        source_chapter: 第23期
+
+  - seq_id: ARC6-SEQ3
+    scenes:
+      - scene_id: S19
+        arc_id: ARC-6
+        location: 邯郸、青州、幽州、南阳、昆阳、邺城
+        time: 206年前后河北攻略
+        participants: [刘登, 周瑜, 马岱, 马超, 辛银马, 刘备, 曹操, 袁尚, 审配, 逢纪, 淳于琼]
+        pov: 刘官章
+        conflict: 河北、青州、幽州和南阳多线同时开战，曹操试图声东击西挽回最后机会。
+        value_start: 袁尚仍据河北，曹操仍有拼命空间
+        value_end: 河北大体归刘，曹操攻南阳失败并转向谈判
+        scene_tasks: 展示刘官章国家机器的多线动员能力。
+        handoff: 曹操退场和天子入长安成为必然。
+        beat_direction: 从多方不确定到旧诸侯结构崩塌。
+        source_chapter: 第24期
+
+  - seq_id: ARC7-SEQ1
+    scenes:
+      - scene_id: S20
+        arc_id: ARC-7
+        location: 长安、梁沛、兰台、南匈奴方向
+        time: 207年前后
+        participants: [刘官章, 曹操, 刘协, 蔡琰, 曹丕, 曹植, 乞伏龙关, 左贤王]
+        pov: 刘官章
+        conflict: 旧秩序退场后，曹操宗族、刘协名分、颍川士族和汉家文化都必须被安置。
+        value_start: 天下即将归一，但旧汉权威和文化伤口仍在
+        value_end: 曹操退隐、刘协入长安、蔡琰归汉、刘协退位
+        scene_tasks: 用政治安置和文化修复过渡到改朝换代。
+        handoff: 称帝后的首要任务变成制度设计。
+        beat_direction: 从战胜敌人到接管历史创伤。
+        source_chapter: 第25期
+
+  - seq_id: ARC7-SEQ2
+    scenes:
+      - scene_id: S21
+        arc_id: ARC-7
+        location: 长安朝堂
+        time: 刘官章称帝后
+        participants: [刘官章, 刘登, 贾诩, 严颜, 黄权, 法正, 陆议, 庞统, 诸葛亮, 周瑜, 甘宁, 马超, 刘备]
+        pov: 刘官章
+        conflict: 新皇帝必须决定如何防止权臣、低能继承人和地方军权失控。
+        value_start: 天下统一依赖刘官章个人威望
+        value_end: 一院三司三省六部、中央枢密军政院、十二军区和太子册立完成
+        scene_tasks: 将故事最终动作落在制度下限建设上。
+        handoff: 争霸故事闭合，长期国家建设开启。
+        beat_direction: 从个人胜利到制度移交。
+        source_chapter: 第26期
+
+tension_curve:
+  description: "张力先从底层饥饿和兵灾起步，经地方豪强、益州汉中、荆州水战、江东饥荒、关中合法性、河北多线决战逐级抬升，最后转为制度和继承焦虑。"
+  peaks: [S04, S05, S06, S10, S12, S15, S17, S18, S19, S21]
+  valleys: [S02, S07, S13, S14, S16, S20]
+
+causal_chain: "S01 -> S02（因为体力求生没有上升空间，只能用识字入吏治） -> S03（因为基层身份挡不住乱世） -> S04（因此主角被推向公共领导） -> S05（因为有队伍就必须解决粮食和武器） -> S06（地方武装需要官方背书） -> S07（安汉要突破郡域限制） -> S08（益州内乱给出州级窗口） -> S09（益州之后必须拿汉中门户） -> S10（关中计划被破导致转向荆州） -> S11（荆州水军短板造成代价） -> S12（技术威慑补足破局能力） -> S13（西北风险被收编） -> S14（曹袁刘协变化使关中交易成立） -> S15（江东饥荒提供救民名分） -> S16（南方实力转成周公合法性） -> S17（河北门户由继承人打开） -> S18（大势力先经内部压力测试） -> S19（多线河北战役压垮旧诸侯） -> S20（旧汉政治和文化被安置） -> S21（最终以制度化闭合主控思想）。"

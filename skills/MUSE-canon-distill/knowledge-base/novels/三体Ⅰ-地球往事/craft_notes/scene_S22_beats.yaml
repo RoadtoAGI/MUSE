@@ -1,0 +1,35 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 笔录开场
+  dimension: overall
+  original_move: 用零情感容器的审讯笔录体承载冷血供述
+  ai_default_failure: 加昏暗灯光双手交叠等审讯室场景设置
+  transfer_rule: 人物无情时换文体本身无情，容器温度即人物温度
+  quote: 审问者：姓名？叶文洁：叶文洁。
+- pattern_id: S22-p2
+  beat: 谋杀计划
+  dimension: info_density
+  original_move: 谋杀写成接地电阻由0.6升到5欧姆的技术因果链
+  ai_default_failure: 填充心在颤抖父亲面容浮现的心理挣扎
+  transfer_rule: 让角色用其专业思维犯罪，技术细节即性格证据
+  quote: 接地电阻由0.6欧姆一下子上升到5欧姆
+- pattern_id: S22-p3
+  beat: 锯断绳索
+  dimension: omission
+  original_move: 双重谋杀压缩为掏出钢锯锯断绳索一个谓语
+  ai_default_failure: 展开坠落过程最后表情与环境恐怖渲染
+  transfer_rule: 极端行为可极端压缩，感受问题交一句冷答击碎
+  quote: 冷静、毫不动感情地做了
+- pattern_id: S22-p4
+  beat: 小溪变红
+  dimension: camera
+  original_move: 死亡只经惊叫坠声与溪水变红的间接感知抵达
+  ai_default_failure: 描写尸体鲜血碎骨与扭曲姿态
+  transfer_rule: 死亡可还原为一处液体颜色变化，间接比直写更不安
+  quote: 那条小溪变红了
+overall_traits:
+- 文体选择即人物塑造，直接更换容器
+- 犯罪与科研同一思维：精确、间接、用系统
+- 零暴力描写承载全书最冷血段落

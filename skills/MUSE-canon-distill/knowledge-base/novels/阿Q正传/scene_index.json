@@ -1,0 +1,427 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "等级秩序",
+      "暴力",
+      "身份剥夺"
+    ],
+    "characters": [
+      "阿Q",
+      "赵太爷",
+      "地保"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 473,
+    "source_chapter": "第一章 序",
+    "file": "scenes/scene_01.md",
+    "description": "赵太爷不许阿Q姓赵——等级秩序的暴力建立",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷静旁观夹直评，身份荒诞由众议收束",
+      "diction": "半文半白，礼法词和口语辱骂并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短促呵斥推进权力压制，对白稀而硬",
+      "pacing": "先铺传闻再骤然掌掴，结尾留讽刺空白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "精神胜利法",
+      "自欺",
+      "日常循环"
+    ],
+    "characters": [
+      "阿Q",
+      "闲人们"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 888,
+    "source_chapter": "第二章 优胜记略",
+    "file": "scenes/scene_02.md",
+    "description": "精神胜利法的系统展示——被打后'心满意足的得胜的走了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身剖开自欺逻辑，叙述者持续反讽",
+      "diction": "口语羞辱混入书面判断，关键词反复钉住",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "闲人挑衅和内心独白交替驱动",
+      "pacing": "挨打和转胜成循环，末句骤停成冷笑"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "暴力传递链",
+      "欺软怕硬",
+      "性冲动伏笔",
+      "看客"
+    ],
+    "characters": [
+      "阿Q",
+      "王胡",
+      "假洋鬼子",
+      "小尼姑"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 926,
+    "source_chapter": "第三章 续优胜记略",
+    "file": "scenes/scene_03.md",
+    "description": "连续被打后转向小尼姑报复——暴力传递链与'九分得意的笑'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴近阿Q心理，又让旁观笑声审判",
+      "diction": "粗口、旧礼套语和叙述冷语相互冲撞",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短句对白制造羞辱，众笑作合唱回应",
+      "pacing": "连败快速累积，欺弱处放慢并重复笑声"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "性冲动",
+      "经济剥夺",
+      "社会断裂"
+    ],
+    "characters": [
+      "阿Q",
+      "吴妈",
+      "赵秀才",
+      "地保"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 899,
+    "source_chapter": "第四章 恋爱的悲剧",
+    "file": "scenes/scene_04.md",
+    "description": "调戏吴妈——激励事件，打破生存平衡",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷眼记事件后果，欲念和惩罚并列呈现",
+      "diction": "家常闲话转粗直欲语，契约条款偏书面",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白突然爆裂，随后由条款叙述压过",
+      "pacing": "寂静后急打急罚，五条清单拖长惩戒"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "饥饿",
+      "底层竞争",
+      "龙虎斗",
+      "求食"
+    ],
+    "characters": [
+      "阿Q",
+      "小D",
+      "老尼姑"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 783,
+    "source_chapter": "第五章 生计问题",
+    "file": "scenes/scene_05.md",
+    "description": "生计断裂——龙虎斗与偷萝卜",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "从日常异样切入，贴身呈现饥饿迷惘",
+      "diction": "市井口语夹成语套话，饥饿写得平白",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "拒绝和互骂稀疏插入，叙述推进为主",
+      "pacing": "失业层层铺开，偷萝卜用追逐加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "中点反转",
+      "虚假上升",
+      "金钱与地位"
+    ],
+    "characters": [
+      "阿Q",
+      "酒店众人",
+      "王胡"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 582,
+    "source_chapter": "第六章 从中兴到末路",
+    "file": "scenes/scene_06.md",
+    "description": "中兴归来——携赃物返回未庄获得短暂地位",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "群体视角看身份翻转，叙述者夹古语讽刺",
+      "diction": "新旧身份词并列，俗语和文言成句混用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "阿Q炫耀式短语压场，听众反应补叙",
+      "pacing": "亮相慢写财物，杀头谈资突然提速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "权力与利益",
+      "虚假尊重",
+      "中兴崩塌前兆"
+    ],
+    "characters": [
+      "阿Q",
+      "赵太爷",
+      "赵秀才",
+      "赵太太",
+      "邹七嫂"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 666,
+    "source_chapter": "第六章 从中兴到末路",
+    "file": "scenes/scene_07.md",
+    "description": "赵家买赃物——权力向金钱暂时低头",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "以赵家算计为焦点，冷写体面交易",
+      "diction": "家族商议语和买卖客套语占主导",
+      "rhetoric_density": "low",
+      "dialogue_mode": "寒暄试探推动，语气客气而势利",
+      "pacing": "传闻入深闺后缓谈价，完了二字急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "革命幻想",
+      "独白",
+      "精神胜利法巅峰",
+      "内心世界"
+    ],
+    "characters": [
+      "阿Q"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 973,
+    "source_chapter": "第七章 革命",
+    "file": "scenes/scene_08.md",
+    "description": "土谷祠独白——革命幻想中分赃选女人，精神胜利法的巅峰",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "沉入醉后幻想，仍以旁观反讽校正",
+      "diction": "革命词被粗俗欲望吞并，器物名密集铺陈",
+      "rhetoric_density": "high",
+      "dialogue_mode": "独白和幻听主导，现实对白只作刺点",
+      "pacing": "街上喊叫快，庙内幻想长句奔涌"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "权力封锁",
+      "绝望",
+      "新旧权力排斥底层"
+    ],
+    "characters": [
+      "阿Q",
+      "假洋鬼子",
+      "赵白眼"
+    ],
+    "conflict_type": "personal",
+    "pov": "叙述者",
+    "word_count": 864,
+    "source_chapter": "第八章 不准革命",
+    "file": "scenes/scene_09.md",
+    "description": "假洋鬼子不准阿Q革命——最后一条上升通道被封死",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身写怯懦和幻灭，旁观权势姿态",
+      "diction": "洋词、官样姿态和底层吞吐口语并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "命令式驱逐压断请求，对白极短极硬",
+      "pacing": "入门观察缓，滚出去后迅速坠落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "旁观者",
+      "无法行动",
+      "命运锁定"
+    ],
+    "characters": [
+      "阿Q",
+      "小D"
+    ],
+    "conflict_type": "internal",
+    "pov": "叙述者",
+    "word_count": 778,
+    "source_chapter": "第八章 不准革命",
+    "file": "scenes/scene_10.md",
+    "description": "赵家被抢——阿Q旁观无份，'两只脚却没有动'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "醉眼把革命私有化，叙述冷看欲望暴露",
+      "diction": "兵器、财物、女人名目堆叠成粗俗清单",
+      "rhetoric_density": "high",
+      "dialogue_mode": "喊口号和幻想召唤交替，现实回应很少",
+      "pacing": "由街头高喊转入内心长串跳跃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "审讯",
+      "画押",
+      "奴隶性",
+      "精神胜利法"
+    ],
+    "characters": [
+      "阿Q",
+      "光头老头子",
+      "长衫人物"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 775,
+    "source_chapter": "第九章 大团圆",
+    "file": "scenes/scene_11.md",
+    "description": "审讯与画圆圈——签下死刑时仍在意面子",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷静贴身记录无知，司法荒诞由细节显形",
+      "diction": "衙门旧词和新式人物称谓混杂",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "审问极简，叙述放大身体和笔的陌生",
+      "pacing": "抓进抓出重复，画圈处慢到发抖"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "高潮",
+      "精神胜利法崩溃",
+      "看客",
+      "死亡",
+      "狼眼意象"
+    ],
+    "characters": [
+      "阿Q",
+      "围观群众",
+      "吴妈"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 1058,
+    "source_chapter": "第九章 大团圆",
+    "file": "scenes/scene_12.md",
+    "description": "游街与枪毙——精神胜利法最终崩溃，'救命'→'微尘似的迸散了'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴近临刑意识，群众目光被冷酷放大",
+      "diction": "白背心、洋炮等实物词压住恐惧",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对答，喝采和半句戏词刺穿叙述",
+      "pacing": "游街持续前行，意识旋涡后瞬间断裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "阿Q正传",
+    "author": "鲁迅",
+    "genre": "现实主义",
+    "lang": "zh",
+    "tags": [
+      "结局",
+      "反讽",
+      "社会照旧",
+      "看客"
+    ],
+    "characters": [
+      "未庄人",
+      "城里人",
+      "举人老爷",
+      "赵府"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 333,
+    "source_chapter": "第九章 大团圆",
+    "file": "scenes/scene_13.md",
+    "description": "结局——阿Q的死没有改变任何东西，'他们白跟一趟了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "转为舆论摘记，冷列各方损失和看法",
+      "diction": "官绅遗老词和看客俗语并列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "无直接对白，以集体议论替代个人声音",
+      "pacing": "两段概括迅速收尾，末句落在空耗感"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

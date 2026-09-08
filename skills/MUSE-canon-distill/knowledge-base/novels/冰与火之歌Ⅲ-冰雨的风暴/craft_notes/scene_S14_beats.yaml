@@ -1,0 +1,28 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 外围视角
+  dimension: camera
+  original_move: 让艾莉亚只见火光不见屠杀。
+  ai_default_failure: 会补全城内惨状。
+  transfer_rule: 大灾难可从被遮蔽者侧写。
+  quote: 帐篷倒塌
+- pattern_id: S14-p2
+  beat: 歌词穿插
+  dimension: info_density
+  original_move: 歌声证明屠杀仍在宴乐中进行。
+  ai_default_failure: 会把歌词当气氛装饰。
+  transfer_rule: 背景声可承担叙事证据。
+  quote: 汝何德何能
+- pattern_id: S14-p3
+  beat: 斧背击昏
+  dimension: verb
+  original_move: 保护以暴力形式完成。
+  ai_default_failure: 会让保护者解释善意。
+  transfer_rule: 黑暗导师的爱用动作而非表白。
+  quote: 斧背
+overall_traits:
+- 外视角承载内部灾难
+- 极致压缩情感密度
+- 双场景互补同一事件

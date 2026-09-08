@@ -1,0 +1,24 @@
+mode: reference
+display_name: 麦克白夫人
+role_slug: lady-macbeth
+source_novel: 麦克白
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S5.md
+  - scenes/scene_A1S6.md
+  - scenes/scene_A1S7.md
+  - scenes/scene_A2S2.md
+  - scenes/scene_A3S2.md
+  - scenes/scene_A3S4.md
+  - scenes/scene_A5S1.md
+  - scenes/scene_A5S7.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 16
+has_canon_ending: true
+coverage_note: |
+  覆盖 lady_macbeth 在场的全部主要场景：A1S5 / A1S6 / A1S7 / A2S2 / A3S1 (court 入场，
+  未单引) / A3S2 / A3S4 / A5S1。A5S7 仅以 Malcolm 间接报道（"亲手杀害了自己的生命"）
+  落入 canon-ending。声音框架的"韵文→散文"切换是 medium_grammar 特征——
+  跨媒介使用时（特别是小说）需 transform 为对等的"内心独白→破碎意识流"。

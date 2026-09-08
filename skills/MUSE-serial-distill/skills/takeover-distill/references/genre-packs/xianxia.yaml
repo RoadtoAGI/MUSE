@@ -1,0 +1,23 @@
+# 接管按目标原文选择适用分册；required 是类型默认提示，不为未涉及维度补册或造事实。
+# genre-pack: xianxia —— 修仙/玄幻底座（机器契约层）
+schema_version: 1
+substrate: xianxia
+display_name: 修仙/玄幻底座
+substrate_config_keys:
+  realm_lineage: [公版修仙, 自造玄幻, 序列制, 游戏面板]
+enum_extensions:
+  world_facts_kind: [duel]        # 对局记录（参战者/境界底牌/结果/胜因）；入账粒度判据测试态定标
+  milestone_kind: [境界突破, 功法习得, 法宝得失]
+  thread_kind: []
+  hook_type: []
+worldbook_sections:
+  - {section_id: power-system, template: xianxia/power-system.md, mutability: axiom, required: true}
+  - {section_id: price-anchors, template: xianxia/price-anchors.md, mutability: axiom, required: true}
+  - {section_id: sects-geography, template: xianxia/sects-geography.md, mutability: append, required: true}
+  - {section_id: timeline, template: generic/timeline.md, mutability: append, required: false}
+character_extensions:
+  realm: 境界（枚举挂靠 power-system 谱系表，非自由文本）
+  techniques: 功法/招式封闭清单（新增须带 acquired_at 章锚；首秀只提供已呈现的能力与边界）
+  possessions: 法宝/装备物权清单（易主/损毁走台账）
+  resources: 丹药/灵石等资源量级
+  bottleneck: 当前瓶颈与突破前置

@@ -1,0 +1,28 @@
+scene_id: S12
+source_notes: scene_S12_beats.md
+patterns:
+- pattern_id: S12-p1
+  beat: 大史的雪茄道具
+  dimension: camera
+  original_move: 致命方案用雪茄烟灰缸在桌面演示，三句话讲完即离场
+  ai_default_failure: 详细展开技术原理与将军们深思的反应
+  transfer_rule: 方案展示可借道具动作喜剧化，极简到令人窒息
+  quote: 完了，就这些
+- pattern_id: S12-p2
+  beat: 等待中的废话
+  dimension: omission
+  original_move: 距离播报与上校闲聊双轨交替，闲谈占满恐惧的位置
+  ai_default_failure: 每次播报后加心跳加速手心冒汗的心理活动
+  transfer_rule: 张力等待段可用无关闲谈填位，错位比直写恐惧更紧
+  quote: 目标距琴一公里！
+- pattern_id: S12-p3
+  beat: 纳米丝切割
+  dimension: verb
+  original_move: 巨轮解体写成几何事件，物理动词替暴力动词
+  ai_default_failure: 铺设多个死亡镜头渲染血肉与惨叫
+  transfer_rule: 大规模毁灭用远景物理过程呈现，死亡留一个近景点睛
+  quote: 像一叠被向前推开的扑克牌
+overall_traits:
+- 喜剧转恐怖转壮美三段变奏，无过渡说明
+- 远距离视角兼得技术壮美与道德缓冲
+- 给具体数字建立可信度，拒绝模糊形容

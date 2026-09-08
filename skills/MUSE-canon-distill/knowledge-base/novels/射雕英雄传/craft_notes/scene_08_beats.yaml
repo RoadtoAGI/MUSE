@@ -1,0 +1,42 @@
+scene_id: 08
+source_notes: scene_08_beats.md
+patterns:
+- pattern_id: 08-p1
+  beat: 水帘单向幕布
+  dimension: camera
+  original_move: 守方藏瀑布后全程隐形，镜头锁进攻方，只写被抛出的结果，身份悬置到揭晓点
+  ai_default_failure: 立即切主角视角写英勇退敌并报招式名，悬念喜剧双双归零
+  transfer_rule: 以寡敌众可倒置视点——跟攻方挨打，守方隐形，实力让读者从结果拼出
+  quote: 身不由主的摔出瀑布之外
+- pattern_id: 08-p2
+  beat: 杂兵差分淘汰
+  dimension: omission
+  original_move: 四名杂兵四种出局法（撞人/勾摔/抛过头顶/袈裟铜钹先飞），省掉重复过程
+  ai_default_failure: 流水账逐个对打，或一句话团灭毫无层次
+  transfer_rule: 写多个弱敌只写出局方式的差分，一人一个独特结果
+  quote: 突见黑黝黝的一个身影从头顶飞过
+- pattern_id: 08-p3
+  beat: 喜剧物证化
+  dimension: info_density
+  original_move: 笑点来自受害者台词与物件轨迹，每个笑点兼作战报
+  ai_default_failure: 主角边打边抖机灵，或叙述者直接定性「滑稽」
+  transfer_rule: 危局喜剧从挨打方嘴里和飞出的物件上长出来，同一动作兼报战况上紧张发条
+  quote: 我屁股给摔成四块啦
+- pattern_id: 08-p4
+  beat: 宫卫作时钟
+  dimension: omission
+  original_move: 宫卫只以光声群像出现，高手随抓随掷批量处理，黄蓉反引宫卫为己方武器
+  ai_default_failure: 给杂兵安排招式逐个写倒，或宫卫纯背景失去压力功能
+  transfer_rule: 海量弱敌写成压双方的倒计时，可被借力使用，永不进招式层
+  quote: 竟没有一个卫士进得了洞
+- pattern_id: 08-p5
+  beat: 静止高潮
+  dimension: verb
+  original_move: 巅峰对掌写成全然静止，时间交给旁观者主观感受拉长，致命伤来自最弱的杨康一刀
+  ai_default_failure: 高潮堆内力玄学对轰，致命一击必出自最强反派
+  transfer_rule: 力量顶点用静止呈现，旁观者计时；让最弱者趁僵局补致命一击
+  quote: 突然间变得两具僵尸相似
+overall_traits:
+- 瀑布兼幕布、武器、声学掩体，轻功踩实具体构件
+- 喜剧、紧张、讽刺分层叠放，同一动作跨层生效
+- 以寡敌众靠结果差分不靠过程铺陈

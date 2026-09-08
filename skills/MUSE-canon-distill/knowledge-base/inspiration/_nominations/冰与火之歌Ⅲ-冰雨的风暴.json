@@ -1,0 +1,133 @@
+{
+  "novel": "冰与火之歌Ⅲ-冰雨的风暴",
+  "nominations": [
+    {
+      "pattern_name": "婚礼反容器",
+      "dramatic_function": "把和平仪式反转为暴力机关，制造规则被践踏的背叛感。",
+      "applicability": "适合有强礼俗保护的世界；若礼俗未先建立则失效。",
+      "reuse_candidates": [
+        "佛雷家族",
+        "卡斯特梅的雨季",
+        "维斯特洛宾客权"
+      ],
+      "tags": [
+        "仪式反转",
+        "背叛",
+        "礼俗破坏"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S13",
+          "note": "婚宴乐声和宾客权被转成屠杀机制。"
+        },
+        {
+          "scene_id": "S16",
+          "note": "王室婚宴在公开羞辱后变成毒杀现场。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "小视角巨灾",
+      "dramatic_function": "用局部感官限制呈现宏大灾难，让读者自行补全全局。",
+      "applicability": "适合群像或战争场景；若POV无强欲望牵引则会散。",
+      "reuse_candidates": [
+        "齐特",
+        "艾莉亚城外",
+        "琼恩长城线"
+      ],
+      "tags": [
+        "限知视角",
+        "战争",
+        "省略"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S01",
+          "note": "文明级异鬼威胁先被叛徒私欲误读。"
+        },
+        {
+          "scene_id": "S14",
+          "note": "红色婚礼外围只见火光和歌声。"
+        },
+        {
+          "scene_id": "S26",
+          "note": "琼恩被困旁观三路合围。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "物证式忠诚",
+      "dramatic_function": "让忠诚、背叛或权力转移落在不可逆物件上。",
+      "applicability": "适合黑帮、佣兵、宫廷权谋；若物件无后果则空洞。",
+      "reuse_candidates": [
+        "两颗佣兵头颅",
+        "金手项链",
+        "龙骨鞭"
+      ],
+      "tags": [
+        "物件",
+        "权力转移",
+        "背叛"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "锁链与鞭子的交换制造翻盘支点。"
+        },
+        {
+          "scene_id": "S20",
+          "note": "金手项链由权力象征转为凶器。"
+        },
+        {
+          "scene_id": "S25",
+          "note": "达里奥用人头证明已无法回头。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "永不执行计划",
+      "dramatic_function": "先证明角色有胜利路径，再用制度性背叛碾碎它。",
+      "applicability": "适合悲剧和政治线；若计划本身不聪明则削弱痛感。",
+      "reuse_candidates": [
+        "卡林湾",
+        "孪河城",
+        "罗柏北境继承令"
+      ],
+      "tags": [
+        "悲剧结构",
+        "战略留白",
+        "政治背叛"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S24",
+          "note": "罗柏的北征方案只保留为承诺。"
+        },
+        {
+          "scene_id": "S13",
+          "note": "红色婚礼让所有战略可能归零。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

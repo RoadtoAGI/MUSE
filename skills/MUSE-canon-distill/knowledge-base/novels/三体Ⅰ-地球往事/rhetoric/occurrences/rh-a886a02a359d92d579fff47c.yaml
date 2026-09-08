@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a886a02a359d92d579fff47c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1509
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 冯·诺伊曼胸有成竹地命令道
+sensory_mapping: 视觉成图；身体内部空间；落笔动作；从容节奏
+context_fact: 首次启动刚因门电路错误锁死，他立即命令热启动，尚未预料牛顿会提议处死故障士兵。
+image_mechanism: 尚未执行的恢复过程先在胸中显成完整图样，口令只是把内部成图逐笔投到现实；系统突停因此没有打断他的节奏。
+property_alignment: 掌握故障处置对应胸中已有竹形；命令步骤明确对应画竹次序确定；态度镇定对应落笔不迟疑
+context_alignment: 冯·诺伊曼作为系统设计者对技术重启有把握，但人命被当部件处理超出这张技术图，紧接着的厌恶构成界限。
+narrative_function: 刻画工程师对故障恢复的自信，并为牛顿的残酷“维修”制造伦理突转。
+transfer_rule: 使用胸有成竹时，应让人物确有预演完整方案、能立即给出步骤，并在行动中表现低犹豫。
+failure_boundary: 人物只有乐观直觉、方案仍缺关键环节或随后完全手足无措时，该成语会把虚张声势误写成准备充分。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 冯·诺伊曼确信自己已掌握系统故障后的恢复方案
+vehicle: 画家落笔前胸中已有完整竹子形象，可按成图从容画出
+ground: 解决步骤事先明确对应竹图已在心中成形；下令镇定对应画家照既定形象落笔不犹豫

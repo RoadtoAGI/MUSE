@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0cbfa25fafda961fcbaeb5e3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L594
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 这是一种自我保护的精神外壳，使他们避免最后的崩溃
+sensory_mapping: 触觉；硬度；内外空间；撞击；心理
+context_fact: 部分知识分子在长期批斗后进入半睡眠状态并机械认罪。
+image_mechanism: 意识分成脆弱内核和外部壳层，麻木不再是空白，而是一层主动承受恫吓的硬质隔膜；冲击停在壳上，内部暂时存活。
+property_alignment: 麻木隔绝痛苦对应外壳阻断接触；防御由自身形成对应生物长出壳层；人格暂免瓦解对应内核在壳内不被撞碎
+context_alignment: 反复身体和语言打击要求一种能承压、隔离且代价是感受迟钝的结构，外壳三项均具。
+narrative_function: 解释受害者麻木的生存功能，为更深层思想摧毁分阶段。
+transfer_rule: 用壳写心理防御时，应说明壳挡住哪种冲击、保护哪个内核，以及隔绝感受所付出的反应迟钝代价。
+failure_boundary: 人物真正认同施暴者、主动冷静或已经全面崩溃时，外壳分别会误写信念、意志和残存内核。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 受害者在持续打击下形成的麻木心理防御
+vehicle: 包裹脆弱内核、替它承受外部撞击的坚硬外壳
+ground: 麻木隔绝痛苦对应外壳阻断接触；防御由自身形成对应生物长出壳层；人格暂免瓦解对应内核在壳内不被撞碎

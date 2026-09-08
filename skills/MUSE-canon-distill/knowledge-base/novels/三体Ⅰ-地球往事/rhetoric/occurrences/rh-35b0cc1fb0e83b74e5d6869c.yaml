@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-35b0cc1fb0e83b74e5d6869c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L540
+chapter: 第5章 叶文洁
+figure_type: metaphor
+quote: 那些东西一崩溃，就没有什么能支撑她活下去了
+sensory_mapping: 结构；重量；坍塌；心理
+context_fact: 叶文洁反思女儿单纯理论世界。
+image_mechanism: “世界”继承上一句搭房子的建筑形态，纯理论成为唯一承重件；它断裂时，没有第二道梁柱接力，生命整体随之下落。
+property_alignment: 理论承担全部意义对应支柱承重；实验摧毁信念对应支撑崩塌；自杀对应整体失去承托
+context_alignment: 巴赫建筑意象紧邻在前，使支撑不是临时套语。
+narrative_function: 说明单一价值系统的脆弱。
+transfer_rule: 写精神支撑时，应先交代承重结构是否单一、负载是什么、失效后有没有冗余，才能让坍塌具因果性。
+failure_boundary: 人物还有亲情、责任或其他价值支柱时，宣称“没有什么支撑”可能是人物判断而非完整事实，不能外推。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬以理论物理作为唯一意义来源的生命结构
+vehicle: 由单一支柱承重、支柱倒塌后整体坠毁的建筑
+ground: 理论承担全部意义对应支柱承重；实验摧毁信念对应支撑崩塌；自杀对应整体失去承托

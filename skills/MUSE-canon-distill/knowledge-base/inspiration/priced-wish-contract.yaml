@@ -1,0 +1,24 @@
+card_id: priced-wish-contract
+pattern_name: 愿望有价契约
+dramatic_function: 把梦想实现写成不可逆交易，让每次接近目标都持续付费。
+applicability: 适合跨阶层、身份伪装、魔法交易；若代价可撤销则减弱（单书孤证，验证面窄）
+reuse_candidates:
+- 海巫婆药水
+- 割舌换腿
+- 黎明泡沫
+tags:
+- 契约
+- 不可逆
+- 身体代价
+- 愿望反噬
+source_scenes:
+- novel: 海的女儿
+  scene_id: S03
+  note: 巫婆逐条说明失声、疼痛、不能回海底和失败即死。
+- novel: 海的女儿
+  scene_id: S04
+  note: 她获得人形后每一步都像踩在刀刃上。
+phase_affinity:
+- 1
+- 3
+- 5

@@ -1,0 +1,25 @@
+mode: reference
+display_name: 亦凡
+role_slug: yifan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/不详/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 arc_5（沈曾祺小队覆灭受害端 / 亦凡剖腹助王晨轩逃）+ theme_hooks（反英雄自毁 / 牺牲谱系）
+  - scenes/scene_BX-S04.md
+  - scenes/scene_BX-S08.md
+built_at: 2026-05-29T20:10:00+08:00
+skill_version: 1
+locator_count: 4
+has_canon_ending: true
+coverage_note: |
+  信息密度中（"可做"级配角），取证集中在 S04（小队夜话：高三身世 + 最血腥见闻 + 尴尬认错）与 S08（终局牺牲，王晨轩转述）。
+  声音框架跨 S04（讨好赔笑）/ S08（临终担当）两场，呈"少年气褪去"的成长落差形态，但样本量小（仅 2 处直接引语）——单点偏单薄，已在弧光与性格真相段交叉支撑。
+  核心欲望 / 性格真相的"压力下暴露真相"集中在 S08 终局一场（剖腹助逃 + 遗言），属"极端检验场景"但跨场景数有限；
+  日常面（讨好认错 S04:L57）与终局面（牺牲 S08:L29/L31）对照构成裂隙，符合软建议"有压力情境暴露真相的场景"。
+  边界 3 条各带 locator（长辈面前不犟嘴 S04:L57 / 死局不只顾自己逃 S08:L29 / 临终不把恐惧甩给被救者 S08:L31），
+    其中两条来自终局同一段转述（S08:L29 / S08:L31）——单场支撑，因这正是该角色否定空间唯一的极端检验点。
+  弧光起点 + 转折 + 终点齐全（被照看的少年 → 担当者，转折点 = 死局中拔刀助王晨轩逃 S08:L29）。
+  has_canon_ending: true —— 亦凡被小林插刀、又遭剖腹，拔刀助王晨轩逃离后在感染者逼近中死去（S08:L29-L31），
+    经王晨轩转述，属不可逆物理终局，已回 scene 原文核对；其内在弧光（成人礼式牺牲）在 S08 同时收束，
+    物理死亡隔离到 references/canon-ending.md，不进人格本体。
+  亦凡为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/不详/phase3_spine.yaml 推导。

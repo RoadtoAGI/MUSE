@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0e91146bbd180736a19f0ae2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L270
+chapter: 第3章 射手和农场主
+figure_type: simile
+quote: 像抓着一团纠缠在一起的蛇，又像一团难以挣脱的绞索
+sensory_mapping: 触觉；视觉；束缚；威胁
+context_fact: 不同相机证明倒计时只针对汪淼，胶卷成为无法否认的证据。
+image_mechanism: 手中真实卷曲物先按形状变成蛇群，再按人与异常的关系变成绞索；一个喻体负责活物威胁，另一个负责不可脱身。
+property_alignment: 卷曲胶片形态对应蛇身和绳圈；倒计时主动威胁对应蛇可能噬咬；多次验证仍无法摆脱对应绞索收紧
+context_alignment: 胶片可触摸的缠结让两种喻体都从现场物性生长，而非空泛说害怕。
+narrative_function: 把实验结论转成被活物缠绕和被套索困住的绝望。
+transfer_rule: 并列双喻体时，应让每个喻体承担不同缺口：一个解释外形或动作，另一个解释关系后果，避免同义堆叠。
+failure_boundary: 若对象不卷曲，或困境可以轻易解除，蛇与绞索分别失去形态和不可脱身依据。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 记录倒计时且缠在手中的胶卷
+vehicle: 纠缠蛇群与越挣扎越难脱的绞索
+ground: 卷曲胶片形态对应蛇身和绳圈；倒计时主动威胁对应蛇可能噬咬；多次验证仍无法摆脱对应绞索收紧

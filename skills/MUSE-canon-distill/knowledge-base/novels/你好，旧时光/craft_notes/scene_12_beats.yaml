@@ -1,0 +1,14 @@
+scene_id: '12'
+source_notes: scene_12_beats.md
+patterns:
+- pattern_id: 12-p1
+  beat: 走廊对峙
+  dimension: omission
+  original_move: 让真正想问的问题沉在旁白里
+  ai_default_failure: 会让重逢双方把委屈说透
+  transfer_rule: 写重逢可用攻防替代温情拥抱
+  quote: 尾音处轻轻地颤抖
+overall_traits:
+- 仪式性行为建立同盟
+- 重逢写成对抗而非温情
+- 第三者视角完成定性

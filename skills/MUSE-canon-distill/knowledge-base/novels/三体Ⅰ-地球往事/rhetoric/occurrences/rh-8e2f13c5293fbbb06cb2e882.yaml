@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8e2f13c5293fbbb06cb2e882
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2663
+chapter: 第35章 虫子
+figure_type: analogy
+quote: 能为士兵造出更好的刀啊剑啊长矛啊，甚至还有可能造出像机关枪那样连发的弓箭
+sensory_mapping: 刀剑锋刃；弓箭连射；机关枪火力；古今战场；技术鸿沟
+context_fact: 大史追问科学锁死是否意味着人类什么都做不了，丁仪说明应用技术还能发展但总体仍属原始时代。
+image_mechanism: 未来人类被放进古代兵工坊，工匠可把弓弦、箭匣和射速推到惊人程度，外观功能近似机枪，却永远摸不到火药、弹道和工业体系的另一套底层。
+property_alignment: 现有科学框架对应冷兵器范式；工程优化对应刀剑变好；高端应用对应连发弓；三体技术对应机关枪；基础理论缺失对应不会火药枪械；战争劣势对应古军面对现代火力
+context_alignment: 这一直观历史差距让醉中的两位科学家更绝望，也为大史随后用虫子反驳技术差即必败铺垫。
+narrative_function: 区分应用改进与基础范式突破，量化人类被锁死后的技术上限。
+transfer_rule: 用旧式武器类比受限技术时，应分别对应范式内优化、功能逼近、底层原理缺失和面对高代技术的后果。
+failure_boundary: 若所谓连发弓的改进最终自然产生枪械原理，或新范式可由工程堆叠直接跨越，该鸿沟模型会过度绝对化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 基础理论被锁死后，人类仍能在既有技术范式内改良武器，却无法跨越到三体文明的技术层级
+vehicle: 古代王国不断改进冷兵器，甚至把弓箭做到机关枪般连发，却始终没有真正掌握现代枪械原理
+ground: 既有物理内工程改良对应冷兵器优化；高速连发弓对应逼近现代功能的极致旧技术；无法发明枪对应范式跃迁被封

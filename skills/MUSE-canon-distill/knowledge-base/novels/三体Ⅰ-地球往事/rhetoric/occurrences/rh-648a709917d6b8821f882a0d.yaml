@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-648a709917d6b8821f882a0d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1323
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 名利于我连浮云都算不上
+sensory_mapping: 视觉；重量；漂移；时间消散
+context_fact: 魏成在学业和职业上都不珍惜成就，想进寺庙清静混完一生。
+image_mechanism: 通常被人紧抓的名利先被抬到天空减去重量，再被风吹离视线；“连……都算不上”进一步把它压到比云更无足轻重。
+property_alignment: 不重视名利对应云无重量；不愿追逐对应云在高处不可握；成就得失很快放下对应云散不留痕
+context_alignment: “浮云”来自传统出世语汇，寺院和长老语境自然；魏成的夸张自评又为长老指出他尚未真正“空”留出余地。
+narrative_function: 用极轻尺度刻画魏成的消极超脱，并与后来对三体问题的重度投入形成反差。
+transfer_rule: 用浮云写轻视对象时，应同时对应重量、可抓取性和留存时间，并以人物实际放弃行为支撑。
+failure_boundary: 人物口头轻视却持续追逐名利，或对象对其决策有长期重量时，浮云只会成为自我美化。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 魏成自认对社会名望和利益毫无留恋与追求
+vehicle: 漂浮天际、没有重量且转眼散去的云
+ground: 名利在他心中无分量对应浮云轻；名利不能使他持续关注对应云随风飘散不留

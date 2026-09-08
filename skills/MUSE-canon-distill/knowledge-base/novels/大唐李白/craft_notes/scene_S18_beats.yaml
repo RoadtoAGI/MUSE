@@ -1,0 +1,14 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 三刀
+  dimension: omission
+  original_move: 三次不落刀制造宿命式延宕
+  ai_default_failure: 把复仇写成犹豫后决断
+  transfer_rule: 无法执行的决断可用重复结构写
+  quote: 任长史自择
+overall_traits:
+- 延宕本身成为叙事
+- 行走容纳无法言说的冲突
+- 死因模糊化保留道德灰区

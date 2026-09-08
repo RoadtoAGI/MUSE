@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e720b89fc16a95790bb06180
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L115
+chapter: 第1章 科学边界
+figure_type: metaphor
+quote: 都是天马行空的纯理论
+sensory_mapping: 运动；空间；自由
+context_fact: 汪淼说明此前交流只涉及终极纯理论。
+image_mechanism: 理论思路离开地面道路，变成天马在无边空域自由转向；“空中”同时表示尺度开放和缺少现实落点。
+property_alignment: 思路不受现实用途约束对应马离开地面道路；讨论跨度广且转向自由对应天马在空中任意驰骋
+context_alignment: 熟语快速标示话题自由却缺少落地联系。
+narrative_function: 为他后来发现组织与现实关系复杂制造反差。
+transfer_rule: 写思想自由度时，喻体要同时说明摆脱了哪些约束、获得怎样的运动范围，以及是否付出不落地的代价。
+failure_boundary: 严密受实验约束或立即服务工程的问题没有任意驰骋空间；泛称创意都会使熟语失去判断力。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 科学边界讨论脱离现实约束、自由驰骋的理论话题
+vehicle: 天马在天空无道路限制地奔行
+ground: 思路不受现实用途约束对应马离开地面道路；讨论跨度广且转向自由对应天马在空中任意驰骋

@@ -1,0 +1,38 @@
+card_id: same-origin-mirror-figure
+pattern_name: 同源镜像·主题人格化
+dramatic_function: 把主题辩题人格化为同源异路的镜像人物：同一起点在对立环境或价值取向下走向两端，对比贯穿全书，论证免于说教
+applicability: 适用于主题驱动的成长或悲剧叙事；镜像方须与主角共享出身或核心欲望且戏份立得住；沦为反面工具人即失效
+reuse_candidates:
+- 靖康之耻的命名梗与宋金蒙具体史局
+- 认贼作父的王府养子设定
+- 比武招亲式的相遇桥段
+- 「问世间情是何物」主题曲
+- 情花自焚的具体死法
+- 古墓同门的师承设定
+tags:
+- 镜像人物
+- 双主线
+- 身份认同
+- 成长
+- 镜像反派
+- 因爱生恨
+- 主题闭环
+source_scenes:
+- novel: 射雕英雄传
+  scene_id: S04
+  note: 杨康在生父与养父之间「踌躇难决」，镜像线的核心病灶
+- novel: 射雕英雄传
+  scene_id: S13
+  note: 李萍自刎令郭靖的身份认同完成不可逆转变
+- novel: 射雕英雄传
+  scene_id: S26
+  note: 郭杨灵前结义，两条线短暂交汇随即再分岔
+- novel: 神雕侠侣
+  scene_id: S01
+  note: 开篇以词境之美对位灭门之残，立起因情成魔的反面
+- novel: 神雕侠侣
+  scene_id: S21
+  note: 烈火中唱情为何物，主题歌在毁灭处闭环且未唱完
+phase_affinity:
+- 2
+- 3

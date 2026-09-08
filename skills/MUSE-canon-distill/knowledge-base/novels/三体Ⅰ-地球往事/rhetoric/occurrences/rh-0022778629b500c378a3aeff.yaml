@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0022778629b500c378a3aeff
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2229
+chapter: 第31章 两个质子
+figure_type: metaphor
+quote: 有多达八个维度被禁锢在微观中
+sensory_mapping: 牢笼封锁；空间压缩；囚禁；解锁展开；内外边界
+context_fact: 丁仪用过滤材料解释微小高维结构可容纳巨量低维面积，转向十一维粒子概念。
+image_mechanism: 空间维度从抽象坐标变成被宇宙关进粒子牢房的力量，宏观三维是牢外世界；高等文明的能力就在于打开牢门让其展开。
+property_alignment: 额外维度对应囚犯；基本粒子对应牢房；卷曲尺度小对应牢笼狭窄；宏观缺失对应不能出狱；高维展开对应释放；人类技术不足对应无钥匙
+context_alignment: 后文智子制造正是逐维展开被禁锢结构，囚禁意象把理论说明转成可期待的释放动作。
+narrative_function: 解释高维为何存在却不可见，并为质子展开工程建立动态词汇。
+transfer_rule: 用禁锢写潜在结构时，应说明关押位置、受限方式、外界不可见后果和可能的释放手段。
+failure_boundary: 额外维度并非独立实体、也不必然能自由展开；若把囚犯意志和能动性字面化，隐喻会误导物理本体。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 额外空间维度只在基本粒子等微观尺度卷曲存在，宏观世界无法直接进入或观察
+vehicle: 八个有活动潜力的存在被锁入狭小牢笼，失去在外部世界展开的自由
+ground: 维度卷缩对应被关押；微观尺度对应牢笼；宏观不可见对应囚犯不能外出；技术展开对应解禁释放

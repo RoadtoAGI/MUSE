@@ -1,0 +1,28 @@
+scene_id: S04
+source_notes: scene_S04_beats.md
+patterns:
+- pattern_id: S04-p1
+  beat: 咬腕喂血
+  dimension: verb
+  original_move: 动词由硬转软映射自伤到给予，全程无情感标注
+  ai_default_failure: 行动前插内心犹豫或决心独白
+  transfer_rule: 至情时刻让行动先于思考，删情感注脚
+  quote: 看准了腕上筋脉，狠命咬落
+- pattern_id: S04-p2
+  beat: 断龙石与二尺空隙
+  dimension: camera
+  original_move: 生死抉择只给身体不给脸，二尺空隙即决定时间
+  ai_default_failure: 写一段活与死之间的天人交战
+  transfer_rule: 决定早已做完时，叙述只展示告别与动作
+  quote: 身子如箭一般从这二尺空隙中窜了进去
+- pattern_id: S04-p3
+  beat: 石棺同卧
+  dimension: omission
+  original_move: 不解释不敢碰的原因，手臂位置写情感距离
+  ai_default_failure: 替角色选定一个理由明白写出
+  transfer_rule: 关系中间态留白，让细节可多重解读
+  quote: 两条手臂伸直了，规规矩矩的放在大腿之上
+overall_traits:
+- 身体叙事：能用行动写的绝不用语言
+- 物理数据作情感强度的度量单位
+- 绝望底部以好奇心触发希望链

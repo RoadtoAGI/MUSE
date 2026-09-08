@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b1995d4a9e3c7423e07a2870
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L900
+chapter: 第11章 大史
+figure_type: simile
+quote: 大史像吃面条似的吞下半盘爆肚
+sensory_mapping: 视觉；口腔动作；速度；食物形态
+context_fact: 汪淼刚倾诉三天恐怖经历，大史边吃边以粗粝口吻回应。
+image_mechanism: 需要咀嚼的爆肚在大史嘴边被降格为柔软长面，他的吞咽动作拉成连续进料；食量和速度同时可见。
+property_alignment: 爆肚条状对应面条长条；快速连续入口对应吃面不逐块停顿；半盘迅速消失对应面条可成束吞食
+context_alignment: 爆肚的条片外形提供真实视觉相似，大史粗豪吃相又与汪淼的宇宙恐惧形成喜剧反差。
+narrative_function: 用日常粗俗动作切断崇高恐怖，建立大史的稳定现实感。
+transfer_rule: 写夸张吃相时，应从食物形态和口腔动作选择另一食物，而非只比较食量；动作速度需由现场结果验证。
+failure_boundary: 食物块大坚硬、人物细嚼慢咽或只是食量多时，吃面动作会误写吞咽方式。
+quality_assessment: functional
+confidence: 0.98
+review_status: reviewed
+tenor: 大史几乎不咀嚼、快速吞下大量条状爆肚的吃相
+vehicle: 把柔软面条连续送入口中并顺势吞咽
+ground: 爆肚条状对应面条长条；快速连续入口对应吃面不逐块停顿；半盘迅速消失对应面条可成束吞食

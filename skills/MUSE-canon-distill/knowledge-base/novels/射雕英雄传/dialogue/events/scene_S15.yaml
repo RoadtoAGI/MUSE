@@ -1,0 +1,102 @@
+schema_version: dialogue-scene-events/v1
+work_id: novel:射雕英雄传
+scene_id: S15
+scene_file: scenes/scene_15.md
+events:
+  - event_id: novel:射雕英雄传:S15:e01
+    event_type: interaction
+    context:
+      relationship: former_ruler_and_subject
+      power: ruler_over_subject_with_moral_reversal
+      intimacy: long_shared_history
+      face_condition: private
+      pressure: final_confrontation
+      shared_context: 两人都知道征战功业及李萍之死
+      immediate_stakes: 郭靖要迫使成吉思汗重新判断一生功业
+    participants:
+      - character_id: novel:射雕英雄传:genghis-khan
+        display_name: 成吉思汗
+        position: challenged_ruler
+        knowledge_boundary: 他以疆域和战功定义英雄
+      - character_id: novel:射雕英雄传:guo-jing
+        display_name: 郭靖
+        position: moral_challenger
+        knowledge_boundary: 他亲历蒙古征服后的伤亡，也承认对方的养育之恩
+    turns:
+      - turn_id: t01
+        speaker_id: novel:射雕英雄传:genghis-khan
+        speaker_label: 成吉思汗
+        addressee_ids: [novel:射雕英雄传:guo-jing]
+        response_to: null
+        source_locator: scenes/scene_15.md:L6
+        text: 你说甚么？
+        speech_action: challenge
+        cooperation: hostile
+        oral_forms: [short_question]
+        capacity: agitated
+      - turn_id: t02
+        speaker_id: novel:射雕英雄传:guo-jing
+        speaker_label: 郭靖
+        addressee_ids: [novel:射雕英雄传:genghis-khan]
+        response_to: t01
+        source_locator: scenes/scene_15.md:L6
+        text: "大汗，你养我教我，逼死我母，这些私人恩怨，此刻也不必说了。我只想问你一句：人死之后，葬在地下，占得多少土地？"
+        speech_action: bracket_debt_and_cross_examine
+        cooperation: confrontational
+        oral_forms: [address_fronting, question_reframe]
+        capacity: deliberate
+      - turn_id: t03
+        speaker_id: novel:射雕英雄传:genghis-khan
+        speaker_label: 成吉思汗
+        addressee_ids: [novel:射雕英雄传:guo-jing]
+        response_to: t02
+        source_locator: scenes/scene_15.md:L6
+        text: 那也不过这般大小。
+        speech_action: answer_under_frame
+        cooperation: constrained
+        oral_forms: [deictic_reference, omitted_measure]
+        capacity: unsettled
+      - turn_id: t04
+        speaker_id: novel:射雕英雄传:guo-jing
+        speaker_label: 郭靖
+        addressee_ids: [novel:射雕英雄传:genghis-khan]
+        response_to: t03
+        source_locator: scenes/scene_15.md:L6
+        text: 是啊，那你杀这么多人，流这么多血，占了这么多国土，到头来又有何用？
+        speech_action: expose_contradiction
+        cooperation: adversarial
+        oral_forms: [answer_pickup, parallel_accumulation]
+        capacity: deliberate
+      - turn_id: t05
+        speaker_id: novel:射雕英雄传:genghis-khan
+        speaker_label: 成吉思汗
+        addressee_ids: [novel:射雕英雄传:guo-jing]
+        response_to: t04
+        source_locator: scenes/scene_15.md:L7
+        text: 难道我一生就没做过甚么好事？
+        speech_action: seek_moral_exception
+        cooperation: defensive
+        oral_forms: [rhetorical_question]
+        capacity: destabilized
+      - turn_id: t06
+        speaker_id: novel:射雕英雄传:guo-jing
+        speaker_label: 郭靖
+        addressee_ids: [novel:射雕英雄传:genghis-khan]
+        response_to: t05
+        source_locator: scenes/scene_15.md:L7
+        text: 好事自然是有，而且也很大，只是你南征西伐，积尸如山，那功罪是非，可就难说得很了。
+        speech_action: concede_then_condemn
+        cooperation: limited_concession
+        oral_forms: [concession_turn, delayed_judgment]
+        capacity: deliberate
+    outcome:
+      control_shift: subject_controls_moral_frame
+      relationship_cost: extreme
+      visible_result: 成吉思汗无法反驳并重新审视一生功业
+    transferable_mechanism: 弱势者先承认私人债务，再用对方亲口承认的短答案反转评价尺度；长句因有现场攻防功能而成立。
+    annotation:
+      extractor: dialogue-kb-distill
+      confidence: 0.99
+      review_status: source_checked
+      source_file: scenes/scene_15.md
+      source_sha256: 0311f3ad4e003db0d02ed31fd402a798d4aab12a8f04b1e568337a1d677fb72d

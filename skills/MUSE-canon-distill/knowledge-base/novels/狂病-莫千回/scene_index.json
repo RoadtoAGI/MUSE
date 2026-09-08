@@ -1,0 +1,5186 @@
+[
+  {
+    "scene_id": "XX-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "日记体",
+      "爆发首日",
+      "时间锚点",
+      "校园",
+      "铺垫",
+      "病征教学"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "狗子",
+      "秦胜哥"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "「我」日记体第一人称",
+    "word_count": 907,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S01.md",
+    "description": "2023-4-16 阴天逃课回宿舍睡回笼觉 + 路上消防车警车 + 狗子听声辨车 + 课间被叫回 —— 末日前最松弛日常，日常惰性（懒得交电费）埋成致命伏笔，回溯语气先剧透「悔之晚矣」",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "日记体第一人称，事后补入悔意",
+      "diction": "校园口语夹网络闲谈，句式平直",
+      "rhetoric_density": "low",
+      "dialogue_mode": "叙述转述为主，对白只点性格",
+      "pacing": "日常铺垫慢，末句留祸根"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "狂笑病征",
+      "误读为打闹",
+      "暴力省略"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "狗子",
+      "秦胜哥",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "「我」",
+    "word_count": 430,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S02.md",
+    "description": "睡回笼觉被窗外嚎叫惊醒 + 拉窗帘见狂笑学生追打砸头 —— 激励事件，狂笑病征用「先误读打闹、后确认屠杀」教学给读者，砸头过程用「移开视线」省略",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称目击，惊恐压住解释",
+      "diction": "宿舍口语混入暴力直描",
+      "rhetoric_density": "low",
+      "dialogue_mode": "行动推进，几乎无完整对白",
+      "pacing": "短场景快速转折，停在行动前"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "困局成形",
+      "拦阻者",
+      "镜像预演",
+      "对面宿舍楼",
+      "辱骂挑衅"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "狗子",
+      "秦胜哥",
+      "门外感染者",
+      "对面楼感染者"
+    ],
+    "conflict_type": "external+interpersonal+internal",
+    "pov": "「我」",
+    "word_count": 1397,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S03.md",
+    "description": "开门见狂笑同学扑来 + 「我」拦门 + 对面楼扔人 / 拽断胳膊（镜像预演本楼命运）+ 拉住要找女友的秦胜哥 + 决定去隔壁充电联系外界 —— 「我」拦阻者功能确立，第一个逃生方案诞生",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身第一人称，边看边判断",
+      "diction": "粗口和生理词直接压迫",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "转述争执，角色反应显性",
+      "pacing": "连续灾像堆叠，决策后留白"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "痛觉缺失",
+      "装狂笑失败",
+      "拟态",
+      "智取钥匙",
+      "倒叙锚"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "狗子",
+      "秦胜哥",
+      "楼道感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "「我」",
+    "word_count": 1698,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S04.md",
+    "description": "4/17 倒叙昨天出门：装狂笑混入失败被扑 + 钝器对痛觉缺失者无效（除非一击毙命）+ 「我」难下杀手本能 + 社长跳起取钥匙堵门 —— 痛觉缺失 lore 首次实战验证，拟态骗不过感染者",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "日记回述，事后归纳生存规则",
+      "diction": "动作词密集，夹宿舍俗语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "喊话转述推动逃生协作",
+      "pacing": "战斗长句推进，结尾骤然松弛"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "咬伤感染",
+      "绑椅隔离",
+      "家人电话",
+      "遗言",
+      "报警占线",
+      "公权力坍塌"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "狗子",
+      "秦胜哥",
+      "「我」母亲（电话）",
+      "社长父亲（电话）"
+    ],
+    "conflict_type": "interpersonal+internal+external",
+    "pov": "「我」",
+    "word_count": 733,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S05.md",
+    "description": "发现狗子胳膊被咬穿 + 绑椅隔离 + 「我」家人安全 vs 社长听到父亲虚弱遗言后狂笑断线 + 报警占线 —— 感染风险落到具体舍友，末日从校园拉到家庭并升格到城市级",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称压抑记录，情绪后置",
+      "diction": "医疗恐惧词混家庭电话口语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "电话声音制造场外崩塌",
+      "pacing": "伤口检查慢，电话连续下坠"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "狂病lore",
+      "病征科普",
+      "H国博士",
+      "直播见证",
+      "多层窥镜",
+      "肾上腺素假说"
+    ],
+    "characters": [
+      "「我」",
+      "狗子（绑椅）",
+      "直播主播（屏幕内）",
+      "H国博士（视频内）"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 1131,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S06.md",
+    "description": "手机看直播（主播被撕成四分五裂直播未停）+ 翻到「狂病」H 国博士科普视频 + 评论区「肾上腺素越低越被锁定」首假说 —— 全系列病征 lore 集中投放锚点，多层窥镜套娃 = 自媒体见证机制隐喻",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称浏览信息，疑问递增",
+      "diction": "直播平台词混医学转述",
+      "rhetoric_density": "low",
+      "dialogue_mode": "引用评论和视频讲述设定",
+      "pacing": "信息流层层展开，末尾回收狗子"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "亲手杀舍友",
+      "感染者保留所爱扭曲版",
+      "自残拽臂",
+      "沉默担当者",
+      "人性代价"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "秦胜哥",
+      "感染后的狗子"
+    ],
+    "conflict_type": "interpersonal+internal+external",
+    "pov": "「我」",
+    "word_count": 1467,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S07.md",
+    "description": "狗子彻底感染 + 拽断自己脱臼小臂 + 撞碎玻璃爬来 + 用爱 / 性 / 占有语言威胁 + 秦胜哥谈判幻想破灭崩溃 + 社长拦住他亲手割喉 —— 第一个亲手了结自己人的人性代价，感染者保留所爱扭曲版本",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称创伤回忆，直面伦理",
+      "diction": "污秽威胁词与兄弟称呼并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "谈判和辱骂交替升级",
+      "pacing": "拖长对峙，突然由旁人终结"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "留vs走",
+      "决断拉锯",
+      "军方内乱",
+      "shadow_desire",
+      "希望物件"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "秦胜哥"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "「我」",
+    "word_count": 1332,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S08.md",
+    "description": "报警打不通 + 军方内乱（轰炸机互撞）+ 秦胜哥「弹尽粮绝饿死论」证伪躲藏 + 围墙外加满油的车 + 社长附条件同意 + 三人看向「我」 —— 留 vs 走拉锯，「我」无法独自决断被集体裹挟（shadow_desire 显形）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称权衡，承认判断摇摆",
+      "diction": "生存算账口语，夹网络灾讯",
+      "rhetoric_density": "low",
+      "dialogue_mode": "三人商量，条件交换清楚",
+      "pacing": "大段利弊分析后逼出选择"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "社长死",
+      "拖把棍头颅",
+      "死亡省略",
+      "缠书护臂",
+      "一楼锁链",
+      "反派人类入场",
+      "逐层铁门"
+    ],
+    "characters": [
+      "「我」",
+      "社长",
+      "秦胜哥",
+      "走廊感染者群",
+      "三楼被绑幸存者"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 2238,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S09.md",
+    "description": "4/19 缠书护臂逃出 + 开门即遭走廊伏击 + 走廊血战钝器失效 + 社长被撕成碎块（拖把棍头颅 + 没听见惨叫）+ 逐层锁铁门下撤 + 一楼铁门外锁链浇灭希望 —— Arc 4 climax，社长死法用完成态结果物承担，反派人类首次实物入场",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称逃亡实录，知觉断裂",
+      "diction": "肢体破坏词高频，口语喘促",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "喊话短促，行动压过对白",
+      "pacing": "密集追逐不断加压，死亡突停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "故事高潮",
+      "三楼跳楼",
+      "自感染",
+      "怕疼",
+      "伏笔回收",
+      "日记中止",
+      "反英雄收笔"
+    ],
+    "characters": [
+      "「我」",
+      "秦胜哥",
+      "跟着跳楼的感染者群"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "「我」",
+    "word_count": 879,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S10.md",
+    "description": "二楼困守 + 摸口袋暗物下不定决心 + 三楼跳楼双双瘫痪 + 「我」掏出偷藏的狗子断指塞进嘴里自感染（「我真的很怕疼呀」）—— 全章 main climax，最人性的怕痛驱动最反人性的自我了结，日记戛然中止",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "末日遗书式第一人称，坦白恐惧",
+      "diction": "自嘲粗口夹跳楼求生细节",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎无对白，内心独白主导",
+      "pacing": "计划慢写，分隔线后极速绝望"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "XX-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "视角反转",
+      "读者代理人",
+      "罗允登场",
+      "传火",
+      "跨篇人物原点",
+      "余韵收笔"
+    ],
+    "characters": [
+      "罗允",
+      "感染者群"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "第三人称限知（罗允）",
+    "word_count": 533,
+    "source_chapter": "学校",
+    "file": "scenes/scene_XX-S11.md",
+    "description": "视角切第三人称：戴头盔的罗允拾起日记本读完 + 两次叹气 + 钉钉球棒 / 燃烧瓶 / 99度生命汁水 / 摩托车物质特征首次完整建立 + 翻墙找加满油的车扑空 + 改骑藏起的摩托继续上路 —— 「读者代理人」首次确立，closing reversal",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称尾声，黑色幽默收束",
+      "diction": "平实动作词夹自嘲俗语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "少量感叹句点出人物性格",
+      "pacing": "快速收尸转场，以讽刺余味结尾"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "开篇",
+      "末日日常",
+      "丧尸传闻",
+      "理性否定",
+      "系统反常"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "陈雨琪",
+    "word_count": 1821,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S01.md",
+    "description": "早高峰地铁口陆霞克卖唱 + 陈雨琪刘敏想旷课 + 陆霞克挤入车厢转述街头群殴吃人传闻'像丧尸' + 眼镜男冷笑否定 + 列车跨越野福站不停车",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知第三人称，贴陈雨琪感受",
+      "diction": "都市通勤口语，夹轻喜吐槽",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白密集，互怼建立关系",
+      "pacing": "日常拥挤慢铺，广播制造异样"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "手机录像",
+      "多层窥镜",
+      "认知揭示",
+      "虐杀剪影"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修"
+    ],
+    "conflict_type": "external",
+    "pov": "陈雨琪",
+    "word_count": 618,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S02.md",
+    "description": "路过野福站玻璃大片红印 + 眼镜男手机慢放录像揭示两人撕扯孩童般瘦小身影 + 陈雨琪确认血字",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知第三人称，借手机补证据",
+      "diction": "观察词平直，恐怖点突然硬切",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短问短答推动确认危机",
+      "pacing": "列车掠过压缩信息，广播再加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "紧急制动",
+      "车厢虐杀",
+      "游戏化嗜虐",
+      "灾难入车厢",
+      "直写暴力"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "陈雨琪",
+    "word_count": 1743,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S03.md",
+    "description": "莱恩站不停 + 本车厢'杀人了'尖叫 + 眼镜男拉紧急制动 + 陈雨琪滚出车门看见车厢内大笑男咬眼球 + 四人踩断西装男脖子鼓掌 + 大笑人扑陈雨琪被眼镜男打翻",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴身第三人称，群体恐慌放大",
+      "diction": "车厢词汇混强烈肉体描写",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "争辩转为尖叫和命令",
+      "pacing": "拥挤窒息后爆裂释放"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "追尾脱轨",
+      "沙丁泥罐头",
+      "no-time-to-mourn",
+      "断手",
+      "玻璃门科普"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修"
+    ],
+    "conflict_type": "external",
+    "pov": "陈雨琪",
+    "word_count": 1447,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S04.md",
+    "description": "眼镜男喊后车追尾快向前跑 + 后车追尾车头侧翻 + 人体被液压成沙丁泥罐头汁水 + 陈雨琪甩落一只断手 + 眼镜男提议往德鲁门站走 + 玻璃门高抗压科普",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴身逃生，感官眩晕",
+      "diction": "金属撞击词与尸块词并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "陆霞克碎嘴缓冲恐惧",
+      "pacing": "冲撞高速后转入路线讨论"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "地狱橱窗",
+      "合金锤预警",
+      "玻璃破裂",
+      "电轨陷阱",
+      "感染者观察",
+      "战术过期",
+      "言语挑衅"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "第三人称游移；陈雨琪起始，追逐后转向陆霞克与杨和修",
+    "word_count": 3146,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S05.md",
+    "description": "德鲁门站挂满残肢 + 扶梯卷轮拽肠子 + 杨和修据工作人员感染者手中的合金锤预判破门 + 碎裂声确认玻璃失效 + 前跑青年触电死 + 眼镜男设电轨尸体陷阱断后 + 余下感染者观察伤亡后停步并尝试绕开 + 陆霞克言语挑衅使其再度冲锋",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第三人称外部观察，临场判断强",
+      "diction": "地铁设施词混粗俗暴力词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "行动口令和吐槽交错",
+      "pacing": "窥视慢压迫，电轨战节奏加快"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "身份揭示",
+      "救人者第一次杀人",
+      "道德对照",
+      "证件"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "陈雨琪",
+    "word_count": 589,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S06.md",
+    "description": "陆霞克'我们好像杀人了' + 杨和修'以前做的都是救人' + 掉落证件揭示东江CC联合医院骨科医生 + 解释每周健身 + 四人重聚 + 杨和修批评两个女的来送人头",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称喘息收束，身份揭示",
+      "diction": "战后口语，职业信息简明",
+      "rhetoric_density": "low",
+      "dialogue_mode": "寒暄式对白缓和余震",
+      "pacing": "战后停顿短，迅速接回主线"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "中控室",
+      "制度性善意",
+      "上帝视角无能",
+      "路线选项",
+      "希望橱窗",
+      "密码9527"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修",
+      "徐海水"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "陈雨琪",
+    "word_count": 2489,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S07.md",
+    "description": "环河路站意外无感染者但仍遍地尸骸染血列车 + 报警占线 + 徐海水通过摄像头电梯紧急电话沟通 + 给警用装备箱密码9527 + 给三路线选项 + 徐海水默默看玻璃外挤满疯子",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称群像调度，信息清楚",
+      "diction": "设施说明和尸骸描写并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "求救按钮对白承担世界信息",
+      "pacing": "先喘息再规划，安全感持续被削"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "静默炸弹",
+      "父亲挂电话",
+      "联系亲人",
+      "情绪失态",
+      "集体通信禁令",
+      "信息空白",
+      "陆小虎伏笔"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "第三人称游移；陈雨琪、陆霞克、杨和修",
+    "word_count": 1555,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S08.md",
+    "description": "陆霞克砸贩卖机拿果茶 + 陈雨琪联系不上父母 + 陆霞克想起弟弟陆小虎打不通 + 杨和修给父亲打电话只响一声被挂断 + 水瓶掉地失态 + 推断铃声暴露父亲位置 + 全队连短信也停发 + 转向新闻求证但没有定论",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第三人称贴群体情绪，哀伤克制",
+      "diction": "生活物件词映衬亲情恐惧",
+      "rhetoric_density": "low",
+      "dialogue_mode": "闲话转亲情危机，语气压低",
+      "pacing": "休息段落慢，电话细节制造窒息"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "海外直播",
+      "全球同步",
+      "多层窥镜",
+      "见证设备变施虐工具",
+      "信息废墟"
+    ],
+    "characters": [
+      "陈雨琪",
+      "陆霞克",
+      "拉朵"
+    ],
+    "conflict_type": "external",
+    "pov": "陈雨琪",
+    "word_count": 1409,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S09.md",
+    "description": "新闻空白众说纷纭 + 国外视频显示全球同步动乱 + 陈雨琪点进爱冒险的拉朵直播 + 主播被护林员感染者剖腹 + 画面变黑只剩声音 + 手机塞进肚子搅动 + 陈雨琪退出'整个世界都疯了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称观看直播，距离感递减",
+      "diction": "网络新闻词转入猎奇血腥词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "直播独白和评论尝试推进",
+      "pacing": "信息检索慢，直播遇害骤然加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main-climax",
+      "风井口沦陷",
+      "涂血试验",
+      "角色假说",
+      "感染过程省略",
+      "暗杀",
+      "反向猎杀",
+      "省略式死亡"
+    ],
+    "characters": [
+      "陈雨琪",
+      "刘敏",
+      "陆霞克",
+      "杨和修",
+      "徐海水",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "第三人称游移；小队行动、徐海水监控插入、杨和修内心",
+    "word_count": 4170,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S10.md",
+    "description": "推开铁门血腥味喷出感染者冲出 + 风井口地狱挂半截尸体头颅当飞机杯 + 杨和修提出气味/空气/体液假说并设计涂血试验 + 拒绝陆霞克一起冒险 + 无神论者第一次祈祷找父亲 + 试验与感染过程留白 + 刘敏进去告别 + 徐海水群聊同伴把另一个杀了 + 再出现时呈感染状态的杨和修扔下刘敏人头 + 打断陆霞克双脚 + 陈雨琪拽出陆霞克推上铁门锁住",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第三人称多视角，悲剧反转显性",
+      "diction": "战术动作词混医学伦理词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "计划对白细密，反转后威胁直白",
+      "pacing": "长计划铺垫，感染反转突然坠落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "DT-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main-climax收束",
+      "留下断后",
+      "吉他迎敌",
+      "死亡过程省略",
+      "时间跳跃",
+      "POV转交",
+      "戏剧性反讽"
+    ],
+    "characters": [
+      "陈雨琪",
+      "陆霞克",
+      "杨和修",
+      "徐海水",
+      "陆小虎"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "徐海水 → 陈雨琪/陆霞克 → 陆霞克 → 数日后陆小虎",
+    "word_count": 2177,
+    "source_chapter": "地铁",
+    "file": "scenes/scene_DT-S11.md",
+    "description": "徐海水打开门禁广播掩护 + 陈雨琪搀扶受伤陆霞克渡过最后两站 + 黄昏走出隧道 + 半小时前的徐海水消息延迟抵达 + 杨和修脖子挂两条人腿带感染者群追来 + 陆霞克留下断后 + 弹完最后一首后以吉他迎击，具体结局留白 + 几天后陆小虎在医院遇到陈雨琪，不明白她为何哭",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "第三人称哀悼尾声，余波外延",
+      "diction": "抒情短句夹末世口语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "告别对白少而直，尾声转述",
+      "pacing": "漫长跋涉后以牺牲式断后收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'（盲女）",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太"
+    ],
+    "conflict_type": "internal + external（记忆）",
+    "pov": "'你' 第二人称",
+    "word_count": 588,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S01.md",
+    "description": "盲女'你' POV 建立 → 五人小队介绍 → 公路爆发时的听觉记忆 → 周全描述邻居被孩子碾碎的画面",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称贴身，盲人感官主导",
+      "diction": "听觉词密集，血肉比喻直给",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "转述周全讲述，少现场对白",
+      "pacing": "背景压缩进入，靠感官建危机"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太"
+    ],
+    "conflict_type": "external",
+    "pov": "'你'",
+    "word_count": 432,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S02.md",
+    "description": "山间小路腐烂血腥味 → '你' 警告 → 人肉树林（树上像腊肉挂的尸体） → 脚底粘稠滑腻 → 否认告诉自己只是泥土",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称限知，靠气味辨路",
+      "diction": "腐臭血腥词和自我安慰并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "同伴短句呈现认知差",
+      "pacing": "行进缓慢，嗅觉一点点加重"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李先生",
+      "李太太",
+      "树上感染者"
+    ],
+    "conflict_type": "external",
+    "pov": "'你'",
+    "word_count": 978,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S03.md",
+    "description": "'你' 闻到煮熟糖浆 + 咸味 → 警告队伍 → 李太太不信 → 天降感染者头朝下扑 → 砸死李先生 → 李太太崩溃哭嚎 → 老刘催促继续走",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称贴身恐惧，视觉缺席",
+      "diction": "嗅觉触觉词替代画面描写",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "质疑和解释拖出预警",
+      "pacing": "回忆慢收束，坠落袭击突然爆开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李太太",
+      "草丛中两个感染者"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "'你'",
+    "word_count": 2262,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S04.md",
+    "description": "李太太打'你' 骂扫把星 → 周全威胁 → 改走村庄旁山路 → 老刘 + 周全杀两个嘴塞石头 / 撕舌头的感染者 → 推论：感染者主动改造自己隐藏狂笑",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称承压叙述，责任感外推",
+      "diction": "嗅觉词和伦理指责反复交缠",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "争执转述，周全威胁压住内讧",
+      "pacing": "山路慢行，静默伏击突然收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "老刘",
+      "李太太",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "'你'",
+    "word_count": 1432,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S05.md",
+    "description": "灌木丛屏息穿越 → 李太太抱怨暴露位置 → 慌不择路冲进村子 → 周全踹民居门 → 关门 → 老刘没进来 → 李太太揭发'老刘摔倒来不及'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称贴身逃亡，听觉压迫",
+      "diction": "狂笑脏话和方向词高频",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短命令和抱怨引爆危机",
+      "pacing": "潜行极慢，暴露后连续奔逃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "'你'",
+    "word_count": 1286,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S06.md",
+    "description": "屋外狂笑砸门 → 周全抽刀提议杀全员 + 自杀 → 烤乳猪传说 → 李太太提'被感染加入' → '你' 说'杀了我吧' → 远方爆炸引走感染者 → 周全拥抱 → 第一次感谢老天活着",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称绝境内省，死亡被权衡",
+      "diction": "自杀选择和酷刑回忆并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "三人低声商量生死方案",
+      "pacing": "密闭绝望慢压，爆炸声突然解围"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "'你'",
+    "word_count": 942,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S07.md",
+    "description": "翻越腐烂祭坛山头 → 全员呕吐 → 周全告诉'你' 山头举行过感染者仪式 → 下山到公路 → 手机指南针仍可用 → 体力透支休息 → 周全预告'后悔没拼命走'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称先扬后抑，预告式回看",
+      "diction": "恶臭感官词转为公路动作词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白极少，周全说明承担信息",
+      "pacing": "希望逐步上升，末句骤然坠落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全",
+      "李太太",
+      "踢人头感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "'你'",
+    "word_count": 1426,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S08.md",
+    "description": "踢人头感染者追击 → 李太太拽'你' 背包 → 周全踹倒 → 李太太被撕裂 → 周全自白'我不算好人 / 李太太是我踹的 / 在村子里就识破她拽老刘 + 想让她死' → '但绝对不会伤害你'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称被动逃亡，信任被检验",
+      "diction": "身体失控词和道德坦白并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "周全长句坦白保护动机",
+      "pacing": "追逐后喘息，哮喘再逼新危机"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "周全（离开）"
+    ],
+    "conflict_type": "internal",
+    "pov": "'你'",
+    "word_count": 592,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S09.md",
+    "description": "周全离开向加油站方向 → '你' 独自呼吸困难 → 整个世界安静极了 → 接受死亡反而呼吸平稳 → 感染者味道 + 烧焦味道靠近 → 以为周全失败 + 感染者追来 → '无所谓了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称孤立濒死，感知逐渐稀薄",
+      "diction": "窒息词和方向提示词简洁",
+      "rhetoric_density": "low",
+      "dialogue_mode": "周全独白交代最后行动",
+      "pacing": "离别后减速，呼吸困难拖长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "RS-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "'你'",
+      "感染后周全",
+      "罗允"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "'你'",
+    "word_count": 1132,
+    "source_chapter": "燃烧",
+    "file": "scenes/scene_RS-S10.md",
+    "description": "感染后周全狂奔 + 大喊'你' 名字 + 描述要把心脏缝在胸口 → 戛然而止 → 摸到周全焦尸 + 双手向前伸 + 背包绑在手上 → '你' 拒绝用药 → 摩托车声 + 罗允出现强行喂药 + 转达周全自燃细节 + '你也应该好好地活下去啊'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第二人称崩溃哀悼，外援收束",
+      "diction": "烧焦触感和爱情遗言并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "周全疯话和罗允转述对照",
+      "pacing": "死亡临近慢，救援后情绪爆开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "录音机框叙事",
+      "激励事件",
+      "嵌套POV",
+      "多层窥镜",
+      "私人堡垒",
+      "时间锚点",
+      "黑色幽默"
+    ],
+    "characters": [
+      "罗允",
+      "吴先生（录音声）",
+      "老康（已死）"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "第三人称限知（罗允）框层 + 第一人称（吴先生录音）内层",
+    "word_count": 3049,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S01.md",
+    "description": "罗允被感染者追杀逃进暗门小屋 → 发现录像带墙+录音机 → 按播放键 → 第一组录音：老康偷钳子服毒自杀/地下室三只猪崽/私人堡垒避风头/17号电台陷停滞/把出城堵车人潮当自助餐厅哄骗新猪仔回堡垒 —— 激励事件是'按播放键'启动认知恐怖装置，恶通过轻佻语气而非血腥细节传递",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称框架，录音第一人称嵌套",
+      "diction": "犯罪自白词和末日观察词混合",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "录音独白主导，罗允无对白",
+      "pacing": "藏身喘息短，录音连续扩张恶意"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "地下室展厅",
+      "人体作为器物",
+      "我的时代",
+      "恐惧侵入预兆",
+      "静态展品承担恶",
+      "汽油伏笔"
+    ],
+    "characters": [
+      "罗允",
+      "吴先生（缺席）"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "第三人称限知（罗允）",
+    "word_count": 1489,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S02.md",
+    "description": "录音停 → 罗允感觉背后人影甩椅子却空无一人 → 确认录音主人是'天生的恶鬼' → 书架后暗门进地下室血腥派对展厅（人头气球/肠子拼'欢迎参观'/人头蛋糕'欢迎见证我的时代'）→ 拎出汽油桶重新按播放键 —— 框层戏剧问题成形，恶用静态展品承担",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称探索，恐惧由空间推进",
+      "diction": "暗门机关词混派对血肉词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "无现场对白，环境替代对话",
+      "pacing": "搜查步步放慢，地下室集中震慑"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "拒绝感染",
+      "人性之恶独立于病毒",
+      "核心lore",
+      "童年猎杀本能",
+      "主宰快感",
+      "反社会人格"
+    ],
+    "characters": [
+      "吴先生（录音声）",
+      "夫妻猪仔（已死）"
+    ],
+    "conflict_type": "internal",
+    "pov": "第一人称（吴先生录音）",
+    "word_count": 1413,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S03.md",
+    "description": "录音：吴先生童年放虫子到蚂蚁窝看分解的快乐 → 哄骗夫妻猪仔'放他们自由' → 望远镜看二人被笑脸人分食 → 思考'我是否也可感染成笑脸人' → 理性拒绝（'变成只会施虐的弱智就和畜生没两样'）→ '看锁链猪仔不可思议的表情才是我真正想要的' —— 全篇核心lore锚点：反社会人格主动拒绝感染，恶独立于病毒",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "录音第一人称，冷静炫耀施虐",
+      "diction": "玩具化称呼和犯罪细节反复",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "独白复盘，引用受害反应",
+      "pacing": "骗局慢铺，望远镜虐杀作高潮"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "假打火弃杀",
+      "伪公平规则",
+      "剧场化猎杀",
+      "识破者被淘汰",
+      "绝命反讽",
+      "主宰快感"
+    ],
+    "characters": [
+      "吴先生（录音声）",
+      "豆豆鞋青年二人组（已死）",
+      "李伟",
+      "张露露",
+      "赵维胜",
+      "赵小军"
+    ],
+    "conflict_type": "interpersonal",
+    "pov": "第一人称（吴先生录音）",
+    "word_count": 2396,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S04.md",
+    "description": "录音：4月18六个新猪仔入堡垒 → 豆豆鞋青年质疑陷阱被带出 → 送回公路用假打火引笑脸人弃杀二人（'主宰快感欲罢不能'）→ 对剩四人立'外出搜物资'伪公平规则（一冒险一留守+主人每次参加）+ 还手机用品减戒心 —— 猎杀从孤狼升级为团队剧场主宰，把屠宰场包装成互信避难所",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "录音第一人称，操控者自辩",
+      "diction": "互助话术包裹恶意安排",
+      "rhetoric_density": "low",
+      "dialogue_mode": "转述争吵，骗局靠说辞推进",
+      "pacing": "话术层层驯化，结尾埋计划"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "蛋糕伏笔",
+      "超市埋伏",
+      "感染者进化",
+      "赵维胜身世",
+      "归属欲",
+      "吴先生反胃",
+      "信任铺垫"
+    ],
+    "characters": [
+      "吴先生（录音声）",
+      "赵维胜",
+      "李伟",
+      "赵小军",
+      "笑脸人群"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "第一人称（吴先生录音）",
+    "word_count": 5194,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S05.md",
+    "description": "录音：4月19与赵维胜首次搜物资 → 镇子沦陷（吊尸/三笑脸人抠眼当尿壶虐杀）→ 阻止赵维胜搭救 → 阿花超市装糖果零食被赵维胜要求倒掉（蛋糕伏笔）→ 四面笑脸人埋伏逃回越野 → 车内赵维胜讲身世（无归属/亲手砸死感染妻子）→ 吴先生被夸活菩萨'不知为何反胃'+编造身世 —— 建立赵维胜可信形象+感染者埋伏进化lore",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "录音第一人称，伪善和欲望交替",
+      "diction": "生存术语夹施虐兴奋词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "合作对白掩盖操控意图",
+      "pacing": "搜索潜行慢，围攻逃脱后闲谈"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "POV下沉",
+      "唯一识破者",
+      "反讽装置",
+      "婚礼噩梦",
+      "剖腹预演",
+      "家庭欲望"
+    ],
+    "characters": [
+      "李伟",
+      "张露露",
+      "吴先生",
+      "赵维胜"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "第三人称限知（李伟）—— L2重演首次下沉",
+    "word_count": 1963,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S06.md",
+    "description": "POV切李伟：轮李伟外出 → 张露露劝离开被拒（孤儿院情侣无处可去）+警告'吴先生眼神和死人一样' → 车内吴先生答应当孩子干爹突然笑 → 李伟睡着做婚礼噩梦（观众变大笑疯子+吴先生当面剖开张露露肚子）→ 惊醒 —— POV结构性下沉读者短暂'忘记在听录音'，张露露唯一识破却被劝服，噩梦预演真实结局",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴李伟，梦境露出恐惧",
+      "diction": "家庭愿景词被不祥细节污染",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "恋人叮嘱和吴先生闲谈对照",
+      "pacing": "清晨温情慢，梦魇突刺不安"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "人体油箱",
+      "人肉车轮",
+      "Arc4高潮",
+      "抛弃后救场",
+      "燃烧瓶引爆",
+      "天神下凡",
+      "跨篇钩"
+    ],
+    "characters": [
+      "李伟",
+      "吴先生",
+      "感染者群",
+      "幸存者（被虐杀）"
+    ],
+    "conflict_type": "external",
+    "pov": "第三人称限知（李伟）",
+    "word_count": 2452,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S07.md",
+    "description": "POV李伟：服务区望远镜见人造地狱（人肉车轮/油枪插嘴的人体油箱/肠子捆绑跪地幸存者）→ 吴先生'不要变成疯子玩物'伪善安慰 → 搜物资+给赵小军找蛋糕 → 李伟踩诈死感染者暴露被扑倒 → 吴先生抛下他独自逃 → 李伟被绑目睹电锯虐杀 → 吴先生扩音喇叭挑衅+燃烧瓶引爆人体油箱救场 → 李伟视吴先生为天神 —— 抛弃→救回是把救援做成剧本的铺垫",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴李伟，恐惧逐层剥开",
+      "diction": "服务区设施词混极端酷刑词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "吴先生冷静指挥制造信任",
+      "pacing": "观察慢压，俘虏段极端延宕"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "蛋糕引爆",
+      "感染源剧本",
+      "受害者互殴",
+      "辱骂互克",
+      "砍死亲子",
+      "完成态死法"
+    ],
+    "characters": [
+      "李伟",
+      "张露露",
+      "赵维胜",
+      "赵小军（感染）",
+      "吴先生"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "第三人称限知（李伟为主）",
+    "word_count": 1344,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S08.md",
+    "description": "POV李伟：饭桌众人敬佩吴先生 → 张露露带赵小军回屋吃蛋糕 → 女人惨叫 → 李伟撞开反锁房门见赵小军（感染）咬死张露露 → 李伟一斧砍死赵小军 → 李伟vs赵维胜互殴辱骂（杂种畜生vs丧家之犬扫把星）→ 吴先生铁管打晕二人 —— 蛋糕感染源引爆全员覆灭，设计受害者自相残杀",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称群像餐桌，安全感反转",
+      "diction": "饭桌酒话转入卧室血腥词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "酒后闲谈引出突发惨叫",
+      "pacing": "庆功慢放，破门后瞬间崩坏"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "main高潮",
+      "餐车揭谜",
+      "升华",
+      "人性之恶独立宣言",
+      "救人即毁灭剧本",
+      "一切提前安排"
+    ],
+    "characters": [
+      "吴先生",
+      "李伟",
+      "赵维胜",
+      "张露露（遗体）",
+      "赵小军（遗体）"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "第三人称全知（吴先生为行动核心）",
+    "word_count": 1163,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S09.md",
+    "description": "吴先生推白布餐车+摄像机对准李伟 → 点题'你不是希望孩子有归宿/希望和女友有孩子吗' → 揭白布（张露露开膛+赵小军缝进肚子'升华'）→ 宣言'同情心愧疚羞愧怜悯这些狗屁我从出生就没有过' → 答'救你只为不让畜生破坏我玩乐的计划' → 确认'蛋糕/感染/死亡/争斗都是提前安排好的' → 李伟脑中断裂声疯掉 —— 全篇main高潮：人性之恶独立于病毒的总暴露",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称受害视角，真相揭幕",
+      "diction": "仪式化宣告和尸体拼接词并用",
+      "rhetoric_density": "high",
+      "dialogue_mode": "吴先生独白击碎幸存者信念",
+      "pacing": "审问慢揭示，精神崩溃作收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "恶的起源",
+      "霸凌无惩罚",
+      "天生坏人",
+      "非物理死亡",
+      "气死",
+      "狂喜顶点",
+      "社会寓言"
+    ],
+    "characters": [
+      "吴先生",
+      "赵维胜",
+      "李伟（已疯）"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "第三人称全知（吴先生为行动核心）",
+    "word_count": 889,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S10.md",
+    "description": "吴先生转向未崩溃的赵维胜 → 赵维胜怒斥+诅咒'恶人自有天收' → 吴先生笑出泪反驳+起源独白（初中被霸凌+霸凌者从未受罚+曝光无用→'想做坏人→发现天生就是坏人'）→ 摄像机凑近 → 赵维胜眼鼻嘴流血被活活气死 → 吴先生狂喜拿不稳摄像机+回去用录音机记录 —— 非物理死亡的恶之精确性，恶的起源缝合社会寓言层",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴施虐者，快感外显",
+      "diction": "道德辩驳词转为生理兴奋词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "赵维胜诅咒引出恶人自述",
+      "pacing": "辩白渐长，气死结局突发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "KR-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "L3直接喊话",
+      "伪装机制",
+      "假罗允",
+      "恐惧传染",
+      "录音机自毁",
+      "复仇立誓",
+      "我的时代闭环"
+    ],
+    "characters": [
+      "罗允",
+      "吴先生（录音声L3）"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "第一人称（吴先生L3喊话）→ 第三人称限知（罗允）框层收束",
+    "word_count": 644,
+    "source_chapter": "狂人日志",
+    "file": "scenes/scene_KR-S11.md",
+    "description": "罗允听完想丢录音机 → 吴先生L3喊话：'我可以是任何人，任何人也可以是我，我永远都可能来到你身边'（伪装机制）→ '要么现在自尽，要么背负遇到我的可能继续苟活' → 给密道机关（电视右转三圈左转一圈）+'欢迎来到我的时代' → 录音机播完自毁断电 → 罗允极厌恶扔掉录音机+看汽油桶+看密道电视 → 阴着脸立誓'外面的感染者全得死，录音机主人也得死' —— closing reversal：伪装机制（假罗允种子）+恐惧传染，罗允见证者转复仇者",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称框架，录音威胁封口",
+      "diction": "谜题机关词和自我神话并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "录音直接对听者发话",
+      "pacing": "威胁递进，罗允以行动反制"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "杀人狂",
+      "录像留名",
+      "炰耀型猎杀",
+      "表演型恶",
+      "三人组分工",
+      "游戏化嗜虐",
+      "受害者人性细节"
+    ],
+    "characters": [
+      "李春桂",
+      "廖振宇",
+      "刘建邦",
+      "张彤"
+    ],
+    "conflict_type": "external",
+    "pov": "第三人称（前段李春桂受害视角 → 转廖振宇加害视角）",
+    "word_count": 1901,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S01.md",
+    "description": "李春桂夜里去看被拘留的儿子，车胎被预埋玻璃钉子扎爆 → 廖振宇诱近后掏羊角锤追杀 → 石头砸面门倒地 → 张彤持摄像机 → 三人组分工虐杀 → 廖振宇对镜头宣布'第十个猎物'+ 自报大名结束拍摄。建置'录像留名'MO。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称冷看受害，罪犯镜头侵入",
+      "diction": "乡路生活词转为猎杀拍摄词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "求饶和炫耀构成权力差",
+      "pacing": "伏击迅速，折磨过程故意拖长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "留名哲学",
+      "被记住焦虑",
+      "开膛手杰克",
+      "内心独白",
+      "二手欲望",
+      "欲望轴起点"
+    ],
+    "characters": [
+      "廖振宇",
+      "张彤",
+      "刘建邦"
+    ],
+    "conflict_type": "internal",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 690,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S02.md",
+    "description": "清洗血迹后，张彤担心被查 → 廖振宇满不在乎 → 阐述'要像开膛手杰克成为全球噩梦'的留名哲学 + 监狱粉丝幻想 → '为了更伟大的名声，现在还不能被抓'。把核心欲望（被记住）显性化为价值轴起点。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴罪犯日常，讽刺冷感",
+      "diction": "网吧口语和名声幻想混用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "同伙闲聊暴露价值观",
+      "pacing": "清理现场快，日常转场缓"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "网吧爆发",
+      "狂病发作",
+      "无差别互杀",
+      "吃人",
+      "特别作废",
+      "病原暗示",
+      "全球同步"
+    ],
+    "characters": [
+      "廖振宇",
+      "刘建邦",
+      "张彤",
+      "网吧顾客网管群",
+      "感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 4431,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S03.md",
+    "description": "网吧口角升级互殴 → 报警无警力 → '杀人了'让廖振宇精神一振 → 顾客网管无差别互杀/自残/啃食 → 刘建邦窗外'太阳掉下来了'（病原暗示）→ 廖振宇逃出后癫狂吼'他们还有什么特别的？'。激励事件，'特别'被通货膨胀作废。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴恶人观察，秩序失控",
+      "diction": "网吧物件词变成身体破坏词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "粗口争吵引出群体失控",
+      "pacing": "小冲突滚雪球，逃亡时全面爆发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "并入幸存者队",
+      "起意杀警",
+      "辅警",
+      "权力符号",
+      "无子弹的枪伏笔",
+      "张潇潇入场",
+      "出名策略升级"
+    ],
+    "characters": [
+      "廖振宇",
+      "刘建邦",
+      "张彤",
+      "蔡宇",
+      "张潇潇"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 1552,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S04.md",
+    "description": "廖振宇调头追到张彤所在警车 → 张彤解释追偷手机的张潇潇才离队、蔡宇作证 → 蔡宇请求搭车去总局'我有枪' → 张潇潇攀附阴阳 → 廖振宇起意'一个人杀真警官会脱颖而出'，决定伺机动手。杀蔡宇动机首现 + 枪的最长伏笔起点。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴廖振宇，算计藏在对话下",
+      "diction": "警务词和阴阳怪气口语并列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "多方问答建立临时队伍",
+      "pacing": "盘问中速推进，邪念暗线结尾"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "吴先生入场",
+      "伪装罗允",
+      "带孩子可靠男人",
+      "避难所投票",
+      "易达广场人防工程",
+      "蛊惑",
+      "织善之网",
+      "威望嫉妒"
+    ],
+    "characters": [
+      "廖振宇",
+      "蔡宇",
+      "张潇潇",
+      "罗允(吴先生)",
+      "林东青",
+      "刘建邦",
+      "李芳",
+      "陆德夫",
+      "陈秀秀"
+    ],
+    "conflict_type": "interpersonal",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 3323,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S05.md",
+    "description": "'罗允'带孩子林东青出现提醒前方感染者群 → 盘问得知避难所=易达广场地下人防工程 → 投票7比4决定前往 → 张潇潇蛊惑廖振宇'别当跟班' → 廖振宇因'人们更信任蔡宇'举手 → 罗允末位微微点头附和张潇潇。吴先生暗线入场 + 杀蔡宇动机锁定。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称群像决策，分歧清晰",
+      "diction": "逃亡路线词和队内讥讽混用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "投票争论推动路线选择",
+      "pacing": "情报后讨论拉长，决定后提速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "受害者POV离场",
+      "陆德夫",
+      "丧妻回忆",
+      "水上乐园",
+      "每个人只为自己",
+      "幻想揭穿",
+      "无意识助恶伏笔"
+    ],
+    "characters": [
+      "陆德夫",
+      "陆德夫妻子(回忆)",
+      "罗允(吴先生)",
+      "张潇潇"
+    ],
+    "conflict_type": "internal",
+    "pov": "第三人称（离场转锚陆德夫）",
+    "word_count": 1303,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S06.md",
+    "description": "暴雨山路 → 陆德夫回忆灾难当天与妻子在水上乐园的最后快乐 → 妻子被水流冲远、人潮阻挡无法施救 → '每个人眼里都只有自己'（作者揭穿这是陆德夫的幻想）→ 罗允拉陆德夫等上坡 → 张潇潇阴阳蔡宇。受害者POV离场一。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴陆德夫，雨中回忆",
+      "diction": "雨水泥泞词牵出婚恋旧事",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量抱怨声衬托内心独白",
+      "pacing": "行军慢，回忆插入拉开心理层"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "受害者POV离场",
+      "老魏",
+      "走马灯",
+      "临终顿悟",
+      "被表决抛弃",
+      "不是每个人都值得被拯救",
+      "痛觉缺失",
+      "集体决策道德"
+    ],
+    "characters": [
+      "老魏",
+      "蔡宇",
+      "感染者群",
+      "李芳",
+      "廖振宇",
+      "张潇潇"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "第三人称（离场转锚老魏临终意识）",
+    "word_count": 2088,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S07.md",
+    "description": "老魏低烧旧伤拖慢队伍 → 蔡宇'带上的举手'无人/'抛下的举手'也无人 → 蔡宇担下坏人角色留刀和食物带队前进 → 老魏走马灯（海边/啤酒王/坠落顿悟）→ 被感染者分尸 → '不是每一个人都值得被拯救'。受害者POV离场二，candidate_b核心证据。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称临终意识，走马灯结构",
+      "diction": "身体解体词和人生回忆词交错",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，以记忆替代交流",
+      "pacing": "死亡现场慢放，回忆片段跳切"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "DV丢失危机",
+      "暗线出手",
+      "林东青麻醉",
+      "张彤被清除",
+      "识破真相",
+      "误导注意力",
+      "情感裂痕"
+    ],
+    "characters": [
+      "廖振宇",
+      "刘建邦",
+      "张彤",
+      "林东青",
+      "罗允(吴先生)",
+      "张潇潇"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "第三人称（锚廖振宇 → 末段短暂转锚张彤）",
+    "word_count": 2173,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S08.md",
+    "description": "DV丢失危机 → 张彤怀疑被林东青偷走 → 廖振宇派张彤找小林、旁敲罗允'没看过DV' → 张彤带小林到营地外被林东青针管麻醉 → 成'被迫抛弃的第二人' → 醒来识破'这对父子有问题'想警告廖振宇 → 灌木被扒开却是感染者的癫狂笑脸。吴先生暗线第一次出手。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴廖振宇，疑心被操控",
+      "diction": "队伍内斗词和阴谋口语交织",
+      "rhetoric_density": "low",
+      "dialogue_mode": "挑拨对白推动权力倒向",
+      "pacing": "失物焦虑慢铺，张彤落单急转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "暗杀蔡宇",
+      "人际背叛顶点",
+      "枪里没有子弹",
+      "伏笔回收",
+      "空壳权力",
+      "换班悲剧",
+      "下药的局"
+    ],
+    "characters": [
+      "廖振宇",
+      "张潇潇",
+      "罗允(吴先生)",
+      "蔡宇",
+      "陆德夫"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 1128,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S09.md",
+    "description": "陆德夫'难受'找蔡宇换班（自以为只是抢枪逼进城）→ 廖振宇以'发现感染者'引蔡宇出营 → 张潇潇折臂+罗允泥土堵嘴+廖振宇铁锤砸后脑 → 翻找发现冲锋枪一发子弹都没有 → 罗允'他真的这么想吗' + 提议'庆祝把储备食物全吃了'（暗藏下药）。Arc5高潮，枪空伏笔回收。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称冷观背叛，因果清楚",
+      "diction": "伏击动作词混道德误判词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "谋杀后对口供，冷静实用",
+      "pacing": "夜间换班慢，杀警动作骤快"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "身份反转",
+      "同行架摄像机",
+      "两类恶对位",
+      "纯粹型恶自陈",
+      "系统性诱杀",
+      "役使感染者",
+      "强迫见证",
+      "割眼皮"
+    ],
+    "characters": [
+      "廖振宇",
+      "罗允(吴先生)",
+      "林东青",
+      "刘建邦/陆德夫/张潇潇等被诱杀队员",
+      "感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "第三人称（锚廖振宇）",
+    "word_count": 1539,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S10.md",
+    "description": "廖振宇醒来被绑树上 → 罗允持其丢失的DV现身'第一次对同行架摄像机' → 自陈'我更纯粹只觉得有意思'+童年起源 → 展示横陈的全队+篝火浓烟 → 篝火引感染者 → 廖振宇闭眼被割眼皮+拭血逼看 → 解说女粉丝/张彤/张潇潇/陆德夫依次被吞噬。身份反转引爆点+系统性诱杀实证。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴受刑者，反派互照",
+      "diction": "同行黑话和酷刑解说并用",
+      "rhetoric_density": "high",
+      "dialogue_mode": "罗允审问式独白主导",
+      "pacing": "醒来慢揭局，观刑段持续折磨"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "EE-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难 + 心理恐怖",
+    "lang": "zh",
+    "tags": [
+      "烧毁存储卡",
+      "谁配被记住裁判",
+      "子弹就是希望",
+      "感染者司法",
+      "省略关键死亡",
+      "恶循环结尾",
+      "首尾呼应"
+    ],
+    "characters": [
+      "廖振宇",
+      "罗允(吴先生)",
+      "林东青"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "第三人称（锚廖振宇 → 末段全知拉远）",
+    "word_count": 881,
+    "source_chapter": "恶",
+    "file": "scenes/scene_EE-S11.md",
+    "description": "吴先生当面烧毁存储卡 → 问廖振宇为何不求放过 → 廖振宇'没意义肯定会被杀' → 吴先生裁判'谁配被记住'：蔡宇（怀绝望给希望+子弹就是希望）>张潇潇（纯粹恶意）>李芳>廖振宇（'过阵子就忘了'）→ 判'最普通的司法被感染者折磨至死' → 牵林东青隐入山林 → 结尾消防队小队遇'带孩子可靠男人'。main climax+closing reversal，恶循环重启。",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称终局审判，讽刺收束",
+      "diction": "名声幻想词被普通化词拆解",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "罗允点评摧毁最后执念",
+      "pacing": "精神处刑慢，尾声轻巧转场"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "开篇",
+      "末日日常",
+      "末日预言复读机",
+      "理性否定",
+      "前震消解",
+      "黑色幽默"
+    ],
+    "characters": [
+      "岳子安",
+      "周书韵",
+      "复读机小孩"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "岳子安",
+    "word_count": 2354,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S01.md",
+    "description": "大巴上复读机小孩反复喊末日陨星预言 + 岳子安烦躁和女友周书韵斗嘴 → 机场自助托运全关 + 肢解行李箱传闻 + 113号VIP之喜 + 安检口压人 + 特产店玻璃割脸 —— 全被当成'多事之秋'消解",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴岳子安，日常吐槽开场",
+      "diction": "机场流程词夹情侣聊天口语",
+      "rhetoric_density": "low",
+      "dialogue_mode": "手机聊天和旅客闲谈铺垫",
+      "pacing": "登机流程缓慢，暴力事件渐密"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "最反差者发病",
+      "预言成谶",
+      "嗜虐",
+      "痛觉缺失",
+      "连锁爆发"
+    ],
+    "characters": [
+      "岳子安",
+      "发疯的哥哥",
+      "弟弟",
+      "父母",
+      "安保群"
+    ],
+    "conflict_type": "external",
+    "pov": "岳子安",
+    "word_count": 957,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S02.md",
+    "description": "文质彬彬的哥哥砸弟弟脸 + 嘶吼'你知道什么是世界末日' + 掐弟弟脖子 → 父母提议把哥哥留下 → 哥哥崩溃抠出父亲眼球 + 咬下安保半张脸 → K区/托运点/停车场连锁呼援",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称候机观察，烦躁转惊恐",
+      "diction": "家庭争吵词迅速转血腥动作词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "哥哥崩溃台词引爆灾变",
+      "pacing": "围观慢，机场多点呼叫加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "手机录像",
+      "多层窥镜",
+      "按摩椅夹颅",
+      "人体器物化",
+      "虚假安全",
+      "静默恐怖"
+    ],
+    "characters": [
+      "岳子安",
+      "蔡颖婷"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "岳子安 + 蔡颖婷插入",
+    "word_count": 1218,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S03.md",
+    "description": "岳子安'千万不要取消航班' → 除发疯一家全员登机 → 隔舷窗手机放大见证踩踏挤瘪安保 + 按摩椅夹颅虐杀 → 升空隐没云层 → 自我安慰'已经安全了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称隔窗观看，影像感强",
+      "diction": "手机录像词和机场酷刑词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，视频画面推进",
+      "pacing": "飞机推出缓慢，候机厅灾像递进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "客舱发病",
+      "潜伏感染源",
+      "旁观者误读",
+      "黑色幽默",
+      "啃食",
+      "性侵语言"
+    ],
+    "characters": [
+      "岳子安",
+      "空少宋伯文",
+      "空姐李云",
+      "蔡颖婷",
+      "西装男",
+      "黄志祥"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "岳子安 + 客舱群像插入",
+    "word_count": 1673,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S04.md",
+    "description": "空少宋伯文（机场被小孩抓破皮感染）+ 李云贴创可贴吐槽 → 空少突然掐李云后颈 + 下流话 + 咬面门啃食 → 西装男误以为接吻有伤风化按铃投诉 → 蔡颖婷发现李云被啃出白骨",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称机舱群像，监控切视角",
+      "diction": "航空服务词被肉体啃食词污染",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "投诉对白和乘务呼救对撞",
+      "pacing": "颠簸中慢发现，后舱瞬间失控"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "执法者被反杀",
+      "痛觉缺失",
+      "伪装诱杀",
+      "同化机制",
+      "游戏化嗜虐",
+      "认知失调",
+      "深渊确认"
+    ],
+    "characters": [
+      "岳子安",
+      "空警",
+      "感染者群",
+      "蔡颖婷",
+      "柔弱女生"
+    ],
+    "conflict_type": "external",
+    "pov": "岳子安",
+    "word_count": 1748,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S05.md",
+    "description": "空警泰瑟枪辣椒水压不住 → 被金属水杯砸后脑 + 撕腿肉偷袭致死 → 全舱所有人解开安全带 → 柔弱女生用平板砸烂男生脸（岳子安荒诞地感叹保护壳好）→ 被咬被侵犯后还活着的人大笑加入感染者",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称交叉驾驶舱与客舱",
+      "diction": "机上物件全部变成凶器",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "驾驶舱冷静对白压住恐慌",
+      "pacing": "客舱屠杀扩散，判断线保持克制"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "试飞员特技",
+      "小餐车防御",
+      "灰色生存者",
+      "自愿牺牲",
+      "体液传染规则",
+      "救人有边界"
+    ],
+    "characters": [
+      "岳子安",
+      "李荣",
+      "副机长陈夏欣",
+      "蔡颖婷",
+      "黄志祥",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "岳子安 + 驾驶室李荣插入",
+    "word_count": 2149,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S06.md",
+    "description": "三人推小餐车堵窄过道防御 → 餐车变形撑不住 → 李荣广播指挥飞机左右倾斜+抬升让感染者摔成一团 → 护送三人到驾驶室门 → 李荣电话确认有无被咬被抓 → 黄志祥坦白被抓不能进 → 自愿掩护后躲厕所",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称逃生实录，动作调度清晰",
+      "diction": "餐车座椅和飞行动作词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "广播命令主导节奏转换",
+      "pacing": "堵门濒死后靠机动反复冲刺"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "arc-climax",
+      "病名锚定",
+      "狂犬病变种",
+      "上帝视角",
+      "全球同步沦陷",
+      "减压闷杀",
+      "集体超度"
+    ],
+    "characters": [
+      "岳子安",
+      "李荣",
+      "副机长陈夏欣",
+      "蔡颖婷"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "岳子安 + 驾驶室视角",
+    "word_count": 1736,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S07.md",
+    "description": "李荣推断'被咬被抓都会变疯、像狂犬病' → 飞向最近机场/城镇全是火海 → 高空俯瞰城市脉络流动鲜血 → '世界末日确认' → 李荣决定放弃感染者 → 副机长开外流活门减压闷杀整客舱 → 三人戴氧气面罩'当超度'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称驾驶舱困守，理性决断",
+      "diction": "航空操作词和末日俯瞰词并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "机长解释方案，幸存者追问",
+      "pacing": "高空观察慢，减压处置冷硬"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "arc-climax",
+      "硬着陆",
+      "撞候机厅",
+      "熟人死亡裂缝",
+      "一击毙命战术",
+      "血色迷雾",
+      "临终我爱你",
+      "围网防不住汽车"
+    ],
+    "characters": [
+      "岳子安",
+      "李荣",
+      "副机长陈夏欣",
+      "蔡颖婷",
+      "感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "岳子安 + 李荣视角",
+    "word_count": 4571,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S08.md",
+    "description": "起落架损坏硬着陆+岳子安临终复制粘贴'我爱你' → 撞候机厅+岳子安幻听女友笑声 → 副机长被断柱砸成半截惨死+李荣失神 → 三人穿防疫服持斧+李荣传授一击毙命战术 → 血色迷雾中砍杀突围+岳子安扔斧砸翻牵引车救李荣 → 抢插钥匙皮卡 → 撞毁通电围网冲出",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称坠机逃生，求生意志外显",
+      "diction": "迫降术语混砍杀血雾词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "机长短令和求生回应交替",
+      "pacing": "坠机慢镜后，跑杀段持续加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "arc-climax",
+      "随机死亡",
+      "潦草埋葬",
+      "no-time-to-mourn",
+      "狂犬病回忆",
+      "双线共题",
+      "灰色生存者隐性温柔",
+      "为所爱之人赴死"
+    ],
+    "characters": [
+      "岳子安",
+      "李荣",
+      "蔡颖婷",
+      "驱鸟员",
+      "周书韵"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "岳子安 + 李荣视角",
+    "word_count": 4482,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S09.md",
+    "description": "驱鸟员猎枪流弹打死后排蔡颖婷 → 山林潦草埋葬 → 李荣狂犬病疯狗回忆+决定回家给儿子过成人礼 → 高速撞死路中央人影 → 驾校砸玻璃接电线发动教练车 → 李荣'家人是精神支柱'vs岳子安'被女友认定为唯一'独白 → 分车 → 李荣悄悄留猎枪子弹给岳子安",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称战后分岔，李荣记忆插入",
+      "diction": "葬礼词和狂犬病类比交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "两人商量去向，现实约束明确",
+      "pacing": "埋葬慢，找车路线逐渐收紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "arc-climax",
+      "改装摩托队",
+      "人体器物化",
+      "猎枪首发",
+      "失导航",
+      "慢性煎熬",
+      "被咬",
+      "断臂自救",
+      "不愿伤害所爱之人"
+    ],
+    "characters": [
+      "岳子安",
+      "改装摩托队感染者",
+      "野狗"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "岳子安",
+    "word_count": 3093,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S10.md",
+    "description": "独自驾车不敢停（路过求救男人也没停）→ 改装摩托疯子队（人头插杆+炫光灯+人腿绑车尾+人皮贴灯）对撞 → 黄毛疯子断腿仍抓他 → 猎枪首次开火 → 卡车逼撞侧翻翻滚 → 醒来失手机失方向 → 徒步迷路发烧吃野狗灼烧消毒 → 雨夜被咬左臂 → 脱鞋用脚趾抠扳机开枪自断左臂",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称旅途苦行，执念支撑",
+      "diction": "车祸枪械和野外求生词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白退场，行动和书信主导",
+      "pacing": "事故连续跳切，求生日夜拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "SB-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main-climax",
+      "伪团圆",
+      "POV反转",
+      "爱的异化",
+      "读者代理人镜像",
+      "取信传火",
+      "记住与被遗忘",
+      "罗允登场",
+      "洪扬登场"
+    ],
+    "characters": [
+      "岳子安",
+      "罗允",
+      "洪扬",
+      "周书韵"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "岳子安幻觉视角 → 罗允/洪扬外部接管",
+    "word_count": 2150,
+    "source_chapter": "死亡奔赴",
+    "file": "scenes/scene_SB-S11.md",
+    "description": "数月后衣衫褴褛断臂岳子安抵达约定城市 → 树丛走出'周书韵'微笑递蓝色小花'好久不见' → POV反转：感染者大笑倒下罗允长出一口气 → 揭穿岳子安扑向幸存者洪扬被击杀、女友全是幻觉 → 罗允取胸前遗书+怅然'一路艰辛只剩一封信' → 从信里得到绑轮胎护身+做两手准备经验 → 规划进城路线+合上笔记",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称反讽尾声，爱情被错认",
+      "diction": "抒情重逢词转入战利品清点",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "罗允洪扬闲谈消解苦难",
+      "pacing": "重逢幻觉短促，遗信后余波拉远"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "开篇",
+      "噩梦闪回",
+      "创伤后",
+      "医疗圣地被亵渎",
+      "第一人称POV",
+      "结局伏笔"
+    ],
+    "characters": [
+      "'我'（刘医生）",
+      "刘老师",
+      "感染者群"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "'我'（刘医生）",
+    "word_count": 1110,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S01.md",
+    "description": "手术室开颅手术被大笑感染者闯入虐杀（钢管穿眼/骨锯割头/脑袋当马桶）→ '我' 想跑却动弹不得 → 嚎叫惊醒 → 这是第几次噩梦已忘 → 看窗外白雾树林总觉疯子会冲出",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称梦魇复现，创伤未消",
+      "diction": "手术室术语和屠杀词冲撞",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "无对白，噩梦画面压倒叙述",
+      "pacing": "梦中行动迟滞，惊醒后骤停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "新幸存者抵达",
+      "反转伏笔",
+      "微表情伏笔",
+      "杠精登场"
+    ],
+    "characters": [
+      "'我'",
+      "王幸子",
+      "罗允",
+      "盲女",
+      "赵士轩",
+      "张华",
+      "石浩洋"
+    ],
+    "conflict_type": "interpersonal",
+    "pov": "'我'",
+    "word_count": 1639,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S02.md",
+    "description": "王幸子告知新幸存者来了 → '我' 病床下爬出 → 大厅介绍罗允+盲女 → 王幸子已查无感染风险 → 张华阴阳怪气质疑 → 石浩洋吐痰威胁张华 → 石浩洋夸罗允讲义气+罗允眼中闪过厌恶（伏笔）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称医院日常，疑惧底色",
+      "diction": "幸存者管理词夹个人嫌恶",
+      "rhetoric_density": "low",
+      "dialogue_mode": "大厅介绍和争执建立群像",
+      "pacing": "新客到来中速，张华插话扰动"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "庆祝晚餐",
+      "机场覆灭口述",
+      "军方传闻证伪",
+      "骗子母题",
+      "希望符号祛魅",
+      "嵌套口述"
+    ],
+    "characters": [
+      "'我'",
+      "罗允",
+      "盲女",
+      "张华",
+      "石浩洋",
+      "赵士轩",
+      "王幸子",
+      "陈雨琪",
+      "蔡大妈"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "'我'",
+    "word_count": 4178,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S03.md",
+    "description": "庆祝晚餐 → 大伙追问外界 → '我' 口述机场小队来救我+弹药告罄+孙队长牺牲锁二楼 → 张华质疑'你凭什么重要' → '我骗士兵懂病毒' 半露 → 军方镇守=以讹传讹 → 赵士轩口述机场内乱（弟弟被爆头/飞机撞楼/砍头塞手雷/卡车碾人）→ 张华侮辱大头兵 → 石浩洋踢张华 → '最后一次齐聚' 丧钟",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称饭桌回述，隐瞒自责",
+      "diction": "医院物资词和军队惨状并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "群体问答引出多段往事",
+      "pacing": "晚餐慢铺，争执反复打断叙事"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "认知炸弹",
+      "录音机杀手",
+      "威胁转内部",
+      "控制思想点题",
+      "悬置焦虑"
+    ],
+    "characters": [
+      "'我'",
+      "王幸子"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "'我'",
+    "word_count": 823,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S04.md",
+    "description": "又一次噩梦惊醒 → 王幸子深夜密告 → 罗允带来坏消息：末日里还要防变态杀人狂幸存者 → 杀手只留录音机+犯案位置离医院不远+可能潜伏人群 → 罗允只告诉最值得信任的人 → 知情面尽量小",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称私密告知，疑心启动",
+      "diction": "末日感叹和杀手线索词简洁",
+      "rhetoric_density": "low",
+      "dialogue_mode": "王幸子低声传递危险情报",
+      "pacing": "噩梦醒来慢，情报一句扭转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "录音机内容",
+      "群像嫌疑速写",
+      "猜疑链启动",
+      "偷听暴露",
+      "反讽伏笔",
+      "棋子启用"
+    ],
+    "characters": [
+      "'我'",
+      "罗允",
+      "王幸子",
+      "盲女",
+      "蔡大妈",
+      "林东青"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "'我'",
+    "word_count": 2461,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S05.md",
+    "description": "罗允讲录音机内容（变态以人类神志享受嗜杀，比感染者更歹毒）→ '我' 逐人嫌疑速写（排除我+王幸子；张华/侯楚霖/陈雨琪/三机场男/石浩洋皆疑；林东青可排除——反讽）→ 房门吱呀 → 蔡大妈偷听倒进来+保证保密 → '我' 回房见林东青无哭痕+墙上画大笑人脸",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称推理盘点，焦虑扩散",
+      "diction": "嫌疑名单词和心理分析词高频",
+      "rhetoric_density": "low",
+      "dialogue_mode": "密谈对白推动信息公开失败",
+      "pacing": "逐人排查慢，偷听暴露后失控"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "排查失败",
+      "病毒起源lore",
+      "狂犬寓言",
+      "陨石导火索",
+      "废料排海",
+      "exposition嵌冲突"
+    ],
+    "characters": [
+      "'我'",
+      "罗允",
+      "蔡大妈",
+      "张华"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "'我'",
+    "word_count": 4511,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S06.md",
+    "description": "蔡大妈送饭炫耀私下打探了所有男性+打探到吴志强当兵背景 → 排查优势尽失 → 张华凑来 → '我' 讲李教授狂病学说：古文《狂犬》全文+历史天降异象+张巡守城+陨石导火索+H国废料排海+75%本源感染率 → 张华全程反智抬杠 → 罗允判断张华非杀手",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称科普复述，绝望中推演",
+      "diction": "病毒假说和天象术语密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "罗允追问促成理论说明",
+      "pacing": "解释段长，数字推演带来微光"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "食堂纵火",
+      "替罪羊",
+      "集体围殴",
+      "信任崩坏",
+      "控制思想顶点",
+      "人类即感染者"
+    ],
+    "characters": [
+      "'我'",
+      "罗允",
+      "张华",
+      "石浩洋",
+      "吴志强",
+      "王幸子",
+      "赵士轩",
+      "陆小虎",
+      "侯楚霖",
+      "蔡大妈",
+      "陈雨琪"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "'我'",
+    "word_count": 2518,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S07.md",
+    "description": "凌晨食堂起火烧毁大半物资 → 张华指责罗允救火不力 → 石浩洋质疑人为纵火+逼罗允公开真相 → 吴志强跑下楼抱怨门被锁又开 → 当兵背景+墨镜男指认 → 吴志强承认躲厕所抛下所有人 → 全体围殴至昏迷 → '人类和感染者没区别，病毒只是统一了爆发时间' → 监禁吴志强绑厕所水管",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称群体失控见证，悲观透底",
+      "diction": "火灾物资词转为审判词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "集体质问把嫌疑钉死",
+      "pacing": "救火快，指控和殴打逐步升级"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "盲女绝食而亡",
+      "救人但不强迫",
+      "焦尸送葬",
+      "罗允离场",
+      "唯一温柔时刻",
+      "感官替代同源"
+    ],
+    "characters": [
+      "'我'",
+      "罗允",
+      "盲女",
+      "王幸子"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "'我'",
+    "word_count": 2662,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S08.md",
+    "description": "罗允告知盲女绝食越来越差 → 盲女经历（男友拼死送药）→ 王幸子诊断精神已尽+'黑暗中伸手无回应' 独白 → '盲女想要的也许是死亡' → 盲女扑男友焦尸哭嚎而亡 → 罗允问'我是不是一个人也救不了' → 决定去找李教授 → '我'+王幸子选择留下等死 → 罗允汽油焚烧盲女与男友合葬+携汽油出走",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称陪伴告别，救赎被否定",
+      "diction": "创伤心理词和遗体处理词交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "安慰对话承认无人是主角",
+      "pacing": "病情说明慢，盲女死讯静落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "投毒连锁",
+      "感染者性嗜虐",
+      "痛觉缺失lore顶点",
+      "完成态死亡",
+      "灭口",
+      "铁门被开"
+    ],
+    "characters": [
+      "'我'",
+      "王幸子",
+      "陆小虎",
+      "陈雨琪",
+      "侯楚霖",
+      "赵士轩",
+      "张华"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "'我'",
+    "word_count": 1950,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S09.md",
+    "description": "陆小虎吃的饭掺手指眼球 → 陈雨琪端第二碗未归 → 冲后厨 → 侯楚霖头埋陈雨琪胸腔+陈被开膛 → 陆小虎扑侯被咬手 → 抠爆侯双眼但侯痛觉缺失狂笑'好爽' → 肠子缠陆小虎脖子 → 陆窒息死 → 赵士轩砍杀侯 → 张华报蔡大妈被刀杀+吴志强林东青失踪 → 冲回二楼见铁门门栓被打开",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称连环灾变，判断被迫加速",
+      "diction": "后厨血腥词和封锁设施词并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "惊呼和推断接力推进",
+      "pacing": "饭菜发现快，二楼门锁悬停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "YY-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "破门屠杀",
+      "三重反转",
+      "孩童真凶",
+      "安乐死",
+      "希望符号揭穿屠宰场",
+      "自感染收笔",
+      "骗子闭环"
+    ],
+    "characters": [
+      "'我'",
+      "王幸子",
+      "赵士轩",
+      "张华",
+      "孙队长（感染体）",
+      "石浩洋",
+      "林东青"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "'我'",
+    "word_count": 3601,
+    "source_chapter": "医院",
+    "file": "scenes/scene_YY-S10.md",
+    "description": "赵士轩被铁门夹断手臂 → 孙队长+感染者破门撞飞王幸子 → '骗子'+熟悉军靴 → 撕脸杀赵士轩 → '我' 第一次开枪打翻一个 → 张华抢枪打空子弹被扯下巴咬舌惨死 → '我' 给昏迷王幸子注射2000毫克吗啡安乐死 → 石浩洋携林东青现身+汽油烧死孙队长 → 揭真相：录音机杀手=石浩洋+真凶是七八岁林东青+投毒/纵火/偷钥匙/灭口全是林东青做的+林东青被逼杀父母插花装饰 → '我' 拒绝屈服+趁机抽孙队长血当面注射自感染 → '再也不会做噩梦了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称终局对峙，反抗转自毁",
+      "diction": "枪械药剂和反派炫耀词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "石浩洋长独白揭开全局",
+      "pacing": "门缝袭击爆开，真相独白拖长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "结构性伏笔",
+      "去年录下的春晚",
+      "时间锚点",
+      "观鸟台守夜",
+      "感染者过年仪式化",
+      "激励事件",
+      "无人机监视伏笔"
+    ],
+    "characters": [
+      "黄金大厦原住民群像",
+      "中年男人(老张)",
+      "金发女人",
+      "罗允",
+      "洪扬"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "第三人称(群像窗口→罗允/洪扬限知)",
+    "word_count": 2954,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S01.md",
+    "description": "春晚群像吃录下的春晚啜泣'回不去了'(大厦原住民伏笔) → 罗允/洪扬观鸟台守夜(末日十个月) → 体育馆感染者砸头当放炮/挂尸当灯笼 → 弹药将尽决定进城拿弹药(激励事件) → 罗允'不想死所以继续'奔死理由 + 被隐匿的眼睛盯上(无人机伏笔)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称节日反讽，远景切近景",
+      "diction": "年俗词和酷刑词强烈对撞",
+      "rhetoric_density": "high",
+      "dialogue_mode": "罗允洪扬低声闲谈压住惨景",
+      "pacing": "年夜慢铺，望远镜暴行持续延长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "野猪对抗感染者",
+      "个体vs疯子群",
+      "预演",
+      "动物不感染",
+      "人肉腊肉林",
+      "痛觉缺失lore"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "野猪",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "罗允",
+    "word_count": 1840,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S02.md",
+    "description": "跨江大桥干瘪尸体如腊肉挂栏 → 十几个感染者追杀野猪 → 野猪撞飞/咬断感染者脖子凶悍 → 仍被斧头菜刀群虐倒地 → '再凶悍个体也敌不过疯子群'预演(反衬Arc7创世军被普通人群反杀) + 动物不感染再确认",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称城市潜行，观察冷静",
+      "diction": "桥梁尸体词和动物搏杀词并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短评式对白调节猎奇画面",
+      "pacing": "绕行等待慢，野猪围杀成高潮"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "拿子弹",
+      "突围搏杀",
+      "三路口围堵",
+      "生存绝境",
+      "感染者进化挡箭牌",
+      "希望被外部赠予落点"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "感染者群",
+      "光头感染者"
+    ],
+    "conflict_type": "external",
+    "pov": "罗允",
+    "word_count": 3706,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S03.md",
+    "description": "射击馆枪械全废但设备室满地.22子弹+洪扬'过年了' → 出门遭几十感染者 → 摩托砍刀突围+洪扬手枪掩护 → 光头感染者抓同伴当挡箭牌(进化)+砍刀脱手 → 冲出抵达十字路口见三路口全堵=死地(Arc2 climax)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称行动战术，判断密集",
+      "diction": "枪械口径和街巷突围词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "战术短句和吐槽穿插",
+      "pacing": "搜物资渐松，感染者合围骤紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "对拳赴死",
+      "无人机引路",
+      "地下车库逃生",
+      "电梯升入大厦",
+      "地狱里的天堂题眼",
+      "被救可疑"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "无人机",
+      "感染者群",
+      "中年男人(老张)"
+    ],
+    "conflict_type": "external",
+    "pov": "罗允",
+    "word_count": 1723,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S04.md",
+    "description": "罗允交笔记本+洪扬'一起冲一起死'英雄式对拳 → 无人机投燃烧弹引路 → 冲进地下车库黑暗回音如无间炼狱 → 绿光逃生灯+电梯升6层 → 中年男人'欢迎来到地狱里的天堂'(Arc3 climax,主题反讽题眼出口)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称绝境突围，救援突降",
+      "diction": "无人机电梯词冲入末日逃亡",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "临死玩笑和欢迎词形成反差",
+      "pacing": "背水一战蓄满，电梯门缓慢开新局"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "大厦初识",
+      "饺子宴假笑嘲讽",
+      "拯救世界被嘲",
+      "25层回音长廊",
+      "罗凯伯登场",
+      "反向自保"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "老张",
+      "金发女人",
+      "杨中旭",
+      "陆思静",
+      "秦正肖",
+      "罗凯伯"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "罗允",
+    "word_count": 3512,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S05.md",
+    "description": "饺子宴不敢吃+老张盘问 → 罗允说'拯救世界'被原住民连锁假笑嘲讽 → 罗允'实话太夸张反被当假话'反向自保 → 冷水澡密谋 → 25层回音长廊/喷泉养龟/铁门/安检 → 见'唯一的神'罗凯伯(Arc4建置,乌托邦阶层基调)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称宴席盘问，奢华压迫",
+      "diction": "高楼餐饮词混幸存等级词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "罗凯伯审问式寒暄主导",
+      "pacing": "饭桌缓慢试探，嘲笑逐步围拢"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "失眠夜",
+      "财富魔幻对照",
+      "过分友善反常",
+      "赤裸嗅死亡日记",
+      "反派本质投放",
+      "霍乱lore",
+      "shadow_desire对抗诱惑"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "罗凯伯"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "罗允+罗凯伯内心POV",
+    "word_count": 5186,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S06.md",
+    "description": "失眠夜一万块水/十来万酒+输液港vsPICC阶级对照 → 三天认证/全员陪葬/本地AI → 识破'过分友善'反常 → 罗凯伯赤裸嗅死亡日记自我窒息精华雨落感染者(反派本质投放) → 霍乱遗书'瘟疫清除不了感染者' → 罗允拒留'最后想做的事'(Arc4 climax)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称夜谈，阶层反思清晰",
+      "diction": "价格数字和避难设施词高频",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "床上低语揭出不安推理",
+      "pacing": "安全环境慢谈，疑点一点点浮出"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "套情报",
+      "被派外出炮灰",
+      "洪扬自杀背景",
+      "秦正肖顶替陆思静",
+      "大厦内部反抗线",
+      "老张谋私"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "陆思静",
+      "老张",
+      "杨中旭",
+      "倪海鹏",
+      "秦正肖",
+      "罗凯伯"
+    ],
+    "conflict_type": "interpersonal+external",
+    "pov": "罗允(+老张/罗凯伯穿插)",
+    "word_count": 2277,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S07.md",
+    "description": "洪扬'铁路尽头是归宿'自杀背景 → 陆思静沉默吃羊排异常 → 罗允套出'又得有人出去' → 老张+杨中旭下外出命令(阀门坏) → 四人队 → 老张向罗凯伯邀功'挑了炮灰' → 真陆思静反锁躲房间房主顶替混入(Arc5建置,反抗线悬念)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称套话探询，暗流推进",
+      "diction": "外出名额和特权食物词交错",
+      "rhetoric_density": "low",
+      "dialogue_mode": "罗允旁敲侧击套出制度",
+      "pacing": "闲聊慢探，判断转为行动预感"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "宜家地狱探险",
+      "人皮钉墙",
+      "人头书柜",
+      "天堂地狱镜像",
+      "罗允首次开猎枪",
+      "鱼线陷阱",
+      "挟持物料伏笔"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "倪海鹏",
+      "秦正肖",
+      "枯骨感染者",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "罗允",
+    "word_count": 4593,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S08.md",
+    "description": "感染者孕妇婴儿暴行 → 紧急通道腐液/人皮钉墙/人头书柜(大厦外地狱秀,与大厦内天堂镜像) → 罗允偷拿防水涂料塞洪扬(挟持伏笔) → 倪海鹏被枯骨感染者拽倒暴露 → 原路突围(罗允首次开猎枪+鱼线勒眼球+燃烧瓶) → 大厦无人机吸火力",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称地下搜索，感官压迫",
+      "diction": "商场设施词裹满腐烂尸体词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "小声指令维持潜行秩序",
+      "pacing": "潜行极慢，尸景层层压低呼吸"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "秦正肖揭内幕",
+      "老张谋私",
+      "罗凯伯看戏",
+      "数字论",
+      "倪海鹏崇拜罗允",
+      "挟持计划成形",
+      "信息揭示转折"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "秦正肖",
+      "倪海鹏"
+    ],
+    "conflict_type": "interpersonal",
+    "pov": "罗允",
+    "word_count": 2518,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S09.md",
+    "description": "秦正肖坦白:机械维修履历(保密真因)+代陆思静因男友被老张选去逼她就范 → 揭老张谋私+罗凯伯'大部分人是数字'+外派像看戏 → 倪海鹏崇拜罗允'传奇般存活' → 罗允暗下决心挟持计划成形(Arc5 climax,真相全貌到手)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称停顿审问，情侣线插入",
+      "diction": "权力交易词和恋人承诺并列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "秦正肖长段解释大厦生态",
+      "pacing": "危机后缓谈，情报逐条展开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "挟持罗凯伯",
+      "TNT噱头",
+      "权力反转",
+      "创世军火箭筒攻楼",
+      "拿枪感染者lore",
+      "王家乐叛变",
+      "内外双线引爆"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "罗凯伯",
+      "秦正肖",
+      "倪海鹏",
+      "老张",
+      "杨中旭",
+      "黑衣感染者(创世军)",
+      "王家乐"
+    ],
+    "conflict_type": "external+interpersonal",
+    "pov": "罗允+罗凯伯(穿插)",
+    "word_count": 5530,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S10.md",
+    "description": "花洒水声密谋+'商场硬盘'诱饵偷袭反绑罗凯伯+防水涂料冒充TNT+洪扬拔手雷插销震慑高层 → 警铃+防弹玻璃弹孔 → 拿枪感染者lore(军人/坦克碾肉泥/陷阱猎手) → 黑衣感染者(创世军)火箭筒把头颅插弹头射楼 → 老张漏关防护门 → 王家乐对讲机叛变(Arc6前段,权力反转+双线引爆)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称挟持谈判，宣言外露",
+      "diction": "洗浴密谋词转为历史尘埃论",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "罗允宣言和罗凯伯冷嘲对撞",
+      "pacing": "骗局快成型，谈判中段拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "监视屏地狱秀",
+      "感染者攻坚协作",
+      "老鼠卖队友受难",
+      "厨房烤人",
+      "看与被看",
+      "罗凯伯看死亡获快感",
+      "AI弃楼",
+      "全篇最暗"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "罗凯伯",
+      "老张",
+      "王家乐",
+      "老鼠",
+      "保洁同伴",
+      "厨房员工",
+      "本地AI"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "罗允+工作人员受难POV+罗凯伯",
+    "word_count": 5768,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S11.md",
+    "description": "感染者如霉菌爬楼 → 王家乐开9层所有防护门让感染者进楼(攻坚协作进化) → 老鼠卖队友后被撬肋骨掏肺/头颅当尿池 → 厨房员工被烤箱烤成焦糖分食 → 罗凯伯专注看监视屏忘了被劫持'都是他们自找的'(看死亡获快感) → 武器库+AI建议弃一号去二号地堡(Arc6中段,全篇最暗)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称灾变俯瞰，楼层切片",
+      "diction": "大厦防御词和入侵屠杀词并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "监控对白显示权力调度",
+      "pacing": "外部浪潮推进，楼内个案慢杀"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S12",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main climax",
+      "回音长廊引感染者",
+      "逼罗凯伯推门体验死亡",
+      "死亡哲学对峙",
+      "反派本质逼出",
+      "认知同步"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "罗凯伯",
+      "秦正肖",
+      "倪海鹏",
+      "老张",
+      "两个保镖",
+      "感染者群"
+    ],
+    "conflict_type": "external+internal+interpersonal",
+    "pov": "罗允+罗凯伯内心POV",
+    "word_count": 3483,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S12.md",
+    "description": "罗允'只想做一件事' → 押所有人到回音长廊对长廊射击引感染者 → 罗凯伯'全楼陪葬+地下层那些人'vs罗允'我只想看你迷恋死亡者真死时什么样' → 放众人进只留罗凯伯一个 → 罗凯伯弓身独力推700公斤门关闭保命 → '爽吗''爽'/被抓住摇头(反派本质逼出,认知同步,全篇main climax)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称死亡实验，心理施压",
+      "diction": "回音走廊词和濒死恐惧词交替",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "罗允逼迫众人面对感染者",
+      "pacing": "枪声引诱慢，关门前极限反转"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "HJ-S13",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "closing reversal",
+      "创世军被普通人钢卷反杀",
+      "陶亦仁跨篇钩",
+      "星星之火燎原",
+      "双哲学和解妥协",
+      "记录传火收笔",
+      "卫星电话余韵"
+    ],
+    "characters": [
+      "罗允",
+      "洪扬",
+      "罗凯伯",
+      "老张",
+      "陆思静",
+      "十几人反抗队",
+      "发型怪异男人",
+      "创世军追猎者青年"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "罗允+罗凯伯+创世军追猎者青年POV",
+    "word_count": 5377,
+    "source_chapter": "黄金国",
+    "file": "scenes/scene_HJ-S13.md",
+    "description": "罗凯伯坦白濒死癖+劝罗允抛众随直升机走(只活五人) → 十几人推钢卷压感染者成血色肉饼 → 创世军追猎者POV(老大哥胯下缝陶亦仁脸皮,跨篇钩) → 罗允'星星之火足以燎原'反孤独 → 罗凯伯'老张是我的手套'+双方妥协协议+'逃避死亡却不恐惧死亡' → 罗允奔死理由独白 → 罗凯伯也开始记笔记 → 陆思静卫星电话'记录一个冒险故事'(closing reversal+记录传火收笔)",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称理念对峙，宏观开阔",
+      "diction": "直升机退路和钢卷袭击词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "罗凯伯坦白残酷选择逻辑",
+      "pacing": "高层谈判慢，外部反攻突然点燃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "开篇",
+      "炼狱餐厅",
+      "游戏化嗜虐",
+      "屎味巧克力运气",
+      "存在感焦虑"
+    ],
+    "characters": [
+      "张亦川"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "张亦川",
+    "word_count": 1382,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S01.md",
+    "description": "杂物间两幸存者被划肚扯肠 + 热胃袋掉张亦川面前致其呕吐暴露 → 感染者发现却被门外异响引走（第三次生还）→ 穿行欢愉感染者中反比躲藏安全 → 回忆从小'谁都可以代替他' → 悟出'屎味巧克力' 运气：有其他猎物时被忽视",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴张亦川，隐身感自嘲",
+      "diction": "餐厅食物词变成血肉烹调词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "内心独白解释特殊运气",
+      "pacing": "濒死慢放，逃出后回忆插入"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "搭档",
+      "昂族",
+      "被选择",
+      "记忆点经济学",
+      "黑色幽默"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 1759,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S02.md",
+    "description": "刺成云丹羡慕张亦川运气 vs 张亦川羡慕他名字有记忆点 → 刺成云丹'救了的朋友灵魂也可托付 + 我都选择你' → '直男' 误会喜剧 → 张亦川'末日后第一次跟人讲这么多话' → 引出老大哥八人和尚队伍 + 2 比 1 纪律",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称伙伴对话，末日回顾",
+      "diction": "民族名字和队伍经验词交错",
+      "rhetoric_density": "low",
+      "dialogue_mode": "张亦川刺成云丹互补闲聊",
+      "pacing": "友情慢铺，搜索行动中速转入"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "陶亦仁",
+      "死亡奔赴",
+      "感召",
+      "天上烟花",
+      "创世军"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "老大哥",
+      "陶亦仁",
+      "30岁同伴"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 2720,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S03.md",
+    "description": "老大哥评陶亦仁'像一场风暴' → 推心置腹问众人'活着只为活着是否痛苦' → 30 岁同伴讲妻儿被虐杀为救赎留下 → 张亦川转述给刺成云丹也留下 → 陶亦仁'天上烟花' 感召新人 → 慈不掌兵：病态世界需要匹配的疯子",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称回忆编年，理念溯源",
+      "diction": "队伍口号和求生技术词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "老大哥长谈确立牺牲逻辑",
+      "pacing": "传闻到入伙层层递进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "创世军",
+      "无名编号制",
+      "创造手势",
+      "神明传闻",
+      "集体释放"
+    ],
+    "characters": [
+      "张亦川",
+      "陶亦仁"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "张亦川",
+    "word_count": 1731,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S04.md",
+    "description": "'创造' 手势 + 无名编号制 + 死亡哲学宣讲 + 用人命考验新人 → '队伍像巨人细胞，陶亦仁是脑袋' → 神明下凡/沾血不感染/吓跑感染者群传闻 → 三十人主动剿灭十几感染者 → 集体释放'哪怕此刻死了也值得'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称组织史，信仰化叙述",
+      "diction": "手势编号和巨人隐喻高频",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，制度说明主导",
+      "pacing": "队伍扩张渐强，战果释放压抑"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "标题真相",
+      "51人崩塌",
+      "神明流血",
+      "痛苦型感染者",
+      "省略美学"
+    ],
+    "characters": [
+      "张亦川",
+      "陶亦仁",
+      "老大哥",
+      "创世军感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "张亦川",
+    "word_count": 676,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S05.md",
+    "description": "'算上张亦川队伍达 51 人 → 一个女人让抗争戛然而止'（标题真相）→ '神明会流血吗' → 陶亦仁被感染的创世军同伴撕成米黄色骸骨 → 痛苦型感染者：怒吼多于大笑 + 自毁性泄欲 → '人类欲望深处便是自我毁灭'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称神话崩塌，远距离目击",
+      "diction": "神明流血词和自毁泄欲词并用",
+      "rhetoric_density": "high",
+      "dialogue_mode": "无对白，以惨景摧毁信仰",
+      "pacing": "一句转折断崖，狂欢段持续下沉"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "黄金殿",
+      "三欲三原色论",
+      "物质祛魅",
+      "存在感焦虑",
+      "烟雾预警"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "秦良岳"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 1119,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S06.md",
+    "description": "黄金殿金饰避难所 + 金手镯刮面包的讽刺 → 张亦川问'人活着都想要的金子，感染者为何不要' → 医生'三欲三原色' 论（金钱只是介质，感染者无限释放三欲故介质失效）→ 烟雾分级预警转移 → 队员只听刺成云丹和医生 → 张亦川'我果然啥时候都没存在感'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称避难闲谈，哲思插入",
+      "diction": "黄金饰品词和欲望理论词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "三人讨论欲望与生存指令",
+      "pacing": "饭后闲聊慢，烟雾信号催转移"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "跨篇钩",
+      "追杀罗允",
+      "继承意志",
+      "抛弃诱饵",
+      "灰色化"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "秦良岳",
+      "被抛弃的诱饵队员"
+    ],
+    "conflict_type": "interpersonal + external + internal",
+    "pov": "张亦川",
+    "word_count": 1920,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S07.md",
+    "description": "深夜九人小队 + 中转站撕破译书 + 炭笔写沦陷警示 + 收新人抹名编号 → 陶亦仁最后命令'追杀罗允，两个人在行动'（刺成云丹转述）→ 计划去零食工厂找武器 → 陷阱触发 60 秒转移 → 张亦川故意拽倒挤撞同伴的队员当活饵 + 踹脸抢背包 + '跨越他' → 仅医生察觉",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称帐篷会议，战术紧张",
+      "diction": "陷阱无线电和追踪感染者词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "张亦川命令需刺成云丹复述",
+      "pacing": "会议慢推理，警报后快速溃逃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "低价值猎物气质",
+      "屎味巧克力命名",
+      "挡箭牌",
+      "镜像对照",
+      "标题钥匙句"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "秦良岳"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 982,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S08.md",
+    "description": "张亦川想叫队员当挡箭牌陪去医院 → 刺成云丹拒绝'以命换命下地狱' → 张亦川怒'现在不就是地狱吗' → 医生主动'我和你去' → 解释张亦川'低价值猎物气质'（捕食者略过性价比低的猎物）→ '若不是最后剩三个，我都不会注意到创世军有 51 个人'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称伦理商议，误判揭开",
+      "diction": "医学注射词和存在感分析词并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "医生冷静解释自己将死",
+      "pacing": "拒绝到接受缓慢转向"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "毒虫偏见反转",
+      "癌症晚期真相",
+      "肿瘤药理",
+      "高锰酸钾炸弹",
+      "易记的名字"
+    ],
+    "characters": [
+      "张亦川",
+      "秦良岳"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 1462,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S09.md",
+    "description": "取曲马多/可待因/青霉素/阿司匹林 + 高锰酸钾（白糖炸弹关键）→ 曲马多'可用于癌痛' → 医生坦白直肠癌晚期/肺转移/头盖骨转移 → 张亦川内心嚎叫'我操' 道歉 → 肿瘤区找到瑞格非尼 → 厌恶转愧疚尊敬 → 第一次问名字'秦良岳'（又一个易记的名字）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称药房搜寻，误会化解",
+      "diction": "药品名和癌症病理词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "医生科普病情，张亦川自责",
+      "pacing": "取药平稳，癌症真相让节奏沉下"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main高潮",
+      "无名同伴自爆",
+      "哲学崩塌",
+      "那是一条命",
+      "双刀感染者"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "秦良岳",
+      "无名自爆同伴",
+      "双刀感染者"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "张亦川",
+    "word_count": 1390,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S10.md",
+    "description": "张亦川亮朋克纹身解释学杂技能为'融入群体' 却融不进 → 双刀感染者反常居中难炸 → 汽修同伴自告奋勇驾皮卡自爆 + '看不到头的日子想结束了' → 说说笑笑搬炸药 + 比大拇指 → 张亦川'那是一条命，是同伴呀'（哲学崩塌）→ 皮卡冲入人群自爆 → '自己都不知道那个同伴的名字'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称牺牲决策，理念动摇",
+      "diction": "炸药皮卡和同伴名字缺席并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "众人沉默中由自愿者打破",
+      "pacing": "战术讨论慢，爆炸瞬间震断信念"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "51-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "告别",
+      "controlling-idea-payoff",
+      "好人没好报",
+      "自选感染安乐死",
+      "夕阳余韵"
+    ],
+    "characters": [
+      "张亦川",
+      "刺成云丹",
+      "秦良岳"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "张亦川",
+    "word_count": 1682,
+    "source_chapter": "51人",
+    "file": "scenes/scene_51-S11.md",
+    "description": "失明的秦良岳告别 → 独白：救过病人/垫付医药费/患癌后被质疑医术/害怕被遗忘无意义 → 张亦川'我们很像' + '因你而活的人还活着，你所做的一切就有意义/每个人的存在都是那个人来过的印记'（payoff，也治愈自己）→ 张亦川扶其出门偷割臂涂感染血肉助安乐死 → 秦良岳'谢谢' + 留急救本子 → 蹦跳奔向夕阳余晖倒在膝盖上",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称临终告别，温柔克制",
+      "diction": "癌痛药物词和意义追问词交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "秦良岳自白与张亦川安慰并重",
+      "pacing": "告别长谈，感染奔跑作安静落幕"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "开篇",
+      "外视角",
+      "套中人立人设",
+      "街坊歧视",
+      "暴力征兆前奏",
+      "契诃夫指涉"
+    ],
+    "characters": [
+      "婉清",
+      "婉清奶奶",
+      "孙大娘",
+      "洪扬（被旁观）",
+      "眼镜老头"
+    ],
+    "conflict_type": "external",
+    "pov": "外视角（婉清祖孙/孙大娘）",
+    "word_count": 1516,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S01.md",
+    "description": "公交站街坊议论城西婚礼打死人 → 眼镜老头'婚宴年=兵荒马乱' → 警车呼啸 → 婉清盯着层层包裹的怪人（黑帽+护目镜+口罩+围脖+手套+蓝牙耳机）→ '像独自隔离了整个世界' → 奶奶把孙女护身后 → 孙大娘'神神叨叨阴气森森/上学上傻了'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称儿童观察，日常异样化",
+      "diction": "社区闲话和怪人服饰细节并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "老人聊天铺垫社会不安",
+      "pacing": "早市出行慢，怪人出现轻微悬疑"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "内焦点切入",
+      "套子心理病因",
+      "童年创伤台词",
+      "守规则强迫逻辑",
+      "父亲安全关系"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山（提及）",
+      "母亲（回忆）"
+    ],
+    "conflict_type": "internal",
+    "pov": "洪扬（第三人称限知）",
+    "word_count": 666,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S02.md",
+    "description": "洪扬习惯被当怪物的目光+露眼睛都恐慌 → 母亲'你这样别人会觉得你是变态'创伤台词 → '遵守规则就对了'强迫逻辑（靠右走/没交作业自觉站起）→ 死板但可靠 → 唯一可不守规则的人=父亲洪宝山（'你懂个鸟'断绝劝他正常的朋友）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴洪扬，童年阴影内化",
+      "diction": "规则词和身体遮蔽词反复",
+      "rhetoric_density": "low",
+      "dialogue_mode": "几乎无对白，内心回忆主导",
+      "pacing": "骑行平稳，回忆慢慢压入"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "人群炸了",
+      "善意者被毁灭",
+      "断手意象",
+      "轻盈写残忍",
+      "认知崩坏"
+    ],
+    "characters": [
+      "洪扬",
+      "婉清",
+      "感染者群",
+      "两个留守警察"
+    ],
+    "conflict_type": "external",
+    "pov": "洪扬",
+    "word_count": 827,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S03.md",
+    "description": "脚手架上的人跳下咬警察 → 满身血迹的人涌出 → '人群炸了' → 婉清与奶奶被冲散裹挟向马路 → 洪扬犹豫救不救 → 婉清被疯子当木偶甩动砸人 → 洒水车碾碎'如花朵四分五裂' → 那只送过花的小手飘到洪扬面前 → 撕碎洪扬认知中的现实",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称灾变目击，迟疑成创伤",
+      "diction": "人群爆炸词和儿童意象对撞",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "行动压过对白，内心争执明显",
+      "pacing": "犹豫一拍，死亡瞬间砸落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "咖啡厅避难",
+      "见死不救",
+      "切手指凌迟",
+      "纯人性恶1",
+      "冷血畜生控诉",
+      "反英雄自觉"
+    ],
+    "characters": [
+      "洪扬",
+      "外卖小哥",
+      "时髦客人",
+      "咖啡厅店员",
+      "感染者群"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "洪扬",
+    "word_count": 1652,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S04.md",
+    "description": "外卖小哥喊洪扬进咖啡厅+防盗栏关闭 → 栅栏外幸存者呼救无人敢开门 → 时髦客人抓栅栏哀求'我每天来大家都认识' → 店员吓瘫 → 疯子一根根切他手指 → 客人用最后几根手指死死勾住防盗栏 → 只剩手掌被拖走+痛斥'你们都是冷血畜生' → 洪扬不敢看+自觉'想活就要自私一些'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称避难旁观，羞愧压迫",
+      "diction": "防盗栏词和求救酷刑词并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "哀求辱骂穿透安全空间",
+      "pacing": "室内停滞，窗外惨剧反复"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "士兵POV插入",
+      "战争泥潭",
+      "军方内乱",
+      "战斗机自炸车队",
+      "通讯兵感染",
+      "遗物传火",
+      "制度救赎破产"
+    ],
+    "characters": [
+      "徐永恒",
+      "军士长",
+      "通讯兵（感染体）",
+      "崩溃自爆的士兵",
+      "洪扬"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "徐永恒（内焦点插入）→ 爆炸后交汇洪扬",
+    "word_count": 3926,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S05.md",
+    "description": "徐永恒幻想奔赴战场vs真扣扳机的痛苦 → 越纽连队奉国防部令支援勒德州空军基地 → 军队保护群众却分不清敌我+杀错平民 → 抱孩子女人扔烂肉+喊话被利用 → 士兵精神崩溃杀战友+拔手雷自爆 → 战斗机投弹炸己方+通讯兵假装通话辱骂+战斗机撞车队 → 徐永恒被炸飞到洪扬身边+临终按手雷带断气 → 洪扬第一次扔手雷逃生+带走狗牌与武器",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称军人视角，实战幻想破碎",
+      "diction": "军事调度词和街头屠杀词混用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "命令转述推动防线崩坏",
+      "pacing": "支援任务中速，暴乱规模递增"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "回小区",
+      "失去的熟人",
+      "力量暴增lore",
+      "父亲铁锹救场",
+      "逼撕开不杀人套子",
+      "弧光推力"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山",
+      "老人感染者群",
+      "刘叔（尸体）"
+    ],
+    "conflict_type": "external + interpersonal",
+    "pov": "洪扬",
+    "word_count": 1688,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S06.md",
+    "description": "垃圾处理区远望熟悉小区=人间炼狱 → 刘叔挂'喜'字下+腹腔接血脏脸盆 → 修车下棋大爷被虐杀 → '失去时才回味美好' → 洪扬不忍砸老人头 → 发现老头力量暴增 → 被断手塞车轮失速倒地被控制 → 父亲铁锹劈进老人头骨救场 → '像小时候被欺负父亲出现' → 父亲'别那么死板，他们要杀你你就先杀他们'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称归家见证，熟人尸化",
+      "diction": "小区旧事词和杀戮现场词交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "手机催促和内心回忆交替",
+      "pacing": "熟人回忆放慢，接战犹豫"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "断手开密码锁",
+      "陈老太死",
+      "缺席死法",
+      "懦弱旁观自审",
+      "猫眼黑暗即感染者脸",
+      "围困恐怖顶点"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山",
+      "陈老太（被害）",
+      "感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "洪扬",
+    "word_count": 1591,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S07.md",
+    "description": "群里警告'暴徒用断手开密码锁' → 楼道密码解锁声 → 陈老太独居用密码锁 → '5楼夫妇'站门口（其实是感染者）→ 砸门 → 开门声 → 楼上只有辱骂大笑无呼救 → 洪扬懂4楼住户为何不回复（无脸说眼睁睁看老人被害）→ 心中声音骂他懦弱是元凶 → 习惯性敲门 → 猫眼里'黑暗'其实是感染者贴脸的眼睛 → 砸门转向洪扬家",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称楼道监听，罪疚累积",
+      "diction": "群聊提示和门锁声压迫",
+      "rhetoric_density": "low",
+      "dialogue_mode": "父子低声推理等待灾祸",
+      "pacing": "解锁声拖长，开门后坠落"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "放风",
+      "父亲道歉",
+      "童年家暴回溯",
+      "创伤台词闭环",
+      "父子承诺铺垫",
+      "母亲否定顶点"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山",
+      "母亲（回忆）",
+      "小洪扬（回忆）"
+    ],
+    "conflict_type": "internal",
+    "pov": "洪扬",
+    "word_count": 1426,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S08.md",
+    "description": "放风时蓝天通透vs地面血腥 → 父亲突然道歉（当初把洪扬留给母亲）→ 童年创伤回溯：被打骂/撒谎/想逃跑都被骂'不正常' → 割腕幻想母亲道歉却换来'你这样别人会觉得你是变态'（创伤台词闭环）+'会演戏接着演' → 父亲当年因学校电话（洪扬差点打死同学）醒悟+蹲下抱住'对不起'+发誓永不抛下 → 母亲站楼顶威胁跳楼阻止离婚",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称亲子静谈，创伤剥开",
+      "diction": "天空清澈词和心理伤痕词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "父亲道歉牵出旧年阴影",
+      "pacing": "放风慢谈，回忆逐层打开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "对楼弹弓引感染者",
+      "反串引战网民",
+      "纯人性恶顶点",
+      "反派内心独白",
+      "爬窗破防",
+      "套子对决"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山",
+      "对楼5楼住户",
+      "感染者群"
+    ],
+    "conflict_type": "interpersonal + external",
+    "pov": "洪扬（主）+ 对楼住户内心（插入）",
+    "word_count": 1537,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S09.md",
+    "description": "父亲招手以为对楼是同类幸存者'其实没那么糟' → 对楼瘦削身影看一眼转身离开 → 弹弓再次瞄准 → 洪扬判断是人类 → 对楼专打玻璃（用花盆碎块不用弹珠）→ 玻璃碎引感染者聚集 → 对楼住户内心：反串引战网民终于能现实主宰别人生命+嫉妒'凭什么他们有吃的' → 父子拆推拉窗失败 → 着火带长矛感染者爬上窗台+身后至少七个 → 弃家上天台",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称阳台危机，恶意显形",
+      "diction": "弹弓玻璃词和嫉妒独白并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "父子判断对楼是否感染",
+      "pacing": "闲谈被碎玻璃打断后加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "天台绝境",
+      "701私设门",
+      "守规则者受害怒吼",
+      "父亲断后惨死",
+      "主高潮",
+      "撕开套子",
+      "完成态死亡",
+      "真正体验死亡"
+    ],
+    "characters": [
+      "洪扬",
+      "洪宝山",
+      "感染者群"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "洪扬（穿插洪宝山临终内焦点）",
+    "word_count": 1539,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S10.md",
+    "description": "天台门外竟有701私设的另一扇门 → 洪扬怒吼'为什么遵守规则的我受伤' → 手枪对门锁犹豫跳弹 → 父亲'你很优秀，怕事不做事做事不怕事，我永远是你的后盾' → 父亲扑向感染者断后 → 穿防刺服仍被砍十几刀+割舌抠眼仍挥刀+临终大脑仍命令自己保护孩子 → 洪扬不顾跳弹疯狂射击'死之前杀光所有人' → 来到父亲身边时父亲已死 → 第一次真正体验死亡'世界永远缺失一个人'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称楼道血战，父爱爆发",
+      "diction": "规矩怒骂和近身砍杀词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "洪宝山遗言式鼓励压过混乱",
+      "pacing": "门前停滞，父亲冲锋爆开"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TZ-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "702开门打断自杀",
+      "唐志林转达遗言",
+      "勇敢本质是爱",
+      "本我超我末日解读",
+      "复仇",
+      "焚家送葬",
+      "罗允追上",
+      "活下来即偿还",
+      "closing reversal"
+    ],
+    "characters": [
+      "洪扬",
+      "唐志林",
+      "对楼5楼住户",
+      "感染者群",
+      "罗允",
+      "洪宝山（遗体）"
+    ],
+    "conflict_type": "internal + external",
+    "pov": "洪扬",
+    "word_count": 4059,
+    "source_chapter": "套中人",
+    "file": "scenes/scene_TZ-S11.md",
+    "description": "左手抚父亲脸颊+右手掏手雷拉环 → 702开门打断自杀 → 几天后唐志林酒后对谈'恨自己吗' → 唐志林心理学解读'洪叔不是勇敢，是更怕失去你' → 洪扬嚎啕大哭 → 唐志林本我/超我解读（感染者=只剩本我的人，网暴是轻症）→ 唐志林南下圆梦故事（载母亲遗照看晴天明珠塔坐船）→ 互赠遗物+唐志林承认'若非看你要引爆才开门' → '弘叔说的没错，他儿子真的很优秀' → 洪扬汽油火球弹弓反杀对楼住户 → 唐志林引感染者撑砖头+5楼住户被全身塞洞 → 焚家+焚父亲遗体 → 沿北区铁路南下'以前跟着父亲走现在只有自己了' → 罗允骑摩托追上不断挥手",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称创伤复盘，理论安慰",
+      "diction": "心理学词和本我超我词明确",
+      "rhetoric_density": "low",
+      "dialogue_mode": "唐志林分析父亲勇敢本质",
+      "pacing": "哭泣后转入理性解释"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "灾星自白",
+      "不可靠叙述者",
+      "校园爆发",
+      "病征教学",
+      "游戏化嗜虐",
+      "回溯剧透"
+    ],
+    "characters": [
+      "「我」（李鸾）",
+      "陶金慧老师",
+      "阶梯教室三学生",
+      "感染者群"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "「我」第一人称回溯",
+    "word_count": 2364,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S01.md",
+    "description": "灾星自白（克母难产/裂脑术败家/老头坠亡）+ 「此时的我却是全人类的希望」悬念前置 → 操场跑操学生集体变疯（阿鲁巴掰腿撞栏杆）→ 阶梯教室陶金慧被剥皮+三学生惨死 → 「我」翻窗逃出 —— 不可靠叙述者回溯口吻先把「灾星」身份抛出，篇名「不详/不祥」初次落地",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称灾星自述，命运论开场",
+      "diction": "医学手术词和校园暴乱词并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，自我解释主导",
+      "pacing": "身世慢铺，操场爆发骤烈"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "免疫悬念",
+      "被咬不感染",
+      "浓痰传染",
+      "自感染提议",
+      "文具盒闪回",
+      "第二人格潜入"
+    ],
+    "characters": [
+      "「我」",
+      "厕所四学生（寸头男等）",
+      "感染者",
+      "陶亦仁（昏迷闪回）"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 3393,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S02.md",
+    "description": "厕所加入四学生 + 「我」提议集体感染被骂精神病 → 从未被咬的寸头男（浓痰溅眼）最先变异屠杀同伴 → 「我」变异感后昏迷+闪回蓝色文具盒小男孩 → 醒来浑身血却没感染 —— 免疫/无症状身份悬念建立（information脊椎起点），陶亦仁人格伪装成「儿时朋友记忆」首次潜入",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称逃生回忆，事后纠错",
+      "diction": "厕所躲藏词和传染推理词交错",
+      "rhetoric_density": "low",
+      "dialogue_mode": "学生叙述补全最初认知",
+      "pacing": "窗沿紧张慢，隔间危机加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "第二人格登场",
+      "同脑信息伏笔",
+      "感染者视觉识别",
+      "焚尸祭坛",
+      "人体喷泉",
+      "麻木化"
+    ],
+    "characters": [
+      "「我」",
+      "陶亦仁",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "「我」",
+    "word_count": 3578,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S03.md",
+    "description": "陶亦仁「醒了兄弟」登场+叫出「李鸾」+自称儿时同学 → 问沃尔沃车钥匙（竟知道是导师的车，「我」疑惑）→ 发现感染者只靠视觉不靠嗅觉 → 潜行穿宿舍区（滑板踩人坠落）/操场焚尸祭坛/图书馆人体喷泉 → 驾车撞飞感染者离校 → 陶亦仁定调「你是全人类的希望」—— 同脑信息共享第一处揭穿伏笔",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称获救叙述，疑心渐起",
+      "diction": "校园路径词和隐蔽求生词并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "陶亦仁解释规则并提出计划",
+      "pacing": "躲藏慢移，车钥匙目标推进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "生存体系",
+      "蓝牙音响诱敌",
+      "母猪发情粉",
+      "沈曾祺领袖",
+      "夜话身世",
+      "黑色幽默",
+      "情感线起点"
+    ],
+    "characters": [
+      "「我」",
+      "陶亦仁",
+      "沈曾祺",
+      "夏伟毅",
+      "亦凡",
+      "王晨轩",
+      "佩文"
+    ],
+    "conflict_type": "external+interpersonal",
+    "pov": "「我」",
+    "word_count": 5668,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S04.md",
+    "description": "弃车进山遇沈曾祺五人队 + 「我」隐瞒免疫身份 → 蓝牙音响多点诱敌系统教学（佩文录求救声/不同音色传播）→ 搜刮兽医站+母猪发情粉 → 夜话各自身世（夏伟毅特斯拉自动停车堪比GTA等红灯/王晨轩商场逆人流逃出/佩文是沈曾祺战友妹妹）→ 沈曾祺坦白「队伍缺一不可」生存哲学 —— canon生存体系密集落地，母猪发情粉道具预演",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称队伍回顾，怀疑中观察",
+      "diction": "末世传闻和生存技巧词密集",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "幸存者经验转述构成信息流",
+      "pacing": "团队相识慢铺，诱饵行动细化"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "身份暴露",
+      "免疫者vs无症状",
+      "小队抛弃",
+      "灾星宿命",
+      "缺席式抛弃",
+      "情感克制"
+    ],
+    "characters": [
+      "「我」",
+      "陶亦仁",
+      "沈曾祺",
+      "夏伟毅",
+      "亦凡",
+      "王晨轩"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "「我」",
+    "word_count": 2375,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S05.md",
+    "description": "庆祝夜陶亦仁失言「他被咬过现在和正常人一样」→ 全队沉默 → 夏伟毅辨析免疫者/无症状感染者「都能感染他人」→ 沈曾祺问「为什么不讲」后离开 → 众人避开「我」+王晨轩想接近又退回 → 清晨集体撤离只留物资 → 「我」被抛弃，灾星宿命第一次坐实（「第一感觉不是悲伤是胸口空空」）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称被排斥，怒意压抑",
+      "diction": "免疫者神话和定时炸弹词对冲",
+      "rhetoric_density": "low",
+      "dialogue_mode": "误泄身份后的群体质询",
+      "pacing": "庆祝骤停，冷处理逐日加重"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "孤独",
+      "梦游症",
+      "梦境现实混淆",
+      "搏击俱乐部明喻",
+      "解谜钥匙",
+      "方向被接管",
+      "无症状暗示"
+    ],
+    "characters": [
+      "「我」",
+      "陶亦仁"
+    ],
+    "conflict_type": "internal",
+    "pov": "「我」",
+    "word_count": 2497,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S06.md",
+    "description": "被抛弃后孤独漂流+梦游症 → 梦境现实混淆（「噩梦比美梦美好」/梦里能闻味道感到疼）→ 梦游醒在影音店捡《搏击俱乐部》蓝光碟 → 陶亦仁「醒了兄弟」重逢+「我一直在引导你梦游避险」→ 提议「学主人公创造向理想狂奔的团队」—— 结构枢纽：梦游=人格切换坐实+埋设最大解谜钥匙",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称孤独梦游，现实裂解",
+      "diction": "黑暗光明格言和腐败尸景并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无现场对白，独白吞没叙事",
+      "pacing": "流浪缓慢，梦醒场景跳跃"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "创世军",
+      "极权符号",
+      "立威宣言",
+      "只忠陶长官",
+      "首次剿杀感染者",
+      "伪英雄顶点",
+      "记住被遗忘"
+    ],
+    "characters": [
+      "「我」",
+      "陶亦仁",
+      "高大男人",
+      "三大学生",
+      "丧子夫妻",
+      "创世军众",
+      "感染者群"
+    ],
+    "conflict_type": "external+interpersonal",
+    "pov": "「我」",
+    "word_count": 4771,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S07.md",
+    "description": "陶亦仁站箱立威驳倒高大男人+「没人会记住你」宣言 → 极权符号建立（统一黑衣/创造手势/同名状入会门槛）→ 自制电台+中转站解谜筛感染者 → 创世军30人首次正面剿杀十余感染者（陶亦仁压到扑面才下令，碾压取胜代价5死）→「感染者也可剿灭」—— 伪英雄成长线高潮，揭穿伏笔密集（只忠陶长官/双领袖表象）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称旁观领袖，狂热形成",
+      "diction": "演讲口号和队伍扩张词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "陶亦仁训话塑造组织秩序",
+      "pacing": "新人冲突慢，演讲后凝聚"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "王晨轩投奔",
+      "假罗允",
+      "小林",
+      "跨篇反派",
+      "信任符号被冒用",
+      "转述暴行",
+      "反英雄牺牲"
+    ],
+    "characters": [
+      "「我」",
+      "王晨轩",
+      "丧子妻子",
+      "假罗允（转述）",
+      "小林（转述）",
+      "沈曾祺",
+      "夏伟毅",
+      "佩文",
+      "亦凡"
+    ],
+    "conflict_type": "interpersonal+external",
+    "pov": "「我」",
+    "word_count": 2161,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S08.md",
+    "description": "王晨轩浑身泥泞投奔 → 转述抛弃「我」后小队遇「自称罗允+小林」两畜生 → 假罗允表面仗义骗信任（佩文爱慕/王晨轩代入死去弟弟）→ 强暴佩文+小林插刀注射 → 沈曾祺挑脚筋砸双手/夏伟毅关疯子房/佩文头颅放蓝牙音响 → 亦凡剖腹助王晨轩逃+遗言 —— 跨篇反派线（吴先生型+林东青型）受害端取证",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称重逢激动，叙述被谎言污染",
+      "diction": "情感重逢词和控诉酷刑词并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "王晨轩哭诉提供复仇目标",
+      "pacing": "重逢柔软，讲述逐渐黑化"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "陶亦仁在哪",
+      "information引爆",
+      "情感线摧毁",
+      "只忠陶长官实锤",
+      "暴力结果反推",
+      "可乐代替拥抱"
+    ],
+    "characters": [
+      "「我」",
+      "王晨轩",
+      "陶亦仁",
+      "引路人/警卫"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "「我」",
+    "word_count": 1591,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S09.md",
+    "description": "「我」承诺替王晨轩报仇+想拥抱却把可乐推过去 → 王晨轩问「谁管理」，引路人说「只忠陶长官/都没名字」→ 陶亦仁下令创世军找罗允凌迟 → 陶亦仁「拥抱」王晨轩不松手 → 王晨轩疑问「陶亦仁别抱了，陶亦仁在哪啊」→ 「我」眩晕发现王晨轩后背被自己插刀穿心 —— information脊椎引爆扳机",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称认知崩塌，身份错位",
+      "diction": "头领面子词转为尖刀真相词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "陶亦仁嘲讽揭开自我裂缝",
+      "pacing": "安排复仇慢，疑问一句爆裂"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "BX-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "你是我",
+      "第二人格揭穿",
+      "搏击俱乐部兑现",
+      "创世军血液感染",
+      "救世即灭世",
+      "母猪发情粉伪装",
+      "双人格肉搏",
+      "自我清除"
+    ],
+    "characters": [
+      "「我」（李鸾）",
+      "陶亦仁（第二人格）",
+      "创世军感染者群",
+      "王晨轩（遗体）"
+    ],
+    "conflict_type": "internal+external",
+    "pov": "「我」",
+    "word_count": 2165,
+    "source_chapter": "不详",
+    "file": "scenes/scene_BX-S10.md",
+    "description": "「我」掐死陶亦仁他若无其事站起 → 揭穿「被抛弃第一晚就掐死过陶亦仁」→「你是我，你是我的第二人格」→ 揭杀王晨轩动机（搏击俱乐部女主角）→ 终极计划用「我」血液造新人类+肚子同款伤疤 → 创世军被血液感染却与普通感染者无异 → 「我」翻窗+倒母猪发情粉伪装+咬断自己舌头+命令创世军吃掉自己 → 左手抓右手左脚踢右脚强压逃跑 → 接受自毁 —— main climax，篇名「不详/不祥」双重兑现",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称人格对话，终局揭示",
+      "diction": "电影梗和新人类宣言并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "陶亦仁长段解释创世计划",
+      "pacing": "追问缓慢，血液计划突然落地"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "灾前",
+      "脊椎对照",
+      "拧巴vs纯粹",
+      "游戏母题",
+      "绣剑",
+      "大天使",
+      "回溯"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依"
+    ],
+    "conflict_type": "internal",
+    "pov": "「我」第一人称回溯",
+    "word_count": 1542,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S01.md",
+    "description": "高中回忆：汪华依毕业穿军装、校园带橡胶绣剑划人脖子、自称「大天使」摆拔剑姿势 vs 「我」只敢私下装游戏动作 —— 全篇脊椎对照建立，自陈句「她总做我想做却不敢做的事」是主控思想的灾前预告",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称怀旧观察，佩服又羞愧",
+      "diction": "校园梗和游戏角色词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "回忆性转述，少现场对白",
+      "pacing": "人物画像慢铺，奇葩细节累积"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "景区爆发",
+      "狂笑病征",
+      "误读为活动",
+      "病征教学",
+      "南陵河"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "跳舞少女",
+      "景区感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "「我」",
+    "word_count": 1439,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S02.md",
+    "description": "石桥看跳舞少女 + 岸边五六人跃河撕扯 = 激励事件 —— 先用「视线失焦又恢复」生理预警、误读为「特殊活动/变魔术」，再用割喉肢解击穿误读；「我」被相机砸头补踹找茬路人，见对方上翻白眼狂笑才熄火（病征用亲身误判教学）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称旅游目击，现实失焦",
+      "diction": "景区表演词突转撕裂暴力词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "汪华依迟疑问题制造反差",
+      "pacing": "观景慢，跳河袭击突然爆发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "古街逃亡",
+      "游戏化嗜虐",
+      "人体作为器物",
+      "灾变全城",
+      "暴力省略",
+      "no-time-to-mourn"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "黑衬衫摄影师",
+      "弓箭手感染者",
+      "求救变攻击者",
+      "古街感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "「我」",
+    "word_count": 1888,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S03.md",
+    "description": "古街逃亡群像：摄影师为普利策奖被镜头塞嘴、一脚把相机踹进脑袋；弓箭手乱射；求救者反成攻击者咬汪华依；石磨碾人/甘蔗机绞手；牌坊吊人 —— 「每个人都要恰到好处地幸运才能活」no-time-to-mourn 宣言句，收于「世界末日，正式登场」",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称奔逃，荒诞旁观插入",
+      "diction": "摄影奖项词和冷兵器伤害词交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短促互喊，汪华依确认末日",
+      "pacing": "连续障碍快切，追击不断换形"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "道德困境顶点",
+      "打电话大妈",
+      "声音叠合",
+      "幸存者内部裂痕",
+      "书院学堂",
+      "理性vs良知"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "打电话大妈",
+      "大妈女儿(电话)",
+      "崔周平",
+      "学堂幸存者群"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "「我」",
+    "word_count": 2455,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S04.md",
+    "description": "书院学堂隐蔽 + 打电话大妈事件：众人合力按住大妈、掐断她和女儿的最后通话以保全集体 —— 把电话里女儿被杀的求饶与窗外感染者施暴的惨叫叠合到「分不清来自电话还是窗外」；大妈「被抽空骨头般瘫软」，众人「看犯人一样」盯她",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称密室躲藏，信息焦虑",
+      "diction": "景点木窗词和全球灾讯词并用",
+      "rhetoric_density": "low",
+      "dialogue_mode": "汪华依读新闻和众人制止电话",
+      "pacing": "屋内静默慢，铃声拉紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "免疫者自曝",
+      "游戏即人生",
+      "丧尸病毒命名",
+      "希望与恐惧同生",
+      "全球同步",
+      "人物声音锚"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "崔周平",
+      "学堂幸存者群"
+    ],
+    "conflict_type": "internal+interpersonal",
+    "pov": "「我」",
+    "word_count": 2134,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S05.md",
+    "description": "汪华依据全球同步直播+留学生爆料判定「是丧尸病毒」+「游戏即人生」信念独白（努力有回报/正义战胜邪恶/我愿意）+ 低语「老张呀，我可能是免疫者」—— 系列免疫者硬设定首次抛出；「我」始终盯着她腿伤，希望与恐惧同时点燃",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称半信半疑，游戏化对照",
+      "diction": "丧尸游戏词和现实求生词并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "汪华依滔滔不绝定义灾变",
+      "pacing": "科普慢谈，免疫宣言突停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "闪前插叙",
+      "弃人链",
+      "铁桶活烹",
+      "团结誓言被打破",
+      "仪式化烹烤",
+      "汪华依补刀"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "郑新宇",
+      "小队"
+    ],
+    "conflict_type": "interpersonal+internal",
+    "pov": "「我」闪前插叙",
+    "word_count": 1071,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S06.md",
+    "description": "闪前：小崔「不再抛弃任何人」誓言旋即被打破 —— 郑新宇被感染者塞铁桶活烹（用「活虾下热锅」生理痛感承担恐怖，与《燃烧》烤乳猪同源）侥幸逃出却皮肉溃烂必死，汪华依刺心口补刀；与首个被弃的书院大妈呼应，确立弃人链母题",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称愧疚回顾，团队信念破碎",
+      "diction": "抛弃誓言和酷刑细节强烈对撞",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "幸存者转述补出死亡经过",
+      "pacing": "反思开场，酷刑回忆骤然拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "末日第七天",
+      "时间锚点",
+      "公权力沦陷",
+      "ASTT",
+      "军区医院废墟",
+      "戈多式希望",
+      "最后生还者对话"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "崔周平",
+      "ASTT特警(残骸/感染者)",
+      "小队"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 2436,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S07.md",
+    "description": "末日第七天逃出书院：ASTT防弹衣特警被钢管插泥地砍剩上半身 + 感染者群中大笑的特警 +「整个世界对感染者像自助餐厅」+《最后生还者》对话（汪华依以命换世界也愿意）+ 军区医院废墟 —— 第一个官方希望落空，「有钥匙却不知道锁在哪」",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称城市逃亡，绝望见证",
+      "diction": "尸块战损词和丧尸片术语混用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "少量劝阻对白夹在奔逃中",
+      "pacing": "连续惨景快切，逃亡人数递减"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "KB-26广播",
+      "官方机构首现",
+      "越清晰越绝望",
+      "戈多式希望",
+      "收音机道具",
+      "山区浓雾",
+      "请勿前往"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "崔周平",
+      "杨老头",
+      "死老鼠",
+      "小队"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 2797,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S08.md",
+    "description": "汪华依拧收音机收到「综合应急管理中心，代号KB-26，请勿前往」广播 —— 第一次官方声音的狂喜被「重复广播」浇灭；浓雾中信号更弱、雾散后「请勿接近」关键信息缺失，「更好的信号反而成了负担」；最想当勇者的人开始忧虑",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称追随希望，疑虑浮起",
+      "diction": "广播术语和山雾体感词并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "队员安慰与汪华依质疑对照",
+      "pacing": "广播带来上扬，雾中逐步压低"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "军队自溃",
+      "士兵笔记",
+      "嵌套文本",
+      "信念母题",
+      "日记=信念",
+      "公权力沦陷",
+      "跨篇lore"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "崔周平",
+      "死老鼠",
+      "杨老头",
+      "(笔记中)士兵",
+      "莱昂教官",
+      "小队"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 2535,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S09.md",
+    "description": "战场废墟（炮管十字架绑士兵残骸/枪管钉头颅）+ 地窖士兵受潮笔记：「军队没有战败，是自溃了，48小时内体系崩坏、所有人都是敌人」+ 莱昂教官「写日记固定信念，精神垮了一切都完了」—— 军方内乱一手内部记录，与录音笔结局元主题闭环",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称战场遗迹旁观，信念动摇",
+      "diction": "军械残骸词和末世经验词交织",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短问短答服务线索判断",
+      "pacing": "废墟凝视慢，装甲车线索牵引"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "大都会沦陷",
+      "希望提供者之死",
+      "宿命插叙",
+      "汪华依首次道歉",
+      "小崔自缢",
+      "存在性危机"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "崔周平(小崔)",
+      "杨老头",
+      "小队"
+    ],
+    "conflict_type": "internal+interpersonal",
+    "pov": "「我」(含闪前回扣)",
+    "word_count": 1139,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S10.md",
+    "description": "广播确认大都会沦陷（封锁线失效）→ 汪华依一边笑一边哭反复道歉（高中从不认错的人首次认错）→ 闪前回填小崔自缢征兆（想说话又咽下/最爱鼓励人的人开始沉默）→「就算这样活下去，意义呢？」—— 最相信希望的人最先放弃",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称希望崩塌，迟来追悔",
+      "diction": "广播警告词和黑暗吞噬意象并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "崔周平低语揭开意义危机",
+      "pacing": "真相揭露后转入哀悼回想"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "月儿洞",
+      "尸山",
+      "封闭进化变体",
+      "惧光自虐迎光",
+      "死老鼠之死",
+      "缺席承担死亡",
+      "死因伏笔"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依",
+      "死老鼠",
+      "尸洞被困感染者群",
+      "跌坑/失踪队友",
+      "小队"
+    ],
+    "conflict_type": "external+internal",
+    "pov": "「我」",
+    "word_count": 3225,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S11.md",
+    "description": "进月儿洞主洞踩到腊化尸絮 → 交融尸山（胳膊穿过尸体融进下一具胸腔/像连体婴/像融进地表的笼包）→ 尸山涌出被困多时、惧光却掰开眼皮迎光的退化型感染者（封闭进化变体）→ 死老鼠被挖眼镰刀肢解+队友无声消失 → 汪华依被咬（死因伏笔）",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称洞穴目击，理智逼近极限",
+      "diction": "腐烂触感词和尸山融合词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "惊疑短句点破空间异常",
+      "pacing": "脚下异物递进到尸山全景"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "TG-S12",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [
+      "main-climax",
+      "抛弃挚友",
+      "临终赠言",
+      "录音笔遗书",
+      "读者代理人",
+      "传火机制",
+      "主控思想出口",
+      "反英雄收尾"
+    ],
+    "characters": [
+      "「我」(老张)",
+      "汪华依"
+    ],
+    "conflict_type": "internal",
+    "pov": "「我」(回溯收束于录音当下)",
+    "word_count": 2209,
+    "source_chapter": "他的故事",
+    "file": "scenes/scene_TG-S12.md",
+    "description": "汪华依成负担、让「我」翻包带走物资（体面让「我」弃她）→「我」只拿少量物资、把抗生素留给她 → 临终赠言「可以愧疚但不能后悔，想和不想就是不想，当断不断必受其乱」→「我」弃后想回头、学游戏主角潜行取药却困死药店 → 录音笔托付陌生人送药+转达「对不起」+「真的别像我一样——要像她一样」",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第一人称抛弃挚友，愧疚自辩",
+      "diction": "游戏任务词和末世负担词互照",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "汪华依遗言式劝诫压住告别",
+      "pacing": "告别慢铺，独行后心理反复"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S01",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭"
+    ],
+    "conflict_type": "internal",
+    "pov": "杨中旭（第三人称限知）",
+    "word_count": 1811,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S01.md",
+    "description": "汉恩基金广告 → 杨中旭幻想特种兵来接他拯救世界 → 幻想被戳破回到白墙 → 交代他写丧尸日记被父母送进私立精神病院、中度病区吐药禁手机限放风的囚禁日常",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴杨中旭，幻想反讽开场",
+      "diction": "广告文案和超能幻想词错位",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "幻想对白转为医院日常训令",
+      "pacing": "宣传慢铺，幻想破灭回到钟表"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S02",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "（远景）郑云凡",
+      "（声）副院长"
+    ],
+    "conflict_type": "interpersonal + societal",
+    "pov": "杨中旭",
+    "word_count": 2554,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S02.md",
+    "description": "门诊罕见排队 → 食堂结识李亚伟（朋克/自愿入院/带手机镜子）→ 弑父佣兵被推入 + 李亚伟讲其灭门反杀往事 → 中度区会议听副院长广播'只有这里才是你们该待的地方'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称病院日常，荒诞社交观察",
+      "diction": "病区等级词和哥特音乐梗并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "李亚伟自来熟对白塑造关系",
+      "pacing": "排队偶遇慢，手机信息打开外界"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S03",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "杨万新",
+      "耿小桃",
+      "李亚伟"
+    ],
+    "conflict_type": "external + internal",
+    "pov": "杨中旭 + 李亚伟（穿插）",
+    "word_count": 2654,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S03.md",
+    "description": "护工议论'病人咬下医生指头' → 深夜杨万新狂喊末日预言被放倒 → 呼叫铃整夜失灵 → 耿小桃推理'医疗事故/药物出问题' → 走廊跑动尖叫 + 抱红污渍的护士跑过",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称夜间群像，不祥渐浓",
+      "diction": "幻听末日词和医院失序词叠加",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "病友疯话承担预兆功能",
+      "pacing": "呼叫无应答反复拖紧"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S04",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "张宁（感染者）"
+    ],
+    "conflict_type": "external",
+    "pov": "张宁（感染者内聚焦）",
+    "word_count": 1157,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S04.md",
+    "description": "感染者张宁在黑暗病房把三个室友尸体当人体乐高组装成五眼脑袋圣诞树 + 缠毛巾遮监控 + 盘算挂闲鱼能卖",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称感染者错觉，黑色幽默极端化",
+      "diction": "乐高模型词替代人体解剖词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "无对白，错认独白推动恐怖",
+      "pacing": "拆解步骤细密，完成品突然封顶"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S05",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨万新",
+      "针灸医生(感染者)",
+      "耿小桃",
+      "理疗医生(感染者)",
+      "二号理疗室病人",
+      "副院长"
+    ],
+    "conflict_type": "external",
+    "pov": "杨万新 + 耿小桃 + 二号理疗室病人 + 副院长（多焦点并列）",
+    "word_count": 2350,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S05.md",
+    "description": "针灸室医生倒苦水后用芒针刺穿杨万新眼球 → 理疗室医生圆凳砸死护士邪笑看耿小桃 → 二号理疗室老式电疗仪电死绑缚病人 → 副院长监控全院屠杀 + '社会定时炸弹'独白",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称理疗室群像，疼痛升级",
+      "diction": "医疗器械词和施虐动作词密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "求饶质问被医生辱骂吞没",
+      "pacing": "针灸异常起步，多房间灾变并列"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S06",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "厕所里的室友",
+      "探视窗感染者",
+      "尸变室友"
+    ],
+    "conflict_type": "internal + external + interpersonal",
+    "pov": "杨中旭",
+    "word_count": 3658,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S06.md",
+    "description": "杨中旭堵厕所门防室友尸变 + 扇自己上百耳光验证非幻觉 → 探视窗感染者反复撞玻璃染红 → 窗外护工被挂树啃食/医生坠楼被听诊器捅耳 → 室友被吐血染口尸变 → 杨中旭哭着砸死室友 + 输液架捅死探视窗感染者",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称密闭观察，幻想成真反噬",
+      "diction": "丧尸推演词和窗外酷刑词交替",
+      "rhetoric_density": "high",
+      "dialogue_mode": "厕所哀求与自我验证相互撕扯",
+      "pacing": "门内僵持慢，窗外屠杀连环加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S07",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科"
+    ],
+    "conflict_type": "interpersonal + internal",
+    "pov": "杨中旭",
+    "word_count": 4925,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S07.md",
+    "description": "李亚伟抢钥匙开门带唐科进来三人结盟 → 镜子侦察楼道 → 杨中旭点破病房门向外开无法反锁的死局 → 杨中旭一反羞怯讲解'康复区取武器→理疗区取铅衣→司法病区上五楼→廊桥过康复楼→后山出'的多关卡逃生路线",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称临时结盟，求生理性回归",
+      "diction": "病友绰号和感染判断词并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "三人互报情报确定行动方向",
+      "pacing": "钥匙救援快，讨论后危机逼近"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S08",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "被放出的病友",
+      "跳舞病人",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭",
+    "word_count": 3594,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S08.md",
+    "description": "三人做简易护甲 → 杨中旭灰色提议开门放病友增加目标 + 李亚伟反转成'积德' → 放出的病友多数不出/出来的精神不正常 → 跳舞病人被拽到探视窗前被扭曲折断挤压拽入",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称潜行逃脱，机关感强",
+      "diction": "楼道血腥词和门锁动作词交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "低声确认机会，行动压过对白",
+      "pacing": "开门极慢，关门陷阱制造悬停"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S09",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "感染者群"
+    ],
+    "conflict_type": "external",
+    "pov": "杨中旭",
+    "word_count": 4031,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S09.md",
+    "description": "针灸室遭遇自虐医生被围 → 杨中旭用损坏电池芒针引燃酒精衣 → 挑到氧气罐喷口引火蛇点燃感染者群 → 回楼道引火警全层喷淋 → 推病床扯断指示牌电线丢积水触电秒杀整群 → 电力恢复肃清 + 同伴钦佩其病态熟悉",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称贴李亚伟，舞台梦反讽",
+      "diction": "粉丝笑脸词转为围猎恶意词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "杨中旭荒诞方案推动反击",
+      "pacing": "绝境压近，灭火器突围加速"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S10",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "缝嘴感染者",
+      "防爆服魁梧感染者",
+      "郑云凡"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭 + 郑云凡（穿插）",
+    "word_count": 3866,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S10.md",
+    "description": "逃生通道异常安静 + 司法病区铁门竟开着 → 杨中旭贪取自尽警察手枪被缝嘴感染者拽入 → 防爆服两米魁梧感染者撞飞李亚伟 → 郑云凡用手铐链条勒断其颈 → 枪无子弹 + 郑云凡现身(弑父佣兵)自承可能感染主动退回病房自我隔离",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称探索司法病区，未知恐惧",
+      "diction": "门禁安保词和残肢细节并列",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "同伴疑问映出制度恐惧",
+      "pacing": "楼道静默慢，黑暗伸手突袭"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S11",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "（声）副院长",
+      "（隔门）郑云凡"
+    ],
+    "conflict_type": "interpersonal + societal",
+    "pov": "杨中旭 + 郑云凡（穿插）",
+    "word_count": 926,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S11.md",
+    "description": "副院长广播警告回病房 → 李亚伟问'AI 监控?'杨中旭'AI 是什么?' → 副院长骂'精神病就该全部去死'远程打开安保拼死关上的隔离门禁 → 三人搜警察尸体得门禁卡卡门跑上五楼 → 郑云凡缩回病房放弃自杀",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称多点切换，制度恶意显形",
+      "diction": "广播命令和门禁控制词突出",
+      "rhetoric_density": "low",
+      "dialogue_mode": "李亚伟怒骂副院长形成对抗",
+      "pacing": "警告广播快，门禁开启再加压"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S12",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "耿小桃",
+      "（声）副院长",
+      "感染者群"
+    ],
+    "conflict_type": "external + interpersonal + internal",
+    "pov": "杨中旭 + 李亚伟",
+    "word_count": 2774,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S12.md",
+    "description": "防火门自动关闭杨中旭卡撬棍让三人钻入 → 黑钢板降下封死后门(瓮中之鳖) → 必死难题须有人留对侧重启+破坏面板 → 耿小桃讲律师创伤独白 → '让我做一次大侠'钻门缝哭着关门破坏面板 → 撞柱自尽换防火门彻底关闭",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称机关围困，方案连续失败",
+      "diction": "防火门钢板词和瓮中意象并用",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "杨中旭指挥拆解唯一生路",
+      "pacing": "闯门短促，封闭设施层层落下"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "JB-S13",
+    "novel": "狂病系列",
+    "author": "莫千回",
+    "genre": "末日/病毒灾难",
+    "lang": "zh",
+    "tags": [],
+    "characters": [
+      "杨中旭",
+      "李亚伟",
+      "唐科",
+      "副院长",
+      "（远景）郑云凡",
+      "（黄金大厦）老张"
+    ],
+    "conflict_type": "internal + interpersonal",
+    "pov": "杨中旭 + 副院长 + 唐科（多焦点）",
+    "word_count": 3443,
+    "source_chapter": "精神病院",
+    "file": "scenes/scene_JB-S13.md",
+    "description": "钢板升起副院长放行 + 动机全揭(家人被装病脱罪患者灭门)+自我永封医院 → 李亚伟雨中辞世+揭穿'入院十几年'+'充满刺'遗言+指引黄金大厦 → 唐科送杨中旭回家清醒后安然离世+坐标塞口袋 → 杨中旭离家水坑倒影从18岁青年翻转为中年男人 → 走进黄金大厦对老张自报'从几千人地狱死路爬出来'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "第三人称双线悔悟，怒火转伦理审判",
+      "diction": "广播疲惫词和复仇回忆词并行",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "李亚伟怒问逼出副院长自省",
+      "pacing": "等待停滞，钢板升起后转忏悔"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

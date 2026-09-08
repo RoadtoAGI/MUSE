@@ -1,0 +1,35 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 石棺里的葡萄
+  dimension: omission
+  original_move: 完全省略取物过程，视角钉死核证一侧，可信来自程序繁琐
+  ai_default_failure: AI 写魔法取物必给施法者视角的光芒隧道漂浮感
+  transfer_rule: 神迹用司法与工程语言核证，机制保密留给后文二次披露
+  quote: 吃了一半，串上还剩七粒果实
+- pattern_id: S14-p2
+  beat: 摘取大脑
+  dimension: verb
+  original_move: 选「摘」配蘑菇小花意象，轻柔是高维操作的物理实感
+  ai_default_failure: AI 必加颅内异物惨叫的恐怖渲染或科学旁白解释
+  transfer_rule: 恐怖隔着证人转述呈现，由旁观者的想象完成
+  quote: 像从草丛里摘一朵蘑菇
+- pattern_id: S14-p3
+  beat: 棺材一样窄
+  dimension: omission
+  original_move: 唯一体验者只给幼儿园级的 11 字描述，正面描写推迟千行
+  ai_default_failure: AI 必让她描述那个奇异世界来满足读者好奇
+  transfer_rule: 人物词汇库就是叙事上限，说不出来才真实且攒下悬念
+  quote: 这里像棺材一样窄
+- pattern_id: S14-p4
+  beat: 编年史结尾
+  dimension: overall
+  original_move: 冤杀后零抒情，一行精确到小时的编年史回溯揭底物理事件
+  ai_default_failure: AI 必写悲悯段落收尾，烧掉类型翻转的势能
+  transfer_rule: 用文体海拔的突然切换完成揭底，悲剧性由克制加深
+  quote: 历时二十五天五小时
+overall_traits:
+- 认知上限即叙事上限，同一设定两次兑现
+- 神迹用最不神奇的程序性语言写，可信来自繁琐
+- 历史细节是计时器，为魔法时间窗口倒数

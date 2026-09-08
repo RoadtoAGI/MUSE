@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e68bb7c6e6cc821c76221a29
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1323
+chapter: 第17章 三体问题
+figure_type: analogy
+quote: 空不是无，空是一种存在，你得用空这种存在填满自己。这话对我很有启发，后来想想，这根本不是佛家理念，倒像现代的某种物理学理论
+sensory_mapping: 空间填充；存在/虚无；物理场
+context_fact: 魏成想借寺庙清静逃避人生，长老要求他先在内心建立“空”，这启发了无球到三球宇宙思想实验。
+image_mechanism: 抽象佛理被移到物理容器：即使抽走可见物质，空间仍保留可定义状态；反过来，这种“有内容的空”又能灌入人的意识。
+property_alignment: 无具体对象对应真空无常规物质；仍可被定义对应真空有物理性质；用空填满自身对应一种状态占据整个系统；加入球体后结构改变对应真空成为实验背景
+context_alignment: 说话者以数学物理直觉而非宗教经验理解长老，类比准确成为他通向三体问题的认知桥。
+narrative_function: 将禅语转成物理思想实验的起点，连接寺庙场景与科学发现。
+transfer_rule: 跨思想体系类比时，应找两端共同的结构悖论和操作后果，并让角色用后一体系实际生成行动或模型。
+failure_boundary: 佛教“空”与物理真空在本体论上并不等同；若把局部启发当作严格理论证明，会抹掉两者目的和概念差异。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 长老所说“空”并非绝对虚无，而是一种能占据、改变主体的积极状态
+vehicle: 现代物理中看似真空却具有场、能量或结构的物理状态
+ground: 空表面没有普通事物对应真空缺少粒子物质；空仍是一种存在且能填充对应物理真空仍有状态与效应

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ddbdd612dbb24a57b3db27bd
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L589
+chapter: 第7章 疯狂年代
+figure_type: simile
+quote: 他看不到它们，但能感觉到它们磁石般的存在
+sensory_mapping: 空间；牵引；触觉想象；心理
+context_fact: 指挥官看不见铁炉，却最害怕守军合上引爆开关。
+image_mechanism: 炸药没有被画出外形，只把它对意识的作用变成无形磁场；指挥官的注意像铁屑，被楼内一点持续拉住。
+property_alignment: 危险源不可见对应磁石可藏而磁力仍在；注意力被持续吸向目标对应铁物受磁力牵引；距离不能消除作用对应磁场跨空存在
+context_alignment: “看不到但感觉到”正需一种无须目视即可施力的喻体，磁石比泛称压力更精确。
+narrative_function: 让隐蔽炸药在场景中保持强烈的心理在场。
+transfer_rule: 写不可见威胁时，可选择作用跨越遮挡且有明确方向的力场，让人物注意力成为被牵引物。
+failure_boundary: 威胁只被人物偶然想起、没有持续吸引方向或信息完全未知时，磁力会误写其确定性和作用强度。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 藏在楼内、不可见却持续牵引指挥官注意的炸药炉
+vehicle: 隔着遮蔽物仍以磁力牵引周围物体的磁石
+ground: 危险源不可见对应磁石可藏而磁力仍在；注意力被持续吸向目标对应铁物受磁力牵引；距离不能消除作用对应磁场跨空存在

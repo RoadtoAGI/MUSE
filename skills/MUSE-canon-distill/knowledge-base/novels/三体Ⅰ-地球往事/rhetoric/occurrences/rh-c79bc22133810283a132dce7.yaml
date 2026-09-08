@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c79bc22133810283a132dce7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2329
+chapter: 第32章 古筝行动
+figure_type: simile
+quote: 他们干得很从容，甚至看上去有些懒洋洋的，像是在从事一件平淡乏味的工作
+sensory_mapping: 缓慢动作；松弛姿态；安全帽工装；例行劳动；表面无聊
+context_fact: 他们伪装成运河工人，在钢柱间布设肉眼不可见、将杀死整船人的飞刃丝。
+image_mechanism: 灭船行动被压进普通工务的动作节奏，绷紧钢索的人不显杀意，平淡外观像一层工作服包住即将启动的死亡机器。
+property_alignment: 安全帽装束对应普通工人；动作熟练对应重复劳动；神态懒散对应工作乏味；按步骤立柱对应例行维护；隐藏紧张对应任务表面平常
+context_alignment: 伪装要求他们成为普通工人，而不可见纳米丝本身也让致命装置外观空无，人的松弛与武器的隐形共同制造冷酷反差。
+narrative_function: 用日常劳动遮蔽大规模杀戮，积蓄目标到来前的不安。
+transfer_rule: 把高危操作写成乏味工作时，应让服装、熟练度、动作节奏和旁观外观都支持日常性，同时保留读者知道的真实风险。
+failure_boundary: 操作人员慌乱喊叫、设备外露骇人或任务本身真是普通维护时，平淡工作的反差消失。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 行动人员在死亡切割网即将迎来目标前仍慢而熟练地竖起钢柱、固定纳米丝
+vehicle: 工人日复一日完成没有风险和新鲜感的例行杂务，动作松弛甚至厌倦
+ground: 操作从容熟练对应例行工作；外表懒散对应任务乏味；无显露紧张对应低风险日常

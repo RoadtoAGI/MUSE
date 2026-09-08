@@ -1,0 +1,63 @@
+scene_id: A4
+source_notes: scene_A4_beats.md
+patterns:
+- pattern_id: A4-p1
+  beat: 低压盘点
+  dimension: transition
+  original_move: 深夜琐碎问答登记凶兆：钟停、狗触电死，凶器混在家常里报幕。
+  ai_default_failure: 跳过铺垫直接进冲突。
+  transfer_rule: 终幕先做低压事务盘点，让杀人装置自然化登场。
+  quote: 碰着那根电线，就给电死了
+- pattern_id: A4-p2
+  beat: 父求亲近
+  dimension: exchange
+  original_move: 威权者示弱讨温情，儿子以单字应答敷衍，半晌三次插入。
+  ai_default_failure: 写成临终和解或正面争吵。
+  transfer_rule: 隔阂戏用最短应答加停顿写，温情落空即可。
+  quote: 爸爸有一点觉得自己老了
+- pattern_id: A4-p3
+  beat: 石像归来
+  dimension: blocking
+  original_move: 蘩漪淋雨归来面如石膏假面，借相片三问句句双关。
+  ai_default_failure: 让她进门即摊牌发作。
+  transfer_rule: 复仇者归来先演冷静，杀机用最平的家常话载运。
+  quote: 我替你守着她
+- pattern_id: A4-p4
+  beat: 最后哀求
+  dimension: exchange
+  original_move: 蘩漪从恐吓滑到乞怜，开出底线崩塌的同住条件被拒。
+  ai_default_failure: 维持她一贯强势刻毒，不敢写到卑微。
+  transfer_rule: 引爆毁灭者之前，先让她哀求一次并被拒绝。
+  quote: 你要把四凤接来……我都可以
+- pattern_id: A4-p5
+  beat: 枪口托付
+  dimension: exchange
+  original_move: 大海拔枪宣判又递枪，暴力在顶点拐弯成缴械托付。
+  ai_default_failure: 写成决斗见血或彻底握手言和。
+  transfer_rule: 武器在敌手间换位即换义，杀人器变赎罪器。
+  quote: 你还是拿去吧
+- pattern_id: A4-p6
+  beat: 代罪放行
+  dimension: monologue
+  original_move: 鲁妈知真相不说破，仰天独白揽罪放行乱伦子女。
+  ai_default_failure: 让她说出血缘真相阻止两人。
+  transfer_rule: 角色不能说的话，让她改换受话对象向天说。
+  quote: 所有的罪孽都是我一个人惹的
+- pattern_id: A4-p7
+  beat: 误爆真相
+  dimension: exchange
+  original_move: 朴园误以为事已尽知，一句认亲反爆最大底牌，揭露者同被炸伤。
+  ai_default_failure: 安排知情者蓄意揭底，失了天意感。
+  transfer_rule: 终极揭示让人在误会中自己说出，无人是凶手。
+  quote: 侍萍，你到底还是回来了
+- pattern_id: A4-p8
+  beat: 台外三死
+  dimension: blocking
+  original_move: 三死全在台外：惨叫两声、枪声一响，台上只留听见的人。
+  ai_default_failure: 正面展演死亡场面追求冲击。
+  transfer_rule: 死亡放台侧，表演面积全部让给幸存者的脸。
+  quote: 书房枪声，屋内死一般的静默
+overall_traits:
+- 揭示链全由误会驱动，没有蓄意揭发者
+- 凶器先以家常方式登记，引爆时零解释
+- 死亡不可见，声音承担全部终局叙事

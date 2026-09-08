@@ -1,0 +1,42 @@
+scene_id: '07'
+source_notes: scene_07_beats.md
+patterns:
+- pattern_id: 07-p1
+  beat: 浴缸肥皂船
+  dimension: info_density
+  original_move: 顿悟由可在家复现的物理实验触发，镜头一换浴缸即太空
+  ai_default_failure: AI 默认靠文本分析推出谜底，丢掉可复现的物理重演
+  transfer_rule: 隐喻锚定可操作的物理现象，解码即在现实中复刻该行为
+  quote: 浴缸中平静的水面变成了漆黑的太空
+- pattern_id: 07-p2
+  beat: 双声道闺蜜夜话
+  dimension: camera
+  original_move: 口头声道与目光声道交替排版，目光内容直接写成台词
+  ai_default_failure: AI 用「她用眼神示意」模糊带过，目光声道无台词地位
+  transfer_rule: 双层语义对话给隐声道完整台词地位，两声道并行排版
+  quote: 后两个字她用眼睛说出：驱动？
+- pattern_id: 07-p3
+  beat: 双层隐喻理论化
+  dimension: info_density
+  original_move: 叙事暂停正面陈述编码模型：双层隐喻加含义坐标交叉定位
+  ai_default_failure: AI 用更明显的提示削弱多义性，而非加第二条独立隐喻链
+  transfer_rule: 隐喻先映射可重演的中介物再映射目标，多义用坐标钉死
+  quote: 这个单层隐喻又被称为含义坐标
+- pattern_id: 07-p4
+  beat: 赫尔辛根默斯肯破译
+  dimension: info_density
+  original_move: 钥匙藏在接收方独有的文化考古层，破译来自系统外的偶然
+  ai_default_failure: AI 让专家在会议室想出答案，解谜落入专家全知的乏味
+  transfer_rule: 给目标接收者定制先验，必然的钥匙以最偶然的方式转动
+  quote: 默斯肯岛是距赫尔辛根山最近的一座海岛
+- pattern_id: 07-p5
+  beat: 大旋涡与黑域
+  dimension: info_density
+  original_move: 先长段沉浸旋涡奇观，理论台阶推迟到返程直升机上逐级走完
+  ai_default_failure: AI 跳过台阶写天启式顿悟，或用对照表逐项坐实类比
+  transfer_rule: 硬核概念让身体体验先抵达，推导保留完整思维台阶
+  quote: 那颗星星是安全的
+overall_traits:
+- 解码即叙事，每个谜底配一种独有获得方式
+- 编码模型显式教学，理论加全部工程实例
+- 对手始终在场，解谜快感全程被生存焦虑加权

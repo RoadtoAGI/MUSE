@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:51人--ci-chengyundan
+work_id: novel:狂病-莫千回
+display_name: 刺成云丹
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '刺成云丹说普通话又慢又认真，常要请人"说慢点、自己没听懂"，听懂了又会"一字一句地"把重要的话郑重说出来。他的语言朴素直白、不绕弯子，把最重的承诺说得像陈述事实（"无论别人怎样，他都会选择张亦川"）。情绪多靠表情和动作外化——咧嘴憨笑、点头说"说的对"，而不是长篇表达。偶尔会蹦出张亦川听不懂的昂语词，背后连着他那套讲七情六欲的宗教文化。
+
+
+    佐证：scenes/scene_51-S02.md:L7-L7
+
+    佐证：scenes/scene_51-S06.md:L15-L17'
+  evidence_locators:
+  - scenes/scene_51-S02.md:L7-L7
+  - scenes/scene_51-S06.md:L15-L17
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

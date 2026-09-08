@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7dfa94850bf870e87ebaf5b0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L946
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 但主要还是让你们往歪处想
+sensory_mapping: 空间方向；道路；行走；偏离；思维
+context_fact: 大史认为杀死个别科学家不如扰乱整个群体思想有效。
+image_mechanism: 思考从脑内活动变成沿路前行，敌人无需阻止脚步，只需把路口掰歪；科学家走得越勤，离真相反而越远。
+property_alignment: 研究思路有目标方向对应道路通向目的地；错误观念改变方向对应岔路歪斜；继续思考却远离真相对应沿错路前进；外部扰乱对应有人故意误导路标
+context_alignment: 大史强调敌人不杀人而扰乱思想，歪路准确表现“行动仍在、方向已坏”的高效破坏。
+narrative_function: 说明反科学战争的主要机制，并重新定义汪淼所受倒计时攻击。
+transfer_rule: 用道路写思维操控时，应明确原目标、偏转路口、误导者手段和继续前行造成的累积误差。
+failure_boundary: 基础研究常需探索多条未知道路，暂时偏离不等于错误；没有可验证目标时不能把非主流方向都称歪路。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 敌方主要诱导科学家偏离有效研究方向并形成错误判断
+vehicle: 行路者被引向弯歪岔路，逐渐偏离正确目的地
+ground: 研究思路有目标方向对应道路通向目的地；错误观念改变方向对应岔路歪斜；继续思考却远离真相对应沿错路前进；外部扰乱对应有人故意误导路标

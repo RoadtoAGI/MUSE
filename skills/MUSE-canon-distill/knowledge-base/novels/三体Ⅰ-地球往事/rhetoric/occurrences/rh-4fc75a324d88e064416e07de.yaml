@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4fc75a324d88e064416e07de
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1820
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 就可能有人面临灭顶之灾
+sensory_mapping: 洪水；水位越头；窒息；全身覆盖；无处站立
+context_fact: 技术实验虽有上千个正面解释，只要一个反面图解成立，就足以触发文革式追责。
+image_mechanism: 一条反面解释被灌成突然上涨的水，数量众多的正面解释像低矮堤岸无法抵消；水一越过头顶，技术事实便再无辩护空间。
+property_alignment: 政治指控对应洪水上涨；被牵连人员对应水中人；正面解释失效对应堤防被越过；全面迫害对应水没全身；生命前途毁掉对应溺亡
+context_alignment: 与前面ETO的“灭顶之灾”不同，这里有具体时代制度证明一个词义图解即可压垮个人，熟语承担现实风险判断。
+narrative_function: 让荒唐政治解释的实际代价可触，证明雷志成的拒绝难以推翻。
+transfer_rule: 用灭顶写个人风险时，应有单一事件可触发的全面后果、逃生空间消失和不可逆损害。
+failure_boundary: 风险仅是轻微批评、存在稳定申诉保护或后果可快速恢复时，灭顶会制造不实恐怖。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 实验若被作出一种反革命解释，就可能使相关人员遭受足以毁掉生命和政治身份的迫害
+vehicle: 洪水漫过头顶，受困者完全淹没并面临溺亡
+ground: 政治后果覆盖个人全部生活对应水淹全身；一次解释即可造成毁灭对应水位越顶切断呼吸

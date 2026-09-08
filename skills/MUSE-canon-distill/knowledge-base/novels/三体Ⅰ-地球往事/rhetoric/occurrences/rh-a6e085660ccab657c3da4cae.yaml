@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a6e085660ccab657c3da4cae
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1581
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 他眼中放出兴奋的光来
+sensory_mapping: 视觉亮度；光束方向；眼睛聚焦；明暗变化
+context_fact: 记者和IT副总裁先后表示厌倦现实、把《三体》视为更高现实，正符合潘寒的招募标准。
+image_mechanism: 未说出口的判断在眼球后点亮，兴奋沿视线泄出；汪淼无需听见评价，便能从突然亮起的目光察觉筛选者命中目标。
+property_alignment: 内心兴奋对应光源点亮；眼神变亮对应光线增强；注意聚焦对应光束定向；情绪外露对应光从眼中射出
+context_alignment: 潘寒外表始终从容，只有眼光反复亮起，微小视觉信号暴露他对反人类态度的真实偏好。
+narrative_function: 让汪淼和读者读取招募标准，同时维持潘寒语言上的克制。
+transfer_rule: 用眼中放光写兴奋时，应有可触发的欲望对象、注意聚焦和前后神态亮度差。
+failure_boundary: 人物因照明反光、泪水或警觉而眼亮，或情绪实际恐惧时，放光不能直接推定兴奋。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 潘寒听到玩家贬低现实后，眼神明显显露兴奋与满意
+vehicle: 眼睛成为发光体，向外射出突然变亮的光束
+ground: 眼神亮度和聚焦增强对应光源变亮；内在兴奋被旁人识别对应光从体内向外发出

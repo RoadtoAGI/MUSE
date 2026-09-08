@@ -1,0 +1,35 @@
+scene_id: '04'
+source_notes: scene_04_beats.md
+patterns:
+- pattern_id: 04-p1
+  beat: 蛋糕与唱片
+  dimension: camera
+  original_move: 用变形蛋糕建置温馨和裂缝
+  ai_default_failure: 会直接说明两人很开心
+  transfer_rule: 温馨场先写人物努力维持仪式
+  quote: 总算有了生日气氛
+- pattern_id: 04-p2
+  beat: 四小时独白
+  dimension: omission
+  original_move: 不写内容只写话语结构和唱片循环
+  ai_default_failure: 会展开童年回忆和暗示台词
+  transfer_rule: 失控倾诉可写形式不写内容
+  quote: A话不知不觉地变成
+- pattern_id: 04-p3
+  beat: 断裂
+  dimension: verb
+  original_move: 用硬动词写话语突然停机
+  ai_default_failure: 会写叙述者恐慌和自责
+  transfer_rule: 情绪崩塌可先写物理断裂
+  quote: 话已戛然而止
+- pattern_id: 04-p4
+  beat: 次日清晨
+  dimension: camera
+  original_move: 性爱之后只扫房间静物
+  ai_default_failure: 会写长段后悔和反思
+  transfer_rule: 重大亲密后用静物承接后果
+  quote: 时间在这里突然终止
+overall_traits:
+- 长日常后突然断裂
+- 不写内容只写容器
+- 物件二次出现携带重量

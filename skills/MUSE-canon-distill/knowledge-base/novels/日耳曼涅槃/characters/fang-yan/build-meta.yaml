@@ -1,0 +1,30 @@
+mode: reference
+display_name: 方彦
+role_slug: fang-yan
+source_novel: 日耳曼涅槃
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_01.md
+  - scenes/scene_03.md
+  - scenes/scene_04.md
+  - scenes/scene_05.md
+  - scenes/scene_07.md
+  - scenes/scene_09.md
+  - scenes/scene_11.md
+  - scenes/scene_12.md
+  - scenes/scene_13.md
+  - scenes/scene_15.md
+  - scenes/scene_19.md
+built_at: 2026-07-06T04:32:57+08:00
+skill_version: 1
+locator_count: 26
+has_canon_ending: false
+coverage_note: |
+  流式蒸馏覆盖 11 个场景切片（scene_01/03/04/05/07/09/11/12/13/15/19），
+  跨奠基/崛起/开战/权力暗流/大陆征服/断章出征全部弧段；声音框架跨 7 场、
+  弧光四转折点全有场景锚定。未覆盖：scene_02（齐亚诺初见，建置戏方彦声音
+  样本弱）、scene_06/10/14/21-26（沃克/英方/希特勒视角或战役群像，方彦
+  非声音主体）、scene_08/16/17/18/20（方彦在场但以叙述/参数戏为主，关键
+  断言已由其他场景充分支撑）。非 canonical 网文，无 claims 流程；角色存活
+  至断章，无 canon-ending。

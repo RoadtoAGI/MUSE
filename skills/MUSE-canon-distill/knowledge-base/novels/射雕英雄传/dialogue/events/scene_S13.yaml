@@ -1,0 +1,73 @@
+schema_version: dialogue-scene-events/v1
+work_id: novel:射雕英雄传
+scene_id: S13
+scene_file: scenes/scene_13.md
+events:
+  - event_id: novel:射雕英雄传:S13:e01
+    event_type: group_exchange
+    context:
+      relationship: ruler_subject_and_mother_son
+      power: ruler_over_captive_family
+      intimacy: mixed
+      face_condition: public
+      pressure: mortal_coercion
+      shared_context: 众人都知道郭靖必须在服从军令与母亲性命之间选择
+      immediate_stakes: 李萍要把公开逼答改成母子私下谈话
+    participants:
+      - character_id: novel:射雕英雄传:guo-jing
+        display_name: 郭靖
+        position: coerced_decider
+        knowledge_boundary: 他知道拒令会令母亲当场被杀
+      - character_id: novel:射雕英雄传:li-ping
+        display_name: 李萍
+        position: intervening_mother
+        knowledge_boundary: 她理解儿子的伦理困境并准备劝他守义
+      - character_id: novel:射雕英雄传:genghis-khan
+        display_name: 成吉思汗
+        position: coercive_ruler
+        knowledge_boundary: 他以李萍性命逼郭靖接受军令
+    turns:
+      - turn_id: t01
+        speaker_id: novel:射雕英雄传:guo-jing
+        speaker_label: 郭靖
+        addressee_ids: [novel:射雕英雄传:genghis-khan]
+        response_to: null
+        source_locator: scenes/scene_13.md:L8
+        text: 我……
+        speech_action: attempt_answer
+        cooperation: blocked
+        oral_forms: [cutoff, abandoned_turn]
+        capacity: collapsed
+      - turn_id: t02
+        speaker_id: novel:射雕英雄传:li-ping
+        speaker_label: 李萍
+        addressee_ids: [novel:射雕英雄传:genghis-khan]
+        response_to: t01
+        source_locator: scenes/scene_13.md:L9
+        text: 大汗，只怕这孩子一时想不明白，待我劝劝他如何？
+        speech_action: seize_turn_and_request_access
+        cooperation: strategic_deference
+        oral_forms: [address_fronting, euphemistic_reframe]
+        capacity: full
+      - turn_id: t03
+        speaker_id: novel:射雕英雄传:genghis-khan
+        speaker_label: 成吉思汗
+        addressee_ids: [novel:射雕英雄传:li-ping]
+        response_to: t02
+        source_locator: scenes/scene_13.md:L9
+        text: 好，你快劝他。
+        speech_action: grant_and_command
+        cooperation: instrumental
+        oral_forms: [short_imperative]
+        capacity: full
+    outcome:
+      control_shift: mother_temporarily_controls_access
+      relationship_cost: low
+      visible_result: 李萍获得与郭靖私下谈话的机会
+    transferable_mechanism: 高压先令被逼者失去成句能力；第三人用顺从称呼和委婉归因接管回合，换取行动空间。
+    annotation:
+      extractor: dialogue-kb-distill
+      confidence: 0.99
+      review_status: source_checked
+      source_file: scenes/scene_13.md
+      source_sha256: 5652831cc87a0aaccb3e0f25ba67e023bb408d02027306c981a80c12241e2374

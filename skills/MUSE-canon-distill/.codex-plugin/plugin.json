@@ -1,0 +1,42 @@
+{
+  "name": "muse-canon-distill",
+  "version": "0.1.1",
+  "description": "MUSE 姊妹扩展包：名著场景检索、来源可核验的对白知识库与角色级 few-shot、角色蒸馏、小说与戏剧分析。配合 muse-writing 使用",
+  "author": {
+    "name": "RoadToAGI",
+    "url": "https://github.com/RoadtoAGI"
+  },
+  "homepage": "https://github.com/RoadtoAGI/MUSE-canon-distill",
+  "repository": "https://github.com/RoadtoAGI/MUSE-canon-distill",
+  "license": "MIT",
+  "keywords": [
+    "literary-distillation",
+    "canon",
+    "few-shot-reference",
+    "dialogue-knowledge-base",
+    "character-distillation",
+    "fanfiction",
+    "novel-analysis",
+    "creative-writing",
+    "muse"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MUSE Canon Distill",
+    "shortDescription": "从名著蒸馏场景、对白、人物与结构素材",
+    "longDescription": "MUSE 姊妹扩展包。scene-reference 提供场景参考；dialogue-kb-distill 建立来源可核验的连续对白事件和人物画像；dialogue-reference 为每个场景角色检索行为型 few-shot；character-kb-distill、novel-analysis 与 drama-analysis 负责人物和作品蒸馏。装载后 muse-writing Phase 6 可按场景和角色触发参考检索。",
+    "developerName": "RoadToAGI",
+    "category": "Writing",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "找一段类似的名著场景做参考",
+      "给这个角色找一组关系和压力相近的名著对白回合",
+      "把这本小说蒸馏成可加载的角色 skill",
+      "分析这本小说的结构"
+    ],
+    "websiteURL": "https://github.com/RoadtoAGI/MUSE-canon-distill"
+  }
+}

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f1ab87a7fb8b3a8d6410bcd7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1525
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 主板上爆发出一阵海潮般的欢呼声
+sensory_mapping: 听觉；音量；群体规模；涌动
+context_fact: 漫长计算后红日恰按结果升起，整个人列计算机阵列以士兵身份庆祝。
+image_mechanism: 单个嗓音先失去边界，数千万声波合成一面有体积的潮头，从六公里方阵向金字塔平台压来。
+property_alignment: 多人齐呼对应水滴汇海；巨大音量对应潮汐轰鸣；声音突然出现对应潮头爆发；覆盖整块主板对应海潮横向铺开
+context_alignment: 人列计算运行一直以波光、河流、浪潮表现，此刻机器部件恢复成人，又以海潮声音延续水框架。
+narrative_function: 给计算成功制造宏大情绪峰值，并为紧接的错误警报形成陡降。
+transfer_rule: 把群体声音写成海潮时，应让人数、同步性、音量和空间推进共同成立。
+failure_boundary: 稀疏掌声、此起彼伏的小声交流或室内回声为主时，海潮会夸大声源规模。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 三千万士兵见太阳按预测升起时同时发出的巨大欢呼
+vehicle: 广阔海潮整体涌来并以连续轰鸣撞击岸边
+ground: 千万声音叠加成连续巨响对应无数水体合成潮声；欢呼从主板各处同时涌起对应海潮大面积推进

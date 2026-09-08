@@ -1,0 +1,23 @@
+mode: reference
+display_name: 刘建邦
+role_slug: liu-jian-bang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/恶/phase3_spine.yaml  # antagonistic_forces.interpersonal.layer_1 + spine.shadow_desire（刘建邦贪恋杀人快感反衬廖振宇）
+  - pipeline/phase0_conception.yaml  # human_antagonist_typology（反衬廖振宇型）
+  - scenes/scene_EE-S01.md
+  - scenes/scene_EE-S02.md
+  - scenes/scene_EE-S03.md
+  - scenes/scene_EE-S05.md
+  - note: 本系列单篇人物未登记 pipeline/phase2_character.yaml；结构化字段取自上列 spine + phase0
+built_at: 2026-05-29T17:39:03+08:00
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S01 虐杀分享发现 / S03 "太阳掉下来了"+灾难当前笑感爽 / S05 一根筋出主意），稳定性充分。
+  刘建邦为扁平的纯粹之恶（贪恋杀人快感型），弧光本质不发生内在转变——已在 SKILL 弧光段如实标注其"功能性反衬镜"定位，未强行编造内在成长；关键节拍（S03 笑感爽 vs 廖振宇癫狂）仍带 locator。
+  性格真相有压力情境直接佐证（S03 灾难当前笑"挺爽的"+想与疯子交流 + 踹倒求救人开路）。
+  核心欲望跨 S01（折断猎物看手指能不能动的施虐快感）+ S03（末日想干嘛就干嘛的爽）两场。
+  与廖振宇的根本分野（不为名声、只贪当下快感）由 S03:L47 与 S02 留名哲学的对照承载。

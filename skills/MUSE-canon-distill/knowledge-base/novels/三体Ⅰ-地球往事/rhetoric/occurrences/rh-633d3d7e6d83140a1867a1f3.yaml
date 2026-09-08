@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-633d3d7e6d83140a1867a1f3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2593
+chapter: 第34章 智子
+figure_type: analogy
+quote: 智子从六维空间看三维空间，就像我们看二维平面上的一张画，当然能看到我们的内部
+sensory_mapping: 俯视平面；边界摊开；内部可见；维度阶梯；全景观察
+context_fact: 元首询问智子能否看见控制室，科学执政官解释高维视角让人类和三体人的身体都无内部秘密。
+image_mechanism: 三维世界被降低成桌上一幅画，墙壁、皮肤和机器外壳都只剩线条边界；智子的高维视线像俯视者一样从额外方向越过封闭面。
+property_alignment: 六维观察者对应三维看画者；三维空间对应二维画纸；物体外壳对应图形轮廓；内部器官对应轮廓内区域；高维绕视对应从纸面上方俯看；无法遮挡对应平面无厚度
+context_alignment: 这是高维可见性的核心解释，采用读者能够亲自验证的降一维模型，简洁贴合。
+narrative_function: 以递降维度模型解释智子全视能力，并将技术威胁转成身体被彻底看穿的直觉。
+transfer_rule: 用低维图画解释高维观察时，应保持相同维差逻辑，逐项对应边界、内部、额外观察方向和遮挡失效。
+failure_boundary: 若目标不可见来自材料吸收、加密或信息缺失而非几何遮挡，升维并不当然等于看见，画面模型不能外推。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 处于更高维度的智子观察三维物体时，可越过三维表面屏障直接取得内部全部结构
+vehicle: 三维观察者俯看二维画面，平面图形没有可遮挡内部的厚度，所有区域同时暴露
+ground: 六维对三维的维差对应三维对二维；三维物体表面对应二维图形边界；高维视线绕过低维封闭对应俯视画面内部

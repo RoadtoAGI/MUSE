@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d0d654025e6fb30b88d5071c
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2039
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 她的声音尖尖的，仿佛时刻都带着一种不知从何而来的惊恐
+sensory_mapping: 听觉尖度；喉部紧绷；携带重量；持续背景情绪
+context_fact: 她经历武斗、下乡和返城失业，面对被她们害死教授的女儿仍无法真正镇定。
+image_mechanism: 惊恐被装进声音内部，每个尖音都像把同一小包恐惧带到听者面前；她本人也说不清恐惧来自旧罪、生活创伤还是现实困顿。
+property_alignment: 尖细音色对应恐惧性喉紧；说话持续如此对应情绪时刻随身；来源不明对应容器内容难追溯；面对叶文洁对应旧创伤触发；语句传出对应把惊恐带给听者
+context_alignment: 其他两人表现粗壮麻木或独臂沉静，她的声音单独保存恐惧，使三种创伤后形态得到区分。
+narrative_function: 以音色刻画长期创伤和负罪的不确定混合，避免把老红卫兵写成单一恶人。
+transfer_rule: 让声音携带情绪时，应从音高、节奏、持续性和人物经历推导所携情绪，并承认可能来源。
+failure_boundary: 尖声来自生理音色且人物放松、或只在单句短暂受惊时，不能推断声音时刻装着恐惧。
+quality_assessment: effective
+confidence: 0.97
+review_status: reviewed
+tenor: 瘦小老红卫兵长期紧张、尖细而无法放松的说话音色
+vehicle: 声音成为随身容器，无论说什么都携带一份来源不明的惊恐
+ground: 音调持续尖高对应恐惧使声带绷紧；情绪渗入每句话对应声音始终把惊恐带出

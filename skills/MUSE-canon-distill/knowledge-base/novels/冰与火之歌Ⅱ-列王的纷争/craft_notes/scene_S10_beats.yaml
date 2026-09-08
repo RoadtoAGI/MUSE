@@ -1,0 +1,28 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 桃子道具
+  dimension: camera
+  original_move: 两军对峙时镜头落在水果
+  ai_default_failure: 会给蓝礼内心解释轻松
+  transfer_rule: 性格可由反语境道具外显
+  quote: 咬了一口
+- pattern_id: S10-p2
+  beat: 母亲发言
+  dimension: overall
+  original_move: 把王位争执降格为兄弟吵架
+  ai_default_failure: 会解释她为何失礼
+  transfer_rule: 第三方调停可切换语域
+  quote: 如果你们是我儿子
+- pattern_id: S10-p3
+  beat: 光明使者
+  dimension: omission
+  original_move: 让神剑真假保持悬置
+  ai_default_failure: 会裁判神剑是真是假
+  transfer_rule: 神秘物件保留相反观察
+  quote: 那玩意儿
+overall_traits:
+- 道具是角色性格延伸
+- 对白中存在语域战争
+- 壮观总被世俗视角质疑

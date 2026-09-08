@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:死亡奔赴--yue-zian
+work_id: novel:狂病-莫千回
+display_name: 岳子安
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '岳子安的"声音"主要活在内心独白和手机消息里，而非对外的台词——对外他话很少，紧要关头多是短促的呼喊（"怎么办，我们好像真的要死了"）或一句"我可以下手"的硬气点头。内心独白则是他真正的嗓子：絮叨、爱用消费品和日常经验给极端恐怖"降级"（看着溅满血的平板感叹"保护壳真好，这都没弯"），用斗嘴口吻的自我吐槽消化绝望，遇到大事先想到的常是"要不要发给女友""女友会担心"。对周书韵，他的语言是黏稠的、患得患失的依赖——平时是撒娇斗嘴，到了诀别关头则退化成最原始的三个字："我爱你"复制粘贴不停发送。他几乎不抒情、不讲大道理，真实的情感藏在"千万不要取消航班"这种自私又诚实的祈祷里。
+
+
+    佐证：scenes/scene_SB-S05.md:L13-L13 / scenes/scene_SB-S01.md:L7-L7 / scenes/scene_SB-S08.md:L5-L9'
+  evidence_locators:
+  - scenes/scene_SB-S05.md:L13-L13
+  - scenes/scene_SB-S01.md:L7-L7
+  - scenes/scene_SB-S08.md:L5-L9
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

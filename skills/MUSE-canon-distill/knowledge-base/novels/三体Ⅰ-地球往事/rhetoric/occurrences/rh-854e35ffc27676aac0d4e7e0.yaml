@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-854e35ffc27676aac0d4e7e0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2442
+chapter: 第33章 监听员
+figure_type: metaphor
+quote: 整个舰队最终的结局就是坠入宇宙深渊
+sensory_mapping: 黑暗无底；向下坠落；崖缘越过；无处着陆；失联
+context_fact: 舰队只知道电波方向而不知距离，动力只允许一次减速，无法沿线大范围搜索。
+image_mechanism: 平坦星海被翻成竖直悬崖，目标若不在减速点，舰队便像跨出崖缘，余速成为永不结束的下坠。
+property_alignment: 宇宙黑暗对应深渊；目标未知对应看不见底；一次减速对应唯一攀点；错过目标对应踏空；燃料受限对应无法回攀；永久失联对应坠落不返
+context_alignment: 元首仍选择冒险，因为三颗太阳也可能吞没行星，深渊将无路可选的生存困局视觉化。
+narrative_function: 把导航和燃料风险压成不可逆坠落，标明首次远征的赌博程度。
+transfer_rule: 用宇宙深渊写漂失时，应对应黑暗、无参照、惯性单向、制动机会有限和无法返航。
+failure_boundary: 舰队可持续修正、补给或掉头，或沿途有多个候选目标时，无底坠落会夸大不可逆性。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 目标距离未知且只能一次减速的三体舰队若找不到行星，将耗尽控制能力并永久漂失深空
+vehicle: 队伍越过边缘坠入无底黑暗深渊，无法止落、返回或找到落脚处
+ground: 深空黑暗无界对应深渊；动力耗尽对应失去攀援；航向误差对应越过崖边；永久漂流对应无底下坠

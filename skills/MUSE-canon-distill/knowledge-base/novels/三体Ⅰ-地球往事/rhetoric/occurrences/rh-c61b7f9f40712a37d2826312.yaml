@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c61b7f9f40712a37d2826312
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2709
+chapter: 第36章 尾声·遗址
+figure_type: metaphor
+quote: 碑是那么小，与其说是为了纪念，更像是为了忘却
+sensory_mapping: 小石碑；荒草遮没；简短刻字；视线略过；记忆缩小
+context_fact: 基地遗址被清除，只留下小碑，铭文称红岸功绩在于终结文化大革命而不提外星通信。
+image_mechanism: 纪念碑通常放大历史，此碑却把庞大事件压进一块小石头和一句安全解释；刻字像封条，确认此事已归档，从公共视野中退出。
+property_alignment: 碑体小对应记忆份额小；铭文简短对应叙事压缩；隐去真实使命对应选择性遗忘；遗址荒芜对应社会移开目光；纪念形式对应封存手续；读者知后果对应忘却反讽
+context_alignment: 红岸造成跨世纪危机，官方碑文却只留下可接受的国内历史意义，小碑尺度精准揭示记忆政治。
+narrative_function: 以悖论收束遗址描写，指出公共纪念也能成为组织遗忘的方式。
+transfer_rule: 把纪念物写成遗忘工具时，应有体量或位置的弱化、叙事删减、真实历史与公开铭文差距及封存效果。
+failure_boundary: 纪念物详尽公开史料、持续引发讨论并占据显著公共空间时，称其为了忘却会忽略实际记忆功能。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 刻有红岸基地时间和简单一句话、体量小到几乎隐没荒草中的石碑
+vehicle: 以最小必要标记封存事件、帮助社会把它划出当下并停止追问的遗忘工具
+ground: 碑体微小对应记忆被压缩；铭文简略对应历史细节删去；立于荒野不显眼对应主动淡化；纪念形式反而完成封存

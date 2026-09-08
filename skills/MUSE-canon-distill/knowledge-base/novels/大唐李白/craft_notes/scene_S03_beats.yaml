@@ -1,0 +1,14 @@
+scene_id: S03
+source_notes: scene_S03_beats.md
+patterns:
+- pattern_id: S03-p1
+  beat: 身世吐露
+  dimension: info_density
+  original_move: 以博物绕行逼近私密告白
+  ai_default_failure: 直接交代人物真实姓名来历
+  transfer_rule: 秘密太重时先让知识层代为缓冲
+  quote: 客之名，本非我名
+overall_traits:
+- 醉话兼具说出与否认理由
+- 博物叙述承担心理迂回
+- 非人物元素负责视觉收束

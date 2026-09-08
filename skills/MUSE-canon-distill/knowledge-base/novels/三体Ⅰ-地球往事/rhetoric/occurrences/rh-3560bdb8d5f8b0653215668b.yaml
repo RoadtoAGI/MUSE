@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3560bdb8d5f8b0653215668b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1779
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 一条看上去如春藤般柔软的玉臂
+sensory_mapping: 视觉青嫩感；触觉柔软；曲线；缠绕动作；皮肤光泽
+context_fact: 少女用这只手臂夹住潘寒脖颈，借精确角度瞬间扭断颈椎，外观与力量严重反差。
+image_mechanism: 手臂先被看成无害嫩藤，曲线顺着脖颈缠上去；柔软并未削弱力量，反而使控制角度像藤条收紧般贴合。
+property_alignment: 纤细玉臂对应细藤；关节柔韧对应藤蔓可弯；夹住颈部对应藤条缠绕；外观柔美对应春藤新嫩；内藏力量对应柔藤收紧约束
+context_alignment: “玉”与“春藤”共同建立柔美外观，紧接颈椎折断声把这种美感翻成冷酷杀伤，反差精确服务突袭。
+narrative_function: 同时塑造少女的柔美、灵活与危险，使处决动作具有意外冲击。
+transfer_rule: 把手臂比作藤蔓时，应利用纤细曲线、柔韧弯折和实际缠绕动作，并明确柔软如何参与发力。
+failure_boundary: 手臂粗硬直推、没有缠绕或关节动作僵直时，春藤会只剩性别化装饰。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 少女外表白皙纤细、动作柔韧却能施加精巧致命力量的手臂
+vehicle: 春日新生、表面柔嫩并能弯曲缠绕的藤蔓
+ground: 手臂纤细柔韧对应春藤柔软可弯；手臂绕住脖颈对应藤蔓缠绕支撑物

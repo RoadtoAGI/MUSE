@@ -1,0 +1,25 @@
+mode: reference
+display_name: 孙队长
+role_slug: sun-duizhang
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces.external（感染后孙队长 = 开篇噩梦闭环）+ story_climax_design（'骗子'母题）
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_b（最尽责的好人下场最惨）
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T20:18:00+08:00
+skill_version: 1
+locator_count: 6
+has_canon_ending: true
+coverage_note: |
+  信息密度中等，但分布特殊：感染前的人格全靠 S03"我"的口述呈现（被断骨刺中 + 舍身把感染者顶回二楼 + 命令锁门），
+  感染后的实体登场集中在 S10（破门屠杀 + "骗子"嘶喊 + 被焚死）。声音框架属"感染前/后断裂"型——
+  感染前只靠命令与行动（处置式短令），感染后丧失人类语言、只残留反复的"骗子"二字，跨 2 场景但形态对照鲜明。
+  边界 4 条各带 locator（感染前不丢下被护送者 S03 / 不要求补枪解脱 S03 / 感染后不放过"骗子"指控 S10 / 感染后无人类怜悯 S10）。
+  弧光仅描感染前内在转变（从"带人活下去"到"以身焊成人闸"），起点 + 转折齐全；感染异化属物理终局不进弧光本体。
+  has_canon_ending: true —— 孙队长被关二楼数月后破门屠杀、最终被石浩洋汽油焚烧致死（S10:L41），
+    属不可逆终局（感染异化 + 物理死亡双重），已回 scene 原文核对；其内在弧光在 S03 自我献祭已收束，
+    隔离到 references/canon-ending.md，不进人格本体。
+  孙队长为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml 推导，
+  注：感染前人格依据 S03 第一人称口述（嵌套转述），感染后依据 S10 实体登场，两段均为篇内 scene 原文，所有断言均有篇内 scene locator 佐证。

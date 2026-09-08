@@ -1,0 +1,126 @@
+{
+  "novel": "斯通纳",
+  "nominations": [
+    {
+      "pattern_name": "低声觉醒",
+      "dramatic_function": "让人物的终身使命不是由宣言产生，而由一次感官失衡和他人命名显影。",
+      "applicability": "适用于内向主角的志业起点；若主角本就外放善辩则失效。",
+      "reuse_candidates": [
+        "莎士比亚十四行诗",
+        "中西部大学课堂"
+      ],
+      "tags": [
+        "觉醒",
+        "使命命名",
+        "感知转变"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S01",
+          "note": "文学唤醒完全落在呼吸、手指和光线变化上。"
+        },
+        {
+          "scene_id": "S02",
+          "note": "导师把模糊热爱命名为教师身份。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "pattern_name": "以物代战",
+      "dramatic_function": "把关系中的控制、剥夺和反击转译为空间、物件和使用权的变化。",
+      "applicability": "适用于亲密关系或职场权力的慢性压迫；若冲突必须即时爆炸则不宜。",
+      "reuse_candidates": [
+        "粉红色小桌",
+        "教授书房",
+        "中世纪英语教材"
+      ],
+      "tags": [
+        "冷暴力",
+        "空间权力",
+        "物件叙事"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S06",
+          "note": "婚姻战争通过桌子、书房和手稿的位移升级。"
+        },
+        {
+          "scene_id": "S14",
+          "note": "事业反击不是争吵，而是直接改造课堂行动。"
+        },
+        {
+          "scene_id": "S17",
+          "note": "书房的打磨和布置成为自我定义。"
+        }
+      ],
+      "phase_affinity": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "pattern_name": "安静失去",
+      "dramatic_function": "让最高情感代价以减法呈现，靠省略、停顿和事后空场制造重量。",
+      "applicability": "适用于成熟人物的不可逆告别；若类型需要即时情绪宣泄则失效。",
+      "reuse_candidates": [
+        "婚外恋离别",
+        "连夜离开哥伦比亚"
+      ],
+      "tags": [
+        "告别",
+        "减法叙事",
+        "主动放弃"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S10",
+          "note": "最深的爱用否定排比、拥抱和离场完成。"
+        },
+        {
+          "scene_id": "S12",
+          "note": "二十年敌意最终压成致辞后不转身的动作。"
+        }
+      ],
+      "phase_affinity": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "pattern_name": "失败重估",
+      "dramatic_function": "先让一生按世俗指标失败，再在临终用注意力转移重估其意义。",
+      "applicability": "适用于反逆袭人生线；若故事承诺外部胜利则会削弱爽感。",
+      "reuse_candidates": [
+        "助理教授职称停滞",
+        "褪色红封面著作"
+      ],
+      "tags": [
+        "反逆袭",
+        "临终回望",
+        "意义重估"
+      ],
+      "evidence_scenes": [
+        {
+          "scene_id": "S13",
+          "note": "失败清单被窗外生命和手中书页重新衡量。"
+        },
+        {
+          "scene_id": "S15",
+          "note": "土地吞没父母的一生，反衬个体意义的追问。"
+        }
+      ],
+      "phase_affinity": [
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

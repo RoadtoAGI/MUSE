@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3c32e7507d8c32e8af36f5ce
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2647
+chapter: 第35章 虫子
+figure_type: analogy
+quote: 加速器是我们的算盘和计算尺，只有通过它们，我们才可能发明出电子计算机来
+sensory_mapping: 算盘拨珠；计算尺刻度；电子机跃迁；工具代际；台阶前进
+context_fact: 智子锁死加速器结果，丁仪说明人类因此无法从十一维微观起步走向三体级技术。
+image_mechanism: 物理技术史被排成工具代际，庞大加速器被缩为算盘，未来高维控制则像电子计算机；智子夺走的不是旧机器本身，而是从拨珠跨向芯片的必经学习阶段。
+property_alignment: 加速器对应算盘计算尺；现有物理对应早期计算；高维技术对应电子计算机；实验积累对应拨珠刻度训练；技术突破对应工具代际跃迁；锁死加速器对应拿走基础工具
+context_alignment: 比喻回答加速器为何不可替代，强调落后工具仍是发明先进工具的前提，直接深化智子封锁的致命性。
+narrative_function: 把技术路径依赖讲清，使抽象基础科学停滞转成人人可理解的代际断裂。
+transfer_rule: 用旧工具与新工具类比技术演进时，应证明前者产出后者所需原理、数据或能力，而非仅按年代排列。
+failure_boundary: 若新技术可由完全独立路线直接获得，或旧工具对关键理论没有贡献，算盘到计算机的必经关系会夸大线性发展。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类现有高能加速器是通向更高级微观物理和未来技术的基础研究工具，虽初级却不可跳过
+vehicle: 算盘和计算尺是早期计算工具，人类通过它们积累原理与需求，才发展出电子计算机
+ground: 加速器相对高维技术初级对应算盘相对电子计算机初级；基础工具提供探索路径；后继技术依赖前阶段知识积累

@@ -1,0 +1,28 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 弗罗多的宣告
+  dimension: omission
+  original_move: 屈服瞬间无内心戏，以清晰宣告与「选择」一词完成转向
+  ai_default_failure: 写大段内心挣扎、一部分的他还在抵抗
+  transfer_rule: 彻底沦陷写成清醒的选择，删尽挣扎，清晰即恐怖
+  quote: 我不会完成这项行动。魔戒是我的！
+- pattern_id: S18-p2
+  beat: 咕噜夺戒
+  dimension: verb
+  original_move: 镜头追身体部位，咬—舞—踏—摔，命运系于一个脚步
+  ai_default_failure: 用慢镜头铺写坠落过程
+  transfer_rule: 终极转折可交给最日常的动词，坠落瞬间完成不跟拍
+  quote: 他的脚一下踏得太远
+- pattern_id: S18-p3
+  beat: 索隆覆灭
+  dimension: camera
+  original_move: 个人—宇宙—个人三级跳切，硬动词密集轰炸后四字收人
+  ai_default_failure: 写大段魔戒力量从身体中抽离的过程
+  transfer_rule: 小动作引发大崩塌时，用尺度骤切制造认知震撼
+  quote: 塔楼倾圯，群山崩溃
+overall_traits:
+- 极端压缩：越重要的事件越短
+- 日常动词承载命运，颠覆史诗腔
+- 双尺度跳切：一个脚步引发帝国覆灭

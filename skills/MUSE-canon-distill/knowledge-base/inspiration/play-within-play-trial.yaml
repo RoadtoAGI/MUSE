@@ -1,0 +1,24 @@
+card_id: play-within-play-trial
+pattern_name: 戏中戏验真
+dramatic_function: 指控无法呈堂时，用嵌套演出复现罪行，让被试者的当众失态成为证词，验证与揭发同拍完成
+applicability: 适用于罪证缺失、主角只能旁证取信的局；需被试者到场且观众先知罪行假设；反应可伪装则失效（单书孤证，验证面窄）
+reuse_candidates:
+- 毒液入耳的具体凶器
+- 七言韵文戏文与哑剧先行的双重演出
+- 「捕鼠器」剧名与伶人设定
+tags:
+- 戏中戏
+- 验证
+- 良心测试
+- 嵌套叙事
+source_scenes:
+- novel: 哈姆雷特
+  scene_id: A2S2
+  note: 哈姆雷特定计以戏为陷阱捕捉国王良心
+- novel: 哈姆雷特
+  scene_id: A3S2
+  note: 演至倾毒处国王惊起离席，幽灵证言获当众确证
+phase_affinity:
+- 3
+- 4
+- 5

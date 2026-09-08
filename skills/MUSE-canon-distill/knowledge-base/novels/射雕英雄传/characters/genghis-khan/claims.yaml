@@ -1,0 +1,76 @@
+role_slug: genghis-khan
+claims:
+  - id: C001
+    text: "成吉思汗本名铁木真"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/成吉思汗
+        quote: "本名铁木真（ᠲᠡᠮᠦᠵᠢᠨ；Temüjin）"
+      - url: https://baike.baidu.com/item/孛儿只斤·铁木真
+        quote: "孛儿只斤·铁木真（大蒙古国可汗）；尊号'成吉思汗'"
+    resolution_note: null
+
+  - id: C002
+    text: "成吉思汗统一蒙古各部"
+    type: historical_participation
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/成吉思汗
+        quote: "成吉思汗一生大多时光都用于统合蒙古族诸部落"
+      - url: https://baike.baidu.com/item/孛儿只斤·铁木真
+        quote: "在1204年基本统一蒙古高原诸部"
+    resolution_note: null
+
+  - id: C003
+    text: "成吉思汗发动西征攻打花剌子模"
+    type: historical_participation
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/成吉思汗
+        quote: "怒而兴兵入侵，此战倾覆花剌子模王朝"
+      - url: https://baike.baidu.com/item/孛儿只斤·铁木真
+        quote: "元太祖十四年（1219年）夏，铁木真统领二十万大军越过阿勒台山…进入花剌子模国境"
+    resolution_note: null
+
+  - id: C004
+    text: "拖雷是成吉思汗的幼子"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/成吉思汗
+        quote: "拖雷，约1193年出生的儿子（孛儿帖所生最后一子）"
+      - url: https://baike.baidu.com/item/孛儿只斤·铁木真
+        quote: "拖雷'幼子守灶'，继承铁木真四大斡鲁朵和国之中心蒙古本土之地"
+    resolution_note: null
+
+  - id: C005
+    text: "成吉思汗在征伐西夏途中去世"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/成吉思汗
+        quote: "1227年8月18日或25日驾崩于西夏围攻期间"
+      - url: https://baike.baidu.com/item/孛儿只斤·铁木真
+        quote: "元太祖二十二年（1227年）春…铁木真在六盘山下的清水县病逝；进围中兴府"
+    resolution_note: null

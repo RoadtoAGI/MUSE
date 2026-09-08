@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b24d12eb200a44b153f1a372
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L95
+chapter: 第1章 科学边界
+figure_type: metaphor
+quote: 照片中的大地没有了她的身影，天空抹去了她的眼睛，那些世界死了
+sensory_mapping: 视觉；生命；消失
+context_fact: 照片此前因叠入杨冬而被写成苏醒。
+image_mechanism: 前文苏醒的照片被反向操作：人物从地景撤走、眼睛从天空擦除，多个有生命的世界随核心器官消失而死亡。
+property_alignment: 人物消失使构图失活对应生命离开世界；眼睛曾充当天空背景、如今被抹去对应世界失去灵魂
+context_alignment: 死亡反转同一框架中的苏醒，形成精确前后照应。
+narrative_function: 让杨冬之死同时杀死汪淼的私人审美世界。
+transfer_rule: 延展意象出现重大事件时，可复用原框架做反向状态变化，让“曾如何活”精确决定“如今如何死”。
+failure_boundary: 若前文没有建立杨冬使照片苏醒并充当灵魂，这里的世界死亡会失去因果，只剩夸张哀叹。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 杨冬死后风景照片失去审美生命和意义
+vehicle: 核心生命被抹除后死亡的多个世界
+ground: 人物消失使构图失活对应生命离开世界；眼睛曾充当天空背景、如今被抹去对应世界失去灵魂

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7433c0da8aac7c8814196700
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L871
+chapter: 第10章 宇宙闪烁之二
+figure_type: metaphor
+quote: 这红光来自于一百多亿年前，是大爆炸的延续，是创世纪的余温
+sensory_mapping: 温度；视觉红色；时间；身体或现场残热；宇宙尺度
+context_fact: 3K眼镜把厘米微波压缩为可见红光，使汪淼直接看见背景辐射。
+image_mechanism: 百亿年被折叠成事件刚结束后的片刻，暗红天空成为仍有体温的创生现场；抽象辐射因此像触手可感的旧热贴在当下。
+property_alignment: 大爆炸开启宇宙对应创世纪事件；早期极热对应创生时高温；今日微弱辐射对应事件后的残余温度；辐射跨越百亿年对应余温长久衰减；红光感知对应热色仍可见
+context_alignment: “余烬”此前解释科学起源，此处亲眼红光并置“创世纪”，把同一热学事实提升为崇高感官经验。
+narrative_function: 让观测跨接宇宙诞生时刻，为随后器官化宇宙提供温热生命感。
+transfer_rule: 用余温写远古事件时，应让残留信号与原事件共享能量类型，并以感官转换缩短巨大时间距离。
+failure_boundary: 背景辐射的现温极低，红色来自设备转换；不能据“余温”想象真实天空温热或把大爆炸当宗教事实。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从早期宇宙延续至今、经眼镜转成暗红光的微波背景辐射
+vehicle: 一次宏大创生结束后仍留在现场、随岁月降温却未完全消失的体温或热气
+ground: 大爆炸开启宇宙对应创世纪事件；早期极热对应创生时高温；今日微弱辐射对应事件后的残余温度；辐射跨越百亿年对应余温长久衰减；红光感知对应热色仍可见

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-017c7da0f147327ae21571bb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L953
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 世界上有许多一流学者被伪科学骗得团团转
+sensory_mapping: 旋转；平衡；眩晕；空间；认知
+context_fact: 汪淼解释科学家也会受骗，而魔术师常能揭穿伪科学骗局。
+image_mechanism: 骗术抓住学者的认知重心，让人不断围绕假命题旋转；每一次看似改变角度，身体仍回到原点，方向感还随转速降低。
+property_alignment: 判断被操控对应身体被牵引；反复追随错误解释对应绕圈重复；知识优势失效对应转动中失去方向；研究没有逼近真相对应原地无位移
+context_alignment: 这句话用运动结果解释为何专业知识不自动提供识骗能力，为大史的社会经验赋值。
+narrative_function: 重估大史与科学家的能力差异，巩固二人合作基础。
+transfer_rule: 用转圈写受骗时，应说明牵引点、重复周期、方向感如何丧失以及为何没有实际位移。
+failure_boundary: 一次判断错误、主动比较多种假说或虽绕路但持续获得证据时，不构成被人牵着原地旋转。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 一些学者被伪科学反复操纵判断，失去方向且无法接近真相
+vehicle: 人被外力牵着不断原地转圈，头晕失向而没有前进
+ground: 判断被操控对应身体被牵引；反复追随错误解释对应绕圈重复；知识优势失效对应转动中失去方向；研究没有逼近真相对应原地无位移

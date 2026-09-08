@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eed83b252dd73bc498a2e5a4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1296
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 燃烧的坐骑扑通一声栽倒在地，成了一大堆篝火
+sensory_mapping: 视觉；坠落声；形态摊开；火焰
+context_fact: 刚才的火马冲入大殿后突然栽倒，骑士被甩出，坐骑不再有生命运动。
+image_mechanism: 上一刻集中的移动火球撞地后摊开，奔跑动势消失，只剩一堆供火消耗的肉身材料；同一对象的喻体随运动状态精确改变。
+property_alignment: 马倒伏对应燃料堆贴地；身体各部燃烧对应篝火多点起焰；生命停止对应篝火没有自主运动；扑通落地对应燃料被倾倒成堆
+context_alignment: 火球到篝火的转换紧跟马由奔跑到死亡，图像变化不是同义重复，而是对动作结果的即时核销。
+narrative_function: 在一个坠落动作中完成坐骑从生命到燃料的转化，增加灾变残酷。
+transfer_rule: 延展燃烧意象时，应随对象速度、姿态和生命状态更换喻体，让图像变化承担事件变化。
+failure_boundary: 对象仍在运动、火焰集中成单点或倒地后立即熄灭时，篝火的固定燃烧堆不会成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 倒地后不再奔跑、身体各处持续燃烧的马
+vehicle: 燃料堆积在地面、火焰从多处向上燃烧的一堆篝火
+ground: 马倒地成为固定燃烧堆对应篝火燃料堆不移动；躯体多处冒火对应柴堆表面多簇火焰

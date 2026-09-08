@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-84906e77bc6eadbd82ebc8a7
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L970
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 也可以玩玩那个游戏，能打通它最好
+sensory_mapping: 空间路径；阻力；推进动作
+context_fact: 作战中心多名专家都在玩《三体》，大史希望汪淼继续探索并完成它。
+image_mechanism: 无形的规则和谜题被排成一条受阻通道，玩家每解开一关便凿开一段，直到入口与终点连通。
+property_alignment: 逐关推进对应逐段清除障碍；完成全部内容对应通路首尾贯通；困难关卡对应坚硬堵塞处
+context_alignment: 大史不懂游戏理论，只从办案和行动经验理解为把障碍打穿，口语化动词符合他的说话方式。
+narrative_function: 把继续游戏设为可执行目标，并暗示游戏内部藏着需要抵达的真相。
+transfer_rule: 用“打通”写复杂任务时，应让任务具有明确序列、阻塞节点和可判断的终点，保持路径推进结构。
+failure_boundary: 开放式体验、没有关卡顺序或不存在完成状态的活动，不具备被贯通的路径，使用此喻会虚构终点。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 完成《三体》游戏全部关卡并抵达其最终信息
+vehicle: 击破阻塞、贯通一条原本不通的路径
+ground: 游戏关卡阻止玩家前进对应道路被障碍封住；连续解决关卡直达终点对应逐段打通通道

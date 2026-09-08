@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9f51e631173fa9d36bda1ca5
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1851
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 斑斑血迹装饰着的人类历史令她不寒而栗
+sensory_mapping: 视觉血红；斑点；纸卷表面；腥冷触感；身体战栗
+context_fact: 叶文洁阅读大量哲学和历史著作，以自身文革经历为起点理性思考人类恶。
+image_mechanism: 历史从抽象时间变成铺开的长卷，战争与迫害留下未干血斑；“装饰”把文明自我美化翻转成以受害者鲜血布置门面的讽刺。
+property_alignment: 人类历史对应长卷或建筑表面；暴力事件对应血迹；反复跨时代出现对应斑斑密布；英雄化战争对应把污迹当装饰；叶文洁恐惧对应看见血色而战栗
+context_alignment: 她亲眼见过父亲被打死，血迹不是书斋夸张，而把个人记忆与世界史证据叠在同一视觉上。
+narrative_function: 浓缩叶文洁对历史的总体判断，为其把人类视为无法自救的物种提供感性证据。
+transfer_rule: 用血迹写历史暴力时，应落实具体受害、跨时期重复和文明如何记录或美化这些事件。
+failure_boundary: 材料只选取暴力而忽略长期和平与修复，或“装饰”被误读为作者赞美时，该图景会把选择性证据绝对化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类历史反复出现战争、迫害与屠杀，暴力事件几乎成为其醒目标记
+vehicle: 一幅长卷表面被点点血迹覆盖，这些污迹反被当作装饰图案陈列
+ground: 各时代暴力事件散布史册对应血斑遍布画面；暴力常被荣耀叙述对应血迹被反讽地称为装饰

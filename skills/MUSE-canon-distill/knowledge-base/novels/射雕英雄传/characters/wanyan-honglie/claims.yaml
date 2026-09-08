@@ -1,0 +1,76 @@
+role_slug: wanyan-honglie
+claims:
+  - id: C001
+    text: "完颜洪烈是金国六王爷（赵王）"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/完颜洪烈
+        quote: "金朝六王爺，爵封趙王"
+      - url: https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E6%B4%AA%E7%83%88/5921480
+        quote: "金国六王爷，被封为赵王"
+    resolution_note: null
+
+  - id: C002
+    text: "完颜洪烈骗娶包惜弱（伪装救美）"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/完颜洪烈
+        quote: "騙包惜弱楊鐵心已死，最後順利娶得包惜弱"
+      - url: https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E6%B4%AA%E7%83%88/5921480
+        quote: "完颜洪烈趁机伪装成正义之士…谎称自己救了她"
+    resolution_note: null
+
+  - id: C003
+    text: "完颜洪烈是杨康的养父（赐名完颜康）"
+    type: lineage
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/完颜洪烈
+        quote: "對楊康視如己出，並賜金名完顏康"
+      - url: https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E6%B4%AA%E7%83%88/5921480
+        quote: "收包惜弱之子杨康为养子…视作自己的亲生骨肉一般"
+    resolution_note: null
+
+  - id: C004
+    text: "完颜洪烈勾结/买通段天德袭杀郭啸天与杨铁心"
+    type: canonical_identity_label
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/完颜洪烈
+        quote: "買通宋將段天德襲擊楊鐵心及其義兄郭嘯天"
+      - url: https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E6%B4%AA%E7%83%88/5921480
+        quote: "他暗中买通了宋朝将领段天德，指使其袭击杨铁心及其义兄郭啸天"
+    resolution_note: null
+
+  - id: C005
+    text: "完颜洪烈最终被擒后由成吉思汗下令斩首（金庸小说中亦有'实为自杀'的描写）"
+    type: cause_of_ending
+    source_locators:
+      - SKILL.md
+    confidence: high
+    verification_required: true
+    verification_status: verified
+    verification_sources:
+      - url: https://zh.wikipedia.org/wiki/完颜洪烈
+        quote: "最後完顏洪烈被成吉思汗下令斬首（實為本人自殺）"
+      - url: https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E6%B4%AA%E7%83%88/5921480
+        quote: "完颜洪烈被黄蓉俘虏…成吉思汗下令在殿前将完颜洪烈斩首"
+    resolution_note: null

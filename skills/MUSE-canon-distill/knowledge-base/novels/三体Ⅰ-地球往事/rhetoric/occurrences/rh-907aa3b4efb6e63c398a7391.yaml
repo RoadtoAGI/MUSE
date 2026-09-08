@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-907aa3b4efb6e63c398a7391
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1696
+chapter: 第21章 三体、远征
+figure_type: metaphor
+quote: 这密密的人海一望无际
+sensory_mapping: 视觉广度；密集点阵；海面平铺；数量压迫
+context_fact: 远看像石块的无数人头实际属于聚集的全体三体人，他们都等待星际舰队起航。
+image_mechanism: 单个人的身体在远景中缩成水滴，人头密度填平戈壁沟壑，群体边界与地平线重合；文明全员因此以一片海的体量出现。
+property_alignment: 三体个体对应水滴；几亿人聚集对应水滴成海；群体铺满大地对应海面覆盖；看不到边界对应海天线延伸；统一等待对应海面整体状态
+context_alignment: 上一章的星海将成为舰队航域，这里先以人海作为送行者，地面之海与天空之海形成垂直呼应。
+narrative_function: 用一个远景交代全民动员规模，为舰队起航建立文明级见证。
+transfer_rule: 用人海写群体时，应同时匹配密度、横向范围、个体难辨和整体状态。
+failure_boundary: 人群稀疏、边界清楚或个体差异是场景重点时，人海会抹平必要人物层次。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 几亿三体人密集站满戈壁并延伸到视野尽头的群体景象
+vehicle: 水滴密集汇成没有边际、覆盖地表的辽阔海洋
+ground: 个体数量巨大且难以区分对应水滴汇海；人群平铺至地平线对应海面一望无际

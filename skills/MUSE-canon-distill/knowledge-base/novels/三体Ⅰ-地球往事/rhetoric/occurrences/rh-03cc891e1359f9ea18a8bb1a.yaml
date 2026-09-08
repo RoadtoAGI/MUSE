@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-03cc891e1359f9ea18a8bb1a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1507
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: simile
+quote: 中央的CPU区激荡最为剧烈，像一片燃烧的火药。突然，仿佛火药燃尽，CPU区的扰动渐渐平静下来
+sensory_mapping: 视觉；燃烧；速度；能量耗尽
+context_fact: 系统首次热启动时门电路出错，中央处理区先最活跃，随后锁死并将静止扩散到主板。
+image_mechanism: 离散旗动被压成一整片爆燃表面，计算负荷显为火势；故障则像燃料骤尽，使最热区域失去能量并冷却。
+property_alignment: CPU高频状态变化对应火药旺燃；中央区域最剧烈对应燃烧核心；活动快速终止对应火药燃尽；系统失去输出对应火势熄灭
+context_alignment: 火药与秦军战争技术相配，也准确把计算活跃度从水波意象提升为危险高能状态。
+narrative_function: 让系统锁死之前的状态骤变可见，并制造从极动到极静的戏剧转折。
+transfer_rule: 用燃料燃烧写高负荷过程时，应同时匹配活动强度、能量释放、持续资源和耗尽后的停机。
+failure_boundary: 计算停止因外部命令而非内部故障，或活动能长期稳定维持时，火药燃尽会误报原因和时间。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: CPU区域旗语高速密集变化后因故障迅速停止活动
+vehicle: 火药猛烈燃烧、能量快速释放，随后燃料耗尽归于沉寂
+ground: 旗帜高频翻动对应火药剧烈燃烧；活动突然衰减对应燃料燃尽后火势消失

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f98d2420e70fb183a75a580d
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L481
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 有时很微弱，如月光一般
+sensory_mapping: 视觉；亮度；光感
+context_fact: 加速时间展示阳光强弱无规律。
+image_mechanism: 太阳身份被保留，亮度却下调到月光档位；同一天体在读者熟悉的日月标尺上发生异常跨档。
+property_alignment: 照度低对应月光微弱；不能压过火炬对应月光有限照明
+context_alignment: 与后文白炽强光共同构成变化范围。
+narrative_function: 给异常辐照建立低值端点。
+transfer_rule: 表示强度范围时，可借同类现象的熟悉档位作上下标尺，并让后文继续沿同一尺度变化。
+failure_boundary: 颜色、方向或温度而非亮度是重点时，月光标尺会遗漏关键属性。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 乱纪元从天窗射入的微弱阳光
+vehicle: 昏暗冷淡的月光
+ground: 照度低对应月光微弱；不能压过火炬对应月光有限照明

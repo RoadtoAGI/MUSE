@@ -1,0 +1,49 @@
+scene_id: A1S7
+source_notes: scene_A1S7_beats.md
+patterns:
+- pattern_id: A1S7-p1
+  beat: 宴会过场暗示幕后
+  dimension: blocking
+  original_move: 国宴只用一行仆从过场暗示，台上留给从席间溜出的思考者
+  ai_default_failure: 正面铺写宴会盛况与宾主寒暄
+  transfer_rule: 大场面可降为画外压力源，焦点给离场者
+  quote: Sewer and divers Servants
+- pattern_id: A1S7-p2
+  beat: 条件句推理独白
+  dimension: monologue
+  original_move: 独白从假设句起，像辩护状逐条推演弑君后果
+  ai_default_failure: 写恐惧与欲望的抒情对冲
+  transfer_rule: 让人物在台上当众推理，思维过程即戏
+  quote: If it were done when 'tis done
+- pattern_id: A1S7-p3
+  beat: 怜悯意象失控爆点
+  dimension: overall
+  original_move: 冷推理途中炸开赤裸婴儿驭风意象，理性溃口即良知所在
+  ai_default_failure: 维持均匀的抒情浓度
+  transfer_rule: 长独白只许一处意象过载，位置即心理重心
+  quote: like a naked new-born babe
+- pattern_id: A1S7-p4
+  beat: 一句宣布撤退
+  dimension: exchange
+  original_move: 重大反悔用一句平静宣告，给妻子留出整段进攻空间
+  ai_default_failure: 让反悔者长篇自我辩解
+  transfer_rule: 转折台词越短，接收方的反应戏越大
+  quote: We will proceed no further
+- pattern_id: A1S7-p5
+  beat: 身份认同连环激将
+  dimension: exchange
+  original_move: 以是不是男人与杀婴誓言连环进攻，把退缩定义为自我否定
+  ai_default_failure: 罗列计划可行性与利益分析
+  transfer_rule: 最狠的说服是重定义对方身份，让退路等于自毁
+  quote: then you were a man
+- pattern_id: A1S7-p6
+  beat: 格言对句落锤收场
+  dimension: transition
+  original_move: 押韵对句把决议铸成可引用的句子，韵脚宣告不可撤销
+  ai_default_failure: 以拥抱、颤抖等情绪动作收场
+  transfer_rule: 阴谋场用对句封口，给观众落幕拍点
+  quote: False face must hide
+overall_traits:
+- 独白负责退对手戏负责进，一场完成完整往返
+- 身体意象承载最抽象的道德论证
+- 男性气概是贯穿攻防的唯一杠杆

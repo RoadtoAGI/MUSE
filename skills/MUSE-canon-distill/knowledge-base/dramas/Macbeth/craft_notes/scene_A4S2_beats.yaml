@@ -1,0 +1,49 @@
+scene_id: A4S2
+source_notes: scene_A4S2_beats.md
+patterns:
+- pattern_id: A4S2-p1
+  beat: 受害者先怒后受难
+  dimension: exchange
+  original_move: 夫人先审判逃亡丈夫是逃兵，控诉饱满后灾难才落
+  ai_default_failure: 先写危机将至的恐慌
+  transfer_rule: 让受害者先占满别的情绪，死亡以打断方式到来
+  quote: His flight was madness
+- pattern_id: A4S2-p2
+  beat: 家常博物喻载论证
+  dimension: exchange
+  original_move: 以鹪鹩护巢反衬弃巢，论证停在博物层面而锋利加倍
+  ai_default_failure: 用直白的大词控诉背叛
+  transfer_rule: 家庭场的论理走家常意象，不动用抽象道德词
+  quote: the most diminutive of birds
+- pattern_id: A4S2-p3
+  beat: 死前母子谜语戏
+  dimension: exchange
+  original_move: 屠戮前母子散文斗嘴，童言机锋句句撞向死亡
+  ai_default_failure: 写母子相拥而泣的离别煽情
+  transfer_rule: 死亡前的最后时光写日常游戏，不写预感
+  quote: As birds do, mother
+- pattern_id: A4S2-p4
+  beat: 无名信使一秒窗口
+  dimension: transition
+  original_move: 陌生信使示警即退，警告与杀手到达只隔数行
+  ai_default_failure: 让警告成功、安排惊险逃脱
+  transfer_rule: 命运感=希望与毁灭的时间差压到最小
+  quote: Be not found here
+- pattern_id: A4S2-p5
+  beat: 童死台上
+  dimension: blocking
+  original_move: 全剧唯一台上正面杀戮给了孩子，临死喊母快逃
+  ai_default_failure: 把杀童移到幕后回避
+  transfer_rule: 省略策略要有反向爆点，最不可承受处直写
+  quote: He has killed me, mother
+- pattern_id: A4S2-p6
+  beat: 追杀截断收场
+  dimension: transition
+  original_move: 夫人呼喊奔逃被追下，场景戛然截断不给落点
+  ai_default_failure: 给尸体全景或哀悼收尾
+  transfer_rule: 暴行场可以不给结尾，截断比完成更持久
+  quote: crying 'Murder!'
+overall_traits:
+- 散文家常与突发暴行同场，文体不提前变调
+- 孩子是全场最机灵的声音，杀死的是机灵本身
+- 无一行预感式台词，恐怖全靠时间差

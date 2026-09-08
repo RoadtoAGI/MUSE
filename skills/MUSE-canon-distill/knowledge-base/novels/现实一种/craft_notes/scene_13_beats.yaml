@@ -1,0 +1,28 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 环境
+  dimension: camera
+  original_move: 用田园风光开启解剖场景
+  ai_default_failure: 会写阴暗潮湿和福尔马林
+  transfer_rule: 写恐怖前奏可先建立舒适基调
+  quote: 在这种地方聊天自然悠闲自在
+- pattern_id: 13-p2
+  beat: 第一刀
+  dimension: verb
+  original_move: 把切口写成几何手艺展示
+  ai_default_failure: 会提醒读者这是一个人
+  transfer_rule: 写物化时持续保持技术视角
+  quote: 我在中学学几何时从不用尺划线
+- pattern_id: 13-p3
+  beat: 瓜分
+  dimension: overall
+  original_move: 用职业玩笑完成器官所有权转移
+  ai_default_failure: 会安排医生出现不安瞬间
+  transfer_rule: 群像物化可靠职业语汇和代词
+  quote: 你们可别把我的睾丸搞坏了
+overall_traits:
+- 语调选择直接表达主题
+- 代词转移显示身体归属变化
+- 未来跳跃追踪身体碎片

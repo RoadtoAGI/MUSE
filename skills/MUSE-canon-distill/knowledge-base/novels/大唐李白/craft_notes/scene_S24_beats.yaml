@@ -1,0 +1,14 @@
+scene_id: S24
+source_notes: scene_S24_beats.md
+patterns:
+- pattern_id: S24-p1
+  beat: 丹砂翻译
+  dimension: info_density
+  original_move: 让仆人把拒绝翻译成接受
+  ai_default_failure: 让主角亲口解释自己其实愿写
+  transfer_rule: 主角矛盾可交由旁人精准转译
+  quote: 实则岂能不然
+overall_traits:
+- 分道由认知差异自然呈现
+- 仆人是结构性支点
+- 诗歌成为叙事高潮

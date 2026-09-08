@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-38f59e2a4e19610c38420c31
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1060
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 文明的种子仍在，她将重新启动，再次开始在三体世界中命运莫测地进化
+sensory_mapping: 生命萌发；尺度压缩；时间循环
+context_fact: 第141号文明刚被巨日烧毁，游戏提示仍有脱水者或信息留存，下一轮文明会再度出现。
+image_mechanism: 庞大社会在毁灭后被压缩为一枚尚未死亡的微小载体，人口、知识和制度都潜伏其中；下个恒纪元到来时，这枚种子再展开成完整文明。
+property_alignment: 幸存载体对应种子保存生命信息；文明规模被灾变削减对应植株收缩为小种；后续重建与进化对应种子萌发并长大
+context_alignment: 地表刚化为灰烬，种子是能在灰烬之后保留未来的最小生命单位，与三体反复毁灭重生机制严密贴合。
+narrative_function: 把一次彻底毁灭接回长期延续，建立文明循环仍未终止的希望与宿命。
+transfer_rule: 以种子写系统延续时，应指出被压缩保存的核心信息、休眠条件和重新展开的环境触发。
+failure_boundary: 没有任何幸存信息、重建完全来自外部移植或后继社会不承接此前文明时，种子会虚构连续血脉。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 灾变后仍被保存、能够繁衍并重建社会的三体文明幸存基础
+vehicle: 灾后留存、条件合适便萌发并长成新生命的种子
+ground: 少量幸存者保存文明信息对应种子浓缩遗传潜能；环境恢复后重建文明对应种子萌发成长

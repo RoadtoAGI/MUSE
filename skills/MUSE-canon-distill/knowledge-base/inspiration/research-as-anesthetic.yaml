@@ -1,0 +1,24 @@
+card_id: research-as-anesthetic
+pattern_name: 知识止痛
+dramatic_function: 用研究、分类和实验给孤独者暂时秩序，同时暴露秩序无力。
+applicability: 适合理性主角面对失控世界；若研究只提供答案而不反噬会变薄（单书孤证，验证面窄）
+reuse_candidates:
+- 图书馆细菌学
+- vampiris命名
+- 血液药片设定
+tags:
+- 科学自救
+- 秩序
+- 孤独
+- 反噬
+source_scenes:
+- novel: I Am Legend
+  scene_id: S06
+  note: 主角以图书馆和显微镜重建解释框架。
+- novel: I Am Legend
+  scene_id: S10
+  note: 书信中的变异事实推翻他此前的分类安全感。
+phase_affinity:
+- 1
+- 2
+- 3

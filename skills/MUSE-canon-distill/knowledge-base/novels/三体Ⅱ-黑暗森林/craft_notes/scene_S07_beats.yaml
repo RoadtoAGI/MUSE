@@ -1,0 +1,27 @@
+scene_id: S07
+source_notes: scene_S07_beats.md
+patterns:
+- pattern_id: S07-p1
+  beat: 念珠意象
+  dimension: camera
+  original_move: 反复思考写成串撒磨念珠的手部劳动，不写推理
+  ai_default_failure: 写他试图从公理出发推导的思考流程长段
+  transfer_rule: 长考可译成触觉动作，思考进度用物件磨损暗示
+  quote: 直到每粒珠子都磨掉了一层
+- pattern_id: S07-p2
+  beat: 走上冰面
+  dimension: omission
+  original_move: 不写决定思考的心理，行动即思维，三级剔除干扰
+  ai_default_failure: 加一段「他意识到需要更纯净的环境」的说明
+  transfer_rule: 用空间移动外化思维净化，顺手埋脆弱平台伏笔
+  quote: 罗辑试图从感觉中剔除它们
+- pattern_id: S07-p3
+  beat: 冰面破裂
+  dimension: omission
+  original_move: 冰碎星碎认知碎同瞬叠加，顿悟内容整个扣下
+  ai_default_failure: 当场写出「他终于明白了」的结论陈述
+  transfer_rule: 顿悟可只写身体被击穿，内容延迟到后文兑现
+  quote: 刺骨的寒冷像晶莹的闪电
+overall_traits:
+- 思想事件转写为身体事件，顿悟发生在皮肤上
+- 动词硬度随接近真相递增，感官强度驱动节奏

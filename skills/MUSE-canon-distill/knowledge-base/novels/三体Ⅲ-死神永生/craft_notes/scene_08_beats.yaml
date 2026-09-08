@@ -1,0 +1,28 @@
+scene_id: 08
+source_notes: scene_08_beats.md
+patterns:
+- pattern_id: 08-p1
+  beat: 头发移动两厘米
+  dimension: camera
+  original_move: 镜头由复杂机器收拢到一截头发，半世纪成果一动词
+  ai_default_failure: 插入曲率原理解释与众人震惊反应
+  transfer_rule: 重大突破可由最小物理现象承载，镜头从大收小
+  quote: 让一截三毫米的头发移动了两厘米
+- pattern_id: 08-p2
+  beat: 一口气吹走头发
+  dimension: verb
+  original_move: 投降用一个吹字，情感全藏在吃力慢慢轻轻里
+  ai_default_failure: 写维德内心百感交集的放弃心理
+  transfer_rule: 至重放弃配至轻动作，副词承载全部情感
+  quote: 轻轻吹了一口气
+- pattern_id: 08-p3
+  beat: 谢谢你的雪茄
+  dimension: omission
+  original_move: 遗言拒绝深刻只谢雪茄，三支即余生的精确计算
+  ai_default_failure: 让临刑者说出对人类命运的深刻总结
+  transfer_rule: 行动型人物的终结让其拒绝语言，不说即总结
+  quote: 谢谢你的雪茄
+overall_traits:
+- 微观物件驱动宏观叙事，不断缩小事件尺寸
+- 拒绝即表达，高潮处沉默胜过宣言
+- 情感只藏在副词里，不用形容词

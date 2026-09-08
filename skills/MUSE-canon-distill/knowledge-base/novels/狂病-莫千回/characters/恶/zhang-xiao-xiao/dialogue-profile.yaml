@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--zhang-xiao-xiao
+work_id: novel:狂病-莫千回
+display_name: 张潇潇
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '张潇潇的声音是一台不停歇的阴阳怪气发生器。他自来熟、爱给自己加戏，开口就是"咱就是说""哥们早就想到了""我这人别的没有，就是仗义"。贬损人时他擅长夹枪带棒、拿"妨碍公务罪"之类的话挤兑，把对方架在火上烤；煽动人时他凑到耳边压低声音，用一连串看似推理实则诛心的话编织叙事（"那不是怀疑，那是压根就不想去……蔡宇那玩意儿就是想奴役别人"）。被顶撞就立刻转成市井骂街（"娘们叽叽""怂货""人渣"）。他几乎从不正面承担——一被追问"那你说怎么躲"，刚才的高谈阔论立刻变成"我又不是这个队伍的领头，问我干嘛"。
+
+
+    佐证：scenes/scene_EE-S04.md:L13-L19 / scenes/scene_EE-S05.md:L23-L23 / scenes/scene_EE-S08.md:L13-L15'
+  evidence_locators:
+  - scenes/scene_EE-S04.md:L13-L19
+  - scenes/scene_EE-S05.md:L23-L23
+  - scenes/scene_EE-S08.md:L13-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

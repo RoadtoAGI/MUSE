@@ -1,0 +1,26 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fba9765be95f65493ebc5acb
+work_id: novel:三体Ⅲ-死神永生
+edition_id: three-body-3-local-md-3095038f
+source_file: full_text.md
+source_sha256: 3095038f190d1c52defc9ddd27dd149ec0ca1975030bc146ffa64ba992dbf709
+source_locator: full_text.md:L3338-L3339
+chapter: 【掩体纪元11年，星环城】
+figure_type: analogy
+quote: '就是说，你们发明了火药，制造出爆竹。但最终目标是制造航天火箭——这中间可有一千年的间隔。”
+
+  “你说得不准确。我们是有了质能转换方程，又发现了放射性原理。最终目标是制造原子弹，这中间只间隔几十年'
+sensory_mapping: 爆竹小响；火箭升空；方程落纸；核爆闪光；技术时间尺
+context_fact: 曲率装置已完成微小物体短距移动，团队称十米可把头发加速至光速，并预计五十年造出飞船。
+image_mechanism: 同一台桌面样机被放到两条历史时间线上：一条从节庆火花缓慢长成运载火箭，另一条从理论公式迅速聚成核爆；两幅终点画面争夺对当前成熟度的解释权。
+property_alignment: 头发移动对应爆竹或质能方程；曲率原理对应火药或放射性原理；光速飞船对应火箭或原子弹；技术工程化对应历史演进；未知剩余难题对应时间间隔；程心谨慎对应千年链；毕云峰自信对应几十年链；五十年计划对应第二尺度
+context_alignment: 对话双方不是争论原理真假，而是争论从原理到工程的距离；两段真实技术史恰好提供相反先例，显出决策不确定性。
+narrative_function: 把无法直接验证的研发周期变成可比较的历史路径，同时刻画程心的风险判断与团队的工程信心。
+transfer_rule: 用技术史类比预测研发周期时，应让起点成熟度、已知核心原理、终点复杂度和工程化障碍逐项对应，并允许竞争类比暴露不确定性。
+failure_boundary: 若历史案例的基础理论、材料条件或终点系统复杂度与当前项目差异过大，就不能仅凭年代长度证明千年或几十年的结论。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 星环集团已让三毫米头发靠曲率驱动移动两厘米，这一原理样机距离可用光速飞船究竟还有多远
+vehicle: 程心以火药到爆竹再到火箭的千年长链估计差距，毕云峰则以质能方程和放射性到原子弹的几十年短链反驳
+ground: 头发位移对应原始技术演示；光速飞船对应终极工程；爆竹对应仅证明效应；火箭对应成熟运载系统；基础方程与放射性对应已掌握核心原理；原子弹对应集中工程化；千年与几十年对应两种成熟度判断

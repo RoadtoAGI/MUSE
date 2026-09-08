@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e4c5bcb04788a970f01f4f1f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1608
+chapter: 第19章 聚会
+figure_type: simile
+quote: 同时环视了一下四周，仿佛是第一眼见到这些人
+sensory_mapping: 视觉；目光移动；熟悉度；心理距离
+context_fact: 聚会者此前因共同游戏相认，哲学家却称外星征服是病入膏肓人类的福音。
+image_mechanism: 一句极端观点像擦掉每个人脸上的旧标签，国电领导的目光从头开始扫描；同桌空间未变，人与人的认识关系却归零。
+property_alignment: 原本网友身份失效对应熟人变陌生；环视每个人对应初见逐一观察；警惕思想危险对应初次评估威胁；关系骤远对应熟悉记录被清空
+context_alignment: 他紧接着说“这里的思想很危险”，初见感准确显示共同爱好不足以维系在价值底线破裂后的认同。
+narrative_function: 把聚会的同好氛围瞬间翻成意识形态惊惧，并触发成员筛除。
+transfer_rule: 用“重新初见”写关系断裂时，应有足以清空旧认知的新信息，并通过重新扫视、命名或防备动作落实。
+failure_boundary: 人物只是不同意一项观点却仍理解对方整体，或目光只是普通环视时，初见会夸大陌生化。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 国电领导听清众人欢迎外星入侵后，突然以陌生、警惕目光重新观察同席网友
+vehicle: 初次进入陌生群体，对每张脸重新辨认身份和危险
+ground: 熟悉感因观点冲击消失对应旧识变成初见者；逐个环视判断对应初见时重新收集人物信息

@@ -1,0 +1,20 @@
+card_id: posthumous-body-ledger
+pattern_name: 身体碎片追踪
+dramatic_function: 让人物死后以器官去向继续产生荒诞后果
+applicability: 适合写物化、遗产、诅咒或社会链条；若只停在死亡现场则不足（单书孤证，验证面窄）
+reuse_candidates:
+- 皮肤移植
+- 睾丸生子
+- 人体展览
+tags:
+- 物化
+- 时间跳跃
+- 后果追踪
+source_scenes:
+- novel: 现实一种
+  scene_id: S13
+  note: 解剖场景追踪皮肤、器官、骨骼的后续用途
+phase_affinity:
+- 1
+- 4
+- 5

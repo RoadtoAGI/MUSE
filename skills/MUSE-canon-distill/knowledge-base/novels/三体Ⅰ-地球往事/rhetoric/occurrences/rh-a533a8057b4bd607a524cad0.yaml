@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a533a8057b4bd607a524cad0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2035
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: 显然已被艰难的生活磨去了所有女性的精致
+sensory_mapping: 砂石摩擦；表面磨损；光泽消失；粗糙触感；长期耗蚀
+context_fact: 当年英姿飒爽的红卫兵下乡受苦、返城失业，如今衣衫补丁、脸黑、头发蓬乱。
+image_mechanism: 岁月不只是流逝，而拿贫困、重劳和羞辱作砂轮反复磨她；青春外形像器物饰面被耗尽，最后露出麻木的粗基底。
+property_alignment: 长期苦难对应持续磨具；皮肤头发变化对应表面磨损；举止粗鲁对应棱角外露；女性精致对应原有纹饰；麻木对应磨到无感觉；多年过程对应缓慢耗蚀
+context_alignment: 此句没有免除她的暴力责任，却让施害者也以被时代耗损的身体出现，为无人忏悔的复杂性做准备。
+narrative_function: 在外貌特写中压缩十余年社会惩罚，使昔日权力与今日困顿形成反差。
+transfer_rule: 用磨损写人生改变时，应明确持续摩擦源、被消耗的具体表层性质、剩余质地和时间尺度。
+failure_boundary: 人物主动选择朴素风格、外貌变化来自短期疾病，或内在细致仍鲜明外显时，磨去全部精致会过度概括。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 粗壮老红卫兵在长期贫困劳动和挫败中失去细致外表、柔软举止与青春气质
+vehicle: 粗糙磨具持续摩擦器物表面，把精细纹理和光泽逐层磨掉
+ground: 生活长期压力对应持续研磨；女性精致消失对应表面细节被磨平；只剩粗鲁麻木对应材料裸露粗钝

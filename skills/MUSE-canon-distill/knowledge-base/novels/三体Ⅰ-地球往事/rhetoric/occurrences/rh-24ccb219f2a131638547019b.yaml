@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-24ccb219f2a131638547019b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L486
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 湖面上漂浮着一片似乎是剪出来的薄薄的人影
+sensory_mapping: 视觉；厚度；形状
+context_fact: 士兵把干仓皮卷投入湖中复活。
+image_mechanism: 俯视角先消去人体体积，只留下湖面上的人形边线；“剪出来”补上平整边缘和人工般薄度，为随后膨胀成立体肉身设初态。
+property_alignment: 身体薄且只余轮廓对应剪纸平面；大量漂浮缺少立体细节对应成片剪影
+context_alignment: 观察顺序正从二维轮廓转到三维身体。
+narrative_function: 展示浸泡复活的形变起点。
+transfer_rule: 描写维度变化时，应先用喻体准确标定初始厚度和轮廓，再让后续动作显出体积增长。
+failure_boundary: 脱水人仍厚重、轮廓残缺或观察角度看不出平面性时，剪影会美化或误写物态。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 尚未吸水的扁平脱水人
+vehicle: 从薄片剪下的人形剪影
+ground: 身体薄且只余轮廓对应剪纸平面；大量漂浮缺少立体细节对应成片剪影

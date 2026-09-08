@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-df5bf3e097600dd079465774
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L594
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 将他们那由知识和理性构筑的思想大厦彻底摧毁
+sensory_mapping: 建筑；视觉；承重；坍塌；心理结构
+context_fact: 政治图像被强行注入后，一部分人开始真诚相信自己有罪。
+image_mechanism: 抽象思想先搭成有梁柱层级的高楼，知识提供材料，理性提供连接；水银式政治图像进入后，整座结构从承重关系上被拆散。
+property_alignment: 知识与理性相互组织对应梁柱共同构筑；世界观可容纳判断体系对应大厦形成内部空间；持续批判破坏信念对应外力拆毁结构；认罪后原体系不再承重对应建筑坍塌
+context_alignment: 段落按外壳防护、毒液注入、大厦摧毁写心理阶段，建筑模型承担最终系统性破坏。
+narrative_function: 把洗脑后果从情绪痛苦提升为认知结构被拆除。
+transfer_rule: 用建筑写思想体系时，应给材料、连接和承重分别安排概念对应，并以局部破坏如何导致整体失效说明因果。
+failure_boundary: 只改变一个观点、暂时口头服从或知识仍在但价值排序变化时，“彻底摧毁大厦”会过度宣称系统消失。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 知识与理性共同组成的世界观在长期洗脑中被破坏
+vehicle: 由多种承重构件建成、遭外力彻底拆毁的大厦
+ground: 知识与理性相互组织对应梁柱共同构筑；世界观可容纳判断体系对应大厦形成内部空间；持续批判破坏信念对应外力拆毁结构；认罪后原体系不再承重对应建筑坍塌

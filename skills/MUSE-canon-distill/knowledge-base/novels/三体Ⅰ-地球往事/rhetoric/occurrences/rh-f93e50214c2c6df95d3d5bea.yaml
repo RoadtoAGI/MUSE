@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-f93e50214c2c6df95d3d5bea
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L715
+chapter: 第8章 寂静的春天
+figure_type: simile
+quote: 张主任的眼睛像两个黑洞洞的枪口对着她
+sensory_mapping: 视觉；形态；方向；危险；心理
+context_fact: 叶文洁刚供出白沐霖，调查者反以诬陷罪名威胁她。
+image_mechanism: 面孔其余部分退去，只剩两个黑圆孔；视线由无形注意变成有轴线的枪管，话语警告也因此像扣机前的瞄准。
+property_alignment: 两只瞳孔圆黑对应两个枪口孔洞；目光定向锁住她对应枪管瞄准；警告可能带来惩罚对应枪口蕴含致命暴力
+context_alignment: 权力方正在以定罪后果逼迫她接受既定叙述，枪口准确表现目光背后的制度暴力。
+narrative_function: 把审讯威胁实体化，确认白沐霖背叛已封死退路。
+transfer_rule: 把目光写成武器时，应同时匹配瞳孔形状、注视方向、权力关系和即将施加的具体危险。
+failure_boundary: 温和凝视、好奇打量或没有惩罚能力的人即使眼睛深黑，也不构成瞄准与开火威胁。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 张主任以冷硬目光逼视并威胁叶文洁
+vehicle: 两支黑暗枪口正面瞄准目标
+ground: 两只瞳孔圆黑对应两个枪口孔洞；目光定向锁住她对应枪管瞄准；警告可能带来惩罚对应枪口蕴含致命暴力

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c4b352b74e2f3cadbbacb4c8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L76
+chapter: 第1章 科学边界
+figure_type: simile
+quote: 街道上车流如织
+sensory_mapping: 视觉；运动；密度
+context_fact: 室内谈论战争，窗外城市仍维持繁忙日常。
+image_mechanism: 俯视中的车道被压成经纬线，连续车辆成为线上移动的亮点；交错道路由此组成一块有秩序的动态织面。
+property_alignment: 多股车辆连续穿行对应丝线成束移动；道路车道交错秩序对应经纬线形成纹理
+context_alignment: 凝缩熟语适合远景扫视并与室内危机形成反差。
+narrative_function: 建立内外两个世界的日常与战争反差。
+transfer_rule: 面对远景中的密集流动，可选择同样具有平行路径、交叉结构和持续生成纹理的生产动作。
+failure_boundary: 单一路段稀疏车流或完全堵死不动时，织造所需的交错和推进都不足，熟语只剩泛称热闹。
+quality_assessment: conventional
+confidence: 0.94
+review_status: reviewed
+tenor: 道路上密集而持续穿行的车辆
+vehicle: 织机上交错推进的经纬线
+ground: 多股车辆连续穿行对应丝线成束移动；道路车道交错秩序对应经纬线形成纹理

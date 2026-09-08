@@ -1,0 +1,165 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+
+inciting_incident: |
+  A1S3 — Three Witches hail Macbeth as Thane of Glamis (already true),
+  Thane of Cawdor (proven true within 80 lines by Ross), and "king
+  hereafter." The empirically verified second title transforms the
+  third from idle prophecy into operational temptation.
+
+dramatic_question: |
+  Will Macbeth murder his way to the crown the witches promised, and
+  what will the crown cost him once worn?
+
+objects_of_desire:
+  external: scottish_crown_and_secure_dynasty
+  internal: certainty_that_the_imagined_act_will_not_consume_him
+
+spine:                               # 戏剧节点序列（每节点对应一个或多个 scene）
+  - id: disturbance
+    event: three_witches_prophecy
+    location: blasted_heath
+    act_scene: A1S3
+    value_change: stable_warrior_loyalty(+) → supernatural_temptation_implanted(±)
+    note: |
+      Macbeth's first soliloquy fragment ("This supernatural soliciting /
+      Cannot be ill, cannot be good") already names the equivocation.
+
+  - id: charge
+    event: lady_macbeth_converts_letter_to_plan_and_arrival_of_duncan
+    act_scene: A1S5-A1S6-A1S7
+    value_change: temptation(±) → contracted_intent_under_wife's_pressure(-)
+    note: |
+      Lady Macbeth's "unsex me" soliloquy (A1S5) + her shaming of Macbeth's
+      retreat (A1S7 "screw your courage to the sticking-place") converts
+      prophecy into operational commitment. Inverness castle becomes trap
+      the moment Duncan enters in A1S6.
+
+  - id: rupture
+    event: murder_of_duncan_and_aftermath
+    act_scene: A2S1-A2S2-A2S3
+    value_change: loyal_subject_host_kinsman(+) → sacrilegious_regicide(--)
+    note: |
+      The murder itself is offstage (A2S2). The play foregrounds
+      Macbeth's hallucinated dagger (A2S1), the bloody-hand return,
+      "Sleep no more," and the Porter's hell-gate routine (A2S3) which
+      explicitly names the castle hell. Knocking-within is the spine's
+      heartbeat in this sequence.
+
+  - id: consolidation_and_new_killing
+    event: macbeth_crowned_orders_banquo_and_fleance_killed
+    act_scene: A3S1-A3S2-A3S3
+    value_change: stolen_crown(+) → cannot_secure_it_without_more_blood(-)
+    note: |
+      Banquo's prophecy (his issue shall be kings) makes him intolerable;
+      Macbeth's soliloquy "To be thus is nothing, but to be safely thus"
+      (A3S1) launches the second murder. Fleance escapes (A3S3) —
+      the engine cannot be closed.
+
+  - id: public_exposure_of_guilt
+    event: banquo_ghost_at_the_banquet
+    act_scene: A3S4
+    value_change: performative_king(+) → mask_breaks_in_front_of_thanes(--)
+    note: |
+      The first crack in the public mask. Lady Macbeth's cover ("a
+      thing of custom") cannot hold; thanes leave "stand not upon the
+      order of your going." From here the regime is openly tyrannical;
+      Macduff (already absent) becomes the next target.
+
+  - id: misaction_oracle
+    event: cauldron_apparitions_and_decision_to_butcher_macduffs
+    act_scene: A4S1-A4S2
+    value_change: oracular_false_assurance(+) → undefended_innocents_slaughtered(--)
+    note: |
+      Apparitions deliver three equivocations (beware Macduff / none
+      of woman born / safe till Birnam Wood moves). Macbeth, told
+      Macduff has fled, swerves the violence onto Macduff's wife and
+      children (A4S2) — the play's moral nadir; an act with no
+      strategic purpose, only spite.
+
+  - id: opposition_consolidated
+    event: macduff_pledges_to_malcolm_in_english_court
+    act_scene: A4S3
+    value_change: scattered_grievance(-) → unified_avenging_army(+)
+    note: |
+      Malcolm's self-slander test of Macduff converts grief into
+      organized opposition; Ross delivers news of the Fife slaughter,
+      which Malcolm reframes as "the whetstone of your sword."
+
+  - id: recognition
+    event: lady_macbeth_sleepwalk_and_tomorrow_soliloquy
+    act_scene: A5S1-A5S5
+    value_change: contested_meaning(-) → recognition_of_voided_meaning(--)
+    note: |
+      Lady Macbeth's "out damned spot" returns the play's images of
+      blood / hand / sleep in a single broken voice; her offstage
+      suicide triggers Macbeth's "Tomorrow" — recognition that the
+      stolen crown has emptied time itself. This is the play's tragic
+      recognition: not "I should not have done it" but "it signifies
+      nothing."
+
+  - id: terminal
+    event: birnam_arrives_macduff_unwombed_macbeth_beheaded
+    act_scene: A5S4-A5S6-A5S7
+    value_change: equivocal_charm(+) → charm_literalized_and_broken(--)
+    note: |
+      The two equivocations decoded in sequence: soldiers carry boughs
+      (Birnam moves); Macduff was "from his mother's womb / Untimely
+      ripped." Macbeth fights anyway ("I will not yield"). Macduff
+      enters with the head; Malcolm hailed; coronation at Scone.
+
+obstacles:
+  - internal_conscience_and_imagination  # 麦克白能预见自己的报应
+  - hospitality_taboo                    # 杀客 + 杀亲 + 杀君三重亵渎
+  - banquo_as_witness_and_dynastic_threat
+  - fleance_escapes_breaking_the_security_logic
+  - macduff_absent_then_avenging
+  - sleep_loss_as_visible_decay
+  - equivocal_prophecies_that_falsely_reassure
+  - thanes_defecting (A5S2: "those he commands move only in command, nothing in love")
+  - english_army_blessed_by_a_holy_king (Edward 触摸医病的对照)
+
+# 与 novel 同形态的 acts 框架（Macbeth 为五幕悲剧，每幕承担一次价值翻转）
+arcs:
+  - arc_id: 1
+    name: prophecy_and_commitment
+    bounds: A1
+    value_arc: loyal_warrior(+) → murderer_in_intent(-)
+    climax: A1S7 — Lady Macbeth shames Macbeth back into the plan
+                  ("I am settled, and bend up / Each corporal agent to this terrible feat")
+  - arc_id: 2
+    name: regicide_and_cover
+    bounds: A2
+    value_arc: intent(-) → done_and_uncoverable(--)
+    climax: A2S2 — "I have done the deed" / "Sleep no more"
+  - arc_id: 3
+    name: tyranny_takes_shape
+    bounds: A3
+    value_arc: crowned(±) → exposed_and_isolated(--)
+    climax: A3S4 — banquet ghost breaks the public mask
+  - arc_id: 4
+    name: butchery_and_opposition
+    bounds: A4
+    value_arc: oracular_security(+) → moral_nadir + organized_revenge(--)
+    climax: A4S3 — Malcolm/Macduff/Ross alliance after Fife report
+  - arc_id: 5
+    name: collapse_and_terminal
+    bounds: A5
+    value_arc: fortified_certainty(±) → meaning_void + just_decapitation(--)
+    climax: A5S7 — Macduff reveals untimely-ripped birth; Macbeth fights and falls
+
+story_climax_design:
+  crisis: A5S5 — "Tomorrow, and tomorrow, and tomorrow" (recognition that meaning is empty)
+                 + the news that Birnam Wood is moving (charm beginning to break)
+  climax: A5S7 — Macduff's revelation of his birth + the final fight; Macbeth slain offstage
+  resolution: A5S7 (continued) — Macduff with the head, Malcolm hailed king, coronation at Scone announced
+  controlling_idea_payoff: |
+    Both the "tyrant's cursed head" on Macduff's pike and the empty
+    soliloquy that preceded it pay off the controlling idea: ambition
+    that murders the sacred bonds (guest / kinsman / king) collapses
+    not merely into punishment but into meaninglessness. The new king
+    inherits not paradise but the relief of "the time is free."

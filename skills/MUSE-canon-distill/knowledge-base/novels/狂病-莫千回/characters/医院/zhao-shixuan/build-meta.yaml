@@ -1,0 +1,27 @@
+mode: reference
+display_name: 赵士轩
+role_slug: zhao-shixuan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/医院/phase3_spine.yaml          # 单篇人物，结构化依据取自篇内 spine 的 antagonistic_forces（机场内乱口述 + 替罪羊机制）
+  - pipeline/phase0_conception.yaml          # controlling_idea candidate_b（恐惧下情义让位、好人随大流定罪）
+  - scenes/scene_YY-S02.md
+  - scenes/scene_YY-S03.md
+  - scenes/scene_YY-S07.md
+  - scenes/scene_YY-S09.md
+  - scenes/scene_YY-S10.md
+built_at: 2026-05-29T20:10:00+08:00
+skill_version: 1
+locator_count: 10
+has_canon_ending: true
+coverage_note: |
+  信息密度中等。最密集落点是 S03 机场内乱口述（弟弟赵士凯被爆头 + 飞机撞楼 + 卡车碾人 + 扣面碗护亲），
+  其余分布在 S02（介绍新人）/ S07（恐惧下倒戈咬定吴志强）/ S09（砍杀感染的侯楚霖）。
+  声音框架跨 2 个场景（S03 沉缓克制的创伤口述 + 颤抖怒骂 / S02 爽利张罗腔），核心声音稳定但日常态样本略少。
+  边界 4 条各带 locator（护亲不容侮辱 S03 / 不忘惨死者 S03 / 恐惧下倒戈定罪 S07 / 对感染同伴补刀 S09）。
+  弧光为功能性配角的"创伤者被群体逻辑磨成定罪者与受害者"曲线，非性格成长；起点（活络张罗）+ 转折（倒戈定罪）齐全。
+  has_canon_ending: true —— 赵士轩在 S10 被二楼铁门夹断手臂、随后被孙队长带来的感染者撕脸虐杀致死（S10:L5 / L13），
+    属不可逆物理死亡，已回 scene 原文核对；其内在弧光在 S09 倒戈定罪已收束，死亡为被动遭遇的剧情终局，
+    隔离到 references/canon-ending.md，不进人格本体。
+  赵士轩为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；结构化字段依据 pipeline/医院/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

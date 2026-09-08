@@ -1,0 +1,60 @@
+scene_id: A5S2
+source_notes: scene_A5S2_beats.md
+patterns:
+- pattern_id: A5S2-p1
+  beat: 海上追叙
+  dimension: monologue
+  original_move: 海上冒险全部口述，省戏给性格转变
+  ai_default_failure: 实拍海战夺走终局篇幅
+  transfer_rule: 动作戏可省，篇幅留给讲述动作的人
+  quote: 结局还总归是神来安排的
+- pattern_id: A5S2-p2
+  beat: 奥斯力克插曲
+  dimension: exchange
+  original_move: 死亡之约由谄臣的轻浮包装递达
+  ai_default_failure: 比剑邀约严肃直递，反差尽失
+  transfer_rule: 大限前插一段纯讽刺喜剧加深不安
+  quote: 请你把帽子戴好
+- pattern_id: A5S2-p3
+  beat: 麻雀预感
+  dimension: exchange
+  original_move: 预感被说出又被放行，主角清醒赴死
+  ai_default_failure: 主角毫无预感，结局沦为意外
+  transfer_rule: 让主角拒绝最后一个逃生口
+  quote: 连一支麻雀之死, 都是预先注定的
+- pattern_id: A5S2-p4
+  beat: 和解致辞
+  dimension: exchange
+  original_move: 致歉真诚而辩词诡辩，和解与杀局双层并立
+  ai_default_failure: 和解写成真和解，杀局转折突兀
+  transfer_rule: 终局前可设表层和解底层杀局
+  quote: 就是哈姆雷特的疯症所干的
+- pattern_id: A5S2-p5
+  beat: 决斗连环引爆
+  dimension: blocking
+  original_move: 三重保险逐一反噬设计者，短令切碎节奏
+  ai_default_failure: 决斗写成长篇描写，节拍拖沓
+  transfer_rule: 终局乱局让误中者先于目标
+  quote: 那是毒酒, 已太迟了...
+- pattern_id: A5S2-p6
+  beat: 临终供词
+  dimension: exchange
+  original_move: 供词由共犯临终给出，弑君当场合法化
+  ai_default_failure: 主角自行宣判处决，无人作证
+  transfer_rule: 弑君前必须先有当众供词
+  quote: 国王...国王就是罪人...
+- pattern_id: A5S2-p7
+  beat: 遗言与止杯
+  dimension: exchange
+  original_move: 夺杯阻友殉死，遗言托付的是叙事权
+  ai_default_failure: 遗言用于抒情告别或复仇宣言
+  transfer_rule: 主角遗言可托付「被正确讲述」
+  quote: 忍痛告诉世人我的故事罢
+- pattern_id: A5S2-p8
+  beat: 福丁布拉接管
+  dimension: blocking
+  original_move: 收场交给未卷入血债的第三方，军礼定价
+  ai_default_failure: 幕落于尸横遍野，无人恢复秩序
+  transfer_rule: 终局后由结构旁观者收拾并致敬
+  quote: 命将士们放炮!
+overall_traits: []

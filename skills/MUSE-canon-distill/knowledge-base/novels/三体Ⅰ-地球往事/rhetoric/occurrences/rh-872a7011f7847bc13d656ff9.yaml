@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-872a7011f7847bc13d656ff9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2463
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 舰队是在航向自己的坟墓
+sensory_mapping: 黑暗墓穴；单向行进；埋葬；终点封闭；死亡寒意
+context_fact: 执政官刚因地球近在四光年外而狂喜，元首随即指出地球技术加速将使远征军到达时不堪一击。
+image_mechanism: 星际航线被画成通往墓穴的甬道，发动机每推进一步都缩短舰队与自身埋葬处的距离；远征目的地由新家园瞬间翻转为死地。
+property_alignment: 太阳系目的地对应墓穴终点；四百五十万时航程对应长甬道；舰队主动驶入对应自赴葬地；技术落后战败对应死亡；飞船损耗对应沿途送葬；文明希望破灭对应墓门封闭
+context_alignment: 上一句元首刚对狂喜火山泼冷水，坟墓提供冷水的具体内容，让移民希望一语转成葬礼预告。
+narrative_function: 骤然逆转会议情绪，并引出地球技术爆炸这一核心战略难题。
+transfer_rule: 把征途写成通往坟墓时，应让目的地、到达时的必死条件、单向行程和主体明知风险仍前进相互咬合。
+failure_boundary: 舰队抵达后仍有明显胜算、可随时返航或坟墓只泛指普通危险时，该意象会提前宣判结局。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 需航行四百五十万三体时、抵达时可能技术落后并被地球文明轻易消灭的三体舰队
+vehicle: 主动走向埋葬自身的墓穴，行程终点就是死亡与覆灭之地
+ground: 航行目的地太阳系对应坟墓位置；抵达后全军覆没对应被埋葬；主动启航对应走向自己的死地

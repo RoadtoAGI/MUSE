@@ -1,0 +1,25 @@
+mode: reference
+display_name: 李太太
+role_slug: li-taitai
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml  # 仅登记跨篇人物，单篇人物 李太太 取结构化依据于下列篇内 spine + phase0 反派谱系
+  - pipeline/phase0_conception.yaml
+  - pipeline/燃烧/phase3_spine.yaml
+  - scenes/scene_RS-S01.md
+  - scenes/scene_RS-S02.md
+  - scenes/scene_RS-S03.md
+  - scenes/scene_RS-S04.md
+  - scenes/scene_RS-S06.md
+  - scenes/scene_RS-S08.md
+built_at: 2026-05-29T17:14:55+08:00
+skill_version: 1
+locator_count: 10
+has_canon_ending: true
+coverage_note: |
+  声音框架跨 3 个场景（S03 质疑 / S04 丧夫后咒骂 / S08 哀求），高频外放特征稳定。
+  弧光起点（S02 崩溃落泪的柔软）+ 转折（S04 同理心崩塌）+ 终点（S08 链式垫背）三段齐全。
+  性格真相有压力情境直接佐证（S04 扇盲女 / S08 拽倒同伴垫背）。
+  核心欲望"不再当最先死的弱者"为单篇主旨推断，由 S06 提议被感染 + S08 拽人垫背双场景支撑，未用全称量词。
+  李太太为本系列单篇人物，phase2_character.yaml 未登记其系统级条目；"承担反派功能的平民"定性参照 pipeline/phase0_conception.yaml human_antagonist_typology 的"恶不必依赖病毒"谱系（李太太为其平民侧弱化变体——非清醒作恶者，是被恐惧逼出的链式自私），结构化弧光依据 pipeline/燃烧/phase3_spine.yaml 推导，所有断言均有篇内 scene locator 佐证。

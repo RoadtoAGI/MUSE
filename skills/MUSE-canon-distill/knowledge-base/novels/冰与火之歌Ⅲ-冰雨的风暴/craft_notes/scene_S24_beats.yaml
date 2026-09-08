@@ -1,0 +1,28 @@
+scene_id: S24
+source_notes: scene_S24_beats.md
+patterns:
+- pattern_id: S24-p1
+  beat: 古王坟墓
+  dimension: camera
+  original_move: 让百胜古王墓映照罗柏命运。
+  ai_default_failure: 会点破这就是预兆。
+  transfer_rule: 环境隐喻不要由旁白说明。
+  quote: 第一百场战斗
+- pattern_id: S24-p2
+  beat: 还有别的路
+  dimension: omission
+  original_move: 精妙战略只留承诺不展开。
+  ai_default_failure: 会画地图解释计划。
+  transfer_rule: 永不执行的计划适合留白。
+  quote: 还有别的路
+- pattern_id: S24-p3
+  beat: 继承争辩
+  dimension: info_density
+  original_move: 战略信息嵌入母子继承冲突。
+  ai_default_failure: 会让会议变成说明会。
+  transfer_rule: 计划应成为关系冲突的一部分。
+  quote: 琼恩比起
+overall_traits:
+- 战略信息情感化处理
+- 完美计划永不执行
+- 环境不是背景是预言

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1cf911b57592a7f695a1dae1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2636
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 他们感觉到了一双无所不在的眼睛盯着自己，在这双眼睛下，这个世界已经无处躲藏
+sensory_mapping: 悬空巨眼；固定瞳孔；背后视线；透明墙壁；无藏身角落
+context_fact: 常伟思告知作战中心会议可能已在智子监视下，今后任何秘密都不复存在。
+image_mechanism: 不可见的粒子监控被放大成压在世界上方的眼睛；窗帘仍垂着、墙壁仍封闭，却在那道视线里全部透明，人们连背转过去也摆脱不了注视。
+property_alignment: 智子阵列对应眼睛；实时感知对应视线；全球机动对应无所不在；会议内容对应被看对象；物理遮蔽失效对应透明墙壁；秘密终结对应没有盲区
+context_alignment: 周围仍是树影和窗帘的日常会议室，视觉环境未变却突然失去隐私，眼睛意象让这一认知转折落到身体警觉。
+narrative_function: 把技术监控转成持续被凝视的心理处境，建立跨世代的压迫感。
+transfer_rule: 用无所不在的眼睛写监控时，应匹配感知覆盖、持续注视、遮蔽失效、被监者自我意识和盲区消失。
+failure_boundary: 监控只能采集有限地点、存在可靠屏蔽区，或数据无人实时读取时，绝对眼睛会抹平真实盲区与延迟。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 到达地球的智子能够实时监视任何地点，使人类从此无法保有秘密空间
+vehicle: 一双覆盖所有方位、从不眨动的巨大眼睛持续盯住每个人，任何遮蔽物都挡不住它的视线
+ground: 智子感知对应眼睛观看；全球覆盖对应无所不在；持续监视对应盯视；秘密消失对应无处躲藏；人类对应被注视者

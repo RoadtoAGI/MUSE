@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4cd34b30a349a07affcac9ef
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2018
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 人们像小学生那样真诚地接近科学
+sensory_mapping: 课堂；课本；举手求知；低起点；向前靠近
+context_fact: 高校恢复、名著抢购、工厂重视技术革新，全国科学大会宣告科学春天。
+image_mechanism: 经历浩劫的成年人集体回到课桌前，放下政治口号，以学生身份重新学习；“接近”让科学像讲台上的对象逐步走近。
+property_alignment: 社会知识重建对应新生入学；科学共同体对应课堂与教师；公众真诚信任对应小学生专注；奋斗天真对应经验不足；脚踏实地对应从基础作业开始
+context_alignment: 齐家屯孩子刚拿破课本上山求教，真实小学生形象为全国姿态提供近邻参照，使比喻具体。
+narrative_function: 概括科学复兴的纯真气氛，同时保留其幼稚与可塑两面。
+transfer_rule: 把社会写成小学生时，应对应知识起点、学习态度、权威信任和逐步训练，而非只强调幼稚。
+failure_boundary: 公众已具成熟批判能力、主要因利益追逐科技或拒绝从基础学习时，小学生会误写动机。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 文革后公众以谦逊、热切和愿意从基础学习的姿态重新拥抱科学技术
+vehicle: 初入课堂的小学生信任知识与教师，认真从最基本内容学起
+ground: 社会承认自身知识不足对应小学生处于起点；对科学怀有真诚信任对应孩子相信课堂知识

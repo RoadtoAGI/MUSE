@@ -1,0 +1,612 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    全 27 场列出（戏剧场景天然切分，不挑）。
+    key_scene_flag = true 标记 Phase C craft_notes 候选优先级。
+    location / time / characters_on_stage / dramatic_purpose / scene_turn / subtext /
+    stageable_actions / monologue_or_soliloquy / verse_or_prose / dialogue_density /
+    reference_lanes 为每场必填。
+
+scenes:
+  - scene_id: A1S1
+    act: 1
+    scene: 1
+    location: heath
+    time: thunder_storm_pre-battle_dusk
+    characters_on_stage: [Witch1, Witch2, Witch3]
+    entrances: [Witch1, Witch2, Witch3]
+    exits: [Witch1, Witch2, Witch3]
+    dramatic_purpose: establish_moral_inversion_law_and_announce_macbeth_as_target
+    scene_turn: cosmic_neutrality→supernatural_meeting_set
+    subtext: [fair_is_foul, world_about_to_invert, macbeth_already_marked]
+    stageable_actions: [thunder, witches_chant, exit_into_fog]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: low
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      仅 9 行的"前奏"——全剧最短场。"美即丑恶丑即美"的颠倒律将贯穿全剧。
+
+  - scene_id: A1S2
+    act: 1
+    scene: 2
+    location: camp_near_forres
+    time: day_after_battle
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Lennox, Captain, Ross]
+    entrances: [Captain, Ross]
+    exits: [Captain, Ross, Duncan_and_train]
+    dramatic_purpose: report_macbeth's_heroism_and_award_cawdor
+    scene_turn: undecided_battle→cawdor_falls_macbeth_elevated
+    subtext: [the_old_thane_betrayed_so_will_the_new, blood_already_drips]
+    stageable_actions: [bleeding_captain_enters, war_report, royal_decree]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: false
+    reference_lanes: [canon_facts, story_design, scene_function]
+    notes: |
+      战报段——把麦克白抬到最高点；同时埋下"考特反叛"先例。
+
+  - scene_id: A1S3
+    act: 1
+    scene: 3
+    location: heath
+    time: day_after_battle
+    characters_on_stage: [Witch1, Witch2, Witch3, Macbeth, Banquo, Ross, Angus]
+    entrances: [Macbeth, Banquo, Ross, Angus]
+    exits: [Witches_vanish, all_together]
+    dramatic_purpose: deliver_three_hailings_and_immediately_fulfill_one
+    scene_turn: loyal_soldier→ambition_seed_planted (Macbeth) / unmoved_steady (Banquo)
+    subtext: [prophecy_might_be_demonic_truth_to_lure, banquo_as_mirror_pole]
+    stageable_actions: [witches_appear_and_vanish_in_air, three_hailings, news_of_cawdor]
+    monologue_or_soliloquy: true
+    soliloquy_id: A1S3_aside_horrid_imaginings
+    has_aside: true
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      启动节点（disturbance）。"现在我不是已经做了考特爵士了吗？"——
+      字面应验把"王"念固化。麦克白旁白与班柯怀疑形成"两个反应"对照。
+
+  - scene_id: A1S4
+    act: 1
+    scene: 4
+    location: forres_palace
+    time: same_day
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Lennox, Macbeth, Banquo, Ross, Angus]
+    entrances: [Macbeth, Banquo, Ross, Angus]
+    exits: [Macbeth_first, others_follow]
+    dramatic_purpose: announce_malcolm_as_prince_of_cumberland_obstacle_named
+    scene_turn: royal_favor→named_obstacle
+    subtext: [duncan's_naivety, macbeth's_dark_thought_already_in_motion]
+    stageable_actions: [royal_proclamation, embrace_of_macbeth_and_banquo, macbeth's_aside]
+    monologue_or_soliloquy: true
+    soliloquy_id: A1S4_aside_stars_hide_your_fires
+    has_aside: true
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      "星星啊，收起你们的火焰！"——把"黑暗欲望"用宇宙意象具象。
+      邓肯说"世上还没有一种方法可以从一个人的脸上探察他的居心"
+      正紧接着考特的事，立刻又适用于麦克白——戏剧反讽双层叠。
+
+  - scene_id: A1S5
+    act: 1
+    scene: 5
+    location: inverness_castle
+    time: same_day_evening
+    characters_on_stage: [LadyMacbeth, Messenger, Macbeth]
+    entrances: [Messenger, Macbeth]
+    exits: [Messenger, both_together]
+    dramatic_purpose: lady_macbeth_unsexes_herself_and_takes_command_of_the_plot
+    scene_turn: receive_news→deliberate_dedication_to_evil
+    subtext: [she_already_decided_before_he_arrives, gender_as_obstacle_to_action]
+    stageable_actions: [reading_letter, invocation_to_spirits, embrace_of_macbeth]
+    monologue_or_soliloquy: true
+    soliloquy_id: A1S5_unsex_me_here
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      经典"unsex me here"独白。她比麦克白快得多——
+      不需要预言"二应验"，仅凭一封信已锁定弑君。
+
+  - scene_id: A1S6
+    act: 1
+    scene: 6
+    location: before_inverness_castle
+    time: dusk
+    characters_on_stage: [Duncan, Malcolm, Donalbain, Banquo, Lennox, Macduff, Ross, Angus, LadyMacbeth, attendants]
+    entrances: [LadyMacbeth]
+    exits: [all_together_into_castle]
+    dramatic_purpose: dramatic_irony_peak_duncan_walks_into_trap
+    scene_turn: gracious_arrival→sealed_doom
+    subtext: [燕子筑巢的祥兆与即将到来的弑君构成最强反讽]
+    stageable_actions: [festive_arrival, courteous_hostess_speech, taking_lady's_hand]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function]
+    notes: |
+      短场——纯戏剧反讽功能。
+      邓肯"我很敬爱他，我还要继续眷顾他"达到天真感最大值。
+
+  - scene_id: A1S7
+    act: 1
+    scene: 7
+    location: chamber_in_inverness_castle
+    time: that_night
+    characters_on_stage: [Macbeth, LadyMacbeth]
+    entrances: [LadyMacbeth_mid-scene]
+    exits: [both_together]
+    dramatic_purpose: macbeth_wavers_lady_macbeth_breaks_him_into_commitment
+    scene_turn: hesitation→firm_resolve_to_murder
+    subtext: [manhood_as_weapon, ambition_dressed_as_love_test]
+    stageable_actions: [macbeth's_solitary_entrance_and_soliloquy, wife's_persuasion, plan_for_drugging_grooms]
+    monologue_or_soliloquy: true
+    soliloquy_id: A1S7_if_it_were_done_when_tis_done
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      Phase 3 charge 节点的核心场。
+      麦克白"我们还是不要进行这一件事情吧"被夫人三组激将话击破。
+      "我曾经哺乳过婴孩"为全剧最骇人意象之一。
+
+  - scene_id: A2S1
+    act: 2
+    scene: 1
+    location: courtyard_inverness_castle
+    time: midnight
+    characters_on_stage: [Banquo, Fleance, Macbeth, Servant]
+    entrances: [Macbeth_after_Banquo_exits, Servant]
+    exits: [Banquo_Fleance, Servant, Macbeth_to_kill]
+    dramatic_purpose: dagger_hallucination_and_descent_to_kill
+    scene_turn: tense_preparation→commit_to_act
+    subtext: [the_supernatural_as_externalized_psyche, sleep_as_innocence_about_to_be_killed]
+    stageable_actions: [meet_banquo_with_concealed_intent, dismiss_servant, dagger_speech, exit_at_bell]
+    monologue_or_soliloquy: true
+    soliloquy_id: A2S1_is_this_a_dagger
+    verse_or_prose: verse
+    dialogue_density: medium (independent_soliloquy_dominant)
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      "在我面前摇晃着、它的柄对着我的手的，不是一把刀子吗？"
+      钟声是 cue：钟一响，弑君就开始（动作发生在台下 A2S1 与 A2S2 之间）。
+
+  - scene_id: A2S2
+    act: 2
+    scene: 2
+    location: same (just outside Duncan's chamber)
+    time: minutes_later_same_night
+    characters_on_stage: [LadyMacbeth, Macbeth]
+    entrances: [Macbeth_with_bloody_daggers, LadyMacbeth_re-enter]
+    exits: [LadyMacbeth_to_smear_grooms, both_together]
+    dramatic_purpose: regicide_aftermath_psychic_rupture
+    scene_turn: anticipation→done_and_unsleepable
+    subtext: [the_unsayable_amen, sleep_killed_means_sanity_killed]
+    stageable_actions: [bloody_daggers_carried_out, lady_takes_them_back, knocking_offstage]
+    monologue_or_soliloquy: false (intense dialogue with internal monologue inserts)
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      弑君发生在台下——莎翁选择把暴力本身省略，
+      把"做完之后"的心理崩溃完整保留。
+      "麦克白已经杀害了睡眠"——失眠咒成立。
+
+  - scene_id: A2S3
+    act: 2
+    scene: 3
+    location: same
+    time: just_before_dawn_to_dawn
+    characters_on_stage: [Porter, Macduff, Lennox, Macbeth, LadyMacbeth, Banquo, Malcolm, Donalbain, attendants]
+    entrances: [Porter, Macduff, Lennox, Macbeth, LadyMacbeth, Banquo, Malcolm, Donalbain]
+    exits: [LadyMacbeth_carried_off, Malcolm_to_England, Donalbain_to_Ireland, others_to_council]
+    dramatic_purpose: discovery_panic_cover_up_and_succession_flees
+    scene_turn: comic_lull→horror_revealed→cover_up_succeeds_provisionally
+    subtext: [hell-porter_meta-comment_on_macbeth's_house, princes_flee_implicates_themselves]
+    stageable_actions: [drunken_porter_monologue, repeated_knocking, discovery_of_corpse, alarm_bell, lady_faints, princes_decide_to_flee]
+    monologue_or_soliloquy: true
+    soliloquy_id: A2S3_porter_hell-gate_monologue
+    has_aside: true
+    verse_or_prose: mixed (porter prose, others verse)
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      最经典的"喜剧插入悲剧"——门房散文与全剧韵文形成节奏对比。
+      门房"地狱看门人"自白同时是元戏剧——他在评论刚发生的弑君。
+
+  - scene_id: A2S4
+    act: 2
+    scene: 4
+    location: outside_inverness_castle
+    time: day_after
+    characters_on_stage: [Ross, OldMan, Macduff]
+    entrances: [Macduff]
+    exits: [all_separate]
+    dramatic_purpose: cosmic_aftershock_and_announcement_of_macbeth's_coronation
+    scene_turn: rumor_phase→confirmed_kingship_with_disturbing_omens
+    subtext: [天象异变印证天怒, macduff_already_skeptical_to_scone]
+    stageable_actions: [old_man_testimony, omens_recounted, macduff_announces_he_goes_to_fife]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function]
+    notes: |
+      "短场作大事"的典范：用 50 行完成"天降异象 + 加冕 + 反对派态度"。
+      麦克德夫"我还是到费辅去"——一句话埋下 A4S2 屠杀的伏笔。
+
+  - scene_id: A3S1
+    act: 3
+    scene: 1
+    location: forres_palace
+    time: day
+    characters_on_stage: [Banquo, Macbeth, LadyMacbeth, Lennox, Ross, lords, attendant, Murderer1, Murderer2]
+    entrances: [Macbeth_LadyMacbeth_court_entry, Murderers]
+    exits: [Banquo, court_off, Murderers]
+    dramatic_purpose: target_banquo_and_hire_assassins
+    scene_turn: outward_kingship→secret_paranoid_command
+    subtext: [被预言"子孙为王"反噬, 王者杀友自掘墓]
+    stageable_actions: [crown_procession, dismissing_court, soliloquy, contract_with_murderers]
+    monologue_or_soliloquy: true
+    soliloquy_id: A3S1_to_be_thus_is_nothing
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      麦克白第一次独白不是"该不该"而是"怎么办"——
+      行动语法已转向纯执行。狗类比段（家狗野狗猎狗）是经典操控修辞。
+
+  - scene_id: A3S2
+    act: 3
+    scene: 2
+    location: another_room_palace
+    time: same_day
+    characters_on_stage: [LadyMacbeth, Servant, Macbeth]
+    entrances: [Macbeth, Servant]
+    exits: [Servant, both_together]
+    dramatic_purpose: marital_alienation_and_scorpion_image
+    scene_turn: shared_secrecy→one-sided_secrecy
+    subtext: [husband_now_acts_without_wife, "蝎子"意象 = 心魂不安]
+    stageable_actions: [private_meeting, scorpion_speech, dismissing_servant]
+    monologue_or_soliloquy: true
+    soliloquy_id: A3S2_full_of_scorpions
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      "你暂时不必知道"——A1S7 夫妻同谋的反极。
+      "刺伤了蛇身没有杀死"独白：意识到必须继续杀的循环逻辑。
+
+  - scene_id: A3S3
+    act: 3
+    scene: 3
+    location: park_path_to_palace
+    time: dusk
+    characters_on_stage: [Murderer1, Murderer2, Murderer3, Banquo, Fleance]
+    entrances: [Murderer3_unknown_addition, Banquo, Fleance]
+    exits: [Fleance_escapes, Murderers_with_body]
+    dramatic_purpose: half_kill_banquo_dies_fleance_escapes
+    scene_turn: ambush_set→partial_success_seeds_full_failure
+    subtext: [the_unknown_third_murderer, prophecy_loophole_left_open]
+    stageable_actions: [snuff_torches, ambush, banquo's_last_word_to_son, escape]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: low (action-dense)
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      "啊，阴谋！快逃，好弗里恩斯"——8 字台词承担 Phase 3 spine
+      "班柯子孙将为王"的预言守门。
+      第三刺客身份至今学界争议——莎翁刻意留白。
+
+  - scene_id: A3S4
+    act: 3
+    scene: 4
+    location: banquet_hall
+    time: night
+    characters_on_stage: [Macbeth, LadyMacbeth, Ross, Lennox, lords, Murderer1, Ghost_of_Banquo]
+    entrances: [Murderer_at_door, Ghost_silently, Ghost_again]
+    exits: [lords_dismissed_early]
+    dramatic_purpose: banquet_ghost_publicly_exposes_macbeth's_guilt
+    scene_turn: ceremonial_hosting→public_cracking→provisional_recovery
+    subtext: [仪式作为暴露内罪的舞台, lady_macbeth_runs_damage_control]
+    stageable_actions: [seating_guests, murderer_whisper, ghost_apparition_twice, lady_dismisses_court]
+    monologue_or_soliloquy: false (no formal soliloquy, but several intense outbursts function as windows)
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      Phase 3 rupture 节点。
+      鬼魂只他看见，但他的崩溃全堂目睹——
+      "公开化"本身即惩罚。
+      场末"流血必引流血"独白预告 A4 的过度杀戮。
+
+  - scene_id: A3S5
+    act: 3
+    scene: 5
+    location: heath
+    time: thunder
+    characters_on_stage: [Witch1, Witch2, Witch3, Hecate]
+    entrances: [Hecate]
+    exits: [Hecate, witches]
+    dramatic_purpose: hecate_chastises_and_announces_a4s1_apparitions
+    scene_turn: scattered_witches→coordinated_supernatural_trap
+    subtext: [supernatural_now_aimed_at_macbeth's_destruction, "他将要藐视命运唾斥死生"]
+    stageable_actions: [hecate_arrives, song-and-dance_offstage_cue]
+    monologue_or_soliloquy: true (Hecate's set speech is structurally a soliloquy)
+    soliloquy_id: A3S5_hecate_set_speech
+    verse_or_prose: verse (rhymed couplets, distinct from main verse)
+    dialogue_density: low
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      多数学者认为是 Middleton 插补段；
+      结构功能仍存——为 A4S1 二轮预言提供"陷阱故意"的元说明。
+
+  - scene_id: A3S6
+    act: 3
+    scene: 6
+    location: forres_palace
+    time: later
+    characters_on_stage: [Lennox, Lord]
+    entrances: []
+    exits: [both]
+    dramatic_purpose: ironic_recap_and_announcement_of_macduff_in_england
+    scene_turn: tyrant's_official_story→openly_known_lie
+    subtext: [反讽对话 = 全民已知真相, 反抗联盟正在英格兰组建]
+    stageable_actions: [ironic_dialogue]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function, dramatic_surface_style]
+    notes: |
+      技术功能：信息中转 + 反讽视角。
+      列诺克斯整段表面拥护实则讽刺——"你给我这样的答复，看着吧"。
+
+  - scene_id: A4S1
+    act: 4
+    scene: 1
+    location: witches_cavern
+    time: thunder
+    characters_on_stage: [Witch1, Witch2, Witch3, Hecate, Apparition1, Apparition2, Apparition3, Show_of_8_Kings, Banquo_ghost, Macbeth, Lennox]
+    entrances: [Macbeth, multiple_apparitions, Lennox_after]
+    exits: [witches_vanish, apparitions_descend, Macbeth_with_Lennox]
+    dramatic_purpose: second_prophecy_arms_him_with_misread_oracles_and_announces_macduff
+    scene_turn: anxious_inquiry→false_invincibility + new_target
+    subtext: [literal_truth_as_lethal_trap, banquo_smiles_through_apparitions]
+    stageable_actions: [cauldron_chant, three_apparitions_via_trap, show_of_kings_with_mirror, lennox_reports_macduff_fled]
+    monologue_or_soliloquy: false (multiple short oracular speeches)
+    verse_or_prose: verse (heavy spectacle + rhymed witches)
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      最高 spectacle 场——三幽灵 + 八王列队 + 镜。
+      场末决定屠麦克德夫家——false_security 直接催生 A4S2。
+      "时间，你早就料到我的狠毒的行为"独白：行动语法切到反思无用。
+
+  - scene_id: A4S2
+    act: 4
+    scene: 2
+    location: fife_castle
+    time: day
+    characters_on_stage: [LadyMacduff, Son, Ross, Messenger, Murderers]
+    entrances: [Messenger, Murderers]
+    exits: [Ross, Messenger, LadyMacduff_fleeing, Murderers_in_pursuit]
+    dramatic_purpose: onstage_atrocity_against_innocents
+    scene_turn: family_normalcy→ambushed_and_killed
+    subtext: [无防卫的家被屠 = 麦克白道德归零, 小儿的机智反讽更显惨痛]
+    stageable_actions: [mother_son_banter, messenger_warning, child_stabbed_onstage, mother_runs_offstage]
+    monologue_or_soliloquy: false
+    verse_or_prose: mixed (son's wordplay prose-leaning)
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      全剧极少数"凶杀在台上完成"的场——
+      故意让小儿"他杀死我了，妈妈；您快逃吧"的台词
+      使观众成为目击者。
+      母子言语机锋（"鸟儿—网"对比）是悲剧反讽的高点。
+
+  - scene_id: A4S3
+    act: 4
+    scene: 3
+    location: before_english_kings_palace
+    time: day
+    characters_on_stage: [Malcolm, Macduff, Doctor, Ross]
+    entrances: [Doctor, Ross]
+    exits: [Doctor, all_together]
+    dramatic_purpose: malcolm_tests_macduff_through_self-slander_then_ross_reports_atrocity
+    scene_turn: distrust→bond_forged_by_test_and_grief
+    subtext: [legitimate_king_must_prove_he_is_not_just_another_tyrant, suppressed_grief_becomes_focused_vengeance]
+    stageable_actions: [Malcolm's_three_self-slanders, Macduff's_three_responses, doctor_announces_edward's_touch, ross_breaks_news]
+    monologue_or_soliloquy: false (Malcolm's long set-speeches function as structured rhetoric)
+    verse_or_prose: verse
+    dialogue_density: very_high (longest scene of play)
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      与 A4S2 形成强对比：A4S2 是无辜被屠，A4S3 是合法被试。
+      爱德华王"瘰疬触愈"是英格兰王权神圣性的反极——
+      暗示麦克白是反神权的"伪王"。
+
+  - scene_id: A5S1
+    act: 5
+    scene: 1
+    location: dunsinane_castle_room
+    time: night
+    characters_on_stage: [Doctor, Gentlewoman, LadyMacbeth]
+    entrances: [LadyMacbeth_sleepwalking_with_taper]
+    exits: [LadyMacbeth, then_Doctor_and_Gentlewoman]
+    dramatic_purpose: lady_macbeth's_unconscious_confession_through_sleepwalk
+    scene_turn: clinical_observation→unspeakable_truth_overheard
+    subtext: [A1S5"unsex me"的镜像收束, 所有阿拉伯香料洗不掉=罪不可销]
+    stageable_actions: [sleepwalk, rubbing_hands, scattered_phrases, taper_carried]
+    monologue_or_soliloquy: true (Lady's broken phrases function as fragmented soliloquy)
+    soliloquy_id: A5S1_out_damned_spot
+    verse_or_prose: prose (notable shift from her verse elsewhere)
+    dialogue_density: medium (observers near-silent)
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      夫人改用散文——精神崩溃的语法外化。
+      "费辅爵士从前有一个妻子"碎句把 A4S2 与本场缝合——
+      她原本拒绝知道"事成以后你再鼓掌"，现在全部涌回。
+
+  - scene_id: A5S2
+    act: 5
+    scene: 2
+    location: country_near_dunsinane
+    time: day
+    characters_on_stage: [Menteith, Caithness, Angus, Lennox, soldiers]
+    entrances: []
+    exits: [all_marching_to_birnam]
+    dramatic_purpose: scottish_nobles_converge_with_english_army_at_birnam
+    scene_turn: scattered_resistance→unified_advance
+    subtext: [小偷儿穿巨人衣服=麦克白合法性破产]
+    stageable_actions: [war_council_briefing, news_of_macbeth's_isolation]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function]
+    notes: |
+      短场——纯军情中转。
+      安格斯"现在他已经感觉到他的暗杀的罪恶紧粘在他的手上"
+      为下一场麦克白战甲场提供外部视角。
+
+  - scene_id: A5S3
+    act: 5
+    scene: 3
+    location: dunsinane_castle_room
+    time: same_day
+    characters_on_stage: [Macbeth, Doctor, Seyton, Servant, attendants]
+    entrances: [Servant, Seyton]
+    exits: [Servant, Seyton_briefly, all_to_arm]
+    dramatic_purpose: macbeth_dons_armor_in_isolation_relying_on_prophecy
+    scene_turn: bravado→bone-weariness→willful_charge
+    subtext: [日就枯萎=人生意义已损, 拒医=拒绝可疗愈的层面]
+    stageable_actions: [berating_servant, calling_seyton, arming_scene, dismissing_doctor]
+    monologue_or_soliloquy: true (the "way of life is falln into the sere" speech)
+    soliloquy_id: A5S3_my_way_of_life
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      麦克白第一次承认衰老——
+      "我已经活得够长久了"。
+      与 A1S2 战报"英勇"麦克白形成全剧最大反差。
+
+  - scene_id: A5S4
+    act: 5
+    scene: 4
+    location: country_near_birnam_wood
+    time: day
+    characters_on_stage: [Malcolm, Old_Siward, Young_Siward, Macduff, Menteith, Caithness, Angus, Lennox, Ross, soldiers]
+    entrances: []
+    exits: [all_carrying_boughs]
+    dramatic_purpose: birnam_wood_prophecy_mechanism_activated
+    scene_turn: military_advance→equivocation_chess_piece_moves
+    subtext: [字面预言以最物理方式兑现, 伪装本身=麦克白的世界规则被翻转]
+    stageable_actions: [malcolm_orders_boughs_cut, soldiers_obey, march]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: low
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      短场承担巨大的预言机械启动作用。
+      "每一个兵士都砍下一根树枝"——
+      可见的舞台动作直接对应 A4S1 第三幽灵的字面话。
+
+  - scene_id: A5S5
+    act: 5
+    scene: 5
+    location: inside_dunsinane_castle
+    time: day
+    characters_on_stage: [Macbeth, Seyton, soldiers, Messenger]
+    entrances: [Seyton_returns_with_news, Messenger]
+    exits: [Seyton_briefly, all_to_fight]
+    dramatic_purpose: queen_dies_meaning_denied_first_prophecy_falls
+    scene_turn: defiance→nihilistic_recognition→suicidal_engagement
+    subtext: [明天又明天=对人生意义本身的否决, 勃南林移动=麦克白终于明白被骗]
+    stageable_actions: [women's_cry_offstage, queen_announced_dead, seyton's_brief_exit, messenger_brings_news_of_moving_wood]
+    monologue_or_soliloquy: true
+    soliloquy_id: A5S5_tomorrow_and_tomorrow_and_tomorrow
+    verse_or_prose: verse
+    dialogue_density: medium
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      Phase 3 crisis 节点——全剧最深的虚无低点。
+      "人生不过是一个行走的影子"——
+      把杀戮通向的不是权力而是意义的彻底丧失。
+      紧接勃南林消息——绝望与机械预言同时落地。
+
+  - scene_id: A5S6
+    act: 5
+    scene: 6
+    location: plain_before_dunsinane_castle
+    time: day_battle_begins
+    characters_on_stage: [Malcolm, Old_Siward, Macduff, soldiers]
+    entrances: []
+    exits: [all_to_battle]
+    dramatic_purpose: leaves_down_battle_lines_drawn
+    scene_turn: disguise→open_combat
+    subtext: [伪装一卸=真相显露]
+    stageable_actions: [throw_down_boughs, organize_lines, trumpet_blast]
+    monologue_or_soliloquy: false
+    verse_or_prose: verse
+    dialogue_density: low
+    key_scene_flag: false
+    reference_lanes: [story_design, scene_function, medium_grammar]
+    notes: |
+      过场段——10 行内完成"卸装-列阵-冲锋"。
+
+  - scene_id: A5S7
+    act: 5
+    scene: 7
+    location: another_part_of_the_plain
+    time: day_battle
+    characters_on_stage: [Macbeth, Young_Siward, Macduff, Malcolm, Old_Siward, Ross, lords, soldiers]
+    entrances: [Macbeth, Young_Siward, Macduff_twice, Malcolm_and_others, Macduff_with_head]
+    exits: [Young_Siward_dead, Macbeth_off_to_die, all_acclaim_Malcolm]
+    dramatic_purpose: caesarean_revelation_kills_tyrant_malcolm_proclaimed
+    scene_turn: false_invincibility→prophecy_loophole_revealed→tyrant_killed_and_restoration
+    subtext: [非妇人所生=第二项假预言兑现, 暴君首级=A1S2 麦克唐华德头颅的回响]
+    stageable_actions: [bear-baiting_imagery, kill_young_siward, macduff_revelation, fight_off_to_offstage_death, head_brought_in, acclamation]
+    monologue_or_soliloquy: false (multiple short defiant speeches)
+    verse_or_prose: verse
+    dialogue_density: high
+    key_scene_flag: true
+    reference_lanes: [story_design, scene_function, medium_grammar, dramatic_surface_style]
+    notes: |
+      Phase 3 terminal 节点。
+      麦克白伏诛在台下——延续 A2 弑君也在台下的对称（行动隐，心理显）。
+      麦克德夫携首级回场，与 A1S2"已经割下来挂在我们的城楼上"
+      在结构上形成最严密的闭环——
+      麦克白以 A1 战胜叛徒的方式被战胜，并以叛徒身份首级示众。
+      马尔康加冕宣告与 A2S4 麦克白加冕宣告闭环。

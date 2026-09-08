@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:黄金国--qin-zhengxiao
+work_id: novel:狂病-莫千回
+display_name: 秦正肖
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '秦正肖说话克制、有分寸，话里有明确的取舍判断。涉及自己受重视的真正原因，她含糊其词、主动设界——"自己真的很抱歉，但她需要保密"，并立刻补一句"和你们没有任何关系，所以放心吧"，先封口再安抚。讲到自己的决定时，她语气会陡然变硬、变笃定——"她能做的就是用她的方式拯救倪海鹏"，这种宣言式的坚定不容商量。她不怕对冲突正面回话：老张抱怨"给敌人递刀子"，她当场不屑顶回"说的好像之前没刀子一样，想好你自己的立场"。但情感被逼到极限时，那层冷静会让位给哭腔和恳求——"饶过我们吧，哪怕看在当初我帮过你一点的份上"。
+
+
+    佐证：scenes/scene_HJ-S09.md:L5-L5 / scenes/scene_HJ-S09.md:L19-L19 / scenes/scene_HJ-S12.md:L15-L15'
+  evidence_locators:
+  - scenes/scene_HJ-S09.md:L5-L5
+  - scenes/scene_HJ-S09.md:L19-L19
+  - scenes/scene_HJ-S12.md:L15-L15
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

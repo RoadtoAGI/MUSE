@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1b854a48d24d1e70e56bdf76
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1704
+chapter: 第21章 三体、远征
+figure_type: analogy
+quote: 千里之行始于足下
+sensory_mapping: 脚步；长路；方向；远方终点；逐步累积
+context_fact: 汪淼认为十分之一光速对星际航行仍慢，三体人强调实际起步与目标选择。
+image_mechanism: 四光年被铺成一条千里道路，文明技术缩到迈步的双脚；速度不足不再等于不能出发，只要求第一步朝向可生存终点。
+property_alignment: 星际事业对应千里旅程；现有推进技术对应脚下第一步；航行积累对应连续步行；目的恒星对应终点；目标判断对应选路
+context_alignment: 回答没有回避慢速，而把评价尺度从单步速度改为是否真正起行，符合首支舰队的开创意义。
+narrative_function: 为技术有限却毅然远征提供行动哲学，并强调地球目标的重要性。
+transfer_rule: 用千里第一步解释长期工程时，应说明起始动作能累积、方向可校准及远端目标确实可达。
+failure_boundary: 第一步会锁死错误路线、资源不足以持续，或目标未经验证时，谚语可能把鲁莽起步美化为进取。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 速度仍有限的三体文明应先启动首次星际移民，并选择正确宜居目标
+vehicle: 徒步者要完成千里长途，必须从脚下迈出第一步并沿正确方向行走
+ground: 首次远征是漫长星际事业开端对应长途由第一步开始；目标恒星选择决定成败对应行路方向必须正确

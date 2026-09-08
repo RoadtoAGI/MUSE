@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-95d5166c98b684a7d7a86de6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1410
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 他那固有的木然仍没有被打破
+sensory_mapping: 触觉硬度；撞击；外壳；表情
+context_fact: 魏成看到申玉菲尸体，仅显出一丝震惊和悲哀，比汪淼镇静得多。
+image_mechanism: 木然从表情状态凝成一层硬壳，凶杀现场像重击落下，却只激起内部极少情绪，没有让壳面裂开。
+property_alignment: 长期木然对应固化外壳；妻子死亡对应强烈撞击；少量情绪显露对应表面轻微痕迹；整体镇静对应壳未破裂
+context_alignment: 魏成此前自述社交半睡眠和婚姻缺乏激情，木然壳是长期性格而非此刻无情，语境能防止误判。
+narrative_function: 用情绪冲击测试魏成性格，也引发大史怀疑其还隐瞒信息。
+transfer_rule: 用打破写情绪变化时，应明确稳定外层、冲击事件、裂痕程度和内部情绪是否真正外露。
+failure_boundary: 人物在内心剧烈崩溃但外表克制时，不能仅凭壳未破断定情绪不存在；喻体只描述可见反应。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 魏成长期形成的迟钝、低反应情绪状态在妻子被杀现场仍占主导
+vehicle: 包裹内部、质地坚硬且受撞击仍未破裂的外壳
+ground: 震惊悲哀只显一丝对应冲击只在表面留痕；总体表情不变对应坚硬结构未被击穿

@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:恶--liao-zhen-yu
+work_id: novel:狂病-莫千回
+display_name: 廖振宇
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '廖振宇的声音在"对镜头"和"对自己人"之间切换。面对摄像机，他是一个亢奋的表演者，用博主式的口吻招呼同伴凑近、解说自己正在做的暴行（"你看这玩意儿，居然能从他的眼眶插进鼻子里"），最后一定要喊出自己的大名收尾。私下里他满口脏字、爱用"怕鸡毛""废物玩意儿"压人，靠装出来的豪迈给自己壮胆（"雁过留声，人过留名"这种话他说得激动发抖）。情绪一旦失控就转成癫狂的嘶吼——砸着方向盘、眼睛通红地反复追问"他们现在还有什么特别的？"。他几乎不反省、不抒情，所有的话都绕着同一个轴：够不够特别、能不能被记住。
+
+
+    佐证：scenes/scene_EE-S01.md:L21-L25 / scenes/scene_EE-S02.md:L3-L5 / scenes/scene_EE-S03.md:L49-L49'
+  evidence_locators:
+  - scenes/scene_EE-S01.md:L21-L25
+  - scenes/scene_EE-S02.md:L3-L5
+  - scenes/scene_EE-S03.md:L49-L49
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

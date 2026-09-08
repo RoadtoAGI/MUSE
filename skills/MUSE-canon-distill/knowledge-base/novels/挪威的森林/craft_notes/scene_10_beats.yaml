@@ -1,0 +1,28 @@
+scene_id: '10'
+source_notes: scene_10_beats.md
+patterns:
+- pattern_id: 10-p1
+  beat: 独白填充
+  dimension: omission
+  original_move: 用戏剧史废话填补临终沉默
+  ai_default_failure: 会说温暖深刻的安慰话
+  transfer_rule: 面对死亡可写尴尬填充
+  quote: 要是现实世界中也有
+- pattern_id: 10-p2
+  beat: 黄瓜
+  dimension: camera
+  original_move: 让黄瓜脆响成为生命锚点
+  ai_default_failure: 会插入生命力感慨
+  transfer_rule: 临终场景可放入不合适食物
+  quote: 咔嚓咔嚓
+- pattern_id: 10-p3
+  beat: 托付
+  dimension: info_density
+  original_move: 保留无法破译的名词碎片
+  ai_default_failure: 会翻译成清晰遗愿
+  transfer_rule: 临终语言可保留不可解读
+  quote: 票，绿子，拜托了，上野站
+overall_traits:
+- 不合适物件制造真实感
+- 声音作为情感锚点
+- 拒绝翻译临终语言

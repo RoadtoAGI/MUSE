@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e243c959a2d712b82dcec831
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2118
+chapter: 第28章 伊文斯
+figure_type: metaphor
+quote: 我生活的支柱在哪里
+sensory_mapping: 承重柱；垂直支撑；屋顶压力；空缺位置；倒塌风险
+context_fact: 他继承巨额财产仍认定无力改变文明灭绝其他物种的轨迹。
+image_mechanism: 金钱和公司像堆满建筑的材料，却没有一根能承起屋顶；伊文斯寻找的不是更多资源，而是能把生命重量传到地面的主柱。
+property_alignment: 生活整体对应建筑；意义信念对应支柱；日常压力对应屋顶重量；理想破灭对应柱体抽走；财富无用对应材料不能替代承重；求新力量对应寻找新柱
+context_alignment: 他此前说停手会崩溃，支柱明确给出崩塌原因，并为叶文洁提供三体文明作为新支点创造入口。
+narrative_function: 把存在危机具体化为结构缺件，推动叶文洁透露外部力量。
+transfer_rule: 用支柱写生活信念时，应说明它承担何种压力、缺失为何使整体失稳、哪些资源不能替代。
+failure_boundary: 人物有多重稳定意义来源、只是某项目失败，或并未影响生活能力时，单一支柱会过度集中因果。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 伊文斯失去物种拯救信念后，寻找能支撑其生活意义和继续行动的核心信念
+vehicle: 建筑需要垂直支柱承受重量，支柱缺失便无法站立
+ground: 生活意义承担心理重量对应支柱承重；信念丧失对应柱体消失；人物无法继续生活对应建筑失稳

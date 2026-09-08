@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-cbd7f6b98a7ef217a6323565
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L530
+chapter: 第5章 叶文洁
+figure_type: simile
+quote: 一如清晨露珠般晶莹脆弱的感受从记忆的深处中浮起
+sensory_mapping: 视觉；触觉；时间；心理
+context_fact: 汪淼穿过玩耍孩子，在死去杨冬房门前停住。
+image_mechanism: 埋藏记忆先获得深水般纵深，情绪从中上浮并收缩成一颗透明露珠；晶亮与易破同时容纳甜美和伤痛。
+property_alignment: 感受纯净清亮对应露珠透明反光；稍触即散对应露珠脆弱短暂；旧情绪重现对应露珠从深处浮现
+context_alignment: 清晨露珠带少年感、短暂性，适合初恋式悸动与死亡阴影并存。
+narrative_function: 把复杂怀念凝成精细可破的感官物。
+transfer_rule: 写复苏的旧感受时，可同时设计来源深度、浮现动作和最终材质，让时间、运动、质感共同工作。
+failure_boundary: 持续炽烈、粗粝愤怒或公开已久的情绪没有露珠的微小、清亮和短暂。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 走近杨冬房间时重现的少年式伤感悸动
+vehicle: 从隐处显露、晶莹易碎的清晨露珠
+ground: 感受纯净清亮对应露珠透明反光；稍触即散对应露珠脆弱短暂；旧情绪重现对应露珠从深处浮现

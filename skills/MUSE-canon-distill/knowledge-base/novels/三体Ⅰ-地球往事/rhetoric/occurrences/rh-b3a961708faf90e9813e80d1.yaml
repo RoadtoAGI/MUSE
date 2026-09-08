@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-b3a961708faf90e9813e80d1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L235
+chapter: 第3章 射手和农场主
+figure_type: metaphor
+quote: 冲出来的胶片上，那数字幽灵般地在每一张底片上不断显示出来
+sensory_mapping: 视觉；超自然；追随
+context_fact: 第二卷胶片证明倒计时仍按现实时间继续。
+image_mechanism: 技术检查逐项抽走相机、胶卷和射线等实体来源，剩余的可见效果因此像无身体幽灵；跨底片出现又给它持续跟随能力。
+property_alignment: 找不到感光源对应幽灵无可见实体；不同底片持续显形对应幽灵反复出现；只针对汪淼对应幽灵缠住特定对象
+context_alignment: 在排除常规载体后使用幽灵，准确命名“效果在、实体不在”的异常。
+narrative_function: 为贯穿章节的倒计时异常建立母题。
+transfer_rule: 无实体喻体应放在排除物理载体之后，并用重复出现、穿透媒介或选择目标等行为补足，而非见到模糊物就称幽灵。
+failure_boundary: 若有明确投影装置、胶片预曝或所有人都能看到，幽灵的无源性和选择性会被事实推翻。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 无物理来源、跨照片持续出现并只追随汪淼的倒计时
+vehicle: 无实体却反复现身、缠住特定人的幽灵
+ground: 找不到感光源对应幽灵无可见实体；不同底片持续显形对应幽灵反复出现；只针对汪淼对应幽灵缠住特定对象

@@ -1,0 +1,257 @@
+# Phase 5: 关键场景 — 《冰与火之歌Ⅱ·列王的纷争》
+# 只提取结构转折点、高潮和关键建置场景（非逐章列举）
+
+sequence_expansions:
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S01
+        arc_id: ARC-1
+        location: 龙石岛·城堡大厅
+        time: 序幕之夜
+        participants: [克礼森, 梅丽珊卓, 史坦尼斯, 戴佛斯, 希琳, 补丁脸]
+        pov: 克礼森
+        conflict: "理性学者试图用毒药消灭超自然威胁"
+        value_start: "理性秩序尚存（学士仍有行动能力）"
+        value_end: "理性彻底败退（克礼森死于自己的毒药，梅丽珊卓安然无恙）"
+        must_include: "补丁脸歌谣'影子来跳舞啊大人'作为全书预言的植入"
+        handoff: "史坦尼斯阵营完全落入红袍女控制——为后续影子刺客埋线"
+        beat_direction: "从犹豫到决绝到反转死亡——节奏在最后30行骤然加速"
+        source_chapter: 第77章
+
+  - seq_id: ARC1-SEQ2
+    scenes:
+      - scene_id: S02
+        arc_id: ARC-1
+        location: 君临·红堡·首相塔
+        time: 提利昂抵达君临当日
+        participants: [提利昂, 瑟曦, 曼登·穆尔, 波隆, 瓦里斯, 小指头, 派西尔]
+        pov: 提利昂
+        conflict: "提利昂闯入御前会议接管权力，瑟曦拒绝承认"
+        value_start: "瑟曦独掌大权"
+        value_end: "提利昂以泰温之名强势入主——但姐弟对抗也正式开始"
+        must_include: "提利昂通过曼登·穆尔的考验——第一次展示他以智取胜的模式"
+        handoff: "权力博弈进入提利昂主导期"
+        source_chapter: 第80章
+
+  - seq_id: ARC1-SEQ3
+    scenes:
+      - scene_id: S03
+        arc_id: ARC-1
+        location: 龙石岛·城堡外广场
+        time: 焚神之晨
+        participants: [戴佛斯, 史坦尼斯, 梅丽珊卓, 赛丽丝王后, 阿拉德, 戴尔]
+        pov: 戴佛斯
+        conflict: "世俗忠诚vs道德本能——焚烧七神是正确的吗？"
+        value_start: "七神信仰是社会共识"
+        value_end: "七神被公开焚烧，史坦尼斯拔出'光明使者'——宗教秩序崩溃"
+        must_include: "光明使者的失败感——手套着火、剑看起来像废铁。真假悬置。"
+        handoff: "史坦尼斯正式以红神之名宣称铁王座"
+        beat_direction: "仪式的壮观外表包裹着滑稽的细节——神圣与荒诞并存"
+        source_chapter: 第87章
+
+      - scene_id: S04
+        arc_id: ARC-1
+        location: 铁群岛·派克城
+        time: 席恩返乡
+        participants: [席恩, 巴隆·葛雷乔伊, 阿莎]
+        pov: 席恩
+        conflict: "席恩作为养子/人质返回——但父亲已有自己的计划"
+        value_start: "席恩自认为带着罗柏的结盟提议回来，是重要使节"
+        value_end: "巴隆嘲笑他的提议，已自立为王，席恩的身份认同被撕裂"
+        must_include: "席恩与阿莎的误认（调情后发现是姐姐）——这个羞耻场景奠定了他全书的失态基调"
+        handoff: "席恩被迫在史塔克养恩和葛雷乔伊血统之间选择"
+        source_chapter: 第88章、第101章
+
+  - seq_id: ARC2-SEQ3
+    scenes:
+      - scene_id: S05
+        arc_id: ARC-2
+        location: 风息堡外·蓝礼营帐
+        time: 决战前夜
+        participants: [凯特琳, 蓝礼, 布蕾妮, 影子]
+        pov: 凯特琳
+        conflict: "影子刺客杀死蓝礼——无法抵御的超自然暗杀"
+        value_start: "蓝礼全副武装准备出战，胜利在望"
+        value_end: "蓝礼喉部被无形之剑划开，当场死亡，南境军瓦解"
+        must_include: "'护喉处的钢板就如棉布一般被轻轻划开'——超自然力量对武力秩序的碾压"
+        handoff: "凯特琳与布蕾妮逃亡；史坦尼斯吞并蓝礼军力"
+        beat_direction: "节奏极快——从准备出征到死亡不超过50行。零预警，零反抗。"
+        source_chapter: 第110章
+
+  - seq_id: ARC2-SEQ2
+    scenes:
+      - scene_id: S06
+        arc_id: ARC-2
+        location: 风息堡·海底石窟
+        time: 深夜
+        participants: [戴佛斯, 梅丽珊卓]
+        pov: 戴佛斯
+        conflict: "戴佛斯的忠诚命令他服从，道德本能告诉他这是邪恶的"
+        value_start: "戴佛斯执行任务，尚能自我说服'我只是在驾船'"
+        value_end: "亲眼目睹影子从梅丽珊卓体内诞生——这超出了他所有的认知框架"
+        must_include: "影子降生的恐怖感——黑暗中的光，不应存在的生物"
+        handoff: "影子出发去杀死蓝礼（第110章兑现）"
+        source_chapter: 第119章
+
+  - seq_id: ARC3-SEQ2
+    scenes:
+      - scene_id: S07
+        arc_id: ARC-3
+        location: 临冬城
+        time: 席恩夜袭
+        participants: [布兰, 席恩, 密肯, 欧莎, 鲁温]
+        pov: 布兰
+        conflict: "信任被背叛——养兄弟攻占了自己的家"
+        value_start: "临冬城安全，布兰是代理领主"
+        value_end: "临冬城沦陷，布兰成为俘虏"
+        must_include: "'布兰，是罗柏派你来的吗？'——背叛的全部痛感浓缩在一句问话中"
+        handoff: "布兰瑞肯被困，必须策划逃亡"
+        beat_direction: "从夏天的狼梦（紧张的动物感知）→人形视角（被迫投降）——两种意识的切换加深了无力感"
+        source_chapter: 第123章
+
+  - seq_id: ARC3-SEQ3
+    scenes:
+      - scene_id: S08
+        arc_id: ARC-3
+        location: 临冬城·废墟
+        time: 焚城后
+        participants: [席恩, 拉姆斯·波顿, 鲁温]
+        pov: 席恩（143章）→ 布兰（146章）
+        conflict: "名义援军实为敌人——拉姆斯的双重背叛"
+        value_start: "席恩面临投降或战死的二选一（还有一丝尊严可选）"
+        value_end: "拉姆斯焚毁临冬城，席恩被俘，鲁温垂死嘱托二王子分离"
+        must_include: "笑星（席恩的马）鬃毛燃烧着冲出马厩——全书最具画面感的毁灭意象"
+        handoff: "布兰北行，瑞肯南下——史塔克种子四散"
+        beat_direction: "从混乱（焚城）→静默（鲁温临终）→分离（布兰回望废墟）——噪音到寂静的节奏下降"
+        source_chapter: 第143章、第146章
+
+  - seq_id: ARC4-SEQ2
+    scenes:
+      - scene_id: S09
+        arc_id: ARC-4
+        location: 黑水河·城墙上→河面→国王门外
+        time: 黑水河之战当夜
+        participants: [提利昂, 戴佛斯, 猎狗, 波德瑞克, 曼登·穆尔]
+        pov: 提利昂+戴佛斯（交替视角）
+        conflict: "绝对劣势下的城市保卫战"
+        value_start: "史坦尼斯舰队压境，君临兵力不足"
+        value_end: "野火大爆炸暂时阻挡进攻，但猎狗崩溃，提利昂被迫出城"
+        must_include: "野火将河面变成翡翠色地狱；提利昂高喊'你们比侏儒多出了什么'"
+        handoff: "提利昂出城迎战→在船桥上被曼登刺杀"
+        beat_direction: "全书最快节奏——连续的视觉冲击（绿色火焰、燃烧的船、逃跑的猎狗）推动到提利昂出击的情感高峰"
+        source_chapter: 第135-136章
+
+      - scene_id: S10
+        arc_id: ARC-4
+        location: 黑水河·船桥
+        time: 同夜
+        participants: [提利昂, 曼登·穆尔, 波德瑞克·派恩]
+        pov: 提利昂
+        conflict: "来自自己人的致命一击——瑟曦的杀手在胜利之际出手"
+        value_start: "提利昂浴血奋战，即将赢得战斗"
+        value_end: "被曼登·穆尔从背后削去半个鼻子，重伤昏迷；泰温率军到来接管一切"
+        must_include: "'剑尖从眼下划过，冰凉的碰触，随后是剧痛'——全书最残酷的反转"
+        handoff: "提利昂苏醒后发现权力已被父亲全面接管"
+        beat_direction: "从战斗狂热的高峰骤然坠入被刺的冰点——零过渡"
+        source_chapter: 第138章
+
+  - seq_id: ARC5-SEQ1
+    scenes:
+      - scene_id: S11
+        arc_id: ARC-5
+        location: 魁尔斯·不朽之殿
+        time: 丹妮独闯
+        participants: [丹妮莉丝, 卓耿, 不朽者]
+        pov: 丹妮莉丝
+        conflict: "龙母vs古老魔法——谁控制谁"
+        value_start: "丹妮寻求不朽者的智慧和帮助"
+        value_end: "获得三重预言但差点被不朽者吞噬——卓耿喷火救主"
+        must_include: "三重预言原文（三团火、三匹坐骑、三次背叛）；狼头死人戴铁冠握羊腿（罗柏之死的预示）"
+        handoff: "丹妮确信龙的力量，准备离开魁尔斯"
+        beat_direction: "迷宫式叙事——幻象一个接一个，真假难辨，节奏催眠般缓慢后突然被龙火打断"
+        source_chapter: 第125章
+
+  - seq_id: ARC5-SEQ2
+    scenes:
+      - scene_id: S12
+        arc_id: ARC-5
+        location: 霜雪之牙·山顶
+        time: 被野人围困时
+        participants: [琼恩, 断掌科林, 耶哥蕊特]
+        pov: 琼恩
+        conflict: "完成使命需要亲手杀死导师——忠诚的终极代价"
+        value_start: "琼恩是守夜人侦察兵，科林是他的指挥官和导师"
+        value_end: "琼恩杀死科林，混入野人——外在背叛完成了内在忠诚"
+        must_include: "科林临死前只说'锋利'——全书最精简的告别。'你的剑可还锋利'的呼应。"
+        handoff: "琼恩成为野人中的'叛逃者'，野人大军南下"
+        beat_direction: "极度压缩——从决斗到死亡不超过20行。科林的死写得像一个仪式而非战斗。"
+        source_chapter: 第145章
+
+  - seq_id: ARC5-SEQ3
+    scenes:
+      - scene_id: S13
+        arc_id: ARC-5
+        location: 赫伦堡·夜间
+        time: 艾莉亚出逃之夜
+        participants: [艾莉亚, 詹德利, 热派, 卫兵]
+        pov: 艾莉亚
+        conflict: "从受害者到猎手——艾莉亚第一次亲手杀人"
+        value_start: "艾莉亚是赫伦堡的侍女/奴隶"
+        value_end: "艾莉亚割喉卫兵后出逃，口中念出'Valar morghulis'"
+        must_include: "杀人动作的具体性——刀刃入肉的手感；'Valar morghulis'作为身份蜕变的标记"
+        handoff: "艾莉亚进入荒野，身份彻底转变"
+        source_chapter: 第141章
+
+      - scene_id: S14
+        arc_id: ARC-5
+        location: 君临·梅葛楼→珊莎卧室
+        time: 黑水河之战当夜
+        participants: [珊莎, 瑟曦, 猎狗, 伊林·派恩]
+        pov: 珊莎
+        conflict: "被动等待命运——珊莎在战争中的无力与觉醒"
+        value_start: "珊莎作为人质被困梅葛楼，随时可能被伊林·派恩处死"
+        value_end: "猎狗醉酒闯入索要一首歌后离去，留下白色披风——珊莎在恐惧中保持了镇定"
+        must_include: "猎狗用匕首抵喉要求唱歌→最终收刀离去——暴力与柔情的极限张力"
+        handoff: "猎狗永久离开王庭；珊莎获得新的逃亡机会"
+        source_chapter: 第134-139章
+
+  - seq_id: ARC1-SEQ1
+    scenes:
+      - scene_id: S15
+        arc_id: ARC-5
+        location: 临冬城废墟·神木林→猎人门
+        time: 全书终章
+        participants: [布兰, 瑞肯, 梅拉, 玖健, 欧莎, 阿多, 鲁温]
+        pov: 布兰
+        conflict: "在毁灭中寻找存续的意义"
+        value_start: "临冬城被焚毁，所有守护者死去或离散"
+        value_end: "'它没有死，只是残破，和我一样。我也没有死。'"
+        must_include: "鲁温临终：'你必须坚强'、'你是你父亲的孩子'；布兰回望城堡的最后一眼"
+        handoff: "全书结束——布兰北行寻找三眼乌鸦"
+        beat_direction: "从狼的动物视角（残酷的冷静）→人的悲伤（鲁温之死）→回望（含泪的坚定）——三段式收束"
+        source_chapter: 第146章
+
+tension_curve:
+  description: |
+    本书张力曲线呈多峰形态，与多线叙事结构对应：
+    - 第一个峰：蓝礼之死（第110章，约全书55%处）——超自然恐惧
+    - 短暂谷底：中段建置期（第111-120章）
+    - 第二个峰：临冬城陷落（第123章，约65%处）——背叛之痛
+    - 持续攀升：黑水河之战（第134-139章，约85-90%处）——全书最高峰
+    - 快速收束但不回落：临冬城焚毁→科林之死→布兰告别（第143-146章）
+    整体趋势：后半段密度远高于前半段，最后20%包含了全书70%的高潮事件。
+  peaks: [S05, S07, S09, S10, S12, S08]
+  valleys: [S02, S04]
+
+causal_chain: |
+  S01（克礼森之死）→ 梅丽珊卓不受约束
+  → S03（焚烧七神）→ 史坦尼斯全面倒向红神
+  → S06（影子降生）→ S05（蓝礼之死）→ 史坦尼斯做大
+  → S09（黑水河之战）→ S10（提利昂被刺）
+
+  同时：S04（席恩返乡）→ S07（临冬城陷落）→ S08（临冬城焚毁）→ S15（布兰告别）
+
+  独立线：S11（丹妮预言）为后续全系列埋线
+  S12（科林之死）为第三部长城线埋线
+  S13（艾莉亚蜕变）→ 走向无面者之路
+  S14（猎狗离去）→ 珊莎独立应对君临新局面

@@ -1,0 +1,28 @@
+scene_id: S25
+source_notes: scene_S25_beats.md
+patterns:
+- pattern_id: S25-p1
+  beat: 三天期限
+  dimension: omission
+  original_move: 假期限骗过敌人与读者。
+  ai_default_failure: 会提前透露夜袭计划。
+  transfer_rule: 外交承诺可成为战术烟幕。
+  quote: 三天时间
+- pattern_id: S25-p2
+  beat: 进攻
+  dimension: verb
+  original_move: 用单词命令显出决策已定。
+  ai_default_failure: 会写战前犹疑独白。
+  transfer_rule: 指挥权可用极短动词表现。
+  quote: 进攻
+- pattern_id: S25-p3
+  beat: 两颗人头
+  dimension: camera
+  original_move: 人头滚出把忠诚物质化。
+  ai_default_failure: 会让佣兵口头表忠。
+  transfer_rule: 背叛阵营需不可逆凭证。
+  quote: 脑袋掉出来
+overall_traits:
+- 战争在战前决定
+- 忠诚靠物证而非誓言
+- 声音差异展示权力

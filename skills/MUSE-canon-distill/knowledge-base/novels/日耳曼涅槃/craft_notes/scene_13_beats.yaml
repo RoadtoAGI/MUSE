@@ -1,0 +1,28 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 亮证照片先于言辞
+  dimension: camera
+  original_move: 镜头锁证物陈列程序不锁表情，照片先于论点砸中全场
+  ai_default_failure: 先让主角陈述一段观点再掏证据佐证
+  transfer_rule: 亮证戏用倒序与物件特写，让权威从物证上升起
+  quote: 在桌面上以时间轴排成了有序的画面
+- pattern_id: 13-p2
+  beat: 数据轰炸
+  dimension: omission
+  original_move: 省略全部具体数字，用清单轮廓连续问句写数据存在感
+  ai_default_failure: 编造成堆伪精确数字炫硬核反而露怯
+  transfer_rule: 硬核感靠清单轮廓与听者招架不住，不靠真实数据
+  quote: 一条英国舢板能载多少人
+- pattern_id: 13-p3
+  beat: 诛心对视静默
+  dimension: verb
+  original_move: 内心巨浪级动词对外部全程静止，认输只写温度变化
+  ai_default_failure: 写一段独裁者自我说服独白，毁掉深不可测
+  transfer_rule: 重大翻转交给对视静默与独立段落，压住嗓门收高潮
+  quote: 仿佛时间在此凝固
+overall_traits:
+- 三段武器递进：证物、数据、哲学各破一层防线
+- 数据流真相：清单轮廓加听者反应替代真实数字
+- 无声高潮：张力顶点交给独立段落与温度词

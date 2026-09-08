@@ -1,0 +1,24 @@
+card_id: mute-evidence-indictment
+pattern_name: 实物控诉
+dramatic_function: 用一件无法辩驳的物证迫使掌权者面对代价。
+applicability: 适合道德困境和治理线；若物证可被解释掉会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 焦黑幼骨
+- 龙烧羊童
+- 弥林王座
+tags:
+- 物件
+- 道德代价
+- 统治
+- 沉默证词
+source_scenes:
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S03
+  note: 父亲倒出焦骨，几乎不用辩词就击穿解放者叙事。
+- novel: 冰与火之歌Ⅴ-魔龙的狂舞
+  scene_id: S21
+  note: 铁链与龙穴黑暗把治理选择转成可感的囚禁代价。
+phase_affinity:
+- 1
+- 3
+- 5

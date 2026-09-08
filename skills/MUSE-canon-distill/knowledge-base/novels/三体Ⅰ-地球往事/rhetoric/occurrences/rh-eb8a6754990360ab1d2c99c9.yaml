@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-eb8a6754990360ab1d2c99c9
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1200
+chapter: 第14章 红岸之三
+figure_type: metaphor
+quote: 企图把人类历史拉向倒退
+sensory_mapping: 空间方向；拉力；行进阻力；时间
+context_fact: 红岸第一稿以文革政治话语向外星文明控诉帝国主义国家并要求其站队。
+image_mechanism: 时间轴被平铺成前后道路，整个人类历史获得身体和惯性；敌对政治力量从旁施力，使本应前行的整体倒退。
+property_alignment: 进步时间对应向前距离；社会落后对应道路后方；霸权干预对应外力拉扯；全人类受影响对应被拉的是整条历史
+context_alignment: “前进/倒退”的线性历史观正是该时代信件的意识形态语言，喻体也暴露其把复杂文明压成单一路向。
+narrative_function: 浓缩第一稿的政治立场，并与批示“狗屁不通”形成讽刺。
+transfer_rule: 用前后方向写历史时，应明确叙述者认定的进步指标、施力者及被迫改变的路径。
+failure_boundary: 历史存在多条并行价值路线、变化无法排序或所谓倒退只是立场差异时，单向道路会把争议伪装成客观坐标。
+quality_assessment: conventional
+confidence: 0.95
+review_status: reviewed
+tenor: 信件指控美国霸权行为会使人类社会退回更落后的发展状态
+vehicle: 外力抓住沿道路前进的历史并把它向后拖拽
+ground: 社会发展被理解为向前行进对应历史沿路径前进；反动行为阻碍进步对应力量把行进者拉回后方

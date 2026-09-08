@@ -1,0 +1,1272 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "激励事件",
+      "真相揭示",
+      "怜悯教诲",
+      "魔戒历史"
+    ],
+    "characters": [
+      "弗罗多",
+      "甘道夫"
+    ],
+    "conflict_type": "internal",
+    "pov": "弗罗多",
+    "word_count": 13334,
+    "source_chapter": "卷一第2章 往昔阴影",
+    "file": "scenes/scene_S01.md",
+    "description": "甘道夫以火焰文字揭示至尊戒真相，讲述魔戒历史与咕噜的来历，传授关于怜悯的核心教诲",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多，巫师讲史占主，叙述退为听者反应",
+      "diction": "译笔书面带文言底，诗咒韵文穿插，称谓古雅",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白推进史实，「他说」高频，长独白跨段续引",
+      "pacing": "长独白与短问答交替，掷火验戒等动作切开讲史"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "角色考验",
+      "友谊",
+      "抵抗诱惑",
+      "古老力量"
+    ],
+    "characters": [
+      "弗罗多",
+      "梅里",
+      "皮平",
+      "山姆",
+      "汤姆·邦巴迪尔"
+    ],
+    "conflict_type": "internal",
+    "pov": "弗罗多",
+    "word_count": 6599,
+    "source_chapter": "卷一第8章 古冢迷雾",
+    "file": "scenes/scene_S02.md",
+    "description": "弗罗多在古冢墓穴中克服戴戒逃跑的诱惑，选择为朋友战斗并召唤汤姆前来营救",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多，叙述者偶发全知议论族群心性",
+      "diction": "译笔书面，咒歌韵文密集，词色由阴冷转明快",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "歌谣承担施法与召唤，对白轻快，「某某说」归属",
+      "pacing": "险境段句长气紧，脱险后短句明快，收在重新上路"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "战斗",
+      "戒灵",
+      "负伤",
+      "恐惧"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "阿拉贡",
+      "戒灵"
+    ],
+    "conflict_type": "external",
+    "pov": "弗罗多",
+    "word_count": 1595,
+    "source_chapter": "卷一第11章 暗夜白刃",
+    "file": "scenes/scene_S03.md",
+    "description": "风云顶遭戒灵夜袭，弗罗多被魔窟利刃刺中左肩",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多，恐惧由体感先于所见传递",
+      "diction": "书面语冷峻，黑白光影词汇主导，精灵呼号点睛",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白短促零星仅报警示警，叙述推进为主",
+      "pacing": "静默蓄势铺长，袭击段短句爆发，断在知觉边缘"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "追逐",
+      "飞渡",
+      "洪水",
+      "精灵力量"
+    ],
+    "characters": [
+      "弗罗多",
+      "格罗芬德尔",
+      "戒灵"
+    ],
+    "conflict_type": "external",
+    "pov": "弗罗多",
+    "word_count": 2186,
+    "source_chapter": "卷一第12章 逃亡渡口",
+    "file": "scenes/scene_S24.md",
+    "description": "弗罗多骑精灵白马飞渡布茹伊能河，以最后的意志力对抗戒灵，洪水吞没九骑手",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多，追逐中混入濒昏幻视",
+      "diction": "书面语，动感动词密集，精灵语原文夹注",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀疏皆呼喝命令，隔河喝阵短促",
+      "pacing": "追逐长句随马蹄加速，洪水段意象涌起，收于昏迷"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "使命确立",
+      "自愿牺牲",
+      "转折点",
+      "会议"
+    ],
+    "characters": [
+      "弗罗多",
+      "埃尔隆德",
+      "甘道夫",
+      "山姆"
+    ],
+    "conflict_type": "internal",
+    "pov": "弗罗多",
+    "word_count": 1617,
+    "source_chapter": "卷二第2章 埃尔隆德的会议",
+    "file": "scenes/scene_S04.md",
+    "description": "弗罗多在漫长沉默后自愿承担携带魔戒前往末日山的使命",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多于群像间，会议靠言语轮替推进",
+      "diction": "演说体庄雅，比尔博自嘲口语反衬郑重",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白全程承重，语域分庄谐两层，「某某说」归属",
+      "pacing": "群言往复后落入静默蓄势，一句请缨定音收束"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "牺牲",
+      "炎魔",
+      "导师之死",
+      "重大逆转"
+    ],
+    "characters": [
+      "甘道夫",
+      "炎魔",
+      "远征队全体"
+    ],
+    "conflict_type": "external",
+    "pov": "弗罗多",
+    "word_count": 2834,
+    "source_chapter": "卷二第5章 卡扎督姆桥",
+    "file": "scenes/scene_S05.md",
+    "description": "甘道夫在卡扎督姆桥上独挡炎魔，击碎桥面后被鞭子拖入深渊",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知随队伍，镜头在个人视点与战场全景间切换",
+      "diction": "书面语雄浑，拟声「咚隆」复沓如鼓点",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白皆短令与宣告，单句独立成段砸重音",
+      "pacing": "鼓声复沓推节奏，交锋一句一段，崩落后骤然收静"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "诱惑",
+      "放弃权力",
+      "主题陈述",
+      "精灵"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "加拉德瑞尔"
+    ],
+    "conflict_type": "internal",
+    "pov": "弗罗多",
+    "word_count": 3162,
+    "source_chapter": "卷二第7章 加拉德瑞尔的水镜",
+    "file": "scenes/scene_S06.md",
+    "description": "加拉德瑞尔在弗罗多主动献戒后经历剧烈内心挣扎，最终拒绝魔戒——'我通过了考验'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多观镜，幻象以「他看见」串联成列",
+      "diction": "书面典雅带预言腔，光暗意象词主导",
+      "rhetoric_density": "high",
+      "dialogue_mode": "长对白论道，问答推进，山姆土语收尾破崇高",
+      "pacing": "幻象一景一句连绵，论道段放缓，峰值在变身自白"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "堕落",
+      "分裂",
+      "抉择",
+      "Arc高潮"
+    ],
+    "characters": [
+      "弗罗多",
+      "波洛米尔",
+      "山姆"
+    ],
+    "conflict_type": "personal",
+    "pov": "弗罗多",
+    "word_count": 8898,
+    "source_chapter": "卷二第10章 分道扬镳",
+    "file": "scenes/scene_S07.md",
+    "description": "波洛米尔受魔戒蛊惑索要魔戒，弗罗多被迫戴戒逃跑后决定独自东行，山姆追随渡河",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴弗罗多，对手心理全凭言行外显",
+      "diction": "书面语，劝诱演说激越铺排，远眺段地名密集",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白拉锯升温，劝—拒—夺三段递进至爆发",
+      "pacing": "对峙短兵相接，逃脱后转长镜头铺陈，张弛落差大"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "忏悔",
+      "战死",
+      "救赎",
+      "悲剧"
+    ],
+    "characters": [
+      "波洛米尔",
+      "阿拉贡",
+      "莱戈拉斯",
+      "吉姆利"
+    ],
+    "conflict_type": "personal",
+    "pov": "阿拉贡",
+    "word_count": 3015,
+    "source_chapter": "卷三第1章 波洛米尔离去",
+    "file": "scenes/scene_S25.md",
+    "description": "波洛米尔身中无数箭矢，临终向阿拉贡忏悔曾试图夺戒，以生命赎回荣誉",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴阿拉贡，自责独白外化为出声自语",
+      "diction": "书面庄重，悼亡语带史诗腔，议事语平实",
+      "rhetoric_density": "low",
+      "dialogue_mode": "临终对白极简短句多留白，事后问答推议事",
+      "pacing": "急奔短句开场，死讯后节奏放缓，收于未决两难"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "归来",
+      "身份揭示",
+      "力量逆转",
+      "死而复生"
+    ],
+    "characters": [
+      "甘道夫",
+      "阿拉贡",
+      "莱戈拉斯",
+      "吉姆利"
+    ],
+    "conflict_type": "external",
+    "pov": "阿拉贡",
+    "word_count": 2382,
+    "source_chapter": "卷三第5章 白骑士",
+    "file": "scenes/scene_S08.md",
+    "description": "甘道夫以白袍身份在范贡森林中归来，揭示与炎魔搏斗至死又复活的经历",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知随三猎手，悬念靠延迟揭名经营",
+      "diction": "书面语，老者语带机锋，揭示段光辉词集中",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白主导试探攻防，呼名瞬间引爆身份揭晓",
+      "pacing": "试探段慢问慢答，揭示一瞬提速，叙旧再放缓"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S26",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "觉醒",
+      "精神控制",
+      "王权",
+      "驱逐间谍"
+    ],
+    "characters": [
+      "甘道夫",
+      "希奥顿",
+      "佞舌格里马",
+      "阿拉贡"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角",
+    "word_count": 10128,
+    "source_chapter": "卷三第6章 金殿之王",
+    "file": "scenes/scene_S26.md",
+    "description": "甘道夫在金殿中解除佞舌对希奥顿王的精神控制，国王重新握剑走出殿门",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知偏行客一侧，殿堂仪典感，人物亮相给特写",
+      "diction": "廷议语庄雅古风，谗言语阴刻，战歌韵文穿插",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白交锋承重，骂战与劝谏轮替，「某某说」高频",
+      "pacing": "殿内对峙缓慢蓄压，开门见光后抬升，收于号令"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "攻城战",
+      "黎明冲锋",
+      "援军",
+      "Arc高潮"
+    ],
+    "characters": [
+      "希奥顿",
+      "阿拉贡",
+      "甘道夫",
+      "吉姆利",
+      "莱戈拉斯"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 4954,
+    "source_chapter": "卷三第7章 海尔姆深谷",
+    "file": "scenes/scene_S09.md",
+    "description": "黎明中希奥顿从号角堡冲锋而出，甘道夫率援军从山脊驰援，胡奥恩吞噬溃军",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知战场调度，视点沿城防各点位移动",
+      "diction": "战阵书面语，敌我喊话粗粝口语对比",
+      "rhetoric_density": "high",
+      "dialogue_mode": "战隙对白计数玩笑松弛，阵前喊话短促挑衅",
+      "pacing": "攻防按波次推进，号角段长句涌起，冲锋收束"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S27",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "恩特",
+      "自然力量",
+      "摧毁",
+      "重逢"
+    ],
+    "characters": [
+      "梅里",
+      "皮平",
+      "树须",
+      "甘道夫"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 5251,
+    "source_chapter": "卷三第9章 一地狼藉",
+    "file": "scenes/scene_S27.md",
+    "description": "梅里和皮平在艾森加德废墟上迎客，讲述恩特大军如何攻陷并引水灌城",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "角色转述体，霍比特人第一人称口述大事件",
+      "diction": "口语活泼带乡土腔，比喻取自家常物事",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长篇转述内嵌引语，听者插话作换气节拍",
+      "pacing": "口述滚动少停顿，奇观靠细节堆叠层层加码"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S28",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "收服",
+      "宣誓",
+      "怜悯",
+      "向导"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "咕噜"
+    ],
+    "conflict_type": "personal",
+    "pov": "弗罗多",
+    "word_count": 5297,
+    "source_chapter": "卷四第1章 驯服斯密戈",
+    "file": "scenes/scene_S28.md",
+    "description": "弗罗多以魔戒之名迫使咕噜发誓效忠，将敌人转化为向导",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知主仆双视点轮替，咕噜只由外部观察",
+      "diction": "咕噜语自创复沓「宝贝／是嘶嘶」，与口语对照",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白驱动驯服全程，人格切换靠自称变化外显",
+      "pacing": "擒缚动作快切，盟誓段放慢凝重，收在连夜出发"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "拒绝诱惑",
+      "品格考验",
+      "镜像",
+      "信任"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "法拉米尔"
+    ],
+    "conflict_type": "personal",
+    "pov": "弗罗多",
+    "word_count": 8951,
+    "source_chapter": "卷四第5章 西方之窗",
+    "file": "scenes/scene_S10.md",
+    "description": "山姆失言暴露魔戒存在，法拉米尔面对与兄长同样的诱惑却坚定拒绝",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴山姆旁观审问，主角对答由外位观察",
+      "diction": "问对庄雅如庭辩，山姆插话土俗破格",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长问答攻防作全场骨架，盘问层层逼近隐情",
+      "pacing": "对答绵密少动作，幻象插叙放缓，启程段提速"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "温情",
+      "善意之死",
+      "伟大故事",
+      "悲剧转折"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "咕噜"
+    ],
+    "conflict_type": "personal",
+    "pov": "山姆",
+    "word_count": 5337,
+    "source_chapter": "卷四第8章 奇立斯乌苟的阶梯",
+    "file": "scenes/scene_S11.md",
+    "description": "山姆与弗罗多讨论是否会成为伟大故事的一部分，咕噜最后的温情被山姆喝斥打断",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知主仆絮谈，归来段移作咕噜外视角特写",
+      "diction": "口语绵长平白如话家常，论故事不带书卷气",
+      "rhetoric_density": "low",
+      "dialogue_mode": "闲谈承担主题陈述，对白占绝对篇幅",
+      "pacing": "谈话舒缓如歇脚，笑声起落作节拍，抚膝段静音"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "独战",
+      "英雄时刻",
+      "被俘",
+      "悬念"
+    ],
+    "characters": [
+      "山姆",
+      "弗罗多",
+      "希洛布",
+      "咕噜"
+    ],
+    "conflict_type": "external",
+    "pov": "山姆",
+    "word_count": 13069,
+    "source_chapter": "卷四第9-10章 希洛布的巢穴/山姆怀斯大人的选择",
+    "file": "scenes/scene_S12.md",
+    "description": "山姆独自刺伤远古巨蛛希洛布，弗罗多被蜇后被俘，山姆取走魔戒后得知弗罗多未死",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴山姆，决断段内心对话自问自答成辩",
+      "diction": "搏杀段书面雄浑，山姆内语土直，咒文原文嵌入",
+      "rhetoric_density": "high",
+      "dialogue_mode": "独处时对白即内心争辩，自语分作两声对答",
+      "pacing": "搏斗短句快切，哀悼抉择段长句滞重，迟疑反复"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "对峙",
+      "城门",
+      "巫师",
+      "戒灵王"
+    ],
+    "characters": [
+      "甘道夫",
+      "戒灵之王"
+    ],
+    "conflict_type": "external",
+    "pov": "皮平",
+    "word_count": 1538,
+    "source_chapter": "卷五第4章 刚铎围城",
+    "file": "scenes/scene_S13.md",
+    "description": "戒灵王骑黑兽跨入破碎的城门，甘道夫独自在城门下与之对峙，远处传来洛汉号角声",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知俯瞰攻城，叙述如战报，复沓点题",
+      "diction": "书面语沉重，专名古语注入仪式感",
+      "rhetoric_density": "high",
+      "dialogue_mode": "几乎无对白，仅终段宣告式喝问对决",
+      "pacing": "「战鼓隆隆」复沓推压，三击破门，鸡鸣骤转"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S29",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "冲锋",
+      "史诗战役",
+      "号角",
+      "骑兵"
+    ],
+    "characters": [
+      "希奥顿",
+      "伊奥梅尔",
+      "洛汉骑兵"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 7705,
+    "source_chapter": "卷五第5章 洛希尔人的驰援",
+    "file": "scenes/scene_S29.md",
+    "description": "野人引路绕过封锁，风向转变驱散黑暗，希奥顿率六千骑兵在黎明中发起史诗冲锋",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴梅里，置身大军中的渺小旁观位",
+      "diction": "野人语破格简短自成语法，军议语平实",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "军议问答推进行军决策，异族声口立辨",
+      "pacing": "夜行铺陈缓慢压抑，风向转变点燃结尾冲锋"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "预言应验",
+      "杀死戒灵王",
+      "牺牲",
+      "Arc高潮"
+    ],
+    "characters": [
+      "伊奥温",
+      "梅里",
+      "希奥顿",
+      "戒灵之王"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 3730,
+    "source_chapter": "卷五第6章 佩兰诺平野之战",
+    "file": "scenes/scene_S14.md",
+    "description": "伊奥温摘下面具'我不是男人'，与梅里联手杀死戒灵王，希奥顿临终托孤",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知史诗腔插「看哪」呼语，复又贴梅里恐惧",
+      "diction": "古雅庄严，戒灵语用「汝」文言化拉开异质",
+      "rhetoric_density": "high",
+      "dialogue_mode": "阵前宣告式对白，揭名一句承全场转折",
+      "pacing": "冲锋长句奔涌，对决一击一段，临终托付骤缓"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S30",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "绝望",
+      "自焚",
+      "帕蓝提尔",
+      "内部崩溃"
+    ],
+    "characters": [
+      "德内梭尔",
+      "甘道夫",
+      "皮平",
+      "法拉米尔",
+      "贝瑞刚德"
+    ],
+    "conflict_type": "personal",
+    "pov": "皮平",
+    "word_count": 5788,
+    "source_chapter": "卷五第7章 德内梭尔的火葬堆",
+    "file": "scenes/scene_S30.md",
+    "description": "德内梭尔因帕蓝提尔导致的绝望欲将自己与昏迷的法拉米尔一同焚烧，甘道夫赶到救出法拉米尔",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知随救援者疾行，疯狂凭言行外显不入内心",
+      "diction": "书面庄重，城主语高傲修辞繁复，巫师语峻切",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "论辩对白承重，劝阻与狂言交锋层层递进",
+      "pacing": "赶路急切短段，墓室对峙放缓，自焚段一气直下"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "治愈",
+      "王权确认",
+      "古谚应验",
+      "医者"
+    ],
+    "characters": [
+      "阿拉贡",
+      "法拉米尔",
+      "伊奥温",
+      "梅里"
+    ],
+    "conflict_type": "internal",
+    "pov": "多视角",
+    "word_count": 10236,
+    "source_chapter": "卷五第8章 诊疗院",
+    "file": "scenes/scene_S15.md",
+    "description": "阿拉贡以阿塞拉斯和'王者之手'逐一治愈三名伤者，但选择不进城宣称王权",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知多线轮转，民间声口作复调对照庙堂",
+      "diction": "医谚古语与庭仪语相间，老妇絮叨鲜活",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白多声部，絮叨与简令对照，谚语复现点题",
+      "pacing": "逐床轮诊推进，香气段驻留抒情，消息扩散收束"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "营救",
+      "忠诚",
+      "独闯",
+      "归还魔戒"
+    ],
+    "characters": [
+      "山姆",
+      "弗罗多"
+    ],
+    "conflict_type": "external",
+    "pov": "山姆",
+    "word_count": 17026,
+    "source_chapter": "卷六第1章 奇立斯乌苟之塔",
+    "file": "scenes/scene_S16.md",
+    "description": "山姆独自闯入奥克塔楼，以水晶瓶突破魔法封锁，在塔顶救出弗罗多并归还魔戒",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴山姆，全知插笔为远方诸线对时",
+      "diction": "书面语，要塞地形铺陈精确如勘测",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "自语支撑独行长段，对白稀少仅呼喝点缀",
+      "pacing": "潜入慢步细写，诱惑幻景驻留，闯门段骤紧"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "忠诚",
+      "朴素英雄",
+      "攀登",
+      "情感高峰"
+    ],
+    "characters": [
+      "山姆",
+      "弗罗多"
+    ],
+    "conflict_type": "external",
+    "pov": "山姆",
+    "word_count": 3243,
+    "source_chapter": "卷六第3章 末日山",
+    "file": "scenes/scene_S17.md",
+    "description": "弗罗多筋疲力尽无法继续，山姆说'我能背你'并背起他攀登末日山",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴山姆，全知插笔点明道路来历",
+      "diction": "书面凝重，地貌词精确，山姆自语土直",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白极简，主仆短句相扶，一唤一应",
+      "pacing": "攀爬句子负重一步一顿，魔眼一瞥骤停再起步"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "故事高潮",
+      "魔戒销毁",
+      "仁慈兑现",
+      "索隆覆灭"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "咕噜"
+    ],
+    "conflict_type": "internal",
+    "pov": "山姆",
+    "word_count": 2584,
+    "source_chapter": "卷六第3章 末日山",
+    "file": "scenes/scene_S18.md",
+    "description": "弗罗多在末日裂隙被魔戒征服宣称'魔戒归我'，咕噜咬断手指夺回魔戒后坠入火山",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知在山姆视点与魔君心知间陡然拉升切换",
+      "diction": "书面庄重，终局宣告字字铿锵",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀少皆为宣告，占有宣言一句定乾坤",
+      "pacing": "静默蓄势后变故连爆，崩塌长句倾泻，收于平静"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "等待死亡",
+      "故事回环",
+      "大鹰营救"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "格怀希尔"
+    ],
+    "conflict_type": "external",
+    "pov": "山姆",
+    "word_count": 2850,
+    "source_chapter": "卷六第3-4章 末日山/科瑁兰原野",
+    "file": "scenes/scene_S19.md",
+    "description": "弗罗多和山姆困在喷发的火山上等待死亡，山姆回想'伟大的故事'，大鹰从天而降营救",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知双线交切，战场宏观与山丘特写互望",
+      "diction": "书面庄严，毁灭段长排比铺陈",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白稀少，宣告与诀别短语，相托作见证",
+      "pacing": "崩塌段长句滚动连绵，双线切换收束于俯冲营救"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "重逢",
+      "礼赞",
+      "欢笑与泪水",
+      "回报"
+    ],
+    "characters": [
+      "山姆",
+      "弗罗多",
+      "甘道夫",
+      "阿拉贡",
+      "梅里",
+      "皮平"
+    ],
+    "conflict_type": "internal",
+    "pov": "山姆",
+    "word_count": 3011,
+    "source_chapter": "卷六第4章 科瑁兰原野",
+    "file": "scenes/scene_S20.md",
+    "description": "山姆在伊希利恩醒来，甘道夫的笑声如音乐，阿拉贡在三军面前向两个霍比特人跪下致意",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴山姆苏醒，变局靠问答层层揭开",
+      "diction": "颂辞庄丽，山姆口语欢快直白对照",
+      "rhetoric_density": "high",
+      "dialogue_mode": "问答补叙变局，颂呼多语并陈如礼乐",
+      "pacing": "苏醒缓启，层层递进至全场欢呼，宴乐收尾"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "加冕",
+      "王者归来",
+      "白树重生",
+      "婚礼"
+    ],
+    "characters": [
+      "阿拉贡",
+      "甘道夫",
+      "法拉米尔",
+      "阿尔玟"
+    ],
+    "conflict_type": "internal",
+    "pov": "多视角",
+    "word_count": 5765,
+    "source_chapter": "卷六第5章 宰相与国王",
+    "file": "scenes/scene_S21.md",
+    "description": "阿拉贡以'埃莱萨'之名加冕为联合王国之王，白树幼苗重生，与阿尔玟成婚",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知典礼记述带编年史腔，民间旁白插科",
+      "diction": "册封文告庄重，古语原文引述，絮叨破格",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白多为典仪宣答与判词，絮叨插话作调剂",
+      "pacing": "一段一仪推进，后段编年快进数月，收于成婚"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "归家",
+      "光复",
+      "成人礼",
+      "暴君覆灭"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "梅里",
+      "皮平",
+      "萨茹曼"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 19876,
+    "source_chapter": "卷六第8章 夏尔平乱",
+    "file": "scenes/scene_S22.md",
+    "description": "四个霍比特人组织起义推翻萨茹曼对夏尔的统治，佞舌割断萨茹曼喉咙",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知随四旅人，乡土世情靠对话铺开",
+      "diction": "乡土口语为主，官腔规定语作讽刺对照",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白密集承担揭露与交锋，乡音声口各异",
+      "pacing": "一站一阻推进，斗嘴轻快，见家园残破骤沉"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "离别",
+      "西渡",
+      "结局",
+      "回归日常"
+    ],
+    "characters": [
+      "弗罗多",
+      "山姆",
+      "甘道夫",
+      "加拉德瑞尔",
+      "比尔博"
+    ],
+    "conflict_type": "internal",
+    "pov": "山姆",
+    "word_count": 8402,
+    "source_chapter": "卷六第9章 灰港",
+    "file": "scenes/scene_S23.md",
+    "description": "弗罗多与甘道夫等登上白船西渡大海永远离开中洲，山姆回到傍水镇说'我回来了'",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知编年收束，以年记快进，渐聚焦主仆",
+      "diction": "田园记事平实温润，民谚家常语点缀",
+      "rhetoric_density": "low",
+      "dialogue_mode": "家常对话定大事，托付段语淡而重",
+      "pacing": "大事年记快进，病痛以暗笔点入，渐缓至启程"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S31",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "攻城战",
+      "城墙攻防",
+      "战斗节奏",
+      "猎杀竞赛",
+      "爆破"
+    ],
+    "characters": [
+      "阿拉贡",
+      "伊奥梅尔",
+      "吉姆利",
+      "莱戈拉斯",
+      "希奥顿",
+      "甘姆林"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角",
+    "word_count": 7815,
+    "source_chapter": "卷三第7章 海尔姆深谷",
+    "file": "scenes/scene_S31.md",
+    "description": "海尔姆深谷城墙夜战全过程——从兵力部署、闪电照亮敌军、城墙攻防拉锯、吉姆利莱戈拉斯猎杀竞赛，到欧尔桑克火药炸开城墙",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知战场调度，工事地形先行铺垫",
+      "diction": "战阵书面语，斗嘴口语轻快，战吼原文夹注",
+      "rhetoric_density": "high",
+      "dialogue_mode": "杀敌计数斗嘴穿插战况，喊阵呼号点燃士气",
+      "pacing": "攻防一波一段层层加压，斗嘴段松一口气"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S32",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "围城战",
+      "攻城器械",
+      "心理战",
+      "恐惧",
+      "格龙得"
+    ],
+    "characters": [
+      "甘道夫",
+      "德内梭尔",
+      "皮平",
+      "法拉米尔",
+      "伊姆拉希尔",
+      "戒灵之王"
+    ],
+    "conflict_type": "external",
+    "pov": "皮平",
+    "word_count": 7123,
+    "source_chapter": "卷五第4章 刚铎围城",
+    "file": "scenes/scene_S32.md",
+    "description": "刚铎围城全景——投石机抛掷人头的心理战、格龙得攻城槌轰破城门、甘道夫与戒灵王在城门下对峙、公鸡啼鸣和洛汉号角",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知围城纪事，群体心理与皮平视点交替",
+      "diction": "书面沉重，绝望修辞繁复，城主语冷峭",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白集中于疯狂城主与劝阻者，诀别宣告式",
+      "pacing": "围困段碾压式缓慢铺陈，送葬段步步沉降"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S33",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "军事策略",
+      "战略会议",
+      "将领决策",
+      "佯攻",
+      "赌博"
+    ],
+    "characters": [
+      "甘道夫",
+      "阿拉贡",
+      "伊奥梅尔",
+      "伊姆拉希尔"
+    ],
+    "conflict_type": "internal",
+    "pov": "多视角",
+    "word_count": 4198,
+    "source_chapter": "卷五第9章 最后辩论",
+    "file": "scenes/scene_S33.md",
+    "description": "甘道夫提出以七千大军为饵进攻黑门引开索隆之眼的战略——纯军事策略讨论和决策过程",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知议事记述，论辩独白占主体",
+      "diction": "谋略论说体绵密，譬喻入论，决断句铿锵",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长篇论辩递进，逐人表态如点名立誓",
+      "pacing": "论说长段缓密，表态短句轮替，拔剑收势"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S34",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "绝境抵抗",
+      "谈判",
+      "士兵心理",
+      "被围",
+      "最后一战"
+    ],
+    "characters": [
+      "阿拉贡",
+      "甘道夫",
+      "皮平",
+      "贝瑞刚德",
+      "索隆之口"
+    ],
+    "conflict_type": "external",
+    "pov": "皮平",
+    "word_count": 5115,
+    "source_chapter": "卷五第10章 黑门开启",
+    "file": "scenes/scene_S34.md",
+    "description": "黑门之战——索隆之口的嘲讽谈判、甘道夫劈手夺回信物拒绝条件、大军被十倍敌人围困、皮平的士兵心理",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知带史官注解插叙来历，皮平视点收尾",
+      "diction": "外交辞令毒辣讥诮，叙述庄重如史笔",
+      "rhetoric_density": "high",
+      "dialogue_mode": "谈判对白针锋相对，嘲讽与反制轮番升级",
+      "pacing": "谈判拉锯蓄势，夺信物瞬间引爆，直坠混战"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S35",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "法术对决",
+      "声音魔力",
+      "心理战",
+      "折断权杖",
+      "劝诱与识破"
+    ],
+    "characters": [
+      "甘道夫",
+      "萨茹曼",
+      "希奥顿",
+      "伊奥梅尔",
+      "吉姆利",
+      "阿拉贡",
+      "梅里",
+      "皮平",
+      "佞舌"
+    ],
+    "conflict_type": "personal",
+    "pov": "多视角（听众感受为主）",
+    "word_count": 8444,
+    "source_chapter": "卷三第10章 萨茹曼之声",
+    "file": "scenes/scene_S35.md",
+    "description": "纯声音的法术对决——萨茹曼以声音魔力轮番劝诱塔下众人，希奥顿沉默后拒绝，甘道夫大笑破幻并折断其权杖，佞舌掷下帕蓝提尔",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知贴听众群体感知，叙述随幻象倾斜不判真伪",
+      "diction": "叙述平实白话，对白演说腔敬语铺陈，破防转粗鄙斥骂",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长演说对白推进，归属「某某说」加声线形容标态度",
+      "pacing": "长段绵密包裹如声咒，转折以短句独段拍板，省略施法"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S36",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "小队遭遇战",
+      "近战",
+      "恐惧预叙",
+      "密闭空间",
+      "且战且退"
+    ],
+    "characters": [
+      "甘道夫",
+      "弗罗多",
+      "山姆",
+      "阿拉贡",
+      "波洛米尔",
+      "吉姆利",
+      "莱戈拉斯",
+      "梅里",
+      "皮平"
+    ],
+    "conflict_type": "external",
+    "pov": "多视角（弗罗多为主）",
+    "word_count": 6511,
+    "source_chapter": "卷二第5章 卡扎督姆桥",
+    "file": "scenes/scene_S36.md",
+    "description": "马扎布尔之室遭遇战——巴林墓前诵读染血日记'我们无法出去'，鼓声与日记文字重合，穴居巨怪破门，弗罗多中矛，小队且战且退",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知贴护戒队群体，紧张处落到弗罗多单人感知",
+      "diction": "白话利落间杂古雅四字语，兵器专名密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白推进，长篇朗读与短促号令交替，「喊道」高频",
+      "pacing": "拟声「咚隆」独段切相位，激战一段到底，事后补因果"
+    },
+    "style_profile_by": "gpt-5"
+  },
+  {
+    "scene_id": "S37",
+    "novel": "指环王",
+    "author": "J.R.R.托尔金",
+    "genre": "高奇幻",
+    "lang": "zh",
+    "tags": [
+      "战场全景",
+      "战局逆转",
+      "黑帆展旗",
+      "挽歌",
+      "战争诗"
+    ],
+    "characters": [
+      "伊奥梅尔",
+      "阿拉贡",
+      "希奥顿",
+      "伊奥温",
+      "伊姆拉希尔亲王",
+      "勾斯魔格"
+    ],
+    "conflict_type": "external",
+    "pov": "全景（多视角轮转）",
+    "word_count": 5513,
+    "source_chapter": "卷五第6章 佩兰诺平野之战",
+    "file": "scenes/scene_S37.md",
+    "description": "佩兰诺平野战场全景——希奥顿传旗长逝，伊奥梅尔悲怒冲锋，黑帆舰队令全场绝望却在展开王旗一瞬逆转，日落后以阵亡者挽歌收束",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知说书直评成败，跳出时空补器物前史与后世挽歌",
+      "diction": "庄雅古风，「看哪」感叹与专名头衔名录铺排",
+      "rhetoric_density": "high",
+      "dialogue_mode": "叙述推进为主，对白皆宣告誓言体，归属简用「他说」",
+      "pacing": "长段铺排战局潮汐，韵文嵌入换挡，收束交给天色名录"
+    },
+    "style_profile_by": "gpt-5"
+  }
+]

@@ -1,0 +1,27 @@
+mode: reference
+display_name: 希特勒
+role_slug: hitler
+source_novel: 日耳曼涅槃
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_03.md
+  - scenes/scene_05.md
+  - scenes/scene_06.md
+  - scenes/scene_12.md
+  - scenes/scene_13.md
+  - scenes/scene_14.md
+  - scenes/scene_18.md
+  - scenes/scene_19.md
+  - scenes/scene_26.md
+built_at: 2026-07-06T04:37:02+08:00
+skill_version: 1
+locator_count: 20
+has_canon_ending: false
+coverage_note: |
+  覆盖 9 个场景切片（scene_03/05/06/12/13/14/18/19/26），跨监狱结盟（1924）→
+  权力兑现（1933）→神格化（1937）→敦刻尔克决策与冷淡惩罚（1940.5）→贡比涅
+  加冕（1940.6）→断章期膨胀（1940.9）。声音四档均有场景锚定；slug 循
+  genghis-khan 史实人物先例用 hitler。本作形象与史实差异（可被说服/恩义维度）
+  已在 SKILL.md 身份段显式警示。原作未完结且角色存活，无 canon-ending；
+  非 canonical 网文，无 claims 流程。

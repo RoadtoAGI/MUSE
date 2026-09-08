@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-78e410c4ffc9bf012b2b0547
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1601
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 我上半生一直在用文学这把解剖刀来揭露这种丑恶
+sensory_mapping: 刀锋触觉；切割动作；身体内部；血肉视觉；冷光
+context_fact: 女作家对人类彻底失望，声称连揭露都已厌倦，希望三体文明把真正的美带来。
+image_mechanism: 社会被平放成待检躯体，小说句子磨成薄刃，一层层割开体面皮肤；被揭出的不是抽象缺点，而是令她厌恶到放弃医治的内部病变。
+property_alignment: 人类社会对应身体；文明表象对应皮肤；文学语言对应解剖刀；分析批判对应切开；隐藏丑恶对应内部病灶；公开作品对应把病灶展示给旁观者
+context_alignment: 下一位哲学家马上称人类文明病入膏肓，解剖刀为医疗诊断框架先行铺设，也刻画作家的专业自我理解。
+narrative_function: 具象化文学批判的精细与冷峻，同时解释作家为何从揭露走向盼望外力替换人类。
+transfer_rule: 把文学写成解剖刀时，应明确被切开的表象、要辨认的内部结构、刀法的精确性和揭示后的判断。
+failure_boundary: 作品主要抒情慰藉、没有分析隐蔽机制，或作者只是宣泄而缺少精确观察时，解剖刀会拔高批判能力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 女作家长期用文学细致剖析并公开人性和社会的丑恶结构
+vehicle: 外科或尸检者以锋利解剖刀切开身体表层，显露内部病变和器官关系
+ground: 文学分析表象下动机对应刀刃切开皮肤；揭示隐蔽丑恶对应暴露内部病灶；长期写作对应反复精细解剖

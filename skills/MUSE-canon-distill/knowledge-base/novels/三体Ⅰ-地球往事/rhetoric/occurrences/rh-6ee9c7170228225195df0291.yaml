@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6ee9c7170228225195df0291
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2006
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 这段记忆被浓缩成一幅幅欧洲古典油画
+sensory_mapping: 视觉构图；厚重色彩；油彩质感；画框定格；暖色光
+context_fact: 火炕、烟锅、高粱饭、烈酒、女人孩子和阳光构成没有空白的乡村生活。
+image_mechanism: 半年连续时间被压进多个画框，动作停成姿态，烟、皮肤和食物被厚油彩一层层涂满；记忆不再按日期流动，而按画面被翻阅。
+property_alignment: 生活片段对应一幅幅画；人物器物密集对应画布无空白；浓烈温热体验对应饱和暖色；物质细节厚实对应油彩堆叠；记忆定格对应画框固定瞬间
+context_alignment: 文本明确排除留白较多的中国画，选择油画不是泛称美，而是对应齐家屯生活的饱满无空隙。
+narrative_function: 规定这段记忆的视觉风格，使读者以浓色静帧感受乡村疗愈。
+transfer_rule: 把记忆写成特定画种时，应落实构图密度、色彩、材质和时间定格方式，并说明为何不是其他媒介。
+failure_boundary: 记忆稀疏空灵、以线条留白为主或主要依靠声音运动时，厚重古典油画会错配感官组织。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁回忆齐家屯时，日常场景以构图饱满、色彩浓厚、质感具体的定格画面保存
+vehicle: 人物、器物和光线布满画布，色层厚重而温暖的欧洲古典油画组
+ground: 记忆以一个个凝固场景出现对应多幅画作；生活细节密集浓烈对应油画画面饱满、色彩厚重

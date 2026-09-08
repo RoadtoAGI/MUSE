@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-12c4255884f5a9e1ea0f3d09
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1904
+chapter: 第25章 叛乱
+figure_type: simile
+quote: 枪柄像一把榔头似的露出来
+sensory_mapping: 视觉轮廓；手部握持；金属重量；抡击；闷响
+context_fact: 正规军刚包围ETO，大史握住枪管入场，随后用枪柄击倒一名试图拔枪者。
+image_mechanism: 冲锋枪被调转方向，射击武器的尾部先在皮夹克外露成工具头；下一瞬金属砸骨的闷响把形状相似兑现为真实榔头动作。
+property_alignment: 枪柄短粗对应榔头头部；握枪管对应握住榔头柄；倒手抡动对应挥锤；砸中头骨对应榔头击打硬物；金属闷响对应重工具落点
+context_alignment: 大史先用近身砸击控制局面而非开枪，榔头形象准确表现其粗粝、直接又有分寸的执法方式。
+narrative_function: 预告并解释随后的砸击，让角色入场动作一笔带出暴力效率。
+transfer_rule: 把武器部件比作工具时，应让外形、握法、受力方向和随后用途共同对齐。
+failure_boundary: 枪正常持握射击、枪托轻薄或没有任何敲砸动作时，榔头会只剩局部轮廓巧合。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 史强倒握冲锋枪时从腋下和手边露出的厚重枪柄，以及它马上被用于砸击的姿态
+vehicle: 握柄短粗、头部沉重并专门用来敲砸硬物的榔头
+ground: 枪柄外露的短粗轮廓对应榔头柄头；倒握后能抡砸对应榔头以重量冲击目标

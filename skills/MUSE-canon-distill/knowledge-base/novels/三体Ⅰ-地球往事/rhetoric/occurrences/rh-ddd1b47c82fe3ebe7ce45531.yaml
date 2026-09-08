@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ddd1b47c82fe3ebe7ce45531
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1753
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 现在组织面临灭顶之灾
+sensory_mapping: 水位上涨；头顶覆盖；窒息；挣扎；全身浸没
+context_fact: 他以外部战争状态和拯救派可能背叛为由，要求统帅立即清洗内部。
+image_mechanism: 搜捕压力被灌成持续上涨的水，派系争论发生在水面逼近头顶之际；“灭顶”让任何迟疑都像放弃最后呼吸。
+property_alignment: 政府搜捕对应洪水上涨；组织成员对应水中受困者；内部裂痕对应自救困难；被全面清除对应水没头顶；果断清洗主张对应紧急求生动作
+context_alignment: 潘寒用终局灾难抬高紧迫度，为越权杀人辩护；叶文洁的从容与此危机话术形成权力反差。
+narrative_function: 以窒息式末日框架为潘寒的极端措施制造时间压力。
+transfer_rule: 用灭顶写组织危机时，应有覆盖全体、迅速逼近、生存空间消失和可能彻底终结的证据。
+failure_boundary: 危机只影响局部、组织有安全退路或能长期调整时，灭顶会成为操纵性的紧迫夸张。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 潘寒认为政府搜捕与内部异见可能使ETO整体遭到彻底摧毁
+vehicle: 洪水漫过头顶，使受困者被完全淹没并窒息死亡
+ground: 危机覆盖组织全部生存空间对应水位超过头顶；组织可能不复存在对应溺水者无法呼吸生还

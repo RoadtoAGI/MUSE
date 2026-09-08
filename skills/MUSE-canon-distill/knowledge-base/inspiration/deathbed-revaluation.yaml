@@ -1,0 +1,22 @@
+card_id: deathbed-revaluation
+pattern_name: 失败重估
+dramatic_function: 先让一生按世俗指标失败，再在临终用注意力转移重估其意义。
+applicability: 适用于反逆袭人生线；若故事承诺外部胜利则会削弱爽感（单书孤证，验证面窄）
+reuse_candidates:
+- 助理教授职称停滞
+- 褪色红封面著作
+tags:
+- 反逆袭
+- 临终回望
+- 意义重估
+source_scenes:
+- novel: 斯通纳
+  scene_id: S13
+  note: 失败清单被窗外生命和手中书页重新衡量。
+- novel: 斯通纳
+  scene_id: S15
+  note: 土地吞没父母的一生，反衬个体意义的追问。
+phase_affinity:
+- 2
+- 3
+- 4

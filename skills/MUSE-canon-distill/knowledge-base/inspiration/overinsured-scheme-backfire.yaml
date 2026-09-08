@@ -1,0 +1,23 @@
+card_id: overinsured-scheme-backfire
+pattern_name: 过度保险连环反噬
+dramatic_function: 反派为求万无一失叠加冗余杀招，终局让各层保险逐一误中己方，失控感即天意感，结局全灭
+applicability: 适用于终局设计；每层保险需独立触发路径且观众预先知情；单一手段或保险互绑则连环不成立（单书孤证，验证面窄）
+reuse_candidates:
+- 毒剑、鸩酒、珍珠投毒的具体道具组合
+- 决斗让招的赌规设定
+tags:
+- 终局设计
+- 反噬
+- 连环死
+- 阴谋冗余
+source_scenes:
+- novel: 哈姆雷特
+  scene_id: A4S7
+  note: 利剑涂毒外再备鸩酒，三重保险当场上膛
+- novel: 哈姆雷特
+  scene_id: A5S2
+  note: 毒酒杀皇后毒剑杀双方，保险逐一反噬
+phase_affinity:
+- 3
+- 4
+- 5

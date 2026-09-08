@@ -1,0 +1,21 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 电话
+  dimension: camera
+  original_move: 死亡由陌生声音传达，不给脸部特写
+  ai_default_failure: 写眩晕、摇晃或眼泪夺眶
+  transfer_rule: 写死讯时可让物件凝视承载悲痛
+  quote: 陌生男人细细的声音
+- pattern_id: S15-p2
+  beat: 棺材前
+  dimension: camera
+  original_move: 用解剖式特写写尸体陌生化
+  ai_default_failure: 插入温暖父子回忆来安慰读者
+  transfer_rule: 写死亡时可拒绝闪回，只给物理状态
+  quote: 像一张薄薄的牛皮纸面具
+overall_traits:
+- 悲痛被物件承载
+- 死亡严格物理化
+- 土地意象前后预埋

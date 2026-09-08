@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-184cdc58a304dc82ea71bb0e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1773
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 他的表情冷漠下来，仿佛在说：好啊，总算发生了
+sensory_mapping: 视觉表情到听觉语言；面部降温；无声发言；时间等待
+context_fact: 拉菲尔揭露后众人等潘寒回答，他没有立刻辩解，只让表情从先前状态转冷。
+image_mechanism: 叙述把肌肉收紧和温度下降译成一句完整台词，嘴唇不动，等待已久的心理时间却从脸上被“听见”。
+property_alignment: 表情冷漠对应语气平静；没有惊讶对应“总算”表明预期；不急于否认对应“好啊”式接受；众人观察对应面孔代替口头回答
+context_alignment: 下一步潘寒伸手掏枪，面部先行台词显示他已把揭露视为早晚会爆发的决战节点。
+narrative_function: 在正式行动前泄露潘寒准备冲突的心理，让短暂停顿充满杀机。
+transfer_rule: 让表情“说话”时，应从明确可见变化推导唯一度较高的态度，并让后续动作验证这句无声台词。
+failure_boundary: 表情含义多解、人物可能震惊麻木或后续行为与所译台词冲突时，直接替脸发言会过度读心。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 潘寒面对秘密纲领被当众揭露时显露预料之中、甚至等待已久的冷漠态度
+vehicle: 无声面孔获得说话能力，直接说出对事件终于到来的确认
+ground: 表情变化清晰传递态度对应语言陈述含义；冷漠而不惊慌对应话中早有预期和接受

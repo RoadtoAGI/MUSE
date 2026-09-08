@@ -1,0 +1,27 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 放大倍数
+  dimension: info_density
+  original_move: 恐惧由放大倍数递增数列制造，只给数字与镜面
+  ai_default_failure: 每个倍数后加众人倒吸冷气的反应镜头
+  transfer_rule: 测不透的强大可用测量极限失效层层逼出
+  quote: 一千万倍！
+- pattern_id: S10-p2
+  beat: 哲思直切快跑
+  dimension: omission
+  original_move: 推理全程省略，哲学句直切两字行动令，声量两级
+  ai_default_failure: 写丁仪大脑飞速运转的推导链再得出危险
+  transfer_rule: 专家的恐惧可不解释，身份本身让跳跃可信
+  quote: 傻孩子们，快——跑——啊！
+- pattern_id: S10-p3
+  beat: 低级军官通话
+  dimension: camera
+  original_move: 灾难高潮切入两个低级军官的口语通话频道
+  ai_default_failure: 聚焦指挥官决策会议得出正确分析
+  transfer_rule: 把首个正确认知交给底层口语，防灾难疲劳
+  quote: 他妈的死亡击鼓传花
+overall_traits:
+- 微观哲学宏观再微观，视角高低交替控节奏
+- 数据是恐惧载体，让读者自己换算出绝望

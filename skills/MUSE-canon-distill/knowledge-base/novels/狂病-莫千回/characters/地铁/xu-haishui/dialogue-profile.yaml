@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:地铁--xu-haishui
+work_id: novel:狂病-莫千回
+display_name: 徐海水
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '徐海水的声音先到、人不到——多数时候只是广播、电梯听筒和群聊里的一个嗓音。他说话条理清楚、像还在执勤的调度员：先确认"听得到吗，冲左上角摄像头点点头"，再分条给方案（"我有几个选择给你们：一……二……还有一个……总之看你们了"），密码、方位、风险都交代得明明白白。他不打包票、只给概率（"我不敢保证你们百分之百能活下来，但我会尽我最大的能力"），坦白自己的处境时是叹气加自嘲式的认命（"我估计是不可能出去了"）。越到后面，调度腔越压不住情绪——反复道歉、绝望自问，最后留下的群消息是疲惫却仍要鼓劲的"再也帮不到，但一切都会好起来的，加油"。
+
+
+    佐证：scenes/scene_DT-S07.md:L31-L31 / scenes/scene_DT-S10.md:L21-L21 / scenes/scene_DT-S11.md:L23-L23'
+  evidence_locators:
+  - scenes/scene_DT-S07.md:L31-L31
+  - scenes/scene_DT-S10.md:L21-L21
+  - scenes/scene_DT-S11.md:L23-L23
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-feab7d15baca84dbc2583f87
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1361
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 感觉那是盯着我看的一只银色的怪眼，月光带着一股阴森的寒气
+sensory_mapping: 视觉；凝视；银色；温度；上下空间
+context_fact: 长老无法解释更多，只警告魏成别跟申玉菲走；他独自穿过满月下的寺院，恐惧其背后未知力量。
+image_mechanism: 中性月盘被装入有意志的眼眶，铺地月光则收束成从高处落下的视线；银白亮度越清楚，他越感到无处躲避，光还跨感官变成寒气。
+property_alignment: 满月圆盘对应眼球；月面银白对应怪眼冷色；月光照身对应视线盯住；未知势力似在场对应高处非人观察者；恐惧对应光感转为阴寒
+context_alignment: 宗教空间和未知“主”刚被并置，怪眼使天空首次像某种存在的感知器官，提前呼应宇宙势力对人的监视。
+narrative_function: 把抽象不祥外化为天空凝视，推动魏成明知警告仍走向申玉菲。
+transfer_rule: 将圆形天体写成眼睛时，应同时利用形状、光线方向、持续注视和人物被观察感，并让温度服务具体情绪。
+failure_boundary: 人物感到月光亲切、没有监视威胁或月相轮廓并不似眼时，怪眼会成为廉价恐怖标签。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 魏成在得知申玉菲之主真实存在后感到满月正以非人方式监视自己
+vehicle: 悬在黑暗中睁大、银白冰冷并持续凝视的怪物眼睛
+ground: 圆月形状与亮面对应巨大眼球；月光持续照向魏成对应目光锁定目标

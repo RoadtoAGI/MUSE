@@ -1,0 +1,204 @@
+# Phase 4: 结构（序列展开）— 《三体Ⅰ·地球往事》逆向分析
+# 接收 Phase 3 的 arcs[] 框架，逐 Arc 展开为序列
+
+arc_expansions:
+
+  # ════════════ ARC-1: 科学恐吓（第1-11章）════════════
+
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "科学边界"
+        core_conflict: "物理学根基动摇——加速器实验失去规律，科学家集体自杀"
+        escalation_direction: "从旁观者的好奇 → 被直接卷入调查"
+        sequence_climax: "汪淼同意渗透'科学边界'学会"
+        closed: "汪淼从旁观者变为参与者"
+        opened: "科学界怪象背后的原因是什么？"
+
+      - seq_id: ARC1-SEQ2
+        name: "幽灵倒计时"
+        core_conflict: "超自然现象入侵汪淼的日常——科学理性 vs 不可解释的事实"
+        escalation_direction: "从照片上的数字 → 侵入视觉 → 停止研究才消失 → 重启则回归"
+        sequence_climax: "申玉菲预言'整个宇宙将为你闪烁'"
+        closed: "汪淼已被选中为恐吓目标"
+        opened: "宇宙真的会闪烁吗？谁在背后操控？"
+
+      - seq_id: ARC1-SEQ3
+        name: "宇宙闪烁"
+        core_conflict: "最后的理性防线——'可能只是幻觉' vs 多源观测证实"
+        escalation_direction: "从密云天文台的间接证据 → 3K眼镜的直接目击"
+        sequence_climax: "宇宙背景辐射闪烁被多源证实，汪淼精神濒临崩溃"
+        closed: "超自然现象不是幻觉——宇宙级力量在针对人类"
+        opened: "汪淼的精神能否承受？这一切的意义何在？"
+
+      - seq_id: ARC1-SEQ4
+        name: "终极定理"
+        core_conflict: "汪淼的绝望 vs 大史的直觉乐观"
+        escalation_direction: "从精神崩溃 → 大史的'邪乎到家必有鬼' → 恐惧转化为可行动认知"
+        sequence_climax: "大史判断：有且仅有一个后台在系统性破坏科学研究"
+        closed: "Arc 1 的情感危机——汪淼重新获得行动能力"
+        opened: "这个后台是谁？如何找到它？"
+
+    arc_progression_note: >
+      四个序列从建置→恐惧→证实→解决，节奏紧凑。
+      关键转折：ARC1-SEQ3 是恐惧的顶点，ARC1-SEQ4 是情感的解决——
+      但解决不来自科学验证，而来自刑警的直觉，
+      这预示了全书终极高潮的逻辑。
+
+  # ════════════ ARC-2: 三体世界揭示（第12-21章）════════════
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "三体游戏：破解天文真相"
+        core_conflict: "三体世界运行规律的谜团——用科学方法逐步逼近答案"
+        escalation_direction: "从墨子的机械宇宙论失败 → 哥白尼日心说突破 → 三颗太阳真相"
+        sequence_climax: "第16章：汪淼作为哥白尼揭示'飞星'即远距离太阳，三星系统被破解"
+        closed: "三体世界的天文本质——三星系统的三体运动"
+        opened: "三体问题是否可解？三体文明何去何从？"
+
+      - seq_id: ARC2-SEQ2
+        name: "红岸真相（闪回）"
+        core_conflict: "军事项目的秘密 vs 外星文明搜索的真实使命"
+        escalation_direction: "从叶文洁被收容入红岸 → 发现太阳能量镜面放大效应 → 红岸真正使命揭示"
+        sequence_climax: "红岸的真正使命不是微波武器而是搜索外星文明（第14章）"
+        closed: "叶文洁获得了向宇宙发送信号的能力"
+        opened: "她会使用这个能力吗？如果外星文明回应了呢？"
+
+      - seq_id: ARC2-SEQ3
+        name: "从游戏到现实"
+        core_conflict: "虚构 vs 真实——三体世界是游戏还是现实？"
+        escalation_direction: "从网友聚会筛选'同志' → 三体问题被证明不可解 → 三体远征启航"
+        sequence_climax: "第21章：舰队启航远征太阳系，游戏邀请加入ETO"
+        closed: "三体世界真实存在，舰队正飞向地球"
+        opened: "地球上谁在为三体效力？组织规模和目的？"
+
+    arc_progression_note: >
+      三个序列交替推进三条线——游戏线/历史线/现实线。
+      游戏线提供认知推进，历史线铺设因果根源，
+      现实线将虚构转化为威胁。
+      Arc 2 结束时读者拥有了"发生了什么"的全部框架，
+      但仍缺少"为什么"——这留给 Arc 3。
+
+  # ════════════ ARC-3: 叶文洁的真相（第22-30章）════════════
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "身份揭示"
+        core_conflict: "降临派 vs 拯救派的内斗；叶文洁的权威 vs 潘寒的极端"
+        escalation_direction: "从三体叛军大聚会 → 叶文洁以统帅现身 → 处死潘寒 → 揭露降临派截留通讯"
+        sequence_climax: "叶文洁被揭示为地球三体运动最高统帅（第22章）"
+        closed: "全书最大的人物反转——'谁是幕后黑手'的悬疑解答"
+        opened: "她为什么要这样做？一切是怎么开始的？"
+
+      - seq_id: ARC3-SEQ2
+        name: "发射与回复"
+        core_conflict: "'不要回答'的警告 vs 叶文洁对人类的绝望"
+        escalation_direction: "从太阳能量镜面发现 → 秘密发射第一封信号 → 八年后收到回复'不要回答' → 按下发射键"
+        sequence_climax: "叶文洁毫不犹豫按下发射键：'到这里来吧'（第24章）"
+        closed: "一切的因——人类文明的坐标已暴露，入侵不可避免"
+        opened: "叶文洁如何掩盖此事？此后发生了什么？"
+
+      - seq_id: ARC3-SEQ3
+        name: "动机闭环"
+        core_conflict: "叶文洁残存的对人类的希望 vs 现实的每一次打击"
+        escalation_direction: "从杀害雷志成和丈夫杨卫宁 → 无人忏悔 → 结识伊文斯 → ETO成立"
+        sequence_climax: "三名老红卫兵来访但无人忏悔——最后一丝希望破灭（第27章）"
+        closed: "叶文洁为什么不后悔——动机完全闭环"
+        opened: "ETO如何发展？降临派为何失控？"
+
+    arc_progression_note: >
+      Arc 3 全程是闪回叙述（叶文洁在审讯中的供述）。
+      三个序列按因果链而非时间顺序排列：
+      先揭示"她是谁"（SEQ1），再揭示"她做了什么"（SEQ2），
+      最后解释"她为什么"（SEQ3）。
+      这是全书信息编排最精密的部分。
+
+  # ════════════ ARC-4: 人类的困境（第31-36章）════════════
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "古筝行动"
+        core_conflict: "夺取三体信息的需要 vs 降临派'审判日'号的信息'人质'"
+        escalation_direction: "从叶文洁透露'两个质子' → 古筝行动方案 → 纳米飞刃切割执行 → 信息完整夺取"
+        sequence_climax: "纳米飞刃将'审判日'号切成四十余片，28G三体信息完整获取（第32章）"
+        closed: "降临派被物理消灭，三体信息落入人类手中"
+        opened: "这些信息揭示了什么？两个质子到底是什么？"
+
+      - seq_id: ARC4-SEQ2
+        name: "三体视角：监听员与智子工程"
+        core_conflict: "三体文明的技术野心 vs 质子展开的危险；监听员的善意 vs 元首的冷酷"
+        escalation_direction: "从1379号监听员发出警告 → 质子二维展开 → 蚀刻智能电路 → 发射至地球 → '你们是虫子'"
+        sequence_climax: "智子在所有人眼中显示'你们是虫子'——心理战的顶点（第34章）"
+        closed: "智子的全部真相：锁死基础科学 + 全面监控人类"
+        opened: "面对这样的绝望，人类还有出路吗？"
+
+      - seq_id: ARC4-SEQ3
+        name: "虫子"
+        core_conflict: "科学被锁死的绝望 vs 生命的本能韧性"
+        escalation_direction: "从汪淼/丁仪酗酒自暴自弃 → 大史带看蝗灾 → '虫子从未被真正战胜过' → 决定继续工作"
+        sequence_climax: "两人将酒洒在大地上敬虫子：'我们快回去吧，有好多工作要做呢'（第35章）"
+        closed: "全书核心戏剧问题的回答——是的，希望存在"
+        opened: "尾声：叶文洁的落日——悲剧闭环，为续集张弓"
+
+    arc_progression_note: >
+      Arc 4 从行动（古筝）→ 揭示（智子）→ 精神（虫子），
+      冲击力严格递增。
+      ARC4-SEQ2 是全书信息密度最高的段落，
+      ARC4-SEQ3 是全书情感密度最高的段落——
+      前者制造绝望的深度，后者从中提取希望的高度。
+
+# ── 序列级因果链 ──
+
+causal_chain: >
+  ARC1-SEQ1（汪淼被拉入调查）
+  →（因为倒计时出现）ARC1-SEQ2（幽灵倒计时恐吓）
+  →（因为申玉菲预言成真）ARC1-SEQ3（宇宙闪烁证实——恐惧升级到宇宙尺度）
+  →（因为汪淼濒临崩溃）ARC1-SEQ4（大史终极定理重新锚定）
+  →（因为确认有敌人）ARC2-SEQ1（三体游戏破解天文真相）
+  →（因为红岸真正使命被揭示）ARC2-SEQ2（红岸闪回铺设因果链）
+  →（因为三体被宣布为真实）ARC2-SEQ3（三体远征——虚构变现实）
+  →（因为ETO暴露）ARC3-SEQ1（叶文洁现身为统帅——幕后黑手揭晓）
+  →（因为需要解释为什么）ARC3-SEQ2（发射与回复——一切的因）
+  →（因为需要解释为什么不后悔）ARC3-SEQ3（无人忏悔——动机闭环）
+  →（因为需要夺取三体信息）ARC4-SEQ1（古筝行动——信息夺取）
+  →（因为信息揭示了真相）ARC4-SEQ2（智子工程——科学被锁死的绝望）
+  →（因为绝望需要回应）ARC4-SEQ3（虫子——从绝望中提取希望）
+
+# ── 全篇递进关系 ──
+
+arc_progression:
+  impact_escalation: >
+    Arc 1: 个人恐惧（汪淼的世界被动摇）
+    Arc 2: 宇宙级发现（外星文明真实存在且正在逼近）
+    Arc 3: 人类道德灾难（全书最具冲击力——一个人的创伤如何改写文明命运）
+    Arc 4: 存在性审判（科学被锁死 + "你们是虫子"）→ 希望的重生
+    冲击力严格递增：个人→宇宙→道德→存在性。
+  causal_chain: >
+    Arc 1（科学恐吓暴露了敌人存在）→
+    Arc 2（三体游戏+红岸闪回揭示敌人身份）→
+    Arc 3（叶文洁往事揭示一切的根源——人类创伤外溢为文明灾难）→
+    Arc 4（智子封锁揭示敌人的全部手段→绝望→"虫子"希望）
+
+# ── 多线叙事 ──
+
+narrative_threads:
+  - name: "调查线（汪淼+大史）"
+    description: "现在时悬疑调查，从怪象追踪到真相"
+    primary_arcs: [ARC-1, ARC-2, ARC-4]
+
+  - name: "历史线（叶文洁）"
+    description: "闪回揭示根源——从文革创伤到按下发射键"
+    primary_arcs: [ARC-2, ARC-3]
+
+  - name: "三体游戏线"
+    description: "VR游戏内的寓言叙事，逐步揭示三体世界天文和文明真相"
+    primary_arcs: [ARC-1, ARC-2]
+    presence: "间歇出现于第4/12/16/18/20/21章，Arc 2后消失"
+
+  - name: "三体文明线"
+    description: "从敌方视角揭示监听员的善意和智子工程的冷酷"
+    primary_arcs: [ARC-4]
+    presence: "仅在第33-34章集中出现，形成叙事'维度跃迁'"

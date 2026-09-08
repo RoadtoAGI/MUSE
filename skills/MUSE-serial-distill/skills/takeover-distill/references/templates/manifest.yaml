@@ -1,0 +1,8 @@
+# 发布册由 split_chapters.py 按原文实际章序生成，此处仅示字段形状。
+schema_version: 1
+entries: []
+#   - chapter_id: C0001
+#     file: V01C0001.md          # published/ 内实际文件；卷号沿已确认卷界
+#     published_seq: 1           # 实际发布全序
+#     ts: 原文登记时间
+revisions: []                    # 有实际勘误时再记录 chapter_id / reason / ts

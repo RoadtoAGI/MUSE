@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-44d8d1afa75f1b5c5941cf49
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1780
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 这是主首先要在地球扑灭的技术
+sensory_mapping: 火苗；热量；蔓延；扑打与窒息；熄灭
+context_fact: 叶文洁处决潘寒后向组织介绍汪淼，明确三体主把他的纳米研究视为首要威胁。
+image_mechanism: 实验室技术被压成地表一簇危险火苗，发展曲线像火势外扩；三体文明居高临下准备在其形成大火前盖住氧气。
+property_alignment: 新兴纳米技术对应初燃火苗；技术突破潜力对应火势蔓延；威胁三体舰队对应可能烧成大火；智子干扰与打击对应扑灭；研究终止对应火焰熄灭
+context_alignment: 三体组织以毁灭人类技术为任务，火灾词把科研潜力从人类进步重写为入侵者眼中的危险扩散。
+narrative_function: 直接揭示汪淼被针对的原因，并把个人研究接入星际战争主线。
+transfer_rule: 用扑灭写技术压制时，应说明技术如何增长扩散、威胁对象、压制手段和是否能阻断再燃。
+failure_boundary: 技术成熟稳定而非扩散、打击只延缓进度或知识已有多处备份时，扑灭会夸大可消除性。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 纳米材料被三体文明列为入侵前必须优先阻止和消除的人类关键技术
+vehicle: 刚燃起且可能蔓延成大火的火苗，需要立即压灭
+ground: 技术继续发展会扩大威胁对应小火可能蔓延；主通过干预使研究停止对应扑火切断燃烧

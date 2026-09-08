@@ -1,0 +1,28 @@
+scene_id: '14'
+source_notes: scene_14_beats.md
+patterns:
+- pattern_id: 14-p1
+  beat: 撕毁遗嘱
+  dimension: omission
+  original_move: 镜头锁撕纸动作，主角零反应，旁观者一句骇然代内心戏
+  ai_default_failure: 写主角难以置信看碎片飘落、心中一阵冰凉的心理渲染
+  transfer_rule: 权力翻转时刻让物件命运说话，反应权交给旁观者
+  quote: 「她将纸撕成两半，再撕成四片」
+- pattern_id: 14-p2
+  beat: 屠杀三画面
+  dimension: camera
+  original_move: 八人覆没只写三个具名死亡，各锁不同身体部位绝不重复角度
+  ai_default_failure: 写全景式混战段落，刀光剑影、血花飞溅、惨叫连连
+  transfer_rule: 群体暴力选三个精确递进画面，弃全景氛围渲染
+  quote: 「第二剑将他从肩膀至胸骨活活劈开」
+- pattern_id: 14-p3
+  beat: 小指头的匕首
+  dimension: info_density
+  original_move: 用主角自己腰间的匕首完成背叛，一句台词重写前文全部认知
+  ai_default_failure: 补主角心理「他终于明白了」「绝望如潮水般涌来」
+  transfer_rule: 背叛揭晓即硬切结束，回溯分析的工作全交给读者
+  quote: 「我不是警告你别信任我的嘛」
+overall_traits:
+- 物理动作替代抽象论述：纸、剑、匕首讲完权力本质
+- 结尾硬切不给情绪缓冲，不收尾就是最好的收尾
+- 前慢后快不对称节奏，构成翻转的节奏基础

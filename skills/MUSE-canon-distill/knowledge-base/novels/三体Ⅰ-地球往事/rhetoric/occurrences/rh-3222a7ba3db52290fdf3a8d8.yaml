@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3222a7ba3db52290fdf3a8d8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1801
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 试图从理论上找到一些蛛丝马迹
+sensory_mapping: 视觉微痕；细丝；足迹；追踪；聚焦
+context_fact: 木星直达与经太阳转发的信号恰差十六分四十二秒，她重新翻查旧太阳模型。
+image_mechanism: 复杂方程化为大片地面，真正机制没有现身，只留下极细线条和浅印；叶文洁的目光贴近模型，顺痕迹追到辐射层界面。
+property_alignment: 隐藏太阳机制对应未现身对象；模型微小结果对应蛛丝马迹；十六分钟时差对应可追线索；理论推导对应循迹追踪；能量镜面对应最终找到的目标
+context_alignment: 突破来自两个时间数据而非直接观测，侦查框架准确表现从间接证据反推恒星内部机制。
+narrative_function: 把理论搜索写成悬疑追迹，连接偶然论文与能量镜面发现。
+transfer_rule: 用蛛丝马迹写证据时，应让线索细小但与隐藏机制有可追因果关系，并展示追踪路径。
+failure_boundary: 证据强烈直接、线索与结论无稳定联系或研究者只是猜测时，循迹会夸大推理可靠性。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁在太阳数学模型中寻找能解释辐射延迟与放大的微小证据
+vehicle: 侦查者从几乎看不见的蜘蛛丝和马蹄痕追踪隐藏对象的去向
+ground: 理论中的细微异常对应纤细蛛丝或浅蹄印；由局部线索推回机制对应沿痕迹追踪目标

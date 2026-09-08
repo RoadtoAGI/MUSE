@@ -1,0 +1,28 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 感官入侵
+  dimension: camera
+  original_move: 先写臭味黑暗再延迟视觉
+  ai_default_failure: 会从壁画视觉美开场
+  transfer_rule: 发现杰作前先让感官失序
+  quote: 一股臭味扑鼻而来
+- pattern_id: S15-p2
+  beat: 镜子技法
+  dimension: omission
+  original_move: 不写画面，只写外行被触动
+  ai_default_failure: 会详写构图色彩和人物姿态
+  transfer_rule: 伟大之物通过观者反应呈现
+  quote: 我的上帝，这是个天才。
+- pattern_id: S15-p3
+  beat: 死亡与创造
+  dimension: info_density
+  original_move: 杰作、尸体、失明三层叠加
+  ai_default_failure: 会在失明揭示后加感叹
+  transfer_rule: 高潮信息炸弹后停止评论
+  quote: 他瞎了快一年了。
+overall_traits:
+- 越伟大越不直接描写
+- 延迟揭示层层加深意义
+- 外行震惊胜过专家赞美

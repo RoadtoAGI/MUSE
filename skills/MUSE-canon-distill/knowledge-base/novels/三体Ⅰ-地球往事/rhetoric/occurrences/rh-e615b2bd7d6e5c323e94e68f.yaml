@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e615b2bd7d6e5c323e94e68f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2130
+chapter: 第29章 第二红岸基地
+figure_type: simile
+quote: 当直升机轰鸣着飞上英伦雾蒙蒙的天空时，仿佛时光倒流
+sensory_mapping: 旋翼轰鸣；升空失重；雾天视野；时间逆流；旧景重现
+context_fact: 她以访问学者名义抵达英国，却被直接带回停机坪登机，经历与当年被直升机送往雷达峰相似。
+image_mechanism: 旋翼声像倒转时间的机械齿轮，英伦雾色覆盖现实地标，身体先于理智认出旧航程；同一升空动作把她拉回命运第一次转弯处。
+property_alignment: 直升机轰鸣重现对应旧时声轨倒放；再次秘密接送对应过去情境复现；雾蒙天空对应记忆边界模糊；升空航程对应时间回行；未知目的地对应旧命运节点重新开启
+context_alignment: 第二红岸基地正是第一红岸的制度和技术镜像，时光倒流准确预告她将看见过去在海上重建。
+narrative_function: 以感官触发衔接两次人生转折，并为巨轮与雷达峰的连续类比开场。
+transfer_rule: 用时光倒流写场景重现时，应由具体感官线索触发，并让人物处境、行动路径和命运功能同时回到旧节点。
+failure_boundary: 只有一般怀旧、缺少可重复的声音和行动，或新场景与旧事件后果相反且人物未感到重演时，倒流会显得空泛。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 叶文洁再次被陌生年轻人从机场带上直升机，身体感受与多年前被押往红岸时高度重合
+vehicle: 时间逆向运行，把年老的她送回第一次乘直升机、命运转折尚未发生的过去
+ground: 相同交通工具和轰鸣重现对应过去场景回返；再次前往秘密基地对应命运轨迹倒回旧节点

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3cb4121dafee5e140904dbaa
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1620
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 黎明中的世界已面目全非
+sensory_mapping: 视觉识别；面孔轮廓；五官变形；陌生感
+context_fact: 大金字塔已毁，原址换成联合国大厦，地面还布满现代镜面干仓。
+image_mechanism: 整个世界被缩成一张可辨认的脸，金字塔等地标承担五官；灾变和时代跳跃擦掉旧特征，再给它换上一副现代面貌。
+property_alignment: 世界景观对应面孔；地标对应五官；金字塔毁灭对应熟悉特征消失；联合国大厦出现对应陌生特征替换；汪淼辨认困难对应认不出脸
+context_alignment: 玩家第五次进入，前四次建立的视觉记忆提供“原面孔”，变化因此有明确对照而非泛称新奇。
+narrative_function: 一句完成时代跳跃和灾后换景，准备引出现代三体文明。
+transfer_rule: 用面目全非写场景剧变时，应先有稳定可识别地标，再展示核心轮廓被毁或替换。
+failure_boundary: 只改装少量细节、主体结构仍容易辨认时，面目全非会夸大变化程度。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 三日连珠后，游戏世界的标志建筑、地表设施和文明时代都彻底改变
+vehicle: 一张熟悉面孔遭受剧变后五官轮廓全部改换，再也难以辨认
+ground: 熟悉场景要素消失对应面部特征被破坏；新建筑取代旧地标对应五官位置换成陌生形态

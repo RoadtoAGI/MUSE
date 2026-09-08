@@ -1,0 +1,33 @@
+mode: reference
+display_name: 王子
+role_slug: wang-zi
+source_novel: 海的女儿
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S02.md
+  - scenes/scene_S04.md
+  - scenes/scene_S05.md
+built_at: 2026-05-23T00:00:00Z
+skill_version: 1
+locator_count: 7
+has_canon_ending: false
+coverage_note: |
+  王子在 6 个切分场景中出场 4 场（S02 / S04 / S05 / S06），SKILL.md 选取 3 场作为佐证：
+  - scene_S02（船宴 + 苏醒微笑）—— 身份初次定型 + 边界 1（不主动追问救命真相）的核心证据
+  - scene_S04（亲爱孤儿 + 类比型爱情陈述）—— 核心欲望 + 性格真相裂隙 + 声音框架 + 边界 2 的集中段
+  - scene_S05（邻国相亲 + "就是你" + 婚礼夜反讽）—— 弧光转折点（虽然是单一转折）+ 性格真相终极显形 + 边界 3-4
+
+  未纳入 SKILL.md 佐证：
+  - scene_S06（婚礼夜帐篷 + 梦中喃喃念新娘的名字）—— 他在此场仅作为被动承受者（睡眠中）。他对小人鱼跃海的反应在原文中是"悲悼地望着那翻腾的泡沫"——但这是结尾的简短描写，不进入角色核心定义
+
+  软建议覆盖度自检：
+  - 声音框架跨 ≥2 场景：✓（S02 / S04 / S05 共 3 场）
+  - 弧光覆盖：本角色无内在 character arc——只有"看到邻国公主"这一个外在转折，已在 scene_S05 佐证
+  - 性格真相有压力情境佐证：✓（scene_S05 的"就是你"是认知锁定的最极端检验）
+  - 边界为"极端检验场景"而非日常观察：✓（4 条边界全部锚定到爱情认领 / 婚姻拒绝等结构性时刻）
+
+  关于"无 character arc"：本角色塑造一致，没有内在转变，弧光段标注"无内在 character arc"是事实陈述而非缺失。本作的悲剧机制依赖于他不变——他越善良、越一致、越无辜，悲剧的引擎就越纯粹是"世界规则 + 认知差"而非任何人的恶意。下游若续写为同人 / 重生情节需要他识破真相，需明确这是与原作设定的偏离。
+
+  canonical 状态：novel-meta.yaml 不存在，跳过 Step 2f-2g。
+  has_canon_ending：他在原作结尾仍然活着、婚姻继续——非终局状态。

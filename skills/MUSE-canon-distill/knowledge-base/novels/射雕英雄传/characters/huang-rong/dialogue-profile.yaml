@@ -1,0 +1,35 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:huang-rong
+work_id: novel:射雕英雄传
+display_name: 黄蓉
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的声音是全书最多变的。
+
+
+    关键特征：
+
+    - **称呼系统极精细**——"爹爹""靖哥哥""七公""师父""欧阳伯伯""这老贼"——每种身份对应特定称谓，且随情绪切换
+
+    - **俚语/文雅/激将三种语域自由切换**——对郭靖用俗话"矮冬瓜"骂韩宝驹；对状元用诗经对对联；对洪七公用"玉笛谁家听落梅"这样的菜名诗意引诱
+
+    - **多层话术/潜台词**——每句话常有表面意思和底层目的：对洪七公点菜是为了骗降龙十八掌；对欧阳锋说话是为了拖延；对父亲撒娇是为了让他承担
+
+    - **情急时反而极短**——"你待怎地？"（对柯镇恶扑向自己时）+"你要杀我，就下手罢"（对郭靖）——最危急的时刻她的语言最简
+
+    - **哭与笑都是武器**——她能真的哭（骗郭靖送马时），也能真的笑（激欧阳锋时）——情绪本身是她的工具
+
+
+    佐证：scenes/scene_03.md:L5-L5 （哭骗汗血宝马——"呜呜咽咽的哭了起来"+"喜笑颜开"切换）；scenes/scene_11.md:L13-L16 （极短的绝望宣告："你要杀我就下手罢"）；scenes/scene_12.md
+    （铁枪庙全程控场——哭、笑、激将、推理轮番使用）'
+  evidence_locators:
+  - scenes/scene_03.md:L5-L5
+  - scenes/scene_11.md:L13-L16
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

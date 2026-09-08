@@ -1,0 +1,36 @@
+schema_version: dialogue-character/v1
+character_id: novel:海的女儿:wang-zi
+work_id: novel:海的女儿
+display_name: 王子
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的对白有三种稳定模式：
+
+
+    **类比型**：理解新事物总是通过相似性。"你很像我某次看到过的……" / "你几乎代替了她留在我的灵魂中的印象" / "你很像神庙里的那个美丽的姑娘，而她却不像"——他不通过差异认识人，通过"像谁"认识人。这是他认知缺陷的语言形式。
+
+
+    **承诺型**：用绝对化语言表达即时情感。"让我们永远不要分离吧！" / "你是我最亲爱的人！" / "我不会爱她的"——承诺的语调强烈、内容绝对，但这些承诺没有跨过下一个相似性触发就被改写，他自己不察觉这种改写。
+
+
+    **赞美型**：他对小人鱼的舞蹈、心、眼睛都给出明确赞美——"你在一切人中有一颗最善良的心" / "你对我是最亲爱的"。赞美都是真的，但都不指向"新娘"这个位置。
+
+
+    他没有任何质疑性、探究性、怀疑性的对白。他不问"你是谁"超过一次、不问"你怎么来的"、不问"你为什么不能说话"——一旦得到一个解释（哑巴孤女），他就停止追问。他用昵称固定关系："我的哑巴孤儿"、"亲爱的"——这种昵称是温柔的，但同时是把对方钉在某个位置上的。
+
+
+    佐证：scenes/scene_S04.md:L13-L13（类比型 + 承诺型集中段："你很像我某次看到过的一个年轻女子……让我们永远不要分离吧！"）；scenes/scene_S05.md:L4-L4（同时使用类比型 + 承诺型 +
+    昵称型："你很像神庙里的那个美丽的姑娘……我亲爱的、有一双能讲话的眼睛的哑巴孤女"）；scenes/scene_S05.md:L6-L6（"你不害怕海吗，我的哑巴孤儿？"——昵称固定关系）；scenes/scene_S05.md:L10-L10（赞美型与反讽并存的极端范例："你会为我的幸福而高兴吧"）'
+  evidence_locators:
+  - scenes/scene_S04.md:L13-L13
+  - scenes/scene_S05.md:L4-L4
+  - scenes/scene_S05.md:L6-L6
+  - scenes/scene_S05.md:L10-L10
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

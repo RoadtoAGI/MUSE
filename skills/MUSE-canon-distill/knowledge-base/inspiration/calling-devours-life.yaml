@@ -1,0 +1,22 @@
+card_id: calling-devours-life
+pattern_name: 召唤吞噬生活
+dramatic_function: 把人生转折写成不可抗驱力，而非理性选择或励志觉醒。
+applicability: 适合艺术、信仰、使命型主角；若主角仍频繁权衡利弊会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 伦敦证券经纪人出走
+- 南太平洋画家原型
+- 具体绘画职业
+tags:
+- 使命召唤
+- 创作驱力
+- 反浪漫化
+source_scenes:
+- novel: 月亮与六便士
+  scene_id: S03
+  note: 一句「我要画画」瓦解全部道德追问。
+- novel: 月亮与六便士
+  scene_id: S03b
+  note: 癌细胞、杜鹃、涂油摔跤手构成不可抗驱力系统。
+phase_affinity:
+- 2
+- 3

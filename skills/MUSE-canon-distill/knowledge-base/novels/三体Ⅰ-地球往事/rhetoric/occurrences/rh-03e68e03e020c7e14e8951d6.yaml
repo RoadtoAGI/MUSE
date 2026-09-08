@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-03e68e03e020c7e14e8951d6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2509
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 一维丝的暴雨整整下了二十多个三体时才停止
+sensory_mapping: 密集亮丝；从天落下；暴雨幕；持续覆盖；空气漂浮
+context_fact: 首次展开多减一维，质子成极长一维线，部分受太阳暴减速进入大气并断裂。
+image_mechanism: 没有触觉的核力细丝借反光成为银色雨线，行人拖动闪光如在雨幕中穿行；降雨停止后，细段仍像尘埃永久悬浮。
+property_alignment: 一维丝对应雨线；密度增长对应暴雨增强；大气控制下飘落对应风雨；人体缠丝对应淋湿覆盖；持续时长对应降雨过程；断成不可见小段对应雨化尘雾
+context_alignment: 质子内部结构从微观突然成为天气，暴雨把维度失败扩展为全行星日常骚扰。
+narrative_function: 组织大量细丝的运动与持续时间，并让失败实验具有可感环境后果。
+transfer_rule: 用暴雨写大量细线飘落时，应匹配密度、方向、持续、覆盖范围和风对轨迹的控制。
+failure_boundary: 细丝数量稀少、只在轨道静止或上升扩散而非落入大气时，暴雨的下落幕墙不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 无数质子一维细丝片段在大气气流中密集飘落闪光，持续覆盖三体世界近地空间
+vehicle: 强降雨由大量细长雨线密集落下，长时间充满空气并覆盖行人与地面
+ground: 细丝数量密集对应雨线；由空中下落对应降雨；持续二十多时对应暴雨过程；缠满人身对应雨水浸遍

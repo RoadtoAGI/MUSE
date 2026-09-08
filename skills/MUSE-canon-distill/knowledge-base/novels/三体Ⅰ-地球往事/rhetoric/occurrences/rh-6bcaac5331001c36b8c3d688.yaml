@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-6bcaac5331001c36b8c3d688
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L429
+chapter: 第4章 三体、周文王、长夜
+figure_type: simile
+quote: 强光仍如利箭般从所有缝隙和孔洞中射进来
+sensory_mapping: 视觉；触觉；方向；疼痛
+context_fact: 三人用兽皮蒙头仍无法隔绝巨型太阳。
+image_mechanism: 每个小孔变成箭孔，光束由亮线获得尖端、方向和命中身体的触痛；遮蔽物反而勾勒出攻击路径。
+property_alignment: 细束光沿直线穿孔对应箭直线飞射；强光造成灼痛对应箭头刺痛；多束从孔隙进入对应箭矢寻找破口
+context_alignment: 动词“射”和孔隙方向性自然接合，准确写辐射攻击性。
+narrative_function: 把环境光变成主动袭击。
+transfer_rule: 把光比作投射物时，应同时核对束形、传播方向、穿透孔隙和接触后果。
+failure_boundary: 漫射柔光、无明确方向或只照亮不致痛时，利箭会虚构攻击轨迹。
+quality_assessment: effective
+confidence: 0.94
+review_status: reviewed
+tenor: 穿过兽皮孔隙并刺痛身体的强烈阳光
+vehicle: 从破口直射并刺中的利箭
+ground: 细束光沿直线穿孔对应箭直线飞射；强光造成灼痛对应箭头刺痛；多束从孔隙进入对应箭矢寻找破口

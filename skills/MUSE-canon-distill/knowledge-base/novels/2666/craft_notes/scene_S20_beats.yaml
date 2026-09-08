@@ -1,0 +1,28 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 评论家的谨慎
+  dimension: overall
+  original_move: 用回避姿态塑造评论家弱势
+  ai_default_failure: 给评论家明确文学观点
+  transfer_rule: 写权力饭局时让不表态成为动作
+  quote: 谨慎得像拆弹专家
+- pattern_id: S20-p2
+  beat: 作家妻子的面部表情
+  dimension: camera
+  original_move: 让沉默配角用表情发言
+  ai_default_failure: 给每个角色分配对白
+  transfer_rule: 写社交压迫时让沉默承载控诉
+  quote: 变成了一篇演说或者备忘录
+- pattern_id: S20-p3
+  beat: 花园对话
+  dimension: omission
+  original_move: 把真正谈判伪装成偶然发问
+  ai_default_failure: 让双方交换明确观点
+  transfer_rule: 写权力谈判时用空间和伪装推进
+  quote: 极力装成偶然的样子
+overall_traits:
+- 饭局作为权力容器
+- 配角沉默具有爆发力
+- 空间转换映射权力模式

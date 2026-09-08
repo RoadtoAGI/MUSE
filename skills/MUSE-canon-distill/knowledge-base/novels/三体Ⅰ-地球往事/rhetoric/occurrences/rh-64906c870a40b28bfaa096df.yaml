@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-64906c870a40b28bfaa096df
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2701
+chapter: 第36章 尾声·遗址
+figure_type: simile
+quote: 红岸的一切仿佛从未发生过
+sensory_mapping: 空旷荒草；遗迹缺席；时间擦除；无声现场；记忆与现实脱节
+context_fact: 众人想象会见到废墟，实际峰顶只剩荒野，但红岸通信已导致三体舰队驶向地球。
+image_mechanism: 拆除像橡皮擦沿峰顶抹过，建筑、道路乃至事件的时间痕迹一起淡出；眼前空白迫使人怀疑记忆，宇宙后果却证明被擦掉的事仍真实存在。
+property_alignment: 设施全拆对应物证归零；荒草覆盖对应自然时间线接回；地基道路埋没对应历史层被封；无废墟对应事件缺少残片；世界性后果仍在对应未发生只是视觉错觉
+context_alignment: 基地对地表痕迹近乎为零、对人类命运影响却无限大，反事实比照把这种尺度反差推到结尾。
+narrative_function: 表现历史现场被抹平的虚无感，并反衬红岸选择不可撤销的宇宙后果。
+transfer_rule: 用从未发生写遗址消失时，应让物证、空间布局和日常痕迹被系统清除，同时保留记忆或后果制造反差。
+failure_boundary: 现场仍有大量废墟、标牌和持续使用痕迹，或事件确实只是传闻无后果时，从未发生缺少悖论张力。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 红岸基地被彻底拆除，地基道路长入荒草，现场没有可见遗迹证明曾发生的重大历史
+vehicle: 一段事件根本没有进入现实和时间，地点从始至终只是无人荒野
+ground: 物证消失对应事件未发生；荒草覆盖对应时间线恢复原状；来访者找不到废墟对应历史被抹除

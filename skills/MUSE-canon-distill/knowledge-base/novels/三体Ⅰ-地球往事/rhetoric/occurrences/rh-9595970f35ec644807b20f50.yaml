@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9595970f35ec644807b20f50
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1784
+chapter: 第22章 地球叛军
+figure_type: simile
+quote: 飞舞的球体将光芒不规则地投射到叛军统帅的身上，像是火焰
+sensory_mapping: 视觉；橙红亮度；跳动；热感；贴身覆盖
+context_fact: 潘寒尸体刚被拖走，叶文洁走到三体模型前凝视，夕阳穿过破窗照上旋转银球。
+image_mechanism: 冷银球把夕阳切成一簇簇游动火舌，火光越过模型舔到统帅身体；她没有真正燃烧，却被刚发生的清洗和三体信仰包围在象征性火中。
+property_alignment: 移动反光对应火舌跳跃；不规则投射对应火焰形状多变；夕阳暖色对应火光颜色；光覆身体对应火焰包围；模型球体运动对应火源持续翻动
+context_alignment: 会场经历处决，破窗夕阳和叛军统帅使火焰兼具净化、毁灭与献祭意味，画面收束本章权力仪式。
+narrative_function: 为叶文洁建立庄严而危险的统帅肖像，并把内部清洗与三体天体模型叠合。
+transfer_rule: 把移动反光写成火焰时，应匹配暖色、边缘伸缩、快速明灭和附着表面的动态，并让热感与场景意义相关。
+failure_boundary: 光斑稳定、冷色均匀或没有明灭跳动时，火焰会只是情绪符号而缺少视觉依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体模型银球反射的夕阳在叶文洁身上快速游移、明灭和变形
+vehicle: 火焰贴着身体跳动，亮斑不规则伸缩、闪烁并舔舐表面
+ground: 反光随球体飞舞而跳动对应火舌摇曳；光斑明暗变化对应火焰忽亮忽灭

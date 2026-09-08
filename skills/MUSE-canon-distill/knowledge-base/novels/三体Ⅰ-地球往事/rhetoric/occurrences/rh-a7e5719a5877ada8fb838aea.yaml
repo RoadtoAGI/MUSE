@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-a7e5719a5877ada8fb838aea
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1251
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: simile
+quote: 尖顶细长，仿佛是大地长出的许多根刺
+sensory_mapping: 视觉；触觉尖锐；垂直生长；地表分布
+context_fact: 本轮文明的干仓统一变为哥特式，远处许多尖顶从辽阔平原上突起。
+image_mechanism: 地表被赋予一层可生长、可刺痛的皮肤，建筑主体退入地面，只留下细长尖顶像生物防御物直插天空。
+property_alignment: 哥特尖顶对应刺尖；建筑从平地拔起对应刺由皮肤生长；多个干仓散布对应成片尖刺；直插天空对应刺的穿刺方向
+context_alignment: 诡异黎明和巨大金字塔令欧洲建筑失去宗教亲切感，刺把同一轮廓转成三体环境的敌意生长。
+narrative_function: 以触觉危险陌生化中世纪景观，建立这一文明阴森、攻击性的视觉基调。
+transfer_rule: 把尖顶群写成生物尖刺时，应对齐锐度、发生表面、数量分布和向外生长方向。
+failure_boundary: 圆顶、低矮建筑或孤立一塔缺少成片针状生长，用地刺会误报轮廓和密度。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 散布平原、具有细长哥特式尖顶的众多干仓
+vehicle: 从大地皮肤向上长出的密集尖刺
+ground: 建筑尖顶细长锐利对应刺的针状轮廓；干仓直接立在平原各处对应刺从皮肤表面生出

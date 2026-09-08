@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5446653621d460a804b34589
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2014
+chapter: 第27章 无人忏悔
+figure_type: simile
+quote: 在想象中隐去这间小屋周围的整个宇宙，就像油灯将小屋中的大部分隐没于黑暗中一样
+sensory_mapping: 油灯暖光；明暗边界；视觉隐没；近处小范围；黑暗包围
+context_fact: 大凤认为星星很小且不会掉下，叶文洁尝试置换进她朴素、有限而舒适的宇宙。
+image_mechanism: 知识宇宙不是被逻辑否定，而像灯芯调暗后从可见区退去；黑暗成为删除背景的幕布，只留下炕、木桌和近天穹。
+property_alignment: 现代无限宇宙对应房间远处；主动忘却知识对应熄去照明；大凤经验世界对应灯下小范围；被删除天体结构对应黑暗中隐物；想象边界对应光圈边缘
+context_alignment: 现场确由油灯组织明暗，叶文洁借眼前感官操作完成认知缩放，方法和环境贴合。
+narrative_function: 展示她如何进入大凤的世界观，为玩具盒宇宙的舒适感建立生成步骤。
+transfer_rule: 用局部照明写想象删减时，应明确保留区、隐去区、明暗边界和主体为何愿意缩小视野。
+failure_boundary: 人物需要扩大认知、背景仍强行进入意识或现场没有可控明暗边界时，油灯隐没会失去心理机制。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁主动从想象中删去现代天体物理宇宙，只保留大凤经验范围内的小屋与有限天空
+vehicle: 微弱油灯只能照亮近处，把房间其余部分藏进不可见黑暗
+ground: 想象选择性保留小范围对应灯光只照局部；现代宇宙知识被排除对应远处物体隐入黑暗

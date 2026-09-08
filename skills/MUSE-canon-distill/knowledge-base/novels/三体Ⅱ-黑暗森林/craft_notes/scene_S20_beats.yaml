@@ -1,0 +1,27 @@
+scene_id: S20
+source_notes: scene_S20_beats.md
+patterns:
+- pattern_id: S20-p1
+  beat: 信息墙枯树干
+  dimension: camera
+  original_move: 借主任外人视角冷扫罗辑，闪烁画面对枯树干
+  ai_default_failure: 切入罗辑视角直写他的绝望内心
+  transfer_rule: 英雄低谷可拒入内心，外部躯壳自带信息矛盾
+  quote: 像一根被遗弃在那里的枯树干
+- pattern_id: S20-p2
+  beat: 山楂树
+  dimension: omission
+  original_move: 歌响即被赶下车，只写追着想再听几秒的动作
+  ai_default_failure: 写眼眶湿润或一阵钻心的痛
+  transfer_rule: 情感物在场几秒即被夺走，缺席比在场有力
+  quote: 想再听听那首歌
+- pattern_id: S20-p3
+  beat: 挖墓
+  dimension: verb
+  original_move: 一个挖字对象递进至山体，劳动直接转化为哲思
+  ai_default_failure: 挖墓前加内心独白解释动机
+  transfer_rule: 行动先于解释，身体阻力可承载时间尺度认知
+  quote: 罗辑感觉自己挖到了山体本身
+overall_traits:
+- 三种感官通道替代心理描写，痛苦不被命名
+- 负空间叙事：用歌的缺席写两百年爱情回响

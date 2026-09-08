@@ -1,0 +1,24 @@
+card_id: scavenge-arc-ladder
+pattern_name: 搜索阶梯
+dramatic_function: 把求生搜索写成从落空到救赎的递增弧线。
+applicability: 适合硬生存、侦查、资源任务；若收获平均分布会削弱（单书孤证，验证面窄）
+reuse_candidates:
+- 苹果园
+- 隐藏水槽
+- 葡萄调味粉
+tags:
+- 搜索
+- 物资
+- 递增
+- 行为思维
+source_scenes:
+- novel: 长路
+  scene_id: scene_14
+  note: 父亲从种子、工具、苹果一路发现到清水。
+- novel: 长路
+  scene_id: scene_13
+  note: 小镇系统性落空反衬后续发现的重量。
+phase_affinity:
+- 1
+- 4
+- 5

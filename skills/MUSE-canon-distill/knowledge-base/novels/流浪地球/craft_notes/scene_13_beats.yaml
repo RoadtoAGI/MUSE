@@ -1,0 +1,27 @@
+scene_id: '13'
+source_notes: scene_13_beats.md
+patterns:
+- pattern_id: 13-p1
+  beat: 叛军演说
+  dimension: info_density
+  original_move: 用重复递进感叹把群众推向行动
+  ai_default_failure: 插入主角和加代子的即时反应
+  transfer_rule: 写群体动员时，让修辞密度加速
+  quote: 地球被出卖了
+- pattern_id: 13-p2
+  beat: 沉默行动
+  dimension: verb
+  original_move: 五个低能量动作完成不可逆选择
+  ai_default_failure: 写告别、犹豫或回头望
+  transfer_rule: 重大决裂可用连续身体动作替代对白
+  quote: 她没有回头
+- pattern_id: 13-p3
+  beat: 勋章替情感
+  dimension: camera
+  original_move: 不拍脸，只拍攥紧勋章的手
+  ai_default_failure: 写内心充满复杂痛苦
+  transfer_rule: 写忠诚代价时，让物件刺痛身体
+  quote: 把我的手扎出了血
+overall_traits:
+- 行动强于对白和内心独白
+- 物件承载情感与选择

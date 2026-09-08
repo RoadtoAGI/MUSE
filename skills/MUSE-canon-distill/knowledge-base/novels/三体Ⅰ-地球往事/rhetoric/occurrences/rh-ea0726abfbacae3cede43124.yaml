@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-ea0726abfbacae3cede43124
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1063
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 汪淼又被那噩梦的感觉追上了
+sensory_mapping: 空间追逐；速度；身后威胁；心理
+context_fact: 汪淼靠整天忙碌避开困扰，一走出纳米中心，星空便使恐惧恢复。
+image_mechanism: 内在情绪被移到人物身后成为独立追兵，工作让汪淼暂时拉开距离，跨出楼门则像减速，被它重新贴近。
+property_alignment: 暂时忘却对应甩开追兵；困扰持续潜伏对应追兵仍在后方；环境触发复发对应追兵追上并重新控制距离
+context_alignment: 前句“麻醉剂”已说明病因未除，追逐者接着把药效结束后的迅速复发变成具有空间连续性的动作。
+narrative_function: 将心理回潮写成外部迫近，立即恢复紧张感。
+transfer_rule: 把反复情绪写成追逐者时，应建立先前拉开距离的方式、重新接近的触发点和始终未消失的连续威胁。
+failure_boundary: 情绪首次突然出现、已被彻底解决或变化十分缓慢时，“追上”缺少此前距离与追赶过程。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 被工作暂时压下的恐惧在汪淼离开实验室后重新占据意识
+vehicle: 一直尾随、趁目标停下便赶上来的追逐者
+ground: 恐惧暂时落后但没有消失对应追逐者被短暂甩开；下班后迅速复发对应追逐者重新赶到身边

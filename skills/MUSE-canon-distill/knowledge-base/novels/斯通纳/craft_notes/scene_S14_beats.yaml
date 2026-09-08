@@ -1,0 +1,21 @@
+scene_id: S14
+source_notes: scene_S14_beats.md
+patterns:
+- pattern_id: S14-p1
+  beat: 点燃
+  dimension: verb
+  original_move: 用凝视、瞥、点头写决定形成
+  ai_default_failure: 解释他决定反抗的内心独白
+  transfer_rule: 写反击起点时压进微动作序列
+  quote: 一股莫名的暗火
+- pattern_id: S14-p2
+  beat: 教室
+  dimension: overall
+  original_move: 所有动作保持教学性而非对抗性
+  ai_default_failure: 写成争吵、揭露或求助权威
+  transfer_rule: 写职业反击时让手艺本身出场
+  quote: 可以买它们还回书店
+overall_traits:
+- 反击形式就是正常教学
+- 专业细节具有仪式感
+- 幽默不加旁白解释

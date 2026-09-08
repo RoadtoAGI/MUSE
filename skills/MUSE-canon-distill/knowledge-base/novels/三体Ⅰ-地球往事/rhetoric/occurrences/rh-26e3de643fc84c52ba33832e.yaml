@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-26e3de643fc84c52ba33832e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1500
+chapter: 第18章 三体、牛顿、冯·诺依曼、秦始皇、三日连珠
+figure_type: metaphor
+quote: 运算速度的瓶颈就在他们那里
+sensory_mapping: 狭窄空间；液体流动；拥塞；流量
+context_fact: 外存人员文化程度较高却只能用记录本和笔保存中间结果，远慢于旗语门电路。
+image_mechanism: 高速并行信息被汇入一个骤然收窄的口部，后方计算即使铺满大地，也要排队等纸笔逐条放行；性能短板获得清晰位置。
+property_alignment: 全机数据流对应容器内液体；纸笔外存对应狭窄瓶口；记录速度慢对应低流量；其限制全机对应最窄处控制总体通过量
+context_alignment: 下一段系统总线被写成河流，瓶颈先为信息流建立水力结构，又准确预示人列计算机的实际低效。
+narrative_function: 在宏伟奇观中标出工程限制，使虚构计算机保留可信的系统思维。
+transfer_rule: 用瓶颈诊断系统时，应找到所有流量必经的具体环节，并说明其容量为何低于上下游。
+failure_boundary: 慢环节可被绕过、任务不经过它，或整体性能受多个同等限制时，把单点称为瓶颈会给出错误优化方向。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 由三百万人用纸笔记录的外存环节限制整台人列计算机的总体运算速度
+vehicle: 宽大容器在狭窄瓶颈处限制液体通过的流量
+ground: 全系统信息必须经过较慢外存对应液体必须穿过窄口；局部速度决定总体吞吐对应瓶口决定倒出速度

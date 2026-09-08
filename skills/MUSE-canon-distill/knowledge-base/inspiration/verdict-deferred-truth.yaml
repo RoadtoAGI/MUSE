@@ -1,0 +1,24 @@
+card_id: verdict-deferred-truth
+pattern_name: 真理迟判
+dramatic_function: 让正确信念长期不可证实，高潮才由不可辩驳事实裁决。
+applicability: 适合科学、信仰、承诺型故事；若证据可即时验证会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 太阳氦闪
+- 冻刑场面
+- 《我的太阳》反讽
+tags:
+- 信念
+- 反讽
+- 延迟证明
+- 高潮裁决
+source_scenes:
+- novel: 流浪地球
+  scene_id: scene_12
+  note: 太阳观测动摇四百年预测，信念进入审判。
+- novel: 流浪地球
+  scene_id: scene_14
+  note: 氦闪在处刑后爆发，事实晚于道德代价。
+phase_affinity:
+- 3
+- 4
+- 5

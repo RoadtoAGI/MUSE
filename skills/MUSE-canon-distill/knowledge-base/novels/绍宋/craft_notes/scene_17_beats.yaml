@@ -1,0 +1,36 @@
+scene_id: '17'
+source_notes: scene_17_beats.md
+patterns:
+- pattern_id: 17-p1
+  beat: 一棍汉
+  dimension: info_density
+  original_move: 用木棍换饭的制度写出民夫绝望
+  ai_default_failure: 会写鞭打驱赶和眼中绝望等情绪标签
+  transfer_rule: 写群体恐惧时先设计生存机制
+  quote: 民夫凭此光棍方能晚间取一碗饭
+- pattern_id: 17-p2
+  beat: 羊马墙陷阱
+  dimension: camera
+  original_move: 从金军困惑揭开守城陷阱
+  ai_default_failure: 会在守方视角提前铺垫或剧透
+  transfer_rule: 写秘密战术时让敌方替读者发问
+  quote: 可南阳明明士卒粮秣俱全
+- pattern_id: 17-p3
+  beat: 彀英之死
+  dimension: verb
+  original_move: 用合作背叛反杀微剧承载大战主题
+  ai_default_failure: 会安排名将对等交手数十回合
+  transfer_rule: 写大将之死可交给无名个体完成
+  quote: 从下方夺走了对方腰间挂着的奇怪白刃
+- pattern_id: 17-p4
+  beat: 张遇两面性
+  dimension: overall
+  original_move: 快战后切慢谈，暴露仆从军保存算盘
+  ai_default_failure: 会让攻城段结束后直接宣布胜负
+  transfer_rule: 大战后插入敌方内部算计显持续性
+  quote: 若被他们糊弄住，今日也就不找你来了
+overall_traits:
+- 系统描写替代情绪标签
+- 敌方视角制造悬疑
+- 无名个体承载宏大叙事
+- 快慢节奏结构性交替

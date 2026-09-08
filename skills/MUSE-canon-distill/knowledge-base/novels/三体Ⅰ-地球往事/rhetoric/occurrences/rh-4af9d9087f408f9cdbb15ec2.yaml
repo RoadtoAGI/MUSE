@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4af9d9087f408f9cdbb15ec2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1671
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: metaphor
+quote: 行星被撕开的两部分藕断丝连
+sensory_mapping: 视觉细丝；黏性拉伸；断裂；两端牵连
+context_fact: 三个太阳超过洛希极限的潮汐力撕裂行星，两半在自身引力下重塑球形，之间暂留跨太空岩浆带。
+image_mechanism: 行星尺度骤缩成手中折断的莲藕，粗大球体已分开，灼热岩浆却被拉成一缕纤细黏丝；完全断裂前的脆弱联系一眼可见。
+property_alignment: 行星两半对应两截藕；潮汐撕裂对应折断；横空岩浆带对应藕丝；距离继续扩大对应丝被拉长变细；最终断开对应藕丝拉断
+context_alignment: 熟语常写关系，此处重新落回具体断裂形态，藕丝的细弱与行星巨体形成壮观尺度反差。
+narrative_function: 精确呈现大撕裂尚未完成的过渡形态，并引出岩浆河。
+transfer_rule: 用藕断丝连写物理分裂时，应同时具备主体断开、少量韧性物质残连和两端持续拉离。
+failure_boundary: 两部分仍有宽厚结构连接、尚未真正分开，或早已完全断绝时，藕丝的细弱阶段不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 行星断成两块后仍有细长岩浆物质连接，尚未完全分离
+vehicle: 莲藕折断后主体分开，断面间仍牵着细而不断的藕丝
+ground: 两块行星已主体分离对应藕节折断；残余岩浆细带连接对应断面藕丝仍牵连

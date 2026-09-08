@@ -1,0 +1,42 @@
+scene_id: A1S5
+source_notes: scene_A1S5_beats.md
+patterns:
+- pattern_id: A1S5-p1
+  beat: 读信开场带入缺席者
+  dimension: monologue
+  original_move: 持信朗读让单人开场自带两种声口：信件散文与素体诗
+  ai_default_failure: 用仆人对话或旁白转述前情
+  transfer_rule: 书信道具让独角场自带对话性，省一场转述戏
+  quote: alone with a letter
+- pattern_id: A1S5-p2
+  beat: 性格诊断式独白
+  dimension: monologue
+  original_move: 独白像医师列病征逐条分析丈夫天性，不写自我抒情
+  ai_default_failure: 写野心宣言或欲望抒情
+  transfer_rule: 用分析他人的口吻侧写说话者自己的狠辣
+  quote: th'milk of human kindness
+- pattern_id: A1S5-p3
+  beat: 信使一句截断思考
+  dimension: transition
+  original_move: 报信拦腰折断独白，机会砸下，思考瞬间变成今夜的倒计时
+  ai_default_failure: 让独白说完再自然转场
+  transfer_rule: 用报信截停独白，给阴谋装上时限
+  quote: The king comes here tonight
+- pattern_id: A1S5-p4
+  beat: 召唤幽灵的祈使仪式
+  dimension: monologue
+  original_move: 连串祈使句把心理准备外化成可表演的自我去性召唤仪式
+  ai_default_failure: 写内心挣扎与道德拉扯
+  transfer_rule: 重大心理转变借仪式语体外化，强度替代过程
+  quote: unsex me here
+- pattern_id: A1S5-p5
+  beat: 夫妻初会不对称攻防
+  dimension: exchange
+  original_move: 她滔滔下指令教扮花藏蛇，他仅含糊一句，主导权可听
+  ai_default_failure: 让两人对等长篇商议计划
+  transfer_rule: 台词配额即权力地图，少说话的一方在退守
+  quote: look like th'innocent flower
+overall_traits:
+- 一人独场用信件、独白、召唤三段式变声推进
+- 祈使句是语法签名：对幽灵对夜对丈夫皆下令
+- 时限在场内中点降临，后半场全在倒计时里

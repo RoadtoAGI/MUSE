@@ -1,0 +1,50 @@
+mode: reference
+display_name: 叶文洁
+role_slug: ye-wen-jie
+source_novel: 三体Ⅰ-地球往事
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_S03.md
+  - scenes/scene_S09.md
+  - scenes/scene_S10.md
+  - scenes/scene_S11.md
+  - scenes/scene_S15.md
+  - scenes/scene_S18.md
+  - scenes/scene_S19.md
+  - scenes/scene_S21.md
+  - scenes/scene_S22.md
+built_at: 2026-05-23T00:00:00Z
+skill_version: 1
+locator_count: 26
+has_canon_ending: true
+coverage_note: |
+  叶文洁全书共出场 10 个场景（scene_index.json 筛选 characters 含 "叶文洁"）：
+  S03 / S09 / S10 / S11 / S15 / S18 / S19 / S21 / S22 / S23。本次 SKILL.md 取其中 9 个作为
+  原文 locator 来源，覆盖六维证据如下：
+
+  - S03（文革·叶哲泰之死）—— 身份段佐证 + 弧光起点的"被植入问题"瞬间。
+  - S09（ETO 集会·统帅现身）—— 性格真相裂隙（温和外表 / 冰冷判决）+ 声音框架常态 +
+    边界 #4（绝不大声）的密集证据池。
+  - S10（红岸按下发射键）—— 核心欲望（从思想到不可逆行动）+ 边界 #3（人际情感让位事业）。
+  - S11（齐家屯油灯 + 无人忏悔）—— 性格真相反面（齐家屯短暂温柔）+ 弧光最后转折
+    （希望破灭后理想固化）。
+  - S15（人类的落日）—— 边界 #4 / #5 + canon-ending 出处。
+  - S18（《寂静的春天》+ 兵团出卖 + 拒签）—— 身份段 + 核心欲望源头 + 边界 #2（绝不诬陷父亲）。
+  - S19（红岸基地进入）—— 声音框架最简短决断模板（"我进去""我可以在这里待一辈子"）。
+  - S21（核弹女孩 / 叛乱被剿）—— 边界 #5（不撤回）的同志立场宣告。
+  - S22（审讯笔录）—— 声音框架零辩解结构 + 性格真相压力反应 + 边界 #1 / #3 核心证据。
+
+  未纳入 SKILL.md 佐证的场景：
+  - S23（伊文斯起源）—— 叶文洁在该场景是次要旁观者，主要刻画伊文斯；她的关键对白
+    "人类文明已经不可能靠自身的力量来改善了" / "有的，有别的力量" 与核心欲望段已
+    覆盖的 S18 L31-L33 同主题，不重复引用。
+
+  覆盖度判定：六维全覆盖、声音 ≥ 4 场（S09 / S18 / S19 / S22）、弧光跨起点—转折—终点
+  共 4 段（S03 / S18 / S10 / S11），均满足 reference-skill-template 软建议；硬约束
+  （parse_locators 计数一致 / 边界每条 bullet 都有 locator / 6 段每段 ≥ 1 locator /
+  character_map 映射）由 Step 5.5 + 5.6 程序化验证。
+
+  补充输入：本次未读取 phase0_conception.yaml / phase1_world.yaml —— SKILL.md 的身份与
+  声音段所需要的"科学家身份 + 文革处境 + 红岸语境"均能从 phase2_character.yaml + 已读
+  scenes/ 直接支撑，未触发 reference 输入契约补充条件。

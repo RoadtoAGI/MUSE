@@ -1,0 +1,23 @@
+card_id: mirrored-doors-reversal
+pattern_name: 镜像门后
+dramatic_function: 用相同动作流程通向相反发现，放大恐惧与希望的摆幅。
+applicability: 适合资源匮乏与未知空间；若前后流程不押韵会失效（单书孤证，验证面窄）
+reuse_candidates:
+- 地窖
+- 食人者
+- 罐头仓库
+tags:
+- 镜像结构
+- 逆转
+- 未知空间
+- 恐惧希望
+source_scenes:
+- novel: 长路
+  scene_id: scene_06
+  note: 开锁下楼发现地狱式囚禁与逃亡。
+- novel: 长路
+  scene_id: scene_07
+  note: 同样开门流程转为食物与清水的奇迹。
+phase_affinity:
+- 4
+- 5

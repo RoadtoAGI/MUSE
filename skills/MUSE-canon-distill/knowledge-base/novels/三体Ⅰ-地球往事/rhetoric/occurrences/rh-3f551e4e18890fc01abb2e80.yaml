@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3f551e4e18890fc01abb2e80
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1916
+chapter: 第25章 叛乱
+figure_type: metaphor
+quote: 这个艳丽的死亡之花手捧着一千五百吨 TNT ，灿烂地笑着
+sensory_mapping: 视觉艳色；花瓣盛放；女性身体；爆炸热量；死亡气味
+context_fact: 电筒光集中照亮少女，专家确认她手中银球含重元素裂变材料，她仍以娇嗔姿态要挟警方。
+image_mechanism: 少女的脸和姿态被塑成盛开的花冠，银色核弹成为花蕊；通常吸引接近的美丽在此包住一千五百吨炸药，越灿烂越危险。
+property_alignment: 少女艳丽外貌对应鲜花色彩；灿烂笑容对应花朵盛放；核弹对应致命花蕊；娇柔姿态对应花瓣柔软；爆炸威胁对应死亡果实
+context_alignment: 她此前以柔软玉臂杀人，花朵继续写美与杀伤共体，却把个人格斗升级为核毁灭。
+narrative_function: 将人质危机凝成矛盾中心图像，突出美貌、狂热和死亡的并置。
+transfer_rule: 用毒花或死亡之花写危险人物时，应把外在吸引、盛放状态和内部致命机制逐项连接。
+failure_boundary: 人物外形与行为皆粗暴直白、危险不隐藏在美感中，或花朵没有任何生长盛放特征时，该意象会流于艳俗标签。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 外表美丽、笑容灿烂却怀抱真核弹并可瞬间制造大规模死亡的少女
+vehicle: 色彩艳丽、盛开诱人，却由死亡本身长成并会结出毁灭果实的花朵
+ground: 少女美貌笑容对应花朵鲜艳盛开；她怀抱核弹的致命性对应花心孕育死亡

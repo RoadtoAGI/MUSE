@@ -1,0 +1,28 @@
+scene_id: S10
+source_notes: scene_S10_beats.md
+patterns:
+- pattern_id: S10-p1
+  beat: 厨房秩序
+  dimension: camera
+  original_move: 列日常物件承载死亡前人格
+  ai_default_failure: 会给物件加情感解释
+  transfer_rule: 高情绪场景先写物件状态
+  quote: 刀叉收好在抽屉里
+- pattern_id: S10-p2
+  beat: 未完成暴力
+  dimension: verb
+  original_move: 暴力动词加速后以认知动词打断
+  ai_default_failure: 会把动作顺畅写到破坏完成
+  transfer_rule: 在动作最高点冻结价值选择
+  quote: 突然我看清楚了
+- pattern_id: S10-p3
+  beat: 转述嵌套
+  dimension: camera
+  original_move: 让缺席叙述者接收情绪化转述
+  ai_default_failure: 会把视角放到最方便的现场
+  transfer_rule: 重要场景可通过反应转述传递
+  quote: 仿佛事情就发生在眼前
+overall_traits:
+- 物件叙事胜过情绪说明
+- 冻结帧制造价值碰撞
+- 间接性放大作品力量

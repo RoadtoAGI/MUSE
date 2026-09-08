@@ -1,0 +1,63 @@
+analysis_meta:
+  source: Macbeth
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.1.0
+  completed_at: 2026-05-24
+  analyst_notes: |
+    11 世纪苏格兰为名义底色（Holinshed 编年史），实际舞台规则混合詹姆斯一世
+    宫廷神学（divine right of kings、touching for the King's Evil A4S3）与
+    早期现代英国对"equivocation"的政治焦虑（1605 火药阴谋后耶稣会士辩护词）。
+    本分析按戏剧 in-world 规则记录，不强行翻译为现实历史规则。
+
+world_type: regicide-tragedy
+
+primary_space:                       # 主场空间（舞台可演位置）
+  - blasted_heath                    # 女巫所在的荒野（A1S1 / A1S3 / A4S1 cauldron cave）
+  - duncan_court_at_forres           # 邓肯王宫（A1S2 / A1S4 / A2S4）
+  - inverness_castle                 # 麦克白祖业 / 弑君现场（A1S5/A1S6/A1S7/A2S1/A2S2/A2S3）
+  - forres_palace                    # 麦克白即位后的王宫（A3S1/A3S2/A3S4 banquet）
+  - park_outside_palace              # 班柯遇刺地（A3S3）
+  - fife_castle                      # 麦克达夫家（A4S2 屠杀）
+  - english_court                    # Edward 忏悔王宫廷（A3S6 mention / A4S3 full scene）
+  - dunsinane_hill                   # 麦克白最后据点（A5S2/S3/S5/S6/S7）
+  - birnam_wood                      # 应预言之"动"的森林（A5S4）
+  - lady_macbeth_bedchamber          # 梦游场（A5S1）
+
+power_structure:
+  - elective-then-hereditary_monarchy
+                                     # 苏格兰王位由 thanes 推选，但 Duncan 突在 A1S4 立
+                                     # Malcolm 为 Prince of Cumberland——把"推选可能"压成
+                                     # "世袭独占"，正是激怒 Macbeth 的导火线
+  - thane_oligarchy                  # 各郡 thane 是国王亲族 / 战将 / 选举人
+  - kinship_as_office                # 君主同时是 cousin / host / kinsman；弑君＝三重背叛
+  - sacred_kingship                  # Edward 触摸医病（A4S3 evil-healing）= 正统的对照
+  - supernatural_underground         # 女巫 / Hecate / 显灵作为权力外的"另一套真相系统"
+  - performative_court               # 公开 banquet / coronation / "play the host"
+                                     # 表演本身即政治；mask vs heart 是核心动词
+
+rules:
+  - regicide is sacrilege not merely crime; "the Lord's anointed temple" (Macduff A2S3)
+  - hospitality is sacred; guest-murder doubles the damnation (A1S7 Macbeth's own diagnosis)
+  - witches' prophecies are literally true but equivocally framed; understanding the trick comes after
+  - sleep is the visible site of conscience; loss of sleep = visible loss of innocence (Macbeth A2S2 / Lady Macbeth A5S1)
+  - blood does not wash; it spreads, multiplies, signs ("multitudinous seas incarnadine" A2S2; "out damned spot" A5S1)
+  - the natural world mirrors the political (A2S4: horses eat each other, owl kills falcon, day darkens)
+  - "of woman born" / "Birnam Wood" are stage-physical equivocations decoded only when literally enacted
+  - manhood is rhetorically weaponized to compel violence ("be a man" — Lady Macbeth A1S7; Malcolm A4S3)
+  - kingship's legitimacy can be transferred by visible recognition: heads on poles, hailing, crowning at Scone
+
+stagecraft_constraints:
+  - night and storm are conjured by dialogue, torches, alarums, knocking — not by lighting
+  - the most consequential deeds (Duncan's murder A2S2, Lady Macbeth's suicide A5S5) are offstage; audience hears report
+  - the Ghost of Banquo (A3S4) and the Apparitions (A4S1) are stage-physical; ghost takes Macbeth's seat
+  - Birnam Wood "moving" is solved by soldiers each carrying a bough (A5S4) — equivocation made literal stage business
+  - Macbeth's beheading happens offstage; Macduff returns with the head as a prop (A5S7)
+  - "Knocking within" (A2S2/A2S3) functions as a stage-musical instrument of guilt
+  - bell, alarum, hautboys, drums, thunder are the play's affective punctuation
+
+  # 一个非常关键的舞台约定（drama 而非 prose 的标志）
+  - the witches' choric verse (trochaic tetrameter, rhymed couplets) marks supernatural register
+    distinct from the iambic pentameter of human speech; readers / actors hear regime change in meter
+
+# Macbeth 非 traditional_opera，故省略 xiqu_program 段

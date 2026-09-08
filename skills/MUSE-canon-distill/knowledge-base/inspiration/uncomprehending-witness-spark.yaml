@@ -1,0 +1,21 @@
+card_id: uncomprehending-witness-spark
+pattern_name: 孩童撞破阴谋
+dramatic_function: 用无解码能力的目击者承载核心丑闻，读者懂得比POV多又不全懂；一次偷听同时完成伏笔埋设与激励事件点火
+applicability: 需POV认知低于读者且目击触发灭口级反应推动主线；目击者若能看懂，悬念塌缩成告发剧（单书孤证，验证面窄）
+reuse_candidates:
+- 攀爬城堡残塔的技能设定
+- 孪生姐弟乱伦的具体丑闻内容
+tags:
+- 认知错位
+- 激励事件
+- 偷听
+source_scenes:
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_04
+  note: 布兰偷听密谈被推下高塔，内容、情境、身份三层分释
+- novel: 冰与火之歌Ⅰ-权力的游戏
+  scene_id: scene_06
+  note: 灭口刺杀反向确证阴谋存在，把家事升级为两族对抗
+phase_affinity:
+- 3
+- 5

@@ -1,0 +1,42 @@
+scene_id: S36
+source_notes: scene_S36_beats.md
+patterns:
+- pattern_id: S36-p1
+  beat: 结局先读给人听
+  dimension: omission
+  original_move: 不闪回屠杀，保留日记全部破损，缺字由读者填最坏部分
+  ai_default_failure: 把覆灭拍成插叙战斗戏，或让转述流畅完整
+  transfer_rule: 前史灾难经残损文档到场，恐惧来自认出而非描写
+  quote: 鼓声，深处传来鼓声
+- pattern_id: S36-p2
+  beat: 死者句子活人复述
+  dimension: omission
+  original_move: 原样复述死者句子，叙述不加一字标注，重复读来像附体
+  ai_default_failure: 点破这跟日记记载一模一样，铺开内心恐慌
+  transfer_rule: 预叙兑现时禁止指认重复，点破即泄压
+  quote: 咚隆，咚隆的鼓声传来
+- pattern_id: S36-p3
+  beat: 门缝取景写怪物
+  dimension: camera
+  original_move: 食人妖全程无全身镜头，只给覆鳞臂膀与无趾大脚
+  ai_default_failure: 给怪物一段全身特写，并让英雄砍出可见伤害
+  transfer_rule: 门后威胁只露一条有目的的肢体，比全身像更可怕
+  quote: 肤色黝黑，覆着发绿的鳞片
+- pattern_id: S36-p4
+  beat: 混乱用记账法写
+  dimension: info_density
+  original_move: 敌方不计数，己方记到第十三个倒下与惟一一处擦伤
+  ai_default_failure: 给每位英雄轮流安排挥剑格挡险情的段落
+  transfer_rule: 写群战承认追踪失败，用账本让读者推断整体
+  quote: 当第十三个奥克倒下
+- pattern_id: S36-p5
+  beat: 镜头抛弃受害者
+  dimension: camera
+  original_move: 中矛下一镜即切开，验伤悬到撤退后由伤者开口引爆
+  ai_default_failure: 立即切入受害者视角写剧痛，当场掀甲揭谜
+  transfer_rule: 重伤后抛弃受害者保住战斗速度，恐惧多活三个段落
+  quote: 我以为你死了！
+overall_traits:
+- 恐惧主结构是预叙兑现，复述不加叙述标注
+- 「咚隆」是节拍器兼记分牌，拟声短段切分战斗相位
+- 群战用记账省略，重伤用抛弃受害者省略

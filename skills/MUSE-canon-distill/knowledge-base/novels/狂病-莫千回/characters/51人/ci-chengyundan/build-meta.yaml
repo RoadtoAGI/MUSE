@@ -1,0 +1,25 @@
+mode: reference
+display_name: 刺成云丹
+role_slug: ci-chengyundan
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/51人/phase3_spine.yaml
+  - pipeline/51人/phase5_scenes.yaml
+  - scenes/scene_51-S02.md
+  - scenes/scene_51-S06.md
+  - scenes/scene_51-S07.md
+  - scenes/scene_51-S08.md
+  - scenes/scene_51-S10.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 7
+has_canon_ending: false
+coverage_note: |
+  高信息密度配角（残部名义头领 / 张亦川搭档），软建议维度多数跨多场支撑：
+  - 声音框架：跨 S02 / S06，覆盖"慢说普通话 + 请人说慢点 + 一字一句郑重直说"与"蹦昂语词 + 憨笑点头"两面。
+  - 性格真相：S08 拒绝以命换命（守底线）+ S10 忍痛下令（善心的边界）有压力情境佐证。
+  - 弧光：起点（S02 灵魂可托付的承诺）+ 转折/终点（S10 认清善心边界、担起头领取舍）覆盖 ≥2 段；其底线本体不移动，弧光更偏"领袖之痛的承担"而非价值翻转。
+  - 边界：S02 的承诺与 S08 的拒绝以命换命均为极端检验场景。
+  单点支撑说明：核心欲望"语言隔阂缺陷"主要由 S07（追杀罗允命令只记大概）单点支撑，属语言特性的稳定外显，与 S02/S06 的"慢"互证，非孤立外推。
+  has_canon_ending=false：本篇结尾刺成云丹与张亦川同为幸存者（五人→四人之一），人格完整，无物理终局。

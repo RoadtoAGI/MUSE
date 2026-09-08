@@ -1,0 +1,24 @@
+mode: reference
+display_name: 洪七公
+role_slug: hong-qigong
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_05.md
+  - scenes/scene_14.md
+  - scenes/scene_17.md
+  - scenes/scene_29.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 5
+coverage_note: |
+  洪七公出场 8 个场景（S05/S07/S14/S17/S18/S27/S29/S31）。本次蒸馏以 S05、S14、S17、S29 为核心佐证：
+  - S05/S17 提供"以食定交"的出场与断指来历——核心缺陷（馋嘴）与边界（不杀好人）的对照
+  - S14 提供"二百三十一人"+锄奸裘千仞的声音最高点
+  - S29 提供海上救欧阳锋被偷袭——他"好人代价"的顶点
+
+  S07（桃花岛三道试题）、S18（花船对决）、S27（荒岛传位黄蓉）、S31（华山论剑）作为次要场景未单独引用——这些场景中洪七公的性格维度已被上述四场景充分显影。
+  未破例读 full_text.md。
+
+  未覆盖维度：具体的降龙十八掌招式心法描写（主要在 S05 中前半段技术细节）。这些对角色人格而非武功设计更多体现在背景叙述，本 SKILL 聚焦人格而非武功参数。

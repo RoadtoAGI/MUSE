@@ -1,0 +1,22 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:学校--gou-zi
+work_id: novel:狂病-莫千回
+display_name: 狗子
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '狗子有两副截然不同的嗓子。感染前他爱哭、直率、带点小聪明——"听声辨车"时小声报数（"应该是三辆警车和一辆救护车"），看到惨剧先吐再哭，第一个哽咽着说担心父母。感染后他的语言彻底反转：口齿不清、模糊变形，内容却极尽恶毒占有——把对舍友的旧情绪（"以前就看不惯秦胜哥到处拈花惹草"）翻译成"想尝试驾驭种马""要撬开他的脑子看看一天到晚在想什么"这类爱
+    / 性 / 损毁交缠的威胁，边狂笑边说，越说笑得越大声。声音是判断他"还是不是人"的第一信号——从能商量、会哭，变成只剩狂笑与恶语。
+
+
+    佐证：scenes/scene_XX-S01.md:L7-L7 / scenes/scene_XX-S07.md:L19-L19'
+  evidence_locators:
+  - scenes/scene_XX-S01.md:L7-L7
+  - scenes/scene_XX-S07.md:L19-L19
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-5ae741bab86a12194a6bceaf
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2282
+chapter: 第32章 古筝行动
+figure_type: metaphor
+quote: 空气凝固了
+sensory_mapping: 空气变硬；呼吸受阻；空间冻结；声音压低；重压
+context_fact: 大史提出用五十根飞刃把全船人员和结构同时横切后离开会场。
+image_mechanism: 震惊不只冻结人体，还把人之间原本透明的介质变成硬块；每个人都像被浇筑在同一空间里，连电脑嗡鸣也不敢振动它。
+property_alignment: 空气原可流动对应会场先有争论；方案揭晓对应凝固触发；全员静止对应空间硬化；呼吸紧张对应固体压迫；电脑声变小对应振动受抑；漫长沉寂对应固态持续
+context_alignment: 显式卡记录人像石化，本卡记录承载人的整个空气环境，二者构成同一冻结场的内外两层。
+narrative_function: 把震惊从人物扩散到空间，延长方案揭晓后的窒息感。
+transfer_rule: 用空气凝固写气氛时，应让动作、呼吸、声音和交流多项同时受阻，而非只因天气寒冷。
+failure_boundary: 人物仍高声争论、空气实际流动明显或沉默只是流程等待时，固态空间会夸大集体震惊。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 古筝方案被听懂后，会场气氛因集体震惊而变得沉重、静止，连环境声似乎减弱
+vehicle: 流动空气骤然变成固体，空间内一切运动受到硬物阻滞
+ground: 气氛停止流动对应空气固化；人群不动对应被固体包住；声音降低对应空气失去传声流动感

@@ -1,0 +1,28 @@
+scene_id: '31'
+source_notes: scene_31_beats.md
+patterns:
+- pattern_id: 31-p1
+  beat: 双线并行作战
+  dimension: overall
+  original_move: 口舌之争升为主战线，武斗退作背景音
+  ai_default_failure: 武打占绝对主导，对话只作间歇点缀
+  transfer_rule: 决战可让认知负荷战与武斗并行分主次
+  quote: 与黄蓉的斗口似犹在角力之上
+- pattern_id: 31-p2
+  beat: 假梵语攻心
+  dimension: info_density
+  original_move: 无含义的话配多变语气，逼对手寻找不存在的含义
+  ai_default_failure: 让心理战台词句句有含义直接动摇对手
+  transfer_rule: 攻心可用空信息制造认知过载，胜过真指控
+  quote: 源思英儿，巴巴西洛着
+- pattern_id: 31-p3
+  beat: 战斗中的哲思
+  dimension: overall
+  original_move: 生死关头让主角思辨武功善恶而非战术焦虑
+  ai_default_failure: 内心独白写我该怎么办来得及吗
+  transfer_rule: 高潮内心独白写存在追问，不写战术分析
+  quote: 武功本身并无善恶，端在人之爲用
+overall_traits:
+- 终极决战靠认知崩溃取胜，不靠更强武力
+- 假信息叠加摧毁执念者，收束真经主题
+- 比武比智比心三层递进，最后一层最致命

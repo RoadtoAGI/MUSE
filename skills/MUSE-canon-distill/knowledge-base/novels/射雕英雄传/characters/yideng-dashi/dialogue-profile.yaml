@@ -1,0 +1,32 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:yideng-dashi
+work_id: novel:射雕英雄传
+display_name: 一灯大师
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '他的声音以"轻声""慢慢""低低叹了口气""淡淡地"为主——语速缓慢、音量降低，几乎不会拔高。
+
+
+    关键特征：
+
+    - **称呼柔化**——对黄蓉叫"乖孩子""孩子"，对洪七公叫"七兄"，对周伯通叫"周师兄"——称呼系统永远给对方留面子
+
+    - **自我评价严苛**——对外的词汇是"孽障""因果""慈悲"等佛门语；对自己却是"禽兽不如""卑鄙小人"这些武林俗语——越贴近自己越重
+
+    - **讲述往事的双层叙述**——讲故事前段用"我""段皇爷"交替出现（段皇爷是过去的我），后段情绪越来越投入时人称自动合一——读者和讲述者同步失控（Phase C scene_10 craft_notes 已标注）
+
+    - **关键短句**：决定性时刻说话极短——"你来刺罢，我等了你很久很久了"是全书他最简洁也最重的一句
+
+
+    佐证：scenes/scene_10.md:L19-L19 （初见时"伸手扶起二人，笑道：''七兄收得好弟子，葯兄生得好女儿啊''"——柔和招呼+给对方面子）；scenes/scene_10.md:L69-L69 （自嘲"哈哈，那黄老邪聪明机伶，早知我这大半个时辰的犹豫"）'
+  evidence_locators:
+  - scenes/scene_10.md:L19-L19
+  - scenes/scene_10.md:L69-L69
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

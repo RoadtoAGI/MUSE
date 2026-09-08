@@ -1,0 +1,26 @@
+mode: reference
+display_name: 副院长
+role_slug: fu-yuanzhang
+source_novel: 狂病-莫千回
+source_part: 精神病院
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/精神病院/phase3_spine.yaml
+  - pipeline/精神病院/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_JB-S02.md
+  - scenes/scene_JB-S03.md
+  - scenes/scene_JB-S05.md
+  - scenes/scene_JB-S11.md
+  - scenes/scene_JB-S12.md
+  - scenes/scene_JB-S13.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 9
+has_canon_ending: true
+coverage_note: |
+  软建议覆盖良好：声音框架跨 S02/S05/S11 多场景，弧光覆盖起点/转折/终点三段，
+  性格真相有压力情境（S12 看瓮中之鳖 vs S13 对相框崩溃）正反两面支撑，核心欲望跨 S05/S13 非单点。
+  人类反派从对手视角写（副院长认为自己在替天行道）。
+  has_canon_ending 经回 scene 原文核对判 true：耿小桃赴死后崩溃悔悟，放行幸存者后又彻底封锁所有大楼、
+  把自己连同感染者永远封死在医院里（S13），不可逆终局；物理终局隔离至 references/canon-ending.md。

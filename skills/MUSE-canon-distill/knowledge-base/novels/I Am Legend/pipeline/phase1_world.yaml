@@ -1,0 +1,157 @@
+# Phase 1: World — I Am Legend (Richard Matheson, 1954)
+
+setting:
+  era: >
+    Near-future 1976–1979 (written in 1954). Post-nuclear-war suburban
+    Los Angeles. The war caused dust storms and insect mutations that
+    became vectors for the vampiris bacillus.
+  duration: >
+    ~3 years. Part I: January 1976. Part II: March 1976.
+    Part III: undated (~1978). Part IV: January 1979.
+  location: >
+    Cimarron Street, Gardena/Compton area, Los Angeles. Neville's
+    fortified house is the spatial center. Key secondary locations:
+    the burning pit (corpse disposal), the LA Public Library,
+    Virginia's crypt, the Inglewood house, Sears store.
+  conflict_levels:
+    internal: >
+      Loneliness, sexual frustration, alcoholism, grief over Virginia
+      and Kathy, suicidal ideation, loss of purpose, nostalgia as
+      self-destructive indulgence
+    personal: >
+      Ben Cortman (former neighbor/carpool buddy turned nightly caller),
+      Ruth (infected spy who becomes his only real human contact),
+      the memory of Virginia (whose return as a vampire forces the
+      most traumatic act of the novel)
+    external: >
+      Nightly vampire sieges, the vampiris bacillus, dust storms,
+      collapsing infrastructure, and ultimately the organized new
+      society of infected humans who come to eliminate him
+
+world_rules:
+  physical:
+    - >
+      The vampiris bacillus is a cylindrical bacterium spread by insect
+      vectors, dust storms, and direct contact. It creates an isotonic
+      solution in the blood, activates all bodily functions in the dead,
+      and lives on fresh blood.
+    - >
+      Sunlight kills the germ — UV radiation destroys the bacillus,
+      which is why vampires are comatose by day (the germ enforces
+      coma to protect itself).
+    - >
+      Garlic is an allergen to any system infected with vampiris.
+      The allyl sulphide triggers anaphylaxis in infected tissue.
+    - >
+      The stake works not by piercing the heart but by letting air in.
+      The bacillus is a facultative saprophyte: anaerobic inside the
+      body (symbiotic), it becomes aerobic and virulently parasitic
+      when exposed to air. The stake holds the wound open so body
+      glue cannot seal it.
+    - >
+      The dead vampires' bodies produce a glue that seals bullet
+      wounds almost instantly — bullets are useless against the dead.
+    - >
+      When deprived of blood, the bacillus sporulates (creates
+      resistant oval spores) or produces bacteriophages that destroy
+      the host cells.
+    - >
+      Dust storms carry freed spores that lodge in skin abrasions,
+      infecting new hosts — the primary vector for mass contagion.
+    - >
+      Bacteria can mutate. The new society survives via a pill
+      combining defebrinated blood (feeds the germ) and a drug
+      (prevents multiplication).
+  social:
+    - >
+      Old society collapsed completely. During the plague, the law
+      required all dead to be burned immediately in massive pits.
+      Cemeteries were locked and guarded; people were shot for
+      trying to bury their dead.
+    - >
+      A new society of infected humans is forming — they can live
+      with the germ using medication, walk in sunlight briefly,
+      and are organizing with military-style discipline, including
+      armed squads and a ranking officer system.
+    - >
+      The new society views Neville as a monster to be exterminated,
+      not a fellow survivor to be saved. His daily staking campaign
+      has killed their people.
+  psychological:
+    - >
+      The cross works not through divine power but through hysterical
+      belief — it only affects vampires who feared the cross in life.
+      A Jewish vampire fears the Torah, not the cross. An atheist
+      fears neither.
+    - >
+      Mirrors cause hysterical blindness in vampires — again
+      psychological, not supernatural.
+    - >
+      Prolonged isolation destroys the capacity for trust. Neville
+      cannot accept Ruth even when evidence supports her. He has
+      "lost the talent for deceit" — and for faith.
+    - >
+      Normalcy is a majority concept. When the infected become the
+      majority, the uninfected human becomes the abnormality,
+      the legend, the terror.
+
+genre_conventions:
+  primary_genre: Horror / Science Fiction
+  secondary_genre: Post-Apocalyptic Survival
+  conventions:
+    - convention: >
+        The vampire as Gothic supernatural predator
+      planned_subversion: >
+        Matheson strips vampirism to bacteriology. Every "supernatural"
+        trait receives a scientific explanation. The real horror is not
+        the vampire but the loneliness and the moral inversion.
+    - convention: >
+        The lone survivor as heroic last defender of civilization
+      planned_subversion: >
+        Neville is no hero — he's an alcoholic, sexually frustrated,
+        barely functional man who survives through routine, not valor.
+        His "heroic" staking campaign is, from the new society's
+        perspective, serial murder.
+    - convention: >
+        The female companion as salvation / love interest
+      planned_subversion: >
+        Ruth is a spy. The romantic embrace is real but the relationship
+        is built on deception. She doesn't save him — she warns him,
+        then the system she serves kills him.
+    - convention: >
+        Science conquers the monster
+      planned_subversion: >
+        Neville's scientific understanding is comprehensive and correct,
+        yet it saves no one. Knowledge without community is impotent.
+        The new society survives not through Neville's science but
+        through their own pharmacological adaptation.
+    - convention: >
+        The monster is destroyed in the climax
+      planned_subversion: >
+        The "monster" destroyed in the climax is the human protagonist.
+        The vampires are the new civilization.
+
+creative_constraints:
+  - constraint: >
+      Single-POV isolation — the story never leaves Neville's
+      consciousness, and for most of the novel he has no one to
+      talk to.
+    narrative_function: >
+      Forces all conflict inward. The reader experiences the same
+      claustrophobic loneliness. Information is strictly limited to
+      what Neville knows, making Ruth's betrayal genuinely surprising
+      and making the final reversal land with full force.
+  - constraint: >
+      No functioning infrastructure — no electricity grid, no
+      government, no communication, no medical system.
+    narrative_function: >
+      Every survival task becomes a scene. Neville must be
+      self-sufficient: mechanic, carpenter, scientist, executioner.
+      This grounds the horror in mundane physical labor.
+  - constraint: >
+      The vampires cannot communicate meaningfully with Neville.
+    narrative_function: >
+      Prevents any negotiation or understanding between Neville and
+      the "other." He can only study them as specimens, never as
+      people — which is precisely the moral blind spot the ending
+      exposes.

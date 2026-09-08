@@ -1,0 +1,105 @@
+analysis_meta:
+  novel: "云天明的童话"
+  source_text: "source_manifest.yaml 所列三个连续童话"
+  source_form: "嵌套中篇 / 三联童话 / 科幻隐写文本"
+  evidence_note: "科技映射分 confirmed_in_decode、confirmed_by_later_event、open 三档。"
+
+setting:
+  era: "无明确纪年；世袭王国与帆船、冷兵器并存的童话时代"
+  duration: "约两夜两日：寿宴政变至露珠与长帆次日扬帆"
+  location: "无故事王国、王宫与地堡、通往海岸的道路、饕餮海、墓岛"
+  conflict_levels:
+    internal: "露珠从被保护的宫廷少女转向愿意承担风险与自选生活的人"
+    personal: "冰沙争夺王位；针眼以画技执行清洗；露珠、长帆与深水组织反制"
+    external: "魔画追杀、黑伞持续运转、饕餮鱼封海、旧知识与关键材料失传"
+
+world_rules:
+  physical:
+    - "针眼把见过的人画在雪浪纸上，现实中的人即消失；烧毁画像可解除尚受黑伞保护者的死亡状态。"
+    - "渊龙黑伞只保护一名被画者；伞中不能加入异物；转速过慢或过快均报警。"
+    - "雪浪纸天然卷曲，只有赫尔辛根默斯肯黑曜石能压平。"
+    - "赫尔辛根默斯肯香皂无重量、产生大量泡沫；泡沫使饕餮鱼失去攻击欲。"
+    - "饕餮鱼高速繁殖并啃食漂浮物，在王国近海形成无法通航的环形屏障。"
+    - "深水王子的视大小不随观察距离变化，因此西洋透视画法无法描绘他。"
+  social:
+    - "王位按血统继承，国王可改立继承人；军队在合法性冲突中保持观望。"
+    - "失去海路后，王国退回自给自足的田园社会，城市、贸易和外部知识衰退。"
+    - "宫廷知识与民间经验分离：公主学会礼艺和算术，却不了解海、帆和王国之外。"
+  psychological:
+    - "王国把故事等同于曲折和灾难，把无变化解释为幸福。"
+    - "长期封闭使居民主动遗忘过去，也丧失对外部世界的想象。"
+    - "器物知识依附于个人经验保存：宽姨保存香皂，长帆记得海路与故乡，画师掌握纸、伞和画法。"
+
+genre_conventions:
+  primary_genre: "童话冒险"
+  secondary_genre: "硬科幻隐写"
+  conventions:
+    - convention: "魔法器物拥有清楚规则"
+      planned_subversion: "规则可被复现实验，并对应现实机械、相对论与空间工程概念。"
+    - convention: "善良继承人击败邪恶篡位者后登基"
+      planned_subversion: "露珠把王位交给更适任的深水，选择与长帆远航。"
+    - convention: "王子救公主"
+      planned_subversion: "宽姨保存材料、长帆发现渡海方案、露珠承担合伞与远航选择，救援由多人知识协作完成。"
+
+daily_life:
+  - dimension: "宫廷生活"
+    findings:
+      - detail: "寿宴、画像纪念、礼仪称谓与继承宣布构成政变入口。"
+        story_implication: "针眼通过合法庆典看清全部清洗对象。"
+  - dimension: "出行与航海"
+    findings:
+      - detail: "马车、搁浅旧船、帆、桨、潮汐和泡沫航道逐级进入露珠的认知。"
+        story_implication: "主角成长通过学习具体世界完成。"
+  - dimension: "物品保存"
+    findings:
+      - detail: "香皂因沐浴习惯被宽姨保留，黑曜石熨斗因礼服护理留在宫中。"
+        story_implication: "关键工具沿人物日常习惯进入剧情。"
+
+creative_constraints:
+  - constraint: "三体监听者必须把文本接受为安全童话"
+    narrative_function: "科技情报拆成表层故事、双层隐喻与含义坐标；每件编码物先在童话因果中完成任务。"
+  - constraint: "关键科技不可直接解释"
+    narrative_function: "文本精确交代现象、操作和材料，保留机制空白供地球解码。"
+  - constraint: "三个故事必须连续且可独立讲述"
+    narrative_function: "第一篇制造追杀，第二篇装配海路与人物知识，第三篇回收全部道具并完成复位和远航。"
+
+encoded_science:
+  - code_system: "香皂小船 + 卷曲并被熨平的雪浪纸"
+    mapped_mechanism: "空间曲率驱动；减小飞船后方空间曲率，由前方较大曲率牵引飞船。"
+    status: "confirmed_in_decode"
+    internal_evidence:
+      - "sources/01_王国的新画师.md:L88-L103"
+      - "sources/03_深水王子.md:L26-L45"
+    validation_evidence: "../三体Ⅲ-死神永生/scenes/scene_07.md:L6-L49"
+  - code_system: "旋转黑伞的离心调速 + 深水王子远近等大 + 无重量高速魔泡"
+    mapped_mechanism: "光速恒定与光的无静质量；进一步指向降低真空光速。"
+    status: "confirmed_in_decode"
+    internal_evidence:
+      - "sources/01_王国的新画师.md:L108-L121"
+      - "sources/03_深水王子.md:L52-L66"
+    validation_evidence: "../三体Ⅲ-死神永生/scenes/scene_07.md:L55-L89"
+  - code_system: "饕餮海环形封锁、王国与外界彻底隔绝、无故事生活"
+    mapped_mechanism: "把局部真空光速降到系统逃逸速度以下形成低光速黑洞，即黑域；文明无法逃出，以自我囚禁发布宇宙安全声明。"
+    status: "confirmed_in_decode"
+    internal_evidence:
+      - "sources/02_饕餮海.md:L88-L98"
+      - "sources/03_深水王子.md:L124-L135"
+    validation_evidence: "../三体Ⅲ-死神永生/scenes/scene_07.md:L170-L186"
+  - code_system: "针眼把三维人物变成无厚度的精密画像"
+    mapped_mechanism: "二向箔触发三维空间向二维跌落，太阳系成为厚度为零的画。"
+    status: "confirmed_by_later_event"
+    internal_evidence:
+      - "sources/01_王国的新画师.md:L24-L60"
+      - "sources/03_深水王子.md:L108-L119"
+    validation_evidence: "../三体Ⅲ-死神永生/scenes/scene_10.md:L8-L40"
+  - code_system: "黑伞能抵御被画入画中"
+    mapped_mechanism: "可能附带表达黑域对降维打击的防护价值。"
+    status: "open"
+    reason_open: "IDC明确从伞解出光速，却未在童话解码章单独确认‘伞防画’对应哪一种防御机制。"
+
+encoding_architecture:
+  surface_layer: "完整的宫廷逃亡童话"
+  double_metaphor: "童话道具先指向现实中间物，再由中间物指向科技；如香皂帆船先指向肥皂纸船，再指向曲率驱动。"
+  meaning_coordinate: "另一条单层意象固定含义；如雪浪纸的卷曲与熨平固定空间曲率。"
+  redundancy: "同一目标由伞、深水王子、魔泡或饕餮海等多个坐标交叉约束。"
+  security_effect: "错误解读仍能在童话内部成立，监听者难以区分情节装饰与情报坐标。"

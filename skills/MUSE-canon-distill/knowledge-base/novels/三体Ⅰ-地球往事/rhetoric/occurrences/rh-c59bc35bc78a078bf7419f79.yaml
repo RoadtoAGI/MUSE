@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c59bc35bc78a078bf7419f79
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1852
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 这近乎世外桃源的雷达峰
+sensory_mapping: 山中封闭；宁静；远离尘世；绿色栖居；隐蔽入口
+context_fact: 叶文洁在基地获得规律工作、婚姻和技术空间，但山下森林仍遭疯狂砍伐。
+image_mechanism: 雷达峰被山势圈成一块尘世外的安静谷地，基地生活像穿过洞口后的避难世界；“近乎”随即被山下火海和政治现实撕开。
+property_alignment: 偏远峰顶对应隐秘山谷；与外界隔绝对应世外边界；相对规律生活对应桃源安宁；技术人员共同生活对应谷中社区；外部疯狂仍渗入对应并非真正桃源
+context_alignment: 它是带限制词的反讽理想地：基地保护过叶文洁，却建在被砍伐和核战争阴影包围的世界中。
+narrative_function: 先建立安全幻象，再证明人类疯狂即使在最隔绝处也清晰可见。
+transfer_rule: 用桃花源写避世空间时，应匹配隔绝路径、内部秩序、外部动荡，并交代边界是否真的能阻断现实。
+failure_boundary: 场所内部同样充满迫害、与外界往来频繁且没有相对安宁时，桃源即使加“近乎”也难成立。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 红岸基地地理隔绝、生活相对稳定，似乎远离外部社会政治疯狂
+vehicle: 藏在尘世之外、环境宁静且不受战乱侵扰的桃花源
+ground: 基地与外界隔绝对应桃源入口隐蔽；内部秩序相对平静对应桃源免受世乱

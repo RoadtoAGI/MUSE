@@ -1,0 +1,28 @@
+scene_id: S08
+source_notes: scene_S08_beats.md
+patterns:
+- pattern_id: S08-p1
+  beat: 死亡消息的电话链
+  dimension: camera
+  original_move: 只写电话声和挂断动作
+  ai_default_failure: 写眩晕或世界旋转
+  transfer_rule: 写丧亲时用声音通道隔离悲伤
+  quote: 他把电话挂了
+- pattern_id: S08-p2
+  beat: 脚上的老茧
+  dimension: camera
+  original_move: 看遗体时先看脚上老茧
+  ai_default_failure: 写哭泣、触摸或闪回
+  transfer_rule: 写亲密悲伤时聚焦实用细节
+  quote: 两个脚拇指上都有老茧
+- pattern_id: S08-p3
+  beat: 简朴而私密
+  dimension: omission
+  original_move: 用葬仪规格描述悲伤模式
+  ai_default_failure: 展开葬礼仪式细节
+  transfer_rule: 写压抑者时让程序替他说话
+  quote: 简朴而私密
+overall_traits:
+- 物质细节替代心理描写
+- 程序性叙述表达隔离
+- 硬汉叙事自觉运用

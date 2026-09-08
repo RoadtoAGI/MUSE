@@ -1,0 +1,14 @@
+scene_id: '01'
+source_notes: scene_01_beats.md
+patterns:
+- pattern_id: 01-p1
+  beat: 吐血行动
+  dimension: verb
+  original_move: 用连续身体动作替代孤独说明
+  ai_default_failure: 会解释她想让表演更逼真
+  transfer_rule: 写幻想依赖时先写具体执行链
+  quote: 缓缓地，掌控着力道
+overall_traits:
+- 用喧闹写孤独
+- 视角切换制造呼吸口
+- 物理介质承载情感

@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:lu-gui
+work_id: drama:雷雨
+display_name: 鲁贵
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '鲁贵的台词大量是市井白话——"咳""他妈的""你看你这点穷骨头""他妈的，这孩子"+ 频繁的"啪"（吐痰）。他对女儿四凤的台词是"卑下父亲讨钱"模式——"四凤，你别忙，我跟你商量点事""我们家什么时候借钱不还账""你看你这是孩子""你跟你妈"——他用"亲生父亲"的身份压迫四凤。他对妻子鲁侍萍的台词是冷嘲热讽
+    + 翻旧账——"你看你这点穷相""你妈嫁给我，我就是他爸爸""我没有在家养私孩子还带着个嫁人"。他对朴园的台词永远是"是，老爷""老，老，老爷""客，等，等了好半天啦"——他在朴园面前永远结巴。他对蘩漪的台词是"低声""谄笑""鞠躬"+
+    突然挑明——"我们的侍萍，实在还不知道呢"（A4 用一句话给蘩漪整个相片密钥）。**他最深的语言习惯：他几乎没有潜台词**——他在剧本里的功能正是"说出别人不会说的脏话"，让其他人维持体面。
+
+
+    佐证：scenes/scene_A1.md:L29-L57（与四凤讨钱的市井语 +"咳""他妈的"）；scenes/scene_A4.md:L191（用一句"我们的侍萍，实在还不知道呢"给蘩漪开侍萍身份的密钥）'
+  evidence_locators:
+  - scenes/scene_A1.md:L29-L57
+  - scenes/scene_A4.md:L191
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

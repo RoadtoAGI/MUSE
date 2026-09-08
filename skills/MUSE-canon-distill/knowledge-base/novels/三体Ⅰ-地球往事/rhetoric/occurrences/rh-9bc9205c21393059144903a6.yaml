@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-9bc9205c21393059144903a6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1328
+chapter: 第17章 三体问题
+figure_type: metaphor
+quote: 思想从没有像这样全功率转动过
+sensory_mapping: 机械旋转；能量；速度；脑内活动
+context_fact: 发现第三体复杂运动后，魏成整日思考，旁人甚至怀疑他精神出了问题。
+image_mechanism: 大脑被装上动力轴，平日懒散相当于低速待机，三体问题则把能量表推到满格；看不见的专注变成可听见的高速机器。
+property_alignment: 全部注意投入对应满功率供能；连续推演对应机构不停转动；超过平日状态对应从低速升至极限
+context_alignment: 魏成自称懒散，对照机器突然满载能精确表现三体问题第一次调动他的全部能力。
+narrative_function: 显示兴趣带来的性格反转，并为爱情比喻建立强烈投入基线。
+transfer_rule: 用功率写思考强度时，应给出平时基线、能量投入、持续输出和接近上限的证据。
+failure_boundary: 思维只是短暂灵光、过程缓慢休闲或人物并未投入全部资源时，全功率会把瞬时兴奋误作持续负荷。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 魏成全部注意与数学直觉以前所未有的强度持续处理三体问题
+vehicle: 机器以额定最大功率高速运转
+ground: 认知资源全部投入对应机器输出达到上限；思路连续产生对应内部机构高速转动

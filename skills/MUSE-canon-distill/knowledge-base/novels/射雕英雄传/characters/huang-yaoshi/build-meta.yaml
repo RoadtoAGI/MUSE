@@ -1,0 +1,23 @@
+mode: reference
+display_name: 黄药师
+role_slug: huang-yaoshi
+source_novel: 射雕英雄传
+built_from:
+  - pipeline/phase2_character.yaml
+  - scenes/scene_18.md
+  - scenes/scene_19.md
+  - scenes/scene_30.md
+built_at: 2026-04-15T00:00:00Z
+skill_version: 1
+builder_skill: character-kb-distill
+locator_count: 6
+coverage_note: |
+  黄药师出场 6 个场景（S14/S18/S19/S20/S30/S31）。本次蒸馏以 S18、S19、S30 为核心佐证：
+  - S18 提供他作为才具宗师的完整展示（三道试题——武+文+学识全维考较）
+  - S19 提供他与全真七子北斗阵对战+欧阳锋偷袭谭处端致死的大场景
+  - S30 提供他与郭靖北极星位对阵时"心念忽动"收掌的核心边界显影+"不错，通通是我杀的"承担式沉默
+
+  S14（华山度化裘千仞场景）和 S20（烟雨楼大战）、S31（华山论剑）未作主佐证——他在这些场景更多是"被动参与者"角色，核心人格已由上述三场景充分覆盖。
+  未破例读 full_text.md。
+
+  未覆盖侧面：他与亡妻冯衡的前史（散布在多回回忆中，包括黄蓉背诵九阴真经害冯衡早死的完整细节）。这部分在本 SKILL 身份与处境段中以概述方式纳入，具体原文佐证未切。如需该维度深度，建议读第17-18回的梅超风回忆段。

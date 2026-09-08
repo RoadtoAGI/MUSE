@@ -1,0 +1,42 @@
+scene_id: EPILOGUE
+source_notes: scene_EPILOGUE_beats.md
+patterns:
+- pattern_id: EPILOGUE-p1
+  beat: 声音回环
+  dimension: transition
+  original_move: 开幕全黑先续响序幕末句台词，灯亮景同序幕，十年与十秒重合。
+  ai_default_failure: 重新铺景、重新介绍时间地点。
+  transfer_rule: 框架闭合用同一句台词对接，让正剧成为回答。
+  quote: 弟弟声：姐姐，你去问她
+- pattern_id: EPILOGUE-p2
+  beat: 称量绝望
+  dimension: exchange
+  original_move: 问答全是已知信息，半晌两次插入，称的是绝望重量。
+  ai_default_failure: 借问答补叙十年间情节。
+  transfer_rule: 尾声问答可以零信息量，节奏与停顿即内容。
+  quote: 我找了十年了，——没有一点影子
+- pattern_id: EPILOGUE-p3
+  beat: 呼名无应
+  dimension: exchange
+  original_move: 朴园两唤侍萍，痴妇起身走向窗前，姑乙摆手止他。
+  ai_default_failure: 安排刹那清醒或一滴眼泪作回应。
+  transfer_rule: 终场相认就让它失败，无应答是最大的应答。
+  quote: 老人（低声）侍萍！侍——
+- pattern_id: EPILOGUE-p4
+  beat: 手套插曲
+  dimension: blocking
+  original_move: 死寂中孩童哭着找手套，翻出后欢叫跑走，杂音撞入哀静。
+  ai_default_failure: 维持统一哀伤调，删掉一切杂音。
+  transfer_rule: 收场前放一拍童趣杂音，悲剧底色靠对比定影。
+  quote: 在这儿，在这儿！（舞着手套）
+- pattern_id: EPILOGUE-p5
+  beat: 三动作定格
+  dimension: transition
+  original_move: 下雪、读圣经、望炉火三个无言动作渐暗落幕，无幕词。
+  ai_default_failure: 加总结性台词或画外音点题。
+  transfer_rule: 终幕定格用并置的无言动作摆出，拒绝总结。
+  quote: 拿了一本圣经读着
+overall_traits:
+- 尾声与序幕共用景乐与台词接口，全剧成回环
+- 减法收场：零新信息、零总结、零回应
+- 童趣与死寂同台，对比调出哀静离场情绪

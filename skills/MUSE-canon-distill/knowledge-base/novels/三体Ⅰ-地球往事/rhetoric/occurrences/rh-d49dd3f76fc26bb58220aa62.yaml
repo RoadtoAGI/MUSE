@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-d49dd3f76fc26bb58220aa62
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2476
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 这个计划力图通过一系列的‘神迹’，建造一个科学逻辑无法解释的虚假宇宙
+sensory_mapping: 搭建穹顶；虚假星空；人工结构；封闭世界；规则失真
+context_fact: 神迹计划要让非科学思维压倒科学思维，使三体文明成为宗教崇拜对象。
+image_mechanism: 单次异常不只是一块假布景，三体要把多块神迹拼接成封闭穹顶；公众抬头、实验和思考时处处撞上假规则，遂相信自己住在另一宇宙。
+property_alignment: 单个神迹对应建筑材料；持续时间对应施工周期；多种异常对应完整结构；科学无法解释对应假宇宙规则；公众认知对应居住者；宗教崇拜对应接受建造者权威
+context_alignment: 真实智子能直接作用于观测，虚假宇宙不是宣传口号而具有可持续感官材料。
+narrative_function: 把认知战从零散骗局提升为环境建造，说明其摧毁科学信任的方式。
+transfer_rule: 用建造虚假世界写欺骗时，应有多项协调假象、稳定持续、规则闭合、受众被包围和建造者控制。
+failure_boundary: 异常彼此矛盾、可被独立验证揭穿或只影响少数人时，无法拼成可居住的虚假宇宙。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体通过持续制造可观测异常，让地球公众误以为科学规律失效，形成系统性错误世界观
+vehicle: 建造者搭起一整座人工宇宙，表面景象完整连贯却由虚假材料和规则构成
+ground: 连续异常对应建筑构件；错误解释体系对应虚假宇宙；计划性制造对应施工；公众长期居于假象对应进入建筑

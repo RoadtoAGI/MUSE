@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dce080df786c53a602f18693
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2375
+chapter: 第33章 监听员
+figure_type: simile
+quote: 一个个高低错落的波峰就像一粒粒大小不等的沙子，整条线就像是所有沙粒排成行形成的一维沙漠，荒凉寂寥，长得令人无法忍受
+sensory_mapping: 屏幕细线；颗粒起伏；沙地荒凉；无限远行；干燥寂静
+context_fact: 1379号监听员长期观看宇宙噪声波形，在最孤寂午夜等待可能永远不会出现的文明信号。
+image_mechanism: 抽象曲线先颗粒化，每个峰变成一粒砂；所有砂再被限制到时间轴上首尾排列，二维沙海压缩为无法绕行的一条荒漠路，监听员只能沿它无穷等待。
+property_alignment: 单个波峰对应单粒沙；峰高差异对应砂粒大小；随机起伏对应无规则铺砂；时间轴无限对应沙漠无边；噪声无意义对应沙地无地标；长期监听对应沿线永远行走
+context_alignment: 窗外三体大地已如冷金属，屏内宇宙又成一维沙漠，监听员被夹在行星与宇宙两种荒凉之间。
+narrative_function: 把信号理论中的随机噪声转成可步行的孤独空间，具体化监听职业的漫长煎熬。
+transfer_rule: 把时间序列写成地貌时，应把采样点、振幅、轴向延伸、信息密度和观察者的时间体验逐项空间化。
+failure_boundary: 波形周期清晰、含稳定编码或监听时段很短时，沙漠无地标和无归宿的核心不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 监听屏上由无意义随机噪声组成、沿时间无限延伸而始终不出现智慧信息的电波曲线
+vehicle: 大小不等的沙粒首尾排成只有长度的一维沙漠，可无限行走却没有道路、生命或归宿
+ground: 离散波峰对应沙粒；随机峰高对应沙粒大小不一；无限时间轴对应无尽沙漠；无信息对应荒漠无生命和地标

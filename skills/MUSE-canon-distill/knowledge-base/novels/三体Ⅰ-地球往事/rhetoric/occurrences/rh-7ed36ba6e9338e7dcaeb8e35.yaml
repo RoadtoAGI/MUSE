@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7ed36ba6e9338e7dcaeb8e35
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2143
+chapter: 第29章 第二红岸基地
+figure_type: metaphor
+quote: 这一天，被公认为地球三体运动的诞生日
+sensory_mapping: 分娩起点；新生命；生日标记；从无到有；成长
+context_fact: 近两千成员在审判日号上宣誓，叶文洁接受最高统帅身份，三体运动从理念变为组织。
+image_mechanism: 长期监听、招募和信念积累被视为胎内发育，宣誓声像出生啼哭；从这天起，组织可脱离创始人的个人经历自行成长。
+property_alignment: 秘密筹备对应孕育期；伊文斯与叶文洁对应生成者；首批成员集结对应身体成形；宣誓对应出生信号；确定统帅对应生命系统建立；后续扩大对应成长
+context_alignment: 下一章马上叙述运动派别和扩张，诞生日为组织传记设定零点。
+narrative_function: 以生命时间标记政治组织成立，并把后续发展自然化为成长史。
+transfer_rule: 用诞生日写组织成立时，应有此前孕育、明确成形事件、独立运作能力和可追溯的后续成长。
+failure_boundary: 组织早已完整活动、当天只是普通宣传会，或随后立即解散时，出生日期会虚构断点。
+quality_assessment: conventional
+confidence: 0.98
+review_status: reviewed
+tenor: 第二红岸确认三体舰队、首批组织成员公开集会并确立最高统帅的创建时刻
+vehicle: 一个生命体完成孕育并在特定日期出生，从此拥有独立存在和成长历史
+ground: 此前分散准备对应孕育；首次组织成形对应出生；随后成员扩张对应成长；日期成为起点对应生日纪念

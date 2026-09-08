@@ -1,0 +1,65 @@
+[
+  {
+    "id": "C001",
+    "text": "空明拳由周伯通在桃花岛密室传授郭靖（含 72 路空明拳与左右互搏术）",
+    "type": "mentor_of_skill",
+    "source_locators": [
+      "scenes/scene_22.md:L3-L3"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C002",
+    "text": "江南六怪从江南追到蒙古，授艺郭靖十年",
+    "type": "mentor_of_skill",
+    "source_locators": [
+      "SKILL.md L12"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C003",
+    "text": "马钰暗授郭靖全真内功两年",
+    "type": "mentor_of_skill",
+    "source_locators": [
+      "SKILL.md L12"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C004",
+    "text": "郭靖是郭啸天的遗腹子（郭啸天被金兵与宋官段天德勾结屠戮于牛家村）",
+    "type": "lineage",
+    "source_locators": [
+      "SKILL.md L12"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C005",
+    "text": "郭靖被成吉思汗封为金刀驸马，许配华筝公主",
+    "type": "canonical_identity_label",
+    "source_locators": [
+      "SKILL.md L12"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C006",
+    "text": "郭靖出生于临安府牛家村",
+    "type": "birthplace_or_origin",
+    "source_locators": [
+      "SKILL.md L12"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "C007",
+    "text": "郭靖随成吉思汗西征参与攻打花剌子模（撒麻尔罕之战提出'攻而不攻，不攻而攻'之策）",
+    "type": "historical_participation",
+    "source_locators": [
+      "scenes/scene_13.md:L2-L2"
+    ],
+    "confidence": "high"
+  }
+]

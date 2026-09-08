@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-962638a57e4fc99bdb0c3f40
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L219
+chapter: 第3章 射手和农场主
+figure_type: analogy
+quote: 它们把这个神枪手一时兴起的随意行为，看成了自己宇宙中的铁律
+sensory_mapping: 视觉；空间维度；因果
+context_fact: 科学边界用射手假说质疑规律的本体地位。
+image_mechanism: 先限制观察者只能生活在靶面，再让外部枪手制造规律性孔洞；信息边界与原因边界错开，错误归纳便可一步步复演。
+property_alignment: 二维生物只见孔分布对应人类只见可观测现象；枪手行为来自平面外对应原因处于观察维度外；有限等距样本对应科学归纳稳定规律
+context_alignment: 靶面、孔距和观察者形成封闭模型，直接显出观测范围限制。
+narrative_function: 把抽象认识论怀疑变成二维寓言。
+transfer_rule: 构造认识边界类比时，应明确观察者可见维度、外部因果位置、样本模式和由样本得出的结论。
+failure_boundary: 模型只证明逻辑上可能误认，不能据此断言现实规律一定由高维主体随意制造。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 观察者可能把更高层主体的局部偶然行为误认成自然规律
+vehicle: 二维靶面生物把神枪手等距打孔归纳为宇宙定律
+ground: 二维生物只见孔分布对应人类只见可观测现象；枪手行为来自平面外对应原因处于观察维度外；有限等距样本对应科学归纳稳定规律

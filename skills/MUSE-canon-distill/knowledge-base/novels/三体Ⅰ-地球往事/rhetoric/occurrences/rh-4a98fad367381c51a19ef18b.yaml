@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-4a98fad367381c51a19ef18b
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L606
+chapter: 第7章 疯狂年代
+figure_type: metaphor
+quote: 早在几年前，你就嗅出了知识界的政治风向
+sensory_mapping: 嗅觉；空气流动；方向；预警；心理判断
+context_fact: 绍琳提前修改物理定律名称以适应政治环境。
+image_mechanism: 政治迹象被稀释进空气，普通视线尚未发现，绍琳已像警觉动物抬头嗅闻；风把未来压力的来向变成可定位方向。
+property_alignment: 政治变化尚未公开对应气味不可见；细微信号可提前感知对应嗅觉远距预警；意识形态趋势有方向对应风有来向；据此调整行为对应动物迎风避险
+context_alignment: 叙述赞叹又讽刺她的机敏，嗅觉突出早知危险而非思想认同。
+narrative_function: 刻画绍琳的政治敏感与机会性，解释她今日背叛。
+transfer_rule: 写提前识势时，可把微弱迹象变成随风传播的气味，并交代人物依据哪些先兆调整方向。
+failure_boundary: 趋势已有公开命令、人物靠正式信息推理或局势没有明确走向时，“嗅风”会神秘化正常判断。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 绍琳从细微信号中提前判断知识界政治变化的方向
+vehicle: 动物用嗅觉察觉尚未看见的气味，并据风的来向判断变化
+ground: 政治变化尚未公开对应气味不可见；细微信号可提前感知对应嗅觉远距预警；意识形态趋势有方向对应风有来向；据此调整行为对应动物迎风避险

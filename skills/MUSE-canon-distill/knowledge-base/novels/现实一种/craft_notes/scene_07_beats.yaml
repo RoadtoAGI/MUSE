@@ -1,0 +1,28 @@
+scene_id: '07'
+source_notes: scene_07_beats.md
+patterns:
+- pattern_id: 07-p1
+  beat: 妻子代舔
+  dimension: camera
+  original_move: 固定窗后远景只给行为声音
+  ai_default_failure: 会补写母亲为儿牺牲心理
+  transfer_rule: 旁观暴力时保留外部距离
+  quote: 妻子的模样十分贪婪
+- pattern_id: 07-p2
+  beat: 皮皮舔血
+  dimension: verb
+  original_move: 用愉悦味觉词写舔血
+  ai_default_failure: 会补充不理解意味着什么
+  transfer_rule: 写认知错位时用正面感官词
+  quote: 这血使他觉得更可口
+- pattern_id: 07-p3
+  beat: 踢杀
+  dimension: omission
+  original_move: 硬动词写轨迹后跳切反应
+  ai_default_failure: 会立刻写父亲嘶吼冲出
+  transfer_rule: 重大反转后可延迟情绪爆发
+  quote: 身体腾空而起
+overall_traits:
+- 视角跳切替代叙事判断
+- 正面味觉词承载负面事件
+- 用同时合流两条暴力线

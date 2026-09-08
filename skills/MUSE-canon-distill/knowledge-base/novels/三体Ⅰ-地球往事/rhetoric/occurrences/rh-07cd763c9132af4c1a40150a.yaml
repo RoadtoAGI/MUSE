@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-07cd763c9132af4c1a40150a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2132
+chapter: 第29章 第二红岸基地
+figure_type: simile
+quote: 它像巨轮的一面圆形的大帆
+sensory_mapping: 圆形白面；高耸竖立；海风压力；船体剪影；帆布张开
+context_fact: 油轮被改造成第二红岸基地，巨型抛物面天线是叶文洁认出其红岸功能的关键设施。
+image_mechanism: 技术天线的金属圆面被看成船帆，通讯方向替代航行风向；它在甲板上张开，使整艘船仿佛由接收宇宙电波来驱动。
+property_alignment: 天线薄阔对应帆面；竖立中部对应桅杆位置；圆弧张开对应鼓起帆形；海风轰鸣对应帆受风；定向接收对应帆朝向动力来源
+context_alignment: 审判日号既是真船又是红岸通讯站，船帆比喻将新增设备自然并入海上载体，同时暗示其航向由外星信息决定。
+narrative_function: 让巨型技术设施获得可视尺度，并把通讯使命写成巨轮的驱动力。
+transfer_rule: 把船上薄面设备写成帆时，应匹配尺寸、竖立位置、朝向变化、风中动态及它对整船功能或方向的支配。
+failure_boundary: 天线平放甲板、体量很小、位于密闭舱内或不受风和方向影响时，大帆形象会失去空间依据。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 竖立在审判日号中部、面积巨大且呈圆形的抛物面通讯天线
+vehicle: 船只桅杆上高高张开、承受海风并支配船体轮廓的一面大帆
+ground: 天线巨大薄面对应帆面；竖立船中部对应桅杆挂帆位置；海风中迎风对应帆受风

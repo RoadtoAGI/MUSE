@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-dde92554a9edfd0cac4e0fc4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1294
+chapter: 第16章 三体、哥白尼、宇宙橄榄球、三日凌空
+figure_type: metaphor
+quote: 游戏对走对路的人是一路放行的
+sensory_mapping: 道路；关卡；步行推进；方向
+context_fact: 亚里士多德以游戏规则判断汪淼理论错误，正准备火刑；三日随即出现并证明汪淼正确。
+image_mechanism: 抽象推理变成分岔路线，游戏系统像沿途哨卡检查答案；正确者不必强行突破，门会一扇扇打开。
+property_alignment: 理论选择对应道路方向；验证节点对应检查关卡；进入下一级对应继续前行；错误理论受罚对应走错路被拦截
+context_alignment: 此刻说话者误判方向，稍后灾变反而为汪淼开放第二级，路径规则形成即时戏剧反讽。
+narrative_function: 显明游戏的筛选机制，并为汪淼从火刑到升级的反转蓄势。
+transfer_rule: 用道路写认知筛选时，应设置分岔、验证关卡、放行条件和可辨终点，让后续事件实际检验选路。
+failure_boundary: 系统奖励与真理无关、路线可同时成立或没有逐级门槛时，“走对路”会把设计者偏好当成客观正确。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 《三体》依据玩家是否提出正确理论决定是否允许继续体验下一阶段
+vehicle: 设有检查关卡的道路，对方向正确的行人连续开放通道
+ground: 玩家推理方向正确对应行人选中正确路线；系统解除阻碍推进内容对应沿途关卡放行

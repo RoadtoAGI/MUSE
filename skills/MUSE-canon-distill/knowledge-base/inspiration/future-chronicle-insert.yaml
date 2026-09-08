@@ -1,0 +1,25 @@
+card_id: future-chronicle-insert
+pattern_name: 编年史插件
+dramatic_function: 正文中嵌后世史料节选：用未来视角压缩过渡期、预告灾难制造宿命反讽，跨纪元叙事免于流水账并获得双重时间海拔
+applicability: 适合跨度数十年以上的叙事；史料段须自带观点与格言密度，承担张力，写成干瘪设定罗列即失效（单书孤证，验证面窄）
+reuse_candidates:
+- 《时间之外的往事》书名
+- 危机/威慑/掩体纪元命名
+- 具体史实内容
+tags:
+- 史料体
+- 时间跨度
+- 宿命反讽
+source_scenes:
+- novel: 三体Ⅲ-死神永生
+  scene_id: S17
+  note: 阶梯计划史评以火龙出水类比，格言收束
+- novel: 三体Ⅲ-死神永生
+  scene_id: S21
+  note: 三条生路文书并列，为抉择提供海拔
+- novel: 三体Ⅲ-死神永生
+  scene_id: S18
+  note: 威慑失败反思插于废墟场景间，互为反讽
+phase_affinity:
+- 1
+- 4

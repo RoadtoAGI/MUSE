@@ -1,0 +1,23 @@
+card_id: failed-restitution-corporal
+pattern_name: 补偿失败转刑罚
+dramatic_function: 让理性补偿失效，迫使人物滑向以身偿债的暴力逻辑
+applicability: 适合复仇、家庭债务、荣誉冲突；若赔偿可被接受则不成立（单书孤证，验证面窄）
+reuse_candidates:
+- 五千元存折
+- 舔血仪式
+- 兄弟同院
+tags:
+- 交换逻辑
+- 复仇升级
+- 家庭审判
+source_scenes:
+- novel: 现实一种
+  scene_id: S06
+  note: 金钱赎罪被拒后，孩子被当作债务标的交出
+- novel: 现实一种
+  scene_id: S07
+  note: 象征性惩罚未能闭合冲突，反而引发新死亡
+phase_affinity:
+- 3
+- 4
+- 5

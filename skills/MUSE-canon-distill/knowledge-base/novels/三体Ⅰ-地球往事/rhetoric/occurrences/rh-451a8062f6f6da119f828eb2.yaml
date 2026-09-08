@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-451a8062f6f6da119f828eb2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1607
+chapter: 第19章 聚会
+figure_type: metaphor
+quote: 它们的到来对病入膏肓的人类文明总是个福音
+sensory_mapping: 听觉宣告；宗教仪式；光明希望；救赎到来
+context_fact: 发言者并不知道三体文明性质，却在“人类绝症”诊断后断言其任何形式的到来都有益。
+image_mechanism: 未知舰队尚未出现，先被转换成从远方传来的救赎宣告；听者不必检验来客手段，只需像信徒一样把到来本身当作希望。
+property_alignment: 人类困境对应等待救赎的苦难；三体到来对应福音传入；文明改善期待对应获救承诺；聚会者欢迎对应信徒接受喜讯
+context_alignment: 宗教词汇暴露ETO式信仰结构：未知外星力量被预设为救世者，国电领导随即以阿兹特克毁灭结局指出风险。
+narrative_function: 把政治判断提升为救赎信仰，显示聚会核心成员对三体的非理性期待。
+transfer_rule: 用福音写新力量时，应明确受苦状态、被许诺的救赎和接受者为何信任消息来源。
+failure_boundary: 来者目标未知、可能毁灭接受者且没有救援承诺时，福音只是信徒投射；本段有意让这一失配暴露危险。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 老哲学家把三体文明介入视为能够拯救或改善人类的重大好消息
+vehicle: 宗教使者向受苦者宣告救赎已经来临的喜讯
+ground: 外星到来被期待带来文明转机对应福音宣告救赎；失望者获得希望对应信徒听见好消息

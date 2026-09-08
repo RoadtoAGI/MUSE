@@ -1,0 +1,109 @@
+analysis_meta:
+  novel: "海的女儿"
+  source_text: "full_text.md"
+  source_form: "单篇童话，无章节标题"
+  evidence_note: "原文为一整行，来源以情节段落描述标注。"
+
+arc_expansions:
+  - arc_id: ARC-1
+    sequences:
+      - seq_id: ARC1-SEQ1
+        name: "海底家园与异质欲望"
+        core_conflict: "小人鱼拥有完整美丽的海底生活，却对不可抵达的人间更感兴趣。"
+        escalation_direction: "从世界奇观铺陈递进到她个人花园中的太阳花和人类石像。"
+        sequence_climax: "祖母承诺十五岁可以浮上海面，等待成为欲望倒计时。"
+        closed: "海底世界的生活秩序被确立。"
+        opened: "小人鱼为什么会比姐姐们更强烈地向往人间。"
+      - seq_id: ARC1-SEQ2
+        name: "姐妹上浮的欲望对照"
+        core_conflict: "姐姐们体验人间后回归海底，小人鱼却越听越渴望。"
+        escalation_direction: "从城市、夕阳、河流、海面、冰山五种见闻递进到她自己的孤独等待。"
+        sequence_climax: "她说自己一定会喜欢上面的世界和那里的人。"
+        closed: "姐姐们对人间的新鲜感退潮。"
+        opened: "小人鱼的向往不只是旅行好奇，而是身份越界。"
+      - seq_id: ARC1-SEQ3
+        name: "船宴与秘密救援"
+        core_conflict: "小人鱼第一次接触人间美景，立刻遇到人类死亡危险。"
+        escalation_direction: "从王子生日盛宴的迷恋递进到风暴、沉船和救命行动。"
+        sequence_climax: "她把王子送上神庙岸边，却看见另一个女子得到他的微笑。"
+        closed: "王子被救活。"
+        opened: "救命事实无人知晓，爱情从一开始被误认污染。"
+      - seq_id: ARC1-SEQ4
+        name: "灵魂规则与巫婆决定"
+        core_conflict: "小人鱼想接近王子，但真正障碍是人鱼无灵魂和人类婚姻条件。"
+        escalation_direction: "从偷偷观看王子递进到询问祖母、得知无灵魂规则、独自离开舞会。"
+        sequence_climax: "她决定去找海的巫婆。"
+        closed: "故事目标被确定：王子爱情加不灭灵魂。"
+        opened: "跨界愿望需要付出什么代价。"
+    arc_progression_note: "ARC-1 用四级递进完成从审美向往到存在论危机的转化。"
+
+  - arc_id: ARC-2
+    sequences:
+      - seq_id: ARC2-SEQ1
+        name: "巫婆门槛"
+        core_conflict: "小人鱼必须穿越恐怖地带，面对巫婆把愿望说成悲惨结局。"
+        escalation_direction: "从漩涡、泥地、珊瑚虫森林递进到白骨房屋和契约条款。"
+        sequence_climax: "她接受失声、剧痛、不可回头和失败即死亡的全部条件。"
+        closed: "跨界交换条款被明确。"
+        opened: "失去声音后她如何让王子知道真相。"
+      - seq_id: ARC2-SEQ2
+        name: "变人与入宫"
+        core_conflict: "她得到人形，却以疼痛、赤裸、失语的弱势状态进入王子世界。"
+        escalation_direction: "从告别家园递进到服药昏死、王子发现、宫廷收留。"
+        sequence_climax: "王子把她命名为自己的哑巴孤儿。"
+        closed: "她物理上进入人间并留在王子身边。"
+        opened: "亲密陪伴是否能转化为婚姻爱情。"
+    arc_progression_note: "ARC-2 把所有外部奇幻规则落到主角身体上，形成后续每场戏的持续代价。"
+
+  - arc_id: ARC-3
+    sequences:
+      - seq_id: ARC3-SEQ1
+        name: "无声陪伴"
+        core_conflict: "小人鱼越靠近王子，越无法说明自己是谁。"
+        escalation_direction: "从宫廷舞蹈的惊艳递进到骑马登山、夜晚泡脚、家族远望。"
+        sequence_climax: "王子承认亲爱她，却说明自己只爱神庙中救他的女子。"
+        closed: "她获得情感亲密。"
+        opened: "情感亲密和婚姻爱情之间的断裂被暴露。"
+      - seq_id: ARC3-SEQ2
+        name: "邻国婚配"
+        core_conflict: "王子以为自己不会爱邻国公主，小人鱼也仍保留微弱希望。"
+        escalation_direction: "从出航看公主递进到皇城宴会、公主出现、王子误认成立。"
+        sequence_climax: "王子拥抱公主，认定她就是救命恩人。"
+        closed: "谁会成为王子新娘的问题闭合。"
+        opened: "小人鱼如何面对黎明死亡。"
+    arc_progression_note: "ARC-3 的冲击来自信息不对称：读者和小人鱼知道真相，王子永远错认。"
+
+  - arc_id: ARC-4
+    sequences:
+      - seq_id: ARC4-SEQ1
+        name: "婚礼夜的死亡倒计时"
+        core_conflict: "众人庆祝婚礼，小人鱼独自等待灭亡。"
+        escalation_direction: "从教堂婚礼的神圣欢乐递进到船上舞蹈、夜半安静、朝东方等待晨曦。"
+        sequence_climax: "姐姐们浮上海面，递来用头发换来的刀。"
+        closed: "她不再只能被动等死，出现自救路径。"
+        opened: "她是否会用王子的血换回自己生命。"
+      - seq_id: ARC4-SEQ2
+        name: "泡沫化与天空女儿"
+        core_conflict: "跃海后她预期彻底灭亡，却被天空女儿接引，发现牺牲不是终点而是另一种考验的起点。"
+        escalation_direction: "从泡沫升起递进到天空女儿的声音解释新形态、三百年善行规则与开放式救赎。"
+        sequence_climax: "她升入天空之列，第一次感到要流出眼泪——这是人鱼时代不可能拥有的人类/精灵能力。"
+        closed: "'她已死'的预期被改写，泡沫不再等同于灭亡。"
+        opened: "三百年善行考验，灵魂可能在更长的时间尺度上完成。"
+    arc_progression_note: "ARC-4 把前文所有规则压缩到两个动作：扔刀（SEQ1）完成价值表达，升华（SEQ2）完成存在形态翻转。"
+
+causal_chain: "ARC1-SEQ1 建立海底安全与人间向往 -> ARC1-SEQ2 用姐姐们的回归反衬小人鱼欲望不可消退 -> ARC1-SEQ3 她救王子并被误认剥夺表达位置 -> ARC1-SEQ4 灵魂规则迫使她求助巫婆 -> ARC2-SEQ1 交易夺走声音 -> ARC2-SEQ2 她进入宫廷却无法讲真相 -> ARC3-SEQ1 陪伴不能变成婚姻爱情 -> ARC3-SEQ2 王子误认邻国公主闭合爱情失败 -> ARC4-SEQ1 刀提供谋杀自救选择 -> ARC4-SEQ2 扔刀把失败转化为慈悲性升华。"
+
+arc_progression:
+  impact_escalation: "每个 Arc 高潮都提高不可逆程度：决定找巫婆只是离家意向，变人失声是身体不可逆，王子认出公主是爱情不可逆，扔刀跃海是生命形态不可逆。"
+  causal_chain: "向往人间 -> 救王子导致爱与误认 -> 灵魂规则迫使交易 -> 失声导致无法纠正误认 -> 王子婚礼触发死亡期限 -> 姐姐递刀制造最终危机 -> 扔刀完成价值表达。"
+
+narrative_threads:
+  - name: "爱情线"
+    description: "从审美迷恋到救命、陪伴、误认、祝福，逐步剥离占有欲。"
+    primary_arcs: [ARC-1, ARC-2, ARC-3, ARC-4]
+  - name: "灵魂线"
+    description: "从不知道人鱼无灵魂，到试图借王子获得灵魂，再到通过善行创造灵魂。"
+    primary_arcs: [ARC-1, ARC-4]
+  - name: "家庭线"
+    description: "家族从保护性规则、忧伤探望，到以剪发换刀提供自救，持续代表回到旧生命的诱惑。"
+    primary_arcs: [ARC-1, ARC-3, ARC-4]

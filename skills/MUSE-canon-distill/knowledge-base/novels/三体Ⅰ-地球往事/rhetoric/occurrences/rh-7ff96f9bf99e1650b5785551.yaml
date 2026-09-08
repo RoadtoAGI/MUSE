@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-7ff96f9bf99e1650b5785551
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1336
+chapter: 第17章 三体问题
+figure_type: simile
+quote: 大眼镜后面的那双眼睛像着了火似的
+sensory_mapping: 视觉；亮度；温度；能量
+context_fact: 申玉菲捡到烧焦废稿后闯入魏成房间，立刻认出三体研究并急切追问。
+image_mechanism: 镜片后的两点目光被直接点燃，普通注视获得亮、热和向前扑动的能量；废稿边缘的真实焦痕又把火意象引入现场。
+property_alignment: 目光明亮对应火光；情绪急切对应火势骤起；注意集中对应火焰聚焦燃烧；对研究的执着对应火不易熄灭
+context_alignment: 她的使命感远超魏成理解，着火眼睛既贴合烧焦算稿，也提前显出此研究对她近乎生死。
+narrative_function: 用第一眼刻画申玉菲的异常执念，推动魏成随她下山。
+transfer_rule: 用眼中着火写热情时，应让亮度、温度、爆发速度和注意方向共同成立，并尽量与现场火源或后果呼应。
+failure_boundary: 目光平静柔和、热情短暂或场景强调冷静计算时，着火会把专注误写成激烈冲动。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 申玉菲看到三体算稿后极度急切、兴奋而专注的目光
+vehicle: 突然燃起、明亮跳动并向外放热的火焰
+ground: 眼神亮度和锐度骤增对应火光点燃；强烈关注似要灼向对象对应火焰集中释放热力

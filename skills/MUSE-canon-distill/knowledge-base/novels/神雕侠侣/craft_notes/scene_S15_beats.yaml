@@ -1,0 +1,28 @@
+scene_id: S15
+source_notes: scene_S15_beats.md
+patterns:
+- pattern_id: S15-p1
+  beat: 剑冢石刻
+  dimension: omission
+  original_move: 武学体系全由石刻与三件实物传递，死者不复活
+  ai_default_failure: 写仿佛看到孤独身影挥剑的幻想段落
+  transfer_rule: 前辈传承用遗物自述，拒绝幻象代讲
+  quote: 重剑无锋，大巧不工
+- pattern_id: S15-p2
+  beat: 山洪练剑
+  dimension: verb
+  original_move: 短动词链模拟水中窒息与突破，领悟是做出来的
+  ai_default_failure: 铺展忽然明白重剑真谛的觉悟独白
+  transfer_rule: 顿悟戏让身体先学会，只写结果不写思辨
+  quote: 口中一条水箭激射而出
+- pattern_id: S15-p3
+  beat: 新月独立
+  dimension: omission
+  original_move: 功成无欢呼，思绪立即转回思念与仇恨占位
+  ai_default_failure: 多写感慨武学之美天人合一
+  transfer_rule: 武功只是工具，叙事动力交还人的欲望
+  quote: 心通其理，手精其术
+overall_traits:
+- 以物代言：全场无人类导师在场
+- 手感落差传递武学境界递进
+- 镜头三层推进：远景中景到石刻特写

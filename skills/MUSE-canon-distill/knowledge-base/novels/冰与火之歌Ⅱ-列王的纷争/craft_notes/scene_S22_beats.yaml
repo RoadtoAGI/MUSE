@@ -1,0 +1,28 @@
+scene_id: S22
+source_notes: scene_S22_beats.md
+patterns:
+- pattern_id: S22-p1
+  beat: 黑暗触觉
+  dimension: camera
+  original_move: 剥夺视觉后用手和声音识人
+  ai_default_failure: 会交代入侵过程
+  transfer_rule: 威胁登场可延迟身份确认
+  quote: 粗糙多茧
+- pattern_id: S22-p2
+  beat: 匕首与歌
+  dimension: omission
+  original_move: 不解释猎狗索歌的原因
+  ai_default_failure: 会让角色说明情感需要
+  transfer_rule: 暧昧动机保持不透明
+  quote: 你答应要唱首歌
+- pattern_id: S22-p3
+  beat: 眼泪触觉
+  dimension: camera
+  original_move: 用非血的湿意间接写眼泪
+  ai_default_failure: 会直接命名他在哭
+  transfer_rule: 硬角色脆弱时不要命名情感
+  quote: 湿湿的不是血
+overall_traits:
+- 感官剥夺制造张力
+- 重要情感永不命名
+- 受害者主动触碰施暴者

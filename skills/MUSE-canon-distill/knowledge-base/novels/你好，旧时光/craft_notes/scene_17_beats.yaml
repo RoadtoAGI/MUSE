@@ -1,0 +1,14 @@
+scene_id: '17'
+source_notes: scene_17_beats.md
+patterns:
+- pattern_id: 17-p1
+  beat: 未完待续
+  dimension: omission
+  original_move: 用空白页和废话替代告白
+  ai_default_failure: 会让角色说谢谢和我感动
+  transfer_rule: 写关系确认时暗示还会继续
+  quote: To be continued
+overall_traits:
+- 手工物件比语言有重量
+- 废话是真实情感反应
+- 留白即最大信息量

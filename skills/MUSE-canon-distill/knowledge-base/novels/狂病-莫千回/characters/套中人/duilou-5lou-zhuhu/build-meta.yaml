@@ -1,0 +1,38 @@
+mode: reference
+display_name: 对楼5楼住户
+role_slug: duilou-5lou-zhuhu
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/套中人/phase3_spine.yaml
+  - pipeline/套中人/phase5_scenes.yaml
+  - pipeline/phase0_conception.yaml
+  - scenes/scene_TZ-S09.md
+  - scenes/scene_TZ-S11.md
+built_at: "2026-05-29T20:40:00+08:00"
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  对楼5楼住户 = "网络暴力人格的末日实体化"反派型样本 —— 不是吴先生型职业猎手，
+  而是 phase0 human_antagonist_typology 中 online_mob_type（对楼网民型）的本篇唯一代表，
+  也是 controlling_idea candidate_a"人性之恶比病毒更可怕"的本篇实证之一
+  （与 702 见死不救、母亲家暴并列三种独立于病毒的人性之恶）。
+  唐志林的"本我/超我"解读（网络暴力是感染者的轻症）在主题上把这个角色与感染者焊在一起。
+
+  从反派视角写（"对手认为自己是对的"）：核心欲望 / 性格真相 / 声音框架均从该住户自我合理化的
+  内部逻辑出发（嫉妒驱动 + "他们活该"开脱），而非外部道德定性。
+
+  软建议覆盖：
+  - 本篇唯一一次进入该角色内心独白（TZ-S09:L25），是性格真相 + 核心欲望的最强证据。
+  - 声音框架跨 2 场取证（TZ-S09 内心独白 + TZ-S11:L79-L83 隔空挑衅脏话），非单点外推。
+  - 边界 4 条均带 locator（不回应善意 / 不认作恶 / 必躲安全距离 / 无共情），均为该反派的关键否定空间。
+  - 弧光起点（边缘网民背景）/ 转折（TZ-S09 嫉妒点燃取弹弓）/ 终点（恶意实体化）三段覆盖。
+
+  单点支撑说明：
+  - 该角色无姓名、信息密度中等，"反串引战网民"出身与"主宰别人生命"动机集中由 TZ-S09:L25
+    一段内心独白承担，是原著给出的唯一直接动机证据，未跨场外推；其余 locator 为外部行为佐证。
+
+  has_canon_ending: true —— 已回 scene 原文核对（scene_TZ-S11.md:L95-L95）：
+  该住户最终被洪扬汽油火球弹弓点燃厨房、被唐志林引来撑门的感染者四肢折断、如皮球般踢下楼、
+  全身每个洞都被塞住而死 = 不可逆物理死亡（因果报应仪式化），物理终局已隔离到 references/canon-ending.md。

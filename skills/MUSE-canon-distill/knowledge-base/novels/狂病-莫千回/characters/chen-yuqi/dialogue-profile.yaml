@@ -1,0 +1,24 @@
+schema_version: dialogue-character/v1
+character_id: novel:狂病-莫千回:chen-yuqi
+work_id: novel:狂病-莫千回
+display_name: 陈雨琪
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她说话直、带刺，日常里习惯用冷笑和反话怼人——嫌人话多就一句"谁问你了，怎么唧唧呱啦说那么多废话"打断，对方说错话就翻个白眼回一句"到底会不会说话呀"。句子短、收得快，吐槽里藏着观察（看到"禁止践踏"的牌子顺嘴接一句"有素质，但不多"）。可一旦压力压到底，她的话会缩成最短的命令式——"闭嘴""快走"——把情绪挡在话外，宁可红着眼眶沉默也不解释。她极少主动谈自己的伤口；真正说不出口的事，她用回避代替言语。
+
+
+    来源：phase2_character.yaml → supporting_cast.陈雨琪 + 地铁/_candidates.md
+
+    佐证：scenes/scene_DT-S01.md:L17-L17 / scenes/scene_DT-S03.md:L11-L11 / scenes/scene_DT-S11.md:L11-L11'
+  evidence_locators:
+  - scenes/scene_DT-S01.md:L17-L17
+  - scenes/scene_DT-S03.md:L11-L11
+  - scenes/scene_DT-S11.md:L11-L11
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

@@ -1,0 +1,163 @@
+analysis_meta:
+  source: 雷雨
+  source_medium: stage_play
+  dramatic_form: tragedy
+  reverse_engineered_from: drama-analysis@0.4.1
+  completed_at: 2026-05-24
+  analyst_notes: |
+    雷雨幕结构 = 序幕 + 4 幕 + 尾声（6 场）。
+    每幕内部曹禺没有用"场"再细分（连续时间 + 单一地点），
+    但每幕可以从"在场人物组合 / 上下场调度"分出若干 sequence。
+
+acts:
+  - act: 0
+    label: prologue
+    function: chorus_frame_distance_setup
+    sequences:
+      - seq_id: P.A
+        scenes: [PROLOGUE]
+        function: 教堂医院客厅——姑姑甲乙照看两个"疯妇"；姊弟谛听；老人（朴园）来探病
+    turn: 鲁妈无声地倒下，姊弟"你去问她 / 你去问她"
+    end_state: 镜头框搭好；后四幕的"现在"被装进"十年后回看"的距离中
+    notes: |
+      没有故事进展，纯结构装置；功能上对应希腊悲剧 chorus 入场。
+
+  - act: 1
+    label: surfacing_morning
+    function: 在郁热的早晨集结所有主要人物 + 暴露父权秩序的运行机制
+    sequences:
+      - seq_id: 1.A
+        scenes: [A1.1_鲁贵威胁四凤]
+        function: 经济胁迫 + "楼上太太 vs 大少爷"秘密被仆人之口提前命名
+      - seq_id: 1.B
+        scenes: [A1.2_大海进场作工人代表]
+        function: 阶级冲突轴登场；大海"我恨他们"
+      - seq_id: 1.C
+        scenes: [A1.3_周冲找四凤 + 蘩漪下楼]
+        function: 周冲"求婚"被四凤拒绝；蘩漪对四凤的怀疑被她对周冲表白后确认
+      - seq_id: 1.D
+        scenes: [A1.4_周萍出场]
+        function: 周萍宣布要去矿上；蘩漪当面被冷淡
+      - seq_id: 1.E
+        scenes: [A1.5_喝药一场]
+        function: 父权的展演仪式——朴园召唤周冲、周萍依次跪劝蘩漪喝药
+      - seq_id: 1.F
+        scenes: [A1.6_朴园训周萍"不规矩"]
+        function: 朴园暗示已知道萍的"在外不规矩"（但他指的是跳舞场喝酒赌钱，
+                  不知道乱伦 + 兄妹关系）
+    turn: 喝药一场——蘩漪被迫当着孩子们喝下药，从"忍"翻转到"复仇启动"
+    end_state: 所有主要人物已聚周公馆；蘩漪的复仇火被点燃；萍准备明天逃走
+
+  - act: 2
+    label: revelation_afternoon
+    function: 把朴园三十年前的旧债（侍萍 / 私生子 / 抛弃）在午后的同一客厅曝光
+    sequences:
+      - seq_id: 2.A
+        scenes: [A2.1_萍 ↔ 四凤偷情]
+        function: 约定深夜十一点鲁家见面 + 暗号"红灯"
+      - seq_id: 2.B
+        scenes: [A2.2_蘩漪向萍摊牌]
+        function: '"你是父亲的私生子" + "你父亲引诱过梅家姑娘" + "你欠了我一笔债"'
+      - seq_id: 2.C
+        scenes: [A2.3_鲁妈 ↔ 四凤重逢 + 鲁妈识旧屋]
+        function: 旧家具 + 镜台柜 + 第一个太太相片触发 30 年前记忆
+      - seq_id: 2.D
+        scenes: [A2.4_朴园 ↔ 侍萍认母场]
+        function: 无锡 / 梅小姐 / 投河 / 绣梅花的衬衣 + 萍字 → 朴园识出侍萍 →
+                  5000 块支票被撕碎
+      - seq_id: 2.E
+        scenes: [A2.5_大海闯入要见董事长]
+        function: 朴园出示已签字的复工合同（三个代表叛变）→ 大海当场幻灭
+      - seq_id: 2.F
+        scenes: [A2.6_周萍打大海]
+        function: 不知血缘的兄长打弟弟 → 侍萍喊出"你是萍，凭什么打我的儿子"
+      - seq_id: 2.G
+        scenes: [A2.7_辞退鲁家 + 雷雨欲来]
+        function: 朴园辞鲁贵、四凤；蘩漪向萍暗示"风暴就要起来了"
+    turn: 朴园认出侍萍（spine 上的 recognition_act1）
+    end_state: 朴园的三十年秘密被两条线同时撕开（旧情人 + 骨肉相残）；雷雨欲来
+
+  - act: 3
+    label: sealing_in_storm
+    function: 在雷雨之夜把四凤的退路在物理 + 伦理 + 命运三个维度同时封死
+    sequences:
+      - seq_id: 3.A
+        scenes: [A3.1_鲁贵醉骂 + 大海拔枪]
+        function: 鲁家自身的紧张——大海拿出矿上拾来的手枪
+      - seq_id: 3.B
+        scenes: [A3.2_周冲送钱 + 大海赶走]
+        function: 蘩漪派周冲送一百块来鲁家——大海羞辱周冲并撕碎其乌托邦
+      - seq_id: 3.C
+        scenes: [A3.3_侍萍逼四凤起誓]
+        function: '"永远不见周家的人 → 天上的雷劈了我" 雷声轰然滚过'
+      - seq_id: 3.D
+        scenes: [A3.4_四凤独处 → 萍翻窗而入 → 蘩漪关窗]
+        function: 物理封闭（蘩漪从外面把窗关上） + 伦理封闭（兄妹身体接触）
+      - seq_id: 3.E
+        scenes: [A3.5_大海撞破 → 萍逃 → 侍萍冒雨追四凤]
+        function: 鲁家秩序爆裂；侍萍在雷雨中喊四凤
+    turn: 蘩漪从外面把窗关上——把萍 / 四凤从外面封住，不留退路
+    end_state: 萍、四凤、蘩漪、侍萍、大海 5 个核心人物都在雷雨之夜被打散，
+               所有人都在向周公馆奔回
+
+  - act: 4
+    label: terminal_collapse_midnight
+    function: 在半夜两点的周公馆把所有秘密一次性曝光 + 三死收场
+    sequences:
+      - seq_id: 4.A
+        scenes: [A4.1_朴园独处 + 望相片]
+        function: 静——孤独的家长，钟停了，"家里只剩我一个人还醒着"
+      - seq_id: 4.B
+        scenes: [A4.2_冲 → 朴园 → 蘩漪冒雨归来]
+        function: 蘩漪刚从鲁家窗外回来，"我心里发热我要在外面冰一冰"
+      - seq_id: 4.C
+        scenes: [A4.3_蘩漪最后挽留萍 / "我要你死"]
+        function: 蘩漪从恳求 → 报复；萍说出"我要你死"
+      - seq_id: 4.D
+        scenes: [A4.4_鲁贵勒索 + 蘩漪借鲁贵之口确认"侍萍=萍生母"]
+        function: 用相片对照逼鲁贵说出侍萍的名字 → 蘩漪从破碎相片中拼出真相
+      - seq_id: 4.E
+        scenes: [A4.5_大海闯入 → 萍 ↔ 大海长对话 → 大海给枪后离开]
+        function: 萍向不知是弟弟的大海袒露与蘩漪的乱伦 → 大海"那大概是你父亲的报应"
+      - seq_id: 4.F
+        scenes: [A4.6_四凤投奔 → 告知怀孕 → 萍下跪 → 侍萍"罪在我一人"]
+        function: 侍萍把所有罪揽在自己身上，让兄妹"一块儿走"
+      - seq_id: 4.G
+        scenes: [A4.7_蘩漪带冲出 + 召朴园 → 朴园承认侍萍身份]
+        function: 大揭示——血缘 / 乱伦 / 兄妹同时被命名
+      - seq_id: 4.H
+        scenes: [A4.8_三死]
+        function: 四凤奔出触电 → 周冲扑救同电死 → 周萍用大海的枪自杀
+      - seq_id: 4.I
+        scenes: [A4.9_收尾]
+        function: 朴园说"年轻的反而走我们前头了"；鲁妈"我哭不出来"；
+                  蘩漪干笑"冲儿，你该死"；大海连踢带打逃出
+    turn: 朴园在蘩漪逼问下承认"她就是萍儿的母亲"——孩子们的世界在 30 秒内崩塌
+    end_state: 三死 + 两疯 + 鲁大海消失；旧人苟活
+
+  - act: 5
+    label: epilogue
+    function: chorus_frame_distance_payoff
+    sequences:
+      - seq_id: E.A
+        scenes: [EPILOGUE]
+        function: 十年后医院——朴园对鲁妈（已痴呆）低唤"侍萍"无应；
+                  鲁大海再未出现；姊弟回到屋里找手套
+    turn: 鲁妈对"侍萍"的呼唤无反应 → 三十年的等待至此完全静默
+    end_state: 距离感装配完成；观众"以未来先知的神奇 / 哀静"俯视全剧
+
+# 跨幕编织
+inter_act_weaving:
+  parallel_arcs:
+    - 萍_乱伦悔疚 ↔ 蘩漪_反抗 ↔ 朴园_家长秩序
+    - 萍 ↔ 大海（不知是兄弟的对抗）+ 萍 ↔ 周冲（兄长 vs 理想化弟弟）
+    - 侍萍_保护四凤 ↔ 蘩漪_保护萍 → 两个母亲式力量同时介入年轻人的关系
+    - 阶级线（大海罢工 / 朴园开除）⊥ 家庭线（兄妹乱伦）— 两条线在 A2.5-A2.6 交汇
+  motif_recurrence:
+    - 雷雨（A1.0 序场提示郁热将雨；A2 雷雨欲来；A3 雷雨进行；A4 雷雨过后）
+    - 关窗户的习惯（A1 朴园关窗；A2 朴园指认；A4 蘩漪关四凤窗户 = 死局封口）
+    - 起誓 / 雷劈（A3 四凤起誓；A4 终局应验）
+    - 钱不能清偿罪（A2 5000 撕碎；A4 20000 提议；都被命运驳回）
+    - 相片（A1 在桌上；A2 鲁妈震惊；A4 蘩漪撕碎再拼合）
+    - 电（A2 蘩漪提醒电线走电；A4 电死狗 → 电死四凤 + 周冲）
+    - 教堂合唱 + 巴赫 B 小调弥撒（PROLOGUE / A4 终场 / EPILOGUE 三处出现）

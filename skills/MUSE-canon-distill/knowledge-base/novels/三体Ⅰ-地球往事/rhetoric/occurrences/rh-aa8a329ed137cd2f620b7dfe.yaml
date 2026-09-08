@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-aa8a329ed137cd2f620b7dfe
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1841
+chapter: 第23章 红岸之五
+figure_type: metaphor
+quote: 没什么，一场梦，醒了而已
+sensory_mapping: 睡眠与苏醒；绚丽梦景；现实冷感；瞬时消散
+context_fact: 基地电台未收到回波，木星与太阳波形记录又明显对不上，她摇头凄婉地笑。
+image_mechanism: 半年绝境后出现的理论突破被包进一场短梦，计算和等待让梦越来越亮；两排不吻合波形像睁眼动作，亮景立刻退成办公室冷地板。
+property_alignment: 太阳放大猜想对应梦境；突破兴奋对应梦的绚丽；反证数据对应醒来刺激；希望破灭对应梦景消失；回到凉馒头生活对应苏醒后的现实
+context_alignment: 读者随后知道信号已成功越过木星，人物的“醒”其实仍在更大真相的梦中，形成强烈信息反讽。
+narrative_function: 收束叶文洁主观失败，同时为客观成功的宇宙反转蓄势。
+transfer_rule: 用梦醒写希望破灭时，应建立曾经可信的愿景、明确的醒来证据和回归现实后的情绪落差。
+failure_boundary: 证据尚未否定目标、希望只是暂缓，或人物仍积极相信时，梦醒会过早关闭可能性；本段正以读者优势反讽此误判。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁把太阳增益反射猜想及借此取得重大突破的希望判为已经破灭
+vehicle: 睡眠中绚丽可信的梦境在醒来瞬间失去现实效力
+ground: 理论希望曾使她投入并相信对应梦中景象真实；波形不吻合使信念结束对应醒来后确认梦非现实

@@ -1,0 +1,42 @@
+scene_id: A1S1
+source_notes: scene_A1S1_beats.md
+patterns:
+- pattern_id: A1S1-p1
+  beat: 风暴中零铺垫开场
+  dimension: blocking
+  original_move: 无序幕无解说，雷电声中三巫直接上场，咒韵台词自带世界设定
+  ai_default_failure: 先写环境渲染或旁白交代背景再让角色登场
+  transfer_rule: 开场可零铺垫直入异界，声响指示承担设定职能
+  quote: Enter three Witches
+- pattern_id: A1S1-p2
+  beat: 约会式问答
+  dimension: exchange
+  original_move: 三巫问答只谈下次集会的时间地点，不自报家门
+  ai_default_failure: 让角色介绍自己是谁、要做什么
+  transfer_rule: 设定信息藏进约会问答，预约出下一场戏
+  quote: When shall we three meet again
+- pattern_id: A1S1-p3
+  beat: 点名缺席的主角
+  dimension: overall
+  original_move: 主角未上场先被异界点名，命运预先笼罩
+  ai_default_failure: 让主角先出场建立形象再被议论
+  transfer_rule: 让威胁方先念出主角名字，主角一上场就背着阴影
+  quote: There to meet with Macbeth
+- pattern_id: A1S1-p4
+  beat: 倒装咒语立母题
+  dimension: overall
+  original_move: 美丑互换的悖论双行一锤定音，此后只由情节兑现不再重申
+  ai_default_failure: 把主题句放进角色感叹反复解释
+  transfer_rule: 主题立约一次成型，后文用事件回应而非台词重复
+  quote: Fair is foul, and foul is fair
+- pattern_id: A1S1-p5
+  beat: 台词自带退场
+  dimension: blocking
+  original_move: 雾霭悬浮的退场方式由唱词说出，指示只留一词
+  ai_default_failure: 补长段舞台指示描写消失特效
+  transfer_rule: 让台词承担调度说明，舞台指示保持极简
+  quote: Hover through the fog
+overall_traits:
+- 十二行完成设定、母题、预告三重任务
+- 四音步咒韵与素体诗形成可听界域区分
+- 恶意以集体合诵呈现，无个体动机交代

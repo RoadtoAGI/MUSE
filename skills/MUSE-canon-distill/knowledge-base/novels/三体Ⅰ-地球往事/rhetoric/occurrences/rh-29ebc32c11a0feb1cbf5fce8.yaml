@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-29ebc32c11a0feb1cbf5fce8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1852
+chapter: 第24章 红岸之六
+figure_type: metaphor
+quote: 雷达峰成了那些火海中逃生的鸟儿的避难所
+sensory_mapping: 火焰海面；高温；飞行逃亡；安全岛；凄厉鸟鸣
+context_fact: 砍伐后的山地燃起烧荒大火，基地里不断出现羽毛烧焦、哀鸣的鸟。
+image_mechanism: 火焰铺平山谷成为会吞噬生命的海，鸟群不能落在燃烧波面，只能向雷达峰这座孤岛聚拢；避难仍带着烧焦痕迹。
+property_alignment: 连片野火对应火海；未燃雷达峰对应安全岛；鸟群对应逃难者；飞离火区对应游离灾区；集中基地对应进入避难所；烧焦羽毛对应逃生创伤
+context_alignment: 雷达峰既是叶文洁的避风空间，也是鸟类真实避难地，人和鸟在同一孤岛结构中并置。
+narrative_function: 把毁林后果带到基地内部，以鸟叫让远处生态灾难无法被隔绝。
+transfer_rule: 用火海与避难所写灾区时，应建立广域危险介质、少数安全高地、逃生路径和到达后的伤痕。
+failure_boundary: 火势零散易绕过、基地同样燃烧或鸟类有大量其他栖息地时，唯一避难所会夸大孤立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 烧荒大火覆盖山野时，受伤鸟群集中飞到未燃的雷达峰躲避
+vehicle: 被无边海水包围的安全岛或港所，为逃难者提供唯一不被吞没的庇护
+ground: 连片大火包围山野对应海水覆盖广域；雷达峰未燃且可停栖对应海中安全陆地；鸟群集中逃来对应难民寻找避难所

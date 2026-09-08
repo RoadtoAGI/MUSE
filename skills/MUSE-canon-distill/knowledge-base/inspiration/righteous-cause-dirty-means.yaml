@@ -1,0 +1,27 @@
+card_id: righteous-cause-dirty-means
+pattern_name: 正当事业·手段自蚀
+dramatic_function: 让最正当的秩序诉求依赖肮脏手段或污浊体制达成，道德优势从内部被腐蚀，主角在成事的同时被伦理反噬
+applicability: 适用于法统、革命、体制改造叙事；代价须真实落地；主角阵营纯善或无代价全胜即失效（单书孤证，验证面窄）
+reuse_candidates:
+- 光之王信仰
+- 七神焚烧
+- 拜拉席恩继承法
+tags:
+- 合法性
+- 道德代价
+- 秩序
+- 超自然
+source_scenes:
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S03
+  note: 史坦尼斯以正统名义焚毁旧神像并制造信仰断裂
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S11
+  note: 王位争夺由公开谈判滑向影子暗杀
+- novel: 冰与火之歌Ⅱ-列王的纷争
+  scene_id: S12
+  note: 忠臣亲眼见证正当事业依赖黑暗生育
+phase_affinity:
+- 1
+- 3
+- 4

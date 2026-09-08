@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-39387889cd5391548dcdea62
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2617
+chapter: 第34章 智子
+figure_type: metaphor
+quote: 猎人的眼睛已经先被他要射的猎物抓瞎了
+sensory_mapping: 持枪猎人；瞄准视线；猎物反扑；双眼受创；黑暗中失去目标
+context_fact: 工业执政官询问地球人能否识别并以强电磁场禁锢带电智子，回答指出识别所需研究已被智子自身封锁。
+image_mechanism: 攻守顺序突然倒转：人类举枪寻找微观猎物时，智子已从准星另一端伸手抓灭视野；枪和电磁牢笼仍在，猎人却再也看不见目标。
+property_alignment: 物理学家对应猎人；智子对应被猎对象；加速器对应猎人的眼睛；正确实验数据对应视觉；识别轨迹对应瞄准；电磁捕获对应开枪；预先干扰对应猎物先致盲
+context_alignment: 智子以微小尺寸反制宏观文明，猎物反伤猎人的逆转准确表现其智能和先手优势。
+narrative_function: 用一幅反猎杀图说明智子封锁为何形成自我保护闭环，堵死‘先识别再捕获’的方案。
+transfer_rule: 用猎物致盲猎人写预防性反制时，应对应观察工具、锁定步骤、攻击时序和失去感知后武器无从使用。
+failure_boundary: 若捕获无需识别目标、还有独立观测通道，或猎物只能逃跑不能影响观察系统，致盲猎人的闭环便不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 人类必须先发展深层物理才能识别和捕获智子，智子却预先破坏加速器，使这项识别能力无法形成
+vehicle: 猎人尚未瞄准开枪，猎物先反击并弄瞎他的双眼，使猎杀所需的观察与瞄准全部失效
+ground: 人类研究者对应猎人；智子对应猎物；深层物理知识对应视力；识别捕获对应瞄准射击；污染加速器对应先抓瞎眼睛

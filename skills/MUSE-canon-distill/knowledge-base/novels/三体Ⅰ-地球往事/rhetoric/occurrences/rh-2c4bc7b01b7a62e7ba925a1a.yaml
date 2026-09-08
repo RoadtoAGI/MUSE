@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2c4bc7b01b7a62e7ba925a1a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2374
+chapter: 第33章 监听员
+figure_type: simile
+quote: 星光下，大地看上去像一大块冰冷的金属
+sensory_mapping: 冷光；坚硬平面；金属触觉；夜色；生命空缺
+context_fact: 巨月未升，绝大多数三体人和植物已脱水冬眠，1379号监听员独自在窗口看世界。
+image_mechanism: 脱水抽走地表全部柔软有机质，星光像在裸露金属板上滑过；行星从可栖居世界退化为一块冷硬材料，监听室成为其上唯一醒着的微点。
+property_alignment: 严寒地表对应冰冷金属；植物成干纤维对应有机柔软消失；大地无活动对应金属无生命；星光反射对应金属冷光；连片地表对应一整块板材
+context_alignment: 三体文明刻意追求冷静麻木，金属大地先把这种社会精神写进自然环境，并衬托监听员尚存的温情。
+narrative_function: 建立监听员孤独场景的无机冷感，突出一个清醒生命面对整颗沉睡行星。
+transfer_rule: 把大地写成金属时，应让温度、反光、硬度、无机性和连片尺度共同出现。
+failure_boundary: 地表松软湿润、生命繁茂、暖光丰富或地貌破碎多孔时，整块冷金属会抹去关键质感。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 乱纪元深夜中生物全部脱水、没有暖色和活动的三体大地
+vehicle: 一整块在暗处反出冷光、坚硬无生命且温度极低的金属
+ground: 大地冰冷对应金属导冷；地表静硬对应整块金属；星光冷反射对应金属微光；生命撤离对应无机材质

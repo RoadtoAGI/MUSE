@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0d0ba727772b6cfca499ccf4
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1659
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: analogy
+quote: 上帝是个无耻的老赌徒，他抛弃了我们
+sensory_mapping: 赌桌；筹码；掷骰；输赢；被庄家遗弃
+context_fact: 所有预测模型失败后，秘书长说三体文明唯一希望是也赌一把，飞出星系寻找新家园。
+image_mechanism: 自然规律被搬上赌桌，上帝坐庄却不提供可算牌序；三体文明无法再解题，只能把整个族群当筹码推向一次星际押注。
+property_alignment: 混沌宇宙对应随机赌局；上帝对应掌局庄家；规律不可知对应牌面不透明；文明远征对应押出筹码；成功移民或灭亡对应输赢两极
+context_alignment: 爱因斯坦因美学模型失败迁怒上帝，秘书长随即把抱怨转成迁徙策略，同一赌局框架从神学解释落到行动决策。
+narrative_function: 概括从求规律到冒险迁徙的战略转向，赋予三体远征悲壮风险。
+transfer_rule: 用赌局解释决策时，应标出不可控随机变量、投入筹码、可能输赢和无法通过更多信息消除的风险。
+failure_boundary: 结果可通过充分计算确定、参与者能随时撤回成本，或所谓庄家不控制任何规则时，赌徒类比会混淆风险与无知。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 三体宇宙受混沌支配、不给文明稳定可预测规律，迫使文明用高风险迁徙求生
+vehicle: 控制牌局的老赌徒故意保留随机性、拒绝公正规则，并让参与者押上全部筹码
+ground: 宇宙未来不可预测对应赌局结果受随机支配；文明必须冒险远征对应玩家押注一次未知结果

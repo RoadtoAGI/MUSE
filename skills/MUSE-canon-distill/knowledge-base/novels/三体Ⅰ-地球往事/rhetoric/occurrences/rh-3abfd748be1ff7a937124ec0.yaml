@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-3abfd748be1ff7a937124ec0
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2100
+chapter: 第28章 伊文斯
+figure_type: simile
+quote: 整个林子像一片被许多只蚜虫蚕食的绿叶，照这个速度很快就会消失
+sensory_mapping: 俯视绿片；边缘缺损；密集小虫；持续啃食；消失速度
+context_fact: 伊文斯曾扩大的树林正被附近村民成群砍走，斧锯从各方向放倒小树。
+image_mechanism: 山坡树林缩尺成一片叶，散布四周的砍树者变为密集蚜虫；每棵树倒下都像绿叶少一小口，离散砍伐合成为可见的整体消蚀。
+property_alignment: 整片绿色林冠对应叶面；树林边界对应叶缘；多方向砍伐对应多只蚜虫分布；树木逐棵倒下对应叶肉点状损失；林地迅速消失对应叶片被蚕食殆尽
+context_alignment: 伊文斯为保护燕子而造林，人类群体反被写成吞噬植物的小害虫，倒转了人类自居高级物种的尺度。
+narrative_function: 让分散砍伐显出总体速度和不可逆结局，同时服务物种共产主义主题。
+transfer_rule: 用虫蚀叶片写区域破坏时，应建立俯视尺度、多个小破坏者、从边缘或多点累积的损失及可预测的消失趋势。
+failure_boundary: 破坏来自一次火灾或单台大型机器、林地并非绿片状，或砍伐已停止并可迅速恢复时，蚜虫持续蚕食的机制会失真。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 从四周同时遭村民砍伐、边缘不断收缩的伊文斯树林
+vehicle: 被大量蚜虫从多处持续吸食啃坏、绿色面积迅速消退的一片叶子
+ground: 树林整体绿面对应叶片；四面砍树者对应分布各处的蚜虫；林地缩小对应叶肉被蚕食

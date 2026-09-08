@@ -1,0 +1,28 @@
+scene_id: S24
+source_notes: scene_S24_beats.md
+patterns:
+- pattern_id: S24-p1
+  beat: 第一件礼物耳朵
+  dimension: omission
+  original_move: 歼敌过程全略，轻描淡写的「办」字称量号召力
+  ai_default_failure: 插入战斗闪回或参与者回忆
+  transfer_rule: 不写过程比写出来更令人敬畏
+  quote: 是耳朵！
+- pattern_id: S24-p2
+  beat: 烟花与火烧粮仓
+  dimension: camera
+  original_move: 烟花与战火共用天空光亮，庆典无缝滑入战争
+  ai_default_failure: 展开一千好手协同作战的场面
+  transfer_rule: 双场域叠加找一个共用的物质化符号
+  quote: 满天花雨，组成了一个「恭」字
+- pattern_id: S24-p3
+  beat: 携手而下
+  dimension: verb
+  original_move: 登场动词是「携手而下」，传奇自动降格为侄儿
+  ai_default_failure: 登场后让他回顾解释三件礼物
+  transfer_rule: 英雄不解释自己，亮相写关系不写武功
+  quote: 拉住了杨过的左手，在半空中携手而下
+overall_traits:
+- 三级递进：战术到战略到内政
+- 私人情感包装公共事业即侠的美学
+- 不在场的主角：传说比现实更有力量

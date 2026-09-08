@@ -1,0 +1,40 @@
+schema_version: dialogue-character/v1
+character_id: novel:射雕英雄传:li-ping
+work_id: novel:射雕英雄传
+display_name: 李萍
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '她的声音极少、极轻，几乎全以"叹道""低声道"出现，句子短而具体。不铺陈情绪，不讲大道理，遇事先说细节再归到价值——从"犁头损啦，明儿叫东村的张木儿加一斤半铁"（日常丈夫的最后一个话头，在 S01 她只是回"好"）到"咱俩就在牛家村你爹爹的旧居住下"——她的语言永远贴地。
+
+
+    临终的独白是她唯一"长段"的出场——这段话用汉语说给儿子听（成吉思汗与诸将听不懂），结构是：
+
+    （1）起点——"二十年前，我在临安府牛家村"重述家族源头
+
+    （2）由物（匕首）引名——"丘道长给你取名郭靖"把匕首上的刻字还原成命名的重量
+
+    （3）定义反面教材——"杨家那孩子认贼作父"
+
+    （4）反问——"难道为的是要养大一个卖国奸贼？"
+
+    （5）价值锚点——"只要一生行事无愧于心"
+
+    （6）告别——"孩子，你好好照顾自己罢"
+
+    （7）行动终结——转剑自刎
+
+
+    她的声音以这段独白的结构为"定型模板"——平时她用短句、关键时刻她用这种层层推进的清晰逻辑，但仍然不煽情。
+
+
+    佐证：scenes/scene_13.md:L9-L10 （整段临终独白——从"二十年前"到"只要一生行事无愧于心"到"孩子，你好好照顾自己罢"再到刺入胸膛）'
+  evidence_locators:
+  - scenes/scene_13.md:L9-L10
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

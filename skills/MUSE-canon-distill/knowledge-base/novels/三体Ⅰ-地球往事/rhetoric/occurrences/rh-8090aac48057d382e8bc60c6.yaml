@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8090aac48057d382e8bc60c6
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1099
+chapter: 第13章 红岸之二
+figure_type: analogy
+quote: 红岸系统就是一台微波炉，加热的目标是敌人在太空中的航天器
+sensory_mapping: 温度；内外层；电磁能量；设备操作
+context_fact: 雷政委以研究所进口微波炉热馒头、烤土豆的经验解释红岸攻击卫星的公开用途。
+image_mechanism: 遥远太空打击缩成实验室里的加热箱：卫星替换食物，天线替换炉腔发射源，千度内部高温成为“里面先热”的放大结果。
+property_alignment: 红岸发射微波对应微波炉产生微波；卫星电子设备吸收能量对应食物吸收微波；内部器件烧毁对应内部先升温；频率振幅调制突破防护对应调整加热方式穿透屏蔽
+context_alignment: 叶文洁当时没见过微波炉，雷政委先提供可操作生活案例再升尺度，符合技术人员之间的解释场景。
+narrative_function: 迅速说明红岸伪装用途的物理机制，也为后来揭露其真正通信目标设置可信假答案。
+transfer_rule: 解释陌生装置时，可找共享能量形式和作用路径的日常设备，并逐一替换发射源、目标、内部效应与控制变量。
+failure_boundary: 微波炉有封闭腔体，红岸在开放空间远距传播；类比只支持吸收加热机制，不能推出相同效率、场分布或安全边界。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 用高功率微波从远处使敌方航天器电子设备升温失效的红岸发射系统
+vehicle: 让微波被物体内部吸收并由内向外加热的微波炉
+ground: 两者都以微波能量被目标吸收转化为热；外表未先燃烧而内部器件先升温对应食物内部先热

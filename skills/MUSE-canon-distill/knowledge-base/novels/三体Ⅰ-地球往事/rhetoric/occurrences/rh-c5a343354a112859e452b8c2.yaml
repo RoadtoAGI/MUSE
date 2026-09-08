@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-c5a343354a112859e452b8c2
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L728
+chapter: 第8章 寂静的春天
+figure_type: metaphor
+quote: 她对‘文化大革命’的抵触情绪是根深蒂固的
+sensory_mapping: 植物；地下空间；深度；固定；时间
+context_fact: 指导员把叶文洁拒绝政治诬陷解释为长期抵触。
+image_mechanism: 态度从一次反应变成有地下根网的植物，审讯者把看不见的个人经历压成需要拔除的思想根系。
+property_alignment: 态度形成已久对应根系长期下扎；原因进入深层经历对应根埋地下；外部教育难改变对应植物牢牢固定；情绪持续表现对应地上部分反复生长
+context_alignment: 叶文洁的抵触确由多年创伤累积，但说话者用政治定性抹去原因，熟语同时显示其僵化分类。
+narrative_function: 以官方口吻完成对人物思想的预设判决。
+transfer_rule: 用根系写长期态度时，应对应形成时间、深层原因、外部拔除难度和可见表现，并说明命名者立场。
+failure_boundary: 一次性情绪、可被新事实迅速改变的判断或仅由眼前利益驱动的反应没有深根结构。
+quality_assessment: conventional
+confidence: 0.96
+review_status: reviewed
+tenor: 指导员所指叶文洁长期且难以改变的抵触态度
+vehicle: 根系深入土地、牢固生长而难以拔除的植物
+ground: 态度形成已久对应根系长期下扎；原因进入深层经历对应根埋地下；外部教育难改变对应植物牢牢固定；情绪持续表现对应地上部分反复生长

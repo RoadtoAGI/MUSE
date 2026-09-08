@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2fe3d1779a6c9299966ddddb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L882
+chapter: 第10章 宇宙闪烁之二
+figure_type: simile
+quote: 教堂的罗马式尖顶像三根黑色的巨指，似乎在为他指出冥冥太空中的什么东西
+sensory_mapping: 视觉；颜色；形态；指向动作；尺度；空间
+context_fact: 汪淼漫走后停在王府井天主教堂前，仍被宇宙倒计时困扰。
+image_mechanism: 教堂主体隐去，三条尖顶从建筑上分离成长成手指；共同上指把静态垂直线转成一个正在提示答案的手势，却不揭露所指对象。
+property_alignment: 三座尖顶细长对应三根手指；黑色剪影对应黑指；尖端方向朝天对应指示手势；建筑尺度放大对应巨人肢体；目标不可见对应手指指向冥冥之物
+context_alignment: 三这一数量、黎明黑色剪影和尖顶朝向均可见，教堂宗教属性又让未知指向带上超越意味。
+narrative_function: 把偶然抵达教堂变成宇宙危机的视觉指引，引出圣乐场景。
+transfer_rule: 把建筑尖顶写成手势时，应精确匹配数量、轮廓、朝向和观看者正在寻找的目标，让静态线条获得动作目的。
+failure_boundary: 圆顶、尖顶朝向分散或人物没有追索对象时，巨指会强加统一手势和神秘意图。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 惨白黎明下三座黑色教堂尖顶向天空伸出的轮廓
+vehicle: 一只巨手的三根黑色手指共同指向高空某个不可见目标
+ground: 三座尖顶细长对应三根手指；黑色剪影对应黑指；尖端方向朝天对应指示手势；建筑尺度放大对应巨人肢体；目标不可见对应手指指向冥冥之物

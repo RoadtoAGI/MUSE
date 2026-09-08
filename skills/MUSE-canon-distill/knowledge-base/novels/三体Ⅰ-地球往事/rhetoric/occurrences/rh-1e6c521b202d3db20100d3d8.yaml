@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1e6c521b202d3db20100d3d8
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2018
+chapter: 第27章 无人忏悔
+figure_type: metaphor
+quote: “文革”的严冬确实结束了，一切都在复苏之中
+sensory_mapping: 严冬冰冻；春温回升；嫩芽复生；光线变亮；季节更替
+context_fact: 叶文洁获平反回清华，看见高考恢复、名著畅销、技术革新和科学大会。
+image_mechanism: 十年政治历史被压缩成一季极寒，学校与工厂像冻土中的生命体同时解冻；人们重新学习、读书和研究成为春芽破土。
+property_alignment: 文革压制对应严冬；浩劫结束对应季节转折；制度恢复对应解冻；学生返校对应生命复生；科研兴起对应新芽增长；科学春天口号对应季节命名
+context_alignment: 齐家屯温暖曾局部融化她的心，此处社会整体迎春，私人和公共温度变化相互照映。
+narrative_function: 概括时代转折并建立叶文洁重新期待人性修复的外部依据。
+transfer_rule: 用冬去春来写社会恢复时，应分别对应冻结机制、转折事件、多个复苏迹象和仍未消失的寒害。
+failure_boundary: 压制结构仍完整运作、恢复只停留口号，或社会变化是骤然替换而非生长时，春季复苏会过早乐观。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 文化大革命结束后社会制度、教育、科研和个人生活从压制破坏中逐渐恢复
+vehicle: 漫长严冬退去，冻结枯萎的自然在春季回暖后重新生长
+ground: 政治压制对应严寒冻结；运动结束对应冬去；大学高考科研恢复对应草木复苏；社会希望对应春暖

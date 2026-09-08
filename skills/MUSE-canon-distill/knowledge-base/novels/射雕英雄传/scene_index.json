@@ -1,0 +1,1149 @@
+[
+  {
+    "scene_id": "S01",
+    "name": "牛家村惨变",
+    "file": "scenes/scene_01.md",
+    "source_chapter": "第1回 风雪惊变",
+    "source_lines": "60-85",
+    "arc": 1,
+    "scene_type": "establishing",
+    "participants": [
+      "郭啸天",
+      "杨铁心",
+      "丘处机",
+      "完颜洪烈",
+      "段天德",
+      "包惜弱",
+      "李萍"
+    ],
+    "value_change": "乱世短暂安宁 → 家破人亡",
+    "tension_level": 9,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "牛家村惨变——乱世短暂安宁 → 家破人亡",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知说书，视角随人物迁移，偶插史评闲笔",
+      "diction": "半文半白话本腔，兵器招式名实词密集",
+      "rhetoric_density": "low",
+      "dialogue_mode": "「某某道」高频，对白短促推动事件",
+      "pacing": "长段连缀事件，祸变接踵不留喘息"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "开场",
+      "变故",
+      "死亡诀别"
+    ]
+  },
+  {
+    "scene_id": "S02",
+    "name": "黑风双煞之战",
+    "file": "scenes/scene_02.md",
+    "source_chapter": "第4回 黑风双煞",
+    "source_lines": "225-255",
+    "arc": 1,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "江南六怪",
+      "陈玄风",
+      "梅超风",
+      "张阿生"
+    ],
+    "value_change": "六怪满怀期待 → 张阿生殉难、仇恨与代价并存",
+    "tension_level": 8,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "黑风双煞之战",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知群像，镜头在七怪间流转，惊悚处贴听觉",
+      "diction": "白话为主杂文言短语，骷髅月色词造阴气",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "七人快问快答推进解谜，「道」字归属",
+      "pacing": "静景蓄势骤转激战，临终戏刻意放慢"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "群战",
+      "夜战"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_02_beats.md",
+    "narrative_reference": "恐怖靠物证与程序感（指孔验骨→活靶检脏，写效果不写原理）+群战伤情记账不可逆递进+黑暗改写战斗规则（视觉换听觉、盲者占优）"
+  },
+  {
+    "scene_id": "S03",
+    "name": "郭靖遇黄蓉",
+    "file": "scenes/scene_03.md",
+    "source_chapter": "第7回 比武招亲",
+    "source_lines": "406-410",
+    "arc": 1,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "黄蓉"
+    ],
+    "value_change": "孤身一人 → 找到灵魂伴侣",
+    "tension_level": 3,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "郭靖遇黄蓉——孤身一人 → 找到灵魂伴侣",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴郭靖视角，叙述者点破他憨直心理",
+      "diction": "口语市井俚趣，菜名器物罗列见考究",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白主导，点菜清单式长白见人物身份",
+      "pacing": "宴饮闲谈舒缓铺陈，结尾赠马蓦然提速"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "相遇",
+      "情感",
+      "日常"
+    ]
+  },
+  {
+    "scene_id": "S04",
+    "name": "赵王府身世揭秘+殉情",
+    "file": "scenes/scene_04.md",
+    "source_chapter": "第9-11回",
+    "source_lines": "537-646",
+    "arc": 2,
+    "scene_type": "turning",
+    "participants": [
+      "杨铁心",
+      "包惜弱",
+      "完颜康",
+      "完颜洪烈",
+      "郭靖",
+      "黄蓉"
+    ],
+    "value_change": "真相未明 → 身世暴露、杨康选择认贼作父",
+    "tension_level": 9,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "赵王府身世揭秘+殉情",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_04_beats.md",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知插叙身世，叙述者直陈人物心境因果",
+      "diction": "半文半白，叙史腔长句压缩十余年岁月",
+      "rhetoric_density": "low",
+      "dialogue_mode": "认亲对白颤声短句，情绪藏在称谓改换",
+      "pacing": "插叙大段提速，临终托孤逐句放慢"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "揭秘",
+      "身世",
+      "殉情",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S05",
+    "name": "洪七公传降龙十八掌",
+    "file": "scenes/scene_05.md",
+    "source_chapter": "第12回 亢龙有悔",
+    "source_lines": "687-740",
+    "arc": 2,
+    "scene_type": "advancing",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "洪七公"
+    ],
+    "value_change": "武功二流 → 获降龙十八掌跻身一流",
+    "tension_level": 4,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "洪七公传降龙十八掌",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知带评点，借饕餮舌头写菜如论武",
+      "diction": "白话谐趣，肴馔名目与武功术语争辉",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "斗嘴滑稽，吃食与传艺穿插推动关系",
+      "pacing": "闲笔慢煨蓄味，比武段一招反复成节奏"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "传功",
+      "武学",
+      "日常"
+    ]
+  },
+  {
+    "scene_id": "S06",
+    "name": "周伯通教双手互搏+背九阴真经",
+    "file": "scenes/scene_06.md",
+    "source_chapter": "第16-17回",
+    "source_lines": "1000-1058",
+    "arc": 2,
+    "scene_type": "advancing",
+    "participants": [
+      "郭靖",
+      "周伯通"
+    ],
+    "value_change": "被困桃花岛 → 武学升维（双手互搏+九阴真经全文）",
+    "tension_level": 5,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "周伯通教双手互搏+背九阴真经",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知框架内嵌周伯通长篇自述，口述史腔",
+      "diction": "白话谈笑风生，孩童口吻配老人身份",
+      "rhetoric_density": "low",
+      "dialogue_mode": "大段独白叙旧事，郭靖短问作节拍器",
+      "pacing": "叙旧悠长如说书连回，结尾蛇至骤紧"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "传功",
+      "武学",
+      "喜剧"
+    ]
+  },
+  {
+    "scene_id": "S07",
+    "name": "欧阳锋偷袭洪七公",
+    "file": "scenes/scene_07.md",
+    "source_chapter": "第21回 千钧巨岩",
+    "source_lines": "1208-1280",
+    "arc": 3,
+    "scene_type": "turning",
+    "participants": [
+      "洪七公",
+      "欧阳锋",
+      "郭靖",
+      "黄蓉"
+    ],
+    "value_change": "五绝均衡 → 善人受创、恶人得逞",
+    "tension_level": 10,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "欧阳锋偷袭洪七公",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知论武，拆招时叙述者亲自讲拳理来历",
+      "diction": "半文半白，武理阐释句长而绵密",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "斗智对白机锋来回，挑逗与反制成回合",
+      "pacing": "海上恶斗长句不断行，荒岛智斗轻快多转"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "偷袭",
+      "海上"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_07_beats.md",
+    "narrative_reference": "背信一击从受袭者体感快写、施袭者心理事后开闸；宗师重创分台阶配'为何不死'的账；封闭空间按拍出招、亲手制造偷袭窗口"
+  },
+  {
+    "scene_id": "S08",
+    "name": "临安大闹禁宫",
+    "file": "scenes/scene_08.md",
+    "source_chapter": "第23回 大闹禁宫",
+    "source_lines": "1350-1396",
+    "arc": 3,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "完颜洪烈",
+      "欧阳锋",
+      "杨康"
+    ],
+    "value_change": "个人江湖恩怨 → 家国危机浮出水面",
+    "tension_level": 8,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "临安大闹禁宫",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知市井画卷，听墙脚处贴靖蓉双耳",
+      "diction": "白话杂宋人词曲市肆名物，时代感浓",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "偷听戏中戏，隔壁对话承载机密推进",
+      "pacing": "游冶闲笔与急务交替，火起后节奏陡快"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "追逐",
+      "闯禁"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_08_beats.md",
+    "narrative_reference": "以寡敌众倒置视点只写攻方挨打的结果差分；地形（瀑布水帘）兼幕布与武器参战；喜剧从受害者物证长出兼作战报；高潮以静止呈现、致命刀来自最弱者"
+  },
+  {
+    "scene_id": "S09",
+    "name": "铁掌峰发现武穆遗书",
+    "file": "scenes/scene_09.md",
+    "source_chapter": "第28回 铁掌峰顶",
+    "source_lines": "1631-1684",
+    "arc": 4,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "裘千丈"
+    ],
+    "value_change": "个人武功追求 → 家国兵略承继",
+    "tension_level": 7,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "铁掌峰发现武穆遗书",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知群像大场面，按发言轮次调度镜头",
+      "diction": "白话帮会切口与官称交错，庄谐并置",
+      "rhetoric_density": "low",
+      "dialogue_mode": "当众论辩式对白，夺棒三落配嘴仗",
+      "pacing": "大会戏层层设障步步翻盘，笑闹松紧相济"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "追逐",
+      "揭秘",
+      "逃亡"
+    ]
+  },
+  {
+    "scene_id": "S10",
+    "name": "一灯大师疗伤+瑛姑恩怨",
+    "file": "scenes/scene_10.md",
+    "source_chapter": "第30-31回",
+    "source_lines": "1743-1848",
+    "arc": 4,
+    "scene_type": "deepening",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "一灯大师",
+      "渔樵耕读",
+      "瑛姑"
+    ],
+    "value_change": "黄蓉命悬一线 → 疗伤成功、瑛姑恩怨化解",
+    "tension_level": 7,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "一灯大师疗伤+瑛姑恩怨",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_10_beats.md",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知主线外嵌一灯第一人称忏悔长述",
+      "diction": "诗词谜对入白话叙述，书卷气重",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "考校问答连环闯关，黄蓉打岔解构庄重",
+      "pacing": "闯关一关一节，自述段绵长低回"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "疗伤",
+      "揭秘",
+      "恩怨",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S11",
+    "name": "桃花岛五怪惨死",
+    "file": "scenes/scene_11.md",
+    "source_chapter": "第34回 岛上巨变",
+    "source_lines": "1930-1953",
+    "arc": 5,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "黄蓉"
+    ],
+    "value_change": "靖蓉情深 → 信任崩塌、决裂离岛",
+    "tension_level": 10,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_11_beats.md",
+    "description": "桃花岛五怪惨死",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴郭靖，以物证逐步揭尸场，悲而克制",
+      "diction": "白话冷静记物，惨象处用短句白描",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少破碎，沉默与动作代替言语",
+      "pacing": "寻迹缓慢压抑，发现处一顿一击，留白多"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "变故",
+      "死亡诀别",
+      "悬念"
+    ]
+  },
+  {
+    "scene_id": "S12",
+    "name": "铁枪庙揭露真凶",
+    "file": "scenes/scene_12.md",
+    "source_chapter": "第35回 铁枪庙中",
+    "source_lines": "2034-2076",
+    "arc": 5,
+    "scene_type": "climactic",
+    "participants": [
+      "黄蓉",
+      "柯镇恶",
+      "欧阳锋",
+      "杨康",
+      "傻姑"
+    ],
+    "value_change": "黄蓉被冤 → 真凶暴露、杨康中毒身亡",
+    "tension_level": 10,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_12_beats.md",
+    "description": "铁枪庙揭露真凶",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知，柯镇恶旁听作暗场读者，层层揭案",
+      "diction": "白话推理陈述，条分缕析如断狱",
+      "rhetoric_density": "low",
+      "dialogue_mode": "问答取证主导，傻姑童语藏关键证词",
+      "pacing": "盘问递进步步收网，结局群鸦乱影骤冷"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "揭秘",
+      "对质",
+      "死亡诀别"
+    ]
+  },
+  {
+    "scene_id": "S13",
+    "name": "李萍自刎",
+    "file": "scenes/scene_13.md",
+    "source_chapter": "第38回 锦囊密令",
+    "source_lines": "2203-2219",
+    "arc": 5,
+    "scene_type": "climactic",
+    "participants": [
+      "郭靖",
+      "李萍",
+      "成吉思汗",
+      "拖雷",
+      "哲别"
+    ],
+    "value_change": "蒙古金刀驸马 → 大宋臣民（身份认同不可逆转变）",
+    "tension_level": 10,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_13_beats.md",
+    "description": "李萍自刎——蒙古金刀驸马 → 大宋臣民（身份认同不可逆转变）",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴郭靖母子，威压下心理活动直陈",
+      "diction": "白话素净，家常语载大义，少修饰",
+      "rhetoric_density": "low",
+      "dialogue_mode": "母子低语对照金帐喝问，遗言句句压字",
+      "pacing": "密令揭破后步步紧逼，自尽一瞬笔锋极简"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "死亡诀别",
+      "身份认同",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S14",
+    "name": "是非善恶辩论",
+    "file": "scenes/scene_14.md",
+    "source_chapter": "第39回 是非善恶",
+    "source_lines": "2262-2263",
+    "arc": 6,
+    "scene_type": "climactic",
+    "participants": [
+      "洪七公",
+      "裘千仞",
+      "一灯大师",
+      "黄药师",
+      "郭靖",
+      "黄蓉",
+      "周伯通"
+    ],
+    "value_change": "武功善恶迷惘 → 武功无善恶、端在人之为用",
+    "tension_level": 8,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "是非善恶辩论",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知群像，正邪诘问中叙述让位言辞交锋",
+      "diction": "白话铿锵，义理陈词与诨语并行",
+      "rhetoric_density": "low",
+      "dialogue_mode": "宣言式对白定胜负，诗经机锋作余韵",
+      "pacing": "庄谐急切换，诛心段密不透风后骤然松弛"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "辩论",
+      "主题"
+    ]
+  },
+  {
+    "scene_id": "S15",
+    "name": "英雄论+结局",
+    "file": "scenes/scene_15.md",
+    "source_chapter": "第40回 华山论剑",
+    "source_lines": "2306-2316",
+    "arc": 6,
+    "scene_type": "climactic",
+    "participants": [
+      "郭靖",
+      "成吉思汗",
+      "黄蓉"
+    ],
+    "value_change": "英雄=征服 → 英雄=为民造福",
+    "tension_level": 9,
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_15_beats.md",
+    "description": "英雄论+结局",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知史笔收束，对谈上升为兴亡之叹",
+      "diction": "文言比重抬升，苍凉大词衬素白问答",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "一问一答论英雄，遗言喃喃作终止符",
+      "pacing": "迟缓沉郁，掷珠射雕两顿挫，诗句收梢"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "结局",
+      "辩论",
+      "主题"
+    ]
+  },
+  {
+    "scene_id": "S16",
+    "name": "穆念慈比武招亲",
+    "file": "scenes/scene_16.md",
+    "source_chapter": "第7回 比武招亲",
+    "source_lines": "416-461",
+    "arc": 1,
+    "scene_type": "establishing",
+    "participants": [
+      "郭靖",
+      "完颜康",
+      "穆念慈",
+      "穆易",
+      "王处一"
+    ],
+    "value_change": "郭靖初入中原江湖 → 以'不退'建立性格标签+完颜康轻薄本性首次暴露",
+    "tension_level": 6,
+    "narrative_reference": "郭靖'打不过加把劲'的性格刻画范例；同时是完颜康线的起点——绣鞋成为后来铁枪庙定罪的铁证",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "穆念慈比武招亲",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知，借穆易旁听写看客高手两层视点",
+      "diction": "半文半白，市声叫骂与江湖称号杂陈",
+      "rhetoric_density": "low",
+      "dialogue_mode": "围观议论与擂台喝叫双声道推进",
+      "pacing": "擂台戏一波三折，插科打诨调节密度"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "比武招亲",
+      "武戏",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S17",
+    "name": "黄蓉做菜诱洪七公",
+    "file": "scenes/scene_17.md",
+    "source_chapter": "第12回 亢龙有悔",
+    "source_lines": "687-710",
+    "arc": 2,
+    "scene_type": "advancing",
+    "participants": [
+      "黄蓉",
+      "洪七公",
+      "郭靖"
+    ],
+    "value_change": "洪七公路人 → 洪七公传功",
+    "tension_level": 3,
+    "narrative_reference": "以日常行为（烹饪）驱动命运转折的经典——黄蓉用对方性格弱点（馋嘴）为杠杆，以美食为货币，完成了全书最重要的武功传承交易。叙事技巧：将'拜师学艺'这个武侠套路改写为'以食换武'的生活化场景",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_17_beats.md",
+    "description": "黄蓉做菜诱洪七公",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知带反讽，偷听者与做戏者互为镜像",
+      "diction": "白话灵动，肴馔雅称缀连成趣",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "哄骗逗引式对白，假哭真泪层层使计",
+      "pacing": "饮馔慢笔蓄味，传艺与斗嘴轮转不滞"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "日常",
+      "智计",
+      "饮食"
+    ]
+  },
+  {
+    "scene_id": "S18",
+    "name": "三道试题",
+    "file": "scenes/scene_18.md",
+    "source_chapter": "第18回 三道试题",
+    "source_lines": "1059-1129",
+    "arc": 3,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "黄药师",
+      "欧阳锋",
+      "欧阳克",
+      "洪七公",
+      "黄蓉"
+    ],
+    "value_change": "郭靖面临被拒婚 → 凭双手互搏和'不知情中背出全部九阴真经'反败为胜获许婚",
+    "tension_level": 7,
+    "narrative_reference": "信息不对称转化为戏剧张力的典范——郭靖不知道自己背的是九阴真经（周伯通的恶作剧），读者知道但角色不知道，形成悬念；黄药师设题的三个层次（武力→文化→学识）逐步升级，每一题的胜负都出人意料",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "三道试题——郭靖面临被拒婚 → 凭双手互搏和'不知情中背出全部九阴真经'反败为胜获许婚",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知，郭靖窗外暗窥作引导镜头",
+      "diction": "半文半白，礼数客套语暗藏机锋",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "宾主酬答绵里藏针，赌斗以言语立约",
+      "pacing": "仪式铺排徐缓，高手比斗通宵以景换场"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "比试",
+      "智斗",
+      "武戏"
+    ]
+  },
+  {
+    "scene_id": "S19",
+    "name": "密室疗伤+目睹大战",
+    "file": "scenes/scene_19.md",
+    "source_chapter": "第24-25回",
+    "source_lines": "1397-1534",
+    "arc": 3,
+    "scene_type": "deepening",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "黄药师",
+      "欧阳锋",
+      "全真七子",
+      "梅超风"
+    ],
+    "value_change": "靖蓉疗伤中 → 目睹谭处端被杀、梅超风替师而死，但无法出手干预",
+    "tension_level": 9,
+    "narrative_reference": "全书最独特的叙事设计之一——主角被困在'观众席'上（掌心相对疗伤不可中断），能看不能动。外部大战的每一个转折都在加剧他们的焦灼：谭处端被杀时郭靖'全身发抖'却不能抽手。梅超风替师挡掌而死则是反派救赎的经典——叛徒以命换得师父的一声'超风'",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_19_beats.md",
+    "description": "密室疗伤+目睹大战",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知锁密室双主，镜孔窥外成画中画",
+      "diction": "白话细腻，所见所闻经黄蓉心思过滤",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "耳语与隔墙对话双轨，外言内心互注",
+      "pacing": "七日疗伤为钟，外间风波分段闯入"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "疗伤",
+      "武戏",
+      "旁观视角",
+      "群战"
+    ]
+  },
+  {
+    "scene_id": "S20",
+    "name": "烟雨楼大战",
+    "file": "scenes/scene_20.md",
+    "source_chapter": "第34-35回",
+    "source_lines": "1955-2012",
+    "arc": 5,
+    "scene_type": "climactic",
+    "participants": [
+      "郭靖",
+      "黄药师",
+      "欧阳锋",
+      "全真六子",
+      "周伯通",
+      "柯镇恶"
+    ],
+    "value_change": "各方势力分散 → 嘉兴中秋总会战，多方混战后真相即将揭开",
+    "tension_level": 9,
+    "narrative_reference": "群战章法=阵法结构装置+楼头解说人；环境（浓雾）必须重排能力序才算参战；多方混战靠误会与信息差推进，主角凸显靠对手的认知落差而非主角描写",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "烟雨楼大战——各方势力分散 → 嘉兴中秋总会战，多方混战后真相即将揭开",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知调度多方混战，恩怨错位处补叙因由",
+      "diction": "半文半白，阵法兵刃术语密集铿锵",
+      "rhetoric_density": "low",
+      "dialogue_mode": "喝骂叫阵主导，误会靠抢白加深难解",
+      "pacing": "急战连场少歇，大雾雨夜以天候控节奏"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "群战",
+      "阵法"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_20_beats.md"
+  },
+  {
+    "scene_id": "S21",
+    "name": "飞降破城",
+    "file": "scenes/scene_21.md",
+    "source_chapter": "第37回 从天而降",
+    "source_lines": "2120-2173",
+    "arc": 5,
+    "scene_type": "advancing",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "成吉思汗",
+      "欧阳锋"
+    ],
+    "value_change": "久攻不下 → 以革伞飞降奇袭破城",
+    "tension_level": 8,
+    "narrative_reference": "《武穆遗书》从纸面兵法到实战应用的转化范例——郭靖受欧阳锋裤中鼓气飞降的启发，举一反三设计万人革伞飞降计划。叙事技巧：将对手（欧阳锋）的行为转化为己方的灵感来源，形成'以敌为师'的讽刺性",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "飞降破城——久攻不下 → 以革伞飞降奇袭破城",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴郭靖，军旅奇谋与儿女情并轨",
+      "diction": "白话明快，军务名物与冰雪意象交映",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "主帅长老庄谐问答，重逢时话短情长",
+      "pacing": "筑梯逐级累积悬念，峰顶相会骤然放慢"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "战争攻城",
+      "兵法",
+      "奇谋"
+    ]
+  },
+  {
+    "scene_id": "S22",
+    "name": "郭靖为黄蓉辩护",
+    "file": "scenes/scene_22.md",
+    "source_chapter": "第11回 长春服输",
+    "source_lines": "666-674",
+    "arc": 2,
+    "scene_type": "deepening",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "柯镇恶",
+      "丘处机",
+      "江南六怪"
+    ],
+    "value_change": "六怪反对郭靖与黄蓉交往 → 郭靖以最笨拙的方式坚守爱情",
+    "tension_level": 5,
+    "narrative_reference": "角色声音设计的经典案例——郭靖面对师父和丘处机的双重压力，说不出黄蓉的任何具体好处，只能重复'蓉儿是好的，她是很好很好的'。拙于言辞的人用最简单的重复句表达最深的感情，比任何华丽辞藻都更有说服力。与黄蓉的多层话术形成极致对比",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_22_beats.md",
+    "description": "郭靖为黄蓉辩护",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知群言堂，韩小莹心曲旁白最见深婉",
+      "diction": "白话家常，伦理劝辞与孩童歌谣相撞",
+      "rhetoric_density": "low",
+      "dialogue_mode": "围坐盘问层层逼供，憨直短答撼动长辈",
+      "pacing": "对谈细磨慢推，红马一驰节奏顿开"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "情感",
+      "对峙",
+      "声音设计"
+    ]
+  },
+  {
+    "scene_id": "S23",
+    "name": "说书人开场",
+    "file": "scenes/scene_23.md",
+    "source_chapter": "第1回 风雪惊变",
+    "source_lines": "13-52",
+    "arc": 1,
+    "scene_type": "establishing",
+    "participants": [
+      "张十五",
+      "郭啸天",
+      "杨铁心",
+      "曲三",
+      "丘处机"
+    ],
+    "value_change": "无 → 世界观、历史背景、核心主题全部铺设完毕",
+    "tension_level": 4,
+    "narrative_reference": "用'故事中的故事'框架引入世界观——说书人张十五讲岳飞遇害、赵构降表，通过听书人（郭杨二人）的反应带出角色性格和家国主题。叙事技巧：避免直接叙述历史背景，而是将其嵌入一个生活化的场景（冬夜听书）中，同时用曲三的冷笑暗埋伏笔（高人隐身市井）",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_23_beats.md",
+    "description": "说书人开场——无 → 世界观、历史背景、核心主题全部铺设完毕",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知史家开卷，说书人入话套嵌话本体",
+      "diction": "文白相济，诗词唱白与史论入叙",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "说书唱段与酒桌问对承载史实背景",
+      "pacing": "起笔舒缓如长卷，雪夜异客渐起波澜"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "开场",
+      "世界观",
+      "框架叙事"
+    ]
+  },
+  {
+    "scene_id": "S24",
+    "name": "马钰暗授内功",
+    "file": "scenes/scene_24.md",
+    "source_chapter": "第5回 弯弓射雕",
+    "source_lines": "295-340",
+    "arc": 1,
+    "scene_type": "advancing",
+    "participants": [
+      "郭靖",
+      "马钰"
+    ],
+    "value_change": "郭靖内功为零 → 两年暗中修习后内功根基扎实",
+    "tension_level": 3,
+    "narrative_reference": "暗线帮助者模式——全真掌教不以师徒名分传授，两年间每夜教完即走。叙事技巧：最关键的武功传承发生在'幕后'，六怪和读者都在事后才知道。这种'隐性师承'比正式拜师更有叙事张力，也体现了马钰的修为——帮人不求名",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "马钰暗授内功",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知双线，崖顶授功与崖下疑忌对照",
+      "diction": "白话朴直，授艺语浅白，疑议语急切",
+      "rhetoric_density": "low",
+      "dialogue_mode": "六怪合议你一言我一语，立场逐句分化",
+      "pacing": "攀崖步步惊险写足，议事以短句对峙"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "传功",
+      "武学",
+      "暗线"
+    ]
+  },
+  {
+    "scene_id": "S25",
+    "name": "黄蓉智斗赵王府群敌",
+    "file": "scenes/scene_25.md",
+    "source_chapter": "第10回 冤家聚头",
+    "source_lines": "529-555",
+    "arc": 2,
+    "scene_type": "advancing",
+    "participants": [
+      "黄蓉",
+      "侯通海",
+      "沙通天",
+      "彭连虎",
+      "梅超风"
+    ],
+    "value_change": "黄蓉身陷赵王府 → 以奇智周旋于群敌之间",
+    "tension_level": 7,
+    "narrative_reference": "弱者面对群敌不接武力语法而连续换赛道、每条赛道自立明说规则；终极威慑靠不在场者的名号而非新招式；群敌忌惮逐人差异化",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "黄蓉智斗赵王府群敌",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知论招，旁观高手目光成评审席",
+      "diction": "白话畅快，门派招名连珠如报菜名",
+      "rhetoric_density": "low",
+      "dialogue_mode": "戏耍式答非所问，比斗以言语设局",
+      "pacing": "十招一局逐招升险，扣招一凝倏然定格"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "智斗",
+      "心理战",
+      "武戏"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_25_beats.md"
+  },
+  {
+    "scene_id": "S26",
+    "name": "段天德供出杀父仇人",
+    "file": "scenes/scene_26.md",
+    "source_chapter": "第15回 神龙摆尾",
+    "source_lines": "911-916",
+    "arc": 2,
+    "scene_type": "turning",
+    "participants": [
+      "郭靖",
+      "杨康",
+      "段天德"
+    ],
+    "value_change": "杀父仇人身份不明 → 完颜洪烈被指认为幕后元凶",
+    "tension_level": 8,
+    "narrative_reference": "仇人在灵位前供述真相——暴力性的真相揭露场景。杨康的反应是全书'知善不能行善'主题的关键体现：他亲手打死段天德（表面上是为父报仇，实际上也是灭口），然后说出所有'正确答案'却暗中犹豫。叙事技巧：同一个行为（杀段天德）对郭靖和杨康有完全不同的意义",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "段天德供出杀父仇人",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知，仇人自道罪状成全场焦点",
+      "diction": "白话，求饶长篇市侩腔与冷面短语对照",
+      "rhetoric_density": "low",
+      "dialogue_mode": "供状式独白主导，喝问短句步步进逼",
+      "pacing": "认名一震后直奔清算，灵前祭拜放缓收束"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "揭秘",
+      "复仇",
+      "对质"
+    ]
+  },
+  {
+    "scene_id": "S27",
+    "name": "洪七公传位黄蓉为丐帮帮主",
+    "file": "scenes/scene_27.md",
+    "source_chapter": "第22回 骑鲨遨游",
+    "source_lines": "1218-1229",
+    "arc": 3,
+    "scene_type": "turning",
+    "participants": [
+      "洪七公",
+      "黄蓉",
+      "郭靖"
+    ],
+    "value_change": "黄蓉是桃花岛主的娇女 → 成为丐帮第十九代帮主",
+    "tension_level": 6,
+    "narrative_reference": "非典型的权力交接——不在殿堂而在荒岛，不是群臣拥立而是垂危老人对十五岁少女的托付。叙事技巧：将一个本该庄严的仪式压缩到极端环境（荒岛、重伤、绝境）中，用反差制造情感冲击。洪七公的传位理由不是黄蓉的资历而是他对人的直觉判断",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "洪七公传位黄蓉为丐帮帮主",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知双视角，猎与防的心理同台并陈",
+      "diction": "白话柔中带刺，调笑语与杀机互为表里",
+      "rhetoric_density": "low",
+      "dialogue_mode": "言语周旋设陷，戏语下藏试探与反杀",
+      "pacing": "拉锯缓进暗潮起伏，传棒仪式骤转庄重"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "权力交接",
+      "仪式",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S28",
+    "name": "渔樵耕读四关",
+    "file": "scenes/scene_28.md",
+    "source_chapter": "第29-30回",
+    "source_lines": "1715-1769",
+    "arc": 4,
+    "scene_type": "advancing",
+    "participants": [
+      "郭靖",
+      "黄蓉",
+      "渔人",
+      "樵子",
+      "农夫",
+      "书生"
+    ],
+    "value_change": "求医无门 → 层层闯关登上峰顶见到一灯大师",
+    "tension_level": 6,
+    "narrative_reference": "闯关递进靠考核类型轮换（武→曲→巧→文）不靠难度加码；善举换好感、通行靠机变，两本账分开结算；报复用对方原话对称奉还",
+    "novel": "射雕英雄传",
+    "genre": "武侠",
+    "description": "渔樵耕读四关",
+    "author": "金庸",
+    "lang": "zh",
+    "style_profile": {
+      "narration_voice": "全知贴靖蓉，逐关换人写法如连环画",
+      "diction": "白话杂经史谜对唱曲，土语雅言同炉",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "斗嘴考问闯关式对白，激将与哄骗轮用",
+      "pacing": "一关一节奏，险路急行与论辩慢磨交替"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "闯关",
+      "比试",
+      "智斗"
+    ],
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_28_beats.md"
+  },
+  {
+    "scene_id": "S29",
+    "name": "洪七公vs欧阳锋海上对决",
+    "file": "scenes/scene_29.md",
+    "source_chapter": "第19-21回",
+    "source_lines": "1200-1212",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_29_beats.md",
+    "narrative_reference": "三层节奏切换（器械对攻→灵蛇拳奇招→肉搏缠斗）+评书式旁白调节节奏+招式创新描写范例",
+    "novel": "射雕英雄传",
+    "description": "洪七公vs欧阳锋海上对决",
+    "genre": "武侠",
+    "author": "金庸",
+    "lang": "zh",
+    "participants": [
+      "洪七公",
+      "欧阳锋",
+      "郭靖",
+      "黄蓉"
+    ],
+    "style_profile": {
+      "narration_voice": "全知论武评招，叙述者插讲拳理与渊源",
+      "diction": "半文半白，招名兵械术语稠密成网",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白稀少作喘息，喝声叫阵标记攻防",
+      "pacing": "长句连环写连招，火船倾沉作节点断章"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "单挑",
+      "招式创新"
+    ]
+  },
+  {
+    "scene_id": "S30",
+    "name": "郭靖占北极星位打黄药师",
+    "file": "scenes/scene_30.md",
+    "source_chapter": "第34回",
+    "source_lines": "1965-1984",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_30_beats.md",
+    "narrative_reference": "武术动作即情感表达——不动是克制、收掌是柔情、颤抖是悲愤+误读驱动冲突升级",
+    "novel": "射雕英雄传",
+    "description": "郭靖占北极星位打黄药师",
+    "genre": "武侠",
+    "author": "金庸",
+    "lang": "zh",
+    "participants": [
+      "郭靖",
+      "黄药师",
+      "柯镇恶",
+      "洪七公",
+      "黄蓉"
+    ],
+    "style_profile": {
+      "narration_voice": "全知棋局式调度，借旁观者讲解阵理",
+      "diction": "白话掺星宿阵位术语，方位词精确如图",
+      "rhetoric_density": "low",
+      "dialogue_mode": "斗中喝问错位对话，误会靠不答加深",
+      "pacing": "阵转一圈一推演，情绪在攻防间隙渗出"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "单挑",
+      "阵法",
+      "情感"
+    ]
+  },
+  {
+    "scene_id": "S31",
+    "name": "华山论剑实战",
+    "file": "scenes/scene_31.md",
+    "source_chapter": "第40回",
+    "source_lines": "2267-2282",
+    "has_craft_notes": true,
+    "craft_notes_file": "craft_notes/scene_31_beats.md",
+    "narrative_reference": "双线并行（拳脚+口舌）+假信息比真信息更有破坏力+比武→比智→比心的三层递进",
+    "novel": "射雕英雄传",
+    "description": "华山论剑实战",
+    "genre": "武侠",
+    "author": "金庸",
+    "lang": "zh",
+    "participants": [
+      "洪七公",
+      "欧阳锋",
+      "郭靖",
+      "黄蓉",
+      "黄药师"
+    ],
+    "style_profile": {
+      "narration_voice": "全知，叙述者代郭靖发武学善恶之思",
+      "diction": "白话引道德经武理，骂阵语泼辣淋漓",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "骂阵长舌成第二战场，问答「我是谁」收疯",
+      "pacing": "数招计数造紧迫，影子戏放慢成寓言"
+    },
+    "style_profile_by": "claude-fable-5",
+    "tags": [
+      "武戏",
+      "单挑",
+      "心理战",
+      "高潮"
+    ]
+  }
+]

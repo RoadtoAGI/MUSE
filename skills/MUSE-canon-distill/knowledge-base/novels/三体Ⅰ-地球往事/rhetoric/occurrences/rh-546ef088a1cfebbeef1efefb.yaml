@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-546ef088a1cfebbeef1efefb
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L476-L477
+chapter: 第4章 三体、周文王、长夜
+figure_type: metaphor
+quote: 这就是宇宙的密码
+sensory_mapping: 符号；认知；解码
+context_fact: 周文王画卦并承诺万年历。
+image_mechanism: 地面线条从图案变成密文，天象从现象变成待解消息；占卜者的工作被重述为读取而非猜测。
+property_alignment: 卦象被认为编码规律对应密码编码信息；掌握排列即可预测对应解密后读取内容
+context_alignment: 卦象本是符号组合，密码准确表达其认知立场。
+narrative_function: 把占卜体系声明为可计算规则。
+transfer_rule: 密码喻体适合对象确有稳定符号、隐藏信息和解码规则时，并应追问解码能否反复成功。
+failure_boundary: 符号与结果无稳定对应、只能事后附会时，密码会赋予伪模型过高确定性。
+quality_assessment: functional
+confidence: 0.94
+review_status: reviewed
+tenor: 周文王认为能预测太阳的阴阳六十四卦
+vehicle: 可解锁宇宙隐藏运行信息的密码
+ground: 卦象被认为编码规律对应密码编码信息；掌握排列即可预测对应解密后读取内容

@@ -1,0 +1,23 @@
+schema_version: dialogue-character/v1
+character_id: drama:雷雨:lu-shiping
+work_id: drama:雷雨
+display_name: 鲁侍萍
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: '侍萍的台词有两层：A2 前段（不知是回到周家时）她的话短、平、带母女的温柔——"不，不要走，我不热""孩子，让我看看你""不许这样跟爸爸说话"；A2 中段触发记忆后她的话变得"低、沉稳、颤"——"我怕得很，这屋子有鬼怪""孩子，你别怕，妈不怎么样""不，我的女儿说什么也不能在这儿多呆"。她对朴园说话时总是慢一拍——朴园说"也许，也许你弄错了，不过你不妨说说看"她说"这个梅姑娘倒是有一天晚上跳的河，可是不是一个，她手里抱着一个刚生下三天的男孩"——她用第三人称叙述自己，让朴园慢慢走入她的版本。她最深的语言习惯：**把自己的痛归结到"命"**——"命！不公平的命指使我来的""这是我的报应""人犯了一次罪过第二次也就自然地跟着来"。她对孩子说话时的语调是"沉痛地""哀痛地""沉静地""慈祥地"——作者标了十几处她的语气。
+
+
+    佐证：scenes/scene_A2.md:L347-L351（"命！不公平的命指使我来的"+"我没有委屈，我有的是恨"）；scenes/scene_A2.md:L309-L313（A2 认母的关键递进——"不是有一件，在右袖襟上有个烧破的窟窿，后来用丝线绣成一朵梅花补上的"——用旧物的精确描述替代任何感情表达）；scenes/scene_A3.md:L269-L281（A3
+    逼四凤起誓——"不，要起誓"+"你愿意让妈伤心么"——慈祥与严厉混合）'
+  evidence_locators:
+  - scenes/scene_A2.md:L347-L351
+  - scenes/scene_A2.md:L309-L313
+  - scenes/scene_A3.md:L269-L281
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

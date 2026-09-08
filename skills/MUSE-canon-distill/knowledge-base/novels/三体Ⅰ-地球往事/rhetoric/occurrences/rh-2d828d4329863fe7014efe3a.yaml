@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-2d828d4329863fe7014efe3a
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1062
+chapter: 第12章 三体、墨子、烈焰
+figure_type: metaphor
+quote: 他发现工作是一种有效的麻醉剂，投身于其中，就暂时躲开了那噩梦般的困扰
+sensory_mapping: 痛觉；药物作用；时间效力；心理
+context_fact: 汪淼恢复纳米中心工作，一整天刻意保持忙碌，离开大楼后噩梦感立即追上来。
+image_mechanism: 未解决的心理危机被当作持续存在的伤口，工作并不愈合它，只暂时切断感知通道；下班成为药效结束的明确时点。
+property_alignment: 恐惧造成精神痛苦对应身体伤痛；专注工作使痛苦暂不可感对应麻醉阻断知觉；离开工作后恐惧复发对应药效过去而病因未除
+context_alignment: 叙述紧接着写困扰在楼外重新出现，后续动作直接验证了“麻醉”只缓解症状、没有治疗根源。
+narrative_function: 说明汪淼恢复工作仍未真正复原，并无缝触发他去找叶文洁。
+transfer_rule: 把活动写成麻醉时，应区分症状暂缓与病因未除，并用明确的生效、失效时点展示短期作用。
+failure_boundary: 活动真正解决问题、带来长期恢复或反而加重即时痛苦时，麻醉的暂时阻断机制不成立。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 高强度工作暂时削弱汪淼对倒计时和宇宙威胁的恐惧感知
+vehicle: 麻醉药阻断痛觉，使患者在药效期内感觉不到创伤
+ground: 忙碌占据注意而减轻恐惧对应药物阻断痛感；下班后困扰返回对应麻醉药效消退而伤处仍在

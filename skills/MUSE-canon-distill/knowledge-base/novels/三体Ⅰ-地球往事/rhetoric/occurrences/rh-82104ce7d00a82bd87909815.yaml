@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-82104ce7d00a82bd87909815
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L520
+chapter: 第5章 叶文洁
+figure_type: analogy
+quote: 就像那张看似空旷的天空照片
+sensory_mapping: 视觉；信息密度；认知
+context_fact: 汪淼回想信息课中天空照片比清明上河图文件更大。
+image_mechanism: 先以肉眼数物体得出“空”，再切换到编码层统计连续色彩得出“满”；同一对象在两种信息尺度上反转，《三体》也随之被重读。
+property_alignment: 显示元素少对应蓝天薄云；深层数据大对应连续色彩含大量信息；真实被压缩隐藏对应信息不靠显眼物体出现
+context_alignment: 游戏与数字照片都是编码载体，类比建立在表层/数据层关系。
+narrative_function: 解释简陋表象为何产生巨大真实感。
+transfer_rule: 解释表层稀疏而深层丰厚时，应提供两种明确计量口径，并让参照物在口径切换后结论反转。
+failure_boundary: 数字文件大小不等于叙事真相数量；若游戏只是素材少而无隐藏结构，天空照片类比会为贫乏虚增深度。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 《三体》表面信息稀少却隐藏巨大真实的设计
+vehicle: 画面空旷却有巨大像素信息量的天空照片
+ground: 显示元素少对应蓝天薄云；深层数据大对应连续色彩含大量信息；真实被压缩隐藏对应信息不靠显眼物体出现

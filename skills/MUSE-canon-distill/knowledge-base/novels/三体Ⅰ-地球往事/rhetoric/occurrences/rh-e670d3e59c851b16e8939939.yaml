@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e670d3e59c851b16e8939939
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L926
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 夕阳照在古老的皇宫上，在护城河中泛起碎金
+sensory_mapping: 视觉；颜色；光泽；碎片形态；水面运动
+context_fact: 汪淼酒后睡醒，在紫禁城一角看夕阳与护城河，感到世界恢复古典稳定。
+image_mechanism: 整束夕阳落到起伏水面后被波纹切碎，每个亮面硬化成一片金属薄片；流动水光因此兼具闪耀和可握持的稳定材质。
+property_alignment: 反光呈金黄色对应黄金色泽；波面把光切成小片对应金属破碎；亮点随涟漪聚散对应碎片漂动；皇宫背景对应黄金的古典贵重质感
+context_alignment: 紫禁城的古老建筑与金色材料共同制造“古典”，平静水面上的规则反光又承接“稳定”。
+narrative_function: 用宁静可触的城市图景暂时修复宇宙闪烁造成的现实失序。
+transfer_rule: 把水面反光写成碎材质时，应匹配颜色、波纹切分方式、亮点运动和周边场所的质感。
+failure_boundary: 阴天无金色、镜面静水形成整块倒影或湍急白浪时，碎金的色泽与片状切分不成立。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 夕阳在有细小波纹的护城河面形成的金黄碎片状反光
+vehicle: 许多被打碎的金片漂在水上，随水波闪动聚散
+ground: 反光呈金黄色对应黄金色泽；波面把光切成小片对应金属破碎；亮点随涟漪聚散对应碎片漂动；皇宫背景对应黄金的古典贵重质感

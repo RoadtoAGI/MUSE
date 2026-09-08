@@ -1,0 +1,429 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "家庭",
+      "冷漠",
+      "日常建置"
+    ],
+    "characters": [
+      "山岗",
+      "山峰",
+      "母亲",
+      "两个妻子",
+      "皮皮",
+      "堂弟"
+    ],
+    "conflict_type": "personal",
+    "pov": "全知",
+    "word_count": 1402,
+    "source_chapter": "第4-10行",
+    "file": "scenes/scene_01.md",
+    "description": "雨天早晨一家人围坐吃饭，母亲抱怨骨头发霉，所有人各自冷漠",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷静全知旁观，直给众人惯性",
+      "diction": "日常口语混身体腐坏词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "短对白嵌叙述，少归属铺垫",
+      "pacing": "雨声反复铺底，动作缓慢递进"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "儿童视角",
+      "暴力萌芽",
+      "模仿"
+    ],
+    "characters": [
+      "皮皮",
+      "堂弟"
+    ],
+    "conflict_type": "personal",
+    "pov": "皮皮",
+    "word_count": 1318,
+    "source_chapter": "第11-16行",
+    "file": "scenes/scene_02.md",
+    "description": "皮皮出于好奇拧堂弟的脸、打耳光、卡喉管——暴力以游戏形式萌芽",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近儿童感官，旁观不判罪",
+      "diction": "童稚词与暴力动词并置",
+      "rhetoric_density": "high",
+      "dialogue_mode": "独语式童话，对白稀少",
+      "pacing": "感官发现推动作，省略道德反应"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "儿童视角",
+      "死亡",
+      "零度叙事",
+      "感官替代"
+    ],
+    "characters": [
+      "皮皮",
+      "堂弟"
+    ],
+    "conflict_type": "personal",
+    "pov": "皮皮",
+    "word_count": 1341,
+    "source_chapter": "第17-20行",
+    "file": "scenes/scene_03.md",
+    "description": "皮皮松手放下堂弟摔死在水泥地上，用儿童认知视角写死亡——不理解、不恐惧",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "限知切儿童再转祖母妄想",
+      "diction": "具体器物接腐败身体词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "对白极少，叙述接管发现",
+      "pacing": "遗忘与发现交替，死亡后置揭示"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "家庭暴力",
+      "暴力转嫁",
+      "丧子"
+    ],
+    "characters": [
+      "山峰",
+      "山峰妻子"
+    ],
+    "conflict_type": "personal",
+    "pov": "交替",
+    "word_count": 2837,
+    "source_chapter": "第21-54行",
+    "file": "scenes/scene_04.md",
+    "description": "山峰确认儿子死亡后暴打妻子——命令她哭、拳打头撞墙",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知轮转，冷记各人错位",
+      "diction": "家常名物接拳脚与尸身",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "逼问式短句，暴力打断对白",
+      "pacing": "奔走搜寻后骤转室内拷问"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "兄弟对峙",
+      "保护",
+      "天真与暴怒"
+    ],
+    "characters": [
+      "山峰",
+      "山岗",
+      "皮皮",
+      "母亲",
+      "山岗妻子"
+    ],
+    "conflict_type": "personal",
+    "pov": "山岗",
+    "word_count": 1375,
+    "source_chapter": "第55-76行",
+    "file": "scenes/scene_05.md",
+    "description": "皮皮得意地喊出'我抱的'，山峰扑向皮皮，山岗用身体挡住承受两拳",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "冷静旁观家庭审讯升级",
+      "diction": "口语逼问夹身体病感",
+      "rhetoric_density": "low",
+      "dialogue_mode": "重复逼问推进，答句短硬",
+      "pacing": "问答层层收紧，动作突然爆发"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "金钱赎罪",
+      "妥协",
+      "交换"
+    ],
+    "characters": [
+      "山岗",
+      "山峰",
+      "山岗妻子"
+    ],
+    "conflict_type": "personal",
+    "pov": "山岗",
+    "word_count": 776,
+    "source_chapter": "第81-97行",
+    "file": "scenes/scene_06.md",
+    "description": "山岗拿出全部五千元积蓄试图了结，被拒后将皮皮交给山峰",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近山岗理性化交易",
+      "diction": "金钱口语接血光视觉",
+      "rhetoric_density": "low",
+      "dialogue_mode": "谈判式短句，拒绝反复",
+      "pacing": "补偿失败后静默交人"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "仪式暴力",
+      "舔血",
+      "中点反转",
+      "感官错位",
+      "视角跳切"
+    ],
+    "characters": [
+      "山峰",
+      "皮皮",
+      "山岗妻子",
+      "山峰妻子"
+    ],
+    "conflict_type": "personal",
+    "pov": "山岗（窗后旁观）",
+    "word_count": 2009,
+    "source_chapter": "第99-110行",
+    "file": "scenes/scene_07.md",
+    "description": "皮皮被迫舔血觉得像果浆，山峰飞起一脚踢死皮皮——三个视角的暴力",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "全知交叉，冷看复仇失控",
+      "diction": "血腥动作混病理幻觉词",
+      "rhetoric_density": "high",
+      "dialogue_mode": "命令对白极短，叙述吞没声音",
+      "pacing": "暴力连击后插入祖母内景"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "内部转变",
+      "妻子施压",
+      "复仇准备"
+    ],
+    "characters": [
+      "山岗",
+      "山岗妻子",
+      "山峰"
+    ],
+    "conflict_type": "internal",
+    "pov": "山岗",
+    "word_count": 4919,
+    "source_chapter": "第111-154行",
+    "file": "scenes/scene_08.md",
+    "description": "山岗从'把他葬了吧'到买肉骨头捡小狗——在妻子施压下完成从调解者到复仇者的转变",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知旁观，贴近麻木与挑衅",
+      "diction": "饭桌口语接死亡交易词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "夫妻互激，兄弟短句对峙",
+      "pacing": "丧事被日常吃饭拖住"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "酷刑",
+      "亲切语调",
+      "零度叙事",
+      "语调反转",
+      "笑声致死"
+    ],
+    "characters": [
+      "山岗",
+      "山峰",
+      "小狗",
+      "两个妻子"
+    ],
+    "conflict_type": "personal",
+    "pov": "交替",
+    "word_count": 4263,
+    "source_chapter": "第154-214行",
+    "file": "scenes/scene_09.md",
+    "description": "山岗以亲切语调将山峰绑树涂肉骨头，狗舔脚底致山峰在笑声中窒息死亡",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "贴近山岗算计并冷看折磨",
+      "diction": "温和照料词包裹酷刑动作",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "哄劝式对白制造反讽",
+      "pacing": "准备细密，笑声逐段耗尽"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "精神瓦解",
+      "否认",
+      "游荡"
+    ],
+    "characters": [
+      "山岗",
+      "山峰妻子",
+      "山岗妻子"
+    ],
+    "conflict_type": "internal",
+    "pov": "交替",
+    "word_count": 2139,
+    "source_chapter": "第215-233行",
+    "file": "scenes/scene_10.md",
+    "description": "山峰妻子指控，山岗说'不是我是那条狗'；山岗精神恍惚游荡街头被捕",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴山岗，呈现恍惚逃亡",
+      "diction": "街市俗语混荒诞身体细节",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "辩解与路人短答穿插",
+      "pacing": "逃亡被闲逛稀释，终点突然收束"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "国家暴力",
+      "枪决",
+      "黑色幽默"
+    ],
+    "characters": [
+      "山岗",
+      "武警",
+      "围观人群"
+    ],
+    "conflict_type": "external",
+    "pov": "山岗",
+    "word_count": 1704,
+    "source_chapter": "第234-249行",
+    "file": "scenes/scene_11.md",
+    "description": "山岗被枪决：第一枪打掉耳朵翻筋斗站起问'我死了没有'，三枪毙命",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近死刑犯感官，冷写围观",
+      "diction": "司法口语接市井比喻",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "求饶短句与围观沉默相撞",
+      "pacing": "押赴缓慢，枪决失误拉长"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "梦境",
+      "死亡",
+      "制度复仇",
+      "身份欺诈"
+    ],
+    "characters": [
+      "山岗妻子",
+      "山峰妻子",
+      "母亲"
+    ],
+    "conflict_type": "personal",
+    "pov": "交替",
+    "word_count": 1923,
+    "source_chapter": "第250-262行",
+    "file": "scenes/scene_12.md",
+    "description": "山岗妻子梦见半个脑袋的丈夫；老太太死亡如冰雪蔓延；山峰妻子冒充身份捐献遗体",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "梦境与全知平接不解释",
+      "diction": "日常晨起接尸体捐献词",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "梦中对白平直，现实少对白",
+      "pacing": "梦醒过渡到处决后勤"
+    },
+    "style_profile_by": "Codex (executor)"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "现实一种",
+    "author": "余华",
+    "genre": "先锋小说",
+    "lang": "zh",
+    "tags": [
+      "解剖",
+      "物化",
+      "职业叙事",
+      "零度叙事",
+      "时间跳跃"
+    ],
+    "characters": [
+      "山岗（尸体）",
+      "医生们"
+    ],
+    "conflict_type": "external",
+    "pov": "全知",
+    "word_count": 2944,
+    "source_chapter": "第261-270行",
+    "file": "scenes/scene_13.md",
+    "description": "医生们在乒乓桌上解剖山岗，用欢快的职业语调拆解人体——完成人到物的终极转化",
+    "has_craft_notes": true,
+    "style_profile": {
+      "narration_voice": "档案式全知，冷列分尸流程",
+      "diction": "医学术语混买卖闲谈",
+      "rhetoric_density": "high",
+      "dialogue_mode": "医生玩笑点缀技术动作",
+      "pacing": "器官逐件拆分，结局延后说明"
+    },
+    "style_profile_by": "Codex (executor)"
+  }
+]

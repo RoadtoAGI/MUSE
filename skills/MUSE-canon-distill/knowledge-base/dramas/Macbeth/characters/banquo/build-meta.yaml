@@ -1,0 +1,22 @@
+mode: reference
+display_name: 班柯
+role_slug: banquo
+source_novel: Macbeth
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/phase2_roles.yaml
+  - scenes/scene_A1S2.md
+  - scenes/scene_A1S3.md
+  - scenes/scene_A2S1.md
+  - scenes/scene_A3S1.md
+  - scenes/scene_A3S3.md
+built_at: 2026-05-24T00:00:00Z
+skill_version: 1
+locator_count: 11
+has_canon_ending: true
+coverage_note: |
+  覆盖班柯生前全弧线：A1S2 双柱定位 / A1S3 预言接收 + 怀疑 / A2S1 拒绝同谋 + cursèd thoughts /
+  A3S1 私下知真相但沉默 / A3S3 临死遗命。
+  未单独引用 A1S6（接驾 martlet 描写——可作 voice 辅助但与他人对话量大，弧光不依赖）。
+  班柯的物理死亡在 A3S3，但作为幽灵（A3S4）+ 八代王显灵（A4S1）继续承担戏剧功能；
+  这些写在 canon-ending.md。

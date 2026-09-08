@@ -1,0 +1,23 @@
+mode: reference
+display_name: 老大哥
+role_slug: lao-dage
+source_novel: 狂病-莫千回
+builder_skill: character-kb-distill
+built_from:
+  - pipeline/51人/phase3_spine.yaml
+  - pipeline/51人/phase5_scenes.yaml
+  - scenes/scene_51-S02.md
+  - scenes/scene_51-S03.md
+  - scenes/scene_51-S05.md
+built_at: 2026-05-29
+skill_version: 1
+locator_count: 7
+has_canon_ending: true
+coverage_note: |
+  中等信息密度的"过渡型领袖"原型（仁慈但自知不宜掌兵）+ "2 比 1 纪律"战术载体，候选定级"可做但非必需"，因其原型与战术资产价值蒸馏：
+  - 声音框架：S03 集中支撑——日常比喻承载存在主义命题 + 反问众人 + 坦然苦笑认局限；以单场（S03 推心置腹长段）为主，属信息中等的诚实反映。
+  - 性格真相：S03 让权抉择（高压下承认局限）有压力情境佐证。
+  - 弧光：起点（S02 2 比 1 纪律稳妥求生）+ 转折/终点（S03 让权赴救赎）覆盖 ≥2 段。
+  - 边界：S02 不破纪律、S03 不强逼留人、S03 不贪恋首领位均为检验场景。
+  单点支撑说明：声音框架与性格真相主要集中在 S03 的让权长段（信息中等，候选已标"可做但非必需"），边界第一条 2 比 1 纪律由 S02 独立佐证；绰号"老大哥"非真名。
+  has_canon_ending=true：已回 scene 原文（scene_51-S05.md L13-L15）核对——创世军崩塌时老大哥已被感染，抱陶亦仁头颅自毁式泄欲（痛苦型感染者），属不可逆物理终局。弧光本体仅描内在让权-救赎轨迹，物理终局隔离到 references/canon-ending.md。

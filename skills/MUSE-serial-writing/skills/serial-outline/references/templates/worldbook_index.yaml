@@ -1,0 +1,14 @@
+# series/worldbook/index.yaml —— 分域设定集分册注册表
+# 分册清单由 genre_profile.substrate 对应 genre-pack 实例化；一册一 .md（ASCII kebab 文件名）
+schema_version: 1
+sections:
+  - section_id: power-system
+    file: power-system.md
+    title: 力量体系公理
+    mutability: axiom          # axiom = 冻结（改动须 frozen_amendment 决策 consumed_by 含 worldbook:power-system）
+    summary_line: 三系并立，天花板渡劫飞升；越级战必付代价
+  - section_id: factions
+    file: factions.md
+    title: 势力版图
+    mutability: append         # append = 存在性冻结、内容延迟物化：只追加小节，不改写既有
+    summary_line: 九州四大宗门两朝廷，黑石城居冲突焦点

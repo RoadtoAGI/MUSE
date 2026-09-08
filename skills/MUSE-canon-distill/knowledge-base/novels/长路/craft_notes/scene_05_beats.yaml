@@ -1,0 +1,28 @@
+scene_id: '05'
+source_notes: scene_05_beats.md
+patterns:
+- pattern_id: 05-p1
+  beat: 论证开场
+  dimension: verb
+  original_move: 硬动词递增暴力预报
+  ai_default_failure: 写哭泣颤抖和崩溃声调
+  transfer_rule: 冷酷论证比情绪爆发更狠
+  quote: 先奸后杀
+- pattern_id: 05-p2
+  beat: 对抗升级
+  dimension: omission
+  original_move: 死神情夫隐喻不解释
+  ai_default_failure: 替角色解读隐喻含义
+  transfer_rule: 强隐喻可只让它站住
+  quote: 死神就是情夫
+- pattern_id: 05-p3
+  beat: 终局
+  dimension: verb
+  original_move: 她已经起身让语言变行动
+  ai_default_failure: 安排最后告别和亲吻孩子
+  transfer_rule: 不可逆决定用最小动作落槌
+  quote: 她已经起身
+overall_traits:
+- 裸对白推动价值转变
+- 情绪缺席制造恐怖
+- 不可协商句反复出现

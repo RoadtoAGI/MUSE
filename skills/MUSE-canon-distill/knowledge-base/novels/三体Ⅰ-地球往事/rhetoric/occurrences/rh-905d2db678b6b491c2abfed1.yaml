@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-905d2db678b6b491c2abfed1
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2160
+chapter: 第30章 地球三体运动
+figure_type: metaphor
+quote: 叶文洁运用自己的威信极力弥合组织中的裂痕
+sensory_mapping: 板材裂口；两边分离；填缝；焊合；承力恢复
+context_fact: 两派实力相当且武装已兵戎相见，统帅调解效果不大。
+image_mechanism: 先前看似整块铁板的组织沿派别边界开裂，叶文洁的威信像焊料试图跨缝传力；理念张力持续拉扯，使补口反复张开。
+property_alignment: ETO整体对应铁板；派别对立对应裂痕；武装冲突对应裂缝扩大；统帅威信对应焊接材料；调解对应弥合；效果不大对应内应力仍大
+context_alignment: 此处是铁板一块框架的后续推进，明确裂在哪里、如何修以及为何未能修复。
+narrative_function: 把派系关系从静态分类转成结构损伤，预示组织分裂将暴露于政府。
+transfer_rule: 用弥合裂痕写调停时，应确定原整体、裂缝边界、张力来源、修补介质和修复后承力目标。
+failure_boundary: 派别本来就独立无共同整体，或差异无需消除也能合作时，裂痕会把多元结构误写成损坏。
+quality_assessment: conventional
+confidence: 0.99
+review_status: reviewed
+tenor: 叶文洁试图凭最高统帅声望调和降临派与拯救派的理念和武装冲突，恢复组织协作
+vehicle: 修补者把开裂材料两边重新接合、填平缝隙，恢复整体承力能力
+ground: 派别分歧对应裂缝；组织整体对应受损材料；调停对应填补接合；冲突持续对应裂口未合

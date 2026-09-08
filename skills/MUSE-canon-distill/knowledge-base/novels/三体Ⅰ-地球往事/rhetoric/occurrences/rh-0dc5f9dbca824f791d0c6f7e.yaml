@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-0dc5f9dbca824f791d0c6f7e
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1671
+chapter: 第20章 三体、爱因斯坦、单摆、大撕裂
+figure_type: simile
+quote: 大地变得像海洋般柔软
+sensory_mapping: 触觉柔软；波动；流体形变；峰谷升降
+context_fact: 大陆相撞后，数万米山脉能在一小时内升起又消失，说明岩石圈已呈近流体状态。
+image_mechanism: 脚下岩石被抽走硬度，山脉缩成海浪般的暂时凸起；原本以亿年计的造山运动获得水面一涨一落的速度。
+property_alignment: 固态大地对应海面；岩层失去刚度对应水体柔软；山脉骤起对应巨浪成峰；山脉迅速消失对应浪峰回落
+context_alignment: 上一喻将大陆写成浮冰，这一喻再把承载它的大地写成海，连续完成固体行星向流体世界的感官转换。
+narrative_function: 用触觉和时间尺度说明潮汐灾难已改写行星物态。
+transfer_rule: 将地面比作海洋时，应给出可流动、可起伏、形状短时改变和不能稳定承重等具体证据。
+failure_boundary: 只是地震造成摇晃、岩层仍保持形状，或山脉变化需漫长地质时间时，柔软海洋会误写物态。
+quality_assessment: exemplary
+confidence: 0.99
+review_status: reviewed
+tenor: 行星表层在岩浆上失去固态刚性，能快速隆起、下沉和改变地形
+vehicle: 受力便起伏流动、没有固定形状的海洋水面
+ground: 地表可在一小时内隆起消失对应海面波峰迅速生成回落；地形失去承重刚度对应液体随力变形

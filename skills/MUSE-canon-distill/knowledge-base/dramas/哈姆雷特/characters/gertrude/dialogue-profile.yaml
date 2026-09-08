@@ -1,0 +1,20 @@
+schema_version: dialogue-character/v1
+character_id: drama:哈姆雷特:gertrude
+work_id: drama:哈姆雷特
+display_name: 葛簇特
+profile_tier: compact
+character_skill: SKILL.md
+baseline_voice:
+  observed_summary: "葛簇特的声音通常短、柔、调停性强，偏向“乖儿”“甜蜜的姑娘”“冷静下来”这类亲密或安抚词。她很少长篇论证，压力越大越转向惊呼、请求、复述和身体性反应；当她不得不叙述死亡时，语言会变得抒情而回避责任，例如用花、水、衣裳和歌声讲欧菲莉亚溺亡。潜台词模式是回避因果：她能描述创伤现场，却常绕开“谁应负责”。\
+    \  \n\n来源：phase2_character.yaml → supporting_cast.葛簇特.voice_traits  \n佐证：scenes/scene_A3S4.md:L13-L21；scenes/scene_A4S7.md:L21-L23；scenes/scene_A5S2.md:L31-L37"
+  evidence_locators:
+  - scenes/scene_A3S4.md:L13-L21
+  - scenes/scene_A4S7.md:L21-L23
+  - scenes/scene_A5S2.md:L31-L37
+relationship_registers: []
+pressure_transformations: []
+interaction_patterns: {}
+negative_space: {}
+prototype_axes: {}
+prototype_eligible: false
+review_status: derived_from_character_skill

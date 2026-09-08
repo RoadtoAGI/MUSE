@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-e10732919c6c7d22d2420885
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L538
+chapter: 第5章 叶文洁
+figure_type: analogy
+quote: 她看到一个巨人在大地上搭一座好大好复杂的房子，巨人一点一点地搭着，乐曲完了，大房子也就搭完了
+sensory_mapping: 听觉；视觉；动作；结构
+context_fact: 叶文洁回忆女儿将音乐直接感为可见结构。
+image_mechanism: 时间中的音符被逐拍转换成空间构件，每一段音乐让房屋多一层，终止音与竣工同时到达；听觉进程因此可被观看。
+property_alignment: 主题声部逐层构成对应建筑部件逐步搭起；音乐结束整体闭合对应房屋完工；结构规模秩序对应巨人建复杂建筑
+context_alignment: 儿童熟悉搭建动作，顺序性完整保留巴赫结构展开。
+narrative_function: 展示杨冬跨感官的结构想象力。
+transfer_rule: 把时间艺术转为空间建造时，应让局部增加、整体闭合和结束节点逐一同步，不只说音乐像建筑。
+failure_boundary: 即兴无累积结构、循环无终点或强调音色而非构成的音乐，不适合“搭完房子”的线性完成过程。
+quality_assessment: exemplary
+confidence: 0.94
+review_status: reviewed
+tenor: 幼年杨冬听到的巴赫乐曲结构与展开
+vehicle: 巨人按步骤搭建宏大复杂房屋
+ground: 主题声部逐层构成对应建筑部件逐步搭起；音乐结束整体闭合对应房屋完工；结构规模秩序对应巨人建复杂建筑

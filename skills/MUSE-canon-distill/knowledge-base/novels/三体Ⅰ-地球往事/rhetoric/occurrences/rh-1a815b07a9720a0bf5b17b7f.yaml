@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-1a815b07a9720a0bf5b17b7f
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L1730
+chapter: 第22章 地球叛军
+figure_type: metaphor
+quote: 欧洲分队差点引火烧身
+sensory_mapping: 火光；高热；蔓延；身体灼伤；反向路径
+context_fact: 潘寒以此反对贸然制造更多环境灾难，认为此前生物医疗分支的行动很快被识破。
+image_mechanism: 秘密行动先是一簇投向社会的火，暴露风险像风改变火向，火舌沿执行链回卷到组织成员身上；攻击与自伤共享同一火源。
+property_alignment: 制造抗菌素灾难对应点火；社会受害对应目标燃烧；行动被识破对应风向回转；组织险遭打击对应火烧自身；停止计划对应及时灭火
+context_alignment: 下一人用“你杀了人，现在已经引火烧身”把同一火势转到潘寒本人，首句建立因果框架，后句是精准回击。
+narrative_function: 说明恐怖行动的反噬风险，也为潘寒当前危机提供语言伏笔。
+transfer_rule: 用引火烧身写反噬时，应由主体主动点燃风险，且损害沿可说明的因果路径返回主体。
+failure_boundary: 危险由外部无关事件造成、主体未制造风险，或后果没有反向伤及自己时，引火会错误归责。
+quality_assessment: effective
+confidence: 0.99
+review_status: reviewed
+tenor: 欧洲分队制造抗菌素灾难后险些暴露并遭到自己行动招来的打击
+vehicle: 点燃火焰者操作失误，让火势反向蔓延到自己身体
+ground: 主动制造灾难对应亲手点火；后果回击组织对应火焰沿路径烧回纵火者

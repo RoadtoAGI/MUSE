@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-fca050231c1e9b5c76f30751
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L2684
+chapter: 第35章 虫子
+figure_type: simile
+quote: 像沙尘暴一样，十年前就有了，不过今年最厉害
+sensory_mapping: 黑黄天幕；密粒飞动；风暴推进；视野遮蔽；田野吞没
+context_fact: 当地农民回答蝗灾何时开始，说明它已持续十年且今年最严重。
+image_mechanism: 每只蝗虫成为一粒会飞的沙，亿万虫体被风暴尺度统一；个体生物灾害由此获得气象事件的覆盖面和不可阻挡感。
+property_alignment: 单只蝗虫对应沙粒；群体密集对应沙幕；迁飞推进对应风暴移动；覆盖麦田对应尘暴吞景；周期暴发对应气象灾害复现；今年最烈对应风暴强度峰值
+context_alignment: 前句虫群如黏液写贴地密度，此句沙尘暴补充空中迁飞与区域尺度，两者各承担不同观测面。
+narrative_function: 用本地常见灾害量级说明蝗灾的持续与覆盖范围。
+transfer_rule: 用沙尘暴写迁飞群体时，应匹配粒子数量、空中幕墙、推进方向、环境遮蔽和暴发强度。
+failure_boundary: 虫害局限小块作物、行动缓慢且不形成飞行幕墙时，沙尘暴会夸大空间尺度。
+quality_assessment: effective
+confidence: 0.98
+review_status: reviewed
+tenor: 大范围蝗群随年份周期出现、铺天盖地侵袭田野并在当年达到严重峰值的灾害
+vehicle: 沙尘暴成片袭来，遮蔽环境、吞没地表，具有区域性暴发和年度强弱变化
+ground: 蝗群铺天盖地对应沙幕覆盖；灾害由远处推进对应风暴来袭；年际强弱对应沙尘暴等级变化

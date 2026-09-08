@@ -1,0 +1,28 @@
+scene_id: S18
+source_notes: scene_S18_beats.md
+patterns:
+- pattern_id: S18-p1
+  beat: 通通当是放屁
+  dimension: verb
+  original_move: 罕见粗口作刻意语言暴力，摧毁名分清白概念
+  ai_default_failure: 写深吸一口气千万念头翻涌的过渡
+  transfer_rule: 死亡不给准备时间，爆发就直接爆发
+  quote: 通通当是放屁！通通滚他妈的蛋！
+- pattern_id: S18-p2
+  beat: 我既非清白之躯
+  dimension: verb
+  original_move: 颤、顿、缓缓的动词减速，六字概括创伤不展开
+  ai_default_failure: 让受害者长篇倾诉或追问细节
+  transfer_rule: 回应创伤不进对方框架，重建新框架
+  quote: 泪珠从脸颊上缓缓流下
+- pattern_id: S18-p3
+  beat: 拜堂
+  dimension: omission
+  original_move: 仪式只剩跪拜祝祷三动作，极简证明婚礼本质
+  ai_default_failure: 补虽无红烛却更庄重的旁白
+  transfer_rule: 违规仪式靠粗暴动作与庄重程式的张力
+  quote: 踢过两个蒲团，并排放在画像之前
+overall_traits:
+- 婚礼是以仪式形式进行的对抗行动
+- 音量对比即情感对比，柔硬极端反差
+- 敌对空间被语言行为重新编码为礼堂

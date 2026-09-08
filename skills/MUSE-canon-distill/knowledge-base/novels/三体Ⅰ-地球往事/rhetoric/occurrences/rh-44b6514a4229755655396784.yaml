@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-44b6514a4229755655396784
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L933
+chapter: 第11章 大史
+figure_type: metaphor
+quote: 你现在首先要保证站直了别趴下，然后才能说别的
+sensory_mapping: 身体姿态；平衡；承重；动作能力；心理
+context_fact: 汪淼仍被倒计时压迫，大史先让他吃饭、喝酒、睡觉并照常上班。
+image_mechanism: 复杂危机被暂时压到身体纵轴上，人物只需完成最基本的站立动作；只要重心还在脚上，下一步才有可能，趴下则所有推理归零。
+property_alignment: 保持精神功能对应身体站直承重；心理崩溃对应身体趴倒；继续工作调查对应直立后才能行走；优先恢复对应先稳姿势再行动
+context_alignment: 大史一贯以身体和生活常识对抗汪淼的抽象恐惧，直立口令符合其行动型声音。
+narrative_function: 给汪淼建立最低可执行目标，把故事从崩溃拉回调查。
+transfer_rule: 用姿态写心理韧性时，应对应承重、平衡、倒下后的功能损失和重新行动的先后顺序。
+failure_boundary: 身体直立不等于心理健康；面对需要停下求助的严重创伤时，强调别趴下可能压抑真实恢复需求。
+quality_assessment: conventional
+confidence: 0.97
+review_status: reviewed
+tenor: 汪淼必须先维持基本心理稳定和日常行动能力，才有余力追查真相
+vehicle: 身体靠骨骼肌肉直立承重，避免倒地后失去行动能力
+ground: 保持精神功能对应身体站直承重；心理崩溃对应身体趴倒；继续工作调查对应直立后才能行走；优先恢复对应先稳姿势再行动

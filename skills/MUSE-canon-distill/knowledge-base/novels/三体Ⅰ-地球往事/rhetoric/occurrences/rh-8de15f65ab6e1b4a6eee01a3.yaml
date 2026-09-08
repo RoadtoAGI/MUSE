@@ -1,0 +1,24 @@
+schema_version: rhetoric-occurrence/v1
+occurrence_id: rh-8de15f65ab6e1b4a6eee01a3
+work_id: novel:三体Ⅰ-地球往事
+edition_id: three-body-1-local-md-fa6a1ff2
+source_file: full_text.md
+source_sha256: fa6a1ff2c82a6910373fd6e2b82e4ace2fbb3f9137ef215402b3a14edebe1394
+source_locator: full_text.md:L575
+chapter: 第6章 宇宙闪烁之一
+figure_type: metaphor
+quote: 那么粗的精度，用COBE 观察数据的边角料就足够了
+sensory_mapping: 视觉；材质；裁切；价值层级
+context_fact: 只需百分之一精度监测，远低于实验室正常研究要求。
+image_mechanism: 完整观测数据被铺成一块可裁切材料，精密研究取走中心主料，粗监测从边缘捡取剩片；抽象精度等级转成材料利用等级。
+property_alignment: 核心数据服务正式研究对应主料用于成品；剩余低精度部分对应裁切余料；粗略任务仍可利用对应边角料可做次要用途
+context_alignment: 沙瑞山用轻松口气强调任务不占资源，边角料符合技术人员对低规格数据的实用判断。
+narrative_function: 说明观测易于安排，同时强化要求本身在专业视角下的荒诞。
+transfer_rule: 用加工余料写剩余资源时，应明确主任务取走什么、余下部分降低了哪项规格、次任务为何仍适用。
+failure_boundary: 数据被删除、质量随机损坏或必须完整联合分析时不存在可独立使用的余料，边角模型会误导复用方式。
+quality_assessment: effective
+confidence: 0.96
+review_status: reviewed
+tenor: COBE数据中不用于精细研究却足以完成粗略监测的低价值部分
+vehicle: 主料裁切后剩下、仍可用于小物件的边角碎料
+ground: 核心数据服务正式研究对应主料用于成品；剩余低精度部分对应裁切余料；粗略任务仍可利用对应边角料可做次要用途
