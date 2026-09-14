@@ -6,59 +6,59 @@
 
 [简体中文](README.md) | **English**
 
-From a writing request to a finished story, with narrative theory guiding the decisions along the way.
+Describe the story you want, then develop it from premise to finished prose.
 
-[Story theory](#how-mckees-theory-guides-writing) · [Literary knowledge base](#literary-knowledge-base-and-few-shot-guidance) · [How it works](#how-it-works) · [Skill packages](#skill-packages) · [Quick start](#quick-start) · [Repository guide](#repository-guide)
+[Story theory](#how-mckees-theory-guides-writing) · [Literary knowledge base](#learning-from-literary-examples) · [How it works](#how-it-works) · [Skill packages](#skill-packages) · [Quick start](#quick-start) · [Repository guide](#repository-guide)
 
 </div>
 
-MUSE turns natural-language writing requirements into fiction through planning, character performance, scene composition, and revision. It connects Robert McKee's story theory with a literary knowledge base and reusable writing skills, then carries each story's decisions forward through a shared workspace.
+MUSE is an AI writing system for **original fiction, screenplays, serial fiction, and derivative works**. It uses Robert McKee's story theory to guide design, retrieves examples from a literary knowledge base, and organizes character performance, scene composition, and revision.
 
-We call this task **Vibe Narrativizing**: describe the story you want—its premise, relationships, key events, atmosphere, and prose style—and develop those intentions into a complete narrative.
+Describe the setting, relationships, key events, atmosphere, and prose style in natural language. MUSE develops these requirements into world facts, character motivations, outlines, and scene plans. A shared workspace stores them for subsequent writing, and the final output includes the manuscript and its design and revision materials. We call the task of developing a complete story from writing requirements **Vibe Narrativizing**.
 
-The repository includes workflows for **original fiction, screenplays, serial and derivative fiction**, together with tools for analyzing literary works and retrieving writing references. Most skill instructions and knowledge-base annotations are in Chinese; the [skills collection](skills/README.md) includes a corpus guide and direct links to English source material.
+The repository also provides tools for analyzing literary works, distilling character materials, and retrieving references. Most skill instructions and knowledge-base annotations are in Chinese; the [skills collection](skills/README.md) includes a corpus guide and links to English source material.
 
 ## How McKee's theory guides writing
 
 Robert McKee's *Story* examines how events, characters, and structure create narrative meaning. *Dialogue* develops the account of speech as action. MUSE draws on these principles to guide concrete decisions in story design, character performance, and revision.
 
-| Narrative principle | The writer's question | Application in MUSE |
-|---|---|---|
-| **Desire and choice under pressure** | What does the character want now, what will they sacrifice, and where will they hesitate? | Character design establishes pursuits and relationships; scene-specific materials develop immediate intentions and actions |
-| **The gap between action and outcome** | How does the world's response depart from the character's expectations and force a new approach? | Plot and scene design connect actions, consequences, and subsequent choices |
-| **Value change within a scene** | What changes in trust, freedom, safety, or intimacy by the end of the scene? | Scene plans identify the change; prose realizes it through events and reactions |
-| **Dialogue as action and subtext** | Is the speaker probing, reassuring, demanding, or evading? What intention remains unspoken? | Character performance and dialogue craft coordinate speech, physical action, and changing relationships |
-| **Climax and controlling idea** | What does the final choice bring about, why does it happen, and what understanding emerges? | Conception establishes a direction; structure and ending develop its meaning through character action |
+| Narrative principle | Application in MUSE |
+|---|---|
+| **Choice under pressure** | Character design establishes pursuits, concerns, and relationships; performance reveals character through sacrifice, hesitation, or persistence |
+| **Unmet expectations** | A character acts, receives an unexpected response, and changes approach. Plot design connects these actions, consequences, and subsequent choices |
+| **Value change within a scene** | Scene plans specify changes in trust, freedom, safety, or intimacy; prose develops the turn through events and reactions |
+| **Dialogue as action** | Characters speak to probe, reassure, demand, or evade. Speech, physical action, and context convey unspoken intentions, or subtext |
+| **Controlling idea** | Conception establishes a direction; the climactic choice and its consequences develop the story's understanding of the characters' experience |
 
-For example, a reporter trying to clear her father's name discovers that he helped falsify the records. The evidence changes her situation and forces a choice between revealing the truth and protecting her family. Character desire, plot development, and story meaning grow from the same relationship between action and consequence.
+For example, a reporter trying to clear her father's name discovers that he helped falsify the records. The evidence changes her situation and forces a choice between revealing the truth and protecting her family. Revealing the truth would cost her the outcome she originally wanted, giving the final choice its weight.
 
-MUSE organizes these principles into phase-specific skills, character materials, and review methods. The project supplies the file structures, orchestration, and adaptations for fiction and serial writing. Explore the skill references on [premise and controlling idea](skills/MUSE-writing/skills/phase0-conception/references/mckee-premise.md), [character design](skills/MUSE-writing/skills/phase2-character/references/mckee-character.md), [scene design](skills/MUSE-writing/skills/phase5-scene-arrangement/references/mckee-scenes.md), and [subtext](skills/MUSE-writing/skills/dialogue-craft/references/subtext-theory.md) (in Chinese).
+MUSE uses these principles to write phase-specific skills, character materials, and review methods, with file structures and orchestration adapted for fiction and serial writing. See the skill references on [premise and controlling idea](skills/MUSE-writing/skills/phase0-conception/references/mckee-premise.md), [character design](skills/MUSE-writing/skills/phase2-character/references/mckee-character.md), [scene design](skills/MUSE-writing/skills/phase5-scene-arrangement/references/mckee-scenes.md), and [subtext](skills/MUSE-writing/skills/dialogue-craft/references/subtext-theory.md) (in Chinese).
 
-## Literary knowledge base and few-shot guidance
+## Learning from literary examples
 
-MUSE's literary knowledge base organizes the structure, characters, scenes, and language of novels, plays, and serial fiction into retrievable writing references. **Few-shot guidance means placing a small selection of relevant examples in the current creative context, so the model can learn from source passages and their analysis.** Theory supplies principles for creative decisions; literary examples show how those principles take shape in particular characters, situations, and prose.
+The literary knowledge base stores analyses of novels, plays, and serial fiction: whole-story and phase-specific designs, character profiles, source scenes, style profiles, beat-level craft notes, and inspiration cards that explain narrative mechanisms. Dialogue events record consecutive exchanges, including their relationships, pressures, and speech actions.
 
-The analysis assets connect whole-story and phase-specific designs, character materials, source scenes, style profiles, beat-level craft notes, and inspiration cards that explain narrative mechanisms. Dialogue events also preserve consecutive exchanges and their relationship, pressure, and speech actions for character performance.
+During writing, the system selects a small set of relevant examples and supplies their source passages and analysis to the model as **few-shot guidance**. Each task draws on different materials:
 
 | Creative stage | Knowledge-base materials | Decisions they support |
 |---|---|---|
-| **Conception and thematic development** | Source premises, inspiration cards, relevant passages, and mechanism analysis | Which relationship, situation, or image can carry the intended experience |
-| **World, outline, and plot design** | World rules, plot spines, sequence structures, and scene analyses | How to establish causal conditions, develop conflict, and arrange revelations and climaxes |
-| **Character design and performance** | Character profiles, behavioral evidence, and consecutive dialogue exchanges | How a character chooses, responds, and speaks under the current relationship and pressure |
-| **Scene composition and prose** | Source scenes, style cards, and beat-level craft annotations | How to organize action, turns, narrative distance, sentence rhythm, and omission |
-| **Review and revision** | Adopted references, design decisions, and the resulting prose | Which creative intentions need further development and how to revise style and scene execution |
+| **Conception** | Source premises, inspiration cards, relevant passages, and mechanism analysis | Which relationship, situation, or image can carry the intended experience |
+| **Outline design** | World rules, plot spines, sequence structures, and scene analyses | How to establish causal conditions, develop conflict, and arrange revelations and climaxes |
+| **Character development** | Character profiles, behavioral evidence, and consecutive dialogue exchanges | How a character chooses, responds, and speaks under the current relationship and pressure |
+| **Composition** | Source scenes, style cards, and beat-level craft annotations | How to organize action, turns, narrative distance, sentence rhythm, and omission |
+| **Revision** | Adopted references, design decisions, and the resulting prose | How to repair the prose while preserving the chosen style and scene intentions |
 
-References are selected for the **current creative problem**. Design retrieval examines source mechanisms and the conditions that make them work; scene retrieval considers the situation and desired prose register; dialogue retrieval considers relationships, pressure, and response goals. Selected passages, analysis, and usage guidance enter the run's workspace and reach the relevant role. Inspiration adopted during design travels with the outline into composition, while revision continues to use the active references within their adopted scope.
+Outline designers look for how a source organizes its plot and what makes that approach work. Scene writers select passages for the character's situation and desired prose register; character rehearsal draws on dialogue with comparable relationships and pressures. Selected materials and usage guidance are saved in the workspace. Adopted inspiration accompanies the outline into writing, and revision continues to use references for their agreed purposes.
 
-For a fairy tale that conveys a secret under surveillance, a writer can start with the [dual-meaning inspiration card](skills/MUSE-canon-distill/knowledge-base/inspiration/double-layer-code-speech.yaml), examine the [craft analysis of the corresponding scene in *Death's End*](skills/MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/craft_notes/scene_S26_beats.yaml), and read the [source scene](skills/MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/scenes/scene_S26.md). Together, these materials connect the narrative mechanism to the placement of repetition, objects, and omissions, then to the resulting reading experience. The new story develops those choices through its own characters, world, and the author's intended use of the reference.
+For a fairy tale that conveys a secret under surveillance, a writer can start with the [dual-meaning inspiration card](skills/MUSE-canon-distill/knowledge-base/inspiration/double-layer-code-speech.yaml), examine the [craft analysis of the corresponding scene in *Death's End*](skills/MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/craft_notes/scene_S26_beats.yaml), and read the [source scene](skills/MUSE-canon-distill/knowledge-base/novels/三体Ⅲ-死神永生/scenes/scene_S26.md). The card explains the relationship between the surface story and hidden information; the craft analysis shows the use of repetition, objects, and omissions; the source reveals where information appears, how sentences repeat, and how the scene ends. The writer applies these materials according to the new story's characters, world, and the author's intended use.
 
 Explore the entrypoints for [design references](skills/MUSE-canon-distill/skills/design-doc-reference/SKILL.md), [character dialogue references](skills/MUSE-canon-distill/skills/dialogue-reference/SKILL.md), and [scene references](skills/MUSE-canon-distill/skills/scene-reference/SKILL.md), or browse the [corpus guide](skills/README.md#knowledge-base). Most reference materials are in Chinese.
 
 ## How it works
 
-MUSE addresses two connected questions: **what guidance helps a model make a creative decision, and how does that decision continue to shape the story?** Knowledge engineering organizes principles and examples into task-specific skills. An agent harness—the roles, tools, shared files, and handoffs around model calls—connects those skills to the work of writing.
+MUSE organizes creation through an agent harness: a coordinator assigns tasks, specialist roles design, perform, write, or review, and tools read and write the shared workspace. Each stage loads the relevant skills and earlier results, then develops the decisions made so far.
 
-The full story workflow brings five responsibilities together: literary reference, design, character performance, creation, and review.
+The diagram shows the full story workflow, its reference sources, and where revisions return.
 
 ```mermaid
 flowchart TD
@@ -68,7 +68,7 @@ flowchart TD
     canon["Literary knowledge base<br/>Designs, characters, dialogue, style, and source scenes"]
     examples["Select few-shot references for the current task<br/>Source passages, analysis, and usage guidance"]
     design["Design<br/>World, characters, plot, and scene plans"]
-    performance["Character perspectives and optional performance<br/>Intentions, actions, and dialogue candidates"]
+    performance["Character performance (optional)<br/>Intentions, actions, and dialogue candidates"]
     creation["Creation<br/>Compose scenes from plans and character materials"]
     review["Review and revision<br/>Story coherence, character voice, and prose"]
     story["Finished story<br/>Manuscript and supporting design artifacts"]
@@ -100,13 +100,9 @@ flowchart TD
     class review,story checking
 ```
 
-**Design makes the story's commitments concrete.** The complete fiction workflow develops a premise, world, characters, plot spine, sequence structure, and scene plans. A planned climax determines what earlier conflicts must establish; each scene develops a consequential change.
+Design proceeds through premise, world, characters, plot spine, sequence structure, and scene plans. The climax determines what earlier conflicts must establish. During composition, characters work from the situation as they know it to propose actions, reactions, and lines. The writer combines scene plans, character materials, and current references to choose viewpoint, pacing, and detail.
 
-**Character performance supplies material for the writer.** Scene-specific intentions and pressures produce possible actions, reactions, and lines. The writer composes these materials into a scene, choosing pacing, viewpoint, detail, and dialogue.
-
-**Context follows creative responsibility.** Design roles read the premise and prior designs; character performance uses the situation as that character knows it; writers receive scene plans, character materials, and current references; reviewers compare prose with its design. The shared workspace preserves artifacts, and each handoff selects the materials needed for the next task.
-
-**Review feeds back into the work.** Scene and whole-story review guide revisions to prose or design. Serial workflows also record chapter summaries, world facts, character history, and unresolved threads for the next chapter.
+Reviewers compare the prose with its design and return problems to the writer or the relevant design stage. Serial workflows also save chapter summaries, world facts, character history, and unresolved threads for the next chapter. Each stage reads the materials needed for its task from the shared workspace.
 
 ## Skill packages
 
@@ -200,7 +196,7 @@ results/<benchmark>/open-muse/<model>/<timestamp>/<query-id>/
 
 Run logs are saved alongside the deliverables. Use `--model` to override the configured model, and `--benchmark`, `--query-id`, and `--timestamp` to label a run. Run `PYTHONPATH=src python3 -m open_muse.main --help` for all options. Generation calls your configured provider and incurs its API usage charges.
 
-Knowledge-base retrieval, character rehearsal, and specialist handoffs are organized by the skill workflows above. The Python runner provides a separate entrypoint for sequential eight-phase execution; load the corresponding skill packages in an agent workspace to use their specialist capabilities.
+The Python runner executes the eight phases in sequence. To use knowledge-base retrieval, character rehearsal, and specialist roles, load the corresponding skill packages in an agent workspace.
 
 ### Set up literary retrieval
 
@@ -228,7 +224,7 @@ MUSE/
 
 Within each skill package, `skills/` contains the task instructions, `references/` holds supporting material beneath individual skills, `agents/` defines specialist roles, and `scripts/` and `hooks/` support execution and validation.
 
-## Development
+## Run the tests
 
 Install the test dependencies and run the configured runtime and writing-script suites:
 
