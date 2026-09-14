@@ -1,6 +1,6 @@
 ---
 name: scene-review
-description: 根据当前正文、有效 A/B/C findings 与设计依据作场景四档裁决，输出当前 verdict；局部可修问题生成 patch_directive，设计问题回交对应阶段。
+description: 裁决原创完整链的当前场景，结合正文、有效诊断与设计作四档判定；由 scene-reviewer 调用，局部问题交补丁修订，设计问题交原阶段。
 ---
 
 # 场景裁决与修订交接
@@ -79,8 +79,8 @@ patches:
       target_style: 延续本场叙述声音
 ```
 
-rewrite_span 使用 old_span、anchor_quote_start/end 和 line_range。锚须精确、唯一定位，重复文本用行范围消歧；短句无需扩写到固定字符数。字段见[输出与保护声明](references/output-schema.md)，类型和权限见[revision registry](../revision/references/patch-kind-registry.md)，追溯见[定位协议](references/traceability-protocol.md)。
+rewrite_span 使用 old_span、anchor_quote_start/end 和 line_range。锚须精确、唯一定位，重复文本用行范围消歧；短句无需扩写到固定字符数。字段见[输出与保护声明](references/output-schema.md)，问题机制、既有类型与操作范围见[修订类型与操作](../revision/references/patch-kind-registry.md)，追溯见[定位协议](references/traceability-protocol.md)。
 
-先合并等价问题和同一机制的重复位置。相邻问题相关但不同则保留职责；同位置指令冲突时先决定正确语义，输出一项相容修订，不把互相覆盖的指令顺序下发。分散 patch 仍无法保持整体逻辑时交 writer 重写；局部修订可增、删、重组，方向由问题决定。
+合并同一位置、相同语义问题的重复诊断；同一机制涉及不同位置时，可共用问题解释，各处需要独立修改与核验的范围仍保留各自 patch_id、锚点与保护条件。相邻问题相关但不同则保留职责；同位置指令冲突时先决定正确语义，输出一项相容修订，不把互相覆盖的指令顺序下发。分散 patch 仍无法保持整体逻辑时交 writer 重写；局部修订可增、删、重组，方向由问题决定。
 
 保留当前应用身份、已授权原文及关系保护。用户已接受或 next_round_only 的问题不重新激活。只有本次 pending patches 进入施工，已应用历史由主控保存；复审检查受影响的实际功能和必要关系。reviewer 只写判定、指令与既有复审记录，不改正文或上游设计。

@@ -3,6 +3,7 @@ from __future__ import annotations
 import importlib
 import json
 from pathlib import Path
+from types import SimpleNamespace
 
 import yaml
 
@@ -63,6 +64,36 @@ def test_collect_todo_skips_existing_sidecar_unless_force(tmp_path, monkeypatch)
 
     assert len(todo) == 1
     assert todo[0].name == "scene_S01_beats.md"
+
+
+def test_declared_notes_prepare_ingest_and_nomination_use_same_source(tmp_path, monkeypatch):
+    kb = _make_kb(tmp_path)
+    monkeypatch.setattr(ecp, "KB_ROOT", kb)
+    work = kb / "novels" / "书A"
+    notes = work / "scenes" / "scene_S01_craft.md"
+    notes.parent.mkdir()
+    notes.write_text("索引指定的原始手艺解释", encoding="utf-8")
+    (work / "scene_index.json").write_text(json.dumps([
+        {"scene_id": "S01", "craft_notes_file": "scenes/scene_S01_craft.md"}
+    ]), encoding="utf-8")
+    assert ecp.collect_todo("书A") == [notes]
+    task = tmp_path / "task.json"
+    assert ecp.prepare(SimpleNamespace(novel="书A", scene_id=None, force=False,
+                                        limit=10, out=str(task))) == 0
+    item = json.loads(task.read_text())["items"][0]
+    assert item["scene_id"] == "S01" and item["novel"] == "书A"
+    assert item["notes_text"] == notes.read_text()
+    output = tmp_path / "output.json"
+    output.write_text(json.dumps({"extractions": [{
+        "novel": "书A", "scene_id": "S01", **json.loads(_raw_patterns())
+    }]}), encoding="utf-8")
+    assert ecp.ingest(SimpleNamespace(ingest=str(output), dry_run=False)) == 0
+    sidecar = yaml.safe_load(notes.with_suffix(".yaml").read_text())
+    assert sidecar["source_notes"] == notes.name
+    assert sidecar["patterns"][0]["pattern_id"] == "S01-p1"
+    assert ecp.collect_todo("书A") == []
+    bic = importlib.import_module("skills.MUSE-canon-distill.knowledge-base.scripts.build_inspiration_cards")
+    assert "动作承担情绪" in bic._read_craft_traits(work)
 
 
 def test_parse_extraction_validates_dimension_and_assigns_ids():

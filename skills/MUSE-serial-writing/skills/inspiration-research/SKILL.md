@@ -1,13 +1,13 @@
 ---
 name: inspiration-research
-description: 由 serial-outline S1–S5 围绕当前叙事问题、指定书目或原型调用，研究原作关系、条件与可迁移机制，产 reference_only 候选卡，由设计负责人选择采用。
+description: 连载设计中的灵感与原型研究。由 serial-outline 围绕当前叙事问题、指定书目或原型调用，提供有来源的候选卡供设计负责人采用。
 ---
 
 # 连载灵感与原型研究
 
 ## 当前问题与来源
 
-输入 work_dir，以及 books、prototype_description、narrative_problem 中已有的一项或多项；同时使用调用方给定的版本、改编范围和已知条件。slug 可省略，按原型生成独立 ASCII kebab-case。指定书目优先；仅有开放问题时先按当前设计尺度查询 design-doc-reference 的已有材料。思想与核心关系用 phase_id=0，世界、人物或结构问题按相应设计尺度选择。
+输入 work_dir，以及 books、prototype_description、narrative_problem 中已有的一项或多项；同时使用调用方给定的版本、改编范围、逐来源用途和已知条件。slug 可省略，按原型生成独立 ASCII kebab-case。指定书目优先；仅有开放问题时先按当前设计尺度查询 design-doc-reference 的已有材料。思想与核心关系用 phase_id=0，世界、人物或结构问题按相应设计尺度选择。类型参数使用来源包认可的 genre，具体表达目标放 narrative_problem，类型未定时可省略。
 
 资料可以互补：已有作品走 [canon 查询](references/canon-path.md)，公开资料走 [web 核实](references/web-path.md)，用户材料直接读取。使用宿主可用入口，知识库只读；查询不隐式启动建库。缺少指定版本的必要依据时返回缺口，已有有效材料仍可使用。
 

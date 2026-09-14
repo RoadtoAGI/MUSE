@@ -14,10 +14,10 @@ sequence_expansions:
         pov: "视角角色 char_id"
         narration_style: close-third  # close-third=紧贴 pov 角色内心 | third-omniscient=全知叙述者 | first=第一人称
         participants:
-          - "角色 slug"
+          - "已绑定的角色 char_id 或一次性 participant ID"
         location_time: "本场景时空坐标（如 '破宅 / 黄昏'）"
-        conflict: "核心冲突描述"
-        value_start: "开始时的关键叙事状态（语义按 spine_mode 解释：desire=价值状态 / information=信息或认知状态 / observe-motif=关系或感知状态；schema 字段名保留作向后兼容）"
+        conflict: "本场的追求与阻力、待解信息关系或母题联系；按实际组织方式填写"
+        value_start: "开始时的关键叙事状态（desire 关注价值处境，information 关注信息或认识，motif 关注关系、感知或意义；字段名保留兼容）"
         value_end: "结束时的关键叙事状态；状态保持时按本场作用说明，不虚构翻转"
         reader_track: "本场读者跟随的主要问题、行动或感知变化"
         scene_tasks:
@@ -27,13 +27,13 @@ sequence_expansions:
               - "读者由本场取得的新证据、理解或待解问题"
             rendering:
               default: summary
-              expand_only_if: "动作改变关系 / 危险 / 欲望"
+              expand_only_if: "本场需要读者经历的变化、感知或过程及其成立条件"
             voice_gear: dense        # 可选；有角色 voice_boundaries 依据时，提示声音突出或收敛；随人物压力和表达目的判断
         inspiration_refs:           # optional，引用 inspiration_ledger 中 type=pattern 的 INS-* 卡
           - INS-001
           - INS-007
         handoff: "衔接到下一场景的方式"
-        beat_direction: "（仅关键场景）节拍的大致方向和鸿沟位置"
+        beat_direction: "（仅关键场景）压力、期待或解释怎样改向及其原因"
 
         # —— 以下为按场景需要填写的可选字段 ——
         pov_constraint:
@@ -44,7 +44,7 @@ sequence_expansions:
         craft_carrier:
           type: "object | bodily_action | silence | procedural_form | second_hand_story | sensory_shock | scale_shift | expectation_reversal"
           concrete_anchor: "具体物件 / 动作 / 声音 / 文体"
-          replaces: "它替代了哪段解释 / 心理 / 背景"
+          replaces: "该承载方式的叙事作用；有替代对象时说明替代了什么"
 
         # world_disclosure_plan：本场世界信息披露边界。
         # 缺省时按来源事实、人物知情和既定揭示时点决定。
@@ -59,7 +59,7 @@ sequence_expansions:
           - "本场故意不解释什么"
 
         irreversible_action:
-          - "一个可见且不可撤销的动作"
+          - "本场已确认为必要的不可撤销变化及其条件"
 
         reveal_method:
           type: "direct_action | indirect_evidence | witness_chain | object_trace | official_record | overheard_fragment | bodily_reaction | delayed_revelation"
@@ -67,7 +67,7 @@ sequence_expansions:
         # —— 以下为按场景需要填写的可选字段 ——
         narrator_distance:
           mode: "intimate_first | reminiscing_first | reporter_third_close | reporter_third_distant | archival_zero | omniscient_satirist | bilingual_drifter | unreliable_first"
-          # enum 与 phase0 narrator_position.primary 同源（phase0 锁定 → phase5 同名继承）
+          # enum 沿既有接口；依据本作已确认叙述方式和本场作用选择。
           reason: "为什么选这个距离 — 写一句"
 
         scale_inversion:
@@ -80,8 +80,8 @@ sequence_expansions:
           preserved_anchors: ["同样的动作 / 物件 / 命令词清单"]
           removed_premises: ["前者成功 / 失败 / 完整的前提，本场景被删除的"]
 
-        # 高潮场景的 pattern 选择 — writer 只执行被选中的 pattern，
-        # climax=true 不再触发自动加载全部高潮模板
+        # 高潮场景的模式线索；writer 按已选机制与本场条件实现。
+        # climax=true 不自动加载全部高潮模板。
         climax_pattern:
           primary: "layered_revelation | ineffable_realization | passive_death | mask_hard_cut | unfinished_action | anti_epic_failure | scale_shrink | null"
           secondary: "同上或 null"
@@ -99,7 +99,7 @@ sequence_expansions:
             # 5 enum + null：对白本身呈现的形态
             reason: "为什么本场偏好这个组合 — 写一句（可选）"
 
-        # 反先验场景标记：本场景的核心设计 = "高情感语境中嵌入不合适的日常行为"
+        # 反先验场景标记：日常行为与高情感处境相遇，按其实际作用判断。
         # 参考：《挪威的森林》scene 10 — 医院 + 黄瓜 + 欧里庇得斯。
         # used=true 时 dispatcher 激活卡上材料，具体实现按作用和条件选择。
         # 缺字段 / used=false → 沿一般写作路径。
@@ -120,11 +120,11 @@ sequence_expansions:
             - "psychological_overfill"
             - "情绪库存短语"
           positive_strategy:                          # 本场特化策略；通用修法 writer 通过 prose-craft skill 查 ai-cliche-patterns.md
-            - "本场社交调度场景，动作合并必须落到关系压力变化点（不是单纯减字数）"
-            - "本场短比喻只在感官替代功能成立时出现（不是通用『少用比喻』）"
+            - "例行调度若重复结算同一结果，可合并；改变人物关系或实际压力的交接保留展开"
+            - "比喻若只重复已表达的情绪，可删并；带来贴合人物的新认识、声音或感知时保留"
           bad_shape_examples:                         # 可选；补充有辨别价值的形态示例，按机制判断
-            - "他停下，低头，看门缝，伸手，推开"
-            - "像某种没有声音的重量"
+            - "停下、低头、伸手的连续步骤若没有新增感知或代价，可以收束；逐步发现危险时可以展开"
+            - "已有沉重情绪后再写‘像某种没有声音的重量’，若没有新的意象或人物作用，只是在重复结算"
 
 tension_curve:
   description: "张力曲线的文字描述"
@@ -174,15 +174,15 @@ scene_task:
 
 | 字段 | 必需 | 下游使用 |
 |------|------|---------|
-| `sequence_expansions[].seq_id` | 是 | 关联 Phase 4 的序列设计 |
+| `sequence_expansions[].seq_id` | 采用分组时 | 关联本章使用的单元/序列组织；已有有效 Phase 4 设计时沿用其归属 |
 | `scenes[].scene_id` | 是 | Phase 6（按 ID 展开每个场景为叙事文本）。**必须匹配 `^S\d{2}$`**（`S01` / `S02` / ... / `S99`）；不得含 `scene_` 前缀或纯数字格式，否则下游路径模板 `pipeline/scene_{scene_id}/` 会撞双前缀（如 `scene_scene_1`）|
 | `scenes[].arc_id` | 是 | Phase 6（快速定位当前幕的价值方向）。派生字段：从 seq_id 归属 Arc 获得 |
 | `scenes[].title` | 是 | Phase 6（场景标识） |
 | `scenes[].pov` | 是 | Phase 6（叙事视角锚定） |
 | `scenes[].narration_style` | 是 | Phase 6（叙事腔调锚）。close-third=紧贴 pov 角色内心；third-omniscient=全知叙述者；first=第一人称 |
 | `scenes[].participants` | 是 | Phase 6（确定对白角色）、character-rehearsal（Actor 分配） |
-| `scenes[].location_time` | 是 | Phase 6（时空坐标，引用 Phase 1 世界观切片） |
-| `scenes[].conflict` | 是 | Phase 6（节拍围绕冲突展开） |
+| `scenes[].location_time` | 是 | Phase 6（时空坐标，使用本章上下文及相关世界册的有效条件） |
+| `scenes[].conflict` | 是 | Phase 6（场景卡显示“冲突或组织关系”：欲望组织时写追求与阻力，信息组织时写证据与待解问题，母题或观察组织时写意义、感知之间的联系；无人物对抗时按实际关系填写） |
 | `scenes[].value_start` / `value_end` | 是 | 章内设计与审阅；writer-facing scene_card 只显示“入场处境 / 离场结果”，正文通过行动与后果使变化成立 |
 | `scenes[].reader_track` | 是 | 章内设计与审阅；writer-facing scene_card 显示“阅读焦点” |
 | `scenes[].scene_tasks` | 是 | 章内设计与审阅；writer-facing scene_card 保留本场作用、候选材料及其作用依据、读者所得和展开尺度，以可读标签呈现 |
@@ -191,20 +191,20 @@ scene_task:
 | `scenes[].beat_direction` | 否 | 章 orchestrator、role-brief-deriver 与 review（仅关键场景）；不进入 writer-facing scene_card |
 | `scenes[].scene_tasks[].voice_gear` | 否 | Phase 6 writer（声音突出/收敛的场景提示）、scene-review（按人物依据检查 signature_voice_overuse） |
 | `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=仍遵守叙述视角和人物实际可知范围） |
-| `scenes[].craft_carrier` | 否 | Phase 6（writer：鸿沟由 type+concrete_anchor 承载，replaces 指明它替代了哪段解释/心理/背景；缺字段=由 writer 临场决定承载） |
+| `scenes[].craft_carrier` | 否 | Phase 6（writer：type+concrete_anchor 提供承载候选，replaces 说明其作用及适用的替代关系；缺字段时由 writer 决定实现） |
 | `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：授权 / 禁止借物披露世界规则的边界；`{forbid, allow}` 字符串列表 × 2；缺字段=按来源事实、人物知情与既定揭示时点判断） |
 | `scenes[].omission_plan` | 否 | Phase 6（writer：本场故意不解释什么；缺字段=不强约束省略点） |
 | `scenes[].irreversible_action` | 否 | Phase 6（本场已确认为必要的不可撤销变化及其条件；仅为实现候选的动作放入 physical_carrier，不用本字段提前固定） |
 | `scenes[].reveal_method` | 否 | Phase 6（writer：信息揭示方式锚——direct_action / object_trace / overheard_fragment 等；缺字段=writer 自由选择揭示路径） |
-| `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason；enum 与 phase0 narrator_position.primary 同源——8 值；缺字段=继承 phase0 默认） |
+| `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason，沿既有 8 值 enum；缺字段时使用本作已确认的叙述方式） |
 | `scenes[].scale_inversion` | 否 | Phase 6（writer：是否启用大命题↔小物件反转 + 具体桥；缺字段=不强约束） |
 | `scenes[].precedent_mirror` | 否 | Phase 6（writer：本场镜像哪场 + 镜像类型 + 保留锚点 + 删除前提；缺字段=不构造镜像关系） |
 | `scenes[].climax_pattern` | 否 | Phase 6（writer：高潮场景 pattern 锚——primary/secondary 7 enum + null；仅 climax/sequence_climax/arc_climax=true 时显式选择；缺字段=不加载任何高潮模板，走通用 Craft Preflight） |
 | `scenes[].dialogue_hints` | 否 | Phase 6（writer 在 dialogue-craft 工坊阶段消费：每条 hint = `{speaker, attribution_strategy(5 enum), dialogue_form(5 enum + null), reason}`；缺字段=走通用 dialogue 设计，不强约束） |
 | `scenes[].counter_prior_scene` | 否 | Phase 6（反先验场景的结构化提示：`{used, kind, mundane_action, emotional_context, forbidden_moves}`。`used=true` 时 dispatcher 激活 scene_card 上的相应材料；具体实现按作用和适用条件判断，已确认的作者禁界保留。缺字段 / `used=false` 时沿一般写作路径）|
-| `scenes[].prose_risk_contract` | 新产物须声明 `used` | Phase 6（`used=true` 时渲染场景风险和策略供 writer / reviewer 使用；`used=false` 时走通用写作指导。启用时填写相关子项，无风险时无需补策略）|
-| `tension_curve` | 否 | Phase 7（验证全文张力分布） |
-| `scene_causal_chain` | 否 | Phase 7（因果链审查） |
+| `scenes[].prose_risk_contract` | 否 | Phase 6（`used=true` 且有内容时渲染场景风险和策略供 writer / reviewer 使用；对象缺省或 `used=false` 时走通用写作指导。提取只检查当前场景已提供对象的格式）|
+| `tension_curve` | 否 | 章编排与当前审阅按相关问题理解压力、节奏与变化 |
+| `scene_causal_chain` | 否 | 章编排与当前审阅按相关问题核对因果依赖 |
 
 #### inspiration_refs（optional）
 
@@ -235,18 +235,18 @@ world_disclosure_plan:
 - 任一非空 → 输出段标题 + 该非空列表（另一侧空则不输出对应子标题）
 - 渲染位置：在 scene_card.md 内输出即可；与其他场景约束相邻显示
 
-## `prose_risk_contract`（显式声明是否使用）
+## `prose_risk_contract`（按风险使用）
 
-写作层 AI pattern 预防：声明本场 writer 应主动规避的 AI pattern 风险族 + 本场特化正向策略。family 命名锚 `prose-craft/references/ai-cliche-patterns.md` 现有条目（F 类已用 snake_case；A-G 类与观察层用中文短语——两者都接受）。
+写作层 AI pattern 提示：保留本场已识别的风险条件与可用策略。无具体风险时可省略对象或使用 `used: false`。family 命名锚 `prose-craft/references/ai-cliche-patterns.md` 现有条目（F 类已用 snake_case；A-G 类与观察层用中文短语——两者都接受）。
 
 **字段语义**：
 
 | 字段 | 必需 | 语义 |
 |---|---|---|
-| `used` | 是 | `true` 时 scene_card.md 渲染 contract 段作 writer / reviewer 可见 canonical source；`false` 或缺整段对象 → 不渲染 |
-| `risk_families` | `used=true` 时 | 本场 high-risk family 清单。family 名锚 ai-cliche-patterns.md 现有条目；未知 family 不阻断 writer，按实际风险和既有写作指导判断 |
-| `positive_strategy` | `used=true` 时 | 本场特化策略——只写本场风险形成的条件和合适的处理（如“社交调度动作合并到关系压力变化点”）；通用方法由 writer 通过 prose-craft 查阅 |
-| `bad_shape_examples` | 否 | 本场具体形态示例，形态参考，须说明触发条件和决定性差异；writer 根据实际语境判断并修复机制，不能只换词|
+| `used` | 对象存在时 | 布尔值；`true` 且有内容时 scene_card.md 渲染 contract 段供 writer / reviewer 消费；`false` 或对象缺省时不渲染 |
+| `risk_families` | 按已识别风险填写 | 列表可空，元素为非空字符串。family 名锚 ai-cliche-patterns.md 现有条目；未知 family 不阻断 writer，按实际风险和既有写作指导判断 |
+| `positive_strategy` | 有可用策略时 | 列表可空，元素为非空字符串。保留本场风险条件和合适处理；通用方法由 writer 通过 prose-craft 查阅 |
+| `bad_shape_examples` | 否 | 列表可空，元素为非空字符串；本场具体形态示例说明触发条件和决定性差异，writer 按实际语境判断机制 |
 
 **设计原则**：
 

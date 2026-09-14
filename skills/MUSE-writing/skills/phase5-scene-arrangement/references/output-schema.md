@@ -16,7 +16,7 @@ sequence_expansions:
         participants:
           - "角色 slug"
         location_time: "本场景时空坐标（如 '破宅 / 黄昏'）"
-        conflict: "核心冲突描述"
+        conflict: "本场的追求与阻力、待解信息关系或母题联系；按实际组织方式填写"
         value_start: "开始时的关键叙事状态（语义按 spine_mode 解释：desire=价值状态 / information=信息或认知状态 / observe-motif=关系或感知状态；schema 字段名保留作向后兼容）"
         value_end: "结束时的关键叙事状态（语义同上，按实际结果记录；作用不能仅由起止标签判断）"
         reader_track: "本场读者跟随的阅读焦点及必要关联（如『小龙女判断陌生人证据是否可信，并决定是否纳入寻找杨过的行动』）"
@@ -35,7 +35,7 @@ sequence_expansions:
           - INS-001
           - INS-007
         handoff: "衔接到下一场景的方式"
-        beat_direction: "（仅关键场景）节拍的大致方向和鸿沟位置"
+        beat_direction: "（仅关键场景）压力、期待或解释怎样改向及其原因"
 
         # —— 以下 5 字段全部 optional（缺字段时 writer 走通用 Craft Preflight，不强约束）——
         pov_constraint:
@@ -59,7 +59,7 @@ sequence_expansions:
             - "让行动选择成立所需的生存规则与世界规则"
 
         omission_plan:
-          - "本场故意不解释什么"
+          - "本场明确省略什么；涉及后续揭示的答案时说明适用范围和实际释放条件"
 
         irreversible_action:
           - "一个可见且不可撤销的动作"
@@ -186,7 +186,7 @@ Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符�
 | `scenes[].narration_style` | 是 | Phase 6（叙事腔调锚）。close-third=紧贴 pov 角色内心；third-omniscient=全知叙述者；first=第一人称 |
 | `scenes[].participants` | 是 | Phase 6（确定对白角色）、character-rehearsal（Actor 分配） |
 | `scenes[].location_time` | 是 | Phase 6（时空坐标，引用 Phase 1 世界观切片） |
-| `scenes[].conflict` | 是 | Phase 6（节拍围绕冲突展开） |
+| `scenes[].conflict` | 是 | Phase 6（场景卡显示“冲突或组织关系”：欲望组织时写追求与阻力，信息组织时写证据与待解问题，母题或观察组织时写意义、感知之间的联系；无人物对抗时按实际关系填写） |
 | `scenes[].value_start` / `value_end` | 是 | Phase 6 设计与审阅；writer-facing scene_card 只显示“入场处境 / 离场结果”，正文通过行动与后果使变化成立 |
 | `scenes[].reader_track` | 是 | Phase 6 设计与审阅；writer-facing scene_card 显示“阅读焦点” |
 | `scenes[].scene_tasks` | 是 | Phase 6 设计与审阅；writer-facing scene_card 只投影需成立的叙事工作、可替换的候选承载、目标叙事增量和不规定正文顺序的呈现建议，不显示内部键与 function_link |
@@ -196,7 +196,7 @@ Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符�
 | `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=无额外 POV 限制，人物知识与既定叙述方式继续生效） |
 | `scenes[].craft_carrier` | 否 | Phase 6（writer：鸿沟由 type+concrete_anchor 承载，replaces 指明它替代了哪段解释/心理/背景；缺字段=由 writer 临场决定承载） |
 | `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：安排当前场景释放 / 暂缓的世界规则；`{forbid, allow}` 字符串列表 × 2；缺字段=按用户要求、Phase 1 与当前冲突完成最低读者定向） |
-| `scenes[].omission_plan` | 否 | Phase 6（writer：本场故意不解释什么；缺字段=不强约束省略点） |
+| `scenes[].omission_plan` | 否 | 字符串列表；writer 与作者侧审阅取得本场省略要求。承接 `reader_spine.withheld_answer` 时附实际延迟条件；永久留白保留，缺字段=无额外省略要求 |
 | `scenes[].irreversible_action` | 否 | Phase 6（writer：本场不可逆结果的候选实现；仅明确规定的事实/因果结果为硬约束；缺字段=不强约束） |
 | `scenes[].reveal_method` | 否 | Phase 6（writer：信息揭示方式锚——direct_action / object_trace / overheard_fragment 等；缺字段=writer 自由选择揭示路径） |
 | `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason；继承 phase0 craft_targets.narrator_position.primary；可按本场职责调整，缺字段=继承既有叙述位置） |
@@ -218,6 +218,8 @@ Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符�
 引用数量由材料对本场剧情的作用决定。每张卡的成立条件与作用沿现有场景字段表达，来源数量不增加情节步骤或兑现次数。
 
 **Hard gate**（`validate_phase5_r10.py`）：双向一致性匹配——ledger 内 INS-* 的 `project_encoding[]` 必须有对应 `(phase=5, scene_id, adoption_kind ∈ {scene_carrier, reveal_carrier, structure_carrier, craft_carrier})` 项。
+
+`reader_spine` 到 `reader_track / scene_tasks / omission_plan` 的转换方法见 [SKILL.md“读者信息与世界规则的定向”](../SKILL.md#1ter-读者信息与世界规则的定向)。现有提取器将这些字段随场景卡交 writer；作者侧披露安排与人物所知分别判断。
 
 ## `world_disclosure_plan` (optional, str list × 2)
 

@@ -17,6 +17,6 @@ allowed-tools: Read Write Bash Skill
 
 ## 边界（不做什么）
 
-- 不 Edit 章正文 `draft.md`——发现正文问题在最终回复中报告，由 orchestrator 处置
+- 不修改章正文 `draft.md`；发现正文问题在最终回复中报告，由 orchestrator 处置
 - 不直接写 `series/ledgers/` 三台账——deltas 只以候选形态留在章 workspace 的 `recap.yaml`，转正由 orchestrator 在发布事务中调脚本完成
 - 不做章审阅——本 subagent 在审阅通过之后才被 dispatch，不复核审阅结论

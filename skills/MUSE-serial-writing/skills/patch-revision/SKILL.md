@@ -1,6 +1,6 @@
 ---
 name: patch-revision
-description: 连载单场景的定点修订。消费当前 patch_directive，在授权片段内修改正文，写 revision_summary，并以 complete / partial / failed 交回章编排者。
+description: 连载单场景的定点修订。由 serial-reviser 消费当前 patch_directive，在授权片段内改文并返回 revision_summary；整场重写由 writer 负责。
 ---
 
 # 场景定点修订

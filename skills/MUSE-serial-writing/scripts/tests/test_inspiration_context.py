@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess
 import sys
 
+import pytest
 import yaml
 
 SCRIPTS = Path(__file__).resolve().parents[1]
@@ -41,3 +42,33 @@ def test_shared_ledger_cannot_borrow_another_chapters_same_scene_id(tmp_path):
     shared.unlink()
     missing = subprocess.run(command, capture_output=True, text=True)
     assert missing.returncode != 0 and output.read_bytes() == accepted
+
+
+@pytest.mark.parametrize("contract", [None, {"used": False}, {"used": True}, {
+    "used": True, "risk_families": ["signature_voice_overuse"],
+    "positive_strategy": ["人物向熟人解释时保留朴素说法"],
+}])
+def test_optional_risk_guidance_reaches_current_scene_without_a_chapter_wide_gate(tmp_path, contract):
+    scene = dict(scene_id="S01", arc_id="A01", title="渡口", pov="keeper", narration_style="first",
+                 participants=["keeper"], location_time="渡口清晨", conflict="能否开船",
+                 value_start="等候", value_end="等候", scene_tasks=["观察雾气逐渐散去"], handoff="远处响起汽笛")
+    if contract is not None:
+        scene["prose_risk_contract"] = contract
+    # A different scene's malformed optional field is its own dispatch problem.
+    other = {**scene, "scene_id": "S02", "prose_risk_contract": {"used": "false"}}
+    _put(tmp_path, "pipeline/phase5_scenes.yaml", {"scenes": [scene, other]})
+    command = [sys.executable, str(SCRIPTS / "extract_scene_card.py"), "--work-dir", str(tmp_path), "--scene-id"]
+    result = subprocess.run(command + ["S01"], capture_output=True, text=True)
+    assert result.returncode == 0, result.stderr
+    card = (tmp_path / "pipeline/scene_S01/scene_card.md").read_text()
+    if contract and contract.get("positive_strategy"):
+        assert "人物向熟人解释时保留朴素说法" in card
+    else:
+        assert "写作层 AI pattern 预防" not in card
+    failed = subprocess.run(command + ["S02"], capture_output=True, text=True)
+    assert failed.returncode != 0 and "prose_risk_contract" in failed.stderr
+    assert not (tmp_path / "pipeline/scene_S02/scene_card.md").exists()
+    index = subprocess.run([sys.executable, str(SCRIPTS / "generate_phase6_index.py"), str(tmp_path)], capture_output=True, text=True)
+    assert index.returncode == 0, index.stderr
+    ids = [item["scene_id"] for item in yaml.safe_load((tmp_path / "pipeline/phase6_development.yaml").read_text())["scenes"]]
+    assert ids == ["S01", "S02"]

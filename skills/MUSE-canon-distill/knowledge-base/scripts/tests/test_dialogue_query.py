@@ -227,3 +227,71 @@ def test_turn_filters_cannot_be_assembled_from_different_speakers():
     score, reasons = dq.score_event(event, args)
     assert score > 0
     assert "target_turn:t1" in reasons
+
+
+def test_group_reference_preserves_receivers_knowledge_reply_and_result():
+    event = {
+        "event_type": "group_exchange",
+        "participants": [
+            {"character_id": "a", "display_name": "甲", "knowledge_boundary": "以为钥匙还在乙处", "position": "unneeded_metadata"},
+            {"character_id": "b", "display_name": "乙", "knowledge_boundary": "知道钥匙已交给丙"},
+            {"character_id": "c", "display_name": "丙"},
+        ],
+        "turns": [
+            {"turn_id": "t1", "speaker_id": "a", "addressee_ids": ["b"], "text": "钥匙呢？"},
+            {"turn_id": "t2", "speaker_id": "c", "addressee_ids": ["b"], "text": "先别说。"},
+            {"turn_id": "t3", "speaker_id": "b", "addressee_ids": ["a", "c"], "response_to": "t1", "text": "我已经交出去了。"},
+            {"turn_id": "t4", "speaker_id": "c", "addressee_ids": [], "text": "那就来不及了。"},
+        ],
+        "outcome": {"visible_result": "甲转向丙索取钥匙", "relationship_cost": "unneeded_cost_enum"},
+        "transferable_mechanism": "跨过插话回答原问，迫使旁人进入交涉。",
+    }
+    text = dq.render_reference(scene_id="S01", role_slug="role-a", matches=[(event, [])])
+
+    assert "来源知情条件（甲）：以为钥匙还在乙处" in text
+    assert "来源知情条件（乙）：知道钥匙已交给丙" in text
+    assert "[t1] 甲（接收：乙）：钥匙呢？" in text
+    assert "[t3] 乙（接收：甲、丙；回应：t1）：我已经交出去了。" in text
+    assert "[t4] 丙（接收未明）：那就来不及了。" in text
+    assert "来源结果：甲转向丙索取钥匙" in text
+    assert "迁移机制：跨过插话回答原问" in text
+    assert "unneeded_metadata" not in text and "unneeded_cost_enum" not in text
+
+
+def test_ordinary_adjacent_exchange_remains_concise():
+    event = {
+        "participants": [
+            {"character_id": "a", "display_name": "甲", "knowledge_boundary": ""},
+            {"character_id": "b", "display_name": "乙"},
+        ],
+        "turns": [
+            {"turn_id": "t1", "speaker_id": "a", "addressee_ids": ["b"], "text": "先坐下吧。"},
+            {"turn_id": "t2", "speaker_id": "b", "addressee_ids": ["a"], "response_to": "t1", "text": "好。"},
+        ],
+    }
+    assert dq.render_source_exchange(event) == [
+        "<dialogue_exemplar>", "甲：先坐下吧。", "乙：好。", "</dialogue_exemplar>",
+    ]
+
+
+def test_self_response_keeps_the_internal_turn_reference():
+    event = {"turns": [
+        {"turn_id": "t1", "speaker_id": "a", "speaker_label": "甲", "addressee_ids": ["a"], "text": "也许还有机会。"},
+        {"turn_id": "t2", "speaker_id": "a", "speaker_label": "甲", "addressee_ids": ["a"], "response_to": "t1", "text": "可他已经走了。"},
+    ]}
+    text = "\n".join(dq.render_source_exchange(event))
+    assert "[t1] 甲（接收：甲）：也许还有机会。" in text
+    assert "[t2] 甲（接收：甲；回应：t1）：可他已经走了。" in text
+
+
+def test_explicit_unknown_receiver_is_preserved_for_all_event_types():
+    for event_type in ("interaction", "group_exchange", "monologue", "soliloquy"):
+        event = {
+            "event_type": event_type,
+            "turns": [{"speaker_label": "甲", "addressee_ids": [], "text": "要下雨了。"}],
+        }
+        assert "甲（接收未明）：要下雨了。" in dq.render_source_exchange(event)
+        del event["turns"][0]["addressee_ids"]
+        assert dq.render_source_exchange(event) == [
+            "<dialogue_exemplar>", "甲：要下雨了。", "</dialogue_exemplar>",
+        ]

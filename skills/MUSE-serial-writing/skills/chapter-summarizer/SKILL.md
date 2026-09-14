@@ -1,6 +1,6 @@
 ---
 name: chapter-summarizer
-description: 连载收束产物生产者。章审阅和防治完成后，从当前定稿生成 recap.yaml 的前情摘要与台账候选；单元或卷结束时生成对应 digest。由 serial-chapter-writing 提供作品根、章工作区、章号及收束范围。
+description: 连载定稿的前情摘要与台账候选生成。由 serial-chapter-writing 在章审阅和防治完成后调用；单元或卷结束时生成对应 digest。
 ---
 
 # 章节摘要与台账候选

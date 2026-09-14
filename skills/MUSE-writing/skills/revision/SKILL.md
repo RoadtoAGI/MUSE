@@ -1,6 +1,6 @@
 ---
 name: revision
-description: 按当前 patch_directive 在授权范围内修订 Phase 6 场景，保留事实、人物与保护内容，输出可被主控消费的应用结果。
+description: 按本次 patch_directive 定点修订原创完整链的场景，保留事实、人物与保护内容；由 reviser 调用，返回应用结果供主控复审。
 ---
 
 # 场景定点修订
@@ -13,7 +13,7 @@ description: 按当前 patch_directive 在授权范围内修订 Phase 6 场景�
 
 ## 修订动作
 
-先用实际正文核实 issue，再按 suggested_action 和 rewrite_directive.preserve 处理。单句或一段重写以获准 anchor 为界，范围由问题影响决定；情绪直陈、自省、沉默、物件或长句均按功能判断。只换同义词却保留原有重复/解释结构时继续修该处，不强制把它改为动作。
+先用实际正文核实 issue，再按 suggested_action 和 rewrite_directive.preserve 处理。保留当前指令的 patch_kind，机制类名称提供问题线索，具体改动由指令语义、锚点与保护条件确定。单句或一段重写以获准 anchor 为界，范围由问题影响决定；情绪直陈、自省、沉默、物件或长句均按功能判断。只换同义词却保留原有重复/解释结构时继续修该处，不强制把它改为动作。
 
 保留事实、人物动机、必要结果、声音与知识边界。低强度承载可在 preserve 内调整；改变因果、关系结论或物件状态须有明确授权。active relation 的冻结 span 不在本 lane 重新判定；冲突返回主控。
 

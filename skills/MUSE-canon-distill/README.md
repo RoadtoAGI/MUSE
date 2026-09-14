@@ -8,10 +8,11 @@
 
 | Skill | 做什么 |
 |---|---|
-| [`scene-reference`](skills/scene-reference/) | Phase 6 写作时按 query 检索名著场景作 **few-shot 参考**；orchestrator 在 key scene（开篇 / 收束 / 高潮 / 主要转折等）触发 |
+| [`scene-reference`](skills/scene-reference/) | 按当前创作问题检索名著场景，供正文写作或独立场景取材；主控按实际需要调用 |
+| [`design-doc-reference`](skills/design-doc-reference/) | 在 Phase 0–5 按当前设计问题读取已有逆向分析与灵感卡，保留来源条件和采用范围 |
 | [`dialogue-reference`](skills/dialogue-reference/) | Phase 6 按场景关系、压力和言语行动检索连续对白回合，给每个角色生成独立的行为型 few-shot |
 | [`dialogue-kb-distill`](skills/dialogue-kb-distill/) | 从一部已入库作品提取可核验的对白事件，更新场景覆盖与检索索引 |
-| [`character-kb-distill`](skills/character-kb-distill/) | 从名著语料反向蒸馏角色——产出可加载的 character Skill 包（同人续写、角色 cosplay 写作用） |
+| [`character-kb-distill`](skills/character-kb-distill/) | 从名著语料蒸馏角色知识参考包，保留来源、关系与行为依据，供写作侧角色构建使用 |
 | [`novel-analysis`](skills/novel-analysis/) | 名著结构分析——产出场景切片、节拍标注、人物档案等 KB 资产，喂给上面两个 skill |
 | [`drama-analysis`](skills/drama-analysis/) | 戏剧、戏曲与剧本的 medium-aware 分析，产出场景、人物与对白资产 |
 
@@ -40,7 +41,7 @@ python-dotenv>=1.0   # 加载 OpenAI API key
 
 ## API 配置
 
-`kb_query.py` 调远程 embedding API 计算 query 向量，**首次使用必须配置 API key**。
+`kb_query.py --query` 调远程 embedding API 计算 query 向量，使用前需配置 API key。`--select` 物化已知作品与场景，以及对白结构检索可在本地完成。
 
 **一键诊断**：
 
@@ -87,9 +88,17 @@ python3 knowledge-base/scripts/kb_setup_check.py
 
 ## 与 MUSE-writing 的衔接
 
-主干 `MUSE-writing` 的 `phase6-scene-development` 与 `write_writer_preflight.py` 自带"扩展点"：
+主干 `MUSE-writing` 的 `phase6-scene-development` 按当前设计决定参考需要，dispatch 将本次有效参考路径传给 writer：
 
-- preflight 自动识别 `pipeline/references/{sid}_ref.md`（本包 scene-reference 产物），纳入 writer inputs
+- `scene-reference` 产出 `pipeline/references/{sid}_ref.md`；已取得且仍适用的材料可继续使用，由主控传递实际路径
 - Phase 6 在每个角色排练前调用 `dialogue-reference`，产出 `pipeline/references/{sid}_{role_slug}_dialogue_ref.md`；角色 agent 只迁移互动机制
-- phase6 [execution-protocol §4.5](../MUSE-writing/skills/phase6-scene-development/references/execution-protocol.md) 描述了本包加载后的 Phase 6 行为
+- phase6 [execution-protocol §3.5](../MUSE-writing/skills/phase6-scene-development/references/execution-protocol.md) 描述参考采用与用途契约
 - 主干 plugin 单独运行时这些扩展点静默跳过，不影响主线
+
+存在 Phase 0 时，`kb_query.py --canon-reference-profile <当前 YAML 绝对路径>` 按 `user_reference_materials[].work` 精确绑定各作品用途。`--reuse-mode` 与 `--intended-domains` 表示本次共同限制；每条 `reference_scope` 保留实际用途与最终档位，总头仅汇总。`style_only` 限于表达，明确强复用继续使用贴切素材；分数与手选均不能扩大作者指定范围。复合题材写入 `--query`，`--genre` 留给作者明确的硬限制。
+
+## 知识库维护
+
+手艺标注以作品权威索引的 `craft_notes_file` 为优先来源，未声明时兼容 `craft_notes/scene_*_beats.md`；提取脚本在该 Markdown 旁写 YAML，查询优先读取结构化标注、缺失时读取原标注。
+
+逐作品提名维护来源解释与原文窗口；灵感卡维护跨作品机制、身份与适用条件。`build_inspiration_cards.py --stage cluster --prepare` 同时装配这两层，成卡来源由提名汇入。修订单作品解释时先同步该作品提名，跨作品关系修订保留在卡中。`--replace` 整批校验通过后才替换卡与重建派生索引，含拒收条目时原库保持原样。

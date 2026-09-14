@@ -255,7 +255,7 @@ def test_reuse_mandate_header_reflects_match_tiers(tmp_path):
 
     text = _render(tmp_path, kb, [_result()])
     assert "reuse_mandate: true" in text
-    assert "语态归一" in text
+    assert "reuse_tier: full" in text
 
     low = _result()
     low["match"] = "low"
@@ -353,6 +353,121 @@ def test_reuse_shortlist_omitted_when_no_assets(tmp_path):
     text = _render(tmp_path, kb, [_result()])
 
     assert "## 复用候选" not in text
+
+
+@pytest.mark.parametrize("match", ["high", "selected"])
+@pytest.mark.parametrize("shortform", [False, True])
+def test_explicit_style_use_caps_selected_and_high_references(tmp_path, match, shortform):
+    kb = _make_kb(tmp_path)
+    _add_inspiration(kb)
+    _add_lore(kb)
+    result = dict(_result(), match=match)
+    text = _render(tmp_path, kb, [result], reuse_mode="style_only",
+                   intended_domains=["prose_style_imitation"], worldview="书A",
+                   shortform_pack=shortform, function_hint="对峙", paired_function_bridge=True)
+
+    assert "reuse_mode: style_only" in text
+    assert 'intended_domains: ["prose_style_imitation"]' in text
+    assert "reuse_tier: style" in text and "reuse_mandate: false" in text
+    assert 'tier="full"' not in text
+    assert '<worldview_lore' not in text
+    assert '## 复用候选' not in text
+    assert '可直接复用的表层元素' not in text
+    assert _scene_text() in text
+
+
+def test_world_only_scope_is_material_and_explicit_scene_reuse_remains_full(tmp_path):
+    kb = _make_kb(tmp_path)
+    _add_lore(kb)
+    selected = dict(_result(), match="selected")
+    material = _render(tmp_path, kb, [selected], reuse_mode="maximize_apt_reuse",
+                       intended_domains=["world_rule"], worldview="书A")
+    assert "reuse_tier: material" in material and "reuse_mandate: true" in material
+    assert '<worldview_lore' in material
+    full = _render(tmp_path, kb, [selected], reuse_mode="maximize_apt_reuse",
+                   intended_domains=["scene_carrier", "prose_style_imitation"])
+    assert "reuse_tier: full" in full and "reuse_mandate: true" in full
+
+
+def test_mixed_manual_sources_keep_per_work_scope_and_global_caps(tmp_path):
+    kb = _make_kb(tmp_path)
+    second = kb / "novels" / "书B" / "scenes"
+    second.mkdir(parents=True)
+    (second / "scene_S01.md").write_text(_scene_text(), encoding="utf-8")
+    profile = tmp_path / "phase0.yaml"
+    profile.write_text(yaml.safe_dump({"canon_reference_profile": {
+        "user_reference_materials": [
+            {"work": "书A", "stance": "prefer", "reuse_mode": "style_only",
+             "intended_domains": ["prose_style_imitation"]},
+            {"work": "书B", "stance": "prefer", "reuse_mode": "maximize_apt_reuse",
+             "intended_domains": ["scene_carrier", "prose_style_imitation"]},
+        ]}}, allow_unicode=True))
+    selected = [dict(_result(), match="selected"),
+                dict(_result(rank=2), novel="书B", file="novels/书B/scenes/scene_S01.md", match="selected")]
+    results = kq.bind_reference_profile(selected, str(profile))
+    for shortform in (False, True):
+        text = _render(tmp_path, kb, results, reuse_mode="maximize_apt_reuse", shortform_pack=shortform)
+        scopes = [part.split("</reference_scope>", 1)[0] for part in text.split("<reference_scope ")[1:]]
+        assert "reuse_tier: style" in scopes[0] and "reuse_mode: style_only" in scopes[0]
+        assert "reuse_tier: full" in scopes[1] and "reuse_mandate: true" in scopes[1]
+        text = _render(tmp_path, kb, results, intended_domains=["prose_style_imitation"], shortform_pack=shortform)
+        assert "reuse_tier: full" not in text
+        assert "reuse_mandate: true" not in text
+    unbound = dict(_result(), novel="书A续篇")
+    assert "reuse_mode" not in kq.bind_reference_profile([unbound], str(profile))[0]
+
+
+@pytest.mark.parametrize("source_scope", [
+    {"reuse_mode": "style_only"},
+    {"stance": "avoid"},
+])
+@pytest.mark.parametrize("worldview_name", ["书A", " 书 Ａ "])
+def test_worldview_profile_applies_without_same_work_scene(tmp_path, source_scope, worldview_name):
+    kb = _make_kb(tmp_path)
+    _add_lore(kb)
+    profile = tmp_path / "phase0.yaml"
+    profile.write_text(yaml.safe_dump({"canon_reference_profile": {
+        "user_reference_materials": [{"work": "书A", **source_scope}]
+    }}, allow_unicode=True), encoding="utf-8")
+    other = dict(_result(), novel="书B", match="selected")
+    text = _render(tmp_path, kb, [other], worldview=worldview_name,
+                   canon_reference_profile=str(profile))
+    assert "<worldview_lore" not in text
+    assert "worldview_reuse:" not in text
+    assert "reuse_tier: full" in text
+
+
+def test_worldview_disjoint_domains_does_not_load_lore(tmp_path):
+    kb = _make_kb(tmp_path)
+    _add_lore(kb)
+    scoped = dict(_result(), intended_domains=["prose_style_imitation"])
+    text = _render(tmp_path, kb, [scoped], worldview="书A",
+                   intended_domains=["world_rule"])
+    assert "<worldview_lore" not in text
+    assert "worldview_reuse:" not in text
+
+
+def test_authoritative_craft_path_and_sibling_sidecar_reach_reference(tmp_path):
+    kb = _make_kb(tmp_path, sidecar=False, style_card=False)
+    work = kb / "novels" / "书A"
+    index_path = work / "scene_index.json"
+    index = json.loads(index_path.read_text())
+    index[0]["craft_notes_file"] = "scenes/scene_S01_craft.md"
+    index_path.write_text(json.dumps(index))
+    notes = work / index[0]["craft_notes_file"]
+    notes.write_text("来自显式路径的手艺解释", encoding="utf-8")
+    text = _render(tmp_path, kb, [_result()])
+    assert "来自显式路径的手艺解释" in text
+    notes.with_suffix(".yaml").write_text(yaml.safe_dump({
+        "patterns": [{"pattern_id": "S01-p1", "original_move": "显式来源的结构化解释"}]
+    }, allow_unicode=True))
+    text = _render(tmp_path, kb, [_result()])
+    assert "显式来源的结构化解释" in text
+    assert "来自显式路径的手艺解释" not in text
+    notes.unlink()
+    notes.with_suffix(".yaml").unlink()
+    text = _render(tmp_path, kb, [_result()])
+    assert "来自显式路径的手艺解释" not in text
 
 
 def _add_lore(kb: Path, novel: str = "书A") -> None:
@@ -529,8 +644,41 @@ def test_sidecar_table_renders_quote_column(tmp_path):
 
     text = _render(tmp_path, kb, [_result()])
 
-    assert "| id | 节拍 | 原作怎么做 | AI 默认怎么写坏 | 迁移规则 | 原句锚 |" in text
+    assert "| id | 节拍 | 原作怎么做 | 对照说明 | 迁移规则 | 原句锚 |" in text
+    assert "AI 默认怎么写坏" not in text
+    assert "为每个动作补情绪解释" in text
     assert "拔剑、转身" in text
+
+
+def test_sidecar_without_contrast_preserves_transfer_conditions_in_both_outputs(tmp_path):
+    kb = _make_kb(tmp_path)
+    sidecar = kb / "novels/书A/craft_notes/scene_S01_beats.yaml"
+    data = yaml.safe_load(sidecar.read_text(encoding="utf-8"))
+    pattern = data["patterns"][0]
+    del pattern["ai_default_failure"]
+    pattern["transfer_rule"] = "物件已与失去建立联系时可重现。\n用途改变|含义也随之改变。"
+    sidecar.write_text(yaml.safe_dump(data, allow_unicode=True), encoding="utf-8")
+
+    reference = _render(tmp_path, kb, [_result()])
+    terminal = kq.format_results([_result()], include_text=True)
+
+    assert "| id | 节拍 | 原作怎么做 | 迁移规则 | 原句锚 |" in reference
+    assert "物件已与失去建立联系时可重现。<br>用途改变\\|含义也随之改变。" in reference
+    assert pattern["transfer_rule"] in terminal
+    assert "对照说明" not in reference and "对照说明" not in terminal
+
+
+def test_inspiration_reference_keeps_applicability_when_present(tmp_path):
+    kb = _make_kb(tmp_path)
+    _add_inspiration(kb)
+    card_path = kb / "inspiration/mentor-death.yaml"
+    card = yaml.safe_load(card_path.read_text(encoding="utf-8"))
+    card["applicability"] = "导师此前承担了主角依赖的判断职责，失去后留下具体待决事项。"
+    card_path.write_text(yaml.safe_dump(card, allow_unicode=True), encoding="utf-8")
+
+    text = _render(tmp_path, kb, [_result()])
+
+    assert f"适用条件：{card['applicability']}" in text
 
 
 def test_raw_md_fallback_before_exemplar(tmp_path):
@@ -659,6 +807,11 @@ def query_env(tmp_path, monkeypatch):
     monkeypatch.setattr(kq, "API_KEY", "test")
     monkeypatch.setattr(kq, "OpenAI", _FakeOpenAI)
     return kb
+
+
+def test_descriptive_genre_stays_in_query_and_explicit_limit_stays_hard(query_env):
+    assert kq.query("反乌托邦悬疑惊险小说中的父子对峙", top_k=2)
+    assert kq.query("父子对峙", genre="反乌托邦悬疑惊险小说", top_k=2) == []
 
 
 def test_style_channel_requires_hint_and_valid_npy(query_env, capsys):

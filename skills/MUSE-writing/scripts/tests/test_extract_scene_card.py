@@ -47,7 +47,7 @@ def test_reader_track_absent_does_not_break_render():
     md = render_scene_card_markdown(scene)
     assert "**阅读焦点**" not in md
     # 必填字段仍正确渲染
-    assert "**核心冲突**" in md
+    assert "**冲突或组织关系**" in md
     assert "**入场处境**" in md
 
 
@@ -228,7 +228,7 @@ def test_render_without_v3_fields():
     md = render_scene_card_markdown(scene)
 
     # baseline 仍正确渲染
-    assert "**核心冲突**" in md
+    assert "**冲突或组织关系**" in md
     assert "**入场处境**" in md
     assert "## 可用创作材料" in md
 
@@ -486,12 +486,15 @@ def test_prose_risk_contract_rejects_non_string_list_shape(bad_value):
         render_scene_card_markdown(scene)
 
 
-def test_extract_scene_card_phase5_absent_contract_passes(tmp_path):
-    """CLI 接受未声明 prose_risk_contract 的场景。"""
+@pytest.mark.parametrize("other_contract", [None, {}, {"used": True, "risk_families": "action_log"}])
+def test_extract_scene_card_phase5_absent_contract_passes(tmp_path, other_contract):
+    """当前场景缺省合法；其他场景的缺省或待修格式不阻断本场提取。"""
     work = tmp_path / "work"
     pipeline = work / "pipeline"
     pipeline.mkdir(parents=True)
-    s01 = dict(BASE_SCENE, scene_id="S01", prose_risk_contract={"used": False})
+    s01 = dict(BASE_SCENE, scene_id="S01")
+    if other_contract is not None:
+        s01["prose_risk_contract"] = other_contract
     s02 = dict(BASE_SCENE, scene_id="S02")
     (pipeline / "phase5_scenes.yaml").write_text(yaml.dump({
         "scenes": [
@@ -522,6 +525,9 @@ def test_extract_scene_card_phase5_invalid_contract_list_hard_fails(tmp_path):
     (pipeline / "phase5_scenes.yaml").write_text(
         yaml.dump({"scenes": [scene]}), encoding="utf-8"
     )
+    current_card = pipeline / "scene_S02" / "scene_card.md"
+    current_card.parent.mkdir()
+    current_card.write_text("existing scene card", encoding="utf-8")
     import subprocess, sys
     script = Path(__file__).resolve().parents[1] / "extract_scene_card.py"
     result = subprocess.run(
@@ -530,18 +536,23 @@ def test_extract_scene_card_phase5_invalid_contract_list_hard_fails(tmp_path):
     )
     assert result.returncode != 0
     assert "prose_risk_contract 格式无效" in (result.stderr + result.stdout)
+    assert current_card.read_text(encoding="utf-8") == "existing scene card"
 
 
-def test_generate_phase6_index_phase5_absent_contract_passes(tmp_path):
-    """generate_phase6_index 接受未声明 prose_risk_contract 的 Phase 5。"""
+@pytest.mark.parametrize("contract", [None, {"used": True, "risk_families": "pending correction"}])
+def test_generate_phase6_index_phase5_absent_contract_passes(tmp_path, contract):
+    """索引只消费场景身份与顺序，风险格式问题留给该字段的消费者。"""
     work = tmp_path / "work"
     pipeline = work / "pipeline"
     pipeline.mkdir(parents=True)
+    scene = {"scene_id": "S01", "title": "场景一", "scene_tasks": []}
+    if contract is not None:
+        scene["prose_risk_contract"] = contract
     (pipeline / "phase5_scenes.yaml").write_text(yaml.dump({
         "sequence_expansions": [{
             "sequence_id": "Q1",
             "arc_id": "A1",
-            "scenes": [{"scene_id": "S01", "title": "场景一", "scene_tasks": []}]
+            "scenes": [scene]
         }]
     }), encoding="utf-8")
     import subprocess, sys

@@ -643,9 +643,7 @@ def read_scene_text(file_path: str, max_chars: int = 0) -> str:
 
 def read_craft_notes(file_path: str) -> str | None:
     """读取手艺标注（如果存在）"""
-    # scenes/scene_S15.md → craft_notes/scene_S15_beats.md
-    p = Path(file_path)
-    craft_path = KB_ROOT / p.parent.parent / "craft_notes" / (p.stem + "_beats.md")
+    craft_path = _craft_path(file_path, ".md")
     if craft_path.exists():
         return craft_path.read_text(encoding="utf-8")
     return None
@@ -669,11 +667,13 @@ def load_novel_annotations(file_path: str) -> dict:
     if cache_key in _NOVEL_ANNOTATIONS_CACHE:
         return _NOVEL_ANNOTATIONS_CACHE[cache_key]
 
-    annotations: dict = {"style_profiles": {}, "style_card": None}
+    annotations: dict = {"style_profiles": {}, "style_card": None, "scene_entries": {}}
     try:
         index_path = kb_index.index_path_of(container)
         if index_path is not None:
             for entry in kb_index.load_index(index_path):
+                if entry.get("file"):
+                    annotations["scene_entries"][entry["file"]] = entry
                 if entry.get("scene_id") and entry.get("style_profile"):
                     annotations["style_profiles"][entry["scene_id"]] = entry["style_profile"]
         card_path = container / "style_card.yaml"
@@ -682,16 +682,27 @@ def load_novel_annotations(file_path: str) -> dict:
             if isinstance(card, dict):
                 annotations["style_card"] = card
     except (OSError, ValueError, yaml.YAMLError):
-        annotations = {"style_profiles": {}, "style_card": None}
+        annotations = {"style_profiles": {}, "style_card": None, "scene_entries": {}}
 
     _NOVEL_ANNOTATIONS_CACHE[cache_key] = annotations
     return annotations
 
 
+def _craft_path(file_path: str, suffix: str) -> Path:
+    """优先采用作品索引的手艺来源，旧条目沿标准文件名解析。"""
+    container = _container_dir(file_path)
+    scene_path = KB_ROOT / file_path
+    relative = scene_path.relative_to(container).as_posix()
+    entry = load_novel_annotations(file_path)["scene_entries"].get(relative, {})
+    declared = entry.get("craft_notes_file")
+    if declared:
+        return (container / declared).with_suffix(suffix)
+    return container / "craft_notes" / (scene_path.stem + "_beats" + suffix)
+
+
 def read_craft_sidecar(file_path: str) -> dict | None:
     """读取结构化手艺 sidecar；无效时静默降级到原 md。"""
-    p = Path(file_path)
-    sidecar_path = KB_ROOT / p.parent.parent / "craft_notes" / (p.stem + "_beats.yaml")
+    sidecar_path = _craft_path(file_path, ".yaml")
     if not sidecar_path.exists():
         return None
     try:
@@ -761,7 +772,7 @@ def format_results(results: list[dict], include_text: bool = False,
                 lines.append("\n--- 手艺拆解 ---")
                 for p in sidecar.get("patterns", []):
                     contrast = p.get("ai_default_failure")
-                    contrast_text = f"失败对照：{contrast}；" if contrast else ""
+                    contrast_text = f"对照说明：{contrast}；" if contrast else ""
                     lines.append(
                         f"- {p.get('pattern_id', '?')} | {p.get('dimension', '?')} | "
                         f"{p.get('original_move', '')}（{contrast_text}"
@@ -783,22 +794,85 @@ def format_results(results: list[dict], include_text: bool = False,
 
 
 _TIER_RANK = {"style": 0, "material": 1, "full": 2}
+INTENDED_DOMAINS = (
+    "world_rule", "reveal_structure", "protagonist_archetype",
+    "scene_carrier", "prose_style_imitation",
+)
 
 
-def _tier_for(result: dict, fit_tau: float) -> str:
-    """条目档位（design §1.3）：selected→full；high 按 fit 判 full/material；其余→style。
+def _reference_scope(result: dict, reuse_mode: str | None = None,
+                     intended_domains: list[str] | None = None) -> tuple[str | None, list[str] | None]:
+    """本次共同限制与逐来源限制取交集。空领域列表沿旧契约表示未绑定。"""
+    modes = [m for m in (reuse_mode, result.get("reuse_mode")) if m is not None]
+    if any(m not in {"maximize_apt_reuse", "style_only"} for m in modes):
+        raise ValueError(f"不支持的 reuse_mode: {modes}")
+    mode = "style_only" if "style_only" in modes else (modes[0] if modes else None)
+    domains = [list(dict.fromkeys(ds)) for ds in
+               (intended_domains, result.get("intended_domains")) if ds]
+    if any(set(ds) - set(INTENDED_DOMAINS) for ds in domains):
+        raise ValueError(f"不支持的 intended_domains: {domains}")
+    shared = [d for d in domains[0] if all(d in ds for ds in domains[1:])] if domains else None
+    return mode, shared
 
-    无 --function-hint 时条目无 "fit" 键，视为 >=τ（不启用分档降级，高匹配仍 full）。
-    """
+
+def bind_reference_profile(results: list[dict], path: str) -> list[dict]:
+    """从现有 Phase 0 按作品名精确绑定用途，保留逐来源差异。"""
+    data = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
+    if not isinstance(data, dict):
+        raise ValueError("Phase 0 必须是 YAML mapping")
+    profile = data.get("canon_reference_profile") or {}
+    if not isinstance(profile, dict):
+        raise ValueError("canon_reference_profile 必须是 mapping")
+    materials = profile.get("user_reference_materials") or []
+    by_work = {}
+    for material in materials:
+        if not isinstance(material, dict):
+            raise ValueError("user_reference_materials 条目必须是 mapping")
+        work = material.get("work")
+        if not isinstance(work, str) or not work:
+            raise ValueError("参考来源缺 work")
+        if work in by_work:
+            raise ValueError(f"参考来源重复，需明确当前用途: {work}")
+        by_work[work] = material
+    bound = []
+    for result in results:
+        material = by_work.get(result.get("novel"))
+        if material is None:
+            bound.append(dict(result))
+            continue
+        if material.get("stance") == "avoid":
+            continue
+        mode, domains = _reference_scope(result, material.get("reuse_mode"),
+                                          material.get("intended_domains"))
+        if domains == []:
+            continue
+        current = dict(result)
+        if mode is not None:
+            current["reuse_mode"] = mode
+        if domains is not None:
+            current["intended_domains"] = domains
+        bound.append(current)
+    return bound
+
+
+def _tier_for(result: dict, fit_tau: float, reuse_mode: str | None = None,
+              intended_domains: list[str] | None = None) -> str:
+    """候选范围与作者已指定用途取交集；未指定用途时兼容原有档位。"""
     match = result.get("match", "high")
     if match == "selected":
-        return "full"
-    if match == "high":
+        tier = "full"
+    elif match == "high":
         fit = result.get("fit")
-        if fit is None or fit >= fit_tau:
-            return "full"
-        return "material"
-    return "style"
+        tier = "full" if fit is None or fit >= fit_tau else "material"
+    else:
+        tier = "style"
+    mode, scope = _reference_scope(result, reuse_mode, intended_domains)
+    domains = set(scope or [])
+    if mode == "style_only" or domains == {"prose_style_imitation"}:
+        return "style"
+    if domains and domains <= {"world_rule", "prose_style_imitation"}:
+        return min((tier, "material"), key=_TIER_RANK.get)
+    return tier
 
 
 def _render_reuse_shortlist(results: list[dict]) -> list[str]:
@@ -830,16 +904,11 @@ def _render_reuse_shortlist(results: list[dict]) -> list[str]:
     return items
 
 
-def _load_lore(kb_root: Path, novel: str) -> dict | None:
-    """装载世界观 lore 包（design §4.2）：phase1_world.yaml 固定键 + phase0_conception.yaml
-    的 premise / genre.conventions，全量固定键、无语义裁剪、按来源分组原样嵌入。
-
-    缺 pipeline 文件或解析失败 → 返回 None（调用方按此降级：区块不渲染、头部行不写）。
-    """
+def _resolve_lore_work(kb_root: Path, novel: str) -> str:
+    """沿既有标题规范化取得实际作品名，供来源用途与 lore 共用。"""
     novels_dir = kb_root / "novels"
-    resolved_novel = novel
     if novels_dir.is_dir():
-        resolved_novel = next(
+        return next(
             (
                 child.name for child in novels_dir.iterdir()
                 if child.is_dir()
@@ -847,7 +916,16 @@ def _load_lore(kb_root: Path, novel: str) -> dict | None:
             ),
             novel,
         )
-    pipeline_dir = novels_dir / resolved_novel / "pipeline"
+    return novel
+
+
+def _load_lore(kb_root: Path, novel: str) -> dict | None:
+    """装载世界观 lore 包（design §4.2）：phase1_world.yaml 固定键 + phase0_conception.yaml
+    的 premise / genre.conventions，全量固定键、无语义裁剪、按来源分组原样嵌入。
+
+    缺 pipeline 文件或解析失败 → 返回 None（调用方按此降级：区块不渲染、头部行不写）。
+    """
+    pipeline_dir = kb_root / "novels" / _resolve_lore_work(kb_root, novel) / "pipeline"
     world_path = pipeline_dir / "phase1_world.yaml"
     conception_path = pipeline_dir / "phase0_conception.yaml"
     if not world_path.exists() or not conception_path.exists():
@@ -887,8 +965,30 @@ def save_reference_file(results: list[dict], query_text: str,
                         worldview: str = None,
                         shortform_pack: bool = False,
                         function_hint: str = None,
-                        paired_function_bridge: bool = False) -> str:
+                        paired_function_bridge: bool = False,
+                        reuse_mode: str | None = None,
+                        intended_domains: list[str] | None = None,
+                        canon_reference_profile: str | None = None) -> str:
     """保存检索结果到文件（含原文），返回文件路径"""
+    if reuse_mode not in {None, "maximize_apt_reuse", "style_only"}:
+        raise ValueError(f"不支持的 reuse_mode: {reuse_mode}")
+    if set(intended_domains or []) - set(INTENDED_DOMAINS):
+        raise ValueError(f"不支持的 intended_domains: {intended_domains}")
+    world_work = _resolve_lore_work(KB_ROOT, worldview) if worldview else None
+    world_scope = next((r for r in results if r.get("novel") == world_work), {"novel": world_work})
+    # 世界观可独立于场景来源；同样按其作品名读取用途，不由其他作品的命中代替。
+    world_sources = [world_scope] if worldview else []
+    if canon_reference_profile:
+        world_sources = bind_reference_profile(world_sources, canon_reference_profile)
+        results = bind_reference_profile(results, canon_reference_profile)
+    applicable = []
+    for result in results:
+        _, domains = _reference_scope(result, reuse_mode, intended_domains)
+        if domains == []:
+            print(f"⚠️ 跳过来源 {result.get('novel')}: 与本次采用领域无交集", file=sys.stderr)
+        else:
+            applicable.append(result)
+    results = applicable
     out_dir = Path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -905,16 +1005,22 @@ def save_reference_file(results: list[dict], query_text: str,
     if style_hint:
         lines.append(f"style_hint: {style_hint}（候选已按场景文风标注对齐重排）")
     lines.append(f"results: {len(results)}")
-    # 复用指令信号：reuse_tier 三档取全条目最高档写头部；reuse_mandate 由 tier 派生
-    # （= tier != style），旧 orchestrator 全等判读该行行为不变。
-    # orchestrator 只读文件头判定是否在 writer dispatch prompt 注入复用指令段，不读全文。
-    tiers = [_tier_for(r, fit_tau) for r in results]
+    # 先保留显式用途，再生成有效档位；兼容读取旧头部字段的消费者。
+    if reuse_mode is not None:
+        lines.append(f"reuse_mode: {reuse_mode}")
+    if intended_domains is not None:
+        lines.append("intended_domains: " + json.dumps(list(dict.fromkeys(intended_domains))))
+    tiers = [_tier_for(r, fit_tau, reuse_mode, intended_domains) for r in results]
     header_tier = max(tiers, key=lambda t: _TIER_RANK[t]) if tiers else "style"
     lines.append(f"reuse_mandate: {'true' if header_tier != 'style' else 'false'}")
     lines.append(f"reuse_tier: {header_tier}")
     # worldview 信号独立载体（design §A3）：来源=显式意图，不与 tier 自动计算混用。
-    lore = _load_lore(KB_ROOT, worldview) if worldview else None
-    if worldview and lore is None:
+    world_mode, world_domains = _reference_scope(
+        world_sources[0] if world_sources else {}, reuse_mode, intended_domains)
+    world_allowed = (bool(world_sources) and world_mode != "style_only" and
+                     (world_domains is None or "world_rule" in world_domains))
+    lore = _load_lore(KB_ROOT, worldview) if worldview and world_allowed else None
+    if worldview and world_allowed and lore is None:
         print(
             f"⚠️ worldview lore 装载失败（{worldview} 缺 pipeline/phase1_world.yaml 或 "
             "phase0_conception.yaml）——世界观区块跳过，主干流程继续。",
@@ -925,10 +1031,13 @@ def save_reference_file(results: list[dict], query_text: str,
     lines.append("")
 
     if not results:
-        lines.append("genre 过滤后无场景，跳过参考。")
+        lines.append("当前查询范围无适用场景，跳过场景参考。")
     else:
         lines.append("<usage_protocol>")
-        lines.append("写作前最后读本文件——ref 是文风锚，离生成越近引力越强。读完每条范文原文后：")
+        lines.append("写作时使用本次有效参考；已读且仍适用的材料可直接复用。结合原文与当前任务：")
+        lines.append("每条 reference_scope 保留该来源的实际用途；文件头仅概括候选集合，使用时沿条目范围。")
+        if intended_domains:
+            lines.append("本次采用领域：" + "、".join(intended_domains) + "。各领域只支持相应设计与表达；手选和分数不扩大该范围。")
         lines.append("1. 只提炼本场真正影响写法的 style anchor；可从叙事语态、句段呼吸、词汇质地、"
                      "对白形态或留白方式中按需选择，不设数量和维度覆盖配额。")
         lines.append("2. 正文以 style anchor 为准绳主动贴近范文的腔调与质感；范文是生成时的直接参考。")
@@ -938,8 +1047,8 @@ def save_reference_file(results: list[dict], query_text: str,
             lines.append("3. material 提供局部素材候选：最大化复用当前已采用且直接相关的来源专名、世界事实和专门术语；通用动作、物件、情节和单句须另有功能适配依据。")
         else:
             lines.append("3. 本场只作文风参考：提取语态、节奏、词汇质地、对白形态与留白方式，不迁移范文的情节和动作材料。")
-        lines.append("4. 复用段落须做语态归一：剥离范文叙述者的专有腔调（说书人称呼语 / 语气词 / 与本篇冲突的人称与时代语感），"
-                     "专名按当前故事设定映射，使段落融入本篇叙述语态——复用的是内容与句子，不是范文的叙述者本人。")
+        if header_tier == "full":
+            lines.append("4. 复用段落按当前人物、POV、时态、指代与专名衔接；保留已授权的声音特点，调整与本作叙述冲突的部分。")
         lines.append("5. 跨语言 reference 可翻译、转写或保留原文，由交付语言决定。")
         lines.append("6. 标注「仅文风参考」的条目不学叙事结构；style anchor 与 scene_card / role_briefs / prose_risk_contract 冲突时设计文档优先。")
         lines.append("</usage_protocol>")
@@ -960,8 +1069,10 @@ def save_reference_file(results: list[dict], query_text: str,
         # 短篇 composer 已从 outline / inspiration_ledger 接收采纳后的结构决定。
         # reference_pack 只承担世界规则、文风与原文 few-shot，避免把候选菜单和
         # 设计分析重复投进正文生成热路径。普通 Phase 6 scene ref 保持现有输出。
-        if not shortform_pack:
-            shortlist = _render_reuse_shortlist(results)
+        if not shortform_pack and header_tier != "style":
+            shortlist = _render_reuse_shortlist([
+                r for r, tier in zip(results, tiers) if tier != "style"
+            ])
             if shortlist:
                 lines.append("## 复用候选（脚本聚合——第一优先素材）")
                 lines.append("")
@@ -980,15 +1091,15 @@ def save_reference_file(results: list[dict], query_text: str,
 
         for r in results:
             match = r.get("match", "high")
-            if match == "selected":
+            entry_tier = _tier_for(r, fit_tau, reuse_mode, intended_domains)
+            if match == "selected" and entry_tier == "full":
                 tier_label = "手动指定参考"
                 tier_guide = (
                     "手动精选确定来源；按 usage_protocol 核对适配后使用"
                     "人物、设定、情节与原句，并完成语态归一。"
                 )
                 heading = f"## 手动指定参考: {r.get('novel', '?')} {r['scene_id']}"
-            elif match == "high":
-                entry_tier = _tier_for(r, fit_tau)
+            elif entry_tier != "style":
                 if entry_tier == "full":
                     tier_label = "叙事+文风参考"
                     tier_guide = ("高匹配——可学其叙事节拍链、冲突推进方式，"
@@ -997,21 +1108,31 @@ def save_reference_file(results: list[dict], query_text: str,
                     tier_label = "叙事+文风参考（素材级）"
                     tier_guide = ("局部素材候选——当前已采用的相关专名/世界事实/术语可复用，"
                                   "不整段复用；仍按 usage_protocol 贴近文风")
-                heading = (
+                heading = f"## 手动指定参考: {r.get('novel', '?')} {r['scene_id']} ({tier_label})" if match == "selected" else (
                     f"## 参考 {r['rank']}: {r.get('novel', '?')} {r['scene_id']} "
                     f"(score={r['score']:.4f}, {tier_label})"
                 )
             else:
                 tier_label = "仅文风参考"
-                tier_guide = ("叙事内容与当前场景无直接关联——不学叙事结构，"
-                              "只按 usage_protocol 贴近文风")
-                heading = (
+                tier_guide = ("本条用途限定为表达参考，"
+                              "按 usage_protocol 提炼适用的文风特点")
+                heading = f"## 手动指定参考: {r.get('novel', '?')} {r['scene_id']} ({tier_label})" if match == "selected" else (
                     f"## 参考 {r['rank']}: {r.get('novel', '?')} {r['scene_id']} "
                     f"(score={r['score']:.4f}, {tier_label})"
                 )
 
             lines.append(heading)
             lines.append(f"> {tier_guide}")
+            lines.append("")
+            mode, domains = _reference_scope(r, reuse_mode, intended_domains)
+            lines.append(f'<reference_scope novel="{r.get("novel", "?")}" scene="{r["scene_id"]}">')
+            if mode is not None:
+                lines.append(f"reuse_mode: {mode}")
+            if domains is not None:
+                lines.append("intended_domains: " + json.dumps(domains))
+            lines.append(f"reuse_tier: {entry_tier}")
+            lines.append(f"reuse_mandate: {'false' if entry_tier == 'style' else 'true'}")
+            lines.append("</reference_scope>")
             lines.append("")
             if r.get("description"):
                 lines.append(f"> {r['description']}")
@@ -1053,14 +1174,21 @@ def save_reference_file(results: list[dict], query_text: str,
                 if sidecar:
                     lines.append("**手艺拆解**（结构化——pattern_id 可被审阅锚点引用）：")
                     lines.append("")
-                    lines.append("| id | 节拍 | 原作怎么做 | AI 默认怎么写坏 | 迁移规则 | 原句锚 |")
-                    lines.append("|---|---|---|---|---|---|")
-                    for p in sidecar.get("patterns", []):
-                        lines.append(
-                            f"| {p.get('pattern_id', '?')} | {p.get('beat', '')} "
-                            f"| {p.get('original_move', '')} | {p.get('ai_default_failure', '')} "
-                            f"| {p.get('transfer_rule', '')} | {p.get('quote', '')} |"
-                        )
+                    patterns = sidecar.get("patterns", [])
+                    has_contrast = any(p.get("ai_default_failure") for p in patterns)
+                    columns = ["id", "节拍", "原作怎么做"]
+                    if has_contrast:
+                        columns.append("对照说明")
+                    columns.extend(["迁移规则", "原句锚"])
+                    lines.append("| " + " | ".join(columns) + " |")
+                    lines.append("|" + "|".join("---" for _ in columns) + "|")
+                    for p in patterns:
+                        values = [p.get("pattern_id", "?"), p.get("beat", ""), p.get("original_move", "")]
+                        if has_contrast:
+                            values.append(p.get("ai_default_failure", ""))
+                        values.extend([p.get("transfer_rule", ""), p.get("quote", "")])
+                        cells = [str(v or "").replace("|", "\\|").replace("\n", "<br>") for v in values]
+                        lines.append("| " + " | ".join(cells) + " |")
                     traits = sidecar.get("overall_traits") or []
                     if traits:
                         lines.append("")
@@ -1088,8 +1216,10 @@ def save_reference_file(results: list[dict], query_text: str,
                             f"- **灵感卡·{card.get('pattern_name', card.get('card_id', '?'))}**"
                             f"（本场是该范式的佐证场景）：{card.get('dramatic_function', '')}"
                         )
+                        if card.get("applicability"):
+                            lines.append(f"  适用条件：{card['applicability']}")
                         reuse = card.get("reuse_candidates") or []
-                        if reuse:
+                        if reuse and entry_tier != "style":
                             lines.append(f"  可直接复用的表层元素：{'；'.join(map(str, reuse))}")
                     lines.append("")
 
@@ -1140,7 +1270,7 @@ def save_reference_file(results: list[dict], query_text: str,
                     lines.append("")
 
             if paired_function_bridge and function_hint and r.get("description"):
-                entry_tier = _tier_for(r, fit_tau)
+                entry_tier = _tier_for(r, fit_tau, reuse_mode, intended_domains)
                 if entry_tier == "full":
                     bridge_boundary = (
                         "候选进入 full 范围；核对原文怎样改变危险、选择、关系或读者判断及当前条件，"
@@ -1184,7 +1314,7 @@ def main():
     parser.add_argument("--query", type=str, required=False,
                         help="检索 query（场景描述关键词）")
     parser.add_argument("--genre", type=str, default=None,
-                        help="按题材过滤（如：现实主义、武侠、科幻）")
+                        help="作者明确限定的题材范围（硬过滤）；描述任务的复合题材直接写入 --query")
     parser.add_argument("--lang", type=str, default=None,
                         help="按语言过滤（zh / en）")
     parser.add_argument("--novel", type=str, default=None,
@@ -1211,7 +1341,13 @@ def main():
     parser.add_argument("--scene-id", type=str, default=None,
                         help="当前场景 ID，用于命名输出文件（如 S01）")
     parser.add_argument("--shortform-pack", action="store_true",
-                        help="复用同一渲染器输出 reference_pack.md，供短链 composer 最后读取")
+                        help="复用同一渲染器输出 reference_pack.md，供短链 composer 按需读取")
+    parser.add_argument("--reuse-mode", choices=("maximize_apt_reuse", "style_only"),
+                        help="沿用作者的参考采用方式；style_only 不因手选或高分升级")
+    parser.add_argument("--intended-domains", nargs="+", choices=INTENDED_DOMAINS,
+                        help="当前采用领域，沿用 canon_reference_profile.intended_domains")
+    parser.add_argument("--canon-reference-profile", type=str,
+                        help="当前 Phase 0 YAML；按 user_reference_materials.work 精确绑定每个来源用途")
     parser.add_argument("--select", type=str, default=None,
                         help="手动指定参考，格式 '<novel>:<scene_id>,...'；跳过检索")
     parser.add_argument("--list", action="store_true",
@@ -1282,6 +1418,12 @@ def main():
         print(f"❌ [kb_query INFRA_ERROR] {e}", file=sys.stderr)
         sys.exit(2)
 
+    if args.canon_reference_profile:
+        try:
+            results = bind_reference_profile(results, args.canon_reference_profile)
+        except (OSError, ValueError, yaml.YAMLError) as exc:
+            parser.error(f"参考用途输入错误: {exc}")
+
     if args.list:
         if args.output_dir:
             print("❌ --list 与 --output-dir 互斥", file=sys.stderr)
@@ -1296,11 +1438,15 @@ def main():
             shortform_pack=args.shortform_pack,
             function_hint=args.function_hint,
             paired_function_bridge=args.paired_function_bridge,
+            reuse_mode=args.reuse_mode,
+            intended_domains=args.intended_domains,
+            canon_reference_profile=args.canon_reference_profile,
         )
         abs_out = str(Path(out_path).resolve())
         # 输出明确的读取指令——模型应读此文件，不要去读原场景文件
         if results:
-            high = sum(1 for r in results if r.get("match") in {"high", "selected"})
+            high = sum(1 for r in results if _tier_for(
+                r, args.fit_tau, args.reuse_mode, args.intended_domains) != "style")
             style = len(results) - high
             parts = []
             if high:
@@ -1310,7 +1456,7 @@ def main():
             print(f"✅ 已保存 {', '.join(parts)}（含原文）。")
             print(f"📖 请读取此文件作为写作参考: {abs_out}")
         else:
-            print(f"⚠️ genre 过滤后无场景，跳过参考。")
+            print("⚠️ 当前查询范围无适用场景，跳过场景参考。")
     elif args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
     else:

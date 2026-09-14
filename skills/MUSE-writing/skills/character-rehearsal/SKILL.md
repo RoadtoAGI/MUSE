@@ -1,6 +1,6 @@
 ---
 name: character-rehearsal
-description: 按需从单个角色的当前依据和可知现场生成 role_move，供 Phase 6 writer 选择；用于尚待探索、会影响场内选择的角色判断。
+description: 为原创场景中尚未确定的角色判断生成可选 role_move，由场景编排按需派发；每次依据一个角色的认知切片排练。
 ---
 
 # 角色排练

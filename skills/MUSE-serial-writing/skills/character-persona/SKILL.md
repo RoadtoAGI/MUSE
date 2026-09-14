@@ -1,6 +1,6 @@
 ---
 name: character-persona
-description: 按需构建或重建连载人物的兼容参考包。将指定时点的人物设计与合时账本编译为角色 SKILL、初始状态及 adapter，供明确需要该接口的消费者使用；本包逐章创作通过 role_view 取得人物上下文。
+description: 构建或重建指定连载人物的兼容参考包，适用于明确需要角色 SKILL、状态及 adapter 的消费者；逐章创作的人物上下文由 role_view 提供。
 user-invocable: true
 argument-hint: "build | rebuild <role-slug>"
 allowed-tools: Read Write Edit Bash Glob

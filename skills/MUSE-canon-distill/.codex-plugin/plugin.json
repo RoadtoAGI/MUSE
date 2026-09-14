@@ -1,6 +1,6 @@
 {
   "name": "muse-canon-distill",
-  "version": "0.1.1",
+  "version": "0.8.0",
   "description": "MUSE 姊妹扩展包：名著场景检索、来源可核验的对白知识库与角色级 few-shot、角色蒸馏、小说与戏剧分析。配合 muse-writing 使用",
   "author": {
     "name": "RoadToAGI",

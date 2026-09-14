@@ -1,6 +1,6 @@
 ---
 name: reader-feedback-revision
-description: 连载章读者反馈的有界修订。消费调用方选中的当前报告与修订授权，修改指定正文并写 status/changed；事实和设计根因回对应负责人，章级防治与摘要刷新由外层接续。
+description: 连载章的读者反馈修订。消费本次选定报告和授权，修改指定正文并返回 status/changed；事实与设计根因交对应负责人。
 ---
 
 # 章级读者反馈修订

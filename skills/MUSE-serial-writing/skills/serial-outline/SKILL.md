@@ -1,6 +1,6 @@
 ---
 name: serial-outline
-description: 连载与衍生小说的立项、开卷和设计修订入口，承接同人、续写、番外与跨文风小说改编。组织世界、人物、脊椎和卷结构共创，维护系列工作区，也可导入 serial-distill 已生成的接管目录。已有工作区写下一章用 serial-chapter-writing；原始连载文本的接管蒸馏用 takeover-distill。
+description: 连载与衍生小说的立项、开卷和设计修订入口，适用于同人、续写、番外及小说改编；已有工作区写章用 serial-chapter-writing，原文接管蒸馏用 takeover-distill。
 ---
 
 # serial-outline — 连载大纲

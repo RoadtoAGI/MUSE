@@ -5,7 +5,7 @@ display_name: 欧菲莉亚
 profile_tier: compact
 character_skill: SKILL.md
 baseline_voice:
-  observed_summary: "欧菲莉亚前期声音短促、顺从、以问句和“我不知道应如何想”呈现不确定；她很少正面抗辩，只偶尔以温和反问提醒雷尔提不要双重标准。后期疯癫声音改用民谣、碎片故事、花语和宗教祝愿，把无法在宫廷里直说的父死、失贞恐惧、被抛弃和腐败暗示拆散发出。潜台词模式从“听命但困惑”转成“失序中泄露真相”。\
+  observed_summary: "欧菲莉亚的声音随对象与处境变化。对父亲，她用敬称、疑问与不确定表达回应训诫，也以哈姆雷特的诚意和誓言申辩，最后接受命令；对哥哥，她在答应谨慎的同时，用教士与道路的比喻要求他同样遵守劝诫。面对哈姆雷特，她能完整解释退还纪念品的理由，直接说出受骗的判断；受到进一步攻击后转向祈祷，独处时又以长段哀叹比较他的昔日与如今。父死后的表达以民谣、碎片故事、花语和宗教祝愿交织失去、爱情与责问，也包含要求听者听完和直接说出流泪缘由的句子。正式语域、短句或断裂各有现场作用，人物的判断与痛苦随表达方式继续显现。\
     \  \n\n来源：phase2_character.yaml → supporting_cast.欧菲莉亚.voice_traits  \n佐证：scenes/scene_A1S3.md:L5-L11；scenes/scene_A3S1.md:L17-L23；scenes/scene_A4S5.md:L9-L17"
   evidence_locators:
   - scenes/scene_A1S3.md:L5-L11

@@ -1,6 +1,6 @@
 ---
 name: character-persona
-description: 角色人格构建器 — Phase 2 完成后，将结构化人物设计转化为标准化的运行时角色 Skill 包。当 Phase 2 人物系统设计完成、需要为角色生成独立的人格 Skill 时使用。只构建，不执行角色扮演。
+description: 将原创完整链的人物设计编译为角色参考包，支持首次构建和指定角色重建；供人物设计阶段调用，不承担角色表演。
 user-invocable: true
 argument-hint: "build | rebuild <role-slug>"
 allowed-tools: Read Write Edit Bash Glob
@@ -33,7 +33,7 @@ build | rebuild <role-slug>
 
 | # | 约束 | 违反后果 |
 |---|------|---------|
-| 1 | 使用 `role_slug` 作为 skill 目录名（小写字母 + 连字符，如 `li-an`、`xiao-long-nv`），不拼接故事前缀。隔离由工作目录承担（`pipeline/story-character-skills/`，每个 query 独立目录） | 角色 Skill 无法被当前运行时发现，或与同名角色（不同来源）冲突 |
+| 1 | 使用 `role_slug` 作为 skill 目录名（小写字母 + 连字符，如 `li-an`、`xiao-long-nv`），不拼接故事前缀。隔离由工作目录承担（`pipeline/story-character-skills/`，每个 query 独立目录） | 下游无法按 slug 对齐人物和读取角色文件 |
 | 2 | `pipeline/characters/{角色名}.md`（adapter）是 SKILL.md 的只读派生物，**禁止手改** | adapter 与 SKILL.md 出现双源漂移，审稿和校验以哪个为准不明确 |
 | 3 | SKILL.md frontmatter 的 `version` 随人格更新；build-meta 保留当前来源与 adapter 校验信息 | 来源可追溯，adapter 物理校验由 `adapter_sha256` 锁定 |
 | 4 | `rebuild` 绝不覆盖 state.md（state.md 包含角色 agent 的运行时记忆） | 角色失忆，破坏跨场景的主观状态连续性 |
@@ -105,7 +105,7 @@ build | rebuild <role-slug>
 
 - **用自然语言，不用结构化参数**：voice_traits 转化时保留倾向性描述，去掉"情感→修辞"映射关系
 - **把作者诊断编译成行为**：可用 `desire_system.unconscious / core_flaw` 与 `characterization_vs_truth` 推导角色如何注意、归因、误判、选择或回避；成品只写当前成立的行为模式，不复制诊断标签
-- **把极化差异编译到人物内部**：用 `contrast_axes / relationships` 校对差异，每份 runtime 只写实际承重的一项或若干项——注意、利益、误判或关系行动怎样从经历中产生；不把“甲理性、乙感性”这类对照标签复制给 actor
+- **把极化差异编译到人物内部**：用 `contrast_axes / relationships` 校对差异，保留实际影响选择的注意、利益、误判与关系依据。信任成立的事务领域、当前仍顾惜的关系、相信某种办法有效的经历，按角色自知范围写入已有追求、经历与信念或判断习惯；作者诊断留在设计侧，不把“甲理性、乙感性”这类对照标签复制给 actor
 - **边界保持可归因**：只转写 Phase 2 已有的 voice_boundaries,不为填满模板另造禁令
 - **写给"演员"看，不是写给"分析师"看**：角色 Skill 的读者是角色 Agent，需要经历与信念、自觉追求、判断习惯与行为盲区、声音和边界
 - **保留来源注解**：skill-template.md 中的 `<!-- 来源：phase2_X → 字段 -->` HTML 注释必须原样保留在最终产出 SKILL.md 中，不得删除或转换为其他形式——这是下游 evidence-map / reviewer 追溯每节内容到 Phase 2 依据的唯一锚点
@@ -307,7 +307,7 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 
 决策详情见 pipeline/story-character-skills/build-report.md
 
-提醒：确保当前运行时已挂载或可发现 `pipeline/story-character-skills`；若运行时需要显式加入项目目录，按其目录挂载机制加入该路径。
+角色参考包按上述明确路径供 deriver、actor 与 writer 读取。实际读取受阻时报告所需文件和宿主访问条件。
 ```
 
 ---
@@ -317,7 +317,7 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 ```
 pipeline/
 ├── story-character-skills/
-│   ├── .claude/skills/               ← 当前兼容挂载点
+│   ├── .claude/skills/               ← 既有角色文件路径
 │   │   ├── {role-a}/                 # 直接以 role-slug 命名（如 li-an）
 │   │   │   ├── SKILL.md              # 静态人格定义
 │   │   │   ├── state.md              # 初始主观状态

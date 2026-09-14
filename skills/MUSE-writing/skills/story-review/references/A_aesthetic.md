@@ -15,7 +15,7 @@
 - `scope=manuscript` 同时读取本轮 wholetext 报告的定位线索，核对其 input_story_sha256 对应受审快照；统计与模型判断分别解释。
 - `pipeline/phase2_character.yaml` — 作者侧人物设计、经历与结构基准（核心依赖）
 - `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定经历、信念、判断习惯、声音和边界（核心依赖）；`pipeline/characters/{角色名}.md` 仅作身份与声音兼容投影
-- `pipeline/phase5_scenes.yaml` — 场景作用、必要结果、边界与 handoff（参考依赖）
+- `pipeline/phase5_scenes.yaml` — 按受审场景读取对应条目的作用、必要结果、边界与 handoff；已填写的 `omission_plan` 连同 `reader_track / scene_tasks` 核对，即使未填写 `craft_carrier` 也适用
 - 按实际疑点读取 `pipeline/phase0_conception.yaml` 的作者要求、风格与来源，Phase 1 世界、Phase 3 脊椎、Phase 4 结构及当前采用的 ledger/参考；这些材料解释约束与选择，不能代替正文实现。
 - `pipeline/review/lint/{scene_id}.*.yaml` — **仅 `scope=scenes` 读取**的 L1 脚本 lint 报告合集（核心依赖，Step 5 Phase A 产出）
   - `{scene_id}.ai_filler.yaml`（S1：口癖 / Markdown / 排比 / 关联词）
@@ -138,7 +138,7 @@ reference、设计或 role move 表述进入正文，本身不构成 finding；�
 
 → 诊断方法见 [`references/mckee-diagnostics.md`](mckee-diagnostics.md) § 可信性瑕疵
 
-扫描：**空洞字眼**（对白只暴露信息，不推进欲望）/ **过度滥情**（情绪强度远超情境）/ **过度感知**（角色自我分析深度超出可信范围）/ **借口冒充动机**（表面理由替代真正的驱动力）。
+扫描：**空洞字眼**（表达缺少场内需要及人物、关系、声音或节奏作用）/ **过度滥情**（情绪强度缺少处境与人物依据）/ **过度感知**（角色自我分析越过当时知识与自知）/ **借口冒充动机**（既有行为与自我辩护之间的间距被无因抹平）。信息说明、直接表达与有效心理展开按上述条件判断。
 
 ### 6. 动作流水账 / 低读者收益段检测
 
@@ -198,6 +198,10 @@ S2 的 sensory_balance 只显示词面分布。按人物可感范围、叙述距
 **排除项**（不是越界）：焦点角色**推测**他人心理（"他看起来在生气" / "她大概是在想…"）/ 自由间接话语（free indirect discourse）有意设计 / 不可靠叙述者有意设计。
 
 对每个命中：引用原文，说明焦点角色为何不可能知道这条信息。（当前 A 组全手工扫描）
+
+同时核对本场已明确的读者披露条件：按受审正文的呈现顺序，比较 `reader_track / scene_tasks / omission_plan` 与读者实际取得的事实和确认。当前必要理解应有正文依据；有疑点时回查 Phase 3 `reader_spine` 的全篇意图。提前确认受保护答案，沿已有 `dimension: ai_pattern / subkind: omission_violated` 报告，引用正文和仍生效的保留条件；人物越过所知范围则沿 `pov_boundary` 等既有维度判断。A 组读取设计属于作者侧核对，不改变 reader 的盲读输入。
+
+读者先知而人物后知可以形成戏剧反讽，先告结果也可使后文追踪原因和代价；依当前有效设计判断。字段缺省本身不构成问题，正文形成了合法的新承载或在约定条件满足后确认答案时保留。
 
 ### 10. 场景收尾
 

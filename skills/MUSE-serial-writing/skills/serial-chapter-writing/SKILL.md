@@ -1,6 +1,6 @@
 ---
 name: serial-chapter-writing
-description: 连载逐章创作与发布入口。用于续更、写下一章、完成当前章或发布指定章；调度章内编排、角色上下文、writer、审阅修订、摘要及发布事务。系列立项和开卷由 serial-outline 负责，专项防治和读者反馈分别交对应技能。
+description: 连载逐章创作与发布入口。用于续更、完成当前章或发布指定章，调度编排、写作、审阅、摘要和发布；系列立项与开卷用 serial-outline。
 ---
 
 # 连载章节创作
@@ -21,7 +21,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/reconcile_series.py --work-dir works/<slug
 
 对账与认领是两个独立命令，按上述次序执行。exit 2 时按恢复矩阵报告断点，完成恢复后再推进；exit 3 时另一 session 持有写者标记，须由用户裁决接管。已有同根、同会话且状态未变的有效对账可复用；发布恢复、外部写入或重新进入会话后重跑。
 
-`pending` 非空时读待决内容；已取得的明确裁决落入对应产物后清理 pending。没有裁决则保留问题并结束回合。正常结束释放 active_session；待决离会先记录恢复所需的信息。
+`pending` 非空时核对待决对象、依赖和当前授权；已取得的明确裁决落入对应产物后清理已解决事项。未决选择只暂停依赖它的动作，其他已授权工作继续。例如下一卷方向待决，当前章的已定稿审阅、摘要或已授权发布仍可完成。需要作者裁决时按[协作协议](../serial-outline/references/collaboration-protocol.md)交接；正常结束或待决离会时保存实际进度并释放 active_session。
 
 外层入口拥有会话认领与释放。内部技能和子执行者使用外层传入的 session ID，复用同一 marker，返回时不释放；外层在整个作品事务结束，或保存 pending 后离会时运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/reconcile_series.py --work-dir <series_root> --release-session <session_id>`。空 marker 可重复释放；他人 marker 返回 exit 3，不能替其清除。
 

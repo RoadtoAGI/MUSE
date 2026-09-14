@@ -1,6 +1,6 @@
 ---
 name: short-phase0-conception
-description: MUSE 短链 Phase 0 构想——从用户需求提炼前提、核心价值、类型、目标篇幅，抽取显式硬约束与随附素材，产出 pipeline/shortform/conception.yaml。由 short-story-writing orchestrator 触发，不被用户直接命中。
+description: 原创短篇的构想阶段，从需求提炼具体前提、主要经验、类型和篇幅，保留明确要求及素材；由 short-story-writing 调用。
 ---
 
 # 短链 Phase 0 构想

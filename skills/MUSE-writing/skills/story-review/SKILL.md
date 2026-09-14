@@ -1,6 +1,6 @@
 ---
 name: story-review
-description: MUSE 技术诊断与一致性审查。Phase 6 对场景运行 A/B/C；Phase 7 复用 A 组对冻结全文运行有界语义审查，产出 pipeline/review/ 报告供修订与终态消费。
+description: 诊断原创完整链的叙事与一致性问题；Phase 6 按组审查场景，Phase 7 对冻结全文作语义审阅，供裁决、修订与终验使用。
 ---
 
 # 审稿模块（Pass 1: 技术诊断 + 一致性审查）

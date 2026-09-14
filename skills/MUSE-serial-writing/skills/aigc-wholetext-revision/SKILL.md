@@ -1,6 +1,6 @@
 ---
 name: aigc-wholetext-revision
-description: 连载当前章稿的表达修订职责。由 serial-aigc-guard 将已确认的表达问题与定位交给宿主可用执行者；修改 draft 或明确指定的发布修订候选，保持人物声音、事实和章末功能。
+description: 连载当前章稿的表达修订。由 serial-aigc-guard 交付已确认问题，修改 draft 或指定的发布修订候选，保留人物声音、事实和章末作用。
 ---
 
 # 章稿表达修订

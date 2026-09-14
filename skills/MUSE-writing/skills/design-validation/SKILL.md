@@ -1,6 +1,6 @@
 ---
 name: design-validation
-description: 检查 Phase 0–5 设计中的时间矛盾、世界规则冲突和引用断裂，写入现有 design_validation.yaml；由 story-writing 在正文创作前调用。
+description: 检查原创完整链正文创作前的设计时间、世界规则与引用一致性；由 story-writing 调用，返回可定位的设计问题。
 ---
 
 # 设计一致性校验

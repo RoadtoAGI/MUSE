@@ -2,27 +2,29 @@ scene_id: '13'
 source_notes: scene_13_beats.md
 patterns:
 - pattern_id: 13-p1
-  beat: 157万种语言
+  beat: 语言名录与等待
   dimension: info_density
-  original_move: 文明生死簿写成滚动数据流，规模感由数字对比建立
-  ai_default_failure: 加回归运动意义的解释性段落
-  transfer_rule: 宇宙级悬念可用纯数据滚动，命运浓缩为出现与否
+  original_move: 滚动数字建立文明规模，人物等待地球与三体语言；询问、拥抱、眼泪和解释赋予出现与缺席具体意义。
+  transfer_rule: 可观察指标须连接人物所关切的对象；让读者知道出现或缺席意味着什么，数字、等待和反应才形成利害。
   quote: 已经广播了二十万种语言
 - pattern_id: 13-p2
-  beat: 物理拆除
+  beat: 居所拆除与离别
   dimension: camera
-  original_move: 告别家园只记录物质递减，彩虹消失自带象征
-  ai_default_failure: 加永别家园的悲伤情感段落
-  transfer_rule: 离别可写成物理拆除清单，象征不点破
+  original_move: 归还土壤、建筑和空气同时撤去居住条件；彩虹消失与童年画作的联想把环境变化接入个人经历。
+  transfer_rule: 环境改变须实际影响生活条件；感官细节与记忆联想依据现场和经历选择，直接感受、动作与联想可共同承担离别。
   quote: 彩虹消失了
 - pattern_id: 13-p3
-  beat: 五公斤
+  beat: 五公斤生命与风险
   dimension: overall
-  original_move: 终极选择以重量单位承载，全书收于误差一词
-  ai_default_failure: 写留下生命痕迹的希望主题阐述
-  transfer_rule: 高潮反向收缩，越重要的选择配越小的物件
+  original_move: 生态球承接生命关切及已建立的宇宙质量条件；关一帆同意保留，又有未告知程心的风险判断，随后众人离开。
+  transfer_rule: 局部选择须与宏观后果已有明确联系；物件的用途、经历和可能后果使选择可感，具体形式取决于新故事条件。
   quote: 还可以再留下五公斤吗？
 overall_traits:
-- 尺度收缩：高潮越大焦点越小
-- 物理量替代情感量，情感藏在重量后面
-- 事实性结尾，把抒情留给读者
+- 宏观后果持续参与局部物件与行动的意义
+- 数量、感官、直接反思和协商共同建立选择
+- 保留生态球兼有愿望与风险，离开行动继续推进场景
+narrative_organization:
+  presentation: 文明名录的等待、广播请求、责任回顾、拆除居所与保留生态球依次组织。
+  knowledge_change: 关一帆说出的保证与未说出的风险判断分开；读者得到额外信息，本段未显示程心已获知这番权衡。
+  effect: 宇宙后果落实为具体选择，同时保留结果未定的祈愿。
+  source_anchor: scenes/scene_13.md:L12-L38、L39-L52、L59-L82

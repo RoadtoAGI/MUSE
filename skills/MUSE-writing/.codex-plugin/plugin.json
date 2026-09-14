@@ -1,6 +1,6 @@
 {
   "name": "muse-writing",
-  "version": "2.6.0",
+  "version": "2.17.0",
   "description": "基于麦基故事理论的原创小说与剧本创作",
   "author": {
     "name": "RoadToAGI",
@@ -20,8 +20,6 @@
     "muse"
   ],
   "skills": "./skills/",
-  "agents": "./agents/",
-  "hooks": "./hooks/",
   "interface": {
     "displayName": "MUSE Writing",
     "shortDescription": "原创短篇、中篇与剧本创作",

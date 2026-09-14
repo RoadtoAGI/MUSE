@@ -1,6 +1,6 @@
 ---
 name: short-phase3-composition
-description: 短链成稿与全文修订编排。大纲批准后派发 short-composer 一次成稿，使用既有机器检查、全文审阅和有界修订，交付 story.md。
+description: 原创短篇的成稿与修订编排，在大纲批准或免审后派发一次全文创作，组织已有检查与全文审修，交付 story.md。
 ---
 
 # 短篇成稿与全文修订
@@ -11,9 +11,11 @@ description: 短链成稿与全文修订编排。大纲批准后派发 short-com
 
 设计所需的世界规则在构思与大纲阶段已经确认。成稿前按实际文风、场景表达或作者指定用途加载 `scene-reference`；已有适用材料可直接复用。手选来源按作品和领域限定，命中 `world_rule` 时读取同作 lore，纯文风用途不升级为情节或世界规则复用。来源不足时说明实际缺口，不自行替换作者选定机制。
 
-采用的正文参考放在既有 `pipeline/shortform/reference_pack.md`。本次派发明确有效路径或“无”；只有本次成功取得，或已确认来源范围、用途仍适用的材料才生效。关闭参考、无匹配或失败时不给旧文件输入权。
+conception 含 `canon_reference_profile` 时，把 `pipeline/shortform/conception.yaml` 的绝对路径交 scene-reference，由其用 `--canon-reference-profile` 按作品解析用途与领域；全局 `--reuse-mode / --intended-domains` 只作所有来源共有的限制。采用语义沿本包[参考采用契约](../writer/references/reference-adoption.md)。
 
-通过宿主可用方式派发 short-composer，明确工作目录、本包技能入口和有效 ref。composer 一次写完整篇 `story.md`；已有有效正文的恢复任务直接进入当前审阅或修订步骤。参考机制的独立 ID 仍只读当前 outline 实际引用的 adopted 条目。
+采用的正文参考放在既有 `pipeline/shortform/reference_pack.md`，各来源的 `<reference_scope>`、使用约定和适用原文一起保留，总头不能扩大单条来源的范围。本次派发明确有效路径或“无”；只有本次成功取得，或已确认来源范围、用途仍适用的材料才生效。关闭参考、无匹配或失败时不给旧文件输入权。
+
+通过宿主可用方式派发 short-composer，明确工作目录、本包技能入口和有效 ref。宿主未预载 agent 时，主控读取本包对应 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发沿用此要求。composer 一次写完整篇 `story.md`；已有有效正文的恢复任务直接进入当前审阅或修订步骤。参考机制的独立 ID 仍只读当前 outline 实际引用的 adopted 条目。
 
 派发 short-story-review 或修订者时同样传本次有效 ref，reader 模式明确当前报告路径；未启用的可选输入传“无”。
 

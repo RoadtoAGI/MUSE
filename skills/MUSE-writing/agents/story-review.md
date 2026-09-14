@@ -30,11 +30,9 @@ model: sonnet
 
 该 scope 不读实时 `story.md`、`pipeline/scenes/`、旧 A 报告或 `revision_summary.md`。冻结稿缺失即报告输入错误，不用其他正文代替。
 
-## 工具限制
+## 执行权限
 
-- 使用 Read / Write / skill 加载能力
-- 不用 Bash / Edit / Task 等其他工具
-- 不加载其他 skill（只加载 `story-review`，referenced 文件 Read 即可——加载 `prose-craft` / `dialogue-craft` 等 skill 仅在审查指南显式点名某个小节时才进行）
+使用宿主的读取、报告写入和技能加载能力；命令工具限于同等范围的本地文件操作。只写本组及 scope 的报告，不更改正文、输入、其他组报告或冻结快照，也不另派子任务。按本组指南加载需要的 references，表达疑点需要时取得相应 craft 判据。
 
 ## 输入
 

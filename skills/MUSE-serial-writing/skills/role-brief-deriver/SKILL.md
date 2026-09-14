@@ -1,6 +1,6 @@
 ---
 name: role-brief-deriver
-description: 为连载章的单个场景派生逐角色 role_view，按故事时点整合人物台账、章上下文与相关正文。由本包 serial-role-view-deriver 调用，供 writer 和可选角色表演消费；不设计人物心理或场景答案。
+description: 连载单场景的逐角色 role_view 派生。由 serial-role-view-deriver 按故事时点整理身份、所知与可感条件，供 writer 和可选人物表演消费。
 ---
 
 # 连载场景的人物输入派生

@@ -1,6 +1,6 @@
 ---
 name: volume-outline
-description: 新作起卷、前卷收束后开卷，或补齐接管作品当前卷的未定方向。依据人物经历、作者意图和卷内问题形成可供章节编排的卷纲，由 serial-outline 调用。
+description: 连载卷纲设计。由 serial-outline 在新作起卷、开新卷或补齐接管作品未定卷向时调用，形成供章节编排与卷收束消费的卷纲。
 ---
 
 # volume-outline — 卷向与结构
@@ -28,6 +28,10 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/match_decisions.py list \
 
 例如，人物卷首坚持救人、卷末仍坚持救人，单写“学会勇敢”会虚构内在变化；若经历使他从单独承担后果变为获得他人共同承担，则关系变化可以组织事件。决定性差异是事件造成的真实变化，人物无需匹配某种成长模板。
 
+低对抗卷也可由阶段成果组织中段：形成一种能力、建立合作或取得共同认识，使下一阶段成为可能；亲历后的理解又可能改变完成标准。把这种变化放在 `protagonist_delta`、必要的卷转折与后续章意图中，逐章 logline 说明实际成果及承接。章条目的 `opened/closed` 继续只记录伏笔 thread_id。
+
+多线可通过主题矛盾、主题回响、主线启动铺垫或制造纠葛形成联系；牵挂与判断也可让不同事务在同一人物内心相互影响。保留各线的阶段发展，按当前读者关切、已有结果和另一线将带来的作用安排切换，允许错开启动与收束。具体方法见[场景与编排参考](../chapter-scene-plan/references/mckee-scenes.md)，`narrative_lines` 继续承担定位。
+
 只在方向有实质分歧时提出候选，用关键剧情与取舍说明差别。需中断恢复时将候选落 `series/decisions/D-####-candidates.yaml`，保留问题、可选方向及各自代价即可。已有明确方案直接展开；作者已委托的范围由模型决定，需作者选择的开放决定按共创协议等待。候选数量和转折条数由本卷需要决定。
 
 参考在能改变卷向时提前取得：
@@ -44,7 +48,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/match_decisions.py list \
 
 - `protagonist_delta` 与 `volume_question` 保留上述创作意图。已有历史卷只写有来源的变化，未完部分保留作者的已定方向。
 - `tentpoles[]` 写承担卷级转折的 `beat / value_shift / anchor`，没有适用转折时可为空。描述谁因何作出选择、局面怎样改变，保留后续实现空间。规划位置用 `unresolved`，章物化后锚到实际章号；已发布来源直接用 manifest 章号。
-- `world_reveal_plan[]` 只列确需安排的世界揭示，使用稳定 `reveal_id`、内容与 `from_ceiling` 依据。揭示若违背已确认的世界边界，收窄方案或提出冻结修订；原有边界内的细化按相应 worldbook 册的规则处理。`planned_at` 记录预期单元或章；章级编排在兑现前确定位置，当前未指定位置时保留铺垫与正式揭示的区别。
+- `world_reveal_plan[]` 只列确需安排的世界揭示，使用稳定 `reveal_id`、内容与 `from_ceiling` 依据。揭示若违背已确认的世界边界，收窄方案或提出冻结修订；原有边界内的细化按相应 worldbook 册的规则处理。`planned_at` 记录预期单元或章；章级编排在兑现前确定位置，当前未指定位置时保留铺垫与正式揭示的区别。伏笔首次出现应有当场用途，后续分晓保留已有事实、改变解释并产生后果；普通伏笔继续沿已有章意图与线索记录传递。
 - `narrative_lines[]` 仅在多线编排需要定位时记录，跨线因果仍写在转折、单元或章意图中。
 - `chapters[]` 可为空；当前卷按实际编排滚动补章。逐章 logline、hook 与场景输入交 `serial-chapter-writing`。
 

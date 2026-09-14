@@ -64,6 +64,21 @@ def load_index(index_path: Path) -> list[dict]:
     return json.loads(text)
 
 
+def craft_notes_paths(work_dir: Path) -> dict[str, Path]:
+    """逐场景标注位置：索引显式声明优先，兼容既有默认目录。"""
+    paths = {
+        path.stem[len("scene_"):-len("_beats")]: path.with_suffix(".md")
+        for path in sorted((work_dir / "craft_notes").glob("scene_*_beats.*"))
+        if path.suffix in {".md", ".yaml"}
+    }
+    index_path = index_path_of(work_dir)
+    if index_path:
+        for entry in load_index(index_path):
+            if entry.get("scene_id") and entry.get("craft_notes_file"):
+                paths[entry["scene_id"]] = work_dir / entry["craft_notes_file"]
+    return paths
+
+
 def save_index(index_path: Path, entries: list[dict]) -> None:
     if index_path.suffix == ".jsonl":
         payload = "\n".join(json.dumps(e, ensure_ascii=False) for e in entries) + "\n"

@@ -27,3 +27,5 @@
 - 交换格式契约：`skills/takeover-distill/references/exchange-format.md`
 
 知识库角色参考包由 canon 包 character-kb-distill 经明确 novel-dir 构建，工具来自 canon、数据保留原目录；依赖不可用时报告该参考功能缺口。接管快照、原文切分和本作检索由本包提供。源码入口不等于宿主已注册；独立安装缓存需在明确部署任务中更新。
+
+各入口先解析本包实际安装根与当前作品路径；文档中的 `CLAUDE_PLUGIN_ROOT` 是 Claude 插件可用的定位方式，其他宿主从已加载技能位置取得包根。参考检索继续先按 `published_seq` 筛选可见范围再读描述；接管状态沿交换格式进入写作侧，参考语料沿对应参考协议使用。

@@ -1,11 +1,11 @@
 ---
 name: short-manuscript-revision
-description: 修订当前短篇全文，按派发的 de-AI 或 reader 模式处理具体问题，保持人物和创作意图，输出既有 revision_summary.md。
+description: 按本次机器诊断或全文审阅修订原创短篇 story.md，保留人物与创作意图；由短链主控派发，返回修订结果。
 ---
 
 # 短篇全文修订
 
-读取当前 `story.md` 和 `pipeline/shortform/{conception,characters,outline}.yaml`。模式、当前审阅报告与有效参考由本次派发给出；必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据。
+读取当前 `story.md` 和 `pipeline/shortform/{conception,characters,outline}.yaml`。模式、当前审阅报告与有效参考由本次派发给出；必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据；涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
 
 ## 定位与修复
 

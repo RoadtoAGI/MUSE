@@ -1,4 +1,4 @@
-"""包版本三面一致性——plugin.json 与 marketplace.json（metadata + plugins[0]）必须同版本。"""
+"""同一包现行发布线的 Claude/Codex manifest 与 marketplace 版本保持一致。"""
 from __future__ import annotations
 
 import json
@@ -18,6 +18,9 @@ def test_versions_consistent(pkg):
         pytest.skip(f"{pkg} 无 .claude-plugin（本机未检出）")
     plugin = json.loads((root / "plugin.json").read_text())
     versions = {"plugin.json": plugin["version"]}
+    codex_path = root.parent / ".codex-plugin" / "plugin.json"
+    if codex_path.exists():
+        versions["codex.plugin.json"] = json.loads(codex_path.read_text())["version"]
     mp_path = root / "marketplace.json"
     if mp_path.exists():
         mp = json.loads(mp_path.read_text())

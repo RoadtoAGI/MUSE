@@ -1,6 +1,6 @@
 ---
 name: short-phase2-outline
-description: 将短篇人物、情境和创作意图组织成 spine 与 scenes，输出 outline.yaml；采用显式灵感绑定时先写短篇 ledger，完成后交作者大纲裁决。
+description: 原创短篇的大纲阶段，将人物、情境与创作意图组织成全文脊椎和场景；由短链编排调用，完成后交同一作者大纲裁决。
 ---
 
 # 短篇大纲

@@ -24,7 +24,7 @@
 
 父执行者从当前入口解析包根、作品根及章根。每个新子任务携带 `serial_package_root`、`series_root`、`work_dir`、`chapter_id`，场景任务再带 `scene_id`，单角色任务带 `role_slug`；将本次正文、关键输入和输出目标展开为绝对路径。`series_root` 含 `series/` 与 `published/`，`work_dir` 含本章 `pipeline/`。文件加载派发将 `work_dir="<章绝对路径>"` 独立放一行，供现有 hook 定位。执行者按指定根读写；指定输入缺失时返回缺口，不能以 cwd、同名目录或历史样本推定替代工作区。
 
-脚本示例中的 `${CLAUDE_PLUGIN_ROOT}` 表示本包根；文件加载宿主使用已解析的 `serial_package_root` 绝对路径，不假定该环境变量存在。
+脚本示例中的 `${CLAUDE_PLUGIN_ROOT}` 表示本包根；文件加载宿主使用已解析的 `serial_package_root` 绝对路径，不假定该环境变量存在。包内职责规定允许读取的输入、写入的产物和委派边界；宿主负责把这些能力映射到正式文件、补丁或命令工具。Claude 元数据中的工具名只在该宿主解释，文件加载宿主不因此丧失等价读写能力。
 
 | 场景职责 | 本包元配置 | 本包职责 skill |
 |---|---|---|
@@ -38,7 +38,9 @@
 
 使用宿主已注册且明确绑定本包的 agent 与包限定 skill 入口。宿主支持文件加载、但未注册这些 agent 时，派 fresh 通用子执行者，提供上述元配置的绝对路径，并要求先加载该文件及它指向的本包职责 skill；相对链接按所在文件解析。`consistency-review` A/B/C 与 `continuity-check` 沿用已有技能调用，分别直接绑定本包 `skills/consistency-review/SKILL.md` 和 `skills/continuity-check/SKILL.md`；文件加载宿主给出职责文件绝对路径，无需新增 agent 元配置。其他同名包的裸名 agent、现有 workspace wrapper 或 sibling skill 不自动继承为本包入口。缺少子执行能力或必要文件时，报告具体缺项。
 
-下文 `dispatch_serial(role=..., prompt=...)` 是本文件的调度伪代码：每次执行都按上表解析本包元配置，或使用上述直接技能路径，并向 prompt 加入包根、章工作区与标识。它沿用宿主已有 dispatch 工具，不对应新增脚本、registry 或阶段。仅在子执行者确已取得本包元配置和职责层时，后续任务消息才只补动态变量。父执行者不假定宿主会继承自己的 cwd、已读文件或 skill 内容。`reports_input_issue`、`current_role_views_complete` 等同样表示执行者对本次回执与交付物的判断，不要求新增检查器或过程产物；工具调用返回成功与职责交付完成分别判断。
+下文 `dispatch_serial(role=..., prompt=...)` 是本文件的调度伪代码：每次执行都按上表解析本包元配置，或使用上述直接技能路径，并向 prompt 加入包根、章工作区与标识。它沿用宿主已有 dispatch 工具，不对应新增脚本、registry 或阶段。仅在子执行者确已取得本包元配置和职责层时，后续任务消息才只补动态变量。父执行者不假定宿主会继承自己的 cwd、已读文件或 skill 内容。`reports_input_issue`、`current_role_views_complete` 等同样表示执行者对本次回执与交付物的判断。`current_reference_scope` 解释现有作者决定，`recover_with_scene_owner` 和 `report_remaining_dependency` 表示原责任路径的恢复与交接；它们不要求新增脚本、状态或过程产物。工具调用返回成功与职责交付完成分别判断。
+
+派发失败时先确认指定位置的产物是否已完整：完整且有效则继续尾窗/审阅；未完整则按错误回原执行者修复输入、路径或写入。相同条件下不盲目重复派发。缺权限或作者选择时才进入相应待决，其他必要依赖仍缺则保留当前断点、说明负责环节，并继续无关的已授权工作。
 
 ---
 
@@ -74,7 +76,8 @@ def phase6_dispatcher(chapter_id, scenes_in_order):
 
         # 可选 reference 依 §3.5 选取；人物行动仅在角色选择确能改变本场时调用。
         # 不默认逐角色排练；普通移动、既定程序和纯过渡由 writer 实现。
-        current_ref_path = select_current_scene_reference(scene, chapter_id, WORKDIR)  # 按 §3.5，未选或未成功为 None
+        reference_scope = current_reference_scope(scene, chapter_id)  # §3.5 的 reuse_mode / intended_domains
+        current_ref_path = select_current_scene_reference(scene, chapter_id, WORKDIR, **reference_scope)
         authorized_role_move_slugs = []
         for role_slug in select_roles_needing_action_exploration(scene):
             # 角色交流确需来源案例时查询；缺扩展或无匹配为“无”，不重用旧参考。
@@ -91,72 +94,9 @@ def phase6_dispatcher(chapter_id, scenes_in_order):
                 authorized_role_move_slugs.append(role_slug)
             # 空 moves 或普通 actor 执行失败不阻断 writer；未完成时不授权旧文件。
 
-        # ============ Step 4c: 反先验场景 fast-path（counter_prior_scene） ============
-        # scene_card.counter_prior_scene.used=true 时附加结构化约束段；
-        # used=false / 字段缺失 → 不注入，按 writer 的一般创作判断执行。
-        # schema 见 phase5 output-schema.md（结构化对象，不是扁平 enum）。
-        # writer 不 fork 新分支，仅 dispatch prompt 多一段约束。
-        cps = getattr(scene.card, "counter_prior_scene", None)
-        counter_prior_extra = ""
-        if cps and cps.get("used") is True:
-            counter_prior_extra = (
-                "\n\n本场 scene_card 含 counter_prior_scene：结合其日常行为与高情感处境，"
-                "保留二者相遇产生的具体作用；避免附加说明把该作用改成既定情绪结论。"
-                "候选动作与模式建议可按实现需要调整；forbidden_moves 中已确认的作者禁界继续遵守，"
-                "来自手法示例的建议按适用条件判断。信息或心理句有新贡献时可使用。"
-            )
-
-        # ============ Step 4c-2: reference 复用 fast-path（reuse_tier 三档 + worldview） ============
-        # 读取选中 ref 的元数据（reuse_mandate/reuse_tier/worldview_reuse），
-        # 不读 ref 全文。新 ref 带 reuse_tier 行按三档分支；旧 ref（无该行）按 reuse_mandate
-        # 二值走现行路径。当前采用范围显式进入 dispatch，语义权威见 §3.5.2 与 writer 的 ref 条目。
-        reuse_extra = ""
-        worldview_extra = ""
-        ref_path = current_ref_path
-        if ref_path is not None:
-            header = ref_header_lines(ref_path)  # {"reuse_mandate": ..., "reuse_tier": ..., "worldview_reuse": ...}
-            tier = header.get("reuse_tier")
-            if tier is None and header.get("reuse_mandate") == "true":
-                tier = "full"
-            if tier in {"full", "material"}:
-                scope = ("专名、原词、原句与连续段落（可整段逐字，不设长度上限）"
-                         if tier == "full" else "专名、术语、物件与单句（不整段复用）")
-                reuse_extra = (
-                    f"\n\n本场 reference 采用范围为 {tier}：{scope}。"
-                    "先从『复用候选』及授权片段选贴切素材；保持故事事实、人物知识、核心因果与披露边界。"
-                    "在这些条件内，ref 原文优先于措辞和文风偏好，保留其句法与质地，"
-                    "只作人物、POV、时态、指代、专名与衔接的必要调整。"
-                    "scene_card / role_moves 的动作、物件与顺序仍属候选；"
-                    "prose_risk_contract 不降低已授权原文的复用力度。"
-                    "完成回执列 ref 条目与正文位置；无候选或候选均与有效故事约束冲突时，允许空清单并说明原因。"
-                )
-            # tier == "style"，或 tier 缺失且 reuse_mandate != true → 不注入，
-            # writer 按 usage_protocol 只贴文风。
-            if header.get("worldview_reuse"):
-                worldview_extra = (
-                    "\n\n本篇世界观复用 ref 作品：读 <worldview_lore> 区块，保留对本场行动、人物感知、"
-                    "世界理解或表达形式有具体作用的材料。人物所知须有实际获知渠道，传闻保留其不确定性；"
-                    "叙述者按作品既定权限呈现，并遵守披露安排。正文可采用事件、感知、转述或文书等合适形式，"
-                    "不把每条世界信息都改造成动作要求。完成回执增列世界观条目：lore 源字段路径 → 正文落点"
-                    " → 语态与认识范围的必要调整。"
-                )
-
-        # ============ Step 4c-3: 声音档位 + 量化文风靶（行为条款走 dispatch，数据留卡上/ref 内） ============
-        voice_extra = ""
-        risk_contract = getattr(scene.card, "prose_risk_contract", None) or {}
-        if "signature_voice_overuse" in (risk_contract.get("risk_families") or []):
-            voice_extra = (
-                "\n\n本场 prose_risk_contract 含 signature_voice_overuse：结合人物 role_view 中合时的声音依据，"
-                "按具体 voice_boundaries 的适用条件、人物压力与表达目的选择声音形态。"
-                "scene_task 的 voice_gear 是声音突出或收敛的情境提示，不规定修辞数量、固定字面密度或默认禁用档位。"
-                "人物声音应改变感知、判断或表达；无具体边界依据时，按本场人物处境与阅读效果决定。"
-            )
-        style_target_extra = ""
-        if ref_path is not None:
-            style_target_extra = (
-                "\n\nref 内量化文风信息（若有）可提示与参照片段的差异；结合当前叙述功能判断是否需要调整，"
-                "统计差异不直接要求按数值收敛。"
-            )
+        # 任务只补本场激活项。完整写作与复用规则从本包 writer/craft 加载。
+        active_guidance = [key for key in ("counter_prior_scene", "prose_risk_contract")
+                           if (getattr(scene.card, key, None) or {}).get("used") is True]
 
         result = dispatch_serial(
             role="serial-writer",
@@ -164,15 +104,19 @@ def phase6_dispatcher(chapter_id, scenes_in_order):
                    f"只写 {WORKDIR}/pipeline/scenes/scene_{scene.id}.md；已有正文的保留或重写已由调用方确认。"
                    f"authorized_role_move_slugs={authorized_role_move_slugs}；current_ref_path={current_ref_path or '无'}。"
                    f"完成回复 'done draft for scene {scene.id}'。"
-                   + counter_prior_extra + reuse_extra + worldview_extra + voice_extra + style_target_extra,
+                   f"active_guidance={active_guidance}；reference_scope={reference_scope}。",
         )
         if reports_input_issue(result):
             return_to_input_owner(scene, result)
             return
         if not result.success:
-            mark_scene_pending_human(scene.id,
-                reason="writer_dispatch_failed", status="ESCALATED")
-            return
+            # 先核指定路径的实际正文与回执，避免失败通知触发重复写入。
+            if not current_scene_completed(scene):
+                result = recover_with_scene_owner(scene, result)
+                # 恢复使用已有任务、输入与产物；未完成时保持断点，后继不消费缺失尾窗。
+                if not current_scene_completed(scene):
+                    report_remaining_dependency(scene, result)
+                    return
 
         # scene_card 合规校验（显式调用，无自动兜底；WARN 型不阻断，同主干语义）
         run_script("muse_hook_check.py", extra=[
@@ -193,7 +137,7 @@ def phase6_dispatcher(chapter_id, scenes_in_order):
 ```
 
 **关键约束**：
-- 每次 subagent 调用使用 fresh session，按 §0 提供本包元配置入口和章工作区；职责层维护静态输入清单，dispatch 补齐场景标识、模式与本次 role_move 授权。
+- 新场景、新人物隔离任务及独立审阅使用 fresh session，按 §0 提供本包元配置与章工作区。针对同一对象的缺件修复可在原执行者继续；输入权限改变时重新隔离。职责层维护静态输入清单，dispatch 补齐当前场景、模式、有效来源与 role_move 授权。
 - orchestrator **全程不产 prose**——不改写 / 整合 / 兼职修订
 
 ---
@@ -316,19 +260,19 @@ PATCH 只有需要判断具体片段变化且本次实际应用记录可定位�
 
 role_view 派生完成后、writer 开始前，按当前缺口或作者指定用途选择参考。复杂场面可提示检查是否需要取材，题材标签、角色数量或单个 lint 命中不强制查询。已有适用来源直接复用；作者关闭参考时返回“无”。
 
-通过宿主可用的包限定 `scene-reference` 入口，传 work_dir、scene_id、当前叙事问题、已知人物/视角/信息条件及实际来源范围。查询不要求固定句数。`select_current_scene_reference` 在伪代码中表示此选择：只有本次成功取得，或经确认仍适用于当前任务的来源，才返回其 Path；其余返回 None。
+通过宿主可用的包限定 `scene-reference` 入口，传 work_dir、scene_id、当前叙事问题、已知人物/视角/信息条件及实际来源范围，同时继承本次已确定的 `reuse_mode` 和 `intended_domains`。类型参数使用来源包认可的 genre；具体表达问题放 narrative_problem，无法匹配类型时可省略。查询不要求固定句数。`select_current_scene_reference` 在伪代码中表示此选择：只有本次成功取得，或经确认仍适用于当前任务的来源，才返回其 Path；其余返回 None。
+
+`current_reference_scope` 从当前任务、已确认设计和实际采用决定中取用既有字段：reuse_mode 为 maximize_apt_reuse / style_only，intended_domains 使用 world_rule / reveal_structure / protagonist_archetype / scene_carrier / prose_style_imitation 的实际子集。调用方已明确用途时交给 scene-reference 传递到 `kb_query.py --reuse-mode ... --intended-domains ...`。已有本次适用的 Phase 0 canon_reference_profile 时，传其实际文件路径给 `--canon-reference-profile`，让来源包逐来源保留不同用途；不为连载补造 Phase 0。缺字段按来源包既有兼容方式处理，不为调用补造作者决定。纯文风用途会收窄为 style，世界规则用途最多 material；题材、相关性分数或手选本身不扩大作者采用范围。
 
 actor 确需对白案例时，可在同一选材环节通过 canon `dialogue-reference` 传 work_dir、scene_id、role_slug；只给本人 view 可知信息。`select_current_dialogue_reference` 返回本次有效路径或“无”，无匹配照常依据人物材料完成。检索方不取得对手秘密，actor 不接收全场 ref。
 
 扩展未装、查询失败或 NO_MATCH 时不把旧同名文件当成功。必要的用户指定来源缺失则回调用方，普通可选参考不阻断创作。首稿与 ROLLBACK 派发均明确 current_ref_path 与 dialogue_ref 的实际范围。
 
-### 3.5.2 消费（writer 侧）
+### 3.5.2 消费与回执
 
-- **本次有效输入**：dispatch 的 `current_ref_path` 指向已取得且当前适用的文件；为“无”时跳过。磁盘旧同名文件不自动生效。
-- **消费**：writer 动笔前读取所选文件，按 `<usage_protocol>` 理解文风与采用边界；完整契约见 writer 的 reference 输入条目。
-- **dispatch prompt 含复用指令段时**：复用是本场要求——full 档实际复用贴切的专名 / 原词 / 原句 / 连续段落；material 档复用范围收窄为专名 / 术语 / 物件 / 单句。两档均以 ref 原文复用优先级压过 writer 的措辞、句式与文风偏好，只做最小接合式语态归一并完成复用清单；scene_card / role_moves 的动作、物件、局部顺序与对白候选仍由 writer 取舍。空清单仅限 ref 无候选，或候选均冲突连载故事不变量（契约细则见 writer skill 输入清单 ref 条目）
-- **已选世界观材料**：读所选 ref 的 `<worldview_lore>`，保留实际作用、来源、人物获知渠道和叙述权限；呈现方式按 writer 取舍。完成回执注明采用条目、正文落点及必要调整。
-- **无有效参考**：普通可选来源缺失时按现有输入继续；作者指定的必需来源缺失先回调用方。
+writer 在生成前取得当前有效 ref，按本包 [writer 的复用契约](../../writer/SKILL.md#参考与复用)解释已确定用途、条目范围及 reuse_tier/reuse_mandate，完成实际采用回执。正文方法与完整复用规则由 writer/craft 持有；派发只补当前路径、采用字段和激活项。
+
+只有确认子执行者已取得本包职责和必要参考，才省去静态规则重述。上下文丢失、来源变化或可定位的执行遗漏发生时，补回对应指导；不按模型名复制整套派发策略。旧同名文件不自动生效，必需的指定来源缺失回其负责人。
 
 ### 3.5.3 ref 对齐校验（orchestrator 侧，writer 落盘后）
 

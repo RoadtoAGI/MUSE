@@ -1,6 +1,6 @@
 ---
 name: aigc-distribution-revision
-description: 连载单场景的分布性表达修订职责，供 serial-distribution-reviser 在装配前消费已确认的 machine_directive；保持事实、人物和保护区，修订正文并返回施工状态。章稿装配后的表达修订由 aigc-wholetext-revision 处理。
+description: 连载单场景的分布性表达修订。由 serial-distribution-reviser 在章稿装配前消费当前 machine_directive；装配后的章稿表达修订用 aigc-wholetext-revision。
 ---
 
 # 场景表达修订

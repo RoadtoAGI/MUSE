@@ -113,6 +113,12 @@ def validate_scene(scene: dict) -> None:
         )
     if not scene.get("scene_tasks"):
         raise SchemaError(f"scene {scene.get('scene_id')} scene_tasks empty")
+    from muse_hook_check import _scan_phase5_missing_prose_risk_contract
+    if _scan_phase5_missing_prose_risk_contract({"scenes": [scene]}):
+        raise SchemaError(
+            f"scene {scene.get('scene_id')} prose_risk_contract 格式无效："
+            "对象可缺省；已提供的 used 须为 bool，策略字段须为非空字符串列表"
+        )
 
 
 def render_scene_task(task) -> str:
@@ -172,7 +178,7 @@ def render_scene_card_markdown(scene: dict) -> str:
 
     lines.append("## 场景约束")
     lines.append("")
-    lines.append(f"**核心冲突**: {scene['conflict']}")
+    lines.append(f"**冲突或组织关系**: {scene['conflict']}")
     lines.append(f"**入场处境**: {scene['value_start']}")
     lines.append(f"**离场结果**: {scene['value_end']}")
     # reader_track: 本场读者跟随的单一阅读问题/行动线（writer 主线锚点）。
@@ -461,39 +467,6 @@ def atomic_write(path: Path, content: str) -> None:
     tmp_path.replace(path)
 
 
-def _verify_prose_risk_contract_used(work_dir: Path) -> None:
-    """Rn+2 P2-2: Phase 6 dispatch hard gate — phase5 所有 scene 必须显式声明
-    prose_risk_contract.used (bool)，即使无风险也需 used=false。
-    复用 muse_hook_check._scan_phase5_missing_prose_risk_contract。
-    """
-    phase5_path = work_dir / "pipeline" / "phase5_scenes.yaml"
-    if not phase5_path.exists():
-        print(f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml 不存在: {phase5_path}",
-              file=sys.stderr)
-        sys.exit(2)
-    try:
-        data = yaml.safe_load(phase5_path.read_text(encoding="utf-8")) or {}
-    except yaml.YAMLError as exc:
-        print(f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml YAML 解析失败: {exc}",
-              file=sys.stderr)
-        sys.exit(2)
-    sys.path.insert(0, str(Path(__file__).parent))
-    from muse_hook_check import _scan_phase5_missing_prose_risk_contract
-    missing = _scan_phase5_missing_prose_risk_contract(data)
-    if missing:
-        print(
-            f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml 中下列 scene 缺 "
-            f"prose_risk_contract.used 显式声明: {missing}",
-            file=sys.stderr,
-        )
-        print(
-            "  修复：每个 scene 加 prose_risk_contract.used (bool)；"
-            "即使无风险也需 used=false 显式标。",
-            file=sys.stderr,
-        )
-        sys.exit(2)
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0] if __doc__ else "")
     parser.add_argument("--scene-id", required=True, help="e.g. S02")
@@ -501,7 +474,6 @@ def main() -> int:
     args = parser.parse_args()
 
     work_dir: Path = args.work_dir.resolve()
-    _verify_prose_risk_contract_used(work_dir)
     phase5_path = work_dir / "pipeline" / "phase5_scenes.yaml"
     output_path = work_dir / "pipeline" / f"scene_{args.scene_id}" / "scene_card.md"
 

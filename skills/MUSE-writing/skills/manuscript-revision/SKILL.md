@@ -1,6 +1,6 @@
 ---
 name: manuscript-revision
-description: 修订完整链 Phase 7 的 story.md。由 manuscript-reviser 按 de-AI 或 reader 模式调用，消费本次有效诊断或读者/全稿反馈，结合必要作者与人物依据修订，保留内容和创作选择。
+description: 修订原创完整链的整合稿 story.md，由 manuscript-reviser 按本次机器诊断或读者及全稿反馈调用；处理全文阶段的有效问题。
 ---
 
 # 全文修订
@@ -14,7 +14,7 @@ description: 修订完整链 Phase 7 的 story.md。由 manuscript-reviser 按 d
 | `de-AI` | 当前 `wholetext_gate.yaml` 的 triggers、observed_alerts 及正文 | 按实际超限和语义问题作分布修订；已有机器合同仍由 wholetext_gate 判断 |
 | `reader` | 本次 `reader_review.yaml`（或明确无）、当前 `global_findings.yaml` 及正文 | 核实读者观察和全稿语义问题，合并同源问题后作一次有界修订 |
 
-正文 `story.md` 是本阶段的修改对象。按疑点读取 Phase 0 的作者要求、风格和来源选择，Phase 1–4 的世界、人物、知识与必要因果，Phase 5 的场景目的、边界与 handoff，以及当前采用的 ledger/参考。相关角色包可补人格与声音；作者分析和未来轨迹不能写成人物自知。
+正文 `story.md` 是本阶段的修改对象。按疑点读取 Phase 0 的作者要求、风格和来源选择，Phase 1–4 的世界、人物、知识与必要因果，Phase 5 的场景目的、边界与 handoff，以及当前采用的 ledger/参考。相关角色包可补人格与声音；作者分析和未来轨迹不能写成人物自知。涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
 
 各场景的 `protected_integrity.yaml` 给出受保护内容与关系；改动须保留这些约束。无需通读整个 pipeline 或重扫历史 L1/L2/L3；历史报告只在本次问题需要回查时提供线索，并先确认正文和既有处置。
 

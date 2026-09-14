@@ -1,6 +1,6 @@
 ---
 name: short-story-review
-description: 审阅短篇当前全文，定位硬要求、人物知识与声音、因果和表达问题；写现有 short_story_review.rN.yaml，保留作者审美裁决。
+description: 审阅原创短篇当前全文，定位明确要求、人物知识与声音、因果及表达问题；由短链主控派发，报告供全文修订和终验使用。
 ---
 
 # 短篇全文审阅

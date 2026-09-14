@@ -23,7 +23,7 @@
 
 命令中的 `WORK_DIR` 是本次作品目录，`MUSE_WRITING_ROOT` 是本包实际安装根；执行前按当前宿主解析。
 
-每次派发明确 `work_dir`、本包实际位置、`scene_id` 与本轮模式。场景顺序来自 Phase 5 `sequence_expansions[].scenes[]`；`previous_scene_id` 取其呈现前项，不按 ID 减一。静态输入清单由各 agent/skill 维护；动态来源选择、前场 ID、role move 授权及必要保护条件直接随派发传入。
+每次派发明确 `work_dir`、本包实际位置、`scene_id` 与本轮模式。场景顺序来自 Phase 5 `sequence_expansions[].scenes[]`；`previous_scene_id` 取其呈现前项，不按 ID 减一。静态输入清单由各 agent/skill 维护；动态来源选择、前场 ID、role move 授权及必要保护条件直接随派发传入。宿主未预载所需 agent 时，主控先读取本包 `agents/{agent-name}.md`，将职责正文交给子执行者，或要求其先读取该绝对路径；子执行者随后加载文件指定的技能。仅有 agent 名称不表示职责已进入上下文。
 
 进入时核对现有正文、裁决、pending directive、应用 summary 与 post-review：
 
@@ -50,7 +50,7 @@ python3 "$MUSE_WRITING_ROOT/scripts/extract_scene_card.py" \
 
 ### 1.2 人物素材与来源
 
-普通场景直接交 writer。消化 scene card、人物资产、state 和 role views 后，仍存在须由该人物独有前提完成、且会改变关键行动、对白或关系结果的解释/选择空位时，才对相关角色调用 isolated `character-actor`。canon 身份、对白存在、人数或场景标签本身不能触发。
+普通场景直接交 writer。消化 scene card、人物资产、state 和 role views 后，仍存在须由该人物独有前提完成、且会改变关键判断、行动、对白或关系结果的解释/选择空位时，才对相关角色调用 isolated `character-actor`。canon 身份、对白存在、人数或场景标签本身不能触发。
 
 对命中的 `{scene_id, role_slug}`，可先通过扩展包 `dialogue-reference` 获取本人参考，再把本轮有效路径或“无”交 actor。只有本次完成且对应当前 role view 的 role move 获授权；空 moves、未命中参考或普通执行失败可直接继续。actor 报告必需输入问题时先修输入。
 
@@ -62,7 +62,7 @@ writer 派发明确“本轮可读 role move 角色：[...]”；空列表不读
 
 `counter_prior_scene.used=true` 时传已有 `kind / mundane_action / emotional_context / forbidden_moves`，让 writer 理解所选日常行为的作用。只传设计中实际存在且适用的限制，不自动追加“不得象征化”或“不得心理解释”。候选实现仍按 writer 的权责层级取舍。
 
-本轮 ref 的 `reuse_tier` 与 `worldview_reuse` 随派发明确，执行 §3.5 的复用契约。只给 scene_id 无法表达这些本轮选择；静态目录中同名文件也不取得输入权。
+本轮 ref 的采用范围、最终 `reuse_tier`、已有 `reuse_mode / intended_domains` 与适用的 `worldview_reuse` 随派发明确，执行[参考采用契约](../../writer/references/reference-adoption.md)。只给 scene_id 无法表达这些本轮选择；静态目录中同名文件也不取得输入权。
 
 writer 成功并确认正文完整后提取尾摘，供下一场衔接：
 
@@ -225,23 +225,17 @@ python3 "$MUSE_WRITING_ROOT/scripts/verify_review_complete.py" "$WORK_DIR"
 
 hook 注册见本包 `hooks/hooks.json`。宿主未触发 hook 时，在相同操作点手动执行已有脚本；已成功的同版本检查直接复用。Phase 5 写后使用 `validate_phase5_r10.py <phase5_path> --scan-scene-tasks --scan-inspiration-refs` 与索引生成器，整合前使用上述 admission verifier。
 
-## 3.5. scene-reference 调度与消费语义
+## 3.5. scene-reference 选择、生成与派发
 
 扩展包 MUSE-canon-distill 可用时，由 `scene-reference` 负责检索和写 ref。当前冲突、复杂对白、表达难点或手选来源的实际适用领域存在材料缺口时，在 role views 成功后、writer 前调用；已有适用材料足够时直接复用。用户要求每场检索时按要求执行；明确关闭参考时整段跳过。
 
-派发传工作目录、scene_id、当前人物处境、要解决的叙事问题与来源范围。Phase 0 手选作品的 `stance: prefer` 与当前 `intended_domains` 相交时，把作品名及 reuse_mode 原样传入；扩展包以该作品限定场景来源，world_rule 需求另装相应 lore。无同书候选时保留 Phase 1 世界规则、跳过范文，不另选作品替代。扩展不可用、无匹配或执行失败时以“无”继续；作者指定的必要事实缺口仍回来源负责人。
+派发传工作目录、scene_id、当前人物处境、要解决的叙事问题与来源范围。存在 `canon_reference_profile` 时，将当前 `phase0_conception.yaml` 的绝对路径交 scene-reference，生成 ref 时使用 `kb_query.py --canon-reference-profile <当前Phase0路径>`，逐作品保留 `reuse_mode / intended_domains`。本次所有来源共有的限制才使用 `--reuse-mode / --intended-domains`；某一作品的用途不得作为整个结果集的共同授权。手选作品的 `stance: prefer` 与本次领域相交时，保留该作品的实际采用范围。未明确用途时沿现有选材约定；不从相关分数推断作者新增授权。`world_rule` 需求另装相应 lore。无同书候选时保留已采用世界规则、跳过范文，不另选作品替代。扩展不可用、无匹配或执行失败时以“无”继续；作者指定的必要事实缺口仍回来源负责人。
 
-新生成或经确认来源范围和用途仍适用的 ref 才是当前输入。writer 派发明示有效路径或“无”；目录中有旧文件不等于本轮采用。主控读取实际元数据区到正文边界，不用“前十行”截断契约：
+新生成或经确认来源范围和用途仍适用的 ref 才是当前输入。writer 派发明示有效路径或“无”；目录中有旧文件不等于本轮采用。主控读取实际元数据区到正文边界，传递用途与采用范围，避免截断契约。
 
-| 元数据 | 随 writer 派发的要求 |
-|---|---|
-| `reuse_tier: full` | 实际复用贴切的原词、原句与连续段落，候选区优先；只作接入人物/POV/时态/指代/专名与衔接所需的最小调整；成品回执附可核对复用清单。故事不变量优先，无适配候选时说明具体原因 |
-| `reuse_tier: material` | 采用与本场直接相关的来源专名、世界事实与专门术语；普通动作、物件或句段须另有功能适配才使用。回执列实际来源资产，无适用资产可为空 |
-| `reuse_tier: style` | 按 usage_protocol 学习适用文风，不产生原句复用义务 |
-| 旧 ref 无 tier | `reuse_mandate: true` 按 full，其余按 usage_protocol |
-| `worldview_reuse` | 同时读取 lore，保持机制、适用条件与来源确定度；人物只使用确有获知渠道的信息。人物未知的世界事实可延后或按既定叙述视角呈现，不能自动改成传闻 |
+writer 与后续修订者按[参考采用契约](../../writer/references/reference-adoption.md)消费本次有效参考；该文件维护完整链与短篇共用的用途、档位、回执和读取规则。
 
-writer 最后读取有效参考，并按当前场景决定动作、感知、对白或叙述怎样承载材料。量化风格提示只帮助定位偏差，实际声腔、节奏或可读性损害才决定修订。
+### 场景参考密度诊断
 
 既有密度对比仅在需要判断具体文风偏差、且 ref 有 `ref_source_file` 和可用脚本时运行：
 
@@ -251,4 +245,4 @@ python3 <MUSE-canon-distill>/knowledge-base/scripts/paragraph_density.py \
   --format yaml > pipeline/review/lint/S01.density_vs_ref.yaml
 ```
 
-沿用现有诊断路径交 scene-reviewer；数值偏离不产生自动 finding。正文首次产出、修订和重写均按同一当前来源契约执行。
+沿用现有诊断路径交 scene-reviewer；数值偏离不产生自动 finding。

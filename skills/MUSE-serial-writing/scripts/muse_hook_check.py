@@ -38,7 +38,7 @@ ENUM_FIELDS = {
 
 
 def _scan_phase5_missing_prose_risk_contract(data: dict) -> list[str]:
-    """扫 phase5_scenes.yaml 各 scene，返回缺 prose_risk_contract.used 的 scene_id 列表。
+    """返回已有 prose_risk_contract 格式无效的 scene_id；对象缺省合法。
 
     兼容 MUSE-writing (sequence_expansions[].scenes) 与 open-muse (顶层 scenes[]) 两种 schema。
     """
@@ -54,8 +54,20 @@ def _scan_phase5_missing_prose_risk_contract(data: dict) -> list[str]:
             continue
         sid = sc.get("scene_id") or "<no-id>"
         prc = sc.get("prose_risk_contract")
-        if not isinstance(prc, dict) or "used" not in prc:
+        if prc is None:
+            continue
+        if not isinstance(prc, dict) or not isinstance(prc.get("used"), bool):
             missing.append(sid)
+            continue
+        for field in ("risk_families", "positive_strategy", "bad_shape_examples"):
+            if field not in prc:
+                continue
+            value = prc[field]
+            if not isinstance(value, list) or any(
+                not isinstance(item, str) or not item.strip() for item in value
+            ):
+                missing.append(sid)
+                break
     return missing
 
 
@@ -90,14 +102,12 @@ def cmd_yaml_contract(args) -> int:
             if k not in data:
                 print(f"[muse-hook-check] WARN: {path}: phase{phase_n} 必填顶层 key 缺：`{k}`", file=sys.stderr)
 
-        # F4：phase5_scenes.yaml 每 scene 必须显式声明 prose_risk_contract.used
-        # 触发于 R 轮测试态发现 — 182/183/531 三样本 prose_risk_contract 字段全 absent，
-        # L0 写前预防实际没启用。约定"无风险"也必须 `used: false` 显式标，禁 absent。
+        # 只诊断已提供的风险提示格式；缺省使用通用写作指导。
         if phase_n == 5:
             for sid in _scan_phase5_missing_prose_risk_contract(data):
                 print(
-                    f"[muse-hook-check] WARN: {path}: scene `{sid}` 缺 prose_risk_contract.used "
-                    f"显式声明（即使无风险也需 `used: false`）",
+                    f"[muse-hook-check] WARN: {path}: scene `{sid}` prose_risk_contract 格式无效"
+                    "（used 须为 bool，已提供的策略字段须为非空字符串列表）",
                     file=sys.stderr,
                 )
 

@@ -1,6 +1,6 @@
 ---
 name: story-writing
-description: MUSE 完整原创小说编排（Phase 0→7，输出 story.md）。用户要求完整中篇小说、从点子到成稿，或原创成稿篇幅未明时触发。剧本由 screenplay-writing 承接，明确短篇由 short-story-writing 承接；衍生与连载创作由 MUSE-serial-writing 承接。
+description: 完成原创中篇或篇幅未明的完整小说，从点子推进到终稿；明确短篇交 short-story-writing，剧本交 screenplay-writing，衍生与连载交 MUSE-serial-writing。
 ---
 
 # 完整小说创作

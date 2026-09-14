@@ -345,6 +345,22 @@ def test_ingest_cluster_replace_clears_old_cards(tmp_path, monkeypatch):
     assert names == {"mentor-death.yaml"}
 
 
+def test_ingest_cluster_rejected_replacement_preserves_cards_and_indexes(tmp_path, monkeypatch):
+    insp = tmp_path / "inspiration"
+    monkeypatch.setattr(bic, "INSPIRATION_DIR", insp)
+    monkeypatch.setattr(bic, "load_idx_map", lambda: IDX_MAP)
+    bic.write_card(insp, _card("prior-card"))
+    bic.rebuild_index(insp)
+    before = {p.name: p.read_bytes() for p in insp.iterdir()}
+    invalid = _card("invalid-card")
+    invalid["source_scenes"][0]["scene_id"] = "missing"
+    output = tmp_path / "cluster.json"
+    output.write_text(json.dumps({"cards": [_card("new-card"), invalid]}), encoding="utf-8")
+
+    assert bic.ingest_cluster(str(output), replace=True) == 1
+    assert {p.name: p.read_bytes() for p in insp.iterdir()} == before
+
+
 def test_ingest_nominate_rejects_legacy_negative_prefix_candidate(
     tmp_path, monkeypatch, capsys
 ):

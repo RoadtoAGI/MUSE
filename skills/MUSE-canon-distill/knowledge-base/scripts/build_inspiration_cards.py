@@ -82,7 +82,7 @@ NOMINATE_INSTRUCTIONS = """从该作品的逆向设计文档、场景清单和�
 
 思想分析追踪认识如何由具体经验形成、复杂化或保持多义；选择和冲突按作品需要分析。重复、留白、静态人物也可产生有效机制。source_analyses 保留足够语境，不用主题标签替代成立过程。
 
-字段值内禁止英文双引号，引用字词用「」。"""
+输出合法 JSON；原文中的引号按 JSON 字符串规则转义。"""
 
 CLUSTER_INSTRUCTIONS = """把 nominations 中关系机制及成立条件相容的范式跨书合并，产出最终灵感卡列表。
 共同戏剧功能用于归类和检索；只有可重建的关系、因果或感知结构相同才合卡。功能相同而机制不同的实例分别保留，单书机制也可成卡。
@@ -98,7 +98,9 @@ CLUSTER_INSTRUCTIONS = """把 nominations 中关系机制及成立条件相容�
   合并自各书 evidence_scenes；novel 与 scene_id 必须原样照抄提名与任务包内
   scene_id 清单，禁止改写格式（不准把 scene_01 规范化成 S01）；原有 line_start / line_end 随来源保留
 
-字段值内禁止英文双引号，引用字词用「」。"""
+来源事实、逐作品解释与原文窗口以 nominations 为准；existing_cards 保留既有卡的身份、跨作品机制和适用范围，其 source_refs 仅用于关联提名，不另存一套来源解释。重聚类沿用仍成立的关系；新的来源证据改变关系时修订或拆分，卡号只在机制身份改变时更换。需要修订单作品解释时先更新该作品提名，再重新 prepare；成卡中的 source_analyses 和来源窗口由本次提名汇入。
+
+输出合法 JSON；原文中的引号按 JSON 字符串规则转义。"""
 
 
 # ---------------------------------------------------------------------------
@@ -459,9 +461,9 @@ def _read_scene_list(work_dir: Path) -> str:
 
 def _read_craft_traits(work_dir: Path) -> str:
     traits = []
-    notes_dir = work_dir / "craft_notes"
+    notes_paths = list(kb_index.craft_notes_paths(work_dir).values())
     structured_stems: set[str] = set()
-    for sidecar in sorted(notes_dir.glob("scene_*_beats.yaml")) if notes_dir.exists() else []:
+    for sidecar in sorted(md.with_suffix(".yaml") for md in notes_paths):
         try:
             data = yaml.safe_load(sidecar.read_text(encoding="utf-8")) or {}
         except (OSError, yaml.YAMLError):
@@ -479,7 +481,9 @@ def _read_craft_traits(work_dir: Path) -> str:
                 f"### {sidecar.name}\n"
                 + yaml.safe_dump(payload, allow_unicode=True, sort_keys=False)
             )
-    for md in sorted(notes_dir.glob("scene_*_beats.md")) if notes_dir.exists() else []:
+    for md in sorted(notes_paths):
+        if not md.is_file():
+            continue
         if md.stem in structured_stems:
             continue
         text = md.read_text(encoding="utf-8")
@@ -631,6 +635,19 @@ def prepare_cluster(out: str) -> int:
         print("[build_inspiration_cards NO_NOMINATIONS] 无 nominations，先跑 nominate 两段", file=sys.stderr)
         return 2
     idx_map = load_idx_map()
+    existing_cards = []
+    for path in _iter_card_paths(INSPIRATION_DIR):
+        card = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        # 成卡拥有跨作品关系；逐来源解释和窗口只从提名进入任务包。
+        existing = {key: card[key] for key in (
+            "card_id", "pattern_name", "mechanism", "dramatic_function",
+            "applicability", "phase_affinity", "tags",
+        ) if key in card}
+        existing["source_refs"] = [
+            {"novel": scene["novel"], "scene_id": scene["scene_id"]}
+            for scene in card.get("source_scenes", [])
+        ]
+        existing_cards.append(existing)
     task = {
         "layer": "inspiration_cluster",
         "instructions": CLUSTER_INSTRUCTIONS,
@@ -650,6 +667,7 @@ def prepare_cluster(out: str) -> int:
         "scene_id_inventory": {n: sorted(ids) for n, ids in sorted(idx_map.items())
                                if any(nom["novel"] == n for nom in nominations)},
         "nominations": nominations,
+        "existing_cards": existing_cards,
     }
     out_path = Path(out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -683,11 +701,15 @@ def ingest_cluster(file: str, replace: bool) -> int:
     if not cleaned:
         print("[build_inspiration_cards INGEST_ERROR] 卡片全部被拒收", file=sys.stderr)
         return 1
-    if replace:
-        for old in _iter_card_paths(INSPIRATION_DIR):
-            old.unlink()
+    if replace and rejected:
+        print("[build_inspiration_cards INGEST_ERROR] 替换批次含拒收卡，现有卡及索引保持原样", file=sys.stderr)
+        return 1
     for clean in cleaned:
         write_card(INSPIRATION_DIR, clean)
+    if replace:
+        for old in _iter_card_paths(INSPIRATION_DIR):
+            if old.stem not in seen_ids:
+                old.unlink()
     rebuild_index(INSPIRATION_DIR)
     cross = sum(1 for c in cleaned if len({s['novel'] for s in c['source_scenes']}) > 1)
     print(f"cards={len(cleaned)} rejected={rejected} cross_book={cross}")
@@ -703,7 +725,7 @@ def main() -> int:
     mode.add_argument("--ingest", type=str, metavar="FILE", help="校验并写回产出文件")
     parser.add_argument("--novel", default=None, help="书名子串过滤（nominate --prepare）")
     parser.add_argument("--force", action="store_true", help="已有提名也重新出任务包（nominate --prepare）")
-    parser.add_argument("--replace", action="store_true", help="cluster --ingest 时先清空既有卡再写入")
+    parser.add_argument("--replace", action="store_true", help="cluster 整批校验通过后替换既有卡；拒收时保持原库")
     parser.add_argument("--out", default=None, help="任务包输出路径（--prepare；nominate 为目录，cluster 为文件）")
     args = parser.parse_args()
 

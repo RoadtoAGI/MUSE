@@ -27,6 +27,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from . import kb_index
+except ImportError:
+    import kb_index
+
 KB_ROOT = Path(__file__).resolve().parent.parent
 CONTAINER_DIRS = ("novels", "dramas")
 DIMENSION_ENUM_BY_MEDIUM = {
@@ -81,12 +86,19 @@ INSTRUCTIONS_BY_MEDIUM = {
 }
 
 
+def _work_of_notes(md_path: Path) -> Path:
+    container, work = md_path.relative_to(KB_ROOT).parts[:2]
+    return KB_ROOT / container / work
+
+
 def _medium_of_notes(md_path: Path) -> str:
-    """craft_notes md 路径 → medium（{container}/{work}/craft_notes/x.md）。"""
-    return "drama" if md_path.parent.parent.parent.name == "dramas" else "novel"
+    return "drama" if _work_of_notes(md_path).parent.name == "dramas" else "novel"
 
 
 def _scene_id_from_notes_path(path: Path) -> str:
+    for scene_id, notes in kb_index.craft_notes_paths(_work_of_notes(path)).items():
+        if notes == path:
+            return scene_id
     m = re.match(r"scene_(.+)_beats\.md$", path.name)
     if not m:
         raise ValueError(f"无法从文件名解析 scene_id: {path}")
@@ -107,11 +119,9 @@ def collect_todo(
         for work_dir in sorted(p for p in root.iterdir() if p.is_dir()):
             if novel and novel not in work_dir.name:
                 continue
-            notes_dir = work_dir / "craft_notes"
-            if not notes_dir.exists():
-                continue
-            for md_path in sorted(notes_dir.glob("scene_*_beats.md")):
-                sid = _scene_id_from_notes_path(md_path)
+            for sid, md_path in sorted(kb_index.craft_notes_paths(work_dir).items()):
+                if not md_path.is_file():
+                    continue
                 if scene_id and sid != scene_id:
                     continue
                 if not force and md_path.with_suffix(".yaml").exists():
@@ -205,8 +215,8 @@ def write_sidecar(path: Path, scene_id: str, source_notes: str, data: dict) -> N
 
 def _find_notes_path(novel: str, scene_id: str) -> Path | None:
     for container in CONTAINER_DIRS:
-        p = KB_ROOT / container / novel / "craft_notes" / f"scene_{scene_id}_beats.md"
-        if p.exists():
+        p = kb_index.craft_notes_paths(KB_ROOT / container / novel).get(scene_id)
+        if p is not None and p.is_file():
             return p
     return None
 
@@ -223,7 +233,7 @@ def prepare(args: argparse.Namespace) -> int:
         mediums.add(medium)
         items.append(
             {
-                "novel": md_path.parent.parent.name,
+                "novel": _work_of_notes(md_path).name,
                 "medium": medium,
                 "scene_id": _scene_id_from_notes_path(md_path),
                 "notes_text": md_path.read_text(encoding="utf-8"),

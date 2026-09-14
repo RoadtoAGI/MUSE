@@ -1,12 +1,14 @@
 ---
 name: character-kb-distill
-description: 知识库名著角色参考包蒸馏器。由 novel-analysis / drama-analysis Phase B 在角色证据足以形成有用参考时调用，也支持 build/rebuild 显式调用；结合人物系统、已有个体档案和原文，生成可追溯角色 Skill 包。只蒸馏，不扮演。
+description: 蒸馏名著角色的知识库参考包，供人物研究与创作参考。由小说/戏剧分析调用，或显式 build/rebuild；连载接管快照使用 serial 包同名入口。
 user-invocable: true
 argument-hint: "build (--novel <书名> | --novel-dir <目录>) --role <中文名> | rebuild <role-slug> (--novel <书名> | --novel-dir <目录>)"
 allowed-tools: Read Write Edit Bash Glob WebSearch WebFetch
 ---
 
 # 知识库角色蒸馏
+
+命令中的 `${CLAUDE_PLUGIN_ROOT}` 以本技能所属包的实际安装根替换；Claude 插件可用宿主提供的该变量。其他宿主从当前技能位置定位包根。
 
 从目标版本的人物系统与原文提炼可追溯参考，供设计者理解身份、关系、选择和声音。产物是知识库参考包；人物运行状态与当前故事适配由创作侧负责。
 
@@ -26,7 +28,7 @@ build 传 `--role <显示名>`；rebuild 传既有 role-slug。定位人物系�
 
 关键断言附 `{相对作品根的路径}:L{start}-L{end}`，例如 `full_text.md:L10-L25`。保留对象、压力、知识、阶段与概括强度；单次选择不足以支持永久底线。定位必须来自实际回读的原文，足以支撑判断；已读反例会改变结论时一并处理。
 
-目录为 `${NOVEL_DIR}/characters/{role-slug}/`。slug 使用小写字母与连字符，在本作品内唯一；已有 character_map 映射优先，rebuild 沿用。生成 SKILL.md 的 name/description/version/allowed-tools 依模板，工具只给 Read。
+目录为 `${NOVEL_DIR}/characters/{role-slug}/`。slug 使用小写字母与连字符，在本作品内唯一；已有 character_map 映射优先，rebuild 沿用。生成 SKILL.md 的 name/description/version 依模板；参考包提供只读来源，宿主支持 allowed-tools 时沿模板映射读取能力。
 
 ## 资产与条件附件
 

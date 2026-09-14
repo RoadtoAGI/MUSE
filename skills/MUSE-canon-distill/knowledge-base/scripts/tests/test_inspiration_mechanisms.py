@@ -87,6 +87,31 @@ def test_different_source_conditions_survive(kb):
     assert all(a['narrative_reason'] in rendered for a in value['source_analyses'])
 
 
+def test_reclustering_keeps_card_relation_and_uses_updated_source_authority(kb, tmp_path):
+    existing = card()
+    bic.write_card(kb / 'inspiration', existing)
+    nominee = {key: existing[key] for key in bic.NOMINATION_FIELDS if key != 'evidence_scenes'}
+    nominee.update(mechanism='单作品机制', source_analyses=[analysis(reason='重新回读后的来源解释')],
+                   evidence_scenes=[dict(scene_id='S01', note='重新定位', line_start=2, line_end=3)])
+    second = dict(nominee, source_analyses=[analysis('作品乙', '另一作品保持独立条件')])
+    for work, nomination in [('作品甲', nominee), ('作品乙', second)]:
+        output = tmp_path / 'nomination.json'
+        output.write_text(json.dumps({'novel': work, 'nominations': [nomination]}, ensure_ascii=False))
+        assert bic.ingest_nominate(str(output)) == 0
+    task_file = tmp_path / 'cluster.json'
+
+    assert bic.prepare_cluster(str(task_file)) == 0
+    task = json.loads(task_file.read_text())
+    assert {nom['source_analyses'][0]['narrative_reason'] for nom in task['nominations']} == {
+        '重新回读后的来源解释', '另一作品保持独立条件'}
+    relation = task['existing_cards'][0]
+    assert relation['card_id'] == existing['card_id']
+    assert relation['mechanism'] == existing['mechanism']
+    assert relation['source_refs'] == [{'novel': '作品甲', 'scene_id': 'S01'}]
+    assert 'source_analyses' not in relation
+    assert 'source_scenes' not in relation
+
+
 @pytest.mark.parametrize('change', ['ghost-source', 'wrong-work', 'author-without-source', 'reverse-lines'])
 def test_enrichment_rejects_broken_source_contract(kb, change):
     value = card()

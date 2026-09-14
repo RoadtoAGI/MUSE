@@ -62,7 +62,7 @@ story_climax_design:
       from: "起始价值"
       to: "终止价值"
     controlling_idea_expression: "如何体现主控思想"
-    climax_form: hero_succeeds | hero_fails_world_completes | withdrawal_as_resolution | silence_after_truth   # 可选；默认 hero_succeeds；其余三档为失败型高潮形态
+    climax_form: hero_succeeds | hero_fails_world_completes | withdrawal_as_resolution | silence_after_truth   # 可选；默认 hero_succeeds；收束形态，实际所得与损失由行动及结果说明
   resolution:
     new_balance: "高潮后的新平衡状态"
     lingering_feeling: "留给读者的余味"
@@ -77,12 +77,12 @@ story_climax_design:
 | `desire_object` | 条件（`spine_mode=desire` 时必填；其他 mode 下为 null）| Phase 3 推导脊椎的欲望依据；其他 mode 为 null。下游从脊椎、Arc 和收束设计消费其结果 |
 | `spine_statement` | 是 | Phase 5 场景取舍测试（是否与脊椎相关？）——**所有 `spine_mode` 通用**，语义按 mode 解释（desire 下"是否推进欲望"、information 下"是否贡献真相显形碎片"、motif 下"是否呼应/变形母题"）|
 | `spine_type` | 条件（`spine_mode=desire` 时填；其他 mode 下为 null）| 仅 desire mode 下使用；其他 mode 下不适用（不强制填写）|
-| `reader_spine` | 是（所有 mode 通用）| 读者整篇追踪的认知线，可与角色脊椎错位。**消费者**：Phase 5 `reader_track` 单场具体化时回查；Phase 6 / Phase 7 用 `withheld_answer` 校验是否过早披露；高潮场景用 `recognition_object` 锚定读者确认的具体载体（失败型高潮尤其关键）|
+| `reader_spine` | 是（所有 mode 通用）| Phase 5 将全篇认知线具体化为本场 `reader_track / scene_tasks / omission_plan`，由场景卡交 writer；Phase 6/7 的作者侧审阅对照这些本场条件与实际披露位置，必要时回查全篇意图，reader 保持盲读。高潮场景用 `recognition_object` 说明读者形成认识的依据 |
 | `reader_spine.reveal_ladder_seed` | 否 | 真实事实、因果或身份需分阶段释放，且各段改变行动、归因、关系判断或价值评价时启用；按实际释放阶段填写，未使用位置为空数组；普通母题、象征和伏笔不触发 |
 | `dramatic_question` | 是 | Phase 7（核对核心关切的收束是否符合已选意图）|
 | `opposing_forces` | 是 | Phase 4（对抗力量分配到序列）。数组结构，类型和数量按故事需要，麦基的内在/个人/外在三层仅供参考 |
 | `arcs[]` | 是 | Phase 4（逐 Arc 展开为序列）|
-| `story_climax_design` | 是 | Phase 5（设计危机/高潮场景）、Phase 6（展开高潮场景）。`climax.climax_form` 可选 enum：`hero_succeeds`（默认）/ `hero_fails_world_completes` / `withdrawal_as_resolution` / `silence_after_truth`（后三档为失败型高潮形态，详见 SKILL.md "故事高潮"段）|
+| `story_climax_design` | 是 | Phase 5（设计危机/高潮场景）、Phase 6（展开高潮场景）。`climax.climax_form` 可选 enum：`hero_succeeds`（默认）/ `hero_fails_world_completes` / `withdrawal_as_resolution` / `silence_after_truth`。退场与真相后的沉默可伴随成功、损失或复合结果，按实际因果解释；详见 SKILL.md“故事高潮”段 |
 
 #### reveal_ladder_seed（optional）
 

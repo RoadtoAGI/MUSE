@@ -1,11 +1,6 @@
 ---
 name: kb-annotator
-description: |
-  知识库三层标注员。对指定的单部作品（novels/ 小说或 dramas/ 剧作）完成三层标注：
-  文风·场景（style_profile）/ 文风·作品（style_card）/ 技巧 sidecar / 灵感提名；
-  另有全库级灵感聚类模式（单独派发）。语义标注由本 agent 在会话内完成，
-  脚本只做 prepare（装任务包）与 ingest（校验写回）两端——全程零 LLM API 调用。
-  由 coordinator 按作品分批派发；不被用户直接命中。
+description: 标注指定小说或剧目的文风、手艺与灵感来源，由作品分析或建库任务按需派发。全库灵感聚类按独立任务执行。
 allowed-tools: Read Write Glob Bash Skill
 ---
 
@@ -24,11 +19,11 @@ allowed-tools: Read Write Glob Bash Skill
 | 入口选择 | 可选 | 默认四入口顺序跑全（场景文风 → 作品文风 → 技巧 → 灵感提名）；聚类只在显式派发时跑 |
 | 档位 | 可选 | 默认增量（prepare 断点续标，只装缺标注条目）；全量重标加 `--force` |
 
-静态内容（路径 / 工作流 / 字段语义）都在本文件与任务包内，coordinator 不传。
+已加载本定义和任务包时，coordinator 只需传任务变量；使用普通子代理时同时给出本定义位置与实际包根，使其能取得工具和字段契约。
 
 ## 路径硬约定
 
-- 脚本目录：`${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/`（下表记作 `$S`）
+- 脚本目录：本 canon 包实际安装根的 `knowledge-base/scripts/`（下表记作 `$S`）；Claude 插件可使用宿主提供的 CLAUDE_PLUGIN_ROOT，其他宿主从当前定义位置定位
 - 任务包与产出文件：`tmp/annotation-tasks/{作品名}/` 下（相对当前工作目录）
 - 写库点由 ingest 决定，不要手写知识库文件；只允许写：本作品目录（经 ingest）、`inspiration/_nominations/{作品名}.json`（经 ingest）、任务包目录、派发方指定的报告路径
 
@@ -46,6 +41,8 @@ allowed-tools: Read Write Glob Bash Skill
 
 灵感提名同时理解原作的创意、叙事理由与迁移条件，沿任务包 `source_root` 和场景 `file` 取得必要原文，`mechanism` 与 `source_analyses` 依任务包写入。聚类比较具体关系及成立条件，保留逐作品差异；共同功能用于归类。无需为每次阅读额外调用检查器或提交检查过程，来源与解释直接进入卡片。
 
+修订来源解释、具体条件或场景窗口时，更新对应作品的提名；跨作品关系与卡片身份由成卡层维护。cluster prepare 同时提供当前提名与既有跨作品关系，逐来源分析和窗口从提名汇入。--replace 含任一卡拒收时保持原库及索引，修正本批输入后重试。
+
 ## 标注纪律
 
 - **零 LLM API**：语义工作全部由你本人完成，不调用任何外部模型接口
@@ -56,7 +53,7 @@ allowed-tools: Read Write Glob Bash Skill
 
 ## 技巧层增值（可选，判据驱动）
 
-技巧 sidecar 只能从既有 `craft_notes/scene_{id}_beats.md` 提取。现有标注未覆盖作品中承重且具有独特手艺的场景时，可按实际证据补写对应节拍 md 再提取：体例参照本作品既有 craft_notes md；本作品没有任何既有 md 时，通过 Skill 工具加载 `novel-analysis`（小说）或 `drama-analysis`（剧作）取节拍标注规范。现有标注已经覆盖可迁移手艺时结束扩展。
+技巧 sidecar 从已有手艺 md 提取。现有标注未覆盖作品中承重且具有独特手艺的场景时，可按实际证据补写对应节拍 md 再提取：体例参照本作品既有 craft_notes md；本作品没有任何既有 md 时，通过宿主支持的技能或文件读取方式加载 `novel-analysis`（小说）或 `drama-analysis`（剧作）取节拍标注规范。现有标注已经覆盖可迁移手艺时结束扩展。
 
 ## 完成报告
 

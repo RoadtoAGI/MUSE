@@ -1,6 +1,6 @@
 ---
 name: serial-reader-review
-description: 连载章或指定跨章范围的读者审阅与反馈分诊。记录阅读中的困惑、期待和注意力变化；章内问题交 reader-feedback-revision，方向与审美取舍交作者，事实矛盾交 continuity-check。
+description: 连载章或指定跨章范围的读者审阅。记录读者可见内容中的困惑、期待和注意力变化，分诊至章稿修订、连续性检查或作者方向裁决。
 ---
 
 # 连载读者审阅

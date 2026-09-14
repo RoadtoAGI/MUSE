@@ -25,7 +25,7 @@ allowed-tools: Read Write Glob Bash Skill
 
 ## 内部协议
 
-1. 通过 Skill 工具加载 canon-distill 可用 skill：
+1. 通过宿主正式技能入口或已安装包的实际文件加载 canon-distill 查询技能，按其契约使用工具：
    - `Skill design-doc-reference` — 主用，phase-aligned design candidates
      - `phase=2` 时同时产 archetype 类 candidate 卡
    - `Skill scene-reference` — 辅用，仅在需要场景原文 craft reference 时调
@@ -66,17 +66,12 @@ allowed-tools: Read Write Glob Bash Skill
 
 ## 硬约束
 
-- **不**直接 Read MUSE-canon-distill 的 `knowledge-base/novels/*` 物理路径（D7 闭包破损纪律；通过 Skill 触发，不通过物理路径 Read）
+- 跨包查询从已安装技能入口取得契约；不假定开发仓库的知识库物理路径。来源回读使用查询方返回的可读文件或资源。
 - **不**写正式 `pipeline/inspiration_ledger.yaml`（promotion 是 orchestrator 主对话职责）
 - **不**写 phase YAML 本身（orchestrator 主对话才能写 phase YAML）
 
 ## dispatch prompt 极简
 
-orchestrator dispatch 时仅传 `phase_id` + signals JSON：
+orchestrator 派发给出作品绝对路径、本包 agent 职责位置、phase_id、narrative_problem、已有 signals 和本次来源范围。宿主未预载本 agent 时，把本文件内容交给独立执行者，或要求其先读取明确路径；不能仅凭注册名假定加载成功。
 
-```text
-为 phase {phase_id} 做 canon 深调研。
-signals: {orchestrator 给的 JSON}
-```
-
-文件路径硬约定 / 工具清单 / 内部协议全部在本元配置 + subagent 启动后通过 `Skill` 加载 canon-distill skill 自取契约。
+静态输入清单和输出规则由本文件及实际加载的查询技能维护。任务需要的作者条件与来源用途随派发保留，已取得的共享规则无需重复展开。

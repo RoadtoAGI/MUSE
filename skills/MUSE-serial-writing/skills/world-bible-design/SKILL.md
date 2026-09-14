@@ -1,6 +1,6 @@
 ---
 name: world-bible-design
-description: 由 serial-outline 在世界设计环节调用，明确故事的时空、生活条件与规则边界，形成供人物、卷纲和章写作使用的 series/worldbook，并与总纲冻结区保持一致。
+description: 连载世界设计。由 serial-outline 调用，形成与总纲一致的时空、生活条件和规则分册，供人物、卷纲及章写作使用。
 ---
 
 # 连载世界设计

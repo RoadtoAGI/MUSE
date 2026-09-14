@@ -14,7 +14,7 @@ Phase 0 构想 → 1 世界 → 2 人物 → 3 脊椎 → 4 结构 → 5 编排 
 pip install -r requirements.txt
 ```
 
-用自然语言触发，Claude Code matcher 按 query 性质自动命中对应入口 skill。例如：
+用自然语言触发，当前宿主按技能目录中的职责与请求选择入口。例如：
 
 | 你说 | 命中 |
 |---|---|
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 | "写一个完整的中篇小说" / 篇幅未明的原创成稿 | `story-writing` |
 | "把《X》改编成京剧" | `screenplay-writing` |
 
-如需显式触发，可直接写 `Skill <skill-name>`。单独设计任务可在用户 prompt 中指定阶段调用与交付要求。
+如需显式触发，使用当前宿主支持的技能引用或本包技能路径。单独设计任务可在用户 prompt 中指定阶段调用与交付要求。
 
 ## 写作入口与内部能力
 
@@ -40,14 +40,14 @@ pip install -r requirements.txt
 
 衍生小说（同人、续写、番外、跨文风改编）与连载创作使用 `MUSE-serial-writing`。各入口的触发条件以 frontmatter description 为准。
 
-完整 skill 清单见 [`skills/`](skills/)；subagent 元配置见 [`agents/`](agents/)。
+完整 skill 清单见 [`skills/`](skills/)；subagent 职责文件见 [`agents/`](agents/)；宿主未预载时，编排者按协议从实际文件向子执行者提供职责。
 
 ## 目录结构
 
 ```
 MUSE-writing/
 ├── skills/             # 原创小说与剧本入口（3 个）+ 全链 phase skill（8 个）+ 短链 phase skill（4 个）+ 辅助 skill
-├── agents/             # subagent 元配置
+├── agents/             # subagent 职责与宿主兼容元数据
 ├── scripts/            # Phase 间机械脚本（脚手架 / 验收 / 抽取）
 ├── hooks/              # 非阻塞 hook（阶段注入 / 保护 / 验证）
 ├── requirements.txt    # Python 依赖（pyyaml + jieba）
@@ -64,7 +64,7 @@ MUSE-writing/
 
 | 变量 | 作用 |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}` | plugin 资源引用前缀，由 Claude Code 运行时注入 |
+| `${CLAUDE_PLUGIN_ROOT}` | plugin 资源引用前缀，由 Claude Code 或兼容此变量的宿主注入，指向本包安装根 |
 
 ## 理论根基
 

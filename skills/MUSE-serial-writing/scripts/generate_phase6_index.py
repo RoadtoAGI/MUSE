@@ -114,8 +114,6 @@ def main() -> int:
         print("用法：python3 generate_phase6_index.py <chapter_work_dir>", file=sys.stderr)
         return 1
     work_dir = Path(sys.argv[1]).resolve()
-    from extract_scene_card import _verify_prose_risk_contract_used
-    _verify_prose_risk_contract_used(work_dir)
     temporary: Path | None = None
     try:
         data = generate(work_dir)

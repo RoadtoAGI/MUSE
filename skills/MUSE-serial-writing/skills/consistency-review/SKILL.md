@@ -1,6 +1,6 @@
 ---
 name: consistency-review
-description: 连载场景完成后的一致性与表达诊断。内部按 A 场景表达、B 跨场景人物事实、C 时间世界和设计约束分工，产当前章 review findings 供 scene-review 裁决。
+description: 连载正文的一致性与表达诊断。按调用方指定的 A 场景表达、B 人物事实或 C 时间世界范围审阅，产出当前 findings 供 scene-review 裁决。
 ---
 
 # 连载正文诊断

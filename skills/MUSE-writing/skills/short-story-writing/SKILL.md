@@ -1,6 +1,6 @@
 ---
 name: short-story-writing
-description: MUSE 完整原创短篇编排，从构想、人物与大纲到单次全文成稿。用户明确要求短篇、微型小说或选择短篇专线时触发；剧本由 screenplay-writing、衍生与连载由 MUSE-serial-writing、其他完整原创小说由 story-writing 承接。
+description: 完成原创短篇，从构想、人物与大纲到一次全文成稿；用户明确要求短篇、微型小说或选择短篇专线时使用，剧本及衍生连载由各自入口承接。
 ---
 
 # 原创短篇创作

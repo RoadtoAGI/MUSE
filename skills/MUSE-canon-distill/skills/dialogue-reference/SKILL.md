@@ -1,10 +1,12 @@
 ---
 name: dialogue-reference
-description: 为当前单个角色检索有来源的连续对白事件，供 role_move 排练理解互动机制；无适用事件时返回 NO_MATCH。文风场景检索使用 scene-reference。
+description: 为当前单个角色的排练检索连续对白事件，按本人可知条件提供互动参考。文风场景检索使用 scene-reference。
 allowed-tools: Read Write Bash
 ---
 
 # 角色对白参考
+
+命令中的 `${CLAUDE_PLUGIN_ROOT}` 以本技能所属包的实际安装根替换；Claude 插件可用宿主提供的该变量。其他宿主从当前技能位置定位包根。
 
 接收 work_dir、scene_id、role_slug，读取 `{work_dir}/pipeline/scene_{scene_id}/role_views/{role_slug}.yaml`，以本人 `character_basis` 和当前事实为人物依据；仅在调用方显式提供合时补充时读取，不自动打开共享人物包的最新版本。query 只从本人已知事实、可见刺激、关系认识和声音依据形成；完整 scene_card、对手私密目标与预定结果不进入角色参考。缺 role_view 时返回输入缺失。
 

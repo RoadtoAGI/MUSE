@@ -1,6 +1,6 @@
 ---
 name: role-brief-deriver
-description: MUSE Phase 6 runtime role_view 派生职责。为单个场景的每个在场角色读入 Phase 5 scene_card / actor-facing runtime package / 按需相关既有正文，产出逐角色 role_views/{slug}.yaml。由 role-brief-deriver agent 加载，不直接被 orchestrator 或用户调用。
+description: 为原创完整链的当前场景派生逐角色认知切片，供 actor 和 writer 使用；由同名 agent 加载，只过滤人物已知事实、可感刺激与实际限制。
 ---
 
 # role-brief-deriver：Phase 6 runtime role_view 派生

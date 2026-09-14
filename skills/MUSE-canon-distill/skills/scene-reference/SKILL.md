@@ -1,6 +1,6 @@
 ---
 name: scene-reference
-description: 按当前写作问题检索名著场景原文，提供来源可追溯的文风与叙事候选；由创作主控按需调用，也可独立查找场景参考。
+description: 按当前创作问题检索名著场景原文，提供有来源的文风与叙事参考。由创作主控按需调用，也支持独立场景取材。
 ---
 
 # 场景参考
@@ -9,15 +9,19 @@ description: 按当前写作问题检索名著场景原文，提供来源可追�
 
 ## 检索与选择
 
-用自然语言说明需要怎样的场景及表达方式，不设句数。genre 在确有题材范围时过滤；style-hint 写实际需要的语态与节奏，function-hint 写需要解决的叙事作用，缺失时不补造。用户选定作品用 --novel 限定，不能无匹配后静默换书。
+用自然语言说明人物处境、表达需要及复合题材，作为 --query；作者明确限定“仅某题材”时才传 --genre 作硬过滤。style-hint 写实际需要的语态与节奏，function-hint 写待解决的叙事作用，缺失时省略。用户选定作品用 --novel 限定；无匹配时保留该来源缺口。
 
 通过当前安装位置执行本包脚本；Claude plugin 可使用 CLAUDE_PLUGIN_ROOT：
 
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境与需要解决的表达问题"   --genre "当前题材" --source-medium novel   --output-dir "{work_dir}/pipeline/references" --scene-id S01
+python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境、复合题材与需要解决的表达问题"   --source-medium novel   --output-dir "{work_dir}/pipeline/references" --scene-id S01
 ```
 
 输出 `{work_dir}/pipeline/references/{scene_id}_ref.md`。可选 --lang、--style-hint、--function-hint 按实际输入传入；小说正文默认 novel，舞台、影视、广播或唱段参考按实际媒介传 --source-medium，跨媒介机制研究可显式扩展范围。题材相同不能保证文风适配，分数仅帮助排列候选。
+
+沿当前作者决定传 --reuse-mode maximize_apt_reuse 或 style_only，已明确采用领域时传 --intended-domains 后接既有领域列表：world_rule、reveal_structure、protagonist_archetype、scene_carrier、prose_style_imitation。style_only 始终限定表达；仅 prose_style_imitation 输出 style，仅 world_rule 或 world_rule 加 prose_style_imitation 至多输出 material；其他组合保留具体领域，由采用方约束使用范围。脚本把用途与候选档位取交集写入 ref 的 reuse_tier / reuse_mandate，并保留显式 mode 与 domains；省略时沿用既有复用契约。不同来源用途分别保留，不能以最高档覆盖较窄用途。
+
+已有 Phase 0 时传 --canon-reference-profile 后接当前 YAML 的绝对路径。脚本读取 canon_reference_profile.user_reference_materials，以 work 与实际作品名精确匹配，把逐作品 reuse_mode / intended_domains 写入各条 reference_scope；stance: avoid 的来源跳过。两个全局参数仅用于本次共同限制，不能覆盖较窄的逐来源范围。无法精确匹配时由主控绑定明确来源；不凭相似书名猜测。独立 --worldview 来源也按同一 profile 判断用途。
 
 候选差异会影响决定时，可先 --list 查看，再 --select "作品:scene_id,..." 物化已选场景；手选仍受媒介过滤。两步查询不因“高潮”或角色人数自动触发。top_k、pool、threshold 是检索参数，不是创作配额或语义合格判据。
 

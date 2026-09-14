@@ -175,7 +175,7 @@ def render_scene_card_markdown(scene: dict) -> str:
     lines.append("")
     lines.append("以下内容规定需要成立的故事事实、因果与离场状态；不规定正文措辞或排列。")
     lines.append("")
-    lines.append(f"**核心冲突**: {scene['conflict']}")
+    lines.append(f"**冲突或组织关系**: {scene['conflict']}")
     lines.append(f"**入场处境**: {scene['value_start']}")
     lines.append(f"**离场结果**: {scene['value_end']}")
     # reader_track: 本场读者跟随的单一阅读问题/行动线（writer 主线锚点）。
@@ -390,7 +390,7 @@ def _render_prose_risk_contract(scene: dict, lines: list[str]) -> None:
     if contract is None:
         return
     if not isinstance(contract, dict) or not isinstance(contract.get("used"), bool):
-        raise SchemaError("prose_risk_contract 必须是含 bool used 的 object")
+        raise SchemaError("prose_risk_contract 格式无效: 必须是含 bool used 的 object")
 
     values: dict[str, list[str]] = {}
     for field in ("risk_families", "positive_strategy", "bad_shape_examples"):
@@ -398,7 +398,7 @@ def _render_prose_risk_contract(scene: dict, lines: list[str]) -> None:
         if not isinstance(value, list) or any(
             not isinstance(item, str) or not item.strip() for item in value
         ):
-            raise SchemaError(f"prose_risk_contract.{field} 必须是非空字符串 list")
+            raise SchemaError(f"prose_risk_contract 格式无效: {field} 必须是非空字符串 list")
         values[field] = [item.strip() for item in value]
 
     if contract["used"] is not True:
@@ -480,39 +480,6 @@ def atomic_write(path: Path, content: str) -> None:
     tmp_path.replace(path)
 
 
-def _verify_prose_risk_contract_used(work_dir: Path) -> None:
-    """校验可选 prose_risk_contract 的格式。
-
-    整个对象缺失是合法常态；对象存在时校验 used 和既有列表字段格式。
-    复用 muse_hook_check._scan_phase5_missing_prose_risk_contract。
-    """
-    phase5_path = work_dir / "pipeline" / "phase5_scenes.yaml"
-    if not phase5_path.exists():
-        print(f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml 不存在: {phase5_path}",
-              file=sys.stderr)
-        sys.exit(2)
-    try:
-        data = yaml.safe_load(phase5_path.read_text(encoding="utf-8")) or {}
-    except yaml.YAMLError as exc:
-        print(f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml YAML 解析失败: {exc}",
-              file=sys.stderr)
-        sys.exit(2)
-    sys.path.insert(0, str(Path(__file__).parent))
-    from muse_hook_check import _scan_phase5_missing_prose_risk_contract
-    invalid = _scan_phase5_missing_prose_risk_contract(data)
-    if invalid:
-        print(
-            f"[extract_scene_card] HARD FAIL: phase5_scenes.yaml 中下列 scene 的 "
-            f"prose_risk_contract 格式无效: {invalid}",
-            file=sys.stderr,
-        )
-        print(
-            "  修复：删除无用 contract，或填写 bool used 及由非空字符串组成的既有 list 字段。",
-            file=sys.stderr,
-        )
-        sys.exit(2)
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0] if __doc__ else "")
     parser.add_argument("--scene-id", required=True, help="e.g. S02")
@@ -520,7 +487,6 @@ def main() -> int:
     args = parser.parse_args()
 
     work_dir: Path = args.work_dir.resolve()
-    _verify_prose_risk_contract_used(work_dir)
     phase5_path = work_dir / "pipeline" / "phase5_scenes.yaml"
     output_path = work_dir / "pipeline" / f"scene_{args.scene_id}" / "scene_card.md"
 
@@ -528,6 +494,7 @@ def main() -> int:
         scenes = load_scenes(phase5_path)
         scene = find_scene(scenes, args.scene_id)
         validate_scene(scene)
+        markdown = render_scene_card_markdown(scene)
     except SchemaError as e:
         print(f"[extract_scene_card] ERROR: {e}", file=sys.stderr)
         return 1
@@ -535,7 +502,6 @@ def main() -> int:
         print(f"[extract_scene_card] YAML parse error in {phase5_path}: {e}", file=sys.stderr)
         return 1
 
-    markdown = render_scene_card_markdown(scene)
     atomic_write(output_path, markdown)
     print(f"✅ scene_card written: {output_path}")
     return 0

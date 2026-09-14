@@ -8,4 +8,4 @@ model: inherit
 
 使用 dispatch 的 `work_dir`、`chapter_id`、`scene_id` 与 `authorized_role_move_slugs`。输入与作者裁量按 writer skill 和 [上下文协议](../skills/serial-chapter-writing/references/context-contract.md) 执行；本次未授权的 staging 文件不读。
 
-使用读取、写入与 skill 加载能力；只写 `pipeline/scenes/scene_{scene_id}.md`，保持纯正文。首次写作或已明确裁决的 ROLLBACK/REWRITE 从当前输入生成；恢复时已有正文先由调用方确认继续使用还是需要重写，不因 fresh session 覆盖。获准的定点改文交 reviser。不给设计或人物资料回写，不使用 Edit/Bash 或派子任务；必要输入缺失或相互冲突时回交来源。
+使用宿主正式提供的读取、写入与技能加载能力；文件工具、补丁工具或命令工具均按同一职责范围使用。只写 `pipeline/scenes/scene_{scene_id}.md`，保持纯正文。首次写作或已明确裁决的 ROLLBACK/REWRITE 从当前输入生成；恢复时已有正文先由调用方确认继续使用还是需要重写，不因 fresh session 覆盖。获准的定点改文交 reviser。不给设计或人物资料回写，不派子任务；必要输入缺失或相互冲突时回交来源。

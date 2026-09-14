@@ -78,14 +78,14 @@ works/<slug>/
 | `cursor.working_chapter` | 是 | 在写/在审的章（裸章号，如 `C0039`）；`published_head` 不入状态字段，从 `manifest.yaml` 推导 |
 | `cursor.stage` | 是 | `breaking` \| `outlining` \| `drafting` \| `reviewing` \| `publishing` \| `summarizing` \| `volume_closing` |
 | `pending.type` | 否 | 非空即有待用户决策；无待决时 `pending` 整段为 `null` |
-| `pending.question` | 否 | 一句话决策问题 |
+| `pending.question` | 否 | 决策问题，说明对象及依赖它的动作；未决范围之外的已授权工作可继续 |
 | `pending.options_file` | 否 | 候选方案文件路径 |
 | `buffer.drafted_unpublished` | 是 | 已定稿未发布的章号列表（`published`/`buffer`/`outline` 三段式缓冲区的中段） |
 
 **不变量**
 
 - **单写者**：一个 `works/<slug>/` 同时只允许一个 active session 写入。入会时若发现未释放的 `active_session` marker（`session_id` 非本 session），停下向用户确认接管或退出，不静默继续写；正常离会由认领的外层入口调用 reconcile_series.py --release-session 释放同 ID marker；内部调用复用外层 ID，不能提前释放。
-- **入会协议**：入口读 `series_state` → 单写者检查 → 有 `pending` 则复述决策问题（附 `options_file`）→ 无 `pending` 则从 `cursor` 续跑。入会必跑机器对账，恢复点由产物存在性推导（见下方恢复矩阵），不能只信 `stage` 字段——session 可能死在任意半途，包括发布事务中途。
+- **入会协议**：入口读 `series_state` 并对账与认领，按当前产物恢复；同根同会话且相关状态未变时可复用已成功结果。存在 `pending` 时核对问题范围与已有裁决，只暂停依赖未决选择的动作，其他已授权工作从实际断点继续。恢复点结合产物与状态判断（见下方恢复矩阵），不能只信 `stage`；发布、外部写入、恢复操作或归属疑点发生后重新对账。
 - **推进不变量**：`cursor.stage` 仅在该阶段产物完整落盘后推进（至少一次语义）；重入时以产物存在性作为断点判据，缺什么补什么。
 - **缓冲区纪律**：`published`（已收录进 `published/`）/`buffer`（`drafted_unpublished` 列表内，定稿未发布）/`outline`（卷纲条目仍是 `status: outline`）三段。重写 buffer 中段的章时，其后 buffer 章一并降回 outline，或由用户显式声明保留；`published/` 内容永不因此改动。共创改向只作废 `outline` 段——已定稿的 buffer 章不因改向被作废；共创决策点打在 buffer 头部之前。
 
@@ -119,7 +119,7 @@ works/<slug>/
 | `frozen.power_system_pyramid` | 否 | 力量体系金字塔骨架（若题材适用） |
 | `frozen.spine_direction` | 是 | 主线方向与终点意象——方向性承诺，不是高潮场景设计 |
 | `frozen.creative_anchors.title` | 是 | 作品名 |
-| `frozen.creative_anchors.core_value` | 是 | 核心价值轴（正负极；全书叙事增量围绕它） |
+| `frozen.creative_anchors.core_value` | 是 | 本作关注的核心价值；信息与母题驱动同时按理解、感知或意义的发展判断，不要求每场正负翻转 |
 | `frozen.creative_anchors.primary_drive` | 是 | 主驱动模式，enum: `desire \| information \| motif \| mix` |
 | `frozen.creative_anchors.controlling_idea` | 是 | 主控思想一句（价值 + 因果） |
 | `frozen.creative_anchors.unique_angle` | `primary_drive: mix` 时必填 | 独创角度；mix 时写清组成驱动及关系 |
@@ -275,7 +275,7 @@ works/<slug>/
 
 | 路径（相对章 workspace） | 职责与字段权威 |
 |---|---|
-| `pipeline/serial_context.md` | 装配作者侧的系列/卷/本章意图、设定、事实、人物与前章衔接，供编排、派生器、writer 和审阅消费；信息权限见[上下文协议](../../serial-chapter-writing/references/context-contract.md) |
+| `pipeline/serial_context.md` | 装配作者侧的 frozen 与 creative_anchors、intent 当前方向和未决问题、卷/本章意图、设定、事实、人物及前章衔接；创作锚与 intent 保留到首章且不随摘要预算裁剪。供编排、派生器、writer 和审阅消费，信息权限见[上下文协议](../../serial-chapter-writing/references/context-contract.md) |
 | `pipeline/phase5_scenes.yaml` | 当前章的完整场景设计，字段见[章内编排 schema](../../chapter-scene-plan/references/output-schema.md) |
 | `pipeline/scene_{scene_id}/scene_card.md` | 从当前场景设计投影给 writer，保留必要因果、结果及候选材料的作用依据 |
 | `pipeline/scene_{scene_id}/role_views/{slug}.yaml` | 每角色一份合时人物输入，六字段由[人物派生器](../../role-brief-deriver/SKILL.md#输出契约)定义；writer 读取当前参与者的 views，actor 只读本人 view |

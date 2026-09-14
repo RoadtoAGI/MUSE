@@ -70,8 +70,6 @@ def main():
         sys.exit(1)
 
     work_dir = Path(sys.argv[1]).resolve()
-    from extract_scene_card import _verify_prose_risk_contract_used
-    _verify_prose_risk_contract_used(work_dir)
     phase5_path = work_dir / "pipeline" / "phase5_scenes.yaml"
     scenes_dir = work_dir / "pipeline" / "scenes"
     output_path = work_dir / "pipeline" / "phase6_development.yaml"

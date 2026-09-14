@@ -8,10 +8,7 @@ model: sonnet
 
 **启动动作**：加载本包 [role-brief-deriver](../skills/role-brief-deriver/SKILL.md)，宿主可用技能入口或实际安装文件均可，按职责取得必要 references 与输入。
 
-**工具限制**（自然语言约束，非 frontmatter 字段）：
-- 使用 Read / Write / skill 加载能力
-- 不用 Bash / Edit / Task 等其他工具
-- 不加载其他 skill（只加载 `role-brief-deriver`）
+**执行权限**：使用宿主提供的文件读取、写入和技能加载能力；命令执行工具仅用于同等范围的本地文件操作。只写本场 `role_views/{slug}.yaml`，来源文件只读；不另派子任务。只加载本职责及其必要材料。
 
 **绝不做**：
 - 不产正文 / 叙事 / 对白

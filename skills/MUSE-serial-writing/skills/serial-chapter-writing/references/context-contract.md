@@ -26,6 +26,8 @@ serial_context：作者侧脉络、设计方向、带来源的连续性资料
 
 `serial_context.md` 可含作者知道而人物未知的事实，以及尚未发生的卷向。它供编排、派生器、writer 和审阅读取；actor 只取得自己的 role_view。作者资料齐全与人物知情分别判断。
 
+装配保留 story_bible 的已确认创作锚与风格、intent.current_thrust，并将 open_questions 单列为未决问题。编排与 writer 据已有方向组织本章，必要选择仍未定时只回交依赖它的部分；这些作者计划与表达判断不自动进入 role_view 的人物经历、所知或行动要求。
+
 ## 内容权威与实现裁量
 
 | 内容 | 权威与用法 |

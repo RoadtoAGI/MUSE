@@ -1,6 +1,6 @@
 ---
 name: scene-review
-description: 连载章场景裁决。读取当前正文、scene_card 和有效诊断，输出 PASS / PATCH / ROLLBACK / REWRITE；局部修订生成可追溯 patch_directive，输入缺口交章编排者恢复。
+description: 连载单场景的审阅裁决。根据当前正文与有效诊断输出 PASS、PATCH、ROLLBACK 或 REWRITE；局部修订同时交付可追溯补丁。
 ---
 
 # 场景裁决

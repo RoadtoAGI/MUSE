@@ -1,6 +1,6 @@
 ---
 name: phase3-spine
-description: MUSE Phase 3 — 故事脊椎 + 幕/Arc 框架。设计激励事件、戏剧问题、按 spine_mode（desire/information/motif）构建故事组织力，并决定故事需要几个幕/Arc 及每个 Arc 的重大轨迹跃迁。由 orchestrator 在 pipeline 推进到 Phase 3 时触发（上游 Phase 0/1/2 产物已就绪，下游 Phase 4 结构设计的输入）。
+description: 原创完整链的脊椎与幕设计，从人物和情境形成激励事件、全篇组织力与重大变化；由编排或指定阶段任务调用，供序列设计使用。
 ---
 
 # Phase 3: 故事脊椎 + 幕/Arc 框架
@@ -144,6 +144,8 @@ reader_spine:
 
 `recognition_object` 说明读者凭哪些事件、经验或叙述关系形成认识；只写“读者意识到 X”尚未解释形成依据。物件、行动、内心展开、转述和叙述者评论均可承载，具体手法由作品决定。`withheld_answer` 只记录确需延迟的答案及理由；无需保密时为空或 null。
 
+Phase 5 将这条全篇认知线转为当前场景的 `reader_track`、`scene_tasks` 与必要的 `omission_plan`，分别承接阅读焦点、当场发现和延迟确认条件。writer 从本场卡片取得这些安排；人物当前所知仍按经历、事件时点与可见刺激派生。故事允许读者先于人物知道答案，也允许先告结果、再追原因和代价。
+
 `reader_waits_to_know` 应落在结果、真相、选择或人物认识怎样改变。作品可以让一种价值在行动、代价和后果中接受检验；不要把“艺术是否有用”“某种文明是否更善良”写成等待剧情证明的客观命题。
 
 答案延后释放需要改变人物行动、读者归因、关系判断或价值评价。只把背景说明推迟到后文，且释放前后剧情可以原样成立，不写入 `withheld_answer / reveal_ladder_seed`。
@@ -192,8 +194,8 @@ Arc 数量由真正的重大**轨迹跃迁**决定。外部声量可以降低，
 **高潮形态参考**：既有 `climax_form` 提供下列兼容标签；成功、失败与收束方式按实际因果选择，不适用时省略该可选字段：
 
 - **`hero_fails_world_completes`**：主角失败，但世界机制 / 副角色欲望 / 长期伏笔完成结果（《指环王》末日裂隙：弗罗多失败，咕噜夺戒坠落毁掉魔戒）
-- **`withdrawal_as_resolution`**：事件尺度收缩，主角主动退场作为解决；不是更大的对抗，而是从对抗中抽身（《三体Ⅲ》终局从宇宙广播收缩到 5kg 生态球）
-- **`silence_after_truth`**：最终胜利伴随不可修复损伤；真相揭示后角色沉默不解释，由读者承担余味（《指环王》终章山姆回家但弗罗多必须离开）
+- **`withdrawal_as_resolution`**：主角通过退出原有争夺或收缩行动范围完成收束；所得与损失按实际后果判断（《三体Ⅲ》终局从宇宙广播收缩到 5kg 生态球）
+- **`silence_after_truth`**：真相揭示后以沉默或余波收束，承接成功、损失或二者并存的结果（《指环王》终章山姆回家但弗罗多必须离开）
 
 收束须有足够的前因与认识依据。主角无力行动、他者介入或世界机制完成结果均可成立，前提是已建立其条件与后果；不靠终局突然添加解法。`reader_spine.recognition_object` 说明读者凭什么理解这一结果的意义。
 
@@ -201,7 +203,7 @@ Arc 数量由真正的重大**轨迹跃迁**决定。外部声量可以降低，
 
 → YAML 输出结构见 `references/output-schema.md`
 
-交付物写入 `pipeline/phase3_spine.yaml`，包含：inciting_incident, spine_mode, spine_statement, reader_spine, dramatic_question, opposing_forces, arcs[], story_climax_design。`desire_object` 与 `spine_type`：仅 `spine_mode=desire` 时必填，其他 mode 下为 null。`reader_spine` 所有 mode 通用；`story_climax_design.climax.climax_form` 可选（默认 `hero_succeeds`，失败型高潮三档详见"故事高潮"段）。
+交付物写入 `pipeline/phase3_spine.yaml`，包含：inciting_incident, spine_mode, spine_statement, reader_spine, dramatic_question, opposing_forces, arcs[], story_climax_design。`desire_object` 与 `spine_type`：仅 `spine_mode=desire` 时必填，其他 mode 下为 null。`reader_spine` 所有 mode 通用；`story_climax_design.climax.climax_form` 可选（默认 `hero_succeeds`，各收束形态详见“故事高潮”段；实际所得与损失由行动及结果说明）。
 
 **既有产物 fallback**：`phase3_spine.yaml` 缺 `spine_mode` 时兼容层按 `desire` 解释，下游读取既有产物不视为缺必需字段。新生成路径必须依据故事组织力性质显式选择最贴近的一类，不允许以"不确定"为由跳过判定。
 

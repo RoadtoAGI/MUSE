@@ -1,6 +1,6 @@
 ---
 name: character-kb-distill
-description: 连载人物蒸馏入口。接管作品时按已发生章节生成 persona 与卷级快照；需要带原文切片的知识库参考包时委派 canon 包的角色蒸馏器，保留本作来源目录及已读截止点。只提炼人物，不扮演角色。
+description: 提炼连载接管人物的 persona 与卷级快照。知识库角色参考包委派 canon 蒸馏器，并保留本作目录与已读截止点；角色扮演使用创作侧入口。
 user-invocable: true
 argument-hint: "snapshot --work-dir <交付根> --role <角色ID> --volume <V##> | build (--novel <书名> | --novel-dir <目录>) --role <中文名> | rebuild <role-slug> (--novel <书名> | --novel-dir <目录>)"
 allowed-tools: Read Write Edit Bash Glob

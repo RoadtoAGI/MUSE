@@ -1,6 +1,6 @@
 ---
 name: outline-validation
-description: 核对连载设计中具体的时间、世界约束与引用矛盾。由 serial-outline 在系列/卷设计存在跨源疑点时，或 serial-chapter-writing 在章内编排完成后按疑点或用户要求调用。使用实际系列资料及已存在的设计文件，写入 design_validation.yaml；内部诊断技能，审美与方向选择由作者裁决。
+description: 连载系列、卷或章设计的一致性核对。由编排者针对时间、世界约束或引用疑点调用，写入 design_validation；审美和故事方向由作者裁决。
 ---
 
 # 设计一致性校验

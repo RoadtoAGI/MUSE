@@ -150,6 +150,65 @@ def decide_matches(
     return selected, "compatible_event", len(ranked), len(distinct_works)
 
 
+def render_source_exchange(event: dict[str, Any]) -> list[str]:
+    """Keep source conditions that a plain speaker/text transcript would hide."""
+    turns = event.get("turns", [])
+    participants = event.get("participants", [])
+    labels = {
+        p["character_id"]: p.get("display_name") or p["character_id"].rsplit(":", 1)[-1]
+        for p in participants if p.get("character_id")
+    }
+    for turn in turns:
+        if turn.get("speaker_id") and turn.get("speaker_label"):
+            labels[turn["speaker_id"]] = turn["speaker_label"]
+    participant_ids = set(labels)
+    for turn in turns:
+        if turn.get("speaker_id"):
+            participant_ids.add(turn["speaker_id"])
+        participant_ids.update(turn.get("addressee_ids") or [])
+    by_id = {turn["turn_id"]: turn for turn in turns if turn.get("turn_id")}
+    annotations = []
+    needs_turn_ids = False
+    for index, turn in enumerate(turns):
+        notes = []
+        recipients = turn.get("addressee_ids") or []
+        # Two-person adjacent exchanges already make the ordinary receiver clear.
+        if recipients and (
+            len(participant_ids) > 2 or len(recipients) > 1
+            or turn.get("speaker_id") in recipients
+        ):
+            notes.append("接收：" + "、".join(labels.get(r, r.rsplit(":", 1)[-1]) for r in recipients))
+        elif "addressee_ids" in turn and not recipients:
+            notes.append("接收未明")
+        response_id = turn.get("response_to")
+        prior = turns[index - 1] if index else {}
+        response = by_id.get(response_id, {})
+        if response_id and (
+            response_id != prior.get("turn_id")
+            or (turn.get("speaker_id") and turn.get("speaker_id") == response.get("speaker_id"))
+        ):
+            notes.append(f"回应：{response_id}")
+            needs_turn_ids = True
+        annotations.append(notes)
+
+    lines = []
+    for participant in participants:
+        boundary = participant.get("knowledge_boundary")
+        if boundary:
+            name = labels.get(participant.get("character_id"), participant.get("display_name", "来源人物"))
+            lines.append(f"来源知情条件（{name}）：{boundary}")
+    if lines:
+        lines.append("")
+    lines.append("<dialogue_exemplar>")
+    for turn, notes in zip(turns, annotations):
+        speaker = turn.get("speaker_label") or labels.get(turn.get("speaker_id")) or str(turn.get("speaker_id", "speaker")).rsplit(":", 1)[-1]
+        locator = f"[{turn['turn_id']}] " if needs_turn_ids and turn.get("turn_id") else ""
+        receiving = f"（{'；'.join(notes)}）" if notes else ""
+        lines.append(f"{locator}{speaker}{receiving}：{turn.get('text', '')}")
+    lines.append("</dialogue_exemplar>")
+    return lines
+
+
 def render_reference(
     *,
     scene_id: str,
@@ -211,20 +270,21 @@ def render_reference(
                 f"- match: {', '.join(reasons) if reasons else 'general_interaction'}",
                 f"- context: {flatten(event.get('context', {}))}",
                 "",
-                "<dialogue_exemplar>",
             ]
         )
-        for turn in event.get("turns", []):
-            speaker = turn.get("speaker_label") or str(turn.get("speaker_id", "speaker")).rsplit(":", 1)[-1]
-            lines.append(f"{speaker}：{turn.get('text', '')}")
-        lines.extend(["</dialogue_exemplar>", ""])
+        lines.extend(render_source_exchange(event))
+        lines.append("")
         mechanism = event.get("transferable_mechanism") or event.get("outcome", {}).get("visible_result")
+        visible_result = event.get("outcome", {}).get("visible_result")
+        if visible_result and visible_result != mechanism:
+            lines.append(f"来源结果：{visible_result}")
         lines.append(f"迁移机制：{mechanism or '观察上一轮如何改变下一轮。'}")
     lines.extend(
         [
             "",
             "<usage_protocol>",
             "按当前人物条件判断每个来源事件的互动机制；单例可以提供候选，多例可比较差异，来源数量不证明通法。以本人 role_view.character_basis 及调用方显式给出的合时补充为人物依据；不迁移示例人物的姓名、经历、专有称谓、标志性原句或固定口癖。",
+            "来源的接收关系、知情条件和结果用于解释例子；当前人物能听见、知道和做到什么，仍由本场事实决定。",
             "</usage_protocol>",
         ]
     )

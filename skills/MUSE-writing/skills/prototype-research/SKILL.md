@@ -1,6 +1,6 @@
 ---
 name: prototype-research
-description: 为 screenplay-writing 的改编、历史或戏曲题材补充有来源的原型资料。内部按 reference_only 查询已有知识库、公开来源或用户资料，产出 prototype_card.yaml 候选；由设计者选择采用。同人、续写与小说改编使用 MUSE-serial-writing。
+description: 为剧本改编、历史或戏曲题材补充有来源的原型资料，由 screenplay-writing 按缺口调用；产出候选参考，小说衍生创作归 MUSE-serial-writing。
 ---
 
 # 原型调研

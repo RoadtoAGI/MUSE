@@ -2,7 +2,7 @@
 """assemble_serial_context.py — 章级作者侧上下文装配（机械拼接，不调 LLM）
 
 按 serial-outline workspace-schema.md 契约，从章卡 recap_inputs 出发机械拼接：
-  ①全局脉络（story_bible.frozen 全量短字段 + 三级 digest：远卷 one_liner /
+  ①全局脉络（story_bible.frozen、创作锚与 intent + 三级 digest：远卷 one_liner /
   卷首章特例注入上一卷末单元 paragraph / 本卷前单元 paragraph / 本单元前章
   recap.summary 全文）②本卷卷纲切片 ③设定集切片（worldbook 地图 + 公理册
   硬约束恒注 + 章卡声明分册全文）④来源窗口内的世界事实
@@ -472,6 +472,7 @@ def render_section1(
     recap_items: list[tuple[str, str | None]],
     is_opening: bool,
     prev_vol_unit_item: tuple[str, str] | None = None,
+    intent: dict | None = None,
 ) -> str:
     lines = ["## 全局脉络", "", "### 总纲（frozen）"]
     lines.append(f"- 前提：{frozen.get('premise', '')}")
@@ -481,8 +482,31 @@ def render_section1(
     lines.append(f"- 力量体系：{power if power else '本作品无独立力量体系分级'}")
     lines.append(f"- 主线方向：{frozen.get('spine_direction', '')}")
 
+    creative_anchors = frozen.get("creative_anchors") or {}
+    if creative_anchors:
+        anchor_lines = []
+        for key, label in (
+            ("title", "作品名"), ("core_value", "核心价值与关注"),
+            ("primary_drive", "叙事驱动"), ("controlling_idea", "表达方向"),
+            ("unique_angle", "独创角度"), ("style_directives", "作品风格"),
+        ):
+            value = creative_anchors.get(key)
+            if value is not None and value != "" and value != []:
+                values = value if isinstance(value, list) else [value]
+                anchor_lines.extend(f"- {label}：{item}" for item in values)
+        if anchor_lines:
+            lines.extend(["", "### 已确认的创作锚（作者侧）", *anchor_lines])
+
+    intent = intent or {}
+    if intent.get("current_thrust"):
+        lines.extend(["", "### 当前已确认方向（作者侧计划）",
+                      str(intent["current_thrust"])])
+    if intent.get("open_questions"):
+        lines.extend(["", "### 未决问题（保留未定，依赖该选择的设计待裁决）"])
+        lines.extend(f"- {question}" for question in intent["open_questions"])
+
     if is_opening:
-        # 首章（prev_chapter 为 null）：无任何前史可拼，段①只保留 frozen。
+        # 首章没有前史摘要；作者方向与未决问题仍须进入首稿上下文。
         return "\n".join(lines)
 
     lines.append("")
@@ -1206,7 +1230,7 @@ def run(work_dir: Path, chapter_id: str, budget_chars: int, facts_cap: int) -> P
     def render_full(far: list, unit: list, wb_soft_cut: set[str], cap: int) -> str:
         section1 = render_section1(
             frozen, far, far_originally_empty, unit, unit_originally_empty, recap_items,
-            is_opening, prev_vol_unit_item,
+            is_opening, prev_vol_unit_item, intent=story_bible.get("intent"),
         )
         sections = [HEADER, section1, section2]
         if wb_sections is not None:

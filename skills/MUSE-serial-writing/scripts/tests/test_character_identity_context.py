@@ -69,6 +69,35 @@ def test_unique_names_reach_author_facts_and_knowledge_receipts_without_ledger_m
     assert all(path.read_bytes() == original for path, original in originals.items())
 
 
+@pytest.mark.parametrize("opening", [True, False])
+def test_author_intent_survives_assembly_and_budget_without_becoming_character_state(tmp_path, opening):
+    fixture(tmp_path)
+    chapter_id = "C0001" if opening else "C0002"
+    bible = put(tmp_path, "series/story_bible.yaml", dict(
+        frozen=dict(premise="渡口交班", creative_anchors=dict(
+            core_value="共同承担后果", primary_drive="information",
+            controlling_idea=None, unique_angle="同一记录从不同经历获得不同含义",
+            style_directives=["保留平静观察", "叙述采用第三人称"],
+        )),
+        intent=dict(current_thrust="本章追查照明中断的原因", open_questions=["是否在下一卷离开渡口？"]),
+    ))
+    original = bible.read_bytes()
+    if opening:
+        put(tmp_path, "published/manifest.yaml", dict(entries=[]))
+        put(tmp_path, "chapters/V01/C0001/chapter_card.yaml", dict(
+            chapter_id=chapter_id, prev_chapter=None, recap_inputs={},
+        ))
+    # Even below the irreducible context size, author decisions remain available.
+    output = context.run(tmp_path, chapter_id, 1, 12).read_text(encoding="utf-8")
+    author, people = output.split("## 角色现状", 1)
+    for value in ("共同承担后果", "同一记录从不同经历获得不同含义", "保留平静观察", "本章追查照明中断的原因"):
+        assert value in author and value not in people
+    question_section = author.split("### 未决问题", 1)[1]
+    assert "是否在下一卷离开渡口？" in question_section
+    assert "表达方向：None" not in author
+    assert bible.read_bytes() == original
+
+
 def test_duplicate_display_name_requires_explicit_identity(tmp_path):
     _, paths = fixture(tmp_path)
     named_persona(tmp_path, "other_keeper", "许禾")

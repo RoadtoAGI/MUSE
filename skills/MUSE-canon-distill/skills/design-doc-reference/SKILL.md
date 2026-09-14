@@ -1,14 +1,13 @@
 ---
 name: design-doc-reference
-description: |
-  为构想与 Phase 1-5 设计检索名著参考；围绕当前思想或叙事问题解释原作机制及成立条件，按需提供可回读原文。由设计负责人在关键决定前调用，也可独立比较作品的设计取舍。
-  输入 phase_id / genre / signals，输出 run-local 设计摘要与候选灵感卡；Phase 6 正文 few-shot 由 scene-reference 承担。
-  触发词：「设计参考」「phase YAML 参考」「名著怎么设计的」「design reference」。
+description: 为构想与 Phase 1–5 设计检索原作机制、成立条件和来源原文。用于设计取材或比较作品取舍；正文场景参考使用 scene-reference。
 argument-hint: "phase=<0|1|2|3|4|5> narrative_problem=<问题> signals=<brief-json> output_dir=pipeline/references"
 allowed-tools: Read Write Glob Bash
 ---
 
 # 设计文档参考检索（Phase-aligned design reference）
+
+命令中的 `${CLAUDE_PLUGIN_ROOT}` 以本技能所属包的实际安装根替换；Claude 插件可用宿主提供的该变量。其他宿主从当前技能位置定位包根。
 
 > **职责边界**：本 skill 只服务"设计阶段参考"，**不**服务 Phase 6 正文写作（正文 few-shot 参考由姊妹 skill [`scene-reference`](../scene-reference/) 负责）。两者输入信号、输出形态、消费方都不同。
 

@@ -1,10 +1,12 @@
 ---
 name: dialogue-kb-distill
-description: 将已切分的小说或戏剧场景蒸馏为可追溯的连续对白事件，维护指定作品覆盖与共享检索索引；由作品分析或明确对白建库任务调用。
+description: 将指定小说或戏剧的场景建成有来源的连续对白事件，更新该作品覆盖与检索索引。用于对白建库及作品分析后的对白蒸馏。
 allowed-tools: Read Write Edit Bash Glob
 ---
 
 # 对白知识蒸馏
+
+命令中的 `${CLAUDE_PLUGIN_ROOT}` 以本技能所属包的实际安装根替换；Claude 插件可用宿主提供的该变量。其他宿主从当前技能位置定位包根。
 
 一次处理明确指定的作品目录，位于本包 knowledge-base/novels 或 dramas。读取实际场景和当前场景索引；完整人物由 character-kb-distill 负责，本技能记录可观察互动与来源。缺场景/索引时报告缺口，保持 unresolved。
 

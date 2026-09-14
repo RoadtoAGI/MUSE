@@ -4,25 +4,27 @@ patterns:
 - pattern_id: 03-p1
   beat: 最后的对话
   dimension: omission
-  original_move: 用桌球赛替代自杀前告别
-  ai_default_failure: 会埋送礼目光异常等前兆
-  transfer_rule: 极端事件前先写无意义日常
+  original_move: 渡边察觉木月格外认真，仍按日常交往发问；后来死亡使末次对话获得回望分量，确切动机仍未知。
+  transfer_rule: 前段活动须体现人物关系或后来会被重新理解的细节；保留经历者当时的理解，再呈现事后意义的变化。
   quote: 今天我可是不想输
 - pattern_id: 03-p2
-  beat: 死亡物件清单
+  beat: 死亡事实与未知
   dimension: camera
-  original_move: 镜头锁定软管收音机和收据
-  ai_default_failure: 会写垂死意识和身体反应
-  transfer_rule: 无人目睹的死亡只写可知物件
-  quote: 雨刷上夹着加油站的收据
+  original_move: 操作步骤、收音机与收据交代事后所知的现场；“不知”与没有遗书等信息保留未能回答的问题。
+  transfer_rule: 第一人称回顾可使用事后获知的事实；确认获知条件，保留未知，并区分后来所知与当时经验。
+  quote: 不知他到底花了多长时间才死去。
 - pattern_id: 03-p3
-  beat: 事后物件回声
-  dimension: verb
-  original_move: 用清除物件动作反衬忘不掉
-  ai_default_failure: 会直接写悲伤崩溃
-  transfer_rule: 悲伤可交给反复出现的物件
-  quote: 一古脑儿把它们丢到脑后
+  beat: 事后物件回声与认识
+  dimension: overall
+  original_move: 列举想忘掉的桌球台、汽车和白花，随后写感受残留并逐渐形成生死观；物件重现与直接反思共同展开变化。
+  transfer_rule: 物件须与既有经历建立联系，重现才有历史；让遗忘意图、残留感受与直接认识依人物自知程度逐步形成。
+  quote: 死并非生的对立面，而作为生的一部分永存。
 overall_traits:
-- 零度叙事写极端事件
-- 物件替代情感
-- 第一人称只写可知之物
+- 日常交往在回忆中取得新分量
+- 已知事实与仍未知的动机并置
+- 物件的历史与直接心理共同展开认识
+narrative_organization:
+  presentation: 末次见面、死亡及调查、离乡与生死观变化按回顾次序展开。
+  knowledge_change: 桌球赛中的渡边按当时经验交往，回顾叙述与读者随后获得死亡及后续经历，重新理解这次见面。
+  effect: 保留当时无法预见的距离，呈现失去逐渐成为认识的过程。
+  source_anchor: scenes/scene_03.md:L5-L31
