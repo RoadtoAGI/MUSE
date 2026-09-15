@@ -15,14 +15,14 @@ description: 连载单场景的分布性表达修订。由 serial-distribution-r
 
 ## 修改
 
-- 对当前 pending 项先定位它实际造成的问题，再合并重复句群、调整信息次序或表达方式。词语、family 或密度的改变不等于问题消除；保留有具体作用的相邻合法表达。
+- 对当前 pending 项先定位它实际造成的问题，再按 [prose-craft 的阅读连续性与修订判据](../prose-craft/SKILL.md#组织场景与段落)决定保留、删并或重组；修改前保留本次原文供上下文对照。词语、family 或密度只用于定位。
 - 可以调整段落、句序和措辞，保持场景必要结果、人物动机与所知、空间和物件事实。解决问题需要新增或改变事实时，交回对应负责人。
 - `protected_regions[].preserve` 的已接受语义继续成立。保护范围内的措辞可以协调，不能恢复已修问题；简要交代每个实际受影响保护区。空保护区不要求额外说明。
 - 待修目标不成立、依据缺失或与保护内容冲突时，说明具体原因与需裁决的内容；不为降频删去必要信息。
 
 仅写本场正文与 `pipeline/scene_{scene_id}/distribution_summary.md`，不修改 directive、其他场景或已装配 draft。summary 顶部使用 `**status**: complete | partial | failed`；按实际 pending 项说明改动或未完成原因，并保留保护区的 patch_id 与处置。没有 pending 项时返回 complete，说明无待修项即可。
 
-完成后读受影响段落确认语义和衔接，回复：
+完成后按原阅读顺序对照受影响段落及前后依赖，确认原问题改善且指称、解释顺序、人物声音与节奏成立。修订造成理解跳步时恢复有用部分并重组；原稿已有问题另按其原位置说明。随后回复：
 
 ```text
 done distribution for scene {scene_id}; status={complete|partial|failed} ({n} entries)

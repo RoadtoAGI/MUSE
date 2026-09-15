@@ -196,8 +196,14 @@ def test_observe_rule_high_hit_does_not_require_human_resolution_ledger(
     assert verify.check(wd) == 0
 
 
-def test_machine_reducer_preserves_mixed_closed_modes_and_blocks_pending(tmp_path):
+def test_machine_reducer_preserves_mixed_closed_modes_and_blocks_pending(tmp_path, monkeypatch):
     import verify_review_complete as verify
+    import ai_policy
+
+    # Exercise retained machine contracts independently of ordinary expression policy.
+    monkeypatch.setitem(ai_policy.FAMILY_MANIFEST["dummy_pronoun"]["policy"], "zh", {
+        "lifecycle": "enforced", "sovereignty": "M", "rules": {},
+    })
 
     wd = _scaffold(tmp_path)
     _set_machine_entries(wd, [("h1", "resolved"), ("h2", "objection_granted")])
@@ -543,28 +549,18 @@ def _use_current_lint(wd, text):
     lint.write_text(yaml.safe_dump(analyze(text, scene_id="S01"), allow_unicode=True), encoding="utf-8")
 
 
-def test_density_contract_projection_is_shared_by_dispatch_and_admission(tmp_path):
+def test_referential_candidates_do_not_create_machine_repair_obligations(tmp_path):
     import verify_review_complete as verify
     from machine_directive import build_directive
 
     wd = _scaffold(tmp_path)
-    _use_current_lint(wd, "他把那东西收进柜底。")
-    review = wd / "pipeline/review"
-    # One hit exceeds the density contract although old cluster thresholds stay silent.
-    assert verify.check(wd) == 2
-    assert _admission(wd)["scenes"][0]["machine"]["reason"] == "enforced_alert_without_directive"
+    text = "门槛上卧着一条黑狗。它听见脚步便抬起头。"
+    _use_current_lint(wd, text)
     directive, ledger = build_directive(wd, "S01")
-    for name, data in (("machine_directive", directive), ("machine_ledger", ledger)):
-        (review / f"S01.{name}.yaml").write_text(yaml.safe_dump(data), encoding="utf-8")
-    assert verify.check(wd) == 2
-    machine = _admission(wd)["scenes"][0]["machine"]
-    assert machine["entry_states"] == ["pending"]
-    # The normal revision/refresh path removes the real violation and closes admission.
-    _use_current_lint(wd, "他把钥匙收进柜底。")
-    directive, ledger = build_directive(wd, "S01")
-    for name, data in (("machine_directive", directive), ("machine_ledger", ledger)):
-        (review / f"S01.{name}.yaml").write_text(yaml.safe_dump(data), encoding="utf-8")
+    assert directive["entries"] == []
+    assert directive["dispatch_ready"] is False
     assert verify.check(wd) == 0
+    assert (wd / "pipeline/scenes/scene_S01.md").read_text(encoding="utf-8") == text
 
 
 def test_orchestrator_fastpath_cannot_supply_semantic_pass(tmp_path):

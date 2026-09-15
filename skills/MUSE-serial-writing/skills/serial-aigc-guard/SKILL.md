@@ -1,11 +1,11 @@
 ---
 name: serial-aigc-guard
-description: 连载当前章稿的表达审查与修订调度。用于成稿防治、去 AI 味及改文后复检，签发当前稿凭据；连续性和读者体验由对应审阅负责。
+description: 连载当前章稿的表达审查与修订调度。处理冗余、模板化和表达衔接，保护叙事可读性与人物声音，签发当前稿凭据；情节连续性和整体读者反馈由对应审阅负责。
 ---
 
 # 连载章表达审查
 
-检查当前章稿中缺乏作用的重复、模板化表达与叙述失真，把可定位的问题交给修订者。频数、词表与密度提供检索线索；是否需要改文由正文中的作用、人物条件与既定表达形式决定。合法短句、停顿、直接表达、文书体或有意重复可以保留。
+改善当前章稿的阅读连续性、人物声音与表达效果，检查妨碍这些目标的冗余、模板化和叙述失真，把可定位的问题交给修订者。频数、词表与密度提供检索线索；是否需要改文由正文中的作用、人物条件与既定表达形式决定。合法短句、停顿、直接表达、文书体或有意重复可以保留。
 
 ## 取得当前稿
 
@@ -19,9 +19,9 @@ description: 连载当前章稿的表达审查与修订调度。用于成稿防�
 
 ## 判断与修订
 
-1. 运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story <当前正文> --lang <auto|zh|en> --work-dir <章目录>`。脚本报告 `REVIEW` 表示有统计线索，`PASS` 表示未触发线索，exit 2 表示输入或运行错误；两种正常结果均不能替代本次正文判断。读取报告的 `observations` 与定位，按需加载本包 prose-craft 的相关判据。
+1. 运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story <当前正文> --lang <auto|zh|en> --work-dir <章目录>`。脚本报告 `REVIEW` 表示有统计线索，`PASS` 表示未触发线索，exit 2 表示输入或运行错误；两种正常结果均不能替代本次正文判断。读取报告的 `observations` 与定位，取得本包 [prose-craft 的阅读连续性与修订判据](../prose-craft/SKILL.md#组织场景与段落)；其他症状按需加载对应判据。
 2. 在现有审阅中结合上下文确认：问题片段重复了什么、遮蔽了什么，或与哪些人物/叙述条件冲突。只改确认的问题；角色对白中的有意重复、正常回指与具有声音或节奏作用的表达，不因命中模式而自动改写。已有审阅充分时复用结论。
-3. 有问题时，通过宿主可用执行者加载本包 [aigc-wholetext-revision](../aigc-wholetext-revision/SKILL.md)，传相同 `target_path`、问题定位、受保护事实及必要人物依据。先完成一次修订，再检查受影响段落的原因是否消除、事实和声音是否保留；不并发修改同一正文或其不同来源副本。
+3. 有问题时，通过宿主可用执行者加载本包 [aigc-wholetext-revision](../aigc-wholetext-revision/SKILL.md)，传相同 `target_path`、问题定位、受保护事实及必要人物依据。先完成一次修订，再按原阅读顺序对照修前后受影响段落及前后依赖，确认原问题改善、指称与解释顺序顺畅、事实和声音保留；不并发修改同一正文或其不同来源副本。
 4. 修改后必要时重算受影响的统计，检查新线索的实际语境。只有原问题仍存在或产生具体新问题才继续修订。无法在授权内解决时报告冲突及责任方；不靠反复降频或替换近义句追求清零。一次调用最多自动修订两轮；到限仍有明确问题，交回调用方说明原因与所需决策。
 
 跨章开场、收尾或句式相似需要证据时，沿 manifest 读取相关已发布原文的必要窗口。recap 用于理解事件连续性，不能证明原文句式和词语频数；不固定扫描前 k 章。
@@ -32,7 +32,7 @@ description: 连载当前章稿的表达审查与修订调度。用于成稿防�
 
 ## 完成与凭据
 
-完成条件是已确认的表达问题得到处理，或剩余审美取舍已交给作者。尚有阻断问题时不签凭据。未发布章沿既有 [workspace-schema](../serial-outline/references/workspace-schema.md) 写 `pipeline/aigc_clearance.yaml`：chapter_id、当前 draft_sha256、verdict、mode、cleared_at；保留合理表达或未决审美选择时可用 `pass_with_notes` 说明。
+完成条件是已确认的表达问题得到处理，改动后的承接、指称、解释顺序与声音经正文对照仍成立；剩余审美取舍按作者裁决处理。尚有阻断问题时不签凭据。未发布章沿既有 [workspace-schema](../serial-outline/references/workspace-schema.md) 写 `pipeline/aigc_clearance.yaml`：chapter_id、当前 draft_sha256、verdict、mode、cleared_at；保留合理表达或未决审美选择时可用 `pass_with_notes` 说明。
 
 ```bash
 python3 -c "import hashlib,sys; print(hashlib.sha256(open(sys.argv[1],'rb').read()).hexdigest())" <章目录>/draft.md

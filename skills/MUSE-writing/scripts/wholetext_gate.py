@@ -86,9 +86,7 @@ def build_report(story_text: str, lang: str) -> dict:
         observations.append({
             "type": "blocking_cluster",
             "alert_ids": [alert.get("alert_id") for alert in blocking_alerts],
-            # 逐 alert 透传定位与降级目标：reviser 被要求按 repair_strategy 逐处改写、
-            # 禁止凭语感删改，只给 alert_id 它无从下手（曾出现 non-blocking 观测组有
-            # 定位、阻断项反而没有的倒挂）。
+            # Pass locators through for contextual review, not mandatory edits.
             "alerts": [
                 {
                     "alert_id": alert.get("alert_id"),
@@ -103,10 +101,8 @@ def build_report(story_text: str, lang: str) -> dict:
             ],
         })
 
-    # 密度合同（§1.3 晋升，decision_ref 见各 policy）：最终文本 canonical count
-    # 必须使密度严格 < 名著基线，即 count <= ceil(baseline*长度/1000)-1。与
-    # severity 解耦——severity high 的 count>=4 是固定门槛，短文本 2-3 处命中
-    # 即可超基线却永不进 blocking_cluster；本 trigger 按最终文本长度动态判。
+    # Compatibility for explicitly configured contracts only. Current ordinary
+    # expression families remain observations and never enter this branch.
     if selected_lang == "en":
         density_denom = max(len(_en_words(story_text)), 1)
     else:
@@ -177,6 +173,9 @@ def build_report(story_text: str, lang: str) -> dict:
     return {
         "verdict": "FAIL" if triggers else "REVIEW" if observations or observed_alerts else "PASS",
         "review_required": bool(observations or observed_alerts),
+        "surface_lint": "completed",
+        "semantic_review": "not_run",
+        "overall_review": "incomplete",
         "language": selected_lang,
         "input_story_sha256": hashlib.sha256(story_text.encode("utf-8")).hexdigest(),
         "whole_text": {

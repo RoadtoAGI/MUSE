@@ -33,10 +33,10 @@ def test_new_observed_family_is_diagnostic(tmp_path):
     after = {"cluster_alerts": [{"family": "silence_pause_cliche", "severity": "medium"}], "hits": []}
 
     assert _run_gate(tmp_path, before, after) == 0
-    # The two explicitly governed pronoun families keep their migration boundary.
+    # Referencing through another form remains a contextual-review candidate.
     before["cluster_alerts"][0]["family"] = "dummy_pronoun"
     after["cluster_alerts"][0]["family"] = "demonstrative_classifier"
-    assert _run_gate(tmp_path, before, after) == 1
+    assert _run_gate(tmp_path, before, after) == 0
 
 
 def test_shrunk_families_pass(tmp_path):
@@ -69,7 +69,7 @@ def test_family_vector_uses_canonical_count_density_and_severity():
     assert "micro_punchline_cadence" not in vector
 
 
-def test_target_family_must_converge_while_non_target_worsening_is_observed():
+def test_referential_count_changes_remain_contextual_observations():
     import family_gate
 
     before = {"density": {"total_chars": 1000}, "hits": [
@@ -84,12 +84,12 @@ def test_target_family_must_converge_while_non_target_worsening_is_observed():
     ]}
     report = family_gate.evaluate_regression(before, after, {"dummy_pronoun"}, lang="zh")
     assert report["verdict"] == "PASS"
-    assert report["families"]["dummy_pronoun"]["decision"] == "target_contract_satisfied"
-    assert report["families"]["demonstrative_classifier"]["decision"] == "observe_non_target_worsening"
+    assert report["families"]["dummy_pronoun"]["decision"] == "observe_only"
+    assert report["families"]["demonstrative_classifier"]["decision"] == "observe_only"
 
     failed = family_gate.evaluate_regression(after, before, {"dummy_pronoun"}, lang="zh")
-    assert failed["verdict"] == "FAIL"
-    assert failed["families"]["dummy_pronoun"]["decision"] == "target_not_converged"
+    assert failed["verdict"] == "PASS"
+    assert failed["families"]["dummy_pronoun"]["decision"] == "observe_only"
 
 
 def test_observe_family_is_report_only_in_regression_gate():

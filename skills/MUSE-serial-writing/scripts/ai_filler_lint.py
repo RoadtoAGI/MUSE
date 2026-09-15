@@ -1951,12 +1951,9 @@ def aggregate_cluster_alerts(
             "distribution": distribution,
             "severity": severity,
             "budget_multiplier": multiplier,
-            "governance": {
-                "individual_exemption_allowed": False,
-                "required_triage": "cluster_finding",
-                "required_patch_mode": "rewrite_patch_set",
-                "required_patch_kind_options": ["rewrite_sentence", "rewrite_span"],
-                "forbidden_patch_kind": ["delete_token", "replace_phrase"],
+            "review_guidance": {
+                "assessment": "diagnostic",
+                "decision_basis": "current_text_function_and_readability",
             },
         })
     return alerts
@@ -2032,6 +2029,9 @@ def run_ai_filler_lint(
         lint_hits, scene_id, scene_text, budget_multipliers, lang=selected_lang
     )
     return {
+        "surface_lint": "completed",
+        "semantic_review": "not_run",
+        "overall_review": "incomplete",
         "lint_hits": lint_hits,
         "cluster_alerts": cluster_alerts,
         "scene_level_issues": [],
@@ -2063,6 +2063,9 @@ def analyze(
     pattern_counter = Counter(h["pattern"] for h in all_hits)
     total_chars = len(text)
     return {
+        "surface_lint": "completed",
+        "semantic_review": "not_run",
+        "overall_review": "incomplete",
         "language": selected_lang,
         "device_budget_applied": bool(valid_devices),
         "budget_class": valid_devices,
@@ -2072,6 +2075,7 @@ def analyze(
         "scene_level_issues": [],
         "density": {
             "total_chars": total_chars,
+            "unit": "characters",
             "hits_per_1k": round(len(all_hits) / max(total_chars, 1) * 1000, 2),
             "top_patterns": [
                 {"pattern": p, "count": c}
@@ -2222,6 +2226,7 @@ def main() -> int:
         )
         result["density"] = {
             "total_chars": len(text),
+            "unit": "characters",
             "hits_per_1k": round(len(result["lint_hits"]) / max(len(text), 1) * 1000, 2),
         }
         result["meta"] = {"lang_source": lang_source}

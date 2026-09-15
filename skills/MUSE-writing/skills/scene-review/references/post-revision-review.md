@@ -1,6 +1,6 @@
 # 修订与重写后的复审
 
-post-revision / post-rewrite 使用当前正文、本次修订前证据、summary、当前有效 findings 与机器状态。先核实输入对应本轮，再复读受影响内容及相关衔接；原问题是否解决、是否出现迁移以及必要关系是否保持，在这次阅读中共同判断。
+post-revision / post-rewrite 使用当前正文、本次修订前证据、summary、当前有效 findings 与机器状态。先核实输入对应本轮，再复读受影响内容及相关衔接；原问题是否解决、是否出现迁移以及必要关系是否保持，在这次阅读中共同判断。对照修订前后，具体核对回指、主宾语、比较项、解释顺序、段际衔接和人物声音；必要复现或连接词减少后若需读者自行补关系，视为本轮引入的问题并恢复或重组。原稿已有的问题按原稿证据归因。
 
 ## 结果字段
 
@@ -70,7 +70,7 @@ protected_integrity_gate:
 - pattern_migration：原来的重复、虚假纠偏或人物失真是否换了说法继续存在；词表只指示候选。superficial_patch_failed 须说明旧问题如何延续，按实际范围选择再次 PATCH、writer 重写或返回设计，不自动升级 patch_kind。
 - protected_integrity：沿现有 literal / relation 合同检查，输入、身份或内容保护失败继续阻断。此项不被风格解释豁免。
 
-ai_pattern_gate.machine_gate 反映当前已执行的硬合同及应用状态，reviewer_gate 表达语义结果。当前明确密度合同不接受审美理由越过；普通统计线索不制造新的机器失败。旧报告中统计误判需要兼容 override 时，写实际原文和作用依据，不能用 override 遮蔽保护或合同冲突。
+ai_pattern_gate.machine_gate 反映当前已执行的硬合同及应用状态，reviewer_gate 表达语义结果。当前普通词形与密度提供复读线索，语义未解决或内容保护失效继续阻断；统计增减不制造新的机器失败。旧报告中统计误判需要兼容 override 时，写实际原文和作用依据，不能用 override 遮蔽保护或合同冲突。
 
 无待处理语义问题且当前硬合同闭合时 PASS；局部可修为 PATCH；整体实现失效为 ROLLBACK；输入设计有误为 REWRITE。达到调用方既有修订上限后报告具体未决项，不扩大轮数。当前模式 verdict_path 与回复一致，初审文件保留。
 

@@ -135,8 +135,10 @@ def test_post_revision_round_triggers_pass_gate():
     ledger = {"v1_triage": [], "post_revision_updates": {}}
     lint_v2 = {"language": "zh", "density": {"total_chars": 100}, "hits": [{"family": "dummy_pronoun", "rule": "dummy_pronoun", "lint_id": "S01-cna-001"}]}
     result = validate_post_revision_pass(review, ledger, lint_v2, scene_card={})
-    assert not result.valid
-    assert "enforced hit" in result.reason
+    assert result.valid
+    # The post-revision round still checks actual unresolved decisions.
+    ledger["post_revision_updates"] = {"S01-cna-001": {"status": "pending"}}
+    assert not validate_post_revision_pass(review, ledger, lint_v2).valid
 
 
 def test_formal_function_exempted_requires_carrier_function_link():
@@ -238,7 +240,7 @@ def test_post_revision_pass_physical_carrier_in_scene_tasks():
     assert result.valid
 
 
-def test_density_contract_cannot_use_formal_function_exemption():
+def test_clear_reference_can_keep_its_recorded_function():
     from scene_review_schema_validator import validate_post_revision_pass
 
     review = {"verdict": "PASS", "review_stage": "post_revision"}
@@ -247,4 +249,4 @@ def test_density_contract_cannot_use_formal_function_exemption():
     lint = {"language": "zh", "density": {"total_chars": 100}, "hits": [
         {"family": "dummy_pronoun", "rule": "dummy_pronoun", "lint_id": "d1"}]}
     card = {"physical_carrier": [{"function_link": "指向唯一旧物"}]}
-    assert not validate_post_revision_pass(review, ledger, lint, card).valid
+    assert validate_post_revision_pass(review, ledger, lint, card).valid

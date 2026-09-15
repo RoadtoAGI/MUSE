@@ -5,7 +5,7 @@ patch_kind 为当前补丁的方向标签，具体动作服从其问题、授权
 | patch_kind | 适用条件与方向 |
 |---|---|
 | delete_token / replace_phrase | 局部字词冗余或错配；删除或替换后保留信息、声音与指代 |
-| carrier_then_explain | 后文只重复前文已成立的意义；删合重复，保留真正新增的信息或态度 |
+| carrier_then_explain | 后文重复已成立的意义且没有承接、指称、声音或节奏作用；删并时保留理解后续内容所需的关系 |
 | omission_violated / omission_filled_in | 有效作者约束要求保留信息缺口；修正越界揭示，保留理解当前事件所需内容 |
 | narrator_self_corrects | 当前句使叙述者获得不应有的认知或破坏已确定的不可靠结构；按实际权限修复，自我反省本身合法 |
 | emotion_naming_under_face_loss | 情绪命名与所需作用冲突或只是重复；可删合或改写，直接命名情绪本身合法 |

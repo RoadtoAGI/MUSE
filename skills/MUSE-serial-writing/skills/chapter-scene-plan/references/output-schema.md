@@ -110,7 +110,7 @@ sequence_expansions:
           emotional_context: "<本场压力与关系>"
           forbidden_moves: []  # 已确认的作者禁界须说明对象与条件
 
-        # 写作层 AI pattern 预防：声明本场 writer 应主动规避的风险族 + 本场特化正向策略。
+        # 写作层 AI pattern 预防：提示本场值得检查的表达机制 + 本场特化正向策略；family 命中不独自要求改文。
         # used=true 时 scene_card.md 渲染 `## 写作层 AI pattern 预防 (prose_risk_contract)` 段；
         # 缺字段 / used=false → 不渲染，writer 走通用 Craft Preflight。
         prose_risk_contract:
@@ -120,10 +120,10 @@ sequence_expansions:
             - "psychological_overfill"
             - "情绪库存短语"
           positive_strategy:                          # 本场特化策略；通用修法 writer 通过 prose-craft skill 查 ai-cliche-patterns.md
-            - "例行调度若重复结算同一结果，可合并；改变人物关系或实际压力的交接保留展开"
+            - "例行调度删并后仍须让读者跟住对象、空间和因果；有交接、人物关系或压力作用的过程保留"
             - "比喻若只重复已表达的情绪，可删并；带来贴合人物的新认识、声音或感知时保留"
           bad_shape_examples:                         # 可选；补充有辨别价值的形态示例，按机制判断
-            - "停下、低头、伸手的连续步骤若没有新增感知或代价，可以收束；逐步发现危险时可以展开"
+            - "停下、低头、伸手的连续步骤若删后对象、空间、感知与节奏均成立，可以收束；逐步发现危险时可以展开"
             - "已有沉重情绪后再写‘像某种没有声音的重量’，若没有新的意象或人物作用，只是在重复结算"
 
 tension_curve:

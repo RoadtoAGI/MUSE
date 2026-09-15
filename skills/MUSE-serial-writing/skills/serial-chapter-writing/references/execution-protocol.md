@@ -210,7 +210,7 @@ REWRITE 跨回合恢复保留首次 verdict：场景卡/编排交 chapter-scene-
 
 - gate exit 2：输入或工具错误，回负责人。
 - gate exit 1：施工状态或保护条件未完成，保留 directive/summary，检查原因后决定继续或回交；不能扩大修改追求频数清零。
-- gate exit 0：机器接口完成，仍按 Step 6 检查改动是否解决语义问题、是否破坏事实或表达作用。脚本将 entries 记 resolved 不替代这项判断。
+- gate exit 0：机器接口完成，仍按 Step 6 对照修前后检查原问题、阅读连续性、人物声音与事实约束。脚本将 entries 记 resolved 不替代这项判断。
 
 分布修订改变正文后更新尾窗，复用已有 post-review 路径核对受影响内容。任何 escalated 条目表示待决，不能当作完成放行。进入章装配前，调用 `verify_review_complete.py <章目录>`，确认语义与实际待修项均闭合；随后由 assemble_story 按现有有序索引装配，不按文件名猜顺序。
 

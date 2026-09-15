@@ -39,7 +39,7 @@ description: 诊断原创完整链的叙事与一致性问题；Phase 6 按组�
 
 ## Phase 7 manuscript scope
 
-Phase 7 wholetext 完成（PASS / REVIEW）且明确密度合同通过后，orchestrator 先用 `revision_quality.py snapshot` 冻结当前 `story.md`，再 fresh dispatch `story-review`：
+Phase 7 当前 wholetext 完成（PASS / REVIEW）且无有效阻断项后，统计候选进入本次全稿语义审阅；orchestrator 先用 `revision_quality.py snapshot` 冻结当前 `story.md`，再 fresh dispatch `story-review`：
 
 ```text
 group=A scope=manuscript review_round=1

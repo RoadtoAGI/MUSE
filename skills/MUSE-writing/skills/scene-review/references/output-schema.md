@@ -54,12 +54,9 @@ cluster_alerts:
       paragraph_count: <int>
       contiguous: <bool>
     severity: low | medium | high
-    governance:
-      individual_exemption_allowed: <bool>
-      required_triage: cluster_finding
-      required_patch_mode: rewrite_patch_set
-      required_patch_kind_options: [rewrite_sentence, rewrite_span]
-      forbidden_patch_kind: [delete_token, replace_phrase]
+    review_guidance:
+      assessment: diagnostic
+      decision_basis: current_text_function_and_readability
 ```
 
 ## pattern_migration_gate.semantic_function_migration 字段

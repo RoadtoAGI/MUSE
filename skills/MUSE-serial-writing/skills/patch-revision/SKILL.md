@@ -11,13 +11,13 @@ description: 连载单场景的定点修订。由 serial-reviser 消费当前 pa
 
 先确认每条 patch 的当前原文、问题、方向和保留项，再在授权片段内修改。涉及场景结果、知识、声音或承载作用时读 scene_card 与对应 role_views；依[上下文协议](../serial-chapter-writing/references/context-contract.md)区分必要事实与候选实现。资料不足或指令冲突时回报来源和负责人，不用补写猜测解决。
 
-同一句的事实、知情、动机、关系与对象状态不得被无意改变。删除冗余、重写说明、补足指代或反应均可使用；方法由实际问题决定，保留文本需要的声音、过程和节奏。不为了去掉一种句式而补手势、物件或相同功能的另一模板。
+同一句的事实、知情、动机、关系与对象状态不得被无意改变。涉及表达删改时，加载本包 [prose-craft 的阅读连续性与修订判据](../prose-craft/SKILL.md#组织场景与段落)。删除冗余、重写说明、补足指代或反应均可使用，保留文本需要的承接、声音、过程和节奏。不为了去掉一种句式而补手势、物件或相同功能的另一模板。
 
 只改明确授权范围。无法定位、方向互斥或需要改变未获授权的事实时，该条 `not_applied` 并说明原因；其余独立合法条目继续。需要整场重写时记录 `should_be_rollback` 及实际原因；patch_kind 名称本身不强制改变修订档位。方向标签见 [registry](references/patch-kind-registry.md)。
 
 ## 执行与交接
 
-修改前保留本次原文供对照；逐条核对问题机制是否消除，保留项及相邻衔接是否成立。未授权片段保持原样，不统一改造全场文风。正文保持纯作品文本，说明写入 `pipeline/scene_{scene_id}/revision_summary.md`。
+修改前保留本次原文供对照；按原阅读顺序核对问题机制是否改善、保留项及相邻衔接是否成立。删改新增理解跳步或含混指代时，恢复有用部分并重组；修复超出 patch 范围时交回调用方调整方向。未授权片段保持原样，不统一改造全场文风。正文保持纯作品文本，说明写入 `pipeline/scene_{scene_id}/revision_summary.md`。
 
 ```markdown
 # Revision Summary: S01
@@ -29,8 +29,8 @@ description: 连载单场景的定点修订。由 serial-reviser 消费当前 pa
 **[patch_01 · issue_id A-S01-repeat · applied]** 场景中段
 - old_span: 他又一次说明了自己为何不能离开。
 - new_span: （删除）
-- reason: 前句已经交代同一限制，删除不改变当场处境。
-- preserve: 不能离开的事实继续成立。
+- reason: 前句已交代同一限制；后句仍能直接承接，删除不损失人物语气与节奏。
+- preserve: 不能离开的事实、回指关系与后续行动缘由继续成立。
 - contract_conflict: {observed: false, note: null}
 ```
 

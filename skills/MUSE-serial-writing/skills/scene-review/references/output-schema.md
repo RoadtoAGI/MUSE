@@ -8,8 +8,8 @@ scene_id: S01
 patches:
   - anchor_quote: 他又一次说明了自己为何不能离开。
     location: 中段重复解释处
-    issue: 上一句已经完整交代原因，此处没有新增态度或信息。
-    suggested_action: 删除这次重复，保留已成立的离开限制。
+    issue: 上一句已完整交代原因，此处复述也不承担回指、承接或人物语气。
+    suggested_action: 删并重复；保留离开限制，并确认后句仍能自然承接。
     issue_id: A-S01-repeat
     patch_kind: null
 ```
@@ -28,12 +28,12 @@ patches:
     location:
       line_range: [7, 7]
     issue: 重复说明拖住等待中的反应。
-    suggested_action: 合并重复解释，保留不能离开与对方等待的事实。
+    suggested_action: 合并重复解释，保留不能离开、对方等待及两者的承接关系。
     rewrite_directive:
       semantic_function: 保留行动限制及等待关系。
       preserve: [他不能离开, 她仍在门外等待]
       remove_patterns: [重复解释]
-      target_style: 与上下文声音相容。
+      target_style: 指称与解释顺序清楚，与上下文声音相容。
       allowed_carrier_changes:
         low_intensity: true
         plot_adjacent: []

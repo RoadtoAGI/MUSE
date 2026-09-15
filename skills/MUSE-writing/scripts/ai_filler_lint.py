@@ -2264,9 +2264,8 @@ def aggregate_cluster_alerts(
             or (h.get("rule") in RULE_REGISTRY_AGGREGATION_ONLY
                 and (h.get("family") == family or RULE_TO_FAMILY.get(h.get("rule")) == family)))
         ]
-        # 逐 hit 定位：reviser 被要求按 repair_strategy 逐处改写而非凭语感删改，
-        # 只给 alert_id 它无从下手（observed 组给了定位、blocking 组反而没有 = 信息与
-        # 优先级倒挂）。构造同 observed 侧，canonical hit 才进（supporting 不重复列）。
+        # Preserve locators for contextual review; supporting hits do not
+        # duplicate the same evidence. A locator does not require an edit.
         canonical_hits = [h for h in family_hits if h["lint_id"] in canonical_hit_set]
         hit_records = [
             {
@@ -2292,20 +2291,16 @@ def aggregate_cluster_alerts(
             "supporting_hit_ids": supporting_hit_ids,
             "distribution": distribution,
             "severity": severity,
-            # 降级目标：severity 降到 medium 即解除 wholetext 阻断。不给这个数，
-            # reviser 只能清零（把文风均质化）或盲改（改完仍 FAIL）。
+            # Severity describes a diagnostic concentration, not an edit budget.
             "escalation_threshold": {
                 "high_gte": SEVERITY_HIGH_COUNT_GTE,
                 "current_count": total_count,
-                "non_blocking_at_or_below": SEVERITY_HIGH_COUNT_GTE - 1,
+                "use": "review_priority_only",
             },
             "budget_multiplier": multiplier,
-            "governance": {
-                "individual_exemption_allowed": False,
-                "required_triage": "cluster_finding",
-                "required_patch_mode": "rewrite_patch_set",
-                "required_patch_kind_options": ["rewrite_sentence", "rewrite_span"],
-                "forbidden_patch_kind": ["delete_token", "replace_phrase"],
+            "review_guidance": {
+                "assessment": "diagnostic",
+                "decision_basis": "current_text_function_and_readability",
             },
         })
     return alerts
@@ -2401,7 +2396,7 @@ def aggregate_observed_alerts(
             "escalation_threshold": {
                 "high_gte": SEVERITY_HIGH_COUNT_GTE,
                 "current_count": total_count,
-                "non_blocking_at_or_below": SEVERITY_HIGH_COUNT_GTE - 1,
+                "use": "review_priority_only",
             },
             "budget_multiplier": multiplier,
             "lifecycle": "observe",
@@ -2502,6 +2497,9 @@ def run_ai_filler_lint(
         "cluster_alerts": cluster_alerts,
         "observed_alerts": observed_alerts,
         "scene_level_issues": scene_level_issues,
+        "surface_lint": "completed",
+        "semantic_review": "not_run",
+        "overall_review": "incomplete",
         "language": selected_lang,
         "device_budget_applied": bool(valid_devices),
         "budget_class": valid_devices,
@@ -2539,6 +2537,9 @@ def analyze(
     total_chars = len(text)
     return {
         "input_text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        "surface_lint": "completed",
+        "semantic_review": "not_run",
+        "overall_review": "incomplete",
         "language": selected_lang,
         "device_budget_applied": bool(valid_devices),
         "budget_class": valid_devices,

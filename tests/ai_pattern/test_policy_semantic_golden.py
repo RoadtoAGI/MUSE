@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from collections import Counter
 import sys
 from pathlib import Path
 
@@ -23,89 +22,50 @@ TEXTS = {
 }
 
 
-def test_policy_migration_matches_frozen_semantic_golden_and_expected_delta():
+def test_historical_corpus_now_produces_contextual_review_candidates():
+    from ai_filler_lint import analyze
+    from wholetext_gate import build_report
+
+    golden = yaml.safe_load(GOLDEN.read_text(encoding="utf-8"))
+    assert golden["frozen_from"] == "pre-manifest-runtime"
+    for case in golden["cases"].values():
+        text = TEXTS[case["corpus_fixture"]]
+        lint = analyze(text, scene_id="GOLDEN", lang=case["language"])
+        report = build_report(text, case["language"])
+        assert lint["hits"]  # Original corpus still reaches the reviewer with locations.
+        assert lint["cluster_alerts"] == []
+        assert report["triggers"] == []
+        assert report["verdict"] == "REVIEW"
+        assert report["semantic_review"] == "not_run"
+        assert report["overall_review"] == "incomplete"
+
+
+def test_clear_reference_remains_a_candidate_at_high_density():
     from ai_filler_lint import analyze
     from ai_policy import effective_policy
-    from machine_directive import _classify_level
-    import wholetext_gate
+    from wholetext_gate import build_report
+
+    text = "门槛上卧着一条黑狗。它听见脚步便抬起头。她从两把伞中拿起那把旧伞。"
+    lint = analyze(text, scene_id="GOLDEN", lang="zh")
+    assert {h["family"] for h in lint["hits"]} >= {"dummy_pronoun", "demonstrative_classifier"}
+    assert lint["cluster_alerts"] == []
+    for hit in lint["hits"]:
+        assert effective_policy(hit["family"], "zh", hit["rule"])["lifecycle"] == "observe"
+    report = build_report(text, "zh")
+    assert report["verdict"] == "REVIEW"
+    assert report["triggers"] == []
+    assert report["semantic_review"] == "not_run"
+
+
+def test_historical_calibrations_remain_observations_without_deletion_budgets():
+    from ai_policy import calibration_value, density_contract_max_count, effective_policy
 
     golden = yaml.safe_load(GOLDEN.read_text(encoding="utf-8"))
-    deltas = []
-    for case_id, case in golden["cases"].items():
-        lint = analyze(
-            TEXTS[case["corpus_fixture"]],
-            scene_id="GOLDEN",
-            lang=case["language"],
-        )
-        hit_family_counts = dict(sorted(Counter(
-            hit.get("family") for hit in lint["hits"] if hit.get("family")
-        ).items()))
-        assert hit_family_counts == case["hit_family_counts"], case_id
-        alert_decisions = sorted(
-            ({
-                "family": alert["family"],
-                "severity": alert["severity"],
-                "total_count": alert["total_count"],
-                "lifecycle": effective_policy(
-                    alert["family"], case["language"]
-                )["lifecycle"],
-                "directive_level": _classify_level(
-                    effective_policy(alert["family"], case["language"]),
-                    alert["severity"],
-                    alert["family"],
-                    alert.get("cluster", alert["family"]),
-                ),
-            } for alert in lint["cluster_alerts"]),
-            key=lambda item: item["family"],
-        )
-        assert alert_decisions == case["alert_decisions"], case_id
-
-        report = wholetext_gate.build_report(
-            TEXTS[case["corpus_fixture"]], case["language"]
-        )
-        assert report["verdict"] == case["expected_verdict"], case_id
-        changed = case["old_verdict"] != case["expected_verdict"]
-        if changed:
-            deltas.append(case_id)
-            assert case["delta"] == "expected"
-            assert case.get("reason")
-        else:
-            assert case["delta"] == "unchanged"
-
-    assert deltas == ["zh_clean", "en_observe_policy"]
-
-
-def test_pre_migration_directive_level_oracle_is_frozen():
-    from ai_policy import effective_policy
-    from machine_directive import _classify_level
-
-    golden = yaml.safe_load(GOLDEN.read_text(encoding="utf-8"))
-    for case in golden["directive_levels"]:
-        policy = effective_policy(case["family"], case["language"])
-        assert _classify_level(
-            policy,
-            case["severity"],
-            case["family"],
-            case["cluster"],
-        ) == case["expected"]
-
-
-def test_every_consumed_baseline_matches_the_frozen_pre_migration_oracle():
-    from ai_policy import FAMILY_MANIFEST, calibration_value, effective_policy
-
-    golden = yaml.safe_load(GOLDEN.read_text(encoding="utf-8"))
-    actual = {}
-    for family, record in FAMILY_MANIFEST.items():
-        for language in record["policy"]:
-            policy = effective_policy(family, language)
-            if (
-                policy["lifecycle"] == "enforced"
-                and policy.get("baseline_policy") == "calibrated"
-            ):
-                actual[f"{family}/{language}"] = {
-                    "metric": policy["baseline_metric"],
-                    "ref": policy["baseline_ref"],
-                    "value": calibration_value(policy),
-                }
-
-    assert actual == golden["consumed_baselines"]
+    for identity, baseline in golden["consumed_baselines"].items():
+        family, language = identity.split("/")
+        policy = effective_policy(family, language)
+        assert policy["lifecycle"] == "observe"
+        assert policy["baseline_metric"] == baseline["metric"]
+        assert policy["baseline_ref"] == baseline["ref"]
+        assert calibration_value(policy) == baseline["value"]
+        assert density_contract_max_count(policy, 50) is None

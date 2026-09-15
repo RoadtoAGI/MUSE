@@ -81,7 +81,7 @@ python3 "$MUSE_WRITING_ROOT/scripts/extract_draft_tail.py" \
 
 对当前场景运行 `ai_filler_lint.py`、`lexical_stats.py`、`dialogue_lint.py`；各脚本接收 `--work-dir`、`--scene-id`，可传 Phase 0 的实际 genre。沿当前 policy 使用默认诊断条件，不由类型另造阈值。保留初稿报告，修后使用既有 suffix。
 
-lint 成功后调用 `machine_directive.py --work-dir "$WORK_DIR" --scene-id S01`。普通 observe 命中交语义审阅判断；明确密度合同按现行 policy 计量。缺输入、脚本失败、当前报告无法对应正文时不能沿旧结果继续。
+lint 成功后调用 `machine_directive.py --work-dir "$WORK_DIR" --scene-id S01`。当前普通词形与密度作为 observe 线索交语义审阅判断；机器通道按现行 policy 保留输入、应用及保护检查。缺输入、脚本失败、当前报告无法对应正文时不能沿旧结果继续。
 
 ### L2：本轮来源与全局问题
 

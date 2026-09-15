@@ -210,7 +210,7 @@ def test_full_objection_keeps_entry_as_objection_granted(tmp_path):
     assert reducer["status"] == "objection_granted"
 
 
-def test_objection_on_current_referential_s_hit_is_denied(tmp_path):
+def test_referential_observation_needs_no_machine_objection(tmp_path):
     text = "它没有再动，烟在门边慢慢散去。"
     hit = _hit("S02-dummy-001", text, "它", family="dummy_pronoun", rule="dummy_pronoun")
     alert = _alert("S02-dummy_pronoun-1", "dummy_pronoun", [hit["lint_id"]])
@@ -219,9 +219,8 @@ def test_objection_on_current_referential_s_hit_is_denied(tmp_path):
         [_objection("S02-dummy-001", "dummy_pronoun", text)],
     )
     directive, ledger = _refresh(wd, lint_path)
-    assert directive["entries"][0]["level"] == "S"
-    assert directive["entries"][0]["exempted_hit_ids"] == []
-    assert ledger["objection_results"][0]["reason"] == "target_entry_not_m"
+    assert directive["entries"] == []
+    assert ledger["entries"][0]["status"] == "observed"
 
 
 def test_objection_on_non_allowlisted_m_family_is_denied(tmp_path):

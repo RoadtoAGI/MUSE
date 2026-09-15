@@ -157,28 +157,25 @@ def test_wholetext_rerun_fail_blocks(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 1
 
 
-def test_stale_disk_pass_report_not_trusted(tmp_path, capsys):
-    """R3 F1 核心（真实路径）：盘上旧 wholetext_gate.yaml 写着 PASS，
-    但当场重跑对当前正文中的明确指代密度合同判 FAIL → 终验必须 fail——
-    判定依据是本次退出码，不是盘面。"""
+def test_stale_disk_pass_is_refreshed_to_current_surface_review(tmp_path):
     work = _build_run(tmp_path)
     (work / "story.md").write_text(
-        "那把伞贴着这道门，那种声音穿过那层纸。\n",
-        encoding="utf-8",
-    )
+        "门槛上卧着一条黑狗。它听见脚步便抬起头。\n", encoding="utf-8")
     _write_report(work, 1)
     review_dir = work / "pipeline" / "review"
     review_dir.mkdir(parents=True, exist_ok=True)
     (review_dir / "wholetext_gate.yaml").write_text(
         "verdict: PASS\ntriggers: []\n", encoding="utf-8")
-    rc = gate.run_gate(work)
-    assert rc == 1
-    out = capsys.readouterr().out
-    assert "wholetext gate 对当前正文 FAIL" in out
-    # 盘上报告被本次重跑覆盖为真实结果
+    assert gate.run_gate(work) == 0
     fresh = yaml.safe_load((review_dir / "wholetext_gate.yaml").read_text(encoding="utf-8"))
-    assert fresh["verdict"] == "FAIL"
-    assert "whole_text" in fresh
+    assert fresh["verdict"] == "REVIEW"
+    assert fresh["semantic_review"] == "not_run"
+    # An actual semantic finding still blocks the same surface candidate text.
+    _write_report(work, 1, status="REVISE", findings=[{
+        "severity": "MAJOR", "dimension": "人物声音", "quote": "它听见脚步便抬起头。",
+        "note": "本例假设独立语义审阅确认当前正文与有效人物视角冲突",
+    }])
+    assert gate.run_gate(work) == 1
 
 
 # ---------- 报告 schema 正向校验（畸形结构不得静默绕过 BLOCKER 断言） ----------

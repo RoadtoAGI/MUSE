@@ -12,7 +12,7 @@ from ai_filler_lint import analyze
 SCRIPTS = pathlib.Path(__file__).resolve().parents[2] / "skills" / "MUSE-writing" / "scripts"
 
 
-def test_referential_contract_detector_to_directive_chain(tmp_path):
+def test_referential_candidates_detector_to_review_chain(tmp_path):
     scene_id = "S03"
     dirty = "它伏在门边。它随风晃动。他把那东西收了起来。\n\n" * 16
     lint = {"scene_id": scene_id, **analyze(dirty, scene_id=scene_id, lang="zh")}
@@ -37,8 +37,9 @@ def test_referential_contract_detector_to_directive_chain(tmp_path):
     )
     directive_path = tmp_path / "pipeline" / "review" / f"{scene_id}.machine_directive.yaml"
     directive = yaml.safe_load(directive_path.read_text())
-    assert directive["entries"]
-    assert all(entry["id"].startswith(f"{scene_id}-") for entry in directive["entries"])
+    assert directive["entries"] == []
+    assert lint["observed_alerts"]
+    assert lint["semantic_review"] == "not_run"
 
     scene_dir = tmp_path / "pipeline" / f"scene_{scene_id}"
     scene_dir.mkdir(parents=True)
@@ -63,6 +64,7 @@ def test_referential_contract_detector_to_directive_chain(tmp_path):
     )
     refreshed = yaml.safe_load(directive_path.read_text())
     assert refreshed["dispatch_ready"] is True
+    assert refreshed["entries"] == []
 
     after_path = lint_dir / f"{scene_id}.ai_filler.v2.yaml"
     clean = "祖父修好了断裂的竹骨，把旧伞放在门边。"

@@ -1,9 +1,4 @@
-"""referential_vagueness 两族：dummy_pronoun（形式主宾语）+ demonstrative_classifier（这/那+量词）。
-
-阈值制立案（名著场景 P90 基线，非单发）；enforced aggregate S + 密度合同
-（promoted_ref 晋升，decision_ref=pronoun-density-2026-07-17：修订后密度须严格 <
-名著基线）。对白 mask 豁免。
-"""
+"""Referential forms remain locatable candidates; context decides harm and repair."""
 from ai_filler_lint import (
     analyze,
     detect_demonstrative_classifier,
@@ -80,54 +75,26 @@ def test_threshold_below_baseline_no_alert():
     assert not [a for a in r["observed_alerts"] if a["cluster"] == "referential_vagueness"]
 
 
-def test_threshold_above_baseline_emits_locatable_enforced_alert():
-    """守卫：超基线必须产 enforced cluster_alert（发牌端不可静默拆除）。
-
-    晋升前该守卫锚 observed_alerts；enforced 化后锚 cluster_alerts——两个时期
-    共同的不变量是"超基线必须立案且逐 hit 可定位"，不允许两通道都为空。
-    """
-    sick = "它趴在门口。他嫌它响，把它踢开，又把那东西捡回来。这话没人接。"
-    text = sick * 6
-    r = analyze(text, scene_id="S02", lang="zh")
-    assert any(h["family"] == "dummy_pronoun" for h in r["hits"])
-    alert = next(a for a in r["cluster_alerts"] if a["family"] == "dummy_pronoun")
+def test_above_baseline_remains_locatable_observation():
+    text = "它趴在门口。他嫌它响，把它抱起。" * 6
+    result = analyze(text, scene_id="S02", lang="zh")
+    alert = next(a for a in result["observed_alerts"] if a["family"] == "dummy_pronoun")
     assert alert["density_per_1k"] > FAMILY_DENSITY_BASELINE["zh"]["dummy_pronoun"]
-    assert alert["hit_ids"]
     assert [record["lint_id"] for record in alert["hit_records"]] == alert["hit_ids"]
-    assert all(record["locator"]["span"] for record in alert["hit_records"])
-    assert all(record["evidence_quote"] for record in alert["hit_records"])
-    assert alert["escalation_threshold"]["high_gte"] == 4
-    # S 级主权：拒逐处 objection，只收整簇改写
-    assert alert["governance"]["individual_exemption_allowed"] is False
-    assert all(
-        h["policy_lifecycle"] == "enforced"
-        for h in r["hits"] if h["family"] == "dummy_pronoun"
-    )
-    # enforced 化后不得再走观测通道（防双列造成消费端重复裁决）
-    assert not any(
-        a["family"] == "dummy_pronoun" for a in r["observed_alerts"]
-    )
+    assert all(record["locator"]["span"] and record["evidence_quote"] for record in alert["hit_records"])
+    assert alert["blocking"] is False
+    assert alert["escalation_threshold"]["use"] == "review_priority_only"
+    assert "non_blocking_at_or_below" not in alert["escalation_threshold"]
+    assert not result["cluster_alerts"]
+    assert result["semantic_review"] == "not_run"
+    assert result["overall_review"] == "incomplete"
 
 
-def test_families_have_zh_baseline_not_exempt():
-    """阈值制正是靠名著基线——两族必须有 zh 基线（与 BASELINE_EXEMPT 单发族相反）。"""
+def test_reference_calibration_does_not_prescribe_deletion():
     for family in ("dummy_pronoun", "demonstrative_classifier"):
-        assert FAMILY_DENSITY_BASELINE["zh"][family] > 0
         policy = effective_policy(family, "zh")
-        assert policy["lifecycle"] == "enforced"
-        assert policy["sovereignty"] == "S"
+        assert policy["lifecycle"] == "observe"
         assert calibration_value(policy) == FAMILY_DENSITY_BASELINE["zh"][family]
-
-
-def test_promotion_contract_fields():
-    """晋升合同（§1.3）：promoted_ref 可解析、三证据腿齐全、密度合同挂载。"""
-    from ai_policy import PROMOTION_RECORDS
-
-    for family in ("dummy_pronoun", "demonstrative_classifier"):
-        policy = effective_policy(family, "zh")
-        assert policy.get("pre_contract") is None  # 晋升形态不是 grandfather 形态
-        assert policy["density_contract"] is True
-        record = PROMOTION_RECORDS[policy["promoted_ref"]]
-        assert record["family"] == family and record["language"] == "zh"
-        assert record["decision_ref"] == "pronoun-density-2026-07-17"
-        assert policy["decision_ref"] == "pronoun-density-2026-07-17"
+        assert not policy.get("density_contract")
+        assert not policy.get("promoted_ref")
+        assert policy["decision_ref"] == "aigc-readability-2026-09-15"

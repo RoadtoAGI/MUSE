@@ -100,10 +100,8 @@ def _policy(
     if promoted_ref is not None:
         result["promoted_ref"] = promoted_ref
     if density_contract:
-        # 发布密度合同：最终文本 canonical count 必须 <= ceil(baseline*chars/1000)-1
-        # （即密度严格 < 基线）。wholetext gate 按最终文本长度动态判，与 severity
-        # 阈值解耦——high 的 count>=4 固定门槛和密度目标没有等价关系，短文本
-        # 2-3 处命中即可超基线却永不 blocking（2026-07-17 用户裁决 + codex 分析）。
+        # Compatibility for explicitly configured contracts. Current ordinary
+        # expression families use observation and have no density contract.
         result["density_contract"] = True
     if baseline_policy == "calibrated":
         result["baseline_metric"] = "p90_positive"
@@ -168,7 +166,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "hard",
         "lexical_cliche",
         ["词表面层", "硬cliche"],
-        "用具体动作或物件替换套语",
+        "按语境修复空泛或重复表达，保留准确叙述与人物声音",
         "S",
         device_budget={"storyteller_voice": 1.3},
         observe_zh=True, observe_baseline=True,
@@ -178,7 +176,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic",
         "micro_punchline_cadence",
         ["碎片结算短句"],
-        "移除替读者结算情绪的碎片评注",
+        "合并无作用的情绪结算，保留人物认识、承接与节奏",
         None,
         observe_zh=True,
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
@@ -187,13 +185,13 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic",
         "micro_punchline_cadence",
         ["碎切短分句链", "连续超短分句"],
-        "合并无信息增量的连续短分句",
+        "重组遮断理解的短分句，保留声音、节奏和必要关系",
         None,
         observe_zh=True,
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
     ),
     "connector_overuse": _family(
-        "hard", "connector_overuse", ["段首然后", "连接词过用"], "删去流水连接词并恢复事件因果", "S",
+        "hard", "connector_overuse", ["段首然后", "连接词过用"], "按事件关系保留或改写连接，收束无作用的流水复述", "S",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
@@ -208,27 +206,27 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "repeated_head": _family(
-        "syntax_heuristic", "rhythm_fragmentation", ["同字起手", "排比"], "打散机械重复的句首结构", "S",
+        "syntax_heuristic", "rhythm_fragmentation", ["同字起手", "排比"], "按段落推进处理机械重复，保留必要回指、强调和声线", "S",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "action_log": _family(
-        "syntax_heuristic", "action_log", ["动作清单化", "流水账"], "保留有因果或选择后果的动作", "M",
+        "syntax_heuristic", "action_log", ["动作清单化", "流水账"], "按因果、空间、人物与体验作用组织动作", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "dash_overuse": _family(
-        "syntax_heuristic", "rhythm_fragmentation", ["破折号过密"], "将解释性破折号改写为完整关系", "S",
+        "syntax_heuristic", "rhythm_fragmentation", ["破折号过密"], "核对破折号所表达的关系，修复断裂或无作用的插入", "S",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "figurative_debt": _family(
-        "semantic_heuristic", "figurative_debt", ["短比喻债务", "像某种X"], "删除借比喻代替观察的空泛句", "M",
+        "semantic_heuristic", "figurative_debt", ["短比喻债务", "像某种X"], "修复遮住对象的比喻，保留有效映射与叙述认识", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "abstract_phrase_debt": _family(
-        "semantic_heuristic", "abstract_explanation", ["抽象短语债务", "某种重量"], "把抽象判断还原成可见载体", "M",
+        "semantic_heuristic", "abstract_explanation", ["抽象短语债务", "某种重量"], "补足判断所需对象与依据，保留有效概括和心理展开", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
@@ -236,14 +234,14 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic",
         "silence_pause_cliche",
         ["沉默停顿廉价化"],
-        "让沉默承担可见的选择或压力",
+        "按人物关系、经验和节奏判断沉默，修复无作用的重复",
         "M",
         device_budget={"naked_line": 1.3},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "social_choreography": _family(
-        "semantic_heuristic", "social_choreography", ["社交调度流水", "接电话去了"], "删除无后果的社交调度说明", "M",
+        "semantic_heuristic", "social_choreography", ["社交调度流水", "接电话去了"], "收束无作用的调度复述，保留空间、话轮与人物关系承接", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
@@ -251,7 +249,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic",
         "explanatory_detour",
         ["不是A是B", "不是A而是B"],
-        "直接陈述后项或让前项误判先在情节中成立",
+        "按实际对照或误认组织表达，删并没有作用的纠偏框架",
         None,
         observe_zh=True,
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
@@ -271,37 +269,34 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic",
         "silence_pause_cliche",
         ["状态持续模板", "还在那里"],
-        "用状态变化或具体感知替代标签",
+        "核对持续状态的叙事作用，修复无作用的重复结算",
         "M",
         aggregation={"same_rule_scene_count_gte": 2, "same_anchor_repeated_count_gte": 2},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
     ),
     "meta_language_leak": _family(
-        "hard", "meta_language_leak", ["元语言泄漏"], "移除写作过程或总结式元话语", None, observe_zh=True
+        "hard", "meta_language_leak", ["元语言泄漏"], "修复外泄的创作过程说明，保留故事内有效总结与叙述声音", None, observe_zh=True
     ),
-    # 2026-07-17 晋升（observe → enforced aggregate S + 密度合同）：用户裁决
-    # "修订后密度 < 名著基线"为不可豁免发布目标——S 而非 M，防 objection 窄门
-    # 绕过 aggregate 目标。三证据 promotion record 见 PROMOTION_RECORDS。
+    # Referential forms locate a possible comprehension problem. Their density
+    # cannot determine whether a reader can recover the antecedent. Keep the
+    # calibration for prioritising review; editing follows contextual findings.
     "dummy_pronoun": _family(
         "semantic_heuristic", "referential_vagueness", ["形式主宾语", "它这东西那东西"],
-        "按序收敛：承前省略 > 实词复现 > 局部重构（不得以指示词+名词兜底）", "S",
-        density_contract=True,
-        decision_ref="pronoun-density-2026-07-17",
-        promoted_ref="dummy_pronoun:zh:2026-07-17",
+        "核对上下文中的指称对象；回指清楚时保留，歧义妨碍理解时补明对象或重组语境", None,
+        observe_zh=True, observe_baseline=True,
+        decision_ref="aigc-readability-2026-09-15",
     ),
     "demonstrative_classifier": _family(
         "semantic_heuristic", "referential_vagueness", ["指示限定词", "这那加量词"],
-        "按序收敛：删可选指示成分 > 普通定指 > 直写具体对象 > 局部改句", "S",
-        density_contract=True,
-        decision_ref="pronoun-density-2026-07-17",
-        promoted_ref="demonstrative_classifier:zh:2026-07-17",
+        "核对特指、对照与承接作用；保留准确限定，删并确无作用的重复或补清缺失关系", None,
+        observe_zh=True, observe_baseline=True,
+        decision_ref="aigc-readability-2026-09-15",
     ),
 }
 
 # ``parallel_negation`` 与 contrastive_negation_assertion 在多种句式上命中同一
-# span。族级 lexical_cliche 仍保持 enforced；该重叠 rule 单独进入 observe，
-# 防止候选族经旧词法路径重新获得阻断权。
+# span。该重叠 rule 保留显式 observe，避免候选经兼容词法路径获得阻断权。
 FAMILY_MANIFEST["lexical_cliche"]["policy"]["zh"]["rules"]["parallel_negation"] = _policy(
     "observe"
 )
@@ -312,41 +307,6 @@ for _family_id, _record in FAMILY_MANIFEST.items():
     if _zh.get("baseline_policy") == "calibrated":
         _zh["baseline_ref"] = _calibration_ref("zh", _family_id)
 
-# §1.3 晋升合同记录（observe → enforced:S + 密度合同，2026-07-17）：
-# 三证据腿 prevalence_ref / hard_negative_ref / fixture_refs + 用户裁决 decision_ref
-# （"修订后密度严格 < 名著基线"为不可豁免发布目标）。held-out 独立性已知折扣：
-# 本批以源作高密段落 stress fixture + 名著普查为最小合同证据，作品级
-# train/held-out 拆分归校准 provenance 另案。
-PROMOTION_RECORDS.update({
-    "dummy_pronoun:zh:2026-07-17": {
-        "family": "dummy_pronoun",
-        "language": "zh",
-        "rule": None,
-        "prevalence_ref": "183 系 AI 产物 4.06–4.34/k vs 同语域源作≈0（实词复现替代）；"
-                          "普查档案见 pipeline CHANGELOG 2026-07-12 块",
-        "hard_negative_ref": "9 部名著校准 P90(positive)=1.42/k；"
-                             "should-not-fix 负例夹具与源作段落 stress fixture 入测试树",
-        "decision_ref": "pronoun-density-2026-07-17",
-        "fixture_refs": [
-            "scripts/tests/test_referential_vagueness.py::test_it_subject_and_object_anchored",
-            "scripts/tests/test_referential_vagueness.py::test_dummy_pronoun_dialogue_exempt",
-        ],
-    },
-    "demonstrative_classifier:zh:2026-07-17": {
-        "family": "demonstrative_classifier",
-        "language": "zh",
-        "rule": None,
-        "prevalence_ref": "183 系历史三版 10.9–11.6/k 全超名著最大值 8.2，修订后仍 8.79；"
-                          "普查档案见 pipeline CHANGELOG 2026-07-12 块",
-        "hard_negative_ref": "名著带宽 1.3–8.2/k、P90(positive)=6.11/k（不加 register multiplier）；"
-                             "8.2 源作段落 stress fixture 验证按序保留 protected 不逐处清空",
-        "decision_ref": "pronoun-density-2026-07-17",
-        "fixture_refs": [
-            "scripts/tests/test_referential_vagueness.py::test_classifier_hit",
-            "scripts/tests/test_referential_vagueness.py::test_classifier_dialogue_exempt",
-        ],
-    },
-})
 
 
 _PRE_CONTRACT_POLICY_FIELDS = (
@@ -784,7 +744,7 @@ def calibration_value(policy: dict[str, Any]) -> float:
 
 
 def density_contract_max_count(policy: dict[str, Any], total_units: int) -> int | None:
-    """Existing user contract: canonical density must be strictly below its baseline."""
+    """Resolve an explicit legacy contract; current observe policies return None."""
     if policy.get("lifecycle") != "enforced" or not policy.get("density_contract"):
         return None
     return max(math.ceil(calibration_value(policy) * max(total_units, 1) / 1000) - 1, 0)

@@ -380,7 +380,7 @@ def test_observed_residual_does_not_block(tmp_path, family):
     assert _gate(wd).returncode == 0
 
 
-def test_final_attempt_contract_failure_escalates(tmp_path):
+def test_final_attempt_reference_density_remains_observation(tmp_path):
     from ai_filler_lint import analyze
 
     text = "它伏在门边。" * 9 + "正文" * 500
@@ -390,9 +390,9 @@ def test_final_attempt_contract_failure_escalates(tmp_path):
              before_text=text, after_text=text)
     lint_dir = wd / "pipeline/review/lint"
     (lint_dir / "S02.ai_filler.dist2.yaml").write_bytes((lint_dir / "S02.ai_filler.dist1.yaml").read_bytes())
-    assert _gate(wd, attempt=2, max_attempts=2).returncode == 1
-    ledger = yaml.safe_load((wd / "pipeline/review/S02.machine_ledger.yaml").read_text())
-    assert ledger["entries"][0]["status"] == "escalated"
+    assert _gate(wd, attempt=2, max_attempts=2).returncode == 0
+    report = yaml.safe_load((wd / "pipeline/review/S02.distribution_gate.yaml").read_text())
+    assert report["family_regression"]["families"]["dummy_pronoun"]["decision"] == "observe_only"
 
 
 def test_missing_attempt_lint_is_input_error(tmp_path):
@@ -405,7 +405,7 @@ def test_undeclared_protected_region_fails(tmp_path):
     assert _gate(wd).returncode == 1
 
 
-def test_target_contract_can_converge_with_a_remaining_hit(tmp_path):
+def test_reference_count_change_does_not_decide_semantic_repair(tmp_path):
     from ai_filler_lint import analyze
 
     before_text = "它伏在门边。" * 4 + "正文" * 500
@@ -418,7 +418,7 @@ def test_target_contract_can_converge_with_a_remaining_hit(tmp_path):
     result = _gate(wd)
     assert result.returncode == 0, result.stdout + result.stderr
     report = yaml.safe_load((wd / "pipeline/review/S02.distribution_gate.yaml").read_text())
-    assert report["family_regression"]["families"]["dummy_pronoun"]["decision"] == "target_contract_satisfied"
+    assert report["family_regression"]["families"]["dummy_pronoun"]["decision"] == "observe_only"
 
 
 def test_non_target_worsening_is_observed_but_does_not_block(tmp_path):

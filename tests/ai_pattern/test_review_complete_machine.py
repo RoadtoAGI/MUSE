@@ -193,8 +193,8 @@ def test_escalated_machine_entry_blocks_admission(tmp_path):
     assert vrc.check(_base(tmp_path, directive_status="pending", ledger_status="escalated")) != 0
 
 
-def test_never_engaged_machine_channel_blocks(tmp_path):
-    # 短文本中的真实指代命中超出作者密度合同，缺 directive 应阻断。
+def test_retired_density_ledger_does_not_create_current_repair_obligation(tmp_path):
+    # Current observation policy does not activate an old density-only ledger.
     import verify_review_complete as vrc
 
     wd = _base(tmp_path)
@@ -238,13 +238,11 @@ def test_never_engaged_machine_channel_blocks(tmp_path):
         }],
     }, allow_unicode=True), encoding="utf-8")
 
-    assert vrc.check(wd) != 0
+    assert vrc.check(wd) == 0
     eligibility = yaml.safe_load(
         (wd / "pipeline/audit/release_eligibility.yaml").read_text(encoding="utf-8")
     )
-    assert eligibility["admission"]["reasons"] == [
-        "S01:machine:enforced_alert_without_directive"
-    ]
+    assert eligibility["admission"]["reasons"] == []
 
 
 def test_never_engaged_but_v1_clean_passes(tmp_path):

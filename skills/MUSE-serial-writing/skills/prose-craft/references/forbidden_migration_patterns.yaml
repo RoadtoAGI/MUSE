@@ -1,6 +1,6 @@
-# F1.E semantic_function_migration 词表 SSOT
-# post_revision_gate.py 通过 yaml.safe_load 加载；ai-cliche-patterns.md 软指针引用本文件
-# 本文件修改后同步 grep 检查必须通过
+# 修订后表达候选词表 SSOT；保留历史文件名供现有调用使用。
+# post_revision_gate.py 通过 yaml.safe_load 加载；ai-cliche-patterns.md 引用本文件。
+# 命中仅供上下文复核，无法证明语义迁移或禁止对应词语。
 
 contrastive_explanation:
   actually_assertion: "其实[^，。]{1,15}"

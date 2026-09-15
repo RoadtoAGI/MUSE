@@ -30,6 +30,13 @@ def test_real_lint_candidates_reach_review_without_automatic_rewrite(tmp_path):
     directive = yaml.safe_load((review / "S01.machine_directive.yaml").read_text())
     ledger = yaml.safe_load((review / "S01.machine_ledger.yaml").read_text())
     assert directive["entries"] == []
+    diagnostics = yaml.safe_load((review / "lint/S01.ai_filler.yaml").read_text())
+    assert diagnostics["cluster_alerts"]
+    assert diagnostics["semantic_review"] == "not_run"
+    assert diagnostics["overall_review"] == "incomplete"
+    for alert in diagnostics["cluster_alerts"]:
+        assert "governance" not in alert
+        assert alert["review_guidance"]["assessment"] == "diagnostic"
     assert ledger["entries"] and all(e["status"] == "observed" for e in ledger["entries"])
     summary = tmp_path / "pipeline/scene_S01/revision_summary.md"
     summary.parent.mkdir()
@@ -46,6 +53,9 @@ def test_real_lint_candidates_reach_review_without_automatic_rewrite(tmp_path):
     assert report["verdict"] == "REVIEW" and report["review_required"]
     assert report["observations"][0]["hit_records"]
     assert report["triggers"] == []
+    assert report["surface_lint"] == "completed"
+    assert report["semantic_review"] == "not_run"
+    assert report["overall_review"] == "incomplete"
     # Re-running initial issue creation cannot overwrite a refreshed pair.
     assert run("machine_directive.py", "--work-dir", tmp_path, "--scene-id", "S01").returncode == 2
 
@@ -94,3 +104,28 @@ def test_orchestrator_fastpath_cannot_supply_semantic_pass(tmp_path):
     put(review_path, {"scene_id": "S01", "verdict": "PASS", "written_by": "orchestrator_fastpath_gate"})
     result = run("verify_review_complete.py", tmp_path)
     assert result.returncode == 2 and "orchestrator_fastpath_gate" in result.stderr
+
+
+def test_no_surface_candidate_does_not_claim_semantic_readability(tmp_path):
+    story = tmp_path / "draft.md"
+    story.write_text("窗外的雨一直下到天亮，墙角的水桶已经满了。")
+    result = run("wholetext_gate.py", "--story", story, "--work-dir", tmp_path, "--lang", "zh")
+    assert result.returncode == 0, result.stderr
+    report = yaml.safe_load((tmp_path / "pipeline/review/wholetext_gate.yaml").read_text())
+    assert report["verdict"] == "PASS"
+    assert report["semantic_review"] == "not_run"
+    assert report["overall_review"] == "incomplete"
+
+
+def test_direct_file_lint_keeps_review_boundary_for_ordinary_repetition(tmp_path):
+    import json
+
+    story = tmp_path / "dialogue.md"
+    story.write_text('"I know," she said. "I know," he said. They waited.\n' * 12)
+    result = run("ai_filler_lint.py", story, "--lang", "en")
+    assert result.returncode == 0, result.stderr
+    report = json.loads((tmp_path / "dialogue_ai_filler.json").read_text())
+    assert report["language"] == "en"
+    assert report["semantic_review"] == "not_run"
+    assert report["overall_review"] == "incomplete"
+    assert report["density"]["unit"] == "characters"

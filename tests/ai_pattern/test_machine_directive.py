@@ -65,38 +65,32 @@ def test_observe_alert_severity_does_not_create_repair_tasks(tmp_path, lang, fam
     assert [(e["family"], e["level"], e["status"]) for e in ledger["entries"]] == [(family, "L", "observed")]
 
 
-def test_referential_contract_reaches_directive_and_pending_ledger(tmp_path):
-    text = "它伏在门边。这道口子很深。"
-    hits = [_hit("dummy-1", 0), _hit("classifier-1", text.index("这道"), "这道", "demonstrative_classifier")]
+def test_clear_references_do_not_generate_repair_tasks(tmp_path):
+    text = "门槛上卧着一条黑狗。它听见脚步便抬起头。这道口子还在流血。"
+    hits = [_hit("dummy-1", text.index("它")), _hit("classifier-1", text.index("这道"), "这道", "demonstrative_classifier")]
     _write(tmp_path, hits, text=text)
     directive, ledger = _run(tmp_path)
-    assert {(e["family"], e["level"]) for e in directive["entries"]} == {
-        ("dummy_pronoun", "S"), ("demonstrative_classifier", "S")}
+    assert directive["entries"] == []
+    assert directive["dispatch_ready"] is False
     assert directive["active_revision_id"] == ledger["active_revision_id"]
-    for entry, reducer in zip(directive["entries"], ledger["entries"]):
-        assert [r["lint_id"] for r in entry["hit_records"]] == entry["all_hit_ids"]
-        assert entry["remaining_hit_ids"] == entry["all_hit_ids"]
-        assert entry["exempted_hit_ids"] == []
-        assert reducer["status"] == "issued"
-        assert {r["status"] for r in reducer["hit_resolutions"]} == {"pending"}
+    assert (tmp_path / f"pipeline/scenes/scene_{SCENE_ID}.md").read_text(encoding="utf-8") == text
 
 
-def test_current_contract_cannot_be_routed_through_old_observed_artifact(tmp_path):
+def test_referential_observations_reach_nonblocking_ledger(tmp_path):
     _write(tmp_path, [_hit("dummy-1", 0)], observed=[{
         "family": "dummy_pronoun", "blocking": False, "hit_ids": ["dummy-1"]}])
-    _run(tmp_path, error="enforced family routed through observed_alerts")
+    directive, ledger = _run(tmp_path)
+    assert directive["entries"] == []
+    assert ledger["entries"][0]["status"] == "observed"
 
 
-def test_contract_rebuilds_partition_from_raw_hits_not_stale_alert_ids(tmp_path):
+def test_stale_enforced_alert_label_cannot_reactivate_observe_policy(tmp_path):
     hits = [_hit("dummy-1", 0), _hit("dummy-2", 6)]
-    _write(tmp_path, hits, [{"family": "dummy_pronoun", "severity": "low",
+    _write(tmp_path, hits, [{"family": "dummy_pronoun", "severity": "high",
                              "hits": 99, "hit_ids": ["dummy-1", "missing", "dummy-1"]}])
     directive, ledger = _run(tmp_path)
-    entry = directive["entries"][0]
-    assert entry["all_hit_ids"] == ["dummy-1", "dummy-2"]
-    assert entry["remaining_hit_ids"] == entry["all_hit_ids"]
-    assert [r["lint_id"] for r in entry["hit_records"]] == entry["all_hit_ids"]
-    assert ledger["entries"][0]["remaining_hit_ids"] == entry["all_hit_ids"]
+    assert directive["entries"] == []
+    assert ledger["entries"][0]["status"] == "observed"
 
 
 def test_duplicate_raw_hit_ids_are_rejected(tmp_path):
@@ -104,7 +98,7 @@ def test_duplicate_raw_hit_ids_are_rejected(tmp_path):
     _run(tmp_path, error="duplicate lint_id")
 
 
-def test_density_contract_requires_actual_current_scene(tmp_path):
+def test_observation_projection_requires_actual_current_scene(tmp_path):
     _write(tmp_path, [_hit("dummy-1", 0)])
     (tmp_path / f"pipeline/scenes/scene_{SCENE_ID}.md").write_text("改写后的正文。", encoding="utf-8")
     _run(tmp_path, error="requires lint for the current scene text")

@@ -10,7 +10,7 @@
 patch_kinds:
   carrier_then_explain:
     action: patch
-    direction: 删除已由前文充分表达、且不增加认识或关系作用的重复解释
+    direction: 删合已确认冗余的解释，接续仍需表达的回指、因果与认识关系，保留声音和节奏
   omission_violated:
     action: patch
     direction: 恢复当前设计明确需要的信息保留范围，保留读者理解所需依据

@@ -56,49 +56,28 @@ def test_clean_text_passes(tmp_path):
     assert report["verdict"] == "PASS"
 
 
-def test_density_contract_blocks_subseverity_hits_with_locators(tmp_path):
-    """密度合同与 severity 解耦：短文本 2 处命中不到 severity high（count>=4），
-    但密度已超名著基线 → density_contract trigger 必须阻断并逐 hit 给定位。
-    守卫不变量：超基线命中必须以可定位形态到达 reviser（发牌端不可静默拆除）。"""
-    clean = (
-        "窗外的雨下了整夜，把青石板路洗出一层暗光。祖父坐在檐下修旧伞，"
-        "三根竹骨断在同一侧，他不肯换新的伞架，说这伞陪他走过的路比我认得的字还多。"
-        * 4
-    )
-    text = (
-        "他把那东西收进柜底，沿着墙缝压住木门。"
-        + clean
-        + "她把这东西从布袋中取出，放在磨平的石桌上。"
-    )
-
+def test_short_clear_reference_keeps_locators_without_deletion_budget(tmp_path):
+    text = "门槛上卧着一条黑狗。它听见脚步便抬起头。"
     rc, report = _run_wholetext(tmp_path, text, "zh")
-
-    assert rc == 1
-    assert report["verdict"] == "FAIL"
-    trigger = next(
-        t for t in report["triggers"]
-        if t["type"] == "density_contract" and t["family"] == "dummy_pronoun"
-    )
-    # 不进 blocking_cluster（count 2 < high 门槛 4），密度合同是唯一拦截者
-    assert not any(t["type"] == "blocking_cluster" for t in report["triggers"])
-    assert trigger["count"] > trigger["max_count"]
-    assert trigger["required_reduction"] == trigger["count"] - trigger["max_count"]
-    assert trigger["baseline_per_1k"] == 1.42
-    assert trigger["decision_ref"] == "pronoun-density-2026-07-17"
-    assert all(record["locator"]["span"] for record in trigger["hit_records"])
-    assert all(record["evidence_quote"] for record in trigger["hit_records"])
+    assert rc == 0
+    assert report["verdict"] == "REVIEW"
+    assert report["triggers"] == []
+    observation = next(o for o in report["observations"] if o["type"] == "observe_hits")
+    hits = [h for h in observation["hit_records"] if h["family"] == "dummy_pronoun"]
+    assert hits and all(h["locator"]["span"] and h["evidence_quote"] for h in hits)
+    assert report["semantic_review"] == "not_run"
+    assert report["overall_review"] == "incomplete"
+    assert (tmp_path / "story.md").read_text() == text
 
 
-def test_density_contract_exact_budget_passes(tmp_path):
-    """密度边界：count == max_count（密度严格 < 基线）→ 不触发合同。"""
+def test_low_density_reference_still_requires_contextual_review(tmp_path):
     filler = "山道上无人，风把旗吹得笔直，远处的号角断断续续，驿卒把火盆拨旺。" * 46
     text = filler + "他把那东西塞回怀里。"
-    assert len(text) > 1000 / 1.42  # 预算至少 1
     rc, report = _run_wholetext(tmp_path, text, "zh")
-
     assert rc == 0
-    assert not any(t["type"] == "density_contract" for t in report["triggers"])
-    assert report["verdict"] == "PASS"
+    assert report["triggers"] == []
+    assert report["verdict"] == "REVIEW"
+    assert report["semantic_review"] == "not_run"
 
 
 def test_en_policy_is_report_only_including_dash_trigger(tmp_path):
@@ -255,16 +234,14 @@ def test_directive_uses_current_density_budget_instead_of_cluster_severity(tmp_p
                for entry in ledger["entries"])
     unchanged = evaluate_regression(lint, lint, {"dummy_pronoun"}, lang="zh")
     assert unchanged["verdict"] == "PASS"
-    assert unchanged["families"]["dummy_pronoun"]["decision"] == "target_contract_satisfied"
+    assert unchanged["families"]["dummy_pronoun"]["decision"] == "observe_only"
 
-    # A short over-budget text must arrive as a current, locatable repair even
-    # when its count has not reached the old severity-high threshold.
+    # Short text retains the same contextual-review path regardless of density.
     text = "他把那东西收进柜底。" * 2
     scene.write_text(text)
     lint = ai_filler_lint.analyze(text, scene_id="S01", lang="zh")
     lint_path.write_text(yaml.safe_dump(lint, allow_unicode=True))
     directive, _ = build_directive(tmp_path, "S01")
-    entry = next(entry for entry in directive["entries"] if entry["family"] == "dummy_pronoun")
-    assert len(entry["all_hit_ids"]) == 2
-    assert entry["status"] == "pending"
-    assert all(record.get("locator") and record.get("evidence_quote") for record in entry["hit_records"])
+    assert directive["entries"] == []
+    assert all(h.get("locator") and h.get("evidence_quote") for h in lint["hits"])
+    assert lint["semantic_review"] == "not_run"

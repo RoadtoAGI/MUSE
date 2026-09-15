@@ -15,13 +15,6 @@ import yaml
 from ai_policy import FAMILY_REGISTRY, RULE_TO_FAMILY, density_contract_max_count, effective_policy
 
 
-CLUSTER_MIGRATION_DENYLIST = {
-    "micro_punchline_cadence": ["silence_pause_cliche", "rhythm_fragmentation"],
-    "rhythm_fragmentation": ["micro_punchline_cadence"],
-    "silence_pause_cliche": ["micro_punchline_cadence"],
-    "lexical_cliche": ["abstract_phrase_debt"],
-}
-
 M_OBJECTION_CLUSTERS = {"explanatory_detour", "silence_pause_cliche", "action_log"}
 HIGH_SEVERITIES = {"high", "catastrophic", "major"}
 GENERIC_FUNCTION_CLAIMS = (
@@ -127,10 +120,8 @@ def _classify_level(policy: dict, severity: str, family: str, cluster: str) -> s
     return "L"
 
 
-def _repair_hint(family: str) -> str:
-    deny = CLUSTER_MIGRATION_DENYLIST.get(family, [])
-    suffix = f"；禁止迁移到 {' / '.join(deny)}" if deny else ""
-    return f"{family} 密度收敛到预算内{suffix}"
+def _repair_hint(family: str, lang: str = "zh") -> str:
+    return effective_policy(family, lang).get("repair") or "按当前上下文修复已确认的阅读问题"
 
 
 def _lint_path(work_dir: Path, scene_id: str, lint_suffix: str | None = None) -> Path:
@@ -151,6 +142,11 @@ def build_directive(
     lint = _load_yaml(lint_path)
     revision = _artifact_revision(work_dir, lint_path, lint)
     active_revision_id = revision["artifact_sha256"]
+    scene_path = work_dir / "pipeline/scenes" / f"scene_{scene_id}.md"
+    scene_text = scene_path.read_text(encoding="utf-8")
+    actual_sha = hashlib.sha256(scene_text.encode("utf-8")).hexdigest()
+    if lint.get("input_text_sha256") != actual_sha:
+        raise ValueError("machine directive requires lint for the current scene text")
 
     directive_entries = []
     ledger_entries = []
@@ -182,11 +178,7 @@ def build_directive(
         policy = effective_policy(family, lang)
         if not policy.get("density_contract"):
             continue
-        scene_text = (work_dir / "pipeline/scenes" / f"scene_{scene_id}.md").read_text(encoding="utf-8")
-        actual_sha = hashlib.sha256(scene_text.encode("utf-8")).hexdigest()
-        if lint.get("input_text_sha256") != actual_sha:
-            raise ValueError("density contract requires lint for the current scene text")
-        # Both current contracts are Chinese character-density contracts.
+        # Legacy contracts used Chinese character density; observe policies skip this branch.
         maximum = density_contract_max_count(policy, len(scene_text))
         if maximum is None:
             continue
@@ -297,7 +289,7 @@ def build_directive(
             "exempted_hit_ids": [],
             "remaining_hit_ids": list(all_hit_ids),
             "hit_records": hit_records,
-            "repair_hint": _repair_hint(family),
+            "repair_hint": _repair_hint(family, lang),
             "status": "pending",
         }
         _assert_hit_partition(directive_entry)

@@ -26,7 +26,7 @@ description: 连载单场景的审阅裁决。根据当前正文与有效诊断�
 
 严重度用于提示影响，类别名不决定 verdict。人物 OOC、carrier 缺失或价值方向问题也应先辨认根因和范围；单个字词错误不因此强制整场重写。稳定价值、过渡段、直接抒情或议论结尾可以成立，不靠动作、感官或转折配额判场景。
 
-lint 命中是定位信号；确认对应片段确有语义病灶后才能进入 PATCH。prose_risk_contract 同样按其实际风险与作者约束判断，命中词汇或替换了候选方法不等于违约。A/B/C、lint 和 contract 发现同一问题时归并证据。
+lint 命中是定位信号；确认对应片段确有语义病灶后才能进入 PATCH。表达删改与回指问题加载本包 [prose-craft 的阅读连续性判据](../prose-craft/SKILL.md#组织场景与段落)，按段落及相邻依赖判断；能帮助读者跟住对象或推理的复现具有作用。prose_risk_contract 同样按其实际风险与作者约束判断，命中词汇或替换了候选方法不等于违约。A/B/C、lint 和 contract 发现同一问题时归并证据。
 
 机器通道使用已有 directive/ledger。新统计不会单独形成正文修订义务；既有 pending 仍按当前正文确认并处理，不因重新生成报告而丢弃。历史 machine_objection 只能作为其当时的理由与证据，不能替代本次语义判断。
 
@@ -56,4 +56,4 @@ PATCH 另写 `pipeline/scene_{scene_id}/patch_directive.yaml`，先读[补丁 sc
 
 同位置同问题归并成一个补丁；方向冲突先核事实与权限，不能先删后加两条抵消指令。跨位置的同机制问题可以合并到实际连续片段；若解决范围已涉及全场因果，按表返回 ROLLBACK/REWRITE。补丁类型仅指修订方式，方向见 [registry](../patch-revision/references/patch-kind-registry.md)。
 
-完成回复回显当前目标文件的 verdict。PATCH 必须同时有 directive；回执与文件不一致或缺产物由调用方恢复。进入修后评审时加载[复审协议](references/post-revision-review.md)，检查原问题机制及新引入的硬错，不能把机器通过或新空报告代写为语义 PASS。
+完成回复回显当前目标文件的 verdict。PATCH 必须同时有 directive；回执与文件不一致或缺产物由调用方恢复。进入修后评审时加载[复审协议](references/post-revision-review.md)，检查原问题机制及新引入的指称、解释衔接、声音或事实问题，不能把机器通过或新空报告代写为语义 PASS。

@@ -591,6 +591,12 @@ def test_live_failure_overrules_stale_pass_report(tmp_path):
     import release_eligibility as rel
 
     wd = _workdir(tmp_path, dirty=True)
+    _write_semantic_review(wd, status="findings", findings=[{
+        "dimension": "ai_pattern", "subkind": "planning_trace_leakage",
+        "scene_id": None, "location": "全文", "source": "story",
+        "evidence_quote": "那把伞贴着这道门，那种声音穿过那层纸。", "issue": "整句反复出现而无新的承接或叙述作用",
+        "suggestion": "补足读者理解所需对象并合并无作用重复",
+    }])
     stale = wd / "pipeline" / "review" / "wholetext_gate.yaml"
     stale.write_text(yaml.safe_dump({"verdict": "PASS", "input_story_sha256": "old"}))
     rel.write_admission(wd, _admission(wd))
@@ -598,7 +604,8 @@ def test_live_failure_overrules_stale_pass_report(tmp_path):
     assert rel.finalize(wd) == 1
     terminal = rel.load_state(wd)["terminal"]
     assert terminal["outcome"] == "quality_failed"
-    assert terminal["wholetext"]["verdict"] == "FAIL"
+    assert terminal["wholetext"]["verdict"] == "REVIEW"
+    assert terminal["semantic_review"]["status"] == "findings"
 
 
 def test_consumer_rejects_terminal_after_story_or_admission_mutation(tmp_path):

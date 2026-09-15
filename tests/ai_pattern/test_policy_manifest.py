@@ -31,11 +31,11 @@ def test_manifest_static_closure_and_explicit_contract_decisions():
     assert ai_policy.validate_manifest() == []
     enforced = {family for family in ai_policy.FAMILY_MANIFEST
                 if ai_policy.effective_policy(family, "zh")["lifecycle"] == "enforced"}
-    assert enforced == {"dummy_pronoun", "demonstrative_classifier"}
-    for family in enforced:
+    assert enforced == set()
+    for family in ("dummy_pronoun", "demonstrative_classifier"):
         policy = ai_policy.effective_policy(family, "zh")
-        assert policy["density_contract"] is True
-        assert policy["decision_ref"] == "pronoun-density-2026-07-17"
+        assert not policy.get("density_contract")
+        assert policy["decision_ref"] == "aigc-readability-2026-09-15"
 
 
 def test_effective_policy_is_language_and_rule_aware():
