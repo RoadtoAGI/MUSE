@@ -91,6 +91,20 @@ Reviewers compare the prose with its design and return problems to the writer or
 
 ## Quick start
 
+### Install the plugins
+
+The four packages are distributed through [MUSE-skills](https://github.com/RoadtoAGI/MUSE-skills). In Claude Code, add the marketplace once and install the packages you need:
+
+```text
+/plugin marketplace add RoadtoAGI/MUSE-skills
+/plugin install muse-writing@muse-skills
+/plugin install muse-canon-distill@muse-skills
+```
+
+These two packages provide original writing and literary references. For serial fiction, also install `muse-serial-writing@muse-skills` and `muse-serial-distill@muse-skills`. See the [installation guide](https://github.com/RoadtoAGI/MUSE-skills/blob/main/README.en.md) for all four packages, Codex installation, and updates.
+
+Hugging Face: [skill resources](https://huggingface.co/datasets/RoadtoASI/MUSE-skills) · [code repository and project page](https://huggingface.co/spaces/RoadtoASI/MUSE).
+
 ### Use the skills in an agent workspace
 
 Clone the repository into a workspace your agent can access:

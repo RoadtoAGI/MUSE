@@ -91,6 +91,20 @@ MUSE 用智能体运行框架组织创作：主控安排任务，专门角色负
 
 ## 快速开始
 
+### 安装技能插件
+
+四套技能统一发布在 [MUSE-skills](https://github.com/RoadtoAGI/MUSE-skills)。Claude Code 中添加一次插件源，再安装所需包：
+
+```text
+/plugin marketplace add RoadtoAGI/MUSE-skills
+/plugin install muse-writing@muse-skills
+/plugin install muse-canon-distill@muse-skills
+```
+
+这两个包提供原创写作和文学参考。连载创作可继续安装 `muse-serial-writing@muse-skills` 和 `muse-serial-distill@muse-skills`。完整命令、Codex 安装和更新方法见[技能仓库说明](https://github.com/RoadtoAGI/MUSE-skills#claude-code-安装)。
+
+Hugging Face：[技能资源](https://huggingface.co/datasets/RoadtoASI/MUSE-skills) · [代码仓库及项目页](https://huggingface.co/spaces/RoadtoASI/MUSE)。
+
 ### 在智能体工作区中使用技能
 
 将仓库克隆到智能体可以访问的工作区：
