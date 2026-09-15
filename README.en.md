@@ -8,6 +8,10 @@
 
 Describe the story you want, then develop it from premise to finished prose.
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.15188-b31b1b.svg)](https://arxiv.org/abs/2609.15188)
+
+[Paper](https://arxiv.org/abs/2609.15188) · [PDF](https://arxiv.org/pdf/2609.15188) · [Citation](#citation)
+
 [Story theory](#how-mckees-theory-guides-writing) · [Literary knowledge base](#learning-from-literary-examples) · [How it works](#how-it-works) · [Skill packages](#skill-packages) · [Quick start](#quick-start) · [Repository guide](#repository-guide)
 
 </div>
@@ -17,6 +21,14 @@ MUSE is an AI writing system for **original fiction, screenplays, serial fiction
 Describe the setting, relationships, key events, atmosphere, and prose style in natural language. MUSE develops these requirements into world facts, character motivations, outlines, and scene plans. A shared workspace stores them for subsequent writing, and the final output includes the manuscript and its design and revision materials. We call the task of developing a complete story from writing requirements **Vibe Narrativizing**.
 
 The repository also provides tools for analyzing literary works, distilling character materials, and retrieving references. Most skill instructions and knowledge-base annotations are in Chinese; the [skills collection](skills/README.md) includes a corpus guide and links to English source material.
+
+## Paper
+
+**[MUSE: A Theory-Harnessed Story Engine for Vibe Narrativizing](https://arxiv.org/abs/2609.15188)**
+
+Jianxiang Ma, Xiaocui Yang, Daling Wang, Yuesong Hou, Mingfu Zhang, Yichen Gao, Junzhao Huang · arXiv, 2026
+
+The paper explains how story knowledge becomes creative guidance and how an agent harness and context engineering carry that guidance and prior decisions through design, performance, composition, and revision. It presents experiments across four base models, component ablations, and case analyses.
 
 ## How McKee's theory guides writing
 
@@ -60,45 +72,7 @@ MUSE organizes creation through an agent harness: a coordinator assigns tasks, s
 
 The diagram shows the full story workflow, its reference sources, and where revisions return.
 
-```mermaid
-flowchart TD
-    request["Writing request<br/>Premise, constraints, tone, and desired experience"]
-    theory["Story theory<br/>Reusable rules and worked examples"]
-    works["Literary works<br/>Novels, plays, and serial fiction"]
-    canon["Literary knowledge base<br/>Designs, characters, dialogue, style, and source scenes"]
-    examples["Select few-shot references for the current task<br/>Source passages, analysis, and usage guidance"]
-    design["Design<br/>World, characters, plot, and scene plans"]
-    performance["Character performance (optional)<br/>Intentions, actions, and dialogue candidates"]
-    creation["Creation<br/>Compose scenes from plans and character materials"]
-    review["Review and revision<br/>Story coherence, character voice, and prose"]
-    story["Finished story<br/>Manuscript and supporting design artifacts"]
-
-    request --> design
-    theory -.-> design
-    theory -.-> review
-    works -- Analyze and annotate --> canon
-    canon --> examples
-    examples -. Conception and outline .-> design
-    examples -. Character dialogue .-> performance
-    examples -. Scene and style .-> creation
-    examples -. Reuse adopted references .-> review
-    design --> performance
-    design --> creation
-    performance --> creation
-    creation --> review
-    review -- Revise scenes --> creation
-    review -- Revisit design --> design
-    review --> story
-
-    classDef knowledge fill:#f3e8ff,stroke:#7e22ce,color:#3b0764
-    classDef planning fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    classDef writing fill:#fff7ed,stroke:#c2410c,color:#7c2d12
-    classDef checking fill:#ecfdf5,stroke:#047857,color:#064e3b
-    class works,theory,canon,examples knowledge
-    class request,design planning
-    class performance,creation writing
-    class review,story checking
-```
+[![MUSE method: design, character performance, composition, canon reference, and review](assets/muse-method.png)](assets/muse-method.png)
 
 Design proceeds through premise, world, characters, plot spine, sequence structure, and scene plans. The climax determines what earlier conflicts must establish. During composition, characters work from the situation as they know it to propose actions, reactions, and lines. The writer combines scene plans, character materials, and current references to choose viewpoint, pacing, and detail.
 
@@ -234,3 +208,19 @@ python3 -m pytest
 ```
 
 These suites use local fixtures and mocks and do not require API credentials.
+
+## Citation
+
+If you use MUSE in your research, please cite:
+
+```bibtex
+@misc{ma2026muse,
+  title         = {{MUSE}: A Theory-Harnessed Story Engine for Vibe Narrativizing},
+  author        = {Jianxiang Ma and Xiaocui Yang and Daling Wang and Yuesong Hou and Mingfu Zhang and Yichen Gao and Junzhao Huang},
+  year          = {2026},
+  eprint        = {2609.15188},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.15188}
+}
+```

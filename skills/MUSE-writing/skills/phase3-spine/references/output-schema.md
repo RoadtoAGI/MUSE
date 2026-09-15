@@ -13,11 +13,11 @@ inciting_incident:
 spine_mode: desire | information | motif
 
 desire_object:   # 条件字段：仅 spine_mode=desire 时必填；information/motif 下为 null
-  conscious: "自觉欲望对象（主角明确追求的具体目标）"
+  conscious: "自觉欲望对象；多位主线人物时用具名短句保留各自目标"
   unconscious: null  # optional；仅 Phase 2 已成立时填写本人未察觉的追求
   tension: null      # optional；存在双层欲望时解释关系
 
-spine_statement: "一句话脊椎表述（语义按 spine_mode 解释：desire='主角想要 X 为此克服 Y' / information='真相 T 如何逐步显形' / motif='母题 M 如何展开呼应变形'）"
+spine_statement: "一句话脊椎表述（desire=人物追求及其相互影响 / information=真相 T 如何逐步显形 / motif=母题 M 如何展开呼应变形）"
 spine_type: conscious | unconscious   # 条件字段：仅 spine_mode=desire 时填；其他 mode 下为 null
 
 reader_spine:    # 所有 mode 通用；读者整篇追踪的认知线，可与角色脊椎错位
@@ -57,10 +57,10 @@ story_climax_design:
     option_b: null  # 有互斥选择时写 B 的条件与后果；无两难时为 null
     character_revelation: "行动或认识变化显出的人物真相"
   climax:
-    action: "高潮行动"
+    action: "高潮行动及其关联结果；多线时写清各人所得、损失与仍须完成的考验"
     value_change:
-      from: "起始价值"
-      to: "终止价值"
+      from: "起始价值；必要时区分相关人物或关系"
+      to: "终止价值；同一事件可以使各人得到不同结果"
     controlling_idea_expression: "如何体现主控思想"
     climax_form: hero_succeeds | hero_fails_world_completes | withdrawal_as_resolution | silence_after_truth   # 可选；默认 hero_succeeds；收束形态，实际所得与损失由行动及结果说明
   resolution:
@@ -73,10 +73,10 @@ story_climax_design:
 | 字段 | 必需 | 下游使用 |
 |------|------|---------|
 | `inciting_incident` | 是 | Phase 4（按实际呈现位置展开激励事件及必要铺垫）|
-| `spine_mode` | 是 | **phase-local operational enum**——声明故事组织力类型。enum：`desire`（麦基默认：单主角欲望 + 不懈努力）\| `information`（真相显形 / 碎片聚拢）\| `motif`（观念 / 意象 / 风格驱动的组织力）。Phase 3 独立判定，不回读 Phase 0 `primary_drive` 做条件分支。**消费者**：Phase 5 `spine_statement` 取舍测试按 mode 解释。**既有产物 fallback**：`phase3_spine.yaml` 缺 `spine_mode` 时兼容层按 `desire` 解释，新生成路径必须显式选择最贴近的一类，不允许以"不确定"为由跳过判定 |
+| `spine_mode` | 是 | **phase-local operational enum**——声明故事组织力类型。enum：`desire`（人物追求及其相互影响）\| `information`（真相显形 / 碎片聚拢）\| `motif`（观念 / 意象 / 风格驱动的组织力）。人物数量与模式分别判断，方法见 [SKILL.md“构建故事脊椎”](../SKILL.md#3-构建故事脊椎)。Phase 3 独立判定，不回读 Phase 0 `primary_drive` 做条件分支。**消费者**：Phase 5 `spine_statement` 取舍测试按 mode 解释。**既有产物 fallback**：`phase3_spine.yaml` 缺 `spine_mode` 时兼容层按 `desire` 解释，新生成路径必须显式选择最贴近的一类，不允许以"不确定"为由跳过判定 |
 | `desire_object` | 条件（`spine_mode=desire` 时必填；其他 mode 下为 null）| Phase 3 推导脊椎的欲望依据；其他 mode 为 null。下游从脊椎、Arc 和收束设计消费其结果 |
 | `spine_statement` | 是 | Phase 5 场景取舍测试（是否与脊椎相关？）——**所有 `spine_mode` 通用**，语义按 mode 解释（desire 下"是否推进欲望"、information 下"是否贡献真相显形碎片"、motif 下"是否呼应/变形母题"）|
-| `spine_type` | 条件（`spine_mode=desire` 时填；其他 mode 下为 null）| 仅 desire mode 下使用；其他 mode 下不适用（不强制填写）|
+| `spine_type` | 条件（`spine_mode=desire` 时填；其他 mode 下为 null）| 按主导全篇因果的追求判断，人物各自的自觉程度保留在欲望说明；其他 mode 下不适用 |
 | `reader_spine` | 是（所有 mode 通用）| Phase 5 将全篇认知线具体化为本场 `reader_track / scene_tasks / omission_plan`，由场景卡交 writer；Phase 6/7 的作者侧审阅对照这些本场条件与实际披露位置，必要时回查全篇意图，reader 保持盲读。高潮场景用 `recognition_object` 说明读者形成认识的依据 |
 | `reader_spine.reveal_ladder_seed` | 否 | 真实事实、因果或身份需分阶段释放，且各段改变行动、归因、关系判断或价值评价时启用；按实际释放阶段填写，未使用位置为空数组；普通母题、象征和伏笔不触发 |
 | `dramatic_question` | 是 | Phase 7（核对核心关切的收束是否符合已选意图）|

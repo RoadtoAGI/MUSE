@@ -3,6 +3,9 @@
 !/.gitignore
 !/README.md
 !/README.en.md
+!/assets/
+/assets/*
+!/assets/muse-method.png
 !/requirements.txt
 !/requirements-dev.txt
 !/pytest.ini

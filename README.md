@@ -8,6 +8,10 @@
 
 描述你想写的故事，从构思开始，逐步完成正文。
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.15188-b31b1b.svg)](https://arxiv.org/abs/2609.15188)
+
+[论文](https://arxiv.org/abs/2609.15188) · [PDF](https://arxiv.org/pdf/2609.15188) · [引用](#引用)
+
 [理论基础](#麦基理论如何指导创作) · [名著知识库](#从名著中学习写法) · [工作原理](#工作原理) · [技能包](#技能包) · [快速开始](#快速开始) · [仓库结构](#仓库结构)
 
 </div>
@@ -17,6 +21,14 @@ MUSE 是一个 AI 写作系统，支持**原创小说、剧本、连载和衍生
 你可以用自然语言描述设定、人物关系、关键事件、氛围和文风。这些需求逐步形成世界设定、人物动机、大纲和场景计划，保存在工作区中，供后续写作读取；最终交付故事正文及设计、修订材料。我们将从写作需求发展出完整故事的任务称为 **Vibe Narrativizing**。
 
 仓库还提供文学作品拆解、人物资料蒸馏和参考检索工具。技能说明和知识库标注以中文为主，语料语言及英文原文入口见[技能合集说明](skills/README.md)。
+
+## 论文
+
+**[MUSE: A Theory-Harnessed Story Engine for Vibe Narrativizing](https://arxiv.org/abs/2609.15188)**
+
+Jianxiang Ma, Xiaocui Yang, Daling Wang, Yuesong Hou, Mingfu Zhang, Yichen Gao, Junzhao Huang · arXiv, 2026
+
+论文介绍了故事知识如何形成创作指导，以及智能体框架与上下文工程如何将指导和已有决定用于设计、表演、写作与修订，并通过四个基础模型上的实验、组件消融和案例分析展示效果。
 
 ## 麦基理论如何指导创作
 
@@ -60,45 +72,7 @@ MUSE 用智能体运行框架组织创作：主控安排任务，专门角色负
 
 下图展示完整故事工作流中的任务顺序、参考来源和修订去向。
 
-```mermaid
-flowchart TD
-    request["创作需求<br/>构想、约束、基调与阅读体验"]
-    theory["故事理论<br/>可复用规则与典型案例"]
-    works["文学作品<br/>小说、戏剧与连载"]
-    canon["名著知识库<br/>设计分析、人物、对白、文风与场景原文"]
-    examples["按创作问题选取 few-shot<br/>原文、分析与使用说明"]
-    design["设计<br/>世界、人物、情节与场景规划"]
-    performance["人物表演（按需）<br/>意图、动作与对白候选"]
-    creation["正文创作<br/>将场景设计与人物材料组织成文"]
-    review["审稿修订<br/>故事连贯性、人物声音与语言表达"]
-    story["完整故事<br/>正文及配套设计材料"]
-
-    request --> design
-    theory -.-> design
-    theory -.-> review
-    works -- 拆解与标注 --> canon
-    canon --> examples
-    examples -. 构想与大纲参考 .-> design
-    examples -. 人物对白参考 .-> performance
-    examples -. 场景与文风参考 .-> creation
-    examples -. 沿用已采用参考 .-> review
-    design --> performance
-    design --> creation
-    performance --> creation
-    creation --> review
-    review -- 修订正文 --> creation
-    review -- 调整设计 --> design
-    review --> story
-
-    classDef knowledge fill:#f3e8ff,stroke:#7e22ce,color:#3b0764
-    classDef planning fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    classDef writing fill:#fff7ed,stroke:#c2410c,color:#7c2d12
-    classDef checking fill:#ecfdf5,stroke:#047857,color:#064e3b
-    class works,theory,canon,examples knowledge
-    class request,design planning
-    class performance,creation writing
-    class review,story checking
-```
+[![MUSE 论文方法图：设计、人物表演、正文创作、名著参考与审阅修订](assets/muse-method.png)](assets/muse-method.png)
 
 设计阶段依次建立构想、世界、人物、主线、序列结构和场景计划。高潮需要什么条件，决定前面的冲突如何铺设。进入正文创作后，人物按自己所知的处境提出可能的动作、反应和对白，写作者结合场景计划、人物材料和当前参考，安排视角、节奏与细节。
 
@@ -233,3 +207,19 @@ python3 -m pytest
 ```
 
 这些测试使用本地样例与模拟调用，无需 API 密钥。
+
+## 引用
+
+如果本项目对你的研究有帮助，请引用：
+
+```bibtex
+@misc{ma2026muse,
+  title         = {{MUSE}: A Theory-Harnessed Story Engine for Vibe Narrativizing},
+  author        = {Jianxiang Ma and Xiaocui Yang and Daling Wang and Yuesong Hou and Mingfu Zhang and Yichen Gao and Junzhao Huang},
+  year          = {2026},
+  eprint        = {2609.15188},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.15188}
+}
+```

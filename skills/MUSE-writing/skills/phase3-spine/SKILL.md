@@ -7,7 +7,7 @@ description: 原创完整链的脊椎与幕设计，从人物和情境形成激�
 
 ## 核心原则
 
-脊椎 = 故事的**组织力**——**默认适用于单主角、冲突驱动、目标明确的戏剧型故事**（麦基框架"主角恢复生活平衡的深层欲望 + 不懈努力"；原文见 `references/mckee-spine.md §故事脊椎`）。群像 / 调查 / 拼图 / 反结构作品可用**信息脊椎**（真相显形 / 碎片聚拢）或**母题脊椎**（观念 / 意象 / 风格驱动的组织力）替代——脊椎类型由 `spine_mode` 字段显式声明（enum：`desire | information | motif`；边界定义见 Step 3）。
+脊椎是故事的**组织力**。目标明确的单主角戏剧通常以欲望和不懈努力组织全篇；多位人物的独立追求也可通过相互影响形成整体。`spine_mode` 按实际组织力选择 `desire | information | motif`，人物数量与模式分别判断。真相显形可用信息脊椎，观念、意象或风格的展开可用母题脊椎；边界见 Step 3。
 
 不论 `spine_mode`，每个场景要么推进脊椎，要么与脊椎形成张力——与脊椎无关的场景不属于这个故事（所有 mode 通用的场景取舍测试）。
 
@@ -26,8 +26,9 @@ description: 原创完整链的脊椎与幕设计，从人物和情境形成激�
 - `protagonist.desire_system` — **核心**（`spine_mode=desire`）/ **参考**（`information` / `motif`）：desire 下用于激发主角欲望、构建脊椎；非 desire mode 可参考但不强制构建欲望脊椎
 - `protagonist.characterization` — **核心**（`spine_mode=desire`）/ **参考**（其他）：desire 下作为脊椎起点（主角初始生活平衡）；非 desire mode 仅作角色画像参考
 - `protagonist.backstory / character_arc.start_state` — 当前判断的形成依据与故事起点
-- 人物初始处境、已知信息与关系感知：已构建 actor 资产时按 `pipeline/story-character-skills/build-report.md` 的 name→slug 映射读取主角 `state.md`；剧本等设计调用链直接读取 Phase 2 的经历、`character_arc.start_state` 与相关作者输入。只使用人物此刻可知的信息。
+- 人物初始处境、已知信息与关系感知：已构建 actor 资产时按 `pipeline/story-character-skills/build-report.md` 的 name→slug 映射读取相关主线人物 `state.md`；剧本等设计调用链直接读取 Phase 2 的经历、`character_arc.start_state` 与相关作者输入。只使用人物此刻可知的信息。
 - `deuteragonist`（若存在）— **条件依赖**：双主角 / 守护者形态下按 protagonist 等价结构读取，参与 spine 组织力判断
+- 其余持续主线人物或继任者（若存在）— 从 Phase 2 已有角色条目读取其追求、经历与轨迹；设计角色名不限定谁能承担后续主线
 - `antagonist` — **条件依赖**：若对抗由人物承载（多数 desire mode + 部分 information mode）则读取；纯 information / motif 故事如对抗来自信息缺口或形式约束本身，可不读
 
 ## Canon/design reference（按问题取材）
@@ -85,6 +86,8 @@ phase5 scene_card 后再具体绑定 INS-* `disclosure_ladder[].scene_id` 到具
 
 欲望驱动故事用具体事件打破主角原有平衡，使其必须回应；事件可由主动决定（decision）或遭遇（accident）引发（原著依据见 `references/mckee-spine.md §激励事件`）。信息/母题组织的作品按实际结构记录信息缺口打开或母题被激活的时点，不另造不可逆灾变来套用欲望模型。
 
+多线可以错开启动：`inciting_incident` 保留所选的全篇激励事件及其位置，各线其他启动写入有关 `arcs`，同一事件对各人承担的作用按实际后果区分。
+
 ```
 日常平衡 → 激励事件 → 失衡（正向或负向偏离）
 ```
@@ -106,9 +109,9 @@ phase5 scene_card 后再具体绑定 INS-* `disclosure_ladder[].scene_id` 到具
 
 | `spine_mode` | 语义 | 典型场景 |
 |---|---|---|
-| `desire`（麦基默认）| 主角有明确欲望对象，不懈努力追求 | 冲突驱动戏剧、单主角目标追求 |
+| `desire`（麦基默认）| 人物追求及其相互影响组织事件 | 单主角求索、共同追求、独立欲望相互牵制 |
 | `information` | 真相逐步显形 / 碎片逐步聚拢 | 侦探 / 调查 / 档案拼图 / 解谜 |
-| `motif` | 观念 / 意象 / 风格驱动的组织力 | 观念小说 / 文献拼贴 / 群像 / 氛围累积 |
+| `motif` | 观念 / 意象 / 风格驱动的组织力 | 观念小说 / 文献拼贴 / 氛围累积 |
 
 形式约束型作品按实际组织作用选择 `motif` 或 `information`。
 
@@ -116,20 +119,22 @@ phase5 scene_card 后再具体绑定 INS-* `disclosure_ladder[].scene_id` 到具
 
 | `spine_mode` | `spine_statement` 范式 |
 |---|---|
-| `desire` | "主角想要 X，为此克服 Y，最终获得/失去 X" |
+| `desire` | 单线可写“主角想要 X，为此克服 Y，最终获得/失去 X”；多线写清承重追求怎样相互作用并形成结果 |
 | `information` | "真相 T 如何逐步显形：从初见象到完整理解的路径" |
 | `motif` | "母题 M 在故事中如何展开、呼应、变形" |
+
+多位人物的独立追求、相互对抗或主人公继任承担全篇组织时，读取[多位主人公与追求接力](references/mckee-spine.md#多位主人公与追求接力)。群像可以采用上表任一模式；采用 `desire` 时，在现有 `desire_object` 文本中保留欲望所属人物，以 `spine_statement / arcs` 记录追求间的关系及变化，交 Phase 4 展开。
 
 脊椎先按输入契约读取 Phase 2 的经历、初始状态及已有的主人公状态，确定人物进入故事时已有的经历、信念、已知信息与盲区。随后从人物内部生成决断：暂时进入这个人，让其信念和欲望成为判断起点；再让其只凭当前感官和新获得的信息继续生活、解释并选择。不要先用作者或 helpful assistant 的公共伦理、风险审计得出“客观答案”，再把人物经历补成论据；也不要让新刺激无因推翻此前已经形成的信念。角色化预演不写入产物，脊椎只保留“已有价值 → 新事实在人物眼中意味着什么 → 选择 → 后果”的因果结果。方法见 `references/mckee-spine.md §人物内部的决断链`。
 
 **Step 3.3：desire mode 下的 spine_type 子类判定**（仅 `spine_mode=desire` 时适用）：
-- 主角只有自觉欲望：自觉欲望 = 脊椎（`spine_type: conscious`）
-- 主角存在贯穿选择的不自觉追求：用它统一脊椎（`spine_type: unconscious`）；空字段或心理标签不足以成立此类，须说明它怎样组织实际选择
+- 明确追求足以解释全篇组织：`spine_type: conscious`
+- 本人未察觉的追求主导全篇因果：`spine_type: unconscious`；说明它属于谁、怎样组织实际选择。多线人物不同的自觉程度保留在具名欲望说明中，不由全篇标签统一
 
 `information` / `motif` mode 下 `spine_type` 字段为 null（不适用）。
 
 **Step 3.4：场景取舍测试**（所有 mode 通用）——如果一个场景既不推进也不挑战脊椎，它可能不属于这个故事：
-- `desire` mode：不推进"欲望 + 不懈努力"的场景可删
+- `desire` mode：检查本场怎样推进、挑战或照亮已建立的追求及其关联后果；没有这些作用的场景可删
 - `information` mode：不贡献"真相显形"关键碎片 / 不给出新信息差的场景可删
 - `motif` mode：不呼应 / 不变形 / 不展开母题的场景可删
 
@@ -158,7 +163,7 @@ Phase 5 将这条全篇认知线转为当前场景的 `reader_track`、`scene_ta
 
 ### 5. 确定对抗力量
 
-根据故事需要，确定主角将面对的对抗力量。麦基将对抗分为内在（自我）、个人（人际）、外在（社会/环境）三层，但不必拘泥于此分类——按故事实际需要决定对抗的类型和数量。
+根据故事需要，确定人物将面对的对抗力量。麦基将对抗分为内在（自我）、个人（人际）、外在（社会/环境）三层，但不必拘泥于此分类——按故事实际需要决定对抗的类型和数量。另一位主人公也可成为阻力，`opposing_forces` 写清其自身追求怎样妨碍对方。
 
 ### 6. 设计幕/Arc 框架
 
@@ -187,6 +192,8 @@ Arc 数量由真正的重大**轨迹跃迁**决定。外部声量可以降低，
 - **危机**：结局前集中显现的压力、选择或认识变化。确有互斥选择时，`option_a / option_b` 在作者层记录选择、排斥另一条路的已知条件及其后果；能够兼做、合作或延后的行动按实际条件推演。观察或真相显形的收束没有两难时，将这些选项留空，在 `dilemma` 中描述实际待解处境；字段排列与说明不取得正文表达权
 - **高潮**：压力下的行动或认识变化及其结果，让本篇组织的关系在结局处显现
 - **结局**：高潮后的新平衡状态
+
+多条线共同决定终局时，区分各人的所得与损失，以及最后仍需回应的考验与既成结果的余波，读取[多线结果与最后考验](references/mckee-spine.md#多线结果与最后考验)。结果及相互影响写入现有 `story_climax_design / arcs`，由 Phase 4/5 安排合并或错开收束；`climax_form` 只提供参考形态，不代替各人的实际结果。
 
 > 「故事高潮必须充满意义……当价值处于最大负荷时所发生的绝对而不可逆转的价值摇摆。」
 > —— 《故事》第十三章
