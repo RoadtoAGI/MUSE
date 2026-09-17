@@ -38,7 +38,6 @@ import yaml
 
 SUBDIRS = [
     "pipeline/scenes",
-    "pipeline/characters",
     "pipeline/staging",
     "pipeline/references",
     "pipeline/references/prototypes",

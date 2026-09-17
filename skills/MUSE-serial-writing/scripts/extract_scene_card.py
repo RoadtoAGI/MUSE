@@ -181,6 +181,9 @@ def render_scene_card_markdown(scene: dict) -> str:
     lines.append(f"**冲突或组织关系**: {scene['conflict']}")
     lines.append(f"**入场处境**: {scene['value_start']}")
     lines.append(f"**离场结果**: {scene['value_end']}")
+    if scene.get("beat_direction"):
+        lines.append(f"**关键转折**: {scene['beat_direction']}")
+        lines.append("保留关键变化及其触发原因；动作、对白和叙述次序由正文实现。")
     # reader_track: 本场读者跟随的单一阅读问题/行动线（writer 主线锚点）。
     # 字段缺位 → 不渲染（writer 走 reader_track=null 路径，不阻断生成）。
     reader_track = scene.get("reader_track")
@@ -209,170 +212,180 @@ def render_scene_card_markdown(scene: dict) -> str:
             lines.append(f"- {ins_id}")
         lines.append("")
 
-    # v3 新增字段（全 optional，缺/空整段省略）
+    # 扩展字段各自保留事实边界或候选性质，不能由字段出现推导强制写法。
     _render_v3_fields(scene, lines)
 
     return "\n".join(lines)
 
 
-def _render_v3_fields(scene: dict, lines: list[str]) -> None:
-    """渲染 v3 schema 的扩展字段（craft_carrier / counter_prior_scene 等）。
+# 已知枚举仅作自然语言投影；自由描述与未知值原样保留。
+CRAFT_LABELS = {
+    "object": "物件", "bodily_action": "身体行动", "silence": "沉默",
+    "procedural_form": "程序或文书形式", "second_hand_story": "转述故事",
+    "sensory_shock": "感官冲击", "scale_shift": "尺度转换",
+    "expectation_reversal": "期待反转",
+}
+REVEAL_LABELS = {
+    "direct_action": "由当场行动显露", "indirect_evidence": "由间接证据推知",
+    "witness_chain": "由见证者的转述逐步揭示", "object_trace": "由物件痕迹揭示",
+    "official_record": "由正式记录揭示", "overheard_fragment": "由听到的话语片段揭示",
+    "bodily_reaction": "由身体反应显露", "delayed_revelation": "延后揭示",
+}
+DISTANCE_LABELS = {
+    "intimate_first": "贴近当下体验的第一人称", "reminiscing_first": "回顾式第一人称",
+    "reporter_third_close": "贴近人物的第三人称", "reporter_third_distant": "外部观察式第三人称",
+    "archival_zero": "档案式外部叙述", "omniscient_satirist": "全知讽刺叙述",
+    "bilingual_drifter": "游移的双语叙述", "unreliable_first": "不可靠的第一人称叙述",
+}
+MIRROR_LABELS = {"failure": "失败呼应", "success": "成功呼应", "irony": "反讽呼应"}
+CLIMAX_LABELS = {
+    "layered_revelation": "新证据逐步改写既有理解",
+    "ineffable_realization": "难以概括为命题的认知或感受转折",
+    "passive_death": "通过肉身与物质变化呈现死亡",
+    "mask_hard_cut": "情绪收回时显出恢复的社会面具",
+    "unfinished_action": "未完成的表达或行动承担后果",
+    "anti_epic_failure": "主角失败后由已铺设的他者或世界因果完成结果",
+    "scale_shrink": "宏大后果落到具体的人类尺度",
+}
+ATTRIBUTION_LABELS = {
+    "neutral_tag": "中性说话标记", "action_bridge": "通过动作衔接说话者",
+    "object_bridge": "通过物件衔接说话者", "listener_reaction": "通过听者反应承接",
+    "omitted_tag": "省略说话标记",
+}
+DIALOGUE_LABELS = {
+    "diagnostic_verdict": "诊断或裁决式表达", "single_word_winner": "以单个词改变交锋",
+    "caretaker_tone_violence": "照料口吻中的暴力", "monosyllable_confession": "极短的坦白",
+    "co_creation_as_confession": "通过共同创作表露心意",
+}
+COUNTER_PRIOR_LABELS = {
+    "ritual_with_food": "仪式中的饮食", "hospital_with_lecture": "医院处境中的讲授",
+    "death_with_chore": "死亡处境中的日常事务", "farewell_with_chess": "告别中的对弈",
+    "custom": "本场自定的日常行为与处境组合",
+}
 
-    所有字段 optional：missing / None / 空容器 / used=false → 整段 section 省略。
-    """
-    # craft_carrier（object）
+
+def _label(value, labels: dict[str, str]) -> str:
+    """翻译已有含义；未知枚举不猜测、不丢弃。"""
+    if isinstance(value, list):
+        return " / ".join(_label(item, labels) for item in value)
+    return labels.get(str(value), str(value))
+
+
+def _render_v3_fields(scene: dict, lines: list[str]) -> None:
+    """投影场景材料的作用、候选性质与已确认边界。"""
     craft_carrier = scene.get("craft_carrier")
     if craft_carrier:
-        lines.append("## Carrier 设计")
-        lines.append("")
+        lines.extend(["## 承载候选", ""])
         if craft_carrier.get("type"):
-            lines.append(f"- **Type**: {craft_carrier['type']}")
+            lines.append(f"- **承载方式**: {_label(craft_carrier['type'], CRAFT_LABELS)}")
         if craft_carrier.get("concrete_anchor"):
-            lines.append(f"- **Concrete anchor**: {craft_carrier['concrete_anchor']}")
+            lines.append(f"- **具体材料**: {craft_carrier['concrete_anchor']}")
+        if craft_carrier.get("function"):
+            lines.append(f"- **叙事作用**: {craft_carrier['function']}")
         if craft_carrier.get("replaces"):
-            lines.append(f"- **Replaces**: {craft_carrier['replaces']}")
+            lines.append(f"- **既有候选说明**: {craft_carrier['replaces']}")
+            lines.append("  按本场作用判断替代关系；这条说明不要求删除有独立作用的解释、心理或背景。")
         lines.append("")
 
     _render_world_disclosure_plan(scene, lines)
 
-    # pov_constraint（object）— 对齐 phase5 output-schema.md L35-37：
-    # can_perceive: list[str] / cannot_perceive: list[str] / intentional_blind_spot: str
     pov_constraint = scene.get("pov_constraint")
     if pov_constraint:
-        lines.append("## POV 约束")
-        lines.append("")
-        can_perceive = pov_constraint.get("can_perceive")
-        if can_perceive:
-            can_str = ", ".join(can_perceive) if isinstance(can_perceive, list) else can_perceive
-            lines.append(f"- **可感知**: {can_str}")
-        cannot_perceive = pov_constraint.get("cannot_perceive")
-        if cannot_perceive:
-            cannot_str = ", ".join(cannot_perceive) if isinstance(cannot_perceive, list) else cannot_perceive
-            lines.append(f"- **不可感知**: {cannot_str}")
-        if pov_constraint.get("intentional_blind_spot"):
-            lines.append(f"- **故意遮蔽**: {pov_constraint['intentional_blind_spot']}")
+        lines.extend(["## POV 约束", ""])
+        for key, label in (("can_perceive", "可感知"), ("cannot_perceive", "不可感知"),
+                           ("intentional_blind_spot", "故意遮蔽")):
+            if pov_constraint.get(key):
+                lines.append(f"- **{label}**: {_label(pov_constraint[key], {})}")
         lines.append("")
 
-    # omission_plan（list）
     omission_plan = scene.get("omission_plan")
     if omission_plan:
-        lines.append("## 故意省略")
-        lines.append("")
-        for item in omission_plan:
-            lines.append(f"- {item}")
+        lines.extend(["## 故意省略", ""])
+        lines.extend(f"- {item}" for item in omission_plan)
         lines.append("")
 
-    # irreversible_action（list）
     irreversible_action = scene.get("irreversible_action")
     if irreversible_action:
-        lines.append("## 不可逆动作")
-        lines.append("")
-        for item in irreversible_action:
-            lines.append(f"- {item}")
+        lines.extend(["## 不可逆变化", "",
+                      "保持已确认的事实、核心因果与必要结果；动作的具体实现按其作用选择。", ""])
+        lines.extend(f"- {item}" for item in irreversible_action)
         lines.append("")
 
-    # reveal_method（object）— schema 只有 type 一个子键
     reveal_method = scene.get("reveal_method")
     if reveal_method:
-        lines.append("## 揭示方式")
-        lines.append("")
+        lines.extend(["## 揭示方式候选", ""])
         if reveal_method.get("type"):
-            lines.append(f"- **Type**: {reveal_method['type']}")
+            lines.append(f"- **信息怎样显露**: {_label(reveal_method['type'], REVEAL_LABELS)}")
         lines.append("")
 
-    # narrator_distance（object）
     narrator_distance = scene.get("narrator_distance")
     if narrator_distance:
-        lines.append("## 叙述距离")
-        lines.append("")
+        lines.extend(["## 叙述距离建议", ""])
         if narrator_distance.get("mode"):
-            lines.append(f"- **Mode**: {narrator_distance['mode']}")
+            lines.append(f"- **叙述位置**: {_label(narrator_distance['mode'], DISTANCE_LABELS)}")
         if narrator_distance.get("reason"):
-            lines.append(f"- **Reason**: {narrator_distance['reason']}")
+            lines.append(f"- **选择依据**: {narrator_distance['reason']}")
         lines.append("")
 
-    # scale_inversion（object，used=true 时渲染）— schema 仅 used / bridge
     scale_inversion = scene.get("scale_inversion")
     if scale_inversion and scale_inversion.get("used") is True:
-        lines.append("## 尺度反转")
-        lines.append("")
-        lines.append("- **Used**: true")
+        lines.extend(["## 尺度转换候选", ""])
         if scale_inversion.get("bridge"):
-            lines.append(f"- **Bridge**: {scale_inversion['bridge']}")
+            lines.append(f"- **大命题与具体事物的联系**: {scale_inversion['bridge']}")
         lines.append("")
 
-    # precedent_mirror（object）
     precedent_mirror = scene.get("precedent_mirror")
     if precedent_mirror:
-        lines.append("## 先例镜像")
-        lines.append("")
-        if precedent_mirror.get("mirrors_scene"):
-            lines.append(f"- **Mirrors scene**: {precedent_mirror['mirrors_scene']}")
-        if precedent_mirror.get("mirror_kind"):
-            lines.append(f"- **Mirror kind**: {precedent_mirror['mirror_kind']}")
-        preserved = precedent_mirror.get("preserved_anchors")
-        if preserved:
-            anchors_str = ", ".join(preserved) if isinstance(preserved, list) else str(preserved)
-            lines.append(f"- **Preserved anchors**: {anchors_str}")
-        removed = precedent_mirror.get("removed_premises")
-        if removed:
-            removed_str = ", ".join(removed) if isinstance(removed, list) else str(removed)
-            lines.append(f"- **Removed premises**: {removed_str}")
+        lines.extend(["## 先例呼应候选", ""])
+        for key, label, labels in (
+            ("mirrors_scene", "呼应场景", {}), ("mirror_kind", "呼应关系", MIRROR_LABELS),
+            ("preserved_anchors", "沿用的锚点", {}), ("removed_premises", "本场已失去的前提", {}),
+        ):
+            if precedent_mirror.get(key):
+                lines.append(f"- **{label}**: {_label(precedent_mirror[key], labels)}")
         lines.append("")
 
-    # climax_pattern（object，primary != null 时渲染）
     climax_pattern = scene.get("climax_pattern")
-    if climax_pattern:
-        primary = climax_pattern.get("primary")
-        if primary and primary != "null":
-            lines.append("## Climax Pattern")
-            lines.append("")
-            lines.append(f"- **Primary**: {primary}")
-            secondary = climax_pattern.get("secondary")
-            if secondary:
-                sec_str = ", ".join(secondary) if isinstance(secondary, list) else str(secondary)
-                lines.append(f"- **Secondary**: {sec_str}")
-            forbidden = climax_pattern.get("forbidden_moves")
-            if forbidden:
-                forb_str = ", ".join(forbidden) if isinstance(forbidden, list) else str(forbidden)
-                lines.append(f"- **Forbidden moves**: {forb_str}")
-            lines.append("")
+    if climax_pattern and climax_pattern.get("primary") not in (None, "", "null"):
+        lines.extend(["## 高潮机制候选", ""])
+        lines.append(f"- **主要参考**: {_label(climax_pattern['primary'], CLIMAX_LABELS)}")
+        if climax_pattern.get("secondary") not in (None, "", "null", []):
+            lines.append(f"- **辅助参考**: {_label(climax_pattern['secondary'], CLIMAX_LABELS)}")
+        forbidden = climax_pattern.get("forbidden_moves")
+        if forbidden:
+            lines.append(f"- **适用限制**: {_label(forbidden, {})}")
+            lines.append("  保留明确的作者禁界、事实、人物知识、核心因果与衔接要求；手法偏好按本场效果取舍。")
+        lines.append("")
 
-    # dialogue_hints（list of dict，按 speaker 块渲染）
     dialogue_hints = scene.get("dialogue_hints")
     if dialogue_hints:
-        lines.append("## 对白偏好")
-        lines.append("")
+        lines.extend(["## 对白偏好", ""])
         for hint in dialogue_hints:
             if not isinstance(hint, dict):
                 continue
-            speaker = hint.get("speaker", "(unspecified)")
-            lines.append(f"### Speaker: {speaker}")
-            lines.append("")
+            lines.extend([f"### {hint.get('speaker') or '全场对白'}", ""])
             if hint.get("attribution_strategy"):
-                lines.append(f"- **Attribution**: {hint['attribution_strategy']}")
-            if hint.get("dialogue_form"):
-                lines.append(f"- **Form**: {hint['dialogue_form']}")
+                lines.append(f"- **说话归属**: {_label(hint['attribution_strategy'], ATTRIBUTION_LABELS)}")
+            if hint.get("dialogue_form") not in (None, "", "null"):
+                lines.append(f"- **表达形态候选**: {_label(hint['dialogue_form'], DIALOGUE_LABELS)}")
             if hint.get("reason"):
-                lines.append(f"- **Reason**: {hint['reason']}")
+                lines.append(f"- **选择依据**: {hint['reason']}")
             lines.append("")
 
-    # counter_prior_scene（object，used=true 时渲染）
     counter_prior_scene = scene.get("counter_prior_scene")
     if counter_prior_scene and counter_prior_scene.get("used") is True:
-        lines.append("## 反先例场景 (counter_prior_scene)")
-        lines.append("")
-        lines.append("- **Used**: true")
-        if counter_prior_scene.get("kind"):
-            lines.append(f"- **Kind**: {counter_prior_scene['kind']}")
-        if counter_prior_scene.get("mundane_action"):
-            lines.append(f"- **Mundane action**: {counter_prior_scene['mundane_action']}")
-        if counter_prior_scene.get("emotional_context"):
-            lines.append(f"- **Emotional context**: {counter_prior_scene['emotional_context']}")
+        lines.extend(["## 反先验场景候选", ""])
+        for key, label, labels in (
+            ("kind", "行为与处境的组合", COUNTER_PRIOR_LABELS),
+            ("mundane_action", "日常行为候选", {}),
+            ("emotional_context", "情感处境", {}),
+        ):
+            if counter_prior_scene.get(key):
+                lines.append(f"- **{label}**: {_label(counter_prior_scene[key], labels)}")
         forbidden = counter_prior_scene.get("forbidden_moves")
         if forbidden:
-            forb_str = ", ".join(forbidden) if isinstance(forbidden, list) else str(forbidden)
-            lines.append(f"- **Forbidden moves**: {forb_str}")
+            lines.append(f"- **适用限制**: {_label(forbidden, {})}")
+            lines.append("  保留明确的作者禁界与故事约束；仅由模式带出的写法偏好按本场作用判断。")
         lines.append("")
 
     _render_prose_risk_contract(scene, lines)
@@ -400,21 +413,21 @@ def _render_prose_risk_contract(scene: dict, lines: list[str]) -> None:
     lines.append("")
 
     if risk_families:
-        lines.append("**风险族（主动规避；锚 ai-cliche-patterns.md 现有条目）**：")
+        lines.append("**风险关注（可参考 ai-cliche-patterns.md 现有条目）**：")
         lines.append("")
         for item in risk_families:
             lines.append(f"- {item}")
         lines.append("")
 
     if positive_strategy:
-        lines.append("**正向策略（本场特化）**：")
+        lines.append("**候选策略（本场提示）**：")
         lines.append("")
         for item in positive_strategy:
             lines.append(f"- {item}")
         lines.append("")
 
     if bad_shape_examples:
-        lines.append("**结构形态示例（避同构，非字面禁词）**：")
+        lines.append("**问题形态线索（用于定位）**：")
         lines.append("")
         for item in bad_shape_examples:
             lines.append(f"- {item}")

@@ -5,7 +5,7 @@ description: 检查原创完整链正文创作前的设计时间、世界规则�
 
 # 设计一致性校验
 
-读取当前工作目录的 `pipeline/phase0_conception.yaml` 至 `phase5_scenes.yaml`、已引用的 `inspiration_ledger.yaml` 条目，以及本技能的 [校验方法](references/validation-guide.md) 和 [报告格式](references/output-schema.md)。人物经历与轨迹以 Phase 2 YAML 为准，兼容 adapter 只承载身份与声音。
+读取当前工作目录的 `pipeline/phase0_conception.yaml` 至 `phase5_scenes.yaml`、已引用的 `inspiration_ledger.yaml` 条目，以及本技能的 [校验方法](references/validation-guide.md) 和 [报告格式](references/output-schema.md)。人物经历与轨迹以 Phase 2 YAML 为准；涉及运行人物输入时核对对应 runtime SKILL 与身份映射。
 
 ## 判断与定位
 

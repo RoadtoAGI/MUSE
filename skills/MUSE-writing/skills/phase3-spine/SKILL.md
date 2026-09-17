@@ -212,7 +212,7 @@ Arc 数量由真正的重大**轨迹跃迁**决定。外部声量可以降低，
 
 交付物写入 `pipeline/phase3_spine.yaml`，包含：inciting_incident, spine_mode, spine_statement, reader_spine, dramatic_question, opposing_forces, arcs[], story_climax_design。`desire_object` 与 `spine_type`：仅 `spine_mode=desire` 时必填，其他 mode 下为 null。`reader_spine` 所有 mode 通用；`story_climax_design.climax.climax_form` 可选（默认 `hero_succeeds`，各收束形态详见“故事高潮”段；实际所得与损失由行动及结果说明）。
 
-**既有产物 fallback**：`phase3_spine.yaml` 缺 `spine_mode` 时兼容层按 `desire` 解释，下游读取既有产物不视为缺必需字段。新生成路径必须依据故事组织力性质显式选择最贴近的一类，不允许以"不确定"为由跳过判定。
+新生成的脊椎依据故事组织力显式选择最贴近的 `spine_mode`；读取既有产物时按 [输出 schema](references/output-schema.md) 解释缺省值。
 
 ## 常见错误
 

@@ -19,6 +19,8 @@ conception 含 `canon_reference_profile` 时，把 `pipeline/shortform/conceptio
 
 派发 short-story-review 或修订者时同样传本次有效 ref，reader 模式明确当前报告路径；未启用的可选输入传“无”。
 
+正文、审阅与修订的子执行者默认继承主会话所选模型，注册 agent 与通用子执行者同样适用；仅按作者明确的任务指定覆盖。实际调用方落实该选择，宿主限制使其不可用时报告受影响任务。
+
 ## 检查与修订
 
 正文落盘后运行现有全文检查；同一正文已有成功报告时复用，内容变化才刷新：

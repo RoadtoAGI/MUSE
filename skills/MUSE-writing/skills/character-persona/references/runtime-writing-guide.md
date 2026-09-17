@@ -62,7 +62,7 @@ Phase 2 的 `unconscious / core_flaw / characterization_vs_truth` 可以帮助�
 
 - `inner_capacity` 继续留在 Phase 2。角色已经形成的自我维持习惯可按其主观意义并入“经历与信念”或“判断习惯与行为盲区”；`why_load_bearing / loss_trigger / loss_signal` 不复制。
 - `subjectivity_object` 的当前物件事实只在角色知道且会影响当下行为时并入“经历与信念”或“边界”；`potential_use` 不复制。
-- `character_arc` 的终点与轨迹由作者侧阶段消费。`start_state` 只用于初始化 state.md，不进入静态 SKILL 或 adapter。
+- `character_arc` 的终点与轨迹由作者侧阶段消费。`start_state` 只用于初始化 state.md，不进入静态 SKILL。
 - 通用表演方法由 `character-actor` 维护，各角色包只保留角色特有的信息。
 
 ## 对手和配角的简化版

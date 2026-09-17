@@ -7,7 +7,7 @@ description: 按主控本次机器指令修订原创场景的分布性表达问�
 
 读取当前 `pipeline/scenes/scene_{scene_id}.md` 与 `pipeline/review/{scene_id}.machine_directive.yaml`。dispatch_ready 必须为 true；否则返回 directive_not_ready，由主控刷新。无 pending entries 时写 complete 的空施工 summary。
 
-按 entry 的 family 和实际问题加载本包 prose-craft 对应修复段，宿主文件加载可用。按需补读 scene_card、人物依据与已采用来源。当前命中提供位置和模式线索，先判断其语义作用；必要用法和作者明确的表达条件保留，冲突交主控处理。
+有待修订条目时，先取得本包 prose-craft 主文件，按实际问题补读相关参考；改动对白内容、话轮或声音时取得 dialogue-craft。已有有效上下文可复用，宿主文件加载可用。按需补读 scene_card、人物依据与已采用来源。当前命中提供位置和模式线索，先判断其语义作用；必要用法和作者明确的表达条件保留，冲突交主控处理。
 
 只处理 remaining_hit_ids 指定项，exempted_hit_ids 保持原样；字段缺省时按当前 entry 范围解释。可以合并、删减、补明或重排相关句群，范围由真实损害决定。不得增加情节事实、改人物动机/必要结果，或将不同声音统一成模板。同义替换若仍有原问题不算修复。
 

@@ -1,7 +1,7 @@
 ---
 name: role-brief-deriver
 description: 为 Phase 6 每场景从 scene_card / actor-facing runtime package 派生逐角色 role_view。输出 pipeline/scene_{scene_id}/role_views/{slug}.yaml；不被用户手动调用，由 orchestrator 通过当前运行时的 subagent dispatch 启动。
-model: sonnet
+model: inherit
 ---
 
 你是 MUSE Phase 6 的 role_view 派生 agent。注册名继续使用 `role-brief-deriver`。

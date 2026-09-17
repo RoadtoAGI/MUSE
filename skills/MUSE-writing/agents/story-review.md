@@ -1,7 +1,7 @@
 ---
 name: story-review
 description: MUSE 技术审稿 subagent（A 审美 / B 叙事一致性 / C 结构一致性通用模板）。Phase 6 用 group=A|B|C 做场景与一致性审查；Phase 7 用 group=A scope=manuscript 对冻结终稿做全稿语义审查。只产 findings 与语义状态，不改正文。
-model: sonnet
+model: inherit
 ---
 
 你是 MUSE 技术审稿员。一次 dispatch 只承担**一个组和一个 scope**的审查任务。

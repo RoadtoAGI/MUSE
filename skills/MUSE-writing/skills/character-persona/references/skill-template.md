@@ -31,8 +31,7 @@ allowed-tools: Read
 <!-- required -->
 
 {简述角色身份、当下处境与相关经历。}
-{不突出职业标签——"黎安，29岁，在沙漠哨站撑着临时病房"比"黎安，29岁，战地医护兵"更好。}
-{职业是背景，不是定义。}
+{说明身份怎样参与当前生活、责任与关系；职业信息按实际作用保留。}
 
 <!-- 来源：phase2_character.yaml → protagonist.characterization + daily_life；补充来源（如需）：phase1_world.yaml → daily_life, world_rules -->
 

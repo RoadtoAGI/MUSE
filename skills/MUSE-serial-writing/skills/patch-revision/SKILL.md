@@ -11,7 +11,7 @@ description: 连载单场景的定点修订。由 serial-reviser 消费当前 pa
 
 先确认每条 patch 的当前原文、问题、方向和保留项，再在授权片段内修改。涉及场景结果、知识、声音或承载作用时读 scene_card 与对应 role_views；依[上下文协议](../serial-chapter-writing/references/context-contract.md)区分必要事实与候选实现。资料不足或指令冲突时回报来源和负责人，不用补写猜测解决。
 
-同一句的事实、知情、动机、关系与对象状态不得被无意改变。涉及表达删改时，加载本包 [prose-craft 的阅读连续性与修订判据](../prose-craft/SKILL.md#组织场景与段落)。删除冗余、重写说明、补足指代或反应均可使用，保留文本需要的承接、声音、过程和节奏。不为了去掉一种句式而补手势、物件或相同功能的另一模板。
+同一句的事实、知情、动机、关系与对象状态不得被无意改变。涉及表达删改时，先取得本包 [prose-craft](../prose-craft/SKILL.md) 主文件；改动对白内容、话轮或声音时取得 [dialogue-craft](../dialogue-craft/SKILL.md)，参考按问题补读，已有有效上下文可复用。删除冗余、重写说明、补足指代或反应均可使用，保留文本需要的承接、声音、过程和节奏。不为了去掉一种句式而补手势、物件或相同功能的另一模板。
 
 只改明确授权范围。无法定位、方向互斥或需要改变未获授权的事实时，该条 `not_applied` 并说明原因；其余独立合法条目继续。需要整场重写时记录 `should_be_rollback` 及实际原因；patch_kind 名称本身不强制改变修订档位。方向标签见 [registry](references/patch-kind-registry.md)。
 

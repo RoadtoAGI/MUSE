@@ -13,11 +13,13 @@ description: 按本次 patch_directive 定点修订原创完整链的场景，�
 
 ## 修订动作
 
+句段语义重写前加载本包 [prose-craft](../prose-craft/SKILL.md)，改写对白的交流、声音或承接时加载 [dialogue-craft](../dialogue-craft/SKILL.md)。已有且仍适用的内容直接复用，深度 reference 按问题取得；机械改错或未改正文时按当前指令处理。
+
 先用实际正文核实 issue，再按 suggested_action 和 rewrite_directive.preserve 处理。保留当前指令的 patch_kind，机制类名称提供问题线索，具体改动由指令语义、锚点与保护条件确定。单句或一段重写以获准 anchor 为界，范围由问题影响决定；情绪直陈、自省、沉默、物件或长句均按功能判断。只换同义词却保留原有重复/解释结构时继续修该处，不强制把它改为动作。
 
 保留事实、人物动机、必要结果、声音与知识边界。低强度承载可在 preserve 内调整；改变因果、关系结论或物件状态须有明确授权。active relation 的冻结 span 不在本 lane 重新判定；冲突返回主控。
 
-交接前对照修订前后，连读改动句段与相关上下文：确认对象可辨、关系和解释顺序连贯，主宾语与比较项完整，原有声音和节奏仍成立。必要的回指、连接词、说明与复现可以补回；改文更短、lint 变少或换成新词族不能证明修复。修订所需上下文超过获准 anchor 时返回具体扩展范围，避免在局部制造跳步。
+交接前按 [prose-craft 的可读性与承接判据](../prose-craft/SKILL.md#组织场景与段落)对照修订前后，连读改动句段与相关上下文；修订所需上下文超过获准 anchor 时返回具体扩展范围。
 
 带 cluster_id 的 patch 使用指令允许的 patch_kind，结合实际语义问题修复；命中数量不能证明某种承载一定有害。接到 ROLLBACK 类或越出授权范围时记 `not_applied` 和 `reason: should_be_rollback`，交场景裁决者；同批其余合法项继续。
 

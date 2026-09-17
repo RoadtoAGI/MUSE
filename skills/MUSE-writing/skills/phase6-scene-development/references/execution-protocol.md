@@ -25,6 +25,8 @@
 
 每次派发明确 `work_dir`、本包实际位置、`scene_id` 与本轮模式。场景顺序来自 Phase 5 `sequence_expansions[].scenes[]`；`previous_scene_id` 取其呈现前项，不按 ID 减一。静态输入清单由各 agent/skill 维护；动态来源选择、前场 ID、role move 授权及必要保护条件直接随派发传入。宿主未预载所需 agent 时，主控先读取本包 `agents/{agent-name}.md`，将职责正文交给子执行者，或要求其先读取该绝对路径；子执行者随后加载文件指定的技能。仅有 agent 名称不表示职责已进入上下文。
 
+子执行者默认继承本次主会话所选模型。注册 agent 与文件加载后派发通用子执行者采用同一政策；文件里的 `model: inherit` 由实际调用方落实。只有本次作者明确指定某项任务使用其他模型时才传覆盖值，沿既有派发说明保留该任务的选择。宿主强制配置使继承不可用时，报告实际限制及受影响任务，不把文件默认值当成实际运行模型。
+
 进入时核对现有正文、裁决、pending directive、应用 summary 与 post-review：
 
 - 当前设计下的有效正文继续复用，从未完成的审阅或修订环节恢复。文件存在只证明落盘；中断稿、已判失效稿与待重写稿不能冒充完成稿。
@@ -34,6 +36,8 @@
 - `state.md` 是已有状态资料，可能只覆盖故事入口。按故事时点、获知渠道及相关当前有效正文补足 role view；未来场景的知识不能倒灌，actor/writer 不写 state。
 
 ## 1. 逐场创作
+
+首次进入本批场景写作前，按 Phase 5 的 `sequence_expansions[].scenes[].participants` 核对本次人物与 Phase 2 设计、build-report 和 build-meta 的 name→slug 映射。已有核验结果只在参与者、人物设计及资产均未变时复用。角色缺设计或映射有歧义时，先回 Phase 2 人物负责人确认来源与身份；已有设计但未建、缺失或失效的角色包，由其调用 character-persona 构建或重建，再执行 `verify_phase2_assets.py <work_dir>`。该脚本核验角色资产；参与者是否齐备由本交接核对。修好来源和资产后更新受影响输入，才派生相应场景的 role_view；不让 deriver 或 writer 临时编造人物包，也不因跳过可选 actor 而跳过人物依据。
 
 ### 1.1 派生 role views
 

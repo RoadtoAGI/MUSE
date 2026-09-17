@@ -48,7 +48,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/init_run.py --run-intent release --run-dir
 
 参考由当前设计负责人按开放问题取材；有效材料直接复用，新增需求再加载 `design-doc-reference`。来源绑定与实际采用记录按交接协议执行。思想、迁移或剧情方向需要作者选择时使用[大纲构思与回读](references/outline-exploration.md)，沿用已有授权。
 
-Phase 2 的人物资产仍是当前写作链依赖。其构建和校验由 Phase 2 完成；下游发现资产变化、未校验或校验失败时，运行 `scripts/verify_phase2_assets.py <work_dir>` 并处理具体缺件。已通过且输入未变时复用结果。
+Phase 2 的人物资产是当前写作链依赖。其构建和校验由 Phase 2 完成；进入逐场展开前，沿 [Phase 6 协议](../phase6-scene-development/references/execution-protocol.md) 对齐实际参与者，缺人物设计或构建决定时回 Phase 2。资产变化、未校验或校验失败时运行 `scripts/verify_phase2_assets.py <work_dir>` 并处理具体缺件；已通过且输入未变时复用结果。
 
 ## 设计交接与大纲裁决
 

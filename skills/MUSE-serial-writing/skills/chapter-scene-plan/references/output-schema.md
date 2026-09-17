@@ -44,7 +44,7 @@ sequence_expansions:
         craft_carrier:
           type: "object | bodily_action | silence | procedural_form | second_hand_story | sensory_shock | scale_shift | expectation_reversal"
           concrete_anchor: "具体物件 / 动作 / 声音 / 文体"
-          replaces: "该承载方式的叙事作用；有替代对象时说明替代了什么"
+          function: "该材料让读者经历什么变化，或理解什么关系"
 
         # world_disclosure_plan：本场世界信息披露边界。
         # 缺省时按来源事实、人物知情和既定揭示时点决定。
@@ -66,8 +66,8 @@ sequence_expansions:
 
         # —— 以下为按场景需要填写的可选字段 ——
         narrator_distance:
-          mode: "intimate_first | reminiscing_first | reporter_third_close | reporter_third_distant | archival_zero | omniscient_satirist | bilingual_drifter | unreliable_first"
-          # enum 沿既有接口；依据本作已确认叙述方式和本场作用选择。
+          mode: "本场叙述位置；可沿用既有 narrator_position 标签或用准确描述"
+          # 依据本作已确认叙述方式和本场作用选择。
           reason: "为什么选这个距离 — 写一句"
 
         scale_inversion:
@@ -80,7 +80,7 @@ sequence_expansions:
           preserved_anchors: ["同样的动作 / 物件 / 命令词清单"]
           removed_premises: ["前者成功 / 失败 / 完整的前提，本场景被删除的"]
 
-        # 高潮场景的模式线索；writer 按已选机制与本场条件实现。
+        # 高潮场景的可选机制参考；writer 可采用、组合、改造或舍弃。
         # climax=true 不自动加载全部高潮模板。
         climax_pattern:
           primary: "layered_revelation | ineffable_realization | passive_death | mask_hard_cut | unfinished_action | anti_epic_failure | scale_shrink | null"
@@ -119,12 +119,8 @@ sequence_expansions:
             - "动作清单化"
             - "psychological_overfill"
             - "情绪库存短语"
-          positive_strategy:                          # 本场特化策略；通用修法 writer 通过 prose-craft skill 查 ai-cliche-patterns.md
-            - "例行调度删并后仍须让读者跟住对象、空间和因果；有交接、人物关系或压力作用的过程保留"
-            - "比喻若只重复已表达的情绪，可删并；带来贴合人物的新认识、声音或感知时保留"
-          bad_shape_examples:                         # 可选；补充有辨别价值的形态示例，按机制判断
-            - "停下、低头、伸手的连续步骤若删后对象、空间、感知与节奏均成立，可以收束；逐步发现危险时可以展开"
-            - "已有沉重情绪后再写‘像某种没有声音的重量’，若没有新的意象或人物作用，只是在重复结算"
+          positive_strategy: []  # 已有具体风险时说明其形成条件与候选处理，保留本场必要作用
+          bad_shape_examples: []  # 有实际观察且有判别价值时摘录原句，并在同一项注明来源位置
 
 tension_curve:
   description: "张力曲线的文字描述"
@@ -170,6 +166,12 @@ scene_task:
 
 既有任务如 `[核心][main] ...` 按两个维度解释：`核心` 表示必要叙事工作，`灵感/惊艳` 表示可选构想；`main` 表示正面呈现的关键变化，`support` 表示结果与必要锚点，`atmosphere` 表示背景压力或感知。缺第二个 marker 时按 `support` 读取。修订这些任务时迁移为对象字段，保留原有有效意图与约束；新产物不再补写 marker。
 
+## 场景卡投影与候选权限
+
+`extract_scene_card.py` 将关键变化与触发原因投影为“关键转折”。writer 保持已确认的事实、人物知识、核心因果、必要结果及作者披露边界，选择具体动作、对白和叙述次序。转折方向属于作者侧设计，不作为人物入场时已经掌握的答案。
+
+`craft_carrier.function` 说明材料的叙事作用。承载、揭示、尺度、呼应、高潮机制和对白偏好均以候选或建议呈现；来源中明确的作者要求继续生效。存量 `replaces` 保留为既有候选说明，不能据此强制删除解释、心理或背景。已知枚举转换为可读短语，未知值与自由描述保留原意，不推测额外要求。
+
 ## 字段说明
 
 | 字段 | 必需 | 下游使用 |
@@ -188,18 +190,18 @@ scene_task:
 | `scenes[].scene_tasks` | 是 | 章内设计与审阅；writer-facing scene_card 保留本场作用、候选材料及其作用依据、读者所得和展开尺度，以可读标签呈现 |
 | `scenes[].inspiration_refs` | 否 | Phase 6（writer 通过 scene_card.md 看见本场 INS-* 引用，再按 ledger 的 carrier / disclosure_ladder 消费）；仅记录对本场有实际作用的引用 |
 | `scenes[].handoff` | 是 | Phase 6（场景衔接） |
-| `scenes[].beat_direction` | 否 | 章 orchestrator、role-brief-deriver 与 review（仅关键场景）；不进入 writer-facing scene_card |
+| `scenes[].beat_direction` | 否 | 场景卡显示“关键转折”，交 writer 实现变化及触发原因，并供作者侧审阅对照；预定方向不进入人物认知切片 |
 | `scenes[].scene_tasks[].voice_gear` | 否 | Phase 6 writer（声音突出/收敛的场景提示）、scene-review（按人物依据检查 signature_voice_overuse） |
 | `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=仍遵守叙述视角和人物实际可知范围） |
-| `scenes[].craft_carrier` | 否 | Phase 6（writer：type+concrete_anchor 提供承载候选，replaces 说明其作用及适用的替代关系；缺字段时由 writer 决定实现） |
+| `scenes[].craft_carrier` | 否 | Phase 6（writer：type + concrete_anchor + function 提供承载候选及叙事作用；存量 replaces 仅作既有候选说明，不要求替代解释；缺字段由 writer 决定实现） |
 | `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：授权 / 禁止借物披露世界规则的边界；`{forbid, allow}` 字符串列表 × 2；缺字段=按来源事实、人物知情与既定揭示时点判断） |
 | `scenes[].omission_plan` | 否 | Phase 6（writer：本场故意不解释什么；缺字段=不强约束省略点） |
 | `scenes[].irreversible_action` | 否 | Phase 6（本场已确认为必要的不可撤销变化及其条件；仅为实现候选的动作放入 physical_carrier，不用本字段提前固定） |
 | `scenes[].reveal_method` | 否 | Phase 6（writer：信息揭示方式锚——direct_action / object_trace / overheard_fragment 等；缺字段=writer 自由选择揭示路径） |
-| `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason，沿既有 8 值 enum；缺字段时使用本作已确认的叙述方式） |
+| `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason，可用既有标签或准确描述；缺字段时使用本作已确认的叙述方式） |
 | `scenes[].scale_inversion` | 否 | Phase 6（writer：是否启用大命题↔小物件反转 + 具体桥；缺字段=不强约束） |
 | `scenes[].precedent_mirror` | 否 | Phase 6（writer：本场镜像哪场 + 镜像类型 + 保留锚点 + 删除前提；缺字段=不构造镜像关系） |
-| `scenes[].climax_pattern` | 否 | Phase 6（writer：高潮场景 pattern 锚——primary/secondary 7 enum + null；仅 climax/sequence_climax/arc_climax=true 时显式选择；缺字段=不加载任何高潮模板，走通用 Craft Preflight） |
+| `scenes[].climax_pattern` | 否 | Phase 6（writer：高潮场景可选机制参考；primary/secondary 沿既有 7 enum + null，writer 可采用、组合、改造或舍弃；缺字段走通用 Craft Preflight） |
 | `scenes[].dialogue_hints` | 否 | Phase 6（writer 在 dialogue-craft 工坊阶段消费：每条 hint = `{speaker, attribution_strategy(5 enum), dialogue_form(5 enum + null), reason}`；缺字段=走通用 dialogue 设计，不强约束） |
 | `scenes[].counter_prior_scene` | 否 | Phase 6（反先验场景的结构化提示：`{used, kind, mundane_action, emotional_context, forbidden_moves}`。`used=true` 时 dispatcher 激活 scene_card 上的相应材料；具体实现按作用和适用条件判断，已确认的作者禁界保留。缺字段 / `used=false` 时沿一般写作路径）|
 | `scenes[].prose_risk_contract` | 否 | Phase 6（`used=true` 且有内容时渲染场景风险和策略供 writer / reviewer 使用；对象缺省或 `used=false` 时走通用写作指导。提取只检查当前场景已提供对象的格式）|
@@ -246,12 +248,12 @@ world_disclosure_plan:
 | `used` | 对象存在时 | 布尔值；`true` 且有内容时 scene_card.md 渲染 contract 段供 writer / reviewer 消费；`false` 或对象缺省时不渲染 |
 | `risk_families` | 按已识别风险填写 | 列表可空，元素为非空字符串。family 名锚 ai-cliche-patterns.md 现有条目；未知 family 不阻断 writer，按实际风险和既有写作指导判断 |
 | `positive_strategy` | 有可用策略时 | 列表可空，元素为非空字符串。保留本场风险条件和合适处理；通用方法由 writer 通过 prose-craft 查阅 |
-| `bad_shape_examples` | 否 | 列表可空，元素为非空字符串；本场具体形态示例说明触发条件和决定性差异，writer 按实际语境判断机制 |
+| `bad_shape_examples` | 否 | 列表可空，元素为非空字符串；仅摘录实际正文、执行记录或用户反馈中已观察的问题形态，在同一项保留出处及位置。只作定位线索，writer 按实际语境判断 |
 
 **设计原则**：
 
 - 用 `positive_strategy` 说明具体风险的形成条件与修正方向，不把动作、对白或比喻数量当成质量判据
-- `bad_shape_examples` 是结构示例不是禁词——writer 不做字面规避
+- `bad_shape_examples` 从实际观察摘录，只做必要截取或脱敏，保留语境和决定性差异；没有适用观察时省略或留空，不按规则编造文学例句。
 
 **渲染契约**（由 `extract_scene_card.py` 实施）：
 

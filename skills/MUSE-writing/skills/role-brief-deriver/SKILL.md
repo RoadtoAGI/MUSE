@@ -117,4 +117,3 @@ done role_view for scene {scene_id}
 ## 不读
 
 - `pipeline/phase2_character.yaml`（作者侧人物诊断、弧光与终点；本 agent 只消费编译后的 actor-facing package）
-- `pipeline/characters/{中文角色名}.md`（adapter，build-time 校验视图；slug→display_name 反查走 `build-meta.yaml.character_display_name`）

@@ -1,4 +1,4 @@
-"""extract_scene_card.py — reader_track 字段流通 + 向后兼容测试。"""
+"""场景投影的语义、作者权限与兼容边界；结构 fixture 不作文学案例。"""
 from __future__ import annotations
 import sys
 from pathlib import Path
@@ -85,7 +85,7 @@ def test_render_scene_card_markdown_scene_task_dict_renders_layered_sections():
     assert "**呈现建议（不规定正文顺序）**" in md
 
 
-def test_writer_projection_hides_design_tokens_and_beat_direction():
+def test_writer_projection_hides_keys_and_preserves_turning_point():
     scene = dict(
         BASE_SCENE,
         reader_track="小龙女决定是否接受证据。",
@@ -99,7 +99,9 @@ def test_writer_projection_hides_design_tokens_and_beat_direction():
         "reader_yield", "rendering", "beat_direction",
     ):
         assert token not in md
-    assert "从怀疑走向结盟" not in md
+    assert "**关键转折**: 从怀疑走向结盟" in md
+    assert "药粉显色" in md
+    assert "动作、对白和叙述次序由正文实现" in md
     assert "**入场处境**" in md
     assert "**离场结果**" in md
     assert "## 可用创作材料" in md
@@ -190,17 +192,17 @@ def test_render_with_v3_fields():
     md = render_scene_card_markdown(scene)
 
     # 11 个 section 标题全部出现
-    assert "## Carrier 设计" in md
+    assert "## 承载候选" in md
     assert "## POV 约束" in md
     assert "## 故意省略" in md
-    assert "## 不可逆动作" in md
-    assert "## 揭示方式" in md
-    assert "## 叙述距离" in md
-    assert "## 尺度反转" in md
-    assert "## 先例镜像" in md
-    assert "## Climax Pattern" in md
+    assert "## 不可逆变化" in md
+    assert "## 揭示方式候选" in md
+    assert "## 叙述距离建议" in md
+    assert "## 尺度转换候选" in md
+    assert "## 先例呼应候选" in md
+    assert "## 高潮机制候选" in md
     assert "## 对白偏好" in md
-    assert "## 反先例场景 (counter_prior_scene)" in md
+    assert "## 反先验场景候选" in md
 
     # 字段内容抽查（每段至少一个具体值）
     assert "撕碎的遗嘱" in md
@@ -208,18 +210,18 @@ def test_render_with_v3_fields():
     assert "不写小龙女如何识破药粉" in md
     assert "陆青漪决定一同北上" in md
     assert "delayed_implication" in md
-    assert "intimate_first" in md
+    assert "贴近当下体验的第一人称" in md
     assert "鞋底水痕从私人警觉折入江湖局势" in md
     assert "spatial_inversion" in md
     assert "decision_under_uncertainty" in md
-    assert "action_bridge" in md
-    assert "diagnostic_verdict" in md
-    assert "death_with_chore" in md
+    assert "通过动作衔接说话者" in md
+    assert "诊断或裁决式表达" in md
+    assert "死亡处境中的日常事务" in md
     assert "一边吃黄瓜一边交代后事" in md
 
     # dialogue_hints 多 speaker 分别渲染
-    assert "### Speaker: 小龙女" in md
-    assert "### Speaker: 陆青漪" in md
+    assert "### 小龙女" in md
+    assert "### 陆青漪" in md
 
 
 def test_render_without_v3_fields():
@@ -233,17 +235,17 @@ def test_render_without_v3_fields():
     assert "## 可用创作材料" in md
 
     # 11 个 v3 section 标题均不出现
-    assert "## Carrier 设计" not in md
+    assert "## 承载候选" not in md
     assert "## POV 约束" not in md
     assert "## 故意省略" not in md
-    assert "## 不可逆动作" not in md
-    assert "## 揭示方式" not in md
-    assert "## 叙述距离" not in md
-    assert "## 尺度反转" not in md
-    assert "## 先例镜像" not in md
-    assert "## Climax Pattern" not in md
+    assert "## 不可逆变化" not in md
+    assert "## 揭示方式候选" not in md
+    assert "## 叙述距离建议" not in md
+    assert "## 尺度转换候选" not in md
+    assert "## 先例呼应候选" not in md
+    assert "## 高潮机制候选" not in md
     assert "## 对白偏好" not in md
-    assert "## 反先例场景" not in md
+    assert "## 反先验场景候选" not in md
 
 
 def test_render_inspiration_refs_lists_each_id():
@@ -385,19 +387,19 @@ def test_render_v3_partial_fields_optional():
     md = render_scene_card_markdown(scene)
 
     # craft_carrier 部分字段：section 渲染，缺的 replaces 不输出空行
-    assert "## Carrier 设计" in md
+    assert "## 承载候选" in md
     assert "信物" in md
     assert "**Replaces**" not in md
 
     # scale_inversion.used=false → 整段省略
-    assert "## 尺度反转" not in md
+    assert "## 尺度转换候选" not in md
     assert "should not render" not in md
 
     # climax_pattern.primary=None → 整段省略
-    assert "## Climax Pattern" not in md
+    assert "## 高潮机制候选" not in md
 
     # counter_prior_scene.used=false → 整段省略
-    assert "## 反先例场景" not in md
+    assert "## 反先验场景候选" not in md
 
     # 空列表 → 整段省略
     assert "## 对白偏好" not in md
@@ -563,3 +565,85 @@ def test_generate_phase6_index_phase5_absent_contract_passes(tmp_path, contract)
     )
     assert result.returncode == 0, result.stderr
     assert (pipeline / "phase6_development.yaml").exists()
+
+
+@pytest.fixture(params=["MUSE-writing", "MUSE-serial-writing"])
+def extractor_module(request):
+    """两包独立分发，代表性契约必须在各自实现上成立。"""
+    import importlib.util
+
+    script = Path(__file__).resolve().parents[3] / request.param / "scripts" / "extract_scene_card.py"
+    spec = importlib.util.spec_from_file_location(f"projection_{request.param}", script)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_scene_projection_preserves_meaning_and_authority_across_packages(extractor_module):
+    scene = dict(
+        BASE_SCENE,
+        beat_direction="起初可以撤离，资源丧失后必须继续。",
+        craft_carrier={"type": "object", "concrete_anchor": "场内物件", "function": "改变可用退路"},
+        irreversible_action=["退路已经关闭"],
+        reveal_method={"type": "direct_action"},
+        climax_pattern={"primary": "unfinished_action", "forbidden_moves": ["不能恢复已毁退路"]},
+        counter_prior_scene={"used": True, "kind": "death_with_chore", "mundane_action": "现有日常动作", "forbidden_moves": ["作者要求保留沉默"]},
+        pov_constraint={"cannot_perceive": ["门外是谁"]},
+        omission_plan=["身份留到下一场确认"],
+    )
+    md = extractor_module.render_scene_card_markdown(scene)
+    assert "**关键转折**: 起初可以撤离，资源丧失后必须继续。" in md
+    assert "beat_direction" not in md
+    assert "**叙事作用**: 改变可用退路" in md
+    assert "## 承载候选" in md
+    assert "## 高潮机制候选" in md
+    assert "由当场行动显露" in md
+    assert "direct_action" not in md
+    assert "未完成的表达或行动承担后果" in md
+    assert "保持已确认的事实、核心因果与必要结果" in md
+    for boundary in ("退路已经关闭", "不能恢复已毁退路", "作者要求保留沉默", "门外是谁", "身份留到下一场确认"):
+        assert boundary in md
+    assert "手法偏好按本场效果取舍" in md
+    assert "人物知识" in md
+
+
+def test_projection_preserves_unknown_values_and_legacy_carrier(extractor_module):
+    scene = dict(
+        BASE_SCENE,
+        craft_carrier={"type": "custom_carrier", "function": "形成新的认识", "replaces": "原有背景说明"},
+        reveal_method={"type": "custom_revelation"},
+        narrator_distance={"mode": "本作的自由叙述描述"},
+        dialogue_hints=[{"speaker": None, "attribution_strategy": "custom_attribution", "dialogue_form": "custom_dialogue"}],
+    )
+    md = extractor_module.render_scene_card_markdown(scene)
+    for original in ("custom_carrier", "custom_revelation", "本作的自由叙述描述", "custom_attribution", "custom_dialogue"):
+        assert original in md
+    assert "**叙事作用**: 形成新的认识" in md
+    assert "**既有候选说明**: 原有背景说明" in md
+    assert "不要求删除有独立作用的解释、心理或背景" in md
+    assert "Replaces" not in md
+    assert "### 全场对白" in md
+
+
+def test_extractor_cli_delivers_turning_point_and_candidate_semantics(extractor_module, tmp_path):
+    import subprocess
+
+    pipeline = tmp_path / "pipeline"
+    pipeline.mkdir()
+    scene = dict(
+        BASE_SCENE,
+        beat_direction="证据出现后，原来的判断失效。",
+        craft_carrier={"type": "object", "function": "使原判断失效"},
+        prose_risk_contract={"used": True, "positive_strategy": ["保留必要承接"]},
+    )
+    (pipeline / "phase5_scenes.yaml").write_text(yaml.safe_dump({"scenes": [scene]}, allow_unicode=True), encoding="utf-8")
+    result = subprocess.run(
+        [sys.executable, extractor_module.__file__, "--scene-id", scene["scene_id"], "--work-dir", str(tmp_path)],
+        capture_output=True, text=True,
+    )
+    assert result.returncode == 0, result.stderr
+    md = (pipeline / "scene_S02" / "scene_card.md").read_text(encoding="utf-8")
+    assert "**关键转折**: 证据出现后，原来的判断失效。" in md
+    assert "## 承载候选" in md
+    assert "**叙事作用**: 使原判断失效" in md
+    assert "候选策略" in md

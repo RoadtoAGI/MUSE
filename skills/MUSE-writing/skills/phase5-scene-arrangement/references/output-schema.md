@@ -21,10 +21,10 @@ sequence_expansions:
         value_end: "结束时的关键叙事状态（语义同上，按实际结果记录；作用不能仅由起止标签判断）"
         reader_track: "本场读者跟随的阅读焦点及必要关联（如『小龙女判断陌生人证据是否可信，并决定是否纳入寻找杨过的行动』）"
         scene_tasks:
-          - abstract_function: "角色第三层自欺话术被击穿"
+          - abstract_function: "本场需要成立的叙事作用"
             physical_carrier:       # optional；Phase 5 已找到承重候选时才写
-              - text: "杯沿停在唇边却没喝"
-                function_link: "杯沿停顿 → 自欺裂缝可观察化"
+              - text: "已有贴切材料时填写候选实现"
+                function_link: "该候选如何改变本场的选择、认识或体验"
             reader_yield:
               - "关系压力"
               - "自欺破裂"
@@ -46,7 +46,7 @@ sequence_expansions:
         craft_carrier:
           type: "object | bodily_action | silence | procedural_form | second_hand_story | sensory_shock | scale_shift | expectation_reversal"
           concrete_anchor: "具体物件 / 动作 / 声音 / 文体"
-          replaces: "它替代了哪段解释 / 心理 / 背景"
+          function: "该材料让读者经历什么变化，或理解什么关系"
 
         # world_disclosure_plan：安排当前场景释放或暂缓的世界规则。
         # 缺省 = writer 按用户要求、Phase 1 与当前冲突完成最低读者定向。
@@ -88,7 +88,7 @@ sequence_expansions:
         climax_pattern:
           primary: "layered_revelation | ineffable_realization | passive_death | mask_hard_cut | unfinished_action | anti_epic_failure | scale_shrink | null"
           secondary: "同上或 null"
-          forbidden_moves: ["不得追加解释链", "不得宏大辞藻堆叠"]  # 仅故事不变量/因果/知识边界类禁项为硬约束
+          forbidden_moves: []  # 保留明确作者禁界及事实/因果/知识边界；手法偏好按本场作用判断
           # 仅 scene_card.climax / sequence_climax / arc_climax = true 时显式选择；
           # 缺字段时 writer 使用通用 Craft Preflight，仍可自主选择其他高潮手法
 
@@ -123,12 +123,8 @@ sequence_expansions:
             - "动作清单化"
             - "psychological_overfill"
             - "情绪库存短语"
-          positive_strategy:                          # 本场候选策略；writer 可用其他方式取得同等或更好的成品效果
-            - "本场社交调度场景，动作合并必须落到关系压力变化点（不是单纯减字数）"
-            - "本场短比喻只在感官替代功能成立时出现（不是通用『少用比喻』）"
-          bad_shape_examples:                         # 可选；"长相"参考，只提供定位线索，不构成字面或结构禁令
-            - "他停下，低头，看门缝，伸手，推开"
-            - "像某种没有声音的重量"
+          positive_strategy: []  # 已有具体风险时说明其形成条件与候选处理，保留本场必要作用
+          bad_shape_examples: []  # 有实际观察且有判别价值时摘录原句，并在同一项注明来源位置
 
 tension_curve:
   description: "张力曲线的文字描述"
@@ -172,7 +168,13 @@ scene_task:
 
 ## scene_tasks 语义（重要）
 
-Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符串列表仅供下游兼容读取，不再指导新产物。
+场景提取器只接收上方 scene_task 对象结构。恢复历史双 marker 字符串任务时，先按原有意图与约束迁移为对象，再交付正文。
+
+## 场景卡投影与候选权限
+
+`extract_scene_card.py` 将关键变化与触发原因投影为“关键转折”。writer 保持已确认的事实、人物知识、核心因果、必要结果及作者披露边界，选择具体动作、对白和叙述次序。转折方向属于作者侧设计，不作为人物入场时已经掌握的答案。
+
+`craft_carrier.function` 说明材料的叙事作用。承载、揭示、尺度、呼应、高潮机制和对白偏好均以候选或建议呈现；来源中明确的作者要求继续生效。存量 `replaces` 保留为既有候选说明，不能据此强制删除解释、心理或背景。已知枚举转换为可读短语，未知值与自由描述保留原意，不推测额外要求。
 
 ## 字段说明
 
@@ -189,12 +191,12 @@ Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符�
 | `scenes[].conflict` | 是 | Phase 6（场景卡显示“冲突或组织关系”：欲望组织时写追求与阻力，信息组织时写证据与待解问题，母题或观察组织时写意义、感知之间的联系；无人物对抗时按实际关系填写） |
 | `scenes[].value_start` / `value_end` | 是 | Phase 6 设计与审阅；writer-facing scene_card 只显示“入场处境 / 离场结果”，正文通过行动与后果使变化成立 |
 | `scenes[].reader_track` | 是 | Phase 6 设计与审阅；writer-facing scene_card 显示“阅读焦点” |
-| `scenes[].scene_tasks` | 是 | Phase 6 设计与审阅；writer-facing scene_card 只投影需成立的叙事工作、可替换的候选承载、目标叙事增量和不规定正文顺序的呈现建议，不显示内部键与 function_link |
+| `scenes[].scene_tasks` | 是 | Phase 6 设计与审阅；writer-facing scene_card 投影需成立的叙事工作、可替换的候选承载及其作用依据、目标叙事增量和不规定正文顺序的呈现建议，不显示内部键 |
 | `scenes[].inspiration_refs` | 否 | Phase 6（writer 通过 scene_card.md 看见本场 INS-* 引用；普通 pattern 由现有场景字段承载，ledger 实际存在 `disclosure_ladder` 时才消费对应 layer）；记录本场实际采用的材料 |
 | `scenes[].handoff` | 是 | Phase 6（场景衔接） |
-| `scenes[].beat_direction` | 否 | Phase 6 orchestrator、role-brief 与 review（仅关键场景）；不进入 writer-facing scene_card |
+| `scenes[].beat_direction` | 否 | 场景卡显示“关键转折”，交 writer 实现变化及触发原因，并供作者侧审阅对照；预定方向不进入人物认知切片 |
 | `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=无额外 POV 限制，人物知识与既定叙述方式继续生效） |
-| `scenes[].craft_carrier` | 否 | Phase 6（writer：鸿沟由 type+concrete_anchor 承载，replaces 指明它替代了哪段解释/心理/背景；缺字段=由 writer 临场决定承载） |
+| `scenes[].craft_carrier` | 否 | Phase 6（writer：type + concrete_anchor + function 提供承载候选及叙事作用；存量 replaces 仅作既有候选说明，不要求替代解释；缺字段由 writer 决定实现） |
 | `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：安排当前场景释放 / 暂缓的世界规则；`{forbid, allow}` 字符串列表 × 2；缺字段=按用户要求、Phase 1 与当前冲突完成最低读者定向） |
 | `scenes[].omission_plan` | 否 | 字符串列表；writer 与作者侧审阅取得本场省略要求。承接 `reader_spine.withheld_answer` 时附实际延迟条件；永久留白保留，缺字段=无额外省略要求 |
 | `scenes[].irreversible_action` | 否 | Phase 6（writer：本场不可逆结果的候选实现；仅明确规定的事实/因果结果为硬约束；缺字段=不强约束） |
@@ -206,8 +208,8 @@ Phase 5 新产物使用上方 scene_task 对象结构。历史双 marker 字符�
 | `scenes[].dialogue_hints` | 否 | Phase 6（writer 在 dialogue-craft 工坊阶段消费：每条 hint = `{speaker, attribution_strategy(5 enum), dialogue_form(5 enum + null), reason}`；缺字段=走通用 dialogue 设计，不强约束） |
 | `scenes[].counter_prior_scene` | 否 | Phase 6（dispatcher 反先验场景 fast-path 信号——结构化对象：`{used, kind, mundane_action, emotional_context, forbidden_moves}`。`used=true` 时 orchestrator 在 writer dispatch prompt 附加额外约束段；缺字段 / `used=false` → writer 不收特殊注入，走通用 Craft Preflight）|
 | `scenes[].prose_risk_contract` | 否 | Phase 6（写作层 AI pattern 可选提示——结构化对象：`{used, risk_families, positive_strategy, bad_shape_examples}`。`used=true` 时渲染供 writer / scene-reviewer 参考；缺字段 / `used=false` → writer 走通用 Craft Preflight）|
-| `tension_curve` | 否 | Phase 7（验证全文张力分布） |
-| `scene_causal_chain` | 否 | Phase 7（因果链审查） |
+| `tension_curve` | 否 | Phase 5 编排时组织压力与承接；作者侧审阅存在相关问题时作为设计参照 |
+| `scene_causal_chain` | 否 | Phase 5 核对事件依赖；design-validation 与 C 组按相关问题对照 Phase 5 与正文的因果关系 |
 
 #### inspiration_refs（optional）
 
@@ -254,12 +256,12 @@ world_disclosure_plan:
 | `used` | 是 | `true` 时 scene_card.md 渲染 contract 段作 writer / reviewer 可见 canonical source；`false` 或缺整段对象 → 不渲染 |
 | `risk_families` | 否 | 风险关注清单；存在时为由非空字符串组成的 list。family 可锚 ai-cliche-patterns.md 现有条目，未知 family 不阻断 writer |
 | `positive_strategy` | 否 | 本场候选策略；存在时为由非空字符串组成的 list。writer 可用其他方法实现同等或更好的成品效果 |
-| `bad_shape_examples` | 否 | 问题形态线索；存在时为由非空字符串组成的 list，只用于帮助定位风险 |
+| `bad_shape_examples` | 否 | 列表可空，元素为非空字符串；仅摘录实际正文、执行记录或用户反馈中已观察的问题形态，在同一项保留出处及位置。只作定位线索，writer 按实际语境判断 |
 
 **设计原则**：
 
 - 不写数字阈值；用场景语义说明风险与候选方向
-- `bad_shape_examples` 只提供定位线索；writer 和 reviewer 都回到实际正文判断
+- `bad_shape_examples` 从实际观察摘录，只做必要截取或脱敏，保留语境和决定性差异；没有适用观察时省略或留空，不按规则编造文学例句。
 
 **渲染契约**（由 `extract_scene_card.py` 实施）：
 

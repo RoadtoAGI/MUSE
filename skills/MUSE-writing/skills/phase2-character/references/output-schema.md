@@ -120,7 +120,7 @@ relationships:
 | `protagonist.daily_life` | 否 | Phase 6（叙事细节素材） |
 | `protagonist.desire_system` | 是 | Phase 3（构建故事脊椎）、Phase 4（设计危机两难）；character-persona 把 `conscious` 编译为自觉追求，把 `unconscious / core_flaw` 行为化，不复制作者标签 |
 | `protagonist.voice_traits` | 是（mapping 至少含一项有来源的承重特征；不要求 vocabulary / syntax / rhetoric / rhythm 全齐） | Phase 6（对白差异化）、dialogue-craft（潜台词设计） |
-| `protagonist.character_arc` | 是 | Phase 4（弧光轨迹在高潮体现；transformative/degenerative=转变、revelatory=显形、static=在极端压力下保持）；Phase 5 通过 value_start/end 语义间接消费轨迹语义。character-persona 只用 `start_state` 初始化 state.md，不把 mode、end_state 或 transformation 写入 runtime SKILL / adapter |
+| `protagonist.character_arc` | 是 | Phase 4（弧光轨迹在高潮体现；transformative/degenerative=转变、revelatory=显形、static=在极端压力下保持）；Phase 5 通过 value_start/end 语义间接消费轨迹语义。character-persona 只用 `start_state` 初始化 state.md，不把 mode、end_state 或 transformation 写入 runtime SKILL |
 | `protagonist.character_arc.mode` | 是 | **phase-local operational enum**——声明人物轨迹类型。enum：`transformative`（经典弧光，从起点到终点的可识别变化）\| `revelatory`（暴露：人物稳定核原本就在那里，故事做"显形"不是"改造"；**vs static**——有无"揭示稳定核"的组织线，有即 revelatory）\| `static`（静态：不以转变为组织力，也不以逐步显形为主要组织力；固定透镜 / 讽刺常量 / 见证者 / 反结构稳定存在；**vs revelatory**——没有"揭示稳定核"的组织线，只是固定存在）\| `degenerative`（退化：堕落 / 悲剧 / 不可逆衰败轨迹）。**消费者**：Phase 4/5 作者侧结构设计。character-persona 不把 mode 暴露给 actor。**既有产物 fallback**：`phase2_character.yaml` 的 `character_arc` 缺 `mode` 字段时兼容层按 `transformative` 解释，新生成路径必须显式依据角色性质选择最贴近的一类，不允许以"不确定"为由跳过判定 |
 | `antagonist` | 是 | Phase 3（对抗力量设计）、Phase 5（对手出现的场景） |
 | `deuteragonist` | 否 | 双主角 / 守护者形态时使用（结构同 protagonist；若存在则 `character_arc.mode` 必填）；消费方与 protagonist 等价（Phase 3/4/5/6 各处按 optional 处理）；下游 character-persona 按 optional 派生 runtime skill 包 |
@@ -174,15 +174,10 @@ pipeline/story-character-skills/
 - `story-slug` 仅作为 build-report 标题与 build-meta 元数据保留（独立创作用 phase0 title，数据集创作用 query_index），**不参与 skill 命名**
 - 新生成的 SKILL.md 只承载身份与处境、经历与信念、自觉追求、判断习惯与行为盲区、声音和边界。完整作者设计继续保存在 `phase2_character.yaml`；旧包的作者侧章节只作为 legacy optional 供 rebuild 迁移。
 
-### 2. 兼容 adapter（派生资产）
-
-`pipeline/characters/{角色名}.md`，每角色一个文件。该文件：
-- 由 character-persona 从 SKILL.md 单向自动生成，**不可手改**
-- 供兼容消费者与资产校验读取；Phase 6 writer 直接读取 runtime SKILL
-- 包含身份与处境、经历与信念、自觉追求、判断习惯与行为盲区、声音、边界，从 SKILL.md 对应章节提取
-- 不复制不自觉欲望、核心缺陷、性格真相标签、`mode / end_state / transformation` 或人物轨迹机制
-- 不包含 contrast_axes、relationships 等分析字段（这些留在 YAML 中供下游 Phase 结构化读取）
-
 ### 生成时机
 
-Phase 2 步骤 7 调用 `character-persona`。详见 `character-persona/SKILL.md`。
+完整链的 role-view 派生器与 writer 需要角色包时，Phase 2 步骤 7 调用 `character-persona`。新增场景参与者沿 Phase 6 交接回人物设计后补建；详见 `character-persona/SKILL.md`。
+
+### 既有产物
+
+既有 `character_arc` 缺 `mode` 时按 `transformative` 理解，并结合原设计判断。新生成产物按实际人物轨迹显式填写。存量 adapter 文件及旧元数据保留在原工作区，当前角色资产检查不消费它们。

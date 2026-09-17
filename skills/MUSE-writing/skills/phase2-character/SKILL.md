@@ -230,8 +230,6 @@ misread_pattern:
 
 当故事中有两个以上重要角色时，让各自的经历、利益与关系位置真实影响他们在同一压力下的注意、判断、选择或代价。从注意对象、利益排序、知识来源、误判方式和关系策略中选择真正承重的差异；这些是观察镜头，不是必填维度。人物可以作出相同选择，只要理由、承担的代价或关系意义仍由各自经历产生。
 
-例如，同一份被涂改的失踪名单到手后，配给站管理者先算谁会因公布真相失去口粮，失踪者家属先找删改痕迹和经手人。前者暂压名单以保住发放，后者当场公开以逼出证人。差异体现在他们改变了什么，职业名词和口头禅只提供背景。
-
 用换角测试收束：互换两人的注意对象、判断路径或关键选择后，若故事因果仍然原样成立，当前差异只停在标签层。同一机构、社区或时代的人物可以共享制度语域和公共事实；他们对共同材料的服从、利用、误读或抵抗仍由各自的因果产生。
 
 ### 6. 构建关系网络
@@ -243,22 +241,21 @@ misread_pattern:
 
 关系会改变关键选择时，在现有关系文字中保留相关经历、顾忌和实际支配条件；拥有资源、能够调动与愿意相助分别判断。需要解释同一人为何在不同关系中采用不同办法时，沿[人物依据](references/mckee-character.md#从追求到具体办法)展开。
 
-### 7. 为实际 actor 消费者构建角色包
+### 7. 为人物视图派生与写作构建角色包
 
-先按调用链判断产物用途：story-writing 的 Phase 6 有 actor，执行下述构建与 gate；screenplay-writing 直接消费人物设计，完成 step 4–6 后返回，不生成 runtime 角色包或 adapter。用户自定义调用链按其实际消费者决定是否需要构建。
+先按调用链判断产物用途：story-writing 的 role-view 派生器与 writer 读取 runtime 角色包，执行下述构建与 gate；是否调用可选 actor 不改变这项依赖。screenplay-writing 直接消费人物设计，完成 step 4–6 后返回。用户自定义调用链按其实际消费者决定是否需要构建。
 
-Phase 2 **决定**要为哪些角色生成资产（主角、对手、值得构建 Skill 的配角），然后**调用** `character-persona` 构建器落盘。产物目录结构、adapter 派生规则、字段 / 章节白名单等详见 [`character-persona/SKILL.md`](../character-persona/SKILL.md)，**字段权威以 character-persona 为准**。
+Phase 2 **决定**要为哪些角色生成资产（主角、对手、值得构建 Skill 的配角），然后**调用** `character-persona` 构建器落盘。产物目录结构、角色映射、字段 / 章节白名单等详见 [`character-persona/SKILL.md`](../character-persona/SKILL.md)，**字段权威以 character-persona 为准**。
 
 `pipeline/phase2_character.yaml` 保留实际成立的作者设计与叙事用途；可选欲望、缺陷或能力机制缺省时不补齐。character-persona 将这些材料编译成 actor-facing runtime SKILL：经历与信念、自觉追求、判断习惯与行为盲区、声音和边界。新 runtime 资产不复制弧光终点、作者诊断标签或通用表演规则；`character_arc.start_state` 只用于初始化 `state.md`。
 
-**4 产物（每角色齐全才放行）**：
+**3 产物（每角色齐全才放行）**：
 
 | # | 产物 | 路径 |
 |---|---|---|
 | 1 | actor-facing runtime Skill | `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` |
 | 2 | 初始主观状态 | `pipeline/story-character-skills/.claude/skills/{slug}/state.md` |
 | 3 | 构建元数据 | `pipeline/story-character-skills/.claude/skills/{slug}/build-meta.yaml` |
-| 4 | 兼容 adapter | `pipeline/characters/{中文角色名}.md`（sha256 与 build-meta.yaml `adapter_sha256` 一致） |
 
 **核验**：构建完成时执行；Phase 5→6 复用未变资产的有效结果，仅对新增、变更、缺失或先前失败的资产重新检查：
 
@@ -267,18 +264,16 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/verify_phase2_assets.py <work_dir>
 ```
 
 退出码：
-- **0** → 通过；在回复中明示 "phase2 hard gate PASS"
+- **0** → 当前角色资产核验通过，交给后续阶段使用
 - **非 0** → abort：不进入下一阶段；在回复中粘贴脚本 stdout 失败原因；修复后重跑；**严禁**"继续往下，回头补"
 
 **详细字段断言与错误码以脚本为权威**：
 [`skills/MUSE-writing/scripts/verify_phase2_assets.py`](../../scripts/verify_phase2_assets.py)。
-脚本防的是 Phase 2 角色资产缺漏 / 4 产物不完整 / sha 不一致；执行者只需关心脚本调用 + 退出码处理。
+脚本检查 Phase 2 角色资产完整性、构建清单与角色映射、来源声明和章节结构；执行者按退出码处理。
 
 **未构建例外**：仅"只在他人叙述中出现 / 纯背景人物 / 无对白无关键行动"的配角可跳过 Phase 2 构建，需在 build-report.md "未构建"表填非空 `skip_reason`（builder 自检；脚本兜底校验）。
 
-**绝对硬线**：凡在 `phase5_scenes.yaml` `participants` 中登场的角色不得作为 Phase 2 例外——Phase 5→6 过渡时补建 gate 会拉回。
-
-**硬约束**：`pipeline/characters/{角色名}.md` 不再手写；凡由 Phase 2 直接写入该目录的内容视为绕过构建器。
+Phase 5→6 的参与者核对由 [Phase 6 交接协议](../phase6-scene-development/references/execution-protocol.md#1-逐场创作) 承担。该交接发现本次人物尚无设计或有效角色包时，回本阶段确认人物依据，再调用 character-persona 补建；修复后才派生受影响场景的 role_view。
 
 ## 输出
 
@@ -287,14 +282,9 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/verify_phase2_assets.py <work_dir>
 **step 4-6 交付物（设计层）**：
 - `pipeline/phase2_character.yaml`：结构化数据（protagonist, antagonist, **deuteragonist**（可选）, supporting_cast, relationships, contrast_axes, voice_boundaries）；其中 `protagonist.character_arc.mode` 必填，`deuteragonist.character_arc.mode` 若存在也必填（enum：transformative / revelatory / static / degenerative，边界见 Step 1 "人物轨迹"段）；`deuteragonist` 是麦基双主角 / 守护者形态的可选字段（结构同 protagonist），下游 character-persona / story-writing 按 optional 处理
 
-**step 7 交付物（调用链需要 actor 时）**：
+**step 7 交付物（调用链消费 runtime 角色包时）**：
 - `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` / `state.md` / `build-meta.yaml`：每角色 actor-facing 运行时 Skill 包
-- `pipeline/characters/{中文角色名}.md`：兼容 adapter（由 character-persona 从 SKILL.md 派生，保持 actor-facing 的身份与声音内容，供兼容审稿链读取；writer 直接读取 runtime SKILL.md）
 - `pipeline/story-character-skills/build-report.md`：构建决策记录 + 已构建 / 未构建角色清单
-
-**硬约束**：`pipeline/characters/{角色名}.md` 不再手写；凡由 Phase 2 直接写入该目录的内容一律视为**绕过构建器**，违反 hard gate。
-
-**既有产物 fallback**：`phase2_character.yaml` 的 `character_arc` 缺 `mode` 字段时兼容层按 `transformative` 解释，下游读取既有产物不视为缺必需字段。新生成路径必须显式依据角色性质选择最贴近的一类，不允许以"不确定"为由跳过判定。
 
 ## 常见错误
 

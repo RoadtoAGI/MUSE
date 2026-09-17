@@ -26,6 +26,8 @@
 
 脚本示例中的 `${CLAUDE_PLUGIN_ROOT}` 表示本包根；文件加载宿主使用已解析的 `serial_package_root` 绝对路径，不假定该环境变量存在。包内职责规定允许读取的输入、写入的产物和委派边界；宿主负责把这些能力映射到正式文件、补丁或命令工具。Claude 元数据中的工具名只在该宿主解释，文件加载宿主不因此丧失等价读写能力。
 
+子执行者默认继承本次主会话所选模型。注册 agent、直接技能调用和文件加载后派发通用子执行者沿用同一政策；`model: inherit` 由实际调用方落实。本次作者明确指定某项任务使用其他模型时，才为该任务传覆盖值，并沿既有派发说明保留选择。宿主强制配置使继承不可用时，报告实际限制及受影响任务，不以文件默认值宣称实际模型。
+
 | 场景职责 | 本包元配置 | 本包职责 skill |
 |---|---|---|
 | 人物视图派生 | `agents/serial-role-view-deriver.md` | `skills/role-brief-deriver/SKILL.md` |
@@ -238,6 +240,8 @@ PATCH 只有需要判断具体片段变化且本次实际应用记录可定位�
 ## 2. role_view 派生协议
 
 **触发与输入**：每场景在 `scene_card.md` 提取后、writer 启动前派生。章卡的人物选择与 `serial_context.md` 应在章内编排前已具备；场景设计变更后按实际影响更新章卡、重装配、重新提取，再派生受影响角色的视图。
+
+新增 participant 时，由 chapter-scene-plan 先确认人物身份与场景依据，再由章编排更新章卡的人物选择并重装配。系列人物来源缺失或矛盾交 serial-outline 路由人物负责人；一次性功能角色按上下文协议使用场景内已确认的身份与当前情境。连载人物供给沿合时台账与 role_view，只有明确需要兼容包的消费者才调用 character-persona，参与者出现本身不新增角色包 gate。
 
 按 §0 派 `serial-role-view-deriver`。输出为 `pipeline/scene_{scene_id}/role_views/{slug}.yaml`，逐角色表达合时身份、已知信息、可观察刺激和当前限制。完整字段与缺失语义归本包 [role-brief-deriver](../../role-brief-deriver/SKILL.md)；来源权限与作者/角色分工归 [上下文协议](context-contract.md)。本协议不镜像 schema，也不把人物欲望或动作改写成执行命令。
 

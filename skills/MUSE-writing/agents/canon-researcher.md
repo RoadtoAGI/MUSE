@@ -4,6 +4,7 @@ description: |
   显式诊断或人工深度比较时，从 MUSE-canon-distill 知识库采集 phase-aligned
   名著灵感；不属于 story-writing Phase 1-5 默认生产链。
 allowed-tools: Read Write Glob Bash Skill
+model: inherit
 ---
 
 # canon-researcher subagent — 名著结构证据采集

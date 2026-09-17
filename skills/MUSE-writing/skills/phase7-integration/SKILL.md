@@ -30,6 +30,8 @@ description: 原创完整链的全文整合、读者与语义审阅及终稿交�
 
 控制、作者要求与设计依据由主控协调；正文阅读交相应执行者。宿主未预载 agent 时，主控读取本包对应 `agents/{agent-name}.md`，将职责交给子执行者或要求其先读取该绝对路径；执行者随后加载其中指定的技能。只有本次有效、对应实际输入的结果可以复用。输入错误或格式错误允许补正，不借此增加创作重试轮数。
 
+注册 agent 与通用子执行者均默认继承主会话所选模型，仅按作者明确的任务指定覆盖；实际调用方落实，宿主限制使其不可用时报告受影响任务。
+
 ## 1. 场景闭合与初始整合
 
 沿 [Phase 6 协议](../phase6-scene-development/references/execution-protocol.md) 确认人工裁决、patch 应用和机器通道已闭合。`verify_review_complete.py` 负责实际 admission；宿主未触发 hook 时显式执行：

@@ -6,7 +6,7 @@
 
 退出码:
   0 — 必建集全部建成 + supporting_cast 全部有判定 + build-report 不幻觉
-      + 每个已建 slug 4 产物完整 + provenance/adapter sha/结构不变量全过
+      + 每个已建 slug 的角色资产完整、来源声明齐备、映射与结构一致
   非 0 — 至少一项失败（stdout 报具体失败原因）
 
 校验维度（回应 codex r2 CRITICAL #1 + r3 CRITICAL #1 + r3 IMPORTANT #3）:
@@ -16,19 +16,18 @@
   4. supporting_cast 每个 name 必须在 build-report 已构建或未构建任一表（builder 必须做判定）
   5. build-report 未构建条目必须有 skip_reason
   6. build-report 不允许幻觉构建（已构建 name 必须在 phase2 出现）
-  7. 每个已构建 slug 4 产物完整：SKILL.md / state.md / build-meta.yaml /
-     pipeline/characters/{display_name}.md
-  8. build-meta provenance + adapter sha 一致性
+  7. 每个已构建 slug 的 SKILL.md / state.md / build-meta.yaml 完整
+  8. build-meta 的构建者声明、name→slug 映射与来源路径
   9. SKILL.md 章节白名单（从 skill-template.md 派生，不硬编码）
 
 不做计数门槛检查（描述性质量信号由 reviewer 判断）。
 """
-import hashlib, re, sys, yaml
+import re, sys, yaml
 from pathlib import Path
 
 CORE_META_FIELDS = [
     "generated_by", "character_slug", "character_display_name",
-    "input_sources", "adapter_path", "adapter_sha256",
+    "input_sources",
 ]
 
 # 章节白名单从 skill-template.md 运行时派生——禁止硬编码
@@ -220,16 +219,14 @@ def check_skill(pipeline: Path, slug: str, display_name: str,
     errors = []
     skill_dir = pipeline / "pipeline" / "story-character-skills" / ".claude" / "skills" / slug
 
-    # 4 产物完整性
+    # 角色资产完整性
     skill_md = skill_dir / "SKILL.md"
     state_md = skill_dir / "state.md"
     meta_path = skill_dir / "build-meta.yaml"
-    adapter_path = pipeline / "pipeline" / "characters" / f"{display_name}.md"
-
     for label, p in [("SKILL.md", skill_md), ("state.md", state_md),
-                     ("build-meta.yaml", meta_path), (f"adapter ({adapter_path.name})", adapter_path)]:
-        if not p.exists():
-            errors.append(f"{slug}: missing 4-artifact item '{label}' at {p}")
+                     ("build-meta.yaml", meta_path)]:
+        if not p.is_file():
+            errors.append(f"{slug}: missing role asset '{label}' at {p}")
     if errors:
         return errors  # 缺产物时跳过下游字段校验
 
@@ -238,6 +235,8 @@ def check_skill(pipeline: Path, slug: str, display_name: str,
     except yaml.YAMLError as e:
         errors.append(f"{slug}: build-meta.yaml not valid YAML — {e}")
         return errors
+    if not isinstance(meta, dict):
+        return [f"{slug}: build-meta.yaml must be a mapping"]
 
     for f in CORE_META_FIELDS:
         if f not in meta or meta[f] in (None, ""):
@@ -248,15 +247,10 @@ def check_skill(pipeline: Path, slug: str, display_name: str,
             f"(expected 'character-persona' — placeholder forbidden)"
         )
 
-    # adapter 一致性
-    if "adapter_sha256" in meta:
-        actual_adapter_sha = hashlib.sha256(adapter_path.read_bytes()).hexdigest()[:16]
-        if meta["adapter_sha256"] != actual_adapter_sha:
-            errors.append(
-                f"{slug}: build-meta.adapter_sha256={meta['adapter_sha256']} "
-                f"!= actual adapter sha={actual_adapter_sha} "
-                f"(adapter modified after build)"
-            )
+    if meta.get("character_slug") != slug:
+        errors.append(f"{slug}: character_slug differs from build-report mapping")
+    if meta.get("character_display_name") != display_name:
+        errors.append(f"{slug}: character_display_name differs from build-report mapping")
 
     # 章节白名单
     sections = [
@@ -345,7 +339,7 @@ def main():
                 f"not in phase2_character.yaml (未授权构建)"
             )
 
-    # 校验 5: 每个已构建 slug 必须有 4 产物 + provenance + adapter sha + 章节白名单
+    # 校验 5: 角色资产完整、元数据映射与来源声明齐备、章节符合模板
     skills_dir = pipeline / "pipeline" / "story-character-skills" / ".claude" / "skills"
     for name, slug, _ in report["built"]:
         # 跳过未在 phase2 中的（已在校验 4 报错）

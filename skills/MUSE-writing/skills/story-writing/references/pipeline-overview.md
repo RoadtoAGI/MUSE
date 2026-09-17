@@ -10,7 +10,7 @@
 |---|---|---|
 | Phase 0 构想 | 用户目标、已有材料、实际信息缺口；确定前提、价值问题、类型与表达意图 | `phase0_conception.yaml` |
 | Phase 1 世界 | Phase 0 的前提、类型、来源约定；建立人物能够行动的物质、制度与社会条件 | `phase1_world.yaml`；实际调研时附 `world_research.md` |
-| Phase 2 人物 | Phase 0 的创作意图与 Phase 1 的生活条件；设计欲望、关系、经历、声音和人物轨迹 | `phase2_character.yaml`、角色资产与兼容 adapter |
+| Phase 2 人物 | Phase 0 的创作意图与 Phase 1 的生活条件；设计欲望、关系、经历、声音和人物轨迹 | `phase2_character.yaml`、角色 SKILL/state/build-meta 与构建清单 |
 | Phase 3 脊椎 | Phase 0 的组织意图、Phase 2 的人物系统与入场状态、相关世界限制；确定组织力、激励事件、阻力、读者信息边界和结局 | `phase3_spine.yaml` |
 | Phase 4 结构 | Phase 3 的 Arc 与目标结果、人物轨迹和相关世界限制；展开序列、压力递进及真实因果依赖 | `phase4_structure.yaml` |
 | Phase 5 场景 | Phase 4 的序列、Phase 3 的组织力与读者信息、Phase 2 的人物关系、当前世界条件；确定场景职责、状态变化和交接 | `phase5_scenes.yaml` |
@@ -32,7 +32,7 @@
 
 ### 人物与正文
 
-Phase 2 YAML 承载作者侧人物轨迹、关系与背景；`story-character-skills/.claude/skills/{slug}/SKILL.md` 承载长期人格与声音，`state.md` 承载已记录的入场状态，`characters/{角色名}.md` 只作身份和声音兼容投影。Phase 3 经 `build-report.md` 的 name→slug 映射读取主角状态；Phase 4/5 从 YAML 读取作者侧轨迹。
+Phase 2 YAML 承载作者侧人物轨迹、关系与背景；`story-character-skills/.claude/skills/{slug}/SKILL.md` 承载长期人格与声音，`state.md` 承载已记录的入场状态，`build-meta.yaml` 保存身份映射及构建来源。Phase 3 经 `build-report.md` 的 name→slug 映射读取主角状态；Phase 4/5 从 YAML 读取作者侧轨迹。
 
 Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`；普通场景直接交 writer，人物独有前提确实影响关键实现时，才派发相关 character-actor。writer 只读本次派发明确列出的可选 role move 和参考文件。详见 [Phase 6 协议](../../phase6-scene-development/references/execution-protocol.md)。
 

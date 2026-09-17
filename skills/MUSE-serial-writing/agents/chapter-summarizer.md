@@ -5,6 +5,7 @@ description: |
   （summary 注入段 + deltas 台账候选段），按 dispatch 指明的时机追产单元/卷 digest。
   只生产 recap 与 digest，不修改正文、不直接写台账。
 allowed-tools: Read Write Bash Skill
+model: inherit
 ---
 
 # chapter-summarizer subagent — 章收束回灌

@@ -1,6 +1,6 @@
 # 修订后表达候选词表 SSOT；保留历史文件名供现有调用使用。
 # post_revision_gate.py 通过 yaml.safe_load 加载；ai-cliche-patterns.md 引用本文件。
-# 命中仅供上下文复核，无法证明语义迁移或禁止对应词语。
+# 候选命中的程序处理由调用脚本规定；语义判断须结合当前上下文。
 
 contrastive_explanation:
   actually_assertion: "其实[^，。]{1,15}"

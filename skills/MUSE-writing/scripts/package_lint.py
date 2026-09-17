@@ -10,6 +10,7 @@
   MUSE-serial-distill 的 skills/ + agents/ 下 .md/.yaml）；knowledge-base/（生成态角色 skill）、
   scripts/.py、hooks/.sh 不在协议注记域内。
 - (--strict only) 无 __pycache__ / .pytest_cache 物理目录残留（pytest 必然产，仅 publish 前扫）
+- 原创与连载同时存在时，已统一的工坊与世界观参考保持同文；各包特化入口独立维护
 
 输出 WARN 到 stderr，exit 0（warning only，不阻断 commit）。
 若需要 hard fail，传 --strict。
@@ -63,12 +64,61 @@ PROTOCOL_NOTE_PATTERNS = [
     (re.compile(r"为什么改默认|为何改默认|为什么撤销"), "历史变更解释混入执行段"),
     (re.compile(r"实战曾|曾出现.{0,10}(?:卡死|手动终止)"), "事故记录混入执行段"),
     (re.compile(r"来自旧版本|旧版本创作|（[^）]*早期版本）"), "旧版本出处注记"),
-    (re.compile(r"\bquery[_ ]?\d{3}\b"), "测试用例编号溯源"),
-    (re.compile(r"writing-bench ?\d+"), "bench 取证编号溯源"),
+    # 案例来源标识本身合法；只提示把维护任务写进运行指令的形式。
+    (re.compile(r"(?:回归任务|测试任务|待验证用例)[：: ]*(?:query[_ ]?\d+|writing-bench ?\d+)", re.I),
+     "开发测试任务混入执行段"),
     (re.compile(r"实测中|当前阶段：|留 backlog|未来若引入"), "事故叙述/阶段路线图措辞"),
 ]
 
 CACHE_DIR_NAMES = {"__pycache__", ".pytest_cache"}
+
+# 完整定义由原创包维护，两包各自携带可独立读取的副本。
+# 仅包含已经逐机制整合的整文件；SKILL.md 与编排保留包内输入合同。
+SHARED_REFERENCE_PAIRS = tuple(
+    (path, path) for path in (
+        "prose-craft/references/novel-craft-patterns.md",
+        "prose-craft/references/ai-cliche-patterns.md",
+        "prose-craft/references/observed-action-cases.md",
+        "prose-craft/references/forbidden_migration_patterns.yaml",
+        "dialogue-craft/references/dialogue-rules.md",
+        "dialogue-craft/references/speech-attribution-patterns.md",
+        "dialogue-craft/references/subtext-theory.md",
+    )
+) + tuple(
+    (f"phase1-world-building/references/{path}", f"world-bible-design/references/{path}")
+    for path in (
+        "mckee-setting.md",
+        "genre-worldbuilding/README.md",
+        "genre-worldbuilding/apocalypse.md",
+        "genre-worldbuilding/mystery.md",
+        "genre-worldbuilding/palace-intrigue.md",
+        "genre-worldbuilding/romance.md",
+        "genre-worldbuilding/scifi.md",
+        "genre-worldbuilding/wuxia.md",
+        "genre-worldbuilding/xianxia.md",
+    )
+)
+
+
+def scan_shared_references(root: Path) -> int:
+    """检查已声明共享的参考副本；独立安装单包时没有跨包依赖。"""
+    writing = root / "skills/MUSE-writing/skills"
+    serial = root / "skills/MUSE-serial-writing/skills"
+    if not writing.is_dir() or not serial.is_dir():
+        return 0
+    warn_count = 0
+    for writing_rel, serial_rel in SHARED_REFERENCE_PAIRS:
+        source, peer = writing / writing_rel, serial / serial_rel
+        if not source.is_file() or not peer.is_file():
+            reason = "共享参考缺件"
+        elif source.read_text(encoding="utf-8") != peer.read_text(encoding="utf-8"):
+            reason = "共享参考分歧，按机制核对并同步"
+        else:
+            continue
+        print(f"[package-lint] WARN: {source.relative_to(root)} ↔ {peer.relative_to(root)}: {reason}",
+              file=sys.stderr)
+        warn_count += 1
+    return warn_count
 
 # 协议注记扫描域：四包手维护的 runtime skill 文档（model 在生成时实际加载的 prompt 文本）。
 # 排除 knowledge-base/（生成态角色 skill）、scripts/.py 与 hooks/.sh（代码出处注释非 prompt）。
@@ -115,7 +165,9 @@ def scan_cache_dirs(root: Path) -> int:
 def scan_text_files(root: Path, *, strict: bool = False) -> int:
     # cache 扫仅在 strict 模式触发——pytest / 开发态必然产，日常 commit 不该被打扰；
     # 真实价值场景是 plugin publish 前快照检查
-    warn_count = scan_cache_dirs(root) if strict else 0
+    warn_count = scan_shared_references(root)
+    if strict:
+        warn_count += scan_cache_dirs(root)
 
     target_globs = [
         "skills/MUSE-writing/agents/*.md",

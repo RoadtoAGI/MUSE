@@ -1,4 +1,4 @@
-import subprocess, hashlib, os, yaml
+import subprocess, os, yaml
 from pathlib import Path
 
 SCRIPT = Path(__file__).parent.parent / "verify_phase2_assets.py"
@@ -48,14 +48,13 @@ def write_build_report(tmp, built, unbuilt=None):
     p.write_text("\n".join(lines) + "\n")
 
 def make_skill_pkg(tmp, slug, display_name, sections=None, meta_overrides=None,
-                   skip_files=None, adapter_content="adapter content"):
-    """构造一个角色包；skip_files=['state.md'|'SKILL.md'|'build-meta.yaml'|'adapter']"""
+                   skip_files=None):
+    """构造角色包；skip_files=['state.md'|'SKILL.md'|'build-meta.yaml']。"""
     skip_files = skip_files or []
     base = Path(tmp) / "pipeline" / "story-character-skills" / ".claude" / "skills" / slug
     base.mkdir(parents=True, exist_ok=True)
     sections = sections or ACTOR_FACING_SECTIONS
     skill_content = f"---\nversion: v1\n---\n# {display_name}\n{sections}\n"
-    adapter_sha = hashlib.sha256(adapter_content.encode()).hexdigest()[:16]
 
     if "SKILL.md" not in skip_files:
         (base / "SKILL.md").write_text(skill_content)
@@ -67,8 +66,6 @@ def make_skill_pkg(tmp, slug, display_name, sections=None, meta_overrides=None,
             "character_slug": slug,
             "character_display_name": display_name,
             "input_sources": ["phase2_character.yaml"],
-            "adapter_path": f"pipeline/characters/{display_name}.md",
-            "adapter_sha256": adapter_sha,
         }
         if meta_overrides:
             meta.update(meta_overrides)
@@ -76,10 +73,6 @@ def make_skill_pkg(tmp, slug, display_name, sections=None, meta_overrides=None,
                 if v is None:
                     meta.pop(k, None)
         (base / "build-meta.yaml").write_text(yaml.safe_dump(meta, allow_unicode=True))
-    if "adapter" not in skip_files:
-        adapter_p = Path(tmp) / "pipeline" / "characters" / f"{display_name}.md"
-        adapter_p.parent.mkdir(parents=True, exist_ok=True)
-        adapter_p.write_text(adapter_content)
 
 def run(tmp):
     return subprocess.run(["python3", str(SCRIPT), str(tmp)],
@@ -260,7 +253,7 @@ def test_fail_when_build_report_hallucinates(tmp_path):
            "未授权" in r.stdout + r.stderr
 
 def test_fail_when_state_md_missing(tmp_path):
-    """4 产物完整性"""
+    """角色状态仍是必需资产。"""
     write_phase2_yaml(tmp_path, [("杨过", "protagonist"), ("罗照弦", "antagonist")])
     write_build_report(tmp_path, built=[
         ("杨过", "yang-guo", "主角"),
@@ -272,19 +265,34 @@ def test_fail_when_state_md_missing(tmp_path):
     assert r.returncode != 0
     assert "state.md" in r.stdout + r.stderr
 
-def test_fail_when_adapter_sha_mismatch(tmp_path):
+def test_pass_without_adapter_and_preserve_legacy_metadata(tmp_path):
     write_phase2_yaml(tmp_path, [("杨过", "protagonist"), ("罗照弦", "antagonist")])
     write_build_report(tmp_path, built=[
         ("杨过", "yang-guo", "主角"),
         ("罗照弦", "luo-zhaoxian", "对手"),
     ])
     make_skill_pkg(tmp_path, "yang-guo", "杨过",
-                   meta_overrides={"adapter_sha256": "deadbeefdeadbeef"})
+                   meta_overrides={"adapter_path": "pipeline/characters/杨过.md",
+                                   "adapter_sha256": "legacy-value"})
     make_skill_pkg(tmp_path, "luo-zhaoxian", "罗照弦")
     r = run(tmp_path)
-    assert r.returncode != 0
-    assert "adapter_sha256" in r.stdout + r.stderr or \
-           "sha" in r.stdout.lower() + r.stderr.lower()
+    assert r.returncode == 0, r.stdout + r.stderr
+    assert not (tmp_path / "pipeline" / "characters").exists()
+    meta_path = tmp_path / "pipeline/story-character-skills/.claude/skills/yang-guo/build-meta.yaml"
+    assert yaml.safe_load(meta_path.read_text())["adapter_sha256"] == "legacy-value"
+
+
+def test_fail_when_metadata_role_differs_from_build_report(tmp_path):
+    write_phase2_yaml(tmp_path, [("杨过", "protagonist")])
+    write_build_report(tmp_path, built=[("杨过", "yang-guo", "主角")])
+    make_skill_pkg(tmp_path, "yang-guo", "杨过", meta_overrides={
+        "character_slug": "other-role",
+        "character_display_name": "另一人",
+    })
+    result = run(tmp_path)
+    assert result.returncode != 0
+    assert "character_slug differs" in result.stdout
+    assert "character_display_name differs" in result.stdout
 
 def test_fail_when_phase2_yaml_missing(tmp_path):
     """没有 phase2_character.yaml 无法做应构建集反向校验"""
@@ -464,7 +472,7 @@ def test_build_report_production_five_col_built(tmp_path):
     """production 模板：已构建 5 列 + 未构建 3 列（R2-F5 表头驱动）"""
     _write_report(tmp_path,
         "# Build Report\n\n## 已构建\n\n"
-        "| name | slug | 类型 | 深度 | 4 产物落盘 |\n|------|------|------|------|------------|\n"
+        "| name | slug | 类型 | 深度 | 3 产物落盘 |\n|------|------|------|------|------------|\n"
         "| 张三 | zhang-san | protagonist | 完整 | ✅ |\n\n"
         "## 未构建\n\n| name | 类型 | skip_reason |\n|------|------|-------------|\n"
         "| 路人甲 | supporting_cast | 背景人物无独立对白 |\n")

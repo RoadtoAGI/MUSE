@@ -177,38 +177,7 @@ Phase 5 同时比较一场内的全部 `scene_tasks / physical_carrier`，也利
 
 专业程序的每一步实际改变安全窗口、证据效力、权限、危险、资源或人物自由时，多步程序整体保留。多人只用近义话重复同一责任边界，或步骤只让记录多一栏时，它们没有独立增量。
 
-同一个“离开”表面动作可以产生两种设计结果：
-
-- `主人公转身、背包、下楼、回头`，`reader_yield: 紧张感`：动作身份不改变危险与选择，省略 carrier，给结果或交给 writer 自然衔接。
-- `主人公松开防火门去抢药，门回弹发声，引来感染者并封住原路`：动作次序改变资源、噪声与退路，可写 carrier；正文需要读者经历这次取舍时设 `expand`。
-
-判据落在变化与后果，同一动词在不同语境中可以省略，也可以承重。该判据只约束大纲取材，不限制 Phase 6 writer 自然使用必要的衔接动作。
-
-近边界修复对：
-
-```yaml
-# 负例：本场没有发生限时取物，潜在便利不能授权展开
-abstract_function: "表现人物做事有条理"
-physical_carrier:
-  - text: "司机把钥匙、手电和地图按取用顺序装袋"
-    function_link: "排序可能在紧急时加快取用"
-reader_yield: ["职业习惯"]
-rendering:
-  default: expand
-  expand_only_if: "以后可能更快"
-
-# 处置：省略 physical_carrier，给出已整备的结果；不要另造险情替排序自证。
-
-# 正例：本场实际发生的取用方式改变了路线和危险
-abstract_function: "让预先整备在突发断电中产生代价差"
-physical_carrier:
-  - text: "隧道断电时，司机从外袋直接摸到手电，赶在后车逼近前看见侧洞并改道"
-    function_link: "取用位置缩短黑暗窗口，侧洞从不可见变成可选退路"
-reader_yield: ["危险窗口缩短并产生新路线"]
-rendering:
-  default: expand
-  expand_only_if: "手电的取用时点实际改变可见信息和撤离路线"
-```
+判断依据是当场作用与后果。[已观察的动作案例](../prose-craft/references/observed-action-cases.md)保留了准备清单压成一句后仍无新增作用，以及压缩食品楔门实际改变资源与出口的对照。比较任务语境与决定性差异，按本场作用取材；动作名称和句子长度不单独决定展开。
 
 缺少功能连接的 carrier 项（schema error）：
 
@@ -218,7 +187,7 @@ physical_carrier:
     function_link: ""               # 触发 schema error
 ```
 
-历史双 marker 字符串（如 `[核心][main] ...`）仅保留为下游渲染兼容；Phase 5 新产物不再以字符串任务作为主结构。详细校验见 [references/output-schema.md](references/output-schema.md)。
+场景提取器只接收对象任务；恢复历史双 marker 字符串（如 `[核心][main] ...`）时，先保留有效意图与约束，将其迁移为对象字段。详细校验见 [references/output-schema.md](references/output-schema.md)。
 
 ### 1bis. 因果顺序与呈现顺序
 
@@ -234,7 +203,7 @@ physical_carrier:
 
 `omission_plan` 同时保留作者明确的一般省略意图，包括无需后文解释的心理、背景或永久留白；这些安排按既定作用保持，无需设定解除或兑现时点。本场没有额外省略要求时省略该字段。
 
-例如，女儿在复印件上发现疑似父亲的签名：本场可以呈现字迹相似及她怀疑的依据，核对原件前仍不替读者确认签名真伪。`scene_tasks` 保存这项发现，`omission_plan` 保存延迟确认的条件。若读者已看见父亲签名，阅读焦点可转为女儿何时发现、发现后付出什么代价，已有答案继续成立。
+延迟确认某项答案时，`scene_tasks` 保留本场已能成立的发现及其依据，`omission_plan` 记录尚待满足的确认条件。读者已有答案时，把阅读焦点放到人物如何发现，以及发现造成的选择与代价。
 
 读者披露意图属于作者侧安排，由场景卡交 writer；人物当前能知什么，仍由 deriver 按经历、事件时点与可见刺激派生。人物已知而读者暂未知时，依照现有视角与叙述距离选择呈现，保留人物据此行动的能力；读者已知而人物未知时，人物继续受自己的知识条件约束。
 
@@ -256,17 +225,13 @@ Phase 4 提供 `narrative_threads` 时，按当前 `seq_id` 的 `sequence_refs` 
 - 每个 Arc 的高潮场景
 - 故事危机/高潮场景
 
-`beat_direction` 给 Phase 6 提供关键变化方向，不生成逐拍动作清单：
+`beat_direction` 经场景提取器转为“关键转折”，交 writer 实现变化及其触发原因，供作者侧审阅对照：
 
 - `desire`：行为方向、期待裂口和结果状态；
 - `information`：判断变化和需要被释放的信息；
 - `motif`：意义怎样变形，以及读者需要感知的结果。
 
-示例：
-- "从信任走到背叛，鸿沟在老板拿出审计数据时裂开"
-- "从安全感走到不可逆的被困感，罗辑发现面壁者身份不可撤销"
-
-`beat_direction` 写清压力或信息在哪里改向，避免只写“情绪升高”。动作、物件、对白、微观反应和句法由 writer 选择；Phase 5 已有贴切来源材料时，可以作为候选写入 `craft_carrier`。
+`beat_direction` 写清压力或信息在哪里改向，避免只写“情绪升高”。动作、物件、对白、微观反应和句法由 writer 选择；Phase 5 已有贴切来源材料时，可以作为候选写入 `craft_carrier`，用 `function` 说明其叙事作用。预定转折保持作者侧信息，不进入人物认知切片。
 
 非关键场景不标注 beat_direction——节拍在 Phase 6 创作中自然生长。
 
@@ -286,7 +251,7 @@ Phase 4 提供 `narrative_threads` 时，按当前 `seq_id` 的 `sequence_refs` 
 
 只有 Phase 5 已能指出本场特有的高风险叙述形态时，才写 `scene_card.prose_risk_contract` 并设 `used: true`。缺整个字段与 `used: false` 都表示没有场景级补充，writer 继续使用通用 Craft Preflight；不要求逐场评估或显式填写关闭状态。
 
-`risk_families` 只标出值得关注的风险面；`positive_strategy` 与 `bad_shape_examples` 提供候选处理方向。它们不规定 writer 的实现路径，也不能单独证明正文违规。writer 与 scene-reviewer 都以最终正文中的实际形态和影响为准。
+`risk_families` 标出值得关注的风险面，`positive_strategy` 提供候选处理方向。`bad_shape_examples` 仅摘录实际正文、执行记录或用户反馈中的相关原句，在同一项注明出处及位置；保留原语境与决定性差异，只做必要截取或脱敏。没有适用观察时省略或留空。writer 与 scene-reviewer 按最终正文中的实际形态和影响判断。
 
 若 Phase 0 `style_directives`、文风 ref 或本场设计已经明确采用碎段、留白、静默、短切等风格形态，可在 scene_card 写 `literary_device` 作为成品审阅的语境锚：`naked_line`（克制裸句 / 静默留白）、`staccato_action`（动作短切碎段）、`archive_cold`（档案体冷叙述）、`storyteller_voice`（说书腔套语声口）。字段缺失保持合法；正文中的风格功能也可由成品本身举证。
 

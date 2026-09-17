@@ -8,7 +8,7 @@
 
 - `pipeline/scenes/scene_{id}.md` — 全部场景正文，按顺序通读（核心依赖）
 - `pipeline/phase2_character.yaml` — 经历、能力、关系与人物弧光的作者侧设计基准
-- `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定信念、判断习惯、声音和行为边界；`pipeline/characters/{角色名}.md` 仅作身份与声音兼容投影
+- `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定信念、判断习惯、声音和行为边界
 
 ## 审查维度
 

@@ -16,7 +16,7 @@ build | rebuild <role-slug>
   -> 读取 phase2_character.yaml
   -> 确定目标角色集合
   -> 逐角色生成 / 更新 runtime package
-       -> SKILL.md + build-meta.yaml + adapter
+       -> SKILL.md + state.md + build-meta.yaml
        -> rebuild 时保留既有 state.md
   -> 写 build-report.md
   -> verify_phase2_assets.py
@@ -24,7 +24,7 @@ build | rebuild <role-slug>
        `-- 任一失败 -> 写失败明细并阻断
 ```
 
-`phase2_character.yaml` 是完整人物设计的作者侧权威源。角色 `SKILL.md` 是从中编译出的 actor-facing 静态上下文，`state.md` 保存已记录时点的主观状态，adapter 是 SKILL.md 的只读派生物。
+`phase2_character.yaml` 是完整人物设计的作者侧权威源。角色 `SKILL.md` 是从中编译出的 actor-facing 静态上下文，`state.md` 保存已记录时点的主观状态；`build-meta.yaml` 记录角色映射与本次来源。
 
 > 本 Skill 是**元技能/构建器**：把 Phase 2 的结构化人物数据转化为可被角色 Agent 加载的标准 Skill 包。
 > 它不执行角色扮演、不触发排练。
@@ -34,10 +34,9 @@ build | rebuild <role-slug>
 | # | 约束 | 违反后果 |
 |---|------|---------|
 | 1 | 使用 `role_slug` 作为 skill 目录名（小写字母 + 连字符，如 `li-an`、`xiao-long-nv`），不拼接故事前缀。隔离由工作目录承担（`pipeline/story-character-skills/`，每个 query 独立目录） | 下游无法按 slug 对齐人物和读取角色文件 |
-| 2 | `pipeline/characters/{角色名}.md`（adapter）是 SKILL.md 的只读派生物，**禁止手改** | adapter 与 SKILL.md 出现双源漂移，审稿和校验以哪个为准不明确 |
-| 3 | SKILL.md frontmatter 的 `version` 随人格更新；build-meta 保留当前来源与 adapter 校验信息 | 来源可追溯，adapter 物理校验由 `adapter_sha256` 锁定 |
-| 4 | `rebuild` 绝不覆盖 state.md（state.md 包含角色 agent 的运行时记忆） | 角色失忆，破坏跨场景的主观状态连续性 |
-| 5 | 资产写入路径固定：`pipeline/story-character-skills/.claude/skills/{role-slug}/` + `pipeline/characters/{角色名}.md` | 与 story-writing 全局目录契约（见 [pipeline-overview.md](../story-writing/references/pipeline-overview.md)）不一致，下游消费方读取失败 |
+| 2 | SKILL.md frontmatter 的 `version` 随人格更新；build-meta 保留当前来源及与构建清单一致的角色名、slug | 下游可按明确映射找到角色材料并回查来源 |
+| 3 | `rebuild` 绝不覆盖 state.md（state.md 包含角色 agent 的运行时记忆） | 角色失忆，破坏跨场景的主观状态连续性 |
+| 4 | 资产写入路径固定：`pipeline/story-character-skills/.claude/skills/{role-slug}/` | 与 story-writing 全局目录契约（见 [pipeline-overview.md](../story-writing/references/pipeline-overview.md)）不一致，下游消费方读取失败 |
 
 ## 触发条件
 
@@ -59,7 +58,7 @@ build | rebuild <role-slug>
 - `contrast_axes`：角色间的极化关系
 - `relationships`：权力动态、关键张力
 
-`character_arc.mode / end_state / transformation`、`backstory.narrative_use`、`subjectivity_object.potential_use` 等字段仍由 Phase 2 与后续作者侧阶段消费，构建器不把它们复制到新 runtime SKILL 或 adapter。
+`character_arc.mode / end_state / transformation`、`backstory.narrative_use`、`subjectivity_object.potential_use` 等字段仍由 Phase 2 与后续作者侧阶段消费，构建器不把它们复制到新 runtime SKILL。
 
 ### 补充输入（可选，按需读取）
 
@@ -131,7 +130,7 @@ state.md 保存已记录时点的角色主观状态。actor / writer 只读，�
 
 #### 2d. 生成 build-meta.yaml（构建元数据 + provenance）
 
-build-meta.yaml 是该角色 Skill 包的 provenance 证据——下游 verify_phase2_assets 凭此校验"产物来自本 builder"。
+build-meta.yaml 记录构建者声明、角色映射和实际使用的来源。下游 verify_phase2_assets 检查这些字段及映射一致性；内容依据由构建器对照来源核实。
 
 ```yaml
 generated_by: character-persona                          # 固定字符串，标记本 builder 产出
@@ -141,14 +140,12 @@ input_sources:                                           # 实际读取的输入
   - pipeline/phase2_character.yaml
   # - pipeline/phase0_conception.yaml   （按需）
   # - pipeline/phase1_world.yaml        （按需）
-adapter_path: pipeline/characters/{中文角色名}.md          # adapter 文件路径
-adapter_sha256: {adapter 文件实际内容 sha256 前 16 位}      # 防 adapter 手改的物理校验
 ```
 
 **字段语义关键点**：
 
-- `generated_by: character-persona` 是 verify 区分"本 builder 产出"vs"其他来源"的唯一标识，**禁止删除或改写**。
-- `adapter_sha256` 锁住 adapter 文件不被手改。
+- `generated_by: character-persona` 标明本次构建职责，按实际调用填写。
+- `character_slug / character_display_name` 与构建清单、目录及 Phase 2 人物对应；`input_sources` 记录实际采用的来源。
 
 #### 2e. 章节不变量（结构白名单运行时派生）
 
@@ -163,7 +160,7 @@ adapter_sha256: {adapter 文件实际内容 sha256 前 16 位}      # 防 adapte
   - 必备章节集 ⊆ 实际章节集
   - 实际章节集 ⊆ (必备 ∪ 可选)
 - verify_phase2_assets 在校验时**运行时解析**这两个 HTML 注释组装白名单——本 SKILL.md / verify 脚本不允许出现章节名硬编码列表。
-- 修改 skill-template.md 必备/可选标注前，先 audit 旧高质量样本下的角色 SKILL.md 章节集。旧章节保持 optional 让 `rebuild` 可安全迁移；rebuild 生成新章节并保留 `state.md`。
+- `rebuild` 依当前模板生成角色章节，保留既有 `state.md`。
 
 #### 2f. 描述性质量信号（reviewer HOW 判据，不计数）
 
@@ -180,37 +177,7 @@ adapter_sha256: {adapter 文件实际内容 sha256 前 16 位}      # 防 adapte
 
 reviewer 校验落点：读完该节能否判断一条成品台词或反应是否与角色来源相容？能 = 通过；只有无法落到成品的形容词标签 = fail。
 
-### Step 3：生成兼容 adapter
-
-为每个角色在 `pipeline/characters/{中文角色名}.md` 生成兼容 adapter 文件，保留既有路径与 sha 校验契约。
-
-**adapter 是从 SKILL.md 单向生成的只读文件**，内容保持 actor-facing：
-
-```markdown
-# {角色名}
-
-## 身份与处境
-{从 SKILL.md 的"身份与处境"章节提取}
-
-## 经历与信念
-{从 SKILL.md 的"经历与信念"章节提取}
-
-## 欲望
-{从 SKILL.md 的"自觉追求"章节提取}
-
-## 判断习惯与行为盲区
-{从 SKILL.md 的同名章节提取}
-
-## 声音
-{从 SKILL.md 的"声音框架"章节提取}
-
-## 边界
-{从 SKILL.md 的"边界"章节提取}
-```
-
-adapter 不复制 `不自觉欲望`、`核心缺陷`、性格真相标签、`mode / end_state / transformation` 或人物轨迹机制。需要作者侧人物设计的阶段直接读取 `phase2_character.yaml`。
-
-### Step 4：生成 build-report.md（应构建集声明 + 决策记录）
+### Step 3：生成 build-report.md（应构建集声明 + 决策记录）
 
 在 `pipeline/story-character-skills/build-report.md` 生成 `build-report.md`，记录本次应构建集判定与每个角色的决策。本文件同时承担 **name → slug 映射桥梁**——下游 verify_phase2_assets 凭它把 phase2_character.yaml 中的 `name`（真实 schema 主键）反查到 builder 产出的 `slug`，**不要求** phase2_character.yaml 自带 slug 字段。
 
@@ -221,7 +188,7 @@ adapter 不复制 `不自觉欲望`、`核心缺陷`、性格真相标签、`mod
 | 阶段 | 必建 | 推迟（Phase 5 补建） |
 |---|---|---|
 | **Phase 2** | `protagonist.name` + `deuteragonist.name`（若该键存在）+ `antagonist.name` + 满足上文判据的 `supporting_cast[].name`（独立对白场景 / 关键互动 / 声音区分） | `supporting_cast[].name` 中"背景人物 / 转述人物 / 群体敌人"等不满足判据的 |
-| **Phase 5+** | `phase5_scenes.yaml.participants` 中"直接登场且有对白或关键行动"但 Phase 2 未建的 name | — |
+| **Phase 5→6** | 本次 `sequence_expansions[].scenes[].participants` 中尚无有效角色包的 name；先由 Phase 2 确认或补入人物设计，再构建 | — |
 
 Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 build-report 已构建表或未构建表里出现一次**——任一 name 缺判定 = builder 漏过判断 = phase2 hard gate fail。
 
@@ -236,7 +203,7 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 
 ## 已构建
 
-| name | slug | 类型 | 深度 | 4 产物落盘 |
+| name | slug | 类型 | 深度 | 3 产物落盘 |
 |------|------|------|------|------------|
 | {phase2 中的 name} | {role-slug} | protagonist | 完整 | ✅ |
 | ... | ... | ... | ... | ... |
@@ -256,24 +223,23 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 
 - 已构建表的 `name` 必须在 phase2_character.yaml 中存在（不允许幻觉构建未授权角色）
 - 未构建表每行必须填 `skip_reason`（缺失 = phase2 hard gate fail）
-- `4 产物落盘` 列指向下文 §Step 4.1，4 件产物全齐才标 ✅
+- `3 产物落盘` 列指向下文 §Step 3.1，3 件产物全齐才标 ✅
 
-#### Step 4.1：4 产物清单（builder 自检参考）
+#### Step 3.1：3 产物清单（builder 自检参考）
 
-每个落入"已构建"表的角色，必须产出以下 4 个文件——builder 自查路径：
+每个落入"已构建"表的角色，必须产出以下 3 个文件——builder 自查路径：
 
 | # | 产物 | 路径 | 生产步骤 |
 |---|------|------|----------|
 | 1 | 角色 SKILL.md | `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` | Step 2a |
 | 2 | state.md | `pipeline/story-character-skills/.claude/skills/{slug}/state.md` | Step 2b |
 | 3 | build-meta.yaml | `pipeline/story-character-skills/.claude/skills/{slug}/build-meta.yaml` | Step 2d |
-| 4 | adapter | `pipeline/characters/{display_name}.md` | Step 3 |
 
-**Phase 2 hard gate**：4 产物 + 应构建集声明完整后，由 `verify_phase2_assets.py` 校验。
+**Phase 2 hard gate**：3 产物 + 应构建集声明完整后，由 `verify_phase2_assets.py` 校验。
 **详细字段断言与错误码以脚本为权威**：[`skills/MUSE-writing/scripts/verify_phase2_assets.py`](../../scripts/verify_phase2_assets.py)。
 脚本调用与退出码处理见 [`phase2-character/SKILL.md §7`](../phase2-character/SKILL.md)。
 
-### Step 5：验证
+### Step 4：验证
 
 **接口约束自检**：对照本文件顶部"接口约束"逐项核验，外加 frontmatter 完整性（包含 name、description、version、allowed-tools）。必须全部通过，否则构建失败。
 
@@ -282,7 +248,7 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 - 角色 SKILL.md 章节是否按 §Step 2e 不变量从 skill-template.md HTML 注释派生（不照抄硬编码章节名）
 - build-report.md 中 phase2 列出的每个 name 都已落入"已构建"或"未构建"任一表（漏判 = builder bug）
 
-字段断言、4 产物完整性、sha 一致性等结构校验以 `verify_phase2_assets.py` 为权威。
+字段断言、3 产物完整性、角色映射与章节结构校验以 `verify_phase2_assets.py` 为权威。
 
 **创作质量自检（描述性 HOW 信号，reviewer 判定，不计数）**：
 - SKILL.md 是否用 actor-facing 章节覆盖这个角色真正承重的信息，并省略作者诊断、未来轨迹与通用表演方法？
@@ -293,7 +259,7 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 - 多角色场景中，各角色在注意、判断、关系行动或声音中是否有能改变选择的差异（参照 `contrast_axes`）？
 - state.md 初始状态是否与故事起点一致
 
-### Step 6：汇报
+### Step 5：汇报
 
 向 orchestrator 汇报构建结果：
 
@@ -302,7 +268,6 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 
 已构建：
 - {角色名} → pipeline/story-character-skills/.claude/skills/{role-slug}/
-  adapter → pipeline/characters/{角色名}.md
 - ...
 
 决策详情见 pipeline/story-character-skills/build-report.md
@@ -315,22 +280,17 @@ Phase 2 阶段调用本 skill 时，**phase2 列出的每个 name 必须在 buil
 ## 输出目录结构
 
 ```
-pipeline/
-├── story-character-skills/
-│   ├── .claude/skills/               ← 既有角色文件路径
-│   │   ├── {role-a}/                 # 直接以 role-slug 命名（如 li-an）
-│   │   │   ├── SKILL.md              # 静态人格定义
-│   │   │   ├── state.md              # 初始主观状态
-│   │   │   ├── references/
-│   │   │   │   └── backstory.md      # 幕后故事（可选）
-│   │   │   └── build-meta.yaml       # 构建元数据
-│   │   └── {role-b}/
-│   │       └── ...
-│   └── build-report.md               ← 构建决策记录
-│
-└── characters/                       ← 兼容 adapter
-    ├── {角色名A}.md
-    └── {角色名B}.md
+pipeline/story-character-skills/
+├── .claude/skills/
+│   ├── {role-a}/
+│   │   ├── SKILL.md              # 静态人格定义
+│   │   ├── state.md              # 初始主观状态
+│   │   ├── references/
+│   │   │   └── backstory.md      # 幕后故事（可选）
+│   │   └── build-meta.yaml       # 构建元数据
+│   └── {role-b}/
+│       └── ...
+└── build-report.md               # 构建决策记录
 ```
 
 ---
@@ -340,7 +300,6 @@ pipeline/
 本 Skill **只负责**：
 - 把结构化人物设计编译成 actor-facing 角色 Skill 包
 - 初始化 state.md
-- 生成兼容 adapter
 - 生成 build-meta.yaml
 
 本 Skill **不负责**：
@@ -361,7 +320,7 @@ pipeline/
 
 这会：
 1. 重新读取 phase2_character.yaml 中对应角色的数据
-2. 按当前 actor-facing 模板重新生成 SKILL.md 和 adapter；legacy optional 章节不再主动写入
+2. 按当前 actor-facing 模板重新生成 SKILL.md；legacy optional 章节不再主动写入
 3. 更新 build-meta.yaml 时间戳
 4. 维护 SKILL.md frontmatter 的 version
 

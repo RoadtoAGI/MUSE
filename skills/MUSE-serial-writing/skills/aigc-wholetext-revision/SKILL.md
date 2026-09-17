@@ -7,7 +7,7 @@ description: 连载当前章稿的表达修订。由 serial-aigc-guard 交付已
 
 读取 dispatch 的 `target_path`；未发布章缺省为章目录 `draft.md`，已发布修订须由调用方指定已有工作副本或 scratch。同时取得已确认问题、位置和受保护条件；`pipeline/review/wholetext_gate.yaml` 的统计线索帮助定位，需要结合正文判断，不能只按数值施工。问题依据不足时先明确实际作用，无法成立的修改要求回交调用方。
 
-按需读取相关 scene card、serial_context 与本场 role_view 的 character_basis/known_now，取得人物声音、事实和章末承诺。遵循[上下文协议](../serial-chapter-writing/references/context-contract.md)，通过宿主可用的技能调用或文件读取取得本包 prose-craft 的相关判据；必要依据缺失交原供给环节。
+按需读取相关 scene card、serial_context 与本场 role_view 的 character_basis/known_now，取得人物声音、事实和章末承诺。遵循[上下文协议](../serial-chapter-writing/references/context-contract.md)，语义重写前通过宿主可用的技能调用或文件读取取得本包 prose-craft 主文件；改动对白内容、话轮或声音时取得 dialogue-craft。参考按问题补读，已有有效上下文可复用；必要依据缺失交原供给环节。
 
 修订前保留本次原文供上下文对照，按 [prose-craft 的阅读连续性与修订判据](../prose-craft/SKILL.md#组织场景与段落)处理。范围随实际问题决定：局部重复可以删并，跨段叙述形态需要重组信息关系。保留事实、人物动机、知识、因果、关系变化和章末功能；可以改变句段组织与措辞。新的同义套式若继续承担原来的无效解释，原问题仍在；有叙述作用的新表达可以使用，不能仅因属于另一统计 family 而禁用。
 
