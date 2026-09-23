@@ -41,6 +41,38 @@ python-dotenv>=1.0   # 加载 OpenAI API key
 
 ## API 配置
 
+### 可选 JEV 检索增强
+
+2026-09-23 发布：技能包 **v0.9.0**，配套 **muse-runtime v0.1.0**。运行包可从 [GitHub Release](https://github.com/RoadtoAGI/MUSE/releases/tag/muse-runtime-v0.1.0) 下载，也可在选定的 Python 环境安装：
+
+```bash
+python3 -m pip install "git+https://github.com/RoadtoAGI/MUSE.git@muse-runtime-v0.1.0"
+```
+
+默认使用 `standard`。在执行查询的同一 Python 环境安装 `muse-runtime`；开发环境可执行 `python3 -m pip install /path/to/MUSE`，K 独立安装使用该项目构建的 `muse_runtime-0.1.0-py3-none-any.whl`。运行包只依赖 PyYAML，不依赖仓库相邻目录；标准查询无需安装它。
+
+执行环境通过 `MUSE_JEV_API_KEY` 提供 JEV key，再按作品设置：
+
+```bash
+muse mode set jev --work-dir /absolute/path/to/work
+muse mode status --work-dir /absolute/path/to/work
+muse mode set standard --work-dir /absolute/path/to/work
+```
+
+官方优先使用 `MUSE_JEV_API_KEY`；额度不足或限流时自动改用 `MUSE_JEV_TUZI_API_KEY` 指定的 Tuzi 备用通道。每通道至多尝试一次，同一批次切换后续用备用，新批次恢复官方优先；状态与日志保留实际通道、模型和失败原因。完整切换规则见 `python3 -m muse_runtime brainstorm guide` 中的“官方优先与备用通道”。
+
+模式保存在该作品的 `.muse/runtime.yaml`。查询显式传 `--work-dir`，或由既有 `<work>/pipeline/...` 输出位置绑定；无绑定沿标准模式。不按 cwd 或系列目录继承。`set/status` 不验证 key，也不发请求；status 的 mode 表示配置，recent 显示实际评价和交付状态。
+
+需要工作台的新作品默认值时，可由启动环境提供 `MUSE_NEW_WORK_TEMPLATE=/absolute/path/to/workbench/.muse/runtime.yaml`。MUSE 的长短篇、系列和章初始化脚本仅在创建新目录时复制 mode；已有作品不覆盖，查询期仍只读自己的 mode 文件。模板只含 mode，密钥继续由执行环境提供。
+
+JEV 在 `kb_query.py`、`inspiration_query.py` 内部评价候选，选中的原文与卡片照常落盘，评分只写 `.muse/jev-events.jsonl`。场景默认按适配 Score 排序；显式 MMR、带 `--preferred-work` 的灵感查询只评价并保留原顺序。手选 `--select`、`--read-card` 和无 signals 的阶段浏览沿原路径。两个查询器均接受可重复的 `--must`，每个条件独立评价；首批排序使用 Score，条件概率留作诊断，尚未启用加权组合。
+
+开启后，查询、风格/功能提示、必要条件及允许使用的候选原文或卡片会发送到 **TypeSafe**，可能包含查询中的未发表内容和私有语料。首批不装载角色视图。来源与用途限制在发送前执行；参考文件保持原格式，不增加 writer 的评分上下文。standard 不发 JEV 请求。切回 standard 影响后续查询，已选参考按既有生命周期继续使用。
+
+缺运行包或 key 会给出配置错误；网络、限流、超时或无效响应触发整批原顺序回退。最多 3 并发，单请求 socket timeout 上限 8 秒，批次最多等待 15 秒后取消未开始项；已在执行的 HTTP 线程可能延后结束，进程退出会等待这些线程。日志写失败不阻断参考交付。CLI 配置、运行记录与写作材料互相独立，记录 delivered 仅表示已交付，不表示 writer 已读取。
+
+### 场景 embedding
+
 `kb_query.py --query` 调远程 embedding API 计算 query 向量，使用前需配置 API key。`--select` 物化已知作品与场景，以及对白结构检索可在本地完成。
 
 **一键诊断**：

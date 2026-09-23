@@ -8,11 +8,13 @@
 
 Describe the story you want, then develop it from premise to finished prose.
 
+**Latest update · muse-runtime v0.1.0 (2026-09-23): JEV-assisted reference selection and brainstorming, with author feedback informing the next round.**
+
 [![arXiv](https://img.shields.io/badge/arXiv-2609.15188-b31b1b.svg)](https://arxiv.org/abs/2609.15188)
 
 [Paper](https://arxiv.org/abs/2609.15188) · [PDF](https://arxiv.org/pdf/2609.15188) · [Citation](#citation)
 
-[Story theory](#how-mckees-theory-guides-writing) · [Literary knowledge base](#learning-from-literary-examples) · [How it works](#how-it-works) · [Skill packages](#skill-packages) · [Quick start](#quick-start) · [Repository guide](#repository-guide)
+[JEV-assisted writing](#how-jev-supports-writing) · [Story theory](#how-mckees-theory-guides-writing) · [Literary knowledge base](#learning-from-literary-examples) · [How it works](#how-it-works) · [Skill packages](#skill-packages) · [Quick start](#quick-start) · [Repository guide](#repository-guide)
 
 </div>
 
@@ -21,6 +23,24 @@ MUSE is an AI writing system for **original fiction, screenplays, serial fiction
 Describe the setting, relationships, key events, atmosphere, and prose style in natural language. MUSE develops these requirements into world facts, character motivations, outlines, and scene plans. A shared workspace stores them for subsequent writing, and the final output includes the manuscript and its design and revision materials. We call the task of developing a complete story from writing requirements **Vibe Narrativizing**.
 
 The repository also provides tools for analyzing literary works, distilling character materials, and retrieving references. Most skill instructions and knowledge-base annotations are in Chinese; the [skills collection](skills/README.md) includes a corpus guide and links to English source material.
+
+## How JEV supports writing
+
+**Updated 2026-09-23 · muse-runtime v0.1.0.** These writing-assistance features were added after the paper's publication. The version identifies the JEV runtime component; individual skill packages retain their own versions.
+
+MUSE integrates JEV to provide structured assessments of literary references and story ideas. The writing model uses these assessments to revisit the material, develop the plot, and explain tradeoffs; the author chooses the direction to pursue.
+
+| Use case | JEV's role | How the assessment is used |
+|---|---|---|
+| **Literary reference retrieval** | Reads retrieved scene passages or inspiration cards and assesses their fit to the task, desired style, and conditions of use | Retrieval tools select or rerank references and deliver the chosen passages and cards to designers and writers |
+| **Fiction and screenplay brainstorming** | Compares developed candidates and suggests which to discuss, revise, rebuild, or support with more context | The designer strengthens character actions and plot causality, then explains recommendations and tradeoffs to the author |
+| **Planning future serial chapters** | Assesses alternative plot directions using the existing story, character knowledge, established constraints, and author feedback | The brainstorming workflow develops, combines, or revises candidates; accepted decisions feed into outlines and subsequent chapter plans |
+
+For example, when a protagonist discovers that a companion has concealed the truth, the writer can develop alternatives such as a confrontation, a private investigation, or continued cooperation. JEV assesses these candidates against what the characters know and the reading experience the author wants. If the author chooses cooperation while asking to preserve suspicion, that feedback informs the next round of plotting and character interaction.
+
+JEV is enabled per work; the default is standard mode. Retrieval assessments feed into the existing reference files, while brainstorming assessments support the designer's discussion and revision. The author's choices determine the adopted plot. Enabling JEV sends the relevant queries, candidate materials, or brainstorming context to the configured JEV service.
+
+Integration guides: [reference retrieval](skills/MUSE-canon-distill/README.md#可选-jev-检索增强), [original writing](skills/MUSE-writing/README.md#可选-jev-辅助构思), and [serial brainstorming](skills/MUSE-serial-writing/README.md#可选-jev-辅助构思).
 
 ## Paper
 

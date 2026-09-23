@@ -16,13 +16,18 @@ import re
 import sys
 from pathlib import Path
 from typing import Any
+from uuid import uuid4
 
 import yaml
 
 try:
     from . import kb_index
+    from . import runtime_assistance
+    from .reference_scope import _reference_scope, bind_reference_profile
 except ImportError:
     import kb_index
+    import runtime_assistance
+    from reference_scope import _reference_scope, bind_reference_profile
 
 KB_ROOT = Path(__file__).resolve().parent.parent
 ASCII_RE = re.compile(r"[a-z0-9_\-]+")
@@ -176,6 +181,39 @@ def rank_cards(
     return selected, rejected
 
 
+def scoped_cards(cards: list[dict], profile_path: str | None) -> list[dict]:
+    """A cross-source card is usable only within all its sources' shared scope."""
+    if not profile_path:
+        return cards
+    def declared_sources(card):
+        return _source_works(card) | {
+            str(analysis["novel"]) for analysis in (card.get("source_analyses") or [])
+            if isinstance(analysis, dict) and analysis.get("novel")
+        }
+
+    works = sorted({work for card in cards for work in declared_sources(card)})
+    allowed = {row["novel"]: row for row in
+               bind_reference_profile([{"novel": work} for work in works], profile_path)}
+    scoped = []
+    for card in cards:
+        sources = declared_sources(card)
+        if sources - allowed.keys():
+            continue
+        scope = {}
+        for work in sorted(sources):
+            source = allowed[work]
+            mode, domains = _reference_scope(scope, source.get("reuse_mode"), source.get("intended_domains"))
+            if domains == []:
+                break
+            scope = {"reuse_mode": mode, "intended_domains": domains}
+        else:
+            scoped.append({**card, "_reuse_mode": scope.get("reuse_mode"),
+                           "_intended_domains": scope.get("intended_domains"),
+                           "_style_only": scope.get("reuse_mode") == "style_only" or
+                           scope.get("intended_domains") == ["prose_style_imitation"]})
+    return scoped
+
+
 def render_cards(phase: int, selected: list[dict], rejected: list[dict]) -> str:
     lines = [f"# Inspiration Cards — Phase {phase}", ""]
     lines.extend(["排序表示检索相关性。采用机制时结合本作条件判断；卡面不足以解释时回读原文。", ""])
@@ -185,6 +223,10 @@ def render_cards(phase: int, selected: list[dict], rejected: list[dict]) -> str:
         lines.append(f"### {card.get('card_id')} — {card.get('pattern_name')}")
         lines.append(f"- score: {card.get('_score')}")
         lines.append(f"- reasons: {', '.join(card.get('_reasons', []))}")
+        if card.get("_reuse_mode"):
+            lines.append(f"- reuse_mode: {card['_reuse_mode']}")
+        if card.get("_intended_domains"):
+            lines.append(f"- intended_domains: {', '.join(card['_intended_domains'])}")
         tags = card.get("tags") or []
         if tags:
             lines.append(f"- tags: {'；'.join(map(str, tags))}")
@@ -287,6 +329,9 @@ def run(
     output_dir: str,
     top_k: int = 5,
     preferred_works: list[str] | None = None,
+    work_dir: str | None = None,
+    must: list[str] | None = None,
+    canon_reference_profile: str | None = None,
 ) -> int:
     out_path = Path(output_dir) / "inspiration" / f"phase{phase}_cards.md"
     cards = load_cards(KB_ROOT)
@@ -301,7 +346,45 @@ def run(
         out_path.unlink(missing_ok=True)
         print(f"[inspiration_query SIGNALS_WARN] signals JSON 解析失败: {e}", file=sys.stderr)
         return 2
+    try:
+        must = runtime_assistance.checked_must(must)
+        assistance = runtime_assistance.settings_for(work_dir, output_dir)
+        cards = scoped_cards(cards, canon_reference_profile)
+    except (ValueError, OSError, yaml.YAMLError) as exc:
+        out_path.unlink(missing_ok=True)
+        print(f"[inspiration_query CONFIG_ERROR] {exc}", file=sys.stderr)
+        return 2
     selected, rejected = rank_cards(cards, phase, signal_obj, top_k, preferred_works)
+    metadata = {"request_id": uuid4().hex, "mode": assistance.mode if assistance else "standard",
+                "phase": phase, "strategy": "baseline"}
+    if assistance is not None and assistance.enabled and selected and signal_items(signal_obj):
+        pool, _ = rank_cards(cards, phase, signal_obj, max(top_k * 3, 9), preferred_works)
+        views = [{"id": c["card_id"], "intended_domains": c.get("_intended_domains"),
+                  "style_only": c.get("_style_only", False),
+                  "material": {k: v for k, v in c.items() if not k.startswith("_")}}
+                 for c in pool]
+        try:
+            assessed = runtime_assistance.rank(
+                assistance, "inspiration_retrieval",
+                {"phase": phase, "signals": signal_obj,
+                 "design_scale": "premise" if phase == 0 else "plot_plan" if phase == 3 else "chapter_outline" if phase == 5 else "design"},
+                views, must=must, request_id=metadata["request_id"])
+        except ValueError as exc:
+            out_path.unlink(missing_ok=True)
+            print(f"[inspiration_query CONFIG_ERROR] {exc}", file=sys.stderr)
+            return 2
+        metadata["strategy"] = "fallback" if assessed is None else "score"
+        if assessed is not None and preferred_works:
+            # Keep the existing soft preference contract until its fusion is validated.
+            metadata["strategy"] = "evaluation_only_preferred"
+        elif assessed is not None:
+            by_id = {c["card_id"]: c for c in pool}
+            ranked = [by_id[a["id"]] for a in assessed]
+            selected = ranked[:top_k]
+            selected_ids = {c["card_id"] for c in selected}
+            # Preserve the existing unselected-card list and its baseline metadata.
+            all_ranked, all_rejected = rank_cards(cards, phase, signal_obj, len(cards), preferred_works)
+            rejected = [c for c in all_ranked + all_rejected if c["card_id"] not in selected_ids]
     if not selected:
         out_path.unlink(missing_ok=True)
         print("[inspiration_query NO_MATCH] 无匹配 inspiration cards", file=sys.stderr)
@@ -310,6 +393,9 @@ def run(
     out_dir = Path(output_dir) / "inspiration"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path.write_text(render_cards(phase, selected, rejected), encoding="utf-8")
+    metadata["selected_ids"] = [card["card_id"] for card in selected]
+    runtime_assistance.record(assistance, "inspiration_retrieval", "delivered",
+                              **metadata, output_path=str(out_path))
     print(f"写入: {out_path}")
     return 0
 
@@ -321,6 +407,9 @@ def main() -> int:
     parser.add_argument("--source", action="append", default=[], help="回读时限定 作品:scene_id；可重复")
     parser.add_argument("--signals", default="{}")
     parser.add_argument("--output-dir", required=True)
+    parser.add_argument("--work-dir", help="作品工作区；默认沿 output-dir 的 pipeline 归属")
+    parser.add_argument("--must", action="append", default=[], help="当前用途的必要条件；可重复，一次一个条件")
+    parser.add_argument("--canon-reference-profile", help="当前 Phase 0 YAML；按所有卡内来源取用途交集")
     parser.add_argument("--top-k", type=int, default=5)
     parser.add_argument(
         "--preferred-work",
@@ -333,7 +422,8 @@ def main() -> int:
         return read_card(args.read_card, args.output_dir, args.source)
     if args.phase is None or args.source:
         parser.error("检索需 --phase；--source 仅用于 --read-card")
-    return run(args.phase, args.signals, args.output_dir, args.top_k, args.preferred_work)
+    return run(args.phase, args.signals, args.output_dir, args.top_k, args.preferred_work,
+               args.work_dir, args.must, args.canon_reference_profile)
 
 
 if __name__ == "__main__":

@@ -70,6 +70,8 @@ ${CLAUDE_PLUGIN_ROOT}/knowledge-base/{novels,dramas}/{preferred-work}/characters
 
    用户手选作品承担当前设计域时，为每部作品追加 `--preferred-work '<作品名>'`。手选作品中的语义相关卡优先排序；卡库无对应卡时，直接读取该作品当前 Phase YAML 的来源事实。
 
+   已有 Phase 0 文件时传 `--canon-reference-profile '<当前 YAML 路径>'`，跨来源卡按卡内全部来源的用途交集选择，含 avoid 来源的卡跳过。输出不在 `{work_dir}/pipeline/...` 下时显式传 `--work-dir '{work_dir}'`。任务已有必要条件可逐条传 `--must '<一个条件>'`。
+
    产物为 `{output_dir}/inspiration/phase{N}_cards.md`，候选来源以 card id 标识。相关性分数只决定阅读顺序。比较 `mechanism`、逐作品 `source_analyses` 与本作条件；旧卡只有摘要时按问题补读。exit 2（卡库缺失 / 无命中）时按下方步骤从原作取材；本次失败不得把上次同名文件当成新结果。
 1. **先处理手选作品**：当前 phase 学习面命中某个 `prefer` 项的 `intended_domains` 时，精确限定到该作品；结合该来源的 `reuse_mode` 确定采用范围，自动候选只补充未覆盖领域。`style_only` 只提供表达参考；其他用途仅在已选领域中提供机制或素材。阅读原文用于理解来源，原作事实进入本篇的义务须有本次采用依据。phase=2 且指定固定人物时，完整读取该人物档案或角色 Skill，先看清全弧再按 `story_timepoint` 切开；随后只沿 locator 读取与切片前承重经历、当前决定、声音或盲区直接相关的原作场景。相关证据充分时停止，不为形式完整通读全书
 2. **按问题扩展来源**：题材用于理解语境；功能与关系相通的跨题材作品可进入候选。phase=0 可从作品构想与整体拆解进入，再沿线索补读相关层级；不要求先有本作 Phase 0 YAML

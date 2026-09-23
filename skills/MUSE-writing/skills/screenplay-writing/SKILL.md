@@ -61,6 +61,8 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/validate_screenplay_phase5.py <work_dir>/p
 
 ## 整合与输出
 
+写作产物与交付说明不自报执行模型的名称、版本或身份，不添加模型署名或生成来源声明；模型信息可保留在目录路径、内部运行元数据和日志中。主控将这条内容约束随任务传给设计、写作、修订和整合执行者，收尾时核对交付文本。作品题材涉及模型时，按题意叙述相关内容，不将其写成执行者的身份声明。
+
 按 [整合规则](references/phase7-assembly.md)，依 `sequences` 列表顺序读取明确的场次文件，整合到 `<work_dir>/script.md`。输出形式随目标媒介：影视可用 Fountain 风格，舞台、戏曲与音乐剧采用相应的舞台指示、角色对白及唱段标记。
 
 保留 Phase 0–4 设计、场次表、场次正文和最终 `script.md`；来源候选及采用记录在本 run 的 references / ledger 中维护。

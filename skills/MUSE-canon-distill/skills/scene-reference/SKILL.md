@@ -19,6 +19,8 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 
 输出 `{work_dir}/pipeline/references/{scene_id}_ref.md`。可选 --lang、--style-hint、--function-hint 按实际输入传入；小说正文默认 novel，舞台、影视、广播或唱段参考按实际媒介传 --source-medium，跨媒介机制研究可显式扩展范围。题材相同不能保证文风适配，分数仅帮助排列候选。
 
+输出不在 `{work_dir}/pipeline/...` 下时，显式传 `--work-dir "{work_dir}"` 绑定作品。任务已给出必要条件时，可逐条传 `--must '<一个条件>'`；条件沿本次用途，不额外生成检查清单。
+
 沿当前作者决定传 --reuse-mode maximize_apt_reuse 或 style_only，已明确采用领域时传 --intended-domains 后接既有领域列表：world_rule、reveal_structure、protagonist_archetype、scene_carrier、prose_style_imitation。style_only 始终限定表达；仅 prose_style_imitation 输出 style，仅 world_rule 或 world_rule 加 prose_style_imitation 至多输出 material；其他组合保留具体领域，由采用方约束使用范围。脚本把用途与候选档位取交集写入 ref 的 reuse_tier / reuse_mandate，并保留显式 mode 与 domains；省略时沿用既有复用契约。不同来源用途分别保留，不能以最高档覆盖较窄用途。
 
 已有 Phase 0 时传 --canon-reference-profile 后接当前 YAML 的绝对路径。脚本读取 canon_reference_profile.user_reference_materials，以 work 与实际作品名精确匹配，把逐作品 reuse_mode / intended_domains 写入各条 reference_scope；stance: avoid 的来源跳过。两个全局参数仅用于本次共同限制，不能覆盖较窄的逐来源范围。无法精确匹配时由主控绑定明确来源；不凭相似书名猜测。独立 --worldview 来源也按同一 profile 判断用途。

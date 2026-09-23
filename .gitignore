@@ -10,6 +10,7 @@
 !/requirements-dev.txt
 !/pytest.ini
 !/config.example.yaml
+!/pyproject.toml
 !/skills/
 !/src/
 !/tests/
@@ -18,6 +19,7 @@
 /src/*
 !/src/__init__.py
 !/src/open_muse/
+!/src/muse_runtime/
 /src/**/CLAUDE.md
 /src/**/AGENTS.md
 
@@ -25,6 +27,7 @@
 /tests/*
 !/tests/__init__.py
 !/tests/open_muse/
+!/tests/muse_runtime/
 !/tests/ai_pattern/
 /tests/**/CLAUDE.md
 /tests/**/AGENTS.md
@@ -43,3 +46,5 @@ skills/MUSE-writing/evals/
 
 # Runtime Agent dispatch logs may contain request excerpts and local paths.
 **/pipeline/audit/subagent_dispatches.jsonl
+**/.muse/
+*.egg-info/

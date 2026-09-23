@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "muse-runtime"
+version = "0.1.0"
+description = "Optional execution-time assistance for MUSE writing tools"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0"]
+
+[project.scripts]
+muse = "muse_runtime.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["muse_runtime*"]
+
+[tool.setuptools.package-data]
+muse_runtime = ["brainstorm-guide.md"]

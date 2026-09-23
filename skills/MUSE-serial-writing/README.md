@@ -10,6 +10,27 @@
 | **muse-serial-writing（本包）** | 连载与衍生小说：同人、续写、番外、跨文风改编；卷章循环、台账与系列状态 |
 | **muse-serial-distill** | 长篇连载拆解（参考语料 / 在连作品接管交付） |
 
+## 可选 JEV 辅助构思
+
+2026-09-23 发布：技能包 **v0.8.0**，配套 **muse-runtime v0.1.0**。运行包可从 [GitHub Release](https://github.com/RoadtoAGI/MUSE/releases/tag/muse-runtime-v0.1.0) 下载，也可在选定的 Python 环境安装：
+
+```bash
+python3 -m pip install "git+https://github.com/RoadtoAGI/MUSE.git@muse-runtime-v0.1.0"
+```
+
+卷级或章级共创形成实质候选后，可用 JEV 评价辅助补强、重构与推荐。模型说明候选的依据和取舍，作者采纳与决策回写继续按现有[共创协议](skills/serial-outline/references/collaboration-protocol.md)执行。
+
+在执行命令的同一 Python 环境安装 `muse-runtime`：源码环境可运行 `python3 -m pip install /path/to/MUSE`，独立插件安装可使用由 MUSE 项目构建的 `muse_runtime-<version>-py3-none-any.whl`。执行环境通过 `MUSE_JEV_API_KEY` 提供官方密钥、`MUSE_JEV_TUZI_API_KEY` 提供 Tuzi 备用密钥，再显式指定系列根启用：
+
+```bash
+python3 -m muse_runtime mode set jev --work-dir /absolute/path/to/series-root
+python3 -m muse_runtime brainstorm guide
+```
+
+安装插件不会自动启用 JEV。共创评价只读取指定系列根的 `.muse/runtime.yaml`，无配置时为 `standard`，不从全局、父目录或章目录继承。切回标准模式使用 `mode set standard`；标准流程无需安装运行包。公共指南说明候选输入与结果消费；指南和模式命令不发评价请求。
+
+启用评价后，本轮问题、作者提供的上下文和候选优先发送到 TypeSafe；官方额度不足或限流时自动改用 Tuzi，可能包含未发表内容。无法取得评价时，本轮按未评价处理并继续原共创流程；作者明确要求必须取得评价时，保留该依赖并继续其他已授权工作。
+
 ## 核心机制
 
 - **共创而非托管**：剧情走向由用户拍板，模型出候选与执行；`collaboration_mode: volume | chapter` 弹性档位

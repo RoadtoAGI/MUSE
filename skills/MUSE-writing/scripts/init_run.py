@@ -84,6 +84,7 @@ def init_run_explicit(run_path: Path) -> tuple[Path, str]:
     已存在的目录与子目录 reuse 不报错；只补缺失项。
     """
     run_path = run_path.resolve()
+    is_new_work = not run_path.exists()
     run_path.mkdir(parents=True, exist_ok=True)
     created = []
     for sub in SUBDIRS:
@@ -95,6 +96,9 @@ def init_run_explicit(run_path: Path) -> tuple[Path, str]:
         note = f"使用显式 run-dir={run_path}（补齐 {len(created)}/{len(SUBDIRS)} 个子目录）"
     else:
         note = f"使用显式 run-dir={run_path}（所有子目录已存在，reuse）"
+    if is_new_work and os.environ.get("MUSE_NEW_WORK_TEMPLATE"):
+        from muse_runtime.bootstrap import initialize_new_work
+        initialize_new_work(run_path)
     return run_path, note
 
 
@@ -132,6 +136,9 @@ def init_run(results_dir: Path, query: str, slug: str | None,
     run_path.mkdir(parents=True, exist_ok=False)
     for sub in SUBDIRS:
         (run_path / sub).mkdir(parents=True, exist_ok=True)
+    if os.environ.get("MUSE_NEW_WORK_TEMPLATE"):
+        from muse_runtime.bootstrap import initialize_new_work
+        initialize_new_work(run_path)
 
     return run_path, note
 

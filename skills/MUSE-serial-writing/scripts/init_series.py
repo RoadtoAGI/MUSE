@@ -176,6 +176,10 @@ def main() -> int:
     for sub in SKELETON_SUBDIRS:
         (work_dir / sub).mkdir(parents=True, exist_ok=True)
 
+    if os.environ.get("MUSE_NEW_WORK_TEMPLATE"):
+        from muse_runtime.bootstrap import initialize_new_work
+        initialize_new_work(work_dir)
+
     copy_story_bible(templates_root, work_dir / "series" / "story_bible.yaml", args.title)
     atomic_write_yaml(work_dir / "series" / "series_state.yaml", build_series_state(args.slug))
 

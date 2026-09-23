@@ -26,6 +26,7 @@ import os
 import sys
 import time
 import unicodedata
+from uuid import uuid4
 import numpy as np
 import yaml
 from pathlib import Path
@@ -37,6 +38,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paragraph_density import analyze_file as _pd_analyze_file  # noqa: E402
 from stylometry import analyze_file as _sm_analyze_file  # noqa: E402
 import kb_index  # noqa: E402
+import runtime_assistance  # noqa: E402
+from reference_scope import INTENDED_DOMAINS, _reference_scope, bind_reference_profile  # noqa: E402
 from rhetoric_retrieval import (  # noqa: E402
     render_rhetoric_cards,
     select_rhetoric_cards,
@@ -390,7 +393,11 @@ def query(query_text: str, genre: str = None, lang: str = None,
           hybrid: bool = True,
           mmr_lambda: float = 0.0,
           pool: int | None = None,
-          model: str = EMBEDDING_MODEL) -> list[dict]:
+          model: str = EMBEDDING_MODEL,
+          assistance=None, canon_reference_profile: str | None = None,
+          reuse_mode: str | None = None, intended_domains: list[str] | None = None,
+          work_dir: str | None = None, must: list[str] | None = None,
+          run_metadata: dict | None = None, fit_tau: float = FIT_TIER_TAU) -> list[dict]:
     """检索最相关的场景
 
     两层匹配策略：
@@ -406,6 +413,13 @@ def query(query_text: str, genre: str = None, lang: str = None,
       只看戏剧；或 "stage_play,screenplay" 多 medium 兼容）
     历史 entry 无 source_medium 字段者按 "novel" 处理（向后兼容）。
     """
+    must = runtime_assistance.checked_must(must)
+    if assistance is None:
+        assistance = runtime_assistance.settings_for(work_dir)
+    metadata = run_metadata if run_metadata is not None else {}
+    metadata.update(request_id=uuid4().hex, mode=assistance.mode if assistance else "standard",
+                    strategy="baseline", selected_ids=[])
+
     # 加载索引和向量
     if not INDEX_PATH.exists() or not EMBEDDINGS_PATH.exists():
         print(
@@ -547,6 +561,7 @@ def query(query_text: str, genre: str = None, lang: str = None,
     if function_hint:
         candidates = _apply_fit_rank(candidates, function_hint)
 
+    # Explicit MMR preserves the original selection and scoring scale.
     if mmr_lambda > 0 and len(candidates) > top_k:
         local_order = [c["_local_idx"] for c in candidates]
         rank_scores = [c.get("rank_score", c.get("score", 0.0)) for c in candidates]
@@ -555,6 +570,38 @@ def query(query_text: str, genre: str = None, lang: str = None,
         candidates = [c for c in candidates if c["_local_idx"] in selected_set]
         candidates.sort(key=lambda c: selected_locals.index(c["_local_idx"]))
 
+    if assistance is not None and assistance.enabled:
+        baseline_candidates = candidates
+        # Reuse author scope before any source text leaves the workspace.
+        if canon_reference_profile:
+            candidates = bind_reference_profile(candidates, canon_reference_profile)
+        candidates = [c for c in candidates if _reference_scope(c, reuse_mode, intended_domains)[1] != []]
+        evaluated_candidates = candidates[:top_k] if mmr_lambda > 0 else candidates
+        views = []
+        for c in evaluated_candidates:
+            if not (KB_ROOT / c["file"]).is_file():
+                raise KBInfraError(f"候选原文缺失: {c['file']}")
+            _, domains = _reference_scope(c, reuse_mode, intended_domains)
+            tier = _tier_for(c, fit_tau, reuse_mode, intended_domains)
+            views.append({"id": c["file"], "novel": c.get("novel"), "scene_id": c["scene_id"],
+                          "style_only": tier == "style", "intended_domains": domains,
+                          "reuse_tier": tier, "material": read_scene_text(c["file"], max_chars=0)})
+        assessments = runtime_assistance.rank(
+            assistance, "scene_retrieval",
+            {"query": query_text, "style_hint": style_hint, "function_hint": function_hint},
+            views, must=must, request_id=metadata["request_id"])
+        metadata["strategy"] = "fallback" if assessments is None else "score"
+        if not views:
+            metadata["strategy"] = "skipped_empty"
+        elif assessments is not None:
+            if mmr_lambda > 0:
+                metadata["strategy"] = "evaluation_only_mmr"
+            else:
+                by_file = {c["file"]: c for c in candidates}
+                candidates = [by_file[a["id"]] for a in assessments]
+        if assessments is None or mmr_lambda > 0:
+            candidates = baseline_candidates
+
     results = []
     for rank, c in enumerate(candidates[:top_k]):
         c["rank"] = rank + 1
@@ -562,6 +609,8 @@ def query(query_text: str, genre: str = None, lang: str = None,
         c.pop("_global_idx", None)
         results.append(c)
 
+    metadata["selected_ids"] = [r["file"] for r in results]
+    runtime_assistance.record(assistance, "scene_retrieval", "selected", **metadata)
     return results
 
 
@@ -794,66 +843,6 @@ def format_results(results: list[dict], include_text: bool = False,
 
 
 _TIER_RANK = {"style": 0, "material": 1, "full": 2}
-INTENDED_DOMAINS = (
-    "world_rule", "reveal_structure", "protagonist_archetype",
-    "scene_carrier", "prose_style_imitation",
-)
-
-
-def _reference_scope(result: dict, reuse_mode: str | None = None,
-                     intended_domains: list[str] | None = None) -> tuple[str | None, list[str] | None]:
-    """本次共同限制与逐来源限制取交集。空领域列表沿旧契约表示未绑定。"""
-    modes = [m for m in (reuse_mode, result.get("reuse_mode")) if m is not None]
-    if any(m not in {"maximize_apt_reuse", "style_only"} for m in modes):
-        raise ValueError(f"不支持的 reuse_mode: {modes}")
-    mode = "style_only" if "style_only" in modes else (modes[0] if modes else None)
-    domains = [list(dict.fromkeys(ds)) for ds in
-               (intended_domains, result.get("intended_domains")) if ds]
-    if any(set(ds) - set(INTENDED_DOMAINS) for ds in domains):
-        raise ValueError(f"不支持的 intended_domains: {domains}")
-    shared = [d for d in domains[0] if all(d in ds for ds in domains[1:])] if domains else None
-    return mode, shared
-
-
-def bind_reference_profile(results: list[dict], path: str) -> list[dict]:
-    """从现有 Phase 0 按作品名精确绑定用途，保留逐来源差异。"""
-    data = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
-    if not isinstance(data, dict):
-        raise ValueError("Phase 0 必须是 YAML mapping")
-    profile = data.get("canon_reference_profile") or {}
-    if not isinstance(profile, dict):
-        raise ValueError("canon_reference_profile 必须是 mapping")
-    materials = profile.get("user_reference_materials") or []
-    by_work = {}
-    for material in materials:
-        if not isinstance(material, dict):
-            raise ValueError("user_reference_materials 条目必须是 mapping")
-        work = material.get("work")
-        if not isinstance(work, str) or not work:
-            raise ValueError("参考来源缺 work")
-        if work in by_work:
-            raise ValueError(f"参考来源重复，需明确当前用途: {work}")
-        by_work[work] = material
-    bound = []
-    for result in results:
-        material = by_work.get(result.get("novel"))
-        if material is None:
-            bound.append(dict(result))
-            continue
-        if material.get("stance") == "avoid":
-            continue
-        mode, domains = _reference_scope(result, material.get("reuse_mode"),
-                                          material.get("intended_domains"))
-        if domains == []:
-            continue
-        current = dict(result)
-        if mode is not None:
-            current["reuse_mode"] = mode
-        if domains is not None:
-            current["intended_domains"] = domains
-        bound.append(current)
-    return bound
-
 
 def _tier_for(result: dict, fit_tau: float, reuse_mode: str | None = None,
               intended_domains: list[str] | None = None) -> str:
@@ -1313,6 +1302,8 @@ def main():
     parser = argparse.ArgumentParser(description="知识库场景检索")
     parser.add_argument("--query", type=str, required=False,
                         help="检索 query（场景描述关键词）")
+    parser.add_argument("--work-dir", help="作品工作区；默认从 output-dir 的 pipeline 归属确定")
+    parser.add_argument("--must", action="append", default=[], help="当前用途的必要条件；可重复，一次一个条件")
     parser.add_argument("--genre", type=str, default=None,
                         help="作者明确限定的题材范围（硬过滤）；描述任务的复合题材直接写入 --query")
     parser.add_argument("--lang", type=str, default=None,
@@ -1384,7 +1375,10 @@ def main():
     if args.paired_function_bridge and not args.function_hint:
         parser.error("--paired-function-bridge requires --function-hint")
 
+    assistance = None
+    run_metadata = {}
     try:
+        args.must = runtime_assistance.checked_must(args.must)
         if args.select:
             results = select_results(args.select, source_medium=args.source_medium)
             if not results:
@@ -1392,6 +1386,7 @@ def main():
         else:
             if not args.query:
                 parser.error("--query is required unless --select is used")
+            assistance = runtime_assistance.settings_for(args.work_dir, args.output_dir)
             results = query(
                 query_text=args.query,
                 genre=args.genre,
@@ -1407,7 +1402,16 @@ def main():
                 mmr_lambda=args.mmr_lambda,
                 pool=args.pool,
                 model=args.model,
+                assistance=assistance,
+                must=args.must,
+                run_metadata=run_metadata,
+                canon_reference_profile=args.canon_reference_profile,
+                reuse_mode=args.reuse_mode,
+                intended_domains=args.intended_domains,
+                fit_tau=args.fit_tau,
             )
+    except ValueError as exc:
+        parser.error(str(exc))
     except KBConfigError as e:
         # 配置缺失：明确分类，不写假的 ref.md 让上游误以为"无匹配"
         print(f"❌ [kb_query CONFIG_ERROR] {e}", file=sys.stderr)
@@ -1424,11 +1428,21 @@ def main():
         except (OSError, ValueError, yaml.YAMLError) as exc:
             parser.error(f"参考用途输入错误: {exc}")
 
+    try:
+        results = [r for r in results if _reference_scope(r, args.reuse_mode, args.intended_domains)[1] != []]
+    except ValueError as exc:
+        parser.error(f"参考用途输入错误: {exc}")
+
+    if run_metadata:
+        run_metadata["selected_ids"] = [r["file"] for r in results]
+
     if args.list:
         if args.output_dir:
             print("❌ --list 与 --output-dir 互斥", file=sys.stderr)
             sys.exit(2)
         print(format_candidate_table(results))
+        runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
+                                  output="candidate_table")
     elif args.output_dir:
         out_path = save_reference_file(
             results, args.query or "", args.genre,
@@ -1443,6 +1457,8 @@ def main():
             canon_reference_profile=args.canon_reference_profile,
         )
         abs_out = str(Path(out_path).resolve())
+        runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
+                                  output_path=abs_out)
         # 输出明确的读取指令——模型应读此文件，不要去读原场景文件
         if results:
             high = sum(1 for r in results if _tier_for(
@@ -1459,9 +1475,13 @@ def main():
             print("⚠️ 当前查询范围无适用场景，跳过场景参考。")
     elif args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
+        runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
+                                  output="json")
     else:
         print(format_results(results, include_text=args.include_text,
                               max_chars=args.max_chars))
+        runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
+                                  output="stdout")
 
 
 if __name__ == "__main__":

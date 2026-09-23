@@ -237,8 +237,12 @@ def run(work_dir: Path, volume_id: str, chapter_id: str, script_dir: Path) -> Pa
 
     # ---- 建章 workspace 骨架 ----
     chapter_dir = work_dir / "chapters" / volume_id / chapter_id
+    is_new_work = not chapter_dir.exists()
     for sub in SUBDIRS:
         (chapter_dir / sub).mkdir(parents=True, exist_ok=True)
+    if is_new_work and os.environ.get("MUSE_NEW_WORK_TEMPLATE"):
+        from muse_runtime.bootstrap import initialize_new_work
+        initialize_new_work(chapter_dir)
 
     # ---- 角色 runtime skill 包：系列级家目录 + 章内符号链接 ----
     series_char_skills = work_dir / "series" / "character-skills"
