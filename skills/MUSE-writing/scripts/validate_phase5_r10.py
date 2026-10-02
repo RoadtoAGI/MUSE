@@ -210,8 +210,69 @@ def verify_inspiration_refs(phase5: dict, ledger: dict) -> list[dict[str, str]]:
     return findings
 
 
+COMMITMENT_KINDS = {"device", "question", "character_line", "motif"}
+
+
+def _all_scene_ids(phase5: dict) -> set[str]:
+    """同时收集顶层 scenes 与 sequence_expansions[].scenes 的 scene_id，空顶层列表不遮蔽序列形态。"""
+    ids: set[str] = set()
+    if not isinstance(phase5, dict):
+        return ids
+    if isinstance(phase5.get("scenes"), list):
+        ids.update(str(s.get("scene_id")) for s in phase5["scenes"] if isinstance(s, dict) and s.get("scene_id"))
+    for seq in phase5.get("sequence_expansions") or []:
+        if not isinstance(seq, dict):
+            continue
+        for s in seq.get("scenes") or seq.get("scenes_in_sequence") or []:
+            if isinstance(s, dict) and s.get("scene_id"):
+                ids.add(str(s["scene_id"]))
+    return ids
+
+
+def verify_commitments(phase5: dict) -> list[str]:
+    """校验顶层 commitments[]（可选）的结构与场景引用；兑现是否成立由 design-validation 判断。"""
+    errors: list[str] = []
+    if not isinstance(phase5, dict) or "commitments" not in phase5:
+        return errors
+    items = phase5.get("commitments")
+    if items is None:
+        return errors
+    if not isinstance(items, list):
+        return ["commitments: 须为 list"]
+    scene_ids = _all_scene_ids(phase5)
+    if items and not scene_ids:
+        return ["commitments: 场景集合为空或不可解析，无法核对 introduced_in / payoff_in 引用"]
+    for index, item in enumerate(items):
+        label = f"commitments[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label}: 须为 mapping")
+            continue
+        name = item.get("name")
+        if not _is_non_empty_text(name):
+            errors.append(f"{label}: name 缺失")
+        else:
+            label = f"commitments[{index}] {name}"
+        kind = item.get("kind")
+        if not isinstance(kind, str) or kind not in COMMITMENT_KINDS:
+            errors.append(f"{label}: kind 须为 {sorted(COMMITMENT_KINDS)} 之一，得到 {kind!r}")
+        introduced = item.get("introduced_in")
+        if not _is_non_empty_text(introduced):
+            errors.append(f"{label}: introduced_in 缺失")
+        elif scene_ids and str(introduced) not in scene_ids:
+            errors.append(f"{label}: introduced_in 指向不存在的场景 {introduced}")
+        payoff = item.get("payoff_in")
+        omission = item.get("deliberate_omission")
+        has_payoff = _is_non_empty_text(payoff)
+        has_omission = _is_non_empty_text(omission)
+        if has_payoff == has_omission:
+            errors.append(f"{label}: payoff_in 与 deliberate_omission 须恰填一项")
+        elif has_payoff and scene_ids and str(payoff) not in scene_ids:
+            errors.append(f"{label}: payoff_in 指向不存在的场景 {payoff}")
+    return errors
+
+
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Validate Phase 5 r10 scene_tasks.")
+    parser = argparse.ArgumentParser(description="Validate Phase 5 scene_tasks, inspiration_refs and commitments.")
     parser.add_argument("file", help="phase5_scenes.yaml path")
     parser.add_argument("--scan-scene-tasks", action="store_true", help="run scene_task concreteness checks")
     parser.add_argument(
@@ -226,6 +287,7 @@ def main(argv: list[str] | None = None) -> int:
         data = yaml.safe_load(handle) or {}
 
     errors: list[str] = []
+    errors.extend(verify_commitments(data))
     if args.scan_scene_tasks:
         errors.extend(scan_phase5_scene_tasks(data))
 

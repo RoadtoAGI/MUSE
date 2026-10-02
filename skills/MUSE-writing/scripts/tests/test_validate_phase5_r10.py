@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from validate_phase5_r10 import verify_inspiration_refs  # noqa: E402
+from validate_phase5_r10 import verify_commitments, verify_inspiration_refs  # noqa: E402
 
 
 SCRIPT = Path(__file__).resolve().parents[1] / "validate_phase5_r10.py"
@@ -136,3 +136,69 @@ def test_hook_passes_scan_inspiration_refs_flag():
     hook_path = Path(__file__).resolve().parents[2] / "hooks" / "post-phase5-yaml.py"
     content = hook_path.read_text(encoding="utf-8")
     assert "--scan-inspiration-refs" in content
+
+
+def _p5_with_commitments(commitments):
+    return {
+        "sequence_expansions": [{"seq_id": "Q1", "scenes": [{"scene_id": "S01"}, {"scene_id": "S02"}]}],
+        "commitments": commitments,
+    }
+
+
+def test_commitments_absent_or_valid_passes():
+    """缺字段合法；每项恰有 payoff_in 或 deliberate_omission 且场景存在 -> 不报错。"""
+    assert verify_commitments({"scenes": [{"scene_id": "S01"}]}) == []
+    p5 = _p5_with_commitments([
+        {"name": "只剩一术", "kind": "device", "introduced_in": "S01", "payoff_in": "S02"},
+        {"name": "玄照", "kind": "character_line", "introduced_in": "S01",
+         "deliberate_omission": "离场后由转述交代去向"},
+    ])
+    assert verify_commitments(p5) == []
+
+
+def test_commitments_structure_errors_reported():
+    """kind 非法、场景不存在、payoff 与 omission 同填或皆空 -> 逐项报错。"""
+    p5 = _p5_with_commitments([
+        {"name": "A", "kind": "prop", "introduced_in": "S01", "payoff_in": "S02"},
+        {"name": "B", "kind": "motif", "introduced_in": "S09", "payoff_in": "S02"},
+        {"name": "C", "kind": "question", "introduced_in": "S01",
+         "payoff_in": "S02", "deliberate_omission": "x"},
+        {"name": "D", "kind": "question", "introduced_in": "S01"},
+        {"kind": "device", "introduced_in": "S01", "payoff_in": "S07"},
+    ])
+    errors = verify_commitments(p5)
+    joined = "\n".join(errors)
+    assert "A: kind" in joined
+    assert "B: introduced_in 指向不存在的场景 S09" in joined
+    assert "C: payoff_in 与 deliberate_omission 须恰填一项" in joined
+    assert "D: payoff_in 与 deliberate_omission 须恰填一项" in joined
+    assert "name 缺失" in joined and "指向不存在的场景 S07" in joined
+
+
+def test_cli_reports_commitments_without_flags(tmp_path):
+    """CLI 无需额外 flag 即检查 commitments 结构。"""
+    p5 = _p5_with_commitments([{"name": "A", "kind": "device", "introduced_in": "S01"}])
+    path = tmp_path / "phase5_scenes.yaml"
+    path.write_text(yaml.safe_dump(p5, allow_unicode=True), encoding="utf-8")
+    result = subprocess.run([sys.executable, str(SCRIPT), str(path)], capture_output=True, text=True)
+    assert result.returncode == 2
+    assert "恰填一项" in result.stderr
+
+
+def test_commitments_require_resolvable_scene_set_and_string_kind():
+    """场景集合为空时报错而非静默通过；顶层空 scenes 不遮蔽序列形态；kind 非字符串按枚举错误报。"""
+    empty = {"scenes": [], "commitments": [{"name": "线索", "kind": "device", "introduced_in": "S01", "payoff_in": "S99"}]}
+    errors = verify_commitments(empty)
+    assert errors and "场景集合为空或不可解析" in errors[0]
+
+    both = {
+        "scenes": [],
+        "sequence_expansions": [{"seq_id": "Q1", "scenes": [{"scene_id": "S01"}, {"scene_id": "S02"}]}],
+        "commitments": [{"name": "线索", "kind": "device", "introduced_in": "S01", "payoff_in": "S02"}],
+    }
+    assert verify_commitments(both) == []
+
+    listed_kind = _p5_with_commitments([{"name": "A", "kind": ["device"], "introduced_in": "S01", "payoff_in": "S02"}])
+    errors = verify_commitments(listed_kind)
+    assert any("A: kind" in e for e in errors)
+

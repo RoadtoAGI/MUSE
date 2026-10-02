@@ -17,10 +17,10 @@
 - `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定经历、信念、判断习惯、声音和边界（核心依赖）
 - `pipeline/phase5_scenes.yaml` — 按受审场景读取对应条目的作用、必要结果、边界与 handoff；已填写的 `omission_plan` 连同 `reader_track / scene_tasks` 核对，即使未填写 `craft_carrier` 也适用
 - 按实际疑点读取 `pipeline/phase0_conception.yaml` 的作者要求、风格与来源，Phase 1 世界、Phase 3 脊椎、Phase 4 结构及当前采用的 ledger/参考；这些材料解释约束与选择，不能代替正文实现。
-- `pipeline/review/lint/{scene_id}.*.yaml` — **仅 `scope=scenes` 读取**的 L1 脚本 lint 报告合集（核心依赖，Step 5 Phase A 产出）
+- `pipeline/review/lint/{scene_id}.*.yaml` — **仅 `scope=scenes` 读取**的 L1 脚本 lint 报告，存在哪份读哪份；默认产出前两份，第三份按需
   - `{scene_id}.ai_filler.yaml`（S1：口癖 / Markdown / 排比 / 关联词）
-  - `{scene_id}.lexical_stats.yaml`（S2：副词密度 / TTR / 感官平衡 / 高频词——统计型，读 `density.*.imbalanced/overuse/too_low` 布尔字段）
   - `{scene_id}.dialogue.yaml`（S3：纯台词 / 指代 / 说话动作孤立 / 模板说话动词）
+  - `{scene_id}.lexical_stats.yaml`（S2：副词密度 / TTR / 感官平衡 / 高频词——统计型，主控按需生成；读 `density.*.imbalanced/overuse/too_low` 布尔字段）
 
 **与 lint 分工**：lint 已定位具体位置的模式，A 组**先读 lint report 了解已定位位置**避免重复扫描；A 组工作是在此基础上做语义判读（是否命中病理机制 / 是否属于非触发边界）+ 覆盖脚本查不了的维度（即下方主表逐项）。
 
@@ -54,7 +54,7 @@ A 组规则分布在本主文件（主表 §1-§10）+ 两个子文件中。**�
 - 说话动作窄库——声音状态标签（"声音平静" / "低声道"）代替让对白本身传递情绪
 - **lint 已定位**：`template_speech_verb`（"XX 地/的说道"模板，S3）；窄库其余词汇（"低吼 / 沉声道 / 压低声音"）留 A 组语义判
 
-**E. 段落结构类** — 段落密度偏离范文。A 组**不现场运行脚本**：若 orchestrator 已产出 `pipeline/review/lint/{scene_id}.density_vs_ref.yaml`（Phase 6 执行协议 §3.5），读 output / reference / gap / verdict（SIGNIFICANT_DEVIATION）判"题材盲的均质分段"；否则跳过。**数据是参考非强制**：急促动作 / 情感收束即使 long_pct 差距大也不是问题；只在场景明显需要长景深（复杂对峙 / 空间展开 / 内心深化）却被切成均质中段落时才标记。
+**E. 段落结构类** — 段落密度偏离范文。A 组**不现场运行脚本**：若 orchestrator 已产出 `pipeline/review/lint/{scene_id}.density_vs_ref.yaml`（Phase 6 执行协议“场景参考密度诊断”节），读 output / reference / gap / verdict（SIGNIFICANT_DEVIATION）判"题材盲的均质分段"；否则跳过。**数据是参考非强制**：急促动作 / 情感收束即使 long_pct 差距大也不是问题；只在场景明显需要长景深（复杂对峙 / 空间展开 / 内心深化）却被切成均质中段落时才标记。
 
 对每个命中：引用原文段落，说明命中了哪个模式，建议替代方向。
 

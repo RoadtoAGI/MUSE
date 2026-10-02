@@ -7,7 +7,7 @@ description: 对完整故事做独立读者审阅，报告具体位置的困惑�
 
 ## 输入与阅读
 
-接收本次正文路径与报告路径，加载本技能及[报告契约](references/output-schema.md)。完整链 Phase 7 提供 `pipeline/review/snapshots/story.semantic.round1.md`；短篇等调用方提供本次实际正文。职责、输入路径和报告身份不属于故事内容；阅读时只依据受审正文，保持独立读者视角。
+接收本次正文路径与报告路径，加载本技能及[报告契约](references/output-schema.md)。完整链 Phase 7 提供 `pipeline/review/snapshots/story.semantic.round1.md`；短篇等调用方提供本次实际正文。调用方也可提供尚未完成的累计正文（例如一个序列已写完的场景），并说明它是部分稿：此时报告 `review_scope: partial`，把可能由后文解除的困惑标为 `provisional: true`，仍然只依据已给正文。职责、输入路径和报告身份不属于故事内容；阅读时只依据受审正文，保持独立读者视角。
 
 按呈现顺序读完全文，可以连续分段加载。先记录阅读当时的感受，读完后可回查具体引用和后续回应，区分暂时困惑与全文结束仍存在的缺口。原文未读完或输入缺失时报告执行不完整，不能以空列表表示审阅完成。
 

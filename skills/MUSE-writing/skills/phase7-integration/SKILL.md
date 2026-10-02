@@ -13,14 +13,14 @@ description: 原创完整链的全文整合、读者与语义审阅及终稿交�
                          [wholetext]
                 合同 FAIL：de-AI 修订，最多两轮
                              |
-              [冻结稿 -> reader 盲读 + A 全稿初审]
+     [冻结稿 -> reader 盲读 + A 全稿初审（release）/ B 对账（evaluation）]
                              |
                       [本次有效反馈]
                 +------------+------------+
                 |                         |
            无待处理反馈             合并处置一次（可不改文）
                 |                         |
-                |                [wholetext + A 当前稿复审]
+                |        [wholetext + A 当前稿复审（仅 release）]
                 +------------+------------+
                              |
                    [finalize -> validate -> 交付]
@@ -34,7 +34,7 @@ description: 原创完整链的全文整合、读者与语义审阅及终稿交�
 
 ## 1. 场景闭合与初始整合
 
-沿 [Phase 6 协议](../phase6-scene-development/references/execution-protocol.md) 确认人工裁决、patch 应用和机器通道已闭合。`verify_review_complete.py` 负责实际 admission；宿主未触发 hook 时显式执行：
+沿 [Phase 6 技能](../phase6-scene-development/SKILL.md)“索引与交接”确认人工裁决与 patch 应用已闭合；机器合同 lane 只在启用时要求闭合，未启用的场景由本阶段 wholetext 承担。`run_intent` 为 evaluation / smoke 时场景级作者侧审阅按 intent 免除。`verify_review_complete.py` 负责实际 admission；宿主未触发 hook 时显式执行：
 
 ```bash
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/verify_review_complete.py {work_dir}
@@ -56,7 +56,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_story.py {work_dir}
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story {work_dir}/story.md --lang auto --work-dir {work_dir}
 ```
 
-exit 0（PASS 或 REVIEW）进入全文审阅，并把当前报告的定位线索交 A；REVIEW 只表示有待语义判断的候选。exit 1 派发 `manuscript-reviser` 的 `de-AI` 模式，明确本次 wholetext 报告；exit 2 修复输入/工具问题。de-AI 自动改文最多两轮，恢复沿实际已有轮次继续；必要内容与机器要求无法兼容或达到上限后停止并报告。
+exit 0（PASS 或 REVIEW）进入全文审阅，并把当前报告的定位线索交 A；REVIEW 只表示有待语义判断的候选。本闸是 AIGC 机器合同的默认唯一落点：Phase 6 默认不再逐场运行机器合同 lane，两条有作者裁决的指代密度合同在这里对全文判断。exit 1 派发 `manuscript-reviser` 的 `de-AI` 模式，明确本次 wholetext 报告；exit 2 修复输入/工具问题。de-AI 自动改文最多两轮，恢复沿实际已有轮次继续；必要内容与机器要求无法兼容或达到上限后停止并报告。
 
 每次修订使用第 4 节的既有快照和保护审计。只对改变后的稿件刷新失效结果，不把旧报告存在视为本次已检查。
 
@@ -70,10 +70,11 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/revision_quality.py snapshot --source {wor
 
 已有该轮快照与报告时先核对任务及输入；复用有效结果，不覆盖受审快照来让旧报告显得有效。
 
-- 新独立执行者加载本包 `reader-review`，仅取得此快照与报告路径，写 `pipeline/review/reader_review.yaml`。明确无需本次盲读或已有有效读者反馈时，可沿既有 `reader_review_skip.yaml` 记录具体依据；省略步骤须有当前任务依据。
-- fresh dispatch `story-review`，传 `group=A scope=manuscript review_round=1`、本包入口和 work_dir。它读取同一快照并独立写 A 全稿报告，不读取 reader 报告。
+- 新独立执行者加载本包 `reader-review`，仅取得此快照与报告路径，写 `pipeline/review/reader_review.yaml`。盲读在所有 `run_intent` 下必跑；它是全链中唯一不拿设计答案的审阅，`release_eligibility` 不再承认任何读者跳过记录。
+- `release`：fresh dispatch `story-review`，传 `group=A scope=manuscript review_round=1`、本包入口和 work_dir。它读取同一快照并独立写 A 全稿报告，不读取 reader 报告。
+- `evaluation`：不派 A 全稿审阅；必派 `story-review group=B scope=manuscript review_round=1`，它读取同一冻结快照做叙事一致性对账并写 `pipeline/review/B_narrative_consistency.yaml`（含 `review_scope: manuscript` 与 `input_snapshot`），聚合时用 `--source B`。`smoke` 只要求 wholetext 与 reader。两者终态均为 `completed_not_releasable`，A 报告缺失以 `not_run` 记录。
 
-实际执行盲读时移除旧 skip 标记；选择 skip 时移开未采用的旧 reader 报告，保持分支明确。缺输入、未读完或报告无效时补正该次任务。选择本次有效的全稿 A 报告聚合：
+缺输入、未读完或报告无效时补正该次任务。选择本次有效的全稿报告聚合：
 
 ```bash
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/aggregate_global_findings.py --work-dir {work_dir} --source A-manuscript
@@ -85,7 +86,7 @@ reader 观察需在当前正文核实；合法表达与审美偏好可保留。�
 
 ## 4. 一次合并修订与当前稿复审
 
-有本次反馈时派发 `manuscript-reviser reader`，明确当前 reader 报告路径或“无”、global_findings、work_dir。修订者按问题读取作者要求、相关世界/人物依据、因果、来源与保护条件；内容缺口回上游，局部问题原位修复。处置可包含有依据的保留，无需为每条感受改文。A finding 若源于输入或分类错误，回原审阅负责人补正同轮报告；纯审美取舍交作者。reviser 的 complete 不会解除尚成立的 A finding。
+有本次反馈时派发 `manuscript-reviser reader`，明确当前 reader 报告路径或“无”、global_findings、work_dir；没有反馈时仍可派一次 `reader` 模式只做相邻场景接缝核对（重复交代、二次介绍、同一动作两场各写一遍），由修订者按实际需要处置。修订者按问题读取作者要求、相关世界/人物依据、因果、来源与保护条件；内容缺口回上游，局部问题原位修复。处置可包含有依据的保留，无需为每条感受改文。A finding 若源于输入或分类错误，回原审阅负责人补正同轮报告；纯审美取舍交作者。reviser 的 complete 不会解除尚成立的 A finding。
 
 每次修订前后由主控执行，`{mode}` 为 `de-ai|reader`，`{N}` 为本模式的实际轮次：
 
@@ -96,7 +97,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/revision_quality.py audit --before-text {w
 
 reader 模式且本次使用 reader 报告时，audit 追加 `--reader-report {work_dir}/pipeline/review/reader_review.yaml`，将该报告与修订前后稿绑定。保护失败停止；`retention` 等观察不自动升级为内容错误。revision_summary 的 failed 表示执行失败，partial 保留未决项，complete 表示本次处置完成。
 
-正文改变后刷新 wholetext，并冻结到 `story.semantic.round2.md`，fresh dispatch `story-review group=A scope=manuscript review_round=2`。无改文时沿用仍有效的 round 1。reader 合并修订仅一轮，A 全稿语义审阅最多两轮；后续仍有实际问题或输入无法闭合时停止自动改写，返回具体问题及负责人。
+正文改变后刷新 wholetext，并冻结到 `story.semantic.round2.md`；`release` fresh dispatch `story-review group=A scope=manuscript review_round=2`，`evaluation / smoke` 不派 A、不复跑 B，只刷新机器检查与修订绑定。无改文时沿用仍有效的 round 1。reader 合并修订仅一轮，A 全稿语义审阅最多两轮；后续仍有实际问题或输入无法闭合时停止自动改写，返回具体问题及负责人。
 
 ## 5. 终态与交付
 

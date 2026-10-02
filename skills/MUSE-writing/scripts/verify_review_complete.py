@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Phase 6→7 admission gate with independent human and machine scans."""
+"""Phase 6→7 admission gate with independent human and machine scans.
+
+2026-10-03：机器合同 lane 改为非默认（无 directive 时交 Phase 7 wholetext）；
+run_intent 为 evaluation / smoke 时免除作者侧场景审阅类检查，终态不可发布。
+"""
 from __future__ import annotations
 
 import hashlib
@@ -411,12 +415,32 @@ def _active_projection_error(
 def _scan_machine_scene(work_dir: Path, scene_id: str) -> dict:
     review_dir = work_dir / "pipeline" / "review"
     directive_path = review_dir / f"{scene_id}.machine_directive.yaml"
+    ledger_path = review_dir / f"{scene_id}.machine_ledger.yaml"
+    if not directive_path.exists() and not ledger_path.exists():
+        # 机器合同 lane 默认不启用（2026-10-03）：没有 directive / ledger 的场景把
+        # AIGC 机器合同交给 Phase 7 wholetext_gate 在全文上判断；仅当 lane 实际
+        # 启用（存在 directive）时才按下方投影核对闭合。
+        candidate = _latest_lint_path(work_dir, scene_id, None)
+        lint_artifact = None
+        if candidate.exists() and candidate.is_relative_to(work_dir):
+            lint_artifact = str(candidate.relative_to(work_dir))
+        result = {
+            "closed": True,
+            "entry_states": [],
+            "closure_modes": [],
+            "deferred_to": "wholetext",
+        }
+        if lint_artifact:
+            result["lint_artifact"] = lint_artifact
+        return result
+    if not directive_path.exists():
+        # lane 曾启用（留有 ledger）却没有 directive：状态不可判，交既有恢复流程处置。
+        return _unknown_machine("ledger_without_directive")
     directive: dict | None = None
-    if directive_path.exists():
-        try:
-            directive = _load_mapping(directive_path)
-        except (OSError, ValueError, yaml.YAMLError) as exc:
-            return _unknown_machine(f"directive_invalid:{exc}")
+    try:
+        directive = _load_mapping(directive_path)
+    except (OSError, ValueError, yaml.YAMLError) as exc:
+        return _unknown_machine(f"directive_invalid:{exc}")
 
     lint_path = _latest_lint_path(work_dir, scene_id, directive)
     relative_lint = str(lint_path.relative_to(work_dir)) if lint_path.is_relative_to(work_dir) else str(lint_path)
@@ -540,6 +564,11 @@ def check(work_dir: Path) -> int:
     scene_specs, phase6_error = _scene_specs(work_dir)
     intent, intent_error = _run_intent(work_dir)
     skipped_checks, skip_errors = _skip_config(work_dir)
+    # evaluation / smoke 是不可发布的轻路径（2026-10-03）：Phase 6 不要求作者侧
+    # 场景审阅与 patch 链，Phase 7 仍执行 wholetext、reader 盲读与一致性对账；
+    # 受保护施工批次不在免除范围。
+    intent_waived = sorted(HUMAN_SKIPPABLE_CHECKS) if intent in {"evaluation", "smoke"} else []
+    effective_skipped = set(skipped_checks) | set(intent_waived)
     reasons = [reason for reason in (phase6_error, intent_error) if reason]
     reasons.extend(skip_errors)
     try:
@@ -557,11 +586,15 @@ def check(work_dir: Path) -> int:
         machine = _scan_machine_scene(work_dir, scene_id)
         uncovered = [
             failure for failure in human["failures"]
-            if failure["check"] not in skipped_checks
+            if failure["check"] not in effective_skipped
         ]
         human["skipped_failures"] = [
             failure for failure in human["failures"]
             if failure["check"] in skipped_checks
+        ]
+        human["intent_waived_failures"] = [
+            failure for failure in human["failures"]
+            if failure["check"] in intent_waived and failure["check"] not in skipped_checks
         ]
         human["closed"] = not uncovered
         human["uncovered_failures"] = uncovered
@@ -606,6 +639,7 @@ def check(work_dir: Path) -> int:
         "phase7_admitted": phase7_admitted,
         "release_candidate": release_candidate,
         "skipped_checks": skipped_checks,
+        "intent_waived_checks": intent_waived,
         "protected_artifacts": protected_artifacts,
         "input_fingerprints": input_fingerprints,
         "scenes": scenes,

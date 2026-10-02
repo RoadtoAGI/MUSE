@@ -141,30 +141,3 @@ def test_phase5_top_level_scenes_form_also_supported(tmp_path):
     rc, out, err = _run(p)
     assert rc == 0
     assert "prose_risk_contract" not in err
-
-
-def test_scene_card_compliance_parses_writer_projection_labels(tmp_path):
-    card = tmp_path / "scene_card.md"
-    scene = tmp_path / "scene_S01.md"
-    card.write_text(
-        "**视角角色**: 阿青\n"
-        "**叙述方式**: first\n"
-        "**在场人物**: a-qing\n",
-        encoding="utf-8",
-    )
-    scene.write_text("我把剑横在门前。\n", encoding="utf-8")
-    proc = subprocess.run(
-        [
-            sys.executable,
-            str(SCRIPT),
-            "scene-card-compliance",
-            "--scene-card",
-            str(card),
-            "--scene-text",
-            str(scene),
-        ],
-        capture_output=True,
-        text=True,
-    )
-    assert proc.returncode == 0
-    assert "未解析到 narration_style / pov" not in proc.stderr

@@ -204,10 +204,11 @@ scene_task:
 | `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason；继承 phase0 craft_targets.narrator_position.primary；可按本场职责调整，缺字段=继承既有叙述位置） |
 | `scenes[].scale_inversion` | 否 | Phase 6（writer：是否启用大命题↔小物件反转 + 具体桥；缺字段=不强约束） |
 | `scenes[].precedent_mirror` | 否 | Phase 6（writer：本场镜像哪场 + 镜像类型 + 保留锚点 + 删除前提；缺字段=不构造镜像关系） |
-| `scenes[].climax_pattern` | 否 | Phase 6（writer：高潮场景可选机制参考；primary/secondary 保持既有 7 enum + null 兼容。writer 可采用、组合、改造或舍弃；缺字段走通用 Craft Preflight） |
+| `scenes[].climax_pattern` | 否 | Phase 6（writer：高潮场景可选机制参考。`primary` / `secondary` 为自由文本：机制名或一句描述，`forbidden_moves` 列作者禁界；旧产物的七个枚举值仍按已知短语转写，示例见 novel-craft-patterns C 类。writer 可采用、组合、改造或舍弃；缺字段走通用 Craft Preflight） |
 | `scenes[].dialogue_hints` | 否 | Phase 6（writer 在 dialogue-craft 工坊阶段消费：每条 hint = `{speaker, attribution_strategy(5 enum), dialogue_form(5 enum + null), reason}`；缺字段=走通用 dialogue 设计，不强约束） |
 | `scenes[].counter_prior_scene` | 否 | Phase 6（dispatcher 反先验场景 fast-path 信号——结构化对象：`{used, kind, mundane_action, emotional_context, forbidden_moves}`。`used=true` 时 orchestrator 在 writer dispatch prompt 附加额外约束段；缺字段 / `used=false` → writer 不收特殊注入，走通用 Craft Preflight）|
 | `scenes[].prose_risk_contract` | 否 | Phase 6（写作层 AI pattern 可选提示——结构化对象：`{used, risk_families, positive_strategy, bad_shape_examples}`。`used=true` 时渲染供 writer / scene-reviewer 参考；缺字段 / `used=false` → writer 走通用 Craft Preflight）|
+| `commitments` | 否 | 顶层承诺与兑现账；design-validation 的 `declaration_fulfillment` 维度据此核对，不进入 scene_card。结构见下方 `commitments` |
 | `tension_curve` | 否 | Phase 5 编排时组织压力与承接；作者侧审阅存在相关问题时作为设计参照 |
 | `scene_causal_chain` | 否 | Phase 5 核对事件依赖；design-validation 与 C 组按相关问题对照 Phase 5 与正文的因果关系 |
 
@@ -222,6 +223,24 @@ scene_task:
 **Hard gate**（`validate_phase5_r10.py`）：双向一致性匹配——ledger 内 INS-* 的 `project_encoding[]` 必须有对应 `(phase=5, scene_id, adoption_kind ∈ {scene_carrier, reveal_carrier, structure_carrier, craft_carrier})` 项。
 
 `reader_spine` 到 `reader_track / scene_tasks / omission_plan` 的转换方法见 [SKILL.md“读者信息与世界规则的定向”](../SKILL.md#1ter-读者信息与世界规则的定向)。现有提取器将这些字段随场景卡交 writer；作者侧披露安排与人物所知分别判断。
+
+## `commitments` (optional)
+
+记录读者会形成期待、全篇需要收束或有意不收束的对象。只记录确有期待的对象，不为每个场景或人物建条目。
+
+```yaml
+commitments:
+  - name: 只剩一术                  # 被强调的装置、术语、问题、人物线或意象
+    kind: device | question | character_line | motif
+    introduced_in: S02
+    payoff_in: S06                  # 承接场景；该场 scene_tasks / handoff 应能看出承接
+  - name: 玄照
+    kind: character_line
+    introduced_in: S01
+    deliberate_omission: 离场后不再出现，由 S05 樊无咎的转述交代去向   # 与 payoff_in 二选一
+```
+
+`name / kind / introduced_in` 必填；`payoff_in` 与 `deliberate_omission` 恰填一项。`validate_phase5_r10.py` 检查结构与场景 ID 是否存在；兑现是否成立由 design-validation 读取相关场景判断。
 
 ## `world_disclosure_plan` (optional, str list × 2)
 

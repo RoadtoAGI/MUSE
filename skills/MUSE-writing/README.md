@@ -70,7 +70,7 @@ MUSE-writing/
 ├── skills/             # 原创小说与剧本入口（3 个）+ 全链 phase skill（8 个）+ 短链 phase skill（4 个）+ 辅助 skill
 ├── agents/             # subagent 职责与宿主兼容元数据
 ├── scripts/            # Phase 间机械脚本（脚手架 / 验收 / 抽取）
-├── hooks/              # 非阻塞 hook（阶段注入 / 保护 / 验证）
+├── hooks/              # hook：写前保护与预检、YAML 契约、设计 token 泄漏、reviser 派发前校验、assemble 前准入、Phase 5 与短篇契约校验
 ├── requirements.txt    # Python 依赖（pyyaml + jieba）
 └── README.md
 ```

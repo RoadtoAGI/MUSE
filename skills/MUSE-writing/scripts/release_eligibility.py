@@ -278,37 +278,13 @@ def _read_run_intent(work_dir: Path) -> str | None:
     return str(value) if value in {"smoke", "evaluation", "release"} else None
 
 
-def _reader_skip_info(work_dir: Path) -> dict | None:
-    path = work_dir / "pipeline" / "audit" / "reader_review_skip.yaml"
-    if not path.exists():
-        return None
-    try:
-        value = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    except yaml.YAMLError:
-        return {"present": True, "valid_yaml": False}
-    return {"present": True, "valid_yaml": isinstance(value, dict), "record": value}
-
-
 def _reader_review_state(work_dir: Path, story_sha256: str) -> dict:
     """Bind the existing reader-review/revision loop to the current manuscript."""
     review_path = work_dir / "pipeline" / "review" / "reader_review.yaml"
-    skip_path = work_dir / "pipeline" / "audit" / "reader_review_skip.yaml"
 
     if not review_path.exists():
-        if not skip_path.exists():
-            return {"status": "incomplete", "reason": "reader_review_missing"}
-        try:
-            skip = yaml.safe_load(skip_path.read_text(encoding="utf-8")) or {}
-        except (OSError, yaml.YAMLError):
-            return {"status": "incomplete", "reason": "reader_review_skip_invalid"}
-        reason = skip.get("reason") if isinstance(skip, dict) else None
-        if not isinstance(reason, str) or not reason.strip():
-            return {"status": "incomplete", "reason": "reader_review_skip_reason_missing"}
-        return {
-            "status": "skipped",
-            "skip_path": "pipeline/audit/reader_review_skip.yaml",
-            "skip_sha256": hashlib.sha256(skip_path.read_bytes()).hexdigest(),
-        }
+        # reader 盲读在所有 run_intent 下必跑（2026-10-03 撤销 reader_review_skip.yaml）。
+        return {"status": "incomplete", "reason": "reader_review_missing"}
 
     try:
         review = yaml.safe_load(review_path.read_text(encoding="utf-8")) or {}
@@ -317,6 +293,10 @@ def _reader_review_state(work_dir: Path, story_sha256: str) -> dict:
     findings = review.get("reader_findings") if isinstance(review, dict) else None
     if not isinstance(findings, list):
         return {"status": "incomplete", "reason": "reader_findings_invalid"}
+    # 部分稿（序列级累计正文）盲读不是全稿盲读；完整链只承认 manuscript scope（缺省即 manuscript）。
+    scope = review.get("review_scope") if isinstance(review, dict) else None
+    if scope not in (None, "manuscript"):
+        return {"status": "incomplete", "reason": f"reader_review_scope_{scope}"}
 
     base = {
         "review_path": "pipeline/review/reader_review.yaml",
@@ -612,7 +592,6 @@ def _terminal(
     story_sha256: str,
     admission_sha256: str,
     wholetext: dict,
-    reader_skip: dict | None,
     reader_review: dict | None = None,
     semantic_review: dict | None = None,
     protected_integrity: dict | None = None,
@@ -633,8 +612,6 @@ def _terminal(
     }
     if protected_integrity is not None:
         result["protected_integrity"] = protected_integrity
-    if reader_skip is not None:
-        result["reader_review_skip"] = reader_skip
     if reader_review is not None:
         result["reader_review"] = reader_review
     return result
@@ -665,7 +642,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
             story_sha256=story_sha,
             admission_sha256=admission_sha,
             wholetext={"verdict": "NOT_RUN"},
-            reader_skip=_reader_skip_info(work_dir),
             protected_integrity={"verdict": "NOT_RUN"},
         )
         atomic_write_state(work_dir, {"admission": admission, "terminal": terminal})
@@ -680,7 +656,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
             story_sha256=story_sha,
             admission_sha256=admission_sha,
             wholetext={"verdict": "NOT_RUN", "admission_error": admission_error},
-            reader_skip=_reader_skip_info(work_dir),
             protected_integrity={"verdict": "NOT_RUN"},
         )
         atomic_write_state(work_dir, {"admission": admission, "terminal": terminal})
@@ -698,7 +673,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
             story_sha256=story_sha,
             admission_sha256=admission_sha,
             wholetext={"verdict": "NOT_RUN"},
-            reader_skip=_reader_skip_info(work_dir),
             protected_integrity={"verdict": "NOT_RUN"},
         )
         atomic_write_state(work_dir, {"admission": admission, "terminal": terminal})
@@ -716,7 +690,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
             story_sha256=story_sha,
             admission_sha256=admission_sha,
             wholetext={"verdict": "NOT_RUN"},
-            reader_skip=_reader_skip_info(work_dir),
             protected_integrity={"verdict": "NOT_RUN"},
         )
         atomic_write_state(work_dir, {"admission": admission, "terminal": terminal})
@@ -734,7 +707,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
             story_sha256=story_sha,
             admission_sha256=admission_sha,
             wholetext={"verdict": "NOT_RUN"},
-            reader_skip=_reader_skip_info(work_dir),
             protected_integrity=protected_integrity,
         )
         atomic_write_state(work_dir, {"admission": admission, "terminal": terminal})
@@ -772,6 +744,13 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
 
     reader_review = _reader_review_state(work_dir, current_story_sha)
     semantic_review = _semantic_review_state(work_dir)
+    # evaluation / smoke 轻路径（2026-10-03）：A 全稿语义审阅不是必跑项，缺报告时
+    # 以 not_run 记录并继续；reader 盲读与 wholetext 仍必跑，终态不可发布。
+    semantic_waived = (
+        run_intent != "release" and semantic_review.get("status") == "not_run"
+    )
+    if semantic_waived:
+        semantic_review = {**semantic_review, "waived_by_run_intent": run_intent}
     environment_error = (
         result.returncode not in {0, 1}
         or story_sha != current_story_sha
@@ -785,7 +764,7 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
         outcome, eligible, reason, rc = "escalated", False, "admission_not_closed", 2
     elif semantic_review.get("status") == "findings":
         outcome, eligible, reason, rc = "quality_failed", False, "live_semantic_review_findings", 1
-    elif semantic_review.get("status") != "clear":
+    elif semantic_review.get("status") != "clear" and not semantic_waived:
         outcome, eligible, reason, rc = "escalated", False, "semantic_review_incomplete", 2
     elif reader_review.get("status") == "incomplete":
         outcome, eligible, reason, rc = "escalated", False, "reader_review_incomplete", 2
@@ -805,7 +784,6 @@ def finalize(work_dir: Path, *, lang: str = "auto") -> int:
         story_sha256=current_story_sha,
         admission_sha256=admission_sha,
         wholetext=wholetext,
-        reader_skip=_reader_skip_info(work_dir),
         reader_review=reader_review,
         semantic_review=semantic_review,
         protected_integrity=protected_integrity,

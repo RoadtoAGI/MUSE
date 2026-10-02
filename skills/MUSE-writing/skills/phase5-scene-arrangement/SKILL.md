@@ -134,6 +134,8 @@ Phase 3 的 `story_climax_design.crisis` 在两难成立时向危机场景传递
 
 `participants` 只记录在场人物。Phase 5 用现有 `conflict / reader_track / scene_tasks / value_start / value_end / handoff` 写清人物选择、信息差、关系代价与不同利益怎样改变本场；这些语义足够 Phase 6 判断普通场景直接 writer，或只为相关承重人物调用 isolated actor。Phase 5 不增加 `actor_needed` 路由字段，也不预写角色的解释、动作或台词清单。
 
+多人对同一压力的回应写成关系结果与选择差异，不按人头拆成逐人表态的 task、`irreversible_action` 或 `handoff`：写明谁的决定改变局势、其他人因此失去或得到什么，各人的具体回应由 Phase 6 在场内形成。写定“各自承认 / 轮流拒绝 / 逐一签字”的分工，会经 role_view 投影成人物已有立场，再被 actor 与 writer 复述。观察：gpt-5.6-sol/20260903_210000/594 S07 的 `irreversible_action` 预写三人分别认责，同卡 `prose_risk_contract` 又把“角色轮流表态”列为风险，正文最终五人轮流一遍。
+
 ### 场景节拍诊断
 
 下列问题用于修复平坦场景，模型无需输出回答过程，也可以采用其他成立的推理路径：
@@ -217,6 +219,12 @@ Phase 4 提供 `narrative_threads` 时，按当前 `seq_id` 的 `sequence_refs` 
 
 安排较晚援助或资源使用时，保留所需的早期状态及中间事件造成的变化，把必要依赖写入 `scene_causal_chain / handoff`。已有条件可以直接支持后续行动；需要区分这种兑现与早期事实的重释时，读[伏笔与分晓](references/mckee-scenes.md#伏笔与分晓)及其项目编排应用。
 
+### 1quater. 承诺与兑现
+
+读者会对被强调的对象形成期待：反复出现或被命名的物件与术语、提出而未回答的问题、承担过行动后离场的人物、重复的意象。沿呈现顺序列出这些对象，核对每一项或者在某场得到承接（该场的 `scene_tasks` / `handoff` 能看出），或者有意不收束并知道为什么。观察：claude-opus-4-8/20260710_020000/367 中“只剩一术”的账目、玄照与樊无咎在后半消失，设计校验仍无 finding，因为校验只查矛盾不查兑现。
+
+有此类对象时写顶层 `commitments[]`（字段见 [输出 schema](references/output-schema.md#commitments-optional)），每项指向 `payoff_in` 场景或写明 `deliberate_omission`。它是设计者自用表，不进入 scene_card；design-validation 据此核对声明兑现。没有需要收束的对象时省略。
+
 ### 2. 标注关键场景的节拍方向
 
 对以下关键场景，标注 `beat_direction`——节拍的大致方向和鸿沟位置：
@@ -256,6 +264,25 @@ Phase 4 提供 `narrative_threads` 时，按当前 `seq_id` 的 `sequence_refs` 
 若 Phase 0 `style_directives`、文风 ref 或本场设计已经明确采用碎段、留白、静默、短切等风格形态，可在 scene_card 写 `literary_device` 作为成品审阅的语境锚：`naked_line`（克制裸句 / 静默留白）、`staccato_action`（动作短切碎段）、`archive_cold`（档案体冷叙述）、`storyteller_voice`（说书腔套语声口）。字段缺失保持合法；正文中的风格功能也可由成品本身举证。
 
 `risk_families` 可引用 `prose-craft/references/ai-cliche-patterns.md` 现有 family 名。字段格式与渲染契约见 [`references/output-schema.md`](references/output-schema.md) `## prose_risk_contract` 段。
+
+## 可选场景材料字段
+
+下列字段只在本场确有对应判断时填写，缺省合法；提取器把它们投影成 writer 可读的候选段，字段键与渲染契约见 [输出 schema](references/output-schema.md#字段说明)。
+
+| 字段 | 何时填 |
+|---|---|
+| `craft_carrier` | 已找到能改变因果、选择或读者判断的承重材料 |
+| `pov_constraint` | 本场 POV 的可感知范围需要明确限定或故意遮蔽 |
+| `omission_plan` | 作者明确省略或延迟确认（见 1ter） |
+| `irreversible_action` | 本场必须成立的不可逆结果；写结果与因果，不写逐人分工 |
+| `reveal_method` | 信息怎样显露会改变读者判断（直接行动、物证、偷听片段、官方记录等） |
+| `narrator_distance` | 本场需要偏离 Phase 0 既定叙述位置 |
+| `scale_inversion` | 大命题需要落到具体物件或人类尺度 |
+| `precedent_mirror` | 本场有意呼应前场并改变其前提 |
+| `climax_pattern` | 高潮场景需要指出可参考的机制；自由文本，示例见 novel-craft-patterns C 类 |
+| `dialogue_hints` | 某人对白的归属或形态有特定要求 |
+| `counter_prior_scene` | 用日常行为与情感处境的反差承担本场 |
+| `world_disclosure_plan` / `prose_risk_contract` | 见 1ter 与第 6 步 |
 
 ## 输出
 

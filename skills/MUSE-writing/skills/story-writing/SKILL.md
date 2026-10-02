@@ -27,7 +27,15 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/init_run.py --run-intent release --results
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/init_run.py --run-intent release --run-dir <work_dir>
 ```
 
-`run_intent` 必须显式传入：成稿用 `release`，评测和链路探针用 `evaluation/smoke`。复用目录时沿用已存 intent，禁止改写其发布资格。派生路径可传 `--slug`、`--timestamp`；具体冲突按脚本返回处理。
+`run_intent` 必须显式传入，它决定本次运行的审阅深度与发布资格；复用目录时沿用已存 intent，禁止改写。派生路径可传 `--slug`、`--timestamp`；具体冲突按脚本返回处理。
+
+| intent | 用途 | 审阅路径 | 终态 |
+|---|---|---|---|
+| `release` | 成稿交付 | Phase 6 作者侧场景审阅与修订全程；Phase 7 wholetext、reader 盲读、A 全稿审阅 | 可发布 |
+| `evaluation` | 评测、对照与规则回归 | Phase 6 只写正文（L1 lint 保留为诊断记录）；Phase 7 wholetext、reader 盲读、B 叙事一致性对账（读同一冻结稿）必跑，一次合并修订后不派 A | `completed_not_releasable` |
+| `smoke` | 链路探针 | Phase 6 只写正文；Phase 7 wholetext 与 reader 必跑，B 可省 | `completed_not_releasable` |
+
+evaluation 取代以前为节约用量而整段写 `skip_review.yaml` 的做法：它保留全链中唯一不拿设计答案的审阅（reader）与事实对账，省去逐场作者侧审阅与 patch 链。`skip_review.yaml` 仅用于 release 运行中作者明确允许的人工跳过。
 
 ## 阶段推进与上下文
 
@@ -48,7 +56,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/init_run.py --run-intent release --run-dir
 
 参考由当前设计负责人按开放问题取材；有效材料直接复用，新增需求再加载 `design-doc-reference`。来源绑定与实际采用记录按交接协议执行。思想、迁移或剧情方向尚待比较、推荐或被退回时使用[大纲构思与回读](references/outline-exploration.md)，由当前设计负责人完成候选评价与补强，沿用已有共创授权。
 
-Phase 2 的人物资产是当前写作链依赖。其构建和校验由 Phase 2 完成；进入逐场展开前，沿 [Phase 6 协议](../phase6-scene-development/references/execution-protocol.md) 对齐实际参与者，缺人物设计或构建决定时回 Phase 2。资产变化、未校验或校验失败时运行 `scripts/verify_phase2_assets.py <work_dir>` 并处理具体缺件；已通过且输入未变时复用结果。
+Phase 2 的人物资产是当前写作链依赖。其构建和校验由 Phase 2 完成；进入逐场展开前，沿 [Phase 6 技能](../phase6-scene-development/SKILL.md)“逐场创作”对齐实际参与者，缺人物设计或构建决定时回 Phase 2。资产变化、未校验或校验失败时运行 `scripts/verify_phase2_assets.py <work_dir>` 并处理具体缺件；已通过且输入未变时复用结果。
 
 ## 设计交接与大纲裁决
 
@@ -59,6 +67,8 @@ Phase 5 完成后派发 `design-validation`，传工作目录、设计路径及�
 修改意见回到思想、来源理解或剧情决定，保留认可部分。已批准后若实质改变作者选定的方向或结果，回到同一大纲裁决；局部完善沿用已有批准。免审沿用本次授权范围。批准或免审后加载 Phase 6，按其实际协议继续。
 
 ## 正文到交付
+
+交付物按请求命名的对象判定，不按阶段习惯替换：要求“写 / 设计一场（开场、结尾、某个场景）”时交付该场景的正文，设计材料只作内部工件，用户另外索要时再附简短设计说明；要求“情节框架 / 大纲 / 人物设计 / 分章提纲”时交付相应设计文档，正文不作替代。请求同时要正文与框架时两者都交付，并说明各自位置。观察：writing-bench 928（“design the opening scene”）两套规则下都交付成提纲且零对白，读者无从阅读。
 
 写作产物与交付说明不自报执行模型的名称、版本或身份，不添加模型署名或生成来源声明；模型信息可保留在目录路径、内部运行元数据和日志中。主控将这条内容约束随任务传给设计、写作、修订和整合执行者，收尾时核对交付文本。作品题材涉及模型时，按题意叙述相关内容，不将其写成执行者的身份声明。
 

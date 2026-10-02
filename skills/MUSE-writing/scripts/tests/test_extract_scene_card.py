@@ -647,3 +647,21 @@ def test_extractor_cli_delivers_turning_point_and_candidate_semantics(extractor_
     assert "## 承载候选" in md
     assert "**叙事作用**: 使原判断失效" in md
     assert "候选策略" in md
+
+
+def test_climax_pattern_accepts_free_text_and_keeps_known_labels(extractor_module):
+    """climax_pattern 为自由文本：未知机制原样投影，旧枚举值仍转可读短语。"""
+    scene = dict(
+        BASE_SCENE,
+        climax_pattern={
+            "primary": "让审查官在复核墙前失去发问的权威",
+            "secondary": ["layered_revelation"],
+            "forbidden_moves": ["不得让主角交出名单"],
+        },
+    )
+    md = extractor_module.render_scene_card_markdown(scene)
+    assert "## 高潮机制候选" in md
+    assert "**主要参考**: 让审查官在复核墙前失去发问的权威" in md
+    assert "**辅助参考**: 新证据逐步改写既有理解" in md
+    assert "**适用限制**: 不得让主角交出名单" in md
+

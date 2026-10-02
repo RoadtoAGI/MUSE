@@ -1014,3 +1014,83 @@ def test_embed_text_cached_single_api_call():
 
     assert v1 == v2 == [0.1, 0.2]
     assert len(calls) == 1
+
+
+def test_exemplar_excerpt_renders_first_and_anchors_on_sidecar_quote(tmp_path):
+    """短范文片段先于文风画像出现，围绕手艺原句锚截取；完整原文仍在末尾。"""
+    kb = _make_kb(tmp_path)
+    work = kb / "novels" / "书A"
+    long_text = "\n\n".join(["开场铺垫。" * 20, "拔剑、转身。他没有回头。", "尾声段落。" * 20])
+    (work / "scenes" / "scene_S01.md").write_text(long_text, encoding="utf-8")
+
+    text = _render(tmp_path, kb, [_result()], function_hint="对峙中让动作替代心理陈述")
+
+    assert "<exemplar_excerpt" in text
+    assert text.index("<exemplar_excerpt") < text.index("文风画像") < text.index("<style_exemplar")
+    block = text[text.index("<exemplar_excerpt"):text.index("</exemplar_excerpt>")]
+    assert 'anchored="true"' in block
+    assert "本场表达问题：对峙中让动作替代心理陈述" in block
+    assert "范文怎样做：用动作链推进，不写心理" in block
+    assert "迁移条件：高压节拍里动词可替代心理陈述" in block
+    assert "拔剑、转身。他没有回头。" in block
+    assert "开场铺垫。" not in block
+    assert "开场铺垫。" in text[text.index("<style_exemplar"):]
+
+
+def test_exemplar_excerpt_falls_back_to_opening_and_can_be_disabled(tmp_path):
+    kb = _make_kb(tmp_path, sidecar=False)
+
+    text = _render(tmp_path, kb, [_result()])
+    block = text[text.index("<exemplar_excerpt"):text.index("</exemplar_excerpt>")]
+    assert 'anchored="false"' in block
+    assert "第一段。第二句。" in block
+    assert "范文怎样做" not in block
+
+    text_off = _render(tmp_path, kb, [_result()], exemplar_chars=0)
+    assert "<exemplar_excerpt" not in text_off
+
+
+def test_exemplar_excerpt_respects_char_limit(tmp_path):
+    kb = _make_kb(tmp_path, sidecar=False)
+    work = kb / "novels" / "书A"
+    (work / "scenes" / "scene_S01.md").write_text("\n\n".join(["甲段。" * 40, "乙段。" * 40, "丙段。" * 40]), encoding="utf-8")
+    text = _render(tmp_path, kb, [_result()], exemplar_chars=200)
+    block = text[text.index("<exemplar_excerpt"):text.index("</exemplar_excerpt>")]
+    body = block.split("\n\n", 1)[1]
+    assert len(body) <= 200
+    assert "乙段" not in body
+
+
+def test_filter_indices_applies_media_genre_lang_novel_filters():
+    index = [
+        {"novel": "甲", "genre": "武侠", "lang": "zh", "source_medium": "novel"},
+        {"novel": "乙", "genre": "历史", "lang": "zh", "source_medium": "novel"},
+        {"novel": "丙", "genre": "武侠", "lang": "zh", "source_medium": "stage_play"},
+    ]
+    assert kq._filter_indices(index, genre="武侠", lang=None, novel=None, allowed_media={"novel"}) == [0]
+    assert kq._filter_indices(index, genre="科幻", lang=None, novel=None, allowed_media={"novel"}) == []
+    assert kq._filter_indices(index, genre=None, lang="zh", novel=None, allowed_media=None) == [0, 1, 2]
+    assert kq._filter_indices(index, genre=None, lang=None, novel="乙", allowed_media=None) == [1]
+
+
+def test_exemplar_excerpt_anchor_crosses_paragraphs_and_long_single_paragraph():
+    """跨段锚按首段定位；无换行长文在锚附近取窗，摘录必含锚句。"""
+    text = "\n\n".join(["开场铺垫。" * 80, "他放下刀。", "门外响起脚步。", "尾声。" * 10])
+    excerpt, anchored = kq._exemplar_excerpt(text, "他放下刀。\n\n门外响起脚步。", 60)
+    assert anchored is True and "他放下刀。" in excerpt and "开场铺垫" not in excerpt
+
+    long_text = "前文。" * 400 + "锚句在这里。" + "后文。" * 400
+    excerpt, anchored = kq._exemplar_excerpt(long_text, "锚句在这里。", 600)
+    assert anchored is True and "锚句在这里。" in excerpt and len(excerpt) <= 600
+
+    excerpt, anchored = kq._exemplar_excerpt(long_text, "原文中不存在的锚", 600)
+    assert anchored is False and excerpt.startswith("前文。") and len(excerpt) <= 600
+
+
+def test_exemplar_excerpt_counts_separators_in_budget():
+    text = "甲\n\n乙\n\n丙"
+    assert kq._exemplar_excerpt(text, None, 3) == ("甲", False)
+    assert kq._exemplar_excerpt(text, None, 4) == ("甲\n\n乙", False)
+    assert kq._exemplar_excerpt(text, None, 7) == ("甲\n\n乙\n\n丙", False)
+    assert kq._exemplar_excerpt(text, None, 0) == ("", False)
+

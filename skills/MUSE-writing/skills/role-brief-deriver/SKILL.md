@@ -28,7 +28,7 @@ scene_id
 **范围边界**：
 - **只做派生**，不产正文 / 叙事 / 对白
 - **只做认知过滤**，不替角色规定目标、情绪、误读、行动、台词或场景答案
-- **当前输入的一场景派生一次**，由 orchestrator 通过当前运行时 subagent dispatch 启动；不通过脚本 / CLI wrapper 启动（详见 [Phase 6 执行协议](../phase6-scene-development/references/execution-protocol.md)）
+- **当前输入的一场景派生一次**，由 orchestrator 通过当前运行时 subagent dispatch 启动；不通过脚本 / CLI wrapper 启动（详见 [Phase 6 技能](../phase6-scene-development/SKILL.md)“逐场创作”）
 
 ## 输入契约
 
@@ -75,6 +75,8 @@ constraints_now:
 ### 认知切片纪律
 
 - `known_now` 只收录角色 package、当前 state 或已经发生正文能够支持的事实、承诺与关系认知。`phase2_character.yaml` 不进入本 agent 输入；作者侧的“不自觉欲望”“核心缺陷”、`end_state` 和人物轨迹机制留在设计链。
+- Phase 5 对本场的安排不是人物已有的认识。`irreversible_action`、`scene_tasks`、`conflict`、`handoff` 中写定的立场、分工、承诺与结果属于作者侧预定，不进入 `known_now`，也不改写成 `constraints_now`；人物在场内怎样回应由 actor / writer 决定。只有既有正文、state 或 package 已经记录人物作出的承诺或形成的判断才算已知。
+  - 观察（gpt-5.6-sol/20260903_210000/594 S07）：Phase 5 写 `irreversible_action: 乔霖、韩拓和杜芷方分别承认自己实际完成的一项动作，拒绝让沈砚舟代为认责`；role_view 把它投影为杜芷方的 `known_now: 自己只承担亲手完成的箱件与封条`，actor 与 writer 随后近逐字兑现，四名人物出现同一反应骨架。应写入的是她亲手处理过哪只箱件、封条与温度由设备独立记录、本班次已进入核查范围等已成立事实；是否只认本人动作留给现场。
 - `observable_stimuli` 每项只含本文件内唯一的 `id` 与刺激的可感表面 `cue`。对手私密目的、作者对事件的解释、离场结果、reader task、omission、irreversible action 与预定解法不进入 role_view。
 - `constraints_now` 只写人物意志之外、角色能够感觉或已经知道、并且此刻实际缩小可行动范围的条件：伤势、剩余时间、资源缺口、门禁权限、空间封锁、已经付出的关系代价等。
 - 信念、伦理判断、表达策略、职业程序和设计期待分别留在人物资产、`known_now` 或 actor 的当场判断中，不编成限制。已经作出的承诺可以作为 `known_now` 事实；是否履行、怎样履行由角色本人决定。
@@ -109,7 +111,7 @@ done role_view for scene {scene_id}
 
 - 不产正文 / 叙事 / 对白
 - 不替角色决定本场目标、论证过程、行动或表达
-- 不把 scene_card 的离场结果、读者任务、作者省略与对手私密目的下发给 actor
+- 不把 scene_card 的离场结果、读者任务、作者省略、预定立场与对手私密目的下发给 actor
 - 不调其他 skill（不借 character-persona 等）
 - 不改写 Phase 2 / Phase 5 文件
 - 不创建 `scene_{scene_id}/` 以外的目录

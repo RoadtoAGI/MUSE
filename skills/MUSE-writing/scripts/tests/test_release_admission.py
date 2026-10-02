@@ -169,12 +169,56 @@ def test_missing_run_intent_and_malformed_lint_fail_closed(tmp_path):
     assert verify.check(wd) == 2
     assert "run_intent" in " ".join(_admission(wd)["reasons"])
 
+    # 机器 lane 已启用（存在 directive）时，lint 损坏仍 fail-closed。
     wd = _scaffold(tmp_path / "malformed")
+    _set_machine_entries(wd, [("h1", "resolved")])
     (wd / "pipeline" / "review" / "lint" / "S01.ai_filler.yaml").write_text("hits: [")
     assert verify.check(wd) == 2
     machine = _admission(wd)["scenes"][0]["machine"]
     assert machine["closed"] is False
     assert machine["entry_states"] == ["unknown"]
+
+
+def test_machine_lane_is_deferred_to_wholetext_when_not_enabled(tmp_path):
+    """无 directive / ledger 的场景把机器合同交 Phase 7 wholetext；lint 缺失或损坏不阻断 admission。"""
+    import verify_review_complete as verify
+
+    wd = _scaffold(tmp_path)
+    assert verify.check(wd) == 0
+    machine = _admission(wd)["scenes"][0]["machine"]
+    assert machine["closed"] is True
+    assert machine["deferred_to"] == "wholetext"
+    assert machine["lint_artifact"] == "pipeline/review/lint/S01.ai_filler.yaml"
+
+    (wd / "pipeline" / "review" / "lint" / "S01.ai_filler.yaml").unlink()
+    assert verify.check(wd) == 0
+    machine = _admission(wd)["scenes"][0]["machine"]
+    assert machine["closed"] is True and "lint_artifact" not in machine
+
+
+def test_evaluation_intent_waives_scene_review_but_never_releases(tmp_path):
+    """evaluation / smoke 免除作者侧场景审阅类检查；release 不免除；受保护施工批次不在免除范围。"""
+    import verify_review_complete as verify
+
+    wd = _scaffold(tmp_path, review=False, intent="evaluation")
+    assert verify.check(wd) == 0
+    admission = _admission(wd)
+    assert admission["phase7_admitted"] is True
+    assert admission["release_candidate"] is False
+    assert admission["intent_waived_checks"] == sorted(verify.HUMAN_SKIPPABLE_CHECKS)
+    human = admission["scenes"][0]["human"]
+    assert human["closed"] is True
+    assert human["intent_waived_failures"] and {f["check"] for f in human["intent_waived_failures"]} == {"scene_review"}
+    assert human["skipped_failures"] == []
+
+    wd = _scaffold(tmp_path / "release", review=False, intent="release")
+    assert verify.check(wd) == 2
+    assert _admission(wd)["intent_waived_checks"] == []
+    assert any("scene_review" in reason for reason in _admission(wd)["reasons"])
+
+    wd = _scaffold(tmp_path / "pending", review=False, intent="evaluation")
+    _set_machine_entries(wd, [("h1", "pending")])
+    assert verify.check(wd) == 2
 
 
 def test_observe_rule_high_hit_does_not_require_human_resolution_ledger(
@@ -591,3 +635,17 @@ def test_explicit_semantic_failure_cannot_hide_behind_pass_or_machine_closure(tm
     assert verify._post_revision_closed(wd, "S01") == (False, "post_revision_semantic_conflict")
     post.write_text(yaml.safe_dump({"verdict": "PASS", "ai_pattern_gate": {"machine_gate": "fail", "reviewer_gate": "pass"}}), encoding="utf-8")
     assert verify._post_revision_closed(wd, "S01") == (True, "")
+
+
+def test_ledger_without_directive_fails_closed(tmp_path):
+    """lane 曾启用（留有 ledger）却缺 directive 时状态不可判，不得借 deferred 分支通过。"""
+    import verify_review_complete as verify
+
+    wd = _scaffold(tmp_path)
+    _set_machine_entries(wd, [("h1", "pending")])
+    (wd / "pipeline" / "review" / "S01.machine_directive.yaml").unlink()
+    assert verify.check(wd) == 2
+    machine = _admission(wd)["scenes"][0]["machine"]
+    assert machine["closed"] is False
+    assert machine["reason"] == "ledger_without_directive"
+

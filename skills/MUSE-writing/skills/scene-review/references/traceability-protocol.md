@@ -6,4 +6,4 @@ verify_patch_directive_traceability.py 在 reviser 派发前检查当前原文�
 
 issue_id / issue 不引用 C 组显式 user_accepted_as_known_issue、next_round_only 或 escalation_decision.user_accepted_findings 中的条目。裸 status=persists 仍可代表当前待修问题，不因此排除。
 
-校验失败由主控停止本次施工，按原 input_gate 报错。scene-reviewer 负责可追溯指令，主控负责 hook 与恢复，不新增评审步骤。
+校验失败由主控停止本次施工，返回指令生产者补正。scene-reviewer 负责可追溯指令，主控负责 hook 与恢复，不新增评审步骤。

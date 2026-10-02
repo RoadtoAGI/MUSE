@@ -273,7 +273,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/verify_phase2_assets.py <work_dir>
 
 **未构建例外**：仅"只在他人叙述中出现 / 纯背景人物 / 无对白无关键行动"的配角可跳过 Phase 2 构建，需在 build-report.md "未构建"表填非空 `skip_reason`（builder 自检；脚本兜底校验）。
 
-Phase 5→6 的参与者核对由 [Phase 6 交接协议](../phase6-scene-development/references/execution-protocol.md#1-逐场创作) 承担。该交接发现本次人物尚无设计或有效角色包时，回本阶段确认人物依据，再调用 character-persona 补建；修复后才派生受影响场景的 role_view。
+Phase 5→6 的参与者核对由 [Phase 6 技能](../phase6-scene-development/SKILL.md) 承担。该交接发现本次人物尚无设计或有效角色包时，回本阶段确认人物依据，再调用 character-persona 补建；修复后才派生受影响场景的 role_view。
 
 ## 输出
 

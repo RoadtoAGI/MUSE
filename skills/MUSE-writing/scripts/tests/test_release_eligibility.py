@@ -414,7 +414,8 @@ def test_planning_trace_coverage_requires_typed_finding_and_matches_it(tmp_path)
     assert rel.load_state(wd)["terminal"]["semantic_review"]["status"] == "incomplete"
 
 
-def test_finalizer_requires_reader_review_or_auditable_skip(tmp_path):
+def test_finalizer_requires_reader_review_and_ignores_legacy_skip_marker(tmp_path):
+    """reader 盲读在所有 intent 下必跑；旧 reader_review_skip.yaml 不再解除要求。"""
     import release_eligibility as rel
 
     wd = _workdir(tmp_path)
@@ -425,13 +426,48 @@ def test_finalizer_requires_reader_review_or_auditable_skip(tmp_path):
     terminal = rel.load_state(wd)["terminal"]
     assert terminal["reason"] == "reader_review_incomplete"
     assert terminal["reader_review"]["reason"] == "reader_review_missing"
+    assert "reader_review_skip" not in terminal
 
     (wd / "pipeline" / "audit" / "reader_review_skip.yaml").write_text(
         yaml.safe_dump({"reason": "evaluation window cannot support reader dispatch"}),
         encoding="utf-8",
     )
-    assert rel.finalize(wd) == 0
-    assert rel.validate_release(wd) == (True, "released")
+    assert rel.finalize(wd) == 2
+    assert rel.load_state(wd)["terminal"]["reason"] == "reader_review_incomplete"
+    assert rel.validate_release(wd)[0] is False
+
+
+def test_evaluation_intent_completes_without_manuscript_review_but_needs_reader(tmp_path):
+    """evaluation 轻路径：无 A 全稿报告时以 not_run 记录并给出不可发布终态；reader 缺失仍 escalated。"""
+    import release_eligibility as rel
+
+    wd = _workdir(tmp_path, intent="evaluation")
+    (wd / "pipeline" / "review" / "A_aesthetic.manuscript.yaml").unlink()
+    rel.write_admission(wd, _admission(wd, "evaluation"))
+
+    assert rel.finalize(wd) == 1
+    terminal = rel.load_state(wd)["terminal"]
+    assert terminal["outcome"] == "completed_not_releasable"
+    assert terminal["reason"] == "run_intent_evaluation"
+    assert terminal["semantic_review"]["status"] == "not_run"
+    assert terminal["semantic_review"]["waived_by_run_intent"] == "evaluation"
+    assert terminal["reader_review"]["status"] == "clean"
+    assert rel.validate_release(wd)[0] is False
+
+    (wd / "pipeline" / "review" / "reader_review.yaml").unlink()
+    assert rel.finalize(wd) == 2
+    assert rel.load_state(wd)["terminal"]["reason"] == "reader_review_incomplete"
+
+
+def test_release_intent_still_requires_manuscript_review(tmp_path):
+    import release_eligibility as rel
+
+    wd = _workdir(tmp_path)
+    (wd / "pipeline" / "review" / "A_aesthetic.manuscript.yaml").unlink()
+    rel.write_admission(wd, _admission(wd))
+
+    assert rel.finalize(wd) == 2
+    assert rel.load_state(wd)["terminal"]["reason"] == "semantic_review_incomplete"
 
 
 def test_finalizer_requires_nonempty_reader_findings_to_reach_current_story(tmp_path):
@@ -739,3 +775,25 @@ def test_review_signals_use_current_semantic_result(tmp_path):
     assert rel.validate_release(wd)[0]
     _write_semantic_review(wd, status="findings", findings=[{"dimension": "ai_pattern", "subkind": "planning_trace_leakage", "scene_id": None, "location": "全文", "source": "story", "evidence_quote": "他怔了怔。", "issue": "角色反应持续重复且无新作用", "suggestion": "保留必要认识并重组"}])
     assert rel.finalize(wd) == 1
+
+
+def test_partial_scope_reader_report_does_not_satisfy_full_manuscript_reading(tmp_path):
+    """序列级部分稿盲读（review_scope: partial）不能充当全稿盲读。"""
+    import release_eligibility as rel
+
+    wd = _workdir(tmp_path)
+    review_path = wd / "pipeline" / "review" / "reader_review.yaml"
+    review_path.write_text(
+        yaml.safe_dump({
+            "review_scope": "partial",
+            "input_snapshot": "pipeline/review/snapshots/story.semantic.round1.md",
+            "reader_findings": [],
+        }),
+        encoding="utf-8",
+    )
+    rel.write_admission(wd, _admission(wd))
+    assert rel.finalize(wd) == 2
+    terminal = rel.load_state(wd)["terminal"]
+    assert terminal["reason"] == "reader_review_incomplete"
+    assert terminal["reader_review"]["reason"] == "reader_review_scope_partial"
+

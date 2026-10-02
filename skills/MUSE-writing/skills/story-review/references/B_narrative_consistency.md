@@ -6,7 +6,8 @@
 
 ## 输入
 
-- `pipeline/scenes/scene_{id}.md` — 全部场景正文，按顺序通读（核心依赖）
+- `pipeline/scenes/scene_{id}.md` — 全部场景正文，按顺序通读（核心依赖；`scope=scenes`）
+- `scope=manuscript`（Phase 7 evaluation 轻路径）：只读 dispatch 指定的 `pipeline/review/snapshots/story.semantic.round1.md` 作为唯一正文，不读场景正文；报告顶层加 `review_scope: manuscript` 与 `input_snapshot`
 - `pipeline/phase2_character.yaml` — 经历、能力、关系与人物弧光的作者侧设计基准
 - `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定信念、判断习惯、声音和行为边界
 

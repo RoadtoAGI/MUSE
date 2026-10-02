@@ -20,7 +20,7 @@ summary:
   input_gaps: []
 ```
 
-`dimension` 为 `temporal_math`、`world_rule_violation` 或 `reference_integrity`。每项须有问题位置、冲突另一端、具体判断和修复方向；设计层 `scene_id` 可为 null。`source` 固定为 `pipeline`。
+`dimension` 为 `temporal_math`、`world_rule_violation`、`reference_integrity`、`declaration_fulfillment` 或 `character_interchangeability`。每项须有问题位置、另一端（声明兑现写声明所在字段与应承接的场景范围，人物可互换写相关场景字段与 Phase 2 字段）、具体判断和修复方向；设计层 `scene_id` 可为 null。`source` 固定为 `pipeline`。
 
 无问题时 `review_findings: []`、`total_issues: 0`、`by_dimension: {}`。`input_gaps` 只记录缺少必要依据而未完成的判断，例如 `{path: phase2_character.yaml, missing: 明确的角色别称映射, affects: S07 参与者身份}`；没有缺口可省略或为空。确定问题和待补输入分开消费。
 

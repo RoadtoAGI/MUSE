@@ -7,7 +7,7 @@ description: 裁决原创完整链的当前场景，结合正文、有效诊断�
 
 ## 输入与模式
 
-接收 work_dir、scene_id、本轮实际审阅来源及模式。读取 `pipeline/scenes/scene_{id}.md`、`pipeline/scene_{id}/scene_card.md`、当前 A findings 和本场三份 L1 报告；B/C 仅消费本次实际调用的有效结果，未调用则明确“无”。来源缺失、损坏或版本失效由主控 input_gate 处理；不把旧文件存在视为本轮成功。
+接收 work_dir、scene_id、本轮实际审阅来源及模式。读取 `pipeline/scenes/scene_{id}.md`、`pipeline/scene_{id}/scene_card.md`、当前 A findings 和本场现有 L1 报告（默认 ai_filler 与 dialogue 两份）；B/C 仅消费本次实际调用的有效结果，未调用则明确“无”。来源缺失、损坏或版本失效时写 `ESCALATED`、`review_incomplete: true` 与 `missing_inputs`，由主控补齐后重派；不把旧文件存在视为本轮成功。
 
 初审写 `pipeline/review/scene_{id}.yaml`；post-revision / post-rewrite 写 `scene_{id}.post_revision.yaml`，并先读[复审协议](references/post-revision-review.md)。当前模式已有有效结果时由主控复用；当前输入/正文改变且主控明确本次重审与替换权限时，读取旧结果作为问题依据并刷新该模式报告。未经本次授权不覆盖，返回 `ESCALATED(already_reviewed)`。
 
@@ -28,6 +28,8 @@ findings、lint 与设计提示用于定位。将问题计入裁决前，引用�
 
 severity 是输入线索，判档取决于实际问题和范围。OOC、carrier_missing 或信息过载等名字不自动决定回滚；可以局部修正的知识用词与贯穿全场的错误人物动机应分别处理。scene_id=null 的全局 finding 交主控汇总，不猜测归属到本场。
 
+PASS 的 `rationale` 须回答：只凭当前正文，读者能否取得理解本场因果、人物知情与状态变化所需的信息，被命名的物件、术语与人物有没有交代或可感的去向。“按设计兑现”“carrier 完整承载”“POV 守住”“TTR 高于阈值”只说明正文符合设计，不构成通过依据；设计材料是对照证据，不替读者回答。观察依据：claude-opus-4-8/20260710_020000/367 首轮 scene_S01 以设计符合性 PASS，同稿读者盲读提出 12 条理解缺口。
+
 ## 机器信号与语义反馈
 
 observe 命中由现有 A 审阅及本裁决按实际作用判断，确认指代歧义、冗余或衔接断裂后走同一 PATCH 路径。当前普通词形与密度均提供复读线索；合法回指、复现和指示限定可以保留。PATCH 写明须保留的理解功能与具体问题，避免下发删词、降计数或统一动作化目标。
@@ -46,7 +48,7 @@ verdict: PATCH
 review_incomplete: false
 missing_inputs: []
 written_by: scene-reviewer
-rationale: 引用实际问题并解释范围
+rationale: 引用实际问题并解释范围；PASS 时说明读者仅凭正文能取得什么、尚未交代的是否属于有意省略
 findings_summary:
   total: 1
   by_source: {lint: 0, A: 1, B: 0, C: 0}

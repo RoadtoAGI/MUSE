@@ -171,6 +171,105 @@ def _genre_matches(query_genre: str, entry_genre: str) -> bool:
 # ---------------------------------------------------------------------------
 # Core
 # ---------------------------------------------------------------------------
+def _filter_indices(index: list[dict], *, genre: str | None, lang: str | None,
+                    novel: str | None, allowed_media: set[str] | None) -> list[int]:
+    """按媒介 / 题材 / 语言 / 作品过滤索引。显式 --genre 是作者限定的硬过滤；描述性题材应留在 query 文本中。"""
+    kept: list[int] = []
+    for i, entry in enumerate(index):
+        entry_medium = entry.get("source_medium", "novel")  # 兼容历史
+        if allowed_media and entry_medium not in allowed_media:
+            continue
+        if genre and not _genre_matches(genre, entry.get("genre", "")):
+            continue
+        if lang and entry.get("lang") != lang:
+            continue
+        if novel and not _normalized_contains(novel, entry.get("novel", "")):
+            continue
+        kept.append(i)
+    return kept
+
+
+def _exemplar_excerpt(text: str, anchor: str | None, limit: int) -> tuple[str, bool]:
+    """从完整原文截取 ≤limit 字的范文片段（含段落分隔符）。
+
+    有手艺原句锚时先按字符位置定位锚句，以锚所在段为起点取整段；该段超出预算时改取锚句附近的句段窗口，
+    保证锚句进入摘录；无锚或锚不在原文时取开头。返回 (片段, 摘录是否实际包含锚)。
+    """
+    if limit <= 0 or not text:
+        return "", False
+    probe = ""
+    if anchor:
+        probe = re.split(r"\s*\n\s*", anchor.strip())[0].strip()[:12]
+    anchor_pos = text.find(probe) if probe else -1
+
+    paragraphs: list[tuple[int, str]] = []
+    for match in re.finditer(r"[^\n]+", text):
+        para = match.group(0).strip()
+        if para:
+            paragraphs.append((match.start(), para))
+    if not paragraphs:
+        return "", False
+
+    def paragraph_run(start_idx: int) -> str:
+        picked: list[str] = []
+        total = 0
+        for _, para in paragraphs[start_idx:]:
+            cost = len(para) + (2 if picked else 0)
+            if picked and total + cost > limit:
+                break
+            if not picked and len(para) > limit:
+                picked.append(_cut_to_limit(para, limit))
+                break
+            picked.append(para)
+            total += cost
+        return "\n\n".join(picked)
+
+    if anchor_pos < 0:
+        excerpt = paragraph_run(0)
+        return excerpt, False
+
+    start_idx = 0
+    for idx, (pos, para) in enumerate(paragraphs):
+        if pos <= anchor_pos < pos + len(para) + 1:
+            start_idx = idx
+            break
+    _, anchor_para = paragraphs[start_idx]
+    if len(anchor_para) <= limit:
+        excerpt = paragraph_run(start_idx)
+    else:
+        local = anchor_pos - paragraphs[start_idx][0]
+        excerpt = _window_around(anchor_para, max(local, 0), limit)
+    return excerpt, probe in excerpt
+
+
+def _cut_to_limit(para: str, limit: int) -> str:
+    cut = para[:limit]
+    for sep in ("。", "！", "？", "」", "”", ".", "!", "?"):
+        last = cut.rfind(sep)
+        if last > limit * 0.5:
+            return cut[:last + 1]
+    return cut
+
+
+def _window_around(para: str, local: int, limit: int) -> str:
+    """在单个长段内围绕 local 位置取 ≤limit 字的窗口，尽量落在句界。"""
+    half = limit // 2
+    start = max(0, local - half)
+    end = min(len(para), start + limit)
+    start = max(0, end - limit)
+    seps = "。！？」”.!?"
+    if start > 0:
+        boundary = max(para.rfind(ch, 0, start) for ch in seps)
+        if boundary >= 0 and local - (boundary + 1) <= limit - 1:
+            start = boundary + 1
+            end = min(len(para), start + limit)
+    if end < len(para):
+        boundary = max(para.rfind(ch, start, end) for ch in seps)
+        if boundary > local:
+            end = boundary + 1
+    return para[start:end].strip()
+
+
 def cosine_similarity(a: np.ndarray, b: np.ndarray) -> np.ndarray:
     """计算 a (1, dim) 与 b (N, dim) 的余弦相似度，返回 (N,)"""
     a_norm = a / (np.linalg.norm(a) + 1e-10)
@@ -442,21 +541,10 @@ def query(query_text: str, genre: str = None, lang: str = None,
 
     # 过滤（子串匹配 + 别名表 + medium 隔离）
     if genre or lang or novel or allowed_media:
-        mask = []
-        for i, entry in enumerate(index):
-            entry_medium = entry.get("source_medium", "novel")  # 兼容历史
-            if allowed_media and entry_medium not in allowed_media:
-                mask.append(False)
-            elif genre and not _genre_matches(genre, entry.get("genre", "")):
-                mask.append(False)
-            elif lang and entry.get("lang") != lang:
-                mask.append(False)
-            elif novel and not _normalized_contains(novel, entry.get("novel", "")):
-                mask.append(False)
-            else:
-                mask.append(True)
-        mask = np.array(mask)
-        filtered_indices = np.where(mask)[0]
+        filtered_indices = np.array(
+            _filter_indices(index, genre=genre, lang=lang, novel=novel, allowed_media=allowed_media),
+            dtype=int,
+        )
 
         if len(filtered_indices) == 0:
             filters = []
@@ -468,7 +556,8 @@ def query(query_text: str, genre: str = None, lang: str = None,
                 filters.append(f"lang={lang}")
             if novel:
                 filters.append(f"novel={novel}")
-            print(f"⚠️ 过滤后无结果（{', '.join(filters)}）", file=sys.stderr)
+            hint = "；题材若只是描述性线索，请放进 --query 而不传 --genre" if genre else ""
+            print(f"⚠️ 过滤后无结果（{', '.join(filters)}）{hint}", file=sys.stderr)
             return []
 
         filtered_embeddings = embeddings[filtered_indices]
@@ -957,7 +1046,8 @@ def save_reference_file(results: list[dict], query_text: str,
                         paired_function_bridge: bool = False,
                         reuse_mode: str | None = None,
                         intended_domains: list[str] | None = None,
-                        canon_reference_profile: str | None = None) -> str:
+                        canon_reference_profile: str | None = None,
+                        exemplar_chars: int = 600) -> str:
     """保存检索结果到文件（含原文），返回文件路径"""
     if reuse_mode not in {None, "maximize_apt_reuse", "style_only"}:
         raise ValueError(f"不支持的 reuse_mode: {reuse_mode}")
@@ -1127,6 +1217,31 @@ def save_reference_file(results: list[dict], query_text: str,
                 lines.append(f"> {r['description']}")
                 lines.append("")
 
+            sidecar = read_craft_sidecar(r["file"]) if not shortform_pack else None
+            full_text = read_scene_text(r["file"], max_chars=0)
+            # 短范文片段先于全部分析块出现：本场表达问题 + 范文怎样做 + 一段可模仿的原文；
+            # 完整原文仍在末尾 <style_exemplar>，供 full / material 档复用（2026-10-03）。
+            if not shortform_pack and exemplar_chars > 0:
+                first_pattern = next((p for p in (sidecar or {}).get("patterns", []) if isinstance(p, dict)), None)
+                excerpt, anchored = _exemplar_excerpt(
+                    full_text, (first_pattern or {}).get("quote"), exemplar_chars)
+                if excerpt:
+                    lines.append(
+                        f'<exemplar_excerpt novel="{r.get("novel", "?")}" scene="{r["scene_id"]}" '
+                        f'chars="{len(excerpt)}" anchored="{str(anchored).lower()}">'
+                    )
+                    problem = " ".join(str(function_hint or query_text or "").split())
+                    if problem:
+                        lines.append(f"本场表达问题：{problem}")
+                    if first_pattern and first_pattern.get("original_move"):
+                        lines.append(f"范文怎样做：{first_pattern['original_move']}")
+                    if first_pattern and first_pattern.get("transfer_rule"):
+                        lines.append(f"迁移条件：{first_pattern['transfer_rule']}")
+                    lines.append("")
+                    lines.append(excerpt)
+                    lines.append("</exemplar_excerpt>")
+                    lines.append("")
+
             # 注入文风画像（annotate_style_profile.py 离线标注；缺失跳过）
             annotations = load_novel_annotations(r["file"])
             sp = annotations.get("style_profiles", {}).get(r["scene_id"]) or r.get("style_profile")
@@ -1159,7 +1274,6 @@ def save_reference_file(results: list[dict], query_text: str,
                 lines.append("")
 
             if not shortform_pack:
-                sidecar = read_craft_sidecar(r["file"])
                 if sidecar:
                     lines.append("**手艺拆解**（结构化——pattern_id 可被审阅锚点引用）：")
                     lines.append("")
@@ -1325,6 +1439,8 @@ def main():
                         help=f"Embedding 模型 (默认: {EMBEDDING_MODEL})")
     parser.add_argument("--include-text", action="store_true",
                         help="在终端输出中包含场景原文（不保存文件时使用）")
+    parser.add_argument("--exemplar-chars", type=int, default=600,
+                        help="每条参考顶部短范文片段的字数上限（围绕手艺原句锚截取整段）；0 关闭")
     parser.add_argument("--max-chars", type=int, default=4000,
                         help="每个场景原文的最大字符数，0=不截断 (默认: 4000)")
     parser.add_argument("--output-dir", type=str, default=None,
@@ -1455,6 +1571,7 @@ def main():
             reuse_mode=args.reuse_mode,
             intended_domains=args.intended_domains,
             canon_reference_profile=args.canon_reference_profile,
+            exemplar_chars=args.exemplar_chars,
         )
         abs_out = str(Path(out_path).resolve())
         runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,

@@ -9,7 +9,7 @@ description: 按当前创作问题检索名著场景原文，提供有来源的�
 
 ## 检索与选择
 
-用自然语言说明人物处境、表达需要及复合题材，作为 --query；作者明确限定“仅某题材”时才传 --genre 作硬过滤。style-hint 写实际需要的语态与节奏，function-hint 写待解决的叙事作用，缺失时省略。用户选定作品用 --novel 限定；无匹配时保留该来源缺口。
+用自然语言说明人物处境、表达需要及复合题材，作为 --query；作者明确限定“仅某题材”时才传 --genre，它是硬过滤；题材只是描述性线索时放进 --query，不传 --genre。过滤为空时脚本返回 `results: 0` 并提示改放线索，不自动放宽作者限定。style-hint 写实际需要的语态与节奏，function-hint 写待解决的叙事作用，缺失时省略；function-hint 同时成为每条参考顶部“本场表达问题”一行。用户选定作品用 --novel 限定；无匹配时保留该来源缺口。
 
 通过当前安装位置执行本包脚本；Claude plugin 可使用 CLAUDE_PLUGIN_ROOT：
 
@@ -17,7 +17,7 @@ description: 按当前创作问题检索名著场景原文，提供有来源的�
 python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境、复合题材与需要解决的表达问题"   --source-medium novel   --output-dir "{work_dir}/pipeline/references" --scene-id S01
 ```
 
-输出 `{work_dir}/pipeline/references/{scene_id}_ref.md`。可选 --lang、--style-hint、--function-hint 按实际输入传入；小说正文默认 novel，舞台、影视、广播或唱段参考按实际媒介传 --source-medium，跨媒介机制研究可显式扩展范围。题材相同不能保证文风适配，分数仅帮助排列候选。
+输出 `{work_dir}/pipeline/references/{scene_id}_ref.md`。每条参考先给 `<exemplar_excerpt>`：本场表达问题、范文怎样做、迁移条件，以及围绕手艺原句锚截取的一段原文（默认不超过 600 字，`--exemplar-chars` 调整，0 关闭）；完整原文与分析块在其后，供 full / material 档复用。可选 --lang、--style-hint、--function-hint 按实际输入传入；小说正文默认 novel，舞台、影视、广播或唱段参考按实际媒介传 --source-medium，跨媒介机制研究可显式扩展范围。题材相同不能保证文风适配，分数仅帮助排列候选。
 
 输出不在 `{work_dir}/pipeline/...` 下时，显式传 `--work-dir "{work_dir}"` 绑定作品。任务已给出必要条件时，可逐条传 `--must '<一个条件>'`；条件沿本次用途，不额外生成检查清单。
 
@@ -31,7 +31,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 
 ## 内容消费与交接
 
-读取本次结果，核对来源、原文范围与当前用途，交主控实际有效路径；无适用结果或失败时交“无”。目录中的旧 ref 不因存在而继续生效。原文不要只用摘要替代；截断使关键反应、条件或结果缺失时读取返回的原文路径，或以 --max-chars 0 取得完整场景。
+读取本次结果，核对来源、原文范围与当前用途，交主控实际有效路径；无适用结果或失败时交“无”。头部 `results: 0` 的文件只是检索记录，不是有效 ref，不得作为路径交给 writer。目录中的旧 ref 不因存在而继续生效。原文不要只用摘要替代；截断使关键反应、条件或结果缺失时读取返回的原文路径，或以 --max-chars 0 取得完整场景。
 
 ref 内的 usage_protocol 与条目 tier 描述可参考的范围。full 可在实际适配时使用结构与句段，material 关注当前已采用的来源事实/专名，style 关注表达；分数、手选与同书来源均不能证明功能同构。当前作者要求、人物事实、世界条件及已采用设计决定实际范围，原文候选不自动改写这些条件。明确要求复用时，贴切材料按现有复用契约使用。
 

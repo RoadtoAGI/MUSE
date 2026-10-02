@@ -79,6 +79,8 @@ SHARED_REFERENCE_PAIRS = tuple(
         "prose-craft/references/novel-craft-patterns.md",
         "prose-craft/references/ai-cliche-patterns.md",
         "prose-craft/references/observed-action-cases.md",
+        "prose-craft/references/observed-revision-cases.md",
+        "dialogue-craft/references/observed-dialogue-cases.md",
         "prose-craft/references/forbidden_migration_patterns.yaml",
         "dialogue-craft/references/dialogue-rules.md",
         "dialogue-craft/references/speech-attribution-patterns.md",

@@ -34,7 +34,7 @@
 
 Phase 2 YAML 承载作者侧人物轨迹、关系与背景；`story-character-skills/.claude/skills/{slug}/SKILL.md` 承载长期人格与声音，`state.md` 承载已记录的入场状态，`build-meta.yaml` 保存身份映射及构建来源。Phase 3 经 `build-report.md` 的 name→slug 映射读取主角状态；Phase 4/5 从 YAML 读取作者侧轨迹。
 
-Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`；普通场景直接交 writer，人物独有前提确实影响关键实现时，才派发相关 character-actor。writer 只读本次派发明确列出的可选 role move 和参考文件。详见 [Phase 6 协议](../../phase6-scene-development/references/execution-protocol.md)。
+Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`；普通场景直接交 writer，人物独有前提确实影响关键实现时，才派发相关 character-actor。writer 只读本次派发明确列出的可选 role move 和参考文件。详见 [Phase 6 技能](../../phase6-scene-development/SKILL.md)“人物路由”与[执行协议](../../phase6-scene-development/references/execution-protocol.md)的分支手册。
 
 `state.md` 可能仅覆盖故事入口。派发结合场景时点与前文选择有效事实；初始状态、未来轨迹和其他角色的秘密不能自动成为本场人物知识。尾摘负责文字衔接，角色可知范围由 role view 给出。
 
