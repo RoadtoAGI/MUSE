@@ -1,6 +1,7 @@
 # Public repository entry points. Local research and workspace files stay private.
 /*
 !/.gitignore
+!/LICENSE
 !/README.md
 !/README.en.md
 !/assets/

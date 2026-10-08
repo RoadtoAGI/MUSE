@@ -18,6 +18,9 @@ Describe the story you want, then develop it from premise to finished prose.
 
 </div>
 
+Licensed under [CC BY-NC 4.0](LICENSE). This repository and its skills are provided for noncommercial research and learning. Commercial use is prohibited. Third-party materials retain their original rights.
+
+
 MUSE is an AI writing system for **original fiction, screenplays, serial fiction, and derivative works**. It uses Robert McKee's story theory to guide design, retrieves examples from a literary knowledge base, and organizes character performance, scene composition, and revision.
 
 Describe the setting, relationships, key events, atmosphere, and prose style in natural language. MUSE develops these requirements into world facts, character motivations, outlines, and scene plans. A shared workspace stores them for subsequent writing, and the final output includes the manuscript and its design and revision materials. We call the task of developing a complete story from writing requirements **Vibe Narrativizing**.

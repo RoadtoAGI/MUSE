@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "muse-runtime"
 version = "0.1.0"
+license = {file = "LICENSE"}
 description = "Optional execution-time assistance for MUSE writing tools"
 requires-python = ">=3.10"
 dependencies = ["PyYAML>=6.0"]
