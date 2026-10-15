@@ -1,20 +1,17 @@
 ---
 name: short-manuscript-revision
-description: 按本次机器诊断或全文审阅修订原创短篇 story.md，保留人物与创作意图；由短链主控派发，返回修订结果。
+description: 按本次全文审阅修订原创短篇 story.md，一次处理需修的全部问题，保留人物与创作意图；由短链主控派发，返回修订结果。
 ---
 
 # 短篇全文修订
 
-读取当前 `story.md`、`pipeline/shortform/{conception,characters,outline}.yaml`，以及派发给出的审阅报告与写作简报 `pipeline/shortform/writer_brief.md`。简报里用到两节：“范文”是本篇的口吻依据，“条目”是审阅反复报出的问题对应的写法，注明“全文”的条目在修订前读那一处。必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据；涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
+读取当前 `story.md`、`pipeline/shortform/{conception,characters,outline}.yaml`，以及派发给出的审阅报告与写作简报 `pipeline/shortform/writer_brief.md`。简报里用到两节：“范文”是本篇的口吻依据，“条目”是审阅报出的问题对应的写法，注明“全文”的条目在修订前读那一处。必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据；涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
 
 ## 定位与修复
 
-两种模式进行句段语义重写前，均加载本包 [prose-craft](../prose-craft/SKILL.md)；改写对白的交流、声音或承接时加载 [dialogue-craft](../dialogue-craft/SKILL.md)。已有有效内容复用，深度参考按问题取得；机械改错或未改正文时按当前指令处理。
+一次处理本次指定的 `short_story_review.rN.yaml` 里需修的全部 findings 与未满足的 requirements；引用无法在当前正文定位时先报告，避免用旧报告改新稿。句段语义重写前加载本包 [prose-craft](../prose-craft/SKILL.md)；改写对白的交流、声音或承接时加载 [dialogue-craft](../dialogue-craft/SKILL.md)。已有有效内容复用，深度参考按问题取得；机械改错或未改正文时按当前指令处理。
 
-- `de-AI`：处理本次指定报告里“文本质量”与“范文语域”的 findings。每处改写前，在简报“范文”里找一两句功能相近的句子作对照，往范文的写法改：不偏离本篇情节走向和人物设定时越像范文越好，合适的原句可以直接用。保留准确回指、人物声音、事实与关系；普通词形及密度没有删减预算。`wholetext_gate.yaml` 不作修订依据。
-- `reader`：处理本次指定报告里需修的其余 findings 与未满足的 requirements。
-
-两种模式都只用本次指定的 `short_story_review.rN.yaml`；引用无法在当前正文定位时先报告，避免用旧报告改新稿。
+“文本质量”与“范文语域”的 findings：每处改写前，在简报“范文”里找一两句功能相近的句子作对照，往范文的写法改：不偏离本篇情节走向和人物设定时越像范文越好，合适的原句可以直接用。保留准确回指、人物声音、事实与关系；普通词形及密度没有删减预算。`wholetext_gate.yaml` 不作修订依据。
 
 范围由问题机制决定。局部归属或措辞问题局部修复；因果、声音覆盖或规划痕迹影响连续段落时，重写相关段落的组织。疑似同类问题只扩查有相关证据的部分。
 
@@ -26,4 +23,4 @@ description: 按本次机器诊断或全文审阅修订原创短篇 story.md，�
 
 就地修改 `story.md`，只读设计与审阅文件。对照修订前后连读改变的段落及相邻连接，核对对象、回指、因果、比较项、解释顺序、人物声音和节奏。必要承接或说明可以补回，英文另核自然搭配，标题保留具体导航；交接前修复本轮引入的断裂。
 
-写入 `pipeline/shortform/review/revision_summary.md`，顶部为 `status: complete|partial|failed`，说明当前模式、实际改动、未决问题及保留原文的依据。`partial` 表示有问题需上游或作者处理；`failed` 表示输入或执行失败。主控刷新改变正文的检查并复审，修订者不代写 PASS。
+写入 `pipeline/shortform/review/revision_summary.md`，顶部为 `status: complete|partial|failed`，说明依据的审阅报告、实际改动、未决问题及保留原文的依据。`partial` 表示有问题需上游或作者处理；`failed` 表示输入或执行失败。本轮修订后直接交付，未决问题由作者决定是否再修；修订者不代写 PASS。

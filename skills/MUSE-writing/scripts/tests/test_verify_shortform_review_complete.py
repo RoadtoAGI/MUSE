@@ -1,4 +1,4 @@
-"""verify_shortform_review_complete.py — 短链终验 gate 五断言测试。
+"""verify_shortform_review_complete.py — 短链终验：交付包缺陷拦下，质量结论列出、不拦交付。
 
 wholetext 闸门本体的判定逻辑归 test_cluster_alert_trigger 等既有测试；本文件对
 逻辑断言模拟闸门 PASS；旧报告须重跑，匹配当前正文的报告可直接复用。
@@ -77,8 +77,8 @@ def test_missing_story_fails(tmp_path):
     assert gate.run_gate(work) == 1
 
 
-def test_stale_hash_fails(tmp_path, monkeypatch):
-    """修订后未复审：报告 hash 对不上当前正文 → fail。"""
+def test_stale_hash_without_revision_fails(tmp_path, monkeypatch):
+    """正文在审阅后改过，却没有修订记录 → 说不清依据，fail。"""
     _force_gate(monkeypatch, 0)
     work = _build_run(tmp_path)
     _write_report(work, 1)
@@ -86,7 +86,24 @@ def test_stale_hash_fails(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 1
 
 
-def test_blocker_fails(tmp_path, monkeypatch):
+def test_revised_once_after_review_is_deliverable(tmp_path, monkeypatch, capsys):
+    """修订一轮后直接交付：不复审，列出修订前的审阅结论与修订回执的 status。"""
+    _force_gate(monkeypatch, 0)
+    work = _build_run(tmp_path)
+    _write_report(work, 1, status="REVISE", findings=[
+        {"severity": "MAJOR", "dimension": "人物声音", "quote": "x", "note": "y"},
+    ])
+    (work / "story.md").write_text(TINY_STORY + "修订后改写了一段。\n", encoding="utf-8")
+    (work / "pipeline" / "shortform" / "review" / "revision_summary.md").write_text(
+        "status: partial\n\n人物声音已改，结尾一处留待作者定。\n", encoding="utf-8")
+    assert gate.run_gate(work) == 0
+    out = capsys.readouterr().out
+    assert "修订后未复审" in out and "status: partial" in out
+    assert "修订前的 short_story_review.r1.yaml status=REVISE" in out
+
+
+def test_blocker_with_pass_is_malformed(tmp_path, monkeypatch):
+    """含 BLOCKER 却 status=PASS：报告自相矛盾 → fail。"""
     _force_gate(monkeypatch, 0)
     work = _build_run(tmp_path)
     _write_report(work, 1, findings=[
@@ -95,13 +112,15 @@ def test_blocker_fails(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 1
 
 
-def test_status_revise_fails(tmp_path, monkeypatch):
+def test_revise_with_blocker_is_listed_not_blocking(tmp_path, monkeypatch, capsys):
     _force_gate(monkeypatch, 0)
     work = _build_run(tmp_path)
     _write_report(work, 1, status="REVISE", findings=[
+        {"severity": "BLOCKER", "dimension": "价值转变", "quote": "x", "note": "y"},
         {"severity": "MAJOR", "dimension": "人物声音", "quote": "x", "note": "y"},
     ])
-    assert gate.run_gate(work) == 1
+    assert gate.run_gate(work) == 0
+    assert "status=REVISE，含 1 个 BLOCKER" in capsys.readouterr().out
 
 
 def test_latest_rn_wins(tmp_path, monkeypatch):
@@ -133,6 +152,16 @@ def test_requirements_extra_item_fails(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 1
 
 
+def test_unmet_requirement_is_listed_not_blocking(tmp_path, monkeypatch, capsys):
+    _force_gate(monkeypatch, 0)
+    work = _build_run(tmp_path, requirements=["至少一段对话"])
+    _write_report(work, 1, status="REVISE", coverage=[
+        {"requirement": "至少一段对话", "met": False, "evidence": ""},
+    ])
+    assert gate.run_gate(work) == 0
+    assert "requirement 未满足：至少一段对话" in capsys.readouterr().out
+
+
 def test_requirements_empty_evidence_fails(tmp_path, monkeypatch):
     _force_gate(monkeypatch, 0)
     work = _build_run(tmp_path, requirements=["至少一段对话"])
@@ -149,12 +178,13 @@ def test_no_requirements_no_coverage_needed(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 0
 
 
-def test_wholetext_rerun_fail_blocks(tmp_path, monkeypatch):
-    """终验当场重跑 wholetext（R3 F1）：本次退出码 1 → 终验 fail。"""
+def test_wholetext_rerun_fail_is_listed(tmp_path, monkeypatch, capsys):
+    """终验当场重跑 wholetext（R3 F1）：本次退出码 1 → 列为未解决，不拦交付。"""
     _force_gate(monkeypatch, 1)
     work = _build_run(tmp_path)
     _write_report(work, 1)
-    assert gate.run_gate(work) == 1
+    assert gate.run_gate(work) == 0
+    assert "wholetext gate 对当前正文 FAIL" in capsys.readouterr().out
 
 
 def test_stale_disk_pass_is_refreshed_to_current_surface_review(tmp_path):
@@ -170,12 +200,12 @@ def test_stale_disk_pass_is_refreshed_to_current_surface_review(tmp_path):
     fresh = yaml.safe_load((review_dir / "wholetext_gate.yaml").read_text(encoding="utf-8"))
     assert fresh["verdict"] == "REVIEW"
     assert fresh["semantic_review"] == "not_run"
-    # An actual semantic finding still blocks the same surface candidate text.
+    # 语义审阅确认的问题列为未解决，交作者决定是否再修一轮
     _write_report(work, 1, status="REVISE", findings=[{
         "severity": "MAJOR", "dimension": "人物声音", "quote": "它听见脚步便抬起头。",
         "note": "本例假设独立语义审阅确认当前正文与有效人物视角冲突",
     }])
-    assert gate.run_gate(work) == 1
+    assert gate.run_gate(work) == 0
 
 
 # ---------- 报告 schema 正向校验（畸形结构不得静默绕过 BLOCKER 断言） ----------
@@ -245,7 +275,7 @@ def test_illegal_dimension_rejected(tmp_path, monkeypatch):
     assert gate.run_gate(work) == 1
 
 
-@pytest.mark.parametrize("verdict, expected", [("PASS", 0), ("FAIL", 1)])
+@pytest.mark.parametrize("verdict, expected", [("PASS", 0), ("FAIL", 0)])
 def test_current_wholetext_result_reused(tmp_path, monkeypatch, verdict, expected):
     work = _build_run(tmp_path)
     _write_report(work, 1)

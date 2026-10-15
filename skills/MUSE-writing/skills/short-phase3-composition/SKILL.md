@@ -34,6 +34,8 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --wor
 
 ## 检查与修订
 
+成稿和修订各一轮，每轮都按能交付的最好结果做：审阅 PASS 就交付；REVISE 时修订一次后交付，不复审、不再修。作者看过要继续改时手动发起下一轮，从当前正文的检查与审阅开始，同样只修一次。
+
 正文落盘后运行现有全文检查；同一正文已有成功报告时复用，内容变化才刷新：
 
 ```bash
@@ -43,15 +45,15 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/dialogue_lint.py --story {work_dir}/story.
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story {work_dir}/story.md --work-dir {work_dir}
 ```
 
-前三份报告与 wholetext_gate 的定位都是线索，交审阅者结合正文判断。wholetext_gate exit 2 为工具或输入错误，停止自动修订并报告；exit 0 或 1 都进入全文审阅。
+前三份报告与 wholetext_gate 的定位都是线索，交审阅者结合正文判断。wholetext_gate exit 2 为工具或输入错误，报告并停止；exit 0 或 1 都进入全文审阅。
 
 派发 short-story-review，传工作目录、本轮 N、简报路径，以及作者开启读者审阅时的报告路径（未开启明示“无”）。N 从已有报告最大轮次之后递增，避免恢复任务被更高编号的旧报告覆盖。审阅规则和 schema 归该技能：
 
 - `PASS`：进入终验。
-- `REVISE`：先用同一 `--usage` 重新装配简报，脚本据已有审阅文件附上条目；再按 findings 派发 short-manuscript-reviser。需修的 findings 只涉及“文本质量”“范文语域”时用 `de-AI` 模式，其余用 `reader` 模式；派发写明报告路径与简报路径。问题遍及全文、局部修订解决不了时，改派 short-composer 按新简报重写。修订后刷新改变正文的检查并复审。
-- 修订 `failed`：停止并报告缺失输入或执行失败。`partial` 若需改变人物或大纲，回到相应设计；其余未决项交同一复审，不重复改写相同措辞。
+- `REVISE`：先用同一 `--usage` 重新装配简报，脚本据已有审阅文件附上条目；再派发 short-manuscript-reviser，一次处理这份报告里需修的全部 findings 与未满足的 requirements，写明报告路径与简报路径。问题遍及全文、局部修订解决不了时，改派 short-composer 按新简报重写，这次重写就是本轮修订。修订完成后进入终验。
+- 修订回执 `partial` 或 `failed`：照样进入终验，交付当前正文；需回人物或大纲的问题、失败原因与其余未决项写进交付说明。
 
-de-AI 修订最多两轮，reader 修订与复审最多三轮，不为通过数值无限重试。读者审阅（reader-review）在作者派发时明确开启才跑，默认不跑；开启时仅传当前 `story.md` 和输出路径，报告 `input_snapshot: story.md`，交 short-story-review 判断是否构成问题。单纯审美偏好交作者。
+读者审阅（reader-review）在作者派发时明确开启才跑，默认不跑；开启时仅传当前 `story.md` 和输出路径，报告 `input_snapshot: story.md`，交 short-story-review 判断是否构成问题。单纯审美偏好交作者。
 
 ## 终验与交付
 
@@ -59,6 +61,4 @@ de-AI 修订最多两轮，reader 修订与复审最多三轮，不为通过数�
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/verify_shortform_review_complete.py --work-dir {work_dir}
 ```
 
-终验检查当前正文、当前审阅、硬要求覆盖及既有机器资格。报告对应旧正文时更新受影响检查；输入错误修输入，实际未解决问题回其负责环节。复查仍受原轮数限制。
-
-自动修订达到上限、工具失败或需要作者裁决时，沿用 `pipeline/shortform/review/quality_gate_failed.yaml`，记录 `reason`、`rounds: {de_ai, reader}` 和具体 `unresolved`，保留现有正文并报告待处理项。终验通过后交付 `story.md`。
+终验核对交付包：正文在场，有对应的审阅报告（修订后交付时是修订所依据的那份，另有晚于它的 `revision_summary.md`），报告格式与硬要求核销记录完整。缺件、格式错误，或正文在审阅后改过却没有修订记录时 exit 1，补齐后再验。审阅结论为 REVISE、含 BLOCKER、硬要求未满足和 wholetext 的 FAIL 不拦交付，脚本逐项列出。交付 `story.md`，交付说明写明这些未解决项和修订回执里的未决问题，由作者决定是否再修一轮。

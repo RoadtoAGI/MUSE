@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
-"""verify_shortform_review_complete.py — 短链终验 gate（交付前最后一道机器闸）。
+"""verify_shortform_review_complete.py — 短链终验：核对交付包，列出未解决项。
 
-五断言（任一不过 → exit 1 = 不得交付）：
-  ① story.md 在场
-  ② wholetext_gate 报告与当前正文匹配时复用，否则运行现有检查
-  ③ 最新 pipeline/shortform/review/short_story_review.rN.yaml 的 story_sha256
-     == 当前 story.md 哈希（修订后未复审即交付在此 fail）
-  ④ 该报告 status=PASS 且 findings 无 BLOCKER（含 BLOCKER 必 REVISE 的一致性也在此断言）
-  ⑤ conception.requirements 非空时，requirements_coverage 与其一一对应
-     （序列完全一致，无缺项/增项/重复）且逐项 met=true、evidence 非空
+成稿与修订各一轮：审阅 PASS 就交付，REVISE 时修订一次后交付，作者要再修时手动发起下一轮。
+所以终验只拦交付包本身的缺陷，质量结论列出来交作者，不拦交付。
+
+exit 1（交付包有缺陷，补齐后再验）：
+  ① story.md 不在场
+  ② 没有 pipeline/shortform/review/short_story_review.rN.yaml，或最新一份格式错误
+     （含 status=PASS 却有 BLOCKER 这类自相矛盾）
+  ③ 最新报告的 story_sha256 与当前 story.md 不同，且审阅之后没有修订记录
+     （revision_summary.md 不晚于该报告）——正文在审阅后改过却说不清依据
+  ④ conception.requirements 非空时，requirements_coverage 缺失或与其不一一对应，
+     或某项标 met=true 却没有 evidence
+
+列出、不拦交付：wholetext gate 对当前正文 FAIL；审阅 status=REVISE；BLOCKER finding；
+未满足的 requirements；修订后未复审（列出 revision_summary.md 的 status）。
 
 用法:
     python3 verify_shortform_review_complete.py --work-dir <run 目录>
 
-退出码: 0=放行; 1=终验不过; 2=用法/环境错误
+退出码: 0=可交付（未解决项随输出列出）; 1=交付包有缺陷; 2=用法/环境错误
 """
 from __future__ import annotations
 
@@ -122,8 +128,21 @@ def _fail(msg: str) -> int:
     return 1
 
 
+def _summary_status(path: Path) -> str:
+    """revision_summary.md 顶部的 status 行；读不到时返回"未写明"。"""
+    try:
+        for line in path.read_text(encoding="utf-8").splitlines()[:10]:
+            m = re.match(r"\s*status:\s*(\w+)", line)
+            if m:
+                return m.group(1)
+    except OSError:
+        pass
+    return "未写明"
+
+
 def run_gate(work_dir: Path) -> int:
     failures = 0
+    open_items: list[str] = []
 
     # ① 正文在场
     story = work_dir / "story.md"
@@ -161,7 +180,7 @@ def run_gate(work_dir: Path) -> int:
     )
     if current_gate:
         if gate_report["verdict"] == "FAIL":
-            failures += _fail("wholetext gate 对当前正文 FAIL")
+            open_items.append("wholetext gate 对当前正文 FAIL")
     else:
         wholetext = Path(__file__).resolve().parent / "wholetext_gate.py"
         result = subprocess.run(
@@ -172,9 +191,9 @@ def run_gate(work_dir: Path) -> int:
             print(f"[shortform-final-gate] ERROR: wholetext_gate 运行失败——{result.stderr.strip()}")
             return 2
         if result.returncode != 0:
-            failures += _fail(f"wholetext gate 对当前正文 FAIL——{result.stdout.strip()}")
+            open_items.append(f"wholetext gate 对当前正文 FAIL——{result.stdout.strip()}")
 
-    # ③④ 最新审阅报告：hash 对齐 + status/BLOCKER
+    # ③ 最新审阅报告：格式、与正文的对应关系；status 与 BLOCKER 列出不拦
     review_dir = work_dir / "pipeline" / "shortform" / "review"
     report_path = _latest_review(review_dir)
     if report_path is None:
@@ -192,25 +211,30 @@ def run_gate(work_dir: Path) -> int:
         for err in _validate_report_schema(report, report_path.name):
             failures += _fail(err)
 
+        source = f"{report_path.name}"
         if report.get("story_sha256") != current_hash:
-            failures += _fail(
-                f"{report_path.name} 的 story_sha256 与当前 story.md 失配——修订后未复审即交付"
-            )
+            summary = review_dir / "revision_summary.md"
+            if summary.is_file() and summary.stat().st_mtime >= report_path.stat().st_mtime:
+                source = f"修订前的 {report_path.name}"
+                open_items.append(f"正文按 {report_path.name} 修订过一次，修订后未复审；"
+                                  f"revision_summary.md status: {_summary_status(summary)}")
+            else:
+                failures += _fail(
+                    f"{report_path.name} 的 story_sha256 与当前 story.md 失配，且审阅之后没有修订记录"
+                )
         status = report.get("status")
         findings = report.get("findings") if isinstance(report.get("findings"), list) else []
         blockers = [
             f for f in findings
             if isinstance(f, dict) and f.get("severity") == "BLOCKER"
         ]
-        if status != "PASS":
-            failures += _fail(f"{report_path.name} status={status!r}（须 PASS 才可交付）")
-        if blockers:
-            failures += _fail(
-                f"{report_path.name} 含 {len(blockers)} 个 BLOCKER finding"
-                + ("（且 status=PASS——违反含 BLOCKER 必 REVISE 的一致性）" if status == "PASS" else "")
-            )
+        if blockers and status == "PASS":
+            failures += _fail(f"{report_path.name} 含 {len(blockers)} 个 BLOCKER 却 status=PASS（含 BLOCKER 必 REVISE）")
+        elif status != "PASS":
+            open_items.append(f"{source} status={status}"
+                              + (f"，含 {len(blockers)} 个 BLOCKER" if blockers else ""))
 
-        # ⑤ requirements 一一对应核销
+        # ④ requirements 一一对应核销；未满足的列出
         if requirements:
             coverage = report.get("requirements_coverage")
             if not isinstance(coverage, list):
@@ -228,16 +252,21 @@ def run_gate(work_dir: Path) -> int:
                     if not isinstance(c, dict):
                         failures += _fail(f"requirements_coverage[{i}] 必须是 mapping")
                         continue
-                    if c.get("met") is not True:
-                        failures += _fail(f"requirements_coverage[{i}] 未核销（met != true）")
                     evidence = c.get("evidence")
-                    if not (isinstance(evidence, str) and evidence.strip()):
-                        failures += _fail(f"requirements_coverage[{i}] evidence 为空")
+                    if c.get("met") is not True:
+                        open_items.append(f"{source} 记 requirement 未满足：{c.get('requirement')}")
+                    elif not (isinstance(evidence, str) and evidence.strip()):
+                        failures += _fail(f"requirements_coverage[{i}] 标 met=true 却没有 evidence")
 
     if failures:
-        print(f"[shortform-final-gate] 终验不过（{failures} 项），不得交付")
+        print(f"[shortform-final-gate] 交付包有缺陷（{failures} 项），补齐后再验")
         return 1
-    print("[shortform-final-gate] PASS：全部断言通过，放行交付")
+    if open_items:
+        print("[shortform-final-gate] 可交付；以下未解决，写进交付说明，由作者决定是否再修一轮：")
+        for item in open_items:
+            print(f"- {item}")
+        return 0
+    print("[shortform-final-gate] PASS：交付包齐全，审阅 PASS")
     return 0
 
 
