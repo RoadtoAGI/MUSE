@@ -37,7 +37,11 @@
       "dialogue_mode": "前半几乎无对白，靠叙述推进；冲突开始后对白短促，约翰的长段辱骂（“整座房子都是我的”）对简两三字的回答（“在看书。”），简爆发时用破折号连缀指控（“像个杀人犯——像个奴隶监工——像罗马的暴君！”）；归属多用“他说”“他答道”，结尾几声喊叫不标说话人。",
       "pacing": "先慢后急：冬雨窗景和书中插图逐段铺陈，一句“怕什么就来什么，但未免也太快了”转入冲突，打斗段用长句挤满动作与痛感，最后一句“立刻就有四只手按住我，把我拖上楼去”截住，红房间留到下一场。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.186
   },
   {
     "scene_id": "S02",
@@ -74,7 +78,11 @@
       "dialogue_mode": "叙述推进为主，中段完全没有对白，内心质问以“为什么……？”的连串问句呈现；只在结尾有一段短促交锋，贝茜、艾波特和里德夫人各说几句，简的哭求“啊，舅母，可怜可怜我吧！”被一声“住嘴！”截断；归属用“贝茜问道”“艾波特嫌恶地说道”。",
       "pacing": "由静到崩：先用长段工笔写房间的冷、静、肃穆和“已故”带来的阴森，再以一大段连续追问倾泻委屈，天色转暗时情绪由怒转冷转怕，最后一个长段把念头、光影、心跳挤在一起直到冲向门口；以“这件事就在我的昏迷中落幕了”一句省去昏厥过程。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.092
   },
   {
     "scene_id": "S03",
@@ -110,7 +118,11 @@
       "dialogue_mode": "对白推进：前半是一问一答的盘诘，短句往返（“地狱是什么地方？”“是个大火坑。”），孩子的答案（“我必须保持身体健康，不要死掉。”“《诗篇》很无趣。”）制造喜剧落差；后半两个成年人越过简长段交谈，商定她的去处；短问短答多不加归属。",
       "pacing": "门外犹豫十分钟的慢开场，进门后盘问节奏紧凑，中间插入一段简当众受诬的心理长段，随后成人对话把节奏拖慢；以布罗克赫斯特塞来《儿童规诫》、摇铃离去作结，简的反应留到下一场。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.599
   },
   {
     "scene_id": "S04",
@@ -145,7 +157,11 @@
       "dialogue_mode": "对白推进冲突：简的长段控诉一口气说出，里德夫人由冷问（“你还有什么要说的？”）变成软声的关切（“要喝水吗？”），攻守易位；归属带情态（“我野蛮地高声喊道”），以里德夫人的喃喃自语退场。",
       "pacing": "静默对视的铺垫后爆发，控诉用长句推进；里德夫人退场后转入独处，胜利、悔恨、复仇滋味逐段降温，最后在阴沉欲雪的园子里以重复的“我该怎么办？我该怎么办？”收住，不给答案。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.285
   },
   {
     "scene_id": "S05",
@@ -181,7 +197,11 @@
       "dialogue_mode": "先叙述后对白：课堂段只有老师训斥的引语；晚间是简问、海伦答的往返，从极短的问答（“彭斯，你叫什么名字？”“海伦。”）逐渐过渡到海伦的大段独白，简以直觉的以牙还牙逻辑反驳；归属很少，靠语气区分说话人；结尾被班长的喊声打断。",
       "pacing": "课堂段长句密集、事件连发；晚间先写嬉戏与窗外风雪的松弛，再进入对话，对话由快到慢；海伦最长的一段宣讲之后被打断，她“不发一言……就按照班长的指令去做事了”，简没有回应，留下空白。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.568
   },
   {
     "scene_id": "S06",
@@ -219,7 +239,11 @@
       "dialogue_mode": "以布罗克赫斯特的长篇独白为主，坦普尔小姐只以短句回应（“朱莉娅的头发天生就是鬈的。”），简一句话也没说，只有一句心声（“我可不是海伦·彭斯”）；归属常带语气与动作（“坦普尔小姐的语气越发沉静了”）。",
       "pacing": "前半舒缓，一条条琐事和训诫累积成喜剧；写字板落地后急转，抱上高凳、宣判“骗子”、十分钟静默用短段落和停顿拉紧；末段一个长段落从耻辱写到海伦的笑容，节奏放开。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.445
   },
   {
     "scene_id": "S07",
@@ -256,7 +280,11 @@
       "dialogue_mode": "前半叙述推进，没有对白；与护士的问答极短（“很不好。”“他说她在这儿待不久了。”）；临终对话以简的短问和海伦较长的回答为主，结尾“晚安，简。”“晚安，海伦。”对称收住；归属简单（“她回答”“我轻声叫唤”）。",
       "pacing": "先以长段落铺陈瘟疫与幸存者自由的对照，再以六月夜晚的心理转折放慢，夜访一段用连续动作（下楼、绕过病房、推开虚掩的门）制造悬念；对话之后急收：醒来、骚动、过一两天才知道，最后一段跳到十五年后的墓碑与“我将再生”。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.196
   },
   {
     "scene_id": "S08",
@@ -292,7 +320,11 @@
       "dialogue_mode": "没有人与人的对话；简的心声用引号写成自问自答（“我到底想要什么？”），另一个声音给出登广告的具体步骤；以广告原文作结，括号里插入叙述者的自评。",
       "pacing": "先快后慢再快：八年用几段概述带过，一个下午的窗前凝望写成长段，晚餐铃打断；夜里的思考按步骤推进，最后以广告全文收场，等待回信的结果留给后文。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.147
   },
   {
     "scene_id": "S09",
@@ -328,7 +360,11 @@
       "dialogue_mode": "对白与叙述交替：简连连追问主人的性格，费尔法克斯夫人只能答“他是有点特别”“很难形容”，两人观察力的差别由对话本身显出；笑声一段问答短促（“应该是哪个用人吧”），以阿黛拉的法语喊声转入午餐；归属“她回答说”“我高声喊道”。",
       "pacing": "按参观路线推进（餐厅、客厅、三楼、屋顶、走廊），各段篇幅均匀；笑声段放慢，反复写声音的变化，随即以格雷斯平庸的外貌和“话题就这样转到了阿黛拉身上”迅速消解，把悬念轻轻按下。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.322
   },
   {
     "scene_id": "S10",
@@ -365,7 +401,11 @@
       "dialogue_mode": "没有对白；格雷斯的笑声以拟声“哈！哈！”出现，与格雷斯、索菲娅的交谈只用概述交代（“回答往往只有一两个字”）。",
       "pacing": "长段议论连续推进，用“如果……那他们的心胸也未免太狭隘了；如果……也未免太轻率了”的排比条件句收紧论点，随后回到格雷斯与仆人的琐碎描写降调；段落多以判断句收尾。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.001
   },
   {
     "scene_id": "S11",
@@ -400,7 +440,11 @@
       "dialogue_mode": "叙述推进与短问短答结合：初遇的问答极短（“那是谁的宅子？”“罗切斯特先生的。”），陌生人用命令句，简则主动提出帮忙；部分问答不加归属。",
       "pacing": "前半慢，分段写路、石阶、夕阳、月升，营造寂静；马蹄声打断后节奏加快，落马、扶马的动作连续；人马离去后用两行诗停顿，再以较长的反思段写这一小时对单调生活的意义。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.128
   },
   {
     "scene_id": "S12",
@@ -435,7 +479,11 @@
       "dialogue_mode": "对白推进，罗切斯特的长段发问与独白占主导，简以“不，先生”“随您所愿，先生”这样的极短回答或沉默应对，偶尔一句有分量的反驳（“能不能说您比我优越，完全取决于您如何运用年岁和阅历”）；沉默本身写进对话节奏（“我依然一声不吭”）。",
       "pacing": "先以一段静景（吊灯、冷雨、阿黛拉压低的交谈）定调；问答随话题起伏：发问、停顿、长段辩解、短答；在罗切斯特给简下评语处收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.685
   },
   {
     "scene_id": "S13",
@@ -470,7 +518,11 @@
       "dialogue_mode": "前半无对白；救火后对白急促，罗切斯特连问带命令，简简要汇报；道别时他挽留、欲言又止，用括号标注停顿（“（他再次打住）”），简以“我冷，先生”“我好像听见费尔法克斯夫人在走动”脱身；归属常带神情描写。",
       "pacing": "回顾段长句舒缓；夜里按声音逐级升级（呢喃、碰门、笑声、脚步、开关门），起火后句子变短变快；罗切斯特上三楼时用黑暗与等待拉长；末段一个比喻长段写心潮，天亮即止。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.283
   },
   {
     "scene_id": "S14",
@@ -504,7 +556,11 @@
       "dialogue_mode": "中段对白传递信息：简短问，费尔法克斯夫人长答，简最后一句“我太渴了，吃不下去”露出情绪；后段是独白式的自我对话，判决词用引号框出；归属简单。",
       "pacing": "等待、失落、自审三段：等待段长句堆积心思，对话段一问一答轻快，自审段祈使句连发、句短有力；最后两段迅速概述两周作画及日后的用处，为后文留下伏笔。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.447
   },
   {
     "scene_id": "S15",
@@ -539,7 +595,11 @@
       "dialogue_mode": "对白推进：开场是对仗式的快速交锋（“你怎么不发抖？”“我不冷。”“你怎么没有脸色发白？”“我没病。”），随后算命婆以诱导性提问步步试探，简用反问和拒答防守（“我是来询问，不是来告解的”）；末段转为算命婆的长段独白，以“戏已经演完了”收束；大部分对白不加归属，靠问答节奏区分说话人。",
       "pacing": "外貌描写之后进入短句快攻；由看手相改看面相时放缓，中段关于英格拉姆婚事的试探逐步加压，相面独白一段比一段长；最后一段由简的恍惚自问转入手、戒指、摘帽的连续动作，在揭面瞬间结束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.609
   },
   {
     "scene_id": "S16",
@@ -577,7 +637,11 @@
       "dialogue_mode": "群像段以无归属的惊呼连发（“谁伤着了吗？”“失火了吗？”）制造混乱，罗切斯特一人长段安抚；上楼前是低声的短问短答（“你房间里有没有海绵？”“有，先生。”“见到血你不会晕吧？”）；守夜中被禁止交谈，梅森只呻吟一句，叙述承担主要推进。",
       "pacing": "月光静景后以单句成段的“天哪！多可怕的叫声！”打断，走廊混乱段短句密集；回房等待段放缓，叩门后的低声对话节奏紧；守夜段以“我得……”的重复句和连串设问拉长时间，烛尽天灰时收束，一句“罗切斯特先生进来了”结束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.174
   },
   {
     "scene_id": "S17",
@@ -615,7 +679,11 @@
       "dialogue_mode": "对白承载揭秘：里德夫人先认不出简，再以长段自白说出恨意与谎言，简短促回应、请求和解；信件原文作为证据插入；归属简单。",
       "pacing": "开头交代无人照看的病房与窗外暴雨，简想起海伦时一声“谁？”转入对话；读信处停顿；里德夫人拒绝亲吻后，叙述迅速压缩时间（当晚十二点去世、次晨瞻仰遗容），以冷峻的遗容描写和一句话作结。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.444
   },
   {
     "scene_id": "S18",
@@ -650,7 +718,11 @@
       "dialogue_mode": "对白推进：罗切斯特的长段揶揄对简的短答（“是的，先生。”“离这儿好远，先生。”），简的哽咽靠断句与重复显出（“和英格兰，和桑菲尔德，还有——”“还有您，先生。”）；归属常附动作（“他叹了口气”）。",
       "pacing": "前四段慢写仲夏、暮色和果园，飞蛾把简拉进对话；罗切斯特一步步加码（结婚、爱尔兰、永不相见），简的回答越来越短；最后以夜莺声和泣不成声的长句收住，停在“但愿我从未降生，从未来过桑菲尔德”。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.443
   },
   {
     "scene_id": "S19",
@@ -686,7 +758,11 @@
       "dialogue_mode": "对白推进，节奏两极：简的长段宣言与极短的攻防交替（“你在怀疑我吗，简？”“非常怀疑。”“你一点都不相信我吗？”“完全不相信。”）；拥抱等动作嵌在对白之间；称呼由“罗切斯特先生”变为“亲爱的爱德华！”，标出关系的变化。",
       "pacing": "宣言、拒绝、求婚、怀疑、应允一气推进，中间只插一段风过月桂小径、夜莺独唱的停顿；应允后转入罗切斯特的喃喃自语；随后月隐、风吼、雷电，进屋、被撞见、上楼迅速相接，最后一句交代次晨七叶树被劈成两半，不加评论。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.646
   },
   {
     "scene_id": "S20",
@@ -726,7 +802,11 @@
       "dialogue_mode": "前半是罗切斯特一人的长段宣告和简短命令，三楼有他与格雷斯几句急促的对答，律师以长段解释约翰·爱的事；简全场几乎不开口；后半没有对白，只有内心独白和引用的祷词。",
       "pacing": "前半事件密集，长段宣告后众人快速移动（回宅、上楼、开门），厮打用连续的动作短句；律师走后人去楼空，转入长段静止的独白：先平静复述上午的经过，再层层堆叠意象，最后以经文“大水漫过我身”收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.424
   },
   {
     "scene_id": "S21",
@@ -761,7 +841,11 @@
       "dialogue_mode": "对白与长段内心辩论交替：罗切斯特的追问与简连续三个“是的。”构成极简对答，随后是他的长段哀求与怒斥；简心中的辩论用引号写出；告别时只剩互呼称呼（“简！”“罗切斯特先生！”）；梦中一问一答（“我的女儿，逃离诱惑吧！”“母亲，我会的。”）。",
       "pacing": "前半在拒绝与压迫之间拉锯，靠短对答与长独白交替控制节奏；“***”分隔后进入梦境，再转入黎明出走的连续动作（找钥匙、给锁上油、轻轻关门），在罗切斯特门前停步一段放慢；田野哭行加速到跌倒，坐上马车后以一段呼告读者的长句收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.341
   },
   {
     "scene_id": "S22",
@@ -795,7 +879,11 @@
       "dialogue_mode": "荒原段没有对白，靠叙述与祈祷推进；村中是简与店主妇人、开门的年轻女子、牧师管家的简短问答，对方回答冷淡（“不，我不是这样做买卖的。”“不要，我要它干什么？”），简的请求一次比一次卑微；归属简单。",
       "pacing": "夜宿段舒缓，写恐惧平息、吃越橘、祈祷、入睡；晨起一段以“重担仍需我背负；需要仍需得到满足；苦难仍需承受；责任仍要尽到”的排比振起；村中段用“走回……再走开，又回来”的徘徊和一次次被拒构成节奏，最后以“让我长话短说吧，我讨厌这个话题”截断。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.088
   },
   {
     "scene_id": "S23",
@@ -831,7 +919,11 @@
       "dialogue_mode": "对白与旁观描写交替：圣约翰先探问简是否失望，简以感恩表态作答，他转入大段自白；罗莎蒙德出场后连发问题，简极短作答（“你喜欢你的住所吗？”“很喜欢。”），圣约翰回应极少且冷淡（“今晚不去了，罗莎蒙德小姐，今晚不行。”），他的感情由简的观察而非对白透露。",
       "pacing": "开头是傍晚的长段沉思，落泪处转回现实；圣约翰来访的对话先短后长；罗莎蒙德出场用一个很长的肖像段落停住时间，随后问答轻快；以“她走一条路，他走的是另一条路”的对照短句收尾。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.296
   },
   {
     "scene_id": "S24",
@@ -866,7 +958,11 @@
       "dialogue_mode": "对白推进，圣约翰的长段劝说占主导、层层递进；简先以恳求和自贬抵挡（“哦，圣约翰！……可怜可怜我吧！”），独自权衡后提出条件，与他展开短句攻防（“我们不能，我们不能。”“是有条件的。”）；归属附带态度描写（“他的回答短促而坚决”）。",
       "pacing": "开头写景和他与故乡默别，半小时沉默后才说出远行；求婚一出，节奏随劝说加快，简要求思考一刻钟形成停顿，长段权衡分两段推进；回到对话后攻防转短，在简呼告读者、获得勇气的段落处结束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.723
   },
   {
     "scene_id": "S25",
@@ -902,7 +998,11 @@
       "dialogue_mode": "前半是姐妹间的快速对话，问答短、情绪外露，简借对话说出对无爱婚姻的分析；后半以圣约翰的读经、祈祷和长段劝告为主，简几乎不说话；呼唤只有三声“简！简！简！”，简以喊叫回应（“我来了！”），荒原的回音重复“你在哪儿？”，最后是她对圣约翰的一句斥责。",
       "pacing": "先快后慢再爆发：姐妹对话轻快，晚餐与读经放慢、庄严渐重，按头祈祷的一刻时间几乎停住；月光、残烛、心跳的静场之后呼唤突至，简冲出门外，节奏骤快；最后以锁门独自祈祷、期待黎明收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.374
   },
   {
     "scene_id": "S26",
@@ -937,7 +1037,11 @@
       "dialogue_mode": "后半由老板的长段转述占据，简用简短的追问和提醒（“可是火灾——”）把他从闲话拉回正题；关键消息被老板一再拖延，简以内心反应（血液冰冷、松一口气）呼应；结尾简一句吩咐备车结束对话。",
       "pacing": "前段期待逐步加速，比喻故事处突然停顿，一句“我看到的是一片焦黑的废墟”揭晓；废墟段静止，追问得不到回答；旅店段由老板的絮叨拉长，再以短问短答逐个揭出死讯、失明和下落，最后干脆地收在备车。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.596
   },
   {
     "scene_id": "S27",
@@ -974,7 +1078,11 @@
       "dialogue_mode": "先是无对白的观察，只有约翰与罗切斯特两句；端水进屋后对白推进相认：他看不见，只能靠声音、手指和身形确认，问句急切重复（“是谁？谁？”“真的吗？有血有肉？”），简以简短的确认和具体事实（伯父的遗产）证明自己是真的；归属常附动作。",
       "pacing": "密林段以多次以为走错路拉长等待；见到他后静止细看；进屋前与女仆的对话快速交代；相认段由试探到急切再到抒情长句；最后以他自称“瞎了眼的废人”后的沉默和简换用“更活跃的语气”转入下文。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.378
   },
   {
     "scene_id": "S28",
@@ -1013,6 +1121,10 @@
       "dialogue_mode": "叙述推进为主，对白只用于点睛：玛丽一句“是吗，小姐？嗯，理所当然！”、约翰的祝福、罗切斯特关于蜜月的一句话、复明时的两问两答（“简，你脖子上戴着什么闪光的饰品吗？”），最后引用圣约翰来信中的原话收束全书。",
       "pacing": "以概述为主，时间跨度大（婚礼当天、婚后十年、第二年末复明、长子出生）；开头的厨房小景轻快，婚姻长段平稳舒展，转向圣约翰时节奏变得庄重，以他的临终话语结束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.119
   }
 ]

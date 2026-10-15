@@ -34,7 +34,11 @@
       "dialogue_mode": "没有对白，人物不开口；全靠叙述者转述、设问（“咱们吃什么？”）和对听众的祈使句（“千万不要找人问”）推进。",
       "pacing": "长段逗号串联的口播句，段落常在句中截断续到下一段；按“工作说完了→该说好处”的清单节奏推进，用口粮、斤数、分成比例代替场面描写，几乎不写环境与感官。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S02",
@@ -73,7 +77,11 @@
       "dialogue_mode": "无直接对白；只有给听众示范的说辞（“你就说，我就是有个想法”），推进全靠叙述讲解与利弊分析。",
       "pacing": "清单式“工作/好处/花销”循环，多年经历用“这么一连干了三年”一句压缩；结尾以“刘官章的好日子到头了。但机会也来了”两个短句做期末钩子。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S03",
@@ -111,7 +119,11 @@
       "dialogue_mode": "没有对白，修堡、娶亲、雇工都由叙述概述；用设问制造悬念（“要怎么抵御流民？还是个问题，卡在这了”）。",
       "pacing": "按月份推进的流水账，逐项列钱数（18000钱、4850钱、6850钱）；“卡在这了”式短句停顿，段落常在句中断开，叙事节拍让位于算账。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S04",
@@ -152,7 +164,11 @@
       "dialogue_mode": "无引号对白；插入拟想的旁人嘲讽（“你个书生，你个书生，怎么打仗？”）和对家丁的符水誓言，都由叙述者代说。",
       "pacing": "184年3月至8月逐月推进，每月抛一个难题；重复句（“这可怎么办呢？”“至少囤武器了”）造成口播式卡顿，结尾以感叹短句“汉末真不是给人活的呀”收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S05",
@@ -192,7 +208,11 @@
       "dialogue_mode": "整场唯一的长段直接引语是刘官章对乡亲的动员演讲，不加引号，用排比（“烧我房屋，抢我粮谷，辱我亲眷”）和设问自答（“怕能让他们活着吗？不能。”）；其余交涉由叙述概述，县令的话转述为一句态度。",
       "pacing": "先用尸体、被啃过的尸身几笔交代废墟，随即转入演讲和资源清单；剿匪、分粮、编兵、扩编用“四五天”“两个月之后”快速跳接，每段落在“吃什么”这类下一难题上。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S06",
@@ -230,7 +250,11 @@
       "dialogue_mode": "没有对白；规定以叙述者的祈使与条款句出现（“发现私下买卖的，直接斩首”），旁人的反应一律概述。",
       "pacing": "技术与规章逐条罗列，常以“随后”开段串接；时间从185年1月跨到186年1月仅用一两句交代，结尾一句“再有两年，刘焉就来了”预告下一阶段。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S07",
@@ -272,7 +296,11 @@
       "dialogue_mode": "几乎无对白，只有一句文白托辞拒孝廉；给洪新甲、辛银马起名、严颜拒礼等互动都由叙述概述。",
       "pacing": "技术解释段落最长，按“第一……第三个”逐条论证；人事和时局用月份标记快速切换，刘登出生只用一句插入，结尾以“既然这样，那就别怪我了”留下动作悬念。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S08",
@@ -313,7 +341,11 @@
       "dialogue_mode": "人物交流主要通过全文照录的书信完成，信文不加引号直接嵌入叙述；战场上没有对白，只有叙述者的内心独白。",
       "pacing": "书信段落放慢节奏、完整复制格式，战斗部分短句提速（“干吧”），从大地震动到敌军自散只用几句；结尾补骑兵短板的冷静复盘，再以“收拾收拾，准备上任安汉”收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S09",
@@ -353,7 +385,11 @@
       "dialogue_mode": "本作对白较集中的一场：“刘官章当即表示”“严颜道”引出无引号直接引语；阅兵一段只录刘官章单方连问（“上使怎么出汗了呀？”），对方反应由叙述补出。",
       "pacing": "三场会面依次推进，每场先摆对白再由叙述者解释用意；对白与解说交替，节奏比账目段落快，月份标记（188年7月、8月、10月、12月）切换场次。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S10",
@@ -394,7 +430,11 @@
       "dialogue_mode": "对白稀少，严颜的提议以“严颜道：”引出的转述口吻呈现，刘官章的回应用“当即表示”套出，再由叙述者补心里话。",
       "pacing": "按189年2月至190年4月的月份逐段推进，家事（刘基出生）、外事、军需交错，各条只停留几句；结尾以“刘焉将死……也要到头了”作期末预告。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S11",
@@ -436,7 +476,11 @@
       "dialogue_mode": "谈判以刘官章的长段单向发言为主，不加引号；对方回应压成一句转述（“賨胡都户表示我们都答应，我们都答应”），由叙述者补出对方真实处境。",
       "pacing": "三场谈判依“好处说完了，我该说我条件了”的同一结构递进；攻城本身一两句带过（“我们兵临城下，荡渠县就投降了”），篇幅集中在利益分配条款上。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S12",
@@ -480,7 +524,11 @@
       "dialogue_mode": "直接引语只有城下喊话和对马忠的一句招呼，均无引号；攻城、受降、任官都由叙述者转述决定。",
       "pacing": "围城五天的心理变化压成“有人迈出第一步，就有人跟着迈出第二步”；人事任命逐个点名，战略分析段落较长，结尾的军演规则讲得细，选将结果一句带出。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S13",
@@ -521,7 +569,11 @@
       "dialogue_mode": "对白相对集中：“刘官章道”“严颜道”引出无引号直接引语，来回数轮，刘官章的心声紧贴在对白后面，读者同时听到场面话和真实判断。",
       "pacing": "谈判场面放慢、心声与对白交替；取汉昌、宣汉归附用几句快进；结尾以“我拿什么耗啊”这一没有标点收尾的自问截断，留出期末悬念。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S14",
@@ -564,7 +616,11 @@
       "dialogue_mode": "没有对白，只有对世家教师的一句招呼式祈使（“教教吧，别藏着了，咱们未来是要做大事的”）。",
       "pacing": "课程按第一至第四阶段的条目平铺，学时、奖金、学费等数字密集；全场无事件推进，靠制度细节填满，结尾转入官员往返授课的安排。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S15",
@@ -611,7 +667,11 @@
       "dialogue_mode": "直接引语以使者辞令和授甲时的激励语为主，无引号，句式对两方重复使用形成喜剧对照；“严颜道：愿为明府效死！”这类短回应收束。",
       "pacing": "按193年至194年逐月推进，战事多为对峙与僵持，篇幅用于产量、赏钱、兵力配置；转折依靠“晚来了半个月前的消息”这种延迟情报揭晓，期末以李傕封官制造下期钩子。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S16",
@@ -658,7 +718,11 @@
       "dialogue_mode": "没有对白；檄文全文照录承担修辞高峰，派系分析与战斗都由叙述者一人讲完，敌将动作以叙述者推测补出。",
       "pacing": "檄文段落放慢、四六句铺排，随后转入派系名单和战术推演；大战后立刻摊开伤亡数字和逐项开支（“三千九百八十万钱就没了”），以“烧钱哪真烧钱哪？”这类感叹作节拍。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S17",
@@ -702,7 +766,11 @@
       "dialogue_mode": "梓潼一段是本作少见的连续对答，“甘宁道”“刘官章当即表示”引出无引号直接引语，靠反差制造笑点；向张鲁讨铁矿时转为叙述者的直接质问（“我铁矿呢？我问你我铁矿呢？”）。",
       "pacing": "诱敌战按步骤短句推进（“随后……随后……”），攻城、受降、分官快速收束；结尾一句“这三百多万人口，肥得馋”在句中截断，留下转场钩子。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S18",
@@ -742,7 +810,11 @@
       "dialogue_mode": "两段转述式对白：袁绍远在邺城的怒斥以无引号直接引语插入，法正与刘官章就改名一问一答，以“刘官章说到”“法正表示拜服”标记回合。",
       "pacing": "先算运粮损耗定战略缓急，再逐条交代内政与南中方案；中段插入改名辩论放慢节奏，结尾以刘登“不爱学习”扔进安汉大学的家常一笔收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S19",
@@ -788,7 +860,11 @@
       "dialogue_mode": "前半几乎无对白，只有周康“请为主公吞之”的简短对答；后半迎马超是全作对白最密的段落之一，刘官章与马超你来我往，以动作（拉手、同乘、赠袍、送鹿肉）配合无引号引语。",
       "pacing": "行军、攻城按月份快进，夹100斤粮剩30斤、80斤等损耗算式；外交段落把三路使者辞令并排；马超一段放慢到具体饭食和城外里程，结尾一句“马超率兵入驻武都郡”埋伏笔。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S20",
@@ -834,7 +910,11 @@
       "dialogue_mode": "议事以“法正道”“董和表示”“刘官章道”标记的短句轮替呈现，无引号；使团交代是一大段第二人称祈使独白（“把你们的茶饼煮给他们”）。",
       "pacing": "情节密集切换，每件事几句话；夫人病逝只占两句，紧接军器司产量，私人哀痛被国务流水冲走；使团叮嘱一段放慢，细到饮食、衣物与抚恤。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S21",
@@ -877,7 +957,11 @@
       "dialogue_mode": "本作对白最集中的场次之一：父子问答一问一答，刘备与曹操论英雄成段铺陈，“其一……其二……其三”层层列举；均无引号，靠“刘登表示”“刘基低声说道”等标记切换说话人。",
       "pacing": "前段以中原战报快进，中段放慢到逐句问答和人物停顿（“刘官章久久没有说话”）；煮酒段落成为长篇论述，结尾以密信全文和一句“我们就静等张绣贾诩回信了”收尾。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S22",
@@ -917,7 +1001,11 @@
       "dialogue_mode": "直接引语只有两段谋士陈词（曹营一段、法正一段），皆为长篇论证、不加引号；刘官章的反应写成叙述者的内心独白。",
       "pacing": "战略推演占前半（骑兵对比、兵力账），转折靠一段敌方陈词加“于是乎”一句完成；后半在愤怒与自我开解之间来回，以“我还指望着马超，给我保护陈仓道呢？”收在疑问上。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S23",
@@ -960,7 +1048,11 @@
       "dialogue_mode": "贾诩献策是一段分步骤的长篇文言引语；与马腾、马超往来靠书信原文推进，马超的信也全文照录，不加引号。",
       "pacing": "贾诩一节写得细，两次求计形成重复结构；之后按199年10月至200年3月逐月快进，结尾在“至少我还拿一个郡呢？”“玩贸易战吧，实在没辙”这类认栽短句上收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S24",
@@ -1004,7 +1096,11 @@
       "dialogue_mode": "没有对白；唯一的引语是给刘备的短信，以及叙述者替马超设想的处境独白。",
       "pacing": "战略决断、兵力调度、战果和挫败依次快速交代，失利只用“伤亡过半”“完全打不过”几句；结尾以“守襄必守樊嘛”的俗语式判断收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S25",
@@ -1046,7 +1142,11 @@
       "dialogue_mode": "说媒一段是密集对白：刘官章与严颜你来我往，“严颜当即表示”引出口语化回嘴；诸葛亮的回绝以转述文言呈现；其余为书信和名单。",
       "pacing": "封官名单与书信放慢成清单，养生一句、考据一段穿插其间，结尾说媒以严颜发火、刘官章认错的小反转收尾，再用一句刘备复得汝南转回大局。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S26",
@@ -1090,7 +1190,11 @@
       "dialogue_mode": "直接引语集中在三处：贾诩献策、陈文锤遗言、刘官章墓前一句和迎刘备的客套；均无引号，且后接叙述者对用意的拆解（“事已至此，先让他散发几年魅力，我能控制他粮草”）。",
       "pacing": "战事以月份推进，胜负几句交代，唯陈文锤之死放慢两段；悲伤后立刻转入战船改装与攻城数据；结尾连续给出曹操诏书和马超内乱，抛下下一期的两个线头。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S27",
@@ -1132,7 +1236,11 @@
       "dialogue_mode": "议事段全由对白构成，既无引号也无“某某道”，说话人只能从内容推断，回合切换靠分段；攻城段落只有一句喊话式最后通牒（“半个时辰后开始攻城”）。",
       "pacing": "议事段落短促、多为一两句一段，节奏碎；炮战用“挨个点名”“一打一个窟窿”几句带过；受降条件以“拆房子、拆窗户、拆门把手”的类比收束，独立成段的“只要刘官章长寿就好”作停顿。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S28",
@@ -1181,7 +1289,11 @@
       "dialogue_mode": "两种对白形态并存：马腾来信与刘官章回信全文照录；提亲一段是快节奏口语对答，严颜“当即换了一副嘴脸”的反转靠对白完成。",
       "pacing": "人事名单与马家变局按时间快进，马腾托孤放慢为整封书信；之后用提亲小喜剧调节，结尾以袁绍取并州、孙权结盟两句带回天下局势。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S29",
@@ -1221,7 +1333,11 @@
       "dialogue_mode": "对白几乎为零；主体是刘官章对铁匠的长段操作口授，以“随后……随后……”串联步骤，另有两封短信和一句对袁绍使者的推辞。",
       "pacing": "工艺口授段落最慢，按工序一步步铺开；战略分析则是长段推理，句子常在半途重复（“太，太他妈强了”）；结尾以“天子，兵强马壮者为之，这个头咱千万不能开”作判断收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S30",
@@ -1266,7 +1382,11 @@
       "dialogue_mode": "对白分三段集中出现：马谡问答、马超归附（“马超当即下跪……刘官章马上将马超扶起”）、周瑜论势；均无引号，以“说道”“道”标记，动作与对白交替。",
       "pacing": "人物收服的两场放慢到逐句对答，天子分封、造船、使团、比武、货币则以清单式段落快进；结尾用“马腾的嘱托……现在全活着呢？”的自我更正和高炉炼成的喜讯收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S31",
@@ -1306,7 +1426,11 @@
       "dialogue_mode": "仅刘备述职一段有短对话（“玄德贤弟，听闻贤弟曾与曹操，论天下英雄……”“司徒消息通神，备敬佩之至”），其余全为讲解。",
       "pacing": "按物产逐项展开，每项“工艺—用途—利润”三步讲完再接下一项；刘备的惊惧是全场唯一的戏剧点，用一段插入后立刻回到防疫和货币讲解。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S32",
@@ -1352,7 +1476,11 @@
       "dialogue_mode": "对白集中在结尾的法正劝谏：“法正道”“刘官章道”三个回合，最后一句不用标点收尾的反问作笑点；与孙权的讲价以叙述转述双方开价。",
       "pacing": "话题密集跳转（气候、铁矿、布匹、凉州、海贸、九鼎、造船、标准化、厨房），每段以“随后”接续；越到后段越生活化，用一桌菜名和一句反问收住整期。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S33",
@@ -1399,7 +1527,11 @@
       "dialogue_mode": "诸葛亮与刘官章往返四五个回合，“诸葛亮道”“刘官章道”引出，诸葛亮的长段独白是本场修辞重心；马超的心声（“义父不让我动马休，我还动不了你马铁吗？”）以无引号自由间接引语插入。",
       "pacing": "求贤段落放慢、对答完整；之后转入以月份推进的战局，政策条目和局势推演占大段篇幅，结尾以袁绍“以空间换时间玩得溜啊”的佩服式感叹收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S34",
@@ -1447,7 +1579,11 @@
       "dialogue_mode": "几乎无对白，仅拒袁绍使者时刘官章一段推辞；其余由叙述者转述各方动向并替周瑜、袁绍揣摩心思。",
       "pacing": "多线战报交错，常用“随后”“传来消息”切换；段落长短悬殊，长篇推演与一句话段落交替；结尾以“后续的事情只能看后续了”的悬念句收住，留给下期官渡结局。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S35",
@@ -1494,7 +1630,11 @@
       "dialogue_mode": "平顶山会晤是逐句推进的对白戏：刘官章三次追问，曹操三次改口（半年、三个月、两个月、一个月），用重复制造笑点；官渡战场只有刘协一句阵前喊话。",
       "pacing": "官渡决战用长句连贯写出冲阵、追击、喊“袁绍已死”的过程；假船一节用检查细节铺垫后以五炮收尾（“前两发全没打准，后三发击中了三条楼船”）；会晤段落放慢，最后一句郭嘉挖壕的反转作收。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S36",
@@ -1540,7 +1680,11 @@
       "dialogue_mode": "对白很少：回孙权使者一句反讽式劝进，平顶山上刘官章开价、曹操一句“司徒此言正合我心”；其余都是叙述者转述与评估。",
       "pacing": "推理段落长而层层递进（“但是……而且……所以……”），事件以月份标记跳接；结尾转入关中废墟的赈济与移民条款，用“那么后续袁绍会怎么应对呢？”的设问收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S37",
@@ -1585,7 +1729,11 @@
       "dialogue_mode": "斥孙权使者一段以“刘官章当即表示”引出，先是口语算账再转文言定罪；甘宁的回信也以转述引语出现；战场无对白。",
       "pacing": "两线战事交替推进，炮战细节（打不坏、补窟窿）写得具体；外交转折靠“随后过了几天传来消息”快速翻面；结尾以炮运五个月才到马超军中、令攻晋阳转入下一段。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S38",
@@ -1631,7 +1779,11 @@
       "dialogue_mode": "三段对白都不标说话人，靠称呼（“丞相”“都督”“玄德”）与内容辨认；刘备一段近乎独白，排比和比喻密集；马忠的不服以自由间接引语呈现（“我是安汉一期的，魏延不过是安汉十期的”）。",
       "pacing": "前段多视角快切，每个阵营一两段；刘备对话放慢成长篇议论；后段战报节奏快，封赏一句接一句，结尾以“那块少数民族谁赢听谁的”式口语判断收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S39",
@@ -1680,7 +1832,11 @@
       "dialogue_mode": "对白零散：曹纯一句感叹、刘官章一句“抄写百余份，通报全军”、甘宁贺表里的“要不我打个孙权给您助助兴？”，都嵌在叙述中。",
       "pacing": "曹纯奔袭写成连续的机动线（潼关—野王—延津北岸—南岸—回程遇伏），节奏快；之后转入税收、人工成本等慢节奏议题，再以正旦、粪罐、送礼等生活化细节收束全期。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S40",
@@ -1730,7 +1886,11 @@
       "dialogue_mode": "对白稀少：战场上的诈旗喊话原样重复（“邺城已失，袁尚已亡，投降者不杀”），刘登对马超的一段分析和马超“我虽然听不懂，但我总觉得你说的应该对的”构成喜剧收尾。",
       "pacing": "政策部分是条款式推理；决战部分是一气呵成的长段战斗叙事，用“随后……随后……”串起奇袭、诈营、追击、渡河，节奏比本作多数段落快；结尾以“不希望袁绍在这个节骨眼而死”的冷静判断收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S41",
@@ -1778,7 +1938,11 @@
       "dialogue_mode": "提亲链条由三段转述对白串成（贾诩、曹操、曹操使者），每段一两句即落点；袁绍临终布局则由叙述者推演，偶尔替淳于琼代言（“什么颍川不颍川的，我早就是河北人了”）。",
       "pacing": "前段喜剧节奏快，一来一回就翻篇；中段转入长篇运粮与关隘推理；后段以“随后就当我们疑惑之际，河北那边传来消息，袁绍死了”的突转接袁家继承乱局，结尾以两个设问收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S42",
@@ -1825,7 +1989,11 @@
       "dialogue_mode": "直接引语为两次城头痛哭、韩猛转述袁绍遗令、袁谭求救与刘官章“贤侄快起快起”，均无引号；上表与回表以转述往来推进。",
       "pacing": "先用顶针式链条讲清饥荒循环（“百姓越没粮越上山，越上山山越越多……”），再连续两次“痛哭—下令”形成递进；战事十日破柴桑几句带过，结尾转到袁谭，以“不就两千副纸甲吗？”的轻巧反问收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S43",
@@ -1877,7 +2045,11 @@
       "dialogue_mode": "周瑜与刘官章一问一答谈投降条件；劝进与辞让以“刘官章道”反复出现的推辞句构成三段式；其余为上表、诏书的转述。",
       "pacing": "受降条款、封赏名单、人事调动以清单快速推进，劝进一节用“再上表—再推辞”的重复节拍拉长；九鼎出土后连跳封公、索鼎、请还都三步，结尾在刘协的托辞上无句号收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S44",
@@ -1926,7 +2098,11 @@
       "dialogue_mode": "对白较多且短：赐名、父子问答、军师三人献策（“诸葛亮说围点打援……庞统说……陆议道”）依次出场，刘登以一段文言收束讨论；均为无引号直接引语。",
       "pacing": "前半政务和人事以一问一答快速了结，后半壶关战按“假攻疲敌—火攻—先登—下山鏖战”推进；战果后立刻转入封赏、扶植胡部与功劳排序，结尾落在“功劳分不过来”的现实考量上。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S45",
@@ -1975,7 +2151,11 @@
       "dialogue_mode": "短对白散布全场：太史慈请命、麻将桌上的两句、曹操回绝借道（“借？那借完你，我洛阳本地还能回家吃饭吗？”）、劝吕蒙、问刘备；多为一来一回即止。",
       "pacing": "话题跨度大，从人事到远洋再到并州，均以“随后”切换；技术规划段落条理化（“第一个……第二个……第三个……”），结尾在刘备一句未完的话和节目收尾语上戛然而止。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S46",
@@ -2016,7 +2196,11 @@
       "dialogue_mode": "核心对白是刘官章与贾诩的三问三答，贾诩先只说四字再逐层展开；其余为诏书与上表的往来转述，以及对听众的抛问（“知道吗？袁尚称帝了”）。",
       "pacing": "政治难题以“诏书—困惑—问计—破解”四步快速闭合；之后转入河北乱局、盐利、移民和水利的长段规划，结尾以开发五六年“能多活很多百姓”的估算收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S47",
@@ -2061,7 +2245,11 @@
       "dialogue_mode": "本作最长的双人对白：刘官章逐件揭秘，曹操每次以身体反应作答（“浑身一颤，脸色惨白”“声音也颤抖，有，有”），形成层层加码的结构；后段刘表来信全文照录，孙权与张鲁的闲谈为口语对白。",
       "pacing": "会晤以“揭秘—震惊”反复推进，越到后面停顿越长（“久久不语”“曹操已经僵在那了”）；之后快进到刘表、孙权、赵云等人事安排，结尾在“明年三四月份就开始干他”的无句号句上收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S48",
@@ -2120,7 +2308,11 @@
       "dialogue_mode": "对白密集且分散在七八个地点，“表示”“道”引出，无引号；马超一节以对白加动作（拍案、拔刀、人头落地）推向高潮，其余多为一人表态、一人附和的短会。",
       "pacing": "前段以症状和消费清单慢铺，装病后转为快切蒙太奇，每处一两段，节奏均匀而密；马超斩成宜是唯一的暴力高点，之后迅速回到各将的命令句，以主角躺床的自嘲收尾。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S49",
@@ -2170,7 +2362,11 @@
       "dialogue_mode": "对白多为两人小场：辛银马与刘基、曹操与郭嘉、黄祖骂蔡瑁、贾诩与刘官章；后者是全场重心，从脉象玩笑过渡到对军校门生体系的评价（“此事前无古人啊”）。",
       "pacing": "前半各地反应逐条揭晓，中段贾诩对谈放慢；病愈后连下处置与封赏，再借曹操求粮回旋一句“难不成那会是矫诏？”，最后转入长段远景规划，在一句未完的“随着我们感谢孙权”上截断。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S50",
@@ -2222,7 +2418,11 @@
       "dialogue_mode": "对白集中在三处：刘官章回绝曹操质子、贾诩与刘官章的推演对答、马超与辛银马的撤军交接，以及幽州世家与马岱讨价还价；均为无引号转述式直接引语。",
       "pacing": "多线战报按月推进，地点频繁跳转；贾诩一段放慢成关键转折，随后“八百里加急”提速；结尾以曹操“绝境就拼命，但拼命不等于送死啊”的评语收住南线。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S51",
@@ -2271,7 +2471,11 @@
       "dialogue_mode": "对白集中在长安议和：荀攸陈三条，刘官章逐条答复并以格言收束；其余为喊话式政令和书信转述。",
       "pacing": "战果一条接一条快速叠加（破城、投降、斩将、屠族、造反），夹在其中的议和是唯一放慢的段落；结尾以战果统计收尾，最后一个数字后没有句号。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S52",
@@ -2314,7 +2518,11 @@
       "dialogue_mode": "对白极少：颍川士族与刘协争护送人选、曹操一句“愿意跟我走的，退回梁沛”，都以转述式直接引语夹在叙述中。",
       "pacing": "以数据和路线讲解开场，节奏平缓；中段曹操退场一笔带过，随即转入退伍兵下基层的制度说明；结尾以“曹操应该是能猜透我们想法的”的揣测收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S53",
@@ -2356,7 +2564,11 @@
       "dialogue_mode": "对白密集：马超求娶甄氏、刘协与刘官章初见、蔡琰问答、乞伏龙关“他又不是妇孺，给我杀”、劝进时多人抢话；无引号，靠“道”“表示”与语气区分说话人。",
       "pacing": "三次劝进构成重复递进的节拍（三月拒、四月拒、八月被“动手”），中间插入长诗作慢板；暴力与喜剧紧挨着出现，结尾以刘协退位、“这玩意大家都懂”的无句号句收住。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S54",
@@ -2412,7 +2624,11 @@
       "dialogue_mode": "全场没有对白，只有叙述者对机构与人选的连续说明。",
       "pacing": "按“省—部—司—院—营—军区”的层级逐层展开，人名与官名成串出现，几乎没有事件；末段转为对皇权、相权、军权关系的归纳，以“否则他想权都揽不起来”收束。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S55",
@@ -2454,6 +2670,10 @@
       "dialogue_mode": "对白零星：刘官章托曹植带话、让左贤王献舞的一句吩咐，其余为政令与叙述者的自问自答。",
       "pacing": "以政策清单逐条推进，每条附数字或理由，偶有口语重复（“中原人口凋零太厉害了，中原人口凋零太厉害了”）；结局没有收束性的抒情，停在拒立生祠“这种劳民伤财的事情没有必要”的行政判断上。"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   }
 ]

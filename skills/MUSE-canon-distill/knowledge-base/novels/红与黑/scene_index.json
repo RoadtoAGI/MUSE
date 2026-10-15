@@ -32,7 +32,11 @@
       "dialogue_mode": "几乎无对白，仅以路人拖腔的一句'嗬！那是我们市长大人的。'点出权势归属，全场靠叙述推进",
       "pacing": "由远及近的导览顺序（山城全景→钉厂噪声→市长→宅邸花园→锯木厂旧账），长段落匀速铺陈，段末常落一句讽刺判断；不设时间线和事件"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.011
   },
   {
     "scene_id": "S02",
@@ -68,7 +72,11 @@
       "dialogue_mode": "父子对白短促，一问一答推进，于连一句'那我跟谁一起吃饭呢？'即问住对方；他的出逃盘算以引号内心独白呈现，归属多用'答道''嚷道'",
       "pacing": "动作段极快，一拳、一掌、伸手揪住几句完成，随即停下来作长段肖像与身世交代；场次之间以'过了一会儿''黄昏时分'跳接，略去过渡"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.21
   },
   {
     "scene_id": "S03",
@@ -102,7 +110,11 @@
       "dialogue_mode": "对白密集的短问短答（'你懂拉丁文？''是的，夫人。'），每句对白后紧跟对方的心理反应；于连唯一一次长篇自陈用来表现紧张",
       "pacing": "慢镜处理几分钟的门口相遇，切成多轮问答与心理起伏；以突然的吻手动作收束，不写随后的尴尬"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.232
   },
   {
     "scene_id": "S04",
@@ -138,7 +150,11 @@
       "dialogue_mode": "几乎没有直接对白，只有瑞那夫人一句推托；推进全靠于连引号内的自我命令（'十点整……不然，就上楼毙了自己！'）",
       "pacing": "以钟点计时（九点三刻、十点、半夜、清晨五点、午餐铃）压缩悬念，钟声一落动作即起；得手后立刻跳到次日，略去夜间温存"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.069
   },
   {
     "scene_id": "S05",
@@ -173,7 +189,11 @@
       "dialogue_mode": "前半由对白推进冲突（于连连珠反诘、市长让步加薪），后半没有对白，只有自语式内心话",
       "pacing": "先快后慢：几段争执即分出胜负，随后放慢到岩阴、悬崖、蝉声与盘旋的雄鹰；以一句设问截断，不作解释"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.312
   },
   {
     "scene_id": "S06",
@@ -211,7 +231,11 @@
       "dialogue_mode": "前半是无名者的零散闲言，后半主教与于连的短问答（'你看我的帽子怎样，戴得合适吗？'），让对白自己暴露虚荣",
       "pacing": "大场面以长段落快速概述（烽火、礼炮、惊马、落马），进入主教大厅后放慢成一问一答的室内小戏；以于连一句'越接近上层越见文雅'的感慨收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.157
   },
   {
     "scene_id": "S07",
@@ -247,7 +271,11 @@
       "dialogue_mode": "长短交错的激烈对白：她跪地呼告、他长篇劝说，扑进怀抱又推开等动作嵌在对白之间；于连的盘算以引号独白展开",
       "pacing": "病情几句概述后直推凌晨两点的危机，高潮处对白回合密集；危机过后用概括段落交代此后数周爱情性质的改变"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.551
   },
   {
     "scene_id": "S08",
@@ -281,7 +309,11 @@
       "dialogue_mode": "没有对话，全由引号内的自语和间接转述构成，一个念头推翻上一个",
       "pacing": "沿一夜时间线推进（扶手椅、灯火渐暗、晓光初露、到花园），念头以短段落快速翻转；以撞见妻子收住，留下悬念"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.356
   },
   {
     "scene_id": "S09",
@@ -316,7 +348,11 @@
       "dialogue_mode": "对白密集：她以退为进、句句诱导，他以怒吼和重复回应；她的内心旁白（'总算成了！'）插在对白间，鸽楼挂手帕一段转为无对白的动作抒情",
       "pacing": "长对谈分段推进，中间以砸开写字台、爬鸽楼两段动作换气；收尾停下来放一段议论"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.518
   },
   {
     "scene_id": "S10",
@@ -353,7 +389,11 @@
       "dialogue_mode": "宴席对白稀疏而关键（'那下流的小曲倒不唱了。'一问一答定调），众人反应用概述（'顿时，四座寂然'）；于连的愤慨以引号长独白呈现",
       "pacing": "先慢铺登门与陈设，以一首被禁的小曲为转折，随后加速概述背书、离席与邀约；以于连出门连骂'混账'收束"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.231
   },
   {
     "scene_id": "S11",
@@ -389,7 +429,11 @@
       "dialogue_mode": "先是极简短问答（'你叫什么名字？''于连·索雷尔。''你来迟了。'），晕倒后转为院长读信和长篇训诫；三小时的拉丁文对答以概述带过",
       "pacing": "前段以等待时长（十分钟、一刻钟）拉长紧张，晕倒一节骤然发生；考问用几段概述压缩，结尾以醒来躺在地板上的细节收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.288
   },
   {
     "scene_id": "S12",
@@ -424,7 +468,11 @@
       "dialogue_mode": "基本不靠对白推进，只在结尾用两名修士谈论当教皇的一段对话作例证；于连的思路以引号独白呈现",
       "pacing": "论说文式段落连贯推进，以溏心蛋、酸菜烧腊肠、墙上炭字等具体细节作论据，把数月时间压缩进议论"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.328
   },
   {
     "scene_id": "S13",
@@ -460,7 +508,11 @@
       "dialogue_mode": "夏斯神甫唠叨式长段话与于连的简短应答；重逢那一刻几乎无对白，只有戴薇尔夫人一串斥责",
       "pacing": "劳作段轻快，钟声段放慢为遐想与议论，重逢以一句'就晕了过去'突转；结尾用节省蜡烛的反讽细节收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.294
   },
   {
     "scene_id": "S14",
@@ -497,7 +549,11 @@
       "dialogue_mode": "短对白承担行动安排与险情（'这部梯子怎么办？''你为什么关起门来？'），说完即做，很少停下抒情",
       "pacing": "以钟点推进一整天（黎明、八点、傍晚、凌晨二点），险情一个接一个；逃跑以短句加枪声连写，结尾一句交代去向"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.307
   },
   {
     "scene_id": "S15",
@@ -533,7 +589,11 @@
       "dialogue_mode": "对白密集，以圣冀罗的长篇诉苦为主体，法尔戈短句插话反驳，一长一短形成辩论；归属简略，常省去'说'",
       "pacing": "对话连续推进，几乎没有动作和环境描写；用'谈话了无止休。这个话题，法国还可以谈上半个世纪'一句压缩后续"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.61
   },
   {
     "scene_id": "S16",
@@ -573,7 +633,11 @@
       "dialogue_mode": "群口接力的对白，每人一两句嘲谑，矛头随进门的宾客转移；于连不插话，只以内心评语回应",
       "pacing": "以当差通报来客为节拍，一个人物一段小品式速写，接连推进，不做整体场面描写"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.359
   },
   {
     "scene_id": "S17",
@@ -611,7 +675,11 @@
       "dialogue_mode": "门口一串无名小胡子的接力议论，玛娣儿特与于连围绕卢梭的短交锋，其余以她的内心话为主",
       "pacing": "先以场景铺排与群议造势，再在人群挤压中聚焦二人交锋，后半放慢为玛娣儿特的独白循环，以她对于连的怨气收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.429
   },
   {
     "scene_id": "S18",
@@ -646,7 +714,11 @@
       "dialogue_mode": "对白极少，主体是于连的独白，包括对想象中的敌人喊话（'且慢，诸位'），并引剧本台词作内心参照",
       "pacing": "情绪曲线式推进：狂喜→道德闪念→怨愤→被害想象→付诸行动（抄信、藏信、寄信）→写回信；独白段短而密，行动段快"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.464
   },
   {
     "scene_id": "S19",
@@ -680,7 +752,11 @@
       "dialogue_mode": "对白短而拘谨，多是找话题的实务问答（'您外套的那边口袋藏着什么？'），真正的情绪留在各自的心理叙述里",
       "pacing": "进房前以钟点（十一点、十二点半、一点零五分）制造悬念，进房后放缓为尴尬的来回，初夜一句带过，以两人分别的反思收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.244
   },
   {
     "scene_id": "S20",
@@ -715,7 +791,11 @@
       "dialogue_mode": "关键对白极少而尖锐（'这么说来，您不再爱我了？''碰到阿狗阿猫，就委身于他'），大部分心理变化由叙述概括",
       "pacing": "前段用'第二天，第三天'压缩冷战，古剑一节以'由快转慢，前后有一分钟之久'的动作细描放慢，再以侯爵禁足令和于连的绝望自语收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.299
   },
   {
     "scene_id": "S21",
@@ -750,7 +830,11 @@
       "dialogue_mode": "对白集中在闺房一节，以玛娣儿特连串的自贬呼告为主；其余靠内心话和议论推进",
       "pacing": "三段式：内心辩解与画像→作者插话中断叙事→夜里爬梯的动作高潮；情欲以省略号和'此中情形，不写为妙'跳过"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.27
   },
   {
     "scene_id": "S22",
@@ -789,7 +873,11 @@
       "dialogue_mode": "以长篇演说为主，打岔与嘘声穿插，主席控场；于连的观察以简短心语点缀",
       "pacing": "先以与会者逐个登场的速写铺垫，作者插话打断，随后演说一段接一段，以'有人打岔'切换发言者，以于连'今晚得骑上快马'作结"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.385
   },
   {
     "scene_id": "S23",
@@ -826,7 +914,11 @@
       "dialogue_mode": "对白极简（'瑞那夫人的信在哪里？'冷冷一句），全文引入的信件承担叙事转折",
       "pacing": "前半舒缓写得意，读信后陡然加速：驿车、兵器店、钟声、两枪，几乎一句一事，省略他的心理与决定过程"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.258
   },
   {
     "scene_id": "S24",
@@ -862,7 +954,11 @@
       "dialogue_mode": "对白简短，推事与看守的问答带出信息，看守转弯抹角的长句与于连的急问形成对照；转折落在一句'怎么！她没死！'",
       "pacing": "开头用短段落写被捕的茫然，中段插入瑞那夫人一侧，写信与自省放慢，最后以听讯、喝退看守、跪地流泪快速转折收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.399
   },
   {
     "scene_id": "S25",
@@ -900,7 +996,11 @@
       "dialogue_mode": "对白分两类：弗利赖向玛娣儿特交底的长段，以及于连的法庭陈词（直接引用三段，其余概述）；其他人物多是只言片语",
       "pacing": "前半以审判前夜铺垫，开庭后按程序推进（证词、起诉、辩护、点心、午夜钟声、陈词、合议、宣判），以钟点标示时间"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.302
   },
   {
     "scene_id": "S26",
@@ -936,7 +1036,11 @@
       "dialogue_mode": "前半对白密集，短句来回（'请你饶恕我。''要我饶恕……'），后半主要是管钥匙的回禀和于连的愤语",
       "pacing": "重逢以快速对白推进到和解，一句交代被召回，转入教士闹剧，节奏由柔转躁，以'教士才撤岗离去'平淡收束"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.459
   },
   {
     "scene_id": "S27",
@@ -973,7 +1077,11 @@
       "dialogue_mode": "父子对白简短而功利，一句'我存着不少钱呢！'扭转局面；苦役犯一段用间接叙述交代，后半没有对白",
       "pacing": "前段事件密集（父来、斥骂、落泪、谈钱、香槟、苦役犯），后段放慢为一夜的独白，用省略号连缀片段思路（猎人靴踢翻蚁穴、蜉蝣不知黑夜），以一句恢复镇定收"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.302
   },
   {
     "scene_id": "S28",
@@ -1011,6 +1119,10 @@
       "dialogue_mode": "对白集中在于连拒绝公开改宗、阻止瑞那夫人觐见国王和交代后事的几段话，此后对白消失",
       "pacing": "先以概述推进数周，在行刑处极度压缩，葬礼以短段落逐步推进，末句写瑞那夫人三天后死去，不加评论"
     },
-    "style_profile_by": "claude-opus-5-5"
+    "style_profile_by": "claude-opus-5-5",
+    "original_lang": "fr",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.412
   }
 ]
