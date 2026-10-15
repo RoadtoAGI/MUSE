@@ -2,14 +2,13 @@
 """短篇正文写入后的守卫（设计 §3.6、§6、§10.2），由 hooks/check-design-token-leak.sh 分派。
 
 只检查短链正文：工作目录根部的 story.md，且同目录有 pipeline/shortform/conception.yaml。
-四项，任一不满足 exit 2 并逐条给出位置，写作者在同一会话修改：
+三项，任一不满足 exit 2 并逐条给出位置，写作者在同一会话修改：
 
 1. 格式：无 YAML frontmatter、无 HTML 注释。
 2. 设计用词泄漏：大纲与构想字段名、设计标记、排练标题、场景卡投影标签、灵感账 ID、YAML 键行。
-3. 与范文的连续重合：对照写作简报“范文”一节的窗口，口径见 reuse_overlap.py；
-   人物名不计；conception 的手选名著写明 maximize_apt_reuse（作者授权复用原文）的那部作品的窗口
-   不查，其他窗口照查。
-4. 字数：超出 conception.target_length ±30% 才拦；更小的偏差不拦，字数是软约束。
+3. 字数：超出 conception.target_length ±30% 才拦；更小的偏差不拦，字数是软约束。
+
+正文与范文像不像不在这里查：情节走向与人设一致时越像范文越好，由审阅判断。
 
 用法::
 
@@ -26,10 +25,9 @@ from pathlib import Path
 
 import yaml
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import reuse_overlap  # noqa: E402
-
 LENGTH_TOLERANCE = 0.30
+HAN = re.compile(r"[㐀-鿿豈-﫿]")
+EN_WORD = re.compile(r"[A-Za-z0-9]+(?:'[A-Za-z]+)?")
 
 DESIGN_MARKERS = ("[核心]", "[灵感]", "[惊艳]", "[main]", "[support]", "[atmosphere]")
 DESIGN_FIELDS = (
@@ -53,8 +51,8 @@ YAML_KEY_LINE = re.compile(
 
 def count_units(text: str) -> tuple[int, str]:
     """正文篇幅：中文数非空白字符，英文数词；返回 (数量, 单位)。"""
-    words = len(reuse_overlap.EN_WORD.findall(text))
-    han = len(reuse_overlap.HAN.findall(text))
+    words = len(EN_WORD.findall(text))
+    han = len(HAN.findall(text))
     if words > han:
         return words, "词"
     return len(re.sub(r"\s", "", text)), "字"
@@ -97,57 +95,6 @@ def token_problems(text: str) -> list[str]:
     return problems
 
 
-WINDOW_WITH_ATTRS = re.compile(r"<exemplar_window\b([^>]*)>\n?(.*?)</exemplar_window>", re.S)
-NOVEL_ATTR = re.compile(r'\bnovel="([^"]*)"')
-
-
-def authorized_works(conception: dict) -> list[str]:
-    """作者在 canon_reference_profile 里授权复用原文（maximize_apt_reuse）的作品名。"""
-    profile = conception.get("canon_reference_profile") or {}
-    materials = profile.get("user_reference_materials") if isinstance(profile, dict) else None
-    return [str(m["work"]) for m in materials or []
-            if isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" and m.get("work")]
-
-
-def _same_work(a: str, b: str) -> bool:
-    a, b = a.strip(), b.strip()
-    return bool(a and b) and (a in b or b in a)
-
-
-def checked_exemplar(raw: str, authorized: list[str]) -> str:
-    """要查重合的范文原文：作者授权复用的那几部作品的窗口不查，其余窗口照查。"""
-    kept = []
-    for attrs, body in WINDOW_WITH_ATTRS.findall(raw):
-        novel = NOVEL_ATTR.search(attrs)
-        if novel and any(_same_work(novel.group(1), work) for work in authorized):
-            continue
-        kept.append(body)
-    return "\n".join(kept)
-
-
-def _character_names(shortform: Path) -> list[str]:
-    chars = _load_yaml(shortform / "characters.yaml").get("characters") or []
-    return [c["name"] for c in chars if isinstance(c, dict) and isinstance(c.get("name"), str)]
-
-
-def overlap_problems(text: str, shortform: Path, conception: dict) -> list[str]:
-    brief = shortform / "writer_brief.md"
-    raw = brief.read_text(encoding="utf-8") if brief.exists() else ""
-    exemplar = checked_exemplar(raw, authorized_works(conception))
-    if not exemplar.strip():  # 没有简报、简报无范文，或范文全是授权复用的作品
-        return []
-    result = reuse_overlap.measure(text, exemplar, _character_names(shortform))
-    if not result.violated:
-        return []
-    unit = result.unit
-    problems = [f"与范文最长连续重合 {result.longest} {unit}（上限 {reuse_overlap.MAX_COMMON_RUN}），"
-                f"≥{reuse_overlap.FRAGMENT_MIN}{unit}的共同片段覆盖正文 {result.coverage:.2%}"
-                f"（上限 {reuse_overlap.MAX_FRAGMENT_COVERAGE:.0%}）"]
-    problems += [f"{span['line']}: 与范文连续重合 {span['length']} {unit}：{span['text']}"
-                 for span in result.spans[:10]]
-    return problems
-
-
 def length_problems(text: str, conception: dict) -> list[str]:
     target = conception.get("target_length")
     if not isinstance(target, int) or isinstance(target, bool) or target <= 0:
@@ -167,7 +114,6 @@ def check(story: Path) -> list[str]:
     sections = [
         ("格式", format_problems(text)),
         ("设计用词", token_problems(text)),
-        ("范文重合", overlap_problems(text, shortform, conception)),
         ("字数", length_problems(text, conception)),
     ]
     out = []
@@ -194,7 +140,7 @@ def main(argv: list[str] | None = None) -> int:
     print("[shortform-story] 正文需修改（位置为 文件:行号）：", file=sys.stderr)
     for problem in problems:
         print(problem, file=sys.stderr)
-    print("设计用词换成作品内的说法；与范文重合处改用自己的句子，只学口吻；格式问题删去非作品文本。", file=sys.stderr)
+    print("设计用词换成作品内的说法；格式问题删去非作品文本。", file=sys.stderr)
     return 2
 
 

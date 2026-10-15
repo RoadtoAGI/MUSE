@@ -189,8 +189,9 @@ def test_reuse_exception_and_retrieval_args(tmp_path):
     work = _run(tmp_path, reuse=True)
     awb.assemble_shortform(work)
     brief = _brief(work)
-    assert "下面列出的作者授权来源除外" in brief
-    assert "作者授权复用《狂病》的原文；其他作品照上面的限制。" in brief
+    instruction = brief.split("## 指令")[1]
+    assert "越像范文越好" in instruction and "合适就直接用" in instruction and "一律不用" not in instruction
+    assert "作者要求尽量复用《狂病》的原文。" in instruction
     args = awb.retrieval_args(work)
     assert "--lang zh --original-only --person first --budget-chars 6000 --render exemplar --shortform-pack" in args
     assert "--canon-reference-profile" in args
@@ -207,8 +208,9 @@ def test_reuse_scope_names_work_uses_and_avoided_domains(tmp_path):
             {"work": "红楼梦", "stance": "prefer", "reuse_mode": "style_only"}]})
     awb.assemble_shortform(work)
     brief = _brief(work)
-    assert "作者授权复用《遮天》的原文，用于世界规则、主角原型，不用于揭示结构" in brief
-    assert "《红楼梦》" not in brief.split("## 指令")[1]
+    instruction = brief.split("## 指令")[1]
+    assert "作者要求尽量复用《遮天》的原文，用于世界规则、主角原型，不用于揭示结构。" in instruction
+    assert "《红楼梦》作者定为只借文风。" in instruction
 
 
 def test_instruction_sets_punctuation_by_language_and_navigation_is_attached(tmp_path):

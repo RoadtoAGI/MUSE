@@ -35,12 +35,12 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import craft_entries  # noqa: E402
-from reuse_overlap import WINDOW_RE  # noqa: E402
 from validate_shortform_contract import brief_units  # noqa: E402
 
 RULES_PATH = Path(__file__).resolve().parent / "brief_rules.yaml"
 REVIEW_RE = re.compile(r"^short_story_review\.r(\d+)\.yaml$")
 EXEMPLAR_EMPTY_RE = re.compile(r"^results:\s*0\s*—\s*(.+)$", re.M)
+WINDOW_RE = re.compile(r"<exemplar_window\b[^>]*>\n?(.*?)</exemplar_window>", re.S)
 PERSON_LABEL = {"first": "第一人称", "third": "第三人称"}
 # 投影用的连接词随交付语言，避免英文设计文字夹中文连接词
 LABELS = {
@@ -305,20 +305,17 @@ def section_navigation() -> str:
     return "\n\n".join(blocks)
 
 
-def authorized_sources(conception: dict) -> list[dict]:
-    """作者授权复用原文的来源：作品名、允许的用途，以及作品级不用的领域。"""
+def author_sources(conception: dict) -> list[dict]:
+    """作者在 canon_reference_profile 里写了复用方式的来源：作品名、方式（maximize_apt_reuse 或
+    style_only）、用途领域，以及作品级不用的领域。"""
     profile = conception.get("canon_reference_profile")
     if not isinstance(profile, dict):
         return []
     avoid = [d for d in profile.get("avoid_domains") or [] if isinstance(d, str)]
-    return [{"work": str(m["work"]), "domains": [d for d in m.get("intended_domains") or [] if isinstance(d, str)],
-             "avoid": avoid}
+    return [{"work": str(m["work"]), "mode": m["reuse_mode"],
+             "domains": [d for d in m.get("intended_domains") or [] if isinstance(d, str)], "avoid": avoid}
             for m in profile.get("user_reference_materials") or []
-            if isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" and m.get("work")]
-
-
-def reuse_authorized(conception: dict) -> bool:
-    return bool(authorized_sources(conception))
+            if isinstance(m, dict) and m.get("reuse_mode") in ("maximize_apt_reuse", "style_only") and m.get("work")]
 
 
 def _domains(codes: list[str]) -> str:
@@ -330,18 +327,18 @@ def section_instruction(has_exemplar: bool, usage: str | None, has_full: bool,
     lines = ["写全文。只读本简报，写到工作目录根部 story.md。"]
     if has_exemplar:
         lines.append("用“范文”一节的口吻写：句子长短、用词、对白的节奏与归属方式、叙述者与人物说话的距离都跟范文走；"
-                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外；"
-                     "范文的人物、情节、专名和连续原句一律不用，下面列出的作者授权来源除外。" if sources else
-                     "用“范文”一节的口吻写：句子长短、用词、对白的节奏与归属方式、叙述者与人物说话的距离都跟范文走；"
-                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外；"
-                     "范文的人物、情节、专名和连续原句一律不用。")
+                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外。"
+                     "不偏离本篇情节走向和人物设定的前提下，越像范文越好：范文里的原句、专名、人物和情节，合适就直接用。")
         lines.append(f"本篇可以怎样用：{usage.strip() if usage else '见派发。'}")
     else:
         lines.append("本篇无范文，按人物声音与示范句写。")
     for source in sources or []:
+        if source["mode"] == "style_only":
+            lines.append(f"《{source['work']}》作者定为只借文风。")
+            continue
         scope = f"，用于{_domains(source['domains'])}" if source["domains"] else ""
         avoid = f"，不用于{_domains(source['avoid'])}" if source["avoid"] else ""
-        lines.append(f"作者授权复用《{source['work']}》的原文{scope}{avoid}；其他作品照上面的限制。")
+        lines.append(f"作者要求尽量复用《{source['work']}》的原文{scope}{avoid}。")
     if has_full:
         lines.append("条目注明“全文”的，动笔前读那一处。")
     return "\n".join(lines)
@@ -374,7 +371,7 @@ def assemble_shortform(work_dir: Path, *, usage: str | None = None, exemplar_pat
         "范文": "\n\n".join(windows) if windows else f"本篇无范文：{none_reason}",
         "手法导航": section_navigation(),
         "条目": entries_text,
-        "指令": section_instruction(bool(windows), usage, has_full, authorized_sources(conception)),
+        "指令": section_instruction(bool(windows), usage, has_full, author_sources(conception)),
     }
     brief = "# 写作简报\n\n" + "\n\n".join(f"## {name}\n\n{sections[name]}" for name in SECTIONS) + "\n"
     (shortform / "writer_brief.md").write_text(brief, encoding="utf-8")

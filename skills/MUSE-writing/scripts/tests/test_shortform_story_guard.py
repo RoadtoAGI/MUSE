@@ -1,4 +1,4 @@
-"""reuse_overlap.py、shortform_story_guard.py 与 check-design-token-leak.sh 的短链正文分派。"""
+"""shortform_story_guard.py 与 check-design-token-leak.sh 的短链正文分派。"""
 from __future__ import annotations
 
 import json
@@ -9,7 +9,6 @@ from pathlib import Path
 import pytest
 import yaml
 
-import reuse_overlap
 import shortform_story_guard as guard
 
 HOOK = Path(__file__).resolve().parents[2] / "hooks" / "check-design-token-leak.sh"
@@ -25,16 +24,12 @@ CLEAN = (
 ) * 20
 
 
-def _run_dir(tmp_path: Path, story: str, *, target: int | None = None, reuse: bool | str = False) -> Path:
+def _run_dir(tmp_path: Path, story: str, *, target: int | None = None) -> Path:
     work = tmp_path / "run"
     shortform = work / "pipeline" / "shortform"
     shortform.mkdir(parents=True)
     conception = {"premise": "末世程序员逐层搜食物", "core_value": "求生↔体面", "genre": "末世",
                   "target_length": target or guard.count_units(story)[0], "narration_person": "third"}
-    if reuse:
-        conception["canon_reference_profile"] = {"user_reference_materials": [
-            {"work": reuse if isinstance(reuse, str) else "白鹿原", "stance": "prefer",
-             "reuse_mode": "maximize_apt_reuse"}]}
     (shortform / "conception.yaml").write_text(yaml.safe_dump(conception, allow_unicode=True), encoding="utf-8")
     (shortform / "characters.yaml").write_text(
         yaml.safe_dump({"characters": [{"id": "xu-cheng", "name": "许诚"}]}, allow_unicode=True), encoding="utf-8")
@@ -49,37 +44,6 @@ def _hook(path: Path) -> subprocess.CompletedProcess:
     payload = json.dumps({"tool_name": "Write", "tool_input": {"file_path": str(path)}})
     env = {**os.environ, "CLAUDE_PLUGIN_ROOT": str(PLUGIN_ROOT)}
     return subprocess.run(["bash", str(HOOK)], input=payload, capture_output=True, text=True, env=env)
-
-
-# ---- reuse_overlap ----
-
-def test_overlap_measures_longest_run_and_coverage():
-    draft = "他想了想。" + EXEMPLAR[:20] + "然后转身出门。" * 30
-    result = reuse_overlap.measure(draft, EXEMPLAR)
-    assert result.longest == 19  # 前 20 字去掉一个句号
-    assert result.violated
-    assert result.spans and result.spans[0]["line"] == 1
-
-
-def test_overlap_ignores_punctuation_and_allows_names():
-    draft = "鹿三，早早起来了！" + "他转身出门。" * 50
-    assert reuse_overlap.measure(draft, EXEMPLAR).longest < reuse_overlap.FRAGMENT_MIN
-    exemplar = "白嘉轩拄着一根棍子走向银白的田野"
-    copied = "白嘉轩拄着一根棍子走向银白的田野"
-    assert reuse_overlap.measure(copied, exemplar).violated
-    assert not reuse_overlap.measure(copied, exemplar, ["白嘉轩", "银白的田野"]).violated
-
-
-def test_overlap_english_counts_words():
-    exemplar = "He sat in the living room trying to read and the music of Schonberg was playing loudly."
-    draft = "She came home late. He sat in the living room trying to read and the music of Schonberg played."
-    result = reuse_overlap.measure(draft, exemplar)
-    assert result.unit == "词" and result.longest == 14
-
-
-def test_overlap_reads_only_exemplar_windows():
-    raw = "## 指令\n不要抄写。\n<exemplar_window novel=\"甲\" scene=\"S1\">\n窗口原文\n</exemplar_window>\n"
-    assert reuse_overlap.exemplar_text(raw).strip() == "窗口原文"
 
 
 # ---- guard ----
@@ -101,21 +65,10 @@ def test_guard_ordinary_words_pass(tmp_path):
     assert guard.check(work / "story.md") == []
 
 
-def test_guard_flags_copied_exemplar(tmp_path):
-    work = _run_dir(tmp_path, CLEAN + EXEMPLAR[:16] + "他想。\n")
-    problems = guard.check(work / "story.md")
-    assert any("[范文重合]" in p for p in problems)
-
-
-def test_guard_skips_overlap_when_author_authorized_reuse(tmp_path):
-    work = _run_dir(tmp_path, CLEAN + EXEMPLAR + "\n", reuse=True)
-    assert not any("[范文重合]" in p for p in guard.check(work / "story.md"))
-
-
-def test_reuse_authorization_only_covers_that_work(tmp_path):
-    # 授权复用《红楼梦》，抄的却是《白鹿原》的窗口：照查
-    work = _run_dir(tmp_path, CLEAN + EXEMPLAR + "\n", reuse="红楼梦")
-    assert any("[范文重合]" in p for p in guard.check(work / "story.md"))
+def test_guard_allows_text_taken_from_exemplar(tmp_path):
+    # 情节走向与人设一致时越像范文越好；用了范文原句不拦，交审阅判断
+    work = _run_dir(tmp_path, CLEAN + EXEMPLAR + "\n")
+    assert guard.check(work / "story.md") == []
 
 
 @pytest.mark.parametrize("line", ["这些话他想说但不会直说，等父亲关上门，才把信递给姐姐。",
@@ -146,17 +99,16 @@ def test_guard_format(tmp_path):
     assert any("frontmatter" in p for p in problems) and any("HTML 注释" in p for p in problems)
 
 
-# ---- hook 分派（计划 2-1 的三个夹具）----
+# ---- hook 分派 ----
 
-def test_hook_exit_codes_for_three_fixtures(tmp_path):
+def test_hook_exit_codes(tmp_path):
     leak = _run_dir(tmp_path / "leak", CLEAN + "spine_statement：活下去。\n")
-    copied = _run_dir(tmp_path / "copied", CLEAN + EXEMPLAR[:14] + "\n")  # 去标点后连续 13 字
+    borrowed = _run_dir(tmp_path / "borrowed", CLEAN + EXEMPLAR + "\n")
     clean = _run_dir(tmp_path / "clean", CLEAN)
 
     r = _hook(leak / "story.md")
     assert r.returncode == 2 and "story.md:41:" in r.stderr and "spine_statement" in r.stderr
-    r = _hook(copied / "story.md")
-    assert r.returncode == 2 and "与范文连续重合 13 字" in r.stderr
+    assert _hook(borrowed / "story.md").returncode == 0
     assert _hook(clean / "story.md").returncode == 0
 
 
