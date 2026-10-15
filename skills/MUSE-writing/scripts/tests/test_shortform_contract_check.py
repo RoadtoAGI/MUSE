@@ -35,6 +35,7 @@ def _valid_conception() -> dict:
         "genre": "乡土奇谭",
         "target_length": 6000,
         "narration_person": "third",
+        "language": "zh",
         "requirements": ["至少包含一段完整对话", "结尾必须开放"],
     }
 
@@ -439,6 +440,19 @@ def test_conception_requires_narration_person(tmp_path):
     data["narration_person"] = "second"
     p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
     assert any("first 或 third" in e for e in validate_file(p))
+
+
+def test_conception_requires_delivery_language(tmp_path):
+    data = _valid_conception()
+    del data["language"]
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("`language`" in e for e in validate_file(p))
+    data["language"] = "中文"
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("两字母" in e for e in validate_file(p))
+    data["language"] = "en"
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert validate_file(p) == []
 
 
 def test_conception_brief_cap_excludes_requirements(tmp_path):

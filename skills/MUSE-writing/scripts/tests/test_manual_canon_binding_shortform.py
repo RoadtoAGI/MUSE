@@ -18,6 +18,7 @@ def _conception() -> dict:
         "genre": "末世",
         "target_length": 8000,
         "narration_person": "third",
+        "language": "zh",
     }
 
 

@@ -30,6 +30,7 @@ def _run(tmp_path: Path, *, exemplar_chars: int | None = 1200, reuse: bool = Fal
     conception = {
         "premise": "末世第三个月，程序员许诚逐层搜一栋废弃写字楼找吃的",
         "core_value": "体面↔求生", "genre": "末世", "target_length": 3000, "narration_person": "first",
+        "language": "zh",
         "style_directives": ["口语独白，像在跟熟人说话"],
         "requirements": requirements if requirements is not None else ["主角必须是程序员", "结尾停在天台"],
     }
@@ -216,3 +217,33 @@ def test_review_schema_accepts_subkind_and_register_dimension():
     report["findings"].append(_finding("冲突", "stock_speech_tag"))
     errors = vsrc._validate_report_schema(report, "r1")
     assert any("made_up_kind" in e for e in errors) and any("只用于 文本质量" in e for e in errors)
+
+
+def _set_conception(work: Path, **changes) -> None:
+    path = work / "pipeline/shortform/conception.yaml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    for key, value in changes.items():
+        if value is None:
+            data.pop(key, None)
+        else:
+            data[key] = value
+    _dump(path, data)
+
+
+def test_delivery_language_comes_from_conception_not_text(tmp_path):
+    # 中文设计、英文交付：检索语言与简报连接词跟 language 走
+    work = _run(tmp_path)
+    _set_conception(work, language="en")
+    assert awb.retrieval_args(work).startswith("--lang en ")
+    awb.assemble_shortform(work)
+    assert "Narration: first person" in _brief(work)
+    assert _meta(work)["language"] == "en" and "warnings" not in _meta(work)
+
+
+def test_old_conception_without_language_is_inferred_with_warning(tmp_path):
+    work = _run(tmp_path)
+    _set_conception(work, language=None)
+    awb.assemble_shortform(work)
+    meta = _meta(work)
+    assert meta["language"] == "zh"
+    assert any("缺 language" in w for w in meta["warnings"])

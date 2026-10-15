@@ -34,11 +34,15 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 记 `first` 或 `third`：叙述者是故事里的“我”写 first，其余写 third，紧贴人物的第三人称也写 third。用户指定时照用，未指定时按本篇主要经验选择。成稿前按它过滤范文的人称；大纲的 `pov` 只写人物 id，分不出这两种。
 
-### 6. 提取硬约束（requirements，条件字段）
+### 6. 确定交付语言（language）
+
+记正文用什么语言写，两字母代码，如 `zh`、`en`。用户写明时照用；没写时取用户需求本身的语言。设计文档用什么语言写不影响它：用中文讨论、交付英文正文时记 `en`。范文按它取同语言原作。
+
+### 7. 提取硬约束（requirements，条件字段）
 
 用户需求中包含显式枚举或硬约束（如"至少要有一段对话"、"必须包含 X 场景"）时，提取为紧凑的单句列表——short-composer 逐条落实，终验 gate 逐项核销。**仅显式硬约束入列**，模糊的偏好（如"希望感人一点"）不算。
 
-### 7. 收纳素材、风格指令与手选名著（条件字段）
+### 8. 收纳素材、风格指令与手选名著（条件字段）
 
 - **`reference_materials`**：用户附带背景素材（历史资料、领域知识、技法要点）时原文收纳有创作价值的部分——保留事实、来源与未定内容的区别。没有则不生成。
 - **`style_directives`**：用户有作品层面风格要求（如"现实主义细节描摹"）时逐条收入。没有则不生成。
@@ -58,6 +62,7 @@ core_value: 核心价值轴（如 正义↔不公）    # 必填
 genre: 类型                             # 必填
 target_length: 8000                     # 示例；按本次目标填写
 narration_person: third                 # 必填，first | third
+language: zh                            # 必填，正文的交付语言
 style_directives:                       # 可选 list[str]
   - 作品级风格指令
 requirements:                           # 可选 list[str]，显式硬约束逐条单句
@@ -79,7 +84,7 @@ canon_reference_profile:                # 可选；与完整链共用字段语�
 
 - premise 提供具体情境，能够展开人物、事件或观察
 - core_value 能组织本篇的主要经验
-- narration_person 与本篇叙述者一致
+- narration_person 与本篇叙述者一致；language 是正文的语言，不是设计文档的语言
 - requirements 里每条都能在终稿中被指认（可核销）
 - 用户素材有创作价值的具体细节已进 reference_materials，而不是靠记忆携带
 - 手选名著的用途已落入 intended_domains；未从单一作品外推题材专属规则

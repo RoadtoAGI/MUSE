@@ -77,10 +77,19 @@ def _end(text: str, english: bool = False) -> str:
     return text + (". " if english else "。")
 
 
-def is_english(conception: dict) -> bool:
+def delivery_language(conception: dict) -> tuple[str, bool]:
+    """返回 (交付语言, 是否由文字推断)。以 conception 的 language 为准：中文讨论、英文交付是常态，
+    按设计文字的语种推断会取到中文范文。只有缺字段的旧构想才推断，并在 meta 里记警告。"""
+    lang = conception.get("language")
+    if isinstance(lang, str) and re.fullmatch(r"[a-z]{2}", lang):
+        return lang, False
     text = " ".join(str(conception.get(k) or "") for k in ("premise", "core_value"))
     text += " ".join(map(str, conception.get("requirements") or []))
-    return len(re.findall(r"[A-Za-z]+", text)) > len(re.findall(r"[㐀-鿿]", text))
+    return ("en" if len(re.findall(r"[A-Za-z]+", text)) > len(re.findall(r"[㐀-鿿]", text)) else "zh"), True
+
+
+def is_english(conception: dict) -> bool:
+    return delivery_language(conception)[0] == "en"
 
 
 # ---------- 各节 ----------
@@ -339,6 +348,11 @@ def assemble_shortform(work_dir: Path, *, usage: str | None = None, exemplar_pat
             f"作者要求 {counts['作者要求']} 字不裁")
     if conception.get("narration_person") not in PERSON_LABEL:
         meta["warnings"] = ["conception 缺 narration_person（旧构想）；取范文时 --person 需主控判断"]
+    lang, inferred = delivery_language(conception)
+    meta["language"] = lang
+    if inferred:
+        meta.setdefault("warnings", []).append(
+            f"conception 缺 language（旧构想），交付语言按设计文字推断为 {lang}；作者要求另有说明时以要求为准")
     if counts["指令"] > rules["instruction_cap"]:
         meta.setdefault("warnings", []).append(f"指令节 {counts['指令']} 字，超过 {rules['instruction_cap']}")
     (shortform / "brief_meta.yaml").write_text(
@@ -359,7 +373,10 @@ def retrieval_args(work_dir: Path) -> str:
     conception = _load(shortform / "conception.yaml")
     if not isinstance(conception, dict):
         raise ValueError("pipeline/shortform/conception.yaml 缺失或不可解析")
-    args = ["--lang", "en" if is_english(conception) else "zh"]
+    lang, inferred = delivery_language(conception)
+    if inferred:
+        print(f"[brief] conception 缺 language，交付语言按设计文字推断为 {lang}；请在构想里写明", file=sys.stderr)
+    args = ["--lang", lang]
     if rules.get("original_only"):
         args.append("--original-only")
     person = conception.get(rules.get("person_from", "narration_person"))

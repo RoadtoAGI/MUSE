@@ -43,8 +43,9 @@ BANNED_KEYS = {
     "voice_gear",
 }
 
-CONCEPTION_REQUIRED = {"premise", "core_value", "genre", "target_length", "narration_person"}
+CONCEPTION_REQUIRED = {"premise", "core_value", "genre", "target_length", "narration_person", "language"}
 NARRATION_PERSONS = {"first", "third"}
+LANGUAGE_RE = re.compile(r"^[a-z]{2}$")  # 交付语言，两字母代码，如 zh、en
 CONCEPTION_ALLOWED = CONCEPTION_REQUIRED | {
     "style_directives",
     "requirements",
@@ -178,6 +179,10 @@ def validate_conception(data: dict) -> list[str]:
         errors.append("conception: 缺必填字段 `narration_person`（first | third）")
     elif data["narration_person"] not in NARRATION_PERSONS:
         errors.append(f"conception: `narration_person`={data['narration_person']!r} 必须是 first 或 third")
+    if "language" not in data:
+        errors.append("conception: 缺必填字段 `language`（正文的交付语言，如 zh、en）")
+    elif not isinstance(data["language"], str) or not LANGUAGE_RE.match(data["language"]):
+        errors.append(f"conception: `language`={data['language']!r} 须为两字母小写语言代码，如 zh、en")
     _check_brief_cap(brief_units(*(data.get(k) for k in CONCEPTION_BRIEF_FIELDS)), CONCEPTION_BRIEF_CAP,
                      "conception", "premise、core_value 与 style_directives ", errors)
     if "target_length" not in data:
