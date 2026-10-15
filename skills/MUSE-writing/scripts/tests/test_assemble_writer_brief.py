@@ -109,6 +109,24 @@ def test_projection_has_no_field_names(tmp_path):
     assert "与老周：前同事，欠他一顿饭" in _brief(work)
 
 
+def test_events_keep_task_and_handoff_lines_verbatim(tmp_path):
+    # task 与 handoff 承载一致性事实（谁知道什么、数字、物件去向、时间）：逐行原样进简报，各起一行
+    work = _run(tmp_path)
+    path = work / "pipeline/shortform/outline.yaml"
+    outline = yaml.safe_load(path.read_text(encoding="utf-8"))
+    task = "老周不知道许诚拿走了饼干。\n饼干原有三包，许诚吃掉一包半\n- 天黑前回到十二层"
+    handoff = "剩下的半包装进左边口袋；老周第二天才发现柜子空了"
+    outline["scenes"][0].update(task=task, handoff=handoff)
+    _dump(path, outline)
+    awb.assemble_shortform(work)
+    events = _brief(work).split("## 事件")[1].split("## 范文")[0].strip().splitlines()
+    assert events[0].startswith("- S01｜") and all(line.startswith("  ") for line in events[1:])
+    body = [line.strip() for line in events[1:]]
+    for line in task.splitlines():
+        assert any(b.startswith(line) for b in body)
+    assert any(b.startswith("后文承接：" + handoff) for b in body)
+
+
 def test_meta_counts_and_flags(tmp_path):
     work = _run(tmp_path, exemplar_chars=1200)
     awb.assemble_shortform(work)

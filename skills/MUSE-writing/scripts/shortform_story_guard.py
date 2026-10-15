@@ -2,13 +2,13 @@
 """短篇正文写入后的守卫（设计 §3.6、§6、§10.2），由 hooks/check-design-token-leak.sh 分派。
 
 只检查短链正文：工作目录根部的 story.md，且同目录有 pipeline/shortform/conception.yaml。
-三项，任一不满足 exit 2 并逐条给出位置，写作者在同一会话修改：
+两项，任一不满足 exit 2 并逐条给出位置，写作者在同一会话修改：
 
 1. 格式：无 YAML frontmatter、无 HTML 注释。
 2. 设计用词泄漏：大纲与构想字段名、设计标记、排练标题、场景卡投影标签、灵感账 ID、YAML 键行。
-3. 字数：超出 conception.target_length ±30% 才拦；更小的偏差不拦，字数是软约束。
 
-正文与范文像不像不在这里查：情节走向与人设一致时越像范文越好，由审阅判断。
+字数只打印全文字数与 conception 的 target_length，不拦：用户给的字数要求在 requirements 里，
+由审阅核销。正文与范文像不像也不在这里查，由审阅判断。
 
 用法::
 
@@ -25,7 +25,6 @@ from pathlib import Path
 
 import yaml
 
-LENGTH_TOLERANCE = 0.30
 HAN = re.compile(r"[㐀-鿿豈-﫿]")
 EN_WORD = re.compile(r"[A-Za-z0-9]+(?:'[A-Za-z]+)?")
 
@@ -95,32 +94,17 @@ def token_problems(text: str) -> list[str]:
     return problems
 
 
-def length_problems(text: str, conception: dict) -> list[str]:
-    target = conception.get("target_length")
-    if not isinstance(target, int) or isinstance(target, bool) or target <= 0:
-        return []
-    count, unit = count_units(text)
-    low, high = round(target * (1 - LENGTH_TOLERANCE)), round(target * (1 + LENGTH_TOLERANCE))
-    if low <= count <= high:
-        return []
-    return [f"全文 {count} {unit}，target_length {target} 的 ±30% 是 {low}–{high}；"
-            "仍在续写时写完再看，写完仍不在区间时按全文需要增删"]
+def length_line(story: Path) -> str:
+    """全文字数与构想的 target_length，只供对照。"""
+    count, unit = count_units(story.read_text(encoding="utf-8"))
+    target = _load_yaml(story.parent / "pipeline" / "shortform" / "conception.yaml").get("target_length")
+    return f"[字数] 全文 {count} {unit}" + (f"，target_length {target}" if target else "")
 
 
 def check(story: Path) -> list[str]:
-    shortform = story.parent / "pipeline" / "shortform"
-    conception = _load_yaml(shortform / "conception.yaml")
     text = story.read_text(encoding="utf-8")
-    sections = [
-        ("格式", format_problems(text)),
-        ("设计用词", token_problems(text)),
-        ("字数", length_problems(text, conception)),
-    ]
-    out = []
-    for name, problems in sections:
-        for problem in problems:
-            out.append(f"[{name}] {story}:{problem}" if re.match(r"\d+:", problem) else f"[{name}] {problem}")
-    return out
+    sections = [("格式", format_problems(text)), ("设计用词", token_problems(text))]
+    return [f"[{name}] {story}:{problem}" for name, problems in sections for problem in problems]
 
 
 def in_scope(story: Path) -> bool:
@@ -134,6 +118,7 @@ def main(argv: list[str] | None = None) -> int:
     story = args.story
     if not story.is_file() or not in_scope(story):
         return 0
+    print(length_line(story))
     problems = check(story)
     if not problems:
         return 0

@@ -5,7 +5,8 @@
 
 - writer_brief.md：简报。各节依次为 作者要求 → 构想 → 人物 → 事件 → 范文 → 手法导航 → 条目 → 指令。
   作者要求（requirements 全部条目与 reference_materials）原样进入，不计上限、不裁；
-  构想、人物、事件的字数上限由 validate_shortform_contract.py 在设计阶段卡住，装配时不裁。
+  构想、人物、事件按设计文字投影，装配时不裁。事件节的 task 与 handoff 承载一致性事实（谁知道什么、
+  数字、物件去向、时间），逐行保留原文，各占一行，不与其他字段并句。
 - brief_meta.yaml：各节字数、范文占比，以及 exemplar_short / exemplar: none / facts_over_budget 标记。
   只记录，不拦派发。
 - disclosure_state.yaml：审阅解锁的条目。每次运行从 pipeline/shortform/review/ 的审阅文件重算，
@@ -171,10 +172,13 @@ def adopted_mechanisms(shortform: Path) -> dict[str, str]:
 
 def section_events(scenes: list[dict], names: dict[str, str], english: bool = False,
                    mechanisms: dict[str, str] | None = None) -> str:
+    """每场一条：首行场次、时地与视角，其下冲突与起止状态、task、handoff、借用机制各起一行，
+    多行的值逐行保留。"""
     lab = LABELS["en" if english else "zh"]
     mechanisms = mechanisms or {}
     sep = ", " if english else "、"
-    lines: list[str] = []
+    joiner = " " if english else ""
+    blocks: list[str] = []
     for scene in scenes:
         if not isinstance(scene, dict):
             continue
@@ -183,19 +187,20 @@ def section_events(scenes: list[dict], names: dict[str, str], english: bool = Fa
         present = sep.join(names.get(p, p) for p in scene.get("participants") or [])
         head = f"{scene.get('scene_id', '')}｜{scene.get('location_time', '')}｜" + lab["pov"].format(
             viewer=viewer, present=present)
-        body = [_end(scene.get("conflict", ""), english)]
+        situation = [_end(scene.get("conflict", ""), english)]
         if scene.get("value_start") or scene.get("value_end"):
-            body.append(_end(lab["arc"].format(start=str(scene.get("value_start", "")).rstrip("。. "),
-                                               end=str(scene.get("value_end", "")).rstrip("。. ")), english))
-        body.append(_end(scene.get("task", ""), english))
+            situation.append(_end(lab["arc"].format(start=str(scene.get("value_start", "")).rstrip("。. "),
+                                                    end=str(scene.get("value_end", "")).rstrip("。. ")), english))
+        items = [joiner.join(s.strip() for s in situation if s.strip()), _end(scene.get("task", ""), english)]
         if scene.get("handoff"):
-            body.append(_end(lab["handoff"].format(text=scene["handoff"]), english))
+            items.append(_end(lab["handoff"].format(text=scene["handoff"]), english))
         for ref in scene.get("inspiration_refs") or []:
             if mechanisms.get(ref):
-                body.append(_end(lab["borrowed"].format(text=mechanisms[ref]), english))
-        joiner = " " if english else ""
-        lines.append(f"- {head}{joiner.join(b.strip() for b in body if b)}".rstrip())
-    return "\n".join(lines)
+                items.append(_end(lab["borrowed"].format(text=mechanisms[ref]), english))
+        lines = [f"- {head}".rstrip()]
+        lines += [f"  {line.strip()}" for item in items for line in item.splitlines() if line.strip()]
+        blocks.append("\n".join(lines))
+    return "\n".join(blocks)
 
 
 def read_exemplar(path: Path) -> tuple[list[str], str | None]:

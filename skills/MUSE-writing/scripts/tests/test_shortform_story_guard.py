@@ -86,11 +86,14 @@ def test_guard_flags_rehearsal_headings_and_key_lines(tmp_path, line):
     assert any("[设计用词]" in p for p in guard.check(work / "story.md"))
 
 
-def test_guard_length_only_outside_thirty_percent(tmp_path):
+def test_guard_prints_length_without_blocking(tmp_path, capsys):
+    # 字数只打印：用户给的字数要求在 requirements 里，由审阅核销
     units = guard.count_units(CLEAN)[0]
-    assert guard.check(_run_dir(tmp_path / "a", CLEAN, target=int(units * 1.25)) / "story.md") == []
-    problems = guard.check(_run_dir(tmp_path / "b", CLEAN, target=units * 2) / "story.md")
-    assert any("[字数]" in p for p in problems)
+    target = round(units / 1.4)  # 正文超出 target_length 40%
+    story = _run_dir(tmp_path, CLEAN, target=target) / "story.md"
+    assert guard.check(story) == []
+    assert guard.main(["--story", str(story)]) == 0
+    assert f"[字数] 全文 {units} 字，target_length {target}" in capsys.readouterr().out
 
 
 def test_guard_format(tmp_path):
@@ -109,7 +112,8 @@ def test_hook_exit_codes(tmp_path):
     r = _hook(leak / "story.md")
     assert r.returncode == 2 and "story.md:41:" in r.stderr and "spine_statement" in r.stderr
     assert _hook(borrowed / "story.md").returncode == 0
-    assert _hook(clean / "story.md").returncode == 0
+    r = _hook(clean / "story.md")
+    assert r.returncode == 0 and "[字数] 全文" in r.stdout
 
 
 def test_hook_ignores_story_outside_short_chain(tmp_path):

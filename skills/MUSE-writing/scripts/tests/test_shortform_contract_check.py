@@ -13,7 +13,8 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from validate_shortform_contract import validate_file  # noqa: E402
+from validate_shortform_contract import brief_units, validate_file  # noqa: E402
+from validate_shortform_contract import main as validate_main  # noqa: E402
 
 HOOK = Path(__file__).resolve().parents[2] / "hooks" / "shortform-contract-check.py"
 PLUGIN_ROOT = Path(__file__).resolve().parents[2]
@@ -430,7 +431,7 @@ def test_narrator_position_does_not_require_a_fictional_character(tmp_path):
     assert any("pov" in error for error in validate_file(p))
 
 
-# ---------- 写作简报字段与字数上限（设计 §6）----------
+# ---------- 写作简报字段与字数（设计 §6）----------
 
 def test_conception_requires_narration_person(tmp_path):
     data = _valid_conception()
@@ -455,25 +456,37 @@ def test_conception_requires_delivery_language(tmp_path):
     assert validate_file(p) == []
 
 
-def test_conception_brief_cap_excludes_requirements(tmp_path):
+def _printed_counts(path: Path, capsys) -> str:
+    """CLI 输出里"进入写作简报的字数"一段。"""
+    validate_main([str(path)])
+    out = capsys.readouterr().out
+    assert "进入写作简报的字数" in out
+    return out.split("进入写作简报的字数", 1)[1]
+
+
+def test_conception_brief_length_is_printed_not_checked(tmp_path, capsys):
     data = _valid_conception()
     data["requirements"] = ["很长的硬要求" * 200]
     data["reference_materials"] = "用户素材" * 500
+    data["style_directives"] = ["风格指令写得很长" * 60]
     p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
     assert validate_file(p) == []
-    data["style_directives"] = ["风格指令写得太长" * 60]
-    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
-    assert any("上限 400" in e for e in validate_file(p))
+    counts = _printed_counts(p, capsys)
+    expected = brief_units(data["premise"], data["core_value"], data["style_directives"])
+    assert f"premise、core_value 与 style_directives：{expected}" in counts  # requirements 与素材不计
 
 
-def test_voice_samples_required_with_voice_and_three_to_five(tmp_path):
+def test_voiced_character_without_samples_passes(tmp_path, capsys):
     data = _valid_characters()
     del data["characters"][1]["voice_samples"]
+    data["characters"][0]["voice_samples"] = ["水涨了，不渡。"]  # 句数由人物戏份定
     p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
-    assert any("voice_samples" in e for e in validate_file(p))
-    data["characters"][1]["voice_samples"] = ["一句。", "两句。"]
+    assert validate_file(p) == []
+    counts = _printed_counts(p, capsys)
+    assert "守渡人：" in counts and "过客：" in counts
+    data["characters"][0]["voice_samples"] = ["一句。", ""]
     p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
-    assert any("3–5" in e for e in validate_file(p))
+    assert any("voice_samples[1]" in e for e in validate_file(p))
 
 
 def test_functional_character_without_voice_needs_no_samples(tmp_path):
@@ -483,26 +496,24 @@ def test_functional_character_without_voice_needs_no_samples(tmp_path):
     assert validate_file(p) == []
 
 
-def test_character_brief_cap(tmp_path):
-    data = _valid_characters()
-    data["characters"][0]["pressure"] = "规矩开始要求他放走该拦的人" * 25
-    p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
-    assert any("characters[0]" in e and "上限 300" in e for e in validate_file(p))
-
-
-def test_outline_scene_brief_cap(tmp_path):
+def test_long_scene_passes_and_each_scene_count_is_printed(tmp_path, capsys):
     shortform = tmp_path / "pipeline" / "shortform"
     _write(shortform, "characters.yaml", _valid_characters())
     data = _valid_outline()
-    data["scenes"][0]["task"] = "让守渡人在拒绝中露出动摇" * 15
+    data["scenes"][0]["task"] = "让守渡人在拒绝中露出动摇，过客说出三年前渡口淹死的人数" * 6
     p = _write(shortform, "outline.yaml", data)
-    errors = validate_file(p)
-    assert any("scenes[0]" in e and "上限 150" in e for e in errors)
-    assert not any("scenes[1]" in e for e in errors)
+    assert validate_file(p) == []
+    counts = _printed_counts(p, capsys)
+    scene = data["scenes"][0]
+    expected = brief_units(*(scene.get(k) for k in
+                             ("location_time", "conflict", "value_start", "value_end", "task", "handoff")))
+    assert expected > 150 and f"S01：{expected}" in counts and "S02：" in counts
 
 
-def test_english_brief_cap_counts_words(tmp_path):
+def test_english_counts_words(tmp_path, capsys):
     data = _valid_conception()
     data["premise"] = "A ferryman learns the river rule is killing people. " * 30  # 270 词 ≈ 450 字
     p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
-    assert any("上限 400" in e for e in validate_file(p))
+    assert validate_file(p) == []
+    assert brief_units(data["premise"]) == 450
+    assert "premise、core_value 与 style_directives：" in _printed_counts(p, capsys)

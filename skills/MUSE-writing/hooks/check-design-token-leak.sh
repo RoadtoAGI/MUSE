@@ -4,9 +4,8 @@
 #          以及短链正文：工作目录根部 story.md（同目录有 pipeline/shortform/conception.yaml）
 # 设计文档：docs/Level_3_implementation/pipeline/2026-05-18-单路径协议与hooks增量-plan.md T13
 #
-# 短链正文交 scripts/shortform_story_guard.py：格式、设计用词、
-# 字数（target_length ±30%）。有问题时 exit 2 并给出行号，模型在同一会话修改。
-# 场景文件仍只给提示（exit 0）。
+# 短链正文交 scripts/shortform_story_guard.py：格式与设计用词有问题时 exit 2 并给出行号，
+# 模型在同一会话修改；字数只打印。场景文件仍只给提示（exit 0）。
 #
 # 三组检测：
 #   Group A: 双 marker — [核心]/[灵感]/[惊艳]/[main]/[support]/[atmosphere]
