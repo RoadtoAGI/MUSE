@@ -29,6 +29,28 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 
 短篇需正文参考包时，输出目录改为 `{work_dir}/pipeline/shortform` 并传 --shortform-pack，得到 reference_pack.md。包保留原文及表达所需标注；设计阶段已采用的机制由大纲与 inspiration_ledger 传递。显式采用来源世界时另传 --worldview "作品"，lore 与原文候选分别判断；缺 lore 不意味着当前已采用世界规则失效。
 
+## 写作用范文窗口
+
+写正文或修订前取范文时传 `--render exemplar`。范文窗口是从检索到的名著场景正文里连续截取的段落，不带分析文字，供写作者学口吻，不提供情节。脚本按名次累加窗口，合计达到 `--budget-chars`（默认 4000，英文按 1 汉字约 0.6 词折算）即停，收尾最多超到 1.5 倍；窗口可以来自几部作品，不限数量，同一段原文收在两部作品里时只取一处。文件头四行依次是 query、过滤条件、来源作品与场景、字数，每个窗口前一行写来源；“本场可以怎样用”由主控写进派发，不写进文件。审阅者和设计阶段仍用默认的 `--render full`。
+
+参数从场景卡和 Phase 0 生成，不只按情节写一句话：
+
+| 参数 | 取值 |
+|---|---|
+| `--lang` | 交付语言 |
+| `--original-only` | 默认传，只取原作语言与交付语言相同的作品；库里该语言原作不够时由主控去掉，并在派发记录里写明放宽 |
+| `--person` | 场景卡的叙述方式：紧贴人物的第三人称传 third，第一人称传 first |
+| `--register` | Phase 0 `style_directives` 或人物声音框架里的口语/书面判断：口语传 colloquial，书面传 literary；没有这类判断就不传。英文语域阈值尚未标定，传了也不过滤，头部会写明 |
+| `--query` | 人物处境和场景动作，一句话 |
+| `--genre` | 只在作者限定题材时传 |
+| `--novel` | 同人、续写、改编这类点名原作的任务传原作名，窗口全部取自它；可重复传多部 |
+
+```bash
+python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境与场景动作" --lang zh --original-only --person first --register colloquial   --budget-chars 4000 --render exemplar   --output-dir "{work_dir}/pipeline/references" --scene-id S01
+```
+
+这些过滤都在向量打分之前执行。过滤后没有候选时，文件写 `results: 0` 并写明清空候选的条件，如“register=colloquial 清空候选”；脚本不自动放宽，主控按“无范文”派发，或显式去掉一个条件重查并记录。合计不足预算时 `chars` 行写明不足。
+
 ## 内容消费与交接
 
 读取本次结果，核对来源、原文范围与当前用途，交主控实际有效路径；无适用结果或失败时交“无”。头部 `results: 0` 的文件只是检索记录，不是有效 ref，不得作为路径交给 writer。目录中的旧 ref 不因存在而继续生效。原文不要只用摘要替代；截断使关键反应、条件或结果缺失时读取返回的原文路径，或以 --max-chars 0 取得完整场景。
