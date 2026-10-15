@@ -1,7 +1,12 @@
 #!/bin/bash
 # PostToolUse hook (Edit|Write): 定位可能进入正文的设计 marker / 字段名 / rehearsal 标题
 # 触发 if: Write(*/pipeline/scenes/scene_*.md)|Edit(*/pipeline/scenes/scene_*.md)
+#          以及短链正文：工作目录根部 story.md（同目录有 pipeline/shortform/conception.yaml）
 # 设计文档：docs/Level_3_implementation/pipeline/2026-05-18-单路径协议与hooks增量-plan.md T13
+#
+# 短链正文交 scripts/shortform_story_guard.py：格式、设计用词、与写作简报范文的连续重合、
+# 字数（target_length ±30%）。有问题时 exit 2 并给出行号，模型在同一会话修改。
+# 场景文件仍只给提示（exit 0）。
 #
 # 三组检测：
 #   Group A: 双 marker — [核心]/[灵感]/[惊艳]/[main]/[support]/[atmosphere]
@@ -18,6 +23,16 @@ FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // empty')
 
 if [ -z "$FILE_PATH" ] || [ ! -f "$FILE_PATH" ]; then
   exit 0
+fi
+
+# 短链正文：exit 2 让模型看到问题并修改
+if [[ "$FILE_PATH" =~ /story\.md$ ]] && [ -f "$(dirname "$FILE_PATH")/pipeline/shortform/conception.yaml" ]; then
+  PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
+  set +e
+  python3 "$PLUGIN_ROOT/scripts/shortform_story_guard.py" --story "$FILE_PATH"
+  rc=$?
+  set -e
+  exit "$rc"
 fi
 
 # 仅匹配 pipeline/scenes/scene_*.md（单路径协议下的正文文件）
