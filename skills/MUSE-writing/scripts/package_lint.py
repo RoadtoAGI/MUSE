@@ -61,7 +61,7 @@ PROTOCOL_NOTE_PATTERNS = [
     (re.compile(r"\bV\d+ (?:曾|改为|架构)"), "版本演进注记 V-N"),
     (re.compile(r"plan ship|截图诊断|历史排查记录"), "开发态诊断/ship 注记"),
     # 开发痕迹混入执行热路径——历史变更解释 / 事故记录 / 维护编号溯源。
-    # skill 正文给执行者看：只写当场需要的时机/动作/判据/依据；变更动机与事故案例归 docs CHANGELOG。
+    # skill 正文给执行者看：只写当场需要的时机/动作/判据/依据；变更动机与事故案例写进提交说明。
     (re.compile(r"\bS0-\d+ ?(?:新增|同源|起)"), "维护编号溯源注记 S0-xx"),
     (re.compile(r"为什么改默认|为何改默认|为什么撤销"), "历史变更解释混入执行段"),
     (re.compile(r"实战曾|曾出现.{0,10}(?:卡死|手动终止)"), "事故记录混入执行段"),
@@ -240,9 +240,9 @@ def scan_text_files(root: Path, *, strict: bool = False) -> int:
         if "package_lint" in str(rel):
             continue
 
-        # decision-log 档案不入 runtime references（CLAUDE.md 执行者视角红线：决策起源归 docs CHANGELOG）
+        # decision-log 档案不入 runtime references（决策起源归提交说明或设计文档的决策档案）
         if f.name == "decision-log.md":
-            print(f"[package-lint] WARN: {rel}: decision-log 档案应迁 docs CHANGELOG，不入 skill references",
+            print(f"[package-lint] WARN: {rel}: decision-log 档案应迁设计文档的决策档案，不入 skill references",
                   file=sys.stderr)
             warn_count += 1
         try:
