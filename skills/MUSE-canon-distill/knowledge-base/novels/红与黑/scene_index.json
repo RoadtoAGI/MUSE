@@ -1,0 +1,1016 @@
+[
+  {
+    "scene_id": "S01",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "叙述者议论",
+      "开篇",
+      "外省小城",
+      "全景描写",
+      "讽刺",
+      "舆论"
+    ],
+    "characters": [
+      "瑞那先生",
+      "索雷尔老爹"
+    ],
+    "conflict_type": "external",
+    "pov": "叙述者",
+    "word_count": 2045,
+    "source_chapter": "上卷第一章",
+    "file": "scenes/scene_S01.md",
+    "description": "叙述者领游客巡览维璃叶的铁钉厂、市长宅邸与索雷尔锯木厂的换地旧账，以议论外省'专横的舆论'收束，奠定全书的外省讽刺底色",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述者借假想的'游人''巴黎客人'目光导览小城，不让人物开口，评价直出：市长从相貌写到'索账不容少给、偿债能拖就拖'，末段直斥外省'专横的舆论'",
+      "diction": "罗新璋译笔文白相济：写景用四字铺排（疏疏密密、皑皑白雪、姹紫嫣红），写利益转为法郎数目、地块折换与'没头脑'之类俗评，雅景与俗利并置",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎无对白，仅以路人拖腔的一句'嗬！那是我们市长大人的。'点出权势归属，全场靠叙述推进",
+      "pacing": "由远及近的导览顺序（山城全景→钉厂噪声→市长→宅邸花园→锯木厂旧账），长段落匀速铺陈，段末常落一句讽刺判断；不设时间线和事件"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S02",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "人物出场",
+      "动作场面",
+      "父子冲突",
+      "讨价还价",
+      "拿破仑崇拜",
+      "自尊"
+    ],
+    "characters": [
+      "瑞那先生",
+      "索雷尔老爹",
+      "于连"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 3598,
+    "source_chapter": "上卷第四至五章",
+    "file": "scenes/scene_S02.md",
+    "description": "市长上门聘家庭教师，索雷尔老爹装傻议价；于连在锯木厂横梁上读书被父亲打落书本，受审时只问'跟谁一起吃饭'并暗想出逃，主角以挨打的读书人形象出场",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述在市长、索雷尔老爹、于连三人的盘算间快速切换，叙述者随手插入成因解释（山民装傻源自西班牙统治、于连只信三部书）和对主角的肖像评断",
+      "diction": "父亲的粗口（懒鬼、畜生、狗东西）与书面译笔（'就勾魂摄魄而言，恐怕无出其右'）并置；锯木机械、工钱、黑礼服等实物词具体",
+      "rhetoric_density": "low",
+      "dialogue_mode": "父子对白短促，一问一答推进，于连一句'那我跟谁一起吃饭呢？'即问住对方；他的出逃盘算以引号内心独白呈现，归属多用'答道''嚷道'",
+      "pacing": "动作段极快，一拳、一掌、伸手揪住几句完成，随即停下来作长段肖像与身世交代；场次之间以'过了一会儿''黄昏时分'跳接，略去过渡"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S03",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "初次相遇",
+      "对白密集",
+      "双视角",
+      "误认",
+      "吻手"
+    ],
+    "characters": [
+      "瑞那夫人",
+      "于连"
+    ],
+    "conflict_type": "personal",
+    "pov": "瑞那夫人",
+    "word_count": 2617,
+    "source_chapter": "上卷第六章",
+    "file": "scenes/scene_S03.md",
+    "description": "于连含泪站在市长府门口不敢拉铃，瑞那夫人误把他当成女扮男装的孩子；几轮问答里她由忧转喜，他由受宠若惊到自尊受刺，最后鼓勇吻她的手，两人关系就此起头",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知视角在瑞那夫人与于连之间来回交替，叙述者点明双方的误判（她以为是女扮男装的孩子，他以为她瞧不起锯木厂苦工），偶插格言式评断",
+      "diction": "柔和的书面语，形容词叠用（明慧可人、轻声软语、清馨纯然）；'先生''夫人'等称呼本身成为触发情绪的关键词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白密集的短问短答（'你懂拉丁文？''是的，夫人。'），每句对白后紧跟对方的心理反应；于连唯一一次长篇自陈用来表现紧张",
+      "pacing": "慢镜处理几分钟的门口相遇，切成多轮问答与心理起伏；以突然的吻手动作收束，不写随后的尴尬"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S04",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "心理独白",
+      "悬念",
+      "职责",
+      "握手",
+      "钟声计时",
+      "夏夜花园"
+    ],
+    "characters": [
+      "于连",
+      "瑞那夫人",
+      "戴薇尔夫人"
+    ],
+    "conflict_type": "internal",
+    "pov": "于连",
+    "word_count": 2101,
+    "source_chapter": "上卷第八至九章",
+    "file": "scenes/scene_S04.md",
+    "description": "苇儿溪菩提树下，于连把握住瑞那夫人的手当作非完成不可的'职责'，与怯懦相持到古堡钟敲十点才出手，得手后只觉折磨结束，次晨便把她丢在拿破仑战报后面",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连的限知叙述，叙述者冷静点破他把恋爱当'职责'、把握手当决斗，次晨一段以他沉迷战报的反讽收尾，不替他美化动机",
+      "diction": "军事与义务语汇（职责、怯懦、胜券在握、杀伐征战）移用于花园恋爱，形成反差；夜色风雨只用简短景语",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "几乎没有直接对白，只有瑞那夫人一句推托；推进全靠于连引号内的自我命令（'十点整……不然，就上楼毙了自己！'）",
+      "pacing": "以钟点计时（九点三刻、十点、半夜、清晨五点、午餐铃）压缩悬念，钟声一落动作即起；得手后立刻跳到次日，略去夜间温存"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S05",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "争执",
+      "加薪",
+      "独处",
+      "山顶远眺",
+      "雄鹰意象",
+      "拿破仑"
+    ],
+    "characters": [
+      "于连",
+      "瑞那先生"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 1754,
+    "source_chapter": "上卷第十章",
+    "file": "scenes/scene_S05.md",
+    "description": "于连当着仆人顶撞市长、以辞职相胁，换来月薪加到五十法郎；随后独自攀上山崖看雄鹰盘旋，自问这会不会也是自己的命运，小胜接着一段孤高的抒情",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述先在于连与市长之间对切心理，写双方各自错判对方意图；后转为贴身于连的独处抒怀，叙述者不作长篇议论",
+      "diction": "争吵段用短促口语和反诘句；登山段转入书面抒情词（遗世独立、光照四极、孤高），结尾以设问句收",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "前半由对白推进冲突（于连连珠反诘、市长让步加薪），后半没有对白，只有自语式内心话",
+      "pacing": "先快后慢：几段争执即分出胜负，随后放慢到岩阴、悬崖、蝉声与盘旋的雄鹰；以一句设问截断，不作解释"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S06",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "群戏",
+      "国王驾临",
+      "仪仗队",
+      "讽刺",
+      "主教",
+      "对镜演练"
+    ],
+    "characters": [
+      "于连",
+      "瑞那夫人",
+      "穆瓦罗",
+      "谢朗神甫",
+      "阿格德主教"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 3867,
+    "source_chapter": "上卷第十八章",
+    "file": "scenes/scene_S06.md",
+    "description": "国王驾临维璃叶，木匠之子骑马入列仪仗队惹得全城哗然；于连换回黑袍去寻主教，撞见年轻的阿格德主教对镜反复演练赐福手势、为峨冠戴法发愁，从街头议论一路讽刺到宗教典礼的后台",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述先汇集群众视角的流言（银行家太太、贵族阶层的议论），再贴近于连的观察与误会；对穆瓦罗落马、主教对镜演练的讽刺不加直评，靠细节自显",
+      "diction": "仪式与宫廷词汇密集（仪仗队、肩章、峨冠、宽袖白法衣、华盖、赐福），夹史实地名与建筑掌故；讽意藏在平铺直叙的词序里",
+      "rhetoric_density": "low",
+      "dialogue_mode": "前半是无名者的零散闲言，后半主教与于连的短问答（'你看我的帽子怎样，戴得合适吗？'），让对白自己暴露虚荣",
+      "pacing": "大场面以长段落快速概述（烽火、礼炮、惊马、落马），进入主教大厅后放慢成一问一答的室内小戏；以于连一句'越接近上层越见文雅'的感慨收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S07",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "宗教恐惧",
+      "悔罪",
+      "孩子病危",
+      "当夫跪认",
+      "爱情转变"
+    ],
+    "characters": [
+      "瑞那夫人",
+      "于连",
+      "瑞那先生",
+      "斯丹尼"
+    ],
+    "conflict_type": "internal + personal",
+    "pov": "于连",
+    "word_count": 3915,
+    "source_chapter": "上卷第十九章",
+    "file": "scenes/scene_S07.md",
+    "description": "小儿子斯丹尼高烧不退，瑞那夫人认定是天主惩罚通奸，深夜跪在丈夫脚边几乎招认；于连劝阻并愿代受罚，两人在罪感中把偷情推入天堂与地狱交替的新阶段",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述交替进入瑞那夫人的宗教恐惧与于连的权衡独白，叙述者以概括句讲清她的逻辑（为使主息怒就得恨于连），对她不加嘲讽",
+      "diction": "宗教词汇（天主、惩戒、赎罪、地狱、苦修会）与情话交织，感叹句与呼告多；译笔书面而带激情",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "长短交错的激烈对白：她跪地呼告、他长篇劝说，扑进怀抱又推开等动作嵌在对白之间；于连的盘算以引号独白展开",
+      "pacing": "病情几句概述后直推凌晨两点的危机，高潮处对白回合密集；危机过后用概括段落交代此后数周爱情性质的改变"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S08",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "心理独白",
+      "匿名信",
+      "喜剧",
+      "虚荣",
+      "外省丈夫",
+      "通宵"
+    ],
+    "characters": [
+      "瑞那先生"
+    ],
+    "conflict_type": "internal",
+    "pov": "瑞那先生",
+    "word_count": 2816,
+    "source_chapter": "上卷第二十一章",
+    "file": "scenes/scene_S08.md",
+    "description": "瑞那先生读完匿名信后彻夜盘算：清点朋友、怀念被自己踢开的旧交、设想杀妻或痛打家庭教师，每个念头都被面子、遗产和全城笑柄拦回，以戴绿帽丈夫的独白演出外省虚荣的喜剧",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "自由间接体贴近瑞那先生，叙述者以'这个大可怜悯的人''这可怜虫'等称呼保持讽刺距离，并直评其虚荣与怯懦",
+      "diction": "外省小官的算计词汇（遗产、陪嫁、笑柄、俱乐部弹子房、贵族院），夹他当年公文腔的回信原句和粗俗流言；文白相间",
+      "rhetoric_density": "low",
+      "dialogue_mode": "没有对话，全由引号内的自语和间接转述构成，一个念头推翻上一个",
+      "pacing": "沿一夜时间线推进（扶手椅、灯火渐暗、晓光初露、到花园），念头以短段落快速翻转；以撞见妻子收住，留下悬念"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S09",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "对白密集",
+      "智斗",
+      "匿名信",
+      "反间计",
+      "白手帕暗号",
+      "叙述者议论"
+    ],
+    "characters": [
+      "瑞那夫人",
+      "瑞那先生"
+    ],
+    "conflict_type": "personal",
+    "pov": "瑞那夫人",
+    "word_count": 4571,
+    "source_chapter": "上卷第二十一章",
+    "file": "scenes/scene_S09.md",
+    "description": "瑞那夫人在花园递上于连剪贴的假匿名信，假意要求辞退于连，引丈夫自己'发现'瓦勒诺才是写信人，又劝住他上门问罪；得手后她登鸽楼挂白手帕报信，叙述者以苏丹后宫作比收尾",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "限知贴近瑞那夫人，叙述者揭示她每一步算计和丈夫的盲点；末尾转为叙述者议论（真正的激情必定自私，苏丹后宫与十九世纪丈夫对比）",
+      "diction": "夫妻家常口吻与社交辞令并用（'我的朋友''先生'），掺入遗产、贵族院、逮捕案等外省利害词；议论段书面化",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白密集：她以退为进、句句诱导，他以怒吼和重复回应；她的内心旁白（'总算成了！'）插在对白间，鸽楼挂手帕一段转为无对白的动作抒情",
+      "pacing": "长对谈分段推进，中间以砸开写字台、爬鸽楼两段动作换气；收尾停下来放一段议论"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S10",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "宴席",
+      "群戏",
+      "阶级",
+      "丐民收容所",
+      "背书炫技",
+      "叙述者议论"
+    ],
+    "characters": [
+      "于连",
+      "瓦勒诺",
+      "瓦勒诺夫人",
+      "吕丕尧"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 2940,
+    "source_chapter": "上卷第二十二章",
+    "file": "scenes/scene_S10.md",
+    "description": "收容所所长瓦勒诺设宴拉拢于连，炫耀酒价家具；隔壁穷人哼小曲被喝止，于连在绿酒杯后落泪，转身又当众背拉丁文《新约》博得满堂喝彩，叙述者顺手评点他的'软心肠'",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连的限知叙述，叙述者公开表态（'对于连这段独白中表露的软心肠，我的评价不高'），同情与讽刺并存",
+      "diction": "炫富细节词（金链、希腊式便帽、九法郎一瓶的莱茵酒、绿色玻璃杯）与于连激愤的感叹句并置；拉丁文、学院头衔等社交符号穿插",
+      "rhetoric_density": "low",
+      "dialogue_mode": "宴席对白稀疏而关键（'那下流的小曲倒不唱了。'一问一答定调），众人反应用概述（'顿时，四座寂然'）；于连的愤慨以引号长独白呈现",
+      "pacing": "先慢铺登门与陈设，以一首被禁的小曲为转折，随后加速概述背书、离席与邀约；以于连出门连骂'混账'收束"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S11",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "初入神学院",
+      "阴森氛围",
+      "晕倒",
+      "考问",
+      "拉丁文对答",
+      "师徒初见"
+    ],
+    "characters": [
+      "于连",
+      "彼拉神甫",
+      "看门人"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 4207,
+    "source_chapter": "上卷第二十五章",
+    "file": "scenes/scene_S11.md",
+    "description": "于连被面无表情的看门人领进阴暗房间，在彼拉院长的目光下当场晕倒；醒后经三小时拉丁文与神学考问，严厉的院长认出他的才智并给他单间，外省少年进入森严的教会机构",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连的限知叙述，以恐惧放大感官（看门人的猫眼、院长满是红斑的长脸），叙述者偶以'哲人见了会说'式插语评点，也短暂进入彼拉的内心",
+      "diction": "阴暗的教会机构词汇（黑漆十字架、石灰白壁、松木桌、方块纸），夹拉丁语对答和推荐信原文；书面语为主",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "先是极简短问答（'你叫什么名字？''于连·索雷尔。''你来迟了。'），晕倒后转为院长读信和长篇训诫；三小时的拉丁文对答以概述带过",
+      "pacing": "前段以等待时长（十分钟、一刻钟）拉长紧张，晕倒一节骤然发生；考问用几段概述压缩，结尾以醒来躺在地板上的细节收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S12",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "叙述者议论",
+      "神学院",
+      "伪善修炼",
+      "社会剖析",
+      "农家子弟",
+      "讽刺"
+    ],
+    "characters": [
+      "于连",
+      "神学院修士"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 2574,
+    "source_chapter": "上卷第二十六章",
+    "file": "scenes/scene_S12.md",
+    "description": "于连醒悟自己处处露出'会思考'的破绽，叙述者顺势剖析神学院的眼神规矩、吃溏心蛋的灵修讲究、修士对'硬通货'与'大佬倌'的敬畏，以议论代叙事呈现教会底层的生存逻辑",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "叙述者议论主导，直接剖析神学院风气与于连的失算，穿插于连的长段内心自语，并向读者发话（'诸君看了或许会窃笑'）",
+      "diction": "概括性的社会评判词与地方俗语（硬通货、大佬倌）、宗教术语（non culpa、苦修仪规）混用，带讽刺口吻",
+      "rhetoric_density": "low",
+      "dialogue_mode": "基本不靠对白推进，只在结尾用两名修士谈论当教皇的一段对话作例证；于连的思路以引号独白呈现",
+      "pacing": "论说文式段落连贯推进，以溏心蛋、酸菜烧腊肠、墙上炭字等具体细节作论据，把数月时间压缩进议论"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S13",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "宗教仪式",
+      "动作场面",
+      "钟声遐想",
+      "重逢",
+      "晕倒"
+    ],
+    "characters": [
+      "于连",
+      "夏斯神甫",
+      "瑞那夫人",
+      "戴薇尔夫人"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 3409,
+    "source_chapter": "上卷第二十八章",
+    "file": "scenes/scene_S13.md",
+    "description": "圣体瞻礼日于连爬上虫蛀的挑檐为华盖安放羽翎花球，留守空殿时在钟声中神思飞越，却撞见告解亭里的瑞那夫人一见他就晕倒，被戴薇尔夫人厉声赶开",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连的限知叙述，叙述者插入议论区分他与只算撞钟工钱的务实修士（'至多能造就成一个艺术家'），对夏斯神甫带温和幽默",
+      "diction": "教堂陈设与仪式词汇丰富（红缎绣帏、羽翎花球、华盖、Sanctus），感官词（玫瑰、供香、钟声、阴凉）集中在留守段",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "夏斯神甫唠叨式长段话与于连的简短应答；重逢那一刻几乎无对白，只有戴薇尔夫人一串斥责",
+      "pacing": "劳作段轻快，钟声段放慢为遐想与议论，重逢以一句'就晕了过去'突转；结尾用节省蜡烛的反讽细节收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S14",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "动作场面",
+      "藏匿",
+      "梯子",
+      "偷情",
+      "枪击",
+      "逃亡"
+    ],
+    "characters": [
+      "于连",
+      "瑞那夫人",
+      "瑞那先生",
+      "艾莉莎"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 3378,
+    "source_chapter": "上卷第三十章",
+    "file": "scenes/scene_S14.md",
+    "description": "临别之夜于连爬梯潜回瑞那夫人卧房，天亮后被她藏了一整天：搬梯子、偷面包、钻沙发底、用长袍盖住帽子，凌晨丈夫捶门搜贼，他跳窗冒着枪声逃走，上卷在一串险情中收束",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "主要贴近于连，间或进入瑞那夫人的心思；叙述者口吻轻快，少议论，只偶尔点出反常（危险反倒使她兴致勃发）",
+      "diction": "家常物件词汇（梯子、橘子、馅饼、面包、长袍、帽子、沙发）与大量动作动词，对白口语化",
+      "rhetoric_density": "low",
+      "dialogue_mode": "短对白承担行动安排与险情（'这部梯子怎么办？''你为什么关起门来？'），说完即做，很少停下抒情",
+      "pacing": "以钟点推进一整天（黎明、八点、傍晚、凌晨二点），险情一个接一个；逃跑以短句加枪声连写，结尾一句交代去向"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S15",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "对白密集",
+      "政论",
+      "驿车",
+      "外省生活",
+      "拿破仑之争",
+      "旁听"
+    ],
+    "characters": [
+      "于连",
+      "圣冀罗",
+      "法尔戈"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 2745,
+    "source_chapter": "下卷第一章",
+    "file": "scenes/scene_S15.md",
+    "description": "赴巴黎的驿车上，厌恶政治的圣冀罗向拿破仑派旧印厂老板法尔戈诉说乡居被教士与党派逼走的遭遇，两人争论拿破仑功过，于连在旁默听，借陌生人对话交代复辟时期的政治空气",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "叙述者退到后台，几乎全场让两位乘客直接说话，只在中段点出于连听出二人身份、结尾一句交代他的反应，对双方政见不置评",
+      "diction": "政治时评词汇密集（自由党、保王党、选举、教务专约、贵族院），夹乡居琐事（鱼塘被石灰毒死、捐圣饼）；口语议论腔",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白密集，以圣冀罗的长篇诉苦为主体，法尔戈短句插话反驳，一长一短形成辩论；归属简略，常省去'说'",
+      "pacing": "对话连续推进，几乎没有动作和环境描写；用'谈话了无止休。这个话题，法国还可以谈上半个世纪'一句压缩后续"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S16",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "客厅群像",
+      "沙龙讽刺",
+      "对白密集",
+      "贵族青年",
+      "旁观者"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "匡泽诺侯爵",
+      "凯琉斯伯爵",
+      "吕茨子爵",
+      "诺尔拜",
+      "夏尔伟伯爵",
+      "彼拉神甫"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 3032,
+    "source_chapter": "下卷第四章",
+    "file": "scenes/scene_S16.md",
+    "description": "拉穆尔府晚会上，玛娣儿特与年轻贵族挤在蓝色长沙发上挨个嘲弄进门的宾客，于连坐在矮草椅上旁听，又看夏尔伟伯爵当众奚落伪君子巴朗，展示巴黎上流社会的机锋与刻薄",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近外来旁观者于连，叙述者对客厅人物逐个下断语（夏尔伟伯爵'不识人间还有羞耻事'），对年轻贵族的刻薄和于连的误判都有讥评",
+      "diction": "社交场的名号头衔（侯爵、伯爵、男爵、法兰西学院）与俏皮话、人身攻击式短评；书面译笔里夹法式机锋",
+      "rhetoric_density": "low",
+      "dialogue_mode": "群口接力的对白，每人一两句嘲谑，矛头随进门的宾客转移；于连不插话，只以内心评语回应",
+      "pacing": "以当差通报来客为节拍，一个人物一段小品式速写，接连推进，不做整体场面描写"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S17",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "舞会",
+      "客厅群像",
+      "心理独白",
+      "死刑论",
+      "厌倦",
+      "贵族小姐"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "诺尔拜",
+      "匡泽诺侯爵",
+      "阿尔泰米拉伯爵"
+    ],
+    "conflict_type": "internal",
+    "pov": "玛娣儿特",
+    "word_count": 4800,
+    "source_chapter": "下卷第八章",
+    "file": "scenes/scene_S17.md",
+    "description": "雷兹公爵府舞会上，小胡子青年议论玛娣儿特是舞会皇后，于连冷冷贬低卢梭；玛娣儿特在匡泽诺的絮语中走神，望着被判死刑的阿尔泰米拉想出'唯有死刑能抬高身价'，风头十足却厌倦欲泣",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "前段贴近初来乍到的于连，中后段转入玛娣儿特的内心独白与自我审视，叙述者对她为自己的'妙语'得意略带揶揄",
+      "diction": "奢华场景词（紫红布幔缀金星、柑橘树与夹竹桃、仿阿尔汗布拉宫的客厅）与婚姻、头衔、财富的盘算词汇；她的独白里格言与自问交错",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "门口一串无名小胡子的接力议论，玛娣儿特与于连围绕卢梭的短交锋，其余以她的内心话为主",
+      "pacing": "先以场景铺排与群议造势，再在人群挤压中聚焦二人交锋，后半放慢为玛娣儿特的独白循环，以她对于连的怨气收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S18",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "心理独白",
+      "情书",
+      "阶级怨愤",
+      "被害想象",
+      "虚荣"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "拉穆尔侯爵"
+    ],
+    "conflict_type": "internal",
+    "pov": "于连",
+    "word_count": 3271,
+    "source_chapter": "下卷第十三章",
+    "file": "scenes/scene_S18.md",
+    "description": "玛娣儿特递来求爱信，于连狂喜于压过匡泽诺侯爵，继而独白中怨恨贵族、想象被恶仆围攻夺信，把原信藏进《圣经》寄给傅凯，再以'汝拉山的穷木匠'自署回信",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连，叙述者对他的狂喜、阶级怨愤与被害想象保持距离，直言'这是一个倒霉虫起而向整个社会开战'",
+      "diction": "激昂的口语感叹与历史、文学典故（达尔杜夫台词、十字军先祖、红衣主教出身）交织，'汝拉山的穷木匠'式自称反复出现",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白极少，主体是于连的独白，包括对想象中的敌人喊话（'且慢，诸位'），并引剧本台词作内心参照",
+      "pacing": "情绪曲线式推进：狂喜→道德闪念→怨愤→被害想象→付诸行动（抄信、藏信、寄信）→写回信；独白段短而密，行动段快"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S19",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "动作场面",
+      "爬梯",
+      "幽会",
+      "尴尬",
+      "双视角"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特"
+    ],
+    "conflict_type": "personal + internal",
+    "pov": "于连",
+    "word_count": 3670,
+    "source_chapter": "下卷第十六章",
+    "file": "scenes/scene_S19.md",
+    "description": "半夜一点于连揣着手枪匕首在月光下爬梯进玛娣儿特闺房，处处提防埋伏；两人找话题、收梯子、改称'你'，在算计与羞窘中度过并无柔情的初夜，与上卷的梯子之夜形成对照",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "在于连的戒备与玛娣儿特的羞窘之间交替，叙述者冷静点评（'这类风情事儿，未见有人讲得这般冷漠、这般客套的'），不渲染情欲",
+      "diction": "实务细节词（梯子、绳索、花坛、匕首、红木大衣柜）与'你''您'称谓的变化；写爱情用'本分''以意为之'等冷词",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白短而拘谨，多是找话题的实务问答（'您外套的那边口袋藏着什么？'），真正的情绪留在各自的心理叙述里",
+      "pacing": "进房前以钟点（十一点、十二点半、一点零五分）制造悬念，进房后放缓为尴尬的来回，初夜一句带过，以两人分别的反思收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S20",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "古剑",
+      "冷遇",
+      "动作场面",
+      "爱恨反转",
+      "中世纪幻想"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "拉穆尔侯爵"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 2561,
+    "source_chapter": "下卷第十七章",
+    "file": "scenes/scene_S20.md",
+    "description": "初夜后玛娣儿特连日冷遇并宣布绝交，于连反倒爱得不能自拔；藏书室里她说委身于'阿狗阿猫'，他拔出墙上的中世纪古剑又克制地挂回，她却为'险被情人杀死'而心软",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连，间或进入玛娣儿特的算计；叙述者直评两人'都缺乏忍让精神'，并指出于连错过了最有利的时机",
+      "diction": "简洁的心理分析词与少量骑士时代意象（中世纪古剑、查理九世与亨利三世）；粗话'阿狗阿猫'成为引爆点",
+      "rhetoric_density": "low",
+      "dialogue_mode": "关键对白极少而尖锐（'这么说来，您不再爱我了？''碰到阿狗阿猫，就委身于他'），大部分心理变化由叙述概括",
+      "pacing": "前段用'第二天，第三天'压缩冷战，古剑一节以'由快转慢，前后有一分钟之久'的动作细描放慢，再以侯爵禁足令和于连的绝望自语收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S21",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "歌剧",
+      "叙述者议论",
+      "作者插话",
+      "爬梯",
+      "剪发明志",
+      "激情"
+    ],
+    "characters": [
+      "玛娣儿特",
+      "于连"
+    ],
+    "conflict_type": "internal + personal",
+    "pov": "玛娣儿特",
+    "word_count": 4344,
+    "source_chapter": "下卷第十九章",
+    "file": "scenes/scene_S21.md",
+    "description": "玛娣儿特随手画出于连侧影，又被歌剧唱词'惩罚我吧，惩罚我情太重'点燃；作者插入括号议论为她辩护并提出小说是路上的镜子；当夜于连在绝望中砸锁搬梯闯入闺房，她自称女奴、剪发相赠",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "前半贴近玛娣儿特的自我辩解，中段叙述者以四段括号插话直接为作品辩护（小说是沿大路而行的镜子），后半转回于连的绝望与狂喜",
+      "diction": "歌剧唱词与意大利原文（Devo punirmi）、历史人物（罗兰夫人、斯达尔夫人）并用；情爱段用'主子''女奴'等夸张称谓",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "对白集中在闺房一节，以玛娣儿特连串的自贬呼告为主；其余靠内心话和议论推进",
+      "pacing": "三段式：内心辩解与画像→作者插话中断叙事→夜里爬梯的动作高潮；情欲以省略号和'此中情形，不写为妙'跳过"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S22",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "密谋",
+      "群戏",
+      "政论",
+      "作者插话",
+      "极端保王党",
+      "记录员"
+    ],
+    "characters": [
+      "于连",
+      "拉穆尔侯爵",
+      "公爵",
+      "背心先生",
+      "红衣主教",
+      "变节将军"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 4667,
+    "source_chapter": "下卷第二十二章",
+    "file": "scenes/scene_S22.md",
+    "description": "于连被带去为极端保王党的秘密会议做记录，作者先插入与出版家关于政治是'音乐会里一声枪响'的争论，再摘要呈现英国财政论与拉穆尔侯爵组织死党的演说，于连在旁冷眼速记",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近担任记录员的于连，叙述者以括号插入作者与出版家的争论（政治之于小说犹如音乐会中的一声枪响），并声明下文只是'平淡的摘要'",
+      "diction": "政治军事术语密集（皮特、威灵顿、军事占领、死党、预算、雅各宾），演说体的排比与反诘；人物以外貌绰号代称（背心先生、眼神像野猪的矮冬瓜）",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "以长篇演说为主，打岔与嘘声穿插，主席控场；于连的观察以简短心语点缀",
+      "pacing": "先以与会者逐个登场的速写铺垫，作者插话打断，随后演说一段接一段，以'有人打岔'切换发言者，以于连'今晚得骑上快马'作结"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S23",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "高潮",
+      "书信",
+      "动作场面",
+      "枪击",
+      "叙事加速",
+      "命运逆转"
+    ],
+    "characters": [
+      "于连",
+      "彼拉神甫",
+      "玛娣儿特",
+      "瑞那夫人"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 2649,
+    "source_chapter": "下卷第三十五章",
+    "file": "scenes/scene_S23.md",
+    "description": "于连得了贵族姓氏与中尉军衔正踌躇满志，忽接玛娣儿特'全完了'的急信和瑞那夫人的揭发信；他直奔维璃叶买枪进教堂，在举扬圣体的铃声中两枪击倒瑞那夫人，全书高潮以书信加极速叙述完成",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述贴近于连，读信后几乎不进入他的内心，只写外在动作；对他的踌躇满志略带讽刺（'只想他尚未出世的儿子'）",
+      "diction": "军旅与官方词汇（中尉、轻骑兵第十五团、程仪二万法郎）与两封信的文体对照：玛娣儿特急促，瑞那夫人满纸宗教道德腔",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白极简（'瑞那夫人的信在哪里？'冷冷一句），全文引入的信件承担叙事转折",
+      "pacing": "前半舒缓写得意，读信后陡然加速：驿车、兵器店、钟声、两枪，几乎一句一事，省略他的心理与决定过程"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S24",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "入狱",
+      "诀别信",
+      "悔悟",
+      "心灵翻转",
+      "看守"
+    ],
+    "characters": [
+      "于连",
+      "瑞那夫人",
+      "看守努瓦虎",
+      "艾莉莎"
+    ],
+    "conflict_type": "internal",
+    "pov": "于连",
+    "word_count": 2801,
+    "source_chapter": "下卷第三十六章",
+    "file": "scenes/scene_S24.md",
+    "description": "于连被捕后平静承认预谋、给玛娣儿特写诀别信；瑞那夫人伤而未死并暗托人善待他，贪财的看守转弯抹角透露消息，于连听到'她没死'跪地痛哭，由复仇转向悔罪",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述在于连与瑞那夫人之间切换（交代她'诚心想死'的心思），对推事的盘问与看守的贪婪略带讽刺，于连的心态以自省独白呈现",
+      "diction": "法律与监狱词汇（推事、刑法一三四二条、手铐、两道锁）与宗教悔悟词（伟大的主、真理、悔悟）衔接；诀别信用庄重书面体，并引莎剧英文",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白简短，推事与看守的问答带出信息，看守转弯抹角的长句与于连的急问形成对照；转折落在一句'怎么！她没死！'",
+      "pacing": "开头用短段落写被捕的茫然，中段插入瑞那夫人一侧，写信与自省放慢，最后以听讯、喝退看守、跪地流泪快速转折收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S25",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "审判",
+      "群戏",
+      "法庭陈词",
+      "阶级",
+      "死刑判决"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "弗利赖神甫",
+      "戴薇尔夫人",
+      "瓦勒诺",
+      "辩护律师"
+    ],
+    "conflict_type": "external",
+    "pov": "于连",
+    "word_count": 3900,
+    "source_chapter": "下卷第四十一章",
+    "file": "scenes/scene_S25.md",
+    "description": "贝藏松重罪法庭开审，弗利赖神甫自称已操纵陪审团；旁听席满是落泪的贵妇，于连起身陈词，指出被审判的是敢混入上流社会的下层青年，随后由瓦勒诺宣读死刑裁决",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连在法庭上的观察，叙述者概述全城轰动与弗利赖的操纵，对检察官'拙劣的法语'和瓦勒诺'威严的台步'直接讥讽",
+      "diction": "法庭与阶层词汇（陪审官、检察官、庭长、有产阶级、乡民），于连陈词用正式演说体；旁听女士的反应用手帕与眼泪反复点染",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白分两类：弗利赖向玛娣儿特交底的长段，以及于连的法庭陈词（直接引用三段，其余概述）；其他人物多是只言片语",
+      "pacing": "前半以审判前夜铺垫，开庭后按程序推进（证词、起诉、辩护、点心、午夜钟声、陈词、合议、宣判），以钟点标示时间"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S26",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "探监",
+      "重逢",
+      "和解",
+      "讽刺",
+      "宗教表演"
+    ],
+    "characters": [
+      "于连",
+      "瑞那夫人",
+      "教士",
+      "管钥匙的狱卒"
+    ],
+    "conflict_type": "personal",
+    "pov": "于连",
+    "word_count": 2780,
+    "source_chapter": "下卷第四十三章",
+    "file": "scenes/scene_S26.md",
+    "description": "瑞那夫人来到死囚牢，两人相互求恕、和好如初，于连为每天见她答应上诉；她被丈夫召回后，满身泥浆的教士在狱门口跪雨祈祷招揽看客，于连请他进来，反倒第一次害怕起死亡",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连，叙述者对重逢的情感少作评点，对满身泥浆的教士和围观百姓讽刺明显；结尾如实写出于连的怯懦",
+      "diction": "情话中的宗教词（饶恕、天主、崇敬）与狱中俗物（泥水、破拉丁字、四十法郎的弥撒）对照",
+      "rhetoric_density": "low",
+      "dialogue_mode": "前半对白密集，短句来回（'请你饶恕我。''要我饶恕……'），后半主要是管钥匙的回禀和于连的愤语",
+      "pacing": "重逢以快速对白推进到和解，一句交代被召回，转入教士闹剧，节奏由柔转躁，以'教士才撤岗离去'平淡收束"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S27",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "心理独白",
+      "父子",
+      "金钱",
+      "死亡哲学",
+      "孤独",
+      "虚伪"
+    ],
+    "characters": [
+      "于连",
+      "索雷尔老爹",
+      "狱卒",
+      "苦役犯"
+    ],
+    "conflict_type": "internal",
+    "pov": "于连",
+    "word_count": 3693,
+    "source_chapter": "下卷第四十四章",
+    "file": "scenes/scene_S27.md",
+    "description": "老木匠来牢里训斥儿子，于连一句'我存着不少钱呢'扭转局面；他请苦役犯喝香槟听其身世，独处时长篇独白天然法纪、真理与真宗教、蜉蝣不知黑夜，归结为孤独只因瑞那夫人不在",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "贴近于连：前段写父子对峙中的心计（叙述者称那句话'天才独到'而带讽笑），后段几乎全是他的长篇内心独白，叙述者退隐",
+      "diction": "金钱词汇（遗嘱、一千法郎、膳食费、六法郎一瓶的香槟）与哲学宗教词汇（天然法纪、真理、三位一体、伏尔泰的天主）并置；独白多省略号与反问",
+      "rhetoric_density": "medium",
+      "dialogue_mode": "父子对白简短而功利，一句'我存着不少钱呢！'扭转局面；苦役犯一段用间接叙述交代，后半没有对白",
+      "pacing": "前段事件密集（父来、斥骂、落泪、谈钱、香槟、苦役犯），后段放慢为一夜的独白，用省略号连缀片段思路（猎人靴踢翻蚁穴、蜉蝣不知黑夜），以一句恢复镇定收"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  },
+  {
+    "scene_id": "S28",
+    "novel": "红与黑",
+    "author": "司汤达",
+    "genre": "现实主义",
+    "lang": "zh",
+    "source_medium": "novel",
+    "tags": [
+      "结局",
+      "行刑",
+      "叙事压缩",
+      "殉情",
+      "安葬头颅",
+      "对照"
+    ],
+    "characters": [
+      "于连",
+      "玛娣儿特",
+      "瑞那夫人",
+      "傅凯",
+      "詹森派教士"
+    ],
+    "conflict_type": "internal",
+    "pov": "于连",
+    "word_count": 2716,
+    "source_chapter": "下卷第四十五章",
+    "file": "scenes/scene_S28.md",
+    "description": "于连在狱中只为瑞那夫人而活，拒绝靠公开改宗求赦，也拦下她去觐见国王；行刑寥寥数句带过，玛娣儿特捧着他的头颅送葬汝拉山洞，瑞那夫人三天后抱着孩子死去",
+    "has_craft_notes": false,
+    "style_profile": {
+      "narration_voice": "全知叙述概括狱中最后时日，进入玛娣儿特的妒恨与于连的幸福；行刑只用'简单而又得体'一句带过，结尾借傅凯的眼睛看玛娣儿特捧头",
+      "diction": "克制平实，行刑与葬礼几乎不加形容；玛娣儿特的葬礼排场（白烛、二十名教士、撒银币、意大利石雕）以名词罗列",
+      "rhetoric_density": "low",
+      "dialogue_mode": "对白集中在于连拒绝公开改宗、阻止瑞那夫人觐见国王和交代后事的几段话，此后对白消失",
+      "pacing": "先以概述推进数周，在行刑处极度压缩，葬礼以短段落逐步推进，末句写瑞那夫人三天后死去，不加评论"
+    },
+    "style_profile_by": "claude-opus-5-5"
+  }
+]
