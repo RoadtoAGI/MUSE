@@ -1,27 +1,17 @@
 ---
 name: short-phase3-composition
-description: 原创短篇的成稿与修订编排，在大纲批准或免审后取范文、装配写作简报、派发一次全文创作，组织已有检查与全文审修，交付 story.md。
+description: 原创短篇的成稿与修订编排，在大纲批准或免审后装配写作简报、派发一次全文创作，组织已有检查与全文审修，交付 story.md。
 ---
 
 # 短篇成稿与全文修订
 
-取得当前有效的 conception、characters、outline 与大纲批准。正文由 short-composer 生成，修订由 short-manuscript-reviser 完成；主控负责取范文、装配简报、运行检查与派发。
+取得当前有效的 conception、characters、outline、本篇范文与大纲批准。正文由 short-composer 生成，修订由 short-manuscript-reviser 完成；主控负责装配简报、运行检查与派发。
 
 ## 范文与写作简报
 
-写作者只读一份写作简报 `pipeline/shortform/writer_brief.md`，由脚本把作者要求、构想、人物、事件、范文窗口、本轮条目和指令装在一起。范文窗口是从名著场景正文里连续截取的段落，与本篇同语言、同人称，供写作者学口吻。成稿前必取范文：
+写作者只读一份写作简报 `pipeline/shortform/writer_brief.md`，由脚本把作者要求、构想、人物、事件、范文窗口、手法导航、本轮条目和指令装在一起。范文 `pipeline/shortform/reference_pack.md` 在构想阶段已取（short-phase0-conception 的“取本篇范文”），这里复用；缺失，或装配时脚本提示范文早于构想，就按那一节重取。
 
-1. 取确定参数：
-
-```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --retrieval-args
-```
-
-输出交付语言、`--original-only`、`--person`（取 conception 的 narration_person）、`--budget-chars 6000`、`--render exemplar --shortform-pack` 与输出目录。
-
-2. 主控补 `--query`（人物处境与主要动作，一句）；style_directives 或人物声音写明口语或书面时补 `--register colloquial|literary`，没有就不传。同人、续写、改编点名原作时加 `--novel <原作>`；conception 含 `canon_reference_profile` 时照旧传 `--canon-reference-profile <conception 绝对路径>`。用 canon 包 scene-reference 的 `kb_query.py` 执行，产物为 `pipeline/shortform/reference_pack.md`。
-3. 文件头 `results: 0` 写明了清空条件。库中该语言原作不够时，主控可去掉 `--original-only` 或 `--register` 重查一次，并在交付说明里记录放宽；仍无结果时简报写“本篇无范文”，不拿旧文件凑。
-4. 读过范文后写两行“本篇可以怎样用”：哪些写法可借，哪些不采用，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；范文对白不加引号的写法不采用，本篇是第一人称独白”。再装配：
+读过范文后写两行“本篇可以怎样用”：哪些写法可借，哪些不采用，对白的引号等标点不随范文时也写在这里，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；范文对白不加引号的写法不采用，本篇对白照常加引号”。再装配：
 
 ```bash
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --usage "<两行>"
@@ -38,7 +28,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --wor
 本篇可以怎样用：<两行>
 ```
 
-无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查设计用词、与范文的连续重合与字数，问题由它在同一会话改。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
+无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查设计用词、与范文的连续重合与字数，问题由它在同一会话改。宿主不触发 PostToolUse hook 时（如 Codex），主控在正文落盘后运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/shortform_story_guard.py --story {work_dir}/story.md`，exit 2 时把输出交 composer 改，改完再跑一次。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
 
 正文、审阅与修订的子执行者默认继承主会话所选模型，注册 agent 与通用子执行者同样适用；仅按作者明确的任务指定覆盖。实际调用方落实该选择，宿主限制使其不可用时报告受影响任务。
 

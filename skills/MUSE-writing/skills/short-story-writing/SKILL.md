@@ -9,8 +9,8 @@ description: 完成原创短篇，从构想、人物与大纲到一次全文成�
 
 | 阶段 | 技能 | 工作目录下的产物 |
 |---|---|---|
-| 0 构想 | `short-phase0-conception` | `pipeline/shortform/conception.yaml` |
-| 1 人物 | `short-phase1-character` | `pipeline/shortform/characters.yaml` |
+| 0 构想 | `short-phase0-conception` | `pipeline/shortform/conception.yaml`，构想通过后取的本篇范文 `reference_pack.md` |
+| 1 人物 | `short-phase1-character` | `pipeline/shortform/characters.yaml`，示范句对着范文写 |
 | 2 大纲 | `short-phase2-outline` | `pipeline/shortform/outline.yaml`，按需引用 ledger |
 | 作者裁决 | 本入口 | `pipeline/run_state.yaml` 的 `outline_gate` |
 | 3 成稿与修订 | `short-phase3-composition` | `pipeline/shortform/writer_brief.md` 写作简报，`story.md`，既有全文审阅报告 |

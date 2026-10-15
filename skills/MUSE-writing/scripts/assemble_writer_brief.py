@@ -3,7 +3,7 @@
 
 本版实现短篇链（--shortform），在 pipeline/shortform/ 下写三份文件：
 
-- writer_brief.md：简报。各节依次为 作者要求 → 构想 → 人物 → 事件 → 范文 → 条目 → 指令。
+- writer_brief.md：简报。各节依次为 作者要求 → 构想 → 人物 → 事件 → 范文 → 手法导航 → 条目 → 指令。
   作者要求（requirements 全部条目与 reference_materials）原样进入，不计上限、不裁；
   构想、人物、事件的字数上限由 validate_shortform_contract.py 在设计阶段卡住，装配时不裁。
 - brief_meta.yaml：各节字数、范文占比，以及 exemplar_short / exemplar: none / facts_over_budget 标记。
@@ -27,6 +27,7 @@ import argparse
 import datetime as dt
 import hashlib
 import re
+import shlex
 import sys
 from pathlib import Path
 
@@ -55,8 +56,15 @@ LABELS = {
            "handoff": "Carries forward: {text}", "borrowed": "Borrowed mechanism: {text}",
            "persons": {"first": "first person", "third": "third person"}, "no_person": "not set in conception"},
 }
-SECTIONS = ("作者要求", "构想", "人物", "事件", "范文", "条目", "指令")
+SECTIONS = ("作者要求", "构想", "人物", "事件", "范文", "手法导航", "条目", "指令")
 FACT_SECTIONS = ("构想", "人物", "事件")
+SKILLS_DIR = Path(__file__).resolve().parents[1] / "skills"
+NAV_SKILLS = (("prose-craft", "叙述"), ("dialogue-craft", "人物声音与对白"))
+NAV_ENTRY_FILES = "prose-craft/references/prose-rules.md、dialogue-craft/references/voice-and-dialogue.md"
+NAV_SKIP_PREFIXES = ("- 案例与全文", "- 规则与案例")  # 整份参考的清单，条目与全文由审阅解锁后附上
+MARKDOWN_LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+DOMAIN_LABELS = {"world_rule": "世界规则", "reveal_structure": "揭示结构", "protagonist_archetype": "主角原型",
+                 "scene_carrier": "场景载体", "prose_style_imitation": "文风模仿"}
 
 
 def _load(path: Path):
@@ -268,21 +276,72 @@ def section_entries(state: dict, cap_each: int, cap_total: int) -> tuple[str, li
     return ("\n\n".join(blocks) if blocks else "无"), record
 
 
-def reuse_authorized(conception: dict) -> bool:
+def section_navigation() -> str:
+    """prose-craft、dialogue-craft 的手法导航，原样附进简报：写作者先知道有哪些手法、何时用。
+    两次真实运行里写作者都没有自己去加载导航（设计 §3.1）。链接只留名称，整份参考的清单不附。"""
+    blocks: list[str] = []
+    for skill, label in NAV_SKILLS:
+        path = SKILLS_DIR / skill / "SKILL.md"
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if text.startswith("---"):
+            text = text.split("---", 2)[2]
+        lines = [f"### {label}"]
+        for line in text.splitlines():
+            stripped = line.strip()
+            if not stripped or stripped.startswith("# ") or stripped.startswith("手法导航："):
+                continue
+            if stripped.startswith(NAV_SKIP_PREFIXES):
+                continue
+            if stripped.startswith("## "):
+                lines.append(stripped[3:])
+                continue
+            lines.append(MARKDOWN_LINK.sub(r"\1", stripped))
+        blocks.append("\n".join(lines))
+    if not blocks:
+        return "无"
+    blocks.append(f"条目全文在 {NAV_ENTRY_FILES}（路径相对本包 skills/），按条目标题查；需要时读，回执写明读了哪些。")
+    return "\n\n".join(blocks)
+
+
+def authorized_sources(conception: dict) -> list[dict]:
+    """作者授权复用原文的来源：作品名、允许的用途，以及作品级不用的领域。"""
     profile = conception.get("canon_reference_profile")
-    materials = profile.get("user_reference_materials") if isinstance(profile, dict) else None
-    return any(isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" for m in materials or [])
+    if not isinstance(profile, dict):
+        return []
+    avoid = [d for d in profile.get("avoid_domains") or [] if isinstance(d, str)]
+    return [{"work": str(m["work"]), "domains": [d for d in m.get("intended_domains") or [] if isinstance(d, str)],
+             "avoid": avoid}
+            for m in profile.get("user_reference_materials") or []
+            if isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" and m.get("work")]
 
 
-def section_instruction(has_exemplar: bool, usage: str | None, has_full: bool, reuse: bool = False) -> str:
+def reuse_authorized(conception: dict) -> bool:
+    return bool(authorized_sources(conception))
+
+
+def _domains(codes: list[str]) -> str:
+    return "、".join(DOMAIN_LABELS.get(c, c) for c in codes)
+
+
+def section_instruction(has_exemplar: bool, usage: str | None, has_full: bool,
+                        sources: list[dict] | None = None) -> str:
     lines = ["写全文。只读本简报，写到工作目录根部 story.md。"]
     if has_exemplar:
-        exception = "（作者授权复用的来源按“作者要求”与设计使用）" if reuse else ""
-        lines.append("用“范文”一节的口吻写：句子长短、用词、对白的写法、叙述者与人物说话的距离都跟范文走；"
-                     f"范文的人物、情节、专名和连续原句一律不用{exception}。")
+        lines.append("用“范文”一节的口吻写：句子长短、用词、对白的节奏与归属方式、叙述者与人物说话的距离都跟范文走；"
+                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外；"
+                     "范文的人物、情节、专名和连续原句一律不用，下面列出的作者授权来源除外。" if sources else
+                     "用“范文”一节的口吻写：句子长短、用词、对白的节奏与归属方式、叙述者与人物说话的距离都跟范文走；"
+                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外；"
+                     "范文的人物、情节、专名和连续原句一律不用。")
         lines.append(f"本篇可以怎样用：{usage.strip() if usage else '见派发。'}")
     else:
         lines.append("本篇无范文，按人物声音与示范句写。")
+    for source in sources or []:
+        scope = f"，用于{_domains(source['domains'])}" if source["domains"] else ""
+        avoid = f"，不用于{_domains(source['avoid'])}" if source["avoid"] else ""
+        lines.append(f"作者授权复用《{source['work']}》的原文{scope}{avoid}；其他作品照上面的限制。")
     if has_full:
         lines.append("条目注明“全文”的，动笔前读那一处。")
     return "\n".join(lines)
@@ -313,8 +372,9 @@ def assemble_shortform(work_dir: Path, *, usage: str | None = None, exemplar_pat
         "人物": char_text or "无",
         "事件": section_events(outline.get("scenes") or [], names, english, adopted_mechanisms(shortform)),
         "范文": "\n\n".join(windows) if windows else f"本篇无范文：{none_reason}",
+        "手法导航": section_navigation(),
         "条目": entries_text,
-        "指令": section_instruction(bool(windows), usage, has_full, reuse_authorized(conception)),
+        "指令": section_instruction(bool(windows), usage, has_full, authorized_sources(conception)),
     }
     brief = "# 写作简报\n\n" + "\n\n".join(f"## {name}\n\n{sections[name]}" for name in SECTIONS) + "\n"
     (shortform / "writer_brief.md").write_text(brief, encoding="utf-8")
@@ -348,6 +408,10 @@ def assemble_shortform(work_dir: Path, *, usage: str | None = None, exemplar_pat
             f"作者要求 {counts['作者要求']} 字不裁")
     if conception.get("narration_person") not in PERSON_LABEL:
         meta["warnings"] = ["conception 缺 narration_person（旧构想）；取范文时 --person 需主控判断"]
+    if exemplar_path.is_file() and (shortform / "conception.yaml").stat().st_mtime > exemplar_path.stat().st_mtime:
+        stale = "conception 在取范文之后改过；人称、语言或风格指令变了时按 short-phase0-conception 的“取本篇范文”重取"
+        meta.setdefault("warnings", []).append(stale)
+        print(f"[brief] {stale}", file=sys.stderr)
     lang, inferred = delivery_language(conception)
     meta["language"] = lang
     if inferred:
@@ -383,8 +447,22 @@ def retrieval_args(work_dir: Path) -> str:
     if person in PERSON_LABEL:
         args += ["--person", person]
     args += ["--budget-chars", str(rules["budget_chars"]), "--render", "exemplar", "--shortform-pack",
-             "--output-dir", str(shortform)]
+             "--output-dir", shlex.quote(str(shortform))]
+    if isinstance(conception.get("canon_reference_profile"), dict):
+        args += ["--canon-reference-profile", shlex.quote(str(shortform / "conception.yaml"))]
+    args += ["--style-hint", shlex.quote(style_hint(conception, lang))]
     return " ".join(args)
+
+
+def style_hint(conception: dict, lang: str) -> str:
+    """选范文作品用的 style hint（设计 §4.2）：叙述人称、作品风格指令与类型，主控可改。"""
+    english = lang == "en"
+    lab = LABELS["en" if english else "zh"]
+    parts = [lab["persons"].get(conception.get("narration_person"), "")]
+    parts += [str(d) for d in conception.get("style_directives") or []]
+    if conception.get("genre"):
+        parts.append(lab["genre"] + str(conception["genre"]))
+    return ("; " if english else "；").join(p.strip() for p in parts if p and p.strip())
 
 
 def main(argv: list[str] | None = None) -> int:

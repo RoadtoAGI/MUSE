@@ -188,9 +188,49 @@ def test_entries_section_respects_total_cap(tmp_path, monkeypatch):
 def test_reuse_exception_and_retrieval_args(tmp_path):
     work = _run(tmp_path, reuse=True)
     awb.assemble_shortform(work)
-    assert "作者授权复用的来源按“作者要求”与设计使用" in _brief(work)
+    brief = _brief(work)
+    assert "下面列出的作者授权来源除外" in brief
+    assert "作者授权复用《狂病》的原文；其他作品照上面的限制。" in brief
     args = awb.retrieval_args(work)
     assert "--lang zh --original-only --person first --budget-chars 6000 --render exemplar --shortform-pack" in args
+    assert "--canon-reference-profile" in args
+    assert "--style-hint '第一人称；口语独白，像在跟熟人说话；类型：末世'" in args
+
+
+def test_reuse_scope_names_work_uses_and_avoided_domains(tmp_path):
+    work = _run(tmp_path)
+    _set_conception(work, canon_reference_profile={
+        "avoid_domains": ["reveal_structure"],
+        "user_reference_materials": [
+            {"work": "遮天", "stance": "prefer", "reuse_mode": "maximize_apt_reuse",
+             "intended_domains": ["world_rule", "protagonist_archetype"]},
+            {"work": "红楼梦", "stance": "prefer", "reuse_mode": "style_only"}]})
+    awb.assemble_shortform(work)
+    brief = _brief(work)
+    assert "作者授权复用《遮天》的原文，用于世界规则、主角原型，不用于揭示结构" in brief
+    assert "《红楼梦》" not in brief.split("## 指令")[1]
+
+
+def test_instruction_sets_punctuation_by_language_and_navigation_is_attached(tmp_path):
+    work = _run(tmp_path)
+    awb.assemble_shortform(work)
+    brief = _brief(work)
+    assert "对白的节奏与归属方式" in brief and "引号等标点按本篇语言的通行写法" in brief
+    nav = brief.split("## 手法导航")[1].split("## 条目")[0]
+    assert "- 节拍：压力中的动作与反应怎样推进" in nav and "- 声音差异：多人声线趋同时" in nav
+    assert "](" not in nav and "案例与全文" not in nav
+    assert 0 < _meta(work)["sections"]["手法导航"] <= 800
+
+
+def test_conception_changed_after_retrieval_is_flagged(tmp_path):
+    import os
+    work = _run(tmp_path)
+    _set_conception(work, narration_person="third")
+    pack = work / "pipeline/shortform/reference_pack.md"
+    later = pack.stat().st_mtime + 60  # 同一秒内写的两个文件 mtime 可能相等，显式拉开
+    os.utime(work / "pipeline/shortform/conception.yaml", (later, later))
+    awb.assemble_shortform(work)
+    assert any("取范文之后改过" in w for w in _meta(work)["warnings"])
 
 
 def test_cli_rejects_unbuilt_scopes(tmp_path):
@@ -237,7 +277,8 @@ def test_delivery_language_comes_from_conception_not_text(tmp_path):
     assert awb.retrieval_args(work).startswith("--lang en ")
     awb.assemble_shortform(work)
     assert "Narration: first person" in _brief(work)
-    assert _meta(work)["language"] == "en" and "warnings" not in _meta(work)
+    meta = _meta(work)
+    assert meta["language"] == "en" and not any("缺 language" in w for w in meta.get("warnings", []))
 
 
 def test_old_conception_without_language_is_inferred_with_warning(tmp_path):

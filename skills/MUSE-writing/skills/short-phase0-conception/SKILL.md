@@ -88,3 +88,20 @@ canon_reference_profile:                # 可选；与完整链共用字段语�
 - requirements 里每条都能在终稿中被指认（可核销）
 - 用户素材有创作价值的具体细节已进 reference_materials，而不是靠记忆携带
 - 手选名著的用途已落入 intended_domains；未从单一作品外推题材专属规则
+
+## 取本篇范文
+
+构想通过校验后立即取范文：只需要构想，人物阶段要对着它写示范句，成稿时复用同一份。范文窗口是从名著场景正文里连续截取的段落，与本篇同语言、同人称，供写作者学口吻。
+
+1. 取确定参数：
+
+```bash
+python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --retrieval-args
+```
+
+输出 `--lang`（取 language）、`--original-only`、`--person`（取 narration_person）、`--budget-chars 6000`、`--render exemplar --shortform-pack`、输出目录、`--style-hint`（由叙述人称、风格指令与类型拼成，决定选哪几部作品），有手选名著时带 `--canon-reference-profile`。
+
+2. 补 `--query`（人物处境与主要动作，一句话；它决定在选中的作品里取哪几场）；style_directives 写明口语或书面时补 `--register colloquial|literary`；同人、续写、改编点名原作时加 `--novel <原作>`。style hint 写得不像本篇口吻时可以改写，用文风卡的说法：叙述距离、用词、对白写法、节奏。用 canon 包 scene-reference 的 `kb_query.py` 执行，产物为 `pipeline/shortform/reference_pack.md`。
+3. 先读文件头：`pool` 行是候选池的构成，`windows` 下每个窗口一行描述（人称、语域、对白占比、该作品的口吻与对白写法）。口吻、题材或对白写法与本篇明显不合时，加 `--exclude-novel <作品>` 重查一次，其他参数不变；`results: 0` 写明了清空条件，库中该语言原作不够时可去掉 `--original-only` 或 `--register` 重查一次。两种重查都在交付说明里记录；仍无合用结果时成稿按“本篇无范文”处理，不拿旧文件凑。
+
+构想之后若改了叙述人称、语言或风格指令，装配简报时脚本会提示范文早于构想，按本节重取。
