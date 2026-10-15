@@ -25,6 +25,7 @@ description: 首次生成原创完整链的单场景正文，由主控派发；�
 | 9. `pipeline/phase1_world.yaml` | 对应字段存在 | 只读 `generative_driver / world_rules / creative_constraints / domain_knowledge` |
 | 10. 当前派发明确给出的有效 ref 路径（通常 `pipeline/references/{scene_id}_ref.md`） | 派发给出路径；给“无”或未给则跳过，目录中的旧文件无输入权 | 读取[参考采用契约](references/reference-adoption.md)及本次 ref 的元数据、使用约定与适用原文，已取得且仍有效时直接复用；从原文提炼本场有用的文风锚点，按需要关注语态、句段呼吸、词汇、对白或留白，内隐使用、不设数量。`<function_bridge>` 解释目标与来源场景的职责及迁移边界，缺失时直接理解原文。只处理当前来源契约采用的内容，`style_only` 不能扩大为情节、世界事实或原句复用义务；必要来源与作者条件冲突时交主控，普通可选参考缺失沿回退继续 |
 | 11. `pipeline/inspiration_ledger.yaml` 中 scene_card 列出的 INS-* 卡 | scene_card.md 含 `## 灵感引用 (inspiration_refs)` 段且段内列出 ID | 先用本场 scene card 已编码的叙事工作与候选承载落实该卡机制，`inspiration_refs` 只保留来源关系，不增加第二套兑现清单；卡内实际存在 `disclosure_ladder[]` 且有 `scene_id == 本场` 的 layer 时，按该 layer 的 `carrier` + `reader_inference` 完成分阶段信息释放并遵守 `do_not_explain[]`，否则不补造 early / mid / final 载体。ledger 不存在、无该段或 ID 为空 → 跳过 |
+| 12. `pipeline/stage/scene_{scene_id}/transcript.yaml` | 派发说明本场实况演出并给出路径 | 本场已经发生的交锋，是人物行为与对白的主要来源；读取[实况记录契约](references/live-transcript.md)后消费。实况场景没有 role move；需要人物新说一句时按契约在回复里提出索句 |
 
 **不读**：
 - 本场景自己产的 `pipeline/scenes/scene_{scene_id}.md`（ROLLBACK 档 fresh session 进来看到就忽略——已存在文件由 orchestrator 选择保留或覆盖）
@@ -44,7 +45,7 @@ writer 对正文的具体实现拥有最终裁量。执行输入时先分层：
 | 层级 | 内容 | 执行方式 |
 |---|---|---|
 | 故事不变量 | 用户要求的故事事实与成品效果、canon / 世界事实、人物连续性、角色长期边界、场景核心因果、必要结果、下场必须接住的 handoff | 保持其因果与语义结果成立；关键输入冲突导致这些要求无法同时成立时，回报主控并暂停本场 |
-| 当前来源采用契约 | 作者用途、采用领域及有效 ref 共同确定的文风、素材或原文要求 | 按[参考采用契约](references/reference-adoption.md)执行，明确的复用要求优先于个人措辞偏好；引用档位不能扩大作者用途 |
+| 当前来源采用契约 | 作者用途、采用领域及有效 ref 共同确定的文风、素材或原文要求；实况场景里人物说过的话 | 按[参考采用契约](references/reference-adoption.md)执行，明确的复用要求优先于个人措辞偏好；引用档位不能扩大作者用途。人物原话按[实况记录契约](references/live-transcript.md)保全 |
 | 场景实现素材 | scene_tasks / role moves 的具体动作、物件、局部顺序、对白候选与渲染详略 | 按阅读效果改写、合并、替换、调序或舍弃；只保留能完成场景功能的部分 |
 
 - 设计材料规定需要成为真的事实、因果与效果，正文决定变化怎样发生。多个输入或动作步骤承担同一叙事增量时，只合并对同一结果的复述；重复继续改变行动、关系、危险、理解、不可逆后果、形式效果或承担来源复用时保留。
@@ -72,6 +73,7 @@ writer 对正文的具体实现拥有最终裁量。执行输入时先分层：
 | `state.md` | 已记录时点的事实、关系感知、伤势、承诺和情绪 | 作为已有状态资料；结合 role_view 核对本场时点，不假定文件已自动更新 |
 | 本人的 `role_view` | 当前可知事实、可见刺激与真实限制 | 限定本场知识边界；不得用其他角色的 view 补全该角色 |
 | 可选 `role_move` | 角色对某一刺激的一次候选解释与行动 | 结合完整 scene card 改写、合并、调序或舍弃；不逐项兑现 |
+| 实况记录 | 本场已经发生的回合：各人做了什么、说了什么、谁听见看见，POV 人物的内心 | 决定从哪里进入、写哪些、怎样排；人物原话可删、截取、拆分，不改写，不替人物说没说过的话 |
 
 writer 为组织全场可以读取所有角色材料；每份材料只支配对应角色的行为。贴身 POV 只使用该人物当时可知、可感或能够形成的推断；全知或外部叙述按作品约定提供信息，其他角色材料不能变成该人物的知识。
 
@@ -129,7 +131,7 @@ scene_card.md 含 `## 世界观披露 (world_disclosure_plan)` 段时：`allow` 
 
 ## 产出约束
 
-- 正文**严格不含**设计 token、scene_card 标题或执行过程：`[核心]` / `[灵感]` / `[惊艳]` / `scene_tasks` / `handoff` / `value_start` / `value_end` / `spine_statement` / role view 与 role move 字段名 / “需成立的叙事工作”“目标叙事增量”“呈现建议”“入场处境”“离场结果”“关键转折”等投影标签 / 创作理论元话语；普通故事内用词不因同形而被禁
+- 正文**严格不含**设计 token、scene_card 标题或执行过程：`[核心]` / `[灵感]` / `[惊艳]` / `scene_tasks` / `handoff` / `value_start` / `value_end` / `spine_statement` / role view、role move 与实况记录的字段名 / “需成立的叙事工作”“目标叙事增量”“呈现建议”“入场处境”“离场结果”“关键转折”等投影标签 / 创作理论元话语；普通故事内用词不因同形而被禁
 - `target_length` 是用户给的参考目标，不是硬阻断——按场景节拍自然收束即可；不要为了凑字数加水或砍内容。正文落地后字数报告由 phase6 索引输出，仅供用户感知，**不触发 second writer pass**
 - `scene_{scene_id}.md` 首行**不加章节标题**（Phase 7 integration 统一编号）
 - ROLLBACK 档重跑时 fresh session 已保证不读旧 draft；不要主动假设"要比上次好"，按当前输入正常写

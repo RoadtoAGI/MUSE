@@ -1,6 +1,6 @@
 ---
 name: role-brief-deriver
-description: 为原创完整链的当前场景派生逐角色认知切片，供 actor 和 writer 使用；由同名 agent 加载，只过滤人物已知事实、可感刺激与实际限制。
+description: 为原创完整链的当前场景派生逐角色认知切片，供角色进程、actor 和 writer 使用；实况场景另写场外补记。由同名 agent 加载，只过滤人物已知事实、可感刺激与实际限制。
 ---
 
 # role-brief-deriver：Phase 6 runtime role_view 派生
@@ -40,6 +40,7 @@ scene_id
 | 角色 runtime package | 必需 | `story-character-skills/.claude/skills/{slug}/SKILL.md`（角色长期人设 / 声音权威源） | 失败退出 |
 | 角色 build-meta | 必需 | `story-character-skills/.claude/skills/{slug}/build-meta.yaml`（读取 `character_display_name`，用于 participant 与 slug 对齐） | 失败退出 |
 | 角色 runtime state | 可选 fallback | `story-character-skills/.claude/skills/{slug}/state.md` | 缺失时只使用角色 package 中已经成立的信息 |
+| 角色日记 | 实况场景必读 | `story-character-skills/.claude/skills/{slug}/diary/`，先后以 `stage/roster.yaml` 中该人物 `entries` 的顺序为准，标 `void` 的不算 | 没有日记时以 state.md 为起点 |
 | 前场景 draft 尾段 | 可选 fallback | `scene_{previous_scene_id}/draft_tail.md` | 仅提供局部衔接；缺失不补造事实 |
 | 相关当前有效正文 | 按需 | `scenes/scene_{id}.md`，由 Phase 5 时空与因果关系定位 | state / tail 不足以解释本场知识或约束时读取相关部分；未写的计划不作为已发生事实 |
 
@@ -49,6 +50,7 @@ scene_id
 
 - **逐角色文件**：`pipeline/scene_{scene_id}/role_views/{slug}.yaml`
 - 每个 `participant` 恰有一份同 slug 文件；不生成包含其他角色信息的合集版
+- 实况场景按需另写 `pipeline/scene_{scene_id}/offstage/{slug}.md`（场外补记，见下文“实况场景”）
 
 ### 输出 schema
 
@@ -84,6 +86,12 @@ constraints_now:
 - 使用白名单语义：未写入 role_view 的场景事实不向 actor 开放。不要用“角色不知道……”列出秘密；列出秘密本身会泄漏信息。
 - 事实切片保持具体。职业、性格和主题标签不能替代人物已经经历过什么、眼前实际发生什么。
 
+### 实况场景
+
+派发说明本场实况演出时，角色进程从自己的日记里记得此前的经历，role view 只交代开场这一刻。三个字段按此收窄：`observable_stimuli` 写开场一刻能看见、听见的表面；`constraints_now` 写身体、时间、资源与权限的实际限制，含义不变；`known_now` 只写人物最近一篇有效日记之后获知、且与本场有关的事，没有日记时以 state.md 为起点。人物对世界的长期认识由角色包与日记承载，不逐场重述。
+
+人物自最近一篇日记以来经历了没有实况演出的场景，或场景之间发生了影响他的事，另写场外补记 `pipeline/scene_{scene_id}/offstage/{slug}.md`。用第二人称按发生先后写他亲历、被告知或能观察到的事，例如"你在码头等了一夜，天亮时才听说船在上游翻了"；他不可能知道的部分、对手的盘算和他该怎样想都不写。补记只转述当前有效正文或已演实况里已经成立的事，不新增事件、对白或结果；没有这类经历就不写文件。已写进场外补记的经历，`known_now` 不再重复。舞台在开场前把补记送给人物，人物以日记记下。
+
 ## 执行步骤
 
 1. 读 `pipeline/phase5_scenes.yaml`，定位 `sequence_expansions[].scenes[]` 中 `scene_id == {当前 scene_id}` 的 scene_card，提取 `participants` 与本场事实；完整设计只供本 agent 判断哪些表面届时对当前角色可见，不原样下发
@@ -97,6 +105,7 @@ constraints_now:
    - 从 scene_card 筛出该角色届时可感的 `observable_stimuli`；只保留动作、话语、声音、物件或环境变化的表面，并为每项分配本文件内唯一的 `cue_*` id
    - 从来源筛出角色可感、且实际缩小本场行动集合的 `constraints_now`；删除伦理答案、表达策略与程序指令
    - 写 `pipeline/scene_{scene_id}/role_views/{slug}.yaml`
+   - 实况场景：按名册顺序读该人物的有效日记，确定最近一篇之后的经历；有场外经历时写 `offstage/{slug}.md`
 4. 确认 participants 对应的逐角色文件全部写毕；不生成 aggregate role brief
 
 ## 完成信号

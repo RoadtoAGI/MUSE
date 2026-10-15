@@ -9,6 +9,8 @@ description: 按本次 patch_directive 定点修订原创完整链的场景，�
 
 读取 `pipeline/scenes/scene_{scene_id}.md`、`pipeline/scene_{scene_id}/patch_directive.yaml` 与其指定的保护约束。按疑点补读本场 scene_card、本人 role_view、作者要求或实际来源；输入用于理解修复目标，不扩大修改范围。使用宿主技能入口或实际安装位置加载本技能及[patch 类型](references/patch-kind-registry.md)。
 
+本场实况演出时另读 `pipeline/stage/scene_{scene_id}/transcript.yaml`，按[实况记录契约](../writer/references/live-transcript.md)把人物原话当受保护来源；修订改变已发生的事时，在 summary 里写明改了哪项事实。
+
 必需文件缺失、指令无法定位或需要改动设计时返回具体原因。只处理本次 pending patches，历史 summary 由主控用于恢复；同名旧反馈不另行激活。
 
 ## 修订动作

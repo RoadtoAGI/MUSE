@@ -7,7 +7,7 @@ description: 裁决原创完整链的当前场景，结合正文、有效诊断�
 
 ## 输入与模式
 
-接收 work_dir、scene_id、本轮实际审阅来源及模式。读取 `pipeline/scenes/scene_{id}.md`、`pipeline/scene_{id}/scene_card.md`、当前 A findings 和本场现有 L1 报告（默认 ai_filler 与 dialogue 两份）；B/C 仅消费本次实际调用的有效结果，未调用则明确“无”。来源缺失、损坏或版本失效时写 `ESCALATED`、`review_incomplete: true` 与 `missing_inputs`，由主控补齐后重派；不把旧文件存在视为本轮成功。
+接收 work_dir、scene_id、本轮实际审阅来源及模式。读取 `pipeline/scenes/scene_{id}.md`、`pipeline/scene_{id}/scene_card.md`、当前 A findings 和本场现有 L1 报告（默认 ai_filler 与 dialogue 两份）；B/C 仅消费本次实际调用的有效结果，未调用则明确“无”。来源缺失、损坏或版本失效时写 `ESCALATED`、`review_incomplete: true` 与 `missing_inputs`，由主控补齐后重派；不把旧文件存在视为本轮成功。实况演出的场景可读本场 `pipeline/stage/scene_{id}/transcript.yaml`，作为人物声音与行为判断的依据。
 
 初审写 `pipeline/review/scene_{id}.yaml`；post-revision / post-rewrite 写 `scene_{id}.post_revision.yaml`，并先读[复审协议](references/post-revision-review.md)。当前模式已有有效结果时由主控复用；当前输入/正文改变且主控明确本次重审与替换权限时，读取旧结果作为问题依据并刷新该模式报告。未经本次授权不覆盖，返回 `ESCALATED(already_reviewed)`。
 

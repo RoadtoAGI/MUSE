@@ -15,7 +15,7 @@
 | Phase 4 结构 | Phase 3 的 Arc 与目标结果、人物轨迹和相关世界限制；展开序列、压力递进及真实因果依赖 | `phase4_structure.yaml` |
 | Phase 5 场景 | Phase 4 的序列、Phase 3 的组织力与读者信息、Phase 2 的人物关系、当前世界条件；确定场景职责、状态变化和交接 | `phase5_scenes.yaml` |
 | 设计校验与大纲审查 | Phase 0–5 的具体断言和引用；修复确定矛盾，取得作者对大纲的裁决 | `review/design_validation.yaml`、`run_state.yaml` 中的 `outline_gate` |
-| Phase 6 正文 | 场景卡、逐角色认知切片、角色资产、当前有效参考与前场尾摘；实现情境、人物选择和表达效果 | `scenes/scene_{id}.md`、`phase6_development.yaml` 及既有审阅产物 |
+| Phase 6 正文 | 场景卡、逐角色认知切片、角色资产、当前有效参考与前场尾摘，实况场景另有实况记录；实现情境、人物选择和表达效果 | `scenes/scene_{id}.md`、`phase6_development.yaml`、`stage/` 下的演出记录及既有审阅产物 |
 | Phase 7 整合 | Phase 6 索引、通过场景审阅的正文、原始创作意图；整合全文并作全文修订 | 工作目录根部 `story.md` |
 
 表内阶段文件均在 `pipeline/` 下。Phase 6 索引按 Phase 5 的呈现顺序列出场景；事件发生次序、场景 ID 与文件名排序各有用途，不能替代呈现顺序。未完成正文的场景保留索引位置，整合阶段须取得全部正文。
@@ -34,7 +34,7 @@
 
 Phase 2 YAML 承载作者侧人物轨迹、关系与背景；`story-character-skills/.claude/skills/{slug}/SKILL.md` 承载长期人格与声音，`state.md` 承载已记录的入场状态，`build-meta.yaml` 保存身份映射及构建来源。Phase 3 经 `build-report.md` 的 name→slug 映射读取主角状态；Phase 4/5 从 YAML 读取作者侧轨迹。
 
-Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`；普通场景直接交 writer，人物独有前提确实影响关键实现时，才派发相关 character-actor。writer 只读本次派发明确列出的可选 role move 和参考文件。详见 [Phase 6 技能](../../phase6-scene-development/SKILL.md)“人物路由”与[执行协议](../../phase6-scene-development/references/execution-protocol.md)的分支手册。
+Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`。两人以上交锋的场景可由 `live-staging` 实况演出，人物由常驻角色进程扮演并以日记积累记忆，writer 读实况记录；其余场景直接交 writer，人物独有前提确实影响关键实现时，才派发相关 character-actor。writer 只读本次派发明确列出的可选 role move 和参考文件。详见 [Phase 6 技能](../../phase6-scene-development/SKILL.md)“人物路由”与[执行协议](../../phase6-scene-development/references/execution-protocol.md)的分支手册。
 
 `state.md` 可能仅覆盖故事入口。派发结合场景时点与前文选择有效事实；初始状态、未来轨迹和其他角色的秘密不能自动成为本场人物知识。尾摘负责文字衔接，角色可知范围由 role view 给出。
 

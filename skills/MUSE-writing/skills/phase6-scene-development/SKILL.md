@@ -1,6 +1,6 @@
 ---
 name: phase6-scene-development
-description: 原创完整链的正文与场景审修编排，由 story-writing 推进到场景展开时调用；协调角色视图、按需排练、writer 和修订，单段润色由 prose-craft 或 dialogue-craft 承接。
+description: 原创完整链的正文与场景审修编排，由 story-writing 推进到场景展开时调用；协调角色视图、实况演出或按需排练、writer 和修订，单段润色由 prose-craft 或 dialogue-craft 承接。
 ---
 
 # Phase 6: 场景展开
@@ -12,8 +12,9 @@ description: 原创完整链的正文与场景审修编排，由 story-writing �
 ```text
 核对当前设计与既有场景
   -> 按 Phase 5 呈现顺序完成尚缺正文
-       -> role-brief-deriver -> 逐角色 role views
-       -> 当前有效参考 / 条件 character-actor
+       -> role-brief-deriver -> 逐角色 role views（实况场景另有场外补记）
+       -> 实况场景：live-staging 演出 -> 实况记录
+          其余场景：当前有效参考 / 条件 character-actor
        -> writer -> draft_tail
   -> 全场正文就绪（evaluation/smoke 到此直接 -> 索引 -> Phase 7）
        -> L1 lint（定位线索）-> A + 条件 B/C -> scene-review
@@ -40,6 +41,7 @@ description: 原创完整链的正文与场景审修编排，由 story-writing �
 | `scene_{previous_scene_id}/draft_tail.md` | 呈现前场的文字衔接；previous_scene_id 由 Phase 5 顺序给出，首场为“无” |
 | 相关当前有效正文 | deriver 在知识/约束缺口处按故事时点与获知渠道补读；呈现次序不代表事件先后 |
 | 本轮 reference 与 role moves | 仅消费当前派发明示授权的路径和 slug；目录中旧文件不自动生效 |
+| `stage/scene_{scene_id}/transcript.yaml` | 实况场景的人物输入：本场已经发生的交锋；writer 与修订者按[实况记录契约](../writer/references/live-transcript.md)消费 |
 
 ## 工作目录与恢复
 
@@ -58,6 +60,7 @@ description: 原创完整链的正文与场景审修编排，由 story-writing �
 - 已有 review 仅在输入、正文和来源选择仍适用时复用。待应用 patch 先核对当前锚点及 application_id，按下方“全场审阅与四档路由”继续；不另设紧急修订流程。
 - 必需人物输入失败时暂停依赖该输入的场景与后续场景，不让后场把未成立的计划当已发生事实。无此依赖的工作可以继续；在现有完成状态中保留具体缺口。
 - `state.md` 是已有状态资料，可能只覆盖故事入口。按故事时点、获知渠道及相关当前有效正文补足 role view；未来场景的知识不能倒灌，actor/writer 不写 state。
+- 实况场景按舞台状态恢复：`stage.py status` 给出各场演出状态与待核标记，演出中断的场景从暂停点继续，已收场的场景直接进入 writer。
 
 ## 逐场创作
 
@@ -75,6 +78,12 @@ python3 "$MUSE_WRITING_ROOT/scripts/extract_scene_card.py" \
 ```
 
 恢复时只重建受已变输入影响的视图。主控不补写角色答案或正文。
+
+### 实况演出
+
+两名以上在场人物的追求相互阻碍，且这一场的变化主要经由他们之间的交锋发生时，本场实况演出；单人场、功能性过场、信息由叙述给出的场景走下面的直写路径。`pipeline/run_state.yaml` 的 `live_staging` 取 `off`（都不演出）、`auto`（主控逐场判断，缺省值）或 `all`（两人以上在场的场景都演出），对 `release` 与 `evaluation` 同样适用；判断理由写进本场 `setup.yaml` 的 `reason`。
+
+实况场景派 deriver 时说明本场实况演出，role view 按实况含义写，并按需写场外补记。随后加载 [live-staging](../live-staging/SKILL.md)，按其协议写 setup、演出、收场，再派 writer。实况场景不派 character-actor：人物的选择已经在演出里由人物自己作出。
 
 ### 人物路由与可选 actor
 
@@ -94,7 +103,7 @@ writer 派发明确“本轮可读 role move 角色：[...]”；空列表不读
 
 ### writer 派发
 
-派发包含：工作目录、本包位置、scene_id、前场 ID、本轮有效 reference 路径或“无”、获准 role move slugs；ROLLBACK 另给当前裁决目标和必须保持的已接受事实/保护关系。调用 `writer` 的职责与输入清单，输出唯一正文 `pipeline/scenes/scene_{scene_id}.md`。
+派发包含：工作目录、本包位置、scene_id、前场 ID、本轮有效 reference 路径或“无”、获准 role move slugs；实况场景改给实况记录路径，不给 role move。ROLLBACK 另给当前裁决目标和必须保持的已接受事实/保护关系。调用 `writer` 的职责与输入清单，输出唯一正文 `pipeline/scenes/scene_{scene_id}.md`。writer 回复里提出索句时，按 live-staging 取回人物的回答，再让原 writer 接着写。
 
 `counter_prior_scene.used=true` 时传已有 `kind / mundane_action / emotional_context / forbidden_moves`，让 writer 理解所选日常行为的作用。只传设计中实际存在且适用的限制，不自动追加“不得象征化”或“不得心理解释”。候选实现仍按 writer 的权责层级取舍。
 
@@ -168,6 +177,7 @@ hook 注册见本包 `hooks/hooks.json`，现只保留写前保护与预检、YA
 - `pipeline/scenes/scene_{id}.md`：每场唯一正文，纯 Markdown，无设计标签或执行批注。
 - `pipeline/scene_{scene_id}/role_views/{slug}.yaml`：逐角色当前认知切片；可选 role move 位于 `pipeline/staging/scene_{scene_id}/{slug}_role_move.yaml`。
 - `pipeline/scene_{scene_id}/draft_tail.md`：从当前正文提取的尾摘。
+- `pipeline/stage/`：实况场景的名册、setup、实况记录与日志；人物目录下的 `diary/` 是舞台写入的日记。
 - `pipeline/phase6_development.yaml`：场景索引，正文完成或修改后由 `generate_phase6_index.py` 更新路径、顺序与字数；[输出结构](references/output-schema.md)列明字段用途。
 
 PATCH 应用、ROLLBACK 重写、复审与可选机器 lane 的命令由执行协议维护。只读 state 与相关正文足以支撑当前输入，不为缺少状态事务另建阻断或交付物。

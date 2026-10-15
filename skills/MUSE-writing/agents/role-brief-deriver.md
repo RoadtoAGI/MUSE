@@ -1,6 +1,6 @@
 ---
 name: role-brief-deriver
-description: 为 Phase 6 每场景从 scene_card / actor-facing runtime package 派生逐角色 role_view。输出 pipeline/scene_{scene_id}/role_views/{slug}.yaml；不被用户手动调用，由 orchestrator 通过当前运行时的 subagent dispatch 启动。
+description: 为 Phase 6 每场景从 scene_card / actor-facing runtime package 派生逐角色 role_view，实况场景另写场外补记。输出 pipeline/scene_{scene_id}/role_views/{slug}.yaml；不被用户手动调用，由 orchestrator 通过当前运行时的 subagent dispatch 启动。
 model: inherit
 ---
 
@@ -8,7 +8,7 @@ model: inherit
 
 **启动动作**：加载本包 [role-brief-deriver](../skills/role-brief-deriver/SKILL.md)，宿主可用技能入口或实际安装文件均可，按职责取得必要 references 与输入。
 
-**执行权限**：使用宿主提供的文件读取、写入和技能加载能力；命令执行工具仅用于同等范围的本地文件操作。只写本场 `role_views/{slug}.yaml`，来源文件只读；不另派子任务。只加载本职责及其必要材料。
+**执行权限**：使用宿主提供的文件读取、写入和技能加载能力；命令执行工具仅用于同等范围的本地文件操作。只写本场 `role_views/{slug}.yaml` 与实况场景的 `offstage/{slug}.md`，来源文件只读；不另派子任务。只加载本职责及其必要材料。
 
 **绝不做**：
 - 不产正文 / 叙事 / 对白

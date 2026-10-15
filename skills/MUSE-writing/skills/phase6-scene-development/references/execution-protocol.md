@@ -22,7 +22,7 @@ complete 只证明应用动作完成；主控不依据 family 数量、literal-o
 
 ## ROLLBACK 重写
 
-按 SKILL“逐场创作”更新受影响的 scene card/role views，明确本轮 actor/ref 授权，向 fresh writer 交当前裁决目标与已接受的事实、关系和 literal 保护。旧稿不作为重写范文；必须保持的内容仍须进入当前输入。重写成功后刷新当前 lint 和尾摘，并准备既有保护批次：
+按 SKILL“逐场创作”更新受影响的 scene card/role views，明确本轮 actor/ref 授权，向 fresh writer 交当前裁决目标与已接受的事实、关系和 literal 保护。旧稿不作为重写范文；必须保持的内容仍须进入当前输入。实况场景沿用本场实况记录，事件不变；裁决要求改变已发生的事时，按 [live-staging](../../live-staging/SKILL.md) 的“事实改变后的记忆”处理后再重写。重写成功后刷新当前 lint 和尾摘，并准备既有保护批次：
 
 ```bash
 python3 "$MUSE_WRITING_ROOT/scripts/protected_integrity.py" prepare-post-rewrite \

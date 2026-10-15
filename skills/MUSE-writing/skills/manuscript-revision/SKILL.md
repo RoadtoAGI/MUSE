@@ -16,7 +16,7 @@ description: 修订原创完整链的整合稿 story.md，由 manuscript-reviser
 
 正文 `story.md` 是本阶段的修改对象。按疑点读取 Phase 0 的作者要求、风格和来源选择，Phase 1–4 的世界、人物、知识与必要因果，Phase 5 的场景目的、边界与 handoff，以及当前采用的 ledger/参考。相关角色包可补人格与声音；作者分析和未来轨迹不能写成人物自知。涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
 
-各场景的 `protected_integrity.yaml` 给出受保护内容与关系；改动须保留这些约束。无需通读整个 pipeline 或重扫历史 L1/L2/L3；历史报告只在本次问题需要回查时提供线索，并先确认正文和既有处置。
+各场景的 `protected_integrity.yaml` 给出受保护内容与关系；改动须保留这些约束。实况演出的场景另有 `pipeline/stage/scene_{id}/transcript.yaml`，人物原话按[实况记录契约](../writer/references/live-transcript.md)保全；修订改变已发生的事时，在 revision_summary 里写明场景与改了哪项事实。无需通读整个 pipeline 或重扫历史 L1/L2/L3；历史报告只在本次问题需要回查时提供线索，并先确认正文和既有处置。
 
 ## 处置过程
 
