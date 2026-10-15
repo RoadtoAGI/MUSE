@@ -1,6 +1,8 @@
 novel: 冰与火之歌Ⅲ·冰雨的风暴
 author: 乔治·R·R·马丁
 lang: zh
+original_lang: en
+narrative_person_override: third
 translator: ''
 narration_voice: 多POV限知贴身，每章被视角人物欲望和误判染色
 diction: 译文文白相济，宫廷礼语、军政词、粗口和异域名词并置

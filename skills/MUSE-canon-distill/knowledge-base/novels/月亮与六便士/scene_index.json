@@ -28,7 +28,11 @@
       "dialogue_mode": "叙述铺垫多，对白短促揭示落差",
       "pacing": "长段心理推理后接细节推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.343
   },
   {
     "scene_id": "S04",
@@ -60,7 +64,11 @@
       "dialogue_mode": "多人轮番质询，对白推动误判升级",
       "pacing": "客厅静态争辩中逐层反转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.527
   },
   {
     "scene_id": "S05",
@@ -92,7 +100,11 @@
       "dialogue_mode": "寒暄密集，叙述补足人物关系",
       "pacing": "热闹动作后放慢为肖像凝视"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.412
   },
   {
     "scene_id": "S07",
@@ -124,7 +136,11 @@
       "dialogue_mode": "夫妻对峙密集，少量叙述标注动作",
       "pacing": "问答逼近，情绪台阶清晰"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.492
   },
   {
     "scene_id": "S08",
@@ -157,7 +173,11 @@
       "dialogue_mode": "独白式倾诉为主，对白承接噩耗",
       "pacing": "夜访开场急，回述处压低放慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.462
   },
   {
     "scene_id": "S09",
@@ -189,7 +209,11 @@
       "dialogue_mode": "对白稀疏，叙述承担情绪推进",
       "pacing": "事件后果缓慢展开，留白多"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.228
   },
   {
     "scene_id": "S10",
@@ -220,7 +244,11 @@
       "dialogue_mode": "少量对白点破羞辱，叙述评议居多",
       "pacing": "先概括处境，再推进冲突余波"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.102
   },
   {
     "scene_id": "S14",
@@ -252,7 +280,11 @@
       "dialogue_mode": "问答嵌长叙述，口述带地方气息",
       "pacing": "景物铺陈慢，信息在谈话中递进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.322
   },
   {
     "scene_id": "S15",
@@ -283,7 +315,11 @@
       "dialogue_mode": "对白很少，叙述压缩生死过程",
       "pacing": "关键事实快速落下，余味留空"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.049
   },
   {
     "scene_id": "S16a",
@@ -314,7 +350,11 @@
       "dialogue_mode": "对白退后，描述承担全部张力",
       "pacing": "由细看转入精神震动，层层加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.532
   },
   {
     "scene_id": "S16b",
@@ -347,7 +387,11 @@
       "dialogue_mode": "客厅寒暄与叙述反讽交替",
       "pacing": "离岛抒情短促，伦敦段细密铺排"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.207
   },
   {
     "scene_id": "S03b",
@@ -378,7 +422,11 @@
       "dialogue_mode": "短句拒绝强硬，叙述翻译心理差",
       "pacing": "闲谈铺开后突然以羞辱收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.106
   },
   {
     "scene_id": "S11",
@@ -410,7 +458,11 @@
       "dialogue_mode": "审问式对白，冷答制造道德震动",
       "pacing": "长段议论后进入锋利问答"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.328
   },
   {
     "scene_id": "S12",
@@ -443,6 +495,10 @@
       "dialogue_mode": "少量对白镶嵌，主体是讲述故事",
       "pacing": "开篇哲思慢铺，经历压缩成转折"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.245
   }
 ]

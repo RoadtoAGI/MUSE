@@ -33,7 +33,11 @@
       "dialogue_mode": "叙述转述为主，对白只点性格",
       "pacing": "日常铺垫慢，末句留祸根"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S02",
@@ -68,7 +72,11 @@
       "dialogue_mode": "行动推进，几乎无完整对白",
       "pacing": "短场景快速转折，停在行动前"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S03",
@@ -105,7 +113,11 @@
       "dialogue_mode": "转述争执，角色反应显性",
       "pacing": "连续灾像堆叠，决策后留白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S04",
@@ -141,7 +153,11 @@
       "dialogue_mode": "喊话转述推动逃生协作",
       "pacing": "战斗长句推进，结尾骤然松弛"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S05",
@@ -179,7 +195,11 @@
       "dialogue_mode": "电话声音制造场外崩塌",
       "pacing": "伤口检查慢，电话连续下坠"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.042
   },
   {
     "scene_id": "XX-S06",
@@ -215,7 +235,11 @@
       "dialogue_mode": "引用评论和视频讲述设定",
       "pacing": "信息流层层展开，末尾回收狗子"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.031
   },
   {
     "scene_id": "XX-S07",
@@ -250,7 +274,11 @@
       "dialogue_mode": "谈判和辱骂交替升级",
       "pacing": "拖长对峙，突然由旁人终结"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S08",
@@ -284,7 +312,11 @@
       "dialogue_mode": "三人商量，条件交换清楚",
       "pacing": "大段利弊分析后逼出选择"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S09",
@@ -322,7 +354,11 @@
       "dialogue_mode": "喊话短促，行动压过对白",
       "pacing": "密集追逐不断加压，死亡突停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S10",
@@ -358,7 +394,11 @@
       "dialogue_mode": "几乎无对白，内心独白主导",
       "pacing": "计划慢写，分隔线后极速绝望"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "XX-S11",
@@ -392,7 +432,11 @@
       "dialogue_mode": "少量感叹句点出人物性格",
       "pacing": "快速收尸转场，以讽刺余味结尾"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "DT-S01",
@@ -427,7 +471,11 @@
       "dialogue_mode": "对白密集，互怼建立关系",
       "pacing": "日常拥挤慢铺，广播制造异样"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.129
   },
   {
     "scene_id": "DT-S02",
@@ -461,7 +509,11 @@
       "dialogue_mode": "短问短答推动确认危机",
       "pacing": "列车掠过压缩信息，广播再加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.071
   },
   {
     "scene_id": "DT-S03",
@@ -497,7 +549,11 @@
       "dialogue_mode": "争辩转为尖叫和命令",
       "pacing": "拥挤窒息后爆裂释放"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.029
   },
   {
     "scene_id": "DT-S04",
@@ -532,7 +588,11 @@
       "dialogue_mode": "陆霞克碎嘴缓冲恐惧",
       "pacing": "冲撞高速后转入路线讨论"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.077
   },
   {
     "scene_id": "DT-S05",
@@ -570,7 +630,11 @@
       "dialogue_mode": "行动口令和吐槽交错",
       "pacing": "窥视慢压迫，电轨战节奏加快"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.086
   },
   {
     "scene_id": "DT-S06",
@@ -604,7 +668,11 @@
       "dialogue_mode": "寒暄式对白缓和余震",
       "pacing": "战后停顿短，迅速接回主线"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.113
   },
   {
     "scene_id": "DT-S07",
@@ -641,7 +709,11 @@
       "dialogue_mode": "求救按钮对白承担世界信息",
       "pacing": "先喘息再规划，安全感持续被削"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.326
   },
   {
     "scene_id": "DT-S08",
@@ -678,7 +750,11 @@
       "dialogue_mode": "闲话转亲情危机，语气压低",
       "pacing": "休息段落慢，电话细节制造窒息"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.126
   },
   {
     "scene_id": "DT-S09",
@@ -712,7 +788,11 @@
       "dialogue_mode": "直播独白和评论尝试推进",
       "pacing": "信息检索慢，直播遇害骤然加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.069
   },
   {
     "scene_id": "DT-S10",
@@ -752,7 +832,11 @@
       "dialogue_mode": "计划对白细密，反转后威胁直白",
       "pacing": "长计划铺垫，感染反转突然坠落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.084
   },
   {
     "scene_id": "DT-S11",
@@ -790,7 +874,11 @@
       "dialogue_mode": "告别对白少而直，尾声转述",
       "pacing": "漫长跋涉后以牺牲式断后收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.09
   },
   {
     "scene_id": "RS-S01",
@@ -820,7 +908,11 @@
       "dialogue_mode": "转述周全讲述，少现场对白",
       "pacing": "背景压缩进入，靠感官建危机"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "RS-S02",
@@ -850,7 +942,11 @@
       "dialogue_mode": "同伴短句呈现认知差",
       "pacing": "行进缓慢，嗅觉一点点加重"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.159
   },
   {
     "scene_id": "RS-S03",
@@ -881,7 +977,11 @@
       "dialogue_mode": "质疑和解释拖出预警",
       "pacing": "回忆慢收束，坠落袭击突然爆开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.028
   },
   {
     "scene_id": "RS-S04",
@@ -911,7 +1011,11 @@
       "dialogue_mode": "争执转述，周全威胁压住内讧",
       "pacing": "山路慢行，静默伏击突然收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.006
   },
   {
     "scene_id": "RS-S05",
@@ -941,7 +1045,11 @@
       "dialogue_mode": "短命令和抱怨引爆危机",
       "pacing": "潜行极慢，暴露后连续奔逃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.004
   },
   {
     "scene_id": "RS-S06",
@@ -969,7 +1077,11 @@
       "dialogue_mode": "三人低声商量生死方案",
       "pacing": "密闭绝望慢压，爆炸声突然解围"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.003
   },
   {
     "scene_id": "RS-S07",
@@ -997,7 +1109,11 @@
       "dialogue_mode": "对白极少，周全说明承担信息",
       "pacing": "希望逐步上升，末句骤然坠落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "RS-S08",
@@ -1026,7 +1142,11 @@
       "dialogue_mode": "周全长句坦白保护动机",
       "pacing": "追逐后喘息，哮喘再逼新危机"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.097
   },
   {
     "scene_id": "RS-S09",
@@ -1053,7 +1173,11 @@
       "dialogue_mode": "周全独白交代最后行动",
       "pacing": "离别后减速，呼吸困难拖长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "RS-S10",
@@ -1081,7 +1205,11 @@
       "dialogue_mode": "周全疯话和罗允转述对照",
       "pacing": "死亡临近慢，救援后情绪爆开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.108
   },
   {
     "scene_id": "KR-S01",
@@ -1117,7 +1245,11 @@
       "dialogue_mode": "录音独白主导，罗允无对白",
       "pacing": "藏身喘息短，录音连续扩张恶意"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.128
   },
   {
     "scene_id": "KR-S02",
@@ -1151,7 +1283,11 @@
       "dialogue_mode": "无现场对白，环境替代对话",
       "pacing": "搜查步步放慢，地下室集中震慑"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.009
   },
   {
     "scene_id": "KR-S03",
@@ -1185,7 +1321,11 @@
       "dialogue_mode": "独白复盘，引用受害反应",
       "pacing": "骗局慢铺，望远镜虐杀作高潮"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "KR-S04",
@@ -1223,7 +1363,11 @@
       "dialogue_mode": "转述争吵，骗局靠说辞推进",
       "pacing": "话术层层驯化，结尾埋计划"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.062
   },
   {
     "scene_id": "KR-S05",
@@ -1261,7 +1405,11 @@
       "dialogue_mode": "合作对白掩盖操控意图",
       "pacing": "搜索潜行慢，围攻逃脱后闲谈"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.031
   },
   {
     "scene_id": "KR-S06",
@@ -1297,7 +1445,11 @@
       "dialogue_mode": "恋人叮嘱和吴先生闲谈对照",
       "pacing": "清晨温情慢，梦魇突刺不安"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.008
   },
   {
     "scene_id": "KR-S07",
@@ -1334,7 +1486,11 @@
       "dialogue_mode": "吴先生冷静指挥制造信任",
       "pacing": "观察慢压，俘虏段极端延宕"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "KR-S08",
@@ -1371,7 +1527,11 @@
       "dialogue_mode": "酒后闲谈引出突发惨叫",
       "pacing": "庆功慢放，破门后瞬间崩坏"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "KR-S09",
@@ -1408,7 +1568,11 @@
       "dialogue_mode": "吴先生独白击碎幸存者信念",
       "pacing": "审问慢揭示，精神崩溃作收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.06
   },
   {
     "scene_id": "KR-S10",
@@ -1444,7 +1608,11 @@
       "dialogue_mode": "赵维胜诅咒引出恶人自述",
       "pacing": "辩白渐长，气死结局突发"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "KR-S11",
@@ -1479,7 +1647,11 @@
       "dialogue_mode": "录音直接对听者发话",
       "pacing": "威胁递进，罗允以行动反制"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.189
   },
   {
     "scene_id": "EE-S01",
@@ -1516,7 +1688,11 @@
       "dialogue_mode": "求饶和炫耀构成权力差",
       "pacing": "伏击迅速，折磨过程故意拖长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.063
   },
   {
     "scene_id": "EE-S02",
@@ -1551,7 +1727,11 @@
       "dialogue_mode": "同伙闲聊暴露价值观",
       "pacing": "清理现场快，日常转场缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.11
   },
   {
     "scene_id": "EE-S03",
@@ -1590,7 +1770,11 @@
       "dialogue_mode": "粗口争吵引出群体失控",
       "pacing": "小冲突滚雪球，逃亡时全面爆发"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.072
   },
   {
     "scene_id": "EE-S04",
@@ -1628,7 +1812,11 @@
       "dialogue_mode": "多方问答建立临时队伍",
       "pacing": "盘问中速推进，邪念暗线结尾"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.244
   },
   {
     "scene_id": "EE-S05",
@@ -1671,7 +1859,11 @@
       "dialogue_mode": "投票争论推动路线选择",
       "pacing": "情报后讨论拉长，决定后提速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.104
   },
   {
     "scene_id": "EE-S06",
@@ -1708,7 +1900,11 @@
       "dialogue_mode": "少量抱怨声衬托内心独白",
       "pacing": "行军慢，回忆插入拉开心理层"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.044
   },
   {
     "scene_id": "EE-S07",
@@ -1748,7 +1944,11 @@
       "dialogue_mode": "几乎无对白，以记忆替代交流",
       "pacing": "死亡现场慢放，回忆片段跳切"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.002
   },
   {
     "scene_id": "EE-S08",
@@ -1787,7 +1987,11 @@
       "dialogue_mode": "挑拨对白推动权力倒向",
       "pacing": "失物焦虑慢铺，张彤落单急转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.124
   },
   {
     "scene_id": "EE-S09",
@@ -1825,7 +2029,11 @@
       "dialogue_mode": "谋杀后对口供，冷静实用",
       "pacing": "夜间换班慢，杀警动作骤快"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.148
   },
   {
     "scene_id": "EE-S10",
@@ -1864,7 +2072,11 @@
       "dialogue_mode": "罗允审问式独白主导",
       "pacing": "醒来慢揭局，观刑段持续折磨"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.355
   },
   {
     "scene_id": "EE-S11",
@@ -1900,7 +2112,11 @@
       "dialogue_mode": "罗允点评摧毁最后执念",
       "pacing": "精神处刑慢，尾声轻巧转场"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.403
   },
   {
     "scene_id": "SB-S01",
@@ -1935,7 +2151,11 @@
       "dialogue_mode": "手机聊天和旅客闲谈铺垫",
       "pacing": "登机流程缓慢，暴力事件渐密"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.139
   },
   {
     "scene_id": "SB-S02",
@@ -1972,7 +2192,11 @@
       "dialogue_mode": "哥哥崩溃台词引爆灾变",
       "pacing": "围观慢，机场多点呼叫加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.085
   },
   {
     "scene_id": "SB-S03",
@@ -2006,7 +2230,11 @@
       "dialogue_mode": "几乎无对白，视频画面推进",
       "pacing": "飞机推出缓慢，候机厅灾像递进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.061
   },
   {
     "scene_id": "SB-S04",
@@ -2044,7 +2272,11 @@
       "dialogue_mode": "投诉对白和乘务呼救对撞",
       "pacing": "颠簸中慢发现，后舱瞬间失控"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.101
   },
   {
     "scene_id": "SB-S05",
@@ -2082,7 +2314,11 @@
       "dialogue_mode": "驾驶舱冷静对白压住恐慌",
       "pacing": "客舱屠杀扩散，判断线保持克制"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.021
   },
   {
     "scene_id": "SB-S06",
@@ -2120,7 +2356,11 @@
       "dialogue_mode": "广播命令主导节奏转换",
       "pacing": "堵门濒死后靠机动反复冲刺"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.044
   },
   {
     "scene_id": "SB-S07",
@@ -2157,7 +2397,11 @@
       "dialogue_mode": "机长解释方案，幸存者追问",
       "pacing": "高空观察慢，减压处置冷硬"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.045
   },
   {
     "scene_id": "SB-S08",
@@ -2196,7 +2440,11 @@
       "dialogue_mode": "机长短令和求生回应交替",
       "pacing": "坠机慢镜后，跑杀段持续加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.037
   },
   {
     "scene_id": "SB-S09",
@@ -2235,7 +2483,11 @@
       "dialogue_mode": "两人商量去向，现实约束明确",
       "pacing": "埋葬慢，找车路线逐渐收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.077
   },
   {
     "scene_id": "SB-S10",
@@ -2273,7 +2525,11 @@
       "dialogue_mode": "对白退场，行动和书信主导",
       "pacing": "事故连续跳切，求生日夜拉长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "SB-S11",
@@ -2312,7 +2568,11 @@
       "dialogue_mode": "罗允洪扬闲谈消解苦难",
       "pacing": "重逢幻觉短促，遗信后余波拉远"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.125
   },
   {
     "scene_id": "YY-S01",
@@ -2347,7 +2607,11 @@
       "dialogue_mode": "无对白，噩梦画面压倒叙述",
       "pacing": "梦中行动迟滞，惊醒后骤停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "YY-S02",
@@ -2385,7 +2649,11 @@
       "dialogue_mode": "大厅介绍和争执建立群像",
       "pacing": "新客到来中速，张华插话扰动"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.003
   },
   {
     "scene_id": "YY-S03",
@@ -2426,7 +2694,11 @@
       "dialogue_mode": "群体问答引出多段往事",
       "pacing": "晚餐慢铺，争执反复打断叙事"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.059
   },
   {
     "scene_id": "YY-S04",
@@ -2459,7 +2731,11 @@
       "dialogue_mode": "王幸子低声传递危险情报",
       "pacing": "噩梦醒来慢，情报一句扭转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "YY-S05",
@@ -2497,7 +2773,11 @@
       "dialogue_mode": "密谈对白推动信息公开失败",
       "pacing": "逐人排查慢，偷听暴露后失控"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.01
   },
   {
     "scene_id": "YY-S06",
@@ -2533,7 +2813,11 @@
       "dialogue_mode": "罗允追问促成理论说明",
       "pacing": "解释段长，数字推演带来微光"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.068
   },
   {
     "scene_id": "YY-S07",
@@ -2576,7 +2860,11 @@
       "dialogue_mode": "集体质问把嫌疑钉死",
       "pacing": "救火快，指控和殴打逐步升级"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.053
   },
   {
     "scene_id": "YY-S08",
@@ -2612,7 +2900,11 @@
       "dialogue_mode": "安慰对话承认无人是主角",
       "pacing": "病情说明慢，盲女死讯静落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.053
   },
   {
     "scene_id": "YY-S09",
@@ -2651,7 +2943,11 @@
       "dialogue_mode": "惊呼和推断接力推进",
       "pacing": "饭菜发现快，二楼门锁悬停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.024
   },
   {
     "scene_id": "YY-S10",
@@ -2691,7 +2987,11 @@
       "dialogue_mode": "石浩洋长独白揭开全局",
       "pacing": "门缝袭击爆开，真相独白拖长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.058
   },
   {
     "scene_id": "HJ-S01",
@@ -2729,7 +3029,11 @@
       "dialogue_mode": "罗允洪扬低声闲谈压住惨景",
       "pacing": "年夜慢铺，望远镜暴行持续延长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.119
   },
   {
     "scene_id": "HJ-S02",
@@ -2765,7 +3069,11 @@
       "dialogue_mode": "短评式对白调节猎奇画面",
       "pacing": "绕行等待慢，野猪围杀成高潮"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.073
   },
   {
     "scene_id": "HJ-S03",
@@ -2801,7 +3109,11 @@
       "dialogue_mode": "战术短句和吐槽穿插",
       "pacing": "搜物资渐松，感染者合围骤紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.023
   },
   {
     "scene_id": "HJ-S04",
@@ -2838,7 +3150,11 @@
       "dialogue_mode": "临死玩笑和欢迎词形成反差",
       "pacing": "背水一战蓄满，电梯门缓慢开新局"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.149
   },
   {
     "scene_id": "HJ-S05",
@@ -2878,7 +3194,11 @@
       "dialogue_mode": "罗凯伯审问式寒暄主导",
       "pacing": "饭桌缓慢试探，嘲笑逐步围拢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.217
   },
   {
     "scene_id": "HJ-S06",
@@ -2914,7 +3234,11 @@
       "dialogue_mode": "床上低语揭出不安推理",
       "pacing": "安全环境慢谈，疑点一点点浮出"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.103
   },
   {
     "scene_id": "HJ-S07",
@@ -2954,7 +3278,11 @@
       "dialogue_mode": "罗允旁敲侧击套出制度",
       "pacing": "闲聊慢探，判断转为行动预感"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.256
   },
   {
     "scene_id": "HJ-S08",
@@ -2993,7 +3321,11 @@
       "dialogue_mode": "小声指令维持潜行秩序",
       "pacing": "潜行极慢，尸景层层压低呼吸"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.046
   },
   {
     "scene_id": "HJ-S09",
@@ -3030,7 +3362,11 @@
       "dialogue_mode": "秦正肖长段解释大厦生态",
       "pacing": "危机后缓谈，情报逐条展开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.041
   },
   {
     "scene_id": "HJ-S10",
@@ -3072,7 +3408,11 @@
       "dialogue_mode": "罗允宣言和罗凯伯冷嘲对撞",
       "pacing": "骗局快成型，谈判中段拉长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.227
   },
   {
     "scene_id": "HJ-S11",
@@ -3115,7 +3455,11 @@
       "dialogue_mode": "监控对白显示权力调度",
       "pacing": "外部浪潮推进，楼内个案慢杀"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.113
   },
   {
     "scene_id": "HJ-S12",
@@ -3155,7 +3499,11 @@
       "dialogue_mode": "罗允逼迫众人面对感染者",
       "pacing": "枪声引诱慢，关门前极限反转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.161
   },
   {
     "scene_id": "HJ-S13",
@@ -3196,7 +3544,11 @@
       "dialogue_mode": "罗凯伯坦白残酷选择逻辑",
       "pacing": "高层谈判慢，外部反攻突然点燃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.234
   },
   {
     "scene_id": "51-S01",
@@ -3228,7 +3580,11 @@
       "dialogue_mode": "内心独白解释特殊运气",
       "pacing": "濒死慢放，逃出后回忆插入"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "51-S02",
@@ -3261,7 +3617,11 @@
       "dialogue_mode": "张亦川刺成云丹互补闲聊",
       "pacing": "友情慢铺，搜索行动中速转入"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.001
   },
   {
     "scene_id": "51-S03",
@@ -3297,7 +3657,11 @@
       "dialogue_mode": "老大哥长谈确立牺牲逻辑",
       "pacing": "传闻到入伙层层递进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.017
   },
   {
     "scene_id": "51-S04",
@@ -3330,7 +3694,11 @@
       "dialogue_mode": "几乎无对白，制度说明主导",
       "pacing": "队伍扩张渐强，战果释放压抑"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.003
   },
   {
     "scene_id": "51-S05",
@@ -3365,7 +3733,11 @@
       "dialogue_mode": "无对白，以惨景摧毁信仰",
       "pacing": "一句转折断崖，狂欢段持续下沉"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "51-S06",
@@ -3399,7 +3771,11 @@
       "dialogue_mode": "三人讨论欲望与生存指令",
       "pacing": "饭后闲聊慢，烟雾信号催转移"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.227
   },
   {
     "scene_id": "51-S07",
@@ -3434,7 +3810,11 @@
       "dialogue_mode": "张亦川命令需刺成云丹复述",
       "pacing": "会议慢推理，警报后快速溃逃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.006
   },
   {
     "scene_id": "51-S08",
@@ -3468,7 +3848,11 @@
       "dialogue_mode": "医生冷静解释自己将死",
       "pacing": "拒绝到接受缓慢转向"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "51-S09",
@@ -3501,7 +3885,11 @@
       "dialogue_mode": "医生科普病情，张亦川自责",
       "pacing": "取药平稳，癌症真相让节奏沉下"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.004
   },
   {
     "scene_id": "51-S10",
@@ -3537,7 +3925,11 @@
       "dialogue_mode": "众人沉默中由自愿者打破",
       "pacing": "战术讨论慢，爆炸瞬间震断信念"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "51-S11",
@@ -3571,7 +3963,11 @@
       "dialogue_mode": "秦良岳自白与张亦川安慰并重",
       "pacing": "告别长谈，感染奔跑作安静落幕"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.026
   },
   {
     "scene_id": "TZ-S01",
@@ -3608,7 +4004,11 @@
       "dialogue_mode": "老人聊天铺垫社会不安",
       "pacing": "早市出行慢，怪人出现轻微悬疑"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.18
   },
   {
     "scene_id": "TZ-S02",
@@ -3642,7 +4042,11 @@
       "dialogue_mode": "几乎无对白，内心回忆主导",
       "pacing": "骑行平稳，回忆慢慢压入"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.06
   },
   {
     "scene_id": "TZ-S03",
@@ -3678,7 +4082,11 @@
       "dialogue_mode": "行动压过对白，内心争执明显",
       "pacing": "犹豫一拍，死亡瞬间砸落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "TZ-S04",
@@ -3715,7 +4123,11 @@
       "dialogue_mode": "哀求辱骂穿透安全空间",
       "pacing": "室内停滞，窗外惨剧反复"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.009
   },
   {
     "scene_id": "TZ-S05",
@@ -3753,7 +4165,11 @@
       "dialogue_mode": "命令转述推动防线崩坏",
       "pacing": "支援任务中速，暴乱规模递增"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.015
   },
   {
     "scene_id": "TZ-S06",
@@ -3789,7 +4205,11 @@
       "dialogue_mode": "手机催促和内心回忆交替",
       "pacing": "熟人回忆放慢，接战犹豫"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.028
   },
   {
     "scene_id": "TZ-S07",
@@ -3825,7 +4245,11 @@
       "dialogue_mode": "父子低声推理等待灾祸",
       "pacing": "解锁声拖长，开门后坠落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.085
   },
   {
     "scene_id": "TZ-S08",
@@ -3861,7 +4285,11 @@
       "dialogue_mode": "父亲道歉牵出旧年阴影",
       "pacing": "放风慢谈，回忆逐层打开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.059
   },
   {
     "scene_id": "TZ-S09",
@@ -3897,7 +4325,11 @@
       "dialogue_mode": "父子判断对楼是否感染",
       "pacing": "闲谈被碎玻璃打断后加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.049
   },
   {
     "scene_id": "TZ-S10",
@@ -3934,7 +4366,11 @@
       "dialogue_mode": "洪宝山遗言式鼓励压过混乱",
       "pacing": "门前停滞，父亲冲锋爆开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.07
   },
   {
     "scene_id": "TZ-S11",
@@ -3975,7 +4411,11 @@
       "dialogue_mode": "唐志林分析父亲勇敢本质",
       "pacing": "哭泣后转入理性解释"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.086
   },
   {
     "scene_id": "BX-S01",
@@ -4011,7 +4451,11 @@
       "dialogue_mode": "几乎无对白，自我解释主导",
       "pacing": "身世慢铺，操场爆发骤烈"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.001
   },
   {
     "scene_id": "BX-S02",
@@ -4047,7 +4491,11 @@
       "dialogue_mode": "学生叙述补全最初认知",
       "pacing": "窗沿紧张慢，隔间危机加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.007
   },
   {
     "scene_id": "BX-S03",
@@ -4082,7 +4530,11 @@
       "dialogue_mode": "陶亦仁解释规则并提出计划",
       "pacing": "躲藏慢移，车钥匙目标推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.005
   },
   {
     "scene_id": "BX-S04",
@@ -4122,7 +4574,11 @@
       "dialogue_mode": "幸存者经验转述构成信息流",
       "pacing": "团队相识慢铺，诱饵行动细化"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.018
   },
   {
     "scene_id": "BX-S05",
@@ -4160,7 +4616,11 @@
       "dialogue_mode": "误泄身份后的群体质询",
       "pacing": "庆祝骤停，冷处理逐日加重"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.016
   },
   {
     "scene_id": "BX-S06",
@@ -4195,7 +4655,11 @@
       "dialogue_mode": "几乎无现场对白，独白吞没叙事",
       "pacing": "流浪缓慢，梦醒场景跳跃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.055
   },
   {
     "scene_id": "BX-S07",
@@ -4235,7 +4699,11 @@
       "dialogue_mode": "陶亦仁训话塑造组织秩序",
       "pacing": "新人冲突慢，演讲后凝聚"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.143
   },
   {
     "scene_id": "BX-S08",
@@ -4277,7 +4745,11 @@
       "dialogue_mode": "王晨轩哭诉提供复仇目标",
       "pacing": "重逢柔软，讲述逐渐黑化"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.075
   },
   {
     "scene_id": "BX-S09",
@@ -4313,7 +4785,11 @@
       "dialogue_mode": "陶亦仁嘲讽揭开自我裂缝",
       "pacing": "安排复仇慢，疑问一句爆裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.101
   },
   {
     "scene_id": "BX-S10",
@@ -4351,7 +4827,11 @@
       "dialogue_mode": "陶亦仁长段解释创世计划",
       "pacing": "追问缓慢，血液计划突然落地"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.287
   },
   {
     "scene_id": "TG-S01",
@@ -4386,7 +4866,11 @@
       "dialogue_mode": "回忆性转述，少现场对白",
       "pacing": "人物画像慢铺，奇葩细节累积"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.015
   },
   {
     "scene_id": "TG-S02",
@@ -4422,7 +4906,11 @@
       "dialogue_mode": "汪华依迟疑问题制造反差",
       "pacing": "观景慢，跳河袭击突然爆发"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.074
   },
   {
     "scene_id": "TG-S03",
@@ -4460,7 +4948,11 @@
       "dialogue_mode": "短促互喊，汪华依确认末日",
       "pacing": "连续障碍快切，追击不断换形"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.045
   },
   {
     "scene_id": "TG-S04",
@@ -4498,7 +4990,11 @@
       "dialogue_mode": "汪华依读新闻和众人制止电话",
       "pacing": "屋内静默慢，铃声拉紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.028
   },
   {
     "scene_id": "TG-S05",
@@ -4534,7 +5030,11 @@
       "dialogue_mode": "汪华依滔滔不绝定义灾变",
       "pacing": "科普慢谈，免疫宣言突停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.105
   },
   {
     "scene_id": "TG-S06",
@@ -4570,7 +5070,11 @@
       "dialogue_mode": "幸存者转述补出死亡经过",
       "pacing": "反思开场，酷刑回忆骤然拉长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "TG-S07",
@@ -4608,7 +5112,11 @@
       "dialogue_mode": "少量劝阻对白夹在奔逃中",
       "pacing": "连续惨景快切，逃亡人数递减"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.074
   },
   {
     "scene_id": "TG-S08",
@@ -4647,7 +5155,11 @@
       "dialogue_mode": "队员安慰与汪华依质疑对照",
       "pacing": "广播带来上扬，雾中逐步压低"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.188
   },
   {
     "scene_id": "TG-S09",
@@ -4688,7 +5200,11 @@
       "dialogue_mode": "短问短答服务线索判断",
       "pacing": "废墟凝视慢，装甲车线索牵引"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.006
   },
   {
     "scene_id": "TG-S10",
@@ -4725,7 +5241,11 @@
       "dialogue_mode": "崔周平低语揭开意义危机",
       "pacing": "真相揭露后转入哀悼回想"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.097
   },
   {
     "scene_id": "TG-S11",
@@ -4764,7 +5284,11 @@
       "dialogue_mode": "惊疑短句点破空间异常",
       "pacing": "脚下异物递进到尸山全景"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.098
   },
   {
     "scene_id": "TG-S12",
@@ -4800,7 +5324,11 @@
       "dialogue_mode": "汪华依遗言式劝诫压住告别",
       "pacing": "告别慢铺，独行后心理反复"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.029
   },
   {
     "scene_id": "JB-S01",
@@ -4826,7 +5354,11 @@
       "dialogue_mode": "幻想对白转为医院日常训令",
       "pacing": "宣传慢铺，幻想破灭回到钟表"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.175
   },
   {
     "scene_id": "JB-S02",
@@ -4855,7 +5387,11 @@
       "dialogue_mode": "李亚伟自来熟对白塑造关系",
       "pacing": "排队偶遇慢，手机信息打开外界"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.01
   },
   {
     "scene_id": "JB-S03",
@@ -4884,7 +5420,11 @@
       "dialogue_mode": "病友疯话承担预兆功能",
       "pacing": "呼叫无应答反复拖紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "JB-S04",
@@ -4910,7 +5450,11 @@
       "dialogue_mode": "无对白，错认独白推动恐怖",
       "pacing": "拆解步骤细密，完成品突然封顶"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "JB-S05",
@@ -4941,7 +5485,11 @@
       "dialogue_mode": "求饶质问被医生辱骂吞没",
       "pacing": "针灸异常起步，多房间灾变并列"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.009
   },
   {
     "scene_id": "JB-S06",
@@ -4970,7 +5518,11 @@
       "dialogue_mode": "厕所哀求与自我验证相互撕扯",
       "pacing": "门内僵持慢，窗外屠杀连环加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.006
   },
   {
     "scene_id": "JB-S07",
@@ -4998,7 +5550,11 @@
       "dialogue_mode": "三人互报情报确定行动方向",
       "pacing": "钥匙救援快，讨论后危机逼近"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.013
   },
   {
     "scene_id": "JB-S08",
@@ -5029,7 +5585,11 @@
       "dialogue_mode": "低声确认机会，行动压过对白",
       "pacing": "开门极慢，关门陷阱制造悬停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.007
   },
   {
     "scene_id": "JB-S09",
@@ -5058,7 +5618,11 @@
       "dialogue_mode": "杨中旭荒诞方案推动反击",
       "pacing": "绝境压近，灭火器突围加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.007
   },
   {
     "scene_id": "JB-S10",
@@ -5089,7 +5653,11 @@
       "dialogue_mode": "同伴疑问映出制度恐惧",
       "pacing": "楼道静默慢，黑暗伸手突袭"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.007
   },
   {
     "scene_id": "JB-S11",
@@ -5119,7 +5687,11 @@
       "dialogue_mode": "李亚伟怒骂副院长形成对抗",
       "pacing": "警告广播快，门禁开启再加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.056
   },
   {
     "scene_id": "JB-S12",
@@ -5150,7 +5722,11 @@
       "dialogue_mode": "杨中旭指挥拆解唯一生路",
       "pacing": "闯门短促，封闭设施层层落下"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.061
   },
   {
     "scene_id": "JB-S13",
@@ -5181,6 +5757,10 @@
       "dialogue_mode": "李亚伟怒问逼出副院长自省",
       "pacing": "等待停滞，钢板升起后转忏悔"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.012
   }
 ]

@@ -29,7 +29,11 @@
       "dialogue_mode": "短问答引爆，后段叙述接管",
       "pacing": "朗读顿挫后放慢到身体感知"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.146
   },
   {
     "scene_id": "S02",
@@ -60,7 +64,11 @@
       "dialogue_mode": "师生问答推进，句尾温柔转折",
       "pacing": "环境铺垫慢，命名瞬间悬浮"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.328
   },
   {
     "scene_id": "S03",
@@ -94,7 +102,11 @@
       "dialogue_mode": "稀疏对白，误解与停顿推进",
       "pacing": "仪式压缩，夜谈以长沉默延宕"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.181
   },
   {
     "scene_id": "S04",
@@ -126,7 +138,11 @@
       "dialogue_mode": "寒暄外壳，倾诉突然泛滥",
       "pacing": "相遇迟疑后转入回溯长段"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.166
   },
   {
     "scene_id": "S05",
@@ -158,7 +174,11 @@
       "dialogue_mode": "早餐短句冷硬，叙述扩写后果",
       "pacing": "决定突兀，后果以年表缓慢累积"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.08
   },
   {
     "scene_id": "S06",
@@ -190,7 +210,11 @@
       "dialogue_mode": "对白少而锋利，宣判式收束",
       "pacing": "侵占分步推进，情绪留在空白里"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.164
   },
   {
     "scene_id": "S07",
@@ -224,7 +248,11 @@
       "dialogue_mode": "问答主导，基础问题逐层逼迫",
       "pacing": "规则铺陈慢，失控处突然加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.484
   },
   {
     "scene_id": "S08",
@@ -256,7 +284,11 @@
       "dialogue_mode": "决裂对白短促，随后几乎无声",
       "pacing": "冲突后骤慢，独坐拖成长停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.175
   },
   {
     "scene_id": "S09",
@@ -288,7 +320,11 @@
       "dialogue_mode": "少量坦白，拥抱替代解释",
       "pacing": "对白短，情感在停顿中展开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.278
   },
   {
     "scene_id": "S10",
@@ -320,7 +356,11 @@
       "dialogue_mode": "低声协商，未说出口更重",
       "pacing": "决定缓慢压下，离别快速留白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.453
   },
   {
     "scene_id": "S11",
@@ -352,7 +392,11 @@
       "dialogue_mode": "深夜低密对白，回答常绕开问题",
       "pacing": "谈话缓行，认知在间隙沉下去"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.405
   },
   {
     "scene_id": "S12",
@@ -386,7 +430,11 @@
       "dialogue_mode": "公开致辞极简，私情靠不转身表达",
       "pacing": "多年压缩，关键动作放慢定格"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.325
   },
   {
     "scene_id": "S13",
@@ -418,7 +466,11 @@
       "dialogue_mode": "几乎无对白，内心追问成节拍",
       "pacing": "回顾跳切，末尾动作极慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.001
   },
   {
     "scene_id": "S14",
@@ -452,7 +504,11 @@
       "dialogue_mode": "课堂讲述主导，争执转为转述",
       "pacing": "备课决断快，课堂实施稳步推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.415
   },
   {
     "scene_id": "S15",
@@ -486,7 +542,11 @@
       "dialogue_mode": "电话和丧事对白机械短促",
       "pacing": "消息骤停，葬礼后以慢镜延展"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.126
   },
   {
     "scene_id": "S16",
@@ -518,7 +578,11 @@
       "dialogue_mode": "倾诉长段，社交对白退成背景",
       "pacing": "聚会散场后谈话逐渐镇定"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "S17",
@@ -549,6 +613,10 @@
       "dialogue_mode": "少对白，叙述推进生活秩序",
       "pacing": "修整动作累积，幸福被平稳铺开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.009
   }
 ]

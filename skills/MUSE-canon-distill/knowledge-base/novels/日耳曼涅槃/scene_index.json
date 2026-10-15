@@ -30,7 +30,11 @@
       "pacing": "长段背景后接短句转场"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.083
   },
   {
     "scene_id": "scene_02",
@@ -64,7 +68,11 @@
       "pacing": "闲笔蓄势后进入长对白"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.281
   },
   {
     "scene_id": "scene_03",
@@ -98,7 +106,11 @@
       "pacing": "入场缓慢，演说层层升压"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.528
   },
   {
     "scene_id": "scene_04",
@@ -131,7 +143,11 @@
       "pacing": "阅读反应铺垫，观点爆发"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.391
   },
   {
     "scene_id": "scene_05",
@@ -165,7 +181,11 @@
       "pacing": "检阅流程串联多次升格"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.254
   },
   {
     "scene_id": "scene_06",
@@ -198,7 +218,11 @@
       "pacing": "工资细账后转家庭温情"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.244
   },
   {
     "scene_id": "scene_07",
@@ -231,7 +255,11 @@
       "pacing": "相见急促，回忆慢幅铺展"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.149
   },
   {
     "scene_id": "scene_08",
@@ -266,7 +294,11 @@
       "pacing": "情绪开场，清单式扩容"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": true
+    "has_craft_notes": true,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.225
   },
   {
     "scene_id": "scene_09",
@@ -300,7 +332,11 @@
       "pacing": "地图推理逐项排除"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.4
   },
   {
     "scene_id": "scene_10",
@@ -336,7 +372,11 @@
       "pacing": "爆炸连发，损害报告减速"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.05
   },
   {
     "scene_id": "scene_11",
@@ -369,7 +409,11 @@
       "pacing": "空袭波次递进至断片"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.058
   },
   {
     "scene_id": "scene_12",
@@ -402,7 +446,11 @@
       "pacing": "温存舒缓，思辨段落拉长"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": true
+    "has_craft_notes": true,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.187
   },
   {
     "scene_id": "scene_13",
@@ -436,7 +484,11 @@
       "pacing": "证据铺排后静默定局"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": true
+    "has_craft_notes": true,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.208
   },
   {
     "scene_id": "scene_14",
@@ -469,7 +521,11 @@
       "pacing": "仪式慢行，回忆蒙太奇加速"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.106
   },
   {
     "scene_id": "scene_15",
@@ -503,7 +559,11 @@
       "pacing": "舰队展示转政治追因"
     },
     "style_profile_by": "Codex (executor)",
-    "has_craft_notes": false
+    "has_craft_notes": false,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.077
   },
   {
     "scene_id": "scene_16",
@@ -536,7 +596,11 @@
       "dialogue_mode": "长段敬语演说体对白，技术数据借人物之口报出",
       "pacing": "长段铺陈少留白，以「几天之后」式时间语硬切转场"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.213
   },
   {
     "scene_id": "scene_17",
@@ -567,7 +631,11 @@
       "dialogue_mode": "全场无对白，论证式叙述独力推进",
       "pacing": "仪式短起后论证长段连绵，末以待办清单收束"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.002
   },
   {
     "scene_id": "scene_18",
@@ -600,7 +668,11 @@
       "dialogue_mode": "对白稀短仅质询应答，叙述评论主导",
       "pacing": "参数长段连绵，章末跳出剧情作时局综述缓收"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.053
   },
   {
     "scene_id": "scene_19",
@@ -633,7 +705,11 @@
       "dialogue_mode": "汇报式长对白报参数，敬语开场一来一往",
       "pacing": "先人事盘点铺垫，中段对白密集，尾段心理收束"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.277
   },
   {
     "scene_id": "scene_20",
@@ -665,7 +741,11 @@
       "dialogue_mode": "对白承担战术解说，雷达报数如电文插入",
       "pacing": "解说长段与拟声爆点交替，「轰隆」开段提速"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.146
   },
   {
     "scene_id": "scene_21",
@@ -697,7 +777,11 @@
       "dialogue_mode": "对白短促功能性，报告与决断，叙述主导",
       "pacing": "双线交替蓄势，科普插段缓冲，拟声起段引爆"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.069
   },
   {
     "scene_id": "scene_22",
@@ -730,7 +814,11 @@
       "dialogue_mode": "对白极稀多为命令与戏谑自语，叙述推进",
       "pacing": "四字对句起段，流程细写拖长，战果数字速收"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.042
   },
   {
     "scene_id": "scene_23",
@@ -761,7 +849,11 @@
       "dialogue_mode": "几乎无对白，绝望独白一两句点睛",
       "pacing": "按时刻表推进多线战场，事件密集少停顿"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.01
   },
   {
     "scene_id": "scene_24",
@@ -791,7 +883,11 @@
       "dialogue_mode": "车内短令喊话为主，术语入令无闲谈",
       "pacing": "瞄准开火短句提速，科普插段整章放缓"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.04
   },
   {
     "scene_id": "scene_25",
@@ -822,7 +918,11 @@
       "dialogue_mode": "对白为指令电文与咒骂，短促带情绪",
       "pacing": "空袭按波次分段推进，反方视角段作缓冲"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.049
   },
   {
     "scene_id": "scene_26",
@@ -857,7 +957,11 @@
       "dialogue_mode": "广播独白整段嵌入，末以高层对谈定调",
       "pacing": "战斗两日速进，广播长引缓收，对谈收尾"
     },
-    "style_profile_by": "Claude Fable 5"
+    "style_profile_by": "Claude Fable 5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.441
   },
   {
     "scene_id": "scene_27",
@@ -889,7 +993,11 @@
       "dialogue_mode": "大段自陈式对白推进，归属缀神态如「冷声开口道」",
       "pacing": "长段少留白，对白前后必附心理注解，尾抛新钩"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.398
   },
   {
     "scene_id": "scene_28",
@@ -923,7 +1031,11 @@
       "dialogue_mode": "演说式长对白轮流析局势，问答接力推进",
       "pacing": "温情段短收，密谋段大块对白连排，信息饱和少留白"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.469
   },
   {
     "scene_id": "scene_29",
@@ -956,7 +1068,11 @@
       "dialogue_mode": "说服式长对白，每段话后缀心理揭底翻转",
       "pacing": "对白与心理注解交替，授衔场面浓写，跨日快切"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.347
   },
   {
     "scene_id": "scene_30",
@@ -987,6 +1103,10 @@
       "dialogue_mode": "前半纯叙述无对白，后半夫妻直抒胸臆承情感",
       "pacing": "军力数字成排铺陈，骤转柔情，内心悔悟长段收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.165
   }
 ]

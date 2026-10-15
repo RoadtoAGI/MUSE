@@ -168,17 +168,41 @@ def test_file_field_already_kb_root_relative_not_double_prefixed(tmp_path):
     assert row["file"] == "novels/书己/scenes/scene_S01.md"
 
 
-def test_json_preferred_over_jsonl_when_both(tmp_kb):
-    # 剧丁补一个 .json（内容 1 行），应优先于 .jsonl（2 行）
+def test_jsonl_preferred_over_json_when_both(tmp_kb):
+    # 剧丁补一个历史 .json（1 行）；kb_index 约定 JSONL 为权威，JSON 只是快照，不并入聚合
     (tmp_kb / "dramas" / "剧丁" / "scene_index.json").write_text(
         json.dumps(
-            [{"scene_id": "A1S1", "novel": "剧丁", "file": "dramas/剧丁/scenes/scene_A1S1.md"}],
+            [{"scene_id": "A1S1", "novel": "剧丁", "file": "dramas/剧丁/scenes/scene_A1S1.md",
+              "dramatic_purpose": "历史快照"}],
             ensure_ascii=False,
         ),
         encoding="utf-8",
     )
     msi.merge(tmp_kb)
-    assert len([e for e in _agg(tmp_kb) if e["novel"] == "剧丁"]) == 1
+    rows = [e for e in _agg(tmp_kb) if e["novel"] == "剧丁"]
+    assert [(e["scene_id"], e["dramatic_purpose"]) for e in rows] == [("A1S1", "序幕"), ("A2S1", "转折")]
+
+
+def test_original_lang_sinks_from_style_card(tmp_kb):
+    (tmp_kb / "novels" / "书乙" / "style_card.yaml").write_text(
+        "novel: 书乙\nlang: zh\noriginal_lang: en\n", encoding="utf-8")
+    (tmp_kb / "dramas" / "剧丁" / "work-meta.yaml").write_text(
+        "language: zh\noriginal_language: zh\n", encoding="utf-8")
+    msi.merge(tmp_kb)
+    agg = _agg(tmp_kb)
+    assert {e["original_lang"] for e in agg if e["novel"] == "书乙"} == {"en"}
+    assert {e["original_lang"] for e in agg if e["novel"] == "剧丁"} == {"zh"}  # 无文风卡的戏剧读 work-meta
+    assert all("original_lang" not in e for e in agg if e["novel"] == "剧丙")  # 两处都没有就不写
+
+
+def test_style_card_original_lang_overrides_stale_row_value(tmp_kb):
+    path = tmp_kb / "novels" / "书乙" / "scene_index.json"
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    rows[0]["original_lang"] = "zh"
+    path.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+    (tmp_kb / "novels" / "书乙" / "style_card.yaml").write_text("original_lang: ja\n", encoding="utf-8")
+    msi.merge(tmp_kb)
+    assert next(e for e in _agg(tmp_kb) if e["novel"] == "书乙")["original_lang"] == "ja"
 
 
 def test_drama_authority_and_query_fields_survive_aggregation(tmp_path):

@@ -1,6 +1,8 @@
 novel: 冰与火之歌Ⅰ-权力的游戏
 author: 乔治·R·R·马丁
 lang: zh
+original_lang: en
+narrative_person_override: third
 translator: 谭光磊、屈畅
 narration_voice: 多POV轮替的限知第三人称，每章贴一人感官与判断行文，叙述染其年龄身份滤镜，不越权直评
 diction: 译笔文白相济：叙述书面雅驯杂文言成语，对白按身份分层——贵族庄语、市井俚骂、异域音译词

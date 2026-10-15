@@ -2,6 +2,7 @@ work: "云天明的童话"
 author: "刘慈欣"
 medium: "小说中的三联童话"
 language: "zh"
+original_lang: zh
 
 narrative_voice:
   mode: "全知说书体"

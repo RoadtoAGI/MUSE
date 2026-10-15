@@ -33,7 +33,11 @@
       "dialogue_mode": "少量外部喊话，内心反问推进",
       "pacing": "短句压迫，反复动作拖长失控"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": null,
+    "dialogue_ratio": 0.018
   },
   {
     "scene_id": "S02",
@@ -69,7 +73,11 @@
       "dialogue_mode": "几乎无对白，自我呵斥替代对话",
       "pacing": "加速短句连撞，省略安全余地"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.003
   },
   {
     "scene_id": "S03",
@@ -104,7 +112,11 @@
       "dialogue_mode": "短问短答，沉默制造病感",
       "pacing": "晨间流程缓走，细节逐步加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.397
   },
   {
     "scene_id": "S05",
@@ -142,7 +154,11 @@
       "dialogue_mode": "单字呼唤为主，叙述承载崩溃",
       "pacing": "静止长段后突发动作，时间凝滞"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": null,
+    "dialogue_ratio": 0.023
   },
   {
     "scene_id": "S06",
@@ -175,7 +191,11 @@
       "dialogue_mode": "无对白，内心命令打断遐想",
       "pacing": "步行浏览式推进，沉思后自我截断"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.013
   },
   {
     "scene_id": "S08",
@@ -209,7 +229,11 @@
       "dialogue_mode": "断裂命令句，问答被恐惧打碎",
       "pacing": "连续动作急促，停顿转入尴尬空白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.163
   },
   {
     "scene_id": "S09",
@@ -244,7 +268,11 @@
       "dialogue_mode": "追问与支吾交错，隐瞒推动张力",
       "pacing": "惊醒爆点后放慢，酒与回忆拖住"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.272
   },
   {
     "scene_id": "S10",
@@ -277,7 +305,11 @@
       "dialogue_mode": "无现场对白，信件独白主导",
       "pacing": "醒后迟滞，读信分段释放逆转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": null,
+    "dialogue_ratio": 0.007
   },
   {
     "scene_id": "S11",
@@ -311,7 +343,11 @@
       "dialogue_mode": "无对话，目击与内心质问推进",
       "pacing": "夜袭骤起，动作密集后道德停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": null,
+    "dialogue_ratio": 0.006
   },
   {
     "scene_id": "S12",
@@ -346,6 +382,10 @@
       "dialogue_mode": "低声短句，临终问答压缩信息",
       "pacing": "疼痛慢拍开场，结论逐层收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": null,
+    "dialogue_ratio": 0.234
   }
 ]

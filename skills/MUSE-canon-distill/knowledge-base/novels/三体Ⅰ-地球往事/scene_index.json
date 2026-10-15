@@ -28,7 +28,11 @@
       "dialogue_mode": "对白推进为主，「某某说」简洁归属，密度高",
       "pacing": "中短句快节奏，对白连发少停顿，省略环境铺陈"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.479
   },
   {
     "scene_id": "S02",
@@ -59,7 +63,11 @@
       "dialogue_mode": "叙述推进为主，对白稀疏点状插入",
       "pacing": "长段铺叙夹数字串震点，略过心理过渡直给动作"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.201
   },
   {
     "scene_id": "S03",
@@ -91,7 +99,11 @@
       "dialogue_mode": "批斗口号式对白与长篇内心独白交替",
       "pacing": "长句长段如潮涌，惨烈处骤停留白，少省略"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.172
   },
   {
     "scene_id": "S04",
@@ -120,7 +132,11 @@
       "dialogue_mode": "短对白快速交换推进验证，归属词简省",
       "pacing": "操作步骤连贯推进，结尾骤转抒情长段"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.214
   },
   {
     "scene_id": "S05",
@@ -149,7 +165,11 @@
       "dialogue_mode": "一来一往短对白连珠，常省归属词",
       "pacing": "短句速答如打乒乓，借酒局节拍间歇，无赘景"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.803
   },
   {
     "scene_id": "S06",
@@ -181,7 +201,11 @@
       "pacing": "论辩短对白与毁灭奇观长段交替，公告句收束"
     },
     "style_profile_by": "claude-fable-5",
-    "has_craft_notes": true
+    "has_craft_notes": true,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.442
   },
   {
     "scene_id": "S07",
@@ -212,7 +236,11 @@
       "dialogue_mode": "群聊轮转对白推进，发言者以身份标签归属",
       "pacing": "对白连贯递进，叙述仅作转场，仪式句定格收尾"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.558
   },
   {
     "scene_id": "S08",
@@ -242,7 +270,11 @@
       "pacing": "大段铺陈奇观，问答短促，以欢呼高潮收束"
     },
     "style_profile_by": "claude-fable-5",
-    "has_craft_notes": true
+    "has_craft_notes": true,
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.241
   },
   {
     "scene_id": "S09",
@@ -273,7 +305,11 @@
       "dialogue_mode": "多人质问答辩驱动，高潮转冷静叙述杀人",
       "pacing": "对白密集推进，处决段慢镜细写，轻语收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.623
   },
   {
     "scene_id": "S10",
@@ -304,7 +340,11 @@
       "dialogue_mode": "几乎无对白，叙述独行，警告文以原文块呈现",
       "pacing": "长段心理积累，按键一句定乾坤，敢用三连重复"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.004
   },
   {
     "scene_id": "S11",
@@ -334,7 +374,11 @@
       "dialogue_mode": "乡民口语对白点缀，问星星一段以白显纯",
       "pacing": "田园段绵长温热，对质段短冷，今昔对比留白"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.157
   },
   {
     "scene_id": "S12",
@@ -366,7 +410,11 @@
       "dialogue_mode": "会议多方对白推进方案，演示动作嵌对白",
       "pacing": "简报长段与短对白交替，行动段倒计时收紧"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.449
   },
   {
     "scene_id": "S13",
@@ -398,7 +446,11 @@
       "dialogue_mode": "前半叙述独行，后半元首问答公文式对白",
       "pacing": "铺陈孤寂绵长，发报一句收束，问答段冷峻短促"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.452
   },
   {
     "scene_id": "S14",
@@ -429,7 +481,11 @@
       "dialogue_mode": "双人科学对谈推进，大史一问点题",
       "pacing": "谈话从容，蝗虫意象长段升华，洒酒动作定格"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.512
   },
   {
     "scene_id": "S15",
@@ -457,7 +513,11 @@
       "dialogue_mode": "几乎无对白，仅结尾一句轻语点题",
       "pacing": "缓步登山节奏舒缓，短段渐进，落日一句收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.023
   },
   {
     "scene_id": "S16",
@@ -487,7 +547,11 @@
       "dialogue_mode": "对白主导，台球演示以动作分节，归属简省",
       "pacing": "重复五次击球成节拍，结论延宕至末，留白克制"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.583
   },
   {
     "scene_id": "S17",
@@ -519,7 +583,11 @@
       "dialogue_mode": "对白携设定信息，玩家问答与NPC宣言交替",
       "pacing": "赶路段时间跳跃压缩，脱水等奇观细写慢放"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.299
   },
   {
     "scene_id": "S18",
@@ -551,7 +619,11 @@
       "dialogue_mode": "叙述为主，对白用于事件转折与定罪",
       "pacing": "长段铺陈砍伐与思辨，转折骤紧，史评插入跳脱"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.259
   },
   {
     "scene_id": "S19",
@@ -582,7 +654,11 @@
       "dialogue_mode": "对白少而重，决定命运处一句一顿",
       "pacing": "感知细节慢写，抉择段短句斩截，发射奇观收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.27
   },
   {
     "scene_id": "S20",
@@ -615,7 +691,11 @@
       "dialogue_mode": "对白承载演示教学，帝王插科打诨调味",
       "pacing": "演示步骤逐拍推进，人列计算机段宏观慢摇"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.476
   },
   {
     "scene_id": "S21",
@@ -647,7 +727,11 @@
       "dialogue_mode": "前半问答释设定，后半喝令短对白配动作",
       "pacing": "谈话舒缓蓄势，突袭段短句爆发，车内缓释收尾"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.351
   },
   {
     "scene_id": "S22",
@@ -678,7 +762,11 @@
       "dialogue_mode": "全篇问答驱动，引语套引语双层嵌套",
       "pacing": "一问一答短促，杀人段自述绵密，零抒情留白"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.154
   },
   {
     "scene_id": "S23",
@@ -708,6 +796,10 @@
       "dialogue_mode": "论辩对白推进信仰碰撞，自述独白嵌中",
       "pacing": "相遇段从容白描，论辩递进，仪式句呼应收尾"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.449
   }
 ]

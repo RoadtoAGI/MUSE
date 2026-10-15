@@ -35,7 +35,11 @@
       "开场",
       "变故",
       "死亡诀别"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.297
   },
   {
     "scene_id": "S02",
@@ -74,7 +78,11 @@
     ],
     "has_craft_notes": true,
     "craft_notes_file": "craft_notes/scene_02_beats.md",
-    "narrative_reference": "恐怖靠物证与程序感（指孔验骨→活靶检脏，写效果不写原理）+群战伤情记账不可逆递进+黑暗改写战斗规则（视觉换听觉、盲者占优）"
+    "narrative_reference": "恐怖靠物证与程序感（指孔验骨→活靶检脏，写效果不写原理）+群战伤情记账不可逆递进+黑暗改写战斗规则（视觉换听觉、盲者占优）",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.196
   },
   {
     "scene_id": "S03",
@@ -107,7 +115,11 @@
       "相遇",
       "情感",
       "日常"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.299
   },
   {
     "scene_id": "S04",
@@ -147,7 +159,11 @@
       "身世",
       "殉情",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.252
   },
   {
     "scene_id": "S05",
@@ -181,7 +197,11 @@
       "传功",
       "武学",
       "日常"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.447
   },
   {
     "scene_id": "S06",
@@ -214,7 +234,11 @@
       "传功",
       "武学",
       "喜剧"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.548
   },
   {
     "scene_id": "S07",
@@ -252,7 +276,11 @@
     ],
     "has_craft_notes": true,
     "craft_notes_file": "craft_notes/scene_07_beats.md",
-    "narrative_reference": "背信一击从受袭者体感快写、施袭者心理事后开闸；宗师重创分台阶配'为何不死'的账；封闭空间按拍出招、亲手制造偷袭窗口"
+    "narrative_reference": "背信一击从受袭者体感快写、施袭者心理事后开闸；宗师重创分台阶配'为何不死'的账；封闭空间按拍出招、亲手制造偷袭窗口",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.244
   },
   {
     "scene_id": "S08",
@@ -291,7 +319,11 @@
     ],
     "has_craft_notes": true,
     "craft_notes_file": "craft_notes/scene_08_beats.md",
-    "narrative_reference": "以寡敌众倒置视点只写攻方挨打的结果差分；地形（瀑布水帘）兼幕布与武器参战；喜剧从受害者物证长出兼作战报；高潮以静止呈现、致命刀来自最弱者"
+    "narrative_reference": "以寡敌众倒置视点只写攻方挨打的结果差分；地形（瀑布水帘）兼幕布与武器参战；喜剧从受害者物证长出兼作战报；高潮以静止呈现、致命刀来自最弱者",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.276
   },
   {
     "scene_id": "S09",
@@ -325,7 +357,11 @@
       "追逐",
       "揭秘",
       "逃亡"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.277
   },
   {
     "scene_id": "S10",
@@ -364,7 +400,11 @@
       "揭秘",
       "恩怨",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.442
   },
   {
     "scene_id": "S11",
@@ -399,7 +439,11 @@
       "变故",
       "死亡诀别",
       "悬念"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.191
   },
   {
     "scene_id": "S12",
@@ -437,7 +481,11 @@
       "揭秘",
       "对质",
       "死亡诀别"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.598
   },
   {
     "scene_id": "S13",
@@ -475,7 +523,11 @@
       "死亡诀别",
       "身份认同",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.379
   },
   {
     "scene_id": "S14",
@@ -512,7 +564,11 @@
     "tags": [
       "辩论",
       "主题"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.341
   },
   {
     "scene_id": "S15",
@@ -548,7 +604,11 @@
       "结局",
       "辩论",
       "主题"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.322
   },
   {
     "scene_id": "S16",
@@ -585,7 +645,11 @@
       "比武招亲",
       "武戏",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.245
   },
   {
     "scene_id": "S17",
@@ -622,7 +686,11 @@
       "日常",
       "智计",
       "饮食"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.489
   },
   {
     "scene_id": "S18",
@@ -660,7 +728,11 @@
       "比试",
       "智斗",
       "武戏"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.324
   },
   {
     "scene_id": "S19",
@@ -701,7 +773,11 @@
       "武戏",
       "旁观视角",
       "群战"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.293
   },
   {
     "scene_id": "S20",
@@ -741,7 +817,11 @@
       "阵法"
     ],
     "has_craft_notes": true,
-    "craft_notes_file": "craft_notes/scene_20_beats.md"
+    "craft_notes_file": "craft_notes/scene_20_beats.md",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.238
   },
   {
     "scene_id": "S21",
@@ -777,7 +857,11 @@
       "战争攻城",
       "兵法",
       "奇谋"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.306
   },
   {
     "scene_id": "S22",
@@ -816,7 +900,11 @@
       "情感",
       "对峙",
       "声音设计"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.45
   },
   {
     "scene_id": "S23",
@@ -855,7 +943,11 @@
       "开场",
       "世界观",
       "框架叙事"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.418
   },
   {
     "scene_id": "S24",
@@ -889,7 +981,11 @@
       "传功",
       "武学",
       "暗线"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.343
   },
   {
     "scene_id": "S25",
@@ -928,7 +1024,11 @@
       "武戏"
     ],
     "has_craft_notes": true,
-    "craft_notes_file": "craft_notes/scene_25_beats.md"
+    "craft_notes_file": "craft_notes/scene_25_beats.md",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.204
   },
   {
     "scene_id": "S26",
@@ -963,7 +1063,11 @@
       "揭秘",
       "复仇",
       "对质"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.415
   },
   {
     "scene_id": "S27",
@@ -998,7 +1102,11 @@
       "权力交接",
       "仪式",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.351
   },
   {
     "scene_id": "S28",
@@ -1038,7 +1146,11 @@
       "智斗"
     ],
     "has_craft_notes": true,
-    "craft_notes_file": "craft_notes/scene_28_beats.md"
+    "craft_notes_file": "craft_notes/scene_28_beats.md",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.382
   },
   {
     "scene_id": "S29",
@@ -1072,7 +1184,11 @@
       "武戏",
       "单挑",
       "招式创新"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.064
   },
   {
     "scene_id": "S30",
@@ -1108,7 +1224,11 @@
       "单挑",
       "阵法",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.213
   },
   {
     "scene_id": "S31",
@@ -1144,6 +1264,10 @@
       "单挑",
       "心理战",
       "高潮"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.251
   }
 ]

@@ -29,7 +29,11 @@
       "dialogue_mode": "短促呵斥推进权力压制，对白稀而硬",
       "pacing": "先铺传闻再骤然掌掴，结尾留讽刺空白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.144
   },
   {
     "scene_id": "S02",
@@ -60,7 +64,11 @@
       "dialogue_mode": "闲人挑衅和内心独白交替驱动",
       "pacing": "挨打和转胜成循环，末句骤停成冷笑"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.12
   },
   {
     "scene_id": "S03",
@@ -94,7 +102,11 @@
       "dialogue_mode": "短句对白制造羞辱，众笑作合唱回应",
       "pacing": "连败快速累积，欺弱处放慢并重复笑声"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.078
   },
   {
     "scene_id": "S04",
@@ -128,7 +140,11 @@
       "dialogue_mode": "对白突然爆裂，随后由条款叙述压过",
       "pacing": "寂静后急打急罚，五条清单拖长惩戒"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.114
   },
   {
     "scene_id": "S05",
@@ -161,7 +177,11 @@
       "dialogue_mode": "拒绝和互骂稀疏插入，叙述推进为主",
       "pacing": "失业层层铺开，偷萝卜用追逐加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.028
   },
   {
     "scene_id": "S06",
@@ -193,7 +213,11 @@
       "dialogue_mode": "阿Q炫耀式短语压场，听众反应补叙",
       "pacing": "亮相慢写财物，杀头谈资突然提速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.095
   },
   {
     "scene_id": "S07",
@@ -227,7 +251,11 @@
       "dialogue_mode": "寒暄试探推动，语气客气而势利",
       "pacing": "传闻入深闺后缓谈价，完了二字急转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.359
   },
   {
     "scene_id": "S08",
@@ -258,7 +286,11 @@
       "dialogue_mode": "独白和幻听主导，现实对白只作刺点",
       "pacing": "街上喊叫快，庙内幻想长句奔涌"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.292
   },
   {
     "scene_id": "S09",
@@ -290,7 +322,11 @@
       "dialogue_mode": "命令式驱逐压断请求，对白极短极硬",
       "pacing": "入门观察缓，滚出去后迅速坠落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.183
   },
   {
     "scene_id": "S10",
@@ -321,7 +357,11 @@
       "dialogue_mode": "喊口号和幻想召唤交替，现实回应很少",
       "pacing": "由街头高喊转入内心长串跳跃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.114
   },
   {
     "scene_id": "S11",
@@ -354,7 +394,11 @@
       "dialogue_mode": "审问极简，叙述放大身体和笔的陌生",
       "pacing": "抓进抓出重复，画圈处慢到发抖"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.069
   },
   {
     "scene_id": "S12",
@@ -388,7 +432,11 @@
       "dialogue_mode": "几乎无对答，喝采和半句戏词刺穿叙述",
       "pacing": "游街持续前行，意识旋涡后瞬间断裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.039
   },
   {
     "scene_id": "S13",
@@ -422,6 +470,10 @@
       "dialogue_mode": "无直接对白，以集体议论替代个人声音",
       "pacing": "两段概括迅速收尾，末句落在空耗感"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   }
 ]

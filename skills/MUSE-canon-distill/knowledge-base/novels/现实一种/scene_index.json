@@ -32,7 +32,11 @@
       "dialogue_mode": "短对白嵌叙述，少归属铺垫",
       "pacing": "雨声反复铺底，动作缓慢递进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.064
   },
   {
     "scene_id": "S02",
@@ -63,7 +67,11 @@
       "dialogue_mode": "独语式童话，对白稀少",
       "pacing": "感官发现推动作，省略道德反应"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.048
   },
   {
     "scene_id": "S03",
@@ -95,7 +103,11 @@
       "dialogue_mode": "对白极少，叙述接管发现",
       "pacing": "遗忘与发现交替，死亡后置揭示"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.004
   },
   {
     "scene_id": "S04",
@@ -126,7 +138,11 @@
       "dialogue_mode": "逼问式短句，暴力打断对白",
       "pacing": "奔走搜寻后骤转室内拷问"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.077
   },
   {
     "scene_id": "S05",
@@ -160,7 +176,11 @@
       "dialogue_mode": "重复逼问推进，答句短硬",
       "pacing": "问答层层收紧，动作突然爆发"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.136
   },
   {
     "scene_id": "S06",
@@ -192,7 +212,11 @@
       "dialogue_mode": "谈判式短句，拒绝反复",
       "pacing": "补偿失败后静默交人"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.154
   },
   {
     "scene_id": "S07",
@@ -227,7 +251,11 @@
       "dialogue_mode": "命令对白极短，叙述吞没声音",
       "pacing": "暴力连击后插入祖母内景"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.047
   },
   {
     "scene_id": "S08",
@@ -259,7 +287,11 @@
       "dialogue_mode": "夫妻互激，兄弟短句对峙",
       "pacing": "丧事被日常吃饭拖住"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.089
   },
   {
     "scene_id": "S09",
@@ -294,7 +326,11 @@
       "dialogue_mode": "哄劝式对白制造反讽",
       "pacing": "准备细密，笑声逐段耗尽"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.172
   },
   {
     "scene_id": "S10",
@@ -326,7 +362,11 @@
       "dialogue_mode": "辩解与路人短答穿插",
       "pacing": "逃亡被闲逛稀释，终点突然收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.084
   },
   {
     "scene_id": "S11",
@@ -358,7 +398,11 @@
       "dialogue_mode": "求饶短句与围观沉默相撞",
       "pacing": "押赴缓慢，枪决失误拉长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.052
   },
   {
     "scene_id": "S12",
@@ -391,7 +435,11 @@
       "dialogue_mode": "梦中对白平直，现实少对白",
       "pacing": "梦醒过渡到处决后勤"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.008
   },
   {
     "scene_id": "S13",
@@ -424,6 +472,10 @@
       "dialogue_mode": "医生玩笑点缀技术动作",
       "pacing": "器官逐件拆分，结局延后说明"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.038
   }
 ]

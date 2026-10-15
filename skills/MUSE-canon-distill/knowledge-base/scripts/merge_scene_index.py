@@ -4,7 +4,8 @@
 聚合索引合并（唯一写入方）：以 per-novel / per-drama 索引为源重建聚合行——
 novel 字段以目录名为准（消灭"·/-"显示名漂移），双名字段兼容归一
 （participants→characters、craft_notes 路径→has_craft_notes+craft_notes_file，原字段保留），
-style_profile 透传；输出按 (novel, scene_id) 确定性排序、idx 重编号、原子写。
+style_profile 透传；作品 style_card 的 original_lang 下沉到每行（检索 --original-only 用）；
+输出按 (novel, scene_id) 确定性排序、idx 重编号、原子写。
 幂等：同一输入连跑两次输出 byte-identical。
 合并后须重跑 build_embeddings（增量按身份复用，见其 --bootstrap 说明）。
 """
@@ -55,10 +56,19 @@ def _read_mapping(path: Path) -> dict:
     return value if isinstance(value, dict) else {}
 
 
-def _normalize(row: dict, *, tree: str, novel_dir: str, medium: str, genre=None) -> dict:
+def _original_lang(work_dir: Path, meta: dict) -> str | None:
+    """作品原作语言：style_card 的 original_lang；没有文风卡的戏剧取 work-meta 的 original_language。"""
+    card = _read_mapping(work_dir / "style_card.yaml")
+    return card.get("original_lang") or meta.get("original_language")
+
+
+def _normalize(row: dict, *, tree: str, novel_dir: str, medium: str, genre=None,
+               original_lang: str | None = None) -> dict:
     entry = dict(row)
     entry["novel"] = novel_dir
     entry.setdefault("source_medium", medium)
+    if original_lang:
+        entry["original_lang"] = original_lang
     if not entry.get("lang") and entry.get("language"):
         entry["lang"] = entry["language"]
     if not entry.get("genre") and genre:
@@ -102,10 +112,12 @@ def collect(kb_root: Path) -> list[dict]:
             genre = phase0.get("genre")
             if isinstance(genre, dict):
                 genre = genre.get("primary")
+            original_lang = _original_lang(work_dir, meta)
             merged.extend(
                 _normalize(
                     row, tree=tree, novel_dir=work_dir.name,
                     medium=meta.get("source_medium") or medium, genre=genre,
+                    original_lang=original_lang,
                 )
                 for row in rows
                 if row.get("scene_id")

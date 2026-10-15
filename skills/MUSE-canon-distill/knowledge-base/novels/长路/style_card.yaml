@@ -1,6 +1,8 @@
 novel: 长路
 author: 科马克·麦卡锡
 lang: zh
+original_lang: en
+narrative_person_override: third
 translator: ''
 narration_voice: 限知贴父亲行动，伦理与神圣都不直说
 diction: 译文白话冷硬，精确物名混圣经典故

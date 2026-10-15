@@ -31,7 +31,11 @@
       "dialogue_mode": "对白交锋推进，「某某道／问」归属高频，问答步步施压",
       "pacing": "短对白急节奏与人物背景长段交替，结尾悬念收紧"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.243
   },
   {
     "scene_id": "scene_02",
@@ -66,7 +70,11 @@
       "dialogue_mode": "仪式段叙述主导，归途转对白推进，父子问答载主题",
       "pacing": "行刑段凝滞工笔，发现幼狼后对白加速，议留狼处收紧"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.318
   },
   {
     "scene_id": "scene_03",
@@ -100,7 +108,11 @@
       "dialogue_mode": "大段双人对白主导，叙述只作表情动作与回忆衬底",
       "pacing": "长对白绵延，墓窖静景与莱安娜闪回放慢呼吸"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.443
   },
   {
     "scene_id": "scene_04",
@@ -133,7 +145,11 @@
       "dialogue_mode": "前段纯叙述，偷听段对白匿名不具名，制造谜面",
       "pacing": "攀爬铺陈悠长延宕，窗内对话骤然收紧成悬念"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.172
   },
   {
     "scene_id": "scene_05",
@@ -168,7 +184,11 @@
       "dialogue_mode": "叙述主导，对白经翻译中转，自语咒句重复点题",
       "pacing": "婚宴长卷铺陈，赠礼分段推进，骑银马段豁然放飞"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.149
   },
   {
     "scene_id": "scene_06",
@@ -201,7 +221,11 @@
       "dialogue_mode": "对白推进家事与谋议，狼嚎听觉意象切分对话",
       "pacing": "病房对话徐缓，刺杀爆发短句连击，醒后议事复稳"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.42
   },
   {
     "scene_id": "scene_07",
@@ -240,7 +264,11 @@
       "dialogue_mode": "对白密集，社交辞令藏机锋，归属多用「某某道」",
       "pacing": "姐妹拌嘴轻快，遇伊林爵士骤冷，应答礼仪化解回暖"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.31
   },
   {
     "scene_id": "scene_08",
@@ -273,7 +301,11 @@
       "dialogue_mode": "对白渐密，歌手插科打诨，结尾点名一语破局",
       "pacing": "雨途缓行铺陈，旅店群像舒展，提利昂现身骤紧"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.264
   },
   {
     "scene_id": "scene_09",
@@ -307,7 +339,11 @@
       "dialogue_mode": "小指头贫嘴独活，对峙段对白如剑，威胁话里藏刀",
       "pacing": "缓行长谈蓄势，伏击爆发短句残酷，昏迷收束留白"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.364
   },
   {
     "scene_id": "scene_10",
@@ -345,7 +381,11 @@
       "dialogue_mode": "对白斗智主导，挨打与利诱交替，内心盘算插叙",
       "pacing": "牢中独白盘桓，回溯审判延宕，收买戏一来一往渐快"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.272
   },
   {
     "scene_id": "scene_11",
@@ -377,7 +417,11 @@
       "dialogue_mode": "双人对峙长对白，问答如攻防，叙述只记神态手势",
       "pacing": "病榻铺垫从容，神木林对质句句紧逼，掌掴后收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.469
   },
   {
     "scene_id": "scene_12",
@@ -410,7 +454,11 @@
       "dialogue_mode": "吟唱宣告式对白，齐呼复沓，私语对话穿插翻译",
       "pacing": "吃心仪式凝滞高压，预言呼号层层推高，闯宴骤变"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.218
   },
   {
     "scene_id": "scene_13",
@@ -445,7 +493,11 @@
       "dialogue_mode": "垂死对白断续多省略号，遗言主导，旁白记改字欺瞒",
       "pacing": "梦惊起笔急，病榻语速衰减拖长，桥上密谈复紧"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.515
   },
   {
     "scene_id": "scene_14",
@@ -480,7 +532,11 @@
       "dialogue_mode": "朝堂宣告式对白交锋，撕诏一刻动作即台词",
       "pacing": "列阵铺陈蓄势，摊牌对峙加速，屠杀数句内毕收束"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.326
   },
   {
     "scene_id": "scene_15",
@@ -513,7 +569,11 @@
       "dialogue_mode": "口令与寓言问答开场，杀阵中喊话简短如令",
       "pacing": "练剑节奏铿锵，杀阵动作分解迅疾，逃亡心跳式短句"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.15
   },
   {
     "scene_id": "scene_16",
@@ -545,7 +605,11 @@
       "dialogue_mode": "前半独白幻听，后半双人长谈，问答层层揭底牌",
       "pacing": "黑暗中时间感消解绵长，闪回如梦，对谈渐紧剥皮"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.105
   },
   {
     "scene_id": "scene_17",
@@ -582,7 +646,11 @@
       "dialogue_mode": "众声喧哗式杂语，流言版本罗列互驳，主角插话被淹",
       "pacing": "觅食游荡散漫铺陈，钟声起人潮涌动，爬像目击骤停"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.064
   },
   {
     "scene_id": "scene_18",
@@ -616,7 +684,11 @@
       "dialogue_mode": "乔佛里施虐对白，珊莎应答套语化，猎狗嘶声点破",
       "pacing": "闭房昏睡凝滞，上朝罗列暴政，城墙看头步步紧逼"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.122
   },
   {
     "scene_id": "scene_19",
@@ -650,7 +722,11 @@
       "dialogue_mode": "病榻对白重复呓语催泪，会议众声罗列不逐句",
       "pacing": "归城缓慢绵长，病榻一字一顿，议战收束于罗列"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.126
   },
   {
     "scene_id": "scene_20",
@@ -684,6 +760,10 @@
       "dialogue_mode": "三赠三拒排比对白，誓言问答庄典，后段叙述吞没人声",
       "pacing": "筑台备葬工序徐缓，点火后句式随焰升腾渐快至炽"
     },
-    "style_profile_by": "claude-fable-5"
+    "style_profile_by": "claude-fable-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.098
   }
 ]

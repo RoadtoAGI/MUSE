@@ -29,7 +29,11 @@
       "dialogue_mode": "对白推进史实，「他说」高频，长独白跨段续引",
       "pacing": "长独白与短问答交替，掷火验戒等动作切开讲史"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.427
   },
   {
     "scene_id": "S02",
@@ -64,7 +68,11 @@
       "dialogue_mode": "歌谣承担施法与召唤，对白轻快，「某某说」归属",
       "pacing": "险境段句长气紧，脱险后短句明快，收在重新上路"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.206
   },
   {
     "scene_id": "S03",
@@ -98,7 +106,11 @@
       "dialogue_mode": "对白短促零星仅报警示警，叙述推进为主",
       "pacing": "静默蓄势铺长，袭击段短句爆发，断在知觉边缘"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.124
   },
   {
     "scene_id": "S24",
@@ -131,7 +143,11 @@
       "dialogue_mode": "对白稀疏皆呼喝命令，隔河喝阵短促",
       "pacing": "追逐长句随马蹄加速，洪水段意象涌起，收于昏迷"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.045
   },
   {
     "scene_id": "S04",
@@ -165,7 +181,11 @@
       "dialogue_mode": "对白全程承重，语域分庄谐两层，「某某说」归属",
       "pacing": "群言往复后落入静默蓄势，一句请缨定音收束"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.671
   },
   {
     "scene_id": "S05",
@@ -198,7 +218,11 @@
       "dialogue_mode": "对白皆短令与宣告，单句独立成段砸重音",
       "pacing": "鼓声复沓推节奏，交锋一句一段，崩落后骤然收静"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.112
   },
   {
     "scene_id": "S06",
@@ -231,7 +255,11 @@
       "dialogue_mode": "长对白论道，问答推进，山姆土语收尾破崇高",
       "pacing": "幻象一景一句连绵，论道段放缓，峰值在变身自白"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.444
   },
   {
     "scene_id": "S07",
@@ -264,7 +292,11 @@
       "dialogue_mode": "对白拉锯升温，劝—拒—夺三段递进至爆发",
       "pacing": "对峙短兵相接，逃脱后转长镜头铺陈，张弛落差大"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.557
   },
   {
     "scene_id": "S25",
@@ -298,7 +330,11 @@
       "dialogue_mode": "临终对白极简短句多留白，事后问答推议事",
       "pacing": "急奔短句开场，死讯后节奏放缓，收于未决两难"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.506
   },
   {
     "scene_id": "S08",
@@ -332,7 +368,11 @@
       "dialogue_mode": "对白主导试探攻防，呼名瞬间引爆身份揭晓",
       "pacing": "试探段慢问慢答，揭示一瞬提速，叙旧再放缓"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.588
   },
   {
     "scene_id": "S26",
@@ -366,7 +406,11 @@
       "dialogue_mode": "对白交锋承重，骂战与劝谏轮替，「某某说」高频",
       "pacing": "殿内对峙缓慢蓄压，开门见光后抬升，收于号令"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.596
   },
   {
     "scene_id": "S09",
@@ -401,7 +445,11 @@
       "dialogue_mode": "战隙对白计数玩笑松弛，阵前喊话短促挑衅",
       "pacing": "攻防按波次推进，号角段长句涌起，冲锋收束"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.432
   },
   {
     "scene_id": "S27",
@@ -435,7 +483,11 @@
       "dialogue_mode": "长篇转述内嵌引语，听者插话作换气节拍",
       "pacing": "口述滚动少停顿，奇观靠细节堆叠层层加码"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.135
   },
   {
     "scene_id": "S28",
@@ -468,7 +520,11 @@
       "dialogue_mode": "对白驱动驯服全程，人格切换靠自称变化外显",
       "pacing": "擒缚动作快切，盟誓段放慢凝重，收在连夜出发"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.445
   },
   {
     "scene_id": "S10",
@@ -501,7 +557,11 @@
       "dialogue_mode": "长问答攻防作全场骨架，盘问层层逼近隐情",
       "pacing": "对答绵密少动作，幻象插叙放缓，启程段提速"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.54
   },
   {
     "scene_id": "S11",
@@ -534,7 +594,11 @@
       "dialogue_mode": "闲谈承担主题陈述，对白占绝对篇幅",
       "pacing": "谈话舒缓如歇脚，笑声起落作节拍，抚膝段静音"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.706
   },
   {
     "scene_id": "S12",
@@ -568,7 +632,11 @@
       "dialogue_mode": "独处时对白即内心争辩，自语分作两声对答",
       "pacing": "搏斗短句快切，哀悼抉择段长句滞重，迟疑反复"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.388
   },
   {
     "scene_id": "S13",
@@ -600,7 +668,11 @@
       "dialogue_mode": "几乎无对白，仅终段宣告式喝问对决",
       "pacing": "「战鼓隆隆」复沓推压，三击破门，鸡鸣骤转"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.058
   },
   {
     "scene_id": "S29",
@@ -633,7 +705,11 @@
       "dialogue_mode": "军议问答推进行军决策，异族声口立辨",
       "pacing": "夜行铺陈缓慢压抑，风向转变点燃结尾冲锋"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.402
   },
   {
     "scene_id": "S14",
@@ -667,7 +743,11 @@
       "dialogue_mode": "阵前宣告式对白，揭名一句承全场转折",
       "pacing": "冲锋长句奔涌，对决一击一段，临终托付骤缓"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.159
   },
   {
     "scene_id": "S30",
@@ -702,7 +782,11 @@
       "dialogue_mode": "论辩对白承重，劝阻与狂言交锋层层递进",
       "pacing": "赶路急切短段，墓室对峙放缓，自焚段一气直下"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.397
   },
   {
     "scene_id": "S15",
@@ -736,7 +820,11 @@
       "dialogue_mode": "对白多声部，絮叨与简令对照，谚语复现点题",
       "pacing": "逐床轮诊推进，香气段驻留抒情，消息扩散收束"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.578
   },
   {
     "scene_id": "S16",
@@ -768,7 +856,11 @@
       "dialogue_mode": "自语支撑独行长段，对白稀少仅呼喝点缀",
       "pacing": "潜入慢步细写，诱惑幻景驻留，闯门段骤紧"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.264
   },
   {
     "scene_id": "S17",
@@ -800,7 +892,11 @@
       "dialogue_mode": "对白极简，主仆短句相扶，一唤一应",
       "pacing": "攀爬句子负重一步一顿，魔眼一瞥骤停再起步"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.083
   },
   {
     "scene_id": "S18",
@@ -833,7 +929,11 @@
       "dialogue_mode": "对白稀少皆为宣告，占有宣言一句定乾坤",
       "pacing": "静默蓄势后变故连爆，崩塌长句倾泻，收于平静"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.104
   },
   {
     "scene_id": "S19",
@@ -865,7 +965,11 @@
       "dialogue_mode": "对白稀少，宣告与诀别短语，相托作见证",
       "pacing": "崩塌段长句滚动连绵，双线切换收束于俯冲营救"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.21
   },
   {
     "scene_id": "S20",
@@ -901,7 +1005,11 @@
       "dialogue_mode": "问答补叙变局，颂呼多语并陈如礼乐",
       "pacing": "苏醒缓启，层层递进至全场欢呼，宴乐收尾"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.345
   },
   {
     "scene_id": "S21",
@@ -935,7 +1043,11 @@
       "dialogue_mode": "对白多为典仪宣答与判词，絮叨插话作调剂",
       "pacing": "一段一仪推进，后段编年快进数月，收于成婚"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.466
   },
   {
     "scene_id": "S22",
@@ -970,7 +1082,11 @@
       "dialogue_mode": "对白密集承担揭露与交锋，乡音声口各异",
       "pacing": "一站一阻推进，斗嘴轻快，见家园残破骤沉"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.536
   },
   {
     "scene_id": "S23",
@@ -1005,7 +1121,11 @@
       "dialogue_mode": "家常对话定大事，托付段语淡而重",
       "pacing": "大事年记快进，病痛以暗笔点入，渐缓至启程"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.234
   },
   {
     "scene_id": "S31",
@@ -1042,7 +1162,11 @@
       "dialogue_mode": "杀敌计数斗嘴穿插战况，喊阵呼号点燃士气",
       "pacing": "攻防一波一段层层加压，斗嘴段松一口气"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.404
   },
   {
     "scene_id": "S32",
@@ -1079,7 +1203,11 @@
       "dialogue_mode": "对白集中于疯狂城主与劝阻者，诀别宣告式",
       "pacing": "围困段碾压式缓慢铺陈，送葬段步步沉降"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.232
   },
   {
     "scene_id": "S33",
@@ -1114,7 +1242,11 @@
       "dialogue_mode": "长篇论辩递进，逐人表态如点名立誓",
       "pacing": "论说长段缓密，表态短句轮替，拔剑收势"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.512
   },
   {
     "scene_id": "S34",
@@ -1150,7 +1282,11 @@
       "dialogue_mode": "谈判对白针锋相对，嘲讽与反制轮番升级",
       "pacing": "谈判拉锯蓄势，夺信物瞬间引爆，直坠混战"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.352
   },
   {
     "scene_id": "S35",
@@ -1190,7 +1326,11 @@
       "dialogue_mode": "长演说对白推进，归属「某某说」加声线形容标态度",
       "pacing": "长段绵密包裹如声咒，转折以短句独段拍板，省略施法"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.543
   },
   {
     "scene_id": "S36",
@@ -1230,7 +1370,11 @@
       "dialogue_mode": "对白推进，长篇朗读与短促号令交替，「喊道」高频",
       "pacing": "拟声「咚隆」独段切相位，激战一段到底，事后补因果"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.423
   },
   {
     "scene_id": "S37",
@@ -1267,6 +1411,10 @@
       "dialogue_mode": "叙述推进为主，对白皆宣告誓言体，归属简用「他说」",
       "pacing": "长段铺排战局潮汐，韵文嵌入换挡，收束交给天色名录"
     },
-    "style_profile_by": "gpt-5"
+    "style_profile_by": "gpt-5",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.125
   }
 ]

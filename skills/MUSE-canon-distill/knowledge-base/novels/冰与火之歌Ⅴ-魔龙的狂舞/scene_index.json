@@ -31,7 +31,11 @@
       "dialogue_mode": "回忆对白嵌入濒死独白",
       "pacing": "短句惊厥与长回忆交替"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.036
   },
   {
     "scene_id": "S02",
@@ -63,7 +67,11 @@
       "dialogue_mode": "命令抗命对白逐级升级",
       "pacing": "程序性推进后骤然处决"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.07
   },
   {
     "scene_id": "S03",
@@ -96,7 +104,11 @@
       "dialogue_mode": "请愿断句逼出真相",
       "pacing": "缓慢呈物后短句坠落"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.139
   },
   {
     "scene_id": "S04",
@@ -129,7 +141,11 @@
       "dialogue_mode": "审问短句触发身份崩塌",
       "pacing": "饥饿细写后脚步逼近"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.065
   },
   {
     "scene_id": "S05",
@@ -163,7 +179,11 @@
       "dialogue_mode": "危机对白短促互相接力",
       "pacing": "攀登拖慢，伏击急收"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.073
   },
   {
     "scene_id": "S06",
@@ -195,7 +215,11 @@
       "dialogue_mode": "长段陈述完成政治反转",
       "pacing": "铺陈饮食后忽然亮刃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.106
   },
   {
     "scene_id": "S07",
@@ -228,7 +252,11 @@
       "dialogue_mode": "揭谜对白压过动作",
       "pacing": "低声揭示，信息层层剥开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.086
   },
   {
     "scene_id": "S08",
@@ -260,7 +288,11 @@
       "dialogue_mode": "少量训诫嵌入幻视",
       "pacing": "仪式缓慢，幻景跳跃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.07
   },
   {
     "scene_id": "S09",
@@ -293,7 +325,11 @@
       "dialogue_mode": "命令与称谓压制真名",
       "pacing": "仪式步进，心理窒息"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.056
   },
   {
     "scene_id": "S10",
@@ -327,7 +363,11 @@
       "dialogue_mode": "求婚与政谈互相拆台",
       "pacing": "会谈拖延，婚礼定音"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.202
   },
   {
     "scene_id": "S11",
@@ -360,7 +400,11 @@
       "dialogue_mode": "低声催促推动逃亡",
       "pacing": "潜行碎步后纵身断裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.089
   },
   {
     "scene_id": "S12",
@@ -393,7 +437,11 @@
       "dialogue_mode": "喧嚣背景中对白稀疏",
       "pacing": "群场混乱后聚焦驯龙"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.022
   },
   {
     "scene_id": "S13",
@@ -427,7 +475,11 @@
       "dialogue_mode": "机辩对白直接转局",
       "pacing": "试探递进，身份亮出收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.167
   },
   {
     "scene_id": "S14",
@@ -459,7 +511,11 @@
       "dialogue_mode": "密谋对白重暗号与条件",
       "pacing": "静室筹划，节点清晰"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.084
   },
   {
     "scene_id": "S15",
@@ -492,7 +548,11 @@
       "dialogue_mode": "军令对白配内心倒计时",
       "pacing": "行动迅疾，回忆短插"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.089
   },
   {
     "scene_id": "S16",
@@ -526,7 +586,11 @@
       "dialogue_mode": "鼓劲短句被巨兽打断",
       "pacing": "仪式慢启，火灾急坠"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.188
   },
   {
     "scene_id": "S17",
@@ -560,7 +624,11 @@
       "dialogue_mode": "口令式对白掩护背刺",
       "pacing": "杂务铺排后连击收黑"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.373
   },
   {
     "scene_id": "S18",
@@ -593,7 +661,11 @@
       "dialogue_mode": "群众叫骂压过人物对白",
       "pacing": "长路分段，屈辱递增"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.111
   },
   {
     "scene_id": "S19",
@@ -625,7 +697,11 @@
       "dialogue_mode": "几乎无对白，靠内问推进",
       "pacing": "求生细节慢，顿悟短促"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.04
   },
   {
     "scene_id": "S20",
@@ -658,7 +734,11 @@
       "dialogue_mode": "解释性对白完成布局",
       "pacing": "白鸦静落后快速清场"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.364
   },
   {
     "scene_id": "S21",
@@ -691,7 +771,11 @@
       "dialogue_mode": "少量问答衬出沉默巨兽",
       "pacing": "下行缓慢，龙影骤张"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.452
   },
   {
     "scene_id": "S22",
@@ -724,7 +808,11 @@
       "dialogue_mode": "布道长句对照求饶短句",
       "pacing": "公开仪式缓升，箭矢截断"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.161
   },
   {
     "scene_id": "S23",
@@ -757,7 +845,11 @@
       "dialogue_mode": "官员汇报配阴郁插科",
       "pacing": "梦境爆裂，日程铺长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.31
   },
   {
     "scene_id": "S24",
@@ -789,7 +881,11 @@
       "dialogue_mode": "翻译与俏皮话交错推进",
       "pacing": "游街观察慢，俘获突转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.375
   },
   {
     "scene_id": "S25",
@@ -821,6 +917,10 @@
       "dialogue_mode": "朋友调侃逼出自欺",
       "pacing": "夜谈慢逼，决心硬收"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.31
   }
 ]

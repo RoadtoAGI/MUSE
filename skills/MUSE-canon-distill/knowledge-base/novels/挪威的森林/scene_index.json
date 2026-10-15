@@ -28,7 +28,11 @@
       "dialogue_mode": "少量短问答，叙述推进为主",
       "pacing": "由机场实景缓慢滑入回忆"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.085
   },
   {
     "scene_id": "S02",
@@ -60,7 +64,11 @@
       "dialogue_mode": "对话嵌入长叙述，低声探问",
       "pacing": "景物铺陈极慢，情绪逐层下沉"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.321
   },
   {
     "scene_id": "S03",
@@ -92,7 +100,11 @@
       "dialogue_mode": "对白稀疏，关键句留给叙述",
       "pacing": "事件快述后停顿成观念"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.052
   },
   {
     "scene_id": "S04",
@@ -124,7 +136,11 @@
       "dialogue_mode": "前半闲谈，后半沉默压过对白",
       "pacing": "絮语拖长后骤然断裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.073
   },
   {
     "scene_id": "S05",
@@ -155,7 +171,11 @@
       "dialogue_mode": "开端短对白，主体无对白",
       "pacing": "动作极少，等待拉成长拍"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.046
   },
   {
     "scene_id": "S06",
@@ -187,7 +207,11 @@
       "dialogue_mode": "对白密集，回声式复述造节奏",
       "pacing": "快问快答推动人物显形"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.589
   },
   {
     "scene_id": "S07",
@@ -219,7 +243,11 @@
       "dialogue_mode": "插科打诨中暴露情感饥渴",
       "pacing": "火势外压与闲聊并行推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.493
   },
   {
     "scene_id": "S08",
@@ -251,7 +279,11 @@
       "dialogue_mode": "几乎无对白，靠视觉叙述",
       "pacing": "静止凝视拉长，清晨轻轻收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.046
   },
   {
     "scene_id": "S09",
@@ -283,7 +315,11 @@
       "dialogue_mode": "坦白对白主导，叙述做缓冲",
       "pacing": "告白递进至崩溃后外移"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.482
   },
   {
     "scene_id": "S10",
@@ -315,7 +351,11 @@
       "dialogue_mode": "独白式闲谈，对方回应极少",
       "pacing": "照护动作慢推，日常声响填空"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.236
   },
   {
     "scene_id": "S11",
@@ -348,7 +388,11 @@
       "dialogue_mode": "争辩对白锋利，后段转回叙述",
       "pacing": "餐桌冲突快，回忆解释慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.384
   },
   {
     "scene_id": "S12",
@@ -380,7 +424,11 @@
       "dialogue_mode": "绿子长对白推进，男声短答",
       "pacing": "逼问密集后以雨中拥抱放缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.776
   },
   {
     "scene_id": "S13",
@@ -413,7 +461,11 @@
       "dialogue_mode": "长段转述对白，听者少插话",
       "pacing": "从日常整理缓慢逼近死亡"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.466
   },
   {
     "scene_id": "S14",
@@ -445,7 +497,11 @@
       "dialogue_mode": "短对白点题，音乐承担情绪",
       "pacing": "曲目累加成节拍，结尾一曲落定"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.329
   },
   {
     "scene_id": "S15",
@@ -477,6 +533,10 @@
       "dialogue_mode": "电话对白极短，沉默占主导",
       "pacing": "快速告白后停在空白回声"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.021
   }
 ]

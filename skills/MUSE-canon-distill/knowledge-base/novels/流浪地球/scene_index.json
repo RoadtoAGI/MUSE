@@ -46,7 +46,11 @@
       "dialogue_mode": "少量师生问答嵌入说明，叙述推进为主",
       "pacing": "景观层层放大，末尾用短句落到死亡"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.162
   },
   {
     "scene_id": "scene_02",
@@ -97,7 +101,11 @@
       "dialogue_mode": "师生对白制造迟疑，儿童短句显惊惧",
       "pacing": "长段铺环境，恐惧段用坠落感加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.208
   },
   {
     "scene_id": "scene_03",
@@ -148,7 +156,11 @@
       "dialogue_mode": "辩论式对白推进，教师长句压住群体喊叫",
       "pacing": "冲突先爆开，再以实验说明放慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.63
   },
   {
     "scene_id": "scene_04",
@@ -203,7 +215,11 @@
       "dialogue_mode": "几乎无对白，用集体泪水代替交谈",
       "pacing": "短场景连续跳切，启航句独立成段"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.016
   },
   {
     "scene_id": "scene_05",
@@ -254,7 +270,11 @@
       "dialogue_mode": "家庭对白平淡克制，情绪被宏观生存吞没",
       "pacing": "家事轻描淡写，末尾希望独白收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.326
   },
   {
     "scene_id": "scene_06",
@@ -301,7 +321,11 @@
       "dialogue_mode": "两人短对白推进，灵儿用比喻夺取话语",
       "pacing": "柔慢观看泡泡，随后用消失急转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.377
   },
   {
     "scene_id": "scene_07",
@@ -354,7 +378,11 @@
       "dialogue_mode": "广播命令式对白，人物交流被制度替代",
       "pacing": "先说明机制，再按撤离时间递进窒息"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.116
   },
   {
     "scene_id": "scene_08",
@@ -405,7 +433,11 @@
       "dialogue_mode": "相遇对白温暖直接，制度宣告转回冷峻",
       "pacing": "孤独长铺垫，遇见后节奏轻快再沉下"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.13
   },
   {
     "scene_id": "scene_09",
@@ -458,7 +490,11 @@
       "dialogue_mode": "解释性对白分散在灾难推进中",
       "pacing": "爆炸景观连发，末尾用勋章骤然静止"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.262
   },
   {
     "scene_id": "scene_10",
@@ -511,7 +547,11 @@
       "dialogue_mode": "少量低声对白，旁人对白完成价值转折",
       "pacing": "黑暗中停滞拉长，蓝光出现后呼吸恢复"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.083
   },
   {
     "scene_id": "scene_11",
@@ -560,7 +600,11 @@
       "dialogue_mode": "基本无对白，引用记者句制造外部见证",
       "pacing": "天体升起极慢推进，警报后迅速切生存"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.029
   },
   {
     "scene_id": "scene_12",
@@ -609,7 +653,11 @@
       "dialogue_mode": "夫妻短对白冲突，结论由叙述扩散",
       "pacing": "私密观测起步，几个月概括扩大恐慌"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.155
   },
   {
     "scene_id": "scene_13",
@@ -662,7 +710,11 @@
       "dialogue_mode": "公众演说主导，私人关系几乎无对白",
       "pacing": "群众场面迅速升温，加入军队句冷收"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.384
   },
   {
     "scene_id": "scene_14",
@@ -723,7 +775,11 @@
       "dialogue_mode": "执政官演说与群众合唱对峙",
       "pacing": "刑场长时间压迫，氦闪用短句断裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "literary",
+    "dialogue_ratio": 0.109
   },
   {
     "scene_id": "scene_15",
@@ -776,6 +832,10 @@
       "dialogue_mode": "无对白，以歌词承担集体声音",
       "pacing": "先冷静概述航程，再用歌段循环升温"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   }
 ]

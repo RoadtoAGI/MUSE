@@ -30,7 +30,11 @@
       "dialogue_mode": "叙述推进为主，对白短句触发转向",
       "pacing": "长段铺因，动作处逐拍压慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.058
   },
   {
     "scene_id": "S02",
@@ -63,7 +67,11 @@
       "dialogue_mode": "电话对白碎片化，制造围困感",
       "pacing": "回忆短缓，电话门铃连续加速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.154
   },
   {
     "scene_id": "S03",
@@ -98,7 +106,11 @@
       "dialogue_mode": "会议式对白推进，话外压力重",
       "pacing": "先慢铺环境，后用逼迁收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.302
   },
   {
     "scene_id": "S04",
@@ -132,7 +144,11 @@
       "dialogue_mode": "短促探视对白，沉默承担重量",
       "pacing": "室内停滞后，门口擦肩骤停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.039
   },
   {
     "scene_id": "S05",
@@ -167,7 +183,11 @@
       "dialogue_mode": "群体对白刺破秘密，店长委婉",
       "pacing": "招待细节缓铺，失言后留白变长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.297
   },
   {
     "scene_id": "S06",
@@ -200,7 +220,11 @@
       "dialogue_mode": "兄弟对白密集，误记推动裂缝",
       "pacing": "等待慢，谈话断续，结尾情绪外溢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.395
   },
   {
     "scene_id": "S07",
@@ -232,7 +256,11 @@
       "dialogue_mode": "试探式对白，人物绕开同情",
       "pacing": "闲谈松弛，发现小册子时轻提速"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.293
   },
   {
     "scene_id": "S08",
@@ -267,7 +295,11 @@
       "dialogue_mode": "邀约对白明快，舞台反应推进",
       "pacing": "沉浸段舒展，才华被发现处跳跃"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.268
   },
   {
     "scene_id": "S09",
@@ -302,7 +334,11 @@
       "dialogue_mode": "三人轮流说明，客气中切断关系",
       "pacing": "开场平稳，消息揭露后压低停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.401
   },
   {
     "scene_id": "S10",
@@ -336,7 +372,11 @@
       "dialogue_mode": "对白对撞推进，怒斥后以下跪收束",
       "pacing": "解释拉扯快，离开时动作放慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.646
   },
   {
     "scene_id": "S11",
@@ -369,7 +409,11 @@
       "dialogue_mode": "搭讪和交换信息推动亲近",
       "pacing": "群场略写，钱包事件后节奏转柔"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.238
   },
   {
     "scene_id": "S12",
@@ -405,7 +449,11 @@
       "dialogue_mode": "长辈套话和孝文威胁形成夹击",
       "pacing": "拜访缓慢铺陈，车内威胁骤冷"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.462
   },
   {
     "scene_id": "S13",
@@ -439,7 +487,11 @@
       "dialogue_mode": "对峙对白尖锐，揭穿逐层升级",
       "pacing": "准备细节慢，识破后连续爆裂"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.465
   },
   {
     "scene_id": "S14",
@@ -471,7 +523,11 @@
       "dialogue_mode": "两人对白拉锯，玩笑刺破权力",
       "pacing": "登门直接，拒钱处短促收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.473
   },
   {
     "scene_id": "S15",
@@ -505,7 +561,11 @@
       "dialogue_mode": "审问式对白密集，问答逼出真相",
       "pacing": "小隔间封闭，识破后逐句收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.395
   },
   {
     "scene_id": "S16",
@@ -538,7 +598,11 @@
       "dialogue_mode": "长对白宣讲，少量追问递进",
       "pacing": "相认轻缓，主题段落稳步展开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.625
   },
   {
     "scene_id": "S17",
@@ -570,7 +634,11 @@
       "dialogue_mode": "坦白对白绵密，告白不拔高",
       "pacing": "等待段慢，由实子自述后沉静"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "mixed",
+    "register": "colloquial",
+    "dialogue_ratio": 0.301
   },
   {
     "scene_id": "S18",
@@ -604,7 +672,11 @@
       "dialogue_mode": "夫妻对白推进价值选择",
       "pacing": "公园观察慢，搬家争论节拍清楚"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.37
   },
   {
     "scene_id": "S19",
@@ -641,7 +713,11 @@
       "dialogue_mode": "社长论辩后，通知对白骤然打断",
       "pacing": "视察缓铺，电话事故后急转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.395
   },
   {
     "scene_id": "S20",
@@ -676,7 +752,11 @@
       "dialogue_mode": "登门道歉对白压低，书信独白收束",
       "pacing": "会客克制，写信段长句倾泻"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.403
   },
   {
     "scene_id": "S21",
@@ -708,7 +788,11 @@
       "dialogue_mode": "双人对白绵长，拒绝和释放并存",
       "pacing": "路途慢铺，信束揭示后沉重停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "mixed",
+    "dialogue_ratio": 0.336
   },
   {
     "scene_id": "S22",
@@ -745,6 +829,10 @@
       "dialogue_mode": "后台对白短，高潮转为内心呼唤",
       "pacing": "准备缓慢，认出哥哥后凝固失声"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "ja",
+    "narrative_person": "first",
+    "register": "colloquial",
+    "dialogue_ratio": 0.141
   }
 ]

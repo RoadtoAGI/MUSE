@@ -1,6 +1,8 @@
 novel: 冰与火之歌Ⅳ-群鸦的盛宴
 author: 乔治·R·R·马丁
 lang: zh
+original_lang: en
+narrative_person_override: third
 translator: ''
 narration_voice: 多POV限知轮替，叙述被视角人物偏见染色
 diction: 译腔白话为底，混贵族礼语、粗骂和宗教军政词

@@ -29,7 +29,11 @@
       "dialogue_mode": "短句问答推进，归属语极省",
       "pacing": "动作细密后留一拍沉默"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_02",
@@ -61,7 +65,11 @@
       "dialogue_mode": "孩子阻止，父亲短答回避",
       "pacing": "长描写压住短对白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_03",
@@ -96,7 +104,11 @@
       "dialogue_mode": "威胁审问式对白密集",
       "pacing": "追逃急促，创伤处拖长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_04",
@@ -129,7 +141,11 @@
       "dialogue_mode": "孩子追问，父亲封口",
       "pacing": "目击缓慢，余波静默延长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_05",
@@ -162,7 +178,11 @@
       "dialogue_mode": "长段独白压倒哀求短句",
       "pacing": "对白连压，结尾骤然省略"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_06",
@@ -198,7 +218,11 @@
       "dialogue_mode": "低声命令与求救交错",
       "pacing": "搜索慢铺，发现后急坠"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_07",
@@ -231,7 +255,11 @@
       "dialogue_mode": "安抚式短答，惊喜慢显",
       "pacing": "开门前拖延，入窖后舒展"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.001
   },
   {
     "scene_id": "scene_08",
@@ -264,7 +292,11 @@
       "dialogue_mode": "引导后交给孩子整段话",
       "pacing": "极短场景，停在反问"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_09",
@@ -297,7 +329,11 @@
       "dialogue_mode": "盘问、施舍、辩论轮换",
       "pacing": "相遇慢近，夜谈大段展开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_10",
@@ -330,7 +366,11 @@
       "dialogue_mode": "温柔短问答维持火炬",
       "pacing": "景观静止，游泳处短促"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_11",
@@ -364,7 +404,11 @@
       "dialogue_mode": "命令、求饶、孩子抗辩交错",
       "pacing": "追捕紧，事后呼喊拉长"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_12",
@@ -400,7 +444,11 @@
       "dialogue_mode": "临终训诫与试探问答",
       "pacing": "诀别缓慢，收束转寓言"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_13",
@@ -433,7 +481,11 @@
       "dialogue_mode": "生存问答夹道德承诺",
       "pacing": "逐屋搜查，狗叫处停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.0
   },
   {
     "scene_id": "scene_14",
@@ -465,6 +517,10 @@
       "dialogue_mode": "对白稀少，结尾孩子称赞",
       "pacing": "细搜慢行，水与苹果处舒缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "en",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.0
   }
 ]

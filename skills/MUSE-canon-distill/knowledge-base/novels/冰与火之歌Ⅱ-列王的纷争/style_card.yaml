@@ -1,6 +1,8 @@
 novel: 冰与火之歌Ⅱ-列王的纷争
 author: 乔治·R·R·马丁
 lang: zh
+original_lang: en
+narrative_person_override: third
 translator: ''
 narration_voice: 多POV限知第三人称，叙述贴合身份与误判
 diction: 译笔文白相济，贵族礼语、军务词与粗口分层

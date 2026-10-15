@@ -38,7 +38,11 @@
       "dialogue_mode": "叙述推进为主，对白作性格钉点",
       "pacing": "长段蓄压，短句插评转折"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.188
   },
   {
     "scene_id": "scene_02",
@@ -81,7 +85,11 @@
       "dialogue_mode": "奏对密集推进，称谓礼制清楚",
       "pacing": "对白压阵，插叙解释放缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.379
   },
   {
     "scene_id": "scene_03",
@@ -126,7 +134,11 @@
       "dialogue_mode": "短促问答驱动行动，喊话立转折",
       "pacing": "急行段落连缀，落点用笑场缓冲"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.189
   },
   {
     "scene_id": "scene_04",
@@ -169,7 +181,11 @@
       "dialogue_mode": "盘问式对白推进，口供显人物",
       "pacing": "先乱后静，逐问逐答压低节奏"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.39
   },
   {
     "scene_id": "scene_05",
@@ -216,7 +232,11 @@
       "dialogue_mode": "劝阻与反问交错，情绪含在礼语里",
       "pacing": "雪景慢蓄，渡河前对话渐紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.397
   },
   {
     "scene_id": "scene_06",
@@ -262,7 +282,11 @@
       "dialogue_mode": "军令短促，叙述承担主要推进",
       "pacing": "旗号分节，冲锋段急速推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.061
   },
   {
     "scene_id": "scene_07",
@@ -311,7 +335,11 @@
       "dialogue_mode": "朝会奏答推进，君臣分工清晰",
       "pacing": "信息段长铺，决策处短句收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.33
   },
   {
     "scene_id": "scene_08",
@@ -360,7 +388,11 @@
       "dialogue_mode": "群臣辩议密集，互刺显关系",
       "pacing": "议题轮转快，旁白插针解释"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.624
   },
   {
     "scene_id": "scene_09",
@@ -405,7 +437,11 @@
       "dialogue_mode": "观礼闲谈推进，问答引出制度",
       "pacing": "仪式长镜头后，用玩笑破庄重"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.081
   },
   {
     "scene_id": "scene_10",
@@ -451,7 +487,11 @@
       "dialogue_mode": "对白少，公文行动替代争辩",
       "pacing": "层层列风险，执行段快速落地"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.191
   },
   {
     "scene_id": "scene_11",
@@ -498,7 +538,11 @@
       "dialogue_mode": "叙述为主，群众反应替代对白",
       "pacing": "实验声响开场，解释段层层回溯"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.314
   },
   {
     "scene_id": "scene_12",
@@ -542,7 +586,11 @@
       "dialogue_mode": "对白稀疏，内心独白承担推进",
       "pacing": "长段思辨慢行，问题句不断加压"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.491
   },
   {
     "scene_id": "scene_13",
@@ -589,7 +637,11 @@
       "dialogue_mode": "汇报短句为触发，沉默承载情绪",
       "pacing": "战报急促，内心枚举逐渐放慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.16
   },
   {
     "scene_id": "scene_14",
@@ -634,7 +686,11 @@
       "dialogue_mode": "急促军情对白，命令与求生并列",
       "pacing": "大崩溃快写，人物分岔处稍停"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.287
   },
   {
     "scene_id": "scene_15",
@@ -679,7 +735,11 @@
       "dialogue_mode": "院中议事密集，追问显权力裂缝",
       "pacing": "火乱铺底，问答逐步收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.258
   },
   {
     "scene_id": "scene_16",
@@ -724,7 +784,11 @@
       "dialogue_mode": "散步闲谈推进，含蓄交换判断",
       "pacing": "舒缓回望，议题暗转保持余味"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "colloquial",
+    "dialogue_ratio": 0.43
   },
   {
     "scene_id": "scene_17",
@@ -772,7 +836,11 @@
       "dialogue_mode": "讲解式对白揭机制，军令报数推进",
       "pacing": "先静观后连报，压抑中突然开火"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.173
   },
   {
     "scene_id": "scene_18",
@@ -820,7 +888,11 @@
       "dialogue_mode": "审问式对白起势，旁白转入逃生",
       "pacing": "对话急促开场，战场旅行渐失控"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.175
   },
   {
     "scene_id": "scene_19",
@@ -867,6 +939,10 @@
       "dialogue_mode": "对白少，叙述承载调度和判断",
       "pacing": "雨势慢压，援军到达形成转折"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.42
   }
 ]

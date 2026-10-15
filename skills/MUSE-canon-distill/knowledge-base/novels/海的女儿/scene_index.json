@@ -35,7 +35,11 @@
       "dialogue_mode": "叙述推进为主，少量引语触发愿望",
       "pacing": "长段铺陈景观，末尾收束到渴望"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.031
   },
   {
     "scene_id": "S02",
@@ -74,7 +78,11 @@
       "dialogue_mode": "对白稀少，动作和视觉承担推进",
       "pacing": "宴会慢铺后风暴急转，救援细写"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.03
   },
   {
     "scene_id": "S03",
@@ -113,7 +121,11 @@
       "dialogue_mode": "问答式对白密集，巫婆逐条报价",
       "pacing": "规则先铺再交易，痛苦后果层层加码"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.371
   },
   {
     "scene_id": "S04",
@@ -153,7 +165,11 @@
       "dialogue_mode": "王子独白为主，小人鱼以眼神回应",
       "pacing": "日常陪伴慢写，夜海探亲留白"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.246
   },
   {
     "scene_id": "S05",
@@ -192,7 +208,11 @@
       "dialogue_mode": "王子解释性对白，小人鱼沉默承受",
       "pacing": "婚讯到婚夜递进，欢乐场面中嵌终局倒计时"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.124
   },
   {
     "scene_id": "S06",
@@ -235,6 +255,10 @@
       "dialogue_mode": "临终催促后转为空灵问答",
       "pacing": "抉择极短，升华说明放缓收束"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "da",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.508
   }
 ]

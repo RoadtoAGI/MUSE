@@ -37,7 +37,11 @@
       "开场",
       "武戏",
       "复仇"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.185
   },
   {
     "scene_id": "S02",
@@ -79,7 +83,11 @@
       "日常",
       "修炼",
       "传功"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.161
   },
   {
     "scene_id": "S03",
@@ -119,7 +127,11 @@
       "拜师",
       "仪式",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.228
   },
   {
     "scene_id": "S04",
@@ -159,7 +171,11 @@
       "情感",
       "死亡诀别",
       "转折"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.286
   },
   {
     "scene_id": "S05",
@@ -202,7 +218,11 @@
       "救援",
       "智计",
       "喜剧"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.256
   },
   {
     "scene_id": "S06",
@@ -242,7 +262,11 @@
       "武戏",
       "单挑",
       "死亡诀别"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.184
   },
   {
     "scene_id": "S07",
@@ -284,7 +308,11 @@
       "传功",
       "武学",
       "暗线"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.245
   },
   {
     "scene_id": "S08",
@@ -324,7 +352,11 @@
       "武戏",
       "群戏",
       "比试"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.146
   },
   {
     "scene_id": "S09",
@@ -367,7 +399,11 @@
       "礼教",
       "情感",
       "放逐"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.32
   },
   {
     "scene_id": "S10",
@@ -407,7 +443,11 @@
       "揭秘",
       "身世",
       "复仇"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.283
   },
   {
     "scene_id": "S11",
@@ -448,7 +488,11 @@
       "情感",
       "重逢",
       "误会"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.298
   },
   {
     "scene_id": "S12",
@@ -489,7 +533,11 @@
       "战争攻城",
       "武戏",
       "成长蜕变"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.239
   },
   {
     "scene_id": "S13",
@@ -529,7 +577,11 @@
       "揭秘",
       "变故",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.284
   },
   {
     "scene_id": "S14",
@@ -569,7 +621,11 @@
       "变故",
       "冲突",
       "转折"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.399
   },
   {
     "scene_id": "S15",
@@ -609,7 +665,11 @@
       "修炼",
       "武学",
       "成长蜕变"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.148
   },
   {
     "scene_id": "S16",
@@ -651,7 +711,11 @@
       "伦理",
       "情感",
       "对质"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.339
   },
   {
     "scene_id": "S17",
@@ -693,7 +757,11 @@
       "智斗",
       "阵法",
       "武戏"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.305
   },
   {
     "scene_id": "S18",
@@ -734,7 +802,11 @@
       "群战",
       "仪式",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.342
   },
   {
     "scene_id": "S19",
@@ -776,7 +848,11 @@
     "tags": [
       "变故",
       "转折"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.119
   },
   {
     "scene_id": "S20",
@@ -817,7 +893,11 @@
       "殉情",
       "死亡诀别",
       "绝望"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.366
   },
   {
     "scene_id": "S21",
@@ -859,7 +939,11 @@
       "死亡诀别",
       "反派落幕",
       "主题"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.31
   },
   {
     "scene_id": "S22",
@@ -898,7 +982,11 @@
       "框架叙事",
       "传说",
       "相遇"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.659
   },
   {
     "scene_id": "S23",
@@ -940,7 +1028,11 @@
       "恩怨化解",
       "武戏",
       "招式创新"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.412
   },
   {
     "scene_id": "S24",
@@ -980,7 +1072,11 @@
       "群戏",
       "奇观",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.285
   },
   {
     "scene_id": "S25",
@@ -1022,7 +1118,11 @@
       "重逢",
       "情感",
       "高潮"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.33
   },
   {
     "scene_id": "S26",
@@ -1063,7 +1163,11 @@
       "战争攻城",
       "武戏",
       "高潮"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.134
   },
   {
     "scene_id": "S27",
@@ -1105,7 +1209,11 @@
       "结局",
       "仪式",
       "传承"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.205
   },
   {
     "scene_id": "S28",
@@ -1147,7 +1255,11 @@
       "武戏",
       "双人合击",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.366
   },
   {
     "scene_id": "S29",
@@ -1190,7 +1302,11 @@
       "武戏",
       "救援",
       "单挑"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.118
   },
   {
     "scene_id": "S30",
@@ -1233,6 +1349,10 @@
       "比试",
       "招式创新",
       "情感"
-    ]
+    ],
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.389
   }
 ]

@@ -28,7 +28,11 @@
       "dialogue_mode": "短问短答推进，叙述补心理",
       "pacing": "缓入机锋，末句轻收"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.517
   },
   {
     "scene_id": "S02",
@@ -60,7 +64,11 @@
       "dialogue_mode": "论辩为主，插入动作打断",
       "pacing": "长铺短答，递进到约定"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.245
   },
   {
     "scene_id": "S03",
@@ -92,7 +100,11 @@
       "dialogue_mode": "少量追问牵出身世",
       "pacing": "先逸事后释义，留神秘"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.239
   },
   {
     "scene_id": "S04",
@@ -125,7 +137,11 @@
       "dialogue_mode": "宴席辞令与暗号并行",
       "pacing": "鸟声铺张后转入幽叹"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.269
   },
   {
     "scene_id": "S05",
@@ -157,7 +173,11 @@
       "dialogue_mode": "诗歌独唱压过散对白",
       "pacing": "异象叠歌，末端急转"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.139
   },
   {
     "scene_id": "S06",
@@ -189,7 +209,11 @@
       "dialogue_mode": "挑衅问答带身份试探",
       "pacing": "动作急，义理处放慢"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.369
   },
   {
     "scene_id": "S07",
@@ -219,7 +243,11 @@
       "dialogue_mode": "对白稀疏，叙述托情",
       "pacing": "景物缓铺，情绪渐密"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.096
   },
   {
     "scene_id": "S08",
@@ -251,7 +279,11 @@
       "dialogue_mode": "行旅寒暄牵出判断",
       "pacing": "叙事稳步，转折处短促"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.197
   },
   {
     "scene_id": "S09",
@@ -283,7 +315,11 @@
       "dialogue_mode": "席间对白推进关系",
       "pacing": "热闹中留出凝视停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.154
   },
   {
     "scene_id": "S10",
@@ -316,7 +352,11 @@
       "dialogue_mode": "众声鼓噪夹主角短句",
       "pacing": "人群密集，动作突发"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.206
   },
   {
     "scene_id": "S11",
@@ -348,7 +388,11 @@
       "dialogue_mode": "对白少，内心承接诗意",
       "pacing": "回忆插叙，情绪迟缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.249
   },
   {
     "scene_id": "S12",
@@ -380,7 +424,11 @@
       "dialogue_mode": "含蓄应酬多于直说",
       "pacing": "礼节拖慢，暗线推进"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.245
   },
   {
     "scene_id": "S13",
@@ -413,7 +461,11 @@
       "dialogue_mode": "短促对白触发异象",
       "pacing": "先静后奇，句群骤密"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.224
   },
   {
     "scene_id": "S14",
@@ -445,7 +497,11 @@
       "dialogue_mode": "训诫式对白带余味",
       "pacing": "旧事慢放，末尾内收"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.265
   },
   {
     "scene_id": "S15",
@@ -477,7 +533,11 @@
       "dialogue_mode": "论诗对白密集互接",
       "pacing": "辩析层层加码，忽作笑声"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.344
   },
   {
     "scene_id": "S16",
@@ -511,7 +571,11 @@
       "dialogue_mode": "叫喊唱词推动冲突",
       "pacing": "拥挤急促，奇物破局"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "literary",
+    "dialogue_ratio": 0.493
   },
   {
     "scene_id": "S17",
@@ -542,7 +606,11 @@
       "dialogue_mode": "客套问答掩真实意图",
       "pacing": "铺垫绵密，关键处停顿"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.177
   },
   {
     "scene_id": "S18",
@@ -575,7 +643,11 @@
       "dialogue_mode": "诗句唱和引出追问",
       "pacing": "吟咏舒展，问答突然收紧"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.077
   },
   {
     "scene_id": "S19",
@@ -607,7 +679,11 @@
       "dialogue_mode": "多人插话形成席间流动",
       "pacing": "热闹快切，独白处放缓"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "mixed",
+    "dialogue_ratio": 0.425
   },
   {
     "scene_id": "S20",
@@ -640,7 +716,11 @@
       "dialogue_mode": "对白点到即止，叙述主导",
       "pacing": "路途展开，转念处凝住"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.05
   },
   {
     "scene_id": "S21",
@@ -672,7 +752,11 @@
       "dialogue_mode": "群声逼近，主角以短句应",
       "pacing": "喧闹压迫，奇迹断开"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "mixed",
+    "register": "mixed",
+    "dialogue_ratio": 0.278
   },
   {
     "scene_id": "S22",
@@ -705,7 +789,11 @@
       "dialogue_mode": "障车唱词反复造势",
       "pacing": "拥挤鼓噪，坠物瞬间断拍"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.15
   },
   {
     "scene_id": "S23",
@@ -739,7 +827,11 @@
       "dialogue_mode": "论字问答牵出长注",
       "pacing": "一字入史，笑声缓冲"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.263
   },
   {
     "scene_id": "S24",
@@ -773,7 +865,11 @@
       "dialogue_mode": "索诗应答推动顿悟",
       "pacing": "醉语快起，诗论慢释"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.222
   },
   {
     "scene_id": "S25",
@@ -806,6 +902,10 @@
       "dialogue_mode": "梦呓唱和转严肃追问",
       "pacing": "清晨缓叙，末问沉下"
     },
-    "style_profile_by": "Codex (executor)"
+    "style_profile_by": "Codex (executor)",
+    "original_lang": "zh",
+    "narrative_person": "third",
+    "register": "literary",
+    "dialogue_ratio": 0.352
   }
 ]
