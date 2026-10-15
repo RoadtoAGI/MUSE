@@ -5,6 +5,10 @@
 按 basename 分派四类 schema：正向 allowlist（未知字段拒绝）+ 列表内 id 唯一性
 （先于外键校验）+ 外键存在性 + outline 禁键递归拒绝（任意深度）。
 
+进入写作简报的设计文字有字数上限（设计 §6，汉字计，英文按 1 汉字约 0.6 词折算）：
+构想的前提、核心价值与风格指令合计 ≤ 400，每个人物 ≤ 300，大纲每场 ≤ 150。
+超出报错，由设计阶段写短，装配简报时不裁；requirements 与 reference_materials 不设上限。
+
 用法:
     python3 validate_shortform_contract.py <path/to/pipeline/shortform/xxx.yaml>
 
@@ -39,7 +43,8 @@ BANNED_KEYS = {
     "voice_gear",
 }
 
-CONCEPTION_REQUIRED = {"premise", "core_value", "genre", "target_length"}
+CONCEPTION_REQUIRED = {"premise", "core_value", "genre", "target_length", "narration_person"}
+NARRATION_PERSONS = {"first", "third"}
 CONCEPTION_ALLOWED = CONCEPTION_REQUIRED | {
     "style_directives",
     "requirements",
@@ -59,7 +64,19 @@ CANON_MATERIAL_ALLOWED = {"work", "stance", "reason", "intended_domains", "reuse
 
 CHARACTER_REQUIRED = {"id", "name"}
 CHARACTER_CONTEXT = {"desire", "pressure", "voice"}
-CHARACTER_ALLOWED = CHARACTER_REQUIRED | CHARACTER_CONTEXT | {"voice_boundaries", "relationships"}
+CHARACTER_ALLOWED = CHARACTER_REQUIRED | CHARACTER_CONTEXT | {"voice_boundaries", "voice_samples", "relationships"}
+VOICE_SAMPLES_RANGE = (3, 5)
+
+# 写作简报字数上限（汉字；英文词数按 0.6 折算成汉字）
+CONCEPTION_BRIEF_CAP = 400
+CHARACTER_BRIEF_CAP = 300
+SCENE_BRIEF_CAP = 150
+EN_WORDS_PER_CHAR = 0.6
+CONCEPTION_BRIEF_FIELDS = ("premise", "core_value", "style_directives")
+CHARACTER_BRIEF_FIELDS = ("desire", "pressure", "voice", "voice_boundaries", "voice_samples")
+SCENE_BRIEF_FIELDS = ("location_time", "conflict", "value_start", "value_end", "task", "handoff")
+_HAN_RE = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
+_WORD_RE = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
 RELATIONSHIP_ALLOWED = {"with", "nature"}
 
 SPINE_FIELDS = {"spine_statement", "dramatic_question", "ending_pressure"}
@@ -88,6 +105,23 @@ VALID_BASENAMES = (
 
 def _is_filled_str(value) -> bool:
     return isinstance(value, str) and bool(value.strip())
+
+
+def brief_units(*values) -> int:
+    """简报字数：汉字数加英文词数折算（1 汉字约 0.6 词），标点与空白不计。"""
+    parts: list[str] = []
+    for value in values:
+        if isinstance(value, str):
+            parts.append(value)
+        elif isinstance(value, list):
+            parts.extend(str(item) for item in value if isinstance(item, (str, int, float)))
+    text = "\n".join(parts)
+    return len(_HAN_RE.findall(text)) + round(len(_WORD_RE.findall(text)) / EN_WORDS_PER_CHAR)
+
+
+def _check_brief_cap(units: int, cap: int, ctx: str, fields: str, errors: list[str]) -> None:
+    if units > cap:
+        errors.append(f"{ctx}: {fields}合计 {units} 字，超过写作简报上限 {cap}（英文按 1 汉字约 0.6 词折算），请写短")
 
 
 def _check_str_field(container: dict, key: str, ctx: str, errors: list[str]) -> None:
@@ -140,6 +174,12 @@ def validate_conception(data: dict) -> list[str]:
     _check_unknown_keys(data, CONCEPTION_ALLOWED, "conception", errors)
     for key in ("premise", "core_value", "genre"):
         _check_str_field(data, key, "conception", errors)
+    if "narration_person" not in data:
+        errors.append("conception: 缺必填字段 `narration_person`（first | third）")
+    elif data["narration_person"] not in NARRATION_PERSONS:
+        errors.append(f"conception: `narration_person`={data['narration_person']!r} 必须是 first 或 third")
+    _check_brief_cap(brief_units(*(data.get(k) for k in CONCEPTION_BRIEF_FIELDS)), CONCEPTION_BRIEF_CAP,
+                     "conception", "premise、core_value 与 style_directives ", errors)
     if "target_length" not in data:
         errors.append("conception: 缺必填字段 `target_length`")
     elif not isinstance(data["target_length"], int) or isinstance(data["target_length"], bool) \
@@ -222,6 +262,17 @@ def validate_characters(data: dict) -> list[str]:
             ids.append(cid)
         if "voice_boundaries" in char:
             _check_str_list(char["voice_boundaries"], ctx, "voice_boundaries", errors)
+        low, high = VOICE_SAMPLES_RANGE
+        if "voice_samples" in char:
+            _check_str_list(char["voice_samples"], ctx, "voice_samples", errors)
+            if isinstance(char["voice_samples"], list) and not low <= len(char["voice_samples"]) <= high:
+                errors.append(f"{ctx}: `voice_samples` 写 {low}–{high} 句（当前 {len(char['voice_samples'])}）")
+        elif "voice" in char:
+            errors.append(f"{ctx}: 有 `voice` 的人物须给 `voice_samples` 示范句 {low}–{high} 句")
+        relations = [r.get("nature") for r in char.get("relationships") or [] if isinstance(r, dict)]
+        _check_brief_cap(brief_units(*(char.get(k) for k in CHARACTER_BRIEF_FIELDS), relations),
+                         CHARACTER_BRIEF_CAP, ctx,
+                         "desire、pressure、voice、voice_boundaries、voice_samples 与关系 ", errors)
 
     id_set = set(ids)
     for i, char in enumerate(chars):
@@ -333,6 +384,9 @@ def validate_outline(data: dict, shortform_dir: Path) -> list[str]:
             errors.append(f"{ctx}: `task` 不应以设计 [marker] 开头")
         if "handoff" in scene and not _is_filled_str(scene["handoff"]):
             errors.append(f"{ctx}: `handoff` 若出现必须是非空字符串")
+
+        _check_brief_cap(brief_units(*(scene.get(k) for k in SCENE_BRIEF_FIELDS)), SCENE_BRIEF_CAP,
+                         ctx, "location_time、conflict、value_start、value_end、task 与 handoff ", errors)
 
         participants = scene.get("participants")
         if not isinstance(participants, list) or not participants:

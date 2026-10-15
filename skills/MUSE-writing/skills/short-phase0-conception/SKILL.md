@@ -30,11 +30,15 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 以正整数记录本次目标字数；用户给出的区间、上限或下限按原有强度保留在 `requirements`，估计值不升级为硬要求。超出整篇生成能力时交 orchestrator 与作者判断。
 
-### 5. 提取硬约束（requirements，条件字段）
+### 5. 确定叙述人称（narration_person）
+
+记 `first` 或 `third`：叙述者是故事里的“我”写 first，其余写 third，紧贴人物的第三人称也写 third。用户指定时照用，未指定时按本篇主要经验选择。成稿前按它过滤范文的人称；大纲的 `pov` 只写人物 id，分不出这两种。
+
+### 6. 提取硬约束（requirements，条件字段）
 
 用户需求中包含显式枚举或硬约束（如"至少要有一段对话"、"必须包含 X 场景"）时，提取为紧凑的单句列表——short-composer 逐条落实，终验 gate 逐项核销。**仅显式硬约束入列**，模糊的偏好（如"希望感人一点"）不算。
 
-### 6. 收纳素材、风格指令与手选名著（条件字段）
+### 7. 收纳素材、风格指令与手选名著（条件字段）
 
 - **`reference_materials`**：用户附带背景素材（历史资料、领域知识、技法要点）时原文收纳有创作价值的部分——保留事实、来源与未定内容的区别。没有则不生成。
 - **`style_directives`**：用户有作品层面风格要求（如"现实主义细节描摹"）时逐条收入。没有则不生成。
@@ -46,11 +50,14 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 ## 产物 schema（`pipeline/shortform/conception.yaml`，正向 allowlist——只有下列字段）
 
+premise、core_value 与 style_directives 原样进入写作简报，三项合计不超过 400 字（英文按 1 汉字约 0.6 词折算），超出时校验报错，在本阶段写短。requirements 与 reference_materials 原样进入简报，不设上限。
+
 ```yaml
 premise: 一句话故事前提                  # 必填
 core_value: 核心价值轴（如 正义↔不公）    # 必填
 genre: 类型                             # 必填
 target_length: 8000                     # 示例；按本次目标填写
+narration_person: third                 # 必填，first | third
 style_directives:                       # 可选 list[str]
   - 作品级风格指令
 requirements:                           # 可选 list[str]，显式硬约束逐条单句
@@ -72,6 +79,7 @@ canon_reference_profile:                # 可选；与完整链共用字段语�
 
 - premise 提供具体情境，能够展开人物、事件或观察
 - core_value 能组织本篇的主要经验
+- narration_person 与本篇叙述者一致
 - requirements 里每条都能在终稿中被指认（可核销）
 - 用户素材有创作价值的具体细节已进 reference_materials，而不是靠记忆携带
 - 手选名著的用途已落入 intended_domains；未从单一作品外推题材专属规则

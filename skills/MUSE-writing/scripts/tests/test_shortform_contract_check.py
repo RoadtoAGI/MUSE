@@ -34,6 +34,7 @@ def _valid_conception() -> dict:
         "core_value": "秩序↔良知",
         "genre": "乡土奇谭",
         "target_length": 6000,
+        "narration_person": "third",
         "requirements": ["至少包含一段完整对话", "结尾必须开放"],
     }
 
@@ -48,6 +49,7 @@ def _valid_characters() -> dict:
                 "pressure": "规矩开始要求他放走该拦的人",
                 "voice": "短句，惜字如金，用渡口行话打比方",
                 "voice_boundaries": ["不解释自己的动机"],
+                "voice_samples": ["水涨了，不渡。", "规矩在船上，不在我嘴上。", "你等天亮。"],
                 "relationships": [{"with": "guo-ke", "nature": "被规矩要求拦下的人"}],
             },
             {
@@ -56,6 +58,7 @@ def _valid_characters() -> dict:
                 "desire": "在天亮前过河",
                 "pressure": "身后有追兵，身上有秘密",
                 "voice": "客气但句句试探",
+                "voice_samples": ["老哥，这河夜里真过不去？", "钱不是问题。", "我只问一句，规矩是谁定的？"],
             },
         ]
     }
@@ -424,3 +427,68 @@ def test_narrator_position_does_not_require_a_fictional_character(tmp_path):
     data["scenes"][0]["pov"] = "narrator:"
     p = _write(shortform, "outline.yaml", data)
     assert any("pov" in error for error in validate_file(p))
+
+
+# ---------- 写作简报字段与字数上限（设计 §6）----------
+
+def test_conception_requires_narration_person(tmp_path):
+    data = _valid_conception()
+    del data["narration_person"]
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("narration_person" in e for e in validate_file(p))
+    data["narration_person"] = "second"
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("first 或 third" in e for e in validate_file(p))
+
+
+def test_conception_brief_cap_excludes_requirements(tmp_path):
+    data = _valid_conception()
+    data["requirements"] = ["很长的硬要求" * 200]
+    data["reference_materials"] = "用户素材" * 500
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert validate_file(p) == []
+    data["style_directives"] = ["风格指令写得太长" * 60]
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("上限 400" in e for e in validate_file(p))
+
+
+def test_voice_samples_required_with_voice_and_three_to_five(tmp_path):
+    data = _valid_characters()
+    del data["characters"][1]["voice_samples"]
+    p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
+    assert any("voice_samples" in e for e in validate_file(p))
+    data["characters"][1]["voice_samples"] = ["一句。", "两句。"]
+    p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
+    assert any("3–5" in e for e in validate_file(p))
+
+
+def test_functional_character_without_voice_needs_no_samples(tmp_path):
+    data = _valid_characters()
+    data["characters"].append({"id": "zhui-bing", "name": "追兵"})
+    p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
+    assert validate_file(p) == []
+
+
+def test_character_brief_cap(tmp_path):
+    data = _valid_characters()
+    data["characters"][0]["pressure"] = "规矩开始要求他放走该拦的人" * 25
+    p = _write(tmp_path / "pipeline" / "shortform", "characters.yaml", data)
+    assert any("characters[0]" in e and "上限 300" in e for e in validate_file(p))
+
+
+def test_outline_scene_brief_cap(tmp_path):
+    shortform = tmp_path / "pipeline" / "shortform"
+    _write(shortform, "characters.yaml", _valid_characters())
+    data = _valid_outline()
+    data["scenes"][0]["task"] = "让守渡人在拒绝中露出动摇" * 15
+    p = _write(shortform, "outline.yaml", data)
+    errors = validate_file(p)
+    assert any("scenes[0]" in e and "上限 150" in e for e in errors)
+    assert not any("scenes[1]" in e for e in errors)
+
+
+def test_english_brief_cap_counts_words(tmp_path):
+    data = _valid_conception()
+    data["premise"] = "A ferryman learns the river rule is killing people. " * 30  # 270 词 ≈ 450 字
+    p = _write(tmp_path / "pipeline" / "shortform", "conception.yaml", data)
+    assert any("上限 400" in e for e in validate_file(p))

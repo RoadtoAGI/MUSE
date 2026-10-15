@@ -17,6 +17,7 @@ def _conception() -> dict:
         "core_value": "互助↔自保",
         "genre": "末世",
         "target_length": 8000,
+        "narration_person": "third",
     }
 
 
