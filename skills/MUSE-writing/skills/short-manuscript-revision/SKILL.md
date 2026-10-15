@@ -23,4 +23,4 @@ description: 按本次全文审阅修订原创短篇 story.md，一次处理需�
 
 就地修改 `story.md`，只读设计与审阅文件。对照修订前后连读改变的段落及相邻连接，核对对象、回指、因果、比较项、解释顺序、人物声音和节奏。必要承接或说明可以补回，英文另核自然搭配，标题保留具体导航；交接前修复本轮引入的断裂。
 
-写入 `pipeline/shortform/review/revision_summary.md`，顶部为 `status: complete|partial|failed`，说明依据的审阅报告、实际改动、未决问题及保留原文的依据。`partial` 表示有问题需上游或作者处理；`failed` 表示输入或执行失败。本轮修订后直接交付，未决问题由作者决定是否再修；修订者不代写 PASS。
+写入 `pipeline/shortform/review/revision_summary.md`，顶部为 `status: complete|partial|failed`，说明依据的审阅报告、实际改动、未决问题及保留原文的依据。`partial` 表示有问题需上游或作者处理；`failed` 表示输入或执行失败。完成后回复 status、`revision_summary.md` 路径与具体未决问题。本轮修订后直接交付，未决问题由作者决定是否再修；修订者不代写 PASS。
