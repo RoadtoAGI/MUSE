@@ -166,12 +166,15 @@ def test_exemplar_file_has_four_header_lines_and_source_lines(kb, tmp_path):
     path, windows = kq.save_exemplar_file(results, "推门", str(tmp_path / "refs"), "S01",
                                           budget=700, filters="lang=zh")
     text = Path(path).read_text(encoding="utf-8")
-    head = text.split("\n")[:5]
+    head = text.split("\n")[:8]
     assert head[0] == 'query: "推门"'
     assert head[1] == "filters: lang=zh"
     assert head[2] == "results: 2 — 书甲 S02；书乙 S01"
     assert head[3].startswith("chars: ") and "预算 700" in head[3]
-    assert head[4] == ""
+    assert head[4] == "windows:"
+    assert head[5].startswith("- 书甲 S02｜人称 first｜语域 literary")
+    assert head[6].startswith("- 书乙 S01｜人称 third")
+    assert head[7] == ""
     assert text.count("<exemplar_window ") == 2
     assert 'source="书甲作者《书甲》第1章"' in text
     for banned in ("usage_protocol", "文风画像", "手艺拆解", "段落密度", "本场可以怎样用"):
@@ -198,7 +201,9 @@ def test_cli_render_exemplar_end_to_end(kb, tmp_path, monkeypatch, capsys):
                             "--budget-chars", "300", "--render", "exemplar",
                             "--output-dir", str(out_dir), "--scene-id", "S01"])
     text = (out_dir / "S01_ref.md").read_text(encoding="utf-8")
-    assert "filters: 全库 5 → source_medium=novel 5 → lang=zh 4 → original-only 3 → person=first 2" in text
+    assert ("filters: 全库 5 → source_medium=novel 5 → lang=zh 4 → original-only 3 → exemplar_pool 3"
+            " → person=first 2") in text
+    assert "pool: 2 场、1 部；最大一部 书甲 占 100%；池里只有这一部" in text
     assert "译本" not in text.split("\n")[2]
     assert "已保存范文窗口" in capsys.readouterr().out
 

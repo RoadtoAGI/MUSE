@@ -159,3 +159,27 @@ def test_kb_the_road_needs_override(tmp_path):
 def test_kb_shediao_is_literary():
     scene, _ = _kb_scene("射雕英雄传", "S29")
     assert ar.classify_register(ar.features(scene.read_text(encoding="utf-8"), "zh")) == "literary"
+
+
+def test_embedded_first_person_letter_is_mixed():
+    # 第三人称叙述里嵌一封第一人称书信：整场"我"的密度够 first，段落占比低于 0.45
+    third = ["他推开门，屋里很冷。", "她没有回头，只是把灯拧亮了些。", "他在桌边坐下。",
+             "她把信推到他面前。", "他看了很久。", "她说外面又下雪了。"] * 2
+    letter = ["我写这封信的时候，我的手一直在抖，我不知道我还能撑多久。"] * 4
+    text = "\n\n".join(third + letter)
+    feat = ar.features(text, "zh")
+    assert feat.first_person_per_1k >= ar.ZH_FIRST_PER_1K
+    assert ar.classify_person(feat) == "mixed"
+
+
+def test_first_person_narrator_describing_others_stays_first():
+    # 旁观者叙述：一半段落写别人，"我"仍在场
+    paras = ["我看着他走进来。", "他把帽子挂上，没说话。", "我给他倒了杯茶，我知道他有话要说。",
+             "她在门口站了一会儿。", "我起身去关窗。", "他终于开口了。"] * 3
+    feat = ar.features("\n\n".join(paras), "zh")
+    assert ar.classify_person(feat) == "first"
+
+
+def test_kb_i_am_legend_letter_scene_is_mixed():
+    scene, entry = _kb_scene("I Am Legend", "S10")
+    assert ar.classify_person(ar.features(scene.read_text(encoding="utf-8"), entry.get("lang", "en"))) == "mixed"

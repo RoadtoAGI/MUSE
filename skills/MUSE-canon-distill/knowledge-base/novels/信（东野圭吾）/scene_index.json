@@ -754,7 +754,7 @@
     },
     "style_profile_by": "Codex (executor)",
     "original_lang": "ja",
-    "narrative_person": "first",
+    "narrative_person": "mixed",
     "register": "colloquial",
     "dialogue_ratio": 0.403
   },
@@ -790,7 +790,7 @@
     },
     "style_profile_by": "Codex (executor)",
     "original_lang": "ja",
-    "narrative_person": "first",
+    "narrative_person": "mixed",
     "register": "mixed",
     "dialogue_ratio": 0.336
   },
@@ -831,7 +831,7 @@
     },
     "style_profile_by": "Codex (executor)",
     "original_lang": "ja",
-    "narrative_person": "first",
+    "narrative_person": "mixed",
     "register": "colloquial",
     "dialogue_ratio": 0.141
   }

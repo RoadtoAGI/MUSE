@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """打印语料覆盖矩阵（设计 §5.2）与各作品的语域三项分布，每批入库后跑一次。
 
-矩阵只数检索能召回的场景：聚合索引 embeddings/scene_index.json 中原作语言等于 --lang、
-媒介在 --source-medium 内的行，按 narrative_person × register 分格，列出场景数、正文字数、
+矩阵只数写作范文默认能召回的场景：聚合索引 embeddings/scene_index.json 中原作语言等于 --lang、
+媒介在 --source-medium 内、不是 exemplar_pool: on_request 的行（on_request 的作品另列，
+--novel 点名才用），按 narrative_person × register 分格，列出场景数、正文字数、
 作者数和主要来源。§5.1 要求每格至少两位作者、合计 20 万字以上，矩阵末列标出是否达到。
 三项分布（口语标记、对白占比、平均句长）按作品从场景文件现算，供作者核对
 annotate_register.py 的阈值。
@@ -49,8 +50,9 @@ def _allowed_media(source_medium: str) -> set[str] | None:
     return {m.strip() for m in source_medium.split(",") if m.strip()}
 
 
-def recallable_rows(index: list[dict], lang: str, source_medium: str) -> tuple[list[dict], list[dict], int]:
-    """返回 (原作行, 同语言译本行, 缺标注字段的行数)。"""
+def recallable_rows(index: list[dict], lang: str, source_medium: str,
+                    on_request: list[dict] | None = None) -> tuple[list[dict], list[dict], int]:
+    """返回 (默认池原作行, 同语言译本行, 缺标注字段的行数)；on_request 的原作行放进传入的列表。"""
     media = _allowed_media(source_medium)
     originals: list[dict] = []
     translations: list[dict] = []
@@ -63,7 +65,13 @@ def recallable_rows(index: list[dict], lang: str, source_medium: str) -> tuple[l
         if "narrative_person" not in row or "original_lang" not in row:
             unannotated += 1
             continue
-        (originals if row.get("original_lang") == lang else translations).append(row)
+        if row.get("original_lang") != lang:
+            translations.append(row)
+        elif row.get("exemplar_pool") == "on_request":
+            if on_request is not None:
+                on_request.append(row)
+        else:
+            originals.append(row)
     return originals, translations, unannotated
 
 
@@ -148,11 +156,16 @@ def main(argv: list[str] | None = None) -> int:
         print(f"[coverage] 聚合索引不存在: {index_path}", file=sys.stderr)
         return 2
     index = json.loads(index_path.read_text(encoding="utf-8"))
-    originals, translations, unannotated = recallable_rows(index, args.lang, args.source_medium)
+    on_request: list[dict] = []
+    originals, translations, unannotated = recallable_rows(index, args.lang, args.source_medium, on_request)
 
     print(f"## 覆盖矩阵：{args.lang} 原作，source_medium={args.source_medium}")
-    print(f"可召回 {len(originals)} 场（{len({r.get('novel') for r in originals})} 部）；"
+    print(f"默认可召回 {len(originals)} 场（{len({r.get('novel') for r in originals})} 部）；"
           f"同语言译本另有 {len(translations)} 场，--original-only 下不召回")
+    if on_request:
+        works = Counter(r.get("novel") for r in on_request)
+        print("exemplar_pool: on_request（--novel 点名才用）："
+              + "、".join(f"{name} {n} 场" for name, n in works.most_common()))
     if args.lang not in ar.REGISTER_LANGS:
         print(f"{args.lang} 的 register 阈值尚未标定，本列为空，检索时 --register 对其不过滤")
     if unannotated:

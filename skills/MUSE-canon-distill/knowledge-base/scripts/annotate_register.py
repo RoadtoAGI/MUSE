@@ -6,7 +6,8 @@
   work-meta.yaml 的 `original_language`。`--prefill-original-lang` 按文本语言与作者表为缺值的
   style_card 预填，逐部打印决定，由作者核对。
 - narrative_person：first / third / mixed。中文数引号外"我"每千字，英文数引号外
-  I/me/my/mine/myself 每千词；对白不加引号、或大量不加引号的内心独白的作品由 style_card 的
+  I/me/my/mine/myself 每千词；密度够 first 的场景再看第一人称段落的占比，第三人称叙述里嵌书信的
+  记 mixed。对白不加引号、或大量不加引号的内心独白的作品由 style_card 的
   `narrative_person_override` 指定。戏剧没有叙述者，记 null。
 - register：colloquial / literary / mixed。中文小说由口语标记每千字、对白占比、平均句长三项合成，
   权重与阈值见下方常量，按 14 部中文原作标定。英文阈值等第一批英文原著入库后标定，
@@ -49,6 +50,12 @@ ZH_FIRST_PER_1K = 8.0
 ZH_THIRD_BELOW_PER_1K = 2.0
 EN_FIRST_PER_1K = 15.0
 EN_THIRD_BELOW_PER_1K = 4.0
+# 密度达到 first 的场景再看段落：引号外有第一人称的段落占"有人称段落"的比例低于此值记 mixed。
+# 第三人称叙述里嵌一封第一人称书信（I Am Legend S10 0.38、信 S21 0.19、红与黑 S27 0.41）会被整场密度
+# 判成 first，段落占比能把它们分出来；真正的第一人称叙述（挪威的森林、简·爱、流浪地球）最低 0.6，
+# 旁观者叙述（月亮与六便士 S07）0.48，2026-10-15 按现库标定。有人称段落少于 MIN 段时不看占比。
+FIRST_PARAGRAPH_SHARE = 0.45
+FIRST_PARAGRAPH_MIN = 6
 
 # register 合成：每项先截断到 [low, high] 线性映射为 0–1（句长取反向），再加权求和；
 # 合成分 ≥ COLLOQUIAL_AT 判 colloquial，≤ LITERARY_AT 判 literary，之间判 mixed。
@@ -74,6 +81,7 @@ QUOTE_SPAN = re.compile(
 HAN =re.compile(r"[㐀-鿿豈-﫿]")
 EN_WORD = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
 EN_FIRST = re.compile(r"\b(?:I|me|my|mine|myself|Me|My|Mine|Myself)\b")
+EN_THIRD = re.compile(r"\b(?:he|she|him|her|his|hers|He|She|Him|Her|His|Hers)\b")
 SENTENCE_END = re.compile(r"[。！？!?…]+|\n+")
 SPEAKER_LINE = re.compile(r"^[\s　]*[^\s　：:（(]{1,12}[\s　]*[：:　]")
 
@@ -102,6 +110,8 @@ class SceneFeatures:
     body_units: int          # 中文为汉字数，英文为词数
     narration_units: int
     first_person_per_1k: float   # 引号外，每千字（词）
+    first_paragraphs: int        # 引号外有第一人称的段落数
+    third_paragraphs: int        # 引号外只有第三人称、没有第一人称的段落数
     dialogue_ratio: float
     markers_per_1k: float        # 引号外口语标记，每千字
     mean_sentence_len: float
@@ -138,6 +148,18 @@ def _mean_sentence_len(text: str, lang: str) -> float:
     return round(sum(lengths) / len(lengths), 2) if lengths else 0.0
 
 
+def paragraph_person(paragraph: str, lang: str) -> str | None:
+    """单段叙述的人称：引号外有第一人称为 first，只有第三人称为 third，都没有为 None。"""
+    narration, _ = split_quoted(paragraph)
+    if lang == "en":
+        if EN_FIRST.search(narration):
+            return "first"
+        return "third" if EN_THIRD.search(narration) else None
+    if "我" in narration:
+        return "first"
+    return "third" if ("他" in narration or "她" in narration) else None
+
+
 def features(text: str, lang: str, *, drama: bool = False) -> SceneFeatures:
     body = body_text(text)
     lang = "en" if lang == "en" else "zh"
@@ -159,11 +181,14 @@ def features(text: str, lang: str, *, drama: bool = False) -> SceneFeatures:
         first = narration.count("我")
         markers = (sum(narration.count(ch) for ch in ZH_COLLOQUIAL_CHARS)
                    + sum(narration.count(word) for word in ZH_COLLOQUIAL_WORDS))
+    persons = [] if drama else [paragraph_person(p, lang) for p in body.split("\n") if p.strip()]
     return SceneFeatures(
         lang=lang,
         body_units=total,
         narration_units=narration_units,
         first_person_per_1k=_per_1k(first, narration_units),
+        first_paragraphs=persons.count("first"),
+        third_paragraphs=persons.count("third"),
         dialogue_ratio=round(dialogue_units / total, 3) if total else 0.0,
         markers_per_1k=_per_1k(markers, narration_units),
         mean_sentence_len=_mean_sentence_len(body, lang),
@@ -176,6 +201,9 @@ def classify_person(feat: SceneFeatures) -> str:
         else (ZH_FIRST_PER_1K, ZH_THIRD_BELOW_PER_1K)
     )
     if feat.first_person_per_1k >= first_at:
+        voiced = feat.first_paragraphs + feat.third_paragraphs
+        if voiced >= FIRST_PARAGRAPH_MIN and feat.first_paragraphs / voiced < FIRST_PARAGRAPH_SHARE:
+            return "mixed"  # 第三人称叙述里嵌了第一人称书信或独白
         return "first"
     if feat.first_person_per_1k < third_below:
         return "third"

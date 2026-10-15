@@ -190,7 +190,7 @@
   },
   "style_profile_by": "Codex (executor)",
   "original_lang": "es",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.234,
   "source_medium": "novel",
@@ -1182,7 +1182,7 @@
   },
   "style_profile_by": "Codex (executor)",
   "original_lang": "en",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": null,
   "dialogue_ratio": 0.007,
   "source_medium": "novel",
@@ -8486,7 +8486,7 @@
   },
   "style_profile_by": "Codex (executor)",
   "original_lang": "ja",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.403,
   "source_medium": "novel",
@@ -8524,7 +8524,7 @@
   },
   "style_profile_by": "Codex (executor)",
   "original_lang": "ja",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.336,
   "source_medium": "novel",
@@ -8567,7 +8567,7 @@
   },
   "style_profile_by": "Codex (executor)",
   "original_lang": "ja",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.141,
   "source_medium": "novel",
@@ -17266,7 +17266,7 @@
   },
   "style_profile_by": "gpt-5",
   "original_lang": "en",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.427,
   "source_medium": "novel",
@@ -17624,7 +17624,7 @@
   },
   "style_profile_by": "gpt-5",
   "original_lang": "en",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.54,
   "source_medium": "novel",
@@ -31716,6 +31716,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 723
  },
  {
@@ -31760,6 +31761,7 @@
   "narrative_person": "third",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 724
  },
  {
@@ -31803,6 +31805,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 725
  },
  {
@@ -31849,6 +31852,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 726
  },
  {
@@ -31894,6 +31898,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 727
  },
  {
@@ -31937,6 +31942,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 728
  },
  {
@@ -31984,6 +31990,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 729
  },
  {
@@ -32030,6 +32037,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 730
  },
  {
@@ -32075,6 +32083,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 731
  },
  {
@@ -32121,6 +32130,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 732
  },
  {
@@ -32168,6 +32178,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 733
  },
  {
@@ -32217,6 +32228,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 734
  },
  {
@@ -32263,6 +32275,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 735
  },
  {
@@ -32311,6 +32324,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 736
  },
  {
@@ -32363,6 +32377,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 737
  },
  {
@@ -32415,6 +32430,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 738
  },
  {
@@ -32464,6 +32480,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 739
  },
  {
@@ -32509,6 +32526,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 740
  },
  {
@@ -32560,6 +32578,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 741
  },
  {
@@ -32611,6 +32630,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 742
  },
  {
@@ -32659,6 +32679,7 @@
   "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 743
  },
  {
@@ -32704,6 +32725,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 744
  },
  {
@@ -32752,6 +32774,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 745
  },
  {
@@ -32801,6 +32824,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 746
  },
  {
@@ -32848,6 +32872,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 747
  },
  {
@@ -32897,6 +32922,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 748
  },
  {
@@ -32944,6 +32970,7 @@
   "narrative_person": "first",
   "register": "mixed",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 749
  },
  {
@@ -32998,6 +33025,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 750
  },
  {
@@ -33043,6 +33071,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 751
  },
  {
@@ -33093,6 +33122,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 752
  },
  {
@@ -33138,6 +33168,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 753
  },
  {
@@ -33189,6 +33220,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 754
  },
  {
@@ -33241,6 +33273,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 755
  },
  {
@@ -33294,6 +33327,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 756
  },
  {
@@ -33346,6 +33380,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 757
  },
  {
@@ -33397,6 +33432,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 758
  },
  {
@@ -33447,6 +33483,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 759
  },
  {
@@ -33498,6 +33535,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 760
  },
  {
@@ -33552,6 +33590,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 761
  },
  {
@@ -33607,6 +33646,7 @@
   "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 762
  },
  {
@@ -33660,6 +33700,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 763
  },
  {
@@ -33712,6 +33753,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 764
  },
  {
@@ -33769,6 +33811,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 765
  },
  {
@@ -33823,6 +33866,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 766
  },
  {
@@ -33877,6 +33921,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 767
  },
  {
@@ -33923,6 +33968,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 768
  },
  {
@@ -33973,6 +34019,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 769
  },
  {
@@ -34037,6 +34084,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 770
  },
  {
@@ -34092,6 +34140,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 771
  },
  {
@@ -34149,6 +34198,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 772
  },
  {
@@ -34203,6 +34253,7 @@
   "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 773
  },
  {
@@ -34251,6 +34302,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 774
  },
  {
@@ -34298,6 +34350,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 775
  },
  {
@@ -34359,6 +34412,7 @@
   "narrative_person": "mixed",
   "register": "mixed",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 776
  },
  {
@@ -34406,6 +34460,7 @@
   "narrative_person": "first",
   "register": "colloquial",
   "dialogue_ratio": 0.0,
+  "exemplar_pool": "on_request",
   "idx": 777
  },
  {
@@ -36670,7 +36725,7 @@
   },
   "style_profile_by": "claude-opus-5-5",
   "original_lang": "fr",
-  "narrative_person": "first",
+  "narrative_person": "mixed",
   "register": "colloquial",
   "dialogue_ratio": 0.302,
   "idx": 832

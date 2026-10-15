@@ -31,7 +31,11 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 
 ## 写作用范文窗口
 
-写正文或修订前取范文时传 `--render exemplar`。范文窗口是从检索到的名著场景正文里连续截取的段落，不带分析文字，供写作者学口吻，不提供情节。脚本按名次累加窗口，合计达到 `--budget-chars`（默认 4000，英文按 1 汉字约 0.6 词折算）即停，收尾最多超到 1.5 倍；窗口可以来自几部作品，不限数量，同一段原文收在两部作品里时只取一处。文件头四行依次是 query、过滤条件、来源作品与场景、字数，每个窗口前一行写来源；“本场可以怎样用”由主控写进派发，不写进文件。审阅者和设计阶段仍用默认的 `--render full`。
+写正文或修订前取范文时传 `--render exemplar`。范文窗口是从检索到的名著场景正文里连续截取的段落，不带分析文字，供写作者学口吻，不提供情节。审阅者和设计阶段仍用默认的 `--render full`。
+
+选范文分两段。先选作品：过滤后按 `--style-hint` 与各作品 style 向量的相似度（权重 0.7）和情节相近程度（0.3）给作品排序，取前三部；`--novel` 点名时只用点名的作品。再在每部作品里取与 `--query` 情节最近的场景截窗口，合计达到 `--budget-chars`（默认 4000，英文按 1 汉字约 0.6 词折算）即停，收尾最多超到 1.5 倍。两部以上时任一作品先取到预算的 60% 为止，不够再补；同一段原文收在两部作品里时只取一处。传了 `--person` 时窗口从第一段人称相符的叙述段落起截。style_card 标 `exemplar_pool: on_request` 的作品（如口播转写）不进默认范文池，`--novel` 点名才用。
+
+文件头依次是 query、过滤条件、池的构成（场数、作品数、最大一部占比）、style hint、来源作品与场景、字数，再每个窗口一行描述：人称、语域、对白占比、该作品的口吻与对白写法。“本场可以怎样用”由主控写进派发，不写进文件。文风相似度在作品之间的差距不大，排序只是初选：主控先看描述行，口吻、题材或对白写法与本篇不合时，用 `--exclude-novel <作品>` 排除后重查一次，不改其他条件，并在派发记录里写明；两次都不合用按“无范文”派发。
 
 参数从场景卡和 Phase 0 生成，不只按情节写一句话：
 
@@ -41,12 +45,14 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 | `--original-only` | 默认传，只取原作语言与交付语言相同的作品；库里该语言原作不够时由主控去掉，并在派发记录里写明放宽 |
 | `--person` | 场景卡的叙述方式：紧贴人物的第三人称传 third，第一人称传 first |
 | `--register` | Phase 0 `style_directives` 或人物声音框架里的口语/书面判断：口语传 colloquial，书面传 literary；没有这类判断就不传。英文语域阈值尚未标定，传了也不过滤，头部会写明 |
-| `--query` | 人物处境和场景动作，一句话 |
+| `--style-hint` | 本篇要的口吻，用文风卡的说法写：叙述人称与距离、用词、对白写法、节奏，一两句；由 Phase 0 `style_directives`、叙述方式和视角人物的声音写成。它决定选哪几部作品 |
+| `--query` | 人物处境和场景动作，一句话；它决定在选中的作品里取哪几场 |
 | `--genre` | 只在作者限定题材时传 |
 | `--novel` | 同人、续写、改编这类点名原作的任务传原作名，窗口全部取自它；可重复传多部 |
+| `--exclude-novel` | 看过描述行判断某部作品不合用时传，重查一次；可重复 |
 
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境与场景动作" --lang zh --original-only --person first --register colloquial   --budget-chars 4000 --render exemplar   --output-dir "{work_dir}/pipeline/references" --scene-id S01
+python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境与场景动作" --style-hint "第一人称口语独白，句子短，对白少"   --lang zh --original-only --person first --register colloquial   --budget-chars 4000 --render exemplar   --output-dir "{work_dir}/pipeline/references" --scene-id S01
 ```
 
 这些过滤都在向量打分之前执行。过滤后没有候选时，文件写 `results: 0` 并写明清空候选的条件，如“register=colloquial 清空候选”；脚本不自动放宽，主控按“无范文”派发，或显式去掉一个条件重查并记录。合计不足预算时 `chars` 行写明不足。

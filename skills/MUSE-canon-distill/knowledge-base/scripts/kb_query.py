@@ -41,7 +41,7 @@ from dotenv import load_dotenv
 
 # 相对导入同目录模块（支持脚本直接运行）
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from annotate_register import REGISTER_LANGS  # noqa: E402
+from annotate_register import REGISTER_LANGS, paragraph_person  # noqa: E402
 from paragraph_density import _is_metadata_block  # noqa: E402
 from paragraph_density import analyze_file as _pd_analyze_file  # noqa: E402
 from stylometry import analyze_file as _sm_analyze_file  # noqa: E402
@@ -188,13 +188,17 @@ def _novel_names(novel: str | list[str] | None) -> list[str]:
 def _filter_stages(index: list[dict], *, genre: str | None, lang: str | None,
                    novel: str | list[str] | None, allowed_media: set[str] | None,
                    original_only: bool = False, person: str | None = None,
-                   register: str | None = None) -> tuple[list[int], list[tuple[str, int]]]:
-    """按媒介 / 题材 / 语言 / 作品 / 原作 / 人称 / 语域依次过滤，返回 (保留下标, [(条件, 剩余条数)])。
+                   register: str | None = None, exclude: list[str] | None = None,
+                   exemplar_pool: bool = False) -> tuple[list[int], list[tuple[str, int]]]:
+    """按媒介 / 题材 / 语言 / 作品 / 排除作品 / 原作 / 范文池 / 人称 / 语域依次过滤，
+    返回 (保留下标, [(条件, 剩余条数)])。
 
     显式 --genre 是作者限定的硬过滤；描述性题材应留在 query 文本中。某一步清空时停止，
-    trace 的最后一项就是清空候选的条件。--novel 可给多部，命中任一即保留。
+    trace 的最后一项就是清空候选的条件。--novel 可给多部，命中任一即保留。exemplar_pool 只在
+    写作范文检索时打开：style_card 标 on_request 的作品（如口播转写）不进默认池，--novel 点名才用。
     """
     names = _novel_names(novel)
+    excluded = _novel_names(exclude)
     stages = []
     if allowed_media:
         stages.append((f"source_medium={','.join(sorted(allowed_media))}",
@@ -206,8 +210,14 @@ def _filter_stages(index: list[dict], *, genre: str | None, lang: str | None,
     if names:
         stages.append((f"novel={'|'.join(names)}",
                        lambda e: any(_normalized_contains(n, e.get("novel", "")) for n in names)))
+    if excluded:
+        stages.append((f"exclude={'|'.join(excluded)}",
+                       lambda e: not any(_normalized_contains(n, e.get("novel", "")) for n in excluded)))
     if original_only:
         stages.append(("original-only", lambda e: e.get("original_lang") == lang))
+    if exemplar_pool:
+        stages.append(("exemplar_pool", lambda e: e.get("exemplar_pool") != "on_request" or any(
+            _normalized_contains(n, e.get("novel", "")) for n in names)))
     if person:
         stages.append((f"person={person}", lambda e: e.get("narrative_person") == person))
     if register:
@@ -359,10 +369,77 @@ def _source_label(r: dict) -> str:
     return f"{title}{chapter}" if chapter else title
 
 
-def exemplar_windows(results: list[dict], budget: int) -> tuple[list[dict], list[str]]:
-    """按名次累加原文窗口，直到合计达到 budget（设计 §4.2）。
+EXEMPLAR_MAX_WORKS = 3       # 范文最多取几部作品（设计 §4.2）
+EXEMPLAR_WORK_SHARE = 0.6    # 两部以上时任一作品不超过预算的这一比例
+EXEMPLAR_STYLE_WEIGHT = 0.7  # 选作品：文风相似 0.7、情节 0.3
+EXEMPLAR_MIN_WINDOW = 150    # 比这短的窗口不要，免得只截到半段
+DESCRIBE_CHARS = 40          # 头部描述行里 style_card 字段的截取长度
 
-    每场从正文开头取连续的行，累计达到预算即停；收尾那一行会超过 1.5 倍上限时在句末截断。
+
+def _window_start(lines: list[str], lang: str | None, person: str | None) -> int | None:
+    """窗口起点：第一段人称符合 person 的段落。first 要求引号外有第一人称；third 跳过开头的第一人称段落。
+    I Am Legend S10 开头九段第三人称、后面才是书信，按场首截会取错人称。"""
+    if not person:
+        return 0
+    plang = "en" if lang == "en" else "zh"
+    for i, line in enumerate(lines):
+        if not line.strip():
+            continue
+        found = paragraph_person(line, plang)
+        if (person == "first" and found == "first") or (person == "third" and found != "first"):
+            return i
+    return None
+
+
+def _scene_window(r: dict, *, target: int, limit: int, person: str | None,
+                  picked: list[str], notes: list[str]) -> dict | None:
+    """从一场取一个连续窗口：达到 target 即停，收尾一行超过 limit 时在句末截断。"""
+    label = f"{r.get('novel', '?')} {r.get('scene_id', '?')}"
+    if not (KB_ROOT / r.get("file", "")).is_file():
+        notes.append(f"{label}：原文文件缺失，跳过")
+        return None
+    lines = _body_lines(read_scene_text(r["file"], max_chars=0))
+    flat = re.sub(r"\s", "", "".join(lines))
+    if not flat:
+        notes.append(f"{label}：正文为空，跳过")
+        return None
+    if any(flat[:40] in other or other[:40] in flat for other in picked):
+        notes.append(f"{label}：与已取窗口是同一段原文，跳过")
+        return None
+    lang = r.get("lang")
+    start = _window_start(lines, lang, person)
+    if start is None:
+        notes.append(f"{label}：没有 {person} 人称的叙述段落，跳过")
+        return None
+    taken: list[str] = []
+    size = 0
+    for line in lines[start:]:
+        if not line.strip():
+            taken.append(line)
+            continue
+        units = _text_units(line, lang)
+        if size + units > limit:
+            room = limit - size
+            cut = _cut_at_sentence(line, max(int(len(line) * room / max(units, 1)), 0))
+            if cut:
+                taken.append(cut)
+                size += _text_units(cut, lang)
+            break
+        taken.append(line)
+        size += units
+        if size >= target:
+            break
+    text = "\n".join(taken).strip()
+    if not text:
+        return None
+    picked.append(flat)
+    return {**r, "window_text": text, "window_chars": size}
+
+
+def exemplar_windows(results: list[dict], budget: int, person: str | None = None) -> tuple[list[dict], list[str]]:
+    """按给定顺序累加原文窗口，直到合计达到 budget（--select 与单列结果用）。
+
+    每场从第一段人称符合的段落起取连续的行，累计达到预算即停；收尾那一行会超过 1.5 倍上限时在句末截断。
     单场不足时整场取用，接着取下一名。同一段原文收在两部作品里（如《云天明的童话》与《三体Ⅲ》）
     时只取先出现的一处。返回 (窗口, 跳过说明)。
     """
@@ -374,55 +451,186 @@ def exemplar_windows(results: list[dict], budget: int) -> tuple[list[dict], list
     for r in results:
         if total >= budget:
             break
-        label = f"{r.get('novel', '?')} {r.get('scene_id', '?')}"
-        if not (KB_ROOT / r.get("file", "")).is_file():
-            notes.append(f"{label}：原文文件缺失，跳过")
-            continue
-        lines = _body_lines(read_scene_text(r["file"], max_chars=0))
-        flat = re.sub(r"\s", "", "".join(lines))
-        if not flat:
-            notes.append(f"{label}：正文为空，跳过")
-            continue
-        if any(flat[:40] in other or other[:40] in flat for other in picked):
-            notes.append(f"{label}：与已取窗口是同一段原文，跳过")
-            continue
-        lang = r.get("lang")
-        taken: list[str] = []
-        size = 0
-        for line in lines:
-            if not line.strip():
-                taken.append(line)
-                continue
-            units = _text_units(line, lang)
-            if total + size + units > cap:
-                room = cap - total - size
-                cut = _cut_at_sentence(line, max(int(len(line) * room / max(units, 1)), 0))
-                if cut:
-                    taken.append(cut)
-                    size += _text_units(cut, lang)
-                break
-            taken.append(line)
-            size += units
-            if total + size >= budget:
-                break
-        text = "\n".join(taken).strip()
-        if not text:
-            continue
-        windows.append({**r, "window_text": text, "window_chars": size})
-        picked.append(flat)
-        total += size
+        window = _scene_window(r, target=budget - total, limit=cap - total, person=person,
+                               picked=picked, notes=notes)
+        if window:
+            windows.append(window)
+            total += window["window_chars"]
     return windows, notes
+
+
+def exemplar_windows_by_work(works: list[dict], budget: int,
+                             person: str | None = None) -> tuple[list[dict], list[str]]:
+    """按作品分配预算取窗口（设计 §4.2）：作品按选定顺序，各自取情节最近的场景。
+
+    两部以上时任一作品先取到预算的 60% 为止，轮完一遍仍不足预算再放开比例补足；只有一部时全给它。
+    """
+    cap = int(budget * EXEMPLAR_CAP_RATIO)
+    share = budget if len(works) <= 1 else int(budget * EXEMPLAR_WORK_SHARE)
+    pending = {w["novel"]: list(w["rows"]) for w in works}
+    used = {w["novel"]: 0 for w in works}
+    windows: list[dict] = []
+    notes: list[str] = []
+    picked: list[str] = []
+    total = 0
+    for relaxed in (False, True):
+        for work in works:
+            name = work["novel"]
+            while pending[name] and total < budget:
+                room = budget - total if relaxed else min(budget - total, share - used[name])
+                if room < EXEMPLAR_MIN_WINDOW and used[name]:
+                    break
+                window = _scene_window(pending[name].pop(0), target=room,
+                                       limit=min(cap - total, room + budget // 4),
+                                       person=person, picked=picked, notes=notes)
+                if not window:
+                    continue
+                if window["window_chars"] < EXEMPLAR_MIN_WINDOW and pending[name]:
+                    notes.append(f"{name} {window['scene_id']}：窗口只有 {window['window_chars']} 字，换下一场")
+                    continue
+                windows.append(window)
+                used[name] += window["window_chars"]
+                total += window["window_chars"]
+        if total >= budget:
+            break
+    return windows, notes
+
+
+def _load_kb_index() -> tuple[list[dict], np.ndarray]:
+    if not INDEX_PATH.exists() or not EMBEDDINGS_PATH.exists():
+        raise KBConfigError("知识库 embeddings 未配置：缺 scene_index.json 或 scene_embeddings.npy")
+    index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    embeddings = np.load(str(EMBEDDINGS_PATH))
+    if embeddings.shape[0] != len(index):
+        raise KBInfraError(
+            f"scene_embeddings.npy 行数 {embeddings.shape[0]} ≠ scene_index.json {len(index)}："
+            "合并新作品后先运行 build_embeddings.py --channel all --novel <作品>"
+        )
+    return index, embeddings
+
+
+def select_exemplar_works(query_text: str, *, lang: str | None = None,
+                          novel: str | list[str] | None = None, exclude: list[str] | None = None,
+                          source_medium: str = "novel", original_only: bool = False,
+                          person: str | None = None, register: str | None = None,
+                          style_hint: str | None = None, model: str = EMBEDDING_MODEL,
+                          filter_report: dict | None = None,
+                          max_works: int = EXEMPLAR_MAX_WORKS) -> list[dict]:
+    """写作范文的两段式选择（设计 §4.2）：先按文风选作品，再在作品内按情节排场景。
+
+    过滤与 query() 相同，另加范文池准入与 --exclude-novel。作品分数 = 0.7 × style hint 与该作品候选
+    场景 style 向量的平均相似度 + 0.3 × 该作品情节最近三场与 query 的平均相似度；没有 style hint 时只看情节。
+    style 向量由场景 style_profile 与作品 style_card 的文字算出，作品之间的差距通常只有 0.1 左右，
+    排序只作初选：主控看头部的描述行判断，不合用时用 --exclude-novel 换掉。
+    返回 [{novel, score, style, plot, rows}]，rows 按情节相似度降序。filter_report 另写 pool
+    （候选场数、作品数、最大一部及占比）与 work_scores。
+    """
+    if original_only and not lang:
+        raise ValueError("--original-only 需要同时给 --lang")
+    report = filter_report if filter_report is not None else {}
+    if register and lang and lang not in REGISTER_LANGS:
+        report["ignored"] = [f"register={register}（{lang} 的语域阈值尚未标定，不过滤）"]
+        print(f"⚠️ {lang} 的 register 阈值尚未标定，--register 本次不过滤，只按 --person", file=sys.stderr)
+        register = None
+    index, embeddings = _load_kb_index()
+    kept, trace = _filter_stages(index, genre=None, lang=lang, novel=novel,
+                                 allowed_media=_allowed_media(source_medium), original_only=original_only,
+                                 person=person, register=register, exclude=exclude, exemplar_pool=True)
+    report["filters"] = trace
+    if not kept:
+        report["cleared_by"] = trace[-1][0] if trace else "无候选"
+        print(f"⚠️ 过滤后无结果：{report['cleared_by']} 清空候选（{_describe_trace(len(index), trace)}）",
+              file=sys.stderr)
+        return []
+
+    groups: dict[str, list[int]] = {}
+    for i in kept:
+        groups.setdefault(index[i].get("novel") or "?", []).append(i)
+    largest = max(groups, key=lambda n: len(groups[n]))
+    report["pool"] = {"scenes": len(kept), "works": len(groups), "largest": largest,
+                      "largest_share": round(len(groups[largest]) / len(kept), 2)}
+
+    if not API_KEY:
+        raise KBConfigError("API key 未配置：请设置环境变量 MUSE_KB_API_KEY。")
+    client = OpenAI(api_key=API_KEY, base_url=BASE_URL, timeout=30)
+    query_vec = _embed_text_cached(client, model, query_text, label="query-embed")
+    if query_vec is None:
+        raise KBInfraError(f"Query embedding 计算失败（base_url={BASE_URL}, model={model}）")
+    plot = dict(zip(kept, cosine_similarity(np.array(query_vec, dtype=np.float32).reshape(1, -1),
+                                            embeddings[kept])))
+    style: dict[int, float] | None = None
+    if style_hint:
+        vectors = load_style_channel(index)
+        hint_vec = _embed_text_cached(client, model, style_hint, label="style-hint-embed")
+        if vectors is not None and hint_vec is not None and len(hint_vec) == vectors.shape[1]:
+            sims = cosine_similarity(np.array(hint_vec, dtype=np.float32).reshape(1, -1), vectors[kept])
+            style = {i: float(v) for i, v in zip(kept, sims)}
+        else:
+            print("⚠️ style 向量不可用，作品只按情节选", file=sys.stderr)
+    else:
+        print("⚠️ 未给 --style-hint，作品只按情节选；写作范文应由设计生成 style hint", file=sys.stderr)
+
+    works = []
+    for name, members in groups.items():
+        rows = sorted(members, key=lambda i: plot[i], reverse=True)
+        # 取前三场的平均而不是最高分：场次多的作品（狂病 145 场）只凭撞中一场的机会就会排前
+        w_plot = float(np.mean([plot[i] for i in rows[:3]]))
+        w_style = float(np.mean([style[i] for i in members])) if style else None
+        score = (EXEMPLAR_STYLE_WEIGHT * w_style + (1 - EXEMPLAR_STYLE_WEIGHT) * w_plot
+                 if w_style is not None else w_plot)
+        works.append({"novel": name, "score": round(score, 4), "plot": round(w_plot, 4),
+                      "style": None if w_style is None else round(w_style, 4),
+                      "rows": [{**index[i], "score": float(plot[i])} for i in rows]})
+    works.sort(key=lambda w: w["score"], reverse=True)
+    report["work_scores"] = [{k: w[k] for k in ("novel", "score", "style", "plot")} for w in works]
+    return works[:max_works]
+
+
+_CARD_CACHE: dict[str, dict] = {}
+
+
+def _work_card(file_path: str) -> dict:
+    key = str(_container_dir(file_path))
+    if key not in _CARD_CACHE:
+        path = Path(key) / "style_card.yaml"
+        try:
+            data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
+        except (OSError, yaml.YAMLError):
+            data = {}
+        _CARD_CACHE[key] = data if isinstance(data, dict) else {}
+    return _CARD_CACHE[key]
+
+
+def _window_description(w: dict) -> str:
+    """头部的窗口描述行：主控不读全文就能判断合不合用。"""
+    card = _work_card(w.get("file", ""))
+    parts = [f"{w.get('novel', '?')} {w.get('scene_id', '?')}",
+             f"人称 {w.get('narrative_person') or '?'}", f"语域 {w.get('register') or '?'}"]
+    if isinstance(w.get("dialogue_ratio"), (int, float)):
+        parts.append(f"对白 {w['dialogue_ratio']:.2f}")
+    for key, label in (("narration_voice", "口吻"), ("dialogue_mode", "对白写法")):
+        value = re.sub(r"\s+", " ", str(card.get(key) or "")).strip()
+        if value:
+            parts.append(f"{label}：{value[:DESCRIBE_CHARS]}{'…' if len(value) > DESCRIBE_CHARS else ''}")
+    return "｜".join(parts)
 
 
 def save_exemplar_file(results: list[dict], query_text: str, output_dir: str, scene_id: str | None,
                        *, budget: int = EXEMPLAR_BUDGET_DEFAULT, filters: str = "无",
-                       empty_reason: str | None = None, shortform_pack: bool = False) -> tuple[str, list[dict]]:
-    """写范文窗口文件（--render exemplar）：头部四行加各窗口原文，不带任何分析文字。
+                       empty_reason: str | None = None, shortform_pack: bool = False,
+                       works: list[dict] | None = None, person: str | None = None,
+                       pool: dict | None = None, style_hint: str | None = None) -> tuple[str, list[dict]]:
+    """写范文窗口文件（--render exemplar）：头部说明加各窗口原文，窗口里不带任何分析文字。
 
-    头部依次是 query、过滤条件、来源作品与场景、字数；每个窗口前一行写来源。
-    "本场可以怎样用"由主控在派发里写，不由脚本生成。返回 (文件路径, 窗口)。
+    头部依次是 query、过滤条件、池的构成（检索时）、style hint（给了时）、来源作品与场景、字数，
+    以及每个窗口一行描述（人称、语域、对白占比、style_card 的口吻与对白写法）。works 给出时按作品分配
+    预算，否则按 results 的顺序累加。"本场可以怎样用"由主控在派发里写，不由脚本生成。
+    返回 (文件路径, 窗口)。
     """
-    windows, notes = exemplar_windows(results, budget)
+    if works is not None:
+        windows, notes = exemplar_windows_by_work(works, budget, person)
+    else:
+        windows, notes = exemplar_windows(results, budget, person)
     for note in notes:
         print(f"⚠️ {note}", file=sys.stderr)
     total = sum(w["window_chars"] for w in windows)
@@ -436,13 +644,25 @@ def save_exemplar_file(results: list[dict], query_text: str, output_dir: str, sc
         sources = "；".join(f"{w.get('novel', '?')} {w['scene_id']}" for w in windows)
         results_line = f"results: {len(windows)} — {sources}"
     else:
-        reason = empty_reason or ("候选正文为空或与已取窗口重复" if results else "无候选")
+        candidates = results or [r for w in works or [] for r in w["rows"]]
+        reason = empty_reason or ("候选正文为空、人称不符或与已取窗口重复" if candidates else "无候选")
         results_line = f"results: 0 — {reason}"
     chars_line = f"chars: {total}（预算 {budget}"
     if 0 < total < budget:
         chars_line += f"，不足：可用候选只有 {len(windows)} 场"
     chars_line += "）"
-    lines = [f'query: "{query_text}"', f"filters: {filters}", results_line, chars_line, ""]
+    lines = [f'query: "{query_text}"', f"filters: {filters}"]
+    if pool:
+        works_note = "；池里只有这一部，窗口全部来自它" if pool["works"] == 1 else ""
+        lines.append(f"pool: {pool['scenes']} 场、{pool['works']} 部；最大一部 {pool['largest']} "
+                     f"占 {pool['largest_share']:.0%}{works_note}")
+    if style_hint:
+        lines.append(f'style_hint: "{style_hint}"')
+    lines += [results_line, chars_line]
+    if windows:
+        lines.append("windows:")
+        lines += [f"- {_window_description(w)}" for w in windows]
+    lines.append("")
     for w in windows:
         lines.append(
             f'<exemplar_window novel="{w.get("novel", "?")}" scene="{w["scene_id"]}" '
@@ -1627,9 +1847,12 @@ def main():
                         help="按叙述人称硬过滤（场景索引 narrative_person）")
     parser.add_argument("--register", choices=("colloquial", "literary"), default=None,
                         help="按语域硬过滤（场景索引 register）；阈值未标定的语言（目前英文）不过滤")
+    parser.add_argument("--exclude-novel", action="append", default=None,
+                        help="写作范文检索时排除某部作品（主控判断窗口不合用后重查用）；可重复")
     parser.add_argument("--render", choices=("full", "exemplar"), default="full",
                         help="ref 文件形态：full 为现有全部区块（审阅与设计阶段用）；exemplar 只含原文窗口，"
-                             "按名次累加到 --budget-chars（写作与修订用），需要 --output-dir")
+                             "先按 --style-hint 选作品、再在作品内按情节取窗口，累加到 --budget-chars"
+                             "（写作与修订用），需要 --output-dir")
     parser.add_argument("--budget-chars", type=int, default=None,
                         help=f"--render exemplar 的原文窗口总字数下限（默认 {EXEMPLAR_BUDGET_DEFAULT}；"
                              "英文按 1 汉字约 0.6 词折算），收尾最多超到 1.5 倍")
@@ -1706,6 +1929,8 @@ def main():
         parser.error("--render exemplar 需要 --output-dir")
     if args.original_only and not args.lang:
         parser.error("--original-only 需要同时给 --lang")
+    if args.exclude_novel and not exemplar:
+        parser.error("--exclude-novel 只作用于 --render exemplar")
     budget = args.budget_chars if args.budget_chars is not None else EXEMPLAR_BUDGET_DEFAULT
     if budget <= 0:
         parser.error("--budget-chars 须为正数")
@@ -1713,12 +1938,23 @@ def main():
     assistance = None
     run_metadata = {}
     filter_report: dict = {}
+    works = None
     try:
         args.must = runtime_assistance.checked_must(args.must)
         if args.select:
             results = select_results(args.select, source_medium=args.source_medium)
             if not results:
                 sys.exit(2)
+        elif exemplar:
+            if not args.query:
+                parser.error("--query is required unless --select is used")
+            works = select_exemplar_works(
+                args.query, lang=args.lang, novel=args.novel, exclude=args.exclude_novel,
+                source_medium=args.source_medium, original_only=args.original_only,
+                person=args.person, register=args.register, style_hint=args.style_hint,
+                model=args.model, filter_report=filter_report,
+            )
+            results = [r for w in works for r in w["rows"]]
         else:
             if not args.query:
                 parser.error("--query is required unless --select is used")
@@ -1775,6 +2011,11 @@ def main():
         results = [r for r in results if _reference_scope(r, args.reuse_mode, args.intended_domains)[1] != []]
     except ValueError as exc:
         parser.error(f"参考用途输入错误: {exc}")
+    if works is not None:
+        # 作者回避或用途不含的作品已从 results 里去掉，按作品分组时同步
+        kept_files = {r["file"] for r in results}
+        works = [{**w, "rows": [r for r in w["rows"] if r["file"] in kept_files]} for w in works]
+        works = [w for w in works if w["rows"]]
 
     if run_metadata:
         run_metadata["selected_ids"] = [r["file"] for r in results]
@@ -1802,6 +2043,8 @@ def main():
             budget=budget, filters=filters,
             empty_reason=f"{cleared} 清空候选" if cleared else None,
             shortform_pack=args.shortform_pack,
+            works=works, person=args.person, pool=filter_report.get("pool"),
+            style_hint=args.style_hint if works is not None else None,
         )
         abs_out = str(Path(out_path).resolve())
         runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
@@ -1810,6 +2053,11 @@ def main():
             total = sum(w["window_chars"] for w in windows)
             shortfall = "，不足预算" if total < budget else ""
             print(f"✅ 已保存范文窗口 {len(windows)} 段，共 {total} 字（预算 {budget}{shortfall}）。")
+            if filter_report.get("work_scores"):
+                scores = filter_report["work_scores"]
+                ranked = "；".join(f"{w['novel']} {w['score']:.3f}" for w in scores[:5])
+                basis = "文风 0.7 + 情节 0.3" if scores[0]["style"] is not None else "只按情节，没有 style hint"
+                print(f"🔎 作品排序（{basis}）：{ranked}")
             print(f"📖 范文窗口文件: {abs_out}")
         else:
             reason = f"{cleared} 清空候选" if cleared else "候选正文为空或重复"

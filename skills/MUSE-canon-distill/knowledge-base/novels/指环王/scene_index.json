@@ -31,7 +31,7 @@
     },
     "style_profile_by": "gpt-5",
     "original_lang": "en",
-    "narrative_person": "first",
+    "narrative_person": "mixed",
     "register": "mixed",
     "dialogue_ratio": 0.427
   },
@@ -559,7 +559,7 @@
     },
     "style_profile_by": "gpt-5",
     "original_lang": "en",
-    "narrative_person": "first",
+    "narrative_person": "mixed",
     "register": "mixed",
     "dialogue_ratio": 0.54
   },

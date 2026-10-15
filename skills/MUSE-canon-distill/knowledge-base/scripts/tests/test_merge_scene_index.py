@@ -221,3 +221,15 @@ def test_drama_authority_and_query_fields_survive_aggregation(tmp_path):
     assert rows[0]["lang"] == "zh"
     assert rows[0]["genre"] == "mystery"
     assert rows[0]["characters"] == ["甲"]
+
+
+def test_exemplar_pool_on_request_sinks_and_default_is_absent(tmp_kb):
+    (tmp_kb / "novels" / "书乙" / "style_card.yaml").write_text(
+        "novel: 书乙\nlang: zh\nexemplar_pool: on_request\n", encoding="utf-8")
+    msi.merge(tmp_kb)
+    agg = _agg(tmp_kb)
+    assert {e.get("exemplar_pool") for e in agg if e["novel"] == "书乙"} == {"on_request"}
+    assert all("exemplar_pool" not in e for e in agg if e["novel"] != "书乙")
+    (tmp_kb / "novels" / "书乙" / "style_card.yaml").write_text("novel: 书乙\nlang: zh\n", encoding="utf-8")
+    msi.merge(tmp_kb)
+    assert all("exemplar_pool" not in e for e in _agg(tmp_kb))
