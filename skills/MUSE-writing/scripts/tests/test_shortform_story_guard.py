@@ -25,7 +25,7 @@ CLEAN = (
 ) * 20
 
 
-def _run_dir(tmp_path: Path, story: str, *, target: int | None = None, reuse: bool = False) -> Path:
+def _run_dir(tmp_path: Path, story: str, *, target: int | None = None, reuse: bool | str = False) -> Path:
     work = tmp_path / "run"
     shortform = work / "pipeline" / "shortform"
     shortform.mkdir(parents=True)
@@ -33,7 +33,8 @@ def _run_dir(tmp_path: Path, story: str, *, target: int | None = None, reuse: bo
                   "target_length": target or guard.count_units(story)[0], "narration_person": "third"}
     if reuse:
         conception["canon_reference_profile"] = {"user_reference_materials": [
-            {"work": "白鹿原", "stance": "prefer", "reuse_mode": "maximize_apt_reuse"}]}
+            {"work": reuse if isinstance(reuse, str) else "白鹿原", "stance": "prefer",
+             "reuse_mode": "maximize_apt_reuse"}]}
     (shortform / "conception.yaml").write_text(yaml.safe_dump(conception, allow_unicode=True), encoding="utf-8")
     (shortform / "characters.yaml").write_text(
         yaml.safe_dump({"characters": [{"id": "xu-cheng", "name": "许诚"}]}, allow_unicode=True), encoding="utf-8")
@@ -109,6 +110,27 @@ def test_guard_flags_copied_exemplar(tmp_path):
 def test_guard_skips_overlap_when_author_authorized_reuse(tmp_path):
     work = _run_dir(tmp_path, CLEAN + EXEMPLAR + "\n", reuse=True)
     assert not any("[范文重合]" in p for p in guard.check(work / "story.md"))
+
+
+def test_reuse_authorization_only_covers_that_work(tmp_path):
+    # 授权复用《红楼梦》，抄的却是《白鹿原》的窗口：照查
+    work = _run_dir(tmp_path, CLEAN + EXEMPLAR + "\n", reuse="红楼梦")
+    assert any("[范文重合]" in p for p in guard.check(work / "story.md"))
+
+
+@pytest.mark.parametrize("line", ["这些话他想说但不会直说，等父亲关上门，才把信递给姐姐。",
+                                  "他等着她的动作或停顿，好判断自己该不该再问一句。",
+                                  "屏幕只剩一条报错：handoff failed。许诚拔下网线，又插了回去。"])
+def test_guard_ordinary_prose_with_same_words_passes(tmp_path, line):
+    work = _run_dir(tmp_path, CLEAN + line + "\n")
+    assert guard.check(work / "story.md") == []
+
+
+@pytest.mark.parametrize("line", ["想说但不会直说：他其实怕她走。", "## 台词候选", "- 动作或停顿：攥紧撬棍",
+                                  "handoff: 老秦留在十七楼"])
+def test_guard_flags_rehearsal_headings_and_key_lines(tmp_path, line):
+    work = _run_dir(tmp_path, CLEAN + line + "\n")
+    assert any("[设计用词]" in p for p in guard.check(work / "story.md"))
 
 
 def test_guard_length_only_outside_thirty_percent(tmp_path):

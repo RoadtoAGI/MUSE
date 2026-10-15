@@ -7,7 +7,8 @@
 1. 格式：无 YAML frontmatter、无 HTML 注释。
 2. 设计用词泄漏：大纲与构想字段名、设计标记、排练标题、场景卡投影标签、灵感账 ID、YAML 键行。
 3. 与范文的连续重合：对照写作简报“范文”一节的窗口，口径见 reuse_overlap.py；
-   人物名不计；conception 的手选名著写明 maximize_apt_reuse（作者授权复用原文）时跳过。
+   人物名不计；conception 的手选名著写明 maximize_apt_reuse（作者授权复用原文）的那部作品的窗口
+   不查，其他窗口照查。
 4. 字数：超出 conception.target_length ±30% 才拦；更小的偏差不拦，字数是软约束。
 
 用法::
@@ -38,8 +39,10 @@ DESIGN_FIELDS = (
     "scene_tasks", "reader_track", "beat_direction", "craft_carrier", "boldness_guardrails",
     "prose_risk_contract", "scene_id",
 )
-ZH_ONLY_FIELDS = ("handoff",)  # 英文正文里是普通词，只在中文正文里算泄漏
-REHEARSAL_HEADINGS = ("想说但不会直说", "台词候选", "禁用语气", "动作或停顿")
+# 排练标题与场景卡投影标签只按标题、标签形态认：独占一行，或后接冒号。叙述句里的同形词组
+# （"这些话他想说但不会直说""他等着她的动作或停顿"）是正常正文，不拦。
+REHEARSAL_HEADING = re.compile(
+    r"^\s*(?:[#>*\-]+\s*)?[【\[]?\**\s*(想说但不会直说|台词候选|禁用语气|动作或停顿)\s*\**[】\]]?\s*(?:[：:]|$)")
 PROJECTION_LABEL = re.compile(
     r"^\s*[#*【\[]*\s*(需成立的叙事工作|目标叙事增量|呈现建议|入场处境|离场结果|关键转折)\s*[】\]*]*\s*[：:]")
 LEDGER_ID = re.compile(r"\bINS-\d{3}\b")
@@ -76,13 +79,14 @@ def format_problems(text: str) -> list[str]:
 
 
 def token_problems(text: str) -> list[str]:
-    english = reuse_overlap.is_english(text)
-    fields = DESIGN_FIELDS + (() if english else ZH_ONLY_FIELDS)
+    """带下划线的字段名是程序标识，出现即算；handoff 这类普通词只在 YAML 键行里算（"handoff failed"
+    可以是正文里的报错文字）；排练标题与投影标签只认标题、标签形态。"""
     problems = []
     for i, line in enumerate(text.splitlines(), start=1):
         hits = [t for t in DESIGN_MARKERS if t in line]
-        hits += [f for f in fields if f in line]
-        hits += [h for h in REHEARSAL_HEADINGS if h in line]
+        hits += [f for f in DESIGN_FIELDS if f in line]
+        if m := REHEARSAL_HEADING.match(line):
+            hits.append(m.group(1))
         if m := PROJECTION_LABEL.match(line):
             hits.append(m.group(1))
         hits += LEDGER_ID.findall(line)
@@ -93,10 +97,32 @@ def token_problems(text: str) -> list[str]:
     return problems
 
 
-def _reuse_authorized(conception: dict) -> bool:
+WINDOW_WITH_ATTRS = re.compile(r"<exemplar_window\b([^>]*)>\n?(.*?)</exemplar_window>", re.S)
+NOVEL_ATTR = re.compile(r'\bnovel="([^"]*)"')
+
+
+def authorized_works(conception: dict) -> list[str]:
+    """作者在 canon_reference_profile 里授权复用原文（maximize_apt_reuse）的作品名。"""
     profile = conception.get("canon_reference_profile") or {}
     materials = profile.get("user_reference_materials") if isinstance(profile, dict) else None
-    return any(isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" for m in materials or [])
+    return [str(m["work"]) for m in materials or []
+            if isinstance(m, dict) and m.get("reuse_mode") == "maximize_apt_reuse" and m.get("work")]
+
+
+def _same_work(a: str, b: str) -> bool:
+    a, b = a.strip(), b.strip()
+    return bool(a and b) and (a in b or b in a)
+
+
+def checked_exemplar(raw: str, authorized: list[str]) -> str:
+    """要查重合的范文原文：作者授权复用的那几部作品的窗口不查，其余窗口照查。"""
+    kept = []
+    for attrs, body in WINDOW_WITH_ATTRS.findall(raw):
+        novel = NOVEL_ATTR.search(attrs)
+        if novel and any(_same_work(novel.group(1), work) for work in authorized):
+            continue
+        kept.append(body)
+    return "\n".join(kept)
 
 
 def _character_names(shortform: Path) -> list[str]:
@@ -105,13 +131,12 @@ def _character_names(shortform: Path) -> list[str]:
 
 
 def overlap_problems(text: str, shortform: Path, conception: dict) -> list[str]:
-    if _reuse_authorized(conception):
-        return []
     brief = shortform / "writer_brief.md"
     raw = brief.read_text(encoding="utf-8") if brief.exists() else ""
-    if not reuse_overlap.WINDOW_RE.search(raw):  # 没有简报或简报无范文
+    exemplar = checked_exemplar(raw, authorized_works(conception))
+    if not exemplar.strip():  # 没有简报、简报无范文，或范文全是授权复用的作品
         return []
-    result = reuse_overlap.measure(text, reuse_overlap.exemplar_text(raw), _character_names(shortform))
+    result = reuse_overlap.measure(text, exemplar, _character_names(shortform))
     if not result.violated:
         return []
     unit = result.unit
