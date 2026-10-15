@@ -16,6 +16,12 @@
     # 按语言过滤
     python ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py \
         --query "tense confrontation" --lang en
+
+    # 写作用范文窗口：同语言原作、同人称、同语域，按名次累加原文到预算字数
+    python ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py \
+        --query "末世里一个程序员在废弃写字楼逐层搜食物" --lang zh --original-only \
+        --person first --register colloquial --budget-chars 4000 --render exemplar \
+        --output-dir pipeline/references --scene-id S01
 """
 
 import argparse
@@ -35,6 +41,8 @@ from dotenv import load_dotenv
 
 # 相对导入同目录模块（支持脚本直接运行）
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from annotate_register import REGISTER_LANGS  # noqa: E402
+from paragraph_density import _is_metadata_block  # noqa: E402
 from paragraph_density import analyze_file as _pd_analyze_file  # noqa: E402
 from stylometry import analyze_file as _sm_analyze_file  # noqa: E402
 import kb_index  # noqa: E402
@@ -171,29 +179,67 @@ def _genre_matches(query_genre: str, entry_genre: str) -> bool:
 # ---------------------------------------------------------------------------
 # Core
 # ---------------------------------------------------------------------------
+def _novel_names(novel: str | list[str] | None) -> list[str]:
+    if not novel:
+        return []
+    return [novel] if isinstance(novel, str) else [n for n in novel if n]
+
+
+def _filter_stages(index: list[dict], *, genre: str | None, lang: str | None,
+                   novel: str | list[str] | None, allowed_media: set[str] | None,
+                   original_only: bool = False, person: str | None = None,
+                   register: str | None = None) -> tuple[list[int], list[tuple[str, int]]]:
+    """按媒介 / 题材 / 语言 / 作品 / 原作 / 人称 / 语域依次过滤，返回 (保留下标, [(条件, 剩余条数)])。
+
+    显式 --genre 是作者限定的硬过滤；描述性题材应留在 query 文本中。某一步清空时停止，
+    trace 的最后一项就是清空候选的条件。--novel 可给多部，命中任一即保留。
+    """
+    names = _novel_names(novel)
+    stages = []
+    if allowed_media:
+        stages.append((f"source_medium={','.join(sorted(allowed_media))}",
+                       lambda e: e.get("source_medium", "novel") in allowed_media))  # 历史行缺字段按 novel
+    if genre:
+        stages.append((f"genre={genre}", lambda e: _genre_matches(genre, e.get("genre", ""))))
+    if lang:
+        stages.append((f"lang={lang}", lambda e: e.get("lang") == lang))
+    if names:
+        stages.append((f"novel={'|'.join(names)}",
+                       lambda e: any(_normalized_contains(n, e.get("novel", "")) for n in names)))
+    if original_only:
+        stages.append(("original-only", lambda e: e.get("original_lang") == lang))
+    if person:
+        stages.append((f"person={person}", lambda e: e.get("narrative_person") == person))
+    if register:
+        stages.append((f"register={register}", lambda e: e.get("register") == register))
+
+    kept = list(range(len(index)))
+    trace: list[tuple[str, int]] = []
+    for label, keep in stages:
+        kept = [i for i in kept if keep(index[i])]
+        trace.append((label, len(kept)))
+        if not kept:
+            break
+    return kept, trace
+
+
 def _filter_indices(index: list[dict], *, genre: str | None, lang: str | None,
-                    novel: str | None, allowed_media: set[str] | None) -> list[int]:
-    """按媒介 / 题材 / 语言 / 作品过滤索引。显式 --genre 是作者限定的硬过滤；描述性题材应留在 query 文本中。"""
-    kept: list[int] = []
-    for i, entry in enumerate(index):
-        entry_medium = entry.get("source_medium", "novel")  # 兼容历史
-        if allowed_media and entry_medium not in allowed_media:
-            continue
-        if genre and not _genre_matches(genre, entry.get("genre", "")):
-            continue
-        if lang and entry.get("lang") != lang:
-            continue
-        if novel and not _normalized_contains(novel, entry.get("novel", "")):
-            continue
-        kept.append(i)
-    return kept
+                    novel: str | list[str] | None, allowed_media: set[str] | None,
+                    **extra) -> list[int]:
+    return _filter_stages(index, genre=genre, lang=lang, novel=novel,
+                          allowed_media=allowed_media, **extra)[0]
+
+
+def _describe_trace(total: int, trace: list[tuple[str, int]]) -> str:
+    return " → ".join([f"全库 {total}"] + [f"{label} {count}" for label, count in trace])
 
 
 def _exemplar_excerpt(text: str, anchor: str | None, limit: int) -> tuple[str, bool]:
     """从完整原文截取 ≤limit 字的范文片段（含段落分隔符）。
 
     有手艺原句锚时先按字符位置定位锚句，以锚所在段为起点取整段；该段超出预算时改取锚句附近的句段窗口，
-    保证锚句进入摘录；无锚或锚不在原文时取开头。返回 (片段, 摘录是否实际包含锚)。
+    保证锚句进入摘录；无锚或锚不在原文时取正文开头。场景头部（标题、出处行、分隔线、注释）
+    不算正文，否则会占掉预算。返回 (片段, 摘录是否实际包含锚)。
     """
     if limit <= 0 or not text:
         return "", False
@@ -205,7 +251,7 @@ def _exemplar_excerpt(text: str, anchor: str | None, limit: int) -> tuple[str, b
     paragraphs: list[tuple[int, str]] = []
     for match in re.finditer(r"[^\n]+", text):
         para = match.group(0).strip()
-        if para:
+        if para and not _is_metadata_block(para):
             paragraphs.append((match.start(), para))
     if not paragraphs:
         return "", False
@@ -268,6 +314,145 @@ def _window_around(para: str, local: int, limit: int) -> str:
         if boundary > local:
             end = boundary + 1
     return para[start:end].strip()
+
+
+EXEMPLAR_BUDGET_DEFAULT = 4000
+EXEMPLAR_CAP_RATIO = 1.5    # 预算是下限；收尾那一行最多超到 1.5 倍（4,000 → 6,000，设计 §3.1 的上限）
+EXEMPLAR_CANDIDATES = 12    # 范文渲染向检索要的候选数，供按名次累加
+EN_WORDS_PER_CHAR = 0.6     # 英文按词数折算：1 汉字约 0.6 词（设计 §3.1）
+SENTENCE_END_CHARS = "。！？」”.!?\"'"
+
+
+def _text_units(text: str, lang: str | None) -> int:
+    """范文预算的计量：中文数非空白字符，英文按词数折算成汉字。"""
+    if lang == "en":
+        return round(len(re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", text)) / EN_WORDS_PER_CHAR)
+    return len(re.sub(r"\s", "", text))
+
+
+def _body_lines(text: str) -> list[str]:
+    """场景正文行：去掉头部、出处行、分隔线与注释，保留原文的断行，连续空行并成一个。"""
+    lines: list[str] = []
+    for line in text.splitlines():
+        if line.strip() and _is_metadata_block(line):
+            continue
+        if not line.strip() and (not lines or not lines[-1].strip()):
+            continue
+        lines.append(line.rstrip())
+    while lines and not lines[-1].strip():
+        lines.pop()
+    return lines
+
+
+def _cut_at_sentence(line: str, limit: int) -> str:
+    """取 line 在 limit 字符内、以句末标点收尾的最长前缀；没有句末标点时返回空串，不留半句。"""
+    head = line[:limit]
+    ends = [head.rfind(ch) for ch in SENTENCE_END_CHARS]
+    last = max(ends)
+    return head[:last + 1].rstrip() if last >= 0 else ""
+
+
+def _source_label(r: dict) -> str:
+    author = r.get("author")
+    title = f"{author}《{r.get('novel', '?')}》" if author else f"《{r.get('novel', '?')}》"
+    chapter = r.get("source_chapter")
+    return f"{title}{chapter}" if chapter else title
+
+
+def exemplar_windows(results: list[dict], budget: int) -> tuple[list[dict], list[str]]:
+    """按名次累加原文窗口，直到合计达到 budget（设计 §4.2）。
+
+    每场从正文开头取连续的行，累计达到预算即停；收尾那一行会超过 1.5 倍上限时在句末截断。
+    单场不足时整场取用，接着取下一名。同一段原文收在两部作品里（如《云天明的童话》与《三体Ⅲ》）
+    时只取先出现的一处。返回 (窗口, 跳过说明)。
+    """
+    cap = int(budget * EXEMPLAR_CAP_RATIO)
+    windows: list[dict] = []
+    notes: list[str] = []
+    picked: list[str] = []
+    total = 0
+    for r in results:
+        if total >= budget:
+            break
+        label = f"{r.get('novel', '?')} {r.get('scene_id', '?')}"
+        if not (KB_ROOT / r.get("file", "")).is_file():
+            notes.append(f"{label}：原文文件缺失，跳过")
+            continue
+        lines = _body_lines(read_scene_text(r["file"], max_chars=0))
+        flat = re.sub(r"\s", "", "".join(lines))
+        if not flat:
+            notes.append(f"{label}：正文为空，跳过")
+            continue
+        if any(flat[:40] in other or other[:40] in flat for other in picked):
+            notes.append(f"{label}：与已取窗口是同一段原文，跳过")
+            continue
+        lang = r.get("lang")
+        taken: list[str] = []
+        size = 0
+        for line in lines:
+            if not line.strip():
+                taken.append(line)
+                continue
+            units = _text_units(line, lang)
+            if total + size + units > cap:
+                room = cap - total - size
+                cut = _cut_at_sentence(line, max(int(len(line) * room / max(units, 1)), 0))
+                if cut:
+                    taken.append(cut)
+                    size += _text_units(cut, lang)
+                break
+            taken.append(line)
+            size += units
+            if total + size >= budget:
+                break
+        text = "\n".join(taken).strip()
+        if not text:
+            continue
+        windows.append({**r, "window_text": text, "window_chars": size})
+        picked.append(flat)
+        total += size
+    return windows, notes
+
+
+def save_exemplar_file(results: list[dict], query_text: str, output_dir: str, scene_id: str | None,
+                       *, budget: int = EXEMPLAR_BUDGET_DEFAULT, filters: str = "无",
+                       empty_reason: str | None = None, shortform_pack: bool = False) -> tuple[str, list[dict]]:
+    """写范文窗口文件（--render exemplar）：头部四行加各窗口原文，不带任何分析文字。
+
+    头部依次是 query、过滤条件、来源作品与场景、字数；每个窗口前一行写来源。
+    "本场可以怎样用"由主控在派发里写，不由脚本生成。返回 (文件路径, 窗口)。
+    """
+    windows, notes = exemplar_windows(results, budget)
+    for note in notes:
+        print(f"⚠️ {note}", file=sys.stderr)
+    total = sum(w["window_chars"] for w in windows)
+
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    filename = "reference_pack.md" if shortform_pack else (f"{scene_id}_ref.md" if scene_id else "query_ref.md")
+    out_path = out_dir / filename
+
+    if windows:
+        sources = "；".join(f"{w.get('novel', '?')} {w['scene_id']}" for w in windows)
+        results_line = f"results: {len(windows)} — {sources}"
+    else:
+        reason = empty_reason or ("候选正文为空或与已取窗口重复" if results else "无候选")
+        results_line = f"results: 0 — {reason}"
+    chars_line = f"chars: {total}（预算 {budget}"
+    if 0 < total < budget:
+        chars_line += f"，不足：可用候选只有 {len(windows)} 场"
+    chars_line += "）"
+    lines = [f'query: "{query_text}"', f"filters: {filters}", results_line, chars_line, ""]
+    for w in windows:
+        lines.append(
+            f'<exemplar_window novel="{w.get("novel", "?")}" scene="{w["scene_id"]}" '
+            f'source="{_source_label(w)}" chars="{w["window_chars"]}">'
+        )
+        lines.append(w["window_text"])
+        lines.append("</exemplar_window>")
+        lines.append("")
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+    return str(out_path), windows
 
 
 def cosine_similarity(a: np.ndarray, b: np.ndarray) -> np.ndarray:
@@ -496,7 +681,9 @@ def query(query_text: str, genre: str = None, lang: str = None,
           assistance=None, canon_reference_profile: str | None = None,
           reuse_mode: str | None = None, intended_domains: list[str] | None = None,
           work_dir: str | None = None, must: list[str] | None = None,
-          run_metadata: dict | None = None, fit_tau: float = FIT_TIER_TAU) -> list[dict]:
+          run_metadata: dict | None = None, fit_tau: float = FIT_TIER_TAU,
+          original_only: bool = False, person: str | None = None,
+          register: str | None = None, filter_report: dict | None = None) -> list[dict]:
     """检索最相关的场景
 
     两层匹配策略：
@@ -511,7 +698,18 @@ def query(query_text: str, genre: str = None, lang: str = None,
     - "novel,stage_play" —— 逗号分隔多值（如 screenplay-writing Phase 6 可传 "stage_play"
       只看戏剧；或 "stage_play,screenplay" 多 medium 兼容）
     历史 entry 无 source_medium 字段者按 "novel" 处理（向后兼容）。
+
+    original_only / person / register 是写作范文用的硬过滤（设计 §4.2），在向量打分之前执行；
+    register 只对 REGISTER_LANGS 内已标定阈值的语言生效。filter_report 若给出，写入
+    filters（各条件及剩余条数）、cleared_by（清空候选的条件）与 ignored（未生效的条件）。
     """
+    if original_only and not lang:
+        raise ValueError("--original-only 需要同时给 --lang")
+    report = filter_report if filter_report is not None else {}
+    if register and lang and lang not in REGISTER_LANGS:
+        report["ignored"] = [f"register={register}（{lang} 的语域阈值尚未标定，不过滤）"]
+        print(f"⚠️ {lang} 的 register 阈值尚未标定，--register 本次不过滤，只按 --person", file=sys.stderr)
+        register = None
     must = runtime_assistance.checked_must(must)
     if assistance is None:
         assistance = runtime_assistance.settings_for(work_dir)
@@ -532,6 +730,12 @@ def query(query_text: str, genre: str = None, lang: str = None,
 
     index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
     embeddings = np.load(str(EMBEDDINGS_PATH))
+    if embeddings.shape[0] != len(index):
+        # 行序即向量行号；行数不等时按位置取向量会错配到别的场景
+        raise KBInfraError(
+            f"scene_embeddings.npy 行数 {embeddings.shape[0]} ≠ scene_index.json {len(index)}："
+            "合并新作品后先运行 build_embeddings.py --channel all --novel <作品>"
+        )
 
     # 解析 source_medium：None / "all" → 不过滤；其它单值或逗号多值
     if source_medium and source_medium != "all":
@@ -539,25 +743,20 @@ def query(query_text: str, genre: str = None, lang: str = None,
     else:
         allowed_media = None
 
-    # 过滤（子串匹配 + 别名表 + medium 隔离）
-    if genre or lang or novel or allowed_media:
-        filtered_indices = np.array(
-            _filter_indices(index, genre=genre, lang=lang, novel=novel, allowed_media=allowed_media),
-            dtype=int,
+    # 过滤（子串匹配 + 别名表 + medium 隔离 + 原作/人称/语域）
+    if genre or lang or novel or allowed_media or original_only or person or register:
+        kept, trace = _filter_stages(
+            index, genre=genre, lang=lang, novel=novel, allowed_media=allowed_media,
+            original_only=original_only, person=person, register=register,
         )
+        filtered_indices = np.array(kept, dtype=int)
+        report["filters"] = trace
 
         if len(filtered_indices) == 0:
-            filters = []
-            if allowed_media:
-                filters.append(f"source_medium={','.join(sorted(allowed_media))}")
-            if genre:
-                filters.append(f"genre={genre}")
-            if lang:
-                filters.append(f"lang={lang}")
-            if novel:
-                filters.append(f"novel={novel}")
+            report["cleared_by"] = trace[-1][0]
             hint = "；题材若只是描述性线索，请放进 --query 而不传 --genre" if genre else ""
-            print(f"⚠️ 过滤后无结果（{', '.join(filters)}）{hint}", file=sys.stderr)
+            print(f"⚠️ 过滤后无结果：{trace[-1][0]} 清空候选（{_describe_trace(len(index), trace)}）{hint}",
+                  file=sys.stderr)
             return []
 
         filtered_embeddings = embeddings[filtered_indices]
@@ -1117,19 +1316,16 @@ def save_reference_file(results: list[dict], query_text: str,
         lines.append("每条 reference_scope 保留该来源的实际用途；文件头仅概括候选集合，使用时沿条目范围。")
         if intended_domains:
             lines.append("本次采用领域：" + "、".join(intended_domains) + "。各领域只支持相应设计与表达；手选和分数不扩大该范围。")
-        lines.append("1. 只提炼本场真正影响写法的 style anchor；可从叙事语态、句段呼吸、词汇质地、"
-                     "对白形态或留白方式中按需选择，不设数量和维度覆盖配额。")
-        lines.append("2. 正文以 style anchor 为准绳主动贴近范文的腔调与质感；范文是生成时的直接参考。")
         if header_tier == "full":
-            lines.append("3. full 提供结构与句段候选，检索分数或手选不证明功能同构。先核对当前人物、处境与必要结果；明确要求复用时，最大化复用其中实际贴切的原词原句与连续段落，不设字符或段落长度上限。")
+            lines.append("1. full 提供结构与句段候选，检索分数或手选不证明功能同构。先核对当前人物、处境与必要结果；明确要求复用时，最大化复用其中实际贴切的原词原句与连续段落，不设字符或段落长度上限。")
         elif header_tier == "material":
-            lines.append("3. material 提供局部素材候选：最大化复用当前已采用且直接相关的来源专名、世界事实和专门术语；通用动作、物件、情节和单句须另有功能适配依据。")
+            lines.append("1. material 提供局部素材候选：最大化复用当前已采用且直接相关的来源专名、世界事实和专门术语；通用动作、物件、情节和单句须另有功能适配依据。")
         else:
-            lines.append("3. 本场只作文风参考：提取语态、节奏、词汇质地、对白形态与留白方式，不迁移范文的情节和动作材料。")
+            lines.append("1. 本场只作文风参考：提取语态、节奏、词汇质地、对白形态与留白方式，不迁移范文的情节和动作材料。")
         if header_tier == "full":
-            lines.append("4. 复用段落按当前人物、POV、时态、指代与专名衔接；保留已授权的声音特点，调整与本作叙述冲突的部分。")
-        lines.append("5. 跨语言 reference 可翻译、转写或保留原文，由交付语言决定。")
-        lines.append("6. 标注「仅文风参考」的条目不学叙事结构；style anchor 与 scene_card / role_briefs / prose_risk_contract 冲突时设计文档优先。")
+            lines.append("2. 复用段落按当前人物、POV、时态、指代与专名衔接；保留已授权的声音特点，调整与本作叙述冲突的部分。")
+        lines.append("3. 跨语言 reference 可翻译、转写或保留原文，由交付语言决定。")
+        lines.append("4. 标注「仅文风参考」的条目不学叙事结构。")
         lines.append("</usage_protocol>")
         lines.append("")
 
@@ -1246,7 +1442,7 @@ def save_reference_file(results: list[dict], query_text: str,
             annotations = load_novel_annotations(r["file"])
             sp = annotations.get("style_profiles", {}).get(r["scene_id"]) or r.get("style_profile")
             if sp:
-                lines.append("**文风画像**（离线标注——style anchor 提取的直接锚点）：")
+                lines.append("**文风画像**（离线标注）：")
                 lines.append("")
                 lines.append("```yaml")
                 for k in ("narration_voice", "diction", "rhetoric_density",
@@ -1258,7 +1454,7 @@ def save_reference_file(results: list[dict], query_text: str,
 
             style_card = annotations.get("style_card") if r.get("rank") == 1 else None
             if style_card:
-                lines.append("**作品文风卡**（跨场景蒸馏——本书级 style anchor）：")
+                lines.append("**作品文风卡**（跨场景蒸馏）：")
                 lines.append("")
                 lines.append("```yaml")
                 for k, v in style_card.items():
@@ -1421,9 +1617,22 @@ def main():
     parser.add_argument("--genre", type=str, default=None,
                         help="作者明确限定的题材范围（硬过滤）；描述任务的复合题材直接写入 --query")
     parser.add_argument("--lang", type=str, default=None,
-                        help="按语言过滤（zh / en）")
-    parser.add_argument("--novel", type=str, default=None,
-                        help="按小说名过滤，子串匹配（如：三体、挪威的森林）")
+                        help="按文本语言过滤（zh / en）；译本与原作都算该语言")
+    parser.add_argument("--novel", action="append", default=None,
+                        help="按作品名过滤，子串匹配（如：三体、挪威的森林）；可重复，命中任一部即保留。"
+                             "同人、续写、改编这类点名原作的任务用它限定原作")
+    parser.add_argument("--original-only", action="store_true",
+                        help="只要原作语言等于 --lang 的作品（排除译本）；需要 --lang")
+    parser.add_argument("--person", choices=("first", "third"), default=None,
+                        help="按叙述人称硬过滤（场景索引 narrative_person）")
+    parser.add_argument("--register", choices=("colloquial", "literary"), default=None,
+                        help="按语域硬过滤（场景索引 register）；阈值未标定的语言（目前英文）不过滤")
+    parser.add_argument("--render", choices=("full", "exemplar"), default="full",
+                        help="ref 文件形态：full 为现有全部区块（审阅与设计阶段用）；exemplar 只含原文窗口，"
+                             "按名次累加到 --budget-chars（写作与修订用），需要 --output-dir")
+    parser.add_argument("--budget-chars", type=int, default=None,
+                        help=f"--render exemplar 的原文窗口总字数下限（默认 {EXEMPLAR_BUDGET_DEFAULT}；"
+                             "英文按 1 汉字约 0.6 词折算），收尾最多超到 1.5 倍")
     parser.add_argument("--source-medium", type=str, default="novel",
                         help="按 medium 过滤（防 medium 污染）。默认 'novel' —— "
                              "主干写小说时只检索小说场景，自动排除戏剧 / 剧本。"
@@ -1490,9 +1699,20 @@ def main():
 
     if args.paired_function_bridge and not args.function_hint:
         parser.error("--paired-function-bridge requires --function-hint")
+    exemplar = args.render == "exemplar"
+    if args.budget_chars is not None and not exemplar:
+        parser.error("--budget-chars 只作用于 --render exemplar")
+    if exemplar and not args.output_dir:
+        parser.error("--render exemplar 需要 --output-dir")
+    if args.original_only and not args.lang:
+        parser.error("--original-only 需要同时给 --lang")
+    budget = args.budget_chars if args.budget_chars is not None else EXEMPLAR_BUDGET_DEFAULT
+    if budget <= 0:
+        parser.error("--budget-chars 须为正数")
 
     assistance = None
     run_metadata = {}
+    filter_report: dict = {}
     try:
         args.must = runtime_assistance.checked_must(args.must)
         if args.select:
@@ -1503,13 +1723,16 @@ def main():
             if not args.query:
                 parser.error("--query is required unless --select is used")
             assistance = runtime_assistance.settings_for(args.work_dir, args.output_dir)
+            top_k = args.pool if args.list and args.pool is not None else args.top_k
+            if exemplar:
+                top_k = max(top_k, EXEMPLAR_CANDIDATES)
             results = query(
                 query_text=args.query,
                 genre=args.genre,
                 lang=args.lang,
                 novel=args.novel,
                 source_medium=args.source_medium,
-                top_k=args.pool if args.list and args.pool is not None else args.top_k,
+                top_k=top_k,
                 threshold=args.threshold,
                 style_hint=args.style_hint,
                 style_mode=args.style_mode,
@@ -1525,6 +1748,10 @@ def main():
                 reuse_mode=args.reuse_mode,
                 intended_domains=args.intended_domains,
                 fit_tau=args.fit_tau,
+                original_only=args.original_only,
+                person=args.person,
+                register=args.register,
+                filter_report=filter_report,
             )
     except ValueError as exc:
         parser.error(str(exc))
@@ -1559,6 +1786,34 @@ def main():
         print(format_candidate_table(results))
         runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
                                   output="candidate_table")
+    elif exemplar:
+        if args.select:
+            filters = "手动指定（--select）"
+        elif filter_report.get("filters"):
+            filters = _describe_trace(len(json.loads(INDEX_PATH.read_text(encoding="utf-8"))),
+                                      filter_report["filters"])
+        else:
+            filters = "无"
+        if filter_report.get("ignored"):
+            filters += "；未生效：" + "、".join(filter_report["ignored"])
+        cleared = filter_report.get("cleared_by")
+        out_path, windows = save_exemplar_file(
+            results, args.query or "", args.output_dir, args.scene_id,
+            budget=budget, filters=filters,
+            empty_reason=f"{cleared} 清空候选" if cleared else None,
+            shortform_pack=args.shortform_pack,
+        )
+        abs_out = str(Path(out_path).resolve())
+        runtime_assistance.record(assistance, "scene_retrieval", "delivered", **run_metadata,
+                                  output_path=abs_out)
+        if windows:
+            total = sum(w["window_chars"] for w in windows)
+            shortfall = "，不足预算" if total < budget else ""
+            print(f"✅ 已保存范文窗口 {len(windows)} 段，共 {total} 字（预算 {budget}{shortfall}）。")
+            print(f"📖 范文窗口文件: {abs_out}")
+        else:
+            reason = f"{cleared} 清空候选" if cleared else "候选正文为空或重复"
+            print(f"⚠️ 本场无范文（{reason}）：results: 0 已写入 {abs_out}，派发时不传此路径。")
     elif args.output_dir:
         out_path = save_reference_file(
             results, args.query or "", args.genre,

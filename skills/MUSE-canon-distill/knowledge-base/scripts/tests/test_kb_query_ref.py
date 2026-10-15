@@ -205,7 +205,10 @@ def test_exemplar_is_last_block(tmp_path):
     assert "<craft_notes" not in text[text.index("<style_exemplar"):]
     assert "3-5 条" not in text
     assert "覆盖五维" not in text
-    assert "不设数量和维度覆盖配额" in text
+    # 设计 §4.3：模仿要求改由派发提示承担，usage_protocol 不再要求提炼 style anchor，也不再写设计文档优先
+    assert "style anchor" not in text
+    assert "设计文档优先" not in text
+    assert "标注「仅文风参考」的条目不学叙事结构。" in text
 
 
 def test_paired_function_bridge_is_opt_in_and_preserves_tier_boundaries(tmp_path):
