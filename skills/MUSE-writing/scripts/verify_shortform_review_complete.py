@@ -30,9 +30,20 @@ REVIEW_NAME_RE = re.compile(r"^short_story_review\.r(\d+)\.yaml$")
 
 # 审阅报告 schema（终验 gate 是该报告的属主校验器——shortform/review/ 不归 contract hook）
 REPORT_ALLOWED = {"story_sha256", "status", "requirements_coverage", "findings"}
-FINDING_ALLOWED = {"severity", "dimension", "quote", "note"}
+FINDING_REQUIRED = {"severity", "dimension", "quote", "note"}
+FINDING_ALLOWED = FINDING_REQUIRED | {"subkind"}
 SEVERITY_ENUM = {"BLOCKER", "MAJOR", "MINOR"}
-DIMENSION_ENUM = {"冲突", "价值转变", "人物声音", "POV", "叙事组织", "文本质量", "灵感落点", "遮名-饱和度"}
+DIMENSION_ENUM = {"冲突", "价值转变", "人物声音", "POV", "叙事组织", "文本质量", "灵感落点", "遮名-饱和度",
+                  "范文语域"}
+# 文本质量的 subkind 沿 story-review 的 ai_pattern 与 micro_language 两组（story-review/references/
+# output-schema.md 为枚举权威）；写作简报按它解锁条目（scripts/brief_rules.yaml）
+SUBKIND_ENUM = {
+    "carrier_missing", "carrier_then_explain", "omission_violated", "narrator_self_corrects",
+    "emotion_naming_under_face_loss", "monologue_padding", "subtext_translated_by_narrator",
+    "planning_trace_leakage",
+    "false_literary_diction", "sensory_mismatch", "abstract_judgment_without_action", "stock_speech_tag",
+    "weak_character_expression",
+}
 COVERAGE_ALLOWED = {"requirement", "met", "evidence"}
 
 
@@ -58,9 +69,14 @@ def _validate_report_schema(report: dict, name: str) -> list[str]:
                 unknown = set(f.keys()) - FINDING_ALLOWED
                 if unknown:
                     errors.append(f"{name}: findings[{i}] 未知字段 {sorted(unknown)}")
-                for key in FINDING_ALLOWED:
+                for key in FINDING_REQUIRED:
                     if not (isinstance(f.get(key), str) and f[key].strip()):
                         errors.append(f"{name}: findings[{i}].{key} 缺失或非法")
+                if f.get("subkind") is not None:
+                    if f.get("dimension") != "文本质量":
+                        errors.append(f"{name}: findings[{i}].subkind 只用于 文本质量")
+                    elif f["subkind"] not in SUBKIND_ENUM:
+                        errors.append(f"{name}: findings[{i}].subkind={f['subkind']!r} 不在枚举")
                 if f.get("severity") not in SEVERITY_ENUM:
                     errors.append(f"{name}: findings[{i}].severity={f.get('severity')!r} 不在枚举（精确匹配）")
                 if f.get("dimension") not in DIMENSION_ENUM:

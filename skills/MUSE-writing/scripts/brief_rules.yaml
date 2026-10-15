@@ -1,0 +1,67 @@
+# 写作简报的条件表（设计 §8.4）与审阅 finding → 条目对照（§8.3），由 assemble_writer_brief.py 读取。
+# 本版只填短篇链用到的行；完整链按场景、连载按章的行随各自的装配入口补。
+# 技能正文不复述这里的对应关系，新增手法时改 references 的条目与本表。
+#
+# findings 的键：dimension/subkind；finding 没有 subkind 时按 dimension。
+#   entry：首次报出后附进下一版简报“条目”节的条目锚点（路径相对本包 skills/）
+#   full：同一键在后一轮审阅再次报出时，修订者与重写的写作者读的全文位置（可只写文件）
+
+shortform:
+  retrieval:              # 成稿前取范文的固定参数；--query 与 --register 由主控按构想写
+    budget_chars: 6000    # 短篇 ≤ 1 万字，范文按 6,000 字取
+    original_only: true
+    person_from: narration_person
+  exemplar_min_ratio: 0.5 # 范文占简报低于此值时 meta 记 exemplar_short
+  entry_cap: 300          # 每条
+  entries_cap: 900        # “条目”节合计；超出时按最近一次报出、再按报出轮数取
+  instruction_cap: 300
+
+  findings:
+    文本质量:
+      entry: prose-craft/references/prose-rules.md#叙述层高风险候选
+      full: prose-craft/references/ai-cliche-patterns.md
+    文本质量/narrator_self_corrects:
+      entry: prose-craft/references/ai-cliche-patterns.md#narrator_self_corrects
+      full: prose-craft/references/ai-cliche-patterns.md#人物与叙述权限
+    文本质量/emotion_naming_under_face_loss:
+      entry: prose-craft/references/ai-cliche-patterns.md#narrator_self_corrects  # 与上一键同一行
+      full: prose-craft/references/ai-cliche-patterns.md#人物与叙述权限
+    文本质量/monologue_padding:
+      entry: prose-craft/references/ai-cliche-patterns.md#长独白或均质分段
+      full: prose-craft/references/ai-cliche-patterns.md#表达组织
+    文本质量/subtext_translated_by_narrator:
+      entry: prose-craft/references/prose-rules.md#潜文本的适用条件
+      full: prose-craft/references/mckee-scene-craft.md#Subtext
+    文本质量/planning_trace_leakage:
+      entry: prose-craft/references/ai-cliche-patterns.md#planning_trace_leakage
+      full: prose-craft/references/ai-cliche-patterns.md
+    文本质量/carrier_then_explain:
+      entry: prose-craft/references/ai-cliche-patterns.md#psychological_overfill
+      full: prose-craft/references/ai-cliche-patterns.md#信息与焦点
+    文本质量/false_literary_diction:
+      entry: story-review/references/A_aesthetic-micro_language.md#false_literary_diction
+      full: story-review/references/A_aesthetic-micro_language.md#§7 微观语言错配
+    文本质量/sensory_mismatch:
+      entry: story-review/references/A_aesthetic-micro_language.md#sensory_mismatch
+      full: story-review/references/A_aesthetic-micro_language.md#§7 微观语言错配
+    文本质量/abstract_judgment_without_action:
+      entry: story-review/references/A_aesthetic-micro_language.md#abstract_judgment_without_action
+      full: prose-craft/references/ai-cliche-patterns.md#信息与焦点
+    文本质量/stock_speech_tag:
+      entry: story-review/references/A_aesthetic-micro_language.md#stock_speech_tag
+      full: dialogue-craft/references/speech-attribution-patterns.md
+    文本质量/weak_character_expression:
+      entry: story-review/references/A_aesthetic-micro_language.md#weak_character_expression
+      full: story-review/references/A_aesthetic-micro_language.md#§7 微观语言错配
+    人物声音:
+      entry: dialogue-craft/references/voice-and-dialogue.md#声音差异
+      full: dialogue-craft/references/observed-dialogue-cases.md#多人共用同一套语域
+    POV:
+      entry: prose-craft/references/prose-rules.md#心理与知识
+      full: prose-craft/references/observed-revision-cases.md#视角边界
+    叙事组织:
+      entry: prose-craft/references/prose-rules.md#因果可恢复
+      full: prose-craft/references/observed-revision-cases.md#读者信息缺口
+    范文语域:
+      entry: prose-craft/references/prose-rules.md#风格与声音
+      full: prose-craft/references/prose-rules.md#形成贴合人物的表达

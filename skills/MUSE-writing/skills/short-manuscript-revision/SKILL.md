@@ -5,14 +5,16 @@ description: 按本次机器诊断或全文审阅修订原创短篇 story.md，�
 
 # 短篇全文修订
 
-读取当前 `story.md` 和 `pipeline/shortform/{conception,characters,outline}.yaml`。模式、当前审阅报告与有效参考由本次派发给出；必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据；涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
+读取当前 `story.md`、`pipeline/shortform/{conception,characters,outline}.yaml`，以及派发给出的审阅报告与写作简报 `pipeline/shortform/writer_brief.md`。简报里用到两节：“范文”是本篇的口吻依据，“条目”是审阅反复报出的问题对应的写法，注明“全文”的条目在修订前读那一处。必要输入缺失时报告具体问题。当前 outline 引用 INS-* 时，读取现有 inspiration_ledger.yaml 中对应 adopted 条目的来源、适用条件与 project_encoding。来源文件按本次有效路径读取，旧文件不自动成为修订依据；涉及参考的改文按[参考采用契约](../writer/references/reference-adoption.md)保持本次用途、领域与明确复用要求。
 
 ## 定位与修复
 
 两种模式进行句段语义重写前，均加载本包 [prose-craft](../prose-craft/SKILL.md)；改写对白的交流、声音或承接时加载 [dialogue-craft](../dialogue-craft/SKILL.md)。已有有效内容复用，深度参考按问题取得；机械改错或未改正文时按当前指令处理。
 
-- `de-AI`：读取当前 `wholetext_gate.yaml` 的触发位置与全文分布。统计线索按实际表达作用判断，只有已确认的阅读或叙述问题才需修订。保留准确回指、人物声音、事实与关系；当前普通词形及密度没有删减预算。历史报告残留旧密度目标时交主控刷新。
-- `reader`：读取本次明确指定的 `short_story_review.rN.yaml`，处理需修的 findings 与未满足的 requirements。引用无法在当前正文定位时先报告，避免用旧报告改新稿。
+- `de-AI`：处理本次指定报告里“文本质量”与“范文语域”的 findings。每处改写前，在简报“范文”里找一两句功能相近的句子作对照，用自己的句子照它的口吻改，不搬原句、不迁情节。保留准确回指、人物声音、事实与关系；普通词形及密度没有删减预算。`wholetext_gate.yaml` 不作修订依据。
+- `reader`：处理本次指定报告里需修的其余 findings 与未满足的 requirements。
+
+两种模式都只用本次指定的 `short_story_review.rN.yaml`；引用无法在当前正文定位时先报告，避免用旧报告改新稿。
 
 范围由问题机制决定。局部归属或措辞问题局部修复；因果、声音覆盖或规划痕迹影响连续段落时，重写相关段落的组织。疑似同类问题只扩查有相关证据的部分。
 

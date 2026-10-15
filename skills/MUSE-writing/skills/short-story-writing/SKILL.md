@@ -13,7 +13,7 @@ description: 完成原创短篇，从构想、人物与大纲到一次全文成�
 | 1 人物 | `short-phase1-character` | `pipeline/shortform/characters.yaml` |
 | 2 大纲 | `short-phase2-outline` | `pipeline/shortform/outline.yaml`，按需引用 ledger |
 | 作者裁决 | 本入口 | `pipeline/run_state.yaml` 的 `outline_gate` |
-| 3 成稿与修订 | `short-phase3-composition` | `story.md`，既有全文审阅报告 |
+| 3 成稿与修订 | `short-phase3-composition` | `pipeline/shortform/writer_brief.md` 写作简报，`story.md`，既有全文审阅报告 |
 
 ## 初始化与恢复
 

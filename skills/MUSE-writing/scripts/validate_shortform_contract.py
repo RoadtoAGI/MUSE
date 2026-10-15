@@ -462,9 +462,14 @@ def validate_ledger(data: dict) -> list[str]:
     return errors
 
 
+GENERATED_BASENAMES = ("brief_meta.yaml", "disclosure_state.yaml")
+
+
 def validate_file(path: Path) -> list[str]:
     """校验单个 shortform YAML；返回违规清单（空列表 = 通过）。"""
     basename = path.name
+    if basename in GENERATED_BASENAMES:
+        return [f"{basename}: 由 assemble_writer_brief.py 生成，不手工写入；需要更新时重新运行装配脚本"]
     if basename not in VALID_BASENAMES:
         return [
             f"{basename}: 非短链契约产物名——pipeline/shortform/ 下只允许 {list(VALID_BASENAMES)}"
