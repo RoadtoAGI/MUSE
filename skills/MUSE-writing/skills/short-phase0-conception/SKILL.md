@@ -32,7 +32,7 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 ### 5. 确定叙述人称（narration_person）
 
-记 `first` 或 `third`：叙述者是故事里的“我”写 first，其余写 third，紧贴人物的第三人称也写 third。用户指定时照用，未指定时按本篇主要经验选择。成稿前按它过滤范文的人称；大纲的 `pov` 只写人物 id，分不出这两种。
+记 `first` 或 `third`：叙述者是故事里的“我”写 first，其余写 third，紧贴人物的第三人称也写 third。用户指定时照用，未指定时按本篇主要经验选择。取范文时按它过滤人称；大纲的 `pov` 只写人物 id，分不出这两种。
 
 ### 6. 确定交付语言（language）
 
@@ -40,7 +40,7 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 ### 7. 提取硬约束（requirements，条件字段）
 
-用户需求中包含显式枚举或硬约束（如"至少要有一段对话"、"必须包含 X 场景"）时，提取为紧凑的单句列表——short-composer 逐条落实，终验 gate 逐项核销。**仅显式硬约束入列**，模糊的偏好（如"希望感人一点"）不算。
+用户需求中包含显式枚举或硬约束（如"至少要有一段对话"、"必须包含 X 场景"）时，提取为紧凑的单句列表——short-composer 逐条落实，short-story-review 逐项核销。**仅显式硬约束入列**，模糊的偏好（如"希望感人一点"）不算。
 
 ### 8. 收纳素材、风格指令与手选名著（条件字段）
 
@@ -54,7 +54,7 @@ description: 原创短篇的构想阶段，从需求提炼具体前提、主要�
 
 ## 产物 schema（`pipeline/shortform/conception.yaml`，正向 allowlist——只有下列字段）
 
-premise、core_value 与 style_directives 原样进入写作简报，三项合计不超过 400 字（英文按 1 汉字约 0.6 词折算），超出时校验报错，在本阶段写短。requirements 与 reference_materials 原样进入简报，不设上限。
+premise、core_value、style_directives、requirements 与 reference_materials 原样进入写作简报。校验打印前三项的合计字数；写短与否是本阶段的判断，约束一致性的事实不省。
 
 ```yaml
 premise: 一句话故事前提                  # 必填
@@ -99,7 +99,7 @@ canon_reference_profile:                # 可选；与完整链共用字段语�
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --retrieval-args
 ```
 
-输出 `--lang`（取 language）、`--original-only`、`--person`（取 narration_person）、`--budget-chars 6000`、`--render exemplar --shortform-pack`、输出目录、`--style-hint`（由叙述人称、风格指令与类型拼成，决定选哪几部作品），有手选名著时带 `--canon-reference-profile`。
+输出语言（取 language）、只取原作、人称（取 narration_person）、预算、渲染方式与输出目录，以及 `--style-hint`（由叙述人称、风格指令与类型拼成，决定选哪几部作品）；有手选名著时带 `--canon-reference-profile`。
 
 2. 补 `--query`（人物处境与主要动作，一句话；它决定在选中的作品里取哪几场）；style_directives 写明口语或书面时补 `--register colloquial|literary`；同人、续写、改编点名原作时加 `--novel <原作>`。style hint 写得不像本篇口吻时可以改写，用文风卡的说法：叙述距离、用词、对白写法、节奏。用 canon 包 scene-reference 的 `kb_query.py` 执行，产物为 `pipeline/shortform/reference_pack.md`。
 3. 先读文件头：`pool` 行是候选池的构成，`windows` 下每个窗口一行描述（人称、语域、对白占比、该作品的口吻与对白写法）。某部作品的写法明显不合本篇时，加 `--exclude-novel <作品>` 排除它重查，其他参数不变；`results: 0` 写明了清空条件，库中该语言原作不够时可去掉 `--original-only` 或 `--register` 重查。重查在交付说明里记录；找不到合用的范文时成稿按“本篇无范文”处理，不拿旧文件凑。

@@ -11,24 +11,24 @@ description: 原创短篇的成稿与修订编排，在大纲批准或免审后�
 
 写作者只读一份写作简报 `pipeline/shortform/writer_brief.md`，由脚本把作者要求、构想、人物、事件、范文窗口、手法导航、本轮条目和指令装在一起。范文 `pipeline/shortform/reference_pack.md` 在构想阶段已取（short-phase0-conception 的“取本篇范文”），这里复用；缺失，或装配时脚本提示范文早于构想，就按那一节重取。
 
-读过范文后写两行“本篇可以怎样用”：哪些写法可借，哪些不采用，对白的引号等标点不随范文时也写在这里，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；范文对白不加引号的写法不采用，本篇对白照常加引号”。再装配：
+读过范文后写一两句“本篇可以怎样用”：哪些写法可借，哪些不采用，对白的引号等标点不随范文时也写在这里，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；范文对白不加引号的写法不采用，本篇对白照常加引号”。再装配：
 
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --usage "<两行>"
+python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --usage "<一两句>"
 ```
 
 脚本同时写 `brief_meta.yaml`（各节字数、范文占比与 exemplar_short / exemplar: none / facts_over_budget 标记）和 `disclosure_state.yaml`（审阅解锁的条目）。两份只记录、不拦派发，由脚本每次重算，主控不手写。
 
 ## 首次成稿
 
-派发 short-composer 只给简报路径和这两行：
+派发 short-composer 只给简报路径和这一两句：
 
 ```text
 写全文。只读 pipeline/shortform/writer_brief.md，写到 story.md。
-本篇可以怎样用：<两行>
+本篇可以怎样用：<一两句>
 ```
 
-无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查设计用词与字数，问题由它在同一会话改。宿主不触发 PostToolUse hook 时（如 Codex），主控在正文落盘后运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/shortform_story_guard.py --story {work_dir}/story.md`，exit 2 时把输出交 composer 改，改完再跑一次。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
+无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查格式与设计用词，问题由它在同一会话改。宿主不触发 PostToolUse hook 时（如 Codex），主控在正文落盘后运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/shortform_story_guard.py --story {work_dir}/story.md`，exit 2 时把输出交 composer 改，改完再跑一次。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
 
 正文、审阅与修订的子执行者默认继承主会话所选模型，注册 agent 与通用子执行者同样适用；仅按作者明确的任务指定覆盖。实际调用方落实该选择，宿主限制使其不可用时报告受影响任务。
 

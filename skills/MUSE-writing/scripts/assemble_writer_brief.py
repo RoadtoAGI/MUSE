@@ -332,7 +332,7 @@ def section_instruction(has_exemplar: bool, usage: str | None, has_full: bool,
     lines = ["写全文。只读本简报，写到工作目录根部 story.md。"]
     if has_exemplar:
         lines.append("用“范文”一节的口吻写：句子长短、用词、对白的节奏与归属方式、叙述者与人物说话的距离都跟范文走；"
-                     "引号等标点按本篇语言的通行写法，作者要求或下面两行另有说明的除外。"
+                     "引号等标点按本篇语言的通行写法，作者要求或下面一两句另有说明的除外。"
                      "不偏离本篇情节走向和人物设定的前提下，越像范文越好：范文里的原句、专名、人物和情节，合适就直接用。")
         lines.append(f"本篇可以怎样用：{usage.strip() if usage else '见派发。'}")
     else:
@@ -474,7 +474,7 @@ def main(argv: list[str] | None = None) -> int:
     scope.add_argument("--scene-id", help="完整链按场装配（设计 §3.1，尚未提供）")
     scope.add_argument("--serial", action="store_true", help="连载按场装配（设计 §7.3，尚未提供）")
     parser.add_argument("--work-dir", required=True, type=Path)
-    parser.add_argument("--usage", help="主控写的“本篇可以怎样用”，两行以内")
+    parser.add_argument("--usage", help="主控写的“本篇可以怎样用”，一两句")
     parser.add_argument("--exemplar", type=Path, help="范文窗口文件；默认 pipeline/shortform/reference_pack.md")
     parser.add_argument("--retrieval-args", action="store_true", help="只打印成稿前取范文的确定参数")
     args = parser.parse_args(argv)

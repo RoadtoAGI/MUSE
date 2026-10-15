@@ -63,10 +63,11 @@ def test_static_budget_counts_body_without_frontmatter_and_link_targets():
     assert package_lint.static_units("Write the scene in plain words only.") == round(7 / 0.6)
 
 
-def test_static_budgets_warn_only_when_enforced(tmp_path, monkeypatch, capsys):
+def test_static_sizes_are_printed_without_warn(tmp_path, monkeypatch, capsys):
     for name in ("a.md", "b.md"):
         (tmp_path / name).write_text("字" * 300, encoding="utf-8")
-    monkeypatch.setattr(package_lint, "STATIC_BUDGETS", ((("a.md", "b.md"), 500, True), (("a.md",), 100, False)))
-    assert package_lint.scan_static_budgets(tmp_path) == 1
+    monkeypatch.setattr(package_lint, "STATIC_SIZE_REFERENCES", ((("a.md", "b.md"), 500), (("a.md",), 100)))
+    package_lint.print_static_sizes(tmp_path)
     err = capsys.readouterr().err
-    assert "字数 a.md: 300" in err and "600 / 500 超出" in err and "（只打印）" in err
+    assert "字数合计 a.md + b.md: 600（参照值 500）" in err and "字数 a.md: 300（参照值 100）" in err
+    assert "WARN" not in err

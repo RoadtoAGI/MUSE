@@ -11,8 +11,8 @@
   scripts/.py、hooks/.sh 不在协议注记域内。
 - (--strict only) 无 __pycache__ / .pytest_cache 物理目录残留（pytest 必然产，仅 publish 前扫）
 - 原创与连载同时存在时，已统一的工坊与世界观参考保持同文；各包特化入口独立维护
-- 静态规则字数（设计 §3.2、§8.5）：逐个打印 SKILL、手法导航与 agent 正文的字数；
-  STATIC_BUDGETS 里 enforced 的项超出上限计 WARN，其余只打印供对照报告
+- 静态规则字数（设计 §3.2、§8.5）：逐个打印 SKILL、手法导航与 agent 正文的字数和参照值，
+  供对照报告，不计 WARN；规则该不该留看它是否进入执行者的决定，不看字数
 
 输出 WARN 到 stderr，exit 0（warning only，不阻断 commit）。
 若需要 hard fail，传 --strict。
@@ -74,15 +74,15 @@ PROTOCOL_NOTE_PATTERNS = [
 
 CACHE_DIR_NAMES = {"__pycache__", ".pytest_cache"}
 
-# 静态规则字数：(文件组, 上限, 是否计 WARN)。一组多个文件时按合计判断。
+# 静态规则字数：(文件组, 参照值)。一组多个文件时另打印合计；参照值是试验初值，只打印。
 # 字数数正文汉字，英文为主的文件按词数折算（1 汉字约 0.6 词）；frontmatter 与链接目标不计。
-STATIC_BUDGETS = (
-    (("skills/MUSE-writing/skills/short-composer/SKILL.md",), 2000, True),
-    (("skills/MUSE-writing/agents/short-composer.md",), 500, True),
+STATIC_SIZE_REFERENCES = (
+    (("skills/MUSE-writing/skills/short-composer/SKILL.md",), 2000),
+    (("skills/MUSE-writing/agents/short-composer.md",), 500),
     (("skills/MUSE-writing/skills/prose-craft/SKILL.md",
-      "skills/MUSE-writing/skills/dialogue-craft/SKILL.md"), 800, True),
-    (("skills/MUSE-writing/skills/writer/SKILL.md",), 2500, False),
-    (("skills/MUSE-writing/agents/writer.md",), 500, False),
+      "skills/MUSE-writing/skills/dialogue-craft/SKILL.md"), 800),
+    (("skills/MUSE-writing/skills/writer/SKILL.md",), 2500),
+    (("skills/MUSE-writing/agents/writer.md",), 500),
 )
 _HAN = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
 _WORD = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
@@ -97,28 +97,19 @@ def static_units(text: str) -> int:
     return han if han >= words else round(words / 0.6)
 
 
-def scan_static_budgets(root: Path) -> int:
-    warn_count = 0
-    for paths, cap, enforced in STATIC_BUDGETS:
+def print_static_sizes(root: Path) -> None:
+    for paths, reference in STATIC_SIZE_REFERENCES:
         counts = []
         for rel in paths:
             path = root / rel
             if not path.is_file():
                 continue
-            count = static_units(path.read_text(encoding="utf-8"))
-            counts.append(count)
-            print(f"[package-lint] 字数 {rel}: {count}", file=sys.stderr)
-        if not counts:
-            continue
-        total = sum(counts)
-        label = " + ".join(Path(rel).parent.name or rel for rel in paths) if len(paths) > 1 else paths[0]
-        status = "超出" if total > cap else "在内"
-        mode = "" if enforced else "（只打印）"
-        print(f"[package-lint] 字数上限 {label}: {total} / {cap} {status}{mode}", file=sys.stderr)
-        if enforced and total > cap:
-            print(f"[package-lint] WARN: {label}: 静态规则 {total} 字超过上限 {cap}", file=sys.stderr)
-            warn_count += 1
-    return warn_count
+            counts.append(static_units(path.read_text(encoding="utf-8")))
+            suffix = f"（参照值 {reference}）" if len(paths) == 1 else ""
+            print(f"[package-lint] 字数 {rel}: {counts[-1]}{suffix}", file=sys.stderr)
+        if len(paths) > 1 and counts:
+            label = " + ".join(Path(rel).parent.name or rel for rel in paths)
+            print(f"[package-lint] 字数合计 {label}: {sum(counts)}（参照值 {reference}）", file=sys.stderr)
 
 # 完整定义由原创包维护，两包各自携带可独立读取的副本。
 # 仅包含已经逐机制整合的整文件；SKILL.md 与编排保留包内输入合同。
@@ -216,7 +207,7 @@ def scan_text_files(root: Path, *, strict: bool = False) -> int:
     # cache 扫仅在 strict 模式触发——pytest / 开发态必然产，日常 commit 不该被打扰；
     # 真实价值场景是 plugin publish 前快照检查
     warn_count = scan_shared_references(root)
-    warn_count += scan_static_budgets(root)
+    print_static_sizes(root)
     if strict:
         warn_count += scan_cache_dirs(root)
 
