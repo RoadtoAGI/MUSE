@@ -167,21 +167,38 @@ def _load_snapshot(kb_root: Path) -> dict | None:
     return snap if isinstance(snap, dict) else None
 
 
+def _identity(entry: dict) -> tuple:
+    return (entry.get("novel"), entry.get("scene_id"))
+
+
+def _snapshot_identities(snap: dict, npy_name: str) -> list[tuple]:
+    """该通道 npy 上次写出时的行身份；旧快照只有一份共享 index，按它读。"""
+    rows = (snap.get("indexes") or {}).get(npy_name)
+    if rows is not None:
+        return [tuple(row) for row in rows]
+    return [_identity(entry) for entry in snap.get("index") or []]
+
+
 def _update_snapshot(kb_root: Path, index: list[dict], npy_path: Path) -> None:
-    """构建成功后原子更新快照：index 快照 + 本通道 npy 指纹。"""
+    """构建成功后原子更新快照：本通道的行身份 + 本通道 npy 指纹。
+
+    行身份按通道分别记录。--channel all 先写 content 再写 style；若共用一份 index，
+    content 写完后快照已是新行序，style 再按新行序去旧 npy 里取向量，插入新作品后
+    其后的各行都会错位。旧快照的共享 index 先分给尚未单独记录的通道，再改写本通道。
+    """
     path = kb_root / "embeddings" / SNAPSHOT_NAME
     snap = _load_snapshot(kb_root) or {}
-    snap["index"] = index
     fingerprints = snap.get("fingerprints") or {}
+    indexes = snap.get("indexes") or {}
+    for name in fingerprints:
+        if name not in indexes and "index" in snap:
+            indexes[name] = [list(identity) for identity in _snapshot_identities(snap, name)]
+    indexes[npy_path.name] = [list(_identity(entry)) for entry in index]
     fingerprints[npy_path.name] = _fingerprint(npy_path)
-    snap["fingerprints"] = fingerprints
+    snap = {"indexes": indexes, "fingerprints": fingerprints}
     tmp = path.with_suffix(".tmp")
     tmp.write_text(json.dumps(snap, ensure_ascii=False), encoding="utf-8")
     tmp.replace(path)
-
-
-def _identity(entry: dict) -> tuple:
-    return (entry.get("novel"), entry.get("scene_id"))
 
 
 def _carry_prior(kb_root: Path, out_path: Path, index: list[dict], dim: int) -> np.ndarray:
@@ -198,7 +215,7 @@ def _carry_prior(kb_root: Path, out_path: Path, index: list[dict], dim: int) -> 
     if snap and recorded == _fingerprint(out_path):
         old_arr = np.load(out_path)
         if old_arr.ndim == 2 and old_arr.shape[1] == dim:
-            id_to_row = {_identity(e): i for i, e in enumerate(snap.get("index", []))}
+            id_to_row = {identity: i for i, identity in enumerate(_snapshot_identities(snap, out_path.name))}
             for new_i, entry in enumerate(index):
                 old_i = id_to_row.get(_identity(entry))
                 if old_i is not None and old_i < old_arr.shape[0]:

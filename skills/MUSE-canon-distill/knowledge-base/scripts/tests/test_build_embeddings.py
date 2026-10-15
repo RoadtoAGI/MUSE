@@ -216,3 +216,72 @@ def test_bootstrap_flag_gates_positional_reuse(tmp_kb):
     assert np.allclose(
         np.load(tmp_kb / "embeddings/style_embeddings.npy")[_row_of(tmp_kb, "书A", "S01")], a0
     )
+
+
+def _insert_novel_in_middle(kb: Path) -> None:
+    """按 merge 的排序把 书B 插进 书A 与 书C 之间，书C 及其后的行号整体后移。"""
+    work = kb / "novels" / "书B"
+    work.mkdir(parents=True, exist_ok=True)
+    (work / "scene_S01.md").write_text("乙书原文", encoding="utf-8")
+    row = {"scene_id": "S01", "novel": "书B", "file": "novels/书B/scene_S01.md",
+           "description": "乙书第一场", "style_profile": {"diction": "冷硬"}}
+    (work / "scene_index.json").write_text(json.dumps([row], ensure_ascii=False), encoding="utf-8")
+    agg_path = kb / "embeddings" / "scene_index.json"
+    agg = json.loads(agg_path.read_text(encoding="utf-8"))
+    agg_path.write_text(json.dumps(agg[:2] + [row] + agg[2:], ensure_ascii=False), encoding="utf-8")
+
+
+def _add_novel_c(kb: Path) -> None:
+    work = kb / "novels" / "书C"
+    work.mkdir(parents=True, exist_ok=True)
+    (work / "scene_S01.md").write_text("丙书原文", encoding="utf-8")
+    row = {"scene_id": "S01", "novel": "书C", "file": "novels/书C/scene_S01.md",
+           "description": "丙书第一场", "style_profile": {"diction": "绮丽"}}
+    (work / "scene_index.json").write_text(json.dumps([row], ensure_ascii=False), encoding="utf-8")
+    agg_path = kb / "embeddings" / "scene_index.json"
+    agg = json.loads(agg_path.read_text(encoding="utf-8"))
+    agg_path.write_text(json.dumps(agg + [row], ensure_ascii=False), encoding="utf-8")
+
+
+def _vectors_by_identity(kb: Path, name: str) -> dict:
+    agg = json.loads((kb / "embeddings/scene_index.json").read_text(encoding="utf-8"))
+    arr = np.load(kb / "embeddings" / name)
+    return {(e["novel"], e["scene_id"]): arr[i].copy() for i, e in enumerate(agg)}
+
+
+def test_channel_all_after_insertion_keeps_both_channels_aligned(tmp_kb, monkeypatch):
+    monkeypatch.setattr(be, "_default_embed", lambda texts, model=None: fake_embed(texts))
+    _add_novel_c(tmp_kb)
+    be.main(["--channel", "all", "--kb-root", str(tmp_kb)])
+    before = {n: _vectors_by_identity(tmp_kb, n) for n in ("scene_embeddings.npy", "style_embeddings.npy")}
+
+    _insert_novel_in_middle(tmp_kb)
+    be.main(["--channel", "all", "--novel", "书B", "--kb-root", str(tmp_kb)])
+
+    for name, old in before.items():
+        after = _vectors_by_identity(tmp_kb, name)
+        for identity, vector in old.items():
+            assert np.allclose(after[identity], vector), (name, identity)
+
+
+def test_legacy_shared_snapshot_is_split_per_channel(tmp_kb, monkeypatch):
+    monkeypatch.setattr(be, "_default_embed", lambda texts, model=None: fake_embed(texts))
+    _add_novel_c(tmp_kb)
+    be.main(["--channel", "all", "--kb-root", str(tmp_kb)])
+    # 改写成旧格式：一份共享 index（完整条目）加两个通道的指纹
+    snap_path = tmp_kb / "embeddings" / be.SNAPSHOT_NAME
+    snap = json.loads(snap_path.read_text(encoding="utf-8"))
+    agg = json.loads((tmp_kb / "embeddings/scene_index.json").read_text(encoding="utf-8"))
+    snap_path.write_text(json.dumps({"index": agg, "fingerprints": snap["fingerprints"]}, ensure_ascii=False),
+                         encoding="utf-8")
+    style_before = _vectors_by_identity(tmp_kb, "style_embeddings.npy")
+
+    _insert_novel_in_middle(tmp_kb)
+    be.main(["--channel", "all", "--novel", "书B", "--kb-root", str(tmp_kb)])
+
+    style_after = _vectors_by_identity(tmp_kb, "style_embeddings.npy")
+    for identity, vector in style_before.items():
+        assert np.allclose(style_after[identity], vector), identity
+    migrated = json.loads(snap_path.read_text(encoding="utf-8"))
+    assert "index" not in migrated
+    assert set(migrated["indexes"]) == {"scene_embeddings.npy", "style_embeddings.npy"}
