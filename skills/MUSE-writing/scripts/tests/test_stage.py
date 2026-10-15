@@ -50,6 +50,10 @@ class FakeDriver:
         self.calls.append({"mode": "fork", "slug": spec.slug, "sid": sid, "new": new, "message": message})
         return stage.Reply(self._next(spec.slug, message), new, 0.0)
 
+    def once(self, spec, system, message):
+        self.calls.append({"mode": "once", "slug": spec.slug, "system": system, "message": message})
+        return stage.Reply(self._next(spec.slug, message), None, 0.0)
+
     def last(self, slug: str) -> dict:
         return [c for c in self.calls if c["slug"] == slug][-1]
 
@@ -220,9 +224,10 @@ def test_parse_known_as_label_resolves_for_that_observer():
     assert p.entry["to"] == "dar"
 
 
-def test_parse_unresolved_to_is_kept_as_text():
+def test_parse_unresolved_to_is_sent_back_for_correction():
     p = stage.parse_turn("【说】开门！\n【对】门外的人", "lu", ["lu", "wen"], None, cast(), ZH)
-    assert "to" not in p.entry and p.entry["to_text"] == "门外的人"
+    assert p.entry is None
+    assert "门外的人" in p.problem and "温昭" in p.problem
 
 
 def test_parse_to_with_several_names_takes_first_and_keeps_text():
@@ -598,7 +603,7 @@ def test_line_request_rebuilds_at_that_moment_and_is_not_delivered(tmp_path, fak
     fake.say("wen", "【说】等等，钥匙在我这儿。\n【对】卢简")
     out = stage.cmd_line(work, "S01", "wen", 2, "卢简正要起身。", None)
     call = fake.last("wen")
-    assert call["mode"] == "spawn" and "卢简正要起身。" in call["message"]
+    assert call["mode"] == "once" and "卢简正要起身。" in call["message"]
     assert "起身去后院" not in call["message"] and "wen 的 S01 日记" not in call["message"]
     assert "你说：“在后院。”" in call["message"] or "你（对卢简）说：“在后院。”" in call["message"]
     turns = transcript(work, "S01")["turns"]
@@ -827,3 +832,587 @@ def test_tryout_rejects_formal_only_operations_and_needs_situation(tmp_path, fak
     tryout_setup(work, "dock", situation="")
     with pytest.raises(stage.StageError, match="situation"):
         stage.cmd_open(work, "dock", None, False, None, tryout=True)
+
+
+# ---------------------------------------------------------------- recovery after host failures
+
+
+def test_close_retry_keeps_written_diaries_and_reperform_voids_them(tmp_path, fake):
+    work = make_work(tmp_path)
+    setup(work, "S01", initiative="lu", pause_every=2)
+    stage.cmd_open(work, "S01", None, False, None)
+    fake.say("lu", "【说】一")
+    fake.say("wen", "【说】二")
+    stage.cmd_run(work, "S01", None, None, None)
+    fake.say("lu", "lu 的日记")
+    fake.say("wen", stage.DriverError("fatal", "authentication failed"))
+    out = stage.cmd_close(work, "S01", None)
+    assert out["status"] == "open" and "wen" in out["errors"]
+    lu_diary = work.diary_path("lu", "S01").read_bytes()
+    fake.say("wen", "wen 的日记")
+    out = stage.cmd_close(work, "S01", None)
+    assert out["status"] == "closed" and set(out["diaries"]) == {"lu", "wen"}
+    assert work.diary_path("lu", "S01").read_bytes() == lu_diary
+    assert [c["slug"] for c in fake.calls[-1:]] == ["wen"]
+    assert roster(work)["characters"]["lu"]["session"]["memory"] == ["S01"]
+    # 部分收场后直接重演：已写的日记随之作废，新一场重新收
+    setup(work, "S02", initiative="lu", pause_every=2)
+    stage.cmd_open(work, "S02", None, False, None)
+    fake.say("lu", "【说】三")
+    fake.say("wen", "【说】四")
+    stage.cmd_run(work, "S02", None, None, None)
+    fake.say("lu", "lu 的 S02 日记")
+    fake.say("wen", stage.DriverError("fatal", "authentication failed"))
+    stage.cmd_close(work, "S02", None)
+    assert work.diary_path("lu", "S02").exists()
+    stage.cmd_open(work, "S02", None, True, None)
+    assert not work.diary_path("lu", "S02").exists()
+    assert {"id": "S02", "void": True} in roster(work)["characters"]["lu"]["entries"]
+
+
+def test_run_refuses_until_offstage_note_is_delivered(tmp_path, fake):
+    work = make_work(tmp_path)
+    setup(work, "S01", initiative="lu", pause_every=1)
+    note = work.offstage_path("S01", "lu")
+    note.parent.mkdir(parents=True)
+    note.write_text("你昨夜看见桥断了。", encoding="utf-8")
+    fake.say("lu", stage.DriverError("fatal", "authentication failed"))
+    out = stage.cmd_open(work, "S01", None, False, None)
+    assert "lu" in out["errors"]
+    with pytest.raises(stage.StageError, match="场外补记还没送达"):
+        stage.cmd_run(work, "S01", None, None, None)
+    fake.say("lu", "桥断了。", "【说】早")
+    stage.cmd_open(work, "S01", None, False, None)
+    stage.cmd_run(work, "S01", None, None, None)
+    assert transcript(work, "S01")["turns"][0]["says"] == "早"
+
+
+def test_main_exit_code_reports_host_failures(tmp_path, fake, capsys):
+    work = make_work(tmp_path)
+    setup(work, "S01", initiative="lu", pause_every=1)
+    assert stage.main(["open", "--work-dir", str(work.root), "--scene-id", "S01"]) == 0
+    capsys.readouterr()
+    fake.say("lu", stage.DriverError("fatal", "authentication failed"))
+    assert stage.main(["run", "--work-dir", str(work.root), "--scene-id", "S01"]) == stage.EXIT_HOST
+    result = json.loads(capsys.readouterr().out)
+    assert result["reason"] == "host_error"
+    fake.say("lu", "【静】")
+    assert stage.main(["run", "--work-dir", str(work.root), "--scene-id", "S01"]) == 0
+
+
+def test_line_correction_is_a_second_one_off_instance(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】箱子呢？"), ("wen", "【说】在后院。")])
+    fake.say("wen", "他点点头。", "【说】钥匙在我这儿。")
+    stage.cmd_line(work, "S01", "wen", 1, "卢简问完箱子。", None)
+    modes = [c["mode"] for c in fake.calls if c["slug"] == "wen"][-2:]
+    assert modes == ["once", "once"]
+    assert "记不下来" in fake.last("wen")["message"] and "卢简问完箱子。" in fake.last("wen")["message"]
+
+
+# ---------------------------------------------------------------- gate R2: failure classes, close, rediary, invalidate
+
+
+def _scene(work, fake, scene, present, lines, diaries=True):
+    """按 present 开场、演完 lines、收场；diaries=False 时只演不收。"""
+    setup(work, scene, present=list(present), pov=present[0], initiative=present[0], pause_every=len(lines))
+    stage.cmd_open(work, scene, None, False, None)
+    for slug, text in lines:
+        fake.say(slug, text)
+    stage.cmd_run(work, scene, None, None, None)
+    if not diaries:
+        return None
+    for slug in stage.ever_present(stage.load_setup(work, scene), transcript(work, scene)):
+        fake.say(slug, f"{slug} 的 {scene} 日记")
+    return stage.cmd_close(work, scene, None)
+
+
+def _drop_session(work, slug):
+    data = roster(work)
+    data["characters"][slug]["session"] = None
+    work.roster_path.write_text(yaml.safe_dump(data, allow_unicode=True), encoding="utf-8")
+
+
+def _cli(capsys, verb, work, scene):
+    rc = stage.main([verb, "--work-dir", str(work.root), "--scene-id", scene])
+    return rc, json.loads(capsys.readouterr().out)
+
+
+def _claude_host(monkeypatch, replies):
+    """真实的 ClaudeDriver，只把外部 claude 进程换成按人物回话的替身；返回被调用的人物序列。"""
+    called = []
+
+    def run(cmd, **kw):
+        slug = Path(kw["cwd"]).name
+        called.append(slug)
+        sid = next((cmd[cmd.index(flag) + 1] for flag in ("--session-id", "--resume") if flag in cmd), "once")
+        return subprocess.CompletedProcess(cmd, 0, json.dumps({"result": replies[slug].pop(0), "session_id": sid}), "")
+
+    monkeypatch.setattr(stage, "get_driver", lambda host: stage.ClaudeDriver())
+    monkeypatch.setattr(stage.subprocess, "run", run)
+    return called
+
+
+def test_blank_host_reply_is_a_host_failure_on_both_drivers(monkeypatch, tmp_path):
+    blank = {"type": "result", "is_error": False, "result": "  \n ", "session_id": "s"}
+    monkeypatch.setattr(stage.subprocess, "run",
+                        lambda cmd, **kw: subprocess.CompletedProcess(cmd, 0, json.dumps(blank), ""))
+    spec = stage.RoleSpec("lu", "claude", "sonnet", None, tmp_path, "n")
+    with pytest.raises(stage.DriverError) as exc:
+        stage.ClaudeDriver().resume(spec, "s", "S", "M")
+    assert exc.value.category == "empty_reply"
+    events = [{"type": "thread.started", "thread_id": "t-1"},
+              {"type": "item.completed", "item": {"type": "agent_message", "text": "\n  "}}]
+    proc = subprocess.CompletedProcess([], 0, "\n".join(json.dumps(e) for e in events), "")
+    with pytest.raises(stage.DriverError) as exc:
+        stage.CodexDriver._parse(proc, 1.0)
+    assert exc.value.category == "empty_reply"
+
+
+def test_gate_r2_close_blank_reply_keeps_others_and_retry_asks_only_the_missing(tmp_path, fake, monkeypatch, capsys):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】嗯")], diaries=False)
+    replies = {"lu": ["lu 的日记"], "wen": [" \n "], "pei": ["pei 的日记"]}
+    called = _claude_host(monkeypatch, replies)
+    rc, out = _cli(capsys, "close", work, "S01")
+    assert rc == stage.EXIT_HOST and out["status"] == "open"
+    assert out["error_kinds"] == {"wen": "host"} and "回复为空" in out["errors"]["wen"]
+    assert not work.diary_path("wen", "S01").exists()
+    wen = roster(work)["characters"]["wen"]
+    assert wen["entries"] == [] and wen["session"] is None
+    kept = {s: work.diary_path(s, "S01").read_bytes() for s in ("lu", "pei")}
+    replies["wen"].append("wen 的日记")
+    called.clear()
+    rc, out = _cli(capsys, "close", work, "S01")
+    assert rc == 0 and out["status"] == "closed" and called == ["wen"]
+    assert {s: work.diary_path(s, "S01").read_bytes() for s in ("lu", "pei")} == kept
+    assert work.diary_path("wen", "S01").read_text(encoding="utf-8") == "wen 的日记\n"
+    assert all(m["entries"] == [{"id": "S01"}] for m in roster(work)["characters"].values())
+
+
+def test_gate_r2_close_uses_command_language_and_each_own_diary_request(tmp_path, fake):
+    work = make_work(tmp_path)  # 作品语言是中文
+    setup(work, "S01", initiative="lu", pause_every=2)
+    stage.cmd_open(work, "S01", None, False, "en")
+    fake.say("lu", "[SAY] Where is the case?")
+    fake.say("wen", "[SAY] Out back.")
+    stage.cmd_run(work, "S01", None, None, "en")
+    fake.say("lu", "lu diary")
+    fake.say("wen", "wen diary")
+    stage.cmd_close(work, "S01", "en")
+    for slug, other in (("lu", "wen"), ("wen", "lu")):
+        msg = fake.last(slug)["message"]
+        assert EN("diary_prompt", name=PEOPLE[slug]) in msg
+        assert ZH("diary_prompt", name=PEOPLE[slug]) not in msg
+        assert EN("diary_prompt", name=PEOPLE[other]) not in msg
+    assert "Out back." in fake.last("lu")["message"]  # 收日记前补上它还没看到的那一回合
+    assert work.diary_path("lu", "S01").read_text(encoding="utf-8") == "lu diary\n"
+
+
+def test_gate_r2_rediary_uses_command_language_and_own_diary_request(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    stage.cmd_invalidate(work, "S01", "改一处")
+    fake.say("lu", "lu diary")
+    fake.say("wen", "wen diary")
+    stage.cmd_rediary(work, "S01", "en")
+    for slug in ("lu", "wen"):
+        call = fake.last(slug)
+        assert call["mode"] == "spawn"
+        assert call["system"].startswith(f"You are an actor playing {PEOPLE[slug]}")
+        assert call["message"].rstrip().endswith(EN("diary_prompt", name=PEOPLE[slug]))
+    stage.cmd_invalidate(work, "S01", "再改一处")
+    fake.say("lu", "lu 的日记")
+    fake.say("wen", "wen 的日记")
+    stage.cmd_rediary(work, "S01", None)
+    assert fake.last("lu")["message"].rstrip().endswith(ZH("diary_prompt", name="卢简"))
+
+
+def test_gate_r2_close_and_rediary_do_not_tell_the_departed_who_came_later(tmp_path, fake):
+    work = make_work(tmp_path)
+    setup(work, "S01", initiative="lu", pause_every=2, late=["dar"])
+    stage.cmd_open(work, "S01", None, False, None)
+    fake.say("lu", "【说】我先走了。\n【离】")
+    assert stage.cmd_run(work, "S01", None, None, None)["reason"] == "left"
+    stage.cmd_enter(work, "S01", "dar", "厅里只剩温昭。", "达然推门进来。", None, None)
+    fake.say("wen", "【说】你来晚了。\n【对】达然")
+    fake.say("dar", "【说】路上耽搁了。")
+    stage.cmd_run(work, "S01", "wen", None, None)
+    for slug in ("lu", "wen", "dar"):
+        fake.say(slug, f"{slug} 的日记")
+    assert stage.cmd_close(work, "S01", None)["status"] == "closed"
+    msg = fake.last("lu")["message"]
+    assert "达然" not in msg and "【在场】" not in msg
+    stage.cmd_invalidate(work, "S01", "改一处")
+    for slug in ("lu", "wen", "dar"):
+        fake.say(slug, f"{slug} 重写的日记")
+    stage.cmd_rediary(work, "S01", None)
+    msg = fake.last("lu")["message"]
+    assert "我先走了" in msg and "达然" not in msg and "【在场】" not in msg
+
+
+def test_gate_r2_close_first_failure_keeps_later_results_and_retry_returns_every_diary(tmp_path, fake):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】嗯")], diaries=False)
+    fake.say("lu", stage.DriverError("fatal", "authentication failed"))
+    fake.say("wen", "wen 的日记")
+    fake.say("pei", "pei 的日记")
+    out = stage.cmd_close(work, "S01", None)
+    assert out["scene_id"] == "S01" and out["status"] == "open"
+    assert out["error_kinds"] == {"lu": "host"} and set(out["errors"]) == {"lu"}
+    assert out["diaries"] == {s: work.rel(work.diary_path(s, "S01")) for s in ("wen", "pei")}
+    kept = {s: work.diary_path(s, "S01").read_bytes() for s in ("wen", "pei")}
+    sessions = {s: roster(work)["characters"][s]["session"]["id"] for s in ("wen", "pei")}
+    before = len(fake.calls)
+    fake.say("lu", "lu 的日记")
+    out = stage.cmd_close(work, "S01", None)
+    assert out == {"scene_id": "S01", "status": "closed",
+                   "diaries": {s: work.rel(work.diary_path(s, "S01")) for s in ("lu", "wen", "pei")}}
+    for slug, rel in out["diaries"].items():
+        assert (work.root / rel).read_text(encoding="utf-8") == f"{slug} 的日记\n"
+    assert [c["slug"] for c in fake.calls[before:]] == ["lu"]
+    assert {s: work.diary_path(s, "S01").read_bytes() for s in ("wen", "pei")} == kept
+    r = roster(work)["characters"]
+    assert {s: r[s]["session"]["id"] for s in ("wen", "pei")} == sessions
+    assert all(r[s]["entries"] == [{"id": "S01"}] and r[s]["session"]["memory"] == ["S01"]
+               for s in ("lu", "wen", "pei"))
+    assert stage.scene_state(work, "S01") == "closed"
+
+
+def test_gate_r2_close_mixed_failures_report_both_kinds(tmp_path, fake, capsys):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】一")])
+    _scene(work, fake, "S02", ["lu", "wen", "pei"], [("lu", "【说】二")], diaries=False)
+    work.diary_path("wen", "S01").unlink()
+    _drop_session(work, "wen")
+    fake.say("lu", "lu 的 S02 日记")
+    fake.say("pei", stage.DriverError("fatal", "authentication failed"))
+    rc, out = _cli(capsys, "close", work, "S02")
+    assert rc == stage.EXIT_HOST and out["status"] == "open"
+    assert out["error_kinds"] == {"wen": "state", "pei": "host"}
+    assert out["diaries"] == {"lu": work.rel(work.diary_path("lu", "S02"))}
+    fake.say("pei", "pei 的 S02 日记")
+    rc, out = _cli(capsys, "close", work, "S02")
+    assert rc == stage.EXIT_INPUT and out["error_kinds"] == {"wen": "state"}
+    assert set(out["diaries"]) == {"lu", "pei"} and not work.diary_path("wen", "S02").exists()
+    assert stage.scene_state(work, "S02") == "open"
+
+
+def test_open_offstage_failures_keep_error_kinds(tmp_path, fake, capsys):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】一")])
+    setup(work, "S02", present=["lu", "wen", "pei"], initiative="lu", pause_every=1)
+    for slug in ("lu", "wen", "pei"):
+        note = work.offstage_path("S02", slug)
+        note.parent.mkdir(parents=True, exist_ok=True)
+        note.write_text(f"{slug} 在码头等了一夜。", encoding="utf-8")
+    work.diary_path("lu", "S01").unlink()
+    _drop_session(work, "lu")
+    fake.say("wen", stage.DriverError("fatal", "authentication failed"))
+    fake.say("pei", "pei 记下了")
+    rc, out = _cli(capsys, "open", work, "S02")
+    assert rc == stage.EXIT_HOST and out["error_kinds"] == {"lu": "state", "wen": "host"}
+    assert out["offstage_delivered"] == ["pei"]
+    pei_note = work.diary_path("pei", "S02.offstage").read_bytes()
+    fake.say("wen", "wen 记下了")
+    rc, out = _cli(capsys, "open", work, "S02")
+    assert rc == stage.EXIT_INPUT and out["error_kinds"] == {"lu": "state"}
+    assert out["offstage_delivered"] == ["wen"]
+    assert work.diary_path("pei", "S02.offstage").read_bytes() == pei_note
+
+
+def test_gate_r2_rediary_covers_void_and_missing_diaries_and_resumes_after_failure(tmp_path, fake, capsys):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】嗯")], diaries=False)
+    fake.say("lu", "lu 的日记")
+    fake.say("wen", stage.DriverError("fatal", "authentication failed"))
+    fake.say("pei", stage.DriverError("fatal", "authentication failed"))
+    stage.cmd_close(work, "S01", None)
+    stage.cmd_invalidate(work, "S01", "温昭其实没进门")  # 收场没完成就作废
+    r = roster(work)["characters"]
+    assert r["lu"]["entries"] == [{"id": "S01", "void": True}] and r["wen"]["entries"] == []
+    fake.say("lu", stage.DriverError("fatal", "authentication failed"))
+    fake.say("wen", "wen 重写的日记")
+    fake.say("pei", "pei 重写的日记")
+    rc, out = _cli(capsys, "rediary", work, "S01")
+    assert rc == stage.EXIT_HOST
+    assert out["scene_id"] == "S01" and out["status"] == "void"
+    assert out["error_kinds"] == {"lu": "host"} and set(out["errors"]) == {"lu"}
+    assert out["diaries"] == {s: work.rel(work.diary_path(s, "S01")) for s in ("wen", "pei")}
+    assert stage.scene_state(work, "S01") == "void" and log_kinds(work, "S01")[-1] == "rediary_failed"
+    assert not work.diary_path("lu", "S01").exists()
+    kept = {s: work.diary_path(s, "S01").read_bytes() for s in ("wen", "pei")}
+    sessions = {s: roster(work)["characters"][s]["session"]["id"] for s in ("wen", "pei")}
+    before = len(fake.calls)
+    fake.say("lu", "lu 重写的日记")
+    out = stage.cmd_rediary(work, "S01", None)
+    assert out["status"] == "closed" and out["errors"] == {} and set(out["diaries"]) == {"lu"}
+    assert [c["slug"] for c in fake.calls[before:]] == ["lu"]
+    assert "lu 的日记" not in fake.last("lu")["message"]
+    assert {s: work.diary_path(s, "S01").read_bytes() for s in ("wen", "pei")} == kept
+    r = roster(work)["characters"]
+    assert {s: r[s]["session"]["id"] for s in ("wen", "pei")} == sessions
+    assert all(r[s]["entries"] == [{"id": "S01"}] for s in ("lu", "wen", "pei"))
+    assert stage.scene_state(work, "S01") == "closed"
+
+
+def test_gate_r2_rediary_mixed_failures_keep_kinds_and_finish_later(tmp_path, fake, capsys):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】一")])
+    _scene(work, fake, "S02", ["lu", "wen", "pei"], [("lu", "【说】二")])
+    stage.cmd_invalidate(work, "S02", "改一处")
+    lu_s01 = work.diary_path("lu", "S01")
+    saved = lu_s01.read_bytes()
+    lu_s01.unlink()
+    fake.say("wen", stage.DriverError("fatal", "authentication failed"))
+    fake.say("pei", "pei 重写的日记")
+    rc, out = _cli(capsys, "rediary", work, "S02")
+    assert rc == stage.EXIT_HOST and out["error_kinds"] == {"lu": "state", "wen": "host"}
+    assert set(out["diaries"]) == {"pei"} and out["status"] == "void"
+    fake.say("wen", "wen 重写的日记")
+    rc, out = _cli(capsys, "rediary", work, "S02")
+    assert rc == stage.EXIT_INPUT and out["error_kinds"] == {"lu": "state"} and set(out["diaries"]) == {"wen"}
+    lu_s01.write_bytes(saved)
+    fake.say("lu", "lu 重写的日记")
+    rc, out = _cli(capsys, "rediary", work, "S02")
+    assert rc == 0 and out["status"] == "closed" and set(out["diaries"]) == {"lu"}
+    assert "lu 的 S01 日记" in fake.last("lu")["message"]
+
+
+def test_gate_r2_rediary_keeps_offstage_memory_and_next_scene_resumes(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    note = work.offstage_path("S02", "lu")
+    note.parent.mkdir(parents=True, exist_ok=True)
+    note.write_text("你在码头等了一夜，船没来。", encoding="utf-8")
+    fake.say("lu", "那一夜很冷。")
+    _perform(work, fake, "S02", [("lu", "【说】三"), ("wen", "【说】四")])
+    assert roster(work)["characters"]["lu"]["entries"] == [{"id": "S01"}, {"id": "S02.offstage"}, {"id": "S02"}]
+    stage.cmd_invalidate(work, "S02", "温昭那句没说")
+    fake.say("lu", "lu 重写的 S02 日记")
+    fake.say("wen", "wen 重写的 S02 日记")
+    stage.cmd_rediary(work, "S02", None)
+    call = fake.last("lu")
+    session = roster(work)["characters"]["lu"]["session"]
+    assert call["mode"] == "spawn" and "那一夜很冷。" in call["message"]
+    assert session["id"] == call["sid"] and session["memory"] == ["S01", "S02.offstage", "S02"]
+    setup(work, "S03", initiative="lu", pause_every=1)
+    stage.cmd_open(work, "S03", None, False, None)
+    fake.say("lu", "【说】五")
+    stage.cmd_run(work, "S03", None, None, None)
+    assert fake.last("lu")["mode"] == "resume" and fake.last("lu")["sid"] == session["id"]
+
+
+def test_gate_r2_invalidate_keeps_both_archives_from_the_same_second(tmp_path, fake, monkeypatch):
+    import datetime
+    import types
+
+    class Frozen(datetime.datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 10, 16, 2, 30, 0)
+
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    monkeypatch.setattr(stage, "_dt", types.SimpleNamespace(datetime=Frozen))
+    stage.cmd_invalidate(work, "S01", "第一次")
+    fake.say("lu", "lu 重写的日记")
+    fake.say("wen", "wen 重写的日记")
+    stage.cmd_rediary(work, "S01", None)
+    stage.cmd_invalidate(work, "S01", "第二次")
+    archived = list((work.stage / "void" / "lu").glob("S01-20261016-023000*.md"))
+    assert len(archived) == 2
+    assert {p.read_text(encoding="utf-8").strip() for p in archived} == {"lu 的 S01 日记", "lu 重写的日记"}
+
+
+def test_gate_r2_invalidate_marks_the_union_of_valid_later_scenes_only(tmp_path, fake):
+    work = make_work(tmp_path)
+    _scene(work, fake, "S00", ["lu", "pei"], [("lu", "【说】零")])
+    _scene(work, fake, "S01", ["lu", "wen", "pei"], [("lu", "【说】一")])
+    _scene(work, fake, "S02", ["lu", "dar"], [("lu", "【说】二")])
+    _scene(work, fake, "S03", ["wen", "dar"], [("wen", "【说】三")])
+    _scene(work, fake, "S04", ["lu", "dar"], [("lu", "【说】四")])
+    stage.cmd_invalidate(work, "S04", "这一场重写")
+    out = stage.cmd_invalidate(work, "S01", "温昭不在场")
+    assert sorted(out["voided_diaries"]) == ["lu", "pei", "wen"] and out["pending_review"] == ["S02", "S03"]
+    assert stage.pending_review(work, "S00") is None and stage.pending_review(work, "S04") is None
+    assert stage.pending_review(work, "S02")["because"] == "S01"
+    # 重演时再作废一次：已作废的条目不再算新的作废，也不重复标待核
+    pending_s02 = log_kinds(work, "S02").count("pending_review")
+    stage.cmd_open(work, "S01", None, True, None)
+    archived = yaml.safe_load((work.scene_dir("S01") / "takes" / "take-1" / "log.yaml").read_text(encoding="utf-8"))
+    last = [e for e in archived["entries"] if e["kind"] == "invalidate"][-1]
+    assert last["change"] == "重演" and last["voided"] == [] and last["pending"] == []
+    assert log_kinds(work, "S02").count("pending_review") == pending_s02
+
+
+def test_gate_r2_invalidate_after_offstage_reperform_keeps_order_and_skips_itself(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    note = work.offstage_path("S01", "lu")
+    note.parent.mkdir(parents=True, exist_ok=True)
+    note.write_text("你在门外站了很久。", encoding="utf-8")
+    fake.say("lu", "门外很冷。")
+    assert stage.cmd_open(work, "S01", None, True, None)["offstage_delivered"] == ["lu"]
+    fake.say("lu", "【说】再来")
+    fake.say("wen", "【说】好")
+    stage.cmd_run(work, "S01", None, None, None)
+    fake.say("lu", "lu 的第二次日记")
+    fake.say("wen", "wen 的第二次日记")
+    stage.cmd_close(work, "S01", None)
+    lu = roster(work)["characters"]["lu"]
+    assert lu["entries"] == [{"id": "S01.offstage"}, {"id": "S01"}]
+    assert lu["session"]["memory"] == ["S01.offstage", "S01"]
+    out = _perform(work, fake, "S02", [("lu", "【说】三"), ("wen", "【说】四")])
+    assert out["status"] == "closed"
+    assert [c["mode"] for c in fake.calls if c["slug"] == "lu"][-2:] == ["resume", "resume"]
+    out = stage.cmd_invalidate(work, "S01", "门外那段删掉")
+    assert out["pending_review"] == ["S02"] and "pending_review" not in log_kinds(work, "S01")
+
+
+def test_gate_r2_invalidate_open_scene_drops_only_its_sessions(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    _scene(work, fake, "S02", ["lu", "wen", "pei"], [("lu", "【说】三")], diaries=False)
+    before = roster(work)["characters"]
+    lu_sid, wen_session = before["lu"]["session"]["id"], before["wen"]["session"]
+    assert before["lu"]["session"]["scene"]["id"] == "S02" and before["pei"]["session"] is None
+    assert wen_session["scene"] is None and "S02" not in wen_session["memory"]
+    out = stage.cmd_invalidate(work, "S02", "裴相其实不在")
+    assert out == {"scene_id": "S02", "voided_diaries": [], "pending_review": [],
+                   "invalidated_sessions": [{"actor": "lu", "session": lu_sid}]}
+    after = roster(work)["characters"]
+    assert after["lu"]["session"] is None and after["wen"]["session"] == wen_session
+    assert after["pei"]["session"] is None
+    assert stage.scene_state(work, "S02") == "void" and stage.scene_state(work, "S01") == "closed"
+
+
+def test_gate_r2_invalidate_appends_to_each_log_and_keeps_the_change_from_roles(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    _perform(work, fake, "S02", [("lu", "【说】三"), ("wen", "【说】四")])
+    sids = {s: roster(work)["characters"][s]["session"]["id"] for s in ("lu", "wen")}
+    logs = {s: yaml.safe_load(work.log_path(s).read_text(encoding="utf-8"))["entries"] for s in ("S01", "S02")}
+    change = "卢简那句话温昭没听见"
+    out = stage.cmd_invalidate(work, "S01", change)
+    assert out["invalidated_sessions"] == [{"actor": "lu", "session": sids["lu"]},
+                                           {"actor": "wen", "session": sids["wen"]}]
+    for scene, kind in (("S01", "invalidate"), ("S02", "pending_review")):
+        entries = yaml.safe_load(work.log_path(scene).read_text(encoding="utf-8"))["entries"]
+        assert entries[:len(logs[scene])] == logs[scene]
+        added = entries[len(logs[scene]):]
+        assert [e["kind"] for e in added] == [kind] and added[0]["change"] == change
+    status = stage.cmd_status(work)
+    assert status["scenes"]["S02"]["pending_review"] == {"because": "S01", "change": change}
+    assert status["scenes"]["S01"]["state"] == "void"
+    before = len(fake.calls)
+    fake.say("lu", "lu 重写的日记")
+    fake.say("wen", "wen 重写的日记")
+    stage.cmd_rediary(work, "S01", None)
+    assert len(fake.calls) > before and all(change not in c["message"] for c in fake.calls[before:])
+
+
+def _legacy_set_entry(member, entry_id):
+    """a750800 及之前的写法：重演时新送达的补记追加在本场条目之后。旧名册里可能留着这种顺序。"""
+    for e in member.setdefault("entries", []):
+        if e["id"] == entry_id:
+            e.pop("void", None)
+            return
+    member["entries"].append({"id": entry_id})
+
+
+def test_gate_r3_invalidate_legacy_offstage_order_skips_itself(tmp_path, fake, monkeypatch):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    note = work.offstage_path("S01", "lu")
+    note.parent.mkdir(parents=True, exist_ok=True)
+    note.write_text("你在门外站了很久。", encoding="utf-8")
+    with monkeypatch.context() as legacy:
+        legacy.setattr(stage, "_set_entry", _legacy_set_entry)
+        fake.say("lu", "门外很冷。")
+        stage.cmd_open(work, "S01", None, True, None)
+        fake.say("lu", "【说】再来")
+        fake.say("wen", "【说】好")
+        stage.cmd_run(work, "S01", None, None, None)
+        fake.say("lu", "lu 的第二次日记")
+        fake.say("wen", "wen 的第二次日记")
+        stage.cmd_close(work, "S01", None)
+        _perform(work, fake, "S02", [("lu", "【说】三"), ("wen", "【说】四")])
+    lu = roster(work)["characters"]["lu"]
+    assert lu["entries"] == [{"id": "S01"}, {"id": "S01.offstage"}, {"id": "S02"}]
+    assert "S01" in lu["session"]["memory"]
+    offstage = work.diary_path("lu", "S01.offstage").read_bytes()
+    s02_log = yaml.safe_load(work.log_path("S02").read_text(encoding="utf-8"))["entries"]
+    out = stage.cmd_invalidate(work, "S01", "门外那段删掉")
+    assert out["pending_review"] == ["S02"] and sorted(out["voided_diaries"]) == ["lu", "wen"]
+    assert "pending_review" not in log_kinds(work, "S01")
+    status = stage.cmd_status(work)["scenes"]
+    assert status["S01"]["pending_review"] is None and status["S01"]["state"] == "void"
+    assert status["S02"]["pending_review"] == {"because": "S01", "change": "门外那段删掉"}
+    entries = yaml.safe_load(work.log_path("S02").read_text(encoding="utf-8"))["entries"]
+    assert entries[:len(s02_log)] == s02_log and [e["kind"] for e in entries[len(s02_log):]] == ["pending_review"]
+    lu = roster(work)["characters"]["lu"]
+    assert lu["entries"] == [{"id": "S01", "void": True}, {"id": "S01.offstage"}, {"id": "S02"}]
+    assert lu["session"] is None and not work.diary_path("lu", "S01").exists()
+    archived = sorted(p.read_text(encoding="utf-8").strip() for p in (work.stage / "void" / "lu").glob("S01-*.md"))
+    assert archived == ["lu 的 S01 日记", "lu 的第二次日记"]  # 第一版在重演时归档
+    assert work.diary_path("lu", "S01.offstage").read_bytes() == offstage
+
+
+def test_gate_r3_invalidate_repeated_archive_collisions_finish(tmp_path, fake, monkeypatch):
+    import datetime
+    import multiprocessing
+    import types
+
+    class Frozen(datetime.datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 10, 16, 2, 30, 0)
+
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    monkeypatch.setattr(stage, "_dt", types.SimpleNamespace(datetime=Frozen))
+    for take in ("二", "三"):
+        fake.say("lu", f"lu 的第{take}版日记")
+        fake.say("wen", f"wen 的第{take}版日记")
+
+    def three_invalidations():
+        stage.cmd_invalidate(work, "S01", "第一次")
+        stage.cmd_rediary(work, "S01", None)
+        stage.cmd_invalidate(work, "S01", "第二次")
+        stage.cmd_rediary(work, "S01", None)
+        stage.cmd_invalidate(work, "S01", "第三次")
+
+    # 归档命名出错会让第三次作废停不下来：放进 fork 出的子进程（沿用已载入的 stage 与时钟），有界等待
+    child = multiprocessing.get_context("fork").Process(target=three_invalidations)
+    child.start()
+    child.join(timeout=10)
+    if child.is_alive():
+        child.kill()
+        child.join()
+        pytest.fail("同一秒内第三次作废没有结束")
+    assert child.exitcode == 0
+    for slug in ("lu", "wen"):
+        archived = list((work.stage / "void" / slug).glob("S01-20261016-023000*.md"))
+        assert sorted(p.read_text(encoding="utf-8").strip() for p in archived) == sorted(
+            [f"{slug} 的 S01 日记", f"{slug} 的第二版日记", f"{slug} 的第三版日记"])
+        assert not work.diary_path(slug, "S01").exists()
+        member = roster(work)["characters"][slug]
+        assert member["entries"] == [{"id": "S01", "void": True}] and member["session"] is None
+    assert stage.scene_state(work, "S01") == "void"
+
+
+def test_gate_r3_invalidate_registered_diary_missing_file_still_voids(tmp_path, fake):
+    work = make_work(tmp_path)
+    _perform(work, fake, "S01", [("lu", "【说】一"), ("wen", "【说】二")])
+    _perform(work, fake, "S02", [("lu", "【说】三"), ("wen", "【说】四")])
+    lu_sid = roster(work)["characters"]["lu"]["session"]["id"]
+    work.diary_path("lu", "S01").unlink()
+    out = stage.cmd_invalidate(work, "S01", "改一处")
+    assert sorted(out["voided_diaries"]) == ["lu", "wen"] and out["pending_review"] == ["S02"]
+    assert {"actor": "lu", "session": lu_sid} in out["invalidated_sessions"]
+    lu = roster(work)["characters"]["lu"]
+    assert lu["entries"][0] == {"id": "S01", "void": True} and lu["session"] is None
+    assert not (work.stage / "void" / "lu").exists()
+    archived = list((work.stage / "void" / "wen").glob("S01-*.md"))
+    assert [p.read_text(encoding="utf-8").strip() for p in archived] == ["wen 的 S01 日记"]

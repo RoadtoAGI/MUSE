@@ -41,7 +41,7 @@ world_events:                                     # condition 写给主控自己
 - 在场者与迟到者按场景卡。人物只从舞台给的称呼认识在场的人，不写 `known_as` 时舞台用显示名：家人之间要写称谓（爸、奶奶），否则人物会叫错；人物不知道对方的名字或身份时写他对对方的叫法，否则等于替人物泄露身份。
 - `world_events` 只写场景卡里属于世界的结果（物件、空间、时间、外来者），不写人物该有的反应。
 - `pause_every` 决定主控多久看一次实况，交锋密、容易出现说法冲突的场面取小；`max_turns` 是本场的回合预算。
-- `story_after` 不写时取舞台上已收场的全部场景；倒叙场景必须写，否则人物会带着未来的记忆进场。
+- `story_after` 不写时取本场首演开场时已收场的场景；倒叙场景必须写，否则人物会带着未来的记忆进场。
 
 ### 演出与暂停
 
@@ -50,7 +50,7 @@ python3 "$MUSE_WRITING_ROOT/scripts/stage.py" open --work-dir "$WORK_DIR" --scen
 python3 "$MUSE_WRITING_ROOT/scripts/stage.py" run --work-dir "$WORK_DIR" --scene-id S07
 ```
 
-`open` 补齐名册并送达场外补记，人物以日记记下；认不出主控所在宿主时加 `--host claude|codex`。`run` 一直演到暂停点，返回本轮新回合的全知渲染和暂停原因：
+`open` 补齐名册并送达场外补记，人物以日记记下；有补记没送达时 `run` 拒绝开演，重新 `open` 只补发没送达的。认不出主控所在宿主时加 `--host claude|codex`。`run` 一直演到暂停点，返回本轮新回合的全知渲染和暂停原因：
 
 | 暂停原因 | 主控怎样判断 |
 |---|---|
@@ -67,7 +67,7 @@ python3 "$MUSE_WRITING_ROOT/scripts/stage.py" run --work-dir "$WORK_DIR" --scene
 
 ### 收场与偏差
 
-`close` 向每个在场过的人物收日记，人物记忆随之推进。收场前，主控把场景卡里本场的结果分三类对照演出：
+`close` 向每个在场过的人物收日记，人物记忆随之推进；有人的宿主调用失败时，已写好的日记保留，再次 `close` 只向还没写的人收。收场前，主控把场景卡里本场的结果分三类对照演出：
 
 | 场景卡内容 | 主控怎样对待 |
 |---|---|
@@ -117,4 +117,4 @@ python3 "$MUSE_WRITING_ROOT/scripts/stage.py" invalidate --work-dir "$WORK_DIR" 
 
 角色进程读不到任何文件：Claude 侧不给工具并以 safe-mode 运行，Codex 侧使用 `~/.muse/codex-role-home` 的最小配置。宿主升级后用 `stage.py check-isolation --host <宿主>` 复核；结果为 `isolated: false` 时停用该宿主的角色进程并报告作者。
 
-退出码 0 表示成功或正常暂停；1 是输入或状态问题，按错误信息修 setup、补 role view 或换操作；2 是宿主调用失败。同一作品同时只能有一个舞台命令改动状态。
+退出码 0 表示成功或正常暂停；1 是输入或状态问题，按错误信息修 setup、补 role view 或换操作；2 是宿主调用失败，人物回了空白也算。`open`、`close`、`rediary` 按人物并行，结果的 `errors` 记每人的失败原因，`error_kinds` 标出各人是宿主失败（`host`）还是输入或状态问题（`state`）；两类都有时退出码取 2，成功的人物照常记下，修好后重跑同一命令只补失败的人。同一作品同时只能有一个舞台命令改动状态。

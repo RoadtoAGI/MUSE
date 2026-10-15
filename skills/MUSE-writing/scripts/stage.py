@@ -442,8 +442,10 @@ def parse_turn(text: str, actor: str, present: list[str], pov: str | None,
             # "对裴相，再对温昭"之类：取第一个对得上的人做被问者，原话留给 writer
             target = next((hit for part in _SPLIT_MAIN.split(to_raw)
                            if (hit := resolve_one(part, actor, others, cast))), None)
-            if target:
-                entry["to"] = target
+            if target is None:
+                return ParsedTurn(None, voice("prob_label", token=to_raw.strip(),
+                                              labels=voice.join_labels(cast.labels(actor, others))))
+            entry["to"] = target
             entry["to_text"] = to_raw
     entry["heard_by"] = heard
     entry["seen_by"] = seen
@@ -663,6 +665,13 @@ class Reply:
     cost: float | None = None
 
 
+def _content(host: str, text: str) -> str:
+    """角色的每次调用都要回内容；退出 0 而正文空白按宿主失败上报，不写进回合、日记或记忆。"""
+    if not text.strip():
+        raise DriverError("empty_reply", f"{host} 回复为空")
+    return text
+
+
 def _retrying(fn: Callable[[], Reply]) -> Reply:
     for wait in (*TRANSIENT_WAITS, None):
         try:
@@ -698,7 +707,7 @@ class ClaudeDriver:
             text = str(data.get("result") or proc.stderr or data.get("subtype") or "")[-800:]
             raise DriverError(classify(text), f"claude 调用失败：{text}")
         usage = data.get("usage") or {}
-        return Reply(text=str(data.get("result") or ""), session_id=data.get("session_id"),
+        return Reply(text=_content("claude", str(data.get("result") or "")), session_id=data.get("session_id"),
                      seconds=seconds, cost=data.get("total_cost_usd"),
                      usage={k: usage.get(k) for k in ("input_tokens", "output_tokens",
                                                       "cache_read_input_tokens",
@@ -710,6 +719,10 @@ class ClaudeDriver:
         reply = _retrying(lambda: self._run(spec, args, system, message))
         reply.session_id = reply.session_id or sid
         return reply
+
+    def once(self, spec: RoleSpec, system: str, message: str) -> Reply:
+        """一次性实例：宿主不保存会话，用于索句。"""
+        return _retrying(lambda: self._run(spec, ["--no-session-persistence"], system, message))
 
     def resume(self, spec: RoleSpec, sid: str, system: str, message: str) -> Reply:
         return _retrying(lambda: self._run(spec, ["--resume", sid], system, message))
@@ -833,7 +846,7 @@ class CodexDriver:
         if failure or proc.returncode != 0 or text is None:
             detail = failure or (proc.stderr or "").strip()[-800:] or "没有回复"
             raise DriverError(classify(detail), f"codex 调用失败：{detail}")
-        return Reply(text=text, session_id=thread, seconds=seconds,
+        return Reply(text=_content("codex", text), session_id=thread, seconds=seconds,
                      usage={"input_tokens": usage.get("input_tokens"),
                             "output_tokens": usage.get("output_tokens"),
                             "cache_read_input_tokens": usage.get("cached_input_tokens")})
@@ -845,18 +858,22 @@ class CodexDriver:
             opts += ["-c", f"model_reasoning_effort={spec.effort}"]
         return opts
 
-    def spawn(self, spec: RoleSpec, system: str, message: str) -> Reply:
+    def spawn(self, spec: RoleSpec, system: str, message: str, ephemeral: bool = False) -> Reply:
         home = ensure_codex_role_home()
         frames = home / "frames"
         frames.mkdir(exist_ok=True)
         frame = frames / f"{uuid.uuid4()}.md"
         frame.write_text(system, encoding="utf-8")
-        cmd = ["codex", "exec", *self._opts(spec), "-C", str(spec.cwd),
-               "-c", f"model_instructions_file={json.dumps(str(frame))}", "-"]
+        cmd = ["codex", "exec", *self._opts(spec), *(["--ephemeral"] if ephemeral else []),
+               "-C", str(spec.cwd), "-c", f"model_instructions_file={json.dumps(str(frame))}", "-"]
         try:
             return _retrying(lambda: self._run(spec, cmd, message))
         finally:
             frame.unlink(missing_ok=True)
+
+    def once(self, spec: RoleSpec, system: str, message: str) -> Reply:
+        """一次性实例：宿主不保存会话，用于索句。"""
+        return self.spawn(spec, system, message, ephemeral=True)
 
     def resume(self, spec: RoleSpec, sid: str, system: str, message: str) -> Reply:
         cmd = ["codex", "exec", "resume", *self._opts(spec), sid, "-"]
@@ -1255,8 +1272,9 @@ class Scene:
             return s["id"]
         return None
 
-    def fresh(self, slug: str, tail: str, upto: int, present_line: bool) -> tuple[Reply, RoleSpec, str]:
-        """一次性实例：按本场时点重建，送入截至 upto 的经历（含自己的回合），不进名册。"""
+    def fresh(self, slug: str, tail: str, upto: int, present_line: bool, persist: bool) -> Reply:
+        """按本场时点重建人物，送入截至 upto 的经历（含自己的回合）。
+        persist=False 是索句用的一次性实例，宿主不保存；rediary 要把重建的会话记进名册，用 persist=True。"""
         member = self.member(slug)
         required = self.memory_for(slug)
         blocks = [priming(self.work, slug, required, self.cast, self.voice)]
@@ -1264,10 +1282,13 @@ class Scene:
         blocks.append(tail)
         spec = role_spec(self.work, slug, member, self.cast)
         system = system_prompt(self.work, slug, self.cast, self.voice)
-        reply = get_driver(member["host"]).spawn(spec, system, "\n\n".join(b for b in blocks if b))
-        self.logit("call", actor=slug, mode="fresh", host=member["host"], model=member["model"],
-                   seconds=reply.seconds, usage=reply.usage, cost_usd=reply.cost, session=reply.session_id)
-        return reply, spec, system
+        driver = get_driver(member["host"])
+        message = "\n\n".join(b for b in blocks if b)
+        reply = driver.spawn(spec, system, message) if persist else driver.once(spec, system, message)
+        self.logit("call", actor=slug, mode="fresh" if persist else "once", host=member["host"],
+                   model=member["model"], seconds=reply.seconds, usage=reply.usage, cost_usd=reply.cost,
+                   session=reply.session_id if persist else None)
+        return reply
 
     # -- scheduling
     def last_seen(self, slug: str) -> int:
@@ -1337,17 +1358,30 @@ def _parallel(fn: Callable[[str], Any], slugs: list[str]) -> dict[str, Any]:
     return out
 
 
-def _errors(results: dict[str, Any]) -> dict[str, str]:
-    return {k: str(v) for k, v in results.items() if isinstance(v, Exception)}
+def _failures(results: dict[str, Any]) -> dict[str, dict[str, str]]:
+    """失败的人物与原因。error_kinds 区分宿主失败（host）与输入或状态问题（state），main 据此定退出码。"""
+    failed = {k: v for k, v in results.items() if isinstance(v, Exception)}
+    return {"errors": {k: str(v) for k, v in failed.items()},
+            "error_kinds": {k: "host" if isinstance(v, DriverError) else "state" for k, v in failed.items()}}
+
+
+def _has_entry(member: dict[str, Any], entry_id: str) -> bool:
+    return any(e["id"] == entry_id and not e.get("void") for e in member.get("entries") or [])
 
 
 def _set_entry(member: dict[str, Any], entry_id: str) -> None:
     """记下一条日记：作废过的同名条目原位恢复，保持经历顺序。"""
-    for e in member.setdefault("entries", []):
+    entries = member.setdefault("entries", [])
+    for e in entries:
         if e["id"] == entry_id:
             e.pop("void", None)
             return
-    member["entries"].append({"id": entry_id})
+    # 场外补记发生在本场之前；重演时本场的作废条目已在名册里，补记插在它前面
+    at = next((i for i, e in enumerate(entries) if e["id"] == scene_of(entry_id)), None)
+    if entry_id.endswith(".offstage") and at is not None:
+        entries.insert(at, {"id": entry_id})
+    else:
+        entries.append({"id": entry_id})
 
 
 def _write_diary(sc: Scene, slug: str, entry_id: str, text: str) -> str:
@@ -1364,7 +1398,7 @@ def cmd_open(work: Work, scene: str, host: str | None, reperform: bool, lang: st
             raise StageError(f"{scene} 已演过；要重演用 --reperform" + ("，另一支试演换个名字" if tryout else ""))
         archived = None
         if reperform and state != "none":
-            if state == "closed" and not tryout:
+            if not tryout:
                 _invalidate(work, scene, "重演")
             archived = _archive_take(work.space_dir(scene, tryout))
         sc = Scene(work, scene, lang, host, tryout=tryout)
@@ -1382,12 +1416,12 @@ def cmd_open(work: Work, scene: str, host: str | None, reperform: bool, lang: st
                 sc.transcript["after"] = sorted(prior if prior is not None and sc.setup.get("story_after") is None
                                                 else sc.after())
             sc.logit("open", take=take, reperform_of=(archived or {}).get("take"))
-        delivered = {"done": [], "errors": {}} if tryout else _deliver_offstage(sc)
+        delivered = {"done": [], "errors": {}, "error_kinds": {}} if tryout else _deliver_offstage(sc)
         sc.save()
         return {"scene_id": scene, "tryout": tryout, "take": sc.take, "status": "open",
                 "present": sc.setup["present"], "late": sc.setup.get("late") or [],
                 "story_after": sc.transcript.get("after"), "offstage_delivered": delivered["done"],
-                "errors": delivered["errors"],
+                "errors": delivered["errors"], "error_kinds": delivered["error_kinds"],
                 "pending_reviews": {s: p.get("because") for s in staged_scenes(work)
                                     if (p := pending_review(work, s))}}
 
@@ -1408,9 +1442,7 @@ def _deliver_offstage(sc: Scene) -> dict[str, Any]:
     todo = []
     for slug in sc.people:
         note = sc.work.offstage_path(sc.id, slug)
-        entry_id = f"{sc.id}.offstage"
-        done = any(e["id"] == entry_id and not e.get("void") for e in sc.member(slug).get("entries") or [])
-        if note.exists() and not done:
+        if note.exists() and not _has_entry(sc.member(slug), f"{sc.id}.offstage"):
             todo.append(slug)
 
     def one(slug: str) -> str:
@@ -1431,7 +1463,7 @@ def _deliver_offstage(sc: Scene) -> dict[str, Any]:
         member["session"]["memory"].append(entry_id)
         sc.logit("offstage", actor=slug)
         done.append(slug)
-    return {"done": done, "errors": _errors(results)}
+    return {"done": done, **_failures(results)}
 
 
 def cmd_run(work: Work, scene: str, designated: str | None, extend: int | None,
@@ -1439,6 +1471,10 @@ def cmd_run(work: Work, scene: str, designated: str | None, extend: int | None,
     with stage_lock(work.stage):
         sc = Scene(work, scene, lang, tryout=tryout)
         sc.require_state("open")
+        missing = [p for p in sc.people if not tryout and work.offstage_path(scene, p).exists()
+                   and not _has_entry(sc.member(p), f"{scene}.offstage")]
+        if missing:
+            raise StageError("场外补记还没送达：" + "、".join(missing) + "；先重新运行 open")
         if extend:
             sc.logit("extend", turns=extend)
         ran: list[dict[str, Any]] = []
@@ -1576,8 +1612,10 @@ def cmd_close(work: Work, scene: str, lang: str | None, tryout: bool = False) ->
             tail = sc.voice("diary_prompt", name=sc.cast.names[slug])
             return sc.deliver(slug, tail, upto, present_line=False).text
 
-        results = _parallel(one, people)
-        diaries = {}
+        # 上一次收场部分失败时，已写好的日记保留，只向还没写的人收
+        done = [p for p in people if _has_entry(sc.member(p), scene)]
+        diaries = {p: sc.work.rel(sc.work.diary_path(p, scene)) for p in done}
+        results = _parallel(one, [p for p in people if p not in done])
         for slug, res in results.items():
             if isinstance(res, Exception):
                 continue
@@ -1586,11 +1624,11 @@ def cmd_close(work: Work, scene: str, lang: str | None, tryout: bool = False) ->
             _set_entry(member, scene)
             member["session"]["memory"].append(scene)
             member["session"]["scene"] = None
-        errors = _errors(results)
-        if errors:
-            sc.logit("close_failed", errors=errors)
+        failures = _failures(results)
+        if failures["errors"]:
+            sc.logit("close_failed", errors=failures["errors"])
             sc.save()
-            return {"scene_id": scene, "status": "open", "diaries": diaries, "errors": errors}
+            return {"scene_id": scene, "status": "open", "diaries": diaries, **failures}
         sc.logit("close", diaries=list(diaries))
         sc.save()
         return {"scene_id": scene, "status": "closed", "diaries": diaries}
@@ -1610,10 +1648,11 @@ def _close_tryout(sc: Scene, people: list[str], upto: int) -> dict[str, Any]:
         path = sc.dir / "probes" / f"{slug}.md"
         write_text_atomic(path, res.strip() + "\n")
         probes[slug] = sc.work.rel(path)
-    errors = _errors(results)
+    failures = _failures(results)
+    errors = failures["errors"]
     sc.logit("close" if not errors else "close_failed", probes=list(probes), errors=errors or None)
     sc.save()
-    return {"tryout": sc.id, "status": "closed" if not errors else "open", "probes": probes, "errors": errors}
+    return {"tryout": sc.id, "status": "closed" if not errors else "open", "probes": probes, **failures}
 
 
 def cmd_interview(work: Work, name: str, slug: str, question: str, lang: str | None) -> dict[str, Any]:
@@ -1649,13 +1688,14 @@ def cmd_line(work: Work, scene: str, slug: str, after: int, cue: str, lang: str 
         if slug not in present:
             raise StageError(f"第 {after} 条时 {slug} 不在场")
         tail = cue.strip() + "\n\n" + sc.voice("your_turn")
-        reply, spec, system = sc.fresh(slug, tail, after, present_line=True)
+        reply = sc.fresh(slug, tail, after, present_line=True, persist=False)
         pov = sc.setup.get("pov")
         parsed = parse_turn(reply.text, slug, present, pov, sc.cast, sc.voice)
         if parsed.entry is None:
-            driver = get_driver(spec.host)
-            reply = driver.resume(spec, reply.session_id, system,
-                                  sc.voice("correction", problem=parsed.problem))
+            # 一次性实例不能恢复：带着同一时点的输入再起一次，附上格式问题
+            sc.logit("invalid", actor=slug, problem=parsed.problem, reply=reply.text[:2000])
+            retry_tail = tail + "\n\n" + sc.voice("correction", problem=parsed.problem)
+            reply = sc.fresh(slug, retry_tail, after, present_line=True, persist=False)
             parsed = parse_turn(reply.text, slug, present, pov, sc.cast, sc.voice)
             if parsed.entry is None:
                 sc.logit("line_failed", actor=slug, after=after, problem=parsed.problem)
@@ -1679,6 +1719,11 @@ def _invalidate(work: Work, scene: str, change: str) -> dict[str, Any]:
             if path.exists():
                 dest = work.stage / "void" / slug / f"{scene}-{stamp}.md"
                 dest.parent.mkdir(parents=True, exist_ok=True)
+                # 同一秒内再次作废（重建日记后又改一处）不覆盖前一份归档
+                n = 1
+                while dest.exists():
+                    n += 1
+                    dest = dest.with_name(f"{scene}-{stamp}-{n}.md")
                 shutil.move(str(path), str(dest))
             entries[idx]["void"] = True
             voided.append(slug)
@@ -1754,8 +1799,7 @@ def cmd_rediary(work: Work, scene: str, lang: str | None) -> dict[str, Any]:
 
         def one(slug: str) -> Reply:
             tail = sc.voice("diary_prompt", name=sc.cast.names[slug])
-            reply, _, _ = sc.fresh(slug, tail, upto, present_line=False)
-            return reply
+            return sc.fresh(slug, tail, upto, present_line=False, persist=True)
 
         results = _parallel(one, people)
         diaries = {}
@@ -1767,12 +1811,13 @@ def cmd_rediary(work: Work, scene: str, lang: str | None) -> dict[str, Any]:
             diaries[slug] = _write_diary(sc, slug, scene, res.text)
             _set_entry(member, scene)
             member["session"] = new_session(work, slug, member, res.session_id, [*required, scene])
-        errors = _errors(results)
+        failures = _failures(results)
+        errors = failures["errors"]
         sc.logit("rediary" if not errors else "rediary_failed", diaries=list(diaries),
                  errors=errors or None)
         sc.save()
         return {"scene_id": scene, "status": "closed" if not errors else "void",
-                "diaries": diaries, "errors": errors}
+                "diaries": diaries, **failures}
 
 
 def cmd_review(work: Work, scene: str, note: str | None) -> dict[str, Any]:
@@ -2040,7 +2085,11 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps({"error": str(exc), "category": exc.category}, ensure_ascii=False), file=sys.stderr)
         return EXIT_HOST
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0
+    # 已保存的回合、日记与暂停原因照常输出；有人失败时退出码说明失败类别，宿主失败优先
+    kinds = set((result.get("error_kinds") or {}).values())
+    if result.get("reason") == "host_error" or "host" in kinds:
+        return EXIT_HOST
+    return EXIT_INPUT if kinds else 0
 
 
 if __name__ == "__main__":
