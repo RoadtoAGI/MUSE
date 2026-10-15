@@ -35,7 +35,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 
 选范文分两段。先选作品：过滤后按 `--style-hint` 与各作品 style 向量的相似度（权重 0.7）和情节相近程度（0.3）给作品排序，取前三部；`--novel` 点名时只用点名的作品。再在每部作品里取与 `--query` 情节最近的场景截窗口，合计达到 `--budget-chars`（默认 4000，英文按 1 汉字约 0.6 词折算）即停，收尾最多超到 1.5 倍。两部以上时任一作品先取到预算的 60% 为止，不够再补；同一段原文收在两部作品里时只取一处。传了 `--person` 时窗口从第一段人称相符的叙述段落起截。style_card 标 `exemplar_pool: on_request` 的作品（如口播转写）不进默认范文池，`--novel` 点名才用。
 
-文件头依次是 query、过滤条件、池的构成（场数、作品数、最大一部占比）、style hint、来源作品与场景、字数，再每个窗口一行描述：人称、语域、对白占比、该作品的口吻与对白写法。“本场可以怎样用”由主控写进派发，不写进文件。文风相似度在作品之间的差距不大，排序只是初选：主控先看描述行，口吻、题材或对白写法与本篇不合时，用 `--exclude-novel <作品>` 排除后重查一次，不改其他条件，并在派发记录里写明；两次都不合用按“无范文”派发。
+文件头依次是 query、过滤条件、池的构成（场数、作品数、最大一部占比）、style hint、来源作品与场景、字数，再每个窗口一行描述：人称、语域、对白占比、该作品的口吻与对白写法。“本场可以怎样用”由主控写进派发，不写进文件。文风相似度在作品之间的差距不大，排序只是初选：主控先看描述行，判断某部作品的写法不合本篇时，用 `--exclude-novel <作品>` 排除它重查，其他条件不变，并在派发记录里写明；找不到合用的范文就按“无范文”派发。
 
 参数从场景卡和 Phase 0 生成，不只按情节写一句话：
 
@@ -49,7 +49,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人�
 | `--query` | 人物处境和场景动作，一句话；它决定在选中的作品里取哪几场 |
 | `--genre` | 只在作者限定题材时传 |
 | `--novel` | 同人、续写、改编这类点名原作的任务传原作名，窗口全部取自它；可重复传多部 |
-| `--exclude-novel` | 看过描述行判断某部作品不合用时传，重查一次；可重复 |
+| `--exclude-novel` | 看过描述行判断某部作品不合用时传，排除后重查；可重复 |
 
 ```bash
 python3 ${CLAUDE_PLUGIN_ROOT}/knowledge-base/scripts/kb_query.py   --query "人物处境与场景动作" --style-hint "第一人称口语独白，句子短，对白少"   --lang zh --original-only --person first --register colloquial   --budget-chars 4000 --render exemplar   --output-dir "{work_dir}/pipeline/references" --scene-id S01
