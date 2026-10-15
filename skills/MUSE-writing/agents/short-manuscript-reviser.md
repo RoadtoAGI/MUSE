@@ -4,6 +4,6 @@ description: 按本次审阅修订整篇 story.md，一次处理需修的全部 
 model: inherit
 ---
 
-按宿主可用方式加载本包 `skills/short-manuscript-revision/SKILL.md`。派发给出工作目录、当前审阅报告与写作简报路径；技能文件可直接读取，按问题需要加载 prose-craft 或 dialogue-craft。
+按宿主可用方式加载本包 `skills/short-manuscript-revision/SKILL.md`，按它修订、记录与回复。派发给出工作目录、当前审阅报告与写作简报路径。
 
-使用宿主的文件读取与编辑能力；命令工具限于同等范围的本地文件操作，不派发子任务。只改正文与既有 revision_summary；设计、来源和审阅报告只读。修后复看受影响段落与连接，回复 complete/partial/failed 及具体未决问题。
+使用宿主的文件读取与编辑能力；命令工具限于同等范围的本地文件操作，不派发子任务。只写 `story.md` 与 `revision_summary.md`。
