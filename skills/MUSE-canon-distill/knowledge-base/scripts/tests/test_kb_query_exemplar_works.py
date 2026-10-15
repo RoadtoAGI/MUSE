@@ -1,4 +1,4 @@
-"""写作范文的两段式选择（设计 §4.2）：范文池准入、先按文风选作品、作品预算上限、窗口人称起点与头部描述。"""
+"""写作范文的两段式选择（设计 §4.2）：范文池准入、先按文风选作品、按作品排序依次取窗口、窗口人称起点与头部描述。"""
 from __future__ import annotations
 
 import importlib
@@ -102,15 +102,17 @@ def test_exclude_novel_drops_the_work(kb):
     assert report["filters"][2][0] == "exclude=乙作"
 
 
-def test_no_work_takes_more_than_its_share_when_two_qualify(kb):
+def test_top_work_fills_the_budget_before_the_next(kb):
     works = kq.select_exemplar_works("搜写字楼", lang="zh", exclude=["书信"], style_hint="口语")
     windows, _ = kq.exemplar_windows_by_work(works, 1000)
-    by_work: dict[str, int] = {}
-    for w in windows:
-        by_work[w["novel"]] = by_work.get(w["novel"], 0) + w["window_chars"]
-    assert set(by_work) == {"乙作", "甲作"}
-    assert by_work["乙作"] <= 600 + 1000 // 4
-    assert sum(by_work.values()) >= 1000
+    # 不设单部作品的配额：排第一的乙作场景够用，就全部取自乙作
+    assert {w["novel"] for w in windows} == {"乙作"}
+    assert sum(w["window_chars"] for w in windows) >= 1000
+    windows, _ = kq.exemplar_windows_by_work(works, 2000)
+    # 乙作两场取完仍不足预算，再取下一部
+    novels = [w["novel"] for w in windows]
+    assert novels[:2] == ["乙作", "乙作"] and novels[-1] == "甲作"
+    assert sum(w["window_chars"] for w in windows) >= 2000
 
 
 def test_single_work_gets_the_whole_budget(kb):

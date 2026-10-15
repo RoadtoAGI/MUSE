@@ -369,8 +369,6 @@ def _source_label(r: dict) -> str:
     return f"{title}{chapter}" if chapter else title
 
 
-EXEMPLAR_MAX_WORKS = 3       # 范文最多取几部作品（设计 §4.2）
-EXEMPLAR_WORK_SHARE = 0.6    # 两部以上时任一作品不超过预算的这一比例
 EXEMPLAR_STYLE_WEIGHT = 0.7  # 选作品：文风相似 0.7、情节 0.3
 EXEMPLAR_MIN_WINDOW = 150    # 比这短的窗口不要，免得只截到半段
 DESCRIBE_CHARS = 40          # 头部描述行里 style_card 字段的截取长度
@@ -461,36 +459,30 @@ def exemplar_windows(results: list[dict], budget: int, person: str | None = None
 
 def exemplar_windows_by_work(works: list[dict], budget: int,
                              person: str | None = None) -> tuple[list[dict], list[str]]:
-    """按作品分配预算取窗口（设计 §4.2）：作品按选定顺序，各自取情节最近的场景。
+    """按作品排序依次取窗口（设计 §4.2）：排第一的作品取到预算为止，场景不够再取下一部。
 
-    两部以上时任一作品先取到预算的 60% 为止，轮完一遍仍不足预算再放开比例补足；只有一部时全给它。
+    作品内按情节相近程度取场景。剩下的预算不到一个最短窗口时停，免得为凑数再截半段。
     """
     cap = int(budget * EXEMPLAR_CAP_RATIO)
-    share = budget if len(works) <= 1 else int(budget * EXEMPLAR_WORK_SHARE)
-    pending = {w["novel"]: list(w["rows"]) for w in works}
-    used = {w["novel"]: 0 for w in works}
     windows: list[dict] = []
     notes: list[str] = []
     picked: list[str] = []
     total = 0
-    for relaxed in (False, True):
-        for work in works:
-            name = work["novel"]
-            while pending[name] and total < budget:
-                room = budget - total if relaxed else min(budget - total, share - used[name])
-                if room < EXEMPLAR_MIN_WINDOW and used[name]:
-                    break
-                window = _scene_window(pending[name].pop(0), target=room,
-                                       limit=min(cap - total, room + budget // 4),
-                                       person=person, picked=picked, notes=notes)
-                if not window:
-                    continue
-                if window["window_chars"] < EXEMPLAR_MIN_WINDOW and pending[name]:
-                    notes.append(f"{name} {window['scene_id']}：窗口只有 {window['window_chars']} 字，换下一场")
-                    continue
-                windows.append(window)
-                used[name] += window["window_chars"]
-                total += window["window_chars"]
+    for work in works:
+        rows = list(work["rows"])
+        while rows and total < budget:
+            room = budget - total
+            if total and room < EXEMPLAR_MIN_WINDOW:
+                return windows, notes
+            window = _scene_window(rows.pop(0), target=room, limit=min(cap - total, room + budget // 4),
+                                   person=person, picked=picked, notes=notes)
+            if not window:
+                continue
+            if window["window_chars"] < EXEMPLAR_MIN_WINDOW and rows:
+                notes.append(f"{work['novel']} {window['scene_id']}：窗口只有 {window['window_chars']} 字，换下一场")
+                continue
+            windows.append(window)
+            total += window["window_chars"]
         if total >= budget:
             break
     return windows, notes
@@ -514,15 +506,14 @@ def select_exemplar_works(query_text: str, *, lang: str | None = None,
                           source_medium: str = "novel", original_only: bool = False,
                           person: str | None = None, register: str | None = None,
                           style_hint: str | None = None, model: str = EMBEDDING_MODEL,
-                          filter_report: dict | None = None,
-                          max_works: int = EXEMPLAR_MAX_WORKS) -> list[dict]:
+                          filter_report: dict | None = None) -> list[dict]:
     """写作范文的两段式选择（设计 §4.2）：先按文风选作品，再在作品内按情节排场景。
 
     过滤与 query() 相同，另加范文池准入与 --exclude-novel。作品分数 = 0.7 × style hint 与该作品候选
     场景 style 向量的平均相似度 + 0.3 × 该作品情节最近三场与 query 的平均相似度；没有 style hint 时只看情节。
     style 向量由场景 style_profile 与作品 style_card 的文字算出，作品之间的差距通常只有 0.1 左右，
     排序只作初选：主控看头部的描述行判断，不合用时用 --exclude-novel 换掉。
-    返回 [{novel, score, style, plot, rows}]，rows 按情节相似度降序。filter_report 另写 pool
+    返回按分数降序的全部作品 [{novel, score, style, plot, rows}]，rows 按情节相似度降序。filter_report 另写 pool
     （候选场数、作品数、最大一部及占比）与 work_scores。
     """
     if original_only and not lang:
@@ -583,7 +574,7 @@ def select_exemplar_works(query_text: str, *, lang: str | None = None,
                       "rows": [{**index[i], "score": float(plot[i])} for i in rows]})
     works.sort(key=lambda w: w["score"], reverse=True)
     report["work_scores"] = [{k: w[k] for k in ("novel", "score", "style", "plot")} for w in works]
-    return works[:max_works]
+    return works
 
 
 _CARD_CACHE: dict[str, dict] = {}
