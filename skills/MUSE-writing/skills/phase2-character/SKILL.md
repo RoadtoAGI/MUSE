@@ -135,7 +135,7 @@ antagonist:                       # 对手按需
 
 **人物塑造与压力选择**：明确外在印象与有代价的选择之间的关系。麦基将主要人物的表里反差作为深度要求，采用这一方法时解释反差怎样在压力中显露。MUSE 同时保留表里一致的稳定人物作为项目创作选择：写明压力怎样揭示其坚持的程度、代价与后果，不为字段补造面具或外界误读。
 
-**幕后故事**：选择足以解释当前选择、关系和盲区的关键事件。只需少量可被 Phase 4-6 “采收”的种子（闪回、对话中提及、动机具体化），不为凑数量补造经历。幕后故事应与 Phase 1 世界设定一致。
+**幕后故事**：选择足以解释当前选择、关系和盲区的关键事件。只需少量可被 Phase 4-6 “采收”的种子（闪回、对话中提及、动机具体化），不为凑数量补造经历。幕后故事应与 Phase 1 世界设定一致；世界里发生过的大事怎样落到这个人身上（看见了什么、失去了什么、怎样活到现在）是其中一类，读者靠它知道人物处在什么世界里。
 
 > 欲望系统 / 弧光 / 反差 / 幕后故事的原文依据与理论展开见 `references/mckee-character.md`。
 
@@ -166,7 +166,6 @@ recognition_path:
 backstory_harvest:
   method: "embedded_storyteller | object_trace | witness_chain | contradictory_testimony | sensory_trigger | official_record"
   carrier: "具体承载物 / 讲述者 / 证据"
-  withheld_part: "故意不交代的部分"
 
 misread_matrix:
   - observer: "谁"

@@ -50,7 +50,6 @@ protagonist:
   backstory_harvest:                 # optional
     method: embedded_storyteller | object_trace | witness_chain | contradictory_testimony | sensory_trigger | official_record
     carrier: 具体承载物 / 讲述者 / 证据
-    withheld_part: 故意不交代的部分
   misread_matrix:                    # optional, list of observer→target rows
     - observer: 谁
       target: 误读谁
