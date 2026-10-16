@@ -44,6 +44,8 @@ DIMENSION_ENUM = {"冲突", "价值转变", "人物声音", "POV", "叙事组织
 # 文本质量的 subkind 沿 story-review 的 ai_pattern 与 micro_language 两组（story-review/references/
 # output-schema.md 为枚举权威）；写作简报按它解锁条目（scripts/brief_rules.yaml）
 SUBKIND_ENUM = {
+    # 口癖的四个机制（prose-craft ai-cliche-patterns.md）
+    "spelled_out", "posture_line", "filler_beat", "uniform_voice",
     "carrier_missing", "carrier_then_explain", "omission_violated", "narrator_self_corrects",
     "emotion_naming_under_face_loss", "monologue_padding", "subtext_translated_by_narrator",
     "planning_trace_leakage",

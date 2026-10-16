@@ -31,8 +31,9 @@ def test_every_navigation_line_resolves_to_entry_with_complete_first_paragraph(s
 
 
 @pytest.mark.parametrize("ref, starts", [
-    ("prose-craft/references/ai-cliche-patterns.md#narrator_self_corrects", "无依据的自知"),
-    ("prose-craft/references/ai-cliche-patterns.md#emotion_naming_under_face_loss", "无依据的自知"),
+    ("prose-craft/references/ai-cliche-patterns.md#dialogue_as_author_solution", "人物没有场内渠道"),
+    ("prose-craft/references/ai-cliche-patterns.md#omniscient_underexposure", "人物没有渠道却获得秘密"),
+    ("prose-craft/references/ai-cliche-patterns.md#spelled_out", "叙述或人物把读者能从前文自己推出的含义"),
     ("prose-craft/references/ai-cliche-patterns.md#planning_trace_leakage", "设计字段交付事实"),
     ("story-review/references/A_aesthetic-micro_language.md#stock_speech_tag", "用库存语气标签"),
 ])

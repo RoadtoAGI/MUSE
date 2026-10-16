@@ -34,5 +34,5 @@ description: 创作或改写小说散文叙述，将场景因果、人物经验�
 ## 写后核对与按需参考
 
 - [写后核对](references/prose-rules.md#写后核对)：交稿前核对事实、知识、对象与规划措辞
-- [叙述层高风险候选](references/prose-rules.md#叙述层高风险候选)：碎片结算、短句链、库存比喻持续削弱表达时
-- 案例与全文：[审阅到修订](references/observed-revision-cases.md)、[操作取舍](references/observed-action-cases.md)、[麦基场景与表达](references/mckee-scene-craft.md)、[名著手艺](references/novel-craft-patterns.md)、[AI 陈腔判别](references/ai-cliche-patterns.md)
+- [口癖的改法](references/prose-rules.md#口癖的改法)：命中就删、压、改，改完连读
+- 案例与全文：[审阅到修订](references/observed-revision-cases.md)、[操作取舍](references/observed-action-cases.md)、[麦基场景与表达](references/mckee-scene-craft.md)、[名著手艺](references/novel-craft-patterns.md)、[口癖模式库](references/ai-cliche-patterns.md)

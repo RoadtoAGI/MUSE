@@ -177,7 +177,7 @@ def test_disclosure_entry_after_first_round_then_full_after_second(tmp_path):
     _review(work, 2, [_finding("文本质量", "abstract_judgment_without_action")])
     awb.assemble_shortform(work)
     entries = _brief(work).split("## 条目")[1].split("## 指令")[0]
-    assert "全文：prose-craft/references/ai-cliche-patterns.md#信息与焦点" in entries
+    assert "全文：prose-craft/references/ai-cliche-patterns.md#说破" in entries
     state = yaml.safe_load((work / "pipeline/shortform/disclosure_state.yaml").read_text(encoding="utf-8"))
     assert state["unlocked"][0]["rung"] == "full" and state["unlocked"][0]["history"][-1] == {"full": "r3"}
     assert "条目注明“全文”的，动笔前读那一处。" in _brief(work)
@@ -188,7 +188,7 @@ def test_unknown_subkind_falls_back_to_dimension_entry(tmp_path):
     _review(work, 1, [_finding("文本质量", "carrier_missing"), _finding("人物声音")])
     awb.assemble_shortform(work)
     items = [e["item"] for e in _meta(work)["entries"] if e["attached"]]
-    assert "prose-craft/references/prose-rules.md#叙述层高风险候选" in items
+    assert "prose-craft/references/prose-rules.md#口癖的改法" in items
     assert "dialogue-craft/references/voice-and-dialogue.md#声音差异" in items
 
 

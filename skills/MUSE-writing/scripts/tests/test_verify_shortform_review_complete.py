@@ -310,3 +310,16 @@ def test_narrative_organization_is_a_supported_review_dimension(tmp_path, monkey
         "severity": "MINOR", "dimension": "叙事组织", "quote": "溪水从石缝里流过。", "note": "局部转场可再打磨",
     }])
     assert gate.run_gate(work) == 0
+
+
+@pytest.mark.parametrize("subkind, expected", [
+    ("spelled_out", 0), ("posture_line", 0), ("filler_beat", 0), ("uniform_voice", 0), ("tone_only", 1),
+])
+def test_mechanism_subkinds_accepted_unknown_rejected(tmp_path, monkeypatch, subkind, expected):
+    _force_gate(monkeypatch, 0)
+    work = _build_run(tmp_path)
+    _write_report(work, 1, findings=[{
+        "severity": "MINOR", "dimension": "文本质量", "subkind": subkind,
+        "quote": "溪水从石缝里流过。", "note": "口癖",
+    }])
+    assert gate.run_gate(work) == expected

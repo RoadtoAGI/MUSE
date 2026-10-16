@@ -124,7 +124,7 @@ python3 "$MUSE_WRITING_ROOT/scripts/extract_draft_tail.py" \
 
 ### L1：定位线索
 
-对当前场景运行 `ai_filler_lint.py` 与 `dialogue_lint.py`；两脚本接收 `--work-dir`、`--scene-id`，可传 Phase 0 的实际 genre。沿当前 policy 使用默认诊断条件，不由类型另造阈值。保留初稿报告，修后使用既有 suffix。`lexical_stats.py` 只在审阅者需要副词密度、TTR 或感官平衡统计时运行。lint 产物是 A 组与 scene-reviewer 的定位线索；普通词形与密度由语义审阅按实际作用判断，命中数不构成修改义务。缺输入、脚本失败、当前报告无法对应正文时不能沿旧结果继续。
+对当前场景运行 `ai_filler_lint.py` 与 `dialogue_lint.py`；两脚本接收 `--work-dir`、`--scene-id`，可传 Phase 0 的实际 genre。沿当前 policy 使用默认诊断条件，不由类型另造阈值。保留初稿报告，修后使用既有 suffix。`lexical_stats.py` 只在审阅者需要副词密度、TTR 或感官平衡统计时运行。报告里 `per_sentence: true` 的逐句命中命中即改：写作者在首稿自查时已处理过一轮，仍在的由 A 组直接记 finding。observe 家族的词形与密度是 A 组与 scene-reviewer 的定位线索，由语义审阅按实际作用判断，命中数不构成修改义务。缺输入、脚本失败、当前报告无法对应正文时不能沿旧结果继续。
 
 机器合同 lane（`machine_directive.py` 与分布修订）默认不在逐场路径中，AIGC 机器合同由 Phase 7 `wholetext_gate.py` 对全文判断；作者明确要求 strict 时按执行协议“机器合同 lane”启用。
 

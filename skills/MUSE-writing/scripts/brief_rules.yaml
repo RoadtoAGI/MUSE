@@ -18,17 +18,30 @@ shortform:
 
   findings:
     文本质量:
-      entry: prose-craft/references/prose-rules.md#叙述层高风险候选
+      entry: prose-craft/references/prose-rules.md#口癖的改法
       full: prose-craft/references/ai-cliche-patterns.md
+    # 口癖的四个机制；下面三个旧 subkind 是说破在特定位置的表现，附同一条目
+    文本质量/spelled_out:
+      entry: prose-craft/references/ai-cliche-patterns.md#spelled_out
+      full: prose-craft/references/ai-cliche-patterns.md#说破
+    文本质量/posture_line:
+      entry: prose-craft/references/ai-cliche-patterns.md#posture_line
+      full: prose-craft/references/ai-cliche-patterns.md#姿态句
+    文本质量/filler_beat:
+      entry: prose-craft/references/ai-cliche-patterns.md#filler_beat
+      full: prose-craft/references/ai-cliche-patterns.md#填充
+    文本质量/uniform_voice:
+      entry: prose-craft/references/ai-cliche-patterns.md#uniform_voice
+      full: prose-craft/references/ai-cliche-patterns.md#同声
     文本质量/narrator_self_corrects:
-      entry: prose-craft/references/ai-cliche-patterns.md#narrator_self_corrects
-      full: prose-craft/references/ai-cliche-patterns.md#人物与叙述权限
+      entry: prose-craft/references/ai-cliche-patterns.md#spelled_out
+      full: prose-craft/references/ai-cliche-patterns.md#说破
     文本质量/emotion_naming_under_face_loss:
-      entry: prose-craft/references/ai-cliche-patterns.md#narrator_self_corrects  # 与上一键同一行
-      full: prose-craft/references/ai-cliche-patterns.md#人物与叙述权限
+      entry: prose-craft/references/ai-cliche-patterns.md#spelled_out
+      full: prose-craft/references/ai-cliche-patterns.md#说破
     文本质量/monologue_padding:
-      entry: prose-craft/references/ai-cliche-patterns.md#长独白或均质分段
-      full: prose-craft/references/ai-cliche-patterns.md#表达组织
+      entry: prose-craft/references/ai-cliche-patterns.md#spelled_out
+      full: prose-craft/references/ai-cliche-patterns.md#说破
     文本质量/subtext_translated_by_narrator:
       entry: prose-craft/references/prose-rules.md#潜文本的适用条件
       full: prose-craft/references/mckee-scene-craft.md#Subtext
@@ -36,8 +49,8 @@ shortform:
       entry: prose-craft/references/ai-cliche-patterns.md#planning_trace_leakage
       full: prose-craft/references/ai-cliche-patterns.md
     文本质量/carrier_then_explain:
-      entry: prose-craft/references/ai-cliche-patterns.md#psychological_overfill
-      full: prose-craft/references/ai-cliche-patterns.md#信息与焦点
+      entry: prose-craft/references/ai-cliche-patterns.md#spelled_out
+      full: prose-craft/references/ai-cliche-patterns.md#说破
     文本质量/false_literary_diction:
       entry: story-review/references/A_aesthetic-micro_language.md#false_literary_diction
       full: story-review/references/A_aesthetic-micro_language.md#§7 微观语言错配
@@ -46,7 +59,7 @@ shortform:
       full: story-review/references/A_aesthetic-micro_language.md#§7 微观语言错配
     文本质量/abstract_judgment_without_action:
       entry: story-review/references/A_aesthetic-micro_language.md#abstract_judgment_without_action
-      full: prose-craft/references/ai-cliche-patterns.md#信息与焦点
+      full: prose-craft/references/ai-cliche-patterns.md#说破
     文本质量/stock_speech_tag:
       entry: story-review/references/A_aesthetic-micro_language.md#stock_speech_tag
       full: dialogue-craft/references/speech-attribution-patterns.md
