@@ -26,7 +26,6 @@ target_length:
   range: 6000-10000   # 按需；保留用户约束强度
 originality_statement:
   unique_angle: 具体切入点；mix 时说明组成与关系
-  cliches_to_avoid: []
 ```
 
 `premise/core_value/controlling_idea/genre/primary_drive/target_length` 提供基本构想。价值光谱与 `originality_statement` 按需填写；既有产物缺 `primary_drive` 时按 `shift` 兼容。局部模式描述各自职责，不由全局标签自动推出人物变化或场景结构。
@@ -52,13 +51,13 @@ craft_targets:
     primary: 叙述者位置的描述
     permission: 可知范围、叙述时点与评述权限
     examples_in_reference_work: []
-canon_reference_profile:
+canon_reference_profile:   # 只记用户说过的；用户未指定时省略
   desired_domains: []
   avoid_domains: []
   user_reference_materials:
     - work: 用户指定作品
       stance: prefer       # prefer / avoid
-      reason: 来源用途
+      reason: 用户原话或其出处
       intended_domains: [world_rule]
       reuse_mode: maximize_apt_reuse  # maximize_apt_reuse / style_only
 ```
@@ -68,10 +67,10 @@ canon_reference_profile:
 | 前提、价值与主控思想 | Phase 1–5 推演世界、人物与事件；校验具体设计是否保留作者意图 |
 | `genre/target_length` | 各阶段分配结构与展开深度；明确字数硬要求还需按原义保留 |
 | `requirements` | Phase 5 分配实际承接，Phase 6–7 执行与复核；只记录明确要求 |
-| `reference_materials` | Phase 1 取背景、Phase 2 取人物经验、Phase 6 取适用素材；可保留原词、段落及定位 |
-| `style_directives` | 全文表达要求，区别于人物声音 |
+| `reference_materials` | 作者提供的素材；Phase 1 取背景、Phase 2 取人物经验、Phase 6 取适用素材；可保留原词、段落及定位 |
+| `style_directives` | 全文要怎样写，区别于人物声音 |
 | `craft_targets` | 有手艺来源时供 Phase 5/6 选择表达；各子项可省略，不随背景素材强制生成 |
 | `craft_targets.narrator_position` | Phase 5 视角编排、Phase 6 叙述权限；自由描述，已有标签可继续使用 |
-| `canon_reference_profile` | 参考选择、排除与领域绑定；缺省合法，不要求因此启动深度研究 |
+| `canon_reference_profile` | 用户的参考选择、排除与领域绑定；缺省合法，检索所得由设计者按本作前提采用 |
 
-`intended_domains` 使用既有领域 `world_rule/reveal_structure/protagonist_archetype/scene_carrier/prose_style_imitation`。`prefer + maximize_apt_reuse` 在命中领域先沿用来源已成立的机制；`style_only` 限定表达参考。没有领域的既有条目作为选材偏好，不自动成为世界事实。
+`intended_domains` 使用既有领域 `world_rule/reveal_structure/protagonist_archetype/scene_carrier/prose_style_imitation`。`prefer + maximize_apt_reuse` 在命中领域先沿用来源已成立的机制；`style_only` 限定表达参考，只在用户说只借文风时出现。没有领域的既有条目作为选材偏好，不自动成为世界事实。

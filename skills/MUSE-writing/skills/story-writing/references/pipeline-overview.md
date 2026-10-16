@@ -42,7 +42,7 @@ Phase 6 每场由 `role-brief-deriver` 生成独立 `role_views/{slug}.yaml`。�
 
 阶段 owner 按实际缺口加载已安装的 `design-doc-reference`；已有适用材料先复用。扩展不可用时继续处理可由现有输入支持的设计，明确受影响的缺口。
 
-用户选择的来源、复用方式与适用领域随相关决定传递。`stance: prefer`、`reuse_mode: maximize_apt_reuse` 且领域包含 `world_rule` 时，Phase 1 采用该来源的实际运行机制，按本作情境适配；后续按已确定规则创作。把它换成传闻、象征或另一套原因会改变已选机制，应回到该决定处理。
+用户选择的来源、复用方式与适用领域随相关决定传递。`stance: prefer`、`reuse_mode: maximize_apt_reuse` 且领域包含 `world_rule` 时，Phase 1 采用该来源的实际运行机制，按本作情境适配；后续按已确定规则创作。把它换成传闻、象征或另一套原因会改变已选机制，应回到该决定处理。用户没有绑定的检索来源，由阶段 owner 按本作前提采用其机制、人物、情节或原文，贴切时越像越好。
 
 参考生产者输出候选；阶段 owner 采纳后，将其加入 `inspiration_ledger.yaml` 并在实际使用的字段挂 INS-*。具体结构和生命周期见 [ledger schema](../../design-validation/references/output-schema.md#inspiration_ledgeryaml-schema)。普通来源材料无需为入上下文再造卡片；ledger 用于已建立的显式机制或原型绑定。
 
