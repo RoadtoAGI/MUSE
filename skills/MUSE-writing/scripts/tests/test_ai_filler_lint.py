@@ -14,7 +14,6 @@ from ai_filler_lint import (
     detect_ordinal_gravity_marker,
     detect_state_persistence_tag,
     detect_keyword_cliche,
-    detect_parallel_negation,
     detect_banned_markdown,
     detect_conjunction_overuse,
     detect_comma_short_interval,
@@ -43,6 +42,10 @@ EXPECTED_FAMILIES = {
     "social_choreography", "contrastive_negation_assertion",
     "micro_punchline_cadence", "state_persistence_template",
     "meta_language_leak", "dummy_pronoun", "demonstrative_classifier",
+    # 逐句家族（sentence_families.py）
+    "echo_negation", "negation_list", "single_sentence_paragraph", "precise_number_repeat",
+    "abstract_classifier", "rather_stance_en", "couplet_fragment", "mirrored_pair",
+    "body_closeup_filler", "stiff_adverb",
 }
 
 EXPECTED_GROUPS = {"hard", "syntax_heuristic", "semantic_heuristic"}
@@ -78,88 +81,15 @@ def test_keyword_cliche_no_false_positive():
     assert detect_keyword_cliche(text) == []
 
 
-def test_parallel_negation():
-    text = "没有声音，没有光。\n不是方向错了，而是时机不对。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "没有A没有B" in patterns
-    assert "不是A而是B" in patterns
 
 
-def test_parallel_negation_single_shi():
-    text = "不是退阵，是变阵。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "不是A是B" in patterns
-    assert "不是A而是B" not in patterns
 
 
-def test_parallel_negation_dash():
-    text = "不是说那位独臂客——是说夜枫坞。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "不是A——是B" in patterns
 
 
-def test_parallel_negation_zhishi():
-    text = "不是黯然销魂掌，只是近于那路。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "不是A只是B" in patterns
 
 
-def test_parallel_negation_reverse():
-    text = "是被剑刃割断的，不是自然磨断。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "是A的不是B" in patterns
 
-
-def test_parallel_negation_meiyou_shi():
-    text = "没有声音，是黑暗。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "没有A是B" in patterns
-
-
-def test_parallel_negation_meiyou_shi_severity_low():
-    text = "没有声音，是黑暗。"
-    hits = detect_parallel_negation(text)
-    h = next(h for h in hits if h["pattern"] == "没有A是B")
-    assert h.get("severity") == "low"
-    assert h.get("group") == "heuristic"
-
-
-def test_parallel_negation_classic_no_severity_defaults_high():
-    # 检测器保留高置信形态；是否立案由 policy 生命周期决定。
-    text = "不是方向错了，而是时机不对。"
-    hits = detect_parallel_negation(text)
-    h = next(h for h in hits if h["pattern"] == "不是A而是B")
-    assert "severity" not in h
-    assert "group" not in h
-
-
-def test_parallel_negation_meiyou_zhishi():
-    text = "没有反应，只是停顿。"
-    hits = detect_parallel_negation(text)
-    patterns = {h["pattern"] for h in hits}
-    assert "没有A只是B" in patterns
-
-
-def test_parallel_negation_bingfei_shi():
-    text = "并非他错了，而是时机不对。\n并非偶然，是必然。"
-    hits = detect_parallel_negation(text)
-    patterns = [h["pattern"] for h in hits]
-    assert patterns.count("并非A是B") == 2
-
-
-def test_parallel_negation_meiyou_no_double_count():
-    # "没有A没有B" 已抓的不应再被 "没有A是B" 重复抓
-    text = "没有声音，没有光。"
-    hits = detect_parallel_negation(text)
-    patterns = [h["pattern"] for h in hits]
-    assert patterns.count("没有A没有B") == 1
-    assert "没有A是B" not in patterns
 
 
 def test_keyword_cliche_ji_as_adverb():
@@ -192,14 +122,6 @@ def test_keyword_cliche_gewai_shaoshao():
     assert "格外" in patterns
     assert "稍稍" in patterns
 
-
-def test_parallel_negation_ershi_no_double_count():
-    # 不应同时命中 "不是A是B"（"而是"由负向断言排除）
-    text = "不是方向错了，而是时机不对。"
-    hits = detect_parallel_negation(text)
-    patterns = [h["pattern"] for h in hits]
-    assert patterns.count("不是A而是B") == 1
-    assert "不是A是B" not in patterns
 
 
 def test_contrastive_negation_assertion_detects_7_variants():
@@ -293,14 +215,17 @@ def test_state_persistence_tag_no_anchor_repeat():
 
 
 
-def test_contrastive_fixture_remains_visible_without_blocking():
+def test_contrastive_fixture_opens_single_hit_alert():
+    # 叙述层"不是 X，是 Y"按设计 §5.1 恢复单发；光杆"不X只Y"仍是 observe 线索
     scene_text = (_PLUGIN_ROOT / "scripts/tests/fixtures/367_S01_contrastive.txt").read_text(encoding="utf-8")
     output = run_ai_filler_lint(scene_text)
-    hits = [h for h in output["lint_hits"] if h["family"] == "contrastive_negation_assertion"]
+    main = [h for h in output["lint_hits"] if h["rule"] == "contrastive_negation_assertion"]
+    bare = [h for h in output["lint_hits"] if h["rule"] == "negation_restriction_pivot"]
     alerts = [a for a in output["cluster_alerts"] if a["family"] == "contrastive_negation_assertion"]
-    assert len(hits) >= 2
-    assert all(h["policy_lifecycle"] == "observe" for h in hits)
-    assert alerts == []
+    assert len(main) >= 2 and all(h["policy_lifecycle"] == "enforced" for h in main)
+    assert bare and all(h["policy_lifecycle"] == "observe" for h in bare)
+    assert len(alerts) == 1
+    assert set(alerts[0]["hit_ids"]) == {h["lint_id"] for h in main}
 
 
 def test_observed_alert_hit_ids_bind_individual_hits():
@@ -902,11 +827,11 @@ def test_stock_silence_pause_paragraph_2_medium():
     assert len(medium) >= 1
 
 
-def test_clean_draft_few_hits(clean_draft):
+def test_clean_draft_has_no_per_sentence_hits(clean_draft):
+    # 夹具取作者认可的 183 开头三段；observe 家族的命中只是复读线索，逐句命中才要求改
     result = analyze(clean_draft)
-    # 排除 low severity advisory（短段单发等节奏提示，不计为"脏"）
-    non_advisory = [h for h in result["hits"] if h.get("severity") != "low"]
-    assert len(non_advisory) <= 1
+    assert [h for h in result["hits"] if h.get("per_sentence")] == []
+    assert result["cluster_alerts"] == []
 
 
 def test_polluted_draft_many_hits(polluted_draft):

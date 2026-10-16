@@ -25,6 +25,18 @@ CONSUMERS = [
 ]
 
 
+# 口癖的四个机制（prose-craft ai-cliche-patterns.md）。家族标明它定位的机制，命中的
+# finding 用机制 id 作 subkind；不定位口癖的家族（指称、Markdown 等）不标。
+MECHANISMS = {
+    "spelled_out": "说破",
+    "posture_line": "姿态句",
+    "filler_beat": "填充",
+    "uniform_voice": "同声",
+}
+MECHANISM_REPAIR_REF = "prose-craft/references/prose-rules.md#口癖的改法"
+TIC_REPAIR = "按 prose-craft 口癖的改法删去、压进相邻句或改成平常句子，改完连读前后文"
+
+
 def _calibration_ref(lang: str, family: str, metric: str = "p90_positive") -> str:
     return f"builtin:v1:{lang}:{family}:{metric}"
 
@@ -52,6 +64,15 @@ _BASELINES_EN = {
     "rhythm_fragmentation": 0.82,
 }
 
+# 逐句定义中留出负控不过、降为整篇密度监测的家族：人类小说有命中片段的每千字 P90
+# （AI 口癖治理升级设计 §5.1；校准 2026-10-17，15 部人类小说按约 3,000 字片段计）。
+_BASELINES_ZH_2026_10_17 = {
+    "couplet_fragment": 1.96,
+    "mirrored_pair": 0.33,
+    "body_closeup_filler": 0.66,
+    "stiff_adverb": 1.0,
+}
+
 CALIBRATION_RECORDS: dict[str, dict[str, Any]] = {
     _calibration_ref(lang, family): {
         "family": family,
@@ -63,12 +84,87 @@ CALIBRATION_RECORDS: dict[str, dict[str, Any]] = {
     for lang, table in (("zh", _BASELINES_ZH), ("en", _BASELINES_EN))
     for family, value in table.items()
 }
+CALIBRATION_RECORDS.update({
+    _calibration_ref("zh", family): {
+        "family": family,
+        "language": "zh",
+        "metric": "p90_positive",
+        "value": value,
+        "provenance": "ai-pattern-calibration-2026-10-17",
+    }
+    for family, value in _BASELINES_ZH_2026_10_17.items()
+})
 
 # New observe→enforced promotions are added here with all three evidence legs.
-# The empty initial registry is intentional: current enforced policies predate
-# the contract.  Their manifest entries carry ``pre_contract`` explicitly so a
-# future observe policy cannot become enforced without a resolvable record.
+# Pre-contract enforced policies carry ``pre_contract`` explicitly so a future
+# observe policy cannot become enforced without a resolvable record.
+#
+# 2026-10-17 逐句家族（AI 口癖治理升级设计 §5.1）：三项证据各对应一个数，由
+# tmp/ai-pattern-calibration/calibrate.py 用本包检测器一次算出。口径：
+# - prevalence：22 句作者标注（A 作者圈出或裁决 3 句，B 归入同型 19 句）的召回；AI 两组每千字（合并口径）。
+# - hard_negative：15 部人类小说每千字（合并口径）须低于 AI 两组；作者认可的 183 只许命中已裁决的两句；
+#   作者判口癖少的留出稿 02、03 每千字不超过人类最高的一部。
+# - fixture_refs：should-fix 取标注句，should-not-fix 取 183 里落在定义之外的句子。
+_CALIBRATION = "ai-pattern-calibration-2026-10-17"
+_SENTENCE_FIXTURES = "scripts/tests/test_sentence_families.py"
+
+
+def _promotion(
+    family: str,
+    lang: str,
+    rule: str | None,
+    decision_ref: str,
+    evidence: dict[str, Any],
+) -> dict[str, Any]:
+    return {
+        "family": family,
+        "language": lang,
+        "rule": rule,
+        "prevalence_ref": f"{_CALIBRATION}:{family}:prevalence",
+        "hard_negative_ref": f"{_CALIBRATION}:{family}:hard_negative",
+        "fixture_refs": [
+            f"{_SENTENCE_FIXTURES}::test_should_fix[{family}]",
+            f"{_SENTENCE_FIXTURES}::test_should_not_fix[{family}]",
+        ],
+        "decision_ref": decision_ref,
+        "evidence": evidence,
+    }
+
+
+_POSTURE = "ai-pattern-posture-2026-10-16"
+_HELDOUT = "ai-pattern-heldout-2026-10-17"
+# family -> (语言, 是否需要规则级晋升, decision_ref, 证据数)
+_SENTENCE_PROMOTIONS: dict[str, tuple[str, bool, str, dict[str, Any]]] = {
+    "echo_negation": ("zh", True, _POSTURE, {
+        "recall": "A 0/3, B 3/19", "per_1k": {"human": 0.047, "muse": 0.169, "zeroshot": 0.159},
+        "story_183": "0", "heldout_02_03_per_1k": [0.17, 0.0], "human_max_work": 0.37}),
+    "negation_list": ("zh", True, _POSTURE, {
+        "recall": "A 0/3, B 2/19", "per_1k": {"human": 0.056, "muse": 0.153, "zeroshot": 0.279},
+        "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.0], "human_max_work": 0.164}),
+    "single_sentence_paragraph": ("zh", True, _POSTURE, {
+        "recall": "A 3/3, B 11/19", "per_1k": {"human": 0.502, "muse": 1.037, "zeroshot": 3.055},
+        "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.99], "human_max_work": 2.959}),
+    "precise_number_repeat": ("zh", True, _HELDOUT, {
+        "recall": "A 0/3, B 0/19; A/B 稿 594 2.81–3.68, 858 0–2.27", "per_1k": {
+            "human": 0.023, "muse": 0.113, "zeroshot": 0.071},
+        "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.0], "human_max_work": 0.165}),
+    "abstract_classifier": ("zh", True, _HELDOUT, {
+        "recall": "A 0/3, B 0/19", "per_1k": {"human": 0.439, "muse": 0.722, "zeroshot": 3.183},
+        "story_183": "0", "heldout_02_03_per_1k": [0.34, 0.12], "human_max_work": 0.968}),
+    "contrastive_negation_assertion": ("zh", False, _POSTURE, {
+        "recall": "A 0/3, B 1/19", "per_1k": {"human": 0.102, "muse": 0.52, "zeroshot": 0.939},
+        "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.0], "human_max_work": 0.383,
+        "note": "光杆否定加限缩转折（不X只Y、没X只Y）单列 negation_restriction_pivot 留 observe"}),
+    "rather_stance_en": ("en", True, _HELDOUT, {
+        "recall": "A/B 稿 926、928 的 S 臂 0.46–1.1 每千词", "per_1k_words": {
+            "human_I_Am_Legend": 0.0, "en_ai_median": 0.0, "en_ai_max": 0.189}}),
+}
 PROMOTION_RECORDS: dict[str, dict[str, Any]] = {}
+for _fam, (_lang, _rule_level, _decision, _evidence) in _SENTENCE_PROMOTIONS.items():
+    PROMOTION_RECORDS[f"{_CALIBRATION}:{_fam}:{_lang}"] = _promotion(_fam, _lang, None, _decision, _evidence)
+    if _rule_level:
+        PROMOTION_RECORDS[f"{_CALIBRATION}:{_fam}:{_lang}:{_fam}"] = _promotion(
+            _fam, _lang, _fam, _decision, _evidence)
 
 
 def _policy(
@@ -125,10 +221,13 @@ def _family(
     density_contract: bool = False,
     decision_ref: str | None = None,
     promoted_ref: str | None = None,
+    mechanism: str | None = None,
 ) -> dict[str, Any]:
     # en remains explicitly observe for every family until its own promotion.
     # promoted_ref 存在 = §1.3 合同晋升形态（须有 PROMOTION_RECORDS 三证据记录）；
     # 否则 enforced 只能是 pre_contract grandfather 形态。
+    if mechanism is not None and mechanism not in MECHANISMS:
+        raise ValueError(f"unknown mechanism {mechanism!r}")
     zh_policy = _policy(
         "observe",
         baseline_policy="calibrated" if observe_baseline else None,
@@ -145,15 +244,56 @@ def _family(
         density_contract=density_contract,
         promoted_ref=promoted_ref,
     )
+    policies = {"zh": zh_policy, "en": _policy("observe")}
+    for lang_policy in policies.values():
+        if mechanism is not None:
+            lang_policy["mechanism"] = mechanism
     return {
         "group": group,
         "cluster": cluster,
         "aliases": aliases,
-        "repair": repair,
+        "repair": TIC_REPAIR if mechanism is not None else repair,
         "decision_ref": decision_ref,
+        "mechanism": mechanism,
         "consumers": list(CONSUMERS),
-        "policy": {"zh": zh_policy, "en": _policy("observe")},
+        "policy": policies,
     }
+
+
+def _sentence_family(
+    family: str,
+    aliases: list[str],
+    mechanism: str,
+    *,
+    density_only: bool = False,
+) -> dict[str, Any]:
+    """逐句家族（设计 §5.1）：三项证据齐备的命中即改、单发立案；留出负控不过的只做整篇密度监测。"""
+    if density_only:
+        return _family(
+            "syntax_heuristic", "sentence_pattern", aliases, TIC_REPAIR, None,
+            observe_zh=True, observe_baseline=True, decision_ref=_POSTURE, mechanism=mechanism,
+        )
+    lang, rule_level, decision, _ = _SENTENCE_PROMOTIONS[family]
+    single_hit = {"same_family_scene_count_gte": 1}
+    record = _family(
+        "syntax_heuristic", "sentence_pattern", aliases, TIC_REPAIR, "S",
+        observe_zh=lang != "zh", exempt=True, single_hit=True, aggregation=single_hit,
+        decision_ref=decision, promoted_ref=f"{_CALIBRATION}:{family}:zh" if lang == "zh" else None,
+        mechanism=mechanism,
+    )
+    if lang == "en":
+        en_policy = _policy(
+            "enforced", sovereignty="S", baseline_policy="exempt", single_hit=True,
+            aggregation=single_hit, promoted_ref=f"{_CALIBRATION}:{family}:en",
+        )
+        en_policy["mechanism"] = mechanism
+        record["policy"]["en"] = en_policy
+    if rule_level:
+        record["policy"][lang]["rules"][family] = {
+            "lifecycle": "enforced",
+            "promoted_ref": f"{_CALIBRATION}:{family}:{lang}:{family}",
+        }
+    return record
 
 
 FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
@@ -171,6 +311,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         device_budget={"storyteller_voice": 1.3},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "fragment_settlement": _family(
         "semantic_heuristic",
@@ -180,6 +321,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         None,
         observe_zh=True,
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
+        mechanism="posture_line",
     ),
     "micro_clause_chain": _family(
         "semantic_heuristic",
@@ -189,6 +331,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         None,
         observe_zh=True,
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
+        mechanism="posture_line",
     ),
     "connector_overuse": _family(
         "hard", "connector_overuse", ["段首然后", "连接词过用"], "按事件关系保留或改写连接，收束无作用的流水复述", "S",
@@ -204,16 +347,19 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         device_budget={"staccato_action": 1.6, "archive_cold": 1.6},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "repeated_head": _family(
         "syntax_heuristic", "rhythm_fragmentation", ["同字起手", "排比"], "按段落推进处理机械重复，保留必要回指、强调和声线", "S",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "action_log": _family(
         "syntax_heuristic", "action_log", ["动作清单化", "流水账"], "按因果、空间、人物与体验作用组织动作", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "dash_overuse": _family(
         "syntax_heuristic", "rhythm_fragmentation", ["破折号过密"], "核对破折号所表达的关系，修复断裂或无作用的插入", "S",
@@ -224,11 +370,13 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         "semantic_heuristic", "figurative_debt", ["短比喻债务", "像某种X"], "修复遮住对象的比喻，保留有效映射与叙述认识", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "abstract_phrase_debt": _family(
         "semantic_heuristic", "abstract_explanation", ["抽象短语债务", "某种重量"], "补足判断所需对象与依据，保留有效概括和心理展开", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="spelled_out",
     ),
     "silence_pause_cliche": _family(
         "semantic_heuristic",
@@ -239,20 +387,28 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         device_budget={"naked_line": 1.3},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="filler_beat",
     ),
     "social_choreography": _family(
         "semantic_heuristic", "social_choreography", ["社交调度流水", "接电话去了"], "收束无作用的调度复述，保留空间、话轮与人物关系承接", "M",
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="filler_beat",
     ),
+    # 08-28 降为 observe；2026-10-17 按设计 §5.1 三项证据恢复单发。光杆否定加限缩转折的两个
+    # 变体单列 negation_restriction_pivot，留 observe（183 与人类小说上同形常见）。
     "contrastive_negation_assertion": _family(
         "semantic_heuristic",
         "explanatory_detour",
         ["不是A是B", "不是A而是B"],
-        "按实际对照或误认组织表达，删并没有作用的纠偏框架",
-        None,
-        observe_zh=True,
-        decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
+        TIC_REPAIR,
+        "S",
+        exempt=True,
+        single_hit=True,
+        aggregation={"same_family_scene_count_gte": 1},
+        decision_ref=_POSTURE,
+        promoted_ref=f"{_CALIBRATION}:contrastive_negation_assertion:zh",
+        mechanism="spelled_out",
     ),
     "micro_punchline_cadence": _family(
         "semantic_heuristic",
@@ -264,6 +420,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         device_budget={"naked_line": 1.6, "staccato_action": 1.6},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="posture_line",
     ),
     "state_persistence_template": _family(
         "semantic_heuristic",
@@ -274,10 +431,26 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         aggregation={"same_rule_scene_count_gte": 2, "same_anchor_repeated_count_gte": 2},
         observe_zh=True, observe_baseline=True,
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
+        mechanism="filler_beat",
     ),
     "meta_language_leak": _family(
-        "hard", "meta_language_leak", ["元语言泄漏"], "修复外泄的创作过程说明，保留故事内有效总结与叙述声音", None, observe_zh=True
+        "hard", "meta_language_leak", ["元语言泄漏"], "修复外泄的创作过程说明，保留故事内有效总结与叙述声音", None, observe_zh=True,
+        mechanism="spelled_out",
     ),
+    # 逐句家族（AI 口癖治理升级设计 §5.2）。定义在 sentence_families.py。
+    "echo_negation": _sentence_family("echo_negation", ["回声否定", "没有人接"], "posture_line"),
+    "negation_list": _sentence_family("negation_list", ["否定清单", "没有A没有B"], "posture_line"),
+    "single_sentence_paragraph": _sentence_family(
+        "single_sentence_paragraph", ["叙述单句成段"], "posture_line"),
+    "precise_number_repeat": _sentence_family("precise_number_repeat", ["精确数字反复"], "posture_line"),
+    "abstract_classifier": _sentence_family("abstract_classifier", ["抽象框定词", "一种那种某种"], "spelled_out"),
+    "rather_stance_en": _sentence_family("rather_stance_en", ["I'd rather", "rather than 表态"], "uniform_voice"),
+    # 留出负控不过，只做整篇密度监测
+    "couplet_fragment": _sentence_family("couplet_fragment", ["短对句"], "posture_line", density_only=True),
+    "mirrored_pair": _sentence_family("mirrored_pair", ["同字对举"], "posture_line", density_only=True),
+    "body_closeup_filler": _sentence_family(
+        "body_closeup_filler", ["身体特写", "停顿套语"], "filler_beat", density_only=True),
+    "stiff_adverb": _sentence_family("stiff_adverb", ["书面虚词仍"], "filler_beat", density_only=True),
     # Referential forms locate a possible comprehension problem. Their density
     # cannot determine whether a reader can recover the antecedent. Keep the
     # calibration for prioritising review; editing follows contextual findings.
@@ -295,9 +468,7 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
     ),
 }
 
-# ``parallel_negation`` 与 contrastive_negation_assertion 在多种句式上命中同一
-# span。该重叠 rule 保留显式 observe，避免候选经兼容词法路径获得阻断权。
-FAMILY_MANIFEST["lexical_cliche"]["policy"]["zh"]["rules"]["parallel_negation"] = _policy(
+FAMILY_MANIFEST["contrastive_negation_assertion"]["policy"]["zh"]["rules"]["negation_restriction_pivot"] = _policy(
     "observe"
 )
 
@@ -458,7 +629,6 @@ PRE_CONTRACT_RULE_IDENTITIES = PRE_CONTRACT_INHERITED_RULES | frozenset({
 RULE_REGISTRY: dict[str, dict[str, Any]] = {
     "banned_markdown": {"family": "marker_pollution", "languages": ["zh", "en"]},
     "keyword_ai_cliche": {"family": "lexical_cliche", "languages": ["zh"]},
-    "parallel_negation": {"family": "lexical_cliche", "languages": ["zh"]},
     "conjunction_overuse": {"family": "connector_overuse", "languages": ["zh"]},
     "short_paragraph_run": {"family": "rhythm_fragmentation", "languages": ["zh"], "aggregation_only": True},
     "clause_fragment_density": {"family": "rhythm_fragmentation", "languages": ["zh"]},
@@ -487,6 +657,17 @@ RULE_REGISTRY: dict[str, dict[str, Any]] = {
     "meta_language_leak_en": {"family": "meta_language_leak", "languages": ["en"]},
     "dummy_pronoun": {"family": "dummy_pronoun", "languages": ["zh"]},
     "demonstrative_classifier": {"family": "demonstrative_classifier", "languages": ["zh"]},
+    "negation_restriction_pivot": {"family": "contrastive_negation_assertion", "languages": ["zh"]},
+    "echo_negation": {"family": "echo_negation", "languages": ["zh"]},
+    "negation_list": {"family": "negation_list", "languages": ["zh"]},
+    "single_sentence_paragraph": {"family": "single_sentence_paragraph", "languages": ["zh"]},
+    "precise_number_repeat": {"family": "precise_number_repeat", "languages": ["zh"]},
+    "abstract_classifier": {"family": "abstract_classifier", "languages": ["zh"]},
+    "couplet_fragment": {"family": "couplet_fragment", "languages": ["zh"]},
+    "mirrored_pair": {"family": "mirrored_pair", "languages": ["zh"]},
+    "body_closeup_filler": {"family": "body_closeup_filler", "languages": ["zh"]},
+    "stiff_adverb": {"family": "stiff_adverb", "languages": ["zh"]},
+    "rather_stance_en": {"family": "rather_stance_en", "languages": ["en"]},
 }
 
 

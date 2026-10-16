@@ -2,7 +2,8 @@ from ai_filler_lint import analyze
 
 
 def test_span_aggregation_single_family_low():
-    text = "她嘴角动了动。"
+    # 嵌在段落里：单独成段时还会命中逐句家族 single_sentence_paragraph
+    text = "她嘴角动了动。窗外的雨下了一整夜，檐下的水缸早就满了。"
     result = analyze(text)
     assert "span_aggregation" in result
     spans = result["span_aggregation"]

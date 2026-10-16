@@ -21,10 +21,12 @@ from ai_policy import (
     FAMILY_CLUSTERS,
     FAMILY_GROUPS,
     FAMILY_REGISTRY,
+    MECHANISM_REPAIR_REF,
     RULE_TO_FAMILY,
     calibration_value,
     effective_policy,
 )
+from sentence_families import DETECTORS_EN, DETECTORS_ZH
 
 
 @dataclass(frozen=True)
@@ -132,36 +134,25 @@ CONJUNCTION_PATTERNS = [
     (r"(?:^|。)\s*然后", "段首然后"),
 ]
 
-PARALLEL_NEGATION_PATTERNS = [
-    (r"没有[^，。]{1,15}，没有[^，。]{1,15}(?!，只有)", "没有A没有B"),
-    (r"没有[^，。]{1,15}，没有[^，。]{1,15}，只有[^，。]{1,15}", "没有A没有B只有C"),
-    (r"没有[^，。]{1,15}，甚至没有[^，。]{1,15}", "没有A甚至没有B"),
-    (r"不是[^，。]{1,15}，而是[^，。]{1,15}", "不是A而是B"),
-    (r"不是[^，。]{1,15}，不是[^，。]{1,15}", "不是A不是B"),
-    (r"不是[^，。]{1,15}，(?!而是|不是|只是)是[^，。]{1,15}", "不是A是B"),
-    (r"不是[^，。—]{1,15}——是[^，。]{1,15}", "不是A——是B"),
-    (r"不是[^，。]{1,15}，只是[^，。]{1,15}", "不是A只是B"),
-    (r"是[^，。]{1,15}的，不是[^，。]{1,15}", "是A的不是B"),
-    (r"没有[^，。]{1,15}，(?!没有|甚至|只有)是[^，。]{1,15}", "没有A是B"),
-    (r"没有[^，。]{1,15}，只是[^，。]{1,15}", "没有A只是B"),
-    (r"并非[^，。]{1,15}，(?:而是|是)[^，。]{1,15}", "并非A是B"),
-    (r"并不[^，。]{1,15}，却[^，。]{1,15}", "并不A却B"),
-]
-PARALLEL_NEGATION_SOFT_PATTERNS = {
-    "没有A是B", "没有A只是B", "并非A是B",
-}
-
+# 否定转折（说破）。原 parallel_negation 的转折形态逐 pattern 并入；否定清单形态迁入
+# sentence_families.negation_list。
 CONTRASTIVE_NEGATION_PATTERNS = [
     (r"不是因为[^，。]{1,15}，而是因为[^，。]{1,15}", "不是因为X而是因为Y"),
     (r"不是因为[^，。]{1,15}，是因为[^，。]{1,15}", "不是因为X是因为Y"),
     (r"真正的不是[^，。]{1,15}，是[^，。]{1,15}", "真正的不是A是B"),
     (r"不是(?!因为)[^，。]{1,15}，而是[^，。]{1,15}", "不是A而是B"),
     (r"不是(?!因为)[^，。]{1,15}，是[^，。]{1,15}", "不是A是B"),
-    (r"并非[^，。]{1,15}，是[^，。]{1,15}", "并非A是B"),
+    (r"不是[^，。—]{1,15}——是[^，。]{1,15}", "不是A——是B"),
+    (r"不是[^，。]{1,15}，只是[^，。]{1,15}", "不是A只是B"),
+    (r"是[^，。]{1,15}的，不是[^，。]{1,15}", "是A的不是B"),
+    (r"并非[^，。]{1,15}，(?:而是|是)[^，。]{1,15}", "并非A是B"),
+    (r"并不[^，。]{1,15}，却[^，。]{1,15}", "并不A却B"),
     (r"没有[^，。]{1,15}，(是|只是)[^，。]{1,15}", "没有A是B"),
     (r"表面[^，。]{1,15}，实际[^，。]{1,15}", "表面A实际B"),
-    # 光杆否定 + 限缩转折（"不掰开，只是裹住" / "没说话，只是看着"）——
-    # 不是/没有 系由上方 pattern 承接，这里只接光杆 不/没 起手
+]
+# 光杆否定 + 限缩转折（"不掰开，只是裹住" / "没说话，只是看着"）：在 183 与人类小说上
+# 同形常见（"迈不动，只好扶着"），单列 observe 规则，只作定位线索。
+NEGATION_RESTRICTION_PATTERNS = [
     (r"不(?!是)[一-鿿]{1,5}[，,]\s*只(?:是|有)?[一-鿿]{1,15}", "不X只Y"),
     (r"没(?!有)[一-鿿]{1,5}[，,]\s*只(?:是|有)?[一-鿿]{1,15}", "没X只Y"),
 ]
@@ -527,42 +518,32 @@ def detect_conjunction_overuse(text: str) -> list[dict]:
     return hits
 
 
-def detect_parallel_negation(text: str) -> list[dict]:
-    hits = []
-    for pattern, label in PARALLEL_NEGATION_PATTERNS:
-        for m in re.finditer(pattern, text):
-            hit = {
-                "rule": "parallel_negation",
-                "pattern": label,
-                "location": _locate(text, m.start()),
-                "snippet": m.group(0),
-                "confidence": "high",
-            }
-            if label in PARALLEL_NEGATION_SOFT_PATTERNS:
-                hit["severity"] = "low"
-                hit["group"] = "heuristic"
-            hits.append(hit)
-    return hits
-
-
 def _span_overlaps(span: tuple[int, int], occupied: list[tuple[int, int]]) -> bool:
     return any(span[0] < end and start < span[1] for start, end in occupied)
 
 
 def detect_contrastive_negation_assertion(text: str) -> list[dict]:
+    return _negation_pivot_hits(text, "contrastive_negation_assertion", CONTRASTIVE_NEGATION_PATTERNS)
+
+
+def detect_negation_restriction_pivot(text: str) -> list[dict]:
+    return _negation_pivot_hits(text, "negation_restriction_pivot", NEGATION_RESTRICTION_PATTERNS)
+
+
+def _negation_pivot_hits(text: str, rule: str, patterns: list[tuple[str, str]]) -> list[dict]:
     hits = []
     occupied: list[tuple[int, int]] = []
-    family = RULE_TO_FAMILY["contrastive_negation_assertion"]
+    family = RULE_TO_FAMILY[rule]
     # 对白不属于本检测对象；mask 后只检叙述层（offset 等长映射回原文）。
     masked = _mask_quoted_spans(text)
-    for pattern, variant in CONTRASTIVE_NEGATION_PATTERNS:
+    for pattern, variant in patterns:
         for m in re.finditer(pattern, masked):
             span = (m.start(), m.end())
             if _span_overlaps(span, occupied):
                 continue
             occupied.append(span)
             hits.append({
-                "rule": "contrastive_negation_assertion",
+                "rule": rule,
                 "family": family,
                 "group": FAMILY_GROUPS[family],
                 "cluster": FAMILY_CLUSTERS[family],
@@ -1934,12 +1915,9 @@ def build_span_aggregation(hits: list[dict], text: str) -> list[dict]:
 # Rn+2 O4: canonical_family 条件性归并（同 span 才合并）+ aggregation_only 无条件标记。
 # 决策依据：GPT P1-1（parallel_negation/contrastive_negation_assertion 同 span 重复加权）
 # + GPT P1-3（narrative_micro_label 段级信号不该计单 hit）。
-CANONICAL_FAMILY_MAP = {
-    "parallel_negation": {
-        "canonical_rule": "contrastive_negation_assertion",
-        "scope": "same_span",
-    },
-}
+# supporting rule -> {"canonical_rule", "scope": "same_span"}。原 parallel_negation 的形态
+# 已逐 pattern 迁入 contrastive_negation_assertion 与 negation_list，当前没有同 span 重叠的规则对。
+CANONICAL_FAMILY_MAP: dict[str, dict[str, str]] = {}
 
 # rules whose hits are advisory aggregation signals, never counted toward cluster total.
 RULE_REGISTRY_AGGREGATION_ONLY = AGGREGATION_ONLY_RULES
@@ -2172,6 +2150,11 @@ def _prepare_policy_lanes(hits: list[dict], lang: str) -> None:
         hit["family"] = family
         policy = effective_policy(family, lang, hit.get("rule"))
         hit["policy_lifecycle"] = policy["lifecycle"]
+        # 逐句家族：enforced 且单发，命中即改（口癖的改法），不经语义裁量
+        hit["per_sentence"] = policy["lifecycle"] == "enforced" and bool(policy.get("single_hit"))
+        if policy.get("mechanism"):
+            hit["mechanism"] = policy["mechanism"]
+            hit["repair"] = MECHANISM_REPAIR_REF
     apply_canonical_dedup(hits)
 
 
@@ -2416,8 +2399,8 @@ RULE_EXECUTORS = {
         "demonstrative_classifier": lambda text, thresholds: detect_demonstrative_classifier(text),
         "keyword_ai_cliche": lambda text, thresholds: detect_keyword_cliche(text),
         "conjunction_overuse": lambda text, thresholds: detect_conjunction_overuse(text),
-        "parallel_negation": lambda text, thresholds: detect_parallel_negation(text),
         "contrastive_negation_assertion": lambda text, thresholds: detect_contrastive_negation_assertion(text),
+        "negation_restriction_pivot": lambda text, thresholds: detect_negation_restriction_pivot(text),
         "narrative_micro_label": lambda text, thresholds: detect_narrative_micro_label(text),
         "counted_speech_weight": lambda text, thresholds: detect_counted_speech_weight(text),
         "ordinal_gravity_marker": lambda text, thresholds: detect_ordinal_gravity_marker(text),
@@ -2434,6 +2417,7 @@ RULE_EXECUTORS = {
         "abstract_phrase_debt": lambda text, thresholds: detect_abstract_phrase_debt(text, thresholds),
         "stock_silence_pause_phrase": lambda text, thresholds: detect_stock_silence_pause_phrase(text, thresholds),
         "banned_markdown": lambda text, thresholds: detect_banned_markdown(text),
+        **{rule: (lambda fn: lambda text, thresholds: fn(text))(fn) for rule, fn in DETECTORS_ZH.items()},
     },
     "en": {
         "meta_language_leak_en": lambda text, thresholds: detect_meta_language(text, "en"),
@@ -2443,6 +2427,7 @@ RULE_EXECUTORS = {
         "staccato_run": lambda text, thresholds: detect_staccato_run_en(text, thresholds),
         "simile_density_en": lambda text, thresholds: detect_simile_density_en(text, thresholds),
         "banned_markdown": lambda text, thresholds: detect_banned_markdown(text),
+        **{rule: (lambda fn: lambda text, thresholds: fn(text))(fn) for rule, fn in DETECTORS_EN.items()},
     },
 }
 RULES_ZH = tuple(RULE_EXECUTORS["zh"].values())
@@ -2643,8 +2628,39 @@ def _devices_for_scene(work_dir: Path, scene_id: str) -> list[str]:
     return []
 
 
+SELF_CHECK_HEAD = (
+    "逐句检查标出 {n} 处口癖，命中就改，按 prose-craft 的“口癖的改法”（references/prose-rules.md）："
+    "先整句删去；删后读者缺了需要的事实、动作或判断，压进相邻句；压不进才改写成交出这件事的平常句子，"
+    "不用新的比喻、小动作或道理填回。改完连读改动处的前后文。"
+)
+
+
+def self_check(path: Path, cli_lang: str = "auto", work_dir: Path | None = None) -> int:
+    """首稿自查：只列逐句家族的命中，供主控交回同一写作者会话。0 无命中；2 有命中；1 输入错误。"""
+    if not path.is_file():
+        print(f"[ai_filler_lint] ERROR: {path} not found", file=sys.stderr)
+        return 1
+    text = path.read_text(encoding="utf-8")
+    lang, _ = _resolve_lang(text, cli_lang, work_dir)
+    hits = [h for h in analyze(text, lang=lang)["hits"] if h.get("per_sentence")]
+    if not hits:
+        print(f"[自查] {path.name}：逐句检查无命中。")
+        return 0
+    from ai_policy import MECHANISMS
+
+    lines = [f"[自查] {path.name}：" + SELF_CHECK_HEAD.format(n=len(hits))]
+    for hit in sorted(hits, key=lambda h: h.get("start", 0)):
+        name = (FAMILY_REGISTRY.get(hit["family"], {}).get("aliases") or [hit["family"]])[0]
+        mechanism = MECHANISMS.get(hit.get("mechanism"), "")
+        lines.append(f"- {hit.get('location', '')}「{hit.get('span') or hit.get('snippet')}」{name}（{mechanism}）")
+    print("\n".join(lines))
+    return 2
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="S1 AI filler lint")
+    parser.add_argument("--self-check", default=None, type=Path,
+                        help="首稿自查：只列逐句家族的命中，不写报告；有命中 exit 2，交回写作者按口癖的改法处理")
     parser.add_argument("scene_file", nargs="?", type=Path, help="可选：直接 lint 单个 scene markdown 文件")
     parser.add_argument("--scene-path", default=None, type=Path, help=argparse.SUPPRESS)
     parser.add_argument("--scene-id", default=None)
@@ -2670,6 +2686,9 @@ def main() -> int:
         help="输出文件名后缀，如 v2 -> {scene_id}.ai_filler.v2.yaml",
     )
     args = parser.parse_args()
+    if args.self_check is not None:
+        return self_check(args.self_check.resolve(), args.lang,
+                          args.work_dir.resolve() if args.work_dir else None)
     if args.scene_path is not None:
         if args.scene_file is not None:
             parser.error("Use either positional scene_file or --scene-path, not both")
