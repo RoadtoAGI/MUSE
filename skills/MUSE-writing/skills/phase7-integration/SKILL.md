@@ -56,7 +56,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_story.py {work_dir}
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story {work_dir}/story.md --lang auto --work-dir {work_dir}
 ```
 
-exit 0（PASS 或 REVIEW）进入全文审阅，并把当前报告的定位线索交 A；REVIEW 只表示有待语义判断的候选。本闸是 AIGC 机器合同的默认唯一落点：Phase 6 默认不再逐场运行机器合同 lane，两条有作者裁决的指代密度合同在这里对全文判断。exit 1 派发 `manuscript-reviser` 的 `de-AI` 模式，明确本次 wholetext 报告；exit 2 修复输入/工具问题。de-AI 自动改文最多两轮，恢复沿实际已有轮次继续；必要内容与机器要求无法兼容或达到上限后停止并报告。
+exit 0（PASS 或 REVIEW）进入全文审阅，并把当前报告交 A：`per_sentence_hits` 列出的逐句命中由 A 直接记 finding，其余观察是有待语义判断的候选。本闸是 AIGC 机器合同的默认唯一落点：Phase 6 默认不再逐场运行机器合同 lane，两条有作者裁决的指代密度合同在这里对全文判断。exit 1 派发 `manuscript-reviser` 的 `de-AI` 模式，明确本次 wholetext 报告；exit 2 修复输入/工具问题。de-AI 自动改文最多两轮，恢复沿实际已有轮次继续；必要内容与机器要求无法兼容或达到上限后停止并报告。
 
 每次修订使用第 4 节的既有快照和保护审计。只对改变后的稿件刷新失效结果，不把旧报告存在视为本次已检查。
 

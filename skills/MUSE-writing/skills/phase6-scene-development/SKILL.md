@@ -109,7 +109,16 @@ writer 派发明确“本轮可读 role move 角色：[...]”；空列表不读
 
 本轮 ref 的采用范围、最终 `reuse_tier`、已有 `reuse_mode / intended_domains` 与适用的 `worldview_reuse` 随派发明确，执行[参考采用契约](../writer/references/reference-adoption.md)。只给 scene_id 无法表达这些本轮选择；静态目录中同名文件也不取得输入权。
 
-writer 成功并确认正文完整后提取尾摘，供下一场衔接：
+writer 成功并确认正文完整后，主控运行首稿自查，只列检查脚本逐句标出的口癖：
+
+```bash
+python3 "$MUSE_WRITING_ROOT/scripts/ai_filler_lint.py" \
+  --self-check "$WORK_DIR/pipeline/scenes/scene_S01.md" --work-dir "$WORK_DIR"
+```
+
+exit 2 时把输出原样交回同一 writer 会话，按 prose-craft 的口癖的改法处理，改完再跑一次；第二次仍有命中照常继续，由 A 组记 finding。实况场景里命中落在人物原话上的，writer 整句删去，需要时提出索句，不改措辞。自查在写作步骤内完成，不算修订轮次。
+
+随后提取尾摘，供下一场衔接：
 
 ```bash
 python3 "$MUSE_WRITING_ROOT/scripts/extract_draft_tail.py" \

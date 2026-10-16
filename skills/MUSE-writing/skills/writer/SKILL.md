@@ -61,6 +61,7 @@ writer 对正文的具体实现拥有最终裁量。执行输入时先分层：
 - 写正文前加载 `prose-craft` skill（散文叙述 / 节拍 / 潜文本 / 段落节奏 / 省略 / 迟进早出 / 风格 / 领域知识 / 信息暴露 / 创意执行）
 - 场景含对白时加载 `dialogue-craft` skill（人物所知、交流目的、声音与承接）
 - 两个 skill 提供**原则**，不提供模板——按场景实际条件用
+- 主控交回首稿自查结果时，按 prose-craft 的[口癖的改法](../prose-craft/references/prose-rules.md#口癖的改法)处理标出的句子：先删，删后缺了必要的事实再压进相邻句，压不进才改写，改完连读；命中落在实况记录的人物原话上时整句删去，需要时提出索句
 - **承载模式参考**：[`prose-craft/references/novel-craft-patterns.md`](../prose-craft/references/novel-craft-patterns.md)（按需加载——A 类承载点 / B 类视角 / C 类高潮与尺度 / D 类人物 / E 类形态；scene_card 的承载候选或高潮机制候选命中相应模式时拉对应小节）
 
 ## 人物素材领域仲裁

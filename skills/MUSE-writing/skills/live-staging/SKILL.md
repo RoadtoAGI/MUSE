@@ -86,7 +86,9 @@ python3 "$MUSE_WRITING_ROOT/scripts/stage.py" line --work-dir "$WORK_DIR" --scen
   --slug du-zhi-fang --after 7 --cue "<此刻人物面对什么，用故事内的话写>"
 ```
 
-舞台按该时点重建人物、补一回合，记为 `kind: line`。主控让原 writer 接着写；宿主不能续接时，把更新后的记录交新 writer。
+舞台按该时点重建人物、补一回合，记为 `kind: line`。主控让原 writer 接着写；宿主不能续接时，把更新后的记录交新 writer。首稿自查标出的口癖落在人物原话上时，writer 整句删去，需要时照此索句，cue 同样只写人物此刻面对什么。
+
+对照实验里让人物直接讲述本场（`stage.py narrate --guide <要点文件>`）时，主控写的要点文件末尾附上 prose-craft 的口癖的改法条目，用 `python3 "$MUSE_WRITING_ROOT/scripts/craft_entries.py" "prose-craft/references/prose-rules.md#口癖的改法"` 取出原文。
 
 ## 事实改变后的记忆
 

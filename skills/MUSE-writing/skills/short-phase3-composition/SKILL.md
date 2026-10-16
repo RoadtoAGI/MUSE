@@ -28,7 +28,15 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --wor
 本篇可以怎样用：<一两句>
 ```
 
-无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查格式与设计用词，问题由它在同一会话改。宿主不触发 PostToolUse hook 时（如 Codex），主控在正文落盘后运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/shortform_story_guard.py --story {work_dir}/story.md`，exit 2 时把输出交 composer 改，改完再跑一次。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
+无范文时第二行写“本篇无范文，按人物声音与示范句写”。宿主未预载 agent 时，主控读取本包 `agents/{agent-name}.md`，将正文交给子执行者或要求其先读取该绝对路径；后续审阅和修订派发同样处理。composer 一次写完整篇 `story.md`，写入后 hook 检查格式与设计用词，问题由它在同一会话改。宿主不触发 PostToolUse hook 时（如 Codex），主控在正文落盘后运行 `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/shortform_story_guard.py --story {work_dir}/story.md`，exit 2 时把输出交 composer 改，改完再跑一次。
+
+格式检查通过后，主控运行首稿自查，只列检查脚本逐句标出的口癖：
+
+```bash
+python3 ${CLAUDE_PLUGIN_ROOT}/scripts/ai_filler_lint.py --self-check {work_dir}/story.md
+```
+
+exit 2 时把输出原样交回同一 composer 会话，按简报“条目”里的口癖的改法删、压、改并连读；改完再跑一次自查和格式检查。第二次仍有命中照常进入检查与审阅，由审阅记 finding。自查在成稿步骤内完成，不算修订轮次。回执列出读取的输入，通常只有简报；已有有效正文的恢复任务直接进入当前审阅或修订步骤。
 
 正文、审阅与修订的子执行者默认继承主会话所选模型，注册 agent 与通用子执行者同样适用；仅按作者明确的任务指定覆盖。实际调用方落实该选择，宿主限制使其不可用时报告受影响任务。
 
@@ -45,7 +53,7 @@ python3 ${CLAUDE_PLUGIN_ROOT}/scripts/dialogue_lint.py --story {work_dir}/story.
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/wholetext_gate.py --story {work_dir}/story.md --work-dir {work_dir}
 ```
 
-前三份报告与 wholetext_gate 的定位都是线索，交审阅者结合正文判断。wholetext_gate exit 2 为工具或输入错误，报告并停止；exit 0 或 1 都进入全文审阅。
+`whole.ai_filler.yaml` 里 `per_sentence: true` 的逐句命中由审阅者直接记 finding；其余定位与 wholetext_gate 的报告是线索，交审阅者结合正文判断。wholetext_gate exit 2 为工具或输入错误，报告并停止；exit 0 或 1 都进入全文审阅。
 
 派发 short-story-review，传工作目录、本轮 N、简报路径，以及作者开启读者审阅时的报告路径（未开启明示“无”）。N 从已有报告最大轮次之后递增，避免恢复任务被更高编号的旧报告覆盖。审阅规则和 schema 归该技能：
 

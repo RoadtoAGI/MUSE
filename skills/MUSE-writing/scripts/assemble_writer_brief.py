@@ -4,6 +4,7 @@
 本版实现短篇链（--shortform），在 pipeline/shortform/ 下写三份文件：
 
 - writer_brief.md：简报。各节依次为 作者要求 → 构想 → 人物 → 事件 → 范文 → 手法导航 → 条目 → 指令。
+  “条目”节先附条件表 always_entries 列出的固定条目（口癖的改法），再附审阅解锁的条目。
   作者要求（requirements 全部条目与 reference_materials）原样进入，不计上限、不裁；
   构想、人物、事件按设计文字投影，装配时不裁。事件节的 task 与 handoff 承载一致性事实（谁知道什么、
   数字、物件去向、时间），逐行保留原文，各占一行，不与其他字段并句。
@@ -62,6 +63,7 @@ FACT_SECTIONS = ("构想", "人物", "事件")
 SKILLS_DIR = Path(__file__).resolve().parents[1] / "skills"
 NAV_SKILLS = (("prose-craft", "叙述"), ("dialogue-craft", "人物声音与对白"))
 NAV_ENTRY_FILES = "prose-craft/references/prose-rules.md、dialogue-craft/references/voice-and-dialogue.md"
+NAV_PATTERN_LIBRARY = "prose-craft/references/ai-cliche-patterns.md"
 NAV_SKIP_PREFIXES = ("- 案例与全文", "- 规则与案例")  # 整份参考的清单，条目与全文由审阅解锁后附上
 MARKDOWN_LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 DOMAIN_LABELS = {"world_rule": "世界规则", "reveal_structure": "揭示结构", "protagonist_archetype": "主角原型",
@@ -257,13 +259,31 @@ def compute_disclosure(review_dir: Path, findings_rules: dict) -> dict:
     return {"rounds": [n for n, _ in sorted(rounds)], "unlocked": list(items.values())}
 
 
-def section_entries(state: dict, cap_each: int, cap_total: int) -> tuple[str, list[dict]]:
+def section_entries(state: dict, cap_each: int, cap_total: int,
+                    always: tuple[str, ...] | list[str] = ()) -> tuple[str, list[dict]]:
+    """固定条目不等审阅、先计入合计；审阅解锁的同一条目不重复附，第二次报出时在固定条目后补全文位置。"""
     active = [s for s in state["unlocked"] if s.get("active")]
     active.sort(key=lambda s: (-int(s["last_seen"].lstrip("r")), -len(s["history"])))
     blocks: list[str] = []
     record: list[dict] = []
     total = 0
+    fixed: dict[str, int] = {}
+    for ref in always:
+        try:
+            entry = craft_entries.resolve(ref, cap=cap_each)
+        except KeyError as exc:
+            record.append({"item": ref, "attached": False, "reason": str(exc), "rung": "always"})
+            continue
+        fixed[ref] = len(blocks)
+        blocks.append(f"### {entry.title}\n\n{entry.text}")
+        total += entry.units
+        record.append({"item": ref, "attached": True, "units": entry.units, "rung": "always"})
     for item in active:
+        if item["item"] in fixed:
+            if item["rung"] == "full":
+                blocks[fixed[item["item"]]] += f"\n\n全文：{item['full']}（同类问题第二次报出，动笔或修订前读这一处）"
+            record.append({"item": item["item"], "attached": True, "rung": item["rung"], "merged": "always"})
+            continue
         try:
             entry = craft_entries.resolve(item["item"], cap=cap_each)
         except KeyError as exc:
@@ -306,7 +326,8 @@ def section_navigation() -> str:
         blocks.append("\n".join(lines))
     if not blocks:
         return "无"
-    blocks.append(f"条目全文在 {NAV_ENTRY_FILES}（路径相对本包 skills/），按条目标题查；需要时读，回执写明读了哪些。")
+    blocks.append(f"条目全文在 {NAV_ENTRY_FILES}（路径相对本包 skills/），按条目标题查；口癖四个机制的判据与例子在 "
+                  f"{NAV_PATTERN_LIBRARY}。需要时读，回执写明读了哪些。")
     return "\n\n".join(blocks)
 
 
@@ -366,7 +387,8 @@ def assemble_shortform(work_dir: Path, *, usage: str | None = None, exemplar_pat
     state = compute_disclosure(shortform / "review", rules["findings"])
 
     char_text, names = section_characters(characters.get("characters") or [], english)
-    entries_text, entries_record = section_entries(state, rules["entry_cap"], rules["entries_cap"])
+    entries_text, entries_record = section_entries(state, rules["entry_cap"], rules["entries_cap"],
+                                                   rules.get("always_entries") or ())
     has_full = any(r.get("attached") and r.get("rung") == "full" for r in entries_record)
     sections = {
         "作者要求": section_requirements(conception),

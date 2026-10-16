@@ -207,3 +207,16 @@ def test_self_check_exit_codes(tmp_path):
     r = subprocess.run([sys.executable, str(script), "--self-check", str(tmp_path / "missing.md")],
                        capture_output=True, text=True)
     assert r.returncode == 1
+
+
+def test_wholetext_report_lists_per_sentence_hits_without_failing():
+    from wholetext_gate import build_report
+
+    text = STORY_183 + "\n他说完看着他们，等人复述。没有人复述。他又说了一遍规矩，才把单子收回去。\n"
+    report = build_report(text, "zh")
+    assert report["verdict"] == "REVIEW" and report["triggers"] == []
+    listed = next(o for o in report["observations"] if o["type"] == "per_sentence_hits")
+    assert listed["families"] == ["echo_negation"]
+    assert listed["hit_records"][0]["mechanism"] == "posture_line"
+    assert "没有人复述。" in listed["hit_records"][0]["evidence_quote"]
+    assert not any(o["type"] == "per_sentence_hits" for o in build_report(STORY_183, "zh")["observations"])

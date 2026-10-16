@@ -2631,7 +2631,7 @@ def _devices_for_scene(work_dir: Path, scene_id: str) -> list[str]:
 SELF_CHECK_HEAD = (
     "逐句检查标出 {n} 处口癖，命中就改，按 prose-craft 的“口癖的改法”（references/prose-rules.md）："
     "先整句删去；删后读者缺了需要的事实、动作或判断，压进相邻句；压不进才改写成交出这件事的平常句子，"
-    "不用新的比喻、小动作或道理填回。改完连读改动处的前后文。"
+    "不用新的比喻、小动作或道理填回。标出的句子承载关键事件时不删，改写成读者能经历的过程。改完连读改动处的前后文。"
 )
 
 
@@ -2648,11 +2648,16 @@ def self_check(path: Path, cli_lang: str = "auto", work_dir: Path | None = None)
         return 0
     from ai_policy import MECHANISMS
 
-    lines = [f"[自查] {path.name}：" + SELF_CHECK_HEAD.format(n=len(hits))]
-    for hit in sorted(hits, key=lambda h: h.get("start", 0)):
-        name = (FAMILY_REGISTRY.get(hit["family"], {}).get("aliases") or [hit["family"]])[0]
-        mechanism = MECHANISMS.get(hit.get("mechanism"), "")
-        lines.append(f"- {hit.get('location', '')}「{hit.get('span') or hit.get('snippet')}」{name}（{mechanism}）")
+    # 同一句被几个家族标出时合并成一行
+    by_span: dict[tuple, list[dict]] = {}
+    for hit in sorted(hits, key=lambda h: (h.get("start", 0), h.get("end", 0))):
+        by_span.setdefault((hit.get("start"), hit.get("end"), hit.get("span") or hit.get("snippet")), []).append(hit)
+    lines = [f"[自查] {path.name}：" + SELF_CHECK_HEAD.format(n=len(by_span))]
+    for (_, _, span), group in by_span.items():
+        names = "、".join(dict.fromkeys(
+            (FAMILY_REGISTRY.get(h["family"], {}).get("aliases") or [h["family"]])[0] for h in group))
+        mechanisms = "、".join(dict.fromkeys(MECHANISMS.get(h.get("mechanism"), "") for h in group))
+        lines.append(f"- {group[0].get('location', '')}「{span}」{names}（{mechanisms}）")
     print("\n".join(lines))
     return 2
 

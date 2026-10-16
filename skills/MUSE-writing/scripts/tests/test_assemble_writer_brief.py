@@ -128,7 +128,8 @@ def test_events_keep_task_and_handoff_lines_verbatim(tmp_path):
 
 
 def test_meta_counts_and_flags(tmp_path):
-    work = _run(tmp_path, exemplar_chars=1200)
+    # 简报每版固定附“口癖的改法”，范文要比条目、导航与事实合计多才不算偏短
+    work = _run(tmp_path, exemplar_chars=1500)
     awb.assemble_shortform(work)
     meta = _meta(work)
     assert set(meta["sections"]) == set(awb.SECTIONS)
@@ -162,7 +163,8 @@ def test_exemplar_none_records_reason(tmp_path, setup, reason):
 def test_disclosure_entry_after_first_round_then_full_after_second(tmp_path):
     work = _run(tmp_path)
     awb.assemble_shortform(work)
-    assert _brief(work).split("## 条目")[1].split("## 指令")[0].strip() == "无"
+    fixed = _brief(work).split("## 条目")[1].split("## 指令")[0].strip()
+    assert fixed.startswith("### 口癖的改法") and fixed.count("### ") == 1
 
     _review(work, 1, [_finding("文本质量", "abstract_judgment_without_action"), _finding("冲突")])
     awb.assemble_shortform(work)
@@ -308,3 +310,20 @@ def test_old_conception_without_language_is_inferred_with_warning(tmp_path):
     meta = _meta(work)
     assert meta["language"] == "zh"
     assert any("缺 language" in w for w in meta["warnings"])
+
+
+def test_repair_entry_is_always_attached_and_not_duplicated(tmp_path):
+    """口癖的改法每版都附（设计 §7）；“文本质量”报出时不重复附，第二次报出在同一处补全文位置。"""
+    work = _run(tmp_path)
+    awb.assemble_shortform(work)
+    record = _meta(work)["entries"]
+    assert record[0] == {"item": "prose-craft/references/prose-rules.md#口癖的改法", "attached": True,
+                         "units": record[0]["units"], "rung": "always"}
+    assert "口癖的改法" in _brief(work)
+
+    _review(work, 1, [_finding("文本质量")])
+    _review(work, 2, [_finding("文本质量")])
+    awb.assemble_shortform(work)
+    entries = _brief(work).split("## 条目")[1].split("## 指令")[0]
+    assert entries.count("### 口癖的改法") == 1
+    assert "全文：prose-craft/references/ai-cliche-patterns.md" in entries

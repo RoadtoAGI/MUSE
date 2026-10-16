@@ -155,6 +155,25 @@ def build_report(story_text: str, lang: str) -> dict:
             "locators": dash_hits,
         })
 
+    per_sentence_hits = [h for h in enforced_hits if h.get("per_sentence")]
+    if per_sentence_hits:
+        # 逐句家族命中即改：全稿审阅直接记 finding，subkind 用 mechanism；不进 triggers，不拦交付
+        observations.append({
+            "type": "per_sentence_hits",
+            "count": len(per_sentence_hits),
+            "families": sorted({h.get("family") for h in per_sentence_hits if h.get("family")}),
+            "repair": per_sentence_hits[0].get("repair"),
+            "hit_records": [
+                {
+                    "lint_id": h.get("lint_id"),
+                    "family": h.get("family"),
+                    "mechanism": h.get("mechanism"),
+                    "locator": h.get("locator"),
+                    "evidence_quote": h.get("evidence_quote"),
+                }
+                for h in per_sentence_hits
+            ],
+        })
     if observed_hits:
         observations.append({
             "type": "observe_hits",

@@ -13,8 +13,10 @@ shortform:
     person_from: narration_person
   exemplar_min_ratio: 0.5 # 范文占简报低于此值时 meta 记 exemplar_short
   entry_cap: 300          # 每条
-  entries_cap: 900        # “条目”节合计；超出时按最近一次报出、再按报出轮数取
+  entries_cap: 900        # “条目”节合计；固定条目先计入，其余超出时按最近一次报出、再按报出轮数取
   instruction_cap: 300
+  always_entries:         # 不等审阅报出，每版简报都附
+    - prose-craft/references/prose-rules.md#口癖的改法
 
   findings:
     文本质量:
