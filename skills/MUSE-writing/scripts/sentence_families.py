@@ -169,7 +169,11 @@ PRECISE_NUMBER_REPEAT_GTE = 3
 
 
 def detect_precise_number_repeat(text: str) -> list[dict]:
-    """精确数字反复：同一时刻或计量表达在本段正文里出现 3 次以上，逐处标记。"""
+    """精确数字反复：同一时刻或计量表达在一次检查的正文里出现 3 次以上，逐处标记。
+
+    计数范围是传入的整段文本：逐场检查是一场，短篇全文模式是整篇。校准按同一范围计
+    （AI 稿按篇、人类小说按约 3,000 字片段），183 与留出稿 02、03 在这一范围下零命中。
+    """
     titles = [(m.start(), m.end()) for m in BOOK_TITLE_RE.finditer(text)]
     found: list[tuple[int, int, str]] = []
     occupied: list[tuple[int, int]] = []

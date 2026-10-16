@@ -81,7 +81,7 @@ model: inherit
 
 ## 必做
 
-- `scope=scenes` 按 group 指南覆盖本轮实际问题，统计线索经语义确认；不为每个维度凑 finding
+- `scope=scenes` 按 group 指南覆盖本轮实际问题：`per_sentence: true` 的逐句命中直接记 finding，observe 的统计线索经语义确认；不为每个维度凑 finding
 - 设计中承诺而正文未交代的对象按实际阅读损害报告，不因设计已写而免列
 - `scope=manuscript` 按 A 指南的全稿 scope 执行跨场景语义检查；finding 的 `source` 固定为 `story`，上游材料只作对照证据；无 finding 时仍须明确写 `semantic_review: clear` 与完整 coverage
 - 引用原文必须给完整句段（不是只写位置编号），orchestrator / scene-reviewer 无需回查即可理解问题
