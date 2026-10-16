@@ -11,7 +11,7 @@ description: 原创短篇的成稿与修订编排，在大纲批准或免审后�
 
 写作者只读一份写作简报 `pipeline/shortform/writer_brief.md`，由脚本把作者要求、构想、人物、事件、范文窗口、手法导航、本轮条目和指令装在一起。范文 `pipeline/shortform/reference_pack.md` 在构想阶段已取（short-phase0-conception 的“取本篇范文”），这里复用；缺失，或装配时脚本提示范文早于构想，就按那一节重取。
 
-读过范文后写一两句“本篇可以怎样用”：哪些写法可借，哪些不采用，对白的引号等标点不随范文时也写在这里，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；范文对白不加引号的写法不采用，本篇对白照常加引号”。再装配：
+读过范文后写一两句“本篇可以怎样用”：范文的哪些写法、人物、情节或原句用在本篇哪里；对白的引号等标点按本篇语言的写法，也写在这里，例如“范文逐屋搜店的动作连写可用于逐层搜写字楼；对白照中文写法加引号”。再装配：
 
 ```bash
 python3 ${CLAUDE_PLUGIN_ROOT}/scripts/assemble_writer_brief.py --shortform --work-dir {work_dir} --usage "<一两句>"
