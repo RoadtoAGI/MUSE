@@ -13,8 +13,8 @@ genre_conventions:
   secondary_genre: null
   conventions: []     # 每项 convention，可选 planned_subversion
 generative_driver:
-  mechanism: 持续压力或变化如何发生，以及当前已知的作用条件
-  # 自由结构；可说明未明成因、局部表现、适配关系
+  mechanism: 事件为什么发生、依什么运作、局部怎样显形、人物凭什么辨认危险
+  # 自由结构；人物知道什么、从哪里知道，与设计事实分开写
 world_rules:
   physical: []
   social: []
@@ -28,11 +28,11 @@ creative_constraints: [] # 按需；每项 constraint、narrative_function
 |---|---|
 | `setting` | Phase 2 人物背景、Phase 4–6 事件时间与地点；保留原有时间精度 |
 | `genre_conventions` | Phase 4–6 阅读期待与实现选择；颠覆可省略 |
-| `generative_driver` | Phase 2/5/6 推演人物条件、威胁和后果；自由结构，不要求虚构终极成因。指定 `world_rule` 来源时写清保留机制及适配范围 |
+| `generative_driver` | Phase 2/5/6 推演人物条件、威胁和后果；自由结构，写定成因与运作。采用来源世界时写清保留机制及适配范围 |
 | `world_rules` | Phase 2–6 保持事实与因果；独立制度或习俗可有自己的依据，不要求所有规则出自一个原因 |
 | `daily_life` | Phase 2 人物生活、Phase 6 叙述经验；取自有效资料或明确的虚构设计，来源与设想在 detail 中可辨 |
 | `domain_knowledge` | 用户提供或经核实的专业背景，保留 source；有适用内容时生成 |
-| `creative_constraints` | 后续选择与后果的边界；按实际需要填写 |
+| `creative_constraints` | 世界里做不到的事，及其对后续选择与后果的限制；按实际需要填写 |
 
 前四项承载基本世界设计；其余按需省略或留空。现实、制度、习俗和信念的不同约束强度在字段内容中说明。不存在心理特殊规律时可保留空列表。
 
