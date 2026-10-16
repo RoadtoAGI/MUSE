@@ -214,8 +214,9 @@ def test_phase5_contract_selects_carriers_by_consequence_and_defaults_to_reader_
     assert "临时补造事故、威胁或解释句" in skill
     assert "潜在效率、潜在安全和职业习惯不构成展开条件" in schema
     assert "动作次序与过程本身承载本场实际发生的局部逆转" in schema
-    assert "完成最低读者定向" in skill
-    assert "不默认隐藏终极成因" in skill
+    assert "完成读者定向" in skill
+    assert "世界为什么成了这样" in skill
+    assert "篇幅决定读者能等多久" in skill
     assert "用边际叙事增量收敛载体集合" in skill
     assert "同一 `reader_yield` 是复核信号" in skill
     assert "只复述同一结果的 task 或 carrier 合并" in skill

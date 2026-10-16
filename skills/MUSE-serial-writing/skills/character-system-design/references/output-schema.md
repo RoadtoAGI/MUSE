@@ -76,7 +76,7 @@ relationships:
 | `inner_capacity` | 某种信念或习惯实际支撑人物生活时，记录 `primary` 与 `why_load_bearing`；本故事涉及其受损时再填 `loss_trigger` / `loss_signal`。表现是候选，不强制动作或反应缺席。 |
 | `subjectivity_object` | 具体物件确与角色自身生活、关系或表达相关时，写 `what` / `created_when` / `where_it_lives`；`potential_use` 是作者的后续使用候选。 |
 | `recognition_path` | 需要安排人物如何被认识时，写 `primary_method`、可选 `first_false_reading` / `correction_method`；方法用当前情节需要的文本，不强行制造误读。 |
-| `backstory_harvest` | 某段往事有明确呈现需要时，写 `method` / `carrier` 与必要的 `withheld_part`；一般叙述可直接承载，无须一律借物件。 |
+| `backstory_harvest` | 某段往事有明确呈现需要时，写 `method` / `carrier`；一般叙述可直接承载，无须一律借物件。 |
 | `misread_matrix` | 误读影响当前故事时，记录 observer / target / evidence_seen / wrong_conclusion / narrative_value；与人物真正已知内容分开。 |
 | `signature_lexicon` | 已有文体计数确实需要具体词表时填写；计数只作为线索，缺字段时跳过，不能要求正文补词。 |
 

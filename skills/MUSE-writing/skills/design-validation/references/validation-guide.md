@@ -27,13 +27,13 @@
 - 已确定的激励事件、危机和结局在展开中保留其事件作用。结构位置可以调整，功能不能仅因字段仍在而视为落实。
 - 需要分阶段释放的信息核对其实际场景落点；普通母题或手艺来源无需补造披露阶梯。
 
-Phase 3 已明确延迟的答案，沿 Phase 5 的呈现顺序核对 `reader_track / scene_tasks / omission_plan`：当前必要发现是否有依据，尚未满足条件的确认是否在相关场景保留，确已约定揭示的答案是否有相应落点。一般原创秘密同样适用；永久留白按明确意图保持，无保密需要时不要求补字段。已明确的全篇意图与场景安排相冲突时引用两端；意图明确却缺少影响当前写作的本场条件时，按既有 `summary.input_gaps` 交 Phase 5 补足。读者先知、人物后知与先果后因按已选结构判断，人物知识另按事件时点核对。
+Phase 3 `reader_spine` 里读者等待的答案，沿 Phase 5 的呈现顺序核对 `reader_track / scene_tasks / commitments`：当前必要发现是否有依据，答案是否有确认场。一般原创秘密同样适用。已明确的全篇意图与场景安排相冲突时引用两端；意图明确却缺少影响当前写作的本场条件时，按既有 `summary.input_gaps` 交 Phase 5 补足。读者先知、人物后知与先果后因按已选结构判断，人物知识另按事件时点核对。
 
 原型与灵感的具体字段见 [schema](output-schema.md)。没有被本次设计使用的候选无需升级为正式条目；已被使用的引用缺失时应修复来源或绑定，不能用近似 ID 猜配。
 
 ## 声明兑现
 
-对照 Phase 0 的 `requirements[]`、`reference_materials`（作者提供的素材与有效细节）、ledger 中 `accepted / bound` 的 INS-*，以及 Phase 5 的 `commitments[]`，沿呈现顺序找到承接它们的场景：该场的 `scene_tasks`、`handoff`、`omission_plan` 或 `inspiration_refs` 能看出承接关系即可，不要求字面相同。
+对照 Phase 0 的 `requirements[]`、`reference_materials`（作者提供的素材与有效细节）、ledger 中 `accepted / bound` 的 INS-*，以及 Phase 5 的 `commitments[]`，沿呈现顺序找到承接它们的场景：该场的 `scene_tasks`、`handoff`、`world_disclosure_plan` 或 `inspiration_refs` 能看出承接关系即可，不要求字面相同。
 
 - **确定问题**：用户提供的历史素材在 Phase 0 被列为关键细节，Phase 1–5 没有任何场景的任务、承载或省略安排提及它，也没有记录有意放弃。
 - **非触发**：素材以机制形式进入（Phase 0 写明把“八股取士”转成“重新定义写作”的体制，Phase 5 的某场承载合规备忘与功用化登记），词面不出现不构成问题。

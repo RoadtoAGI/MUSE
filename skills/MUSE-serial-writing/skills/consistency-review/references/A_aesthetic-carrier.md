@@ -1,6 +1,6 @@
 # 承载作用与作者意图
 
-当正文被指为解释过多、反应不足、留白失效或设计承载缺失时，先核对这段文字实际要让读者取得什么。scene_card 中的 craft_carrier、omission_plan 和 narrator_distance 可以说明意图；未填字段的合法表达同样按正文判断。
+当正文被指为解释过多、反应不足、留白失效或设计承载缺失时，先核对这段文字实际要让读者取得什么。scene_card 中的 craft_carrier、world_disclosure_plan 和 narrator_distance 可以说明意图；未填字段的合法表达同样按正文判断。
 
 - 原动作已传达同一意义，旁白只是复述，删后指称、承接、态度与节奏均成立：可报 `carrier_then_explain`。
 - 旁白揭示了动作无法确定的信息，或其错误解读体现人物认知：检查是否符合叙述权限，不能只因“解释”删除。

@@ -21,7 +21,7 @@ description: 首次生成原创完整链的单场景正文，由主控派发；�
 |---|---|---|
 | 6. `pipeline/staging/scene_{scene_id}/{slug}_role_move.yaml` | 本次派发明示“本轮可读 role move 角色”的 slug | `moves[]` 记录角色对某个可见刺激的一次候选解释、当下行动和企图效果，按本场作用改写、合并、调序或舍弃；授权列表为空时不读 staging 目录中任何文件，未获授权的旧文件无输入权；获准文件缺失或 `moves: []` 属正常输入 |
 | 7. `pipeline/scene_{previous_scene_id}/draft_tail.md` | 派发给出呈现顺序中的前场 ID；首场为“无” | `extract_draft_tail.py` 产的正文尾摘，只供文字衔接；不由当前 ID 减一推导 |
-| 8. `pipeline/phase0_conception.yaml` | 对应字段存在 | 只读 `reference_materials.summary` + `reference_materials.key_details`、`style_directives`、`craft_targets`；不读 `reference_materials.applicable_phases` |
+| 8. `pipeline/phase0_conception.yaml` | 对应字段存在 | 只读 `requirements` 中 `target_phase` 为 6 或未标的条目、`reference_materials.summary` + `reference_materials.key_details`、`style_directives`、`craft_targets`；不读 `reference_materials.applicable_phases` |
 | 9. `pipeline/phase1_world.yaml` | 对应字段存在 | 只读 `generative_driver / world_rules / creative_constraints / domain_knowledge` |
 | 10. 当前派发明确给出的有效 ref 路径（通常 `pipeline/references/{scene_id}_ref.md`） | 派发给出路径；给“无”或未给则跳过，目录中的旧文件无输入权 | 读取[参考采用契约](references/reference-adoption.md)及本次 ref 的元数据、使用约定与适用原文，已取得且仍有效时直接复用；从原文提炼本场有用的文风锚点，按需要关注语态、句段呼吸、词汇、对白或留白，内隐使用、不设数量。`<function_bridge>` 解释目标与来源场景的职责及迁移边界，缺失时直接理解原文。只处理当前来源契约采用的内容，`style_only` 不能扩大为情节、世界事实或原句复用义务；必要来源与作者条件冲突时交主控，普通可选参考缺失沿回退继续 |
 | 11. `pipeline/inspiration_ledger.yaml` 中 scene_card 列出的 INS-* 卡 | scene_card.md 含 `## 灵感引用 (inspiration_refs)` 段且段内列出 ID | 先用本场 scene card 已编码的叙事工作与候选承载落实该卡机制，`inspiration_refs` 只保留来源关系，不增加第二套兑现清单；卡内实际存在 `disclosure_ladder[]` 且有 `scene_id == 本场` 的 layer 时，按该 layer 的 `carrier` + `reader_inference` 完成分阶段信息释放并遵守 `do_not_explain[]`，否则不补造 early / mid / final 载体。ledger 不存在、无该段或 ID 为空 → 跳过 |
@@ -119,7 +119,7 @@ scene_card 的阅读焦点确定本场跟随线，呈现建议帮助选择详略
 
 ### 世界观披露与写作层风险提示
 
-scene_card.md 含 `## 世界观披露 (world_disclosure_plan)` 段时：`allow` 列出当前冲突成立所需的世界信息，贴身 POV 依已成立的获知渠道呈现，外部叙述按作品约定组织；`forbid` 区分人物尚不可知的信息与作者明确延迟披露的内容，前者限制人物认知，后者限定当前叙述，并服从用户要求、Phase 1 世界事实与手选 canon 绑定。段缺失时按用户要求、Phase 1 `generative_driver`、canon 与当前冲突完成最低读者定向：读者应能理解眼前危险的类型差异、行动规则与选择代价，披露篇幅和方式由 POV 与场景压力决定。
+scene_card.md 含 `## 世界观披露 (world_disclosure_plan)` 段时，段内各项是本场交给读者的世界信息：贴身 POV 依人物的经历与获知渠道呈现，外部叙述按作品约定组织。段缺失时按用户要求、Phase 1 `generative_driver`、canon 与当前冲突完成读者定向：读者知道世界为什么成了这样（人物所知的版本）、眼前危险的类型与行动规则、选择的代价、人物在本场之外的处境，篇幅和方式由 POV 与场景压力决定。短篇和片段在开头几段给出这些信息。
 
 含 `## 写作层 AI pattern 预防 (prose_risk_contract)` 段时，`risk_families` 指出值得注意的风险面，`positive_strategy` 提供一种候选方向，`bad_shape_examples` 帮助识别可能的问题形态；它们都不证明某句违规，字面相似不能替代语境判断，未采用候选策略不构成违反。段缺失沿用 prose-craft 内置判别。AI pattern 与信息有效性由最终正文的实际形态及其对场景效果的影响判断。
 
@@ -142,7 +142,7 @@ scene_card.md 含 `## 世界观披露 (world_disclosure_plan)` 段时：`allow` 
 - 不在 `scene_{scene_id}.md` 写作者批注 / writer_note / HTML 注释 / 设计回溯
 - 不改写 scene_card / role views / role moves / 角色 runtime package / phase yaml 等上游文件
 - 不读 / 不写其他场景的文件
-- 保持作者明确要求的 deliberate omission；人物的心理展开须遵守同一披露范围
+- 不越过 Phase 0 `requirements` 里用户划定的范围；人物的心理展开同样遵守
 
 ## 失败语义
 

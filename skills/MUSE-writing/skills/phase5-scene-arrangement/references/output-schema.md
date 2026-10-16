@@ -41,25 +41,18 @@ sequence_expansions:
         pov_constraint:
           can_perceive: [字符串]
           cannot_perceive: [字符串]
-          intentional_blind_spot: "关键遮蔽（描述）"
 
         craft_carrier:
           type: "object | bodily_action | silence | procedural_form | second_hand_story | sensory_shock | scale_shift | expectation_reversal"
           concrete_anchor: "具体物件 / 动作 / 声音 / 文体"
           function: "该材料让读者经历什么变化，或理解什么关系"
 
-        # world_disclosure_plan：安排当前场景释放或暂缓的世界规则。
-        # 缺省 = writer 按用户要求、Phase 1 与当前冲突完成最低读者定向。
+        # world_disclosure_plan：本场交给读者的世界信息。
+        # 缺省 = writer 按用户要求、Phase 1 与当前冲突完成读者定向。
         # 详细语义与渲染契约见下方 `world_disclosure_plan` 小节。
         world_disclosure_plan:
-          forbid:
-            - "当前 POV 尚无渠道得知的幕后操控者身份"
-          allow:
-            - "由回忆或现场证据交代当前危险怎样形成、传播或运作"
-            - "让行动选择成立所需的生存规则与世界规则"
-
-        omission_plan:
-          - "本场明确省略什么；涉及后续揭示的答案时说明适用范围和实际释放条件"
+          - "由回忆或现场证据交代当前危险怎样形成、传播或运作"
+          - "让行动选择成立所需的生存规则与世界规则"
 
         irreversible_action:
           - "一个可见且不可撤销的动作"
@@ -88,7 +81,7 @@ sequence_expansions:
         climax_pattern:
           primary: "layered_revelation | ineffable_realization | passive_death | mask_hard_cut | unfinished_action | anti_epic_failure | scale_shrink | null"
           secondary: "同上或 null"
-          forbidden_moves: []  # 保留明确作者禁界及事实/因果/知识边界；手法偏好按本场作用判断
+          forbidden_moves: []  # 只记用户说过的禁界；手法偏好按本场作用判断
           # 仅 scene_card.climax / sequence_climax / arc_climax = true 时显式选择；
           # 缺字段时 writer 使用通用 Craft Preflight，仍可自主选择其他高潮手法
 
@@ -112,7 +105,7 @@ sequence_expansions:
           kind: "ritual_with_food | hospital_with_lecture | death_with_chore | farewell_with_chess | custom"
           mundane_action: "吃黄瓜 / 讲课 / 整理衣服 / 闲聊（具体描述：让 writer 知道嵌入的日常动作是什么）"
           emotional_context: "临终 / 崩溃 / 高压告别 / 灾难现场（高情感语境）"
-          forbidden_moves: []  # 仅填写本作实际需要的限制与适用条件；不按该类型自动补禁令
+          forbidden_moves: []  # 只记用户说过的禁界
 
         # 写作层 AI pattern 提示：标出本场值得关注的风险面与候选策略。
         # used=true 时 scene_card.md 渲染 `## 写作层 AI pattern 预防 (prose_risk_contract)` 段；
@@ -195,10 +188,9 @@ scene_task:
 | `scenes[].inspiration_refs` | 否 | Phase 6（writer 通过 scene_card.md 看见本场 INS-* 引用；普通 pattern 由现有场景字段承载，ledger 实际存在 `disclosure_ladder` 时才消费对应 layer）；记录本场实际采用的材料 |
 | `scenes[].handoff` | 是 | Phase 6（场景衔接） |
 | `scenes[].beat_direction` | 否 | 场景卡显示“关键转折”，交 writer 实现变化及触发原因，并供作者侧审阅对照；预定方向不进入人物认知切片 |
-| `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=无额外 POV 限制，人物知识与既定叙述方式继续生效） |
+| `scenes[].pov_constraint` | 否 | Phase 6（writer：本场 POV 能感知与感知不到的事物；缺字段=无额外 POV 限制，人物知识与既定叙述方式继续生效） |
 | `scenes[].craft_carrier` | 否 | Phase 6（writer：type + concrete_anchor + function 提供承载候选及叙事作用；存量 replaces 仅作既有候选说明，不要求替代解释；缺字段由 writer 决定实现） |
-| `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：安排当前场景释放 / 暂缓的世界规则；`{forbid, allow}` 字符串列表 × 2；缺字段=按用户要求、Phase 1 与当前冲突完成最低读者定向） |
-| `scenes[].omission_plan` | 否 | 字符串列表；writer 与作者侧审阅取得本场省略要求。承接 `reader_spine.withheld_answer` 时附实际延迟条件；永久留白保留，缺字段=无额外省略要求 |
+| `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：本场交给读者的世界信息，字符串列表；旧产物的 `{forbid, allow}` 只读 `allow`；缺字段=按用户要求、Phase 1 与当前冲突完成读者定向） |
 | `scenes[].irreversible_action` | 否 | Phase 6（writer：本场不可逆结果的候选实现；仅明确规定的事实/因果结果为硬约束；缺字段=不强约束） |
 | `scenes[].reveal_method` | 否 | Phase 6（writer：信息揭示方式锚——direct_action / object_trace / overheard_fragment 等；缺字段=writer 自由选择揭示路径） |
 | `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason；继承 phase0 craft_targets.narrator_position.primary；可按本场职责调整，缺字段=继承既有叙述位置） |
@@ -222,7 +214,7 @@ scene_task:
 
 **Hard gate**（`validate_phase5_r10.py`）：双向一致性匹配——ledger 内 INS-* 的 `project_encoding[]` 必须有对应 `(phase=5, scene_id, adoption_kind ∈ {scene_carrier, reveal_carrier, structure_carrier, craft_carrier})` 项。
 
-`reader_spine` 到 `reader_track / scene_tasks / omission_plan` 的转换方法见 [SKILL.md“读者信息与世界规则的定向”](../SKILL.md#1ter-读者信息与世界规则的定向)。现有提取器将这些字段随场景卡交 writer；作者侧披露安排与人物所知分别判断。
+`reader_spine` 到 `reader_track / scene_tasks / commitments` 的转换方法见 [SKILL.md“读者信息与世界规则的定向”](../SKILL.md#1ter-读者信息与世界规则的定向)。现有提取器将这些字段随场景卡交 writer；作者侧披露安排与人物所知分别判断。
 
 ## `commitments` (optional)
 
@@ -242,26 +234,23 @@ commitments:
 
 `name / kind / introduced_in` 必填；`payoff_in` 与 `deliberate_omission` 恰填一项。`validate_phase5_r10.py` 检查结构与场景 ID 是否存在；兑现是否成立由 design-validation 读取相关场景判断。
 
-## `world_disclosure_plan` (optional, str list × 2)
+## `world_disclosure_plan` (optional, str list)
 
-安排 writer 在当前场景释放或暂缓的世界规则。缺省时，writer 按用户要求、Phase 1 `generative_driver`、canon 与当前冲突完成最低读者定向。
+本场交给读者的世界信息。缺省时，writer 按用户要求、Phase 1 `generative_driver`、canon 与当前冲突完成读者定向。
 
 ```yaml
 world_disclosure_plan:
-  forbid:                       # 区分人物知识限制与作者明确的延迟披露；按既定视角适用
-    - 当前 POV 尚无渠道得知的幕后操控者身份
-  allow:                        # 当前冲突成立所需的信息，按贴身/外部叙述的实际渠道呈现
-    - 由回忆或现场证据交代当前危险怎样形成、传播或运作
-    - 让行动选择成立所需的生存规则与世界规则
+  - 由回忆或现场证据交代当前危险怎样形成、传播或运作
+  - 让行动选择成立所需的生存规则与世界规则
 ```
 
-人物未知不等于全知叙述者不得交代；`forbid` 中角色知识限制与作者延迟计划分别适用，并服从用户明确要求、Phase 1 世界事实和手选 canon 绑定。信息延迟需要服务后续判断或转折；开放式结局没有默认偏好。篇幅较短时，当前危险的类型差异与行动因果仍应让读者可理解，披露方式由 POV 和场景压力决定。
+每项写读者在本场得到的信息；进入方式由 writer 按 POV 与场景压力决定。人物知道什么由 role view 与 `pov_constraint` 决定，外部叙述按作品约定交代。
 
 **渲染契约**（由 `extract_scene_card.py` 实施）：
 
 - 段标题精确字面量：`## 世界观披露 (world_disclosure_plan)`
-- 字段缺失 OR `forbid` 与 `allow` 同时为空 → 整段不输出
-- 任一非空 → 输出段标题 + 该非空列表（另一侧空则不输出对应子标题）
+- 字段缺失或列表为空 → 整段不输出
+- 旧产物的 `{forbid, allow}` mapping 只渲染 `allow`
 - 渲染位置：在 scene_card.md 内输出即可（渲染位置软化契约）；位置 executor 按现有 `_render_v3_fields` 结构判断
 
 ## `prose_risk_contract` (optional, 4 子字段对象)

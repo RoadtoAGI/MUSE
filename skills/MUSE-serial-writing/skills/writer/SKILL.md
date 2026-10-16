@@ -60,7 +60,7 @@ writer 不直接读取共享角色包、`state.md`、adapter 或全量人物设�
 
 历史 marker 或缺字段的 scene_card 仍可按已有内容辨识本场变化，但不将 `[核心]`、`[main]` 等标签写进正文。无法辨识必要结果或事实边界时，交回编排者补齐。
 
-`world_disclosure_plan` 的 `allow` 提供可用披露，`forbid` 限定本场不能提前揭示的事实。披露通过作品适合的叙述方式和角色可及渠道发生，不强制第一人称、固定短句或每次“一触即收”。缺少该字段时按既有设定和已确认披露安排写作，不自行揭开尚未授权的关键真相。
+`world_disclosure_plan` 各项是本场交给读者的世界信息。披露通过作品适合的叙述方式和角色可及渠道发生，不强制第一人称、固定短句或每次“一触即收”。缺少该字段时按既有设定与卷纲、章意图安排的揭示时点写作。
 
 `prose_risk_contract` 指出本场值得注意的表达机制。有 `risk_families` 时按需读本包 prose-craft 对应判据；`positive_strategy` 与 `bad_shape_examples` 用于理解症状背后的作用与条件。按当前正文确认问题后选修法：词汇失配可以换词；冗余解释或组织失焦需要改善对应关系。套式换名后原问题仍在时，修复尚未完成。多项提示不能兼容时，按[章内 schema 的冲突处理](../chapter-scene-plan/references/output-schema.md)回到受影响的场景功能判断。
 

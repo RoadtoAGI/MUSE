@@ -39,24 +39,17 @@ sequence_expansions:
         pov_constraint:
           can_perceive: [字符串]
           cannot_perceive: [字符串]
-          intentional_blind_spot: "关键遮蔽（描述）"
 
         craft_carrier:
           type: "object | bodily_action | silence | procedural_form | second_hand_story | sensory_shock | scale_shift | expectation_reversal"
           concrete_anchor: "具体物件 / 动作 / 声音 / 文体"
           function: "该材料让读者经历什么变化，或理解什么关系"
 
-        # world_disclosure_plan：本场世界信息披露边界。
-        # 缺省时按来源事实、人物知情和既定揭示时点决定。
+        # world_disclosure_plan：本场交给读者的世界信息。
+        # 缺省时按来源事实、人物知情和卷纲安排的揭示时点决定。
         # 详细语义与渲染契约见下方 `world_disclosure_plan` 小节。
         world_disclosure_plan:
-          forbid:
-            - "本场尚未获准揭示的具体事实"
-          allow:
-            - "本场已到揭示时点、且具备来源依据的信息"
-
-        omission_plan:
-          - "本场故意不解释什么"
+          - "本场已到揭示时点、且具备来源依据的信息"
 
         irreversible_action:
           - "本场已确认为必要的不可撤销变化及其条件"
@@ -192,10 +185,9 @@ scene_task:
 | `scenes[].handoff` | 是 | Phase 6（场景衔接） |
 | `scenes[].beat_direction` | 否 | 场景卡显示“关键转折”，交 writer 实现变化及触发原因，并供作者侧审阅对照；预定方向不进入人物认知切片 |
 | `scenes[].scene_tasks[].voice_gear` | 否 | Phase 6 writer（声音突出/收敛的场景提示）、scene-review（按人物依据检查 signature_voice_overuse） |
-| `scenes[].pov_constraint` | 否 | Phase 6（writer：限定本场 POV 可感知/不可感知项，定位 intentional_blind_spot；缺字段=仍遵守叙述视角和人物实际可知范围） |
+| `scenes[].pov_constraint` | 否 | Phase 6（writer：本场 POV 能感知与感知不到的事物；缺字段=仍遵守叙述视角和人物实际可知范围） |
 | `scenes[].craft_carrier` | 否 | Phase 6（writer：type + concrete_anchor + function 提供承载候选及叙事作用；存量 replaces 仅作既有候选说明，不要求替代解释；缺字段由 writer 决定实现） |
-| `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：授权 / 禁止借物披露世界规则的边界；`{forbid, allow}` 字符串列表 × 2；缺字段=按来源事实、人物知情与既定揭示时点判断） |
-| `scenes[].omission_plan` | 否 | Phase 6（writer：本场故意不解释什么；缺字段=不强约束省略点） |
+| `scenes[].world_disclosure_plan` | 否 | Phase 6（writer：本场交给读者的世界信息，字符串列表；旧产物的 `{forbid, allow}` 只读 `allow`；缺字段=按来源事实、人物知情与卷纲安排的揭示时点判断） |
 | `scenes[].irreversible_action` | 否 | Phase 6（本场已确认为必要的不可撤销变化及其条件；仅为实现候选的动作放入 physical_carrier，不用本字段提前固定） |
 | `scenes[].reveal_method` | 否 | Phase 6（writer：信息揭示方式锚——direct_action / object_trace / overheard_fragment 等；缺字段=writer 自由选择揭示路径） |
 | `scenes[].narrator_distance` | 否 | Phase 6（writer：本场叙事距离 mode + reason，可用既有标签或准确描述；缺字段时使用本作已确认的叙述方式） |
@@ -218,23 +210,20 @@ scene_task:
 
 **Hard gate**（`validate_phase5_r10.py`）：双向一致性匹配——ledger 内 INS-* 的 `project_encoding[]` 必须有对应 `(phase=5, chapter_id, scene_id, adoption_kind ∈ {scene_carrier, reveal_carrier, structure_carrier, craft_carrier})` 项。
 
-## `world_disclosure_plan` (optional, str list × 2)
+## `world_disclosure_plan` (optional, str list)
 
-说明本场允许和暂缓披露的具体世界信息。允许披露仍需符合来源事实、人物知情和既定揭示时点；字段缺省时沿用这些约束。
+本场交给读者的具体世界信息，符合来源事实、人物知情和卷纲安排的揭示时点；字段缺省时沿用这些依据。
 
 ```yaml
 world_disclosure_plan:
-  forbid:                       # 禁止披露的内容
-    - 本场尚未获准揭示的具体事实
-  allow:                        # 允许披露的内容
-    - 本场已到揭示时点、且具备来源依据的信息
+  - 本场已到揭示时点、且具备来源依据的信息
 ```
 
 **渲染契约**（由 `extract_scene_card.py` 实施）：
 
 - 段标题精确字面量：`## 世界观披露 (world_disclosure_plan)`
-- 字段缺失 OR `forbid` 与 `allow` 同时为空 → 整段不输出
-- 任一非空 → 输出段标题 + 该非空列表（另一侧空则不输出对应子标题）
+- 字段缺失或列表为空 → 整段不输出
+- 旧产物的 `{forbid, allow}` mapping 只渲染 `allow`
 - 渲染位置：在 scene_card.md 内输出即可；与其他场景约束相邻显示
 
 ## `prose_risk_contract`（按风险使用）

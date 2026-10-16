@@ -187,14 +187,14 @@ V3_SCENE_OVERLAY = {
 
 
 def test_render_with_v3_fields():
-    """11 个 v3 新字段全部 populated → 每个 section 标题都应渲染。"""
+    """v3 字段全部 populated → 每个 section 标题都应渲染；旧产物的故意遮蔽与省略不进场景卡。"""
     scene = dict(BASE_SCENE, **V3_SCENE_OVERLAY)
     md = render_scene_card_markdown(scene)
 
-    # 11 个 section 标题全部出现
+    # 10 个 section 标题全部出现
     assert "## 承载候选" in md
     assert "## POV 约束" in md
-    assert "## 故意省略" in md
+    assert "## 故意省略" not in md
     assert "## 不可逆变化" in md
     assert "## 揭示方式候选" in md
     assert "## 叙述距离建议" in md
@@ -206,8 +206,8 @@ def test_render_with_v3_fields():
 
     # 字段内容抽查（每段至少一个具体值）
     assert "撕碎的遗嘱" in md
-    assert "凯瑟琳的反应" in md
-    assert "不写小龙女如何识破药粉" in md
+    assert "凯瑟琳的反应" not in md
+    assert "不写小龙女如何识破药粉" not in md
     assert "陆青漪决定一同北上" in md
     assert "delayed_implication" in md
     assert "贴近当下体验的第一人称" in md
@@ -278,7 +278,7 @@ def test_render_inspiration_refs_empty_array_section_omitted():
 
 def test_pov_constraint_uses_schema_keys():
     """正向用例：fixture 用 phase5 output-schema.md L35-37 的字段名
-    (can_perceive / cannot_perceive / intentional_blind_spot) — renderer 必须读到，
+    (can_perceive / cannot_perceive) — renderer 必须读到；旧产物的 intentional_blind_spot 不再渲染，
     并把 list 元素拼出来（防止再次发生 perceivable / not_perceivable / deliberately_obscured 这类
     key-drift 退化）。"""
     scene = dict(
@@ -293,10 +293,10 @@ def test_pov_constraint_uses_schema_keys():
 
     # section header 出现
     assert "## POV 约束" in md
-    # 三个 label 都出现（Chinese label 不变 — 只 yaml key 变）
+    # 两个 label 出现（Chinese label 不变 — 只 yaml key 变）
     assert "**可感知**" in md
     assert "**不可感知**" in md
-    assert "**故意遮蔽**" in md
+    assert "**故意遮蔽**" not in md
     # can_perceive list 每个元素都被拼进输出
     assert "对方的语气" in md
     assert "桌上的茶杯" in md
@@ -304,28 +304,35 @@ def test_pov_constraint_uses_schema_keys():
     # cannot_perceive list 同上
     assert "陆青漪的内心独白" in md
     assert "殿外暗器位置" in md
-    # intentional_blind_spot 字符串
-    assert "杨过此刻是否还活着" in md
+    # intentional_blind_spot 字符串不进场景卡
+    assert "杨过此刻是否还活着" not in md
     # 旧 wrong-key 名一律不应出现在 renderer 输出（label 中文已覆盖）
     assert "perceivable" not in md
     assert "deliberately_obscured" not in md
 
 
-def test_world_disclosure_plan_both_non_empty_renders_full_section():
-    """forbid + allow 都非空 → 输出锁定标题 + 两个子标题 + 列表项"""
+def test_world_disclosure_plan_list_renders_items():
+    """字符串列表 → 输出锁定标题 + 每项世界信息。"""
+    scene = dict(BASE_SCENE, world_disclosure_plan=["主角口吻交代崩坏过程", "感染者靠气味找人"])
+    md = render_scene_card_markdown(scene)
+    assert "## 世界观披露 (world_disclosure_plan)" in md
+    assert "主角口吻交代崩坏过程" in md
+    assert "感染者靠气味找人" in md
+    assert "暂缓披露" not in md
+
+
+def test_world_disclosure_plan_legacy_mapping_renders_allow_only():
+    """旧产物 {forbid, allow} → 只渲染 allow，forbid 不进场景卡。"""
     scene = dict(BASE_SCENE, world_disclosure_plan={
         "forbid": ["终极成因", "救援"],
         "allow": ["主角口吻披露崩坏过程"],
     })
     md = render_scene_card_markdown(scene)
     assert "## 世界观披露 (world_disclosure_plan)" in md
-    assert "终极成因" in md
-    assert "救援" in md
     assert "主角口吻披露崩坏过程" in md
-    assert "**暂缓披露**（当前 POV 不可知，或延迟后产生明确收益）：" in md
-    assert "**本场可披露**" in md
-    assert "终极成因 / 宏大总结类硬约束" not in md
-    assert "极简短句即止" not in md
+    assert "终极成因" not in md
+    assert "救援" not in md
+    assert "暂缓披露" not in md
 
 
 def test_world_disclosure_plan_missing_skips_section():
@@ -335,23 +342,12 @@ def test_world_disclosure_plan_missing_skips_section():
     assert "## 世界观披露" not in md
 
 
-def test_world_disclosure_plan_both_empty_skips_section():
-    """forbid + allow 同时为空 → 整段不输出"""
-    scene = dict(BASE_SCENE, world_disclosure_plan={"forbid": [], "allow": []})
-    md = render_scene_card_markdown(scene)
-    assert "## 世界观披露" not in md
-
-
-def test_world_disclosure_plan_only_allow_non_empty():
-    """只有 allow 非空 → 输出段标题 + allow 列表项，不输出 forbid 子标题"""
-    scene = dict(BASE_SCENE, world_disclosure_plan={
-        "forbid": [],
-        "allow": ["主角披露行动规则"],
-    })
-    md = render_scene_card_markdown(scene)
-    assert "## 世界观披露 (world_disclosure_plan)" in md
-    assert "主角披露行动规则" in md
-    # 注：具体子标题文字由实现决定，test 只验段标题 + 列表内容字段
+def test_world_disclosure_plan_empty_skips_section():
+    """空列表，或旧产物 allow 为空 → 整段不输出"""
+    for plan in ([], {"forbid": ["终极成因"], "allow": []}):
+        md = render_scene_card_markdown(dict(BASE_SCENE, world_disclosure_plan=plan))
+        assert "## 世界观披露" not in md
+        assert "终极成因" not in md
 
 
 def test_extract_prefers_top_level_scenes_over_sequence_expansions(tmp_path):
@@ -589,7 +585,6 @@ def test_scene_projection_preserves_meaning_and_authority_across_packages(extrac
         climax_pattern={"primary": "unfinished_action", "forbidden_moves": ["不能恢复已毁退路"]},
         counter_prior_scene={"used": True, "kind": "death_with_chore", "mundane_action": "现有日常动作", "forbidden_moves": ["作者要求保留沉默"]},
         pov_constraint={"cannot_perceive": ["门外是谁"]},
-        omission_plan=["身份留到下一场确认"],
     )
     md = extractor_module.render_scene_card_markdown(scene)
     assert "**关键转折**: 起初可以撤离，资源丧失后必须继续。" in md
@@ -601,10 +596,29 @@ def test_scene_projection_preserves_meaning_and_authority_across_packages(extrac
     assert "direct_action" not in md
     assert "未完成的表达或行动承担后果" in md
     assert "保持已确认的事实、核心因果与必要结果" in md
-    for boundary in ("退路已经关闭", "不能恢复已毁退路", "作者要求保留沉默", "门外是谁", "身份留到下一场确认"):
+    for boundary in ("退路已经关闭", "不能恢复已毁退路", "作者要求保留沉默", "门外是谁"):
         assert boundary in md
     assert "手法偏好按本场效果取舍" in md
     assert "人物知识" in md
+
+
+def test_legacy_withholding_fields_not_projected_in_either_package(extractor_module):
+    """大纲只写要写什么：旧产物的省略、故意遮蔽与 forbid 在两包都不进场景卡。"""
+    scene = dict(
+        BASE_SCENE,
+        pov_constraint={"cannot_perceive": ["门外是谁"], "intentional_blind_spot": "不让读者知道成因"},
+        omission_plan=["不说明全城灾变成因"],
+        world_disclosure_plan={"forbid": ["没有知识来源的灾变全局解释"], "allow": ["停电停水已持续数月"]},
+    )
+    md = extractor_module.render_scene_card_markdown(scene)
+    assert "门外是谁" in md
+    assert "停电停水已持续数月" in md
+    for withheld in ("不让读者知道成因", "不说明全城灾变成因", "没有知识来源的灾变全局解释",
+                     "## 故意省略", "**故意遮蔽**", "暂缓披露"):
+        assert withheld not in md
+    only_blind_spot = extractor_module.render_scene_card_markdown(
+        dict(BASE_SCENE, pov_constraint={"intentional_blind_spot": "x"}))
+    assert "## POV 约束" not in only_blind_spot
 
 
 def test_projection_preserves_unknown_values_and_legacy_carrier(extractor_module):

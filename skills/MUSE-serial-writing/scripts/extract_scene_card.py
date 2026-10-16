@@ -289,19 +289,14 @@ def _render_v3_fields(scene: dict, lines: list[str]) -> None:
 
     _render_world_disclosure_plan(scene, lines)
 
-    pov_constraint = scene.get("pov_constraint")
-    if pov_constraint:
+    pov_constraint = scene.get("pov_constraint") or {}
+    pov_items = [(label, pov_constraint[key]) for key, label in
+                 (("can_perceive", "可感知"), ("cannot_perceive", "不可感知"))
+                 if pov_constraint.get(key)]
+    if pov_items:
         lines.extend(["## POV 约束", ""])
-        for key, label in (("can_perceive", "可感知"), ("cannot_perceive", "不可感知"),
-                           ("intentional_blind_spot", "故意遮蔽")):
-            if pov_constraint.get(key):
-                lines.append(f"- **{label}**: {_label(pov_constraint[key], {})}")
-        lines.append("")
-
-    omission_plan = scene.get("omission_plan")
-    if omission_plan:
-        lines.extend(["## 故意省略", ""])
-        lines.extend(f"- {item}" for item in omission_plan)
+        for label, value in pov_items:
+            lines.append(f"- **{label}**: {_label(value, {})}")
         lines.append("")
 
     irreversible_action = scene.get("irreversible_action")
@@ -435,38 +430,30 @@ def _render_prose_risk_contract(scene: dict, lines: list[str]) -> None:
 
 
 def _render_world_disclosure_plan(scene: dict, lines: list[str]) -> None:
-    """渲染 world_disclosure_plan 字段为 markdown 段（D-2026-05-19-8/14 契约）。
+    """渲染 world_disclosure_plan：本场交给读者的世界信息。
 
     契约：
     - 段标题精确字面量：## 世界观披露 (world_disclosure_plan)
-    - forbid + allow 同时为空 OR 字段缺失 → 整段不输出
-    - 任一非空 → 输出段标题 + 该非空子列表（空那一侧不输出子标题）
+    - 字符串列表；字段缺失或为空 → 整段不输出
+    - 旧产物的 {forbid, allow} mapping 只渲染 allow
     """
     plan = scene.get("world_disclosure_plan")
-    if not plan:
-        return
-    forbid = plan.get("forbid") or []
-    allow = plan.get("allow") or []
-    if not forbid and not allow:
+    if isinstance(plan, dict):
+        plan = plan.get("allow")
+    if isinstance(plan, str):
+        plan = [plan]
+    items = [item for item in (plan or []) if item]
+    if not items:
         return
 
     lines.append("")
     lines.append("## 世界观披露 (world_disclosure_plan)")
     lines.append("")
-
-    if forbid:
-        lines.append("**暂缓披露**（按当前知识边界与已确认披露安排）：")
-        lines.append("")
-        for item in forbid:
-            lines.append(f"- {item}")
-        lines.append("")
-
-    if allow:
-        lines.append("**本场可披露**（按人物知情与叙述权限选择表达）：")
-        lines.append("")
-        for item in allow:
-            lines.append(f"- {item}")
-        lines.append("")
+    lines.append("本场交给读者的世界信息；从回忆、亲历、媒介、传闻或现场证据进入，由视角与场景压力决定：")
+    lines.append("")
+    for item in items:
+        lines.append(f"- {item}")
+    lines.append("")
 
 
 def atomic_write(path: Path, content: str) -> None:

@@ -56,13 +56,12 @@ signals=<JSON: 至少含 spine_mode, protagonist_desire 或 information_goal, cr
 
 ## reveal_ladder_seed 字段
 
-`reader_spine.withheld_answer` 是单点字段——只说"哪个答案不能早说"。`reveal_ladder_seed` 是多段字段，只在事实、因果关系或身份需要分阶段释放时，承担**真相显形路径**的高层骨架。每一段都要改变人物行动、读者归因、关系判断或价值评价；普通母题重现、象征回声和伏笔不触发本字段。`information` mode 是常见适用情形，也需通过上述判据；单次揭示直接使用 `reader_spine`。
+`reader_spine` 的 `reader_waits_to_know` 与 `recognition_object` 写单次揭示：读者等的答案，以及凭什么确认。`reveal_ladder_seed` 是多段字段，只在事实、因果关系或身份需要分阶段释放时，承担**真相显形路径**的高层骨架。每一段都要改变人物行动、读者归因、关系判断或价值评价；普通母题重现、象征回声和伏笔不触发本字段。`information` mode 是常见适用情形，也需通过上述判据；单次揭示直接使用 `reader_spine`。
 
 ```yaml
 reader_spine:
   reader_waits_to_know: "..."
   recognition_object: "..."
-  withheld_answer: "..."          # 已有
   reveal_ladder_seed:             # 整块 conditional；未命中触发判据时省略，保留三个位置键，未使用的位置可为空数组
     early_signals:                # 早期信号：读者首次接触相关物件 / 行为 / 异常，价值未解释
       - "..."
@@ -144,16 +143,15 @@ phase5 scene_card 后再具体绑定 INS-* `disclosure_ladder[].scene_id` 到具
 reader_spine:
   reader_waits_to_know: "读者真正等什么被确认 / 推翻"
   recognition_object: "最终通过什么动作 / 物件 / 图像 / 选择确认"
-  withheld_answer: "哪些答案不能过早解释"
 ```
 
-`recognition_object` 说明读者凭哪些事件、经验或叙述关系形成认识；只写“读者意识到 X”尚未解释形成依据。物件、行动、内心展开、转述和叙述者评论均可承载，具体手法由作品决定。`withheld_answer` 只记录确需延迟的答案及理由；无需保密时为空或 null。
+`recognition_object` 说明读者凭哪些事件、经验或叙述关系形成认识；只写“读者意识到 X”尚未解释形成依据。物件、行动、内心展开、转述和叙述者评论均可承载，具体手法由作品决定。
 
-Phase 5 将这条全篇认知线转为当前场景的 `reader_track`、`scene_tasks` 与必要的 `omission_plan`，分别承接阅读焦点、当场发现和延迟确认条件。writer 从本场卡片取得这些安排；人物当前所知仍按经历、事件时点与可见刺激派生。故事允许读者先于人物知道答案，也允许先告结果、再追原因和代价。
+Phase 5 将这条全篇认知线转为各场的 `reader_track` 与 `scene_tasks`：读者在这一场跟住什么问题、这一场成立哪些发现，答案在哪一场由什么确认。writer 从本场卡片取得这些安排；人物当前所知仍按经历、事件时点与可见刺激派生。故事允许读者先于人物知道答案，也允许先告结果、再追原因和代价。
 
 `reader_waits_to_know` 应落在结果、真相、选择或人物认识怎样改变。作品可以让一种价值在行动、代价和后果中接受检验；不要把“艺术是否有用”“某种文明是否更善良”写成等待剧情证明的客观命题。
 
-答案延后释放需要改变人物行动、读者归因、关系判断或价值评价。只把背景说明推迟到后文，且释放前后剧情可以原样成立，不写入 `withheld_answer / reveal_ladder_seed`。
+答案放到后面确认，需要确认那一刻改变人物行动、读者归因、关系判断或价值评价，这时写进 `reader_waits_to_know` 与 `reveal_ladder_seed`；背景信息在读者需要它的地方给出。
 
 ### 4. 设定戏剧问题
 

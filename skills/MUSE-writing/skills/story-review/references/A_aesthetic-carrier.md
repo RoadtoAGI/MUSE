@@ -6,8 +6,8 @@
 
 下列语境帮助核实候选位置的实际作用。回读相关句段后，依据可定位的阅读损害决定是否报告；设计字段补充意图和条件：
 
-1. 信息延迟或视角未知：局部 POV 证据证明人物无法接触信息；`scene_card.pov_constraint.intentional_blind_spot` 可补强
-2. 意义已经可恢复的省略：动作、物件或留白在局部文本中已经承载意义；`scene_card.omission_plan` 可补强
+1. 信息延迟或视角未知：局部 POV 证据证明人物无法接触信息；`scene_card.pov_constraint.cannot_perceive` 可补强
+2. 意义已经可恢复的省略：动作、物件或留白在局部文本中已经承载意义
 3. 文体冷感 / 不可靠叙述：局部声线与认知偏差证明叙述机制；`scene_card.narrator_distance`（`archival_zero` / `unreliable_first` 等）只提供补强的叙述状态证据，`subtext_translated_by_narrator` 与 `signature_voice_overuse` 仍按实际句段作用判断
 4. 配角长独白：局部文本满足 reframing 判读并承担具体叙事功能（见 [`A_aesthetic-micro_language.md`](A_aesthetic-micro_language.md) §reframing 独白判读）
 

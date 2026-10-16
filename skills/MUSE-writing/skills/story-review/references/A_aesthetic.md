@@ -15,7 +15,7 @@
 - `scope=manuscript` 同时读取本轮 wholetext 报告的定位线索，核对其 input_story_sha256 对应受审快照；统计与模型判断分别解释。
 - `pipeline/phase2_character.yaml` — 作者侧人物设计、经历与结构基准（核心依赖）
 - `pipeline/story-character-skills/.claude/skills/{slug}/SKILL.md` — 稳定经历、信念、判断习惯、声音和边界（核心依赖）
-- `pipeline/phase5_scenes.yaml` — 按受审场景读取对应条目的作用、必要结果、边界与 handoff；已填写的 `omission_plan` 连同 `reader_track / scene_tasks` 核对，即使未填写 `craft_carrier` 也适用
+- `pipeline/phase5_scenes.yaml` — 按受审场景读取对应条目的作用、必要结果、边界与 handoff；已填写的 `world_disclosure_plan` 连同 `reader_track / scene_tasks` 核对，即使未填写 `craft_carrier` 也适用
 - 按实际疑点读取 `pipeline/phase0_conception.yaml` 的作者要求、风格与来源，Phase 1 世界、Phase 3 脊椎、Phase 4 结构及当前采用的 ledger/参考；这些材料解释约束与选择，不能代替正文实现。
 - `pipeline/review/lint/{scene_id}.*.yaml` — **仅 `scope=scenes` 读取**的 L1 脚本 lint 报告，存在哪份读哪份；默认产出前两份，第三份按需
   - `{scene_id}.ai_filler.yaml`（S1：口癖 / Markdown / 排比 / 关联词）
@@ -201,7 +201,7 @@ S2 的 sensory_balance 只显示词面分布。按人物可感范围、叙述距
 
 对每个命中：引用原文，说明焦点角色为何不可能知道这条信息。（当前 A 组全手工扫描）
 
-同时核对本场已明确的读者披露条件：按受审正文的呈现顺序，比较 `reader_track / scene_tasks / omission_plan` 与读者实际取得的事实和确认。当前必要理解应有正文依据；有疑点时回查 Phase 3 `reader_spine` 的全篇意图。提前确认受保护答案，沿已有 `dimension: ai_pattern / subkind: omission_violated` 报告，引用正文和仍生效的保留条件；人物越过所知范围则沿 `pov_boundary` 等既有维度判断。A 组读取设计属于作者侧核对，不改变 reader 的盲读输入。
+同时核对本场已明确的读者披露条件：按受审正文的呈现顺序，比较 `reader_track / scene_tasks / world_disclosure_plan` 与读者实际取得的事实和确认。当前必要理解应有正文依据；有疑点时回查 Phase 3 `reader_spine` 的全篇意图。答案在原定确认场之前就被说破，沿已有 `dimension: ai_pattern / subkind: omission_violated` 报告，引用正文和该答案的确认场；人物越过所知范围则沿 `pov_boundary` 等既有维度判断。A 组读取设计属于作者侧核对，不改变 reader 的盲读输入。
 
 读者先知而人物后知可以形成戏剧反讽，先告结果也可使后文追踪原因和代价；依当前有效设计判断。字段缺省本身不构成问题，正文形成了合法的新承载或在约定条件满足后确认答案时保留。
 
