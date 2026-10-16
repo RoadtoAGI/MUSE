@@ -220,3 +220,17 @@ def test_wholetext_report_lists_per_sentence_hits_without_failing():
     assert listed["hit_records"][0]["mechanism"] == "posture_line"
     assert "没有人复述。" in listed["hit_records"][0]["evidence_quote"]
     assert not any(o["type"] == "per_sentence_hits" for o in build_report(STORY_183, "zh")["observations"])
+
+
+def test_migrated_negation_forms_are_not_double_counted():
+    """原 parallel_negation 的不重复计数性质：同一处只由一个规则、一个变体标出。"""
+    hits = analyze("不是方向错了，而是时机不对。", lang="zh")["hits"]
+    contrastive = [h for h in hits if h["rule"] == "contrastive_negation_assertion"]
+    assert [h["variant"] for h in contrastive] == ["不是A而是B"]
+
+    hits = analyze("没有声音，没有光。", lang="zh")["hits"]
+    assert [h["rule"] for h in hits if h["rule"] in ("negation_list", "contrastive_negation_assertion")] == [
+        "negation_list"]
+
+    hits = analyze("并非他错了，而是时机不对。\n\n并非偶然，是必然。", lang="zh")["hits"]
+    assert [h["variant"] for h in hits if h["rule"] == "contrastive_negation_assertion"] == ["并非A是B", "并非A是B"]
