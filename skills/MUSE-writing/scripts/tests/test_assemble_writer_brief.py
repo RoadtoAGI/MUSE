@@ -327,3 +327,186 @@ def test_repair_entry_is_always_attached_and_not_duplicated(tmp_path):
     entries = _brief(work).split("## 条目")[1].split("## 指令")[0]
     assert entries.count("### 口癖的改法") == 1
     assert "全文：prose-craft/references/ai-cliche-patterns.md" in entries
+
+
+# ---------- 装配输出合同（质量闸门 R2 变异分诊补的场景） ----------
+
+def _rules_with(monkeypatch, **shortform_changes) -> None:
+    rules = awb._load(awb.RULES_PATH)
+    rules["shortform"].update(shortform_changes)
+    monkeypatch.setattr(awb, "_load", lambda p, _orig=awb._load: rules if p == awb.RULES_PATH else _orig(p))
+
+
+def _instruction(work: Path) -> str:
+    return _brief(work).split("## 指令")[1]
+
+
+def _write_exemplar(work: Path, han_chars: int) -> None:
+    text = "走" * han_chars
+    (work / "pipeline/shortform/reference_pack.md").write_text(
+        'query: "q"\nresults: 1\n\n' + WINDOW.format(n=len(text), text=text) + "\n", encoding="utf-8")
+
+
+def test_full_location_instruction_only_after_second_report(tmp_path):
+    """固定条目不触发“读全文”指令；同类问题第二次报出解锁全文后才要求动笔前读；改法两种情况都只附一次。"""
+    work = _run(tmp_path)
+    awb.assemble_shortform(work)
+    assert "条目注明“全文”的" not in _instruction(work)
+    assert _brief(work).count("### 口癖的改法") == 1
+
+    _review(work, 1, [_finding("文本质量", "abstract_judgment_without_action")])
+    _review(work, 2, [_finding("文本质量", "abstract_judgment_without_action")])
+    awb.assemble_shortform(work)
+    assert "条目注明“全文”的，动笔前读那一处。" in _instruction(work)
+    assert "全文：" in _brief(work).split("## 条目")[1].split("## 指令")[0]
+    assert _brief(work).count("### 口癖的改法") == 1
+
+
+def test_english_delivery_projects_characters_and_events_with_english_labels(tmp_path):
+    work = _run(tmp_path)
+    _set_conception(work, language="en")
+    shortform = work / "pipeline/shortform"
+    _dump(shortform / "characters.yaml", {"characters": [
+        {"id": "xu", "name": "Xu Cheng", "desire": "survive the month", "pressure": "three days without food",
+         "voice": "codes his fear as jokes"},
+        {"id": "zhou", "name": "Old Zhou"},
+    ]})
+    _dump(shortform / "outline.yaml", {"scenes": [
+        {"scene_id": "S01", "pov": "xu", "participants": ["xu", "zhou"], "location_time": "12th floor, dusk",
+         "conflict": "hunger against pride", "value_start": "still proud", "value_end": "lets it go",
+         "task": "He finds the crackers Zhou hid in the pantry.", "handoff": "Half a pack is left."}]})
+    awb.assemble_shortform(work)
+    brief = _brief(work)
+    people = brief.split("## 人物")[1].split("## 事件")[0]
+    events = brief.split("## 事件")[1].split("## 范文")[0]
+    assert "Wants: survive the month" in people and "Situation: three days without food" in people
+    assert "追求：" not in people
+    assert "POV Xu Cheng; present: Xu Cheng, Old Zhou." in events
+    assert "Opens with still proud; ends with lets it go." in events
+    assert "He finds the crackers Zhou hid in the pantry." in events and "Half a pack is left." in events
+
+
+def test_missing_exemplar_keeps_reason_and_other_sections(tmp_path):
+    work = _run(tmp_path, exemplar_chars=None)
+    result = subprocess.run([sys.executable, str(SCRIPT), "--shortform", "--work-dir", str(work)],
+                            capture_output=True, text=True)
+    assert result.returncode == 0
+    brief = _brief(work)
+    exemplar = brief.split("## 范文")[1].split("## 手法导航")[0].strip()
+    assert exemplar == "本篇无范文：未取范文（reference_pack.md 不存在）"
+    assert "### 许诚" in brief and "让他在茶水间翻到老周藏的饼干" in brief and "### 口癖的改法" in brief
+    meta = _meta(work)
+    assert meta["exemplar_ratio"] == 0.0 and meta["exemplar_short"] is False
+    assert meta["facts_over_budget"] is True
+
+
+def test_exemplar_ratio_keeps_three_decimals(tmp_path):
+    work = _run(tmp_path, exemplar_chars=1500)
+    awb.assemble_shortform(work)
+    meta = _meta(work)
+    exact = meta["sections"]["范文"] / meta["total"]
+    assert meta["exemplar_ratio"] == round(exact, 3)
+    assert isinstance(meta["exemplar_ratio"], float) and 0 < meta["exemplar_ratio"] < 1
+    assert round(exact, 4) != round(exact, 3)  # 夹具让第四位非零，四位小数会被检出
+
+
+def test_ratio_equal_to_threshold_is_not_short(tmp_path, monkeypatch):
+    work = _run(tmp_path, exemplar_chars=1500)
+    awb.assemble_shortform(work)
+    ratio = _meta(work)["exemplar_ratio"]
+    _rules_with(monkeypatch, exemplar_min_ratio=ratio)
+    awb.assemble_shortform(work)
+    assert _meta(work)["exemplar_ratio"] == ratio and _meta(work)["exemplar_short"] is False
+
+
+def test_facts_equal_to_exemplar_are_not_over_budget(tmp_path):
+    work = _run(tmp_path)
+    _write_exemplar(work, 100)
+    awb.assemble_shortform(work)
+    sections = _meta(work)["sections"]
+    facts = sum(sections[s] for s in awb.FACT_SECTIONS)
+    _write_exemplar(work, 100 + facts - sections["范文"])
+    awb.assemble_shortform(work)
+    meta = _meta(work)
+    assert sum(meta["sections"][s] for s in awb.FACT_SECTIONS) == meta["sections"]["范文"]
+    assert meta["facts_over_budget"] is False
+
+
+def test_meta_fields_and_input_hashes(tmp_path):
+    import datetime as dt
+    import hashlib
+
+    work = _run(tmp_path)
+    shortform = work / "pipeline/shortform"
+    _review(work, 1, [_finding("POV")])
+    _review(work, 2, [_finding("POV")])
+    before = {p.name: p.read_bytes() for p in shortform.iterdir() if p.is_file()}
+    awb.assemble_shortform(work)
+    awb.assemble_shortform(work)
+    meta = _meta(work)
+    assert meta["brief"] == "pipeline/shortform/writer_brief.md"
+    assert (work / meta["brief"]).is_file()
+    assert dt.datetime.fromisoformat(meta["generated_at"]).tzinfo is not None
+    assert meta["unit"] == "字（汉字；英文按 1 汉字约 0.6 词折算）"
+    assert meta["review_rounds"] == [1, 2]
+    expected = {name: hashlib.sha256((shortform / f"{name}.yaml").read_bytes()).hexdigest()
+                for name in ("conception", "characters", "outline")}
+    expected["exemplar"] = hashlib.sha256((shortform / "reference_pack.md").read_bytes()).hexdigest()
+    assert meta["inputs"] == expected
+    # 重复装配只有三个派生文件，设计输入原样
+    after = {p.name for p in shortform.iterdir() if p.is_file()}
+    assert after - set(before) == {"writer_brief.md", "brief_meta.yaml", "disclosure_state.yaml"}
+    assert all((shortform / name).read_bytes() == data for name, data in before.items())
+
+
+def test_missing_person_warns_and_present_person_does_not(tmp_path):
+    work = _run(tmp_path)
+    awb.assemble_shortform(work)
+    assert not any("narration_person" in w for w in _meta(work).get("warnings", []))
+
+    old = _run(tmp_path / "old")
+    _set_conception(old, narration_person=None)
+    awb.assemble_shortform(old)
+    warnings = _meta(old)["warnings"]
+    assert isinstance(warnings, list)
+    assert "conception 缺 narration_person（旧构想）；取范文时 --person 需主控判断" in warnings
+
+
+def test_equal_mtimes_are_not_stale(tmp_path):
+    import os
+
+    work = _run(tmp_path)
+    pack = work / "pipeline/shortform/reference_pack.md"
+    stamp = pack.stat().st_mtime
+    os.utime(work / "pipeline/shortform/conception.yaml", (stamp, stamp))
+    os.utime(pack, (stamp, stamp))
+    awb.assemble_shortform(work)
+    assert not any("取范文之后改过" in w for w in _meta(work).get("warnings", []))
+
+
+def test_missing_language_is_the_only_warning(tmp_path):
+    import os
+
+    work = _run(tmp_path)
+    _set_conception(work, language=None)
+    pack = work / "pipeline/shortform/reference_pack.md"
+    later = (work / "pipeline/shortform/conception.yaml").stat().st_mtime + 60
+    os.utime(pack, (later, later))  # 范文晚于构想：没有过期警告在前
+    awb.assemble_shortform(work)
+    warnings = _meta(work)["warnings"]
+    assert len(warnings) == 1 and "缺 language" in warnings[0]
+
+
+def test_instruction_cap_boundary_and_warning_text(tmp_path, monkeypatch):
+    work = _run(tmp_path)
+    awb.assemble_shortform(work)
+    n = _meta(work)["sections"]["指令"]
+    assert "warnings" not in _meta(work)
+
+    _rules_with(monkeypatch, instruction_cap=n)
+    awb.assemble_shortform(work)
+    assert "warnings" not in _meta(work)
+
+    _rules_with(monkeypatch, instruction_cap=n - 1)
+    awb.assemble_shortform(work)
+    assert _meta(work)["warnings"] == [f"指令节 {n} 字，超过 {n - 1}"]
