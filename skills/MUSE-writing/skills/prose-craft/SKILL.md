@@ -29,7 +29,7 @@ description: 创作或改写小说散文叙述，将场景因果、人物经验�
 - [心理与知识](references/prose-rules.md#心理与知识)：内心与判断不越过人物所知
 - [细节与修辞](references/prose-rules.md#细节与修辞)：细节与比喻是否成立
 - [情感反应](references/prose-rules.md#情感反应)：反应的强度、时机与渠道
-- [风格与声音](references/prose-rules.md#风格与声音)：作品风格、人物声音与职业语汇
+- [风格与声音](references/prose-rules.md#风格与声音)：作品风格、人物声音与职业身份
 
 ## 写后核对与按需参考
 
