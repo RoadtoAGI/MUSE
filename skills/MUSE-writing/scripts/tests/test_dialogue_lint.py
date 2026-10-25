@@ -196,6 +196,32 @@ def test_weak_character_expression_ignores_environment_sound():
     assert hits == []
 
 
+def test_weak_character_expression_voice_manner_tags():
+    """长篇《帝国雄心》作者删去的开口标签都应进入候选。"""
+    text = (
+        "他抓起通往司令塔的电话，嗓子发干：\"舰长，北面是大和级。\"\n"
+        "派伊把圆规横放在图上，语气生硬，\"开进这些圈里，天亮以后就跑不出去了。\"\n"
+        "近藤拿两脚规在海图上点了一下，一字一顿地下令：\"长门带陆奥往南。\"\n"
+        "派伊在驱逐舰上抓起话筒，厉声下令：\"各舰右转四个罗经点。\"\n"
+        "金梅尔盯着那枚别针，嗓音发涩。\n"
+        "他放下望远镜，嗓门比平时高了一截：\"派人上去！\""
+    )
+    patterns = [h["pattern"] for h in detect_weak_character_expression_candidate(text)]
+    for expected in ("嗓子发干", "语气生硬", "一字一顿地下令", "厉声下令", "嗓音发涩", "高了"):
+        assert any(expected in p for p in patterns), (expected, patterns)
+
+
+def test_weak_character_expression_keeps_hearing_condition_out():
+    """声音交代听见条件或身体状态的写法不进候选。"""
+    text = (
+        "班长拖着水龙扯开嗓子喊：\"没着的往舷边推！\"\n"
+        "金的嗓门隔着门传到走廊上，值夜的书记员都停了打字机。\n"
+        "参谋长回身把门关严，压低声音道：\"上了军事法庭，金梅尔会把计划说出来。\"\n"
+        "西马德哑着嗓子，朝救护站那边偏了偏头。"
+    )
+    assert detect_weak_character_expression_candidate(text) == []
+
+
 def test_weak_character_expression_does_not_duplicate_stock_speech_tag():
     text = "那声音不高，追兵却一齐垂手。\n他淡淡道：「刀断了，人还在。」"
     hits = detect_weak_character_expression_candidate(text)
