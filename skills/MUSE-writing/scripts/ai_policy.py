@@ -313,6 +313,10 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         decision_ref="skill-upgrade-2026-09-07-semantic-review",
         mechanism="posture_line",
     ),
+    "vague_wording": _family(
+        "semantic_heuristic", "vague_wording", ["空泛词"],
+        "逐句核对动作、状态或对象是否能从上下文还原", None, observe_zh=True,
+    ),
     "fragment_settlement": _family(
         "semantic_heuristic",
         "micro_punchline_cadence",
@@ -468,6 +472,8 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
     ),
 }
 
+# This family has no English policy or rule.
+FAMILY_MANIFEST["vague_wording"]["policy"].pop("en")
 FAMILY_MANIFEST["contrastive_negation_assertion"]["policy"]["zh"]["rules"]["negation_restriction_pivot"] = _policy(
     "observe"
 )
@@ -627,6 +633,7 @@ PRE_CONTRACT_RULE_IDENTITIES = PRE_CONTRACT_INHERITED_RULES | frozenset({
 
 
 RULE_REGISTRY: dict[str, dict[str, Any]] = {
+    "vague_wording": {"family": "vague_wording", "languages": ["zh"]},
     "banned_markdown": {"family": "marker_pollution", "languages": ["zh", "en"]},
     "keyword_ai_cliche": {"family": "lexical_cliche", "languages": ["zh"]},
     "conjunction_overuse": {"family": "connector_overuse", "languages": ["zh"]},

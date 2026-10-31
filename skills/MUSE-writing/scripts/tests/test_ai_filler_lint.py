@@ -36,7 +36,7 @@ _PLUGIN_ROOT = Path(__file__).resolve().parent.parent.parent
 
 EXPECTED_FAMILIES = {
     "marker_pollution", "lexical_cliche",
-    "fragment_settlement", "micro_clause_chain", "connector_overuse",
+    "vague_wording", "fragment_settlement", "micro_clause_chain", "connector_overuse",
     "rhythm_fragmentation", "repeated_head", "action_log", "dash_overuse",
     "figurative_debt", "abstract_phrase_debt", "silence_pause_cliche",
     "social_choreography", "contrastive_negation_assertion",

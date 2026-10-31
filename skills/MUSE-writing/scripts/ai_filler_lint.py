@@ -318,6 +318,58 @@ FRAGMENT_SETTLEMENT_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
 ]
 
 
+VAGUE_WORDING_PATTERNS = {
+    "V01": r"(?<![摇扳转翻拨挥摆扣])(?<!自己)(?<!亲自)动手(?![轮柄把写打翻做拆修画])|停(?:了)?手",
+    "V02": r'(?:照|按)(?:原|既定|预定|既有|这个|那个)?(?:计划|安排)走(?:下去)?(?=[，。！？；”"]|$)',
+    "V05": r'(?:不肯|没有|不愿|不会)(?:再)?退(?=[，。！？；：”"]|$)',
+    "V06": r"(?:能|不能)动(?![员摇用性权力])|动不了|再动(?=[，。！？；])",
+    "V07": r'收拾(?:掉|干净|残局|住)|难以收拾|收拾完(?=了|[，。！？；”"]|$)|(?<=[下去来])收拾(?=[，。！？；”"]|$)',
+    "V08": r'(?:攻击队|观测机|喷气机|飞机|装甲部队|战列线)[^，。！？；]{0,6}(?<!投)放(?:了)?(?:出去|上去)|(?<!投)放(?:了)?出去的(?:攻击队|飞机)|放(?:它们|他们|装甲部队)(?:出去|上去)|再放(?=[！。？"]|$)|什么时候放',
+    "V10": r"腾出手来|不肯放手|另一手押在",
+    "V11": r"(?<!支)撑(?:不住|住了?|了一天)|(?<!支)撑不过[^，。！？；]{1,5}|顶不住|挨不挨得住",
+    "N01": r"(?<![这那件买卖看吃])(?<!这套)(?<!那套)(?<!这种)(?<!那种)(?<!这些)(?<!那些)(?<!什么)东西(?![方南北两相：])",
+    "R01": r"[这那]一下",
+    "Q01": r"(?:大|登时|现在)?乱(?:着|了|过一阵|成一团)|(?:登时)?大乱(?=[，。！？；]|$)|稳住(?:了)?|站稳(?:了)?",
+    "Q02": r"(?:打|走|卸|办|垮)得(?:很|不|太)?(?:硬|顽强|好|顺当|顺|快)|快得没法打|催得(?:很|太)?急|拖得(?:很|太)?久|压得(?:很|太)?紧",
+    "Q06": r"完蛋了|要了命|吃了亏",
+    "C01": r"(?:情况|局势|形势|事态)[^，。！？；]{0,5}(?:在变|变了|变化|变好|变坏)",
+    "C02": r"换了打法|运量[^，。！？；]{0,5}翻上去|包围圈[^，。！？；]{0,4}松|全面铺开",
+}
+VAGUE_WORDING_PATTERNS = {key: re.compile(value) for key, value in VAGUE_WORDING_PATTERNS.items()}
+VAGUE_SENTENCE_RE = re.compile(r'[^。！？]*[。！？]+[”」』"]*|[^。！？]+$')
+
+
+def detect_vague_wording(text: str) -> list[dict]:
+    """词形只提供候选句；保留台词、原句和原文偏移。"""
+    hits = []
+    offset = 0
+    for line_no, line in enumerate(text.splitlines(keepends=True), 1):
+        if not line.lstrip().startswith("#"):
+            for sentence in VAGUE_SENTENCE_RE.finditer(line.rstrip("\r\n")):
+                raw = sentence.group()
+                for subtype, pattern in VAGUE_WORDING_PATTERNS.items():
+                    for match in pattern.finditer(raw):
+                        if subtype == "V07":
+                            objects = r"(?:行装|行李|包袱|餐具|屋子|房间)"
+                            if (re.search(objects + r"[^，。！？；]{0,3}$", raw[:match.start()])
+                                    or re.match(r"(?:了|的)?" + objects, raw[match.end():])):
+                                continue
+                        if subtype == "Q01" and match.group().startswith(("站稳", "稳住")) and re.search(r"抓着|扶着|抓住|扶住|脚下", raw[max(0, match.start() - 4):match.start()]):
+                            continue
+                        start = offset + sentence.start() + match.start()
+                        end = offset + sentence.start() + match.end()
+                        hits.append({
+                            "rule": "vague_wording", "family": "vague_wording",
+                            "group": FAMILY_GROUPS["vague_wording"], "cluster": FAMILY_CLUSTERS["vague_wording"],
+                            "pattern": subtype, "subtype": subtype, "matched": match.group(),
+                            "location": f"L{line_no}", "snippet": raw.strip(), "span": text[start:end],
+                            "start": start, "end": end, "confidence": "medium", "severity": "low",
+                        })
+                        break
+        offset += len(line)
+    return hits
+
+
 def detect_fragment_settlement(text: str) -> list[dict]:
     family = RULE_TO_FAMILY["fragment_settlement"]
     masked = _mask_quoted_spans(text)
@@ -2392,6 +2444,7 @@ def aggregate_observed_alerts(
 
 RULE_EXECUTORS = {
     "zh": {
+        "vague_wording": lambda text, thresholds: detect_vague_wording(text),
         "meta_language_leak_zh": lambda text, thresholds: detect_meta_language(text, "zh"),
         "fragment_settlement": lambda text, thresholds: detect_fragment_settlement(text),
         "micro_clause_chain": lambda text, thresholds: detect_micro_clause_chain(text),
