@@ -190,7 +190,7 @@ def test_wholetext_rerun_fail_is_listed(tmp_path, monkeypatch, capsys):
 def test_stale_disk_pass_is_refreshed_to_current_surface_review(tmp_path):
     work = _build_run(tmp_path)
     (work / "story.md").write_text(
-        "门槛上卧着一条黑狗。它听见脚步便抬起头。\n", encoding="utf-8")
+        "门槛上卧着一条黑狗。没有人应声。\n", encoding="utf-8")
     _write_report(work, 1)
     review_dir = work / "pipeline" / "review"
     review_dir.mkdir(parents=True, exist_ok=True)
@@ -202,7 +202,7 @@ def test_stale_disk_pass_is_refreshed_to_current_surface_review(tmp_path):
     assert fresh["semantic_review"] == "not_run"
     # 语义审阅确认的问题列为未解决，交作者决定是否再修一轮
     _write_report(work, 1, status="REVISE", findings=[{
-        "severity": "MAJOR", "dimension": "人物声音", "quote": "它听见脚步便抬起头。",
+        "severity": "MAJOR", "dimension": "人物声音", "quote": "没有人应声。",
         "note": "本例假设独立语义审阅确认当前正文与有效人物视角冲突",
     }])
     assert gate.run_gate(work) == 0

@@ -36,14 +36,14 @@ _PLUGIN_ROOT = Path(__file__).resolve().parent.parent.parent
 
 EXPECTED_FAMILIES = {
     "marker_pollution", "lexical_cliche",
-    "vague_wording", "fragment_settlement", "micro_clause_chain", "connector_overuse",
+    "vague_wording", "fragment_settlement", "connector_overuse",
     "rhythm_fragmentation", "repeated_head", "action_log", "dash_overuse",
     "figurative_debt", "abstract_phrase_debt", "silence_pause_cliche",
     "social_choreography", "contrastive_negation_assertion",
     "micro_punchline_cadence", "state_persistence_template",
-    "meta_language_leak", "dummy_pronoun", "demonstrative_classifier",
+    "meta_language_leak",
     # 逐句家族（sentence_families.py）
-    "echo_negation", "negation_list", "single_sentence_paragraph", "precise_number_repeat",
+    "echo_negation", "negation_list", "single_sentence_paragraph",
     "abstract_classifier", "rather_stance_en", "couplet_fragment", "mirrored_pair",
     "body_closeup_filler", "stiff_adverb",
 }
@@ -331,7 +331,7 @@ def test_short_paragraph_run_dialogue_excluded():
 
 
 def test_short_paragraph_run_markdown_heading_excluded():
-    # markdown 标题段不算（由 banned_markdown 单独抓）
+    # markdown 标题段不算
     text = "## 一　遇敌\n\n## 二　结盟\n\n## 三　密信夜"
     hits = detect_short_paragraph_run(text)
     assert hits == []
@@ -660,12 +660,11 @@ def test_micro_action_density_dialogue_excluded():
 
 
 def test_banned_markdown():
-    text = "# 标题\n\n- 列表项\n\n正常段落。"
+    text = "# 标题\n## 一　节\n**加粗**\n- 列表\n1. 有序\n【方括号】\n"
     hits = detect_banned_markdown(text)
-    assert len(hits) >= 2
-    labels = {h["pattern"] for h in hits}
-    assert "标题" in labels
-    assert "无序列表" in labels
+    assert [(h["pattern"], h["location"]) for h in hits] == [
+        ("加粗", "L3"), ("无序列表", "L4"), ("有序列表", "L5"), ("段首方括号", "L6"),
+    ]
 
 
 def test_conjunction_overuse():

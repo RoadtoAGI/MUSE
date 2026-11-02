@@ -201,7 +201,6 @@ MICRO_ACTION_DANGER_TOKENS = (
 )
 
 MARKDOWN_PATTERNS = [
-    (r"^#{1,6}\s", "标题"),
     (r"^\d+[\.、]\s", "有序列表"),
     (r"^[-*]\s", "无序列表"),
     (r"\*\*[^*]+\*\*", "加粗"),
@@ -392,120 +391,6 @@ def detect_fragment_settlement(text: str) -> list[dict]:
                 "severity": "medium",
             })
     return hits
-
-
-# 碎切短分句链：叙述层同一句内连续 ≥2 个 ≤6 字逗号分句（"碰到空的，收回来，"）。
-# 超短分句节拍连排检测器：保留 span 供语义复核，不直接立案。
-# 对白不属于检测对象；顿号列举不切分；含冒号 / 破折号 / 省略号 / mask 残留的分句作链断点。
-MICRO_CLAUSE_CHAIN_MIN_RUN = 2
-MICRO_CLAUSE_CHAIN_MAX_CHARS = 6
-_MICRO_CLAUSE_QUALIFY_RE = re.compile(r"[一-鿿0-9]{1,%d}" % MICRO_CLAUSE_CHAIN_MAX_CHARS)
-
-
-def detect_micro_clause_chain(text: str) -> list[dict]:
-    family = RULE_TO_FAMILY["micro_clause_chain"]
-    masked = _mask_quoted_spans(text)
-    hits = []
-
-    def emit(run: list[tuple[int, int]]):
-        if len(run) < MICRO_CLAUSE_CHAIN_MIN_RUN:
-            return
-        start, end = run[0][0], run[-1][1]
-        hits.append({
-            "rule": "micro_clause_chain",
-            "family": family,
-            "group": FAMILY_GROUPS[family],
-            "cluster": FAMILY_CLUSTERS[family],
-            "pattern": "consecutive_short_clause_run",
-            "run_length": len(run),
-            "location": _locate(text, start),
-            "snippet": text[start:end][:100],
-            "span": text[start:end],
-            "start": start,
-            "end": end,
-            "confidence": "high",
-            "severity": "medium",
-        })
-
-    for sent_m in re.finditer(r"[^。！？；!?\n]+", masked):
-        sent_start = sent_m.start()
-        run: list[tuple[int, int]] = []
-        pos = 0
-        parts = re.split(r"[，,]", sent_m.group(0))
-        for part in parts:
-            stripped = part.strip()
-            lead = len(part) - len(part.lstrip())
-            clause_start = sent_start + pos + lead
-            clause_end = clause_start + len(stripped)
-            pos += len(part) + 1
-            if _MICRO_CLAUSE_QUALIFY_RE.fullmatch(stripped):
-                run.append((clause_start, clause_end))
-            else:
-                emit(run)
-                run = []
-        emit(run)
-    return hits
-
-
-# 指代含混两 family（阈值制，观测消费）：泛指性代词/限定词挤占实词位——
-# 病理 = 叙述者用"它/这东西/这道口子"代替可命名的实体（解释代替经历的词尺度形态）。
-# 阈值制立案（名著场景 P90 基线，非单发）；alert 走观测通道，由 scene-reviewer
-# 按指代 licensing 逐处裁决（紧邻实词指涉 / 故意不命名是场景功能 → 合法不修）。
-# 对白 mask 豁免（人物口语"这玩意"合法）。
-DUMMY_PRONOUN_LEXICON = re.compile(r"(?:这|那)(?:东西|玩意儿?|套东西|种东西|句话|话)")
-DUMMY_PRONOUN_IT_SUBJECT = re.compile(
-    r"(?:^|[，。；！？\n：“”「」『』])\s*(它们?)(?=[一-鿿])", re.MULTILINE
-)
-DUMMY_PRONOUN_IT_OBJECT = re.compile(
-    r"(?:把|被|对|朝|向|冲|拿|嫌|盯着|看着|望着|摸着|碰|抱着|举着)(它们?)"
-)
-
-# 这/那+量词：时间词（天年月日夜晚宿）不入表；刻/日/击/息/次归 ordinal_gravity 不重复计
-DEMONSTRATIVE_CLASSIFIERS = (
-    "个只把条道声张片块场副幅样种阵股层根截段口回套件支枚颗粒团抹缕丝滴摊排串捧撮"
-    "盏盆扇页封具尊柄杆枝轮汪泓带招式记步眼脚拳"
-)
-DEMONSTRATIVE_CLASSIFIER_RE = re.compile(
-    r"[这那][一两]?[" + DEMONSTRATIVE_CLASSIFIERS + r"](?=[一-鿿])"
-)
-
-
-def _referential_hits(text: str, rule: str, patterns: list[tuple[str, re.Pattern[str], int]]) -> list[dict]:
-    family = RULE_TO_FAMILY[rule]
-    masked = _mask_quoted_spans(text)
-    hits = []
-    for subform, pattern, group_idx in patterns:
-        for m in pattern.finditer(masked):
-            start, end = m.start(group_idx), m.end(group_idx)
-            hits.append({
-                "rule": rule,
-                "family": family,
-                "group": FAMILY_GROUPS[family],
-                "cluster": FAMILY_CLUSTERS[family],
-                "pattern": subform,
-                "location": _locate(text, start),
-                "snippet": text[max(0, start - 6):min(len(text), end + 10)].replace("\n", " "),
-                "span": text[start:end],
-                "start": start,
-                "end": end,
-                "confidence": "medium",
-                "severity": "medium",
-            })
-    return hits
-
-
-def detect_dummy_pronoun(text: str) -> list[dict]:
-    return _referential_hits(text, "dummy_pronoun", [
-        ("formal_lexicon", DUMMY_PRONOUN_LEXICON, 0),
-        ("it_subject", DUMMY_PRONOUN_IT_SUBJECT, 1),
-        ("it_object", DUMMY_PRONOUN_IT_OBJECT, 1),
-    ])
-
-
-def detect_demonstrative_classifier(text: str) -> list[dict]:
-    return _referential_hits(text, "demonstrative_classifier", [
-        ("demonstrative_classifier", DEMONSTRATIVE_CLASSIFIER_RE, 0),
-    ])
 
 
 def detect_meta_language(text: str, lang: str = "zh") -> list[dict]:
@@ -2447,9 +2332,6 @@ RULE_EXECUTORS = {
         "vague_wording": lambda text, thresholds: detect_vague_wording(text),
         "meta_language_leak_zh": lambda text, thresholds: detect_meta_language(text, "zh"),
         "fragment_settlement": lambda text, thresholds: detect_fragment_settlement(text),
-        "micro_clause_chain": lambda text, thresholds: detect_micro_clause_chain(text),
-        "dummy_pronoun": lambda text, thresholds: detect_dummy_pronoun(text),
-        "demonstrative_classifier": lambda text, thresholds: detect_demonstrative_classifier(text),
         "keyword_ai_cliche": lambda text, thresholds: detect_keyword_cliche(text),
         "conjunction_overuse": lambda text, thresholds: detect_conjunction_overuse(text),
         "contrastive_negation_assertion": lambda text, thresholds: detect_contrastive_negation_assertion(text),

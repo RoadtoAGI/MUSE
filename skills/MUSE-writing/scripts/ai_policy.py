@@ -46,8 +46,6 @@ _BASELINES_ZH = {
     "action_log": 0.39,
     "connector_overuse": 0.78,
     "dash_overuse": 0.26,
-    "demonstrative_classifier": 6.11,
-    "dummy_pronoun": 1.42,
     "figurative_debt": 0.40,
     "lexical_cliche": 3.75,
     "marker_pollution": 1.72,
@@ -144,10 +142,6 @@ _SENTENCE_PROMOTIONS: dict[str, tuple[str, bool, str, dict[str, Any]]] = {
     "single_sentence_paragraph": ("zh", True, _POSTURE, {
         "recall": "A 3/3, B 11/19", "per_1k": {"human": 0.502, "muse": 1.037, "zeroshot": 3.055},
         "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.99], "human_max_work": 2.959}),
-    "precise_number_repeat": ("zh", True, _HELDOUT, {
-        "recall": "A 0/3, B 0/19; A/B 稿 594 2.81–3.68, 858 0–2.27", "per_1k": {
-            "human": 0.023, "muse": 0.113, "zeroshot": 0.071},
-        "story_183": "0", "heldout_02_03_per_1k": [0.0, 0.0], "human_max_work": 0.165}),
     "abstract_classifier": ("zh", True, _HELDOUT, {
         "recall": "A 0/3, B 0/19", "per_1k": {"human": 0.439, "muse": 0.722, "zeroshot": 3.183},
         "story_183": "0", "heldout_02_03_per_1k": [0.34, 0.12], "human_max_work": 0.968}),
@@ -327,16 +321,6 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
         decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
         mechanism="posture_line",
     ),
-    "micro_clause_chain": _family(
-        "semantic_heuristic",
-        "micro_punchline_cadence",
-        ["碎切短分句链", "连续超短分句"],
-        "重组遮断理解的短分句，保留声音、节奏和必要关系",
-        None,
-        observe_zh=True,
-        decision_ref="CHANGELOG:2026-08-28-ban-domain-contraction",
-        mechanism="posture_line",
-    ),
     "connector_overuse": _family(
         "hard", "connector_overuse", ["段首然后", "连接词过用"], "按事件关系保留或改写连接，收束无作用的流水复述", "S",
         observe_zh=True, observe_baseline=True,
@@ -446,7 +430,6 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
     "negation_list": _sentence_family("negation_list", ["否定清单", "没有A没有B"], "posture_line"),
     "single_sentence_paragraph": _sentence_family(
         "single_sentence_paragraph", ["叙述单句成段"], "posture_line"),
-    "precise_number_repeat": _sentence_family("precise_number_repeat", ["精确数字反复"], "posture_line"),
     "abstract_classifier": _sentence_family("abstract_classifier", ["抽象框定词", "一种那种某种"], "spelled_out"),
     "rather_stance_en": _sentence_family("rather_stance_en", ["I'd rather", "rather than 表态"], "uniform_voice"),
     # 留出负控不过，只做整篇密度监测
@@ -455,21 +438,6 @@ FAMILY_MANIFEST: dict[str, dict[str, Any]] = {
     "body_closeup_filler": _sentence_family(
         "body_closeup_filler", ["身体特写", "停顿套语"], "filler_beat", density_only=True),
     "stiff_adverb": _sentence_family("stiff_adverb", ["书面虚词仍"], "filler_beat", density_only=True),
-    # Referential forms locate a possible comprehension problem. Their density
-    # cannot determine whether a reader can recover the antecedent. Keep the
-    # calibration for prioritising review; editing follows contextual findings.
-    "dummy_pronoun": _family(
-        "semantic_heuristic", "referential_vagueness", ["形式主宾语", "它这东西那东西"],
-        "核对上下文中的指称对象；回指清楚时保留，歧义妨碍理解时补明对象或重组语境", None,
-        observe_zh=True, observe_baseline=True,
-        decision_ref="aigc-readability-2026-09-15",
-    ),
-    "demonstrative_classifier": _family(
-        "semantic_heuristic", "referential_vagueness", ["指示限定词", "这那加量词"],
-        "核对特指、对照与承接作用；保留准确限定，删并确无作用的重复或补清缺失关系", None,
-        observe_zh=True, observe_baseline=True,
-        decision_ref="aigc-readability-2026-09-15",
-    ),
 }
 
 # This family has no English policy or rule.
@@ -511,11 +479,6 @@ PRE_CONTRACT_POLICY_BASELINE: dict[tuple[str, str], dict[str, Any]] = {
         "single_hit": False, "aggregation": {}, "device_budget": {"storyteller_voice": 1.3},
     },
     ("fragment_settlement", "zh"): {
-        "lifecycle": "enforced", "sovereignty": "S", "baseline_policy": "exempt",
-        "baseline_metric": None, "baseline_ref": None, "single_hit": True,
-        "aggregation": {"same_family_scene_count_gte": 1}, "device_budget": {},
-    },
-    ("micro_clause_chain", "zh"): {
         "lifecycle": "enforced", "sovereignty": "S", "baseline_policy": "exempt",
         "baseline_metric": None, "baseline_ref": None, "single_hit": True,
         "aggregation": {"same_family_scene_count_gte": 1}, "device_budget": {},
@@ -615,7 +578,6 @@ PRE_CONTRACT_INHERITED_RULES = frozenset({
     ("zero_yield_micro_clause_candidate", "zh", "micro_punchline_cadence"),
     ("state_persistence_tag", "zh", "state_persistence_template"),
     ("fragment_settlement", "zh", "fragment_settlement"),
-    ("micro_clause_chain", "zh", "micro_clause_chain"),
 })
 
 PRE_CONTRACT_RULE_IDENTITIES = PRE_CONTRACT_INHERITED_RULES | frozenset({
@@ -627,8 +589,6 @@ PRE_CONTRACT_RULE_IDENTITIES = PRE_CONTRACT_INHERITED_RULES | frozenset({
     ("simile_density_en", "en", "figurative_debt"),
     ("meta_language_leak_zh", "zh", "meta_language_leak"),
     ("meta_language_leak_en", "en", "meta_language_leak"),
-    ("dummy_pronoun", "zh", "dummy_pronoun"),
-    ("demonstrative_classifier", "zh", "demonstrative_classifier"),
 })
 
 
@@ -657,18 +617,14 @@ RULE_REGISTRY: dict[str, dict[str, Any]] = {
     "negation_pivot_en": {"family": "contrastive_negation_assertion", "languages": ["en"]},
     "slop_phrase_en": {"family": "lexical_cliche", "languages": ["en"]},
     "fragment_settlement": {"family": "fragment_settlement", "languages": ["zh"]},
-    "micro_clause_chain": {"family": "micro_clause_chain", "languages": ["zh"]},
     "staccato_run": {"family": "rhythm_fragmentation", "languages": ["en"]},
     "simile_density_en": {"family": "figurative_debt", "languages": ["en"]},
     "meta_language_leak_zh": {"family": "meta_language_leak", "languages": ["zh"]},
     "meta_language_leak_en": {"family": "meta_language_leak", "languages": ["en"]},
-    "dummy_pronoun": {"family": "dummy_pronoun", "languages": ["zh"]},
-    "demonstrative_classifier": {"family": "demonstrative_classifier", "languages": ["zh"]},
     "negation_restriction_pivot": {"family": "contrastive_negation_assertion", "languages": ["zh"]},
     "echo_negation": {"family": "echo_negation", "languages": ["zh"]},
     "negation_list": {"family": "negation_list", "languages": ["zh"]},
     "single_sentence_paragraph": {"family": "single_sentence_paragraph", "languages": ["zh"]},
-    "precise_number_repeat": {"family": "precise_number_repeat", "languages": ["zh"]},
     "abstract_classifier": {"family": "abstract_classifier", "languages": ["zh"]},
     "couplet_fragment": {"family": "couplet_fragment", "languages": ["zh"]},
     "mirrored_pair": {"family": "mirrored_pair", "languages": ["zh"]},

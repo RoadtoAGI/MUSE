@@ -12,7 +12,6 @@
 from __future__ import annotations
 
 import re
-from collections import Counter
 from dataclasses import dataclass
 
 CJK_RE = re.compile(r"[一-鿿]")
@@ -159,43 +158,6 @@ def detect_single_sentence_paragraph(text: str) -> list[dict]:
     return hits
 
 
-NUM = r"[零〇一二两三四五六七八九十百千\d]+"
-TIME_RE = re.compile(rf"{NUM}[点时]{NUM}分(?:{NUM}秒)?|{NUM}分{NUM}秒|{NUM}[点时]{NUM}|{NUM}(?:点|时)(?:半|整)?")
-MEASURE_RE = re.compile(rf"{NUM}(?:点{NUM})?(?:公斤|克|厘米|毫米|米|度|分钟|秒)")
-# 副词与书名里的同形：有一点、一时语塞、一度、《凌晨三点》
-NUMBER_NOT_EXPRESSIONS = {"一点", "一时", "一度"}
-BOOK_TITLE_RE = re.compile(r"《[^》]*》")
-PRECISE_NUMBER_REPEAT_GTE = 3
-
-
-def detect_precise_number_repeat(text: str) -> list[dict]:
-    """精确数字反复：同一时刻或计量表达在一次检查的正文里出现 3 次以上，逐处标记。
-
-    计数范围是传入的整段文本：逐场检查是一场，短篇全文模式是整篇。校准按同一范围计
-    （AI 稿按篇、人类小说按约 3,000 字片段），183 与留出稿 02、03 在这一范围下零命中。
-    """
-    titles = [(m.start(), m.end()) for m in BOOK_TITLE_RE.finditer(text)]
-    found: list[tuple[int, int, str]] = []
-    occupied: list[tuple[int, int]] = []
-    for pattern in (TIME_RE, MEASURE_RE):
-        for m in pattern.finditer(text):
-            span = (m.start(), m.end())
-            if m.group() in NUMBER_NOT_EXPRESSIONS:
-                continue
-            if any(a <= span[0] < b for a, b in titles):
-                continue
-            if any(span[0] < b and a < span[1] for a, b in occupied):
-                continue
-            occupied.append(span)
-            found.append((m.start(), m.end(), m.group()))
-    counts = Counter(expr for _, _, expr in found)
-    return [
-        _hit(text, "precise_number_repeat", expr, start, end)
-        for start, end, expr in sorted(found)
-        if counts[expr] >= PRECISE_NUMBER_REPEAT_GTE
-    ]
-
-
 # ---------- 说破 ----------
 
 ABSTRACT_CLASSIFIER_RE = re.compile(r"一种|那种|某种")
@@ -271,7 +233,6 @@ DETECTORS_ZH = {
     "negation_list": detect_negation_list,
     "mirrored_pair": detect_mirrored_pair,
     "single_sentence_paragraph": detect_single_sentence_paragraph,
-    "precise_number_repeat": detect_precise_number_repeat,
     "abstract_classifier": detect_abstract_classifier,
     "body_closeup_filler": detect_body_closeup_filler,
     "stiff_adverb": detect_stiff_adverb,

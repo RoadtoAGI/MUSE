@@ -133,7 +133,7 @@ def test_post_revision_round_triggers_pass_gate():
     from scene_review_schema_validator import validate_post_revision_pass
     review = {"scene_id": "S01", "verdict": "PASS", "review_round": "post_revision_round1"}
     ledger = {"v1_triage": [], "post_revision_updates": {}}
-    lint_v2 = {"language": "zh", "density": {"total_chars": 100}, "hits": [{"family": "dummy_pronoun", "rule": "dummy_pronoun", "lint_id": "S01-cna-001"}]}
+    lint_v2 = {"language": "zh", "density": {"total_chars": 100}, "hits": [{"family": "action_log", "rule": "micro_action_density", "lint_id": "S01-cna-001"}]}
     result = validate_post_revision_pass(review, ledger, lint_v2, scene_card={})
     assert result.valid
     # The post-revision round still checks actual unresolved decisions.
@@ -240,13 +240,13 @@ def test_post_revision_pass_physical_carrier_in_scene_tasks():
     assert result.valid
 
 
-def test_clear_reference_can_keep_its_recorded_function():
+def test_exempted_hit_can_keep_its_recorded_carrier_function():
     from scene_review_schema_validator import validate_post_revision_pass
 
     review = {"verdict": "PASS", "review_stage": "post_revision"}
     ledger = {"post_revision_updates": {"d1": {
         "status": "formal_function_exempted", "carrier_function_link": "指向唯一旧物"}}}
     lint = {"language": "zh", "density": {"total_chars": 100}, "hits": [
-        {"family": "dummy_pronoun", "rule": "dummy_pronoun", "lint_id": "d1"}]}
+        {"family": "action_log", "rule": "micro_action_density", "lint_id": "d1"}]}
     card = {"physical_carrier": [{"function_link": "指向唯一旧物"}]}
     assert validate_post_revision_pass(review, ledger, lint, card).valid

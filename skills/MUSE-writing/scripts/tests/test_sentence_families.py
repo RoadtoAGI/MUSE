@@ -28,25 +28,16 @@ PER_SENTENCE = {
     "echo_negation": "zh",
     "negation_list": "zh",
     "single_sentence_paragraph": "zh",
-    "precise_number_repeat": "zh",
     "abstract_classifier": "zh",
     "contrastive_negation_assertion": "zh",
     "rather_stance_en": "en",
 }
 DENSITY_ONLY = ("couplet_fragment", "mirrored_pair", "body_closeup_filler", "stiff_adverb")
 
-# 594 L 稿原文：同一时刻表达在一场里各出现三次
-NUMBER_PASSAGE = (
-    "他名下那一格补领的时间是凌晨三点十七分，经手号不是他的，红签挂上了那串数字。"
-    "紧挨着亮起一只冷链周转箱的温度记录，从三点十九分起算，封条经手人：杜芷方。"
-    "三点十九分排在三点十七分底下，这句话就说不出口了。"
-    "她在“本人决定”底下写的是：三点十七分补本格饭单，三点十九分封冷链箱一只，本班经手，仅本人。"
-)
 SHOULD_FIX = {
     "echo_negation": ("zh", "石秋准看了她一眼，没有改口。"),
     "negation_list": ("zh", "没有检测单，没有检测员，没有取样。"),
     "single_sentence_paragraph": ("zh", "她性子急，他慢。"),
-    "precise_number_repeat": ("zh", NUMBER_PASSAGE),
     "abstract_classifier": ("zh", "心里先是愤怒，随后又生出一种卑微的羡慕。"),
     "contrastive_negation_assertion": ("zh", "黎颂要留的不是一道痕，是整条记录。"),
     "rather_stance_en": ("en", "Min has her things laid out there, and I'd rather nobody had to move them twice."),
@@ -56,7 +47,6 @@ SHOULD_NOT_FIX = {
     "echo_negation": ("zh", "去年秋天我还从这道楼梯上去过，搜到十五层就下来了，十七层一直没去。"),
     "negation_list": ("zh", "我把袋子两面都翻过来看，没找到漏口；隔着袋子捏，里面不结块；凑近闻，只有干谷子的气味，没有哈喇味。"),
     "single_sentence_paragraph": ("zh", "我对自己说该走了，铁罐却还捧在手里，人站在冰箱前没挪步。"),
-    "precise_number_repeat": ("zh", "腕上那块太阳能表还走着，指在一点五十。这一趟我给了自己三个钟头：上楼四十分钟，搜一个钟头。"),
     "abstract_classifier": ("zh", "这种箱子里装些什么我大概知道，就没打开，整只塞进了包里。"),
     "contrastive_negation_assertion": ("zh", "跑出停车道，我的腿软得再也迈不动，只好扶着那辆银色轿车站住。"),
     "rather_stance_en": ("en", "he said, glad to restate something she already knew rather than go into fresh material."),
@@ -121,10 +111,9 @@ def test_per_sentence_policies_carry_three_evidence_legs():
 
 
 def test_tic_families_name_a_mechanism():
-    for family in (*PER_SENTENCE, *DENSITY_ONLY, "silence_pause_cliche", "micro_clause_chain"):
+    for family in (*PER_SENTENCE, *DENSITY_ONLY, "silence_pause_cliche"):
         assert FAMILY_MANIFEST[family]["mechanism"] in MECHANISMS
-    for family in ("dummy_pronoun", "demonstrative_classifier", "marker_pollution"):
-        assert FAMILY_MANIFEST[family]["mechanism"] is None
+    assert FAMILY_MANIFEST["marker_pollution"]["mechanism"] is None
 
 
 def test_hits_point_to_repair_entry():
@@ -174,11 +163,6 @@ def test_couplet_fragment_skips_dialogue():
 def test_single_sentence_paragraph_skips_quoted_paragraphs():
     assert SF.detect_single_sentence_paragraph("陈晏答：“谈过。”") == []
     assert len(SF.detect_single_sentence_paragraph("石秋准等着。")) == 1
-
-
-def test_precise_number_ignores_adverbs_and_titles():
-    text = "她有一点累。一时语塞。他一度想走。" * 3 + "《凌晨三点》《凌晨三点》《凌晨三点》"
-    assert SF.detect_precise_number_repeat(text) == []
 
 
 def test_mirrored_pair_ignores_you_mei_you():

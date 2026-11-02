@@ -60,16 +60,16 @@ def _set_machine_entries(wd: Path, statuses: list[tuple[str, str]]) -> None:
         "scene_id": "S01",
         "input_text_sha256": _sha(text),
         "cluster_alerts": [{
-            "alert_id": "S01-dummy_pronoun-1",
-            "family": "dummy_pronoun",
+            "alert_id": "S01-action_log-1",
+            "family": "action_log",
             "severity": "medium",
             "hit_ids": [entry_id for entry_id, _ in statuses],
             "hits": len(statuses),
         }],
         "hits": [{
             "lint_id": entry_id,
-            "family": "dummy_pronoun",
-            "rule": "dummy_pronoun",
+            "family": "action_log",
+            "rule": "micro_action_density",
         } for entry_id, _ in statuses],
     }
     lint_path = review / "lint" / "S01.ai_filler.yaml"
@@ -87,7 +87,7 @@ def _set_machine_entries(wd: Path, statuses: list[tuple[str, str]]) -> None:
         remaining = [] if exempted else [entry_id]
         base = {
             "id": entry_id,
-            "family": "dummy_pronoun",
+            "family": "action_log",
             "level": "M",
             "status": status,
             "all_hit_ids": [entry_id],
@@ -245,7 +245,7 @@ def test_machine_reducer_preserves_mixed_closed_modes_and_blocks_pending(tmp_pat
     import ai_policy
 
     # Exercise retained machine contracts independently of ordinary expression policy.
-    monkeypatch.setitem(ai_policy.FAMILY_MANIFEST["dummy_pronoun"]["policy"], "zh", {
+    monkeypatch.setitem(ai_policy.FAMILY_MANIFEST["action_log"]["policy"], "zh", {
         "lifecycle": "enforced", "sovereignty": "M", "rules": {},
     })
 

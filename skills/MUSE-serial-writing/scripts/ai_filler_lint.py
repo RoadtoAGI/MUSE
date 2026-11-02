@@ -283,7 +283,6 @@ MICRO_ACTION_DANGER_TOKENS = (
 )
 
 MARKDOWN_PATTERNS = [
-    (r"^#{1,6}\s", "标题"),
     (r"^\d+[\.、]\s", "有序列表"),
     (r"^[-*]\s", "无序列表"),
     (r"\*\*[^*]+\*\*", "加粗"),

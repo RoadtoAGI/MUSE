@@ -1,19 +1,16 @@
-"""表面形态候选：转折否定与碎切短分句链。
+"""表面形态候选：转折否定。
 
 "不是 X，是 Y" 一类转折否定按 AI 口癖治理升级设计 §5.1 三项证据恢复单发；光杆否定加限缩转折
-（不X只Y、没X只Y）单列 negation_restriction_pivot 留 observe。碎切短分句链仍为 observe。
-对白（引号内）不属于检测范围。
+（不X只Y、没X只Y）单列 negation_restriction_pivot 留 observe。对白（引号内）不属于检测范围。
 """
 from ai_filler_lint import (
     analyze,
     detect_contrastive_negation_assertion,
-    detect_micro_clause_chain,
     detect_negation_restriction_pivot,
 )
 from ai_policy import (
     BASELINE_EXEMPT_FAMILIES,
     FAMILY_DENSITY_BASELINE,
-    FAMILY_SOVEREIGNTY,
     PER_FAMILY_OVERRIDE,
     PROMOTION_RECORDS,
     effective_policy,
@@ -67,76 +64,9 @@ def test_contrastive_single_hit_opens_alert():
     assert len(alerts) == 1 and alerts[0]["hit_ids"] == [hits[0]["lint_id"]]
 
 
-# ---------- 碎切短分句链 ----------
-
-def test_chain_hit_with_offsets():
-    text = "他往右探了一下手，碰到空的，收回来，按住怀里那半袋炒麦。"
-    hits = detect_micro_clause_chain(text)
-    assert len(hits) == 1
-    hit = hits[0]
-    assert hit["span"] == "碰到空的，收回来"
-    assert text[hit["start"]:hit["end"]] == hit["span"]
-    assert hit["run_length"] == 2
-
-
-def test_chain_two_clause_sentence_hits():
-    text = "鸣金声起，各队点旗，什长挨个数人头。"
-    hits = detect_micro_clause_chain(text)
-    assert len(hits) == 1
-    assert hits[0]["span"] == "鸣金声起，各队点旗"
-
-
-def test_single_short_clause_not_hit():
-    """孤立短分句（前后都是长分句）不构成链。"""
-    text = "掰不开自己握弩的手指，弯着，扣弩机的形状怎么也伸不直。"
-    assert detect_micro_clause_chain(text) == []
-
-
-def test_seven_char_clause_not_hit():
-    text = "他扶着墙站起来了，朝着门口走过去了。"
-    assert detect_micro_clause_chain(text) == []
-
-
-def test_chain_dialogue_out_of_scope():
-    text = "他只报数：「陌刀营，还剩一千六。」说完就站到帅台底下。"
-    assert detect_micro_clause_chain(text) == []
-
-
-def test_enumeration_not_split():
-    """顿号列举不切分句读，不构成链。"""
-    text = "案上摆着刀、弓、箭囊，都是他用惯的旧物。"
-    assert detect_micro_clause_chain(text) == []
-
-
-def test_chain_single_hit_is_non_blocking_candidate():
-    text = "山道无人。" * 100 + "他探了一下手，碰到空的，收回来。"
-    r = analyze(text, scene_id="S02", lang="zh")
-    hits = [h for h in r["hits"] if h["family"] == "micro_clause_chain"]
-    alerts = [a for a in r["cluster_alerts"] if a["family"] == "micro_clause_chain"]
-    assert hits and all(h["policy_lifecycle"] == "observe" for h in hits)
-    assert alerts == []
-
-
-def test_colloquial_micro_clause_run_is_retained_as_non_blocking_sample():
-    text = "\n".join(
-        f"他进第{i}间门，放下书，喊一声。"
-        for i in range(1, 9)
-    )
-    r = analyze(text, scene_id="S03", lang="zh")
-    hits = [h for h in r["hits"] if h["family"] == "micro_clause_chain"]
-    alerts = [a for a in r["cluster_alerts"] if a["family"] == "micro_clause_chain"]
-    assert len(hits) >= 8
-    assert all(h["policy_lifecycle"] == "observe" for h in hits)
-    assert alerts == []
-
-
 # ---------- 治理契约 ----------
 
 def test_candidate_families_have_no_enforcement_override():
-    assert effective_policy("micro_clause_chain", "zh")["lifecycle"] == "observe"
-    assert "micro_clause_chain" not in FAMILY_SOVEREIGNTY
-    assert "micro_clause_chain" not in PER_FAMILY_OVERRIDE
-    assert "micro_clause_chain" not in BASELINE_EXEMPT_FAMILIES
     assert effective_policy(
         "contrastive_negation_assertion", "zh", "negation_restriction_pivot")["lifecycle"] == "observe"
 
@@ -152,5 +82,4 @@ def test_contrastive_promotion_goes_through_contract():
 
 def test_candidate_families_have_no_calibrated_baseline():
     for lang, table in FAMILY_DENSITY_BASELINE.items():
-        for family in ("contrastive_negation_assertion", "micro_clause_chain"):
-            assert family not in table, f"{lang}/{family} 尚无可用于决策的校准基线"
+        assert "contrastive_negation_assertion" not in table, f"{lang} 尚无可用于决策的校准基线"
